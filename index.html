@@ -15,12 +15,12 @@ title: Jan’s WoDs
 {% assign weeks = week | split: ' ' %}
 
 
-{% for w in weeks %}
+{% for w in weeks reversed %}
   {% assign w_int = w | plus: 0 %}
     <div class="week">Week {{ w }}</div>
 
     <div class="list gr-two">
-      {% for post in site.posts %}
+      {% for post in site.posts reversed %}
         {% if post.week == w_int %}
           <div class="item">
             <h3>{{ post.title }}</h3>
