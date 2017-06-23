@@ -1,0 +1,153 @@
+
+// 
+// Chronicles of Griddick — 
+//    The Diesel of Grids
+//      Combines media and grids
+// 
+
+// 
+//  New CSS Grid-based Layout 
+//  http://learncssgrid.com/
+//  https://css-tricks.com/snippets/css/complete-guide-grid/
+
+
+//  Common UI Patterns
+//  Patterns: https://gridbyexample.com/patterns/
+
+
+//  Usage:
+/*
+
+    // gridd 
+    // - Usage: @include gridd(pattern);
+    // patterns:
+
+    @mixin gridd($pattern) {
+
+      @if $pattern == "right" {
+
+      } @else if $pattern == "left" {
+
+      }
+
+        background-image: url($file + '.' + $type);
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+            only screen and (-moz-min-device-pixel-ratio: 2),
+            only screen and (-o-min-device-pixel-ratio: 2/1),
+            only screen and (min-device-pixel-ratio: 2),
+            only screen and (min-resolution: 192dpi),
+            only screen and (min-resolution: 2dppx){
+            & {
+                background-image: url($file + '@2x.' + $type);
+            }
+        }
+    }
+
+*/
+
+// base griddick setup
+
+%gr {
+  display: grid;
+  grid-gap: $base*2;
+}
+
+
+@mixin griddick($areas, $number) {
+  grid-template-areas:  $areas;
+  grid-template-rows:    1fr;
+  grid-template-columns: repeat($number, 1fr);
+}
+
+
+// simple patterns for now
+
+
+%gr-one, .gr-one {
+  @extend %gr;
+  @include griddick("one", 1);
+}
+
+%gr-two, .gr-two {
+  @extend %gr;
+  @include griddick("two two", 2);
+
+  @include screen-xs {
+    @include griddick("one", 1);
+  }
+}
+  %gr-two-one-one, .gr-two-one-one {
+    @extend %gr;
+    grid-template-areas: "two one one";
+    grid-template-rows:    1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+%gr-three, .gr-three {
+  @extend %gr;
+  @include griddick("three three three", 3);
+}
+
+
+%gr-four, .gr-four {
+  @extend %gr;
+  @include griddick("four four four four", 4);
+
+
+  @include screen-sm {
+    @include griddick("two two", 2);
+  }
+  @include screen-xs {
+    @include griddick("one", 1);
+  }
+}
+
+
+// 
+// helper patterns
+// 
+
+%gr-center {
+  // create centered grids for immediate child content
+  & > * {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center; // middle (left/right)
+    align-items: center; // middle (top/down)
+    // height: 100%; // sometimes required? maybe when set explicit height?
+  }
+}
+
+
+
+
+
+// 
+// Usage
+// 
+
+// layout matter
+
+
+.grid-container {
+  // @extend %clearfix;
+
+  & > * {
+    // margin: $base/2;
+    // opacity: 0.7;
+    // background: #ddd;
+    border-radius: $base/4;
+    // padding: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

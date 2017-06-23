@@ -1,0 +1,36 @@
+---
+layout: layout-site
+title: Jan’s WoDs
+---
+
+{% assign val = 0 %}
+{% for w in site.posts %}
+    {% unless val == w.week %}
+      {% capture week %} {{week}} {{ w.week }} {% endcapture %}
+    {% endunless %}
+  {% assign val = val | plus: 1 %}
+{% endfor %}
+
+
+{% assign weeks = week | split: ' ' %}
+
+
+{% for w in weeks %}
+  {% assign w_int = w | plus: 0 %}
+    <div class="week">Week {{ w }}</div>
+
+    <div class="list gr-two">
+      {% for post in site.posts %}
+        {% if post.week == w_int %}
+          <div class="item">
+            <h3>{{ post.title }}</h3>
+            <div class="date">{{ post.date | date: "%d %B, %Y" }}</div>
+            <div class="content">{{ post.content }}</div>
+          </div>
+        {% endif %}
+
+      {% endfor %}
+    </div>
+
+  {% assign week = week | plus: 1 %}
+{% endfor %}
