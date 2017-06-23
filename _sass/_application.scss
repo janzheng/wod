@@ -4,12 +4,12 @@
 @import 'griddick';
 
 
-$blue: #2196f3;
+$blue: #2196f3; .blue { color: $blue }
 $purple: #3f51b5;
 
 $gutter: $base;
 
-%max-width {max-width: 760px;}
+%max-width {max-width: 840px;}
 %max-width-sub {max-width: 540px;}
 
 
@@ -35,7 +35,7 @@ $gutter: $base;
     margin: $gutter auto;
   }
 
-  @include screen-xs {
+  @include screen-md-down {
     margin: auto $gutter;
   }
 }
@@ -80,8 +80,21 @@ a {
 
 
 
+.quote {
+  font-size: 12px;
+  font-style: italic;
+  color: #999;
+}
 
 
+
+.item {
+  margin-top: $base;
+  border: 1px solid rgba($blue, 0.5); 
+  padding: $base;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
 
 
 

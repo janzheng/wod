@@ -1,6 +1,4 @@
 
-#BuildATL
+#WoD
 
-Temporary splash page for build ATL, a project to connect the "Doers" of Atlanta.
-
-For more information, send an email to hello@buildatl.com
+Simple workout of the day blog for me and Charlotte and whomever else wants to do it.
