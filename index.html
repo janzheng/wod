@@ -13,9 +13,10 @@ title: Jan’s WoDs
  
 
 {% assign weeks = week | split: ' ' %}
-buggy as shit: {{ weeks }}
+buggy as shiiiite: {{ weeks }}
 
 {% assign ctr = 1 %}
+
 {% for w in weeks reversed %}
   {% assign w_int = w | plus: 0 %}
 
@@ -36,5 +37,6 @@ buggy as shit: {{ weeks }}
     </div>
 
   {% endif %}
+
   {% assign ctr = ctr | plus: 1 %}
 {% endfor %}
