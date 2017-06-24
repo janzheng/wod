@@ -21,6 +21,24 @@
 
 <body>  
 
+$password = 'northside';
+
+<script>
+function myFunction() {
+    var txt;
+    var person = prompt("What's the password?");
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+        if(txt == {{ $password}} ) {
+          console.log('yay')
+        }
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+
 <div class="container">
 
   <div class="main _center">
