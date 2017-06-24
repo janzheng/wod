@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -21,34 +22,64 @@
 
 <body>  
 
+
 <div class="container">
 
   <div class="main _center">
     <a href="/"><h1>Workouts of the Day</h1></a>
-    <h4>Form is key. It‘s not what you do, it‘s how you do it that matters most</h4>
+    <h4>Form is key. It‘s not what you do&mdash;it‘s how you do it that matters most</h4>
     <span class="quote">tap the <span class="blue">?</span> to watch form tips</span>
   </div>
 
   <div>
-    
+    <script>
+function lock() {
+
+    $('.passworded').hide();
+
+    var txt;
+    var person = prompt("What's the password?");
+    if (person == null || person == "") {
+    } else {
+        if(person == "northside" ) {
+          console.log('yay');
+          $('.passworded').show();
+        }
+    }
+}
+
+$(function() {
+  console.log('init');
+  lock();
+});
+
+</script>
+
+
+<div class="passworded">
+
+
 
  
 
+
+<!-- buggy as shiiiite: 1 -->
 
 
 
 
   
-  <h3 class="week">Week 1</h3>
 
-  <div class="list gr-two">
-    
-      true
+  
+    <h3 class="week">Week 1</h3>
+
+    <div class="list gr-two">
       
-        <div class="item">
-          <h3>Day 1 — Back</h3>
-          <div class="date">23 June, 2017</div>
-          <div class="content"><div class="ex_list">
+        
+          <div class="item">
+            <h3>Day 1 — Back</h3>
+            <div class="date">23 June, 2017</div>
+            <div class="content"><div class="ex_list">
   <div class="ex">
     <div class="name">
       Bike Cardio
@@ -107,14 +138,18 @@
 </div>
 
 </div>
-        </div>
-      
+          </div>
+        
 
-    
-  </div>
+      
+    </div>
 
   
 
+  
+
+
+</div>
 
   </div>
 </div>

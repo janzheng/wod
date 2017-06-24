@@ -3,6 +3,32 @@ layout: layout-site
 title: Jan’s WoDs
 ---
 
+<script>
+function lock() {
+
+    $('.passworded').hide();
+
+    var txt;
+    var person = prompt("What's the password?");
+    if (person == null || person == "") {
+    } else {
+        if(person == "northside" ) {
+          console.log('yay');
+          $('.passworded').show();
+        }
+    }
+}
+
+$(function() {
+  console.log('init');
+  lock();
+});
+
+</script>
+
+
+<div class="passworded">
+
 {% assign val = 0 %}
 {% for w in site.posts %}
     {% unless val == w.week %}
@@ -40,3 +66,5 @@ title: Jan’s WoDs
 
   {% assign ctr = ctr | plus: 1 %}
 {% endfor %}
+
+</div>
