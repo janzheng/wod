@@ -6,6 +6,7 @@
 
 $blue: #2196f3; .blue { color: $blue }
 $purple: #3f51b5;
+$gray: #777;
 
 $gutter: $base;
 
@@ -94,6 +95,11 @@ a {
   padding: $base;
   border-radius: 6px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.note {
+  font-size: 10px;
+  color: $gray;
 }
 
 
