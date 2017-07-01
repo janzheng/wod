@@ -32,21 +32,25 @@ $(function() {
 <div class="passworded">
 
 {% assign val = 0 %}
-{% for w in site.posts %}
+{% for w in site.posts reversed %}
     {% unless val == w.week %}
+      {% assign val = val | plus: 1 %}
+      {% assign ctr = val %}
       {% capture week %} {{week}} {{ w.week }} {% endcapture %}
     {% endunless %}
-  {% assign val = val | plus: 1 %}
 {% endfor %}
  
 
 {% assign weeks = week | split: ' ' %}
+{% assign weeks = weeks | reverse %}
 <!-- buggy as shiiiite: {{ weeks }} -->
 
-{% assign ctr = 1 %}
+<!-- ctr: {{ ctr }} -->
 
-{% for w in weeks reversed %}
+{% for w in weeks %}
   {% assign w_int = w | plus: 0 %}
+
+  <!-- <div>Yo: {{ w_int }} | {{ ctr }}</div> -->
 
   {% if ctr == w_int %}
     <h3 class="week">Week {{ ctr }}</h3>
@@ -66,7 +70,7 @@ $(function() {
 
   {% endif %}
 
-  {% assign ctr = ctr | plus: 1 %}
+  {% assign ctr = ctr | minus: 1 %}
 {% endfor %}
 
 </div>
