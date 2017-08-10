@@ -7,46 +7,19 @@ title: Jan’s WoDs
 
 <div class="passworded">
 
-{% assign val = 0 %}
-{% for w in site.posts reversed %}
-    {% unless val == w.week %}
-      {% assign val = val | plus: 1 %}
-      {% assign ctr = val %}
-      {% capture week %} {{week}} {{ w.week }} {% endcapture %}
-    {% endunless %}
-{% endfor %}
- 
-
-{% assign weeks = week | split: ' ' %}
-{% assign weeks = weeks | reverse %}
-<!-- buggy as shiiiite: {{ weeks }} -->
-
-<!-- ctr: {{ ctr }} -->
-
-{% for w in weeks %}
-  {% assign w_int = w | plus: 0 %}
-
-  <!-- <div>Yo: {{ w_int }} | {{ ctr }}</div> -->
-
-  {% if ctr == w_int %}
-    <h3 class="week">Week {{ ctr }}</h3>
+  <h3 class="week">Workouts</h3>
 
     <div class="list gr-two">
-      {% for post in site.posts %}
-        {% if post.week == w_int and post.published == true %}
-          <div class="item">
-            <h3>{{ post.title }}</h3>
-            <div class="date">{{ post.date | date: "%d %B, %Y" }}</div>
-            <div class="content">{{ post.content }}</div>
-          </div>
-        {% endif %}
+      <a class="item" href="1.html">
+        <h3>Introductory Series</h3>
+        <div class="content _padding-bottom">This is a full-body workout that focuses on proper form and building a gym habit.</div>
+      </a>
 
-      {% endfor %}
+      <a class="item" href="2.html">
+        <h3>Strength Workout</h3>
+        <div class="content _padding-bottom">This workout focuses on building useful strength (though not getting "ripped" or "gains")</div>
+      </a>
     </div>
 
-  {% endif %}
-
-  {% assign ctr = ctr | minus: 1 %}
-{% endfor %}
 
 </div>

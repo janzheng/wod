@@ -161,6 +161,10 @@ a {
 .week:before {
   content: ' ';
   display: block;
+  padding-top: 32px; }
+.week:after {
+  content: ' ';
+  display: block;
   border-top: 1px solid #aaa;
   margin-top: 16px;
   padding-top: 16px; }
