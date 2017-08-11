@@ -158,17 +158,6 @@ a {
   color: #666;
   margin-bottom: 16px; }
 
-.week:before {
-  content: ' ';
-  display: block;
-  padding-top: 32px; }
-.week:after {
-  content: ' ';
-  display: block;
-  border-top: 1px solid #aaa;
-  margin-top: 16px;
-  padding-top: 16px; }
-
 .ex {
   margin-bottom: 16px; }
   .ex * {
@@ -179,16 +168,57 @@ a {
   font-style: italic;
   color: #999; }
 
-.item {
-  margin-top: 16px;
-  border: 1px solid rgba(33, 150, 243, 0.5);
-  padding: 16px;
-  border-radius: 6px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
-
 .note {
   font-size: 10px;
   color: #777; }
 
 ._padding-bottom {
   padding-bottom: 16px; }
+
+.week-title:before {
+  content: ' ';
+  display: block;
+  padding-top: 32px; }
+.week-title:after {
+  content: ' ';
+  display: block;
+  border-top: 1px solid #aaa;
+  margin-top: 16px;
+  padding-top: 16px; }
+
+.week .week-checkmark {
+  color: green;
+  display: none; }
+.week.cleared {
+  color: green; }
+  .week.cleared .week-checkmark {
+    display: inline-block; }
+  .week.cleared .workout {
+    margin: 0; }
+    .week.cleared .workout h3 {
+      margin: 0; }
+  .week.cleared .list {
+    grid-gap: 4px; }
+.week .week-title {
+  margin-bottom: 0; }
+
+.workout {
+  margin-top: 16px;
+  border: 1px solid rgba(33, 150, 243, 0.5);
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer; }
+  .workout .checkmark {
+    display: none;
+    color: green; }
+  .workout.checked {
+    border-color: rgba(0, 128, 0, 0.7);
+    background-color: rgba(0, 128, 0, 0.34); }
+    .workout.checked .container {
+      display: none; }
+    .workout.checked * {
+      opacity: 0.8; }
+    .workout.checked .checkmark {
+      opacity: 1 !important;
+      display: inline-block; }

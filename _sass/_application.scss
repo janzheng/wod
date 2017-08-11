@@ -60,21 +60,6 @@ a {
   margin-bottom: $base;
 }
 
-.week {
-  &:before {
-    content: ' ';
-    display: block;
-    padding-top: $base*2;
-  }
-  &:after {
-    content: ' ';
-    display: block;
-    border-top: 1px solid #aaa;
-    margin-top: $base;
-    padding-top: $base;
-  }
-}
-
 .ex {
   margin-bottom: $base;
   * {
@@ -94,14 +79,6 @@ a {
 
 
 
-.item {
-  margin-top: $base;
-  border: 1px solid rgba($blue, 0.5); 
-  padding: $base;
-  border-radius: 6px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-}
-
 .note {
   font-size: 10px;
   color: $gray;
@@ -110,6 +87,92 @@ a {
 ._padding-bottom {
   padding-bottom: $base;
 }
+
+
+
+
+
+// completion
+
+
+.week-title {
+  &:before {
+    content: ' ';
+    display: block;
+    padding-top: $base*2;
+  }
+  &:after {
+    content: ' ';
+    display: block;
+    border-top: 1px solid #aaa;
+    margin-top: $base;
+    padding-top: $base;
+  }
+}
+
+.week {
+  .week-checkmark {
+    color: green;
+    display: none;
+  }
+  &.cleared {
+    color: green;
+    .week-checkmark {
+      display: inline-block;
+    }
+    .workout {
+      margin: 0;
+      h3 {
+        margin: 0;
+      }
+    }
+    .list {
+      grid-gap: 4px;
+    }
+  }
+  .week-title {
+    margin-bottom: 0;
+  }
+}
+
+
+.workout {
+  margin-top: $base;
+  border: 1px solid rgba($blue, 0.5); 
+  padding: $base;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+
+  // workouts checked / not checked
+  .checkmark {
+    display: none;
+    color: green;
+  }
+  &.checked {
+    border-color: rgba(green, 0.7);
+    background-color: rgba(green, 0.34);
+    .container{ display: none; }
+    * {
+      opacity: 0.8;
+    }
+    .checkmark {
+      opacity: 1 !important;
+      display: inline-block;
+    }
+    h3 {
+      // margin: 0;
+    }
+  }
+}
+
+
+
+
+
+
+
+
 
 
 

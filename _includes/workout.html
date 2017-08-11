@@ -1,0 +1,102 @@
+
+<hr />
+<h1> {{ page.headline }} </h1>
+<a class="" href="/">Go back home</a>
+
+<!-- 
+    With completion / JS, we want to show them from first day/week to last
+ -->
+{% assign this_series = page.series %}
+
+{% assign val = 0 %}
+{% for p in site.posts %}
+  {% unless val == p.week and p.series == this_series %}
+    {% assign val = val | plus: 1 %}
+    {% capture week %} {{week}} {{ p.week }} {% endcapture %}
+  {% endunless %}
+{% endfor %}
+ 
+
+{% assign weeks = week | split: ' ' %}
+{% assign weeks = weeks | reverse %}
+
+{% assign week_ctr = 1 %}
+
+{% for w in weeks %}
+  {% assign w_int = w | plus: 0 %}
+
+  {% if week_ctr == w_int %}
+    <div class="week">
+      <h3 class="week-title">Week {{ week_ctr }} <i class="week-checkmark fa fa-check-circle"></i></h3>
+
+      <div class="list gr-two">
+        {% for post in site.posts reversed %}
+
+          {% if post.week == week_ctr and post.published == true and post.series == this_series %}
+            {% capture postId %} workout-{{post.series}}-{{ post.week }}-{{ post.day }} {% endcapture %}
+            <div class="workout" id={{ postId }} data-series={{ post.series }} data-week={{ post.week }} data-day={{ post.day }} >
+              <h3>{{ post.title }} <span class="checkmark"><i class="fa fa-check-circle"></i></span></h3>
+              <div class="container">
+                <div class="date">{{ post.date | date: "%d %B, %Y" }}</div>
+                <div class="content">{{ post.content }}</div>
+              </div>
+            </div>
+          {% endif %}
+
+        {% endfor %}
+      </div>
+    </div>
+
+    {% assign week_ctr = week_ctr | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+
+
+<!-- 
+
+    This shows last week first,
+    and last day first (no JS; old)
+
+ -->
+<!-- {% assign this_series = page.series %}
+
+{% assign val = 0 %}
+{% for p in site.posts reversed %}
+    {% unless val == p.week and p.series == this_series %}
+      {% assign val = val | plus: 1 %}
+      {% assign ctr = val %}
+      {% capture week %} {{week}} {{ p.week }} {% endcapture %}
+    {% endunless %}
+{% endfor %}
+ 
+
+{% assign weeks = week | split: ' ' %}
+{% assign weeks = weeks | reverse %}
+{% for w in weeks %}
+  {% assign w_int = w | plus: 0 %}
+
+  {% if ctr == w_int %}
+    <h3 class="week">Week {{ ctr }}</h3>
+
+    <div class="list gr-two">
+      {% for post in site.posts %}
+        {% if post.week == w_int and post.published == true and post.series == this_series %}
+          {% capture postId %} item-{{post.series}}-{{ post.week }}-{{ post.day }} {% endcapture %}
+          <div class="item" id={{ postId }}>
+            <div class="checkmark _center _padding-bottom">
+              <i class="fa fa-check-circle fa-2x"></i>
+            </div>
+            <h3>{{ post.title }}</h3>
+            <div class="date">{{ post.date | date: "%d %B, %Y" }}</div>
+            <div class="content">{{ post.content }}</div>
+          </div>
+        {% endif %}
+
+      {% endfor %}
+    </div>
+
+  {% endif %}
+
+  {% assign ctr = ctr | minus: 1 %}
+{% endfor %} -->

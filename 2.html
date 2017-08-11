@@ -1,58 +1,10 @@
 ---
 layout: layout-site
-title: Jan’s WoDs - Workout 1
+title: Jan’s WoDs - Workout 2
+headline: Strength Workout
+series: 2
 ---
 
-
-
 <div class="">
-
-<hr />
-<h1> Strength Workout </h1>
-<a class="" href="/">Go back home</a>
-
-{% assign this_workout = 2 %}
-
-{% assign val = 0 %}
-{% for w in site.posts reversed %}
-    {% unless val == w.week and p.workout == this_workout %}
-      {% assign val = val | plus: 1 %}
-      {% assign ctr = val %}
-      {% capture week %} {{week}} {{ w.week }} {% endcapture %}
-    {% endunless %}
-{% endfor %}
- 
-
-{% assign weeks = week | split: ' ' %}
-{% assign weeks = weeks | reverse %}
-<!-- buggy as shiiiite: {{ weeks }} -->
-
-<!-- ctr: {{ ctr }} -->
-
-{% for w in weeks %}
-  {% assign w_int = w | plus: 0 %}
-
-  <!-- <div>Yo: {{ w_int }} | {{ ctr }}</div> -->
-
-  {% if ctr == w_int %}
-    <h3 class="week">Week {{ ctr }}</h3>
-
-    <div class="list gr-two">
-      {% for post in site.posts %}
-        {% if post.week == w_int and post.published == true and post.workout == this_workout %}
-          <div class="item">
-            <h3>{{ post.title }} </h3>
-            <div class="date">{{ post.date | date: "%d %B, %Y" }}</div>
-            <div class="content">{{ post.content }}</div>
-          </div>
-        {% endif %}
-
-      {% endfor %}
-    </div>
-
-  {% endif %}
-
-  {% assign ctr = ctr | minus: 1 %}
-{% endfor %}
-
+  {% include workout.html %}
 </div>
