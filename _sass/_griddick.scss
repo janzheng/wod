@@ -50,6 +50,10 @@
 %gr {
   display: grid;
   grid-gap: $base*2;
+
+  @include screen-xs {
+    grid-row-gap: $base;
+  }
 }
 
 
