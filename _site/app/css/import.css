@@ -221,9 +221,10 @@ a {
     .workout.checked .checkmark {
       opacity: 1 !important;
       display: inline-block; }
-  .workout .trigger {
-    display: block;
-    color: #2196f3;
-    cursor: pointer; }
-    .workout .trigger:hover {
-      color: #3f51b5; }
+
+.trigger {
+  display: block;
+  color: #2196f3 !important;
+  cursor: pointer; }
+  .trigger:hover {
+    color: #3f51b5 !important; }

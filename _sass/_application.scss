@@ -165,16 +165,16 @@ a {
       // margin: 0;
     }
   }
+}
   .trigger {
     display: block;
-    color: $blue;
+    color: $blue !important;
     cursor: pointer;
 
     &:hover {
-      color: $purple;
+      color: $purple !important;
     }
   }
-}
 
 
 
