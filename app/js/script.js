@@ -21,7 +21,7 @@ $(document).ready(function() {
   let workoutLog = getWorkouts();
   console.log(workoutLog);
   processWorkouts(workoutLog)
-  clearWeeks();
+  setWeekCleared();
 
 
   // populate log from cookies
@@ -36,15 +36,16 @@ $(document).ready(function() {
     const workout = $(this).parent();
     if( $(workout).hasClass('checked') ) {
       $(workout).removeClass('checked');
-      clearWeeks();
-      // remove from log
+      setWeekCleared();
+      repositionWeek($(workout).parent());
       removeFromLog($(workout).attr('id'), workoutLog);
       setWorkouts(workoutLog)
     } else {
-      $(workout).appendTo($(workout).parent()).addClass('checked');
+      $(workout).addClass('checked');
+      repositionWeek($(workout).parent());
       addToLog($(workout), workoutLog);
       setWorkouts(workoutLog);
-      clearWeeks();
+      setWeekCleared();
     }
   })
 
@@ -55,8 +56,18 @@ $(document).ready(function() {
 //  Process the DOM
 // 
 
+
+function repositionWeek(week) {
+  $('.week .workout').each(function() {
+
+    if($(this).hasClass('checked')) {
+      $(this).appendTo($(this).parent());
+    }
+  });   
+}
+
 // runs through a week's workouts; folds it up if it's all donw
-function clearWeeks() {
+function setWeekCleared() {
   $('.week').each(function() {
     let cleared = true;
     $(this).find('.workout:not(.checked)').each(function() {
@@ -74,6 +85,10 @@ function clearWeeks() {
 function processWorkouts(log) {
   log.forEach(function (workout) {
     $('#'+workout).addClass('checked');
+  })
+
+  $('.week').each(function() {
+    repositionWeek($(this))
   })
 }
 
