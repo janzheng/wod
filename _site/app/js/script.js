@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 
 
-  $('.workout').click(function() {
+  $('.workout').on( "click", function() {
     if( $(this).hasClass('checked') ) {
       $(this).removeClass('checked');
       clearWeeks();

@@ -48,6 +48,14 @@ a {
   &:hover {
     color: $purple;
   }
+
+  // mobile hack requires a
+  &[href='#'] {
+    color: inherit;
+    &:hover {
+      color: inherit;
+    }
+  }
 }
 
 ._center {

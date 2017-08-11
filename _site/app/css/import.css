@@ -149,6 +149,10 @@ a {
   color: #2196f3; }
   a:hover {
     color: #3f51b5; }
+  a[href='#'] {
+    color: inherit; }
+    a[href='#']:hover {
+      color: inherit; }
 
 ._center {
   text-align: center; }
