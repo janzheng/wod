@@ -49,13 +49,6 @@ a {
     color: $purple;
   }
 
-  // mobile hack requires a
-  &[href='#'] {
-    color: inherit;
-    &:hover {
-      color: inherit;
-    }
-  }
 }
 
 ._center {
@@ -150,7 +143,7 @@ a {
   padding: $base;
   border-radius: 6px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-  cursor: pointer;
+  // cursor: pointer;
 
   // workouts checked / not checked
   .checkmark {
@@ -170,6 +163,15 @@ a {
     }
     h3 {
       // margin: 0;
+    }
+  }
+  .trigger {
+    display: block;
+    color: $blue;
+    cursor: pointer;
+
+    &:hover {
+      color: $purple;
     }
   }
 }

@@ -32,16 +32,17 @@ $(document).ready(function() {
 
 
 
-  $('.workout').on( "click", function() {
-    if( $(this).hasClass('checked') ) {
-      $(this).removeClass('checked');
+  $('.workout .trigger').on( "click", function() {
+    const workout = $(this).parent();
+    if( $(workout).hasClass('checked') ) {
+      $(workout).removeClass('checked');
       clearWeeks();
       // remove from log
-      removeFromLog($(this).attr('id'), workoutLog);
+      removeFromLog($(workout).attr('id'), workoutLog);
       setWorkouts(workoutLog)
     } else {
-      $(this).appendTo($(this).parent()).addClass('checked');
-      addToLog($(this), workoutLog);
+      $(workout).appendTo($(workout).parent()).addClass('checked');
+      addToLog($(workout), workoutLog);
       setWorkouts(workoutLog);
       clearWeeks();
     }

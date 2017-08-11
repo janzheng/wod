@@ -149,10 +149,6 @@ a {
   color: #2196f3; }
   a:hover {
     color: #3f51b5; }
-  a[href='#'] {
-    color: inherit; }
-    a[href='#']:hover {
-      color: inherit; }
 
 ._center {
   text-align: center; }
@@ -211,8 +207,7 @@ a {
   border: 1px solid rgba(33, 150, 243, 0.5);
   padding: 16px;
   border-radius: 6px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  cursor: pointer; }
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
   .workout .checkmark {
     display: none;
     color: green; }
@@ -226,3 +221,9 @@ a {
     .workout.checked .checkmark {
       opacity: 1 !important;
       display: inline-block; }
+  .workout .trigger {
+    display: block;
+    color: #2196f3;
+    cursor: pointer; }
+    .workout .trigger:hover {
+      color: #3f51b5; }
