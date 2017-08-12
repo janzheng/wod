@@ -84,6 +84,9 @@
 .gr-one, .gr-two, .ex, .gr-two-one-one, .gr-three, .gr-four {
   display: grid;
   grid-gap: 32px; }
+  @media (max-width: 767px) {
+    .gr-one, .gr-two, .ex, .gr-two-one-one, .gr-three, .gr-four {
+      grid-row-gap: 16px; } }
 
 .gr-one {
   grid-template-areas: "one";

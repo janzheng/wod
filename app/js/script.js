@@ -18,10 +18,10 @@ $(document).ready(function() {
       ]
   */
 
-  let workoutLog = getWorkouts();
-  console.log(workoutLog);
-  processWorkouts(workoutLog)
-  setWeekCleared();
+  // let workoutLog = getWorkouts();
+  // console.log(workoutLog);
+  // processWorkouts(workoutLog)
+  // setWeekCleared();
 
 
   // populate log from cookies
