@@ -244,3 +244,6 @@ a {
   cursor: pointer; }
   .trigger:hover {
     color: #3f51b5 !important; }
+
+._block {
+  display: block !important; }
