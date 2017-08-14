@@ -27,7 +27,7 @@
 
   {% if week_ctr == w_int %}
     <div class="week">
-      <h3 class="week-title">Week {{ week_ctr }} <i class="week-checkmark fa fa-check-circle"></i></h3>
+      <h3 class="week-title">Week {{ week_ctr }} </h3>
 
       <div class="list gr-two">
         {% for post in site.posts reversed %}
@@ -35,12 +35,15 @@
           {% if post.week == week_ctr and post.published == true and post.series == this_series %}
             {% capture postId %} workout-{{post.series}}-{{ post.week }}-{{ post.day }} {% endcapture %}
             <div class="workout" id={{ postId }} data-series={{ post.series }} data-week={{ post.week }} data-day={{ post.day }} >
-              <h3>{{ post.title }} <span class="checkmark"><i class="fa fa-check-circle"></i></span></h3>
+              <h3>{{ post.title }} </h3>
               <div class="container">
                 <div class="date">{{ post.date | date: "%d %B, %Y" }}</div>
                 <div class="content">{{ post.content }}</div>
               </div>
-              <div class="trigger"><i class="fa fa-check"></i> Complete this workout</div>
+              <div class="trigger">
+                <span class="incomplete"><i class="fa fa-check"></i> Complete this workout</span>
+                <span class="complete"><i class="fa fa-check-circle fa"></i></span>
+              </div>
             </div>
           {% endif %}
 

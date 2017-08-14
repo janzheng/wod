@@ -145,14 +145,19 @@ a {
   box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
   // cursor: pointer;
 
-  // workouts checked / not checked
-  .checkmark {
+  .complete {
     display: none;
     color: green;
   }
   &.checked {
-    border-color: rgba(green, 0.7);
-    background-color: rgba(green, 0.34);
+    // border-color: rgba(green, 0.7);
+    // background-color: rgba(green, 0.34);
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    color: green;
+    box-shadow: none;
+
     .container{ display: none; }
     * {
       opacity: 0.8;
@@ -161,8 +166,19 @@ a {
       opacity: 1 !important;
       display: inline-block;
     }
-    h3 {
-      // margin: 0;
+    h3, div {
+      margin: 0;
+      display: inline-block;
+    }
+    .incomplete {
+      display: none;
+    }
+    .complete {
+      display: inline-block;
+    }
+
+    & + .workout {
+      margin-top: 0;
     }
   }
 }
@@ -174,6 +190,7 @@ a {
     &:hover {
       color: $purple !important;
     }
+
   }
 
 

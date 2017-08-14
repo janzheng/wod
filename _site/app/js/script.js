@@ -1,4 +1,6 @@
 
+
+
 $(document).ready(function() {
 
   // https://github.com/js-cookie/js-cookie
@@ -30,26 +32,41 @@ $(document).ready(function() {
   // let storage = Cookies.getJSON('name');
   // console.log(storage.foo)
 
-
-
-  $('.workout .trigger').on( "click", function() {
+  $('html').on( "click", '.trigger', function() {
     const workout = $(this).parent();
-    if( $(workout).hasClass('checked') ) {
-      $(workout).removeClass('checked');
-      setWeekCleared();
-      repositionWeek($(workout).parent());
-      removeFromLog($(workout).attr('id'), workoutLog);
-      setWorkouts(workoutLog)
-    } else {
-      $(workout).addClass('checked');
-      repositionWeek($(workout).parent());
-      addToLog($(workout), workoutLog);
-      setWorkouts(workoutLog);
-      setWeekCleared();
-    }
+    // if( $(workout).hasClass('checked') ) {
+    //   console.log('111')
+    //   $(workout).removeClass('checked');
+    //   setWeekCleared();
+    //   repositionWeek($(workout).parent());
+    //   removeFromLog($(workout).attr('id'), workoutLog);
+    //   setWorkouts(workoutLog)
+    // } else {
+    console.log('222');
+    $(workout).addClass('checked');
+    repositionWeek($(workout).parent());
+    addToLog($(workout), workoutLog);
+    setWorkouts(workoutLog);
+    setWeekCleared();
+
+    scrollToObj($(this).parent());
+    // }
   })
 
+  $('html').on( "click", '.workout.checked', function() {
+    // console.log('000');
+    $(this).removeClass('checked');
+    setWeekCleared();
+    repositionWeek(this);
+    removeFromLog($(this).attr('id'), workoutLog);
+    setWorkouts(workoutLog)
+
+    scrollToObj($(this).parent());
+  });
+
+
 });
+
 
 
 // 
@@ -58,10 +75,11 @@ $(document).ready(function() {
 
 
 function repositionWeek(week) {
+  console.log('repo week')
   $('.week .workout').each(function() {
 
     if($(this).hasClass('checked')) {
-      $(this).appendTo($(this).parent());
+      // $(this).appendTo($(this).parent());
     }
   });   
 }
@@ -128,4 +146,26 @@ function getWorkouts() {
   return Cookies.getJSON('workoutLog') || [];
 }
 
+
+
+
+  // ************************************************************
+  // Smooth Scrolling 
+  // - can link to a # of another page, and smooth-scroll down to that #
+
+  var scrollElement = 'html, body';
+
+  // Smooth scrolling for internal links
+  function scrollToObj(obj) {
+    event.preventDefault();
+    
+    var $this = $(this);
+    let offset = 30;
+    
+    if( !(typeof obj.offset() === "undefined")) {
+      $(scrollElement).stop().animate({
+        'scrollTop': obj.offset().top - offset,
+      }, 500, 'swing');
+    }
+  }
 

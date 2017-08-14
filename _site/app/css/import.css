@@ -211,12 +211,15 @@ a {
   padding: 16px;
   border-radius: 6px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
-  .workout .checkmark {
+  .workout .complete {
     display: none;
     color: green; }
   .workout.checked {
-    border-color: rgba(0, 128, 0, 0.7);
-    background-color: rgba(0, 128, 0, 0.34); }
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    color: green;
+    box-shadow: none; }
     .workout.checked .container {
       display: none; }
     .workout.checked * {
@@ -224,6 +227,15 @@ a {
     .workout.checked .checkmark {
       opacity: 1 !important;
       display: inline-block; }
+    .workout.checked h3, .workout.checked div {
+      margin: 0;
+      display: inline-block; }
+    .workout.checked .incomplete {
+      display: none; }
+    .workout.checked .complete {
+      display: inline-block; }
+    .workout.checked + .workout {
+      margin-top: 0; }
 
 .trigger {
   display: block;
