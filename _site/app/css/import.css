@@ -219,7 +219,8 @@ a {
     padding: 0;
     border: 0;
     color: green;
-    box-shadow: none; }
+    box-shadow: none;
+    cursor: pointer; }
     .workout.checked .container {
       display: none; }
     .workout.checked * {
