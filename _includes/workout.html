@@ -8,20 +8,21 @@
  -->
 {% assign this_series = page.series %}
 
-{% assign val = 0 %}
-{% for p in site.posts %}
-  {% unless val == p.week %}
+{% assign sortedPosts = site.posts | sort: 'day' | reverse %}
+
+{% for p in sortedPosts %}
+    <!-- [{{ p.week }}| {{ p.series }}] -->
     {% if p.series == this_series %}
-      {% assign val = val | plus: 1 %}
       {% capture week %} {{week}} {{ p.week }} {% endcapture %}
     {% endif %}
-  {% endunless %}
 {% endfor %}
  
 
 {% assign weeks = week | split: ' ' %}
 {% assign weeks = weeks | reverse %}
 
+
+<!-- {{ weeks }} -->
 
 {% assign week_ctr = 1 %}
 
