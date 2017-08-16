@@ -139,10 +139,18 @@ function removeFromLog(idName, log) {
 // 
 
 function setWorkouts(workoutLog) {
-  Cookies.set('workoutLog', workoutLog);
-  console.log(Cookies.getJSON('workoutLog'))
+  if (typeof(Storage) !== "undefined") {
+    localStorage.setItem('workoutLog', workoutLog);
+  } else {
+    Cookies.set('workoutLog', workoutLog);
+    console.log(Cookies.getJSON('workoutLog'))
+  }
 }
 function getWorkouts() {
+  if (typeof(Storage) !== "undefined") {
+    $('_debug').append(localStorage.getItem('workoutLog').split(','))
+    return (localStorage.getItem('workoutLog').split(',')) || [];
+  }
   return Cookies.getJSON('workoutLog') || [];
 }
 
