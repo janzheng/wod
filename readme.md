@@ -1,7 +1,7 @@
 
 #WoD
 
-Simple workout of the day blog for me and Charlotte and whomever else wants to do it.
+Super simple workout of the day blog for me and Charlotte and whomever else wants to do it. We use cookies to help you track your workouts.
 
 
 
