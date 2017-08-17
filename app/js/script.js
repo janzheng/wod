@@ -148,8 +148,10 @@ function setWorkouts(workoutLog) {
 }
 function getWorkouts() {
   if (typeof(Storage) !== "undefined") {
-    $('_debug').append(localStorage.getItem('workoutLog').split(','))
-    return (localStorage.getItem('workoutLog').split(',')) || [];
+    if(localStorage.getItem('workoutLog')) {
+      $('_debug').append(localStorage.getItem('workoutLog').split(','))
+      return (localStorage.getItem('workoutLog').split(',')) || [];
+    }
   }
   return Cookies.getJSON('workoutLog') || [];
 }
