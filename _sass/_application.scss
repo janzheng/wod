@@ -178,8 +178,10 @@ a {
       display: inline-block;
     }
 
-    & + .workout {
-      margin-top: 0;
+    @include screen-xs {
+      & + .workout {
+        margin-top: 0;
+      }
     }
   }
 }
