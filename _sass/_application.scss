@@ -69,8 +69,13 @@ a {
 
   @extend %gr-two-one-one;
 
-  &-3 {
-    grid-template-columns: 4fr 1fr 2fr 2fr;
+}
+.ex-3 {
+  @extend .ex;
+  grid-template-columns: 4fr 1fr 2fr 2fr;
+  
+  @include screen-xs {
+    grid-row-gap: $base;
   }
 }
 
