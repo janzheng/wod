@@ -113,7 +113,7 @@ function processWorkouts(log) {
 
 function addToLog(workoutObj, log) {
  const series = workoutObj.data('series'), week = workoutObj.data('week'), day = workoutObj.data('day');
- const workout = `workout-${series}-${week}-${day}`
+ const workout = `workout-${series}-${week}-${day}`;
 
  // don't add dupes
  if ($.inArray( workout, log ) < 0 )
