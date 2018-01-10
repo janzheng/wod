@@ -27,7 +27,6 @@ $(document).ready(function() {
 
 
   // populate log from cookies
-  // console.log('hey');
   // Cookies.set('name', { foo: 'bar' });
   // let storage = Cookies.getJSON('name');
   // console.log(storage.foo)
@@ -35,14 +34,12 @@ $(document).ready(function() {
   $('html').on( "click", '.trigger', function() {
     const workout = $(this).parent();
     // if( $(workout).hasClass('checked') ) {
-    //   console.log('111')
     //   $(workout).removeClass('checked');
     //   setWeekCleared();
     //   repositionWeek($(workout).parent());
     //   removeFromLog($(workout).attr('id'), workoutLog);
     //   setWorkouts(workoutLog)
     // } else {
-    console.log('222');
     $(workout).addClass('checked');
     repositionWeek($(workout).parent());
     addToLog($(workout), workoutLog);
@@ -54,7 +51,6 @@ $(document).ready(function() {
   })
 
   $('html').on( "click", '.workout.checked', function() {
-    // console.log('000');
     $(this).removeClass('checked');
     setWeekCleared();
     repositionWeek(this);
