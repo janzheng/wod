@@ -1,0 +1,57 @@
+{
+  "id": "maternity-gentle-flow",
+  "name": "Maternity Gentle Flow",
+  "description": "A safe 15-minute workout for pregnancy with gentle movements, breathing exercises, and pelvic floor work",
+  "routineId": "maternity",
+  "tags": ["maternity", "gentle", "low-intensity", "breathing", "pelvic-floor", "stretch"],
+  "estimatedDuration": 15,
+  "equipment": ["mat", "bodyweight"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup & Breathing",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["maternity", "breathing"], "equipment": ["mat", "bodyweight"] }, "duration": 60, "notes": "deep belly breathing" },
+        { "criteria": { "tags": ["maternity", "gentle", "floor"], "types": ["yoga"] }, "duration": 45, "notes": "gentle spinal mobility" },
+        { "criteria": { "types": ["yoga"], "tags": ["floor", "gentle"], "excludeTags": ["intense", "hiit"] }, "duration": 45, "notes": "gentle movement" }
+      ],
+      "restBetween": 10,
+      "restAfter": 30
+    },
+    {
+      "id": "main-work",
+      "name": "Gentle Movement & Pelvic Floor",
+      "type": "exercises",
+      "rounds": 2,
+      "randomize": true,
+      "poolSize": 4,
+      "exercises": [
+        { "criteria": { "tags": ["maternity", "pelvic-floor"], "equipment": ["mat", "bodyweight"] }, "duration": 45 },
+        { "criteria": { "tags": ["maternity", "gentle"], "types": ["yoga", "stretch"], "equipment": ["mat", "bodyweight"] }, "duration": 45 },
+        { "criteria": { "tags": ["maternity", "low-intensity"], "muscles": ["hips", "glutes"], "equipment": ["mat", "bodyweight"] }, "duration": 45 },
+        { "criteria": { "tags": ["maternity", "breathing"], "equipment": ["mat", "bodyweight"] }, "duration": 45 }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Relaxation & Stretch",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "tags": ["maternity", "gentle", "floor", "recovery"], "types": ["yoga"] }, "duration": 90, "notes": "restorative rest" },
+        { "criteria": { "types": ["yoga", "stretch"], "tags": ["floor", "gentle"], "excludeTags": ["intense"] }, "duration": 60, "notes": "gentle stretch" }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Listen to your body - modify or skip any exercise that doesn't feel right",
+    "Focus on breathing throughout - never hold your breath",
+    "Stay hydrated and take breaks as needed",
+    "Avoid exercises that cause pain, dizziness, or shortness of breath",
+    "Consult your healthcare provider before starting any exercise program during pregnancy"
+  ]
+}

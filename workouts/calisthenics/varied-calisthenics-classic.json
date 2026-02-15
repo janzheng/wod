@@ -1,0 +1,91 @@
+{
+  "id": "varied-calisthenics-classic",
+  "name": "Varied Calisthenics Classic",
+  "description": "Full body calisthenics sequence - pulling, pushing, core, and skill work - preserved exactly as it was",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "bodyweight", "fixed", "classic", "full-body"],
+  "estimatedDuration": 50,
+  "equipment": ["bodyweight", "kettlebell", "dumbbell", "pull-up-bar"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-legs-unilateral",
+      "name": "Block 1: Unilateral Legs",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "single-leg-deadlift", "reps": "max", "notes": "single leg deadlift, each leg" },
+        { "id": "american-kettlebell-swing", "reps": 15 },
+        { "id": "squat", "reps": "max", "notes": "bodyweight squat" },
+        { "id": "romanian-deadlift", "reps": "max", "notes": "half deadlift thing (partial ROM deadlift)" },
+        { "id": "single-leg-rdl-kettlebell", "reps": "max", "notes": "single leg balance deadlift with kettlebell, each leg" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-2-pull",
+      "name": "Block 2: Pulling",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "pull-up", "reps": "max" },
+        { "id": "horizontal-row", "reps": "max", "notes": "bodyweight row" },
+        { "id": "pull-up-shrug", "reps": "max", "notes": "pull ups with shrugs" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-3-push",
+      "name": "Block 3: Pushing",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "push-up", "reps": "max" },
+        { "id": "diamond-push-up", "reps": "max", "notes": "diamond push ups" },
+        { "id": "pike-push-up", "reps": "max", "notes": "pike push ups" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-4-core",
+      "name": "Block 4: Core",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "hollow-body-hold", "duration": 45 },
+        { "id": "plank", "duration": 60 },
+        { "id": "l-sit", "duration": 30, "notes": "L-sit hold" }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Each block: 3 rounds",
+    "Block 1 focuses on unilateral leg work and balance",
+    "Half deadlift = partial range of motion deadlift (stop halfway)",
+    "This is a fixed sequence - no randomization",
+    "Focus on form and control"
+  ]
+}

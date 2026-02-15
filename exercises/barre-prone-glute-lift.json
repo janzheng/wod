@@ -1,0 +1,32 @@
+{
+  "id": "barre-prone-glute-lift",
+  "name": "Prone Glute Lift",
+  "type": "barre",
+  "muscles": [
+    "glutes",
+    "lower-back"
+  ],
+  "equipment": [
+    "mat"
+  ],
+  "tags": [
+    "floor",
+    "prone",
+    "isolation"
+  ],
+  "difficulty": "beginner",
+  "description": "Lie on stomach. Bend knees and bring heels together. Raise knees off the floor while keeping upper body static. (Day 16)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 16
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-prone-glute-lift.png",
+      "caption": "Prone Glute Lift illustration"
+    }
+  ]
+}

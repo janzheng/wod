@@ -1,0 +1,32 @@
+{
+  "id": "action-jacqueline-random-4",
+  "name": "Action Jacqueline Random 4",
+  "description": "4 random exercises from @actionjacquelyn's 100-Reps Barre Challenge",
+  "routineId": "action-jacqueline",
+  "creator": "@actionjacquelyn",
+  "source": "100-Reps Barre Sculpted Leg Challenge",
+  "tags": ["barre", "lower-body", "quick", "random"],
+  "estimatedDuration": 8,
+  "equipment": ["bodyweight"],
+  "sets": [
+    {
+      "id": "random-barre-set",
+      "name": "100-Reps Barre Selection",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "challengeCreator": "@actionjacquelyn" }, "reps": 100 },
+        { "criteria": { "challengeCreator": "@actionjacquelyn" }, "reps": 100 },
+        { "criteria": { "challengeCreator": "@actionjacquelyn" }, "reps": 100 },
+        { "criteria": { "challengeCreator": "@actionjacquelyn" }, "reps": 100 }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Each exercise is 100 reps - break into sets of 25 if needed",
+    "Focus on form over speed",
+    "Keep movements small and controlled"
+  ]
+}

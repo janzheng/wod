@@ -1,0 +1,124 @@
+{
+  "id": "mixed-classic-circuit",
+  "name": "Mixed Classic Circuit",
+  "description": "Another favorite classic workout sequence - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "full-body", "fixed", "classic", "push", "pull", "legs"],
+  "estimatedDuration": 50,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "bench", "box"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-legs-warmup",
+      "name": "Block 1: Legs Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "split-squat", "reps": 8, "notes": "feet elevated split squat" },
+        { "id": "kettlebell-goblet-squat", "reps": 8, "notes": "hip elevated 1 1/4 goblet squat" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-kb-descending",
+      "name": "Block 2: KB Descending Circuit",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "sumo-deadlift", "reps": "10-1", "notes": "kettlebell sumo deadlift, descending reps" },
+        { "id": "american-kettlebell-swing", "reps": "10-1", "notes": "descending reps" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-legs-compound",
+      "name": "Block 3: Legs Compound",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "romanian-deadlift", "reps": 8, "notes": "barbell RDL" },
+        { "id": "bulgarian-split-squat", "reps": 8, "notes": "each leg" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-4-pause-squat",
+      "name": "Block 4: Pause Squat",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "squat", "reps": 8, "tempo": "2-2-2-0", "notes": "2 second pause at bottom" }
+      ],
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "block-5-pyramid-superset",
+      "name": "Block 5: Pyramid Superset",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "bicep-curl", "reps": "1-5", "notes": "dumbbell curl pyramid superset: do 1 curl then 2 press, rest, 2 curl then 4 press, 3 curl then 6 press, 4 curl then 8 press, 5 curl then 10 press" },
+        { "id": "dumbbell-shoulder-press", "reps": "2-10", "notes": "2x press reps (superset with curl: 2, 4, 6, 8, 10)" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
+      "id": "block-6-upper-compound",
+      "name": "Block 6: Upper Compound",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "barbell-shoulder-press", "reps": 10, "notes": "single arm kettlebell press" },
+        { "id": "gorilla-row", "reps": 14 },
+        { "id": "dip", "reps": "max", "notes": "dips or push up AMRAP" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-7-upper-finisher",
+      "name": "Block 7: Upper Finisher",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "bench-press", "reps": 8 },
+        { "id": "overhead-tricep-extension", "reps": 8, "notes": "french press" },
+        { "id": "front-raise", "reps": 8, "notes": "plate front raise" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "10-1 means start at 10 reps, decrease by 1 each set (10, 9, 8... down to 1)",
+    "Pyramid superset: do 1 curl then 2 press, rest, 2 curl then 4 press, etc. up to 5 curl/10 press",
+    "This is a fixed sequence - no randomization",
+    "Use challenging weight - focus on form and control"
+  ]
+}

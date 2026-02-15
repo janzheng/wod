@@ -1,0 +1,295 @@
+.theme-scope {
+/* Dropdowns & Menus */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-mega {
+position: static;
+}
+
+.dropdown-menu {
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 50; /* Base z-index */
+min-width: 12rem;
+padding: 0.25rem 0; /* Tighter padding */
+margin-top: 0.25rem;
+background-color: var(--color-bg-primary);
+border: 1px solid var(--color-border);
+border-radius: var(--radius-lg);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+/* Flyout Animation Defaults */
+opacity: 0;
+transform: scale(0.95) translateY(-5px);
+transform-origin: top left;
+transition: opacity 0.15s ease-out, transform 0.15s ease-out, visibility 0s linear 0.15s;
+pointer-events: none;
+visibility: hidden;
+}
+
+.dropdown-menu.open {
+opacity: 1;
+transform: scale(1) translateY(0);
+pointer-events: auto;
+visibility: visible;
+transition-delay: 0s;
+display: block; /* Force display */
+z-index: 999; /* Ensure open state maintains high index */
+}
+
+/* Alignment Variants */
+.dropdown-menu-right {
+left: auto;
+right: 0;
+transform-origin: top right;
+}
+
+.dropdown-menu-center {
+left: 50%;
+transform: translateX(-50%) scale(0.95) translateY(-5px);
+transform-origin: top center;
+}
+
+.dropdown-menu-center.open {
+transform: translateX(-50%) scale(1) translateY(0);
+}
+
+/* Width Variants */
+.dropdown-menu-w-sm {
+min-width: 10rem;
+}
+
+.dropdown-menu-w-md {
+min-width: 16rem;
+}
+
+.dropdown-menu-w-lg {
+min-width: 20rem;
+}
+
+.dropdown-menu-w-xl {
+min-width: 24rem;
+}
+
+/* Mega Menu */
+.dropdown-mega-container {
+position: relative; /* Parent container for mega menu */
+}
+
+.dropdown-menu-mega {
+position: absolute;
+left: 2rem;
+right: 2rem;
+width: auto;
+padding: 1.5rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 1.5rem;
+/* Override the transform animation - no scale to prevent width squishing */
+transform: translateY(-5px);
+transform-origin: top center;
+}
+
+.dropdown-menu-mega.open {
+display: grid !important; /* Override .dropdown-menu.open display: block */
+transform: translateY(0);
+overflow: hidden; /* Clip content to dropdown boundaries */
+}
+
+/* Upward/Top Direction Variants */
+.dropdown-menu-up,
+.dropdown-menu-top {
+top: auto;
+bottom: 100%;
+margin-top: 0;
+margin-bottom: 0.25rem;
+transform: scale(0.95) translateY(5px);
+transform-origin: bottom left;
+}
+
+.dropdown-menu-up.open,
+.dropdown-menu-top.open {
+transform: scale(1) translateY(0);
+}
+
+.dropdown-menu-up.dropdown-menu-right,
+.dropdown-menu-top.dropdown-menu-right {
+transform-origin: bottom right;
+}
+
+.dropdown-menu-up.dropdown-menu-center,
+.dropdown-menu-top.dropdown-menu-center {
+transform: translateX(-50%) scale(0.95) translateY(5px);
+transform-origin: bottom center;
+}
+
+.dropdown-menu-up.dropdown-menu-center.open,
+.dropdown-menu-top.dropdown-menu-center.open {
+transform: translateX(-50%) scale(1) translateY(0);
+}
+
+/* Content Styles */
+.dropdown-header {
+display: block;
+padding: 0.5rem 1rem;
+margin-bottom: 0;
+font-size: var(--text-xs);
+font-weight: var(--font-semibold);
+color: var(--color-text-secondary);
+white-space: nowrap;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+}
+
+.dropdown-item {
+display: flex;
+align-items: center;
+gap: 0.75rem;
+width: 100%;
+padding: 0.5rem 1rem;
+clear: both;
+font-weight: 400;
+color: var(--color-text-primary);
+text-align: inherit;
+white-space: nowrap;
+background-color: transparent;
+border: 0;
+cursor: pointer;
+text-decoration: none;
+transition: all 0.15s ease-in-out;
+font-size: var(--text-sm);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+background-color: var(--color-bg-secondary);
+color: var(--color-primary);
+text-decoration: none;
+outline: none;
+}
+
+.dropdown-item.active {
+background-color: var(--color-primary-light);
+color: var(--color-primary);
+}
+
+.dropdown-item-description {
+display: block;
+font-size: var(--text-xs);
+color: var(--color-text-secondary);
+margin-top: 0.125rem;
+white-space: normal;
+}
+
+/* Non-interactive text inside dropdown (e.g., email display) */
+.dropdown-item-text {
+display: block;
+padding: 0.5rem 1rem;
+font-size: var(--text-sm);
+color: var(--color-text-primary);
+}
+
+.dropdown-item:hover .dropdown-item-description {
+color: var(--color-text-neutral-dark);
+}
+
+.dropdown-divider {
+height: 0;
+margin: 0.375rem 0;
+overflow: hidden;
+border-top: 1px solid var(--color-border-light);
+}
+
+/* Icon support */
+.dropdown-item-icon {
+width: 1rem;
+height: 1rem;
+color: var(--color-text-muted);
+flex-shrink: 0;
+}
+
+.dropdown-item:hover .dropdown-item-icon {
+color: var(--color-primary);
+}
+
+/* Popovers */
+.popover-content {
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 50;
+padding: 1rem;
+margin-top: 0.5rem;
+background-color: var(--color-bg-primary);
+border: 1px solid var(--color-border);
+border-radius: var(--radius-lg);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+/* Flyout Animation Defaults */
+opacity: 0;
+transform: scale(0.95) translateY(-5px);
+transform-origin: top left;
+transition: opacity 0.15s ease-out, transform 0.15s ease-out, visibility 0s linear 0.15s;
+pointer-events: none;
+visibility: hidden;
+}
+
+.popover-content.open {
+opacity: 1;
+transform: scale(1) translateY(0);
+pointer-events: auto;
+visibility: visible;
+transition-delay: 0s;
+}
+
+/* Popover Alignment Variants */
+.popover-content-right {
+left: auto;
+right: 0;
+transform-origin: top right;
+}
+
+.popover-content-center {
+left: 50%;
+transform: translateX(-50%) scale(0.95) translateY(-5px);
+transform-origin: top center;
+}
+
+.popover-content-center.open {
+transform: translateX(-50%) scale(1) translateY(0);
+}
+
+/* Upward/Top Direction Variants for Popovers */
+.popover-content-up,
+.popover-content-top {
+top: auto;
+bottom: 100%;
+margin-top: 0;
+margin-bottom: 0.5rem;
+transform: scale(0.95) translateY(5px);
+transform-origin: bottom left;
+}
+
+.popover-content-up.open,
+.popover-content-top.open {
+transform: scale(1) translateY(0);
+}
+
+.popover-content-up.popover-content-right,
+.popover-content-top.popover-content-right {
+transform-origin: bottom right;
+}
+
+.popover-content-up.popover-content-center,
+.popover-content-top.popover-content-center {
+transform: translateX(-50%) scale(0.95) translateY(5px);
+transform-origin: bottom center;
+}
+
+.popover-content-up.popover-content-center.open,
+.popover-content-top.popover-content-center.open {
+transform: translateX(-50%) scale(1) translateY(0);
+}
+}

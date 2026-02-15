@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workouts of the Day</title>
+
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+
+  <!-- Using system fonts for better performance -->
+
+  <!-- Compiled styles (run deno task build:styles to generate) -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Workout Generator (for randomization) -->
+  <script src="./static/generator.js"></script>
+
+  <!-- Timer -->
+  <script src="./static/timeline.js"></script>
+  <script src="./static/timer.js"></script>
+</head>
+<body>
+
+<div id="app" x-data="routineStackApp()">
+  <div
+    class="sidebar-provider"
+    :data-state="sidebarOpen ? 'open' : 'closed'"
+    @keydown.escape.window="handleKeydown($event)"
+  >
+    <!-- Sidebar Wrapper -->
+    <div class="sidebar-wrapper">
+      <aside class="sidebar">
+        <!-- Header -->
+        <div class="sidebar-header">
+          <div class="sidebar-header-content">
+            <span class="iconify sidebar-icon" data-icon="lucide:dumbbell" style="color: #374151;"></span>
+            <span class="sidebar-title">Workouts of the Day</span>
+          </div>
+          <!-- Mobile close button -->
+          <button
+            class="sidebar-close-mobile"
+            @click="sidebarOpen = false"
+            aria-label="Close sidebar"
+          >
+            <span class="iconify" data-icon="lucide:x"></span>
+          </button>
+        </div>
+
+        <div class="sidebar-content">
+          <!-- Saved Workouts Section -->
+          <div class="sidebar-group">
+            <div class="sidebar-group-label">Saved Workouts</div>
+            <nav class="sidebar-menu">
+              <template x-if="loading">
+                <div class="sidebar-loading">
+                  <span class="iconify" data-icon="lucide:loader-2" style="animation: spin 1s linear infinite;"></span>
+                  <span>Loading...</span>
+                </div>
+              </template>
+              <template x-if="!loading && savedWorkouts.length === 0">
+                <div class="sidebar-empty">
+                  <span class="iconify" data-icon="lucide:inbox"></span>
+                  <span>No saved workouts</span>
+                </div>
+              </template>
+              <template x-for="(workout, idx) in savedWorkouts" :key="'saved-' + idx + '-' + workout.id">
+                <div class="sidebar-menu-item">
+                  <button
+                    class="sidebar-menu-button"
+                    :class="{ 'active': selectedWorkoutId === workout.id }"
+                    @click="selectWorkout(workout.id)"
+                  >
+                    <span
+                      class="iconify sidebar-icon"
+                      :data-icon="getWorkoutIcon(workout)"
+                    ></span>
+                    <span class="sidebar-menu-label" x-text="workout.name"></span>
+                    <span
+                      class="sidebar-menu-badge"
+                      x-show="workout.estimatedDuration"
+                      x-text="workout.estimatedDuration + 'm'"
+                    ></span>
+                  </button>
+                </div>
+              </template>
+            </nav>
+          </div>
+
+          <!-- Categories - Folder Tree Pattern -->
+          <div class="sidebar-group">
+            <div class="sidebar-group-label">Categories</div>
+            <div class="folder-tree">
+              <template x-for="(routine, routineIdx) in routines" :key="'folder-' + routineIdx + '-' + routine.id">
+                <div class="folder-tree-folder" x-data="{ expanded: false }">
+                  <!-- Folder row -->
+                  <div class="folder-tree-folder-row" @click="expanded = !expanded">
+                    <button class="folder-tree-toggle" @click.stop="expanded = !expanded">
+                      <svg
+                        class="folder-tree-chevron"
+                        :class="{ 'rotated': expanded }"
+                        width="12" height="12"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                      </svg>
+                    </button>
+                    <span class="iconify folder-tree-icon" :data-icon="expanded ? 'lucide:folder-open' : 'lucide:folder'"></span>
+                    <span class="folder-tree-name" x-text="routine.name"></span>
+                    <span class="folder-tree-count" x-text="getRoutineWorkoutCount(routine.id)"></span>
+                  </div>
+                  <!-- Folder contents (nested items) -->
+                  <div class="folder-tree-contents" x-show="expanded" x-collapse>
+                    <template x-for="(workout, workoutIdx) in getWorkoutsByRoutine(routine.id)" :key="'item-' + routineIdx + '-' + workoutIdx + '-' + workout.id">
+                      <div
+                        class="folder-tree-item"
+                        :class="{ 'active': selectedWorkoutId === workout.id }"
+                        @click="selectWorkout(workout.id)"
+                      >
+                        <button class="folder-tree-item-btn">
+                          <span x-show="isWorkoutShuffleable(workout)" class="iconify folder-tree-shuffle-icon" data-icon="lucide:shuffle"></span>
+                          <span x-text="workout.name"></span>
+                        </button>
+                        <span
+                          class="folder-tree-item-badge"
+                          x-show="workout.estimatedDuration"
+                          x-text="workout.estimatedDuration + 'm'"
+                        ></span>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+              </template>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="sidebar-footer">
+          <div class="sidebar-footer-info">
+            <span class="text-xs text-muted">
+              <span x-text="savedWorkouts.length"></span> saved ·
+              <span x-text="allWorkouts.length"></span> total
+            </span>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Mobile overlay backdrop -->
+    <div
+      class="sidebar-overlay"
+      @click="sidebarOpen = false"
+      aria-hidden="true"
+    ></div>
+
+    <!-- Main Content -->
+    <main class="sidebar-inset">
+      <header class="sidebar-inset-header">
+        <button class="sidebar-trigger" @click="sidebarOpen = !sidebarOpen">
+          <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
+        </button>
+        <h1 class="sidebar-inset-title" x-text="selectedWorkout ? selectedWorkout.name : 'Select a Workout'"></h1>
+      </header>
+
+      <div class="sidebar-inset-content">
+        <!-- Empty state -->
+        <template x-if="!selectedWorkout && !loading">
+          <div class="empty-state">
+            <div class="empty-state-icon">
+              <span class="iconify" data-icon="lucide:dumbbell"></span>
+            </div>
+            <h2 class="empty-state-title">Select a Workout</h2>
+            <p class="empty-state-description">Choose a saved workout from the sidebar to view its details.</p>
+          </div>
+        </template>
+
+        <!-- Loading state -->
+        <template x-if="loading">
+          <div class="loading-state">
+            <span class="iconify" data-icon="lucide:loader-2"></span>
+            <span>Loading workouts...</span>
+          </div>
+        </template>
+
+        <!-- Workout Details -->
+        <template x-if="selectedWorkout && !loading">
+          <div class="workout-detail">
+            <!-- Workout Header -->
+            <div class="workout-header">
+              <div class="workout-meta">
+                <template x-if="selectedWorkout.estimatedDuration">
+                  <span class="workout-tag">
+                    <span class="iconify" data-icon="lucide:clock"></span>
+                    <span x-text="selectedWorkout.estimatedDuration + ' min'"></span>
+                  </span>
+                </template>
+                <template x-for="(tag, tagIdx) in (selectedWorkout.tags || []).slice(0, 3)" :key="'tag-' + tagIdx">
+                  <span class="workout-tag" x-text="tag"></span>
+                </template>
+                <!-- Source link -->
+                <template x-if="selectedWorkout.sourceUrl">
+                  <a class="workout-tag workout-source-link" :href="selectedWorkout.sourceUrl" target="_blank" rel="noopener" @click.stop>
+                    <span class="iconify" data-icon="lucide:external-link"></span>
+                    <span x-text="selectedWorkout.source || 'Source'"></span>
+                  </a>
+                </template>
+                <template x-if="!selectedWorkout.sourceUrl && selectedWorkout.source">
+                  <span class="workout-tag workout-source-tag">
+                    <span x-text="selectedWorkout.source"></span>
+                  </span>
+                </template>
+              </div>
+              <template x-if="selectedWorkout.description">
+                <p class="workout-description" x-text="selectedWorkout.description"></p>
+              </template>
+              <!-- Tips inline -->
+              <template x-if="selectedWorkout.tips && selectedWorkout.tips.length > 0">
+                <p class="workout-tips-inline">
+                  <template x-for="(tip, tipIdx) in selectedWorkout.tips" :key="'tip-' + tipIdx">
+                    <span><span x-text="tip"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
+                  </template>
+                </p>
+              </template>
+            </div>
+
+            <!-- Workout Controls -->
+            <div class="workout-controls">
+              <!-- Start Timer Button -->
+              <template x-if="generatedWorkout">
+                <button class="timer-start-btn" @click="startTimer()">
+                  <span class="iconify" data-icon="lucide:play-circle"></span>
+                  <span>Start Timer</span>
+                </button>
+              </template>
+
+              <!-- Shuffle Controls -->
+              <template x-if="canShuffle">
+                <div class="shuffle-section">
+                  <button class="shuffle-btn" @click="shuffleWorkout()">
+                    <span class="iconify" data-icon="lucide:shuffle"></span>
+                    <span>Shuffle All</span>
+                  </button>
+                  <span class="shuffle-hint" x-show="generatedWorkout">
+                    Generated: <span x-text="new Date(generatedWorkout.generatedAt).toLocaleTimeString()"></span>
+                  </span>
+                </div>
+              </template>
+            </div>
+
+            <!-- Generated Sets (if workout was randomized) -->
+            <template x-if="generatedWorkout && generatedWorkout.sets">
+              <div class="generated-sets-section">
+                <div class="workout-card-container">
+                <template x-for="(set, setIdx) in generatedWorkout.sets" :key="'gen-set-' + setIdx">
+                  <div class="generated-set">
+                    <div class="generated-set-header">
+                      <span class="generated-set-name" x-text="set.name || 'Set ' + (setIdx + 1)"></span>
+                      <template x-if="set.rounds && set.rounds > 1">
+                        <span class="generated-set-rounds" x-text="'×' + set.rounds"></span>
+                      </template>
+                      <template x-if="isSetRandomizable(set)">
+                        <button class="shuffle-set-btn" @click="shuffleSet(set.id)">
+                          <span class="iconify" data-icon="lucide:refresh-cw"></span>
+                        </button>
+                      </template>
+                    </div>
+                    <template x-if="set.generatedExercises && set.generatedExercises.length > 0">
+                      <div class="exercise-list">
+                        <template x-for="(ex, exIdx) in set.generatedExercises" :key="'gen-ex-' + setIdx + '-' + exIdx">
+                          <div class="exercise-line" :class="{ 'expandable': ex.description || ex.media }" @click="(ex.description || ex.media) && toggleExerciseExpand(ex.id)">
+                            <template x-if="ex.shuffleable">
+                              <button class="ex-shuffle" @click.stop="shuffleExercise(set.id, exIdx)" title="Shuffle">↻</button>
+                            </template>
+                            <span class="ex-name" x-text="ex.name"></span>
+                            <template x-if="ex.media && ex.media.length > 0">
+                              <span class="ex-media-icon"><span class="iconify" data-icon="lucide:image"></span></span>
+                            </template>
+                            <span class="ex-duration" x-text="ex.duration ? ex.duration + 's' : (ex.reps ? ex.reps + ' reps' : '')"></span>
+                            <template x-if="ex.notes">
+                              <span class="ex-notes" x-text="ex.notes"></span>
+                            </template>
+                            <template x-if="ex.description || ex.media">
+                              <span class="ex-expand" :class="{ 'expanded': expandedExercises?.includes(ex.id) }">
+                                <span class="iconify" data-icon="lucide:chevron-down"></span>
+                              </span>
+                            </template>
+                            <!-- Expanded content -->
+                            <template x-if="expandedExercises?.includes(ex.id)">
+                              <div class="ex-expanded" @click.stop>
+                                <template x-if="ex.description">
+                                  <p class="ex-desc" x-text="ex.description"></p>
+                                </template>
+                                <template x-if="ex.media && ex.media.length > 0">
+                                  <div class="ex-media">
+                                    <template x-if="ex.media[0].type === 'image'">
+                                      <img :src="getExerciseImagePath(ex.media[0].value)" :alt="ex.name" loading="lazy">
+                                    </template>
+                                    <template x-if="ex.media[0].type === 'youtube'">
+                                      <iframe :src="'https://www.youtube.com/embed/' + getYoutubeId(ex.media[0].value)" frameborder="0" allowfullscreen></iframe>
+                                    </template>
+                                  </div>
+                                </template>
+                              </div>
+                            </template>
+                          </div>
+                        </template>
+                      </div>
+                    </template>
+                    <template x-if="set.type === 'rest'">
+                      <div class="set-rest">
+                        <span class="iconify" data-icon="lucide:pause-circle"></span>
+                        <span x-text="'Rest ' + (set.restDuration || 60) + 's'"></span>
+                      </div>
+                    </template>
+                    <template x-if="set.type === 'activity' && set.activity">
+                      <div class="set-activity">
+                        <span class="iconify" data-icon="lucide:activity"></span>
+                        <span x-text="set.activity.name"></span>
+                        <span x-show="set.activity.duration" x-text="set.activity.duration + ' min'"></span>
+                      </div>
+                    </template>
+                  </div>
+                </template>
+                </div>
+              </div>
+            </template>
+
+            <!-- JSON Dump (Collapsible) -->
+            <details class="json-details" x-data="{ jsonOpen: false }">
+              <summary class="json-summary">
+                <span class="json-summary-text">Workout JSON</span>
+                <button class="copy-btn" @click.stop="copyToClipboard()" :class="{ 'copied': copied }">
+                  <span class="iconify" :data-icon="copied ? 'lucide:check' : 'lucide:copy'"></span>
+                </button>
+              </summary>
+              <pre class="workout-json"><code x-text="JSON.stringify(selectedWorkout, null, 2)"></code></pre>
+            </details>
+          </div>
+        </template>
+      </div>
+    </main>
+  </div>
+
+  <!-- ==================== FULLSCREEN TIMER ==================== -->
+  <template x-if="timerMode && timer">
+    <div class="timer-fullscreen" x-data="{ scrubbing: false }">
+      <!-- Top Bar -->
+      <div class="timer-topbar">
+        <button class="timer-exit-btn" @click="exitTimer()">
+          <span class="iconify" data-icon="lucide:x"></span>
+          <span>Exit</span>
+        </button>
+        <div class="timer-settings">
+          <button
+            class="timer-setting-btn"
+            :class="{ 'active': timer.audioEnabled }"
+            @click="timer.toggleAudio()"
+            :title="timer.audioEnabled ? 'Sound on' : 'Sound off'"
+          >
+            <span class="iconify" :data-icon="timer.audioEnabled ? 'lucide:volume-2' : 'lucide:volume-x'"></span>
+          </button>
+          <button
+            class="timer-setting-btn"
+            :class="{ 'active': timer.vibrationEnabled }"
+            @click="timer.toggleVibration()"
+            :title="timer.vibrationEnabled ? 'Vibration on' : 'Vibration off'"
+          >
+            <span class="iconify" :data-icon="timer.vibrationEnabled ? 'lucide:smartphone' : 'lucide:smartphone-off'"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="timer-main">
+        <!-- Context Info -->
+        <div class="timer-context">
+          <span class="timer-set-name" x-text="timer.currentSegment?.setName || 'Starting...'"></span>
+          <template x-if="timer.currentSegment?.roundNumber && timer.currentSegment?.totalRounds > 1">
+            <span class="timer-round-info">
+              Round <span x-text="timer.currentSegment.roundNumber"></span> of <span x-text="timer.currentSegment.totalRounds"></span>
+            </span>
+          </template>
+        </div>
+
+        <!-- Exercise Display -->
+        <div class="timer-exercise-display" :class="{ 'is-rest': timer.isRestSegment }">
+          <div class="timer-exercise-name" x-text="timer.currentSegment?.exerciseName || timer.currentSegment?.setName || '...'"></div>
+
+          <!-- Time Display -->
+          <div class="timer-time-display">
+            <template x-if="timer.showCountdown">
+              <div class="timer-countdown-big" x-text="timer.countdownValue"></div>
+            </template>
+            <template x-if="!timer.showCountdown">
+              <div class="timer-time" x-text="timer.formattedSegmentTime"></div>
+            </template>
+          </div>
+
+          <!-- Reps (if applicable) -->
+          <template x-if="timer.currentSegment?.reps">
+            <div class="timer-reps" x-text="timer.currentSegment.reps + ' reps'"></div>
+          </template>
+
+          <!-- Notes (if applicable) -->
+          <template x-if="timer.currentSegment?.notes">
+            <div class="timer-notes" x-text="timer.currentSegment.notes"></div>
+          </template>
+        </div>
+
+        <!-- Scrubber -->
+        <div class="timer-scrubber-container">
+          <div
+            class="timer-scrubber"
+            @mousedown="scrubbing = true; timer.startScrub()"
+            @mouseup="scrubbing = false; timer.endScrub()"
+            @mouseleave="if (scrubbing) { scrubbing = false; timer.endScrub(); }"
+            @mousemove="if (scrubbing) timer.onScrub($event)"
+            @touchstart="scrubbing = true; timer.startScrub()"
+            @touchend="scrubbing = false; timer.endScrub()"
+            @touchmove="if (scrubbing) timer.onScrub($event)"
+            @click="timer.seek(($event.offsetX / $event.target.offsetWidth) * 100)"
+          >
+            <div class="timer-scrubber-track">
+              <div class="timer-scrubber-progress" :style="'width: ' + timer.progress + '%'"></div>
+            </div>
+
+            <!-- Checkpoint Markers -->
+            <template x-for="(cp, idx) in timer.timeline?.checkpoints || []" :key="'cp-' + idx">
+              <div
+                class="timer-checkpoint"
+                :class="{ 'passed': timer.progress >= cp.percent, 'current': timer.currentSegment?.id === cp.segmentId }"
+                :style="'left: ' + cp.percent + '%'"
+                :title="cp.label"
+                @click.stop="timer.seekToCheckpoint(cp.id)"
+              ></div>
+            </template>
+          </div>
+
+          <!-- Checkpoint Labels -->
+          <div class="timer-checkpoint-labels">
+            <template x-for="(cp, idx) in timer.timeline?.checkpoints || []" :key="'cpl-' + idx">
+              <div
+                class="timer-checkpoint-label"
+                :class="{ 'active': timer.currentSegment?.id === cp.segmentId }"
+                :style="'left: ' + cp.percent + '%'"
+                x-text="cp.label"
+              ></div>
+            </template>
+          </div>
+
+          <!-- Time indicators -->
+          <div class="timer-time-indicators">
+            <span x-text="timer.formattedCurrentTime"></span>
+            <span x-text="timer.formattedTotalRemaining + ' left'"></span>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="timer-controls">
+          <button class="timer-control-btn" @click="timer.skipToPrevious()" title="Previous checkpoint">
+            <span class="iconify" data-icon="lucide:skip-back"></span>
+          </button>
+          <button class="timer-control-btn" @click="timer.skipBackward(5)" title="Back 5 seconds">
+            <span class="iconify" data-icon="lucide:rewind"></span>
+          </button>
+          <button class="timer-control-btn timer-play-btn" @click="timer.toggle()">
+            <span class="iconify" :data-icon="timer.isPaused ? 'lucide:play' : 'lucide:pause'"></span>
+          </button>
+          <button class="timer-control-btn" @click="timer.skipForward(5)" title="Forward 5 seconds">
+            <span class="iconify" data-icon="lucide:fast-forward"></span>
+          </button>
+          <button class="timer-control-btn" @click="timer.skipToNext()" title="Next checkpoint">
+            <span class="iconify" data-icon="lucide:skip-forward"></span>
+          </button>
+        </div>
+
+        <!-- Done Button (for rep-based exercises) -->
+        <template x-if="timer.currentSegment?.isUserControlled">
+          <div class="timer-done-container">
+            <button class="timer-done-btn" @click="timer.markDone()">
+              <span class="iconify" data-icon="lucide:check"></span>
+              <span>DONE</span>
+            </button>
+            <span class="timer-done-hint">Tap when complete</span>
+          </div>
+        </template>
+
+        <!-- Workout Complete -->
+        <template x-if="timer.isWorkoutComplete">
+          <div class="timer-complete">
+            <span class="iconify timer-complete-icon" data-icon="lucide:trophy"></span>
+            <div class="timer-complete-text">Workout Complete!</div>
+            <button class="timer-restart-btn" @click="timer.restart()">
+              <span class="iconify" data-icon="lucide:rotate-ccw"></span>
+              <span>Restart</span>
+            </button>
+          </div>
+        </template>
+      </div>
+    </div>
+  </template>
+</div>
+
+<!-- Alpine.js (pinned version) -->
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.3/dist/cdn.min.js"></script>
+
+<script>
+  // App component - defined before Alpine loads (defer attribute handles timing)
+  function routineStackApp() {
+    return {
+      sidebarOpen: true,
+      loading: true,
+      initialized: false,
+      isMobile: false,
+      savedWorkouts: [],
+      routines: [],
+      allWorkouts: [],
+      exercisesCatalogue: [],
+      progressions: {},
+      selectedWorkoutId: null,
+      selectedRoutineId: null,
+      copied: false,
+      generatedWorkout: null,
+      expandedExercises: [],
+
+      // Timer state
+      timerMode: false,
+      timer: null,
+
+      // Check if viewport is mobile width
+      checkMobile() {
+        return window.matchMedia('(max-width: 767px)').matches;
+      },
+
+      // Handle escape key to close sidebar on mobile
+      handleKeydown(e) {
+        if (e.key === 'Escape' && this.sidebarOpen && this.isMobile) {
+          this.sidebarOpen = false;
+        }
+      },
+
+      get selectedWorkout() {
+        // If we have a generated version, use that
+        if (this.generatedWorkout && this.generatedWorkout.id === this.selectedWorkoutId) {
+          return this.generatedWorkout;
+        }
+        // Look in both saved workouts and all workouts
+        const fromSaved = this.savedWorkouts.find(w => w.id === this.selectedWorkoutId);
+        if (fromSaved) return fromSaved;
+        return this.allWorkouts.find(w => w.id === this.selectedWorkoutId) || null;
+      },
+
+      // Check if current workout can be randomized
+      get canShuffle() {
+        const workout = this.allWorkouts.find(w => w.id === this.selectedWorkoutId) ||
+                        this.savedWorkouts.find(w => w.id === this.selectedWorkoutId);
+        if (!workout || !workout.sets) return false;
+        return window.WorkoutGenerator?.hasRandomizableSets(workout) ?? false;
+      },
+
+      getWorkoutsByRoutine(routineId) {
+        const workouts = this.allWorkouts.filter(w =>
+          w.routineId === routineId || w.category === routineId
+        );
+        // Sort shuffle workouts to the top
+        return workouts.sort((a, b) => {
+          const aShuffable = this.isWorkoutShuffleable(a);
+          const bShuffable = this.isWorkoutShuffleable(b);
+          if (aShuffable && !bShuffable) return -1;
+          if (!aShuffable && bShuffable) return 1;
+          return 0;
+        });
+      },
+
+      // Check if a workout has randomizable sets
+      isWorkoutShuffleable(workout) {
+        if (!workout || !workout.sets) return false;
+        return window.WorkoutGenerator?.hasRandomizableSets(workout) ?? false;
+      },
+
+      async init() {
+        // Prevent double initialization
+        if (this.initialized) return;
+        this.initialized = true;
+
+        // Mobile detection
+        this.isMobile = this.checkMobile();
+
+        // Auto-close on mobile
+        if (this.isMobile) {
+          this.sidebarOpen = false;
+        }
+
+        // Listen for viewport changes
+        window.matchMedia('(max-width: 767px)').addEventListener('change', (e) => {
+          this.isMobile = e.matches;
+          // Auto-close when switching to mobile, auto-open when switching to desktop
+          this.sidebarOpen = !e.matches;
+        });
+
+        await this.loadData();
+        await this.loadExercisesCatalogue();
+        await this.loadProgressions();
+
+        // Auto-load a random saved workout on startup
+        this.autoLoadRandomWorkout();
+      },
+
+      async loadData() {
+        this.loading = true;
+
+        // Clear arrays to prevent duplicates on hot-reload
+        this.savedWorkouts = [];
+        this.routines = [];
+        this.allWorkouts = [];
+
+        try {
+          // 1. Load routines (categories) first
+          const routineFiles = ['barre', 'cardio', 'gym', 'calisthenics', 'morning', 'yoga', 'action-jacqueline', 'challenges', 'maternity', 'heavy-duty', 'jump-rope', 'kettlebell', 'snippets'];
+          for (const id of routineFiles) {
+            try {
+              const res = await fetch(`./routines/${id}.json`);
+              if (res.ok) {
+                const routine = await res.json();
+                this.routines.push(routine);
+              }
+            } catch (e) {
+              console.warn(`Could not load routine: ${id}`, e);
+            }
+          }
+
+          // 2. Load all workout files for category browsing
+          const workoutPaths = [
+            { path: 'barre/aj-standing-barre.json', category: 'barre' },
+            { path: 'barre/aj-floor-barre.json', category: 'barre' },
+            { path: 'barre/action-jacqueline-random-4.json', category: 'barre' },
+            { path: 'barre/aj-all-30-days.json', category: 'action-jacqueline' },
+            { path: 'barre/simple-barre.json', category: 'barre' },
+            { path: 'gym/apartment-gym.json', category: 'gym' },
+            { path: 'gym/squat-rack.json', category: 'gym' },
+            { path: 'gym/machine-circuit.json', category: 'gym' },
+            { path: 'gym/4x4x3-block.json', category: 'gym' },
+            { path: 'gym/rrr-progressions.json', category: 'gym' },
+            { path: 'gym/leg-day.json', category: 'gym' },
+            { path: 'gym/leg-day-classic-circuit.json', category: 'gym' },
+            { path: 'cardio/fartlek.json', category: 'cardio' },
+            { path: 'cardio/erg-intervals.json', category: 'cardio' },
+            { path: 'yoga/gentle-flow.json', category: 'yoga' },
+            { path: 'morning/wakeup-flow.json', category: 'morning' },
+            { path: 'push-day.json', category: 'gym' },
+            { path: '100-reps-barre-leg-challenge.json', category: 'barre' },
+          ];
+
+          for (const { path, category } of workoutPaths) {
+            try {
+              const res = await fetch(`./workouts/${path}`);
+              if (res.ok) {
+                const workout = await res.json();
+                workout.category = category;
+                this.allWorkouts.push(workout);
+                console.log(`Loaded workout: ${workout.name} (${workout.id})`);
+              } else {
+                console.warn(`Failed to load workout: ${path} - Status: ${res.status}`);
+              }
+            } catch (e) {
+              console.warn(`Could not load workout: ${path}`, e);
+            }
+          }
+
+          // 3. Load saved workouts - these can be references OR full workout data
+          const savedFiles = ['aj-standing-barre', 'aj-floor-barre', 'aj-random-4', 'morning-wakeup', 'apartment-gym', '4x4x3-block', 'squat-rack', 'machine-circuit', 'gentle-yoga', 'reddit-rrr'];
+          for (const filename of savedFiles) {
+            try {
+              const res = await fetch(`./saved/${filename}.json`);
+              if (res.ok) {
+                const savedData = await res.json();
+
+                // Check if this is a reference or full workout data
+                if (savedData.workoutRef) {
+                  // It's a reference - look up the actual workout
+                  const actualWorkout = this.allWorkouts.find(w => w.id === savedData.workoutRef);
+                  if (actualWorkout) {
+                    // Merge saved metadata with actual workout
+                    this.savedWorkouts.push({
+                      ...actualWorkout,
+                      savedAt: savedData.savedAt,
+                      alias: savedData.alias,
+                    });
+                  } else {
+                    console.warn(`Could not find workout for ref: ${savedData.workoutRef}`);
+                  }
+                } else if (savedData.id) {
+                  // It's full workout data
+                  this.savedWorkouts.push(savedData);
+                }
+              }
+            } catch (e) {
+              console.warn(`Could not load saved workout: ${filename}`, e);
+            }
+          }
+
+        } catch (e) {
+          console.error('Error loading data:', e);
+        } finally {
+          this.loading = false;
+        }
+      },
+
+      // Randomly select and load a saved workout on startup
+      autoLoadRandomWorkout() {
+        if (this.savedWorkouts.length === 0) return;
+
+        // Pick a random saved workout
+        const randomIndex = Math.floor(Math.random() * this.savedWorkouts.length);
+        const randomWorkout = this.savedWorkouts[randomIndex];
+
+        // Actually select it (which generates the exercises)
+        this.selectWorkout(randomWorkout.id);
+        console.log('Auto-loaded random workout:', randomWorkout.name);
+      },
+
+      async loadExercisesCatalogue() {
+        try {
+          const res = await fetch('./static/exercises.json');
+          if (res.ok) {
+            this.exercisesCatalogue = await res.json();
+            console.log(`Loaded ${this.exercisesCatalogue.length} exercises for randomization`);
+          }
+        } catch (e) {
+          console.warn('Could not load exercises catalogue:', e);
+        }
+      },
+
+      async loadProgressions() {
+        try {
+          const res = await fetch('./progressions/dip-progression.json');
+          // Load all progression files
+          const progressionFiles = [
+            'dip-progression',
+            'hinge-progression',
+            'pull-up-progression',
+            'push-up-progression',
+            'row-progression',
+            'squat-progression',
+            'front-lever-progression',
+            'back-lever-progression',
+            'planche-progression',
+            'l-sit-progression',
+            'muscle-up-progression',
+          ];
+          this.progressions = {};
+          for (const id of progressionFiles) {
+            try {
+              const progRes = await fetch(`./progressions/${id}.json`);
+              if (progRes.ok) {
+                const prog = await progRes.json();
+                this.progressions[prog.id] = prog;
+              }
+            } catch (e) {
+              console.warn(`Could not load progression: ${id}`, e);
+            }
+          }
+          console.log(`Loaded ${Object.keys(this.progressions).length} progressions`);
+        } catch (e) {
+          console.warn('Could not load progressions:', e);
+        }
+      },
+
+      // Shuffle entire workout - regenerate all randomizable sets
+      shuffleWorkout() {
+        if (!this.selectedWorkoutId || this.exercisesCatalogue.length === 0) return;
+
+        // Get the original workout definition (not the generated one)
+        const originalWorkout = this.allWorkouts.find(w => w.id === this.selectedWorkoutId) ||
+                                this.savedWorkouts.find(w => w.id === this.selectedWorkoutId);
+        if (!originalWorkout) return;
+
+        // Build workout map for fixedAlternatives support
+        const workoutMap = {};
+        [...this.allWorkouts, ...this.savedWorkouts].forEach(w => {
+          if (w.id) workoutMap[w.id] = w;
+        });
+
+        // Generate new randomized version
+        this.generatedWorkout = window.WorkoutGenerator.generate(originalWorkout, this.exercisesCatalogue, this.progressions, workoutMap);
+        console.log('Shuffled workout:', this.generatedWorkout.generatedAt);
+      },
+
+      // Shuffle a single set
+      shuffleSet(setId) {
+        if (!this.generatedWorkout || this.exercisesCatalogue.length === 0) return;
+
+        this.generatedWorkout = window.WorkoutGenerator.regenerateSet(
+          this.generatedWorkout,
+          setId,
+          this.exercisesCatalogue,
+          this.progressions
+        );
+        console.log('Shuffled set:', setId);
+      },
+
+      // Shuffle a single exercise within a set
+      shuffleExercise(setId, exerciseIndex) {
+        if (!this.generatedWorkout || this.exercisesCatalogue.length === 0) return;
+
+        this.generatedWorkout = window.WorkoutGenerator.regenerateExercise(
+          this.generatedWorkout,
+          setId,
+          exerciseIndex,
+          this.exercisesCatalogue,
+          this.progressions
+        );
+        console.log('Shuffled exercise:', setId, exerciseIndex);
+      },
+
+      // Check if a specific set is randomizable
+      isSetRandomizable(set) {
+        return window.WorkoutGenerator?.isRandomizable(set) ?? false;
+      },
+
+      selectWorkout(id) {
+        this.selectedWorkoutId = id;
+        // Clear any previous generation
+        this.generatedWorkout = null;
+
+        // Always generate to look up exercise media from catalog
+        const workout = this.allWorkouts.find(w => w.id === id) ||
+                        this.savedWorkouts.find(w => w.id === id);
+        if (workout && this.exercisesCatalogue.length > 0 && workout.sets?.length > 0) {
+          // Build workout map for fixedAlternatives support
+          const workoutMap = {};
+          [...this.allWorkouts, ...this.savedWorkouts].forEach(w => {
+            if (w.id) workoutMap[w.id] = w;
+          });
+          
+          this.generatedWorkout = window.WorkoutGenerator.generate(workout, this.exercisesCatalogue, this.progressions, workoutMap);
+        }
+
+        // Close sidebar on mobile after selection
+        if (this.isMobile) {
+          this.sidebarOpen = false;
+        }
+      },
+
+      filterByRoutine(id) {
+        if (this.selectedRoutineId === id) {
+          // Toggle off
+          this.selectedRoutineId = null;
+        } else {
+          this.selectedRoutineId = id;
+        }
+      },
+
+      getRoutineName(routineId) {
+        const routine = this.routines.find(r => r.id === routineId);
+        return routine ? routine.name : routineId;
+      },
+
+      getWorkoutIcon(workout) {
+        // Shuffleable workouts get shuffle icon
+        if (this.isWorkoutShuffleable(workout)) {
+          return 'lucide:shuffle';
+        }
+        const categoryIcons = {
+          'barre': 'lucide:sparkles',
+          'gym': 'lucide:dumbbell',
+          'cardio': 'lucide:heart',
+          'calisthenics': 'lucide:activity',
+          'yoga': 'lucide:flower-2',
+          'morning': 'lucide:sunrise',
+          'action-jacqueline': 'lucide:sparkles',
+          'challenges': 'lucide:flame',
+          'maternity': 'lucide:heart-handshake',
+          'kettlebell': 'lucide:dumbbell',
+          'heavy-duty': 'lucide:weight',
+          'jump-rope': 'lucide:zap',
+          'snippets': 'lucide:puzzle',
+        };
+        return categoryIcons[workout.category] || categoryIcons[workout.routineId] || 'lucide:file';
+      },
+
+      // Get the correct image path for exercise media
+      getExerciseImagePath(mediaPath) {
+        if (!mediaPath) return '';
+        // Handle both /images/... and ./static/images/... paths
+        if (mediaPath.startsWith('/images/')) {
+          return './static' + mediaPath;
+        }
+        if (mediaPath.startsWith('./static/')) {
+          return mediaPath;
+        }
+        // Default: prepend static/images/
+        return './static/images/' + mediaPath;
+      },
+
+      // Toggle exercise description expansion
+      toggleExerciseExpand(exerciseId) {
+        if (!this.expandedExercises) this.expandedExercises = [];
+        const idx = this.expandedExercises.indexOf(exerciseId);
+        if (idx === -1) {
+          this.expandedExercises.push(exerciseId);
+        } else {
+          this.expandedExercises.splice(idx, 1);
+        }
+      },
+
+      // Extract YouTube video ID from URL
+      getYoutubeId(url) {
+        if (!url) return '';
+        // Handle various YouTube URL formats
+        const patterns = [
+          /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&\?\/]+)/,
+          /^([a-zA-Z0-9_-]{11})$/ // Just the ID
+        ];
+        for (const pattern of patterns) {
+          const match = url.match(pattern);
+          if (match) return match[1];
+        }
+        return url;
+      },
+
+      // Get YouTube thumbnail URL
+      getYoutubeThumbnail(url) {
+        const videoId = this.getYoutubeId(url);
+        return videoId ? `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` : '';
+      },
+
+      getRoutineWorkoutCount(routineId) {
+        return this.allWorkouts.filter(w =>
+          w.routineId === routineId || w.category === routineId
+        ).length;
+      },
+
+      async copyToClipboard() {
+        if (!this.selectedWorkout) return;
+
+        const text = JSON.stringify(this.selectedWorkout, null, 2);
+
+        try {
+          // Try modern clipboard API first
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(text);
+            this.copied = true;
+            setTimeout(() => { this.copied = false; }, 2000);
+            return;
+          }
+
+          // Fallback to older method
+          const textarea = document.createElement('textarea');
+          textarea.value = text;
+          textarea.style.position = 'fixed';
+          textarea.style.left = '-999999px';
+          textarea.style.top = '-999999px';
+          document.body.appendChild(textarea);
+          textarea.focus();
+          textarea.select();
+
+          try {
+            const successful = document.execCommand('copy');
+            if (successful) {
+              this.copied = true;
+              setTimeout(() => { this.copied = false; }, 2000);
+            } else {
+              console.error('Failed to copy: execCommand returned false');
+            }
+          } finally {
+            document.body.removeChild(textarea);
+          }
+        } catch (e) {
+          console.error('Failed to copy:', e);
+        }
+      },
+
+      // ==================== Timer Methods ====================
+
+      startTimer() {
+        if (!this.generatedWorkout) {
+          console.warn('No workout to start timer for');
+          return;
+        }
+
+        // Initialize timer component if needed
+        if (!this.timer) {
+          this.timer = workoutTimer();
+        }
+
+        // Initialize with the generated workout
+        this.timer.init(this.generatedWorkout);
+        this.timerMode = true;
+
+        // Prevent body scroll when timer is open
+        document.body.style.overflow = 'hidden';
+      },
+
+      exitTimer() {
+        if (this.timer && !this.timer.isPaused && !this.timer.isWorkoutComplete) {
+          // Confirm exit if workout is in progress
+          if (!confirm('Exit timer? Your progress will be lost.')) {
+            return;
+          }
+        }
+
+        this.timerMode = false;
+        if (this.timer) {
+          this.timer.stop();
+        }
+
+        // Restore body scroll
+        document.body.style.overflow = '';
+      },
+    };
+  }
+</script>
+
+</body>
+</html>

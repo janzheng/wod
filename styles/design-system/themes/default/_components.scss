@@ -1,0 +1,232 @@
+.theme-scope {
+/* Data Lists */
+.data-list {
+display: flex;
+flex-direction: column;
+border: 1px solid var(--color-border);
+border-radius: 0.5rem;
+overflow: hidden;
+background-color: var(--color-bg-primary);
+}
+
+.data-list-row {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.75rem 1rem;
+border-bottom: 1px solid var(--color-border);
+background-color: var(--color-bg-primary);
+transition: background-color 0.15s ease;
+}
+
+.data-list-row:last-child {
+border-bottom: none;
+}
+
+.data-list-row:hover {
+background-color: var(--color-bg-secondary);
+}
+
+.data-list-row-content {
+display: flex;
+align-items: center;
+gap: 1rem;
+flex: 1;
+}
+
+.data-list-row-actions {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+}
+
+.data-list-item-title {
+font-weight: 500;
+color: var(--color-text-primary);
+}
+
+.data-list-item-subtitle {
+font-size: 0.875rem;
+color: var(--color-text-secondary);
+}
+
+/* Empty State */
+.empty-state {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 2rem 1rem;
+text-align: center;
+background-color: var(--color-bg-secondary);
+border: 1px dashed var(--color-border);
+border-radius: 0.5rem;
+color: var(--color-text-secondary);
+}
+
+.empty-state-icon {
+width: 3rem;
+height: 3rem;
+margin-bottom: 1rem;
+color: var(--color-text-muted);
+}
+
+.empty-state-title {
+font-size: 1rem;
+font-weight: 600;
+color: var(--color-text-primary);
+margin-bottom: 0.5rem;
+}
+
+.empty-state-description {
+font-size: 0.875rem;
+max-width: 20rem;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+gap: 0.5rem;
+font-size: 0.875rem;
+line-height: 20px;
+color: var(--color-text-secondary);
+margin-bottom: 1.5rem;
+}
+
+.breadcrumb-item {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+}
+
+.breadcrumb-separator,
+.crumb-divider {
+color: var(--color-border-light);
+display: inline-flex;
+align-items: center;
+}
+
+.breadcrumb-link {
+color: var(--color-text-secondary);
+text-decoration: none;
+transition: color 0.15s ease;
+}
+
+.breadcrumb-link:hover {
+color: var(--color-text-primary);
+text-decoration: underline;
+}
+
+.breadcrumb-current {
+color: var(--color-text-primary);
+font-weight: 500;
+}
+
+/* Breadcrumbs with Chevrons */
+.breadcrumbs-chevron .crumb-divider {
+color: var(--color-border-light);
+}
+
+/* Breadcrumbs with Icons */
+.breadcrumbs .crumb-divider svg {
+width: 16px;
+height: 16px;
+color: var(--color-border-light);
+}
+
+/* Back-Link Breadcrumb */
+.back-link {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+font-size: 0.875rem;
+line-height: 20px;
+margin-bottom: 1.5rem;
+}
+
+.back-link svg {
+width: 16px;
+height: 16px;
+color: var(--color-text-secondary);
+}
+
+.back-link .breadcrumb-link {
+color: var(--color-text-secondary);
+text-decoration: none;
+transition: color 0.15s ease;
+}
+
+.back-link .breadcrumb-link:hover {
+color: var(--color-text-primary);
+text-decoration: underline;
+}
+
+/* Breadcrumbs with Ellipsis */
+.crumb-ellipsis {
+color: var(--color-text-muted);
+}
+
+/* Small Breadcrumbs */
+.breadcrumbs-small {
+font-size: 0.75rem;
+line-height: 18px;
+}
+
+.breadcrumbs-small .crumb-divider svg {
+width: 14px;
+height: 14px;
+}
+
+/* Large Breadcrumbs */
+.breadcrumbs-large {
+font-size: 1rem;
+line-height: 24px;
+}
+
+.breadcrumbs-large .crumb-divider svg {
+width: 18px;
+height: 18px;
+}
+
+/* Loading States */
+@keyframes spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+.animate-spin {
+animation: spin 1s linear infinite;
+}
+
+.loading-overlay {
+position: absolute;
+inset: 0;
+background-color: rgba(255, 255, 255, 0.7);
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 50;
+backdrop-filter: blur(2px);
+border-radius: inherit;
+}
+
+.loading-skeleton {
+background-color: var(--color-bg-muted);
+border-radius: 0.25rem;
+animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+0%, 100% {
+  opacity: 1;
+}
+50% {
+  opacity: 0.5;
+}
+}
+}

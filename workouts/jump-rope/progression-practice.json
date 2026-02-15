@@ -1,0 +1,95 @@
+{
+  "id": "jump-rope-progression-practice",
+  "name": "Jump Rope: Progression Practice",
+  "description": "Structured skill progressions from basics to intermediate. Each block builds on the previous. Perfect for beginners working toward consistent jumping and learning new skills.",
+  "routineId": "jump-rope",
+  "tags": ["jump-rope", "progression", "beginner", "learning", "skill"],
+  "estimatedDuration": 22,
+  "equipment": ["jump-rope"],
+  "sets": [
+    {
+      "id": "foundation",
+      "name": "Foundation: Master the Basics",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-side-swing", "duration": 30, "notes": "Practice rope control without jumping" },
+        { "id": "jump-rope-basic-bounce", "reps": 10, "notes": "10 consecutive jumps - reset if you trip" },
+        { "id": "jump-rope-basic-bounce", "reps": 20, "notes": "Try for 20 consecutive" },
+        { "id": "jump-rope-basic-bounce", "reps": 30, "notes": "Try for 30 - this is your baseline" }
+      ],
+      "restBetween": 20,
+      "restAfter": 60
+    },
+    {
+      "id": "progression-1",
+      "name": "Progression 1: Rhythm Variations",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "duration": 30, "notes": "Steady rhythm" },
+        { "id": "jump-rope-boxer-step", "duration": 30, "notes": "Add the weight shift" },
+        { "id": "jump-rope-running-in-place", "duration": 30, "notes": "Alternate feet" }
+      ],
+      "rounds": 2,
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "progression-2",
+      "name": "Progression 2: Directional Control",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "duration": 20, "notes": "Baseline" },
+        { "id": "jump-rope-lateral-hops", "duration": 20, "notes": "Small hops side to side" },
+        { "id": "jump-rope-front-back", "duration": 20, "notes": "Small hops forward/back" },
+        { "id": "jump-rope-boxer-step", "duration": 20, "notes": "Recovery" }
+      ],
+      "rounds": 2,
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "progression-3",
+      "name": "Progression 3: Single Leg Intro",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "reps": 10, "notes": "10 regular jumps" },
+        { "id": "jump-rope-single-leg", "reps": 5, "notes": "5 jumps on right leg - it's OK to trip!" },
+        { "id": "jump-rope-basic-bounce", "reps": 10, "notes": "10 regular jumps" },
+        { "id": "jump-rope-single-leg", "reps": 5, "notes": "5 jumps on left leg" }
+      ],
+      "rounds": 3,
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "progression-4",
+      "name": "Progression 4: First Tricks",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-boxer-step", "duration": 30, "notes": "Get comfortable" },
+        { "id": "jump-rope-twist", "duration": 20, "notes": "Try adding hip rotation" },
+        { "id": "jump-rope-heel-toe", "reps": "5-10", "notes": "Heel tap, toe tap - go slow" },
+        { "id": "jump-rope-basic-bounce", "duration": 20, "notes": "Back to basics" }
+      ],
+      "rounds": 2,
+      "restBetween": 20,
+      "restAfter": 45
+    },
+    {
+      "id": "test",
+      "name": "Progress Test: 1-Minute Challenge",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-boxer-step", "duration": 60, "notes": "1 minute straight. Count your trips. Fewer trips = progress!" }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "PROGRESSIONS: Master each level before moving to the next",
+    "Tripping is NORMAL - reset quickly and keep going",
+    "If you can't do 20 consecutive basic jumps yet, practice that before moving on",
+    "Track your progress: How many consecutive jumps can you do?",
+    "Practice 10-15 minutes daily for fastest improvement"
+  ]
+}

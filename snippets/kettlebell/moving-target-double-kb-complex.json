@@ -1,0 +1,60 @@
+{
+  "id": "moving-target-double-kb-complex",
+  "name": "Advanced Moving Target Double Kettlebell Complex",
+  "type": "sequence",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/kb_kings/status/2022331481889357842",
+    "creator": "@kb_kings",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["full-body", "core", "shoulders", "back", "glutes", "quads", "hamstrings", "compound", "dynamic", "gym", "advanced", "kettlebell", "complex"],
+  "equipment": ["kettlebell"],
+  "muscles": ["full-body", "core", "shoulders", "back", "glutes", "quads", "hamstrings", "grip"],
+  "difficulty": "advanced",
+  "estimatedDuration": 10,
+  "description": "An advanced double kettlebell complex that flows through swings, cleans, and snatches with a decreasing ladder for snatch reps (3-2-1) across rounds. The 'moving target' refers to the descending snatch count. All performed without setting the bells down.",
+  "exercises": [
+    {
+      "name": "Double Kettlebell Swing",
+      "reps": null,
+      "duration": null,
+      "description": "Hinge at the hips to swing two kettlebells from between the legs to chest height using explosive hip drive.",
+      "notes": "Maintain neutral spine; power from hips, not arms."
+    },
+    {
+      "name": "Double Kettlebell Clean",
+      "reps": null,
+      "duration": null,
+      "description": "Pull the kettlebells from the swing position into a racked position at the chest, elbows tucked.",
+      "notes": "Keep bells close to body; use legs and hips to guide the movement."
+    },
+    {
+      "name": "Double Kettlebell Snatch",
+      "reps": null,
+      "duration": null,
+      "description": "From the racked position, explosively press the kettlebells overhead in one motion, locking out arms.",
+      "notes": "Punch through the bells; maintain tension in core and glutes. Reps: 3 in round 1, 2 in round 2, 1 in round 3."
+    }
+  ],
+  "sequence": {
+    "rounds": 3,
+    "restBetween": 0,
+    "flow": "Exercises flow together without setting bells down. Swing into clean into snatch.",
+    "notes": "Moving target = snatch reps decrease each round: 3-2-1. Swing and clean reps not specified, flow continuously into snatches."
+  },
+  "raw": {
+    "transcript": "",
+    "caption": "Advanced Double Bell Complex\n\nThanks to @alexkaru on IG for sharing",
+    "textOverlays": ["Moving Target Double Complex", "Moving Kettlebell Double Complex", "Swing", "Clean", "Snatch = Moving Target", "3 Snatch", "2 Snatch", "1 Snatch"],
+    "visualSummary": "Performer executes double kettlebell swings, cleans, and snatches in a continuous flow outdoors on grass, repeating the sequence three times with decreasing snatch repetitions indicated by overlays and green ball counters."
+  },
+  "confidence": {
+    "overall": "medium",
+    "uncertainties": [
+      "Exact reps for swings and cleans not stated - they flow into snatches per round",
+      "No spoken audio; structure based solely on visuals and text overlays",
+      "Workout duration estimated; actual time depends on reps chosen for swings and cleans"
+    ]
+  }
+}

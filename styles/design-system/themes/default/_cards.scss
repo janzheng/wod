@@ -1,0 +1,50 @@
+.theme-scope {
+/* Cards */
+.card,
+.app-card {
+padding: var(--space-card-padding); /* Reduced from 1.5rem */
+background-color: var(--color-bg-primary);
+border: 1px solid var(--color-border);
+border-radius: var(--radius-lg);
+box-shadow: var(--shadow-card);
+margin-bottom: 1rem; /* Reduced from 1.5rem */
+}
+
+/*   .card:hover {
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+} */
+.card-title,
+.app-title {
+font-size: var(--text-xl);
+font-weight: var(--font-semibold);
+color: var(--color-text-primary);
+margin-bottom: 0.5rem;
+}
+
+.card-content,
+.app-card-content {
+color: var(--color-text-secondary);
+}
+
+/* Demo Card - for showcase/demo purposes */
+.demo-card {
+padding: 1rem;
+border: 1px solid var(--color-border);
+border-radius: var(--radius-md);
+}
+
+.demo-card p:last-child {
+margin-bottom: 0;
+}
+
+.app-card p:last-child,
+.app-card-content p:last-child {
+margin-bottom: 0;
+}
+
+/* Cards with borders and padding - ensure last paragraph has no margin */
+div[class*=border][class*=rounded] p:last-child,
+div[class*=border][class*=p-] p:last-child {
+margin-bottom: 0;
+}
+}

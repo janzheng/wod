@@ -1,0 +1,12 @@
+{
+  "name": "@prague/styles",
+  "version": "1.0.0",
+  "exports": {
+    ".": "./theme.css",
+    "./themes/*": "./themes/*",
+    "./tokens/*": "./tokens/*"
+  },
+  "tasks": {
+    "build": "deno run -A build.ts"
+  }
+}

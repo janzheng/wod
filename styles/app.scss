@@ -1,0 +1,1676 @@
+/**
+ * Workouts of the Day - App-specific Styles
+ * Uses design system CSS variables for theming.
+ */
+
+// ==========================================================================
+// Base Layout
+// ==========================================================================
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+#app {
+  height: 100vh;
+  overflow: hidden;
+}
+
+// ==========================================================================
+// Sidebar Provider
+// ==========================================================================
+
+.sidebar-provider {
+  display: flex;
+  height: 100%;
+  background-color: var(--color-bg-primary, #ffffff);
+  overflow: hidden;
+  position: relative;
+}
+
+// ==========================================================================
+// Sidebar Wrapper
+// ==========================================================================
+
+.sidebar-wrapper {
+  position: relative;
+  width: var(--sidebar-width, 18rem);
+  height: 100%;
+  flex-shrink: 0;
+  transition: width 200ms ease;
+  overflow: hidden;
+}
+
+.sidebar-provider[data-state="closed"] .sidebar-wrapper {
+  width: 0;
+}
+
+// ==========================================================================
+// Sidebar
+// ==========================================================================
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: var(--sidebar-width, 18rem);
+  height: 100%;
+  background-color: var(--color-bg-secondary, #f9fafb);
+  border-right: 1px solid var(--color-border, #e5e7eb);
+  overflow: hidden;
+  transform: translateX(0);
+  transition: transform 200ms ease;
+}
+
+.sidebar-provider[data-state="closed"] .sidebar {
+  transform: translateX(-100%);
+}
+
+// ==========================================================================
+// Sidebar Header
+// ==========================================================================
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--color-border, #e5e7eb);
+}
+
+.sidebar-header-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 0.5rem;
+  min-height: 2rem;
+}
+
+.sidebar-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+}
+
+.sidebar-icon {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--color-text-muted, #6b7280);
+}
+
+// ==========================================================================
+// Sidebar Content
+// ==========================================================================
+
+.sidebar-content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.5rem;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-border, #e5e7eb);
+    border-radius: 0.375rem;
+  }
+}
+
+// ==========================================================================
+// Sidebar Group
+// ==========================================================================
+
+.sidebar-group + .sidebar-group {
+  margin-top: 0.75rem;
+}
+
+.sidebar-group-label {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  padding: 0 0.75rem;
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #6b7280);
+  letter-spacing: 0.02em;
+}
+
+.sidebar-group-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 2rem;
+  padding: 0 0.75rem;
+  border: none;
+  border-radius: 0.375rem;
+  background: transparent;
+  color: var(--color-text-muted, #6b7280);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+
+  &:hover {
+    background-color: var(--color-bg-muted, #f3f4f6);
+    color: var(--color-text-primary, #111827);
+  }
+}
+
+.sidebar-group-chevron {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  transition: transform 150ms ease;
+
+  &.rotated {
+    transform: rotate(180deg);
+  }
+}
+
+// ==========================================================================
+// Folder Tree Component (simplified from sidebar-layout template)
+// ==========================================================================
+
+.folder-tree {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.folder-tree-folder {
+  position: relative;
+}
+
+.folder-tree-folder-row {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  height: 2rem;
+  padding: 0 0.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+
+  &:hover {
+    background-color: var(--color-bg-muted, #f3f4f6);
+  }
+}
+
+.folder-tree-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted, #6b7280);
+  cursor: pointer;
+  flex-shrink: 0;
+
+  &:hover {
+    color: var(--color-text-primary, #111827);
+  }
+}
+
+.folder-tree-chevron {
+  width: 0.75rem;
+  height: 0.75rem;
+  transition: transform 150ms ease;
+
+  &.rotated {
+    transform: rotate(90deg);
+  }
+}
+
+.folder-tree-icon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--color-text-muted, #6b7280);
+  flex-shrink: 0;
+}
+
+.folder-tree-name {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary, #374151);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.folder-tree-count {
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #9ca3af);
+  flex-shrink: 0;
+  padding: 0.125rem 0.5rem;
+  background: transparent;
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 9999px;
+}
+
+// Folder contents (items inside folder)
+.folder-tree-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  margin-left: 1rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--color-border, #e5e7eb);
+}
+
+// Individual item in folder
+.folder-tree-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 1.75rem;
+  padding: 0 0.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+
+  &:hover {
+    background-color: var(--color-bg-muted, #f3f4f6);
+  }
+
+  &.active {
+    background-color: var(--color-bg-muted, #f3f4f6);
+    font-weight: 500;
+  }
+}
+
+.folder-tree-item-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary, #64748b);
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &:hover {
+    color: var(--color-text-primary, #111827);
+  }
+}
+
+.folder-tree-item.active .folder-tree-item-btn {
+  color: var(--color-text-primary, #111827);
+}
+
+.folder-tree-shuffle-icon {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  margin-right: 0.375rem;
+  color: var(--color-text-muted, #6b7280);
+  opacity: 0.7;
+}
+
+.folder-tree-item.active .folder-tree-shuffle-icon {
+  color: var(--color-primary, #3b82f6);
+  opacity: 1;
+}
+
+.folder-tree-item-badge {
+  flex-shrink: 0;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  background-color: var(--color-text-muted, #6b7280);
+  color: #ffffff;
+  border-radius: 9999px;
+}
+
+// ==========================================================================
+// Sidebar Menu
+// ==========================================================================
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu-item {
+  position: relative;
+}
+
+.sidebar-menu-button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  height: 2rem;
+  padding: 0 0.75rem;
+  border: none;
+  border-radius: 0.375rem;
+  background: transparent;
+  color: var(--color-text-secondary, #374151);
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &:hover {
+    background-color: var(--color-bg-muted, #f3f4f6);
+    color: var(--color-text-primary, #111827);
+  }
+
+  &.active {
+    background-color: var(--color-bg-muted, #f3f4f6);
+    color: var(--color-text-primary, #111827);
+    font-weight: 500;
+  }
+}
+
+.sidebar-menu-label {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.sidebar-menu-badge {
+  flex-shrink: 0;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: var(--color-text-muted, #6b7280);
+  color: #ffffff;
+  border-radius: 9999px;
+
+  &.badge-outline {
+    background-color: transparent;
+    border: 1px solid var(--color-border, #e5e7eb);
+    color: var(--color-text-secondary, #374151);
+  }
+}
+
+// ==========================================================================
+// Sidebar Footer
+// ==========================================================================
+
+.sidebar-footer {
+  flex-shrink: 0;
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid var(--color-border, #e5e7eb);
+}
+
+.sidebar-footer-info {
+  display: flex;
+  align-items: center;
+}
+
+// ==========================================================================
+// Sidebar States
+// ==========================================================================
+
+.sidebar-loading,
+.sidebar-empty {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: var(--color-text-muted, #6b7280);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+// ==========================================================================
+// Sidebar Trigger
+// ==========================================================================
+
+.sidebar-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.375rem;
+  background: transparent;
+  border: 1px solid var(--color-border, #e5e7eb);
+  cursor: pointer;
+  color: var(--color-text-secondary, #374151);
+  transition: background-color 150ms ease, border-color 150ms ease;
+
+  &:hover {
+    background-color: var(--color-bg-muted, #f3f4f6);
+    color: var(--color-text-primary, #111827);
+  }
+}
+
+.sidebar-trigger-icon {
+  color: var(--color-text-muted, #6b7280);
+  transition: transform 150ms ease;
+
+  &.rotated {
+    transform: rotate(180deg);
+  }
+}
+
+// ==========================================================================
+// Sidebar Inset (Main Content)
+// ==========================================================================
+
+.sidebar-inset {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg-primary, #ffffff);
+  overflow: hidden;
+}
+
+.sidebar-inset-header {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--color-border, #e5e7eb);
+}
+
+.sidebar-inset-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+  margin: 0;
+  line-height: 1;
+}
+
+.sidebar-inset-content {
+  flex: 1;
+  min-height: 0;
+  padding: 1.5rem 1.5rem 6rem 1.5rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+// ==========================================================================
+// Empty State
+// ==========================================================================
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: var(--color-text-muted, #6b7280);
+}
+
+.empty-state-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+  background: var(--color-bg-muted, #f3f4f6);
+  border-radius: 9999px;
+
+  .iconify {
+    width: 32px;
+    height: 32px;
+    color: var(--color-text-muted, #6b7280);
+  }
+}
+
+.empty-state-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+  margin: 0 0 0.5rem 0;
+}
+
+.empty-state-description {
+  font-size: 0.875rem;
+  color: var(--color-text-muted, #6b7280);
+  margin: 0;
+  max-width: 300px;
+}
+
+// ==========================================================================
+// Loading State
+// ==========================================================================
+
+.loading-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 100%;
+  color: var(--color-text-muted, #6b7280);
+
+  .iconify {
+    animation: spin 1s linear infinite;
+  }
+}
+
+// ==========================================================================
+// Workout Detail
+// ==========================================================================
+
+.workout-detail {
+  max-width: 800px;
+}
+
+.workout-header {
+  margin-bottom: 1.5rem;
+}
+
+.workout-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.workout-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: var(--color-bg-muted, #f3f4f6);
+  color: var(--color-text-secondary, #374151);
+  border-radius: 0.375rem;
+
+  .iconify {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  &.tag-beginner {
+    background: #dcfce7;
+    color: #166534;
+  }
+
+  &.tag-intermediate {
+    background: #fef3c7;
+    color: #92400e;
+  }
+
+  &.tag-advanced {
+    background: #fee2e2;
+    color: #991b1b;
+  }
+}
+
+.workout-source-link {
+  text-decoration: none;
+  background: #ede9fe;
+  color: #6d28d9;
+  cursor: pointer;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: #ddd6fe;
+    color: #5b21b6;
+  }
+}
+
+.workout-source-tag {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.workout-description {
+  font-size: 1rem;
+  color: var(--color-text-secondary, #374151);
+  line-height: 1.5;
+  margin: 0 0 0.25rem 0;
+}
+
+.workout-tips-inline {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted, #6b7280);
+  line-height: 1.4;
+  margin: 0;
+}
+
+// ==========================================================================
+// JSON Section (Collapsible)
+// ==========================================================================
+
+.json-details {
+  margin-top: 1.5rem;
+  background: var(--color-bg-secondary, #f9fafb);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.json-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  user-select: none;
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #6b7280);
+
+  &:hover {
+    background: var(--color-bg-muted, #f3f4f6);
+  }
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &::before {
+    content: '▶';
+    font-size: 0.5rem;
+    margin-right: 0.5rem;
+    transition: transform 150ms ease;
+  }
+}
+
+.json-details[open] .json-summary::before {
+  transform: rotate(90deg);
+}
+
+.json-summary-text {
+  flex: 1;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 0;
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #6b7280);
+  background: transparent;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 100ms ease;
+
+  &:hover {
+    background: var(--color-bg-muted, #e5e7eb);
+    color: var(--color-text-primary, #111827);
+  }
+
+  &.copied {
+    color: #22c55e;
+  }
+
+  .iconify {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}
+
+.workout-json {
+  background: var(--color-bg-primary, #ffffff);
+  border-top: 1px solid var(--color-border, #e5e7eb);
+  padding: 0.75rem;
+  margin: 0;
+  overflow-x: auto;
+  max-height: 300px;
+  overflow-y: auto;
+
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.625rem;
+    color: var(--color-text-secondary, #374151);
+    white-space: pre;
+  }
+}
+
+.section-title {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+  margin: 0 0 0.5rem 0;
+}
+
+// Tips are now inline in the header - removed old section styles
+
+// ==========================================================================
+// Utility Classes
+// ==========================================================================
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-muted {
+  color: var(--color-text-muted, #6b7280);
+}
+
+// ==========================================================================
+// Shuffle Section
+// ==========================================================================
+
+.shuffle-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg-secondary, #f9fafb);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 0.5rem;
+}
+
+.shuffle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: var(--space-btn-y, 0.5rem) var(--space-btn-x, 1rem);
+  font-size: var(--text-button, 0.875rem);
+  font-weight: var(--font-medium, 500);
+  line-height: var(--leading-normal, 1.5);
+  color: var(--color-primary, #2563eb);
+  background-color: var(--color-primary-light, #eff6ff);
+  border: 1px solid currentColor;
+  box-shadow: inset 0 0 0 1px currentColor;
+  border-radius: var(--radius-button, 0.375rem);
+  cursor: pointer;
+  transition: all 150ms ease;
+  text-decoration: none;
+
+  &:hover {
+    background-color: var(--color-primary-lighter, #dbeafe);
+    color: var(--color-primary-hover, #1d4ed8);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: inset 0 0 0 1px currentColor, 0 0 0 var(--ring-width, 3px) var(--color-primary-ring, rgba(37, 99, 235, 0.3));
+  }
+
+  &:active {
+    background-color: var(--color-primary-lightest, #bfdbfe);
+    color: var(--color-primary-active, #1e40af);
+  }
+
+  .iconify {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+.shuffle-hint {
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #6b7280);
+}
+
+// ==========================================================================
+// Generated Sets Section
+// ==========================================================================
+
+.generated-sets-section {
+  margin-bottom: 1.5rem;
+}
+
+// Wrapper card for all workout blocks
+.workout-card-container {
+  background: var(--color-bg-primary, #ffffff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+
+.generated-set {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.generated-set-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-border, #e5e7eb);
+}
+
+.generated-set-name {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+}
+
+.generated-set-rounds {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 0.0625rem 0.375rem;
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 0.25rem;
+}
+
+.shuffle-set-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  margin-left: auto;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: var(--color-text-muted, #9ca3af);
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 100ms, color 100ms;
+
+  &:hover {
+    opacity: 1;
+    color: var(--color-primary, #2563eb);
+  }
+
+  .iconify {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}
+
+// Per-exercise shuffle button (for individual exercise shuffling)
+.shuffle-exercise-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+  padding: 0;
+  background: transparent;
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 0.25rem;
+  color: var(--color-text-muted, #6b7280);
+  cursor: pointer;
+  transition: all 150ms ease;
+
+  &:hover {
+    background: var(--color-primary-light, #eff6ff);
+    border-color: var(--color-primary, #2563eb);
+    color: var(--color-primary, #2563eb);
+  }
+
+  &:active {
+    background: var(--color-primary-lighter, #dbeafe);
+    transform: scale(0.95);
+  }
+
+  .iconify {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}
+
+// ==========================================================================
+// CLI-Dense Exercise List
+// ==========================================================================
+
+.exercise-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.4;
+
+  &.expandable {
+    cursor: pointer;
+
+    &:hover {
+      background: var(--color-bg-hover, #fafafa);
+    }
+  }
+}
+
+.ex-shuffle {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  color: var(--color-text-muted, #9ca3af);
+  font-size: 0.75rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 100ms, color 100ms;
+
+  &:hover {
+    opacity: 1;
+    color: var(--color-primary, #2563eb);
+  }
+}
+
+.ex-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-text-primary, #111827);
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .exercise-line {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+
+  .ex-shuffle {
+    grid-column: 1;
+    grid-row: 1 / -1;
+  }
+
+  .ex-name {
+    grid-column: 2;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ex-media-icon {
+    grid-column: 2;
+  }
+
+  .ex-duration {
+    grid-column: 2;
+  }
+
+  .ex-notes {
+    grid-column: 2;
+  }
+
+  .ex-expand {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .ex-expanded {
+    grid-column: 2;
+  }
+}
+
+.ex-duration {
+  flex-shrink: 0;
+  color: var(--color-primary, #2563eb);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.ex-notes {
+  color: var(--color-text-muted, #6b7280);
+  font-size: 1rem;
+}
+
+.ex-media-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-text-muted, #9ca3af);
+
+  .iconify {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+.ex-expand {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted, #9ca3af);
+  margin-left: auto;
+  transition: transform 200ms ease;
+
+  .iconify {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  &.expanded {
+    transform: rotate(180deg);
+  }
+}
+
+.ex-expanded {
+  flex-basis: 100%;
+  padding: 0.5rem 0 0.25rem;
+}
+
+.ex-desc {
+  font-size: 1rem;
+  color: var(--color-text-secondary, #374151);
+  line-height: 1.5;
+  margin: 0 0 0.5rem 0;
+}
+
+.ex-media {
+  max-width: 240px;
+  border-radius: 0.375rem;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+  }
+}
+
+// ==========================================================================
+// Exercise Cards Grid
+// ==========================================================================
+
+.exercise-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.exercise-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-primary, #ffffff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: box-shadow 150ms ease, transform 150ms ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+  }
+}
+
+.exercise-card-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: var(--color-bg-muted, #f3f4f6);
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 200ms ease;
+  }
+
+  .exercise-card:hover & img {
+    transform: scale(1.02);
+  }
+}
+
+.exercise-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding: 0.75rem;
+}
+
+.exercise-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.exercise-card-title {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.exercise-card-day {
+  flex-shrink: 0;
+  font-size: 0.625rem;
+  font-weight: 600;
+  padding: 0.125rem 0.375rem;
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.exercise-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+.exercise-card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  padding: 0.125rem 0.375rem;
+  background: var(--color-primary-light, #eff6ff);
+  color: var(--color-primary, #2563eb);
+  border-radius: 0.25rem;
+
+  .iconify {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  &.exercise-card-badge-muted {
+    background: var(--color-bg-muted, #f3f4f6);
+    color: var(--color-text-secondary, #374151);
+  }
+}
+
+.exercise-card-notes,
+.exercise-card-description {
+  font-size: 0.6875rem;
+  line-height: 1.4;
+  color: var(--color-text-muted, #6b7280);
+  margin: 0;
+  // Clamp to 2 lines
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.exercise-card-notes {
+  font-style: italic;
+}
+
+// ==========================================================================
+// Exercise Rows (Row-based layout with media on right)
+// Bold, assertive design for workout use
+// ==========================================================================
+
+.exercise-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem; // Tighter spacing between rows
+}
+
+.exercise-row {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-primary, #ffffff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: box-shadow 150ms ease, border-color 150ms ease;
+  cursor: pointer;
+
+  &:hover {
+    border-color: var(--color-border-hover, #d1d5db);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  }
+
+  &.exercise-row-expanded {
+    border-color: var(--color-primary, #2563eb);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
+  }
+}
+
+.exercise-row-main {
+  display: flex;
+  align-items: baseline; // Baseline alignment
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem; // Reduced padding
+  min-height: auto; // Remove minimum height
+}
+
+.exercise-row-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: row; // Single row layout
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.exercise-row-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+.exercise-row-title {
+  font-size: 0.9375rem; // Slightly smaller
+  font-weight: 600;
+  color: var(--color-text-primary, #111827);
+  margin: 0;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.exercise-row-day {
+  flex-shrink: 0;
+  font-size: 0.625rem;
+  font-weight: 600;
+  padding: 0.125rem 0.375rem;
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.exercise-row-meta {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.375rem;
+  align-items: baseline;
+}
+
+.exercise-row-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.125rem 0.375rem;
+  background: var(--color-primary-light, #eff6ff);
+  color: var(--color-primary, #2563eb);
+  border-radius: 0.25rem;
+
+  .iconify {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  &.exercise-row-badge-muted {
+    background: var(--color-bg-muted, #f3f4f6);
+    color: var(--color-text-secondary, #374151);
+  }
+}
+
+.exercise-row-notes {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: var(--color-text-muted, #6b7280);
+  margin: 0;
+  font-style: italic;
+}
+
+// Media thumbnail on right - compact
+.exercise-row-media {
+  flex-shrink: 0;
+  width: 3rem;
+  height: 2.25rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  background: var(--color-bg-muted, #f3f4f6);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 200ms ease;
+  }
+
+  .exercise-row:hover & img {
+    transform: scale(1.03);
+  }
+}
+
+.exercise-media-video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-muted, #f3f4f6);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.exercise-media-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .iconify {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+.exercise-media-icon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-text-muted, #6b7280);
+}
+
+.exercise-row-expand-icon {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted, #6b7280);
+  transition: color 150ms ease;
+
+  .iconify {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  .exercise-row:hover & {
+    color: var(--color-text-secondary, #374151);
+  }
+}
+
+// Expanded description panel
+.exercise-row-description {
+  padding: 0 0.75rem 0.75rem;
+  border-top: 1px solid var(--color-border, #e5e7eb);
+  margin-top: 0;
+  animation: slideDown 150ms ease;
+
+  p {
+    font-size: 0.8125rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary, #374151);
+    margin: 0.75rem 0 0;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Embedded video player
+.exercise-row-video-embed {
+  margin-top: 0.75rem;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  background: #000;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+// Mobile responsive for rows
+@media (max-width: 480px) {
+  .exercise-row-main {
+    padding: 0.375rem 0.5rem;
+  }
+
+  .exercise-row-title {
+    font-size: 0.8125rem;
+  }
+
+  .exercise-row-media {
+    width: 2.5rem;
+    height: 2rem;
+  }
+}
+
+// Fallback list styles (keep for non-card contexts)
+.generated-exercises-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.generated-exercise {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--color-bg-primary, #ffffff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 0.375rem;
+}
+
+.exercise-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-primary, #111827);
+}
+
+.exercise-detail {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.125rem 0.375rem;
+  background: var(--color-bg-muted, #f3f4f6);
+  color: var(--color-text-secondary, #374151);
+  border-radius: 0.25rem;
+}
+
+.exercise-note {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--color-text-muted, #6b7280);
+}
+
+.set-rest,
+.set-activity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary, #374151);
+
+  .iconify {
+    width: 1rem;
+    height: 1rem;
+    color: var(--color-text-muted, #6b7280);
+  }
+}
+
+// ==========================================================================
+// Mobile Close Button (hidden on desktop)
+// ==========================================================================
+
+.sidebar-close-mobile {
+  display: none;
+}
+
+// ==========================================================================
+// Mobile Overlay Backdrop (hidden on desktop)
+// ==========================================================================
+
+.sidebar-overlay {
+  display: none;
+}
+
+// ==========================================================================
+// Mobile Styles
+// ==========================================================================
+
+@media (max-width: 767px) {
+  // Scroll lock when sidebar is open
+  html:has(.sidebar-provider[data-state="open"]) {
+    overflow: hidden;
+  }
+
+  .sidebar-provider {
+    position: relative;
+  }
+
+  // Overlay backdrop
+  .sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 40;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease, visibility 200ms ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .sidebar-provider[data-state="open"] .sidebar-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  // Sidebar wrapper - fixed and slides in
+  .sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    height: 100vh;
+    height: 100dvh; // Dynamic viewport height for mobile browsers
+    width: var(--sidebar-width, 18rem);
+    transform: translateX(-100%);
+    transition: transform 200ms ease;
+  }
+
+  .sidebar-provider[data-state="open"] .sidebar-wrapper {
+    transform: translateX(0);
+  }
+
+  .sidebar-provider[data-state="closed"] .sidebar-wrapper {
+    width: var(--sidebar-width, 18rem);
+    transform: translateX(-100%);
+  }
+
+  .sidebar {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  // Mobile close button
+  .sidebar-close-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    margin-left: auto;
+    padding: 0;
+    border: none;
+    border-radius: 0.375rem;
+    background: transparent;
+    color: var(--color-text-muted, #6b7280);
+    cursor: pointer;
+    transition: background-color 150ms ease, color 150ms ease;
+
+    &:hover {
+      background-color: var(--color-bg-muted, #f3f4f6);
+      color: var(--color-text-primary, #111827);
+    }
+
+    .iconify {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+  }
+
+  // Adjust header to accommodate close button
+  .sidebar-header {
+    justify-content: space-between;
+  }
+
+  .sidebar-inset-content {
+    padding: 1rem 1rem 10rem 1rem;
+  }
+
+  // Safe area handling for notched phones
+  .sidebar {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+  }
+}

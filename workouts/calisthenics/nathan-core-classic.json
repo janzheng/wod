@@ -1,0 +1,142 @@
+{
+  "id": "nathan-core-classic",
+  "name": "Nathan Core Classic",
+  "description": "Core and calisthenics sequence from Nathan - deep core activation, McGill Big 3, and dynamic core work",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "bodyweight", "classic", "core", "activation", "mcgill"],
+  "estimatedDuration": 60,
+  "equipment": ["bodyweight", "mat", "furniture"],
+  "sets": [
+    {
+      "id": "warmup-legs",
+      "name": "Warmup: Legs & Hip Flexors",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["squat", "unilateral"], "equipment": ["bodyweight"] }, "reps": "max", "notes": "single leg squat variation - especially left side!" },
+        { "criteria": { "tags": ["balance", "hip-opener"], "equipment": ["bodyweight"] }, "duration": 30, "notes": "balance hold - hip flexor stretch" },
+        { "criteria": { "tags": ["squat", "mobility", "hold"], "equipment": ["bodyweight"] }, "duration": 60, "notes": "deep squat hold - hip flexor stretch" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "core-warmup-standing",
+      "name": "Core Warmup: Standing Leg Lifts",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "criteria": { "tags": ["core", "standing"], "equipment": ["bodyweight"] }, "reps": 100, "notes": "standing leg lift warmup - 100 each side, for core; think leg raises but standing" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "core-warmup-floor",
+      "name": "Core Warmup: Floor Work",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["core", "abs", "floor"], "equipment": ["bodyweight"] }, "reps": 12, "notes": "core activation - floor work" },
+        { "criteria": { "tags": ["core", "floor", "on-back"], "equipment": ["bodyweight"] }, "reps": 12, "notes": "leg movement - core activation" },
+        { "criteria": { "tags": ["core", "abs", "on-back"], "equipment": ["bodyweight"] }, "reps": 12, "notes": "crunch variation" },
+        { "criteria": { "tags": ["core", "obliques", "floor"], "equipment": ["bodyweight"] }, "reps": 12, "notes": "oblique activation" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "mcgill-big-3",
+      "name": "McGill Big 3",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "mcgill-crunch", "reps": 10, "notes": "McGill Crunch - one hand behind back, leg straight, other side leg bent; both on floor; slow raise of back and down; for posture checking / warmup" },
+        { "id": "side-plank-hold", "duration": 30, "notes": "side plank holds - both sides" },
+        { "id": "bird-dog", "reps": 10, "notes": "focused & activated bird dogs - both sides" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "core-cali-bottoms-up",
+      "name": "Core / Cali: Bottoms Up (Nathan)",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "pike-hold", "duration": 30, "notes": "right leg + left leg pike up" },
+        { "criteria": { "tags": ["core", "pike"], "equipment": ["bodyweight"] }, "duration": 30, "notes": "straddle pike up" },
+        { "id": "pike-hold", "duration": 30, "notes": "together pike up" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "core-cali-top-snaps",
+      "name": "Core / Cali: Top & Snaps (Nathan)",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "criteria": { "tags": ["core", "isometric"], "equipment": ["bodyweight"] }, "duration": 30, "notes": "top: stay high" },
+        { "criteria": { "tags": ["core", "explosive", "abs"], "equipment": ["bodyweight"] }, "reps": 20, "notes": "snaps" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
+      "id": "deep-core-breathing",
+      "name": "Deep Core: Breathing & Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["core", "breathing", "activation"], "equipment": ["bodyweight", "mat"] }, "reps": 30, "notes": "deep core activation / breath work" },
+        { "criteria": { "tags": ["core", "activation", "hold", "isometric"], "equipment": ["bodyweight", "mat"] }, "duration": 30, "notes": "isometric hold - deep core" }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "deep-core-leg-work",
+      "name": "Deep Core: Leg Work",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["core", "stability", "on-back"], "equipment": ["bodyweight", "mat"] }, "reps": 20, "notes": "leg movement - core stability" },
+        { "criteria": { "tags": ["core", "floor", "on-back"], "equipment": ["bodyweight"] }, "reps": 20, "notes": "alternating movement" },
+        { "criteria": { "tags": ["core", "abduction"], "equipment": ["bodyweight"] }, "reps": 15, "notes": "abduction" }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "deep-core-dynamic",
+      "name": "Deep Core: Dynamic Core",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["core", "abs", "floor"], "equipment": ["bodyweight"] }, "reps": 20, "notes": "dynamic core movement" },
+        { "criteria": { "tags": ["core", "obliques"], "equipment": ["bodyweight"] }, "reps": 20, "notes": "oblique work" },
+        { "criteria": { "tags": ["core", "activation", "floor"], "equipment": ["bodyweight", "mat"] }, "reps": 20, "notes": "core tucks/folds" }
+      ],
+      "restBetween": 15,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This workout is from Nathan - a comprehensive core and calisthenics sequence",
+    "Focus on left side pistol squats - important for balance!",
+    "McGill Big 3: minimal movement, maximum activation - quality over quantity (kept in fixed order)",
+    "Warmup sections are shuffleable - order varies each time",
+    "Deep core work is broken into smaller shuffleable sections: breathing, leg work, and dynamic core",
+    "Take your time with the deep core work - it's about activation, not exhaustion"
+  ]
+}

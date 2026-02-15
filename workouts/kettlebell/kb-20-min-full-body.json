@@ -1,0 +1,35 @@
+{
+  "id": "kb-20-min-full-body",
+  "name": "20-Min KB Full Body (@Asgooch)",
+  "description": "Only got 20 minutes and one kettlebell? Swings, goblet squats, rows, goblet press — 10 reps each, 5 rounds. @Asgooch says do this 3x/week to get fit from home.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "beginner", "quick", "home"],
+  "estimatedDuration": 20,
+  "equipment": ["kettlebell"],
+  "difficulty": "beginner",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/Asgooch/status/2019227198805459434",
+  "sets": [
+    {
+      "id": "full-body-circuit",
+      "name": "Full Body Circuit",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Two-handed. Explosive hips, back straight." },
+        { "id": "kettlebell-goblet-squat", "reps": 10, "notes": "Chest up, full depth, controlled." },
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "Single arm, 10 per side. Pull with back." },
+        { "id": "kettlebell-overhead-press", "reps": 10, "notes": "Goblet press — both hands, KB at chest to overhead." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "20 minutes, one kettlebell — that's all you need",
+    "Do this 3x per week for general fitness",
+    "No rest between exercises, 60 seconds between rounds",
+    "Perfect for home, hotel, or outdoor training",
+    "Credit: @Asgooch"
+  ]
+}

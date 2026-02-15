@@ -1,0 +1,82 @@
+{
+  "id": "morning-wakeup",
+  "name": "Morning Wakeup 4x4x3",
+  "description": "Morning floor workout: 4 blocks of 4 exercises, 3 rounds each. Warmup → Floor Work → Floor Work → Core.",
+  "routineId": "morning",
+  "tags": ["morning", "floor", "energizing", "home", "mobility", "4x4x3"],
+  "estimatedDuration": 25,
+  "equipment": ["bodyweight", "mat"],
+  "sets": [
+    {
+      "id": "block-1-warmup",
+      "name": "Block 1: Active Warmup",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "poolSize": 15,
+      "exercises": [
+        { "criteria": { "tags": ["breath", "breathing", "rehab"], "equipment": ["bodyweight", "mat"] }, "duration": 45, "notes": "deep belly breaths" },
+        { "criteria": { "tags": ["active-stretch"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "tags": ["active-stretch", "hip-opener"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "tags": ["active-stretch", "warmup"], "equipment": ["bodyweight", "mat"] }, "duration": 45 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-floor-lower",
+      "name": "Block 2: Floor - Lower Body",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "poolSize": 15,
+      "exercises": [
+        { "criteria": { "muscles": ["glutes", "hamstrings"], "tags": ["floor"], "excludeTags": ["warmup", "mobility", "stretch", "hip-opener", "yoga"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "muscles": ["quads", "glutes"], "tags": ["floor"], "excludeTags": ["warmup", "mobility", "stretch", "hip-opener", "yoga"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "muscles": ["hips", "glutes"], "tags": ["floor"], "excludeTags": ["warmup", "mobility", "stretch", "hip-opener", "yoga"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "muscles": ["hamstrings", "glutes"], "tags": ["floor"], "excludeTags": ["warmup", "mobility", "stretch", "hip-opener", "yoga"], "equipment": ["bodyweight", "mat"] }, "duration": 45 }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-floor-mixed",
+      "name": "Block 3: Floor - Full Body",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "poolSize": 20,
+      "exercises": [
+        { "criteria": { "types": ["calisthenics"], "tags": ["floor"], "excludeTags": ["warmup", "mobility", "stretch", "hip-opener"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "types": ["calisthenics"], "tags": ["floor"], "excludeTags": ["warmup", "mobility", "stretch", "hip-opener"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "muscles": ["back", "shoulders"], "tags": ["floor"], "excludeTags": ["warmup", "mobility", "stretch", "hip-opener", "yoga"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "muscles": ["chest", "triceps"], "tags": ["floor"], "excludeTags": ["warmup", "mobility", "stretch", "hip-opener", "yoga"], "equipment": ["bodyweight", "mat"] }, "duration": 45 }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-4-core",
+      "name": "Block 4: Core Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "poolSize": 20,
+      "exercises": [
+        { "criteria": { "tags": ["core", "floor"], "excludeTags": ["warmup", "mobility", "stretch"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "tags": ["core", "floor"], "muscles": ["abs"], "excludeTags": ["warmup", "mobility", "stretch"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "tags": ["core", "floor"], "muscles": ["obliques"], "excludeTags": ["warmup", "mobility", "stretch"], "equipment": ["bodyweight", "mat"] }, "duration": 45 },
+        { "criteria": { "tags": ["core", "floor"], "excludeTags": ["warmup", "mobility", "stretch"], "equipment": ["bodyweight", "mat"] }, "duration": 45 }
+      ],
+      "restBetween": 15,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Do this on your carpet or mat right when you wake up",
+    "4 blocks × 4 exercises × 3 rounds = 48 total exercise slots",
+    "Each block builds on the last: loosen up → activate → work → core",
+    "Breathe deeply throughout",
+    "Skip a round if short on time - you'll still get a complete session"
+  ]
+}

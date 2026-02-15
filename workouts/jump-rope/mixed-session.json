@@ -1,0 +1,22 @@
+{
+  "id": "jump-rope-mixed-session",
+  "name": "Jump Rope: Mixed Session",
+  "description": "A balanced jump rope workout with warmup, skills practice, footwork drills, and cardio finisher. Shuffle to randomize which workout you get - each one focuses on different areas.",
+  "routineId": "jump-rope",
+  "tags": ["jump-rope", "cardio", "footwork", "skill", "mixed"],
+  "estimatedDuration": 20,
+  "equipment": ["jump-rope"],
+  "fixedAlternatives": [
+    "jump-rope-skills-focus",
+    "jump-rope-cardio-blast",
+    "jump-rope-footwork-drills",
+    "jump-rope-progression-practice"
+  ],
+  "fixedAlternativeChance": 1.0,
+  "sets": [],
+  "tips": [
+    "Hit shuffle to get a random workout variation",
+    "Each variation focuses on different aspects: skills, cardio, footwork, or progressions",
+    "Keep your rope sized correctly - handles should reach your armpits when standing on the middle"
+  ]
+}

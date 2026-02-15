@@ -1,0 +1,92 @@
+{
+  "id": "heavy-duty-intro-full-body",
+  "name": "Heavy Duty: Intro Full Body",
+  "description": "A beginner-friendly introduction to Mike Mentzer's Heavy Duty system. Learn the principles: train to failure, use slow controlled reps, and keep volume low. This workout hits all major muscle groups with 1-2 sets each.",
+  "routineId": "heavy-duty",
+  "tags": ["heavy-duty", "intensity", "hit", "full-body", "intro"],
+  "estimatedDuration": 35,
+  "equipment": ["machine", "dumbbell", "cable"],
+  "sets": [
+    {
+      "id": "intro-principles",
+      "name": "Heavy Duty Principles",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "intro-note",
+          "name": "Read Before Starting",
+          "notes": "Heavy Duty training means: 1) SLOW reps (4 sec up, 4 sec down), 2) Go to COMPLETE failure on working sets, 3) Rest 2-3 min between sets, 4) Only 1-2 working sets per exercise. Quality over quantity!"
+        }
+      ]
+    },
+    {
+      "id": "warmup",
+      "name": "Light Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight"] }, "duration": 120, "notes": "Just get blood flowing - save energy for working sets" }
+      ],
+      "restAfter": 60
+    },
+    {
+      "id": "legs",
+      "name": "Legs (1 Working Set)",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["machine"] }, "reps": "8-12", "notes": "Warmup: 1 light set of 12. Then 1 ALL-OUT set to failure. 4-2-4 tempo." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "chest",
+      "name": "Chest (Pre-Exhaust)",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["machine", "cable"], "tags": ["isolation"] }, "reps": "10-12", "notes": "Isolation first: 1 set to failure. 4-2-4 tempo. Feel the chest burn." },
+        { "criteria": { "muscles": ["chest"], "equipment": ["machine", "barbell", "dumbbell"], "tags": ["compound"] }, "reps": "6-10", "notes": "Immediately into compound press. Chest is pre-fatigued, so it fails first!" }
+      ],
+      "restBetween": 10,
+      "restAfter": 180
+    },
+    {
+      "id": "back",
+      "name": "Back (1 Working Set)",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["lats", "back"], "equipment": ["cable", "machine"], "tags": ["row"] }, "reps": "8-12", "notes": "1 warmup set, then 1 ALL-OUT set. Squeeze shoulder blades. 4-2-4 tempo." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "shoulders",
+      "name": "Shoulders (1 Working Set)",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["machine", "dumbbell"] }, "reps": "8-12", "notes": "1 working set to failure. Control the negative. 4-2-4 tempo." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "arms",
+      "name": "Arms (Superset)",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "muscles": ["biceps"], "equipment": ["dumbbell", "cable", "machine"] }, "reps": "8-12", "notes": "Biceps to failure, slow negative" },
+        { "criteria": { "muscles": ["triceps"], "equipment": ["cable", "machine", "dumbbell"] }, "reps": "8-12", "notes": "Immediately to triceps. No rest. Both to failure." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "TEMPO IS KEY: 4 seconds up, 2 second squeeze, 4 seconds down",
+    "FAILURE MEANS FAILURE: When you can't move the weight with good form, you're done",
+    "REST LONG: 2-3 minutes between exercises - you need full recovery for max effort",
+    "WAIT 4-7 DAYS before training these muscles again - recovery is when you grow",
+    "Log your weights and reps - progress means adding weight or reps over time"
+  ]
+}

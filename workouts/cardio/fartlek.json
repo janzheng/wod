@@ -1,0 +1,61 @@
+{
+  "id": "fartlek-30",
+  "name": "30-Minute Fartlek Run",
+  "description": "Speed play intervals for outdoor running - mix of fast and recovery paces",
+  "routineId": "cardio",
+  "tags": ["running", "cardio", "outdoor", "intervals", "fartlek"],
+  "estimatedDuration": 30,
+  "equipment": [],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup Jog",
+      "type": "activity",
+      "activity": {
+        "name": "Easy Jog",
+        "duration": 5,
+        "intensity": "easy",
+        "notes": "Conversational pace, loosen up"
+      }
+    },
+    {
+      "id": "fartlek-block",
+      "name": "Fartlek Intervals",
+      "type": "activity",
+      "rounds": 6,
+      "activity": {
+        "name": "Fast/Recovery",
+        "duration": 3,
+        "intensity": "intervals",
+        "notes": "1 min hard (80-90% effort), 2 min easy recovery jog"
+      }
+    },
+    {
+      "id": "tempo",
+      "name": "Tempo Section",
+      "type": "activity",
+      "activity": {
+        "name": "Tempo Run",
+        "duration": 4,
+        "intensity": "tempo",
+        "notes": "Comfortably hard - can speak in short phrases"
+      }
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "activity",
+      "activity": {
+        "name": "Easy Jog to Walk",
+        "duration": 3,
+        "intensity": "easy",
+        "notes": "Gradually slow to walk, shake out legs"
+      }
+    }
+  ],
+  "tips": [
+    "Listen to your body - adjust intensity as needed",
+    "Use landmarks for interval triggers if preferred",
+    "Stay hydrated, especially in warm weather"
+  ]
+}

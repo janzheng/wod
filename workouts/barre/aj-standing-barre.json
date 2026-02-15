@@ -1,0 +1,31 @@
+{
+  "id": "aj-standing-barre",
+  "name": "Action Jacqueline Standing Barre",
+  "description": "4 classic standing barre exercises - no floor work, no jumping, pure ballet fundamentals",
+  "routineId": "action-jacqueline",
+  "creator": "@actionjacquelyn",
+  "source": "100-Reps Barre Sculpted Leg Challenge",
+  "tags": ["barre", "standing", "classic", "lower-body"],
+  "estimatedDuration": 10,
+  "equipment": ["bodyweight", "barre"],
+  "sets": [
+    {
+      "id": "standing-barre",
+      "name": "Classic Standing Barre",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "barre-first-position-plie" }, "reps": 100, "notes": "Day 5" },
+        { "criteria": { "exerciseId": "barre-wide-plie-pulse" }, "reps": 100, "notes": "Day 7" },
+        { "criteria": { "exerciseId": "barre-standing-arabesque" }, "reps": 100, "notes": "Day 4 • 50 each leg" },
+        { "criteria": { "exerciseId": "barre-rond-de-jambe" }, "reps": 100, "notes": "Day 30 • 50 each leg" }
+      ],
+      "restBetween": 30
+    }
+  ],
+  "tips": [
+    "Use a chair, wall, or countertop if you don't have a barre",
+    "Keep movements small and controlled - this is isometric work",
+    "Focus on turnout and engaging the inner thighs",
+    "Break into sets of 25 if needed"
+  ]
+}

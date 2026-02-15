@@ -1,0 +1,24 @@
+{
+  "id": "bench-press",
+  "name": "Barbell Bench Press",
+  "type": "weights",
+  "muscles": [
+    "chest",
+    "triceps",
+    "shoulders"
+  ],
+  "equipment": [
+    "barbell",
+    "bench"
+  ],
+  "tags": [
+    "compound",
+    "push",
+    "press",
+    "upper-body",
+    "chest"
+  ],
+  "difficulty": "intermediate",
+  "duration": 180,
+  "description": "Lie on a flat bench with feet on the floor. Lower the barbell to your chest, then press it back up to full arm extension."
+}

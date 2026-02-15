@@ -1,0 +1,75 @@
+{
+  "id": "pull-up-strength",
+  "name": "Pull-up Strength Builder",
+  "description": "Build pulling strength from beginner to advanced: dead hangs through muscle-ups",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "strength", "pull", "progressions", "pull-up"],
+  "estimatedDuration": 40,
+  "equipment": ["pull-up-bar", "rings", "resistance-band"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Shoulder & Grip Prep",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility", "shoulders"], "equipment": ["resistance-band", "bodyweight"] }, "reps": "10", "poolSize": 2 },
+        { "id": "dead-hang", "duration": 30, "notes": "Passive hang - relax and decompress" },
+        { "id": "dead-hang", "duration": 30, "notes": "Active hang - depress shoulders, engage lats" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "scapular-work",
+      "name": "Scapular Activation",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "scapular-pull", "reps": "8-12", "notes": "Pull shoulder blades down without bending arms" },
+        { "id": "arch-hang", "duration": 15, "notes": "Active arch position - chest toward bar" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "pull-progression",
+      "name": "Pull-up Progression Work",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "criteria": { "progression": "pull-up-progression" }, "reps": "5-8", "notes": "Pick your level. Quality over quantity." }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "variation-work",
+      "name": "Grip Variations",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["pull-up-progression", "compound"], "equipment": ["pull-up-bar"] }, "reps": "5-8", "notes": "Different grip = different stimulus" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "finisher",
+      "name": "Hang Finisher",
+      "type": "exercises",
+      "exercises": [
+        { "id": "dead-hang", "duration": "max", "notes": "Hang as long as possible with good form. Build that grip!" }
+      ],
+      "restBetween": 0
+    }
+  ],
+  "tips": [
+    "Pull-up progression: scapular pulls → negatives → assisted → full → variations",
+    "If you can do 3x8, try the next progression level",
+    "Focus on control - no kipping unless intentional",
+    "Grip variations: wide, close, chin-up, commando, L-sit",
+    "Dead hangs build grip and shoulder health - do them often"
+  ]
+}

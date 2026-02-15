@@ -1,0 +1,90 @@
+{
+  "id": "heavy-duty-rest-pause",
+  "name": "Heavy Duty: Rest-Pause Technique",
+  "description": "Learn Mentzer's rest-pause method for going beyond failure. Hit failure, rest 10 seconds, continue. This extends the set past your normal limits and triggers maximum growth stimulus.",
+  "routineId": "heavy-duty",
+  "tags": ["heavy-duty", "intensity", "hit", "rest-pause", "technique"],
+  "estimatedDuration": 30,
+  "equipment": ["machine", "dumbbell", "cable"],
+  "sets": [
+    {
+      "id": "technique-intro",
+      "name": "Rest-Pause Explained",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "rest-pause-note",
+          "name": "The Rest-Pause Technique",
+          "notes": "REST-PAUSE: 1) Perform reps until failure. 2) Rest 10-15 seconds (rack the weight). 3) Continue for 2-4 more reps until failure again. 4) Optional: repeat one more time. This extends time under tension and recruits more muscle fibers."
+        }
+      ]
+    },
+    {
+      "id": "warmup",
+      "name": "General Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight"] }, "duration": 90 }
+      ],
+      "restAfter": 60
+    },
+    {
+      "id": "chest-rest-pause",
+      "name": "Chest: Rest-Pause Set",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["machine"] }, "reps": "8-12 + RP", "notes": "REST-PAUSE: Go to failure (~8-12 reps). Rack weight, rest 10 sec. Continue to failure (2-4 reps). Rest 10 sec. Final push to failure." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "back-rest-pause",
+      "name": "Back: Rest-Pause Set",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["back", "lats"], "equipment": ["cable", "machine"], "tags": ["row"] }, "reps": "8-12 + RP", "notes": "REST-PAUSE: Go to failure. Rest 10 sec. Continue to failure. Rest 10 sec. Final push." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "shoulders-rest-pause",
+      "name": "Shoulders: Rest-Pause Set",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["machine", "dumbbell"] }, "reps": "8-12 + RP", "notes": "REST-PAUSE: Same technique. Keep form strict even when fatigued." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "biceps-rest-pause",
+      "name": "Biceps: Rest-Pause Set",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["biceps"], "equipment": ["cable", "machine", "dumbbell"] }, "reps": "10-12 + RP", "notes": "REST-PAUSE: Failure, 10 sec rest, failure, 10 sec rest, final failure. Feel the pump." }
+      ],
+      "restAfter": 120
+    },
+    {
+      "id": "triceps-rest-pause",
+      "name": "Triceps: Rest-Pause Set",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["triceps"], "equipment": ["cable", "machine"] }, "reps": "10-12 + RP", "notes": "REST-PAUSE: Same technique. Lock out fully on each rep." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "REST-PAUSE lets you do more work in less time with the same weight",
+    "The 10-second rest allows partial ATP recovery - just enough for a few more reps",
+    "Use machines for rest-pause - easier to rack/unrack weight safely",
+    "Don't use rest-pause on deadlifts or squats as a beginner - form breaks down",
+    "This is ONE extended set - counts as your working set for that muscle group"
+  ]
+}

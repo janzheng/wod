@@ -1,0 +1,47 @@
+{
+  "id": "kb-athletic-lunge-variations",
+  "name": "Athletic KB Lunge Variations (@sculptherbody)",
+  "description": "Four dynamic kettlebell + lunge combos for athletic performance. Lunge clean-to-press, split pass thrust, lunge snatch, and step-back swings. Each combines lower-body with explosive upper-body work.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "lower-body", "legs", "athletic", "dynamic", "lunge", "intermediate"],
+  "estimatedDuration": 15,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@sculptherbody",
+  "sourceUrl": "https://x.com/sculptherbody/status/2021395070084173978",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Shoulders" },
+        { "id": "kettlebell-lunge", "reps": "5 each", "notes": "Bodyweight or light goblet hold" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "lunge-variations",
+      "name": "Athletic Lunge Variations",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-clean-and-press", "reps": "8 each", "notes": "Lunge clean-to-press: lunge forward while cleaning, press overhead as you stand. Each side." },
+        { "id": "kettlebell-swing", "reps": "8 each", "notes": "Split pass thrust: hold split stance, pass/thrust KB between legs. Focus on stability." },
+        { "id": "kettlebell-swing-snatch", "reps": "8 each", "notes": "Lunge snatch: reverse lunge + snatch from floor to overhead in one motion. Explosive." },
+        { "id": "kettlebell-swing", "reps": "8 each", "notes": "Step-back swing: step back into reverse lunge while swinging KB between legs, drive forward to stand." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "These are combination movements — master the individual exercises first",
+    "Lunge snatch is the hardest — start light",
+    "Great for building athletic power and coordination",
+    "Can be added to any leg day as a dynamic finisher",
+    "Credit: @sculptherbody"
+  ]
+}

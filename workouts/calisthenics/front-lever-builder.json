@@ -1,0 +1,86 @@
+{
+  "id": "front-lever-builder",
+  "name": "Front Lever Builder",
+  "description": "Build the pulling strength and body tension for front lever - from basics to full lever",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "strength", "front-lever", "skill-work", "progressions"],
+  "estimatedDuration": 50,
+  "equipment": ["pull-up-bar", "rings"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Shoulder & Lat Activation",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility", "shoulders"], "equipment": ["resistance-band", "bodyweight"] }, "reps": "10", "poolSize": 2 },
+        { "id": "dead-hang", "duration": 30, "notes": "Active hang - depress and retract" },
+        { "id": "scapular-pull", "reps": 10, "notes": "Feel your lats engage" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "pull-strength",
+      "name": "Pulling Foundation",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "pull-up-progression" }, "reps": "5-8", "notes": "Strong pulls = strong lever" }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "inverted-work",
+      "name": "Inverted Position Work",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "inverted-hang", "duration": 15, "notes": "Get comfortable upside down" },
+        { "id": "skin-the-cat", "reps": 3, "notes": "Slow and controlled through full rotation" }
+      ],
+      "restBetween": 60,
+      "restAfter": 120
+    },
+    {
+      "id": "lever-holds",
+      "name": "Front Lever Progression",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "criteria": { "progression": "front-lever-progression" }, "duration": "5-15", "notes": "Pick your level. Back FLAT, arms STRAIGHT." }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "ice-cream",
+      "name": "Dynamic Lever Work",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "ice-cream-maker", "reps": "3-5", "notes": "Inverted to lever and back. Use your progression level." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "rows",
+      "name": "Row Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "row-progression" }, "reps": "8-12", "notes": "Horizontal pulling builds lever strength" }
+      ],
+      "restBetween": 60
+    }
+  ],
+  "tips": [
+    "Front lever progression: tuck → advanced tuck → straddle → full",
+    "KEY: Depress shoulders (pull them away from ears) and SQUEEZE your lats",
+    "Body must be rigid - if hips pike or sag, go easier progression",
+    "Skin the cat builds shoulder flexibility needed for back lever too",
+    "Ice cream makers are the best dynamic drill - do them often",
+    "Rows transfer directly to lever strength - don't skip them"
+  ]
+}

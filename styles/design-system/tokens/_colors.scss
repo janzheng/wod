@@ -1,0 +1,400 @@
+/* ===================================
+   Root-level Color Defaults (for components outside theme-scope)
+   =================================== */
+:root {
+  /* Light mode defaults */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8fafc;
+  --color-bg-muted: #f1f5f9;
+  --color-border: #e2e8f0;
+  --color-border-light: #cbd5e1;
+  --color-text-primary: #0f172a;
+  --color-text-muted: #94a3b8;
+  --color-primary: #3b82f6;
+}
+
+/* Dark mode at root level */
+:root.dark,
+.dark {
+  --color-bg-primary: #1e293b;
+  --color-bg-secondary: #0f172a;
+  --color-bg-muted: #334155;
+  --color-border: #475569;
+  --color-border-light: #334155;
+  --color-text-primary: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-primary: #60a5fa;
+}
+
+.theme-scope {
+  /* ===================================
+     Color Tokens
+     =================================== */
+
+  /* Text Colors */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: oklch(21% 0.034 264.665);
+  --color-text-muted: #94a3b8;
+  --color-text-neutral: #475569;
+  --color-text-neutral-dark: #334155;
+  --color-text-disabled: #9ca3af; /* Readable disabled text color */
+
+  /* Background Colors */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8fafc;
+  --color-bg-muted: #f1f5f9;
+  --color-bg-light: #F3F4F6;
+  --color-bg-disabled: #f1f5f9; /* Disabled background color */
+
+  /* Border Colors */
+  --color-border: #e2e8f0;
+  --color-border-light: #cbd5e1;
+  --color-border-tab: #e4e4e7;
+
+  /* Primary Colors */
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-active: #1d4ed8;
+  --color-primary-dark: #1e40af;
+  --color-primary-light: #eff6ff;
+  --color-primary-lighter: #dbeafe;
+  --color-primary-lightest: #bfdbfe;
+  
+  /* Primary Ring (for focus states) */
+  --color-primary-ring: rgba(59, 130, 246, 0.3);
+  
+  /* Primary Text (text color on primary background) */
+  --color-primary-text: #ffffff;
+
+  /* Success Colors */
+  --color-success: #10b981;        /* Brighter, less dark green (emerald-500) */
+  --color-success-light: #d1fae5;  /* Lighter background */
+  --color-success-dark: #047857;   /* Darker for text on light bg */
+  --color-success-link: #059669;
+  --color-success-link-hover: #047857;
+  
+  /* Success Ring */
+  --color-success-ring: rgba(34, 197, 94, 0.3);
+  
+  /* Success Text (text color on success background) */
+  --color-success-text: #ffffff;
+  
+  /* Success Secondary Colors (for outlined buttons) */
+  --color-success-200: #bbf7d0;
+  --color-success-300: #86efac;
+
+  /* Warning Colors */
+  --color-warning: #f59e0b;
+  --color-warning-light: #fef3c7;
+  --color-warning-dark: #92400e;
+  --color-warning-link: #d97706;
+  --color-warning-link-hover: #b45309;
+  
+  /* Warning Ring */
+  --color-warning-ring: rgba(245, 158, 11, 0.3);
+  
+  /* Warning Text (text color on warning background) */
+  --color-warning-text: #ffffff;
+  
+  /* Warning Secondary Colors */
+  --color-warning-200: #fde68a;
+  --color-warning-300: #fcd34d;
+
+  /* Danger Colors */
+  --color-danger: #ef4444;
+  --color-danger-light: #fee2e2;
+  --color-danger-dark: #b91c1c;
+  --color-danger-link: #dc2626;
+  --color-danger-link-hover: #b91c1c;
+  
+  /* Danger Ring */
+  --color-danger-ring: rgba(239, 68, 68, 0.3);
+  
+  /* Danger Text (text color on danger background) */
+  --color-danger-text: #ffffff;
+  
+  /* Danger Secondary Colors */
+  --color-danger-200: #fecaca;
+  --color-danger-300: #fca5a5;
+
+  /* Info Colors */
+  --color-info: #0ea5e9;
+  --color-info-light: #e0f2fe;
+  --color-info-dark: #075985;
+  --color-info-link: #0284c7;
+  --color-info-link-hover: #0369a1;
+  
+  /* Info Ring */
+  --color-info-ring: rgba(14, 165, 233, 0.3);
+  
+  /* Info Text (text color on info background) */
+  --color-info-text: #ffffff;
+  
+  /* Info Secondary Colors */
+  --color-info-200: #bae6fd;
+  --color-info-300: #7dd3fc;
+
+  /* Neutral Colors */
+  --color-neutral: #71717a;
+  --color-neutral-light: #f4f4f5;
+  --color-neutral-dark: #3f3f46;
+  --color-neutral-link: #52525b;
+  --color-neutral-link-hover: #3f3f46;
+  
+  /* Neutral Ring */
+  --color-neutral-ring: rgba(113, 113, 122, 0.3);
+  
+  /* Neutral Text (text color on neutral background) */
+  --color-neutral-text: #ffffff;
+  
+  /* Neutral Secondary Colors */
+  --color-neutral-200: #e4e4e7;
+  --color-neutral-300: #d4d4d8;
+
+  /* Code Colors - Light mode uses light gray background with strong text contrast */
+  --color-code-bg: #f8fafc;
+  --color-code-text: #be185d;
+  --color-code-bg-dark: #f1f5f9;
+  --color-code-text-dark: #334155;
+  --color-code-header-bg: #e2e8f0;
+  --color-code-border: #e2e8f0;
+  
+  /* Syntax highlighting colors for light mode - strong contrast */
+  --color-syntax-keyword: #7c3aed;
+  --color-syntax-string: #059669;
+  --color-syntax-number: #0284c7;
+  --color-syntax-function: #2563eb;
+  --color-syntax-comment: #64748b;
+  --color-syntax-property: #c2410c;
+  --color-syntax-punctuation: #475569;
+
+  /* Tab Colors */
+  --color-tab: #71717a;
+  --color-tab-active: #3b82f6;
+
+  /* Utility Colors */
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-white: #ffffff;
+  
+  /* Gray Ring (for ghost buttons, etc.) */
+  --color-gray-ring: rgba(161, 161, 170, 0.2);
+  --color-gray-ring-dark: rgba(15, 23, 42, 0.1);
+  
+  /* Dark/Inverted Section Colors */
+  --color-bg-dark: #0f172a;
+  --color-text-on-dark: #ffffff;
+  --color-text-on-dark-muted: rgba(255, 255, 255, 0.85);
+  
+  /* Accent Color (for CTAs, highlights) */
+  --color-accent: #f59e0b;
+  --color-accent-hover: #d97706;
+  
+  /* CTA Color */
+  --color-cta: #3b82f6;
+  --color-cta-hover: #2563eb;
+  
+  /* ===================================
+     Form Controls (Checkbox, Radio, Toggle)
+     =================================== */
+  
+  /* Unchecked state */
+  --color-control-border: var(--color-border-light);
+  --color-control-border-hover: var(--color-border);
+  --color-control-bg: var(--color-bg-primary);
+  --color-control-bg-hover: var(--color-bg-secondary);
+  
+  /* Checked state */
+  --color-control-checked: var(--color-primary);
+  --color-control-checked-hover: var(--color-primary-hover);
+  --color-control-checked-border: var(--color-primary);
+  --color-control-checkmark: #ffffff;
+  
+  /* Focus state */
+  --color-control-ring: var(--color-primary-ring);
+  
+  /* Toggle-specific */
+  --color-toggle-bg: var(--color-border);
+  --color-toggle-bg-checked: var(--color-primary);
+  --color-toggle-knob: #ffffff;
+  
+  /* ===================================
+     Choice Card Colors
+     =================================== */
+  --color-choice-border: var(--color-border-light);
+  --color-choice-border-hover: var(--color-border);
+  --color-choice-border-checked: var(--color-primary);
+  --color-choice-bg: transparent;
+  --color-choice-bg-hover: var(--color-bg-secondary);
+  --color-choice-bg-checked: rgba(59, 130, 246, 0.05);
+  --color-choice-ring: var(--color-primary);
+}
+
+/* ===================================
+   Dark Mode Colors
+   Applied via .dark class on theme-scope or parent
+   =================================== */
+
+.theme-scope.dark,
+.dark .theme-scope {
+  /* ===================================
+     Color Tokens - Dark Mode
+     =================================== */
+
+  /* Text Colors - inverted for dark backgrounds */
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #e2e8f0;
+  --color-text-muted: #94a3b8;
+  --color-text-neutral: #cbd5e1;
+  --color-text-neutral-dark: #e2e8f0;
+  --color-text-disabled: #64748b;
+
+  /* Background Colors - dark variants */
+  --color-bg-primary: #0f172a;
+  --color-bg-secondary: #1e293b;
+  --color-bg-muted: #334155;
+  --color-bg-light: #1e293b;
+  --color-bg-disabled: #1e293b;
+
+  /* Border Colors - subtle on dark */
+  --color-border: #334155;
+  --color-border-light: #475569;
+  --color-border-tab: #475569;
+
+  /* Primary Colors - slightly brighter for dark mode visibility */
+  --color-primary: #60a5fa;
+  --color-primary-hover: #3b82f6;
+  --color-primary-active: #2563eb;
+  --color-primary-dark: #93c5fd;
+  --color-primary-light: rgba(59, 130, 246, 0.15);
+  --color-primary-lighter: rgba(59, 130, 246, 0.1);
+  --color-primary-lightest: rgba(59, 130, 246, 0.05);
+  
+  /* Primary Ring (for focus states) */
+  --color-primary-ring: rgba(96, 165, 250, 0.4);
+  
+  /* Primary Text (text color on primary background) */
+  --color-primary-text: #0f172a;
+
+  /* Success Colors - brighter for dark mode */
+  --color-success: #34d399;
+  --color-success-light: rgba(16, 185, 129, 0.15);
+  --color-success-dark: #6ee7b7;
+  --color-success-link: #34d399;
+  --color-success-link-hover: #6ee7b7;
+  --color-success-ring: rgba(52, 211, 153, 0.4);
+  --color-success-text: #0f172a;
+  --color-success-200: rgba(16, 185, 129, 0.2);
+  --color-success-300: rgba(16, 185, 129, 0.3);
+
+  /* Warning Colors */
+  --color-warning: #fbbf24;
+  --color-warning-light: rgba(245, 158, 11, 0.15);
+  --color-warning-dark: #fcd34d;
+  --color-warning-link: #fbbf24;
+  --color-warning-link-hover: #fcd34d;
+  --color-warning-ring: rgba(251, 191, 36, 0.4);
+  --color-warning-text: #0f172a;
+  --color-warning-200: rgba(245, 158, 11, 0.2);
+  --color-warning-300: rgba(245, 158, 11, 0.3);
+
+  /* Danger Colors */
+  --color-danger: #f87171;
+  --color-danger-light: rgba(239, 68, 68, 0.15);
+  --color-danger-dark: #fca5a5;
+  --color-danger-link: #f87171;
+  --color-danger-link-hover: #fca5a5;
+  --color-danger-ring: rgba(248, 113, 113, 0.4);
+  --color-danger-text: #0f172a;
+  --color-danger-200: rgba(239, 68, 68, 0.2);
+  --color-danger-300: rgba(239, 68, 68, 0.3);
+
+  /* Info Colors */
+  --color-info: #38bdf8;
+  --color-info-light: rgba(14, 165, 233, 0.15);
+  --color-info-dark: #7dd3fc;
+  --color-info-link: #38bdf8;
+  --color-info-link-hover: #7dd3fc;
+  --color-info-ring: rgba(56, 189, 248, 0.4);
+  --color-info-text: #0f172a;
+  --color-info-200: rgba(14, 165, 233, 0.2);
+  --color-info-300: rgba(14, 165, 233, 0.3);
+
+  /* Neutral Colors */
+  --color-neutral: #a1a1aa;
+  --color-neutral-light: rgba(113, 113, 122, 0.15);
+  --color-neutral-dark: #d4d4d8;
+  --color-neutral-link: #a1a1aa;
+  --color-neutral-link-hover: #d4d4d8;
+  --color-neutral-ring: rgba(161, 161, 170, 0.4);
+  --color-neutral-text: #0f172a;
+  --color-neutral-200: rgba(113, 113, 122, 0.2);
+  --color-neutral-300: rgba(113, 113, 122, 0.3);
+
+  /* Code Colors - Dark mode uses actual dark background */
+  --color-code-bg: #1e293b;
+  --color-code-text: #fb7185;
+  --color-code-bg-dark: #1e293b;
+  --color-code-text-dark: #e2e8f0;
+  --color-code-header-bg: #334155;
+  --color-code-border: #475569;
+
+  /* Tab Colors */
+  --color-tab: #94a3b8;
+  --color-tab-active: #60a5fa;
+
+  /* Utility Colors */
+  --color-gray-300: #475569;
+  --color-gray-400: #64748b;
+  --color-white: #0f172a;
+  
+  /* Gray Ring (for ghost buttons, etc.) */
+  --color-gray-ring: rgba(148, 163, 184, 0.25);
+  --color-gray-ring-dark: rgba(248, 250, 252, 0.1);
+  
+  /* Dark/Inverted Section Colors (swap for dark mode) */
+  --color-bg-dark: #f8fafc;
+  --color-text-on-dark: #0f172a;
+  --color-text-on-dark-muted: rgba(15, 23, 42, 0.85);
+  
+  /* Accent Color (for CTAs, highlights) */
+  --color-accent: #fbbf24;
+  --color-accent-hover: #f59e0b;
+  
+  /* CTA Color */
+  --color-cta: #60a5fa;
+  --color-cta-hover: #3b82f6;
+  
+  /* ===================================
+     Form Controls - Dark Mode
+     =================================== */
+  
+  /* Unchecked state */
+  --color-control-border: var(--color-border);
+  --color-control-border-hover: var(--color-border-light);
+  --color-control-bg: var(--color-bg-secondary);
+  --color-control-bg-hover: var(--color-bg-muted);
+  
+  /* Checked state */
+  --color-control-checked: var(--color-primary);
+  --color-control-checked-hover: var(--color-primary-hover);
+  --color-control-checked-border: var(--color-primary);
+  --color-control-checkmark: #0f172a;
+  
+  /* Toggle-specific */
+  --color-toggle-bg: var(--color-border-light);
+  --color-toggle-bg-checked: var(--color-primary);
+  --color-toggle-knob: #0f172a;
+  
+  /* ===================================
+     Choice Card Colors - Dark Mode
+     =================================== */
+  --color-choice-border: var(--color-border);
+  --color-choice-border-hover: var(--color-border-light);
+  --color-choice-border-checked: var(--color-primary);
+  --color-choice-bg: transparent;
+  --color-choice-bg-hover: var(--color-bg-muted);
+  --color-choice-bg-checked: rgba(96, 165, 250, 0.1);
+  --color-choice-ring: var(--color-primary);
+}
+

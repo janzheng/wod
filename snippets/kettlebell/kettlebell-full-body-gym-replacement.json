@@ -1,0 +1,35 @@
+{
+  "id": "kettlebell-full-body-gym-replacement",
+  "name": "Kettlebell Full Body Workout — Gym Replacement",
+  "type": "demo",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/Asgooch/status/2020926315990483449",
+    "creator": "@Asgooch",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["full-body", "compound", "squat", "hinge", "push", "pull", "gym", "kettlebell"],
+  "equipment": ["kettlebell"],
+  "muscles": ["full-body"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 35,
+  "description": "Demo/philosophy video from @Asgooch making the case that one or two kettlebells can replace an entire gym. Shows a 35-minute full-body session covering goblet squats, swings, overhead presses, rows, lunges, and deadlifts. More of a motivational montage than a prescriptive routine.",
+  "exercises": [
+    { "name": "Kettlebell Goblet Squat", "reps": null, "description": "Hold KB at chest, squat down.", "notes": "Upright torso." },
+    { "name": "Kettlebell Swing", "reps": null, "description": "Two-handed swing to chest height.", "notes": "Hip drive." },
+    { "name": "Kettlebell Overhead Press", "reps": null, "description": "Press from rack to overhead.", "notes": "Core tight." },
+    { "name": "Kettlebell Bent Over Row", "reps": null, "description": "Hinged row to hip.", "notes": "Squeeze shoulder blades." },
+    { "name": "Kettlebell Lunge", "reps": null, "description": "Step forward into lunge with KB.", "notes": "Each side." },
+    { "name": "Kettlebell Deadlift", "reps": null, "description": "Hinge and lift from floor.", "notes": "Back straight." }
+  ],
+  "raw": {
+    "transcript": "The beautiful thing about kettlebell training is you don't need an entire gym. All you need is one or two kettlebells and you can train anything. Cardio, strength, mobility, muscle building are all of them. And you only need 30 to 45 minutes to get in probably a better workout than you would at the gym. This workout took me 35 minutes. Hit full body.",
+    "caption": "An entire gym, all rolled into one piece of training equipment. One kettlebell can get you in amazing shape. They're great for strength, conditioning, mobility, and athleticism. So ditch the gym membership and train with kettlebells!",
+    "textOverlays": ["About Kettlebell Training", "An Entire Gym", "All You Need", "Two Kettlebells", "You Can Train Cardio Strength Mobility", "Muscle Building", "All Of Them", "Need 30 To 45 Minutes", "Probably A Better Workout", "At The Gym", "This Workout Took Me About 35 Minutes", "Hit Full Body"],
+    "visualSummary": "Montage of trainer performing various kettlebell exercises in a gym, emphasizing full-body training with quick cuts between movements."
+  },
+  "confidence": {
+    "overall": "medium",
+    "uncertainties": ["No specific reps, sets, or structure — this is a demo/philosophy video, not a prescriptive workout", "Exercise order and groupings inferred from montage cuts"]
+  }
+}

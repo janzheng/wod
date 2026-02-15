@@ -1,0 +1,41 @@
+{
+  "id": "single-kettlebell-athletic-circuit",
+  "name": "Single Kettlebell Athletic Workout",
+  "type": "circuit",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/asgooch/status/2013313157498880127",
+    "creator": "@Asgooch",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["full-body", "compound", "dynamic", "circuit", "gym", "hiit", "kettlebell", "athletic"],
+  "equipment": ["kettlebell"],
+  "muscles": ["full-body", "shoulders", "legs", "glutes", "core", "back"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 20,
+  "description": "Build an athletic physique at home with just one kettlebell. Five alternating exercises — swings, cleans, goblet squats, presses, and offset pushups — all x12. @Asgooch says you don't need a gym.",
+  "exercises": [
+    { "name": "Kettlebell Swing", "reps": 12, "description": "Two-handed swings to chest height.", "notes": "Explosive hip drive." },
+    { "name": "Alternating Kettlebell Clean", "reps": 12, "description": "Clean to rack, alternating arms each rep.", "notes": "6 per side. Leg drive, elbow close." },
+    { "name": "Alternating Goblet Squat", "reps": 12, "description": "Goblet squat holding KB with one hand at chest, alternating.", "notes": "6 per side. Full depth." },
+    { "name": "Alternating Kettlebell Press", "reps": 12, "description": "Press from rack, alternating arms.", "notes": "6 per side. Core tight, straight up." },
+    { "name": "Offset Push-up", "reps": 12, "description": "One hand on the KB handle, one on the ground. Push up.", "notes": "Alternate sides. Straight body line." }
+  ],
+  "circuit": {
+    "rounds": 3,
+    "repsPerExercise": 12,
+    "restBetweenExercises": 0,
+    "restBetweenRounds": 60,
+    "notes": "Back-to-back as a circuit. Alternating exercises add core stability challenge."
+  },
+  "raw": {
+    "transcript": "",
+    "caption": "Building an athletic physique at home with just one kettlebell. Yep, that's right. You don't need a full gym, you don't even need to go to a gym. One kettlebell is enough to build a solid athletic physique. Link in bio for Programs.",
+    "textOverlays": ["Single Kettlebell Athletic Workout", "Swings", "Alt Cleans", "Alt Cleans x12", "Alt Goblet Squats", "Alt Goblet Squats x12", "Alt Press", "Offset Pushups", "Offset Pushups x12"],
+    "visualSummary": "Muscular man demonstrates exercises outdoors on a mat."
+  },
+  "confidence": {
+    "overall": "medium",
+    "uncertainties": ["Rounds not specified, defaulted to 3", "Alternating reps assumed 6/side for 12 total", "No audio"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "challenges",
+  "name": "Challenges",
+  "description": "High-intensity challenge workouts and pyramids",
+  "icon": "🔥",
+  "color": "#FF6B35",
+  "defaults": {
+    "duration": 30,
+    "difficulty": "intermediate",
+    "equipment": ["bodyweight"],
+    "tags": ["challenge", "cardio", "circuit"]
+  },
+  "sortOrder": 6
+}

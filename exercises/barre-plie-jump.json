@@ -1,0 +1,33 @@
+{
+  "id": "barre-plie-jump",
+  "name": "Plié Squat Jump",
+  "type": "plyo",
+  "muscles": [
+    "quads",
+    "glutes",
+    "calves"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "standing",
+    "cardio",
+    "plie"
+  ],
+  "difficulty": "advanced",
+  "description": "Perform explosive plié squat jumps, landing softly through the feet. (Day 22)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 22
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-plie-jump.png",
+      "caption": "Plié Squat Jump illustration"
+    }
+  ]
+}

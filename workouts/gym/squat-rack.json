@@ -1,0 +1,99 @@
+{
+  "id": "squat-rack-session",
+  "name": "Squat Rack Power Session",
+  "description": "Comprehensive squat rack workout: compounds first, then accessories. Traditional strength training structure.",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "squat-rack", "barbell", "powerlifting"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "squat-rack", "plates"],
+  "sets": [
+    {
+      "id": "warmup-mobility",
+      "name": "Mobility Prep",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["stretch", "mobility"], "muscles": ["hips", "hip-flexors"] }, "duration": 45 },
+        { "criteria": { "tags": ["stretch", "mobility"], "muscles": ["hips", "hip-flexors"] }, "duration": 30, "notes": "each side" },
+        { "criteria": { "tags": ["warmup", "mobility"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "warmup-squat",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "squat" }, "reps": 10, "notes": "bodyweight - focus on depth" },
+        { "criteria": { "exerciseId": "squat" }, "reps": 8, "notes": "empty bar" },
+        { "criteria": { "exerciseId": "squat" }, "reps": 5, "notes": "50% working weight" }
+      ],
+      "restBetween": 60,
+      "restAfter": 120
+    },
+    {
+      "id": "main-squat",
+      "name": "Back Squat - Main Lift",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "criteria": { "exerciseId": "squat" }, "reps": 5, "tempo": "3-1-1-0", "notes": "working weight" }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "accessory-1",
+      "name": "Hip Hinge Accessory",
+      "type": "exercises",
+      "rounds": 4,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["hamstrings", "glutes"], "equipment": ["barbell"], "tags": ["compound"] }, "reps": "8-10", "tempo": "3-0-1-1" }
+      ],
+      "restAfter": 120
+    },
+    {
+      "id": "accessory-2",
+      "name": "Pressing Accessory",
+      "type": "exercises",
+      "rounds": 4,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["barbell", "dumbbell"] }, "reps": "6-8" }
+      ],
+      "restAfter": 120
+    },
+    {
+      "id": "accessory-3",
+      "name": "Pulling Accessory",
+      "type": "exercises",
+      "rounds": 4,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["back", "lats"], "tags": ["row", "pull"] }, "reps": "8-10" }
+      ],
+      "restAfter": 120
+    },
+    {
+      "id": "finisher",
+      "name": "Core Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["core"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["core"], "equipment": ["bodyweight"] }, "duration": 30 }
+      ],
+      "restBetween": 15,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Main lift: Add 5 lbs each session until you stall (linear progression)",
+    "Tempo 3-1-1-0: 3s down, 1s pause at bottom, 1s up, no pause at top",
+    "Brace core HARD before unracking the bar",
+    "Use safety pins - they're there for a reason",
+    "If you miss reps, deload 10% and build back up"
+  ]
+}

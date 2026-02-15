@@ -1,0 +1,40 @@
+{
+  "id": "20-min-kettlebell-full-body-circuit",
+  "name": "20-Minute Full Body Kettlebell Circuit",
+  "type": "circuit",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/Asgooch/status/2019227198805459434",
+    "creator": "@Asgooch",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["full-body", "core", "legs", "shoulders", "back", "glutes", "compound", "circuit", "kettlebell", "beginner"],
+  "equipment": ["kettlebell", "mat"],
+  "muscles": ["full-body", "core", "glutes", "quads", "hamstrings", "back", "shoulders", "chest"],
+  "difficulty": "beginner",
+  "estimatedDuration": 20,
+  "description": "A quick full-body workout using one kettlebell. 5 rounds of four compound exercises, designed to be done 3x/week. @Asgooch did this in swim trunks on a mat outdoors — no excuses.",
+  "exercises": [
+    { "name": "Kettlebell Swing", "reps": 10, "description": "Two-handed swings to chest height.", "notes": "Explosive hip drive, back straight." },
+    { "name": "Goblet Squat", "reps": 10, "description": "KB at chest, squat to parallel.", "notes": "Chest up, knees track over toes." },
+    { "name": "Single-Arm Kettlebell Row", "reps": 10, "description": "Hinged row, 10 each side.", "notes": "Pull with back, core tight." },
+    { "name": "Goblet Press", "reps": 10, "description": "KB at chest, press overhead with both hands.", "notes": "Core engaged, avoid arching." }
+  ],
+  "circuit": {
+    "rounds": 5,
+    "repsPerExercise": 10,
+    "restBetweenExercises": 0,
+    "restBetweenRounds": 60,
+    "notes": "Back-to-back exercises, rest between rounds. Do 3x per week."
+  },
+  "raw": {
+    "transcript": "If you've only got 20 minutes and one kettlebell, then hit this workout three times a week to get fit from home. Starting out with 10 swings, moving on to 10 goblet squats, Then 10 single arm rows each side And last is ten goblet presses Hit that for five rounds 3x per week And start improving your fitness from home",
+    "caption": "Only got 30 minutes to workout? This workout hits full body with just one kettlebell and is great for anyone short on time. 5 Rounds: Swings x10 Goblet Squat x10 Rows x10 Goblet Press x10",
+    "textOverlays": ["20 minutes and one kettlebell", "then hit this workout", "three times a week", "to get fit from home", "Starting swings with 10", "moving on to 10 goblet squats", "Then 10 single arm rows each side", "and last is 10 goblet presses", "Hit that for five rounds", "3x per week", "And start improving"],
+    "visualSummary": "A muscular man in swim trunks and cap demonstrates the exercises outdoors on a mat with a kettlebell."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": ["Caption says 30 min but video says 20 min", "Rest times not stated, assumed 60s between rounds"]
+  }
+}

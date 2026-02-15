@@ -1,0 +1,93 @@
+{
+  "id": "jump-rope-footwork-drills",
+  "name": "Jump Rope: Footwork Drills",
+  "description": "Focus on foot coordination, agility, and movement patterns. Great for athletes who want to improve their footwork for sports like boxing, basketball, or tennis.",
+  "routineId": "jump-rope",
+  "tags": ["jump-rope", "footwork", "agility", "coordination", "athletic"],
+  "estimatedDuration": 20,
+  "equipment": ["jump-rope"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup: Basic Patterns",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "duration": 45, "notes": "Easy bouncing, find your rhythm" },
+        { "id": "jump-rope-boxer-step", "duration": 45, "notes": "Side to side weight shifts" },
+        { "id": "jump-rope-running-in-place", "duration": 30, "notes": "Light running motion" }
+      ],
+      "restBetween": 10,
+      "restAfter": 45
+    },
+    {
+      "id": "footwork-block-1",
+      "name": "Footwork Block: Directional Movement",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-lateral-hops", "duration": 30, "notes": "Side to side - stay controlled" },
+        { "id": "jump-rope-front-back", "duration": 30, "notes": "Forward and back - small hops" },
+        { "id": "jump-rope-boxer-step", "duration": 30, "notes": "Recovery - relaxed bouncing" }
+      ],
+      "rounds": 3,
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "footwork-block-2",
+      "name": "Footwork Block: Single Leg & Balance",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-single-leg", "duration": 20, "notes": "Right leg only" },
+        { "id": "jump-rope-single-leg", "duration": 20, "notes": "Left leg only" },
+        { "id": "jump-rope-basic-bounce", "duration": 20, "notes": "Both feet - recover" }
+      ],
+      "rounds": 3,
+      "restBetween": 5,
+      "restAfter": 60
+    },
+    {
+      "id": "footwork-block-3",
+      "name": "Footwork Block: Complex Patterns",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-scissor-step", "duration": 30, "notes": "Split stance switches - front/back" },
+        { "id": "jump-rope-twist", "duration": 30, "notes": "Hip rotation - keep upper body stable" },
+        { "id": "jump-rope-heel-toe", "duration": 30, "notes": "Heel tap, toe tap pattern" }
+      ],
+      "rounds": 3,
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "footwork-block-4",
+      "name": "Footwork Block: Style Moves",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-mummy-kicks", "duration": 25, "notes": "Straight leg kicks - look cool!" },
+        { "id": "jump-rope-boxer-step", "duration": 20, "notes": "Recovery" },
+        { "id": "jump-rope-lateral-hops", "duration": 25, "notes": "Side to side - quick!" }
+      ],
+      "rounds": 2,
+      "restBetween": 5,
+      "restAfter": 45
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-boxer-step", "duration": 45, "notes": "Easy, relaxed bouncing" },
+        { "id": "jump-rope-side-swing", "duration": 30, "notes": "Wind down" }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Footwork is about CONTROL - don't rush the patterns",
+    "Keep movements small and precise, especially when learning",
+    "If a pattern is too hard, slow down the rope speed",
+    "Think 'light and quick' - minimize ground contact time",
+    "Great for boxers, basketball players, tennis players - any sport needing quick feet"
+  ]
+}

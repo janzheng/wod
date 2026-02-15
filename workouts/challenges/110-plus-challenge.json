@@ -1,0 +1,147 @@
+{
+  "id": "110-plus-challenge",
+  "name": "110+ Challenge",
+  "description": "An extended descending pyramid challenge starting at 110 reps. This intense full-body workout builds endurance, strength, and mental toughness through a progressive rep scheme.",
+  "routineId": "challenges",
+  "tags": ["challenge", "pyramid", "cardio", "full-body", "bodyweight", "advanced"],
+  "difficulty": "advanced",
+  "estimatedDuration": 35,
+  "equipment": ["bodyweight", "jump-rope"],
+  "sets": [
+    {
+      "id": "jump-ropes",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "jump-rope" }, "reps": 110 }
+      ]
+    },
+    {
+      "id": "jumping-jacks",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "jumping-jacks" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "high-knees",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "high-knees" }, "reps": 90 }
+      ]
+    },
+    {
+      "id": "star-situps",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "star-situps" }, "reps": 80, "notes": "80 total (not per side)" }
+      ]
+    },
+    {
+      "id": "lunge-knee-ups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "lunge-knee-up" }, "reps": 80 }
+      ]
+    },
+    {
+      "id": "mountain-climbers",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "mountain-climber" }, "reps": 70 }
+      ]
+    },
+    {
+      "id": "froggers",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "frogger" }, "reps": 60 }
+      ]
+    },
+    {
+      "id": "squats",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "bodyweight-squat" }, "reps": 50 }
+      ]
+    },
+    {
+      "id": "pike-pushups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "pike-push-up" }, "reps": 45, "notes": "Shoulder / pike pushups" }
+      ]
+    },
+    {
+      "id": "jump-lunges",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "jump-lunge" }, "reps": 40, "notes": "Or single leg lunges each side" }
+      ]
+    },
+    {
+      "id": "tricep-dips",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "tricep-dip" }, "reps": 35 }
+      ]
+    },
+    {
+      "id": "butt-kicks",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "butt-kicks" }, "reps": 30 }
+      ]
+    },
+    {
+      "id": "burpees",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "burpee" }, "reps": 20 }
+      ]
+    },
+    {
+      "id": "renegade-rows",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "renegade-row" }, "reps": 20, "notes": "20 total (10 each side)" }
+      ]
+    },
+    {
+      "id": "side-planks",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "side-plank-hip-dips" }, "reps": 15, "notes": "15 each side" }
+      ]
+    },
+    {
+      "id": "bicep-curls",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "bicep-curl" }, "reps": "max", "notes": "Until failure x2 each side (requires dumbbells)" }
+      ]
+    },
+    {
+      "id": "push-ups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "push-up" }, "reps": 10 }
+      ]
+    },
+    {
+      "id": "pull-ups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "pull-up" }, "reps": 5 }
+      ]
+    }
+  ],
+  "tips": [
+    "This is an advanced challenge - take breaks as needed between exercises",
+    "For renegade rows: 20 total reps (10 each side)",
+    "For side planks: 15 reps each side",
+    "Bicep curls are until failure - do max reps on one side, rest, then max reps on the other side",
+    "If you don't have a jump rope, substitute with high knees or jumping jacks",
+    "If you don't have dumbbells for bicep curls, you can skip or use resistance bands",
+    "Focus on maintaining form throughout - quality over quantity"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "morning",
+  "name": "Morning Wakeup",
+  "description": "Quick floor routines to start your day with energy",
+  "icon": "🌅",
+  "color": "#FF9800",
+  "defaults": {
+    "duration": 12,
+    "difficulty": "beginner",
+    "equipment": ["bodyweight", "mat"],
+    "tags": ["floor", "home"],
+    "criteria": {
+      "equipment": ["bodyweight", "mat"],
+      "tags": ["floor"]
+    }
+  },
+  "sortOrder": 2
+}

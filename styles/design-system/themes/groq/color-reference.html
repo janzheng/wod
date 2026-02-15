@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groq Theme - Color Reference</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, system-ui, Inter, Roboto, "Segoe UI", sans-serif;
+      padding: 2rem;
+      background: #f9f9f8;
+      color: #26292e;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+      color: #f43e01;
+      letter-spacing: -0.025em;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 3rem 0 1rem;
+      color: #26292e;
+      border-bottom: 3px solid #f43e01;
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin: 2rem 0 1rem;
+      color: #2d2f33;
+    }
+
+    .intro {
+      font-size: 1.125rem;
+      color: #4e4e45;
+      margin-bottom: 2rem;
+      max-width: 800px;
+    }
+
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .color-card {
+      background: white;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s ease;
+    }
+
+    .color-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .color-swatch {
+      height: 120px;
+      width: 100%;
+      position: relative;
+    }
+
+    .color-info {
+      padding: 1rem;
+    }
+
+    .color-name {
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: #26292e;
+      margin-bottom: 0.25rem;
+    }
+
+    .color-hex {
+      font-family: 'Courier New', monospace;
+      font-size: 0.875rem;
+      color: #69695d;
+      background: #f3f3ee;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
+      display: inline-block;
+      cursor: pointer;
+      user-select: all;
+    }
+
+    .color-hex:hover {
+      background: #e8e8e0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+
+    .badge-primary {
+      background: #ffe8cc;
+      color: #9a2701;
+    }
+
+    .badge-core {
+      background: #f3f3ee;
+      color: #2d2f33;
+    }
+
+    .badge-extended {
+      background: #e3dcf8;
+      color: #683d7f;
+    }
+
+    .semantic-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .semantic-card {
+      background: white;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .semantic-title {
+      font-weight: 700;
+      font-size: 1.125rem;
+      margin-bottom: 1rem;
+      color: #26292e;
+    }
+
+    .semantic-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #e8e8e0;
+    }
+
+    .semantic-item:last-child {
+      border-bottom: none;
+    }
+
+    .semantic-label {
+      font-size: 0.875rem;
+      color: #4e4e45;
+    }
+
+    .semantic-value {
+      font-family: 'Courier New', monospace;
+      font-size: 0.75rem;
+      color: #69695d;
+      background: #f3f3ee;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
+    }
+
+    .examples-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .example-card {
+      background: white;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background: #f43e01;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #c23101;
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #f3f3ee;
+      color: #26292e;
+      border: 1px solid #cecebf;
+    }
+
+    .btn-secondary:hover {
+      background: #e8e8e0;
+    }
+
+    .alert {
+      padding: 1rem;
+      border-radius: 0.5rem;
+      margin: 0.5rem 0;
+      border: 1px solid;
+    }
+
+    .alert-success {
+      background: #a9ffdb;
+      border-color: #10e68d;
+      color: #018b01;
+    }
+
+    .alert-warning {
+      background: #f4fd90;
+      border-color: #fdeb20;
+      color: #c6b802;
+    }
+
+    .alert-danger {
+      background: #ffd1a3;
+      border-color: #c23101;
+      color: #731d00;
+    }
+
+    .alert-info {
+      background: #bfe4fc;
+      border-color: #5fc0ff;
+      color: #0082a0;
+    }
+
+    .divider {
+      height: 1px;
+      background: #e8e8e0;
+      margin: 3rem 0;
+    }
+
+    .note {
+      background: #fff8f0;
+      border-left: 4px solid #f43e01;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 0.25rem;
+    }
+
+    .note-title {
+      font-weight: 600;
+      color: #c23101;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Groq Theme</h1>
+    <p class="intro">
+      A modern, vibrant theme inspired by Groq's fast AI inference platform. 
+      Features a bold orange primary color paired with a sophisticated gray palette 
+      and extended color families for versatility.
+    </p>
+
+    <div class="note">
+      <div class="note-title">Quick Start</div>
+      <p>To activate this theme, uncomment <code>@use 'groq/overrides';</code> in <code>theme.scss</code> and run <code>deno task build:styles</code></p>
+    </div>
+
+    <h2>🎨 Core Color Palette</h2>
+
+    <h3>Primary Orange (Brand)</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #fff5e5"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 50</div>
+          <div class="color-hex">#fff5e5</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #ffe8cc"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 100</div>
+          <div class="color-hex">#ffe8cc</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #ffd1a3"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 200</div>
+          <div class="color-hex">#ffd1a3</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #ffb973"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 300</div>
+          <div class="color-hex">#ffb973</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #fe9e20"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 400</div>
+          <div class="color-hex">#fe9e20</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #f48b0a"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 500</div>
+          <div class="color-hex">#f48b0a</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #f43e01"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 600</div>
+          <div class="color-hex">#f43e01</div>
+          <span class="badge badge-primary">Primary Brand ⭐</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #c23101"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 700</div>
+          <div class="color-hex">#c23101</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #9a2701"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 800</div>
+          <div class="color-hex">#9a2701</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #731d00"></div>
+        <div class="color-info">
+          <div class="color-name">Orange 900</div>
+          <div class="color-hex">#731d00</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+    </div>
+
+    <h3>Neutral Grays</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #f9f9f8"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 50</div>
+          <div class="color-hex">#f9f9f8</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #f3f3ee"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 100</div>
+          <div class="color-hex">#f3f3ee</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #e8e8e0"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 200</div>
+          <div class="color-hex">#e8e8e0</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #cecebf"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 300</div>
+          <div class="color-hex">#cecebf</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #9f9f92"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 400</div>
+          <div class="color-hex">#9f9f92</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #69695d"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 500</div>
+          <div class="color-hex">#69695d</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #4e4e45"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 600</div>
+          <div class="color-hex">#4e4e45</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #2d2f33"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 700</div>
+          <div class="color-hex">#2d2f33</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #26292e"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 800</div>
+          <div class="color-hex">#26292e</div>
+          <span class="badge badge-primary">Text ⭐</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #1a1c1f"></div>
+        <div class="color-info">
+          <div class="color-name">Gray 900</div>
+          <div class="color-hex">#1a1c1f</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+    </div>
+
+    <h3>Pure Values</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #000000"></div>
+        <div class="color-info">
+          <div class="color-name">Black</div>
+          <div class="color-hex">#000000</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #ffffff; border: 1px solid #e8e8e0"></div>
+        <div class="color-info">
+          <div class="color-name">White</div>
+          <div class="color-hex">#ffffff</div>
+          <span class="badge badge-primary">Original</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>✨ Extended Color Families</h2>
+
+    <h3>Yellow Tones</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #f4fd90"></div>
+        <div class="color-info">
+          <div class="color-name">Yellow 200</div>
+          <div class="color-hex">#f4fd90</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #fdeb20"></div>
+        <div class="color-info">
+          <div class="color-name">Yellow 300</div>
+          <div class="color-hex">#fdeb20</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #e6d000"></div>
+        <div class="color-info">
+          <div class="color-name">Yellow 500</div>
+          <div class="color-hex">#e6d000</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #c6b802"></div>
+        <div class="color-info">
+          <div class="color-name">Yellow 700</div>
+          <div class="color-hex">#c6b802</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+    </div>
+
+    <h3>Green Tones</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #a9ffdb"></div>
+        <div class="color-info">
+          <div class="color-name">Green 200</div>
+          <div class="color-hex">#a9ffdb</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #10e68d"></div>
+        <div class="color-info">
+          <div class="color-name">Green 300</div>
+          <div class="color-hex">#10e68d</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #0dcc7a"></div>
+        <div class="color-info">
+          <div class="color-name">Green 500</div>
+          <div class="color-hex">#0dcc7a</div>
+          <span class="badge badge-core">Core</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #018b01"></div>
+        <div class="color-info">
+          <div class="color-name">Green 700</div>
+          <div class="color-hex">#018b01</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+    </div>
+
+    <h3>Blue Tones</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #bfe4fc"></div>
+        <div class="color-info">
+          <div class="color-name">Blue 200</div>
+          <div class="color-hex">#bfe4fc</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #5fc0ff"></div>
+        <div class="color-info">
+          <div class="color-name">Blue 300</div>
+          <div class="color-hex">#5fc0ff</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #0082a0"></div>
+        <div class="color-info">
+          <div class="color-name">Blue 500</div>
+          <div class="color-hex">#0082a0</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+    </div>
+
+    <h3>Purple Tones</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #e3dcf8"></div>
+        <div class="color-info">
+          <div class="color-name">Purple 200</div>
+          <div class="color-hex">#e3dcf8</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #d377fd"></div>
+        <div class="color-info">
+          <div class="color-name">Purple 300</div>
+          <div class="color-hex">#d377fd</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #683d7f"></div>
+        <div class="color-info">
+          <div class="color-name">Purple 500</div>
+          <div class="color-hex">#683d7f</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+    </div>
+
+    <h3>Pink Tones</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #fad8ff"></div>
+        <div class="color-info">
+          <div class="color-name">Pink 200</div>
+          <div class="color-hex">#fad8ff</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #f392dd"></div>
+        <div class="color-info">
+          <div class="color-name">Pink 300</div>
+          <div class="color-hex">#f392dd</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #ee66ce"></div>
+        <div class="color-info">
+          <div class="color-name">Pink 500</div>
+          <div class="color-hex">#ee66ce</div>
+          <span class="badge badge-extended">Extended</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>🎯 Semantic Color Mapping</h2>
+    
+    <div class="semantic-grid">
+      <div class="semantic-card">
+        <div class="semantic-title">Primary Colors</div>
+        <div class="semantic-item">
+          <span class="semantic-label">Primary</span>
+          <span class="semantic-value">--groq-orange-600</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Primary Hover</span>
+          <span class="semantic-value">--groq-orange-700</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Primary Active</span>
+          <span class="semantic-value">--groq-orange-800</span>
+        </div>
+      </div>
+
+      <div class="semantic-card">
+        <div class="semantic-title">Text Colors</div>
+        <div class="semantic-item">
+          <span class="semantic-label">Primary Text</span>
+          <span class="semantic-value">--groq-gray-800</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Secondary Text</span>
+          <span class="semantic-value">--groq-gray-600</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Muted Text</span>
+          <span class="semantic-value">--groq-gray-500</span>
+        </div>
+      </div>
+
+      <div class="semantic-card">
+        <div class="semantic-title">Background Colors</div>
+        <div class="semantic-item">
+          <span class="semantic-label">Primary BG</span>
+          <span class="semantic-value">--groq-white</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Secondary BG</span>
+          <span class="semantic-value">--groq-gray-50</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Muted BG</span>
+          <span class="semantic-value">--groq-gray-100</span>
+        </div>
+      </div>
+
+      <div class="semantic-card">
+        <div class="semantic-title">Semantic States</div>
+        <div class="semantic-item">
+          <span class="semantic-label">Success</span>
+          <span class="semantic-value">--groq-green-300</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Warning</span>
+          <span class="semantic-value">--groq-yellow-300</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Danger</span>
+          <span class="semantic-value">--groq-orange-600</span>
+        </div>
+        <div class="semantic-item">
+          <span class="semantic-label">Info</span>
+          <span class="semantic-value">--groq-blue-300</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>🎨 Component Examples</h2>
+
+    <div class="examples-grid">
+      <div class="example-card">
+        <h3 style="margin-bottom: 1rem;">Buttons</h3>
+        <button class="btn btn-primary">Primary Button</button>
+        <br><br>
+        <button class="btn btn-secondary">Secondary Button</button>
+      </div>
+
+      <div class="example-card">
+        <h3 style="margin-bottom: 1rem;">Alerts</h3>
+        <div class="alert alert-success">
+          <strong>Success!</strong> Your action was completed.
+        </div>
+        <div class="alert alert-warning">
+          <strong>Warning!</strong> Please review this.
+        </div>
+        <div class="alert alert-danger">
+          <strong>Error!</strong> Something went wrong.
+        </div>
+        <div class="alert alert-info">
+          <strong>Info:</strong> Here's some information.
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <footer style="text-align: center; padding: 2rem 0; color: #69695d;">
+      <p><strong>Groq Theme</strong> • Part of the Design System</p>
+      <p style="font-size: 0.875rem; margin-top: 0.5rem;">
+        Created with colors from the Groq brand palette
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
+

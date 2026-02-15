@@ -1,0 +1,14 @@
+{
+  "id": "snippets",
+  "name": "Snippets",
+  "description": "Social media finds - mini-circuits and workouts to try",
+  "icon": "lucide:bookmark",
+  "color": "#8B5CF6",
+  "defaults": {
+    "duration": 15,
+    "difficulty": "intermediate",
+    "equipment": ["bodyweight"],
+    "tags": ["snippet", "circuit"]
+  },
+  "sortOrder": 99
+}

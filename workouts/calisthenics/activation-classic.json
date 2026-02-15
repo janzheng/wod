@@ -1,0 +1,78 @@
+{
+  "id": "activation-classic",
+  "name": "Activation Classic",
+  "description": "Dynamic activation and movement sequence - preserved exactly as it was",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "bodyweight", "fixed", "classic", "activation", "mobility"],
+  "estimatedDuration": 40,
+  "equipment": ["bodyweight"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Light Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-activation-sequence",
+      "name": "Block 1: Activation Sequence",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "clap-jack", "reps": "max" },
+        { "id": "squat-kick", "reps": "max" },
+        { "id": "squat-to-calves", "reps": "max" },
+        { "id": "cross-crunch-toe-tap", "reps": "max", "notes": "cross crunch + tap" },
+        { "id": "plank-walkout", "reps": "max", "notes": "walk outs (plank walkout)" },
+        { "id": "plank-shoulder-taps", "reps": "max", "notes": "shoulder taps" },
+        { "id": "curtsy-lunge", "reps": "max", "notes": "curtsy lunges, each leg" },
+        { "id": "bodyweight-squat", "reps": "max", "notes": "crab march (lateral walking in squat position)" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-strength",
+      "name": "Block 2: Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "push-up", "reps": "max" },
+        { "id": "pull-up", "reps": "max" },
+        { "id": "squat", "reps": "max" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-core",
+      "name": "Block 3: Core",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "hollow-body-hold", "duration": 45 },
+        { "id": "plank", "duration": 60 },
+        { "id": "side-plank-hold", "duration": 30, "notes": "each side" }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Each block: 3 rounds",
+    "Block 1 is a dynamic activation sequence - move through each exercise smoothly",
+    "Crab march: lateral walking in squat position",
+    "This is a fixed sequence - no randomization",
+    "Focus on fluid movement and activation"
+  ]
+}

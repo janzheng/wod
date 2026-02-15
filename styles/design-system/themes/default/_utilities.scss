@@ -1,0 +1,179 @@
+.theme-scope {
+  /* ===================================
+     Design System Utilities
+     
+     NOTE: Standard Tailwind utilities (flex, gap-*, p-*, m-*, text-*, etc.)
+     are provided by Tailwind CDN. This file only contains:
+     1. Semantic color utilities using CSS variables
+     2. Utilities that Tailwind doesn't provide
+     3. Design-system-specific overrides
+     =================================== */
+
+  /* Semantic Color Utilities (using CSS variables) */
+  .color-success { color: var(--color-success); }
+  .color-warning { color: var(--color-warning); }
+  .color-danger { color: var(--color-danger); }
+  .color-info { color: var(--color-primary); }
+  
+  .color-text-primary { color: var(--color-text-primary); }
+  .color-text-secondary { color: var(--color-text-secondary); }
+  .color-text-muted { color: var(--color-text-muted); }
+  
+  .color-bg-primary { background-color: var(--color-bg-primary); }
+  .color-bg-secondary { background-color: var(--color-bg-secondary); }
+  .color-bg-muted { background-color: var(--color-bg-muted); }
+
+  /* ===================================
+     Semantic State Color Utilities
+     For alerts, notifications, status indicators
+     =================================== */
+  
+  /* Success */
+  .color-success { color: var(--color-success); }
+  .color-success-bg {
+    background-color: var(--color-success-light);
+    color: var(--color-success-dark);
+  }
+  .color-success-border { border-color: var(--color-success); }
+  .color-success-text { color: var(--color-success-dark); }
+  .color-success-link { color: var(--color-success-link); }
+  .color-success-link:hover { color: var(--color-success-link-hover); }
+  
+  /* Warning */
+  .color-warning { color: var(--color-warning); }
+  .color-warning-bg {
+    background-color: var(--color-warning-light);
+    color: var(--color-warning-dark);
+  }
+  .color-warning-border { border-color: var(--color-warning); }
+  .color-warning-text { color: var(--color-warning-dark); }
+  .color-warning-link { color: var(--color-warning-link); }
+  .color-warning-link:hover { color: var(--color-warning-link-hover); }
+  
+  /* Danger */
+  .color-danger { color: var(--color-danger); }
+  .color-danger-bg {
+    background-color: var(--color-danger-light);
+    color: var(--color-danger-dark);
+  }
+  .color-danger-border { border-color: var(--color-danger); }
+  .color-danger-text { color: var(--color-danger-dark); }
+  .color-danger-link { color: var(--color-danger-link); }
+  .color-danger-link:hover { color: var(--color-danger-link-hover); }
+  
+  /* Info */
+  .color-info { color: var(--color-primary); }
+  .color-info-bg {
+    background-color: var(--color-primary-lighter);
+    color: var(--color-primary-dark);
+  }
+  .color-info-border { border-color: var(--color-primary); }
+  .color-info-text { color: var(--color-primary-dark); }
+  .color-info-link { color: var(--color-primary-hover); }
+  .color-info-link:hover { color: var(--color-primary-active); }
+  
+  /* Neutral */
+  .color-neutral { color: var(--color-text-secondary); }
+  .color-neutral-bg {
+    background-color: var(--color-bg-muted);
+    color: var(--color-text-neutral-dark);
+  }
+  .color-neutral-border { border-color: var(--color-border-light); }
+  .color-neutral-text { color: var(--color-text-neutral); }
+  .color-neutral-link { color: var(--color-neutral-link); }
+  .color-neutral-link:hover { color: var(--color-neutral-link-hover); }
+
+  /* Text decoration utilities */
+  .no-underline { text-decoration: none !important; }
+  .hover-no-underline:hover { text-decoration: none !important; }
+
+  /* Force hidden (works even when other display is set) */
+  .hidden { display: none !important; }
+  
+  /* mb-0 override (common need) */
+  .mb-0 { margin-bottom: 0 !important; }
+
+  /* ===================================
+     Gap Normalization
+
+     When using flex containers with gap, child margins create
+     double-spacing. These utilities remove margins from children
+     to let gap handle all spacing.
+     =================================== */
+
+  /* Stack gap normalization - removes margins from direct children */
+  .stack-gap-normalize > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* Also handle .app-card margin-bottom specifically */
+  .stack-gap-normalize > .app-card,
+  .stack-gap-normalize > .card {
+    margin-bottom: 0;
+  }
+
+  /* Generic gap normalization for any flex container with gap-* classes */
+  [class*="gap-"] > .app-card,
+  [class*="gap-"] > .card {
+    margin-bottom: 0;
+  }
+
+  /* Remove margins from paragraphs and other common elements in gap containers */
+  [class*="gap-"] > p,
+  [class*="gap-"] > h1,
+  [class*="gap-"] > h2,
+  [class*="gap-"] > h3,
+  [class*="gap-"] > h4,
+  [class*="gap-"] > h5,
+  [class*="gap-"] > h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* Field components often have margin-bottom for standalone use */
+  .stack-gap-normalize > .field,
+  [class*="gap-"] > .field {
+    margin-bottom: 0;
+  }
+
+  /* ===================================
+     Stack Fill
+
+     Makes children grow equally to fill available space.
+     Useful for creating equal-width columns or rows.
+     =================================== */
+
+  /* Stack fill - children grow equally */
+  .stack-fill > * {
+    flex: 1 1 0%;
+    min-width: 0; /* Prevent overflow from flex children */
+  }
+
+  /* For wrapping stacks with fill, use a reasonable basis */
+  .stack-fill.flex-wrap > * {
+    flex: 1 1 auto;
+    min-width: 200px; /* Minimum width before wrapping */
+  }
+
+  /* ===================================
+     Auto Fill for Horizontal Stacks
+
+     Horizontal flex containers with cards should fill by default.
+     This makes multi-column card layouts stretch to full width.
+     =================================== */
+
+  /* Horizontal flex containers with cards - auto fill */
+  .flex.flex-row > .app-card,
+  .flex.flex-row > .card {
+    flex: 1 1 0%;
+    min-width: 0;
+  }
+
+  /* Wrapping horizontal flex with cards - grow but allow wrap */
+  .flex.flex-row.flex-wrap > .app-card,
+  .flex.flex-row.flex-wrap > .card {
+    flex: 1 1 200px; /* Grow, shrink, min 200px basis before wrap */
+    min-width: 200px;
+  }
+}

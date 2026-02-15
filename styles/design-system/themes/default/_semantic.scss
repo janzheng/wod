@@ -1,0 +1,677 @@
+/* ===================================
+   Semantic CSS Classes
+   Replaces common Tailwind utility patterns with themeable classes
+   =================================== */
+
+.theme-scope {
+
+  /* ===================================
+     Section & Module Layout
+     =================================== */
+  
+  /* Section heading - replaces "text-lg font-semibold mb-4" */
+  .section-heading {
+    font-size: var(--text-lg);
+    font-weight: var(--font-semibold);
+    color: var(--color-text-primary);
+    margin-bottom: 1rem;
+    line-height: var(--leading-tight);
+  }
+
+  /* Section description - replaces "text-sm text-gray-500/600 mb-4" */
+  .section-description {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin-bottom: 1rem;
+  }
+
+  /* Sub-heading - replaces "text-sm font-medium mb-2" */
+  .subsection-heading {
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--color-text-secondary);
+    margin-bottom: 0.5rem;
+  }
+
+  /* Caption / small label - replaces "text-xs text-gray-500" */
+  .caption {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+  }
+
+  /* Fine print - small muted text for disclaimers */
+  .fine-print {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+
+  /* ===================================
+     Brand & Hero Typography
+     =================================== */
+  
+  /* Brand text - bold logo typography */
+  .brand-text {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    letter-spacing: -0.025em;
+    color: var(--color-text-primary);
+  }
+
+  /* Hero title - large marketing headline */
+  .hero-title {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-extrabold);
+    letter-spacing: -0.025em;
+    color: var(--color-text-primary);
+    line-height: 1.1;
+  }
+
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: var(--text-5xl);
+    }
+  }
+
+  /* Hero accent - highlighted text in hero */
+  .hero-accent {
+    color: var(--color-primary);
+  }
+
+  /* Hero description - subtitle for hero */
+  .hero-description {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+  }
+
+  /* Nav link - navigation menu link */
+  .nav-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+    
+    &:hover {
+      color: var(--color-text-primary);
+    }
+  }
+
+  /* Footer link */
+  .footer-link {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+    
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+
+  /* Social link - icon link */
+  .social-link {
+    color: var(--color-text-muted);
+    transition: color 0.15s ease;
+    
+    &:hover {
+      color: var(--color-text-secondary);
+    }
+  }
+
+  /* Badge dark - dark background badge */
+  .badge-dark {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-lg);
+    font-size: var(--text-xs);
+    font-weight: var(--font-medium);
+    display: inline-block;
+  }
+
+  /* Icon placeholder - for placeholder images/icons */
+  .icon-placeholder {
+    color: var(--color-border-default);
+    opacity: 0.6;
+  }
+
+  /* Text/Background accent - uses primary color for branded text */
+  .text-accent {
+    color: var(--color-primary);
+  }
+
+  .bg-accent {
+    background-color: var(--color-primary);
+  }
+
+  .bg-accent-light {
+    background-color: var(--color-primary-ring);
+  }
+
+  .border-accent {
+    border-color: var(--color-primary);
+  }
+
+  /* Loading spinner */
+  .loading-spinner {
+    color: var(--color-primary);
+    animation: spin 1s linear infinite;
+  }
+
+  /* Status dots - small indicator circles */
+  .status-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+  }
+
+  .status-success {
+    background-color: var(--color-success);
+  }
+
+  .status-danger {
+    background-color: var(--color-danger);
+  }
+
+  .status-warning {
+    background-color: var(--color-warning);
+  }
+
+  /* Interactive danger variant */
+  .interactive-danger {
+    &:hover {
+      background-color: var(--color-danger-bg);
+    }
+  }
+
+  /* Ghost button danger variant */
+  .btn-ghost-danger {
+    color: var(--color-danger);
+    
+    &:hover {
+      color: var(--color-danger);
+      background-color: var(--color-danger-bg);
+    }
+  }
+
+  /* ===================================
+     Semantic Text Colors
+     =================================== */
+  
+  .text-success {
+    color: var(--color-success);
+  }
+
+  .text-warning {
+    color: var(--color-warning);
+  }
+
+  .text-danger {
+    color: var(--color-danger);
+  }
+
+  .text-inverse {
+    color: var(--color-white);
+  }
+
+  .text-muted {
+    color: var(--color-text-muted);
+  }
+
+  /* Help text - replaces "text-sm text-gray-500 mt-1" */
+  .help-text {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+  }
+
+  /* ===================================
+     Demo / Preview Containers
+     =================================== */
+  
+  /* Demo container - replaces "p-8 border border-gray-200 rounded-lg bg-gray-50" */
+  .demo-container {
+    padding: 2rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background-color: var(--color-bg-muted);
+  }
+
+  /* Demo container with fixed height */
+  .demo-container-tall {
+    padding: 2rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background-color: var(--color-bg-muted);
+    min-height: 16rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+    z-index: 10;
+  }
+
+  /* Demo container smaller variant */
+  .demo-container-sm {
+    padding: 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background-color: var(--color-bg-muted);
+  }
+
+  /* Surface - generic box with bg and border */
+  .surface {
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+  }
+
+  .surface-muted {
+    background-color: var(--color-bg-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+  }
+
+  /* ===================================
+     Text Styles (Semantic)
+     =================================== */
+  
+  /* Primary text - replaces "text-gray-900" */
+  .text-primary {
+    color: var(--color-text-primary);
+  }
+
+  /* Secondary text - replaces "text-gray-700/600" */
+  .text-secondary {
+    color: var(--color-text-secondary);
+  }
+
+  /* Muted text - replaces "text-gray-500/400" */
+  .text-muted {
+    color: var(--color-text-muted);
+  }
+
+  /* Accent text - replaces "text-blue-600" */
+  .text-accent {
+    color: var(--color-primary);
+  }
+
+  /* Success text - replaces "text-green-500/600" */
+  .text-success {
+    color: var(--color-success);
+  }
+
+  /* Danger/Error text - replaces "text-red-500/600" */
+  .text-danger {
+    color: var(--color-danger);
+  }
+
+  /* Warning text - replaces "text-orange-400/500" */
+  .text-warning {
+    color: var(--color-warning);
+  }
+
+  /* ===================================
+     Background Styles
+     =================================== */
+  
+  /* Primary bg - replaces "bg-white" */
+  .bg-primary {
+    background-color: var(--color-bg-primary);
+  }
+
+  /* Muted bg - replaces "bg-gray-50/100" */
+  .bg-muted {
+    background-color: var(--color-bg-muted);
+  }
+
+  /* Secondary bg - replaces "bg-gray-100/200" */
+  .bg-secondary {
+    background-color: var(--color-bg-secondary);
+  }
+
+  /* ===================================
+     Interactive Elements
+     =================================== */
+  
+  /* Interactive surface - replaces "hover:bg-gray-50 transition-colors" */
+  .interactive {
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .interactive:hover {
+    background-color: var(--color-bg-muted);
+  }
+
+  /* Interactive link - replaces "text-gray-600 hover:text-gray-900" */
+  .interactive-link {
+    color: var(--color-text-secondary);
+    transition: color 0.15s ease;
+  }
+
+  .interactive-link:hover {
+    color: var(--color-text-primary);
+  }
+
+  /* Accent link - replaces "text-gray-600 hover:text-blue-600" */
+  .accent-link {
+    color: var(--color-text-secondary);
+    transition: color 0.15s ease;
+  }
+
+  .accent-link:hover {
+    color: var(--color-primary);
+  }
+
+  /* ===================================
+     Icons
+     =================================== */
+  
+  /* Icon muted - replaces "text-gray-400" on icons */
+  .icon-muted {
+    color: var(--color-text-muted);
+  }
+
+  /* Icon on hover */
+  .icon-interactive {
+    color: var(--color-text-muted);
+    transition: color 0.15s ease;
+  }
+
+  .icon-interactive:hover {
+    color: var(--color-text-secondary);
+  }
+
+  /* Icon success */
+  .icon-success {
+    color: var(--color-success);
+  }
+
+  /* Icon danger */
+  .icon-danger {
+    color: var(--color-danger);
+  }
+
+  /* Icon warning */
+  .icon-warning {
+    color: var(--color-warning);
+  }
+
+  /* Icon accent/primary */
+  .icon-accent {
+    color: var(--color-primary);
+  }
+
+  /* ===================================
+     Border Styles
+     =================================== */
+  
+  /* Default border - replaces "border border-gray-200" */
+  // .border-default {
+  //   border: 1px solid var(--color-border);
+  // }
+
+  /* Light border - replaces "border border-gray-100" */
+  .border-light {
+    border: 1px solid var(--color-border-light);
+  }
+
+  /* Divider - replaces "border-t border-gray-200" */
+  .divider {
+    border-top: 1px solid var(--color-border);
+  }
+
+  .divider-b {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  /* ===================================
+     Stats / Metrics
+     =================================== */
+  
+  /* Stat box - replaces "p-3 bg-gray-50 rounded-lg" */
+  .stat-box {
+    padding: 0.75rem;
+    background-color: var(--color-bg-muted);
+    border-radius: var(--radius-lg);
+  }
+
+  /* Stat label - replaces "text-xs text-gray-500 uppercase tracking-wide" */
+  .stat-label {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-wide);
+  }
+
+  /* Stat value - replaces "text-2xl font-bold" */
+  .stat-value {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+  }
+
+  /* Stat change positive - replaces "text-xs text-green-600" */
+  .stat-change-positive {
+    font-size: var(--text-xs);
+    color: var(--color-success);
+  }
+
+  /* Stat change negative - replaces "text-xs text-red-600" */
+  .stat-change-negative {
+    font-size: var(--text-xs);
+    color: var(--color-danger);
+  }
+
+  /* ===================================
+     Navigation Elements
+     =================================== */
+  
+  /* Nav link - replaces "text-sm font-medium text-gray-600 hover:text-gray-900" */
+  .nav-link {
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--color-text-secondary);
+    transition: color 0.15s ease;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color: var(--color-text-primary);
+  }
+
+  /* Brand text - replaces "text-xl font-bold tracking-tight text-gray-900" */
+  .brand-text {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    letter-spacing: var(--tracking-tight);
+    color: var(--color-text-primary);
+  }
+
+  /* Footer link - replaces "text-gray-600 hover:text-blue-600" */
+  .footer-link {
+    color: var(--color-text-secondary);
+    transition: color 0.15s ease;
+    text-decoration: none;
+  }
+
+  .footer-link:hover {
+    color: var(--color-primary);
+  }
+
+  /* Social link - replaces "text-gray-400 hover:text-gray-600" */
+  .social-link {
+    color: var(--color-text-muted);
+    transition: color 0.15s ease;
+  }
+
+  .social-link:hover {
+    color: var(--color-text-secondary);
+  }
+
+  /* ===================================
+     Hero / Marketing Sections
+     =================================== */
+  
+  /* Hero title - replaces "text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900" */
+  .hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 800;
+    letter-spacing: var(--tracking-tight);
+    color: var(--color-text-primary);
+    line-height: var(--leading-tight);
+  }
+
+  /* Hero accent - replaces "text-blue-600" inside hero */
+  .hero-accent {
+    color: var(--color-primary);
+  }
+
+  /* Hero description - replaces "text-lg text-gray-600" */
+  .hero-description {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+  }
+
+  /* Fine print - replaces "text-sm text-gray-500" */
+  .fine-print {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+
+  /* ===================================
+     Panel / Section Styling
+     =================================== */
+  
+  /* Panel header - for accordion, collapsible headers */
+  .panel-header {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-bg-primary);
+    border-radius: var(--radius-lg);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: background-color 0.15s ease;
+    cursor: pointer;
+  }
+
+  /* Show border-bottom when panel is open (next sibling is visible) */
+  .panel-header:has(+ *:not([style*="display: none"])):not(:has(+ [x-show]:not([style]))) {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  /* Alternative: when aria-expanded is true */
+  .panel-header[aria-expanded="true"] {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .panel-header:hover {
+    background-color: var(--color-bg-muted);
+  }
+
+  .accordion-borderless .panel-header {
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: none;
+  }
+
+  .accordion-borderless .panel-header[aria-expanded="true"] {
+    border-bottom: none;
+  }
+
+  /* Override the :has() selector for borderless accordions */
+  .accordion-borderless .panel-header:has(+ *:not([style*="display: none"])):not(:has(+ [x-show]:not([style]))) {
+    border-bottom: none;
+  }
+
+  .accordion-borderless .panel-header:hover {
+    background-color: var(--color-bg-muted);
+  }
+
+  /* Panel content */
+  .panel-content {
+    padding: 1rem;
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+  }
+
+  /* ===================================
+     Grid Wrappers
+     =================================== */
+  
+  /* Two-column grid - replaces "grid grid-cols-2 gap-4" */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  /* Two-column responsive grid */
+  .grid-2-responsive {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .grid-2-responsive {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* ===================================
+     Focus States
+     =================================== */
+  
+  /* Focus ring - replaces focus:ring-2 focus:ring-blue-500 */
+  .focus-ring:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--color-primary-ring);
+    border-color: var(--color-primary);
+  }
+
+  .focus-ring:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--color-primary-ring);
+    border-color: var(--color-primary);
+  }
+
+  /* ===================================
+     Tooltip
+     =================================== */
+  
+  .tooltip {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    margin-bottom: 0.5rem;
+    padding: 0.375rem 0.75rem;
+    font-size: var(--text-xs);
+    color: var(--color-white);
+    background-color: var(--color-text-primary);
+    border-radius: var(--radius-md);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    z-index: 50;
+    pointer-events: none;
+  }
+
+  .tooltip-arrow {
+    position: absolute;
+    top: 100%;
+    right: 0.375rem;
+    margin-top: -0.25rem;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: var(--color-text-primary) transparent transparent transparent;
+  }
+
+}
+

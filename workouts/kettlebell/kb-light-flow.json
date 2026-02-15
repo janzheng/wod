@@ -1,0 +1,34 @@
+{
+  "id": "kb-light-flow",
+  "name": "Light Kettlebell Flow",
+  "description": "Light single-bell work focused on movement quality, mobility, and conditioning. Higher reps, shorter rest. Great for active recovery or conditioning days.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "cardio", "light", "flow", "conditioning"],
+  "estimatedDuration": 20,
+  "equipment": ["kettlebell"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "flow-circuit",
+      "name": "Kettlebell Flow",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "Smooth circles, warm up the shoulders" },
+        { "id": "kettlebell-goblet-squat", "reps": 15, "notes": "Slow descent, sit in the bottom for a beat" },
+        { "id": "kettlebell-swing", "reps": 20, "notes": "Crisp hip snap, let it float" },
+        { "id": "kettlebell-lunge", "reps": "8 each", "notes": "Goblet hold, controlled step" },
+        { "id": "kettlebell-overhead-press", "reps": "8 each", "notes": "Light and strict" },
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "Squeeze at top, control the negative" }
+      ],
+      "restBetween": 10,
+      "restAfter": 90
+    }
+  ],
+  "tips": [
+    "Use a LIGHT bell - this is about movement quality and conditioning",
+    "Should be able to do all exercises without putting the bell down within a round",
+    "Focus on breathing and smooth transitions between exercises",
+    "Great for travel, hotel gyms, or days you don't want to go heavy"
+  ]
+}

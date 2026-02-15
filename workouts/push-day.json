@@ -1,0 +1,44 @@
+{
+  "id": "push-day",
+  "name": "Push Day",
+  "description": "Upper body push-focused workout targeting chest, shoulders, and triceps",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "push", "upper-body"],
+  "estimatedDuration": 45,
+  "equipment": ["barbell", "dumbbell", "bench"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["shoulders", "chest"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"] }, "reps": 5 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "main-push",
+      "name": "Main Push Exercises",
+      "type": "exercises",
+      "rounds": 4,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["barbell", "bench"], "tags": ["compound"] }, "reps": "8-10" },
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["barbell", "dumbbell"], "tags": ["press"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["chest"], "equipment": ["dumbbell"], "tags": ["isolation"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["triceps"], "equipment": ["dumbbell", "cable"] }, "reps": "12-15" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    }
+  ],
+  "tips": [
+    "Focus on form and controlled movements",
+    "Use challenging weight - last 2 reps should be tough",
+    "Rest 60-90 seconds between sets"
+  ]
+}

@@ -1,0 +1,36 @@
+/* ===================================
+   Default Theme - All Components
+   This partial imports all component styles
+   Use this for themes to inherit all default styles
+   =================================== */
+
+/* Import variables FIRST so CSS custom properties are defined before use */
+@use '_variables' as *;
+
+/* Import all component partials with underscore prefix */
+@use '_base' as *;
+@use '_typography' as *;
+@use '_lists' as *;
+@use '_tables' as *;
+@use '_forms' as *;
+@use '_buttons' as *;
+@use '_cards' as *;
+@use '_accordions' as *;
+@use '_tabs' as *;
+@use '_callouts' as *;
+@use '_details' as *;
+@use '_utilities' as *;
+@use '_badges' as *;
+@use '_components' as *;
+@use '_avatars' as *;
+@use '_items' as *;
+@use '_dropdowns' as *;
+@use '_fields' as *;
+@use '_code' as *;
+@use '_toast' as *;
+@use '_pagination' as *;
+@use '_toggle-group' as *;
+@use '_semantic' as *;
+@use '_calendar' as *;
+@use '_drawer' as *;
+

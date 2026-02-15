@@ -1,0 +1,14 @@
+{
+  "id": "calisthenics",
+  "name": "Calisthenics",
+  "description": "Bodyweight strength training - handstands, rings, pull-ups, and skill work",
+  "icon": "🤸",
+  "color": "#9C27B0",
+  "defaults": {
+    "duration": 45,
+    "difficulty": "intermediate",
+    "equipment": ["bodyweight", "pull-up-bar", "rings"],
+    "tags": ["calisthenics", "bodyweight", "skill-work"]
+  },
+  "sortOrder": 5
+}

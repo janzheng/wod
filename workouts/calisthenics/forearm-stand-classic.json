@@ -1,0 +1,111 @@
+{
+  "id": "forearm-stand-classic",
+  "name": "Forearm Stand Classic",
+  "description": "Headstand and handstand progression sequence - building from headstand to handstand",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "bodyweight", "fixed", "classic", "handstand", "headstand", "skill-work", "progression"],
+  "estimatedDuration": 50,
+  "equipment": ["bodyweight", "box", "wall", "mat"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["shoulders", "wrists"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-headstand-foundation",
+      "name": "Block 1: Headstand Foundation",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "headstand-tuck-hold", "duration": 30, "notes": "tripod headstand tuck hold - build balance and core strength" },
+        { "id": "wall-headstand-leg-raises", "reps": 8, "notes": "wall-supported headstand leg raises - lower and raise legs" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-shoulder-strength",
+      "name": "Block 2: Shoulder Strength for Inversions",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "pike-push-up", "reps": "max", "notes": "pike push-ups - build shoulder strength for handstand push-ups" },
+        { "id": "handstand-box-hold", "duration": 30, "notes": "handstand holds on box - practice alignment" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-handstand-progression",
+      "name": "Block 3: Handstand Entry Progression",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "handstand-wall-walk", "reps": 5, "notes": "wall walks - chest to wall handstand practice" },
+        { "id": "donkey-kick-handstand", "reps": "max", "notes": "donkey kick to handstand - two-footed kick up" },
+        { "id": "handstand-kickup", "reps": "max", "notes": "handstand kickups - single leg entry practice" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-4-headstand-transitions",
+      "name": "Block 4: Headstand Transitions",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "tripod-headstand-to-pushup", "reps": 5, "notes": "tripod headstand leg raises to push-up - advanced transition work" },
+        { "id": "headstand-to-push-up", "reps": 5, "notes": "headstand to push-up flow - smooth transitions" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "block-5-forearm-stand-practice",
+      "name": "Block 5: Forearm Stand Practice",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "forearm-stand", "duration": 30, "notes": "forearm stand hold - bridge between headstand and handstand" }
+      ],
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "block-6-core-stability",
+      "name": "Block 6: Core Stability",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "l-sit", "duration": 30, "notes": "L-sit hold - core strength for inversions" },
+        { "id": "v-sit", "duration": 20, "notes": "V-sit hold - advanced core work" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Progression path: Headstand → Forearm Stand → Handstand",
+    "Start each block with easier progressions and work toward more advanced movements",
+    "Use wall support liberally - safety first when learning inversions",
+    "Focus on alignment: shoulders over base (head/forearms/hands), core engaged, straight body line",
+    "This is a fixed sequence - no randomization",
+    "Practice patience - inversion skills take time to develop"
+  ]
+}

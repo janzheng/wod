@@ -1,0 +1,89 @@
+{
+  "id": "maternity-strength-flow",
+  "name": "Maternity Strength Flow",
+  "description": "A strength-building floor workout for pregnancy - bodyweight exercises to build muscle safely at home",
+  "routineId": "maternity",
+  "tags": ["maternity", "strength", "bodyweight", "floor", "home", "strength-building"],
+  "estimatedDuration": 25,
+  "equipment": ["mat", "bodyweight"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup & Activation",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["maternity", "breathing"], "equipment": ["mat", "bodyweight"] }, "duration": 45, "notes": "deep breathing" },
+        { "criteria": { "tags": ["maternity", "gentle", "floor"], "types": ["yoga"] }, "duration": 45, "notes": "gentle mobility" },
+        { "criteria": { "tags": ["maternity", "gentle"], "muscles": ["hips", "glutes"], "equipment": ["mat", "bodyweight"] }, "duration": 45, "notes": "hip activation" }
+      ],
+      "restBetween": 10,
+      "restAfter": 45
+    },
+    {
+      "id": "lower-body-strength",
+      "name": "Lower Body Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "poolSize": 4,
+      "exercises": [
+        { "criteria": { "tags": ["maternity", "gentle"], "muscles": ["glutes", "hamstrings"], "equipment": ["mat", "bodyweight"], "excludeTags": ["stretch", "yoga"] }, "reps": "10-15", "notes": "glute bridges, single-leg bridges, or clamshells" },
+        { "criteria": { "tags": ["maternity", "gentle"], "muscles": ["quads", "glutes"], "equipment": ["bodyweight"], "excludeTags": ["stretch", "yoga", "floor"] }, "reps": "10-15", "notes": "bodyweight squats - go as deep as comfortable" },
+        { "criteria": { "tags": ["maternity", "gentle"], "muscles": ["hips", "glutes"], "equipment": ["mat", "bodyweight"], "excludeTags": ["stretch", "yoga"] }, "reps": "10-15", "notes": "side-lying leg lifts or hip abduction" },
+        { "criteria": { "tags": ["maternity", "gentle"], "muscles": ["glutes"], "equipment": ["mat", "bodyweight"], "excludeTags": ["stretch", "yoga"] }, "reps": "10-15", "notes": "bridge variations" }
+      ],
+      "restBetween": 20,
+      "restAfter": 60
+    },
+    {
+      "id": "upper-body-strength",
+      "name": "Upper Body Strength",
+      "type": "exercises",
+      "rounds": 2,
+      "randomize": true,
+      "poolSize": 3,
+      "exercises": [
+        { "criteria": { "tags": ["maternity", "gentle"], "types": ["calisthenics"], "muscles": ["chest", "triceps", "shoulders"], "equipment": ["bodyweight"], "excludeTags": ["intense", "hiit", "yoga", "stretch"] }, "reps": "8-12", "notes": "wall push-ups or knee push-ups" },
+        { "criteria": { "tags": ["maternity", "gentle"], "types": ["calisthenics"], "muscles": ["shoulders"], "equipment": ["bodyweight"], "excludeTags": ["intense", "hiit", "yoga", "stretch"] }, "reps": "8-12", "notes": "wall or standing shoulder exercises" },
+        { "criteria": { "tags": ["maternity", "gentle"], "types": ["calisthenics"], "muscles": ["chest", "shoulders"], "equipment": ["bodyweight"], "excludeTags": ["intense", "hiit", "yoga", "stretch"] }, "reps": "8-12", "notes": "upper body strength work" }
+      ],
+      "restBetween": 20,
+      "restAfter": 60
+    },
+    {
+      "id": "core-strength",
+      "name": "Core & Stability",
+      "type": "exercises",
+      "rounds": 2,
+      "randomize": true,
+      "poolSize": 3,
+      "exercises": [
+        { "criteria": { "tags": ["maternity", "gentle", "core"], "types": ["calisthenics", "rehab"], "equipment": ["mat", "bodyweight"], "excludeTags": ["intense", "hiit", "crunch", "yoga"] }, "duration": 30, "notes": "modified planks (on knees) or core stability holds" },
+        { "criteria": { "tags": ["maternity", "pelvic-floor", "core"], "equipment": ["mat", "bodyweight"], "excludeTags": ["intense", "hiit", "crunch"] }, "duration": 30, "notes": "pelvic floor and deep core work" },
+        { "criteria": { "tags": ["maternity", "gentle", "core"], "types": ["calisthenics", "rehab"], "equipment": ["mat", "bodyweight"], "excludeTags": ["intense", "hiit", "crunch", "yoga"] }, "duration": 30, "notes": "core stability exercises" }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "cooldown",
+      "name": "Stretch & Recovery",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "tags": ["maternity", "gentle", "floor", "recovery"], "types": ["yoga"] }, "duration": 90, "notes": "restorative stretch" },
+        { "criteria": { "types": ["yoga", "stretch"], "tags": ["floor", "gentle"], "excludeTags": ["intense"] }, "duration": 60, "notes": "gentle stretching" }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Focus on controlled movements - quality over quantity",
+    "Modify exercises as needed - use wall support, reduce range of motion, or take breaks",
+    "For planks: use knees-down modification or reduce hold time",
+    "For squats: use a chair for support if needed, don't go too deep",
+    "Listen to your body - stop if you feel any pain, dizziness, or shortness of breath",
+    "Stay hydrated and breathe throughout each exercise",
+    "Consult your healthcare provider before starting any exercise program during pregnancy"
+  ]
+}

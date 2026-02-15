@@ -1,0 +1,84 @@
+{
+  "id": "upper-classic-circuit-2",
+  "name": "Upper Classic Circuit 2",
+  "description": "Another favorite upper body classic sequence - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "upper-body", "fixed", "classic", "push", "pull"],
+  "estimatedDuration": 40,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "plate"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["shoulders", "chest"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-superset",
+      "name": "Block 1: Curl & Press Superset",
+      "type": "exercises",
+      "rounds": 8,
+      "randomize": false,
+      "exercises": [
+        { "id": "bicep-curl", "reps": 1, "notes": "curl 1x press 2x x8 (do 1 curl then 2 press, repeat 8 rounds)" },
+        { "id": "dumbbell-shoulder-press", "reps": 2, "notes": "superset with curl (2 press each round)" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1b-t-raise",
+      "name": "Block 1b: T Raise",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "lateral-raise", "reps": 8, "notes": "dumbbell T raise" }
+      ],
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-compound",
+      "name": "Block 2: Compound Upper",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "gorilla-row", "reps": 12 },
+        { "id": "overhead-press", "reps": 10, "notes": "kettlebell overhead press" },
+        { "id": "bench-press", "reps": 8, "notes": "barbell floor press (lying on floor)" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-finisher",
+      "name": "Block 3: Shoulder & Arm Finisher",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "barbell-shoulder-press", "reps": 6, "notes": "1 1/4 shoulder press (partial reps)" },
+        { "id": "overhead-tricep-extension", "reps": 10, "notes": "dumbbell french press" },
+        { "id": "front-raise", "reps": 12, "notes": "plate front raise" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Block 1: Do 1 curl then 2 press, repeat 8 times, then do T raise",
+    "This is a fixed sequence - no randomization",
+    "Use challenging weight - focus on form and control"
+  ]
+}

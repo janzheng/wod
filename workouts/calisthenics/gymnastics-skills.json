@@ -1,0 +1,76 @@
+{
+  "id": "gymnastics-skills",
+  "name": "Gymnastics Skill Work",
+  "description": "Advanced calisthenics skill progressions: front lever, back lever, planche, and L-sit work",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "strength", "gymnastics", "skill-work", "progressions"],
+  "estimatedDuration": 60,
+  "equipment": ["bodyweight", "pull-up-bar", "rings", "parallettes"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Mobility & Activation",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility", "shoulders"], "equipment": ["resistance-band", "bodyweight"] }, "reps": "10", "poolSize": 2 },
+        { "criteria": { "tags": ["warmup", "wrist"] }, "duration": 60 },
+        { "id": "dead-hang", "duration": 30, "notes": "Active hang - depress shoulders" },
+        { "id": "support-hold", "duration": 30, "notes": "Rings or parallettes - turn rings out if possible" }
+      ],
+      "restBetween": 15,
+      "restAfter": 90
+    },
+    {
+      "id": "skill-1-front-lever",
+      "name": "Front Lever Work",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "front-lever-progression" }, "duration": "10-30", "notes": "Pick your current progression level. Hold for max quality time." }
+      ],
+      "restBetween": 120,
+      "restAfter": 180
+    },
+    {
+      "id": "skill-2-back-lever",
+      "name": "Back Lever Work",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "back-lever-progression" }, "duration": "10-30", "notes": "Pick your current progression level. Focus on shoulder position." }
+      ],
+      "restBetween": 120,
+      "restAfter": 180
+    },
+    {
+      "id": "skill-3-planche",
+      "name": "Planche Work",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "planche-progression" }, "duration": "10-30", "notes": "Lean forward aggressively. Keep arms locked." }
+      ],
+      "restBetween": 120,
+      "restAfter": 180
+    },
+    {
+      "id": "skill-4-l-sit",
+      "name": "L-Sit Work",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "l-sit-progression" }, "duration": "10-30", "notes": "Depress shoulders, compress hip flexors hard." }
+      ],
+      "restBetween": 90
+    }
+  ],
+  "tips": [
+    "This is SKILL work - quality over quantity",
+    "Rest fully between sets (2-3 minutes) - these are neurologically demanding",
+    "Pick the progression level where you can hold 10-15 seconds with good form",
+    "When you can hold 3x15-20 seconds, try the next progression",
+    "Don't train to failure - stop when form breaks down",
+    "Can be done as a standalone session or added to your regular training"
+  ]
+}

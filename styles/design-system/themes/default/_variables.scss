@@ -1,0 +1,6 @@
+/* Import tokens from the tokens folder */
+@use '../../tokens' as *;
+
+/* All CSS custom properties are now defined in ../tokens/ 
+   This file exists for backwards compatibility and to allow 
+   theme-specific overrides */

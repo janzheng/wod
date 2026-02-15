@@ -1,0 +1,82 @@
+{
+  "id": "kb-legs-circuit",
+  "name": "Kettlebell Legs Circuit",
+  "description": "Quad and glute focused kettlebell circuit. Features the @powerbrutehq massive quads exercises plus classic KB leg work.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "lower-body", "legs", "circuit", "quads", "glutes", "strength"],
+  "estimatedDuration": 25,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "Inspired by @powerbrutehq",
+  "sourceUrl": "https://x.com/powerbrutehq/status/2021260667601277363",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Wake up the shoulders and core" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Light, warm up depth" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "block-1-squat-variations",
+      "name": "Block 1: Squat Variations",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-goblet-squat", "reps": 12, "notes": "Chest proud, elbows inside knees" },
+        { "id": "kettlebell-straddle-squat", "reps": 12, "notes": "Wide stance, chest upright, touch the bell" },
+        { "id": "kettlebell-front-squat", "reps": 10, "notes": "Rack position, stay tall" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-hinge",
+      "name": "Block 2: Hinge & Posterior Chain",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-deadlift", "reps": 12, "notes": "Flat back, squeeze glutes at top" },
+        { "id": "kettlebell-sumo-deadlift", "reps": 12, "notes": "Wide stance, toes out" },
+        { "id": "kettlebell-swing", "reps": 15, "notes": "Power from the hips" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-unilateral",
+      "name": "Block 3: Single Leg Work",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-lunge", "reps": "10 each", "notes": "Suitcase or rack hold" },
+        { "id": "single-leg-rdl-kettlebell", "reps": "8 each", "notes": "Slow and controlled, feel the stretch" }
+      ],
+      "restBetween": 20,
+      "restAfter": 60
+    },
+    {
+      "id": "block-4-powerbrutehq-special",
+      "name": "Block 4: @powerbrutehq Massive Quads Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-bent-over-straddle-squat", "reps": 12, "notes": "The hunched-over version from @powerbrutehq - torso stays forward. Unusual but hits posterior chain hard" },
+        { "id": "kettlebell-straddle-squat", "reps": 12, "notes": "Now the upright version - feel the quad burn" }
+      ],
+      "restBetween": 15,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Use a heavier bell for deadlifts/swings, moderate for squats, lighter for single-leg work",
+    "Block 4 features exercises from @powerbrutehq - the bent-over version is unusual but try it",
+    "Larger leg muscles are linked to slower aging and longer life expectancy",
+    "If you have two bells, hold one in each hand for lunges"
+  ]
+}

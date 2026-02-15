@@ -1,0 +1,33 @@
+{
+  "id": "barre-releve-passe",
+  "name": "Relevé Passé",
+  "type": "barre",
+  "muscles": [
+    "calves",
+    "quads",
+    "balance"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "standing",
+    "balance",
+    "releve"
+  ],
+  "difficulty": "beginner",
+  "description": "Stand on one leg with the other foot resting against the standing inner thigh (passé position). Rise up onto the ball of the standing foot (relevé) and lower. (Day 2)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 2
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-releve-passe.png",
+      "caption": "Relevé Passé illustration"
+    }
+  ]
+}

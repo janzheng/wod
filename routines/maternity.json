@@ -1,0 +1,18 @@
+{
+  "id": "maternity",
+  "name": "Maternity",
+  "description": "Gentle, safe exercises designed for pregnancy - focusing on pelvic floor, breathing, and gentle movement",
+  "icon": "🤰",
+  "color": "#E91E63",
+  "defaults": {
+    "duration": 15,
+    "difficulty": "beginner",
+    "equipment": ["mat", "bodyweight"],
+    "tags": ["maternity", "gentle", "low-intensity"],
+    "criteria": {
+      "tags": ["maternity"],
+      "equipment": ["mat", "bodyweight"]
+    }
+  },
+  "sortOrder": 7
+}

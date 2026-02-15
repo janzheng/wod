@@ -1,0 +1,114 @@
+{
+  "id": "heavy-duty-intro",
+  "name": "What is Heavy Duty Training?",
+  "description": "An educational introduction to Mike Mentzer's Heavy Duty system. Learn the principles before starting the program. This explains WHY you train less but harder.",
+  "routineId": "heavy-duty",
+  "tags": ["heavy-duty", "education", "intro", "principles"],
+  "estimatedDuration": 10,
+  "equipment": [],
+  "sets": [
+    {
+      "id": "who-was-mentzer",
+      "name": "Who Was Mike Mentzer?",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "mentzer-bio",
+          "name": "The Man Behind Heavy Duty",
+          "notes": "Mike Mentzer (1951-2001) was a champion bodybuilder and philosopher of training. He won the 1978 Mr. Universe with a perfect score. After competing, he developed Heavy Duty - a training system based on scientific principles and logic, not gym bro science."
+        }
+      ]
+    },
+    {
+      "id": "core-principle-1",
+      "name": "Principle 1: Intensity Over Volume",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "intensity-principle",
+          "name": "Train HARDER, Not Longer",
+          "notes": "The stimulus for muscle growth is INTENSITY - how hard you train, not how much. One set taken to true muscular failure stimulates growth just as well as 3-5 sets. More sets just add fatigue without additional benefit."
+        }
+      ]
+    },
+    {
+      "id": "core-principle-2",
+      "name": "Principle 2: Train to Failure",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "failure-principle",
+          "name": "What 'Failure' Really Means",
+          "notes": "FAILURE means you cannot complete another rep with proper form, no matter how hard you try. Not 'this is getting hard' - true failure. When you reach this point, you've triggered the adaptive response. Anything beyond is unnecessary."
+        }
+      ]
+    },
+    {
+      "id": "core-principle-3",
+      "name": "Principle 3: Recovery is Where Growth Happens",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "recovery-principle",
+          "name": "You Don't Grow in the Gym",
+          "notes": "Training damages muscle. RECOVERY is when you grow. Most people overtrain - they return to the gym before fully recovering, making zero progress. Heavy Duty prescribes 4-7+ days between training the same muscle. Sounds crazy? Try it."
+        }
+      ]
+    },
+    {
+      "id": "core-principle-4",
+      "name": "Principle 4: Pre-Exhaustion",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "pre-exhaust-principle",
+          "name": "Tire the Target Muscle First",
+          "notes": "Problem: On bench press, your triceps often fail before your chest. Solution: Pre-exhaust. Do an isolation exercise (pec fly) immediately before the compound (bench). Your chest is pre-fatigued, so it fails first during the press."
+        }
+      ]
+    },
+    {
+      "id": "core-principle-5",
+      "name": "Principle 5: Progressive Overload",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "progression-principle",
+          "name": "The Only Way to Know It's Working",
+          "notes": "If you're getting stronger (more weight or more reps), you're growing. If not, something's wrong - usually overtraining. Log every workout. Add weight when you hit the top of your rep range. Small increments add up to big gains."
+        }
+      ]
+    },
+    {
+      "id": "tempo-technique",
+      "name": "Technique: The 4-2-4 Tempo",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "tempo-note",
+          "name": "Slow and Controlled",
+          "notes": "4 seconds lifting (concentric), 2 second squeeze at contraction, 4 seconds lowering (eccentric). No bouncing, no momentum. This ensures the muscle does ALL the work and maximizes time under tension. If you can't control it, it's too heavy."
+        }
+      ]
+    },
+    {
+      "id": "sample-week",
+      "name": "Sample Week Structure",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "schedule-note",
+          "name": "How Often to Train",
+          "notes": "BEGINNER: Full body 2x/week (e.g., Mon/Thu). INTERMEDIATE: 2-way split, each 1x/week. Day 1: Chest/Back. Day 2: Legs/Shoulders/Arms. ADVANCED: Consolidation routine 1x every 5-7 days. Yes, really. More rest = more growth."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Start with the 'Intro Full Body' workout to learn the techniques",
+    "Keep a training log - track weight, reps, and how you felt",
+    "If you're not progressing after 2-3 weeks, you're training too often",
+    "Eat enough protein and sleep 7-8 hours - recovery requires resources",
+    "This system challenges everything you've been told. Give it 8 weeks before judging."
+  ]
+}

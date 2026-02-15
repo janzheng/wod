@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+ * You can add custom @apply-based utilities here
+ * Example:
+ * 
+ * .btn-primary {
+ *   @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600;
+ * }
+ */
+

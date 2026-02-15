@@ -1,0 +1,14 @@
+{
+  "id": "gym",
+  "name": "Gym",
+  "description": "Strength training workouts for the gym - machines, racks, and free weights",
+  "icon": "🏋️",
+  "color": "#2196F3",
+  "defaults": {
+    "duration": 45,
+    "difficulty": "intermediate",
+    "equipment": ["barbell", "dumbbell", "machine"],
+    "tags": ["gym", "strength"]
+  },
+  "sortOrder": 4
+}

@@ -1,0 +1,65 @@
+{
+  "id": "full-body-classic-circuit",
+  "name": "Full Body Classic Circuit",
+  "description": "Full body sequence combining legs and upper body - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "full-body", "fixed", "classic"],
+  "estimatedDuration": 45,
+  "equipment": ["dumbbell", "kettlebell", "stability-ball", "bodyweight"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-legs",
+      "name": "Block 1: Legs",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "squat-arm-raise", "reps": 10 },
+        { "id": "ball-lunge", "reps": 10, "notes": "ball lunges, each leg" },
+        { "id": "single-leg-good-morning", "reps": "max", "notes": "one leg good morning, each leg" },
+        { "id": "suitcase-squat", "reps": "max", "notes": "suitcase squat, each side" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-2-upper",
+      "name": "Block 2: Upper Body",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "arnold-press", "reps": "max" },
+        { "id": "push-up", "reps": "max" },
+        { "id": "lateral-raise", "reps": "max", "notes": "arm circles (lateral raises)" },
+        { "id": "lateral-to-front-raise", "reps": "max", "notes": "side lifts to front to side" },
+        { "id": "front-raise", "reps": "max", "notes": "front lifts" },
+        { "id": "gorilla-row", "reps": "max" }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Each block: 3 rounds",
+    "Block 1 focuses on unilateral leg work and balance",
+    "Block 2 combines pressing, pushing, and pulling movements",
+    "This is a fixed sequence - no randomization",
+    "Focus on form and control"
+  ]
+}

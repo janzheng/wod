@@ -1,0 +1,68 @@
+{
+  "id": "kb-full-body-circuit",
+  "name": "Kettlebell Full Body Circuit",
+  "description": "A complete full-body kettlebell circuit hitting all major muscle groups. Single bell, moderate weight.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "strength", "cardio"],
+  "estimatedDuration": 30,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell, loosen shoulders" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Light, feel the depth" },
+        { "id": "kettlebell-deadlift", "reps": 5, "notes": "Light, groove the hinge pattern" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-power",
+      "name": "Block 1: Power",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 15, "notes": "Explosive hip snap, bell to chest height" },
+        { "id": "kettlebell-clean-and-press", "reps": "5 each", "notes": "Alternate sides each round" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-strength",
+      "name": "Block 2: Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-front-squat", "reps": "8-10", "notes": "Chest up, elbows high" },
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "Squeeze at the top" },
+        { "id": "kettlebell-floor-press", "reps": "8 each", "notes": "Controlled lowering" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-finisher",
+      "name": "Block 3: Metabolic Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-thruster", "reps": 10, "notes": "One fluid motion, squat to press" },
+        { "id": "kettlebell-swing", "reps": 20, "notes": "Go hard, last push" }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "Use a moderate weight - you should be able to press it for 8+ reps",
+    "Single bell for all exercises, switch hands as noted",
+    "If using double bells, reduce reps by 30%",
+    "Great for home gym or travel workouts"
+  ]
+}

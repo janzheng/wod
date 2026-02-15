@@ -1,0 +1,74 @@
+{
+  "id": "leg-day-classic-circuit",
+  "name": "Leg Day Classic Circuit",
+  "description": "A favorite leg day sequence from years ago - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "legs", "fixed", "classic"],
+  "estimatedDuration": 50,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "hack-squat-machine", "box", "bench", "smith-machine"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-hinge-split",
+      "name": "Block 1: Hinge & Split Focus",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "romanian-deadlift", "reps": "10-12" },
+        { "id": "bulgarian-split-squat", "reps": "10 each", "notes": "each leg" },
+        { "id": "barbell-good-morning", "reps": "10-12", "notes": "or bodyweight" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-2-squat-variations",
+      "name": "Block 2: Squat Variations",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "hack-squat", "reps": "10-12" },
+        { "id": "suitcase-squat", "reps": "10-12", "notes": "each side" },
+        { "id": "split-squat", "reps": "10 each", "notes": "each leg" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-3-compound-legs",
+      "name": "Block 3: Compound Legs",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "sumo-deadlift", "reps": "8-10" },
+        { "criteria": { "progression": "squat-progression" }, "reps": "10-12" },
+        { "id": "step-up", "reps": "10 each", "notes": "each leg" },
+        { "id": "american-kettlebell-swing", "reps": "15" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Use challenging weight - last 2 reps should be tough",
+    "This is a fixed sequence - no randomization",
+    "Total: 3 blocks x 3 rounds = 9 working sets per block"
+  ]
+}

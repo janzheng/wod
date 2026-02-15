@@ -1,0 +1,87 @@
+{
+  "id": "kb-100-rep-daily-challenge",
+  "name": "100 Rep Daily KB Challenge (@gymfiesta)",
+  "description": "100 reps of 6 kettlebell exercises — halos, side swings, high pulls, swings, tricep extensions, and rows. Do it daily with a light bell. High volume, full body, posture and conditioning focused.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "challenge", "high-volume", "conditioning", "daily"],
+  "estimatedDuration": 30,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@gymfiesta",
+  "sourceUrl": "https://x.com/gymfiesta/status/2020867535785148583",
+  "sets": [
+    {
+      "id": "core-stability",
+      "name": "Core Stability: Halos",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": 25, "notes": "Alternate directions. 4x25 = 100 total." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "obliques",
+      "name": "Obliques: Side Swings",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 25, "notes": "Side-to-side swings across the body. 4x25 = 100 total. Use core rotation." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "shoulders",
+      "name": "Shoulders: High Pulls",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-swing-clean", "reps": 25, "notes": "High pull variation — elbows high, shrug at top. 4x25 = 100 total." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "glutes",
+      "name": "Glutes: Swings",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 25, "notes": "Standard two-handed swings. Squeeze glutes hard at top. 4x25 = 100 total." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "arms",
+      "name": "Arms: Tricep Extensions",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-overhead-press", "reps": 25, "notes": "Tricep extension variation — lower behind head, extend. Elbows stay close. 4x25 = 100 total." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "back",
+      "name": "Back: Rows",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "25 total", "notes": "~12-13 per side per set. 4 sets = 100 total. Pull with back, squeeze." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Use a LIGHT kettlebell — this is 600 total reps",
+    "Break each 100 into 4x25 or 5x20 as needed",
+    "Designed to be done daily — not a max effort session",
+    "Focus on form over speed at this volume",
+    "Credit: @gymfiesta"
+  ]
+}

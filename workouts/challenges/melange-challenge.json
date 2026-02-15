@@ -1,0 +1,214 @@
+{
+  "id": "melange-challenge",
+  "name": "Melange Challenge",
+  "description": "A comprehensive, high-volume challenge workout combining calisthenics, strength, mobility, and flexibility. This intense full-body melange includes inversions, high-rep exercises, banded work, holds, and stretches. A true test of endurance, strength, and mental fortitude.",
+  "routineId": "challenges",
+  "tags": ["challenge", "calisthenics", "full-body", "advanced", "high-volume", "inversion", "mobility", "flexibility"],
+  "difficulty": "advanced",
+  "estimatedDuration": 90,
+  "equipment": ["bodyweight", "resistance-band", "mat", "yoga-block", "wall"],
+  "sets": [
+    {
+      "id": "tripod-headstand-legs-to-pushup",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "tripod-headstand-to-pushup" }, "reps": 10, "notes": "10 tripod headstand leg up/down to push up" }
+      ]
+    },
+    {
+      "id": "wall-headstand-raises",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "wall-headstand-leg-raises" }, "reps": 10, "notes": "Headstand up/down raises (wall - core work)" }
+      ]
+    },
+    {
+      "id": "headstand-tuck-hold",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "headstand-tuck-hold" }, "duration": 30, "notes": "Headstand tuck holds" }
+      ]
+    },
+    {
+      "id": "banded-calf-raises",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "banded-calf-raises" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "banded-soleus-raises",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "banded-soleus-raises" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "banded-push-ups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "banded-push-up" }, "reps": 40 }
+      ]
+    },
+    {
+      "id": "hollow-hold-pushups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "hollow-hold-push-up" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "side-plank-pushups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "side-plank-push-up" }, "reps": 40, "notes": "40 side leg push ups (20 each side)" }
+      ]
+    },
+    {
+      "id": "dead-bug-arms-legs",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "dead-bug-arms-legs" }, "reps": 40 }
+      ]
+    },
+    {
+      "id": "banded-rear-delt-raises",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "banded-rear-delt-raise" }, "reps": 40, "notes": "Banded behind back raises" }
+      ]
+    },
+    {
+      "id": "banded-lateral-raises",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "banded-lateral-raise" }, "reps": 40, "notes": "Banded shoulder raises, each side - 40 total (20 each)" }
+      ]
+    },
+    {
+      "id": "banded-bicep-curls",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "banded-bicep-curl" }, "reps": 40 }
+      ]
+    },
+    {
+      "id": "banded-squat-behind-neck",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "banded-squat" }, "reps": 40, "notes": "Banded behind neck squats" }
+      ]
+    },
+    {
+      "id": "malasana-hold",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "malasana-hold" }, "duration": 300, "notes": "Malasana hold (Asian squat; on yoga block). Work on computer on malasana hold, on yoga block" }
+      ]
+    },
+    {
+      "id": "russian-squat",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "cossack-squat" }, "reps": 10, "notes": "Russian squat (Cossack squat) on each side; on yoga block" }
+      ]
+    },
+    {
+      "id": "reverse-leg-raises",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "prone-leg-raises" }, "reps": 20, "notes": "Reverse leg raises (back/core, for back levers)" }
+      ]
+    },
+    {
+      "id": "crow-pose-work",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "crow-pose" }, "duration": 30, "notes": "Crow pose hold" }
+      ]
+    },
+    {
+      "id": "crow-push-ups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "crow-push-up" }, "reps": 10 }
+      ]
+    },
+    {
+      "id": "crow-to-plank",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "crow-to-plank" }, "reps": 10 }
+      ]
+    },
+    {
+      "id": "headstand-to-pushup",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "headstand-to-push-up" }, "reps": 10 }
+      ]
+    },
+    {
+      "id": "dead-bug",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "dead-bug" }, "reps": 20 }
+      ]
+    },
+    {
+      "id": "straddle-tuck-compression",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "straddle-tuck-compression" }, "reps": 20, "notes": "Straddle tucks (on back; compression)" }
+      ]
+    },
+    {
+      "id": "leg-raise-compression",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "leg-raise-compression" }, "reps": 20 }
+      ]
+    },
+    {
+      "id": "shoulder-pushup-feet-elevated",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "feet-elevated-push-up" }, "reps": 20, "notes": "Shoulder push up with propped up feet" }
+      ]
+    },
+    {
+      "id": "straddle-sit-stretch",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "straddle-sit-stretch" }, "duration": 60, "notes": "Straddle sit / stretch sit" }
+      ]
+    },
+    {
+      "id": "triangle-pose-stretch",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "triangle-pose" }, "duration": 60, "notes": "Triangle pose stretch (each side)" }
+      ]
+    },
+    {
+      "id": "plow-pose",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "plow-pose" }, "duration": 60 }
+      ]
+    }
+  ],
+  "tips": [
+    "This is an extremely challenging and comprehensive workout - expect 90+ minutes",
+    "Break high-rep exercises into manageable sets (e.g., 4 sets of 25 for 100-rep exercises)",
+    "For malasana hold: Use a yoga block under your heels if needed. You can work on a computer/device while holding this position",
+    "For Russian squats: Use a yoga block under the heel of the bent leg for support",
+    "For banded exercises: Adjust band tension based on your strength level",
+    "Take rest breaks between exercises as needed - this is about completion, not speed",
+    "Focus on form over speed, especially as fatigue sets in",
+    "The stretches at the end are important for recovery - don't skip them",
+    "For headstand work: Use a wall for safety, especially when learning",
+    "Crow pose variations require significant upper body strength - scale as needed",
+    "Listen to your body and modify exercises if any cause pain or discomfort"
+  ]
+}

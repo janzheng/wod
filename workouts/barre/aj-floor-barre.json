@@ -1,0 +1,31 @@
+{
+  "id": "aj-floor-barre",
+  "name": "Action Jacqueline Floor Barre",
+  "description": "4 classic floor barre exercises - mat work for glutes and hips",
+  "routineId": "action-jacqueline",
+  "creator": "@actionjacquelyn",
+  "source": "100-Reps Barre Sculpted Leg Challenge",
+  "tags": ["barre", "floor", "glutes", "lower-body"],
+  "estimatedDuration": 10,
+  "equipment": ["mat"],
+  "sets": [
+    {
+      "id": "floor-barre",
+      "name": "Classic Floor Barre",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "barre-clamshell" }, "reps": 100, "notes": "Day 3 • 50 each side" },
+        { "criteria": { "exerciseId": "barre-fire-hydrant" }, "reps": 100, "notes": "Day 12 • 50 each side" },
+        { "criteria": { "exerciseId": "barre-side-lying-leg-lift" }, "reps": 100, "notes": "Day 9 • 50 each side" },
+        { "criteria": { "exerciseId": "barre-prone-glute-lift" }, "reps": 100, "notes": "Day 16" }
+      ],
+      "restBetween": 30
+    }
+  ],
+  "tips": [
+    "Use a yoga mat for comfort",
+    "Keep movements small and controlled",
+    "Focus on the squeeze at the top of each rep",
+    "Break into sets of 25 if needed"
+  ]
+}

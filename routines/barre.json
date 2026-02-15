@@ -1,0 +1,14 @@
+{
+  "id": "barre",
+  "name": "Barre",
+  "description": "Ballet-inspired toning and sculpting workouts",
+  "icon": "🩰",
+  "color": "#E91E63",
+  "defaults": {
+    "duration": 20,
+    "difficulty": "beginner",
+    "equipment": ["bodyweight", "mat"],
+    "tags": ["barre"]
+  },
+  "sortOrder": 1
+}

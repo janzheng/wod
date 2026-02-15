@@ -1,0 +1,85 @@
+{
+  "id": "leg-classic-circuit-2",
+  "name": "Leg Classic Circuit 2",
+  "description": "Another favorite leg day classic sequence - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "legs", "fixed", "classic", "lower-body"],
+  "estimatedDuration": 45,
+  "equipment": ["barbell", "kettlebell", "box", "bench", "dumbbell", "smith-machine"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-lunge-warmup",
+      "name": "Block 1: Lunge Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": 16, "notes": "walking lunges" },
+        { "id": "step-up", "reps": 8, "notes": "slow box step" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-lunge-swing",
+      "name": "Block 2: Lunge & Swing",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": 8, "notes": "feet elevated lunge with high knee" },
+        { "id": "american-kettlebell-swing", "reps": 10 },
+        { "id": "bulgarian-split-squat", "reps": 8, "notes": "each leg, bodyweight or weighted" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-deadlift-hipthrust",
+      "name": "Block 3: Deadlift & Hip Thrust",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "deadlift", "reps": 8, "notes": "barbell deadlifts" },
+        { "id": "barbell-good-morning", "reps": 10, "notes": "posterior chain finisher" },
+        { "id": "smith-machine-hip-thrust", "reps": "max", "notes": "single leg hip thrust" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "block-4-squat-finisher",
+      "name": "Block 4: Squat Finisher",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "squat", "reps": 10, "notes": "YGIG 1 1/4 back squat (you go I go - alternating, partial reps)" }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "YGIG = You Go I Go (alternating format with partner or solo)",
+    "1 1/4 squat means do a quarter rep at bottom, then full rep",
+    "This is a fixed sequence - no randomization",
+    "Use challenging weight - focus on form and control"
+  ]
+}

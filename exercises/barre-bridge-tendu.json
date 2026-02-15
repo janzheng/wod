@@ -1,0 +1,36 @@
+{
+  "id": "barre-bridge-tendu",
+  "name": "Bridge with Tendu",
+  "type": "barre",
+  "muscles": [
+    "glutes",
+    "hamstrings",
+    "core"
+  ],
+  "equipment": [
+    "mat"
+  ],
+  "tags": [
+    "floor",
+    "bridge",
+    "tendu",
+    "on-back",
+    "maternity",
+    "gentle"
+  ],
+  "difficulty": "intermediate",
+  "description": "Hold a glute bridge position. Extend one leg straight out forward (knees aligned) or point toe. (Day 29)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 29
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-bridge-tendu.png",
+      "caption": "Bridge with Tendu illustration"
+    }
+  ]
+}

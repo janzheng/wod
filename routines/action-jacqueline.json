@@ -1,0 +1,17 @@
+{
+  "id": "action-jacqueline",
+  "name": "Action Jacqueline",
+  "description": "Barre workouts from @actionjacquelyn's 100-Reps challenges",
+  "icon": "✨",
+  "color": "#FF69B4",
+  "defaults": {
+    "duration": 10,
+    "difficulty": "beginner",
+    "equipment": ["bodyweight"],
+    "tags": ["barre"],
+    "criteria": {
+      "challengeCreator": "@actionjacquelyn"
+    }
+  },
+  "sortOrder": 0
+}

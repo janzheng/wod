@@ -1,0 +1,32 @@
+{
+  "id": "barre-single-leg-deadlift",
+  "name": "Single Leg Deadlift at Barre",
+  "type": "barre",
+  "muscles": [
+    "glutes",
+    "hamstrings"
+  ],
+  "equipment": [
+    "barre"
+  ],
+  "tags": [
+    "standing",
+    "hinge",
+    "unilateral"
+  ],
+  "difficulty": "intermediate",
+  "description": "Face a barre or chair. Hinge forward at hips, keeping back flat. Lift one leg straight back behind you. (Day 11)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 11
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-single-leg-deadlift.png",
+      "caption": "Single Leg Deadlift at Barre illustration"
+    }
+  ]
+}

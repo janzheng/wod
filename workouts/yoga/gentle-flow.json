@@ -1,0 +1,53 @@
+{
+  "id": "gentle-yoga-flow",
+  "name": "Gentle Yoga Flow",
+  "description": "Simple yoga sequence for flexibility and relaxation",
+  "routineId": "yoga",
+  "tags": ["yoga", "stretch", "relaxation", "flexibility"],
+  "estimatedDuration": 15,
+  "equipment": ["mat"],
+  "sets": [
+    {
+      "id": "grounding",
+      "name": "Grounding",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "types": ["yoga"], "tags": ["floor"] }, "duration": 60, "notes": "focus on breath" },
+        { "criteria": { "types": ["yoga"], "tags": ["floor"] }, "duration": 90, "notes": "slow, coordinated with breath" }
+      ],
+      "restBetween": 5,
+      "restAfter": 15
+    },
+    {
+      "id": "flow",
+      "name": "Flow Sequence",
+      "type": "exercises",
+      "rounds": 2,
+      "randomize": true,
+      "poolSize": 4,
+      "exercises": [
+        { "criteria": { "types": ["yoga"], "tags": ["standing"] }, "duration": 45 },
+        { "criteria": { "types": ["yoga"], "tags": ["standing"] }, "duration": 45 },
+        { "criteria": { "types": ["yoga"], "tags": ["floor"] }, "duration": 45 },
+        { "criteria": { "types": ["yoga"], "tags": ["floor"] }, "duration": 45 }
+      ],
+      "restBetween": 10,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Final Rest",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "childs-pose" }, "duration": 90 }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Move slowly and mindfully",
+    "Never force a stretch",
+    "Breathe into tight areas"
+  ]
+}

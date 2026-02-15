@@ -1,0 +1,59 @@
+{
+  "id": "heavy-duty-legs",
+  "name": "Heavy Duty: Legs",
+  "description": "Mentzer's brutal leg workout. Pre-exhaust quads with leg extensions, then destroy them with leg press or squats. Minimal sets, maximum intensity. Your legs will thank you (eventually).",
+  "routineId": "heavy-duty",
+  "tags": ["heavy-duty", "intensity", "hit", "legs", "pre-exhaust"],
+  "estimatedDuration": 25,
+  "equipment": ["machine", "barbell"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Leg Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 60, "notes": "Light movement to get blood flowing. Hip circles, leg swings." },
+        { "criteria": { "muscles": ["quads"], "equipment": ["machine"] }, "reps": 15, "notes": "1 LIGHT warmup set on leg extension. Just to feel the muscle." }
+      ],
+      "restAfter": 90
+    },
+    {
+      "id": "quads-pre-exhaust",
+      "name": "Quads Pre-Exhaust Superset",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "muscles": ["quads"], "equipment": ["machine"], "tags": ["isolation"] }, "reps": "12-15", "notes": "LEG EXTENSION: Squeeze at top for 2 sec. 4-2-4 tempo. All the way to FAILURE." },
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["machine", "barbell"] }, "reps": "8-12", "notes": "LEG PRESS or SQUAT: Immediately (no rest). Quads are pre-fatigued. Deep range of motion. To FAILURE." }
+      ],
+      "restBetween": 0,
+      "restAfter": 180
+    },
+    {
+      "id": "hamstrings",
+      "name": "Hamstrings",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["hamstrings"], "equipment": ["machine"] }, "reps": "10-12", "notes": "1 working set to failure. Squeeze at contraction. 4-2-4 tempo." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "calves",
+      "name": "Calves",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["calves"], "equipment": ["machine"] }, "reps": "12-20", "notes": "Full stretch at bottom, hard squeeze at top. 1 set to failure. Hold top for 2 sec each rep." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "The quad pre-exhaust superset is BRUTAL - your quads will be screaming before compound",
+    "On leg press/squat: go deep, control the negative, explode (but controlled) on positive",
+    "You may need to reduce weight significantly on the compound since quads are pre-fatigued",
+    "WAIT AT LEAST 5-7 DAYS before training legs again - they need recovery time",
+    "If you can walk normally after this workout, you didn't go hard enough"
+  ]
+}

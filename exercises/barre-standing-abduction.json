@@ -1,0 +1,33 @@
+{
+  "id": "barre-standing-abduction",
+  "name": "Standing Abduction at Barre",
+  "type": "barre",
+  "muscles": [
+    "hips",
+    "obliques",
+    "balance"
+  ],
+  "equipment": [
+    "barre"
+  ],
+  "tags": [
+    "standing",
+    "abduction",
+    "lateral"
+  ],
+  "difficulty": "beginner",
+  "description": "Stand holding a barre. Lift outside leg straight out to the side. (Day 23)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 23
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-standing-abduction.png",
+      "caption": "Standing Abduction at Barre illustration"
+    }
+  ]
+}

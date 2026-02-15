@@ -1,0 +1,50 @@
+{
+  "id": "floor-core-classic",
+  "name": "Floor Core Classic",
+  "description": "Classic floor core and bodyweight movements - preserved exactly as it was",
+  "routineId": "morning",
+  "tags": ["morning", "floor", "core", "bodyweight", "fixed", "classic"],
+  "estimatedDuration": 25,
+  "equipment": ["bodyweight", "mat"],
+  "sets": [
+    {
+      "id": "block-1-bridge-core",
+      "name": "Block 1: Bridge & Core",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "weighted-bridge-lift", "reps": "10 each", "notes": "on back/shoulders, foot on floor bridge, lift each leg while holding something heavy straight up" },
+        { "id": "plank-pulse", "reps": "max", "notes": "while doing a plank move front and back" },
+        { "id": "wide-crunches", "reps": "max", "notes": "crunches" },
+        { "id": "plank", "duration": 60 }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-core-variations",
+      "name": "Block 2: Core Variations",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "reverse-crunches", "reps": "max", "notes": "facing up, hands and heels on floor head pointed at feet, doing crunches (knee to face)" },
+        { "id": "downward-dog", "reps": "10 each", "notes": "3 legged dog raises to head/knee" },
+        { "id": "good-morning", "reps": 12, "notes": "bodyweight posterior chain" },
+        { "id": "flutter-kicks", "reps": "max", "notes": "slow flutter kicks" }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Each block: 3 rounds",
+    "Bridge lifts: hold weight on hips, lift one leg at a time",
+    "Plank pulses: small forward/back movements while maintaining plank",
+    "3 legged dog: from downward dog, lift one leg, bring knee to head/nose",
+    "This is a fixed sequence - no randomization",
+    "Focus on controlled movements and core engagement"
+  ]
+}

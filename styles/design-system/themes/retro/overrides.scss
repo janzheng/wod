@@ -1,0 +1,957 @@
+/* ===================================
+   Retro Theme - Geocities/Win95 Style
+   Full override bringing back that 90s web nostalgia!
+   =================================== */
+
+/* Playground-specific overrides (outside theme-scope) */
+:root {
+  --playground-bg: #000033;
+  --playground-text: #ffff00;
+  --playground-text-muted: #00ff00;
+  --playground-surface: #000080;
+  --playground-surface-hover: #000066;
+  --playground-border: #00ff00;
+  --playground-border-hover: #00ffff;
+  --playground-radius: 0;
+  --playground-focus-ring: rgba(0, 255, 0, 0.4);
+  --playground-font: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+}
+
+/* Retro Animations */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes rainbow {
+  0% { color: #ff0000; }
+  17% { color: #ff8800; }
+  33% { color: #ffff00; }
+  50% { color: #00ff00; }
+  67% { color: #00ffff; }
+  83% { color: #ff00ff; }
+  100% { color: #ff0000; }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes glitch {
+  0%, 90%, 100% { transform: translate(0); }
+  91% { transform: translate(-2px, 1px); }
+  92% { transform: translate(2px, -1px); }
+  93% { transform: translate(-1px, -1px); }
+  94% { transform: translate(1px, 2px); }
+}
+
+@keyframes scanline {
+  0% { top: 0%; }
+  100% { top: 100%; }
+}
+
+.theme-scope {
+  /* ===================================
+     Base Theme Override
+     =================================== */
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+  background-color: #000033;
+  background-image: url('https://web.archive.org/web/20091027075046im_/http://geocities.com/Area51/Hollow/9880/starfield.gif');
+  color: #ffff00;
+  
+  /* Retro Color Overrides */
+  --color-primary: #00ff00;
+  --color-primary-hover: #00cc00;
+  --color-primary-active: #009900;
+  --color-primary-dark: #006600;
+  --color-primary-light: #000000;
+  --color-primary-lighter: #003300;
+  --color-primary-lightest: #001100;
+  --color-primary-ring: rgba(0, 255, 0, 0.5);
+  
+  --color-text-primary: #ffff00;
+  --color-text-secondary: #00ff00;
+  --color-text-muted: #c0c0c0;
+  
+  --color-bg-primary: rgba(0, 0, 0, 0.8);
+  --color-bg-secondary: #000080;
+  --color-bg-muted: #000033;
+  
+  --color-border: #00ff00;
+  --color-border-light: #00cc00;
+  
+  /* Semantic Colors - Neon Style */
+  --color-success: #00ff00;
+  --color-success-light: #003300;
+  --color-success-dark: #00cc00;
+  --color-warning: #ffff00;
+  --color-warning-light: #333300;
+  --color-danger: #ff0000;
+  --color-danger-light: #330000;
+  --color-info: #00ffff;
+  --color-info-light: #003333;
+  
+  /* No rounded corners - it's the 90s! */
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-2xl: 0;
+  --radius-button: 0;
+  --radius-card: 0;
+  --radius-full: 0;
+  
+  /* ===================================
+     Typography - READABLE VERSION
+     =================================== */
+  h1, h2, h3, h4, h5, h6,
+  .text-h1, .text-h2, .text-h3,
+  .text-lg, .text-xl, .text-2xl, .text-3xl, .text-4xl, .text-5xl {
+    font-family: "Impact", "Arial Black", Gadget, sans-serif;
+    color: #ff00ff; /* Hot pink - more visible */
+    text-shadow: 
+      2px 2px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000; /* Black outline for readability */
+  }
+  
+  /* Section headings in module demos - make them stand out */
+  .font-semibold, .font-bold {
+    color: #00ffff;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  h1, .text-h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  
+  h2, .text-h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3, .text-h3, .text-lg {
+    font-size: 1.25rem;
+    color: #00ffff; /* Cyan for h3 */
+  }
+  
+  /* Regular paragraph text */
+  p, .text-sm, .text-base {
+    color: #ffff00;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  a, .link {
+    color: #00ff00;
+    text-decoration: underline;
+    text-shadow: 1px 1px 0 #000;
+    
+    &:hover {
+      color: #ffff00;
+      text-shadow: 0 0 10px #00ff00, 1px 1px 0 #000;
+    }
+    
+    &:visited {
+      color: #ff00ff;
+    }
+  }
+  
+  strong, b {
+    color: #ff6600;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  code:not(pre code), .code-inline {
+    background-color: #000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    padding: 0.125rem 0.375rem;
+  }
+  
+  pre, .code-block {
+    background-color: #000;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    padding: 1rem;
+  }
+  
+  blockquote {
+    border-left: 4px solid #00ff00;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffff00;
+    padding: 1rem;
+    font-style: italic;
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px dashed #00ff00;
+    margin: 2rem 0;
+  }
+  
+  /* ===================================
+     Tailwind Utility Class Overrides
+     These override common Tailwind classes used in modules
+     =================================== */
+  
+  /* Background overrides */
+  .bg-white,
+  .bg-gray-50,
+  .bg-gray-100 {
+    background-color: #c0c0c0 !important;
+  }
+  
+  .bg-gray-200,
+  .bg-gray-300 {
+    background-color: #a0a0a0 !important;
+  }
+  
+  /* Text color overrides */
+  .text-gray-900,
+  .text-gray-800,
+  .text-gray-700 {
+    color: #000000 !important;
+    text-shadow: none;
+  }
+  
+  .text-gray-600,
+  .text-gray-500 {
+    color: #333333 !important;
+  }
+  
+  .text-gray-400 {
+    color: #666666 !important;
+  }
+  
+  .text-blue-600,
+  .text-blue-500 {
+    color: #00ffff !important;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  .text-green-500 {
+    color: #00ff00 !important;
+  }
+  
+  .text-red-500 {
+    color: #ff0000 !important;
+  }
+  
+  /* Border overrides */
+  .border-gray-200,
+  .border-gray-300 {
+    border-color: #808080 !important;
+  }
+  
+  .border-gray-100 {
+    border-color: #a0a0a0 !important;
+  }
+  
+  /* Rounded corners - remove them! */
+  .rounded,
+  .rounded-md,
+  .rounded-lg,
+  .rounded-xl,
+  .rounded-2xl,
+  .rounded-full {
+    border-radius: 0 !important;
+  }
+  
+  /* ===================================
+     Cards - Windows 95 Style
+     =================================== */
+  .card, .app-card {
+    background-color: #c0c0c0;
+    border: 4px outset #ffffff;
+    box-shadow: 4px 4px 0px #000;
+    color: #000000;
+  }
+  
+  .card-title, .app-title {
+    font-family: "Impact", "Arial Black", sans-serif;
+    color: #000080;
+    text-shadow: none;
+    text-align: left;
+    animation: none; /* Remove blink - too annoying */
+    background: linear-gradient(to right, #c0c0c0, #e0e0e0);
+    border-bottom: 2px solid #808080;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    
+    &::before {
+      content: "📁 ";
+    }
+    &::after {
+      content: "";
+    }
+  }
+  
+  .app-card-content {
+    background-color: #ffffff;
+    border: 2px inset #808080;
+    color: #000000;
+    padding: 1rem;
+  }
+  
+  /* ===================================
+     Buttons - Win95 3D Style
+     =================================== */
+  .btn-primary, .action-btn {
+    background-color: #c0c0c0 !important;
+    color: #000000 !important;
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    font-weight: bold;
+    border: 3px outset #ffffff !important;
+    /* Default button look (thick black border simulation) */
+    box-shadow: inset 0 0 0 1px #000000 !important; 
+    text-transform: uppercase;
+    
+    &:hover {
+      background-color: #dcdcdc !important;
+      border: 3px outset #ffffff !important;
+    }
+    
+    &:active {
+      border: 3px inset #808080 !important;
+      background-color: #a0a0a0 !important;
+      box-shadow: none !important;
+    }
+    
+    &:focus {
+      outline: 1px dotted #000;
+      outline-offset: -4px;
+    }
+  }
+  
+  .btn-secondary, .btn-gray {
+    background-color: #c0c0c0 !important;
+    color: #000000 !important;
+    border: 3px outset #ffffff !important;
+    box-shadow: none !important;
+    
+    &:hover {
+      background-color: #d0d0d0 !important;
+    }
+    
+    &:active {
+      border: 3px inset #808080 !important;
+    }
+  }
+  
+  .btn-tertiary {
+    background: #c0c0c0 !important;
+    color: #000000 !important;
+    border: 2px outset #ffffff !important;
+    
+    &:hover {
+      background: #d0d0d0 !important;
+    }
+  }
+  
+  .btn-danger {
+    background-color: #ff0000 !important;
+    color: #ffffff !important;
+    border: 3px outset #ff6666 !important;
+    
+    &:active {
+      border: 3px inset #990000 !important;
+    }
+  }
+  
+  .btn-success {
+    background-color: #00aa00 !important;
+    color: #ffffff !important;
+    border: 3px outset #66ff66 !important;
+    
+    &:active {
+      border: 3px inset #009900 !important;
+    }
+  }
+  
+  /* Blue buttons from modules */
+  [class*="bg-blue-600"],
+  [class*="bg-blue-700"] {
+    background-color: #000080 !important;
+    border: 3px outset #0000cc !important;
+    
+    &:hover {
+      background-color: #0000aa !important;
+    }
+  }
+  
+  /* ===================================
+     Forms - Terminal/Hacker Style
+     =================================== */
+  input[type=text],
+  input[type=email],
+  input[type=password],
+  input[type=number],
+  input[type=url],
+  input[type=search],
+  input[type=tel],
+  input[type=date],
+  input[type=time],
+  input[type=datetime-local],
+  textarea,
+  .form-input {
+    background: #001100 !important; /* Very dark green instead of pure black */
+    color: #00ff00 !important;
+    border: 2px inset #00ff00 !important;
+    font-family: "Courier New", Courier, monospace !important;
+    caret-color: #00ff00;
+    text-shadow: 0 0 1px #00ff00; /* Subtle glow effect */
+    
+    &::placeholder {
+      color: #00aa00 !important; /* Brighter placeholder for visibility */
+      text-shadow: none;
+    }
+    
+    &:focus {
+      border-color: #00ff00 !important;
+      box-shadow: 0 0 10px #00ff00, inset 0 0 5px rgba(0, 255, 0, 0.3) !important;
+    }
+  }
+  
+  select, .form-select {
+    background: #000 !important;
+    color: #00ff00 !important;
+    border: 2px inset #00ff00 !important;
+    font-family: "Courier New", Courier, monospace !important;
+    /* Fix dropdown arrow - single chevron */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='%2300ff00'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 8px center !important;
+    background-size: 16px !important;
+    padding-right: 32px !important;
+  }
+  
+  label, .form-label {
+    color: #ffff00 !important; /* Yellow for better contrast */
+    font-family: "Courier New", Courier, monospace !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #000080;
+    padding: 4px 8px;
+    border: 2px outset #4040c0;
+    display: inline-block;
+    margin-bottom: 6px;
+    text-shadow: 1px 1px 0 #000000;
+  }
+  
+  input[type=checkbox],
+  input[type=radio] {
+    accent-color: #00ff00;
+    border-color: #00ff00;
+  }
+  
+  input[type=range],
+  .form-range {
+    accent-color: #00ff00;
+    background: #003300;
+  }
+  
+  /* Copy Button - Retro Style */
+  .copy-button, .copy-button-copied {
+    background: #000080 !important;
+    color: #00ffff !important;
+    border: 2px outset #4040c0 !important;
+    font-family: "Courier New", Courier, monospace !important;
+    
+    &:hover {
+      background: #0000a0 !important;
+      color: #ffffff !important;
+    }
+  }
+  
+  .copy-button-copied {
+    background: #008000 !important;
+    color: #ffffff !important;
+    border: 2px outset #00c000 !important;
+  }
+
+  /* Toggle - Retro Mechanical Switch */
+  input[type=checkbox].form-toggle {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 48px;
+    height: 24px;
+    background: #000000;
+    border: 2px inset #808080 !important;
+    border-radius: 0 !important; /* Square corners */
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    
+    /* The sliding button (thumb) */
+    &::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 16px;
+      height: 16px;
+      background: #c0c0c0;
+      border: 2px outset #ffffff;
+      transition: left 0.1s steps(2); /* Choppy retro animation */
+    }
+
+    /* OFF State specific styling */
+    &:not(:checked) {
+      background: #330000; /* Dark red background */
+      box-shadow: inset 2px 2px 4px #000;
+    }
+
+    /* ON State specific styling */
+    &:checked {
+      background: #003300; /* Dark green background */
+      
+      &::after {
+        left: 26px; /* Move to right */
+        background: #00ff00; /* Green LED look */
+        border: 2px outset #ccffcc;
+        box-shadow: 0 0 5px #00ff00; /* Glow */
+      }
+    }
+    
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      filter: grayscale(100%);
+    }
+  }
+  
+  /* ===================================
+     Tables - Classic HTML Style
+     =================================== */
+  table, .app-table {
+    border: 4px ridge #808080 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  th {
+    background: #000080 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    border: 2px inset #0000cc !important;
+    padding: 8px;
+  }
+  
+  td {
+    border: 1px solid #808080 !important;
+    padding: 8px;
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  tr:nth-child(even) td {
+    background: #e0e0e0 !important;
+  }
+  
+  /* ===================================
+     Badges - Bevel Style
+     =================================== */
+  .badge,
+  [class*="badge-"] {
+    border: 2px outset #ffffff !important;
+    background: #c0c0c0 !important;
+    color: #000 !important;
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+  }
+  
+  .badge-success {
+    background: #00ff00 !important;
+    border-color: #00cc00 !important;
+  }
+  
+  .badge-danger {
+    background: #ff0000 !important;
+    color: #fff !important;
+    border-color: #cc0000 !important;
+  }
+  
+  .badge-warning {
+    background: #ffff00 !important;
+    border-color: #cccc00 !important;
+  }
+  
+  .badge-info {
+    background: #00ffff !important;
+    border-color: #00cccc !important;
+  }
+  
+  /* ===================================
+     Tabs - Folder Style
+     =================================== */
+  .tabs-list {
+    border-bottom: 2px solid #808080;
+  }
+  
+  .tab-trigger {
+    background: #c0c0c0 !important;
+    border: 2px outset #ffffff !important;
+    border-bottom: none !important;
+    color: #000 !important;
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    margin-right: 2px;
+    
+    &:hover {
+      background: #d0d0d0 !important;
+    }
+    
+    &[data-state="active"],
+    &.active {
+      background: #ffffff !important;
+      border-bottom: 2px solid #ffffff !important;
+      margin-bottom: -2px;
+      z-index: 1;
+    }
+  }
+  
+  /* ===================================
+     Accordions - Retro Toggle
+     =================================== */
+  .accordion-group {
+    border: 2px solid #808080;
+    background: #c0c0c0;
+  }
+  
+  .accordion-item {
+    border-bottom: 2px solid #808080;
+  }
+  
+  .accordion-button {
+    color: #000080;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    
+    &:hover {
+      background: #d0d0d0;
+    }
+  }
+  
+  .accordion-content-inner {
+    color: #000000;
+    background: #ffffff;
+  }
+  
+  /* ===================================
+     Callouts/Alerts - Neon Boxes
+     =================================== */
+  .callout, .alert {
+    border: 3px double;
+    background: #000;
+    padding: 1rem;
+    
+    &.callout-info, &.alert-info {
+      border-color: #00ffff;
+      color: #00ffff;
+    }
+    
+    &.callout-success, &.alert-success {
+      border-color: #00ff00;
+      color: #00ff00;
+    }
+    
+    &.callout-warning, &.alert-warning {
+      border-color: #ffff00;
+      color: #ffff00;
+    }
+    
+    &.callout-danger, &.alert-danger {
+      border-color: #ff0000;
+      color: #ff0000;
+    }
+  }
+  
+  /* ===================================
+     Loading States - Retro Style
+     =================================== */
+  .loading-spinner,
+  .animate-spin {
+    border: 4px solid #0000ff !important;
+    border-top: 4px solid #ff0000 !important;
+    border-radius: 0 !important;
+    animation: spin 0.5s linear infinite !important;
+  }
+  
+  .loading-text {
+    color: #ff00ff;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: blink 0.5s infinite;
+  }
+  
+  /* Skeleton loading - make it retro */
+  .animate-pulse,
+  [class*="skeleton"] {
+    background: repeating-linear-gradient(
+      90deg,
+      #000080 0px,
+      #0000aa 10px,
+      #000080 20px
+    ) !important;
+    animation: none !important;
+  }
+  
+  /* ===================================
+     Dropdowns - Win95 Menu
+     =================================== */
+  .dropdown-menu {
+    background: #c0c0c0 !important;
+    border: 2px outset #ffffff !important;
+    box-shadow: 4px 4px 0 #000 !important;
+    color: #000 !important;
+    border-radius: 0 !important;
+  }
+  
+  .dropdown-item {
+    color: #000 !important;
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    border-radius: 0 !important;
+    
+    &:hover {
+      background: #000080 !important;
+      color: #ffffff !important;
+    }
+    
+    &:active {
+      background: #000060 !important;
+    }
+  }
+  
+  .dropdown-header {
+    color: #808080 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+  
+  .dropdown-divider {
+    border-color: #808080 !important;
+  }
+  
+  /* ===================================
+     Toast Notifications
+     =================================== */
+  .toast {
+    background: #c0c0c0 !important;
+    border: 3px outset #ffffff !important;
+    color: #000 !important;
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    box-shadow: 4px 4px 0 #000 !important;
+    border-radius: 0 !important;
+  }
+  
+  /* ===================================
+     Avatar - Pixelated!
+     =================================== */
+  .avatar {
+    border: 2px solid #00ff00 !important;
+    image-rendering: pixelated;
+    background: #000080 !important;
+    border-radius: 0 !important;
+  }
+  
+  /* ===================================
+     Icons - Make them retro
+     =================================== */
+  .iconify {
+    filter: none; /* Could add pixelation effect */
+  }
+  
+  /* ===================================
+     Kbd / Keyboard keys
+     =================================== */
+  kbd, .kbd {
+    background: #c0c0c0 !important;
+    border: 2px outset #ffffff !important;
+    color: #000 !important;
+    font-family: "MS Sans Serif", Tahoma, sans-serif !important;
+    border-radius: 0 !important;
+    box-shadow: 2px 2px 0 #808080 !important;
+  }
+  
+  /* ===================================
+     Toggle Groups
+     =================================== */
+  .toggle-group {
+    border: 2px solid #808080;
+    background: #c0c0c0;
+  }
+  
+  .toggle-group-item {
+    background: #c0c0c0 !important;
+    border: 2px outset #ffffff !important;
+    color: #000 !important;
+    
+    &:hover {
+      background: #d0d0d0 !important;
+    }
+    
+    &[data-state="on"],
+    &.active {
+      background: #ffffff !important;
+      border: 2px inset #808080 !important;
+    }
+  }
+  
+  /* ===================================
+     Page Sections from Modules
+     =================================== */
+  
+  /* Override header styling */
+  header {
+    background: #c0c0c0;
+    border-bottom: 2px solid #808080;
+  }
+  
+  /* Hero sections */
+  section {
+    background: #c0c0c0;
+  }
+  
+  /* Footer */
+  footer {
+    background: #c0c0c0;
+    border-top: 2px solid #808080;
+  }
+  
+  /* ===================================
+     Fun Extras - Easter Eggs
+     =================================== */
+  
+  /* Visitor Counter Style */
+  .visitor-counter {
+    font-family: "Courier New", Courier, monospace;
+    background: #000;
+    color: #00ff00;
+    border: 2px inset #333;
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+  }
+  
+  /* Under Construction Banner */
+  .under-construction {
+    background: repeating-linear-gradient(
+      45deg,
+      #ffff00,
+      #ffff00 10px,
+      #000 10px,
+      #000 20px
+    );
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    animation: glitch 2s infinite;
+  }
+  
+  /* Marquee Text Effect */
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    
+    span {
+      display: inline-block;
+      animation: marquee 10s linear infinite;
+    }
+  }
+  
+  /* Rainbow Text */
+  .rainbow-text {
+    animation: rainbow 2s infinite linear;
+    font-weight: bold;
+  }
+  
+  /* Guestbook Style Comment Box */
+  .guestbook {
+    background: #ffffff;
+    color: #000;
+    border: 4px ridge #c0c0c0;
+    padding: 1rem;
+    font-family: "Comic Sans MS", cursive;
+    
+    .guestbook-entry {
+      border-bottom: 1px dashed #808080;
+      padding: 0.5rem 0;
+      
+      .guestbook-author {
+        color: #0000ff;
+        font-weight: bold;
+      }
+      
+      .guestbook-date {
+        color: #808080;
+        font-size: 0.75rem;
+      }
+    }
+  }
+  
+  /* Hit Counter */
+  .hit-counter {
+    background: #000;
+    color: #ff0000;
+    font-family: "Courier New", monospace;
+    border: 2px inset #333;
+    padding: 0.25rem 0.5rem;
+    letter-spacing: 0.1em;
+    
+    &::before {
+      content: "Hits: ";
+      color: #00ff00;
+    }
+  }
+  
+  /* Webring Navigation */
+  .webring {
+    text-align: center;
+    padding: 0.5rem;
+    border: 2px ridge #c0c0c0;
+    background: #000;
+    
+    a {
+      color: #00ff00;
+      margin: 0 0.5rem;
+      
+      &:hover {
+        color: #ffff00;
+      }
+    }
+  }
+  
+  /* CRT Scanline Effect (optional - add to containers) */
+  .crt-effect {
+    position: relative;
+    
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.1) 0px,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px,
+        transparent 2px
+      );
+      pointer-events: none;
+    }
+  }
+}

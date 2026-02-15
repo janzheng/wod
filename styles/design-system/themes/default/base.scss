@@ -1,0 +1,30 @@
+/* Base Scope - SCSS Nesting */
+
+/* Import variables FIRST so CSS custom properties are defined before use */
+@use '_variables' as *;
+
+/* Import all component partials */
+@use '_base' as *;
+@use '_typography' as *;
+@use '_lists' as *;
+@use '_tables' as *;
+@use '_forms' as *;
+@use '_buttons' as *;
+@use '_cards' as *;
+@use '_accordions' as *;
+@use '_tabs' as *;
+@use '_callouts' as *;
+@use '_details' as *;
+@use '_utilities' as *;
+@use '_badges' as *;
+@use '_components' as *;
+@use '_dropdowns' as *;
+@use '_items' as *;
+@use '_avatars' as *;
+@use '_pagination' as *;
+@use '_code' as *;
+@use '_toast' as *;
+@use '_toggle-group' as *;
+@use '_fields' as *;
+@use '_drawer' as *;
+

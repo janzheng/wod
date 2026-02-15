@@ -1,0 +1,25 @@
+{
+  "id": "calisthenics-classic-workouts",
+  "name": "Calisthenics Classic Workouts",
+  "description": "Randomly selects from favorite classic calisthenics sequences. Each workout is preserved exactly as it was - no shuffling within blocks.",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "bodyweight", "classic", "fixed", "skill-work"],
+  "estimatedDuration": 50,
+  "equipment": ["bodyweight", "rings", "pull-up-bar", "box", "wall"],
+  "fixedAlternativeChance": 1.0,
+  "fixedAlternatives": [
+    "forearm-stand-classic",
+    "varied-calisthenics-classic",
+    "activation-classic",
+    "nathan-core-classic"
+  ],
+  "sets": [],
+  "tips": [
+    "This workout randomly selects from classic fixed sequences",
+    "Each classic workout preserves the exact exercise order",
+    "No shuffling within blocks - these are nostalgic favorites",
+    "Focus on form and skill progression",
+    "Forearm Stand Classic focuses on headstand/handstand progression",
+    "Varied Calisthenics Classic covers pulling, pushing, core, and skill work"
+  ]
+}

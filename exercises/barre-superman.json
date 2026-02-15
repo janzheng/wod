@@ -1,0 +1,29 @@
+{
+  "id": "barre-superman",
+  "name": "Superman Hold",
+  "type": "barre",
+  "muscles": [
+    "lower-back",
+    "glutes",
+    "shoulders"
+  ],
+  "equipment": [
+    "mat"
+  ],
+  "tags": ["floor", "prone", "superman", "back-exercise", "on-hands"],
+  "difficulty": "beginner",
+  "description": "Lie on stomach with arms and legs extended. Lift opposite arm and leg simultaneously. (Day 27)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 27
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-superman.png",
+      "caption": "Superman Hold illustration"
+    }
+  ]
+}

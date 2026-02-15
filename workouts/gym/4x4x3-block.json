@@ -1,0 +1,91 @@
+{
+  "id": "4x4x3-block",
+  "name": "4x4x3 Floor & Bench",
+  "description": "Classic block training: 4 blocks of 4 exercises, 3 rounds each. Uses dumbbells, kettlebells, and barbells on floor and bench.",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "block", "full-body", "free-weights"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "kettlebell", "barbell", "bench", "hack-squat-machine", "box"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-legs",
+      "name": "Block 1: Legs",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["kettlebell", "dumbbell", "hack-squat-machine"], "tags": ["squat"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["hamstrings", "glutes"], "equipment": ["barbell", "dumbbell", "kettlebell"], "tags": ["hinge"] }, "reps": "8-10" },
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["dumbbell", "bodyweight", "box", "bench", "kettlebell"], "tags": ["squat", "unilateral"] }, "reps": 10, "notes": "each leg" },
+        { "criteria": { "muscles": ["hamstrings", "glutes", "back"], "equipment": ["bodyweight"], "tags": ["hinge", "posterior-chain"] }, "reps": "10-12" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-2-push",
+      "name": "Block 2: Push",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["barbell", "bench"], "tags": ["compound"] }, "reps": "8-10" },
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["dumbbell", "barbell"], "tags": ["press"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["chest"], "equipment": ["dumbbell"], "tags": ["isolation"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["triceps"], "equipment": ["dumbbell", "cable"] }, "reps": "12-15" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-3-pull",
+      "name": "Block 3: Pull",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["back", "lats"], "equipment": ["dumbbell", "kettlebell"], "tags": ["row"] }, "reps": "8-10", "notes": "each side" },
+        { "criteria": { "muscles": ["back"], "equipment": ["dumbbell"], "tags": ["row", "compound"] }, "reps": "8-10", "notes": "each side" },
+        { "criteria": { "muscles": ["biceps"], "equipment": ["dumbbell", "barbell"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["biceps", "forearms"], "equipment": ["dumbbell"] }, "reps": "10-12" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-4-core",
+      "name": "Block 4: Core",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["core"], "muscles": ["abs"], "equipment": ["bodyweight"] }, "duration": 45 },
+        { "criteria": { "tags": ["core"], "muscles": ["abs"], "equipment": ["dumbbell", "plate", "bodyweight"] }, "reps": "15-20" },
+        { "criteria": { "tags": ["core", "plank"], "equipment": ["bodyweight"] }, "duration": 45 },
+        { "criteria": { "tags": ["core", "obliques"], "equipment": ["bodyweight"] }, "duration": 45 }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all 4 exercises in a block before the 2-minute rest",
+    "Use challenging weight - last 2 reps should be tough",
+    "Total: 4 blocks x 4 exercises x 3 rounds = 48 working sets",
+    "Superset within blocks to save time"
+  ]
+}

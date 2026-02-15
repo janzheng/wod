@@ -1,0 +1,14 @@
+{
+  "id": "jump-rope",
+  "name": "Jump Rope",
+  "description": "Jump rope workouts for cardio, footwork skills, and coordination. From basic bouncing to advanced tricks.",
+  "icon": "🪢",
+  "color": "#F59E0B",
+  "defaults": {
+    "duration": 20,
+    "difficulty": "beginner",
+    "equipment": ["jump-rope"],
+    "tags": ["jump-rope", "cardio", "footwork", "coordination"]
+  },
+  "sortOrder": 7
+}

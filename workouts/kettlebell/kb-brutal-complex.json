@@ -1,0 +1,46 @@
+{
+  "id": "kb-brutal-complex",
+  "name": "Brutal KB Complex (@Asgooch)",
+  "description": "Quick but brutal single-bell complex from @Asgooch. Swing → Squat → Row → Push Up, 10 reps each, 4 rounds. Don't put the bell down between exercises.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "complex", "circuit", "hiit", "conditioning", "intermediate"],
+  "estimatedDuration": 15,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/Asgooch/status/2020611643718164517",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen up" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "brutal-complex",
+      "name": "Brutal Complex",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Two-handed. Explosive hip snap." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": 10, "notes": "Alternate wide (A) and narrow (B) stance each rep." },
+        { "id": "kettlebell-alternating-bent-over-row", "reps": "10 each", "notes": "Hinge, flat back, alternate sides." },
+        { "id": "kettlebell-close-grip-pushup", "reps": 10, "notes": "Hands on the bell handles. Elbows tucked. Last exercise — earn that rest." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "Don't put the bell down between exercises — that's what makes it a complex",
+    "Complexes are @Asgooch's go-to for quick but brutal workouts",
+    "If 10 reps is too much, scale to 8 or 6 per exercise",
+    "The A/B stance squat alternates wide and narrow foot positions each rep"
+  ]
+}

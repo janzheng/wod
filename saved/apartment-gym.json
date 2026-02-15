@@ -1,0 +1,87 @@
+{
+  "id": "apartment-gym",
+  "name": "Apartment Gym Session",
+  "description": "Full body workout for apartment gyms with limited equipment: floor, bench, and Smith machine.",
+  "routineId": "gym",
+  "tags": ["gym", "apartment", "smith-machine", "bench", "full-body"],
+  "estimatedDuration": 45,
+  "equipment": ["smith-machine", "bench", "dumbbell", "bodyweight"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Floor Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "floor"], "equipment": ["bodyweight"] }, "duration": 60 },
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "smith-lower",
+      "name": "Smith Machine: Lower Body",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "equipment": ["smith-machine"], "muscles": ["quads", "glutes"] }, "reps": "10-12", "notes": "feet slightly forward" },
+        { "criteria": { "equipment": ["smith-machine"], "muscles": ["quads", "glutes"] }, "reps": 10, "notes": "each leg" },
+        { "criteria": { "equipment": ["smith-machine"], "muscles": ["hamstrings", "glutes"] }, "reps": "10-12" }
+      ],
+      "restBetween": 60,
+      "restAfter": 120
+    },
+    {
+      "id": "smith-upper",
+      "name": "Smith Machine: Upper Body",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "equipment": ["smith-machine"], "muscles": ["chest"] }, "reps": "10-12" },
+        { "criteria": { "equipment": ["smith-machine"], "muscles": ["shoulders"] }, "reps": "10-12" },
+        { "criteria": { "equipment": ["smith-machine"], "muscles": ["back", "lats"] }, "reps": "10-12" }
+      ],
+      "restBetween": 60,
+      "restAfter": 120
+    },
+    {
+      "id": "dumbbell-accessories",
+      "name": "Dumbbell Accessories",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "equipment": ["dumbbell"], "muscles": ["biceps"] }, "reps": "12-15" },
+        { "criteria": { "equipment": ["dumbbell"], "muscles": ["triceps"] }, "reps": "12-15" },
+        { "criteria": { "equipment": ["dumbbell"], "muscles": ["shoulders"] }, "reps": "12-15" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
+      "id": "floor-core",
+      "name": "Floor Core Finisher",
+      "type": "exercises",
+      "rounds": 2,
+      "randomize": true,
+      "poolSize": 10,
+      "exercises": [
+        { "criteria": { "tags": ["core", "floor"], "equipment": ["bodyweight"] }, "duration": 45 },
+        { "criteria": { "tags": ["core", "floor"], "equipment": ["bodyweight"] }, "duration": 45 },
+        { "criteria": { "tags": ["core", "floor"], "equipment": ["bodyweight"] }, "duration": 45 }
+      ],
+      "restBetween": 20,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Smith machine bar weighs 15-25 lbs depending on model",
+    "Position feet slightly in front of bar for squats",
+    "Use the safety catches - that's what they're for",
+    "Great option when you can't make it to a full gym"
+  ]
+}

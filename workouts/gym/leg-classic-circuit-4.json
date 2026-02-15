@@ -1,0 +1,85 @@
+{
+  "id": "leg-classic-circuit-4",
+  "name": "Leg Classic Circuit 4",
+  "description": "Another favorite leg day classic sequence - preserved exactly as it was (adapted from partner YGIG format for solo)",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "legs", "fixed", "classic", "lower-body"],
+  "estimatedDuration": 45,
+  "equipment": ["barbell", "dumbbell", "bench", "box", "smith-machine"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-split-rdl",
+      "name": "Block 1: Split & RDL",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "split-squat", "reps": 8, "notes": "feet elevated split squat, each leg" },
+        { "id": "dumbbell-romanian-deadlift", "reps": 10 },
+        { "id": "step-up", "reps": 10, "notes": "each leg, hold dumbbells" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-squat-hipthrust",
+      "name": "Block 2: Squat & Hip Thrust",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "squat", "reps": 10, "notes": "dual in squat (narrow stance squat)" },
+        { "id": "smith-machine-hip-thrust", "reps": 8, "notes": "bench hip thrust" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-lunge-wallsit",
+      "name": "Block 3: Lunge & Wall Sit",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": 16, "notes": "walking lunges" },
+        { "id": "good-morning", "reps": 12, "notes": "bodyweight or hold dumbbell" },
+        { "id": "squat", "duration": 60, "notes": "wall sit (hold squat position against wall, max time or 60s)" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "block-4-deadlift-descending",
+      "name": "Block 4: Deadlift Descending",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "deadlift", "reps": "8/8/6/6/4/4", "notes": "deadlift descending: 8, 8, 6, 6, 4, 4 reps (originally YGIG partner format - adapted for solo with rest between sets)" }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Block 4: Deadlift descending sets (8, 8, 6, 6, 4, 4 reps) - increase weight as reps decrease",
+    "Originally YGIG (You Go I Go) partner format - adapted for solo with rest periods between sets",
+    "Wall sit: hold squat position with back against wall for max time",
+    "This is a fixed sequence - no randomization"
+  ]
+}

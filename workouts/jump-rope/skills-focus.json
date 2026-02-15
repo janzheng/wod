@@ -1,0 +1,81 @@
+{
+  "id": "jump-rope-skills-focus",
+  "name": "Jump Rope: Skills Focus",
+  "description": "Work on jump rope tricks and techniques. Practice criss-cross, double unders, and other skills with plenty of rest between attempts. Focus on form, not cardio.",
+  "routineId": "jump-rope",
+  "tags": ["jump-rope", "skill", "practice", "technique"],
+  "estimatedDuration": 20,
+  "equipment": ["jump-rope"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup: Basic Bouncing",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "duration": 60, "notes": "Easy pace, find your rhythm" },
+        { "id": "jump-rope-boxer-step", "duration": 60, "notes": "Relaxed, shift weight side to side" },
+        { "id": "jump-rope-side-swing", "duration": 30, "notes": "Loosen up your arms and shoulders" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "skill-block-1",
+      "name": "Skill Block: Criss-Cross Practice",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "reps": 10, "notes": "10 regular jumps to set rhythm" },
+        { "id": "jump-rope-criss-cross", "reps": "3-5", "notes": "Attempt 3-5 criss-crosses. Reset if you trip." },
+        { "id": "jump-rope-side-swing", "duration": 15, "notes": "Active recovery - swing side to side" }
+      ],
+      "rounds": 4,
+      "restBetween": 10,
+      "restAfter": 90
+    },
+    {
+      "id": "skill-block-2",
+      "name": "Skill Block: Double Under Practice",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "reps": 5, "notes": "5 high, powerful bounces" },
+        { "id": "jump-rope-double-under", "reps": "1-3", "notes": "Attempt 1-3 double unders. Focus on wrist speed." },
+        { "id": "jump-rope-boxer-step", "duration": 20, "notes": "Easy recovery bouncing" }
+      ],
+      "rounds": 5,
+      "restBetween": 15,
+      "restAfter": 90
+    },
+    {
+      "id": "skill-block-3",
+      "name": "Skill Block: Combination Practice",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "reps": 5 },
+        { "id": "jump-rope-criss-cross", "reps": 2, "notes": "2 criss-crosses" },
+        { "id": "jump-rope-basic-bounce", "reps": 5 },
+        { "id": "jump-rope-single-leg", "reps": 5, "notes": "5 each leg" }
+      ],
+      "rounds": 3,
+      "restBetween": 5,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown: Easy Jumping",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-boxer-step", "duration": 60, "notes": "Slow, relaxed pace" },
+        { "id": "jump-rope-side-swing", "duration": 30, "notes": "Wind down" }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Skills practice is about QUALITY, not cardio - rest as much as you need",
+    "If you keep tripping, slow down and focus on the arm/foot timing",
+    "For criss-cross: cross at hip level, not chest level",
+    "For double unders: it's wrist speed, not jumping higher",
+    "Film yourself to see what you're doing wrong"
+  ]
+}

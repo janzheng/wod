@@ -1,0 +1,126 @@
+.theme-scope {
+  /* Avatars */
+  .avatar {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    overflow: hidden;
+    user-select: none;
+    width: 2.5rem; /* 40px - Default md */
+    height: 2.5rem;
+    border-radius: 9999px; /* Circle default */
+    background-color: var(--color-bg-secondary);
+  }
+
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+  }
+
+  .avatar-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg-muted);
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  /* Sizes */
+  .avatar-sm {
+    width: 2rem; /* 32px */
+    height: 2rem;
+  }
+  .avatar-sm .avatar-fallback {
+    font-size: 0.75rem;
+  }
+
+  .avatar-lg {
+    width: 3rem; /* 48px */
+    height: 3rem;
+  }
+  .avatar-lg .avatar-fallback {
+    font-size: 1rem;
+  }
+
+  .avatar-xl {
+    width: 4rem; /* 64px */
+    height: 4rem;
+  }
+  .avatar-xl .avatar-fallback {
+    font-size: 1.25rem;
+  }
+
+  /* Shapes */
+  .avatar-square {
+    border-radius: 0;
+  }
+
+  .avatar-rounded {
+    border-radius: 0.5rem;
+  }
+
+  /* Status Indicators */
+  .avatar-indicator {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 25%; /* Relative to avatar size */
+    height: 25%;
+    min-width: 8px;
+    min-height: 8px;
+    border-radius: 9999px;
+    border: 2px solid var(--color-bg-primary); /* Cutout effect */
+    background-color: var(--color-bg-muted);
+  }
+
+  .status-online {
+    background-color: var(--color-success);
+  }
+
+  .status-busy {
+    background-color: var(--color-danger);
+  }
+
+  .status-offline {
+    background-color: var(--color-text-muted);
+  }
+
+  /* Avatar Group */
+  .avatar-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .avatar-group .avatar {
+    border: 2px solid var(--color-bg-primary);
+    margin-right: -1rem; /* Tighter overlap */
+    transition: margin 0.2s ease, transform 0.2s ease, z-index 0.2s;
+  }
+
+  .avatar-group .avatar:hover {
+    z-index: 10;
+    transform: translateY(-2px);
+    margin-right: 0; 
+  }
+
+  .avatar-group .avatar:last-child {
+    margin-right: 0;
+  }
+
+  .avatar-placeholder {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+    font-size: 0.75rem;
+  }
+}

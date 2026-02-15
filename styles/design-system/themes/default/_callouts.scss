@@ -1,0 +1,192 @@
+.theme-scope {
+/* Callout / Info Box */
+.callout {
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  margin-bottom: 1.5rem;
+}
+
+.callout-title {
+  margin-top: 0;
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+  color: inherit;
+  margin-bottom: 0.5rem;
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+.callout pre {
+  background: var(--color-white);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+/* Callout Variants */
+.callout-note {
+  background-color: var(--color-bg-secondary);
+  border-color: var(--color-border);
+  color: var(--color-text-neutral);
+}
+
+.callout-action {
+  background-color: var(--color-info-light);
+  border-color: var(--color-info);
+  color: var(--color-info-dark);
+}
+
+.callout-warning {
+  background-color: var(--color-warning-light);
+  border-color: var(--color-warning);
+  color: var(--color-warning-dark);
+}
+
+.callout-error {
+  background-color: var(--color-danger-light);
+  border-color: var(--color-danger);
+  color: var(--color-danger-dark);
+}
+
+/* Alert Cards (Shadcn-style) */
+.alert {
+  position: relative;
+  width: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-border);
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  
+  /* Icon styling */
+  > svg,
+  > .iconify {
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.25rem; /* Align with title line-height */
+    color: var(--color-text-primary);
+  }
+
+  > div {
+    flex: 1;
+  }
+}
+
+.alert-title {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  font-weight: var(--font-medium);
+  line-height: var(--leading-normal); /* slightly relaxed to align with icon if needed, or 1 for tight */
+  color: inherit;
+}
+
+.alert-description {
+  // font-size: var(--text-sm); /* text-sm */
+  color: var(--color-text-secondary);
+  line-height: var(--leading-normal);
+}
+
+.alert-description p {
+  margin-bottom: 0.5rem;
+}
+
+.alert-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Alert Variants */
+
+/* Default */
+.alert-default {
+  background-color: var(--color-bg-primary);
+  border-color: var(--color-border);
+}
+
+/* Destructive / Error */
+.alert-destructive {
+  border-color: var(--color-danger);
+  background-color: var(--color-danger-light); /* Added light background */
+  color: var(--color-danger-dark); /* Changed from danger to danger-dark for contrast on light bg */
+  
+  > svg,
+  > .iconify {
+    color: var(--color-danger);
+  }
+  
+  .alert-description {
+    color: var(--color-danger-dark); /* Changed from danger to danger-dark */
+  }
+}
+
+/* Success */
+.alert-success {
+  border-color: var(--color-success);
+  background-color: var(--color-success-light); /* Added light background */
+  color: var(--color-success-dark);
+  
+  > svg,
+  > .iconify {
+    color: var(--color-success);
+  }
+  
+  .alert-title {
+    color: var(--color-success-dark);
+  }
+
+  .alert-description {
+    color: var(--color-success-dark);
+  }
+}
+
+/* Warning */
+.alert-warning {
+  border-color: var(--color-warning);
+  background-color: var(--color-warning-light); /* Added light background */
+  color: var(--color-warning-dark);
+  
+  > svg,
+  > .iconify {
+    color: var(--color-warning);
+  }
+  
+  .alert-title {
+    color: var(--color-warning-dark);
+  }
+
+  .alert-description {
+    color: var(--color-warning-dark);
+  }
+}
+
+/* Info */
+.alert-info {
+  border-color: var(--color-info);
+  background-color: var(--color-info-light); /* Added light background */
+  color: var(--color-info-dark);
+  
+  > svg,
+  > .iconify {
+    color: var(--color-info);
+  }
+  
+  .alert-title {
+    color: var(--color-info-dark);
+  }
+  
+  .alert-description {
+    color: var(--color-info-dark);
+  }
+}
+}

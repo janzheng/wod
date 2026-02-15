@@ -1,0 +1,196 @@
+{
+  "id": "100-core-challenge",
+  "name": "100 Core Challenge",
+  "description": "An intense core-focused challenge with 100 reps of each exercise. This comprehensive workout targets all aspects of core strength - abs, obliques, lower back, and stability. Includes floor work, planks, and push-up variations.",
+  "routineId": "challenges",
+  "tags": ["challenge", "core", "abs", "bodyweight", "advanced"],
+  "difficulty": "advanced",
+  "estimatedDuration": 45,
+  "equipment": ["bodyweight", "mat"],
+  "sets": [
+    {
+      "id": "flutter-kicks",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "flutter-kicks" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "situp-leg-crunches",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "situp-leg-crunch" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "stacked-leg-ups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "stacked-leg-ups" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "back-bend-cobras",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "back-extension" }, "reps": 100, "notes": "Back bend / cobras" }
+      ]
+    },
+    {
+      "id": "prone-leg-raise-extension",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "prone-leg-raise-extension" }, "reps": 100, "notes": "On chest leg ups back bends" }
+      ]
+    },
+    {
+      "id": "bicycles-bent-legs",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "bicycle-crunch" }, "reps": 100, "notes": "Bicycles bent legs" }
+      ]
+    },
+    {
+      "id": "bicycles-straight-legs",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "bicycle-straight-legs" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "leg-kicks-on-back",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "leg-kicks-on-back" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "leg-up-flutter-kicks",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "leg-up-flutter-kicks" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "leg-up-reaches-toe-taps",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "toe-touches" }, "reps": 100, "notes": "Leg up reaches / toe taps" }
+      ]
+    },
+    {
+      "id": "leg-straddle-reaches",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "leg-straddle-reaches" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "legs-arms-down-toe-tap",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "full-body-toe-tap" }, "reps": 100, "notes": "Legs and arms down to toe tap" }
+      ]
+    },
+    {
+      "id": "leg-raises-other-foot-down",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "alternating-leg-raise" }, "reps": 100, "notes": "Leg raises with the other foot down" }
+      ]
+    },
+    {
+      "id": "plank",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "plank" }, "reps": 100, "notes": "100 reps (or hold for 100 seconds if preferred)" }
+      ]
+    },
+    {
+      "id": "plank-shifts-forward",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "plank-forward-shifts" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "plank-shift-sideways",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "plank-lateral-shifts" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "plank-leg-raises",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "plank-leg-raise" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "plank-to-down-dog-bends",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "pike-crunches" }, "reps": 100, "notes": "Plank to down dog bends" }
+      ]
+    },
+    {
+      "id": "walk-to-elbow-to-straight-plank",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "plank-up-downs" }, "reps": 100, "notes": "Walk to elbow to straight plank" }
+      ]
+    },
+    {
+      "id": "plank-to-star",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "plank-to-star" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "pushups-core-focus",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "push-up" }, "reps": 100, "notes": "Core focus" }
+      ]
+    },
+    {
+      "id": "burpees",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "burpee" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "push-up-walks-to-standing",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "stand-to-pushup-walk" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "shoulder-taps",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "plank-shoulder-taps" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "push-up-star",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "push-up-star" }, "reps": 100 }
+      ]
+    }
+  ],
+  "tips": [
+    "This is an extremely challenging core workout - break it into smaller sets as needed",
+    "For plank hold: 100 seconds (1 minute 40 seconds) - adjust if needed",
+    "Focus on form over speed - quality reps are more important than rushing",
+    "Take rest breaks between exercises as needed",
+    "Some exercises may need to be split into sets (e.g., 4 sets of 25)",
+    "Listen to your body and modify if any exercise causes pain",
+    "This workout targets all aspects of core strength - abs, obliques, lower back, and stability"
+  ]
+}

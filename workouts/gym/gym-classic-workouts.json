@@ -1,0 +1,31 @@
+{
+  "id": "gym-classic-workouts",
+  "name": "Gym Classic Workouts",
+  "description": "Randomly selects from favorite classic workout sequences. Each workout is preserved exactly as it was - no shuffling within blocks.",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "classic", "fixed", "nostalgia"],
+  "estimatedDuration": 50,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "hack-squat-machine", "box", "bench"],
+  "fixedAlternativeChance": 1.0,
+  "fixedAlternatives": [
+    "leg-day-classic-circuit",
+    "upper-body-classic-circuit",
+    "mixed-classic-circuit",
+    "upper-classic-circuit-2",
+    "leg-classic-circuit-2",
+    "leg-classic-circuit-3",
+    "leg-classic-circuit-4",
+    "leg-gs-classic-circuit",
+    "full-body-classic-circuit",
+    "leg-press-classic-circuit",
+    "machine-circuit-classic",
+    "wod-12-30-23",
+    "pull-push-classic"
+  ],
+  "sets": [],
+  "tips": [
+    "This workout randomly selects from classic fixed sequences",
+    "Each classic workout preserves the exact exercise order",
+    "No shuffling within blocks - these are nostalgic favorites"
+  ]
+}

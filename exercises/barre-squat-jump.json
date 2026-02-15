@@ -1,0 +1,33 @@
+{
+  "id": "barre-squat-jump",
+  "name": "Squat Jump",
+  "type": "plyo",
+  "muscles": [
+    "quads",
+    "calves",
+    "cardio"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "standing",
+    "jumping",
+    "squat"
+  ],
+  "difficulty": "intermediate",
+  "description": "Start in a narrow squat and jump out to a wide squat, or perform squat jumps. (Day 26)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 26
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-squat-jump.png",
+      "caption": "Squat Jump illustration"
+    }
+  ]
+}

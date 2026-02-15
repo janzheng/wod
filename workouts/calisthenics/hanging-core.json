@@ -1,0 +1,74 @@
+{
+  "id": "hanging-core",
+  "name": "Hanging Core",
+  "description": "Build serious core strength from hanging positions - the foundation for levers and advanced skills",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "core", "hanging", "progressions"],
+  "estimatedDuration": 35,
+  "equipment": ["pull-up-bar", "rings"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Hang & Activate",
+      "type": "exercises",
+      "exercises": [
+        { "id": "dead-hang", "duration": 30, "notes": "Passive hang - decompress spine" },
+        { "id": "dead-hang", "duration": 30, "notes": "Active hang - shoulders engaged" },
+        { "criteria": { "tags": ["warmup", "core"] }, "reps": 10, "poolSize": 2 }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "knee-raises",
+      "name": "Knee Raise Progression",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "hanging-knee-raise", "reps": "10-15", "notes": "Control the descent - no swinging" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "leg-raises",
+      "name": "Leg Raise Progression",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "hanging-leg-raise", "reps": "8-12", "notes": "Straight legs to L-position or higher" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "l-hang-work",
+      "name": "L-Hang Holds",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "l-hang", "duration": "15-30", "notes": "Hold legs at 90 degrees. Shoulders active." }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "advanced",
+      "name": "Advanced: Toes to Bar",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["hanging", "advanced", "core"], "equipment": ["pull-up-bar"] }, "reps": "5-10", "notes": "Skip if not ready - form is everything" }
+      ],
+      "restBetween": 90
+    }
+  ],
+  "tips": [
+    "Progression: knee raises → leg raises → L-hang → toes-to-bar",
+    "Keep shoulders active (not passive hanging) during leg work",
+    "Control the negative - don't swing!",
+    "Exhale as you lift, inhale as you lower",
+    "This core strength transfers directly to front lever work"
+  ]
+}

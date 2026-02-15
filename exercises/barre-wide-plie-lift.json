@@ -1,0 +1,33 @@
+{
+  "id": "barre-wide-plie-lift",
+  "name": "Wide Plié Lift",
+  "type": "barre",
+  "muscles": [
+    "quads",
+    "inner-thighs"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "standing",
+    "plie",
+    "pulse"
+  ],
+  "difficulty": "intermediate",
+  "description": "Stand with feet wider than shoulder-width apart, toes pointed outward. Lower into a deep squat with knees bent and tracking over toes. Arms rounded in front of body at hip level in ballet first position (bras bas). Pulse up and down in small controlled movements.",
+  "imagePrompt": "STANDING sumo squat position (NOT sitting, NOT on the ground): Person STANDING UPRIGHT on their feet with feet shoulder-width apart, toes turned out. KNEES BENT at 90 degrees like sitting in an invisible chair. Thighs parallel to ground. FEET FLAT ON GROUND. Arms rounded in front at waist level. This is a STANDING squat, NOT a split, NOT sitting on the floor.",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 18
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-wide-plie-lift.png",
+      "caption": "Wide Plié Lift illustration"
+    }
+  ]
+}

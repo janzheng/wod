@@ -1,0 +1,74 @@
+{
+  "id": "single-kettlebell-overhead-mobility-complex",
+  "name": "Single Kettlebell Overhead Mobility Complex",
+  "type": "circuit",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/Asgooch/status/2021254033797734405",
+    "creator": "@Asgooch",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["standing", "shoulders", "full-body", "legs", "glutes", "compound", "dynamic", "circuit", "kettlebell", "mobility", "overhead"],
+  "equipment": ["kettlebell"],
+  "muscles": ["shoulders", "back", "glutes", "quads", "core", "full-body"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 15,
+  "description": "A unilateral kettlebell complex emphasizing overhead stability, mobility, and full-body strength. Five compound movements performed with one kettlebell, 5 rounds x 5 reps each side. @Asgooch used 24kg.",
+  "exercises": [
+    {
+      "name": "Single Arm Kettlebell Row",
+      "reps": 5,
+      "duration": null,
+      "description": "From a hinged position with the kettlebell hanging, pull the kettlebell towards the hip using the back muscles, keeping the core engaged and spine neutral.",
+      "notes": "5 reps per side; controlled pull, full range of motion."
+    },
+    {
+      "name": "Kettlebell Snatch",
+      "reps": 5,
+      "duration": null,
+      "description": "Explosively pull the kettlebell from the hang position overhead in one motion, punching through at the top to lock out the arm.",
+      "notes": "5 reps per side; use hip drive, keep bell close to body."
+    },
+    {
+      "name": "Overhead Kettlebell Lunge",
+      "reps": 5,
+      "duration": null,
+      "description": "With the kettlebell held overhead in one hand, step forward into a lunge, keeping the front knee over the ankle and torso upright.",
+      "notes": "5 reps per side; maintain overhead lockout for stability."
+    },
+    {
+      "name": "Overhead Kettlebell Squat",
+      "reps": 5,
+      "duration": null,
+      "description": "Holding the kettlebell overhead, squat down until thighs are parallel to the ground, then drive up through the heels while keeping arm extended.",
+      "notes": "5 reps per side; engage core, avoid arching back. Controlled tempo."
+    },
+    {
+      "name": "Kettlebell Push Press",
+      "reps": 5,
+      "duration": null,
+      "description": "From the racked position, dip at the knees and use leg drive to press the kettlebell overhead, locking out the arm.",
+      "notes": "5 reps per side; generate power from legs, not just arms."
+    }
+  ],
+  "circuit": {
+    "rounds": 5,
+    "repsPerExercise": 5,
+    "restBetweenExercises": 0,
+    "restBetweenRounds": 60,
+    "notes": "Perform exercises in sequence as a flowing complex, all reps per side before switching. Focus on smooth transitions and overhead mobility. 24kg used in demo."
+  },
+  "raw": {
+    "transcript": "",
+    "caption": "One kettlebell is all you need for this overhead and mobility focused complex.\n\n5 Rounds x 5 Reps each side, I used 24kg\n\nhttps://www.kettlebellworkout.com/ for Programs to improve strength, mobility, conditioning, and athleticism with kettlebells.\n\n#kettlebell #workout",
+    "textOverlays": ["Single Kettlebell Mobility Complex", "Row", "Snatch", "OH Lunge", "OH Squat", "Push Press", "5 Rounds x 5 Reps each side"],
+    "visualSummary": "A muscular man in black athletic wear demonstrates the complex barefoot on grass with palm trees and playground in background. Rows, snatches, overhead lunges, overhead squats, and push presses flowing together."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": [
+      "Exercise order inferred from frames and overlays",
+      "Rest times not specified, defaulted to 60s between rounds"
+    ]
+  }
+}

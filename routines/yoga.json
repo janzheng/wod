@@ -1,0 +1,17 @@
+{
+  "id": "yoga",
+  "name": "Yoga",
+  "description": "Yoga flows and stretching for flexibility and mindfulness",
+  "icon": "🧘",
+  "color": "#9C27B0",
+  "defaults": {
+    "duration": 20,
+    "difficulty": "beginner",
+    "equipment": ["mat"],
+    "tags": ["yoga", "stretch"],
+    "criteria": {
+      "types": ["yoga", "stretch"]
+    }
+  },
+  "sortOrder": 3
+}

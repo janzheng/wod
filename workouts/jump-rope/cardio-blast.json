@@ -1,0 +1,85 @@
+{
+  "id": "jump-rope-cardio-blast",
+  "name": "Jump Rope: Cardio Blast",
+  "description": "Pure cardio conditioning with the jump rope. Intervals of high intensity followed by active recovery. Expect to be breathing hard.",
+  "routineId": "jump-rope",
+  "tags": ["jump-rope", "cardio", "hiit", "conditioning", "intensity"],
+  "estimatedDuration": 18,
+  "equipment": ["jump-rope"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-basic-bounce", "duration": 60, "notes": "Easy pace to warm up" },
+        { "id": "jump-rope-boxer-step", "duration": 60, "notes": "Stay relaxed" }
+      ],
+      "restBetween": 10,
+      "restAfter": 30
+    },
+    {
+      "id": "cardio-block-1",
+      "name": "Cardio Block: High Intensity Intervals",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-high-knees", "duration": 30, "notes": "ALL OUT - drive those knees up!" },
+        { "id": "jump-rope-boxer-step", "duration": 30, "notes": "Active recovery - keep moving but easy pace" }
+      ],
+      "rounds": 4,
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "cardio-block-2",
+      "name": "Cardio Block: Speed Bursts",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-running-in-place", "duration": 45, "notes": "Fast feet! Max speed you can maintain" },
+        { "id": "jump-rope-side-swing", "duration": 15, "notes": "Catch your breath - keep rope moving" }
+      ],
+      "rounds": 4,
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "cardio-block-3",
+      "name": "Cardio Block: Butt Kick Intervals",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-butt-kicks", "duration": 30, "notes": "Kick heels to glutes - fast!" },
+        { "id": "jump-rope-basic-bounce", "duration": 30, "notes": "Recovery bouncing" }
+      ],
+      "rounds": 3,
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: 2-Minute Challenge",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-boxer-step", "duration": 120, "notes": "2 minutes straight - don't stop! Find a sustainable pace and push through." }
+      ],
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "jump-rope-side-swing", "duration": 30, "notes": "Slow it down" },
+        { "id": "jump-rope-basic-bounce", "duration": 30, "notes": "Very easy, let heart rate come down" }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "During work intervals: PUSH IT. This is cardio conditioning.",
+    "During recovery: keep the rope moving but take it easy",
+    "If you trip, reset immediately and keep going",
+    "Stay light on your feet - heavy landings waste energy",
+    "Breathe! Don't hold your breath during intense sections"
+  ]
+}

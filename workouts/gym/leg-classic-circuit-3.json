@@ -1,0 +1,84 @@
+{
+  "id": "leg-classic-circuit-3",
+  "name": "Leg Classic Circuit 3",
+  "description": "Another favorite leg day classic sequence - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "legs", "fixed", "classic", "lower-body"],
+  "estimatedDuration": 50,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "bench", "smith-machine"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-split-rdl",
+      "name": "Block 1: Split & RDL",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "bulgarian-split-squat", "reps": 8, "notes": "each leg" },
+        { "id": "dumbbell-romanian-deadlift", "reps": 10 },
+        { "id": "good-morning", "reps": 12, "notes": "bodyweight or hold dumbbell at chest" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-split-goblet",
+      "name": "Block 2: Split & Goblet",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "split-squat", "reps": 8, "notes": "feet elevated split squat, each leg" },
+        { "id": "kettlebell-goblet-squat", "reps": 8, "notes": "1 1/4 goblet squat (partial reps)" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-deadlift-descending",
+      "name": "Block 3: Deadlift Descending",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "deadlift", "reps": "8/8/6/6/4/4", "notes": "barbell deadlift descending: 8, 8, 6, 6, 4, 4 reps" },
+        { "id": "dumbbell-lunge", "reps": 16, "notes": "walking lunge" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "block-4-squat-descending",
+      "name": "Block 4: Squat Descending",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "squat", "reps": "10-1", "notes": "back squat descending: start at 10 reps, decrease by 1 each set down to 1" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Block 3: Deadlift descending sets (8, 8, 6, 6, 4, 4 reps) - increase weight as reps decrease",
+    "Block 4: Back squat 10-1 means start at 10 reps, decrease by 1 each set (10, 9, 8... down to 1)",
+    "This is a fixed sequence - no randomization",
+    "Use challenging weight - focus on form and control"
+  ]
+}

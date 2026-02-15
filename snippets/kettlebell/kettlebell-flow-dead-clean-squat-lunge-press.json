@@ -1,0 +1,74 @@
+{
+  "id": "kettlebell-flow-dead-clean-squat-lunge-press",
+  "name": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press, Tactical Clean",
+  "type": "sequence",
+  "source": {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/reel/1397870815215714",
+    "creator": "unknown",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["kettlebell", "flow", "full-body", "strength", "unilateral", "complex", "standing", "compound", "hinge", "squat", "dynamic"],
+  "equipment": ["kettlebell"],
+  "muscles": ["quads", "hamstrings", "glutes", "core", "shoulders", "back", "triceps", "obliques"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 15,
+  "description": "A dynamic kettlebell flow combining a dead clean, squat, lateral lunge, bent press, and tactical clean, performed continuously on one side before repeating on the other.",
+  "exercises": [
+    {
+      "name": "Dead Clean",
+      "reps": 1,
+      "duration": null,
+      "description": "Explosively lift the kettlebell from a dead stop on the floor to the rack position at the shoulder.",
+      "notes": "Start from a dead stop each rep, not a swing."
+    },
+    {
+      "name": "Squat",
+      "reps": 1,
+      "duration": null,
+      "description": "Perform a full squat with the kettlebell held in the rack position.",
+      "notes": "Chest up, full depth, drive through heels."
+    },
+    {
+      "name": "Lateral Lunge",
+      "reps": 1,
+      "duration": null,
+      "description": "Step out to the side into a lunge, keeping the kettlebell in the rack position and the torso upright.",
+      "notes": "Push hips back into the lunging side, keep trailing leg straight."
+    },
+    {
+      "name": "Bent Press",
+      "reps": 1,
+      "duration": null,
+      "description": "Press the kettlebell overhead by bending the torso away from the bell while maintaining control.",
+      "notes": "Bend AWAY from the bell, not press upward. Classic old-time strongman lift."
+    },
+    {
+      "name": "Tactical Clean",
+      "reps": 1,
+      "duration": null,
+      "description": "A clean variation returning the kettlebell to rack position, involving a rotation or threading motion.",
+      "notes": "Smooth transition back to starting position."
+    }
+  ],
+  "sequence": {
+    "rounds": 1,
+    "restBetween": 0,
+    "flow": "Exercises flow continuously — dead clean to squat to lateral lunge to bent press to tactical clean, then repeat on the other side.",
+    "notes": "Perform all 5 exercises as one continuous flow on one side, then repeat the entire flow on the other side."
+  },
+  "raw": {
+    "transcript": "",
+    "caption": "",
+    "textOverlays": ["Kettlebell Flow", "Dead Clean", "Squat", "Lateral Lunge", "Bent Press", "Tactical Clean", "*repeat on other side"],
+    "visualSummary": "A woman demonstrates a kettlebell flow in a gym setting. The sequence shown includes lifting the kettlebell from the floor (dead clean), squatting with it in the rack position, performing a lateral lunge, and pressing it overhead with a bent press. The video emphasizes continuous movement and repetition on both sides."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": [
+      "Extracted from Facebook reel via yt-dlp + Gemini frame analysis (9 frames at 5-second intervals)",
+      "Creator unknown — no profile info visible in video frames",
+      "Tactical clean transition not fully visible but confirmed by text overlay"
+    ]
+  }
+}

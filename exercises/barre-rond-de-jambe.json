@@ -1,0 +1,32 @@
+{
+  "id": "barre-rond-de-jambe",
+  "name": "Rond de Jambe",
+  "type": "barre",
+  "muscles": [
+    "hips",
+    "glutes"
+  ],
+  "equipment": [
+    "barre"
+  ],
+  "tags": [
+    "standing",
+    "mobility",
+    "rotation"
+  ],
+  "difficulty": "beginner",
+  "description": "Stand at barre. Extend outside leg and perform small controlled circles (rond de jambe). (Day 30)",
+  "challenge": {
+    "id": "100-reps-barre-leg-challenge",
+    "name": "100-Reps Barre Sculpted Leg Challenge",
+    "creator": "@actionjacquelyn",
+    "day": 30
+  },
+  "media": [
+    {
+      "type": "image",
+      "value": "/images/barre-rond-de-jambe.png",
+      "caption": "Rond de Jambe illustration"
+    }
+  ]
+}

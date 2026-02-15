@@ -1,0 +1,303 @@
+/* ===================================
+   Corporate Theme - YC / Hacker News Style
+   Utilitarian, high-density, "boring" corporate startup aesthetic
+   =================================== */
+
+.theme-scope {
+  /* ===================================
+     Base Theme Override
+     =================================== */
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #f6f6ef; /* YC Beige */
+  color: #000000;
+  line-height: 1.4;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  
+  /* YC Color Palette */
+  --color-primary: #ff6600;
+  --color-primary-hover: #e65c00;
+  --color-primary-active: #cc5200;
+  --color-primary-dark: #b34700;
+  --color-primary-light: #ffcc99;
+  --color-primary-lighter: #ffe6cc;
+  --color-primary-lightest: #fff2e6;
+  --color-primary-ring: rgba(255, 102, 0, 0.3);
+  
+  /* Text Colors - High Contrast */
+  --color-text-primary: #000000;
+  --color-text-secondary: #828282; /* HN Gray */
+  --color-text-muted: #999999;
+  --color-text-neutral: #666666;
+  
+  /* Backgrounds */
+  --color-bg-primary: #f6f6ef;
+  --color-bg-secondary: #ffffff;
+  --color-bg-muted: #efefef;
+  --color-bg-light: #fbfbfb;
+  --color-bg-hover: #e6e6e6;
+  --color-bg-active: #dcdcdc;
+  
+  /* Borders */
+  --color-border: #dcdcdc;
+  --color-border-light: #ebebeb;
+  
+  /* Semantic Colors */
+  --color-success: #008000; /* Standard Green */
+  --color-success-light: #e6ffe6;
+  --color-success-dark: #006600;
+  --color-warning: #ffcc00;
+  --color-warning-light: #ffffe0;
+  --color-warning-dark: #cc9900;
+  --color-danger: #cc0000;
+  --color-danger-light: #ffe6e6;
+  --color-danger-dark: #990000;
+  --color-info: #0000ff; /* Standard Link Blue */
+  --color-info-light: #e6e6ff;
+  --color-info-dark: #0000cc;
+  
+  /* Utilitarian Radii (mostly square) */
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-2xl: 0;
+  --radius-button: 0;
+  --radius-card: 0;
+  
+  /* Typography */
+  --text-h1: 1.5rem;
+  --text-h2: 1.25rem;
+  --text-h3: 1.1rem;
+  --leading-tight: 1.2;
+  
+  /* Spacing */
+  --space-btn-x: 0.5rem;
+  --space-btn-y: 0.25rem;
+  --space-card-padding: 1rem;
+  
+  /* No Shadows - Flat Design */
+  --shadow-card: none;
+  --shadow-hover: none;
+  --shadow-dropdown: 0 2px 4px rgba(0,0,0,0.2);
+  
+  /* ===================================
+     Typography
+     =================================== */
+  h1, h2, h3, h4, h5, h6,
+  .text-h1, .text-h2, .text-h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  h1, .text-h1 { font-size: 1.5rem; }
+  h2, .text-h2 { font-size: 1.25rem; }
+  h3, .text-h3 { font-size: 1.1rem; }
+  
+  p {
+    font-size: 10pt;
+    margin-bottom: 1em;
+    color: #000000;
+  }
+  
+  a, .link {
+    color: #000000;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+    
+    &.link-blue {
+      color: #0000ff;
+    }
+  }
+  
+  .fine-print, .text-xs {
+    font-size: 8pt;
+    color: #828282;
+  }
+  
+  code:not(pre code), .code-inline {
+    font-family: monospace;
+    font-size: 9pt;
+    background-color: #efefef;
+    padding: 0 3px;
+  }
+  
+  pre, .code-block {
+    font-family: monospace;
+    font-size: 9pt;
+    background-color: #f6f6ef;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    overflow-x: auto;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #dcdcdc;
+    margin: 1rem 0;
+  }
+  
+  /* ===================================
+     Layout & Components
+     =================================== */
+     
+  /* Top Bar / Header */
+  .header, header {
+    background-color: #ff6600;
+    padding: 2px;
+    color: #000000;
+    
+    a {
+      color: #000000;
+      font-weight: bold;
+    }
+  }
+  
+  /* Cards */
+  .card, .app-card {
+    background-color: #f6f6ef;
+    border: none;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title, .app-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0.5rem;
+  }
+  
+  .app-card-content {
+    background-color: #f6f6ef;
+  }
+  
+  /* Buttons - Simple & Ugly */
+  .btn-primary, .action-btn {
+    background-color: #efefef;
+    color: #000000;
+    border: 1px solid #828282;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 2px 6px;
+    
+    &:hover {
+      border-color: #000000;
+    }
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    color: #828282;
+    border: none;
+    text-decoration: underline;
+    font-size: 9pt;
+    cursor: pointer;
+    
+    &:hover {
+      color: #000000;
+    }
+  }
+  
+  /* Forms - Utilitarian */
+  input[type=text],
+  input[type=email],
+  input[type=password],
+  textarea,
+  .form-input {
+    font-family: monospace;
+    font-size: 10pt;
+    border: 1px solid #828282;
+    background-color: #ffffff;
+    padding: 2px;
+    color: #000000;
+    
+    &:focus {
+      outline: none;
+      border-color: #ff6600;
+    }
+  }
+  
+  label, .form-label {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    color: #828282;
+    margin-bottom: 2px;
+  }
+  
+  /* Tables - High Density */
+  table, .app-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10pt;
+    background-color: #f6f6ef;
+  }
+  
+  th {
+    text-align: left;
+    color: #828282;
+    font-weight: normal;
+    padding: 4px 8px;
+  }
+  
+  td {
+    padding: 4px 8px;
+    color: #000000;
+    vertical-align: top;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f6f6ef;
+  }
+  
+  /* Lists - Numbered/Bulleted */
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #828282;
+    
+    li {
+      margin-bottom: 4px;
+      
+      &::marker {
+        color: #828282;
+      }
+    }
+  }
+  
+  /* Badges - Minimal Text */
+  .badge {
+    border: 1px solid #828282;
+    background: transparent;
+    color: #828282;
+    font-size: 8pt;
+    padding: 0 4px;
+  }
+  
+  .badge-success { border-color: #008000; color: #008000; }
+  .badge-danger { border-color: #cc0000; color: #cc0000; }
+  .badge-warning { border-color: #cc9900; color: #cc9900; }
+  .badge-info { border-color: #0000ff; color: #0000ff; }
+  
+  /* Playground Overrides */
+  :root {
+    --playground-bg: #f6f6ef;
+    --playground-text: #000000;
+    --playground-text-muted: #828282;
+    --playground-surface: #f6f6ef;
+    --playground-surface-hover: #efefef;
+    --playground-border: #dcdcdc;
+    --playground-border-hover: #828282;
+    --playground-radius: 0;
+    --playground-focus-ring: rgba(255, 102, 0, 0.3);
+    --playground-font: Verdana, Geneva, sans-serif;
+  }
+}

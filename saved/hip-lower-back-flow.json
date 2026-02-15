@@ -1,0 +1,81 @@
+{
+  "id": "hip-lower-back-flow",
+  "name": "Hip & Lower Back Flow",
+  "description": "Mobility flow for hip flexibility and lumbar health - perfect after long periods of sitting",
+  "routineId": "yoga",
+  "tags": ["yoga", "stretch", "mobility", "hip-opener", "lower-back", "flexibility"],
+  "estimatedDuration": 20,
+  "equipment": ["mat"],
+  "sets": [
+    {
+      "id": "spinal-mobility",
+      "name": "Spinal Mobility Warmup",
+      "type": "exercises",
+      "randomize": false,
+      "exercises": [
+        { "criteria": { "exerciseId": "cat-cow" }, "duration": 60, "notes": "flow with breath, 8-10 rounds" }
+      ],
+      "restAfter": 10
+    },
+    {
+      "id": "hip-openers",
+      "name": "Hip Openers",
+      "type": "exercises",
+      "randomize": true,
+      "poolSize": 4,
+      "exercises": [
+        { "criteria": { "types": ["yoga", "stretch"], "tags": ["hip-opener", "floor"] }, "duration": 60, "notes": "breathe into the stretch" },
+        { "criteria": { "types": ["yoga", "stretch"], "tags": ["hip-opener", "floor"] }, "duration": 60, "notes": "hold steady, no bouncing" },
+        { "criteria": { "types": ["yoga", "stretch"], "tags": ["hip-opener", "mobility"] }, "duration": 45, "notes": "focus on hip flexors" },
+        { "criteria": { "types": ["yoga", "stretch"], "tags": ["hip-opener", "mobility"] }, "duration": 45, "notes": "both sides" }
+      ],
+      "restBetween": 5,
+      "restAfter": 15
+    },
+    {
+      "id": "active-hip-mobility",
+      "name": "Active Hip Mobility",
+      "type": "exercises",
+      "rounds": 2,
+      "randomize": true,
+      "poolSize": 3,
+      "exercises": [
+        { "criteria": { "types": ["yoga", "stretch"], "tags": ["hip-opener", "mobility"] }, "duration": 30, "notes": "active movement" },
+        { "criteria": { "types": ["yoga", "stretch"], "tags": ["hip-opener", "mobility"] }, "duration": 30, "notes": "both sides" },
+        { "criteria": { "types": ["yoga"], "tags": ["standing", "hip-opener"] }, "duration": 30, "notes": "dynamic movement" }
+      ],
+      "restBetween": 10,
+      "restAfter": 15
+    },
+    {
+      "id": "lower-back-release",
+      "name": "Lower Back Release",
+      "type": "exercises",
+      "randomize": true,
+      "poolSize": 2,
+      "exercises": [
+        { "criteria": { "types": ["yoga"], "tags": ["floor", "on-back"] }, "duration": 60, "notes": "gentle spinal release" },
+        { "criteria": { "types": ["yoga"], "tags": ["floor", "on-back"] }, "duration": 60, "notes": "breathe deeply" }
+      ],
+      "restBetween": 5,
+      "restAfter": 10
+    },
+    {
+      "id": "grounding",
+      "name": "Grounding & Rest",
+      "type": "exercises",
+      "randomize": false,
+      "exercises": [
+        { "criteria": { "exerciseId": "childs-pose" }, "duration": 90, "notes": "final rest, breathe deeply" }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Move slowly and mindfully - this is about mobility, not intensity",
+    "Breathe deeply into tight areas",
+    "Hold stretches without forcing - ease into them gradually",
+    "Focus on hip flexors and lower back - areas most affected by sitting",
+    "If a pose feels too intense, back off and use a gentler variation"
+  ]
+}

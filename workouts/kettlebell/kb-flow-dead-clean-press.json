@@ -1,0 +1,65 @@
+{
+  "id": "kb-flow-dead-clean-press",
+  "name": "KB Flow: Dead Clean → Squat → Lateral Lunge → Bent Press",
+  "description": "A beautiful 5-move kettlebell flow from a Facebook reel. Dead clean from the floor, squat, lateral lunge, bent press overhead, then tactical clean back to start. Perform the full flow on one side, then repeat on the other. Smooth, controlled, and deceptively challenging.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "flow", "full-body", "strength", "unilateral", "complex", "skill-work", "mobility"],
+  "estimatedDuration": 15,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "Facebook Reel",
+  "sourceUrl": "https://www.facebook.com/reel/1397870815215714",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen shoulders and thoracic spine" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Wake up the hips" },
+        { "id": "kettlebell-front-squat", "reps": 5, "notes": "Open up the hips, practice rack position" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "flow-left",
+      "name": "Flow: Left Side",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": 1, "notes": "Left hand. Dead stop on the floor, explosive pull to rack." },
+        { "id": "kettlebell-front-squat", "reps": 1, "notes": "Left rack. Full depth, chest up." },
+        { "id": "kettlebell-lateral-lunge", "reps": 1, "notes": "Left rack. Step wide, hips back, trailing leg straight." },
+        { "id": "kettlebell-bent-press", "reps": 1, "notes": "Left hand. Bend AWAY from the bell, lock out overhead." },
+        { "id": "kettlebell-tactical-clean", "reps": 1, "notes": "Left hand. Control the descent, return to start position." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "flow-right",
+      "name": "Flow: Right Side",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": 1, "notes": "Right hand. Same form — dead stop, explosive clean." },
+        { "id": "kettlebell-front-squat", "reps": 1, "notes": "Right rack. Full depth." },
+        { "id": "kettlebell-lateral-lunge", "reps": 1, "notes": "Right rack. Step wide to the right." },
+        { "id": "kettlebell-bent-press", "reps": 1, "notes": "Right hand. Bend torso away, lock out." },
+        { "id": "kettlebell-tactical-clean", "reps": 1, "notes": "Right hand. Smooth return." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "This is a FLOW — all 5 exercises connect seamlessly, no pausing between moves",
+    "The bent press is the hardest part — if you're new to it, practice separately first",
+    "Use a moderate weight — this is about movement quality, not max strength",
+    "5 rounds each side = 50 total reps (25 per side)",
+    "Rest 60 seconds between rounds (after completing both sides)",
+    "Great for shoulder mobility, hip flexibility, and full-body coordination"
+  ]
+}

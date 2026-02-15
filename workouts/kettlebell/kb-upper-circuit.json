@@ -1,0 +1,66 @@
+{
+  "id": "kb-upper-circuit",
+  "name": "Kettlebell Upper Body Circuit",
+  "description": "Push, pull, and press using kettlebells. Great for building shoulders, back, and pressing strength with a single bell.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "upper-body", "circuit", "strength", "shoulders", "back", "chest"],
+  "estimatedDuration": 25,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "Loosen up the shoulders" },
+        { "id": "kettlebell-deadlift", "reps": 5, "notes": "Light, wake up the posterior chain" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "block-1-press",
+      "name": "Block 1: Press",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-overhead-press", "reps": "8 each", "notes": "Strict press, no leg drive" },
+        { "id": "kettlebell-floor-press", "reps": "8 each", "notes": "Pause briefly on the floor" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-pull",
+      "name": "Block 2: Pull",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "Squeeze the shoulder blade at top" },
+        { "id": "kettlebell-clean-and-press", "reps": "5 each", "notes": "Clean is the pull, press is the push - best of both" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-complex",
+      "name": "Block 3: Complex Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 15, "notes": "Power from hips, shoulders stay packed" },
+        { "id": "kettlebell-thruster", "reps": 8, "notes": "Full body push, empty the tank" }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "Use a weight you can press for at least 8 strict reps",
+    "For double kettlebell version: use two bells for presses and rows",
+    "Clean and press is the king of kettlebell exercises - focus on form",
+    "Keep rest short to build conditioning alongside strength"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "plate-abs-workout",
+  "name": "Plate Abs Workout",
+  "description": "Intense ab circuit using a weight plate. 4 rounds of 4 exercises, 20 reps each with 60 seconds rest between rounds.",
+  "routineId": "snippets",
+  "tags": ["core", "abs", "circuit", "weighted", "snippet", "floor", "on-back", "finisher"],
+  "estimatedDuration": 15,
+  "equipment": ["weight-plate", "mat"],
+  "difficulty": "intermediate",
+  "source": "X/Twitter",
+  "sets": [
+    {
+      "id": "plate-ab-circuit",
+      "name": "Plate Ab Circuit",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "sit-up-twist",
+          "name": "Sit Up Twist",
+          "reps": 20,
+          "notes": "Keep plate extended, control the descent, alternate sides"
+        },
+        {
+          "id": "suitcases",
+          "name": "Suitcases",
+          "reps": 20,
+          "notes": "Keep arms straight, fold knees to elbows while keeping plate extended"
+        },
+        {
+          "id": "weighted-leg-raises",
+          "name": "Leg Raises",
+          "reps": 20,
+          "notes": "Press lower back into floor, lift hips slightly at top"
+        },
+        {
+          "id": "toe-touches",
+          "name": "Toe Touches",
+          "reps": 20,
+          "notes": "Keep legs vertical, reach plate to toes"
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "Use moderate weight plate (10-25 lbs)",
+    "Focus on controlled movements",
+    "Great as a core finisher after main workout"
+  ]
+}

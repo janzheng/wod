@@ -1,0 +1,52 @@
+{
+  "id": "simple-barre",
+  "name": "Simple 15-Minute Barre",
+  "description": "Quick barre routine for lower body toning",
+  "routineId": "barre",
+  "tags": ["barre", "lower-body", "quick"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "barre-first-position-plie" }, "duration": 45 },
+        { "criteria": { "exerciseId": "barre-releve-passe" }, "duration": 45 }
+      ],
+      "restBetween": 10,
+      "restAfter": 30
+    },
+    {
+      "id": "standing",
+      "name": "Standing Work",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "criteria": { "exerciseId": "barre-plie-releve" }, "duration": 60 },
+        { "criteria": { "exerciseId": "barre-attitude-position" }, "duration": 45, "notes": "each side" },
+        { "criteria": { "exerciseId": "barre-rond-de-jambe" }, "duration": 45, "notes": "each side" }
+      ],
+      "restBetween": 10,
+      "restAfter": 45
+    },
+    {
+      "id": "floor",
+      "name": "Floor Work",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "barre-donkey-kick" }, "duration": 45, "notes": "each side" },
+        { "criteria": { "exerciseId": "barre-fire-hydrant" }, "duration": 45, "notes": "each side" },
+        { "criteria": { "exerciseId": "barre-clamshell" }, "duration": 45, "notes": "each side" }
+      ],
+      "restBetween": 10,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Keep core engaged throughout",
+    "Focus on small, controlled movements",
+    "Maintain proper posture at the barre or chair"
+  ]
+}

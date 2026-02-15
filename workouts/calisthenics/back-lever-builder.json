@@ -1,0 +1,74 @@
+{
+  "id": "back-lever-builder",
+  "name": "Back Lever Builder",
+  "description": "Build shoulder extension and strength for back lever - German hang through full lever",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "strength", "back-lever", "skill-work", "progressions"],
+  "estimatedDuration": 45,
+  "equipment": ["pull-up-bar", "rings"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Shoulder Extension Prep",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility", "shoulders"], "equipment": ["resistance-band", "bodyweight"] }, "reps": "10", "poolSize": 2 },
+        { "id": "dead-hang", "duration": 30, "notes": "Relax into the hang" },
+        { "criteria": { "tags": ["warmup"], "muscles": ["chest", "shoulders"] }, "duration": 30, "notes": "Stretch chest and front delts" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "skin-the-cat",
+      "name": "Skin the Cat",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "skin-the-cat", "reps": "3-5", "notes": "Slow and controlled. Pause in German hang." }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "german-hang",
+      "name": "German Hang Holds",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "german-hang", "duration": "15-30", "notes": "Stretch into it gradually. Don't force depth." }
+      ],
+      "restBetween": 60,
+      "restAfter": 120
+    },
+    {
+      "id": "lever-holds",
+      "name": "Back Lever Progression",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "criteria": { "progression": "back-lever-progression" }, "duration": "5-15", "notes": "Your current level. Straight arms, flat body." }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "support",
+      "name": "Support Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "support-hold", "duration": 30, "notes": "Builds the pushing base for lever control" }
+      ],
+      "restBetween": 60
+    }
+  ],
+  "tips": [
+    "Back lever progression: German hang → tuck → advanced tuck → straddle → full",
+    "CRITICAL: Build German hang flexibility FIRST. Don't rush this.",
+    "Shoulders are in a vulnerable position - progress slowly",
+    "Bicep tendons are stressed - warm up thoroughly",
+    "Skin the cat is the best drill - do it every session",
+    "If shoulders feel strained, reduce depth or go back a progression"
+  ]
+}

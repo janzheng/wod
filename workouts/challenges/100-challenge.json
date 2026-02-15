@@ -1,0 +1,88 @@
+{
+  "id": "100-challenge",
+  "name": "100 Challenge",
+  "description": "A descending pyramid workout starting at 100 reps and working down to 10. Classic challenge format that builds endurance and mental toughness.",
+  "routineId": "challenges",
+  "tags": ["challenge", "pyramid", "cardio", "full-body", "bodyweight"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 25,
+  "equipment": ["bodyweight"],
+  "sets": [
+    {
+      "id": "jumping-jacks",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "jumping-jacks" }, "reps": 100 }
+      ]
+    },
+    {
+      "id": "high-knees",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "high-knees" }, "reps": 90 }
+      ]
+    },
+    {
+      "id": "star-situps",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "star-situps" }, "reps": 80, "notes": "80 total (not per side)" }
+      ]
+    },
+    {
+      "id": "mountain-climbers",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "mountain-climber" }, "reps": 70 }
+      ]
+    },
+    {
+      "id": "froggers",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "frogger" }, "reps": 60 }
+      ]
+    },
+    {
+      "id": "squats",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "bodyweight-squat" }, "reps": 50 }
+      ]
+    },
+    {
+      "id": "jump-lunges",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "jump-lunge" }, "reps": 40 }
+      ]
+    },
+    {
+      "id": "butt-kicks",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "butt-kicks" }, "reps": 30 }
+      ]
+    },
+    {
+      "id": "burpees",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "burpee" }, "reps": 20 }
+      ]
+    },
+    {
+      "id": "push-ups",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "push-up" }, "reps": 10 }
+      ]
+    }
+  ],
+  "tips": [
+    "Take breaks between exercises as needed - this is about completion, not speed",
+    "Focus on form over speed, especially as you get tired",
+    "The pyramid format means it gets easier as you go (fewer reps)",
+    "You can break each exercise into smaller sets if needed"
+  ]
+}

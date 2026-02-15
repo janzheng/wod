@@ -1,0 +1,68 @@
+{
+  "id": "brutal-kettlebell-complex",
+  "name": "Brutal Kettlebell Complex",
+  "type": "circuit",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/Asgooch/status/2020611643718164517",
+    "creator": "@Asgooch",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["full-body", "compound", "circuit", "hiit", "gym", "dynamic", "kettlebell"],
+  "equipment": ["kettlebell"],
+  "muscles": ["full-body", "glutes", "quads", "hamstrings", "back", "chest", "shoulders", "core"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 15,
+  "description": "A quick and intense kettlebell complex targeting full-body strength and conditioning. Four compound movements performed back-to-back without putting the bell down. Complexes are @Asgooch's go-to for quick but brutal workouts.",
+  "exercises": [
+    {
+      "name": "Kettlebell Swing",
+      "reps": 10,
+      "duration": null,
+      "description": "Two-handed kettlebell swing from hinge position, driving hips forward to swing the bell to chest height.",
+      "notes": "Explosive hip drive, maintain neutral spine."
+    },
+    {
+      "name": "A/B Stance Goblet Squat",
+      "reps": 10,
+      "duration": null,
+      "description": "Hold kettlebell at chest, squat alternating between wide (A stance) and narrow (B stance) foot positions.",
+      "notes": "Knees track over toes, depth to comfort."
+    },
+    {
+      "name": "Single Arm Bent Over Row",
+      "reps": 10,
+      "duration": null,
+      "description": "Hinge at hips, row kettlebell to hip with one arm, alternate sides.",
+      "notes": "Keep back flat, pull with back muscles; 10 reps per side."
+    },
+    {
+      "name": "Close Grip Kettlebell Push Up",
+      "reps": 10,
+      "duration": null,
+      "description": "Push up with hands on kettlebell handles in close grip position.",
+      "notes": "Maintain plank form, elbows tucked."
+    }
+  ],
+  "circuit": {
+    "rounds": 4,
+    "repsPerExercise": 10,
+    "restBetweenExercises": 0,
+    "restBetweenRounds": 60,
+    "notes": "Perform all exercises in sequence without resting or putting down the kettlebell between movements. Rest 60 seconds between rounds."
+  },
+  "raw": {
+    "transcript": "",
+    "caption": "Grab a kettlebell and be prepared to test your strength and conditioning with this complex. Complexes are my go to for quick, but brutal workouts, so save this one and try it for your next workout.",
+    "textOverlays": ["Another Brutal Kettlebell Complex", "Swings 10", "A Stance B Stance Squat 10", "Single Arm Row 10", "Close Grip KB Push Up 10"],
+    "visualSummary": "A muscular man in a cap and shorts demonstrates the complex outdoors/in garage setting: starts with two-handed kettlebell swings, transitions to goblet squats alternating stances, single arm rows from hinge, and finishes with close-grip push-ups on the kettlebell."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": [
+      "Number of rounds not explicitly stated; defaulted to 4",
+      "Single arm row: assumed 10 reps per side",
+      "A/B stance squats: interpreted as alternating wide/narrow"
+    ]
+  }
+}

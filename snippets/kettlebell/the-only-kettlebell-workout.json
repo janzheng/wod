@@ -1,0 +1,69 @@
+{
+  "id": "the-only-kettlebell-workout",
+  "name": "The Only Kettlebell Workout You Need",
+  "type": "circuit",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/Asgooch/status/2021681074653311203",
+    "creator": "@Asgooch",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["full-body", "compound", "circuit", "gym", "kettlebell"],
+  "equipment": ["kettlebell"],
+  "muscles": ["full-body", "shoulders", "chest", "back", "glutes", "quads", "core"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 35,
+  "description": "A full-body kettlebell circuit designed for overall fitness. Single kettlebell, 30-40 minutes, repeatable multiple times per week with easy progression. @Asgooch's go-to recommendation for general fitness.",
+  "exercises": [
+    {
+      "name": "Kettlebell Swing",
+      "reps": 20,
+      "duration": null,
+      "description": "Explosive hip hinge to swing the kettlebell between the legs and up to chest height using momentum from the hips.",
+      "notes": "Keep back straight, drive with hips, controlled descent."
+    },
+    {
+      "name": "Kettlebell Clean to Squat",
+      "reps": 12,
+      "duration": null,
+      "description": "Clean the kettlebell to rack position then perform a front squat, returning to standing.",
+      "notes": "Explode from hips for clean, maintain upright torso in squat."
+    },
+    {
+      "name": "Kettlebell Chest Press",
+      "reps": 12,
+      "duration": null,
+      "description": "Lie on back, press kettlebell from chest to overhead extension.",
+      "notes": "4 sets; keep elbows at 45 degrees, controlled press."
+    },
+    {
+      "name": "Turkish Get-Up",
+      "reps": 3,
+      "duration": null,
+      "description": "From lying position with kettlebell overhead, stand up while keeping arm extended, then reverse to ground.",
+      "notes": "3 each side; focus on stability and control. This is the skill work portion."
+    }
+  ],
+  "circuit": {
+    "rounds": 4,
+    "repsPerExercise": 12,
+    "restBetweenExercises": 15,
+    "restBetweenRounds": 60,
+    "notes": "Cycle through exercises with minimal rest. Progress by increasing weight or reps. Hit this multiple times per week."
+  },
+  "raw": {
+    "transcript": "No spoken audio; background music only.",
+    "caption": "If you're just looking to get in great shape, this is a solid workout to hit multiple times a week. You only need a single kettlebell, about 30-40 minutes, and you can progress is easily.",
+    "textOverlays": ["The ONLY you need workout", "Swings", "Clean to Squat", "Chest Press 4x12", "Turkish Get Up 3x12", "Full program access"],
+    "visualSummary": "Short video montage demonstrating kettlebell swings, clean to squat, lying chest presses, and Turkish get-ups in various settings."
+  },
+  "confidence": {
+    "overall": "medium",
+    "uncertainties": [
+      "Swing reps not explicitly shown — defaulted to 20",
+      "Turkish Get-Up shown as 3x12 but that's unusually high — interpreted as 3 each side per round",
+      "No audio — video is a teaser montage",
+      "Rest times not specified"
+    ]
+  }
+}

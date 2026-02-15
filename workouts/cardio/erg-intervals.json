@@ -1,0 +1,56 @@
+{
+  "id": "erg-intervals",
+  "name": "ERG Rowing Intervals",
+  "description": "Rowing machine interval workout for cardio and conditioning",
+  "routineId": "cardio",
+  "tags": ["cardio", "rowing", "erg", "intervals", "conditioning"],
+  "estimatedDuration": 25,
+  "equipment": ["erg"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup Row",
+      "type": "activity",
+      "activity": {
+        "name": "Easy Row",
+        "duration": 5,
+        "intensity": "easy",
+        "notes": "20-22 strokes per minute, focus on form"
+      }
+    },
+    {
+      "id": "intervals",
+      "name": "Work Intervals",
+      "type": "activity",
+      "rounds": 6,
+      "activity": {
+        "name": "500m Interval",
+        "distance": "500m",
+        "intensity": "hard",
+        "notes": "Target 1:50-2:00 split, then rest equal time"
+      }
+    },
+    {
+      "id": "rest-between",
+      "name": "Recovery",
+      "type": "rest",
+      "restDuration": 120
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown Row",
+      "type": "activity",
+      "activity": {
+        "name": "Easy Row",
+        "duration": 3,
+        "intensity": "easy",
+        "notes": "Gradually decrease pace"
+      }
+    }
+  ],
+  "tips": [
+    "Drive with legs first, then lean back, then pull arms",
+    "Focus on power per stroke, not stroke rate",
+    "Keep a consistent split time across intervals"
+  ]
+}

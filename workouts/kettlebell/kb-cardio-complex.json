@@ -1,0 +1,63 @@
+{
+  "id": "kb-cardio-complex",
+  "name": "Single KB Cardio Complex (@Asgooch)",
+  "description": "The ultimate single-bell cardio complex from @Asgooch. Row → Clean → Squat → Snatch, 6 reps each, both sides, 5 rounds. One lighter kettlebell is all you need — he used 24kg.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "cardio", "hiit", "conditioning", "complex"],
+  "estimatedDuration": 20,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/Asgooch/status/2022366570052293012",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light, loosen shoulders" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings, feel the hinge" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Open up the hips" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "cardio-complex-left",
+      "name": "Complex: Left Side",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 6, "notes": "Left hand. Core braced, hips back, extend fully each rep." },
+        { "id": "kettlebell-swing-clean", "reps": 6, "notes": "Left hand. Hip drive into front rack, thumb on collarbone." },
+        { "id": "kettlebell-front-squat", "reps": 6, "notes": "Left rack. Drop low, chest up, extend through quads." },
+        { "id": "kettlebell-swing-snatch", "reps": 6, "notes": "Left hand. Explosive hips, punch to sky, don't bang the forearm." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "cardio-complex-right",
+      "name": "Complex: Right Side",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 6, "notes": "Right hand. Same form — extend fully, hips back." },
+        { "id": "kettlebell-swing-clean", "reps": 6, "notes": "Right hand. Smooth clean to rack." },
+        { "id": "kettlebell-front-squat", "reps": 6, "notes": "Right rack. Full depth, chest proud." },
+        { "id": "kettlebell-swing-snatch", "reps": 6, "notes": "Right hand. Last exercise — empty the tank." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "Use a LIGHTER kettlebell — this is cardio, not strength. @Asgooch used 24kg.",
+    "No rest between exercises or between sides — left flows straight into right",
+    "60 seconds rest between rounds (after both sides are done)",
+    "If you're breathing heavy, you're doing it right",
+    "5 rounds total — 48 reps per side per round, 480 reps total",
+    "Great benchmark workout — track your rest times and try to reduce them"
+  ]
+}

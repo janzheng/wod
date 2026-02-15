@@ -1,0 +1,164 @@
+.theme-scope {
+  /* Typography */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: var(--font-semibold);
+    line-height: var(--leading-tight);
+    color: var(--color-text-primary);
+    letter-spacing: -0.015em; /* Tighter tracking for headings */
+  }
+
+  h1 {
+    font-size: var(--text-h1);
+    margin-bottom: 0.75rem;
+  } /* Reduced size/margin */
+
+  h2 {
+    font-size: var(--text-2xl);
+    margin-bottom: 0.625rem;
+  }
+
+  h3 {
+    font-size: var(--text-xl);
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    font-size: var(--text-lg);
+    margin-bottom: 0.5rem;
+  }
+
+  h5 {
+    font-size: var(--text-base);
+    margin-bottom: 0.375rem;
+  }
+
+  h6 {
+    font-size: var(--text-sm);
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    margin-bottom: 0.75rem; /* Reduced from 1rem */
+    /* color: var(--color-text-secondary); */
+    color: var(--color-text-primary); /* looks better I think */
+    line-height: 1.6; /* Slightly tighter */
+  }
+
+  strong, b {
+    font-weight: var(--font-semibold);
+    color: var(--color-text-primary);
+  }
+
+  em, i {
+    font-style: italic;
+  }
+
+  /* Typography Utility Classes - Light Gray Display Text */
+  .text-display-xl {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: var(--font-bold);
+    color: var(--color-gray-300);
+    letter-spacing: -0.025em; /* tracking-tight */
+    line-height: var(--leading-tight);
+  }
+
+  .text-display-lg {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: var(--font-bold);
+    color: var(--color-gray-300);
+    letter-spacing: -0.025em; /* tracking-tight */
+    line-height: var(--leading-tight);
+  }
+
+  .text-display-md {
+    font-size: var(--text-2xl); /* text-2xl */
+    font-weight: var(--font-bold);
+    color: var(--color-gray-300);
+    letter-spacing: -0.025em; /* tracking-tight */
+    line-height: var(--leading-tight);
+  }
+
+  .text-display-sm {
+    font-size: var(--text-xl); /* text-xl */
+    font-weight: var(--font-bold);
+    color: var(--color-gray-300);
+    letter-spacing: -0.025em; /* tracking-tight */
+    line-height: var(--leading-tight);
+  }
+
+  /* Links */
+  .link,
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+  }
+
+  .link:hover,
+  a:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+  }
+
+  /* Code - Light gray background in light mode */
+  code {
+    padding: 0.125rem 0.375rem;
+    background-color: var(--color-code-bg);
+    color: var(--color-code-text);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 0.875em;
+  }
+
+  pre {
+    padding: 1rem;
+    background-color: var(--color-code-bg-dark);
+    color: var(--color-code-text-dark);
+    border: 1px solid var(--color-code-border, var(--color-border));
+    border-radius: var(--radius-lg);
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+
+  pre code {
+    padding: 0;
+    background-color: transparent;
+    color: inherit;
+    border-radius: 0;
+    font-size: var(--text-sm);
+  }
+
+  /* Blockquotes */
+  blockquote {
+    padding-left: 1rem;
+    border-left: 4px solid var(--color-border);
+    color: var(--color-text-neutral);
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  /* Horizontal Rule */
+  hr {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 1.5rem 0;
+  }
+
+  /* Font Styles */
+  .font-serif {
+      font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .font-bold {
+  font-weight: var(--font-bold);
+  }
+
+  .italic {
+    font-style: italic;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "kettlebell",
+  "name": "Kettlebell",
+  "description": "Kettlebell circuits and flows - from heavy doubles to light single-bell work",
+  "icon": "lucide:dumbbell",
+  "color": "#F97316",
+  "defaults": {
+    "duration": 25,
+    "difficulty": "intermediate",
+    "equipment": ["kettlebell"],
+    "tags": ["kettlebell", "circuit"]
+  },
+  "sortOrder": 5
+}

@@ -1,0 +1,71 @@
+{
+  "id": "heavy-duty-chest-back",
+  "name": "Heavy Duty: Chest & Back",
+  "description": "Classic Mentzer chest/back split using pre-exhaustion. Isolate the target muscle first, then hit it with a compound while fatigued. This forces the target muscle to fail before your arms give out.",
+  "routineId": "heavy-duty",
+  "tags": ["heavy-duty", "intensity", "hit", "chest", "back", "pre-exhaust"],
+  "estimatedDuration": 30,
+  "equipment": ["machine", "dumbbell", "cable", "barbell"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "General Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 60 },
+        { "criteria": { "tags": ["warmup"], "muscles": ["chest", "shoulders"] }, "duration": 30 }
+      ],
+      "restAfter": 90
+    },
+    {
+      "id": "chest-pre-exhaust",
+      "name": "Chest Pre-Exhaust Superset",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["machine", "cable"], "tags": ["isolation"] }, "reps": "10-12", "notes": "ISOLATION: Pec deck or cable fly. Squeeze hard at contraction. 4-2-4 tempo. To FAILURE." },
+        { "criteria": { "muscles": ["chest"], "equipment": ["machine", "barbell", "dumbbell"], "tags": ["compound", "press"] }, "reps": "6-10", "notes": "COMPOUND: Immediately into press (no rest). Chest pre-fatigued = chest fails first. To FAILURE." }
+      ],
+      "restBetween": 0,
+      "restAfter": 180
+    },
+    {
+      "id": "back-pre-exhaust",
+      "name": "Back Pre-Exhaust Superset",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "muscles": ["lats"], "equipment": ["cable", "machine"] }, "reps": "10-12", "notes": "ISOLATION: Pullover or straight-arm pulldown. Feel the lats stretch. 4-2-4 tempo. To FAILURE." },
+        { "criteria": { "muscles": ["back", "lats"], "equipment": ["cable", "machine"], "tags": ["row", "compound"] }, "reps": "6-10", "notes": "COMPOUND: Immediately into row (no rest). Lats pre-fatigued = back fails before biceps. To FAILURE." }
+      ],
+      "restBetween": 0,
+      "restAfter": 180
+    },
+    {
+      "id": "chest-finisher",
+      "name": "Chest Finisher (Optional)",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["dumbbell", "machine"] }, "reps": "8-12", "notes": "Only if you have more in the tank. 1 set, absolute failure, rest-pause if needed." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "back-finisher",
+      "name": "Back Finisher (Optional)",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["back"], "equipment": ["cable", "machine", "dumbbell"], "tags": ["row"] }, "reps": "8-12", "notes": "Only if you have more in the tank. 1 set, absolute failure." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "PRE-EXHAUST: Isolation exercise first tires the target muscle. The compound then forces it to fail before synergists.",
+    "NO REST between isolation and compound - this is one continuous superset",
+    "FAILURE on both exercises. If you can do more, the weight was too light.",
+    "WAIT 5-7 DAYS before training chest/back again",
+    "This workout should take ~25-30 min if done with proper intensity"
+  ]
+}

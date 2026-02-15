@@ -1,0 +1,72 @@
+{
+  "id": "heavy-duty-shoulders-arms",
+  "name": "Heavy Duty: Shoulders & Arms",
+  "description": "Mentzer's shoulder and arm routine. Pre-exhaust delts with lateral raises, then press. Arms get supersetted for maximum pump with minimum volume. Short, intense, effective.",
+  "routineId": "heavy-duty",
+  "tags": ["heavy-duty", "intensity", "hit", "shoulders", "arms", "pre-exhaust"],
+  "estimatedDuration": 25,
+  "equipment": ["machine", "dumbbell", "cable"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Shoulder Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["shoulders"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "muscles": ["shoulders"], "equipment": ["bodyweight", "band"] }, "reps": 10 }
+      ],
+      "restAfter": 60
+    },
+    {
+      "id": "shoulders-pre-exhaust",
+      "name": "Shoulders Pre-Exhaust Superset",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["dumbbell", "cable", "machine"], "tags": ["isolation"] }, "reps": "10-12", "notes": "LATERAL RAISE: Strict form, no swinging. Pause at top. 4-2-4 tempo. To FAILURE." },
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["machine", "dumbbell", "barbell"], "tags": ["press", "compound"] }, "reps": "6-10", "notes": "SHOULDER PRESS: Immediately (no rest). Delts pre-fatigued = shoulders fail before triceps. To FAILURE." }
+      ],
+      "restBetween": 0,
+      "restAfter": 180
+    },
+    {
+      "id": "rear-delts",
+      "name": "Rear Delts",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["shoulders", "rear-delts"], "equipment": ["dumbbell", "cable", "machine"] }, "reps": "12-15", "notes": "1 set to failure. Squeeze shoulder blades together. 4-2-4 tempo." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "arms-superset",
+      "name": "Arms Superset",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "muscles": ["biceps"], "equipment": ["dumbbell", "cable", "machine"] }, "reps": "8-12", "notes": "BICEPS: Full range of motion. Squeeze at top. 4-2-4 tempo. To FAILURE." },
+        { "criteria": { "muscles": ["triceps"], "equipment": ["cable", "machine", "dumbbell"] }, "reps": "8-12", "notes": "TRICEPS: Immediately (no rest). Lock out fully. 4-2-4 tempo. To FAILURE." }
+      ],
+      "restBetween": 0,
+      "restAfter": 120
+    },
+    {
+      "id": "arms-finisher",
+      "name": "Arms Finisher (Optional)",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "muscles": ["biceps"], "equipment": ["dumbbell", "cable"] }, "reps": "8-12", "notes": "Only if you have more. Rest-pause if needed: hit failure, rest 10 sec, continue to failure again." },
+        { "criteria": { "muscles": ["triceps"], "equipment": ["cable", "dumbbell"] }, "reps": "8-12", "notes": "Same technique. 1 more superset, both to failure." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Lateral raises: keep strict form - if you're swinging, the weight is too heavy",
+    "Pre-exhaust on shoulders means you'll use less weight on press - that's the point",
+    "Arms superset = biceps to failure, immediately triceps to failure. No rest.",
+    "REST-PAUSE technique: at failure, rest 10 sec, continue until failure again",
+    "Total arm volume is only 2-4 sets - but each set is 100% effort"
+  ]
+}

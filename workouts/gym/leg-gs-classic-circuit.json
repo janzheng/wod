@@ -1,0 +1,123 @@
+{
+  "id": "leg-gs-classic-circuit",
+  "name": "Leg / GS Classic Circuit",
+  "description": "Full body classic workout - legs/glutes & shoulders focus, preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "full-body", "fixed", "classic", "legs", "glutes", "shoulders"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "hack-squat-machine", "bench", "box"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "leg-1-hipthrust-crab",
+      "name": "Leg 1: Hip Thrust & Crab Walk",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "smith-machine-hip-thrust", "reps": "max", "notes": "hip thrust" },
+        { "id": "bodyweight-squat", "reps": "max", "notes": "crab walk (lateral walking in squat position)" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "leg-2-hack-squat",
+      "name": "Leg 2: Hack Squat",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "hack-squat", "reps": "max", "notes": "1 1/4 hack squat (partial reps)" }
+      ],
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "leg-3-lunge-wallsit",
+      "name": "Leg 3: Two Way Lunge & Wall Sit",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": 12, "notes": "two way lunge (forward and reverse), each side" },
+        { "id": "squat", "duration": 60, "notes": "wall sit (hold squat position against wall)" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "leg-4-sumo-rdl",
+      "name": "Leg 4: Sumo Squat & RDL",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "smith-machine-sumo-squat", "reps": "max", "notes": "sumo squat with kettlebell" },
+        { "id": "single-leg-rdl-kettlebell", "reps": "max", "notes": "one leg raised RDL with kettlebell, each leg" }
+      ],
+      "restBetween": 60,
+      "restAfter": 120
+    },
+    {
+      "id": "upper-1-pyramid-superset",
+      "name": "Upper 1: Curl & Press Pyramid",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "bicep-curl", "reps": "1-5", "notes": "dumbbell curl pyramid: 1, 2, 3, 4, 5 reps (superset with press)" },
+        { "id": "dumbbell-shoulder-press", "reps": "2-10", "notes": "dumbbell press pyramid: 2, 4, 6, 8, 10 reps (superset with curl)" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
+      "id": "upper-2-compound",
+      "name": "Upper 2: Row, Dips & Press",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "barbell-bent-over-row", "reps": 8, "notes": "barbell row" },
+        { "id": "chair-dip", "reps": 10, "notes": "1 1/4 box dips (partial reps on box)" },
+        { "id": "barbell-shoulder-press", "reps": 12, "notes": "kettlebell alternating press" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "upper-3-finisher",
+      "name": "Upper 3: Bench & Front Raise",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "bench-press", "reps": 8 },
+        { "id": "front-raise", "reps": 12, "notes": "plate front raise" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Upper 1: Pyramid superset - do 1 curl then 2 press, rest, 2 curl then 4 press, 3 curl then 6 press, 4 curl then 8 press, 5 curl then 10 press",
+    "Two way lunge: do forward lunge then reverse lunge on same leg, 12 reps each side",
+    "Crab walk: lateral walking in squat position",
+    "This is a fixed sequence - no randomization"
+  ]
+}

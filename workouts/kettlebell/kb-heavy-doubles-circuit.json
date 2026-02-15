@@ -1,0 +1,80 @@
+{
+  "id": "kb-heavy-doubles-circuit",
+  "name": "Heavy Doubles Kettlebell Circuit",
+  "description": "Double kettlebell work for serious strength. Heavier loads, lower reps, longer rest. Requires two kettlebells of equal weight.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "strength", "heavy", "advanced"],
+  "estimatedDuration": 35,
+  "equipment": ["kettlebell"],
+  "difficulty": "advanced",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Single Bell)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Single light bell" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Single bell, wake up the hinge" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Single bell, groove the squat" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-doubles-grind",
+      "name": "Block 1: Double Grinds",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-front-squat", "reps": 5, "notes": "Double rack. Slow and heavy. Breathe at the top." },
+        { "id": "kettlebell-overhead-press", "reps": 5, "notes": "Double press from rack. Squeeze glutes hard." }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-doubles-pull",
+      "name": "Block 2: Double Pulls",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-deadlift", "reps": 5, "notes": "Double bells on the floor. Sumo or conventional." },
+        { "id": "kettlebell-row", "reps": "6 each", "notes": "One bell at a time, other stays on floor. Heavy." }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-doubles-finisher",
+      "name": "Block 3: Double Thruster Ladder",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-thruster", "reps": "1-2-3-4-5-4-3-2-1", "notes": "Double bells. Ascending then descending reps. Rest 15s between rungs." }
+      ],
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "block-4-moving-target",
+      "name": "Block 4: Moving Target Complex (@kb_kings)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "double-kettlebell-swing", "reps": 5, "notes": "Flow straight into cleans — don't set bells down" },
+        { "id": "double-kettlebell-clean", "reps": 3, "notes": "Rack, then into snatches" },
+        { "id": "double-kettlebell-snatch", "reps": "3/2/1", "notes": "Descending ladder: 3 snatches round 1, 2 round 2, 1 round 3" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "Requires TWO kettlebells of equal weight",
+    "Pick a weight you can press 6-8 times",
+    "Quality over speed - this is a strength session",
+    "Thruster ladder: rest 15s between each rung (1 rep, rest, 2 reps, rest...)",
+    "If you only have one heavy bell, do alternating single-arm work"
+  ]
+}

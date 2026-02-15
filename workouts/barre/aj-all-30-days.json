@@ -1,0 +1,57 @@
+{
+  "id": "aj-all-30-days",
+  "name": "Action Jacqueline: All 30 Days",
+  "description": "Complete index of all 30 exercises from @actionjacquelyn's 100-Reps Barre Sculpted Leg Challenge - Day 1 through Day 30",
+  "routineId": "action-jacqueline",
+  "creator": "@actionjacquelyn",
+  "source": "100-Reps Barre Sculpted Leg Challenge",
+  "tags": ["barre", "lower-body", "index", "reference", "30-day"],
+  "estimatedDuration": 60,
+  "equipment": ["bodyweight", "mat", "barre"],
+  "sets": [
+    {
+      "id": "all-30-days",
+      "name": "Complete Challenge Index",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "barre-glute-kickback" }, "reps": 100, "notes": "Day 1" },
+        { "criteria": { "exerciseId": "barre-releve-passe" }, "reps": 100, "notes": "Day 2" },
+        { "criteria": { "exerciseId": "barre-clamshell" }, "reps": 100, "notes": "Day 3" },
+        { "criteria": { "exerciseId": "barre-standing-arabesque" }, "reps": 100, "notes": "Day 4 • 50 each leg" },
+        { "criteria": { "exerciseId": "barre-first-position-plie" }, "reps": 100, "notes": "Day 5" },
+        { "criteria": { "exerciseId": "barre-leg-circles" }, "reps": 100, "notes": "Day 6" },
+        { "criteria": { "exerciseId": "barre-wide-plie-pulse" }, "reps": 100, "notes": "Day 7" },
+        { "criteria": { "exerciseId": "barre-all-fours-side-kick" }, "reps": 100, "notes": "Day 8" },
+        { "criteria": { "exerciseId": "barre-side-lying-leg-lift" }, "reps": 100, "notes": "Day 9" },
+        { "criteria": { "exerciseId": "barre-stability-ball-pulse" }, "reps": 100, "notes": "Day 10" },
+        { "criteria": { "exerciseId": "barre-single-leg-deadlift" }, "reps": 100, "notes": "Day 11" },
+        { "criteria": { "exerciseId": "barre-fire-hydrant" }, "reps": 100, "notes": "Day 12" },
+        { "criteria": { "exerciseId": "barre-plie-releve" }, "reps": 100, "notes": "Day 13" },
+        { "criteria": { "exerciseId": "barre-bridge-single-leg" }, "reps": 100, "notes": "Day 14" },
+        { "criteria": { "exerciseId": "barre-grand-plie-passe" }, "reps": 100, "notes": "Day 15" },
+        { "criteria": { "exerciseId": "barre-prone-glute-lift" }, "reps": 100, "notes": "Day 16" },
+        { "criteria": { "exerciseId": "barre-donkey-kick" }, "reps": 100, "notes": "Day 17" },
+        { "criteria": { "exerciseId": "barre-wide-plie-lift" }, "reps": 100, "notes": "Day 18" },
+        { "criteria": { "exerciseId": "barre-pretzel-lift" }, "reps": 100, "notes": "Day 19" },
+        { "criteria": { "exerciseId": "barre-attitude-position" }, "reps": 100, "notes": "Day 20" },
+        { "criteria": { "exerciseId": "barre-donkey-kick-pulse" }, "reps": 100, "notes": "Day 21" },
+        { "criteria": { "exerciseId": "barre-plie-jump" }, "reps": 100, "notes": "Day 22" },
+        { "criteria": { "exerciseId": "barre-standing-abduction" }, "reps": 100, "notes": "Day 23" },
+        { "criteria": { "exerciseId": "barre-starfish-lift" }, "reps": 100, "notes": "Day 24" },
+        { "criteria": { "exerciseId": "barre-bent-leg-side-lift" }, "reps": 100, "notes": "Day 25" },
+        { "criteria": { "exerciseId": "barre-squat-jump" }, "reps": 100, "notes": "Day 26" },
+        { "criteria": { "exerciseId": "barre-superman" }, "reps": 100, "notes": "Day 27" },
+        { "criteria": { "exerciseId": "barre-scissor-kick" }, "reps": 100, "notes": "Day 28" },
+        { "criteria": { "exerciseId": "barre-bridge-tendu" }, "reps": 100, "notes": "Day 29" },
+        { "criteria": { "exerciseId": "barre-rond-de-jambe" }, "reps": 100, "notes": "Day 30 • 50 each leg" }
+      ],
+      "restBetween": 30
+    }
+  ],
+  "tips": [
+    "This is a reference/index workout showing all 30 days of the challenge",
+    "Each exercise is 100 reps - break into sets of 25 if needed",
+    "Use this to see all exercises or follow the full 30-day progression",
+    "Focus on form over speed - keep movements small and controlled"
+  ]
+}

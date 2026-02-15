@@ -1,0 +1,35 @@
+{
+  "id": "kb-beginner-full-body",
+  "name": "Beginner KB Full Body (@Asgooch)",
+  "description": "One of the best beginner kettlebell workouts out there. One bell, four exercises, full body. From @Asgooch — great starting point for home training.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "beginner", "home", "strength"],
+  "estimatedDuration": 20,
+  "equipment": ["kettlebell"],
+  "difficulty": "beginner",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/Asgooch/status/2015520133985312910",
+  "sets": [
+    {
+      "id": "beginner-circuit",
+      "name": "Full Body Circuit",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-clean-and-squat", "reps": 8, "notes": "Two-hand clean to rack, then squat. Explosive clean, controlled squat." },
+        { "id": "kettlebell-suitcase-deadlift", "reps": "10 each", "notes": "One hand at a time. Stay tall, don't lean to the loaded side." },
+        { "id": "kettlebell-alternating-bent-over-row", "reps": "10 each", "notes": "Alternate sides. Flat back, squeeze at the top." },
+        { "id": "kettlebell-feet-elevated-pushup", "reps": 12, "notes": "Feet on the kettlebell. Straight line from head to heels. Modify on knees if needed." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "Only need ONE kettlebell — perfect for home or travel",
+    "Start with a moderate weight you can clean comfortably",
+    "Can do as circuit (all exercises in sequence) or straight sets (4x each before moving on)",
+    "Great entry point before progressing to the cardio complex or heavy doubles",
+    "Credit: @Asgooch — link in his bio for full beginner program"
+  ]
+}

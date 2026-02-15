@@ -1,0 +1,90 @@
+{
+  "id": "heavy-duty-consolidation",
+  "name": "Heavy Duty: Consolidation",
+  "description": "Mentzer's famous 'Ideal Routine' - the ultimate in training economy. Just 5 exercises, hitting every major muscle group. Only train this 1x per week (or even less). Maximum results, minimum time.",
+  "routineId": "heavy-duty",
+  "tags": ["heavy-duty", "intensity", "hit", "full-body", "advanced", "consolidation"],
+  "estimatedDuration": 20,
+  "equipment": ["machine", "barbell"],
+  "sets": [
+    {
+      "id": "intro",
+      "name": "The Ideal Routine",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "consolidation-note",
+          "name": "Mentzer's Most Controversial Routine",
+          "notes": "This is HIGH INTENSITY training taken to its logical conclusion. 5 exercises, 1 set each, to absolute failure. Train ONCE per week or LESS. Sounds too little? Try it - the intensity makes up for the volume."
+        }
+      ]
+    },
+    {
+      "id": "warmup",
+      "name": "Brief Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight"] }, "duration": 120, "notes": "Just enough to break a sweat. Save energy for the working sets." }
+      ],
+      "restAfter": 90
+    },
+    {
+      "id": "legs-compound",
+      "name": "Legs: Squat or Leg Press",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["machine", "barbell"], "tags": ["compound"] }, "reps": "6-10", "notes": "1 warmup set. 1 ALL-OUT set to absolute failure. Full range of motion. 4-2-4 tempo." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "chest-compound",
+      "name": "Chest: Press",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["machine", "barbell", "dumbbell"], "tags": ["compound", "press"] }, "reps": "6-10", "notes": "1 warmup set. 1 ALL-OUT set. Full stretch at bottom. 4-2-4 tempo. To FAILURE." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "back-compound",
+      "name": "Back: Row or Pulldown",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["back", "lats"], "equipment": ["cable", "machine"], "tags": ["compound"] }, "reps": "6-10", "notes": "1 warmup set. 1 ALL-OUT set. Squeeze shoulder blades. 4-2-4 tempo. To FAILURE." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "shoulders-compound",
+      "name": "Shoulders: Press",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["machine", "dumbbell", "barbell"], "tags": ["press", "compound"] }, "reps": "6-10", "notes": "1 working set. Full range of motion. 4-2-4 tempo. To FAILURE." }
+      ],
+      "restAfter": 180
+    },
+    {
+      "id": "deadlift",
+      "name": "Posterior Chain: Deadlift",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["hamstrings", "glutes", "back"], "equipment": ["barbell"], "tags": ["deadlift"] }, "reps": "6-10", "notes": "The grand finale. 1 working set. Full body engagement. 4-2-4 tempo. To FAILURE." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This routine is NOT for beginners - you need to know how to truly train to failure",
+    "5 sets total. That's it. If you need more, you're not training hard enough.",
+    "WAIT 7+ DAYS between sessions. Mentzer trained some clients only once every 2 weeks.",
+    "Progressive overload: add weight or reps each session. If you can't progress, you're overtraining.",
+    "This works because intensity trumps volume. 1 set at 100% effort beats 10 sets at 50%."
+  ]
+}

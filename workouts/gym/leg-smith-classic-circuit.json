@@ -1,0 +1,86 @@
+{
+  "id": "leg-smith-classic-circuit",
+  "name": "Leg Smith Machine Classic",
+  "description": "Leg day using the Smith machine for guided movements - great for building single-leg strength with stability",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "legs", "fixed", "classic", "lower-body", "smith-machine"],
+  "estimatedDuration": 45,
+  "equipment": ["smith-machine", "bench", "box"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-hinge",
+      "name": "Block 1: Posterior Chain",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "smith-machine-good-morning", "reps": "10-12", "notes": "start light, feel the stretch" },
+        { "id": "smith-machine-romanian-deadlift", "reps": "10-12" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-unilateral",
+      "name": "Block 2: Single Leg Focus",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "smith-machine-bulgarian-split-squat", "reps": "10 each", "notes": "each leg" },
+        { "id": "smith-machine-step-up", "reps": "10 each", "notes": "each leg" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-squat-variations",
+      "name": "Block 3: Squat Variations",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "smith-machine-squat", "reps": "10-12" },
+        { "id": "smith-machine-sumo-squat", "reps": "10-12", "notes": "wide stance" },
+        { "id": "smith-machine-bent-over-squat", "reps": "10-12", "notes": "torso stays hunched forward the whole time - squat/good-morning hybrid via @powerbrutehq" },
+        { "id": "smith-machine-split-squat", "reps": "10 each", "notes": "each leg" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-4-finisher",
+      "name": "Block 4: Hip Thrust Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "smith-machine-hip-thrust", "reps": "12-15" },
+        { "id": "smith-machine-calf-raise", "reps": "15-20" }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Smith machine provides guided bar path for added stability",
+    "Great for learning proper form on compound movements",
+    "Focus on controlled eccentrics (lowering phase)",
+    "Step-ups: keep all weight on the working leg",
+    "Good mornings: hinge at hips, keep back flat"
+  ]
+}

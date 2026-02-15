@@ -1,0 +1,153 @@
+{
+  "id": "leg-day",
+  "name": "Leg Day",
+  "description": "4x4x3 leg-focused workout with randomization. Can randomly pull in fixed classic sequences or generate fresh combinations.",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "legs", "block", "lower-body"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "hack-squat-machine", "box", "bench", "smith-machine"],
+  "fixedAlternativeChance": 0.3,
+  "fixedAlternatives": ["leg-day-classic-circuit"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-hinge-split",
+      "name": "Block 1: Hinge & Split Focus",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-hinge-split",
+          "name": "Classic Hinge & Split",
+          "exercises": [
+            { "id": "romanian-deadlift", "reps": "10-12" },
+            { "id": "bulgarian-split-squat", "reps": "10 each", "notes": "each leg" },
+            { "id": "suitcase-squat", "reps": "10-12", "notes": "each side" },
+            { "id": "american-kettlebell-swing", "reps": "15" }
+          ]
+        },
+        {
+          "id": "smith-hinge-split",
+          "name": "Smith Machine Hinge & Split",
+          "exercises": [
+            { "id": "smith-machine-good-morning", "reps": "10-12" },
+            { "id": "smith-machine-bulgarian-split-squat", "reps": "10 each", "notes": "each leg" },
+            { "id": "smith-machine-squat", "reps": "10-12" },
+            { "id": "barbell-good-morning", "reps": "10-12" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["hamstrings", "glutes"], "equipment": ["barbell", "dumbbell", "kettlebell"], "tags": ["hinge"] }, "reps": "8-10" },
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["dumbbell", "bodyweight", "bench"], "tags": ["squat", "unilateral"] }, "reps": 10, "notes": "each leg" },
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["dumbbell", "kettlebell"], "tags": ["squat"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["glutes", "hamstrings"], "equipment": ["kettlebell", "dumbbell"], "tags": ["hinge"] }, "reps": "12-15" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-2-squat-variations",
+      "name": "Block 2: Squat Variations",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-squat-variations",
+          "name": "Classic Squat Variations",
+          "exercises": [
+            { "id": "hack-squat", "reps": "10-12" },
+            { "id": "suitcase-squat", "reps": "10-12", "notes": "each side" },
+            { "id": "split-squat", "reps": "10 each", "notes": "each leg" },
+            { "criteria": { "progression": "squat-progression" }, "reps": "10-12" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["hack-squat-machine", "smith-machine"], "tags": ["squat", "machine"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["quads", "glutes", "core"], "equipment": ["dumbbell", "kettlebell"], "tags": ["squat", "anti-rotation"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["dumbbell", "bodyweight"], "tags": ["squat", "unilateral"] }, "reps": 10, "notes": "each leg" },
+        { "criteria": { "progression": "squat-progression" }, "reps": "10-12" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-3-compound-legs",
+      "name": "Block 3: Compound Legs",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-compound-legs",
+          "name": "Classic Compound Legs",
+          "exercises": [
+            { "id": "sumo-deadlift", "reps": "8-10" },
+            { "criteria": { "progression": "squat-progression" }, "reps": "10-12" },
+            { "id": "step-up", "reps": "10 each", "notes": "each leg" },
+            { "id": "american-kettlebell-swing", "reps": "15" }
+          ]
+        },
+        {
+          "id": "smith-compound-legs",
+          "name": "Smith Machine Compound",
+          "exercises": [
+            { "id": "barbell-good-morning", "reps": "8-10" },
+            { "id": "smith-machine-squat", "reps": "10-12" },
+            { "id": "smith-machine-step-up", "reps": "10 each", "notes": "each leg" },
+            { "id": "smith-machine-romanian-deadlift", "reps": "10-12" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["glutes", "hamstrings", "quads"], "equipment": ["barbell"], "tags": ["hinge", "compound"] }, "reps": "8-10" },
+        { "criteria": { "progression": "squat-progression" }, "reps": "10-12" },
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["dumbbell", "kettlebell", "box", "bench"], "tags": ["unilateral", "functional"] }, "reps": "10 each", "notes": "each leg" },
+        { "criteria": { "muscles": ["glutes", "hamstrings"], "equipment": ["kettlebell"], "tags": ["hinge", "explosive"] }, "reps": "12-15" }
+      ],
+      "restBetween": 45,
+      "restAfter": 120
+    },
+    {
+      "id": "block-4-accessory",
+      "name": "Block 4: Accessory & Glutes",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["glutes"], "equipment": ["bodyweight", "resistance-band"], "tags": ["isolation"] }, "reps": "15-20" },
+        { "criteria": { "muscles": ["calves"], "equipment": ["bodyweight", "dumbbell"], "tags": ["isolation"] }, "reps": "15-20" },
+        { "criteria": { "muscles": ["glutes", "hamstrings"], "equipment": ["bodyweight"], "tags": ["floor", "isolation"] }, "reps": "12-15" },
+        { "criteria": { "tags": ["core"], "muscles": ["abs"], "equipment": ["bodyweight"] }, "duration": 45 }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all 4 exercises in a block before the 2-minute rest",
+    "Use challenging weight - last 2 reps should be tough",
+    "Total: 4 blocks x 4 exercises x 3 rounds = 48 working sets",
+    "Blocks can randomly pull in fixed classic sequences for variety",
+    "30% chance this entire workout becomes the classic circuit instead"
+  ]
+}

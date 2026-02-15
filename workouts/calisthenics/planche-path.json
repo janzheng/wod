@@ -1,0 +1,74 @@
+{
+  "id": "planche-path",
+  "name": "Planche Path",
+  "description": "Systematic planche progression work - from planche lean to full planche",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "strength", "planche", "skill-work", "progressions"],
+  "estimatedDuration": 45,
+  "equipment": ["bodyweight", "parallettes"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Wrist & Shoulder Prep",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "wrist"] }, "duration": 60, "notes": "Wrist prep is non-negotiable for planche" },
+        { "criteria": { "tags": ["warmup", "mobility", "shoulders"], "equipment": ["resistance-band", "bodyweight"] }, "reps": "10", "poolSize": 2 },
+        { "id": "support-hold", "duration": 30, "notes": "Parallettes or floor - protract shoulders" }
+      ],
+      "restBetween": 15,
+      "restAfter": 90
+    },
+    {
+      "id": "planche-lean",
+      "name": "Planche Lean Work",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "planche-lean", "duration": "30-60", "notes": "Lean forward until shoulders pass fingertips. Arms locked." }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "pppu",
+      "name": "Pseudo Planche Push-ups",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "pseudo-planche-push-up", "reps": "5-10", "notes": "Hands by hips, lean forward, push" }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "planche-holds",
+      "name": "Planche Progression Holds",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "criteria": { "progression": "planche-progression" }, "duration": "5-15", "notes": "Your current level. Quality holds only." }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "support-strength",
+      "name": "Straight Arm Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "l-sit", "duration": "10-30", "notes": "Builds the same straight-arm strength as planche" }
+      ],
+      "restBetween": 60
+    }
+  ],
+  "tips": [
+    "Planche progression: lean → pseudo push-ups → tuck → adv tuck → straddle → full",
+    "LEAN FORWARD - this is the #1 mistake. Shoulders must be past hands.",
+    "Straight arms always. If arms bend, you're too advanced for that progression.",
+    "Wrist conditioning is essential - don't skip warmup",
+    "Rest fully between sets (2+ min) - this is strength/skill work",
+    "Parallettes make it easier on wrists and allow deeper lean"
+  ]
+}

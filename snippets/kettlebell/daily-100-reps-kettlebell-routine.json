@@ -1,0 +1,42 @@
+{
+  "id": "daily-100-reps-kettlebell-routine",
+  "name": "Daily 100 Rep Kettlebell Routine",
+  "type": "circuit",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/gymfiesta/status/2020867535785148583",
+    "creator": "@gymfiesta",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["core", "obliques", "shoulders", "back", "glutes", "triceps", "compound", "dynamic", "circuit", "hiit", "kettlebell", "challenge"],
+  "equipment": ["kettlebell"],
+  "muscles": ["core", "obliques", "shoulders", "back", "glutes", "triceps"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 30,
+  "description": "100 reps of each exercise, daily. Six kettlebell exercises targeting core stability, obliques, shoulders, glutes, arms, and back. Challenge-style high-volume routine with before/after posture comparisons.",
+  "exercises": [
+    { "name": "Kettlebell Halo", "reps": 100, "description": "Circle the KB around your head, elbows high, core engaged.", "notes": "Core stability builder." },
+    { "name": "Kettlebell Side Swing", "reps": 100, "description": "Swing KB side to side across the body using core rotation.", "notes": "50 per side. Oblique killer." },
+    { "name": "Kettlebell High Pull", "reps": 100, "description": "Pull KB from ground to chest height, elbows high.", "notes": "Explosive hips, shrug at top." },
+    { "name": "Kettlebell Swing", "reps": 100, "description": "Standard two-handed swing to chest height.", "notes": "Glute driver." },
+    { "name": "Kettlebell Triceps Extension", "reps": 100, "description": "Hold KB overhead, lower behind head, extend.", "notes": "Elbows close to head." },
+    { "name": "Kettlebell Row", "reps": 100, "description": "Bent-over row, 50 per side.", "notes": "Pull with elbow, squeeze back." }
+  ],
+  "circuit": {
+    "rounds": 1,
+    "repsPerExercise": 100,
+    "restBetweenExercises": 30,
+    "restBetweenRounds": 0,
+    "notes": "Do daily. Break 100 reps into sets as needed (e.g., 4x25, 5x20). Use a light kettlebell."
+  },
+  "raw": {
+    "transcript": "If you do 100 kettlebell halos every day, your core stability will get stronger and stronger. If you do 100 kettlebell side swings every day, You won't have any fat on your obliques. If you do a hundred kettlebell high pulls every day, You'll Get Beautiful Straight Shoulders. If You Do A Hundred Kettlebell Swings Every Day Your Glutes Will Become Fuller And Round. Or If You Do A Hundred Kettlebell Triceps Extensions Every Day Your Arm Definition Will Be More Prominent. If You Do A Hundred Kettlebell Rows Every Day Your Back Will Become More Upright.",
+    "caption": "Do 100 reps daily. Start changing your life today",
+    "textOverlays": ["100 Kettlebell Halos", "Core Stability", "100 Kettlebell Side Swings", "No Fat on Obliques", "100 Kettlebell High Pulls", "Straight Shoulders", "100 Kettlebell Swings", "Fuller Glutes", "100 Kettlebell Triceps Extensions", "Arm Definition", "100 Kettlebell Rows", "Upright Back", "Before", "After"],
+    "visualSummary": "Muscular man in gym demonstrates exercises with 3D muscle models highlighting targeted areas, before/after posture comparisons, and flame icons."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": ["Rest times assumed", "Unilateral exercises assumed 50/side"]
+  }
+}

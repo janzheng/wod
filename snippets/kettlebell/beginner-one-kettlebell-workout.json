@@ -1,0 +1,68 @@
+{
+  "id": "beginner-one-kettlebell-workout",
+  "name": "Beginner Kettlebell Full Body Workout",
+  "type": "circuit",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/Asgooch/status/2015520133985312910",
+    "creator": "@Asgooch",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["full-body", "compound", "gym", "home", "beginner", "kettlebell"],
+  "equipment": ["kettlebell"],
+  "muscles": ["full-body", "legs", "glutes", "back", "shoulders", "chest", "core"],
+  "difficulty": "beginner",
+  "estimatedDuration": 20,
+  "description": "A beginner-friendly full-body workout using one kettlebell to build strength and muscle at home. Four compound exercises, 4 rounds each. Great starting point for kettlebell training.",
+  "exercises": [
+    {
+      "name": "Kettlebell Clean and Squat",
+      "reps": 8,
+      "duration": null,
+      "description": "Clean the kettlebell with both hands from the ground to the rack position at the chest, then perform a squat by lowering until thighs are parallel to the ground and stand back up.",
+      "notes": "Explosive clean, controlled squat; breathe out on the way up."
+    },
+    {
+      "name": "Suitcase Deadlift",
+      "reps": 10,
+      "duration": null,
+      "description": "Hold the kettlebell in one hand at your side like a suitcase, hinge at the hips to lower the weight toward the ground while keeping your back straight, then stand up by driving through the heels.",
+      "notes": "10 reps per side; keep core tight to avoid leaning."
+    },
+    {
+      "name": "Alternating Bent Over Row",
+      "reps": 10,
+      "duration": null,
+      "description": "Hinge at the hips with a flat back, row the kettlebell to your side alternating sides, pulling the elbow back while keeping the body stable.",
+      "notes": "10 reps per side; squeeze shoulder blades at the top."
+    },
+    {
+      "name": "Feet Elevated Pushup",
+      "reps": 12,
+      "duration": null,
+      "description": "Place feet on the kettlebell for elevation, perform pushups by lowering the chest to the ground and pressing back up.",
+      "notes": "Keep body in a straight line; modify on knees if needed."
+    }
+  ],
+  "circuit": {
+    "rounds": 4,
+    "repsPerExercise": 10,
+    "restBetweenExercises": 15,
+    "restBetweenRounds": 60,
+    "notes": "Reps vary by exercise: 8 for clean/squat, 10/side for deadlift and row, 12 total for pushups. Circuit or straight sets both work."
+  },
+  "raw": {
+    "transcript": "",
+    "caption": "One of the best beginner kettlebell workouts out there.\n\nIf you only have one kettlebell and want to start building strength and muscle from home this is a solid place to start.\n\nLink in bio for the Beginner Program.\n\n#kettlebell #workout",
+    "textOverlays": ["Beginner Kettlebell Workout", "Two Hand 4x Clean/Squat", "Suitcase 4x10 Deadlift", "Alt Bent 4x Over Row", "Feet Elevated 4x12 Pushup"],
+    "visualSummary": "Muscular trainer demonstrates each exercise outdoors on a rubber mat with a black kettlebell, showing proper form for cleans, deadlifts, rows, and elevated pushups."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": [
+      "Row reps not explicitly shown; assumed 10/side to match deadlift",
+      "No audio; relied on text overlays and visuals",
+      "Could be straight sets or circuit — interpreted as circuit"
+    ]
+  }
+}

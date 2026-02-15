@@ -1,0 +1,84 @@
+{
+  "id": "pull-push-classic",
+  "name": "Pull Push Classic",
+  "description": "A balanced upper body workout focusing on pulling and pushing movements with posterior chain activation",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "bodyweight", "fixed", "classic", "pull", "push", "upper-body"],
+  "estimatedDuration": 50,
+  "equipment": ["bodyweight", "rings", "pull-up-bar", "resistance-band", "dumbbell"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["shoulders", "wrists"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-posterior-chain",
+      "name": "Block 1: Posterior Chain Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "good-morning", "reps": 15, "notes": "good mornings - warm up hamstrings and glutes" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-pulling-strength",
+      "name": "Block 2: Pulling Strength",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "pull-up-shrug", "reps": "max", "notes": "shoulder pull up - pull-ups with scapular shrugs" },
+        { "id": "upright-row", "reps": 12, "notes": "upright row - shoulders and traps" },
+        { "id": "horizontal-row", "reps": "max", "notes": "horizontal row - back and biceps" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-rings-false-grip",
+      "name": "Block 3: Rings False Grip Work",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "ring-false-grip-row", "reps": "max", "notes": "rings - false grip to standing (ring false grip row)" }
+      ],
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "block-4-pushing-strength",
+      "name": "Block 4: Pushing Strength",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "dip", "reps": "max", "notes": "dips - chest, triceps, and shoulders" },
+        { "id": "vertical-band-push", "reps": 15, "notes": "vertical band push - overhead shoulder press" }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This workout balances pulling and pushing movements",
+    "Good mornings activate the posterior chain before upper body work",
+    "Focus on scapular control in pull-up shrugs - activate lats and upper back",
+    "False grip on rings is uncomfortable but essential for muscle-up progression",
+    "Scale exercises as needed - use assistance bands for pull-ups and dips if needed",
+    "This is a fixed sequence - no randomization"
+  ]
+}

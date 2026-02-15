@@ -1,0 +1,88 @@
+{
+  "id": "machine-circuit",
+  "name": "Machine Introduction Circuit",
+  "description": "Full body machine workout - perfect for gym beginners. Each machine isolates specific muscles with guided movement paths.",
+  "routineId": "gym",
+  "tags": ["gym", "machines", "circuit", "full-body", "beginner-friendly"],
+  "creator": "Gym Basics",
+  "estimatedDuration": 40,
+  "equipment": ["machine", "cable"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Cardio Warmup",
+      "type": "activity",
+      "activity": {
+        "name": "Treadmill or Bike",
+        "duration": 5,
+        "intensity": "light",
+        "notes": "Get blood flowing before hitting the machines"
+      },
+      "restAfter": 60
+    },
+    {
+      "id": "chest-shoulders",
+      "name": "Chest & Shoulders",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["machine"] }, "reps": "12-15", "notes": "adjust seat first" },
+        { "criteria": { "muscles": ["chest"], "equipment": ["machine", "cable"] }, "reps": "12-15", "notes": "squeeze at center" },
+        { "criteria": { "muscles": ["shoulders"], "equipment": ["machine"] }, "reps": "12-15" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "back-arms",
+      "name": "Back & Arms",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["lats", "back"], "equipment": ["cable", "machine"] }, "reps": "12-15", "notes": "pull to upper chest" },
+        { "criteria": { "muscles": ["back"], "equipment": ["cable", "machine"], "tags": ["row"] }, "reps": "12-15", "notes": "squeeze shoulder blades" },
+        { "criteria": { "muscles": ["biceps"], "equipment": ["cable", "machine"] }, "reps": "12-15" },
+        { "criteria": { "muscles": ["triceps"], "equipment": ["cable", "machine"] }, "reps": "12-15" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "legs",
+      "name": "Legs",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["quads", "glutes"], "equipment": ["machine"] }, "reps": "12-15", "notes": "don't lock knees" },
+        { "criteria": { "muscles": ["quads"], "equipment": ["machine"] }, "reps": "12-15", "notes": "slow negative" },
+        { "criteria": { "muscles": ["hamstrings"], "equipment": ["machine"] }, "reps": "12-15" },
+        { "criteria": { "muscles": ["calves"], "equipment": ["machine"] }, "reps": "15-20" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "glutes-hips",
+      "name": "Glutes & Hips",
+      "type": "exercises",
+      "rounds": 2,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "muscles": ["glutes", "hips"], "equipment": ["machine"] }, "reps": "15-20", "notes": "outer glutes" },
+        { "criteria": { "muscles": ["hips", "adductors"], "equipment": ["machine"] }, "reps": "15-20", "notes": "inner thighs" }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Adjust each machine to fit YOUR body before starting",
+    "Start light - focus on feeling the muscle work",
+    "Control the weight both ways - don't let it slam",
+    "Ask gym staff if unsure about any machine setup",
+    "Machines are forgiving - great for learning movement patterns"
+  ]
+}

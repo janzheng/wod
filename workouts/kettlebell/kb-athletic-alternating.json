@@ -1,0 +1,47 @@
+{
+  "id": "kb-athletic-alternating",
+  "name": "Athletic Alternating KB Circuit (@Asgooch)",
+  "description": "Build an athletic physique with one kettlebell. Everything alternates — cleans, squats, presses — adding core stability on top of the strength work. Finish with offset pushups on the bell.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "athletic", "intermediate", "home"],
+  "estimatedDuration": 20,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/asgooch/status/2013313157498880127",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen up" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Easy depth" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "athletic-circuit",
+      "name": "Athletic Alternating Circuit",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 12, "notes": "Two-handed. Set the pace." },
+        { "id": "kettlebell-swing-clean", "reps": "6 each", "notes": "Alternating cleans — switch hands each rep. 12 total." },
+        { "id": "kettlebell-goblet-squat", "reps": "6 each", "notes": "Alternating goblet squat — hold with one hand at chest, switch each rep. 12 total." },
+        { "id": "kettlebell-overhead-press", "reps": "6 each", "notes": "Alternating press from rack. 12 total." },
+        { "id": "kettlebell-close-grip-pushup", "reps": 12, "notes": "Offset pushups — one hand on the KB handle, one on the ground. Alternate sides." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "One kettlebell, no gym needed",
+    "The alternating pattern challenges core stability more than bilateral work",
+    "All exercises x12 (6 per side for unilateral)",
+    "Credit: @Asgooch"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "upper-body-classic-circuit",
+  "name": "Upper Body Classic Circuit",
+  "description": "A favorite upper body sequence from years ago - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "upper-body", "fixed", "classic", "push", "pull"],
+  "estimatedDuration": 45,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "box", "bench"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["shoulders", "chest"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-isolation",
+      "name": "Block 1: Isolation Circuit",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "bicep-curl", "reps": "10-1", "notes": "alternating, descending reps" },
+        { "id": "front-raise", "reps": "10-1", "notes": "alternating, descending reps" },
+        { "id": "overhead-tricep-extension", "reps": "10-1", "notes": "french press, descending reps" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
+      "id": "block-2-compound",
+      "name": "Block 2: Compound Circuit",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "barbell-shoulder-press", "reps": 10, "notes": "kettlebell alternating press" },
+        { "id": "gorilla-row", "reps": 16 },
+        { "id": "decline-push-up", "reps": "max", "notes": "box push up" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "block-3-barbell-finisher",
+      "name": "Block 3: Barbell Finisher",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": false,
+      "exercises": [
+        { "id": "barbell-shoulder-press", "reps": 8, "notes": "1 1/4 press (partial reps)" },
+        { "id": "bicep-curl", "reps": "21s", "notes": "barbell 21s: 7 bottom half, 7 top half, 7 full" }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "10-1 means start at 10 reps, decrease by 1 each set (10, 9, 8... down to 1)",
+    "This is a fixed sequence - no randomization",
+    "Use challenging weight - focus on form and control"
+  ]
+}

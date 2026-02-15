@@ -1,0 +1,78 @@
+.theme-scope {
+  /* Pagination */
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Or center depending on pref, usually start or based on container */
+  }
+
+  .pagination-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pagination-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.25rem;
+    height: 2.25rem;
+    padding: 0 0.75rem;
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--color-text-primary);
+    background-color: transparent;
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--color-bg-secondary);
+      color: var(--color-text-primary);
+    }
+
+    &.active {
+      background-color: var(--color-white);
+      color: var(--color-text-primary);
+      border: 1px solid var(--color-border);
+      font-weight: var(--font-semibold);
+      /* Box shadow similar to buttons if needed, or flat */
+      box-shadow: var(--shadow-sm);
+    }
+
+    &.icon-only {
+      padding: 0;
+      width: 2.25rem;
+    }
+  }
+
+  .pagination-previous,
+  .pagination-next {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: auto;
+
+    svg {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+
+  .pagination-ellipsis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    color: var(--color-text-muted);
+  }
+}

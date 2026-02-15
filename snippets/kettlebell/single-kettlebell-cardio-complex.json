@@ -1,0 +1,66 @@
+{
+  "id": "single-kettlebell-cardio-complex",
+  "name": "Single Kettlebell Cardio Complex",
+  "type": "circuit",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/Asgooch/status/2022366570052293012",
+    "creator": "@Asgooch",
+    "capturedAt": "2026-02-13"
+  },
+  "tags": ["full-body", "core", "upper-body", "lower-body", "back", "glutes", "compound", "pull", "squat", "hinge", "dynamic", "circuit", "cardio", "hiit", "kettlebell"],
+  "equipment": ["kettlebell"],
+  "muscles": ["full-body", "core", "back", "shoulders", "glutes", "quads"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 20,
+  "description": "A kettlebell complex designed to improve cardio endurance using one lighter kettlebell. Perform the sequence on one side, then switch sides, for 5 rounds with minimal rest between exercises. @Asgooch used a 24kg for all 5 rounds.",
+  "exercises": [
+    {
+      "name": "Single Arm Row",
+      "reps": 6,
+      "duration": null,
+      "description": "Hinge at hips with kettlebell in one hand, brace core, row the kettlebell to waist height while keeping hips back.",
+      "notes": "Extend fully each rep, brace core, hips back."
+    },
+    {
+      "name": "Kettlebell Swing Clean",
+      "reps": 6,
+      "duration": null,
+      "description": "From ground or hang, swing the kettlebell using hips and clean it to front rack position.",
+      "notes": "Drive with hips, thumb on collarbone in rack, keep core tight."
+    },
+    {
+      "name": "Front Rack Squat",
+      "reps": 6,
+      "duration": null,
+      "description": "With kettlebell in front rack, squat down through quads, keeping chest up.",
+      "notes": "Drop low, extend fully each rep, chest up tall."
+    },
+    {
+      "name": "Kettlebell Swing Snatch",
+      "reps": 6,
+      "duration": null,
+      "description": "Swing the kettlebell explosively with hips and snatch overhead, locking out the arm.",
+      "notes": "Explosive hips, punch to sky, full lockout, avoid banging forearm."
+    }
+  ],
+  "circuit": {
+    "rounds": 5,
+    "repsPerExercise": 6,
+    "restBetweenExercises": 0,
+    "restBetweenRounds": 60,
+    "notes": "Perform exercises in sequence on one side, then immediately switch to the other side. No rest between exercises or sides. Use a lighter kettlebell; example used 24kg."
+  },
+  "raw": {
+    "transcript": "If you're looking for a better way to build your cardio, then grab A single kettlebell and hit this complex with me. It's going start off with six single arm rows You are gonna keep that core brace those hips back And row the belt all of their waist Be sure extend them fully each And every rep After that Your gunna do swing clean Swing it into front rack Each and ever Rep Your guna use Those hip To drive That Kettle Belt Up in Front Rack Remember Keep Thumb on Collarbone Nice Keep that core tight Keep the chest up tall And keep That Kettlebell in front rack With Thumb on Collarbone You are gonna drop through those quads Extend fully each and every rep After that Take it into six snatches Yep I know its starting to get hard Your cardio is working for you Just like your supposed To be doing right now So use those hips Be explosive with Those Snatch Bring It all the way to front rack Remember six more on your other side You got 6 rows All over again Remember you can't just do it On one side Pull that belt After those six reps Clean up into Front Rack Use those hips All you have To do is touch and go If you are breathing heavy Like I was Remember six reps Bring it all the way into front rack On that last rep And you got 6 more squats Remember drop low as your can Range of motion is key Be sure to extend through those quads Standing at top with core braced You are still breathing Almost done After this Swing in a snatch for Six more reps Yes Six more reps Remember be explosive in those hips Those hip should doing most of the work Then punch up to sky Extend that arm fully Lock out all way Remember try not let That belt bang your forearm After six rep take it ground Take a minute to breathe And you got four more rounds",
+    "caption": "Possibly the best way to improve cardio. One lighter kettlebell is all you'll need for this one but it's still tough! I used a 24kg for all 5 rounds.",
+    "textOverlays": ["Single Kettlebell Complex", "Single Arm Row x6", "Swing Cleans x6", "Front Rack Squats x6", "Swing Snatches x6"],
+    "visualSummary": "A muscular man in colorful shorts performs a series of kettlebell exercises outdoors on a black mat. He demonstrates single arm rows, swing cleans to front rack, front rack squats, and swing snatches, first on one side then the other, with text overlays indicating exercise names and reps."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": [
+      "Snatches described as bringing to front rack in transcript, but visuals show overhead — interpreted as overhead snatch based on standard terminology"
+    ]
+  }
+}

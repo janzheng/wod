@@ -1,0 +1,128 @@
+{
+  "id": "wod-12-30-23",
+  "name": "WOD 12/30/23",
+  "description": "Full body classic workout from 12/30/23 - 45m lower body + 30m upper body, each block x3 rounds",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "full-body", "fixed", "classic"],
+  "estimatedDuration": 75,
+  "equipment": ["barbell", "dumbbell", "kettlebell", "box", "bench"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "lower-1-lunge-activation",
+      "name": "Lower 1: Lunge Activation",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": 16, "notes": "walking lunges" },
+        { "id": "step-up", "reps": 8, "notes": "slow box step" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "lower-2-lunge-swing",
+      "name": "Lower 2: Lunge & Swing",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": 8, "notes": "feet elevated lunge with high knee" },
+        { "id": "american-kettlebell-swing", "reps": 10 }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "lower-3-deadlift-hipthrust",
+      "name": "Lower 3: Deadlift & Hip Thrust",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "deadlift", "reps": 8, "notes": "barbell deadlifts" },
+        { "id": "smith-machine-hip-thrust", "reps": "max", "notes": "single leg hip thrust" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "lower-4-squat-finisher",
+      "name": "Lower 4: Squat Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "squat", "reps": 10, "notes": "YGIG 1 1/4 back squat (you go I go - alternating, partial reps)" }
+      ],
+      "restBetween": 0,
+      "restAfter": 120
+    },
+    {
+      "id": "upper-1-superset",
+      "name": "Upper 1: Curl & Press Superset",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "bicep-curl", "reps": "1x8", "notes": "curl 1x press 2x x8 (do 1 curl then 2 press, repeat 8 sets per round)" },
+        { "id": "dumbbell-shoulder-press", "reps": "2x8", "notes": "superset with curl (2 press each set, 8 sets per round)" },
+        { "id": "lateral-raise", "reps": 8, "notes": "dumbbell T raise x8 (after curl+press superset)" }
+      ],
+      "restBetween": 15,
+      "restAfter": 90
+    },
+    {
+      "id": "upper-2-compound",
+      "name": "Upper 2: Compound Upper",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "gorilla-row", "reps": 12 },
+        { "id": "overhead-press", "reps": 10, "notes": "kettlebell overhead press" },
+        { "id": "bench-press", "reps": 8, "notes": "barbell floor press (lying on floor)" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "upper-3-finisher",
+      "name": "Upper 3: Shoulder & Arm Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "barbell-shoulder-press", "reps": 8, "notes": "1 1/4 shoulder press 8 (partial reps)" },
+        { "id": "overhead-tricep-extension", "reps": 10, "notes": "dumbbell french press" },
+        { "id": "front-raise", "reps": 12, "notes": "plate front raise" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Each block: 3 rounds",
+    "Lower body: 4 blocks x 3 rounds = 12 working sets",
+    "Upper body: 3 blocks x 3 rounds = 9 working sets",
+    "Upper 1: Do 8 sets of curl 1 + press 2 superset, then T raise, repeat 3 rounds",
+    "YGIG = You Go I Go (alternating format)",
+    "1 1/4 means do a quarter rep at bottom, then full rep",
+    "This is a fixed sequence - no randomization"
+  ]
+}

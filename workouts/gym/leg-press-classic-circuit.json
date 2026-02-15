@@ -1,0 +1,48 @@
+{
+  "id": "leg-press-classic-circuit",
+  "name": "Leg Press Classic Circuit",
+  "description": "Leg-focused sequence with machine and bodyweight work - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "legs", "fixed", "classic", "lower-body"],
+  "estimatedDuration": 45,
+  "equipment": ["leg-press-machine", "stability-ball", "smith-machine", "bodyweight"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-legs-machine",
+      "name": "Block 1: Legs Machine & Bodyweight",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "leg-press", "reps": "max" },
+        { "id": "raised-ball-lunge", "reps": "max", "notes": "raised ball lunge, each leg" },
+        { "id": "deadlift-smith-machine", "reps": "max", "notes": "deadlift smith machine" },
+        { "id": "curtsy-lunge", "reps": "max", "notes": "curtsy lunge, each leg" },
+        { "id": "push-up", "reps": "max", "notes": "lie down one leg down push (single leg push-up variation)" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in a block before the rest period",
+    "Each block: 3 rounds",
+    "One leg down push: perform push-up with one leg elevated or extended",
+    "This is a fixed sequence - no randomization",
+    "Focus on form and control"
+  ]
+}

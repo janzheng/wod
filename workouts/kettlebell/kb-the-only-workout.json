@@ -1,0 +1,57 @@
+{
+  "id": "kb-the-only-workout",
+  "name": "The Only KB Workout You Need (@Asgooch)",
+  "description": "If you're just looking to get in great shape, this is it. Single kettlebell, ~35 min, repeatable multiple times a week. Swings, clean-to-squats, chest press, and Turkish get-ups. Easy to progress — just add weight or reps.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "strength", "intermediate", "repeatable"],
+  "estimatedDuration": 35,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/Asgooch/status/2021681074653311203",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light, loosen up" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Easy depth check" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "main-circuit",
+      "name": "Main Circuit",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 20, "notes": "Two-handed. Explosive hips, control the descent." },
+        { "id": "kettlebell-clean-and-squat", "reps": 12, "notes": "Clean to rack, squat, stand. Repeat." },
+        { "id": "kettlebell-chest-press", "reps": 12, "notes": "Lie down, press from chest. Elbows at 45 degrees." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "skill-work",
+      "name": "Skill Work: Turkish Get-Ups",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-turkish-getup", "reps": "3 each", "notes": "Slow and controlled. This is practice, not a race." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "One kettlebell, 30-40 minutes — that's it",
+    "Hit this multiple times per week for general fitness",
+    "Progress by adding weight or reps each week",
+    "Turkish get-ups are separate skill work — take your time with them",
+    "Credit: @Asgooch — full program at kettlebellworkout.com"
+  ]
+}

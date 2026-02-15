@@ -1,0 +1,36 @@
+{
+  "id": "kb-core-library",
+  "name": "KB Core Library (@powerbrutehq)",
+  "description": "Pick-and-choose kettlebell core exercises from @powerbrutehq. Russian twists, windmills, halos, side bends, and swings. Use as a core finisher or build your own core circuit from these.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "core", "abs", "obliques", "reference", "finisher"],
+  "estimatedDuration": 15,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@powerbrutehq",
+  "sourceUrl": "https://x.com/powerbrutehq/status/2021223932536226019",
+  "sets": [
+    {
+      "id": "core-circuit",
+      "name": "KB Core Circuit",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "10 each direction", "notes": "Core stability + shoulder warmup." },
+        { "id": "kettlebell-swing", "reps": 15, "notes": "Brace core throughout. Hip power." },
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "Side bend variation — or sub with KB side bends if you prefer isolation." },
+        { "id": "kettlebell-turkish-getup", "reps": "2 each", "notes": "Windmill substitute — or do windmills if you know the movement. Slow and controlled." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "This is a reference library — mix and match exercises as core finishers",
+    "Russian twists: sit, lean back, rotate KB side to side",
+    "Windmills: KB overhead, hinge sideways — great for obliques and mobility",
+    "Side bends: KB in one hand, lateral flexion only",
+    "Add any of these to the end of your main kettlebell workout",
+    "Credit: @powerbrutehq"
+  ]
+}

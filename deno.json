@@ -1,0 +1,76 @@
+{
+  "name": "@prague/routine-stack",
+  "version": "1.0.0",
+  "exports": "./main.ts",
+  "tasks": {
+    "dev": "PORT=8010 deno run --allow-read --allow-env --allow-write --allow-net --watch main.ts",
+    "serve": "PORT=8010 deno run --allow-read --allow-env --allow-write --allow-net --reload=https://esm.town main.ts",
+    "build:styles": "cd styles && deno run --allow-read --allow-write --allow-env --allow-import --allow-sys build.ts",
+    "build:exercises": "deno run -A scripts/build-exercises.ts",
+    "build:workouts": "deno run -A scripts/build-workouts.ts",
+    "build": "deno task build:styles && deno task build:exercises && deno task build:workouts",
+    "kill:8010": "sh -c 'PID=$(lsof -ti:8010 2>/dev/null); [ -n \"$PID\" ] && kill -9 $PID || true'",
+    "wod": "deno run -A src/cli/mod.ts",
+    "wod:list": "deno run -A src/cli/mod.ts list routines",
+    "wod:workouts": "deno run -A src/cli/mod.ts list workouts",
+    "wod:saved": "deno run -A src/cli/mod.ts load",
+    "wod:load": "deno run -A src/cli/mod.ts load",
+    "wod:gen": "deno run -A src/cli/mod.ts generate",
+    "wod:barre": "deno run -A src/cli/mod.ts generate --routine=barre",
+    "wod:morning": "deno run -A src/cli/mod.ts generate --routine=morning",
+    "wod:yoga": "deno run -A src/cli/mod.ts generate --routine=yoga",
+    "wod:maternity": "deno run -A src/cli/mod.ts generate --routine=maternity",
+    "wod:gym": "deno run -A src/cli/mod.ts generate --routine=gym",
+    "wod:gym:4x4": "deno run -A src/cli/mod.ts generate --workout=4x4x3-block",
+    "wod:gym:machines": "deno run -A src/cli/mod.ts generate --workout=machine-circuit",
+    "wod:gym:apartment": "deno run -A src/cli/mod.ts generate --workout=apartment-gym",
+    "wod:gym:squat": "deno run -A src/cli/mod.ts generate --workout=squat-rack-session",
+    "wod:gym:rrr": "deno run -A src/cli/mod.ts generate --workout=rrr-progressions",
+    "wod:cardio": "deno run -A src/cli/mod.ts generate --routine=cardio",
+    "wod:cardio:running": "deno run -A src/cli/mod.ts generate --workout=fartlek-30",
+    "wod:cardio:rowing": "deno run -A src/cli/mod.ts generate --workout=erg-intervals",
+    "wod:aj": "deno run -A src/cli/mod.ts generate --routine=action-jacqueline",
+    "wod:random": "deno run -A src/cli/mod.ts generate --routine=gym --random",
+    "deploy": "deno deploy --app 'wod' --prod"
+  },
+  "imports": {
+    "hono": "https://deno.land/x/hono@v3.11.7/mod.ts",
+    "zod": "npm:zod@^3",
+    "@std/fs": "jsr:@std/fs@^1",
+    "npm:sass": "npm:sass@^1.69.0",
+    "npm:postcss": "npm:postcss@^8.4.31",
+    "npm:tailwindcss": "npm:tailwindcss@^3.3.5",
+    "npm:autoprefixer": "npm:autoprefixer@^10.4.16"
+  },
+  "$schema": "https://raw.githubusercontent.com/denoland/deno/98f62cee78e85bfc47c62ed703777c6bc8794f1c/cli/schemas/config-file.v1.json",
+  "lock": false,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "strict": true,
+    "types": ["https://www.val.town/types/valtown.d.ts"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns",
+      "deno.unstable"
+    ]
+  },
+  "lint": {
+    "include": ["deno:/https/esm.town/**/*"],
+    "rules": {
+      "exclude": ["no-explicit-any"]
+    }
+  },
+  "node_modules_dir": false,
+  "experimental": {
+    "unstable-node-globals": true,
+    "unstable-temporal": true,
+    "unstable-worker-options": true,
+    "unstable-sloppy-imports": true
+  },
+  "deploy": {
+    "org": "yawnxyz",
+    "app": "wod"
+  }
+}

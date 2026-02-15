@@ -1,0 +1,65 @@
+{
+  "id": "kb-overhead-mobility-complex",
+  "name": "KB Overhead Mobility Complex (@Asgooch)",
+  "description": "Overhead and mobility focused single-bell complex from @Asgooch. Row → Snatch → OH Lunge → OH Squat → Push Press. 5 rounds, 5 reps each side. He used 24kg. Tests shoulder stability, mobility, and total-body strength.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "complex", "mobility", "overhead", "shoulders", "intermediate"],
+  "estimatedDuration": 15,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/Asgooch/status/2021254033797734405",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "Open up the shoulders" },
+        { "id": "kettlebell-overhead-press", "reps": "3 each", "notes": "Light, test the overhead position" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Open hips" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "mobility-complex-left",
+      "name": "Complex: Left Side",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 5, "notes": "Left hand. Controlled pull, full extension." },
+        { "id": "kettlebell-swing-snatch", "reps": 5, "notes": "Left hand. Explosive — bell goes straight overhead." },
+        { "id": "kettlebell-overhead-lunge", "reps": 5, "notes": "Left hand overhead. Keep arm locked out, torso tall." },
+        { "id": "kettlebell-overhead-squat", "reps": 5, "notes": "Left hand overhead. Full depth, bell stays stacked over shoulder." },
+        { "id": "kettlebell-push-press", "reps": 5, "notes": "Left hand. Dip and drive — legs do the work." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "mobility-complex-right",
+      "name": "Complex: Right Side",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 5, "notes": "Right hand. Same flow." },
+        { "id": "kettlebell-swing-snatch", "reps": 5, "notes": "Right hand. Punch through at the top." },
+        { "id": "kettlebell-overhead-lunge", "reps": 5, "notes": "Right hand overhead. Stay stable." },
+        { "id": "kettlebell-overhead-squat", "reps": 5, "notes": "Right hand overhead. Core braced, no arching." },
+        { "id": "kettlebell-push-press", "reps": 5, "notes": "Right hand. Finish strong." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "One kettlebell — @Asgooch used 24kg",
+    "All reps on one side before switching — no rest between exercises",
+    "The overhead squat is the hardest part — if mobility is limited, reduce depth",
+    "Snatch sets up the overhead position for lunges and squats — smooth transition",
+    "60 seconds rest between rounds (after both sides are done)",
+    "Great test of shoulder mobility and overhead stability under fatigue"
+  ]
+}

@@ -1,0 +1,73 @@
+.theme-scope {
+  /* ===================================
+     Spacing Tokens (Semantic)
+     =================================== */
+
+  /* Button Spacing */
+  --space-btn-x: 0.875rem;      /* 14px - horizontal padding */
+  --space-btn-y: 0.5rem;        /* 8px - vertical padding */
+  --space-btn-sm-x: 0.5rem;     /* 8px - small button horizontal */
+  --space-btn-sm-y: 0.25rem;    /* 4px - small button vertical */
+  --space-btn-icon: 0.75rem;    /* 12px - icon-only button padding */
+
+  /* Input/Form Spacing */
+  --space-input-x: 0.75rem;     /* 12px - horizontal padding */
+  --space-input-y: 0.5rem;      /* 8px - vertical padding */
+  
+  /* Card Spacing */
+  // --space-card-padding: 1.25rem;  /* 20px - card body padding */
+  --space-card-padding: 0.75rem;  /* 20px - card body padding */
+  
+  /* Tab Spacing */
+  --space-tab-x: 1rem;          /* 16px - tab horizontal spacing */
+  --space-tab-y: 0.5rem;        /* 8px - tab vertical spacing */
+  --space-tab-modern-x: 1rem;   /* 16px - modern tab horizontal */
+  --space-tab-modern-y: 0.5rem; /* 8px - modern tab vertical */
+  --space-tab-btn-x: 1.25rem;   /* 20px - button-style tab horizontal */
+  --space-tab-btn-y: 0.625rem;  /* 10px - button-style tab vertical */
+  
+  /* Badge Spacing */
+  --space-badge-x: 0.625rem;    /* 10px - badge horizontal */
+  --space-badge-y: 0.25rem;     /* 4px - badge vertical */
+  --space-badge-sm-x: 0.5rem;   /* 8px - small badge horizontal */
+  --space-badge-sm-y: 0.125rem; /* 2px - small badge vertical */
+  
+  /* Dropdown Spacing */
+  --space-dropdown-item-x: 0.75rem;  /* 12px - dropdown item horizontal */
+  --space-dropdown-item-y: 0.5rem;   /* 8px - dropdown item vertical */
+  
+  /* Toast Spacing */
+  --space-toast-x: 1rem;        /* 16px - toast horizontal */
+  --space-toast-y: 1rem;        /* 16px - toast vertical */
+  
+  /* Copy Button Spacing */
+  --space-copy-btn-x: 0.625rem; /* 10px - copy button horizontal */
+  --space-copy-btn-y: 0.25rem;  /* 4px - copy button vertical */
+  
+  /* Accordion Spacing */
+  --space-accordion-x: 1rem;    /* 16px - accordion item horizontal */
+  --space-accordion-y: 1rem;    /* 16px - accordion item vertical */
+  
+  /* Table Spacing */
+  --space-table-cell-x: 0.75rem;  /* 12px - table cell horizontal */
+  --space-table-cell-y: 0.75rem;  /* 12px - table cell vertical */
+  
+  /* List Item Spacing */
+  --space-list-item-x: 1rem;    /* 16px - list item horizontal */
+  --space-list-item-y: 0.75rem; /* 12px - list item vertical */
+  
+  /* Pagination Spacing */
+  --space-pagination-x: 0.75rem;  /* 12px - pagination item horizontal */
+  --space-pagination-y: 0.5rem;   /* 8px - pagination item vertical */
+  
+  /* Toggle Group Spacing */
+  --space-toggle-x: 0.75rem;    /* 12px - toggle item horizontal */
+  --space-toggle-y: 0.5rem;     /* 8px - toggle item vertical */
+  
+  /* Gap Spacing (for flex/grid layouts) */
+  --space-gap-xs: 0.25rem;      /* 4px */
+  --space-gap-sm: 0.5rem;       /* 8px */
+  --space-gap-md: 1rem;         /* 16px */
+  --space-gap-lg: 1.5rem;       /* 24px */
+}
+

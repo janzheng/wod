@@ -1,0 +1,47 @@
+{
+  "id": "machine-circuit-classic",
+  "name": "Machine Circuit Classic",
+  "description": "Simple machine-based circuit - preserved exactly as it was",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "full-body", "fixed", "classic", "machine"],
+  "estimatedDuration": 30,
+  "equipment": ["leg-press-machine", "cable", "barbell", "bodyweight"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["shoulders", "chest"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio", "hiit"] }, "reps": 5 },
+        { "criteria": { "tags": ["warmup", "cardio"], "equipment": ["bodyweight", "jump-rope"] }, "duration": 30 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-circuit",
+      "name": "Block 1: Machine Circuit",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": false,
+      "exercises": [
+        { "id": "leg-press", "reps": 10 },
+        { "id": "lat-pulldown", "reps": 10, "notes": "vertical pull down" },
+        { "id": "seated-cable-row", "reps": 10, "notes": "sitting rows" },
+        { "id": "push-up", "reps": 20 },
+        { "id": "overhead-press", "reps": "max", "notes": "standing press" }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Complete all exercises in order before the rest period",
+    "Each block: 3 rounds",
+    "This is a fixed sequence - no randomization",
+    "Focus on controlled movements and proper form"
+  ]
+}

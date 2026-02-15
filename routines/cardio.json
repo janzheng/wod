@@ -1,0 +1,14 @@
+{
+  "id": "cardio",
+  "name": "Cardio",
+  "description": "Running, rowing, and conditioning workouts",
+  "icon": "❤️‍🔥",
+  "color": "#4CAF50",
+  "defaults": {
+    "duration": 30,
+    "difficulty": "intermediate",
+    "equipment": [],
+    "tags": ["cardio"]
+  },
+  "sortOrder": 5
+}

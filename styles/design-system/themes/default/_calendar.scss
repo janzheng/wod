@@ -1,0 +1,664 @@
+.theme-scope {
+/* Calendar Component */
+/* ================== */
+
+/* Calendar Widget Container */
+.calendar-widget {
+  --calendar-cell-size: 36px;
+  --calendar-gap: 2px;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Size Variants */
+.calendar-widget-xs {
+  --calendar-cell-size: 24px;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.calendar-widget-xs .calendar-nav-title {
+  font-size: 0.75rem;
+}
+
+.calendar-widget-xs .calendar-weekday {
+  font-size: 0.625rem;
+}
+
+.calendar-widget-sm {
+  --calendar-cell-size: 32px;
+  padding: 0.875rem;
+}
+
+.calendar-widget-sm .calendar-nav-title {
+  font-size: 0.8125rem;
+}
+
+/* Calendar Navigation */
+.calendar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  gap: 0.5rem;
+}
+
+.calendar-nav-btn {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.calendar-nav-btn:hover {
+  background-color: var(--color-bg-secondary);
+  border-color: var(--color-border);
+  color: var(--color-text-primary);
+}
+
+.calendar-nav-btn .iconify {
+  font-size: 1.125rem;
+}
+
+.calendar-nav-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  text-align: center;
+  flex: 1;
+}
+
+/* Dropdown Navigation */
+.calendar-dropdowns {
+  display: flex;
+  gap: 0.375rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.calendar-dropdown {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8125rem;
+  font-family: inherit;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='%2371717a' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 4px center;
+  padding-right: 20px;
+}
+
+.calendar-dropdown:hover {
+  border-color: var(--color-primary);
+}
+
+.calendar-dropdown:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-ring);
+}
+
+/* Calendar Grid */
+.calendar-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--calendar-gap);
+}
+
+.calendar-weekdays {
+  display: flex;
+  gap: var(--calendar-gap);
+}
+
+.calendar-weekday {
+  width: var(--calendar-cell-size);
+  height: calc(var(--calendar-cell-size) * 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.calendar-week {
+  display: flex;
+  gap: var(--calendar-gap);
+}
+
+/* Calendar Days */
+.calendar-day {
+  width: var(--calendar-cell-size);
+  height: var(--calendar-cell-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8125rem;
+  font-family: inherit;
+  background: transparent;
+  border: none;
+  border-radius: 0.375rem;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.1s ease;
+}
+
+.calendar-day:hover:not(:disabled) {
+  background-color: var(--color-bg-secondary);
+}
+
+.calendar-day:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-ring);
+  z-index: 1;
+}
+
+/* Day States */
+.calendar-day-outside {
+  color: var(--color-text-muted);
+  opacity: 0.5;
+}
+
+.calendar-day-today {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  font-weight: 600;
+}
+
+.calendar-day-selected {
+  background-color: var(--color-primary) !important;
+  color: var(--color-text-on-dark) !important;
+  font-weight: 600;
+}
+
+.calendar-day-selected:hover {
+  background-color: var(--color-primary-hover) !important;
+  color: var(--color-text-on-dark) !important;
+}
+
+/* Range Selection */
+.calendar-day-in-range {
+  background-color: var(--color-primary-light, rgba(59, 130, 246, 0.1));
+  border-radius: 0;
+}
+
+.calendar-day-range-start {
+  background-color: var(--color-primary) !important;
+  color: var(--color-text-on-dark) !important;
+  border-top-left-radius: 0.375rem !important;
+  border-bottom-left-radius: 0.375rem !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.calendar-day-range-end {
+  background-color: var(--color-primary) !important;
+  color: var(--color-text-on-dark) !important;
+  border-top-right-radius: 0.375rem !important;
+  border-bottom-right-radius: 0.375rem !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.calendar-day-range-start.calendar-day-range-end {
+  border-radius: 0.375rem !important;
+}
+
+.calendar-day-disabled {
+  color: var(--color-text-muted) !important;
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Date Picker Trigger */
+.date-picker-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.875rem;
+  font-size: 0.875rem;
+  font-family: inherit;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  min-width: 240px;
+  justify-content: flex-start;
+}
+
+.date-picker-trigger:hover {
+  border-color: var(--color-primary);
+  background-color: var(--color-bg-secondary);
+}
+
+.date-picker-trigger:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-ring);
+}
+
+.date-picker-trigger .date-picker-icon {
+  color: var(--color-text-muted);
+  font-size: 1.125rem;
+  flex-shrink: 0;
+}
+
+/* Calendar Footer */
+.calendar-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.calendar-today-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8125rem;
+  font-family: inherit;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.calendar-today-btn:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  border-color: var(--color-primary);
+}
+
+.calendar-today-btn .iconify {
+  font-size: 1rem;
+}
+
+/* Range Calendar Container (Dual Month) */
+.calendar-range-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.calendar-range-container .calendar-widget {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  background: transparent;
+}
+
+.calendar-view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.25rem;
+  background-color: var(--color-bg-muted);
+  border-radius: 0.5rem;
+}
+
+.calendar-view-btn {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.375rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.calendar-view-btn:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+
+.calendar-view-btn.active {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.calendar-range-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  // margin-top: 1rem;
+  padding-top: 1rem;
+  // border-top: 1px solid var(--color-border);
+}
+
+.calendar-range-label {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+/* Date and Time Picker */
+.datetime-picker-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+.datetime-picker-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.datetime-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  position: relative;
+}
+
+.datetime-picker-container .date-picker-trigger {
+  min-width: 180px;
+  height: 38px;
+  padding: 0.5rem 0.75rem;
+  justify-content: space-between;
+}
+
+.datetime-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+/* Time Picker Input */
+.time-picker-single-input {
+  width: 140px;
+  height: 38px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-family: inherit;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  color: var(--color-text-primary);
+  cursor: text;
+  transition: all 0.15s ease;
+  
+  /* Style the clock icon */
+  &::-webkit-calendar-picker-indicator {
+    filter: invert(0);
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  &::-webkit-calendar-picker-indicator:hover {
+    opacity: 1;
+  }
+}
+
+.time-picker-single-input:hover {
+  border-color: var(--color-primary);
+}
+
+.time-picker-single-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-ring);
+}
+
+.time-picker-single-input::placeholder {
+  color: var(--color-text-muted);
+}
+
+/* Dark mode for time/date inputs - inside theme-scope context */
+.dark & .time-picker-single-input,
+.dark & input[type="time"],
+.dark & input[type="date"],
+&.dark .time-picker-single-input,
+&.dark input[type="time"],
+&.dark input[type="date"] {
+  color-scheme: dark;
+  
+  &::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    opacity: 0.7;
+  }
+  
+  &::-webkit-calendar-picker-indicator:hover {
+    opacity: 1;
+  }
+}
+
+/* Legacy time picker styles (keeping for other use cases) */
+.time-picker-input {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  padding: 0.5rem 0.5rem;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  font-family: inherit;
+  height: 38px;
+}
+
+.time-picker-input:focus-within {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-ring);
+}
+
+.time-segment {
+  width: 1.25rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-size: 0.875rem;
+  font-family: inherit;
+  text-align: center;
+  color: var(--color-text-primary);
+}
+
+.time-segment:focus {
+  outline: none;
+  background-color: var(--color-primary-light);
+  border-radius: 0.25rem;
+}
+
+.time-separator {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  user-select: none;
+}
+
+.time-period-btn {
+  margin-left: 0.25rem;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.time-period-btn:hover {
+  background-color: var(--color-bg-muted);
+  color: var(--color-text-primary);
+}
+
+/* DateTime Result Display */
+.datetime-result {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 0.875rem;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+.datetime-result .iconify {
+  color: var(--color-primary);
+  font-size: 1.125rem;
+}
+
+/* Natural Language Picker */
+.nlp-picker-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.nlp-picker-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.nlp-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nlp-input {
+  width: 100%;
+  padding: 0.625rem 2.5rem 0.625rem 0.875rem;
+  font-size: 0.875rem;
+  font-family: inherit;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  color: var(--color-text-primary);
+  transition: all 0.15s ease;
+}
+
+.nlp-input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.nlp-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-ring);
+}
+
+.nlp-calendar-btn {
+  position: absolute;
+  right: 0.5rem;
+  padding: 0.375rem;
+  background: transparent;
+  border: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease;
+}
+
+.nlp-calendar-btn:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+
+.nlp-calendar-btn .iconify {
+  font-size: 1.125rem;
+  display: block;
+}
+
+/* NLP Result Display */
+.nlp-result {
+  padding: 0.75rem 1rem;
+  background-color: var(--color-success-light);
+  border: 1px solid var(--color-success);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+  line-height: 1.5;
+}
+
+.nlp-result strong {
+  color: var(--color-success-dark);
+  font-weight: 600;
+}
+
+/* NLP Error Display */
+.nlp-error {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--color-danger-light);
+  border: 1px solid var(--color-danger);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-danger-dark);
+}
+
+.nlp-error .iconify {
+  font-size: 1.125rem;
+  flex-shrink: 0;
+}
+
+/* NLP Examples */
+.nlp-examples {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.nlp-examples-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.nlp-example-btn {
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  font-family: inherit;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nlp-example-btn:hover {
+  background-color: var(--color-bg-muted);
+  color: var(--color-text-primary);
+  border-color: var(--color-primary);
+}
+}
+

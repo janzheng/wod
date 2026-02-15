@@ -1,0 +1,68 @@
+{
+  "id": "kb-gym-replacement",
+  "name": "KB Gym Replacement Full Body (@Asgooch)",
+  "description": "Ditch the gym membership — one or two kettlebells can replace it all. @Asgooch's 35-minute full-body session covering all movement patterns: squat, hinge, push, pull, lunge. Cardio, strength, mobility, and muscle building in one session.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "strength", "intermediate", "home", "gym-replacement"],
+  "estimatedDuration": 35,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/Asgooch/status/2020926315990483449",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen shoulders" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings to warm up the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "block-1-lower",
+      "name": "Block 1: Lower Body",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-goblet-squat", "reps": 12, "notes": "Chest up, full depth" },
+        { "id": "kettlebell-deadlift", "reps": 12, "notes": "Hinge, flat back, squeeze glutes" },
+        { "id": "kettlebell-lunge", "reps": "8 each", "notes": "Goblet or suitcase hold" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-upper",
+      "name": "Block 2: Upper Body",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-overhead-press", "reps": "8 each", "notes": "Strict press from rack" },
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "Squeeze at top" }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-conditioning",
+      "name": "Block 3: Conditioning",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 20, "notes": "Full power, go hard" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "All you need is one or two kettlebells to replace an entire gym",
+    "Covers all movement patterns: squat, hinge, push, pull, lunge",
+    "30-45 minutes for a better workout than most gym sessions",
+    "Credit: @Asgooch — 'ditch the gym membership and train with kettlebells'"
+  ]
+}

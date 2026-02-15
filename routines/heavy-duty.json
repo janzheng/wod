@@ -1,0 +1,14 @@
+{
+  "id": "heavy-duty",
+  "name": "Heavy Duty",
+  "description": "Mike Mentzer's high-intensity, low-volume training system. Focus on training to failure with perfect form and extended rest periods between workouts.",
+  "icon": "💪",
+  "color": "#DC2626",
+  "defaults": {
+    "duration": 30,
+    "difficulty": "advanced",
+    "equipment": ["barbell", "dumbbell", "machine", "cable"],
+    "tags": ["heavy-duty", "intensity", "hit", "strength"]
+  },
+  "sortOrder": 6
+}

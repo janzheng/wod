@@ -1,0 +1,65 @@
+{
+  "id": "rrr-progressions",
+  "name": "Reddit RRR Progressions",
+  "description": "Bodyweight strength training using Reddit Recommended Routine progressions",
+  "routineId": "gym",
+  "tags": ["calisthenics", "strength", "bodyweight", "progressions"],
+  "estimatedDuration": 45,
+  "equipment": ["bodyweight", "pull-up-bar"],
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility", "shoulders"], "equipment": ["resistance-band", "bodyweight"] }, "reps": "5-10", "poolSize": 3 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips", "quads", "glutes"] }, "reps": "5-10", "poolSize": 3 },
+        { "criteria": { "tags": ["warmup", "core", "wrist"], "equipment": ["bodyweight"] }, "duration": 30, "poolSize": 3 },
+        { "criteria": { "tags": ["warmup", "rrr"], "equipment": ["pull-up-bar", "bodyweight"] }, "reps": 10, "poolSize": 2 }
+      ],
+      "restBetween": 10
+    },
+    {
+      "id": "pair-1",
+      "name": "Pair 1: Pull-ups & Squats",
+      "type": "superset",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "pull-up-progression" }, "reps": "5-8" },
+        { "criteria": { "progression": "squat-progression" }, "reps": "5-8" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "pair-2",
+      "name": "Pair 2: Dips & Rows",
+      "type": "superset",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "dip-progression" }, "reps": "5-8" },
+        { "criteria": { "progression": "row-progression" }, "reps": "5-8" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "pair-3",
+      "name": "Pair 3: Push-ups & Hinges",
+      "type": "superset",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "progression": "push-up-progression" }, "reps": "5-8" },
+        { "criteria": { "progression": "hinge-progression" }, "reps": "5-8" }
+      ],
+      "restBetween": 90
+    }
+  ],
+  "tips": [
+    "Rest 90 seconds between exercises in each pair",
+    "Each pair: do exercise A, rest, do exercise B, rest, repeat 3x",
+    "Pick the progression level that lets you do 5-8 clean reps",
+    "When you can do 3x8, move to the next progression level"
+  ]
+}

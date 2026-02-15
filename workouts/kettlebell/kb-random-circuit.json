@@ -1,0 +1,86 @@
+{
+  "id": "kb-random-circuit",
+  "name": "Kettlebell Random Circuit",
+  "description": "Full-body kettlebell circuit with randomized exercises. Every shuffle gives you a fresh workout - hit all major movement patterns with just one bell.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "circuit", "full-body", "randomized", "strength"],
+  "estimatedDuration": 30,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "randomize": true,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light, loosen shoulders" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Light, feel the depth" },
+        { "id": "kettlebell-deadlift", "reps": 5, "notes": "Groove the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "power-block",
+      "name": "Power & Ballistics",
+      "type": "exercises",
+      "rounds": 4,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["hinge", "dynamic"] }, "reps": "12-15", "notes": "Explosive hip snap" },
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["compound", "full-body"] }, "reps": "5 each", "notes": "Power movement" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
+      "id": "upper-strength",
+      "name": "Upper Body Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["push"], "muscles": ["shoulders", "triceps"] }, "reps": "6-8 each", "notes": "Controlled press" },
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["pull"], "muscles": ["back", "lats", "biceps"] }, "reps": "8-10 each", "notes": "Squeeze at the top" },
+        { "criteria": { "equipment": ["kettlebell"], "muscles": ["chest"] }, "reps": "8-10", "notes": "Chest work" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "lower-strength",
+      "name": "Lower Body Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["squat"] }, "reps": "8-10", "notes": "Full depth" },
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["unilateral"], "muscles": ["glutes", "quads"] }, "reps": "8 each", "notes": "Each leg" },
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["hinge"], "muscles": ["hamstrings", "glutes"] }, "reps": "8-10 each", "notes": "Posterior chain" }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "finisher",
+      "name": "Metabolic Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["compound", "kettlebell"] }, "reps": 10, "notes": "Go hard" },
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["dynamic", "kettlebell"] }, "reps": 15, "notes": "Last push, don't break form" }
+      ],
+      "restBetween": 20,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Use a moderate bell you can press for 8+ reps",
+    "Shuffle for a completely new workout each time",
+    "Switch hands every set or as noted",
+    "Great for home gym or park workouts"
+  ]
+}

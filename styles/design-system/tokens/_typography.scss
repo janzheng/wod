@@ -1,0 +1,64 @@
+.theme-scope {
+  /* ===================================
+     Typography Tokens
+     =================================== */
+
+  /* Font Families */
+  --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: 'Menlo', ui-monospace, SFMono-Regular, 'SF Mono', Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  
+  /* Marketing/Display Font (for landing pages, hero sections) */
+  --font-display: var(--font-sans);
+  
+  /* Body Copy Font (for marketing content) */
+  --font-marketing: var(--font-sans);
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;        /* 12px */
+  --text-sm: 0.875rem;       /* 14px */
+  --text-base: 1rem;         /* 16px */
+  --text-lg: 1.125rem;       /* 18px */
+  --text-xl: 1.25rem;        /* 20px */
+  --text-2xl: 1.5rem;        /* 24px */
+  --text-3xl: 1.875rem;      /* 30px */
+  --text-4xl: 2.25rem;       /* 36px */
+
+  /* Font Weights */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Line Heights */
+  --leading-none: 1;
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  /* Letter Spacing */
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+
+  /* Heading Sizes (semantic) */
+  --text-h1: 2rem;           /* 32px */
+  --text-h2: 1.5rem;         /* 24px */
+  --text-h3: 1.25rem;        /* 20px */
+  --text-h4: 1.125rem;       /* 18px */
+  --text-h5: 1rem;           /* 16px */
+  --text-h6: 0.875rem;       /* 14px */
+
+  /* Component-Specific Typography */
+  --text-button: var(--text-sm);
+  --text-button-sm: var(--text-xs);
+  --text-badge: var(--text-xs);
+  --text-input: var(--text-sm);
+  --text-label: var(--text-sm);
+  --text-copy-btn: var(--text-xs);
+}
+
