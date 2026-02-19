@@ -3750,6 +3750,89 @@
     "category": "challenges"
   },
   {
+    "id": "kb-controlled-power-challenge",
+    "name": "KB Controlled Power Challenge",
+    "description": "230 total reps of kettlebell work — no running, no jumping, just controlled power. Start with 50 around-the-body passes, then 60 each of side swings, high pulls, and goblet squats. Based on @metabolicfactor's daily KB routine.",
+    "routineId": "challenges",
+    "tags": [
+      "challenge",
+      "kettlebell",
+      "full-body",
+      "core",
+      "strength",
+      "endurance"
+    ],
+    "difficulty": "hard",
+    "estimatedDuration": 20,
+    "equipment": [
+      "kettlebell"
+    ],
+    "source": "@metabolicfactor",
+    "sourceUrl": "https://x.com/metabolicfactor/status/2023668997959348230",
+    "sets": [
+      {
+        "id": "around-body-pass",
+        "type": "exercises",
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "kettlebell-around-body-pass"
+            },
+            "reps": 50,
+            "notes": "Smooth circles, alternate direction halfway"
+          }
+        ]
+      },
+      {
+        "id": "side-swings",
+        "type": "exercises",
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "kettlebell-side-swing"
+            },
+            "reps": 60,
+            "notes": "Drive from the hips, control the arc"
+          }
+        ]
+      },
+      {
+        "id": "high-pulls",
+        "type": "exercises",
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "kettlebell-high-pull"
+            },
+            "reps": 60,
+            "notes": "Explosive pull to shoulder height, keep bell close"
+          }
+        ]
+      },
+      {
+        "id": "goblet-squats",
+        "type": "exercises",
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "kettlebell-goblet-squat"
+            },
+            "reps": 60,
+            "notes": "Full depth, elbows inside knees"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "230 total reps — pace yourself, this is a grind",
+      "Break each exercise into sets of 10-15 if needed",
+      "Use a moderate weight — you need to survive all 4 exercises",
+      "Rest between exercises as needed, but try to keep moving",
+      "The passes are your warmup — use them to find your rhythm"
+    ],
+    "category": "challenges"
+  },
+  {
     "id": "melange-challenge",
     "name": "Melange Challenge",
     "description": "A comprehensive, high-volume challenge workout combining calisthenics, strength, mobility, and flexibility. This intense full-body melange includes inversions, high-rep exercises, banded work, holds, and stretches. A true test of endurance, strength, and mental fortitude.",
@@ -4509,13 +4592,14 @@
   {
     "id": "apartment-gym",
     "name": "Apartment Gym Session",
-    "description": "Full body workout for apartment gyms with limited equipment: floor, bench, and Smith machine.",
+    "description": "Full body workout for apartment gyms with limited equipment: floor, bench, Smith machine, and kettlebell.",
     "routineId": "gym",
     "tags": [
       "gym",
       "apartment",
       "smith-machine",
       "bench",
+      "kettlebell",
       "full-body"
     ],
     "estimatedDuration": 45,
@@ -4523,6 +4607,7 @@
       "smith-machine",
       "bench",
       "dumbbell",
+      "kettlebell",
       "bodyweight"
     ],
     "sets": [
@@ -4694,6 +4779,59 @@
         "restAfter": 90
       },
       {
+        "id": "kettlebell-block",
+        "name": "Kettlebell Work",
+        "type": "exercises",
+        "rounds": 3,
+        "randomize": true,
+        "exercises": [
+          {
+            "criteria": {
+              "equipment": [
+                "kettlebell"
+              ],
+              "tags": [
+                "hinge",
+                "dynamic"
+              ]
+            },
+            "reps": "12-15",
+            "notes": "Explosive hip snap"
+          },
+          {
+            "criteria": {
+              "equipment": [
+                "kettlebell"
+              ],
+              "tags": [
+                "squat",
+                "lower-body"
+              ]
+            },
+            "reps": "10-12",
+            "notes": "Full depth"
+          },
+          {
+            "criteria": {
+              "equipment": [
+                "kettlebell"
+              ],
+              "tags": [
+                "push"
+              ],
+              "muscles": [
+                "shoulders",
+                "triceps"
+              ]
+            },
+            "reps": "8 each",
+            "notes": "Controlled press"
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 90
+      },
+      {
         "id": "floor-core",
         "name": "Floor Core Finisher",
         "type": "exercises",
@@ -4746,7 +4884,8 @@
       "Smith machine bar weighs 15-25 lbs depending on model",
       "Position feet slightly in front of bar for squats",
       "Use the safety catches - that's what they're for",
-      "Great option when you can't make it to a full gym"
+      "Great option when you can't make it to a full gym",
+      "Kettlebell block adds variety — swings, squats, presses with a single bell"
     ],
     "category": "gym"
   },
@@ -10947,6 +11086,66 @@
       "Side bends: KB in one hand, lateral flexion only",
       "Add any of these to the end of your main kettlebell workout",
       "Credit: @powerbrutehq"
+    ],
+    "category": "kettlebell"
+  },
+  {
+    "id": "kb-daily-controlled-power",
+    "name": "Daily KB Controlled Power (@metabolicfactor)",
+    "description": "A daily mini-workout using a kettlebell for controlled power movements. No running, no jumping — just controlled power. Targets full-body strength, core definition, and posture. 50 circles + 60 reps of swings, pulls, and squats.",
+    "routineId": "kettlebell",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "core",
+      "daily",
+      "beginner-friendly",
+      "circuit"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "source": "@metabolicfactor",
+    "sourceUrl": "https://x.com/metabolicfactor/status/2023668997959348230",
+    "tips": [
+      "No running, no jumping — just controlled power",
+      "Can be done daily as a standalone routine",
+      "Focus on smooth, controlled movements",
+      "Rest 30s between exercises if needed"
+    ],
+    "sets": [
+      {
+        "id": "circuit",
+        "name": "Controlled Power Circuit",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-around-body-pass",
+            "reps": 50,
+            "notes": "Smooth circles, alternate directions halfway"
+          },
+          {
+            "id": "kettlebell-side-swing",
+            "reps": 60,
+            "notes": "Controlled arc, drive from hips"
+          },
+          {
+            "id": "kettlebell-high-pull",
+            "reps": 60,
+            "notes": "Explosive pull, controlled lower"
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 60,
+            "notes": "Full depth, chest up"
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 0
+      }
     ],
     "category": "kettlebell"
   },

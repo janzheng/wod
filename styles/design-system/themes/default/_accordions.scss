@@ -149,4 +149,108 @@ padding: 0;
 .accordion-single .accordion-content-open .accordion-content-inner {
 padding: 0.5rem 0 1rem 0;
 }
+
+/* Draggable Accordion */
+.accordion-draggable-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.accordion-draggable-row {
+  display: contents;
+}
+
+.accordion-draggable-item {
+  position: relative;
+  cursor: grab;
+}
+
+.accordion-draggable-item:active {
+  cursor: grabbing;
+}
+
+.accordion-drag-handle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  cursor: grab;
+  color: var(--color-text-muted, #9ca3af);
+  background-color: var(--color-bg-secondary, #f3f4f6);
+  border-right: 1px solid var(--color-border);
+  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+  transition: background-color 0.15s ease;
+}
+
+.dark .accordion-drag-handle,
+[data-theme="dark"] .accordion-drag-handle {
+  background-color: var(--color-bg-tertiary, #374151);
+  color: var(--color-text-muted, #6b7280);
+}
+
+.accordion-drag-handle:hover {
+  background-color: var(--color-bg-muted, #e5e7eb);
+}
+
+.dark .accordion-drag-handle:hover,
+[data-theme="dark"] .accordion-drag-handle:hover {
+  background-color: var(--color-bg-hover, #4b5563);
+}
+
+.accordion-drag-handle:active {
+  cursor: grabbing;
+}
+
+/* Dragging state */
+.accordion-draggable-item.is-dragging {
+  opacity: 0.5;
+  transform: scale(0.98);
+}
+
+.accordion-draggable-item.is-dragging .accordion-item {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Drop zone - invisible landing area between items */
+.accordion-drop-zone {
+  position: relative;
+  height: 0;
+  transition: height 0.15s ease;
+}
+
+/* Expand drop zones when dragging is active */
+.accordion-drop-zone.is-active {
+  height: 12px;
+}
+
+/* Highlight when this is the target */
+.accordion-drop-zone.is-target {
+  height: 12px;
+}
+
+/* Drop indicator line - now inside the drop zone */
+.accordion-drop-zone .accordion-drop-indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  background-color: var(--color-primary, #3b82f6);
+  pointer-events: none;
+  z-index: 10;
+}
+
+.accordion-drop-zone .accordion-drop-indicator::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-primary, #3b82f6);
+}
 }

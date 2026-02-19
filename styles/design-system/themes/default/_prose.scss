@@ -1,0 +1,484 @@
+/**
+ * Prose Styles - Typography for Markdown Content
+ *
+ * Apply .prose to any container with rendered markdown/HTML content
+ * to restore proper typography styling stripped by Tailwind's reset.
+ *
+ * Based on Tailwind Typography plugin patterns.
+ *
+ * Usage:
+ *   <div class="prose">
+ *     <!-- rendered markdown content -->
+ *   </div>
+ *
+ * Variants:
+ *   .prose-sm  - Smaller text (articles in sidebars)
+ *   .prose-lg  - Larger text (featured content)
+ *   .prose-invert - Light text on dark background
+ */
+
+.prose {
+  color: var(--color-text-primary, #374151);
+  max-width: 65ch;
+  font-size: 1rem;
+  line-height: 1.75;
+
+  // Remove max-width constraint
+  &.prose-full {
+    max-width: none;
+  }
+
+  // Headings
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text-primary, #111827);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+  }
+
+  h1 {
+    font-size: 2.25em;
+    margin-top: 0;
+    margin-bottom: 0.8888889em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid var(--color-border, #e5e7eb);
+  }
+
+  h3 {
+    font-size: 1.25em;
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+  }
+
+  h4 {
+    font-size: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  h5 {
+    font-size: 0.875em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  h6 {
+    font-size: 0.875em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: var(--color-text-secondary, #6b7280);
+  }
+
+  // Paragraphs
+  p {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+  }
+
+  // First child shouldn't have top margin
+  > :first-child {
+    margin-top: 0;
+  }
+
+  // Last child shouldn't have bottom margin
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  // Links
+  a {
+    color: var(--color-primary, #2563eb);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-weight: 500;
+    transition: color 0.15s;
+
+    &:hover {
+      color: var(--color-primary-hover, #1d4ed8);
+    }
+  }
+
+  // Strong/Bold
+  strong, b {
+    color: var(--color-text-primary, #111827);
+    font-weight: 600;
+  }
+
+  // Emphasis/Italic
+  em, i {
+    font-style: italic;
+  }
+
+  // Inline code
+  code {
+    color: var(--color-code-text, #1f2937);
+    background-color: var(--color-code-bg, #f3f4f6);
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-weight: 500;
+  }
+
+  // Code inside pre should not have background
+  pre code {
+    background-color: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-weight: normal;
+    color: inherit;
+    border-radius: 0;
+  }
+
+  // Code blocks
+  pre {
+    color: var(--color-code-text-dark, #e5e7eb);
+    background-color: var(--color-code-bg-dark, #1f2937);
+    overflow-x: auto;
+    font-size: 0.875em;
+    line-height: 1.7142857;
+    margin-top: 1.7142857em;
+    margin-bottom: 1.7142857em;
+    border-radius: 0.375rem;
+    padding: 0.8571429em 1.1428571em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  // Blockquotes
+  blockquote {
+    font-style: italic;
+    color: var(--color-text-secondary, #6b7280);
+    border-left: 4px solid var(--color-border, #e5e7eb);
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    padding-left: 1em;
+    quotes: "\201C""\201D""\2018""\2019";
+
+    p:first-of-type::before {
+      content: open-quote;
+    }
+
+    p:last-of-type::after {
+      content: close-quote;
+    }
+  }
+
+  // Horizontal rule
+  hr {
+    border: none;
+    border-top: 1px solid var(--color-border, #e5e7eb);
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  // Lists
+  ul, ol {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    padding-left: 1.625em;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  // Nested lists
+  ul ul, ul ol, ol ul, ol ol {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+  }
+
+  // List markers styling
+  li::marker {
+    color: var(--color-text-tertiary, #9ca3af);
+  }
+
+  ol > li::marker {
+    color: var(--color-text-secondary, #6b7280);
+    font-weight: 500;
+  }
+
+  // Task lists (GitHub-style)
+  ul.contains-task-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  li.task-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5em;
+
+    input[type="checkbox"] {
+      margin-top: 0.35em;
+    }
+  }
+
+  // Images
+  img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.375rem;
+  }
+
+  // Figures
+  figure {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  figcaption {
+    color: var(--color-text-secondary, #6b7280);
+    font-size: 0.875em;
+    line-height: 1.4285714;
+    margin-top: 0.8571429em;
+    text-align: center;
+  }
+
+  // Tables - styled like data-display/table component
+  // Use .table-wrapper for scrollable containers
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: 0.5rem;
+    background-color: var(--color-bg-primary, white);
+
+    table {
+      margin-top: 0;
+      margin-bottom: 0;
+      border: none;
+      border-radius: 0;
+    }
+  }
+
+  table {
+    width: 100%;
+    table-layout: auto;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: var(--color-bg-primary, white);
+  }
+
+  thead {
+    background-color: var(--color-bg-muted, #f3f4f6);
+
+    th {
+      color: var(--color-text-muted, #6b7280);
+      font-weight: 500;
+      vertical-align: middle;
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--color-border, #e5e7eb);
+    }
+  }
+
+  tbody {
+    tr {
+      transition: background-color 0.15s;
+
+      &:hover {
+        background-color: var(--color-bg-hover, rgba(0, 0, 0, 0.025));
+      }
+    }
+
+    td {
+      vertical-align: middle;
+      padding: 1rem;
+      border-bottom: 1px solid var(--color-border, #e5e7eb);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    // First column emphasis
+    td:first-child {
+      font-weight: 500;
+    }
+  }
+
+  // Mobile-specific table handling
+  @media (max-width: 640px) {
+    .table-wrapper {
+      margin-left: -1rem;
+      margin-right: -1rem;
+      border-radius: 0;
+      border-left: none;
+      border-right: none;
+    }
+
+    table {
+      font-size: 0.8125rem;
+      border-radius: 0;
+    }
+
+    thead th,
+    tbody td {
+      padding: 0.75rem;
+      white-space: nowrap;
+    }
+  }
+
+  // Definition lists
+  dl {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+  }
+
+  dt {
+    color: var(--color-text-primary, #111827);
+    font-weight: 600;
+    margin-top: 1.25em;
+  }
+
+  dd {
+    margin-top: 0.5em;
+    padding-left: 1.625em;
+  }
+
+  // Abbreviations
+  abbr[title] {
+    text-decoration: underline dotted;
+    cursor: help;
+  }
+
+  // Keyboard input
+  kbd {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.875em;
+    padding: 0.125em 0.375em;
+    border-radius: 0.25rem;
+    border: 1px solid var(--color-border, #d1d5db);
+    background-color: var(--color-bg-secondary, #f9fafb);
+    box-shadow: 0 1px 0 var(--color-border, #d1d5db);
+  }
+
+  // Subscript/Superscript
+  sub, sup {
+    font-size: 0.75em;
+  }
+}
+
+// Size variants
+.prose-sm {
+  font-size: 0.875rem;
+  line-height: 1.7142857;
+
+  h1 { font-size: 1.75em; }
+  h2 { font-size: 1.25em; }
+  h3 { font-size: 1.125em; }
+
+  p, ul, ol, blockquote {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  pre {
+    font-size: 0.8em;
+  }
+}
+
+.prose-lg {
+  font-size: 1.125rem;
+  line-height: 1.7777778;
+
+  h1 { font-size: 2.5em; }
+  h2 { font-size: 1.75em; }
+  h3 { font-size: 1.375em; }
+
+  p, ul, ol, blockquote {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
+
+// Inverted (dark background)
+.prose-invert {
+  color: var(--color-text-invert, #e5e7eb);
+
+  h1, h2, h3, h4, h5, h6, strong, b {
+    color: var(--color-text-invert, #f9fafb);
+  }
+
+  h2 {
+    border-bottom-color: var(--color-border-invert, #374151);
+  }
+
+  a {
+    color: var(--color-primary-light, #60a5fa);
+
+    &:hover {
+      color: var(--color-primary-lighter, #93c5fd);
+    }
+  }
+
+  code {
+    color: var(--color-code-text-invert, #f9fafb);
+    background-color: var(--color-code-bg-invert, #374151);
+  }
+
+  blockquote {
+    border-left-color: var(--color-border-invert, #4b5563);
+    color: var(--color-text-secondary-invert, #9ca3af);
+  }
+
+  hr {
+    border-top-color: var(--color-border-invert, #374151);
+  }
+
+  thead {
+    border-bottom-color: var(--color-border-strong-invert, #4b5563);
+  }
+
+  tbody tr {
+    border-bottom-color: var(--color-border-invert, #374151);
+  }
+
+  li::marker {
+    color: var(--color-text-tertiary-invert, #6b7280);
+  }
+}
+
+// Compact variant (minimal margins)
+.prose-compact {
+  h1 { margin-bottom: 0.5em; }
+  h2 { margin-top: 1.25em; margin-bottom: 0.5em; }
+  h3 { margin-top: 1em; margin-bottom: 0.4em; }
+  h4, h5, h6 { margin-top: 0.75em; margin-bottom: 0.25em; }
+
+  p, ul, ol, blockquote {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+  }
+
+  hr {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}

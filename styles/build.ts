@@ -11,7 +11,7 @@ import { copy } from "jsr:@std/fs/copy";
 // ========================================
 const CONFIG = {
   // Source paths
-  DESIGN_SYSTEM_SOURCE: "../../../design-engine/packages/styles",
+  DESIGN_SYSTEM_SOURCE: "/Users/janzheng/Desktop/Projects/_deno/design/design-engine/packages/styles",
   DESIGN_SYSTEM_DEST: "./design-system",
   APP_STYLES_SCSS: "./app.scss",
   TAILWIND_CSS: "./tailwind.css",

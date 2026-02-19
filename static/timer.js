@@ -22,7 +22,7 @@ function workoutTimer() {
     countdownValue: 3,
 
     // Settings
-    audioEnabled: true,
+    audioEnabled: false,  // Default off to avoid interrupting Spotify/other audio
     vibrationEnabled: true,
     countdownDuration: 3,      // Countdown seconds (0, 3, 6, 9)
     magnetizationThreshold: 3, // Percent threshold for checkpoint snapping
@@ -151,14 +151,19 @@ function workoutTimer() {
     },
 
     initAudio() {
-      // Create audio elements for chimes
-      // Note: These would need actual audio files
+      // Defer audio element creation until first playChime() call
+      // to avoid claiming the audio session and pausing Spotify/other audio
+      this._audioInitialized = false;
+    },
+
+    _ensureAudio() {
+      if (this._audioInitialized) return;
+      this._audioInitialized = true;
       try {
         this.sounds.transition = new Audio('./static/sounds/transition.mp3');
         this.sounds.beep = new Audio('./static/sounds/beep.mp3');
         this.sounds.complete = new Audio('./static/sounds/complete.mp3');
 
-        // Preload
         Object.values(this.sounds).forEach(sound => {
           if (sound) {
             sound.load();
@@ -368,8 +373,8 @@ function workoutTimer() {
       const segment = this.currentSegment;
       if (!segment || !segment.isUserControlled) return;
 
-      // Skip to next checkpoint/block (like fast forward)
-      this.skipToNext();
+      // Advance to the next segment (next exercise or rest), NOT the next checkpoint
+      this.advanceToNextSegment();
     },
 
     // ==================== Internal Methods ====================
@@ -436,19 +441,38 @@ function workoutTimer() {
       this.currentTime = nextSegment.startTime;
       this.elapsedTime = 0;
       this.showCountdown = false;
+
+      // Visual flash for transition (works on iOS where vibration/audio don't)
+      this.flashTransition();
     },
 
     handleWorkoutComplete() {
       this.pause();
       this.playChime('complete');
       this.vibrate([200, 100, 200, 100, 200]);
+      this.flashTransition('complete');
       console.log('Workout complete!');
+    },
+
+    /**
+     * Visual flash on the timer element to signal transitions.
+     * Works on all platforms including iOS where vibration & audio are limited.
+     */
+    flashTransition(type = 'transition') {
+      const el = document.querySelector('.timer-inline');
+      if (!el) return;
+      const cls = type === 'complete' ? 'timer-flash-complete' : 'timer-flash';
+      el.classList.add(cls);
+      setTimeout(() => el.classList.remove(cls), 400);
     },
 
     // ==================== Audio & Haptics ====================
 
     playChime(type) {
       if (!this.audioEnabled) return;
+
+      // Lazily initialize audio elements on first play
+      this._ensureAudio();
 
       const sound = this.sounds[type];
       if (sound) {
