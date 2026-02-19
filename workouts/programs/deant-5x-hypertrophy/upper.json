@@ -1,0 +1,89 @@
+{
+  "id": "deant-5x-upper",
+  "name": "Upper Body",
+  "description": "Upper body hypertrophy — chest, back, shoulders, arms. All working sets at 0-1 RIR.",
+  "routineId": "gym",
+  "tags": ["hypertrophy", "upper-body", "gym", "program", "deant-5x"],
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+  "difficulty": "intermediate",
+  "estimatedDuration": 60,
+  "equipment": ["machine", "cable"],
+  "sets": [
+    {
+      "id": "upper-1",
+      "name": "Clavicular Pecs Machine Press",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "clavicular-pecs-machine-press" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "upper-2",
+      "name": "Chest Supported T-Bar Rows",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "chest-supported-t-bar-row" }, "reps": "5-10", "notes": "0-1 RIR, pronated grip" }
+      ]
+    },
+    {
+      "id": "upper-3",
+      "name": "Seated Pec Fly Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-pec-fly-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "upper-4",
+      "name": "Single Arm Lat Pulldown",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "single-arm-lat-pulldown" }, "reps": "5-10", "notes": "0-1 RIR, each arm" }
+      ]
+    },
+    {
+      "id": "upper-5",
+      "name": "Seated Machine OHP",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-machine-overhead-press" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "upper-6",
+      "name": "Seated BTB Cable Curls",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-behind-back-cable-curl" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "upper-7",
+      "name": "Dip Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "dip-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    }
+  ],
+  "tips": [
+    "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+    "2 minutes rest between working sets is the FLOOR — 3 or more preferred",
+    "60-90 seconds rest between warmup sets"
+  ]
+}

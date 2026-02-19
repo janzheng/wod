@@ -1,0 +1,108 @@
+{
+  "id": "deant-4x-upper-b",
+  "name": "Upper B",
+  "description": "Upper body workout B — pin-loaded presses, seated cable rows with elbows tucked, machine OHP. Different exercise variations from Upper A.",
+  "routineId": "gym",
+  "tags": ["hypertrophy", "upper-body", "gym", "program", "deant-4x"],
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2024204747071181200",
+  "difficulty": "intermediate",
+  "estimatedDuration": 50,
+  "equipment": ["machine", "cable", "dumbbell"],
+  "sets": [
+    {
+      "id": "ub-1",
+      "name": "Pin Loaded Chest Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 270,
+      "exercises": [
+        { "criteria": { "exerciseId": "pin-loaded-chest-press" }, "reps": "5-7", "notes": "~1 RIR, seated (vertical)" }
+      ]
+    },
+    {
+      "id": "ub-2",
+      "name": "Chest Supported Seated Cable Row",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 270,
+      "exercises": [
+        { "criteria": { "exerciseId": "chest-supported-seated-cable-row" }, "reps": "5-8", "notes": "~1 RIR, elbows tucked" }
+      ]
+    },
+    {
+      "id": "ub-3",
+      "name": "Pin Loaded Incline Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 270,
+      "exercises": [
+        { "criteria": { "exerciseId": "pin-loaded-incline-press" }, "reps": "5-8", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "ub-4",
+      "name": "Wide Grip Lat Pulldown",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 240,
+      "exercises": [
+        { "criteria": { "exerciseId": "lat-pulldown" }, "reps": "6-10", "notes": "~1 RIR, wide grip" }
+      ]
+    },
+    {
+      "id": "ub-5",
+      "name": "Seated Machine OHP",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 240,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-machine-overhead-press" }, "reps": "5-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "ub-6",
+      "name": "Single Arm Preacher Cable Curls",
+      "type": "exercises",
+      "rounds": 1,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "single-arm-preacher-cable-curl" }, "reps": "6-10", "notes": "~1 RIR, each arm" }
+      ]
+    },
+    {
+      "id": "ub-7",
+      "name": "Seated DB Hammer Curls",
+      "type": "exercises",
+      "rounds": 1,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "hammer-curl" }, "reps": "6-10", "notes": "~1 RIR, seated with upper arm support" }
+      ]
+    },
+    {
+      "id": "ub-8",
+      "name": "Dip Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "dip-machine" }, "reps": "5-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "ub-9",
+      "name": "Shrugs",
+      "type": "exercises",
+      "rounds": 1,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "dumbbell-shrug" }, "reps": "6-10", "notes": "~1 RIR, hold at top" }
+      ]
+    }
+  ],
+  "tips": [
+    "4-5 minutes rest between sets",
+    "Same plan used for both bulking and cutting phases"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "deant-5x-pull",
+  "name": "Pull",
+  "description": "Pull day — back, rear delts, biceps. Focus on lat width and upper back thickness.",
+  "routineId": "gym",
+  "tags": ["hypertrophy", "pull", "upper-body", "gym", "program", "deant-5x"],
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+  "difficulty": "intermediate",
+  "estimatedDuration": 55,
+  "equipment": ["machine", "cable", "dumbbell"],
+  "sets": [
+    {
+      "id": "pull-1",
+      "name": "Wide Grip Lat Pulldown",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "lat-pulldown" }, "reps": "5-10", "notes": "0-1 RIR, wide grip" }
+      ]
+    },
+    {
+      "id": "pull-2",
+      "name": "Chest Supported Machine Row",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "chest-supported-machine-row" }, "reps": "5-10", "notes": "0-1 RIR, neutral grip" }
+      ]
+    },
+    {
+      "id": "pull-3",
+      "name": "Single Arm Lat Pulldown",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "single-arm-lat-pulldown" }, "reps": "5-10", "notes": "0-1 RIR, each arm" }
+      ]
+    },
+    {
+      "id": "pull-4",
+      "name": "Chest Supported T-Bar Row",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "chest-supported-t-bar-row" }, "reps": "5-10", "notes": "0-1 RIR, pronated grip" }
+      ]
+    },
+    {
+      "id": "pull-5",
+      "name": "Rear Delt Fly Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "rear-delt-fly-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "pull-6",
+      "name": "Single Arm Preacher Cable Curls",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "single-arm-preacher-cable-curl" }, "reps": "5-10", "notes": "0-1 RIR, each arm" }
+      ]
+    },
+    {
+      "id": "pull-7",
+      "name": "Seated DB Hammer Curls",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "hammer-curl" }, "reps": "5-10", "notes": "0-1 RIR, seated with upper arm support" }
+      ]
+    }
+  ],
+  "tips": [
+    "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+    "2 minutes rest between working sets is the FLOOR — 3 or more preferred"
+  ]
+}

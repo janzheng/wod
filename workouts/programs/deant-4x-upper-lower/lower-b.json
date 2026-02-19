@@ -1,0 +1,99 @@
+{
+  "id": "deant-4x-lower-b",
+  "name": "Lower B",
+  "description": "Lower body workout B — identical to Lower A. Same leg day repeated twice per week to maximize frequency.",
+  "routineId": "gym",
+  "tags": ["hypertrophy", "lower-body", "gym", "program", "deant-4x"],
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2024204747071181200",
+  "difficulty": "intermediate",
+  "estimatedDuration": 50,
+  "equipment": ["machine"],
+  "sets": [
+    {
+      "id": "lb-1",
+      "name": "Pendulum Squats",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 270,
+      "exercises": [
+        { "criteria": { "exerciseId": "pendulum-squat" }, "reps": "5-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "lb-2",
+      "name": "Seated Leg Curls",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 240,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-leg-curl" }, "reps": "6-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "lb-3",
+      "name": "Leg Extensions",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 240,
+      "exercises": [
+        { "criteria": { "exerciseId": "leg-extension-machine" }, "reps": "6-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "lb-4",
+      "name": "45° Extensions",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 240,
+      "exercises": [
+        { "criteria": { "exerciseId": "45-degree-back-extension" }, "reps": "5-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "lb-5",
+      "name": "Adduction Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 240,
+      "exercises": [
+        { "criteria": { "exerciseId": "hip-adductor-machine" }, "reps": "6-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "lb-6",
+      "name": "Calf Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "calf-press" }, "reps": "5-8", "notes": "~1 RIR, partial reps dorsiflexed to neutral" }
+      ]
+    },
+    {
+      "id": "lb-7",
+      "name": "Ab Crunch Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "ab-crunch-machine" }, "reps": "5-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "lb-8",
+      "name": "Glute Bridge Machine",
+      "type": "exercises",
+      "rounds": 1,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "glute-bridge-machine" }, "reps": "5-8", "notes": "~1 RIR" }
+      ]
+    }
+  ],
+  "tips": [
+    "Identical to Lower A — same leg day repeated twice per week",
+    "4-5 minutes rest between sets",
+    "Calf press: partial reps from dorsiflexed position to neutral foot position"
+  ]
+}

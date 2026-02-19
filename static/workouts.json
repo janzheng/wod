@@ -13622,6 +13622,1369 @@
     "category": "morning"
   },
   {
+    "id": "deant-4x-lower-a",
+    "name": "Lower A",
+    "description": "Lower body workout — quads, hamstrings, calves, adductors, glutes, abs. Repeated for both Lower A and Lower B days.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "lower-body",
+      "gym",
+      "program",
+      "deant-4x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2024204747071181200",
+    "difficulty": "intermediate",
+    "estimatedDuration": 50,
+    "equipment": [
+      "machine"
+    ],
+    "sets": [
+      {
+        "id": "la-1",
+        "name": "Pendulum Squats",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 270,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "pendulum-squat"
+            },
+            "reps": "5-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "la-2",
+        "name": "Seated Leg Curls",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-leg-curl"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "la-3",
+        "name": "Leg Extensions",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "leg-extension-machine"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "la-4",
+        "name": "45° Extensions",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "45-degree-back-extension"
+            },
+            "reps": "5-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "la-5",
+        "name": "Adduction Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "hip-adductor-machine"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "la-6",
+        "name": "Calf Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "calf-press"
+            },
+            "reps": "5-8",
+            "notes": "~1 RIR, partial reps dorsiflexed to neutral"
+          }
+        ]
+      },
+      {
+        "id": "la-7",
+        "name": "Ab Crunch Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "ab-crunch-machine"
+            },
+            "reps": "5-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "la-8",
+        "name": "Glute Bridge Machine",
+        "type": "exercises",
+        "rounds": 1,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "glute-bridge-machine"
+            },
+            "reps": "5-8",
+            "notes": "~1 RIR"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Same lower body workout repeated twice per week",
+      "4-5 minutes rest between sets",
+      "Calf press: partial reps from dorsiflexed position to neutral foot position"
+    ],
+    "category": "programs"
+  },
+  {
+    "id": "deant-4x-lower-b",
+    "name": "Lower B",
+    "description": "Lower body workout B — identical to Lower A. Same leg day repeated twice per week to maximize frequency.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "lower-body",
+      "gym",
+      "program",
+      "deant-4x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2024204747071181200",
+    "difficulty": "intermediate",
+    "estimatedDuration": 50,
+    "equipment": [
+      "machine"
+    ],
+    "sets": [
+      {
+        "id": "lb-1",
+        "name": "Pendulum Squats",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 270,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "pendulum-squat"
+            },
+            "reps": "5-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lb-2",
+        "name": "Seated Leg Curls",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-leg-curl"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lb-3",
+        "name": "Leg Extensions",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "leg-extension-machine"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lb-4",
+        "name": "45° Extensions",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "45-degree-back-extension"
+            },
+            "reps": "5-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lb-5",
+        "name": "Adduction Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "hip-adductor-machine"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lb-6",
+        "name": "Calf Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "calf-press"
+            },
+            "reps": "5-8",
+            "notes": "~1 RIR, partial reps dorsiflexed to neutral"
+          }
+        ]
+      },
+      {
+        "id": "lb-7",
+        "name": "Ab Crunch Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "ab-crunch-machine"
+            },
+            "reps": "5-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lb-8",
+        "name": "Glute Bridge Machine",
+        "type": "exercises",
+        "rounds": 1,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "glute-bridge-machine"
+            },
+            "reps": "5-8",
+            "notes": "~1 RIR"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Identical to Lower A — same leg day repeated twice per week",
+      "4-5 minutes rest between sets",
+      "Calf press: partial reps from dorsiflexed position to neutral foot position"
+    ],
+    "category": "programs"
+  },
+  {
+    "id": "deant-4x-upper-a",
+    "name": "Upper A",
+    "description": "Upper body workout A — emphasis on plate-loaded presses and flared-elbow rows. All sets at ~1 RIR with 4-5 min rest.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "upper-body",
+      "gym",
+      "program",
+      "deant-4x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2024204747071181200",
+    "difficulty": "intermediate",
+    "estimatedDuration": 50,
+    "equipment": [
+      "machine",
+      "cable",
+      "dumbbell"
+    ],
+    "sets": [
+      {
+        "id": "ua-1",
+        "name": "Plate Loaded Chest Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 270,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "plate-loaded-chest-press"
+            },
+            "reps": "5-7",
+            "notes": "~1 RIR, supine (flat)"
+          }
+        ]
+      },
+      {
+        "id": "ua-2",
+        "name": "Chest Supported T-Bar Rows",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 270,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "chest-supported-t-bar-row"
+            },
+            "reps": "5-8",
+            "notes": "~1 RIR, elbows flared"
+          }
+        ]
+      },
+      {
+        "id": "ua-3",
+        "name": "Plate Loaded Incline Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 270,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "plate-loaded-incline-press"
+            },
+            "reps": "5-8",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "ua-4",
+        "name": "Single Arm Lat Pulldown",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "single-arm-lat-pulldown"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, each arm"
+          }
+        ]
+      },
+      {
+        "id": "ua-5",
+        "name": "Cuffed Cable Lateral Raises",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "cable-lateral-raise"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, cuffed, each arm"
+          }
+        ]
+      },
+      {
+        "id": "ua-6",
+        "name": "Seated BTB Cable Curls",
+        "type": "exercises",
+        "rounds": 1,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-behind-back-cable-curl"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "ua-7",
+        "name": "Seated DB Hammer Curls",
+        "type": "exercises",
+        "rounds": 1,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "hammer-curl"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, seated"
+          }
+        ]
+      },
+      {
+        "id": "ua-8",
+        "name": "Overhead Tricep Extension Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "overhead-tricep-extension"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, full stretch at bottom"
+          }
+        ]
+      },
+      {
+        "id": "ua-9",
+        "name": "Shrugs",
+        "type": "exercises",
+        "rounds": 1,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "dumbbell-shrug"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, hold at top"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "4-5 minutes rest between sets",
+      "Same plan used for both bulking and cutting phases",
+      "What built you the muscle will help you retain the muscle"
+    ],
+    "category": "programs"
+  },
+  {
+    "id": "deant-4x-upper-b",
+    "name": "Upper B",
+    "description": "Upper body workout B — pin-loaded presses, seated cable rows with elbows tucked, machine OHP. Different exercise variations from Upper A.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "upper-body",
+      "gym",
+      "program",
+      "deant-4x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2024204747071181200",
+    "difficulty": "intermediate",
+    "estimatedDuration": 50,
+    "equipment": [
+      "machine",
+      "cable",
+      "dumbbell"
+    ],
+    "sets": [
+      {
+        "id": "ub-1",
+        "name": "Pin Loaded Chest Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 270,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "pin-loaded-chest-press"
+            },
+            "reps": "5-7",
+            "notes": "~1 RIR, seated (vertical)"
+          }
+        ]
+      },
+      {
+        "id": "ub-2",
+        "name": "Chest Supported Seated Cable Row",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 270,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "chest-supported-seated-cable-row"
+            },
+            "reps": "5-8",
+            "notes": "~1 RIR, elbows tucked"
+          }
+        ]
+      },
+      {
+        "id": "ub-3",
+        "name": "Pin Loaded Incline Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 270,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "pin-loaded-incline-press"
+            },
+            "reps": "5-8",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "ub-4",
+        "name": "Wide Grip Lat Pulldown",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "lat-pulldown"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, wide grip"
+          }
+        ]
+      },
+      {
+        "id": "ub-5",
+        "name": "Seated Machine OHP",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 240,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-machine-overhead-press"
+            },
+            "reps": "5-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "ub-6",
+        "name": "Single Arm Preacher Cable Curls",
+        "type": "exercises",
+        "rounds": 1,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "single-arm-preacher-cable-curl"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, each arm"
+          }
+        ]
+      },
+      {
+        "id": "ub-7",
+        "name": "Seated DB Hammer Curls",
+        "type": "exercises",
+        "rounds": 1,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "hammer-curl"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, seated with upper arm support"
+          }
+        ]
+      },
+      {
+        "id": "ub-8",
+        "name": "Dip Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "dip-machine"
+            },
+            "reps": "5-10",
+            "notes": "~1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "ub-9",
+        "name": "Shrugs",
+        "type": "exercises",
+        "rounds": 1,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "dumbbell-shrug"
+            },
+            "reps": "6-10",
+            "notes": "~1 RIR, hold at top"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "4-5 minutes rest between sets",
+      "Same plan used for both bulking and cutting phases"
+    ],
+    "category": "programs"
+  },
+  {
+    "id": "deant-5x-lower-a",
+    "name": "Lower A",
+    "description": "Lower body hypertrophy — quads, hamstrings, calves, adductors, abs. All working sets at 0-1 RIR.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "lower-body",
+      "gym",
+      "program",
+      "deant-5x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+    "difficulty": "intermediate",
+    "estimatedDuration": 55,
+    "equipment": [
+      "machine"
+    ],
+    "sets": [
+      {
+        "id": "lower-a-1",
+        "name": "Seated Leg Curls",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-leg-curl"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-a-2",
+        "name": "Leg Extensions",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "leg-extension-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-a-3",
+        "name": "45° Extensions",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "45-degree-back-extension"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-a-4",
+        "name": "Calf Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "calf-press"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-a-5",
+        "name": "Leg Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "leg-press"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-a-6",
+        "name": "Adduction Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "hip-adductor-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-a-7",
+        "name": "Ab Crunch Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "ab-crunch-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+      "2 minutes rest between working sets is the FLOOR — 3 or more preferred"
+    ],
+    "category": "programs"
+  },
+  {
+    "id": "deant-5x-lower-b",
+    "name": "Lower B",
+    "description": "Lower body B — heavier compounds (hack squats, SLDLs) plus quads, hamstrings, calves, glutes, abs.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "lower-body",
+      "gym",
+      "program",
+      "deant-5x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+    "difficulty": "intermediate",
+    "estimatedDuration": 55,
+    "equipment": [
+      "machine",
+      "dumbbell"
+    ],
+    "sets": [
+      {
+        "id": "lower-b-1",
+        "name": "Leg Extensions",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "leg-extension-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-b-2",
+        "name": "Seated Leg Curls",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-leg-curl"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-b-3",
+        "name": "Pendulum / Hack Squats",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "pendulum-squat"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR. Do NOT take 50/50 reps — avoid susceptible positions."
+          }
+        ]
+      },
+      {
+        "id": "lower-b-4",
+        "name": "Stiff-Legged Deadlifts",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 180,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "romanian-deadlift"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR. Do NOT take 50/50 reps."
+          }
+        ]
+      },
+      {
+        "id": "lower-b-5",
+        "name": "Calf Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "calf-press"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, partial reps dorsiflexed to neutral"
+          }
+        ]
+      },
+      {
+        "id": "lower-b-6",
+        "name": "Glute Bridge Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "glute-bridge-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "lower-b-7",
+        "name": "Ab Crunch Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "ab-crunch-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+      "Do NOT take 50/50 reps on hack squats or SLDLs to avoid injury",
+      "2 minutes rest between working sets is the FLOOR — 3 or more preferred"
+    ],
+    "category": "programs"
+  },
+  {
+    "id": "deant-5x-pull",
+    "name": "Pull",
+    "description": "Pull day — back, rear delts, biceps. Focus on lat width and upper back thickness.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "pull",
+      "upper-body",
+      "gym",
+      "program",
+      "deant-5x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+    "difficulty": "intermediate",
+    "estimatedDuration": 55,
+    "equipment": [
+      "machine",
+      "cable",
+      "dumbbell"
+    ],
+    "sets": [
+      {
+        "id": "pull-1",
+        "name": "Wide Grip Lat Pulldown",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "lat-pulldown"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, wide grip"
+          }
+        ]
+      },
+      {
+        "id": "pull-2",
+        "name": "Chest Supported Machine Row",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "chest-supported-machine-row"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, neutral grip"
+          }
+        ]
+      },
+      {
+        "id": "pull-3",
+        "name": "Single Arm Lat Pulldown",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "single-arm-lat-pulldown"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, each arm"
+          }
+        ]
+      },
+      {
+        "id": "pull-4",
+        "name": "Chest Supported T-Bar Row",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "chest-supported-t-bar-row"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, pronated grip"
+          }
+        ]
+      },
+      {
+        "id": "pull-5",
+        "name": "Rear Delt Fly Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "rear-delt-fly-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "pull-6",
+        "name": "Single Arm Preacher Cable Curls",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "single-arm-preacher-cable-curl"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, each arm"
+          }
+        ]
+      },
+      {
+        "id": "pull-7",
+        "name": "Seated DB Hammer Curls",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "hammer-curl"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, seated with upper arm support"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+      "2 minutes rest between working sets is the FLOOR — 3 or more preferred"
+    ],
+    "category": "programs"
+  },
+  {
+    "id": "deant-5x-push",
+    "name": "Push",
+    "description": "Push day — chest, shoulders, triceps. Mix of machine presses, flys, and isolation work.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "push",
+      "upper-body",
+      "gym",
+      "program",
+      "deant-5x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+    "difficulty": "intermediate",
+    "estimatedDuration": 55,
+    "equipment": [
+      "machine",
+      "cable"
+    ],
+    "sets": [
+      {
+        "id": "push-1",
+        "name": "Sternal Pecs Machine Press",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "sternal-pecs-machine-press"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "push-2",
+        "name": "Low to High Cable Flys",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "low-to-high-cable-fly"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, cuffed"
+          }
+        ]
+      },
+      {
+        "id": "push-3",
+        "name": "Pec Fly Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "pec-deck-fly"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "push-4",
+        "name": "Seated Machine OHP",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-machine-overhead-press"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "push-5",
+        "name": "Cable Lateral Raises",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "cable-lateral-raise"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, cuffed, each arm"
+          }
+        ]
+      },
+      {
+        "id": "push-6",
+        "name": "Single Arm Tricep Pushdowns",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "cable-tricep-pushdown"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, each arm"
+          }
+        ]
+      },
+      {
+        "id": "push-7",
+        "name": "Overhead Tricep Extensions",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "overhead-tricep-extension"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+      "2 minutes rest between working sets is the FLOOR — 3 or more preferred"
+    ],
+    "category": "programs"
+  },
+  {
+    "id": "deant-5x-upper",
+    "name": "Upper Body",
+    "description": "Upper body hypertrophy — chest, back, shoulders, arms. All working sets at 0-1 RIR.",
+    "routineId": "gym",
+    "tags": [
+      "hypertrophy",
+      "upper-body",
+      "gym",
+      "program",
+      "deant-5x"
+    ],
+    "creator": "@deanttraining",
+    "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+    "difficulty": "intermediate",
+    "estimatedDuration": 60,
+    "equipment": [
+      "machine",
+      "cable"
+    ],
+    "sets": [
+      {
+        "id": "upper-1",
+        "name": "Clavicular Pecs Machine Press",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "clavicular-pecs-machine-press"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "upper-2",
+        "name": "Chest Supported T-Bar Rows",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "chest-supported-t-bar-row"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, pronated grip"
+          }
+        ]
+      },
+      {
+        "id": "upper-3",
+        "name": "Seated Pec Fly Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-pec-fly-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "upper-4",
+        "name": "Single Arm Lat Pulldown",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "single-arm-lat-pulldown"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR, each arm"
+          }
+        ]
+      },
+      {
+        "id": "upper-5",
+        "name": "Seated Machine OHP",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 150,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-machine-overhead-press"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "upper-6",
+        "name": "Seated BTB Cable Curls",
+        "type": "exercises",
+        "rounds": 3,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "seated-behind-back-cable-curl"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      },
+      {
+        "id": "upper-7",
+        "name": "Dip Machine",
+        "type": "exercises",
+        "rounds": 2,
+        "restBetween": 120,
+        "exercises": [
+          {
+            "criteria": {
+              "exerciseId": "dip-machine"
+            },
+            "reps": "5-10",
+            "notes": "0-1 RIR"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+      "2 minutes rest between working sets is the FLOOR — 3 or more preferred",
+      "60-90 seconds rest between warmup sets"
+    ],
+    "category": "programs"
+  },
+  {
     "id": "plate-abs-workout",
     "name": "Plate Abs Workout",
     "description": "Intense ab circuit using a weight plate. 4 rounds of 4 exercises, 20 reps each with 60 seconds rest between rounds.",

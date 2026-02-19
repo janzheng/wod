@@ -1,5 +1,49 @@
 [
   {
+    "id": "45-degree-back-extension",
+    "name": "45 Degree Back Extension",
+    "type": "weights",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "lower-back"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "lower-body",
+      "gym",
+      "machine",
+      "hinge"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Position yourself face down on the 45 degree hyperextension bench with the pad at your upper thighs and feet secured under the ankle rollers. Cross arms over your chest or behind your head. Lower your torso by hinging at the hips until you feel a stretch in the hamstrings, then extend back up by squeezing the glutes and hamstrings. Avoid hyperextending the lower back at the top."
+  },
+  {
+    "id": "ab-crunch-machine",
+    "name": "Ab Crunch Machine",
+    "type": "weights",
+    "muscles": [
+      "abs",
+      "core"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "core",
+      "gym",
+      "machine"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit in the machine with your back against the pad and grip the handles or place arms behind the pads. Crunch forward by flexing your spine, driving your ribcage toward your pelvis. Squeeze the abs hard at the bottom of the movement, then return slowly to the start. Focus on spinal flexion rather than hip flexion to keep tension on the abs."
+  },
+  {
     "id": "ab-wheel-rollout",
     "name": "Ab Wheel Rollout",
     "type": "calisthenics",
@@ -2370,6 +2414,27 @@
     "description": "Stand facing the cable machine with a straight bar or rope attachment at face height. Grip the handle with arms bent at 90 degrees, elbows pinned to your sides. Push the handle down until arms are straight, squeezing triceps at the bottom. Control the weight back up without letting your elbows drift forward. Keep your core tight and avoid leaning into the movement."
   },
   {
+    "id": "calf-press",
+    "name": "Calf Press",
+    "type": "weights",
+    "muscles": [
+      "calves"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "lower-body",
+      "gym",
+      "machine",
+      "calves"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Position yourself in the leg press machine with just the balls of your feet on the lower edge of the platform. Start in a dorsiflexed position with toes pulled toward your shins, then press through the balls of your feet to a neutral ankle position using partial reps. Focus on the stretch-to-midrange portion of the movement for optimal calf development. Keep knees slightly bent throughout."
+  },
+  {
     "id": "calf-raise-machine",
     "name": "Seated Calf Raise Machine",
     "type": "weights",
@@ -2491,6 +2556,81 @@
     "description": "Adjust seat height so handles are at mid-chest level. Sit with back flat against pad and feet on floor. Grip handles and press forward, extending arms without locking elbows. Squeeze chest at full extension, then control the weight back. The machine guides your movement path, making this ideal for learning pressing patterns."
   },
   {
+    "id": "chest-supported-machine-row",
+    "name": "Chest Supported Machine Row",
+    "type": "weights",
+    "muscles": [
+      "back",
+      "lats",
+      "upper-back",
+      "biceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "upper-body",
+      "gym",
+      "machine",
+      "back"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit with your chest firmly against the pad and grasp the neutral grip handles. Row the weight toward your torso by driving your elbows back, squeezing your shoulder blades together at peak contraction. Lower with control to a full stretch. The chest support removes momentum and lower back involvement, allowing you to focus entirely on back engagement."
+  },
+  {
+    "id": "chest-supported-seated-cable-row",
+    "name": "Chest Supported Seated Cable Row",
+    "type": "weights",
+    "muscles": [
+      "back",
+      "lats",
+      "upper-back",
+      "biceps"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "upper-body",
+      "gym",
+      "cable",
+      "back"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit at a cable row station with your chest braced against the support pad. Grip the handles and row toward your torso with elbows tucked close to your sides, targeting the mid-back and lats. Squeeze your shoulder blades together at peak contraction, then extend arms fully for a deep stretch. The chest support eliminates momentum and keeps focus on the back muscles."
+  },
+  {
+    "id": "chest-supported-t-bar-row",
+    "name": "Chest Supported T-Bar Row",
+    "type": "weights",
+    "muscles": [
+      "back",
+      "lats",
+      "upper-back",
+      "biceps"
+    ],
+    "equipment": [
+      "machine",
+      "barbell"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "upper-body",
+      "gym",
+      "back"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Lie face down on the angled chest pad with feet on the platform. Grip the handles with a pronated (overhand) grip and row the weight toward your chest, driving elbows back and squeezing your shoulder blades together at the top. Lower with control. The chest support eliminates momentum and lower back strain, isolating the back muscles."
+  },
+  {
     "id": "childs-pose",
     "name": "Child's Pose",
     "type": "yoga",
@@ -2561,6 +2701,30 @@
     "difficulty": "beginner",
     "duration": 45,
     "description": "A jumping jack variation with an overhead clap. Start with feet together and arms at sides. Jump feet apart while swinging arms overhead and clapping at the top. Jump back to starting position with arms returning to sides. The clap adds coordination and engages the shoulders more than standard jumping jacks. Keep a steady rhythm and land softly on the balls of your feet."
+  },
+  {
+    "id": "clavicular-pecs-machine-press",
+    "name": "Clavicular Pecs Machine Press",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "gym",
+      "machine",
+      "chest"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Adjust the seat so the handles are at upper chest level, targeting the clavicular (upper) chest fibers. Sit with back flat against the pad and press the handles forward and slightly upward, extending arms without locking elbows. Control the weight back slowly, keeping tension on the upper chest throughout the movement."
   },
   {
     "id": "close-grip-cable-row",
@@ -3197,6 +3361,29 @@
     "description": "Support yourself on parallel bars with arms straight. Lower your body by bending your elbows until shoulders are below elbows. Keep core tight and lean slightly forward for chest emphasis. Push back up to full arm extension."
   },
   {
+    "id": "dip-machine",
+    "name": "Dip Machine",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "gym",
+      "machine"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit in the dip machine with back against the pad and grip the handles at your sides. Press the handles downward by extending your arms, squeezing the chest and triceps at the bottom. Return with control, allowing a stretch through the chest at the top. Keep your torso upright for more triceps emphasis or lean slightly forward for more chest activation."
+  },
+  {
     "id": "donkey-kick-handstand",
     "name": "Donkey Kick to Handstand",
     "type": "calisthenics",
@@ -3248,7 +3435,15 @@
     ],
     "difficulty": "advanced",
     "duration": 60,
-    "description": "Start with two kettlebells on the floor between your feet. Hinge and grip both handles, then in one explosive motion pull the bells up close to your body and rotate your hands underneath to catch them in the rack position at your chest. Elbows stay tucked, bells rest on the forearms. Reverse the motion to return to the start. Requires solid single-bell clean technique before attempting doubles."
+    "description": "Start with two kettlebells on the floor between your feet. Hinge and grip both handles, then in one explosive motion pull the bells up close to your body and rotate your hands underneath to catch them in the rack position at your chest. Elbows stay tucked, bells rest on the forearms. Reverse the motion to return to the start. Requires solid single-bell clean technique before attempting doubles.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/kb_kings/status/2022331481889357842",
+        "source": "@kb_kings",
+        "caption": "Advanced Double Kettlebell Complex"
+      }
+    ]
   },
   {
     "id": "double-kettlebell-snatch",
@@ -3277,7 +3472,15 @@
     ],
     "difficulty": "advanced",
     "duration": 60,
-    "description": "The most demanding double kettlebell movement. From the floor or swing position, explosively pull both bells overhead in one continuous motion, punching through at the top to lockout with arms straight. Requires tremendous grip, shoulder stability, and explosive hip power. Master single-bell snatches and double cleans before attempting. Keep core and glutes tight throughout."
+    "description": "The most demanding double kettlebell movement. From the floor or swing position, explosively pull both bells overhead in one continuous motion, punching through at the top to lockout with arms straight. Requires tremendous grip, shoulder stability, and explosive hip power. Master single-bell snatches and double cleans before attempting. Keep core and glutes tight throughout.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/kb_kings/status/2022331481889357842",
+        "source": "@kb_kings",
+        "caption": "Advanced Double Kettlebell Complex"
+      }
+    ]
   },
   {
     "id": "double-kettlebell-swing",
@@ -3306,7 +3509,15 @@
     ],
     "difficulty": "advanced",
     "duration": 45,
-    "description": "Same as a standard kettlebell swing but with two bells. Stand with feet wider than shoulder-width, a kettlebell in each hand on the floor between your feet. Hike both bells back, then explosively snap hips forward to swing them to chest height. The doubled load demands significantly more grip strength, core stability, and hip power. Keep arms straight and let the hips do the work."
+    "description": "Same as a standard kettlebell swing but with two bells. Stand with feet wider than shoulder-width, a kettlebell in each hand on the floor between your feet. Hike both bells back, then explosively snap hips forward to swing them to chest height. The doubled load demands significantly more grip strength, core stability, and hip power. Keep arms straight and let the hips do the work.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/kb_kings/status/2022331481889357842",
+        "source": "@kb_kings",
+        "caption": "Advanced Double Kettlebell Complex"
+      }
+    ]
   },
   {
     "id": "down-dog-knee-to-head",
@@ -4085,6 +4296,28 @@
     "difficulty": "beginner",
     "duration": 45,
     "description": "Lie on back with knees bent, feet flat on floor hip-width apart. Drive through heels to lift hips toward ceiling, squeezing glutes at the top. Lower with control. Keep core engaged and avoid overarching lower back."
+  },
+  {
+    "id": "glute-bridge-machine",
+    "name": "Glute Bridge Machine",
+    "type": "weights",
+    "muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "lower-body",
+      "gym",
+      "machine",
+      "glutes"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Position yourself in the hip thrust machine with your upper back against the pad and feet flat on the platform at shoulder width. Drive through your heels to extend your hips, squeezing the glutes hard at the top with a brief pause. Lower with control back to the starting position. Keep your chin tucked and avoid hyperextending the lower back at lockout."
   },
   {
     "id": "gmb-wrist-prep",
@@ -5285,7 +5518,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "A goblet squat variation alternating between two foot positions. Hold the kettlebell at chest height. 'A stance' is a wider sumo-style position targeting adductors and glutes. 'B stance' is a narrow, shoulder-width position emphasizing quads. Alternate between stances each rep or every few reps. The stance switching challenges balance and hits the legs from multiple angles in a single set."
+    "description": "A goblet squat variation alternating between two foot positions. Hold the kettlebell at chest height. 'A stance' is a wider sumo-style position targeting adductors and glutes. 'B stance' is a narrow, shoulder-width position emphasizing quads. Alternate between stances each rep or every few reps. The stance switching challenges balance and hits the legs from multiple angles in a single set.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2020611643718164517",
+        "source": "@Asgooch",
+        "caption": "Brutal Kettlebell Complex"
+      }
+    ]
   },
   {
     "id": "kettlebell-alternating-bent-over-row",
@@ -5312,7 +5553,27 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Hinge at the hips with a flat back, kettlebell in one hand. Row it to your hip, squeezing the shoulder blade at the top, then lower and pass the bell to the other hand at the bottom. Alternate sides each rep. Keep the body stable and avoid rotating the torso. The alternating pattern adds a core stability challenge."
+    "description": "Hinge at the hips with a flat back, kettlebell in one hand. Row it to your hip, squeezing the shoulder blade at the top, then lower and pass the bell to the other hand at the bottom. Alternate sides each rep. Keep the body stable and avoid rotating the torso. The alternating pattern adds a core stability challenge.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2022366570052293012",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Cardio Complex"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2020611643718164517",
+        "source": "@Asgooch",
+        "caption": "Brutal Kettlebell Complex"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2015520133985312910",
+        "source": "@Asgooch",
+        "caption": "Beginner One Kettlebell Full Body Workout"
+      }
+    ]
   },
   {
     "id": "kettlebell-around-body-pass",
@@ -5399,7 +5660,15 @@
     ],
     "difficulty": "advanced",
     "duration": 60,
-    "description": "A classic old-time strongman lift. Start with the kettlebell in rack position. Instead of pressing the bell up, bend your torso AWAY from the bell while keeping the arm locked and the bell stationary. Your body moves under the weight rather than pressing it overhead. Requires significant shoulder mobility, core stability, and hip flexibility. One of the most efficient ways to get heavy weight overhead with one arm."
+    "description": "A classic old-time strongman lift. Start with the kettlebell in rack position. Instead of pressing the bell up, bend your torso AWAY from the bell while keeping the arm locked and the bell stationary. Your body moves under the weight rather than pressing it overhead. Requires significant shoulder mobility, core stability, and hip flexibility. One of the most efficient ways to get heavy weight overhead with one arm.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://www.facebook.com/reel/1397870815215714",
+        "source": "facebook",
+        "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
+      }
+    ]
   },
   {
     "id": "kettlebell-chest-press",
@@ -5449,7 +5718,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Start with kettlebell on the floor. Clean it to the rack position at your shoulder by pulling it up close to your body and rotating your hand under. From the rack, press it overhead to full lockout. Lower back to rack, then back to the floor. Alternate sides or complete all reps on one side before switching."
+    "description": "Start with kettlebell on the floor. Clean it to the rack position at your shoulder by pulling it up close to your body and rotating your hand under. From the rack, press it overhead to full lockout. Lower back to rack, then back to the floor. Alternate sides or complete all reps on one side before switching.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2021395070084173978",
+        "source": "@sculptherbody",
+        "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
+      }
+    ]
   },
   {
     "id": "kettlebell-clean-and-squat",
@@ -5477,7 +5754,27 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Clean the kettlebell with both hands from the ground to the rack position at your chest, then immediately squat down until thighs are parallel. Drive through heels to stand. The two-hand clean makes this more beginner-friendly than a single-arm version. Explosive on the clean, controlled on the squat."
+    "description": "Clean the kettlebell with both hands from the ground to the rack position at your chest, then immediately squat down until thighs are parallel. Drive through heels to stand. The two-hand clean makes this more beginner-friendly than a single-arm version. Explosive on the clean, controlled on the squat.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2019499188610900125",
+        "source": "@Asgooch",
+        "caption": "Beginner Kettlebell Clean to Squat Demo"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021681074653311203",
+        "source": "@Asgooch",
+        "caption": "The Only Kettlebell Workout You Need"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2015520133985312910",
+        "source": "@Asgooch",
+        "caption": "Beginner One Kettlebell Full Body Workout"
+      }
+    ]
   },
   {
     "id": "kettlebell-close-grip-pushup",
@@ -5503,7 +5800,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Place a kettlebell on its side or use two kettlebells. Grip the handles with both hands in a close/narrow grip. Perform pushups from this position, keeping elbows tucked close to the body. The narrow grip shifts emphasis to the triceps and inner chest. The elevated hand position also increases range of motion compared to floor pushups."
+    "description": "Place a kettlebell on its side or use two kettlebells. Grip the handles with both hands in a close/narrow grip. Perform pushups from this position, keeping elbows tucked close to the body. The narrow grip shifts emphasis to the triceps and inner chest. The elevated hand position also increases range of motion compared to floor pushups.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2020611643718164517",
+        "source": "@Asgooch",
+        "caption": "Brutal Kettlebell Complex"
+      }
+    ]
   },
   {
     "id": "kettlebell-dead-clean",
@@ -5530,7 +5835,21 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "Clean the kettlebell from a dead stop on the floor to the rack position. Unlike a swing clean, each rep starts from a complete standstill — no momentum. Hinge at the hips, grip the bell, and explosively drive through the hips to pull it into the rack. The dead stop makes each rep harder and builds raw pulling power."
+    "description": "Clean the kettlebell from a dead stop on the floor to the rack position. Unlike a swing clean, each rep starts from a complete standstill — no momentum. Hinge at the hips, grip the bell, and explosively drive through the hips to pull it into the rack. The dead stop makes each rep harder and builds raw pulling power.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/asgooch/status/2020926315990483449",
+        "source": "@asgooch",
+        "caption": "Kettlebell Full Body Training Demo"
+      },
+      {
+        "type": "link",
+        "value": "https://www.facebook.com/reel/1397870815215714",
+        "source": "facebook",
+        "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
+      }
+    ]
   },
   {
     "id": "kettlebell-deadlift",
@@ -5581,7 +5900,15 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Place your feet on top of a kettlebell (on its side or upright) and perform pushups from this elevated position. The elevation shifts more load to the upper chest and shoulders compared to flat pushups. Keep your body in a straight line from head to heels. The slight instability from the kettlebell also engages your core. Modify on knees if needed."
+    "description": "Place your feet on top of a kettlebell (on its side or upright) and perform pushups from this elevated position. The elevation shifts more load to the upper chest and shoulders compared to flat pushups. Keep your body in a straight line from head to heels. The slight instability from the kettlebell also engages your core. Modify on knees if needed.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2015520133985312910",
+        "source": "@Asgooch",
+        "caption": "Beginner One Kettlebell Full Body Workout"
+      }
+    ]
   },
   {
     "id": "kettlebell-floor-press",
@@ -5604,7 +5931,15 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Lie on the floor with knees bent. Hold a kettlebell in one hand at shoulder level, elbow on the ground. Press the bell straight up to full extension, then lower until the upper arm touches the floor again. The floor limits range of motion and eliminates leg drive, isolating the pressing muscles. Great for building lockout strength."
+    "description": "Lie on the floor with knees bent. Hold a kettlebell in one hand at shoulder level, elbow on the ground. Press the bell straight up to full extension, then lower until the upper arm touches the floor again. The floor limits range of motion and eliminates leg drive, isolating the pressing muscles. Great for building lockout strength.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021681074653311203",
+        "source": "@Asgooch",
+        "caption": "The Only Kettlebell Workout You Need"
+      }
+    ]
   },
   {
     "id": "kettlebell-front-squat",
@@ -5629,7 +5964,54 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Clean one or two kettlebells to the rack position at shoulders. Feet shoulder-width apart, toes slightly out. Squat down keeping elbows high and chest proud. The front-loaded weight demands more core and upper-back engagement than a back squat. Drive through heels to stand. Double kettlebell version is significantly harder."
+    "description": "Clean one or two kettlebells to the rack position at shoulders. Feet shoulder-width apart, toes slightly out. Squat down keeping elbows high and chest proud. The front-loaded weight demands more core and upper-back engagement than a back squat. Drive through heels to stand. Double kettlebell version is significantly harder.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://www.facebook.com/reel/1397870815215714",
+        "source": "facebook",
+        "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2022366570052293012",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Cardio Complex"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-goblet-press",
+    "name": "Kettlebell Goblet Press",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "triceps",
+      "core",
+      "upper-back"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "upper-body",
+      "kettlebell",
+      "strength",
+      "push",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Hold the kettlebell at chest level by the horns in a goblet grip. Press it overhead with both hands until arms are fully extended, then lower back to chest. The two-handed grip makes this more stable and beginner-friendly than a single-arm press. Keep your core tight and avoid arching your back at the top.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2019227198805459434",
+        "source": "@Asgooch",
+        "caption": "20-Minute Full Body Kettlebell Circuit"
+      }
+    ]
   },
   {
     "id": "kettlebell-goblet-squat",
@@ -5654,7 +6036,33 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "A squat variation holding a kettlebell at chest height like a goblet. Stand with feet slightly wider than shoulder-width, toes pointed slightly outward. Hold the kettlebell by the horns (handles) at chest height, close to your body. Keeping your chest up and core tight, lower into a deep squat by pushing your hips back and bending your knees. Let your elbows track inside your knees at the bottom. Drive through your heels to stand back up. The front-loaded weight helps counterbalance and allows for a more upright torso, making this an excellent squat for building depth and proper form."
+    "description": "A squat variation holding a kettlebell at chest height like a goblet. Stand with feet slightly wider than shoulder-width, toes pointed slightly outward. Hold the kettlebell by the horns (handles) at chest height, close to your body. Keeping your chest up and core tight, lower into a deep squat by pushing your hips back and bending your knees. Let your elbows track inside your knees at the bottom. Drive through your heels to stand back up. The front-loaded weight helps counterbalance and allows for a more upright torso, making this an excellent squat for building depth and proper form.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/asgooch/status/2020926315990483449",
+        "source": "@asgooch",
+        "caption": "Kettlebell Full Body Training Demo"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2021260667601277363",
+        "source": "@powerbrutehq",
+        "caption": "Two Kettlebell Exercises for Massive Quads"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2019227198805459434",
+        "source": "@Asgooch",
+        "caption": "20-Minute Full Body Kettlebell Circuit"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2020611643718164517",
+        "source": "@Asgooch",
+        "caption": "Brutal Kettlebell Complex (A/B Stance)"
+      }
+    ]
   },
   {
     "id": "kettlebell-halo",
@@ -5678,7 +6086,21 @@
     ],
     "difficulty": "beginner",
     "duration": 45,
-    "description": "Hold the kettlebell upside down by the horns at chest level. Slowly rotate the bell around your head in a circle, passing it behind and back to the front. Keep your core tight, elbows close, and avoid moving your head. Alternate directions each rep. Great shoulder warmup and mobility exercise."
+    "description": "Hold the kettlebell upside down by the horns at chest level. Slowly rotate the bell around your head in a circle, passing it behind and back to the front. Keep your core tight, elbows close, and avoid moving your head. Alternate directions each rep. Great shoulder warmup and mobility exercise.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2021223932536226019",
+        "source": "@powerbrutehq",
+        "caption": "Kettlebell Core Exercises Library"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/gymfiesta/status/2020867535785148583",
+        "source": "@gymfiesta",
+        "caption": "Daily 100 Reps Kettlebell Routine"
+      }
+    ]
   },
   {
     "id": "kettlebell-high-pull",
@@ -5710,6 +6132,12 @@
         "value": "https://x.com/metabolicfactor/status/2023668997959348230",
         "source": "@metabolicfactor",
         "caption": "Daily Kettlebell Controlled Power Routine"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/gymfiesta/status/2020867535785148583",
+        "source": "@gymfiesta",
+        "caption": "Daily 100 Reps Kettlebell Routine"
       }
     ]
   },
@@ -5738,7 +6166,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Hold the kettlebell in rack position or at chest. Step wide to one side, pushing hips back and bending the lunging knee while keeping the trailing leg straight. The lateral movement hits the adductors and outer glutes more than a forward lunge. Push off the lunging foot to return to start."
+    "description": "Hold the kettlebell in rack position or at chest. Step wide to one side, pushing hips back and bending the lunging knee while keeping the trailing leg straight. The lateral movement hits the adductors and outer glutes more than a forward lunge. Push off the lunging foot to return to start.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://www.facebook.com/reel/1397870815215714",
+        "source": "facebook",
+        "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
+      }
+    ]
   },
   {
     "id": "kettlebell-lunge",
@@ -5763,7 +6199,127 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Hold one or two kettlebells at your sides (suitcase style) or in the rack position. Step forward into a lunge, lowering until both knees are at approximately 90 degrees. Drive through the front heel to return to standing. Alternate legs or complete all reps on one side. Rack position adds a core stability challenge."
+    "description": "Hold one or two kettlebells at your sides (suitcase style) or in the rack position. Step forward into a lunge, lowering until both knees are at approximately 90 degrees. Drive through the front heel to return to standing. Alternate legs or complete all reps on one side. Rack position adds a core stability challenge.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2021395070084173978",
+        "source": "@sculptherbody",
+        "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021681074653311203",
+        "source": "@Asgooch",
+        "caption": "The Only Kettlebell Workout You Need (Reverse Lunge)"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-lunge-clean-to-press",
+    "name": "Kettlebell Lunge Clean to Press",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "full-body",
+      "kettlebell",
+      "dynamic",
+      "explosive",
+      "strength",
+      "unilateral"
+    ],
+    "difficulty": "advanced",
+    "duration": 60,
+    "description": "Start in a lunge position holding a kettlebell. Clean it to the rack position while lunging forward, then press overhead as you drive back to standing. Combines three movements into one fluid chain — lunge, clean, press. Demands coordination, leg strength, and shoulder stability. Alternate sides each rep.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2021395070084173978",
+        "source": "@sculptherbody",
+        "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-lunge-snatch",
+    "name": "Kettlebell Lunge Snatch",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "shoulders",
+      "core",
+      "upper-back"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "full-body",
+      "kettlebell",
+      "dynamic",
+      "explosive",
+      "strength",
+      "unilateral"
+    ],
+    "difficulty": "advanced",
+    "duration": 60,
+    "description": "From standing, lunge forward while simultaneously snatching the kettlebell overhead in one fluid motion. Combines lower body power from the lunge with the explosive overhead pull of the snatch. Requires excellent coordination, shoulder stability, and leg strength. A true full-body athletic movement.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2021395070084173978",
+        "source": "@sculptherbody",
+        "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-offset-pushup",
+    "name": "Kettlebell Offset Push-Up",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "upper-body",
+      "kettlebell",
+      "strength",
+      "push",
+      "unilateral",
+      "calisthenics"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Place one hand on the kettlebell handle and the other on the floor. Perform a push-up with this asymmetric hand position. The elevated hand creates an offset that challenges core stability and shifts more load to the grounded arm. Alternate sides each set. Keep your body in a straight line throughout.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/asgooch/status/2013313157498880127",
+        "source": "@asgooch",
+        "caption": "Single Kettlebell Athletic Circuit"
+      }
+    ]
   },
   {
     "id": "kettlebell-overhead-lunge",
@@ -5792,7 +6348,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Hold a kettlebell locked out overhead in one hand. Step forward into a lunge, lowering until both knees are at 90 degrees. Keep the arm fully extended and torso upright throughout. Drive through the front heel to return to standing. The overhead position demands serious shoulder stability and core engagement while the legs do the heavy work."
+    "description": "Hold a kettlebell locked out overhead in one hand. Step forward into a lunge, lowering until both knees are at 90 degrees. Keep the arm fully extended and torso upright throughout. Drive through the front heel to return to standing. The overhead position demands serious shoulder stability and core engagement while the legs do the heavy work.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021254033797734405",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Overhead Mobility Complex"
+      }
+    ]
   },
   {
     "id": "kettlebell-overhead-press",
@@ -5816,7 +6380,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Hold the kettlebell in the rack position at shoulder height, elbow tucked close to ribs. Brace your core and press the bell overhead to full lockout, rotating the wrist so palm faces forward at the top. Lower back to rack under control. The offset load challenges core stability more than a barbell press."
+    "description": "Hold the kettlebell in the rack position at shoulder height, elbow tucked close to ribs. Brace your core and press the bell overhead to full lockout, rotating the wrist so palm faces forward at the top. Lower back to rack under control. The offset load challenges core stability more than a barbell press.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/asgooch/status/2020926315990483449",
+        "source": "@asgooch",
+        "caption": "Kettlebell Full Body Training Demo"
+      }
+    ]
   },
   {
     "id": "kettlebell-overhead-squat",
@@ -5845,7 +6417,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Hold a kettlebell locked out overhead in one hand. Squat down until thighs are at least parallel, keeping the arm fully extended and the bell directly over your shoulder. Drive through heels to stand. This demands excellent shoulder mobility, thoracic extension, and ankle flexibility. One of the best total-body stability exercises. Keep core braced and avoid arching the lower back."
+    "description": "Hold a kettlebell locked out overhead in one hand. Squat down until thighs are at least parallel, keeping the arm fully extended and the bell directly over your shoulder. Drive through heels to stand. This demands excellent shoulder mobility, thoracic extension, and ankle flexibility. One of the best total-body stability exercises. Keep core braced and avoid arching the lower back.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021254033797734405",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Overhead Mobility Complex"
+      }
+    ]
   },
   {
     "id": "kettlebell-push-press",
@@ -5872,7 +6452,50 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Hold the kettlebell in the rack position at your shoulder. Dip slightly at the knees (quarter squat), then explosively drive through the legs to help press the bell overhead to full lockout. The leg dip lets you move heavier weight than a strict press. Lower the bell back to rack under control. Power comes from the legs, not just the arms."
+    "description": "Hold the kettlebell in the rack position at your shoulder. Dip slightly at the knees (quarter squat), then explosively drive through the legs to help press the bell overhead to full lockout. The leg dip lets you move heavier weight than a strict press. Lower the bell back to rack under control. Power comes from the legs, not just the arms.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021254033797734405",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Overhead Mobility Complex"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-reverse-lunge-swing",
+    "name": "Kettlebell Reverse Lunge Swing",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "core",
+      "shoulders"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "full-body",
+      "kettlebell",
+      "dynamic",
+      "legs",
+      "unilateral",
+      "cardio"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Step back into a reverse lunge while swinging the kettlebell forward to shoulder height. The backward step and forward swing create a counter-balance effect. Drive through the front heel to return to standing as the bell swings back down. Alternate legs each rep. Builds leg power and cardiovascular endurance.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2021395070084173978",
+        "source": "@sculptherbody",
+        "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
+      }
+    ]
   },
   {
     "id": "kettlebell-row",
@@ -5898,7 +6521,94 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Hinge forward at hips to about 45 degrees, one hand on a bench or knee for support. With the other hand, pull the kettlebell from a dead hang to your hip, squeezing the shoulder blade at the top. Lower under control. Keep core braced and avoid rotating the torso."
+    "description": "Hinge forward at hips to about 45 degrees, one hand on a bench or knee for support. With the other hand, pull the kettlebell from a dead hang to your hip, squeezing the shoulder blade at the top. Lower under control. Keep core braced and avoid rotating the torso.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymfiesta/status/2020867535785148583",
+        "source": "@gymfiesta",
+        "caption": "Daily 100 Reps Kettlebell Routine"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2022366570052293012",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Cardio Complex"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2019227198805459434",
+        "source": "@Asgooch",
+        "caption": "20-Minute Full Body Kettlebell Circuit"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021254033797734405",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Overhead Mobility Complex"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-russian-twist",
+    "name": "Kettlebell Russian Twist",
+    "type": "weights",
+    "muscles": [
+      "core",
+      "obliques",
+      "hip-flexors"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "isolation",
+      "core",
+      "kettlebell",
+      "abs",
+      "rotational"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Sit on the floor with knees bent and feet slightly off the ground. Hold the kettlebell at chest level with both hands. Lean back slightly to engage the core, then rotate your torso side to side, touching the kettlebell to the floor on each side. Keep your back straight and control the rotation — don't just swing your arms.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2021223932536226019",
+        "source": "@powerbrutehq",
+        "caption": "Kettlebell Core Exercises Library"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-side-bend",
+    "name": "Kettlebell Side Bend",
+    "type": "weights",
+    "muscles": [
+      "obliques",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "isolation",
+      "core",
+      "kettlebell",
+      "abs",
+      "obliques"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Stand with feet shoulder-width apart, holding a kettlebell in one hand at your side. Slowly bend laterally toward the weighted side, lowering the bell along your leg. Use your obliques on the opposite side to pull you back upright. Keep hips square and avoid leaning forward or back. Controlled tempo — no momentum.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2021223932536226019",
+        "source": "@powerbrutehq",
+        "caption": "Kettlebell Core Exercises Library"
+      }
+    ]
   },
   {
     "id": "kettlebell-side-swing",
@@ -5930,6 +6640,47 @@
         "value": "https://x.com/metabolicfactor/status/2023668997959348230",
         "source": "@metabolicfactor",
         "caption": "Daily Kettlebell Controlled Power Routine"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/gymfiesta/status/2020867535785148583",
+        "source": "@gymfiesta",
+        "caption": "Daily 100 Reps Kettlebell Routine"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-split-stance-pass-through",
+    "name": "Kettlebell Split Stance Pass Through",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "core",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "lower-body",
+      "kettlebell",
+      "dynamic",
+      "legs",
+      "unilateral",
+      "coordination"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "In a split stance (lunge position), pass the kettlebell between your legs from one hand to the other while maintaining the lunge. The pass-through challenges grip and coordination while keeping the legs under constant tension. Stay low in the split stance throughout.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2021395070084173978",
+        "source": "@sculptherbody",
+        "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
       }
     ]
   },
@@ -5984,7 +6735,15 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Hold a kettlebell in one hand at your side like a suitcase. Hinge at the hips to lower the weight toward the ground while keeping your back straight and resisting the urge to lean to the loaded side. Drive through heels to stand tall. The offset load forces your core and obliques to work overtime to keep you upright. Great anti-lateral-flexion exercise."
+    "description": "Hold a kettlebell in one hand at your side like a suitcase. Hinge at the hips to lower the weight toward the ground while keeping your back straight and resisting the urge to lean to the loaded side. Drive through heels to stand tall. The offset load forces your core and obliques to work overtime to keep you upright. Great anti-lateral-flexion exercise.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2015520133985312910",
+        "source": "@Asgooch",
+        "caption": "Beginner One Kettlebell Full Body Workout"
+      }
+    ]
   },
   {
     "id": "kettlebell-sumo-deadlift",
@@ -6010,7 +6769,15 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Stand with feet wide apart, toes pointed out at about 45 degrees. Kettlebell centered between feet. Push hips back and bend knees to grab the bell with both hands. Keep chest tall and back flat. Drive through heels, squeeze glutes at the top to stand. The wide stance targets inner thighs and glutes more than a conventional deadlift."
+    "description": "Stand with feet wide apart, toes pointed out at about 45 degrees. Kettlebell centered between feet. Push hips back and bend knees to grab the bell with both hands. Keep chest tall and back flat. Drive through heels, squeeze glutes at the top to stand. The wide stance targets inner thighs and glutes more than a conventional deadlift.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2021260667601277363",
+        "source": "@powerbrutehq",
+        "caption": "Two Kettlebell Exercises for Massive Quads"
+      }
+    ]
   },
   {
     "id": "kettlebell-swing",
@@ -6037,7 +6804,45 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "Stand with feet shoulder-width apart, kettlebell on the floor slightly in front. Hinge at hips to grab the handle with both hands. Hike the bell back between legs then explosively drive hips forward to swing the kettlebell to chest height. Arms stay straight - power comes from the hip snap. Let it swing back between legs and repeat. Russian-style swing ends at chest height."
+    "description": "Stand with feet shoulder-width apart, kettlebell on the floor slightly in front. Hinge at hips to grab the handle with both hands. Hike the bell back between legs then explosively drive hips forward to swing the kettlebell to chest height. Arms stay straight - power comes from the hip snap. Let it swing back between legs and repeat. Russian-style swing ends at chest height.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/asgooch/status/2020926315990483449",
+        "source": "@asgooch",
+        "caption": "Kettlebell Full Body Training Demo"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/asgooch/status/2013313157498880127",
+        "source": "@asgooch",
+        "caption": "Single Kettlebell Athletic Circuit"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/gymfiesta/status/2020867535785148583",
+        "source": "@gymfiesta",
+        "caption": "Daily 100 Reps Kettlebell Routine"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2019227198805459434",
+        "source": "@Asgooch",
+        "caption": "20-Minute Full Body Kettlebell Circuit"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021681074653311203",
+        "source": "@Asgooch",
+        "caption": "The Only Kettlebell Workout You Need"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2020611643718164517",
+        "source": "@Asgooch",
+        "caption": "Brutal Kettlebell Complex"
+      }
+    ]
   },
   {
     "id": "kettlebell-swing-clean",
@@ -6064,7 +6869,21 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "A single-arm clean that starts from a swing. Hike the kettlebell back between legs, then use an explosive hip snap to swing it up and rotate it into the front rack position at your shoulder. Thumb should land on the collarbone, elbow tucked. The swing momentum makes the clean smoother than a dead clean from the floor."
+    "description": "A single-arm clean that starts from a swing. Hike the kettlebell back between legs, then use an explosive hip snap to swing it up and rotate it into the front rack position at your shoulder. Thumb should land on the collarbone, elbow tucked. The swing momentum makes the clean smoother than a dead clean from the floor.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/asgooch/status/2013313157498880127",
+        "source": "@asgooch",
+        "caption": "Single Kettlebell Athletic Circuit"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2022366570052293012",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Cardio Complex"
+      }
+    ]
   },
   {
     "id": "kettlebell-swing-snatch",
@@ -6093,7 +6912,27 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "Single-arm snatch starting from a swing. Hike the bell back, explosively drive hips forward, and guide the kettlebell overhead in one fluid motion. Punch through at the top to lock out the arm. Avoid letting the bell bang your forearm by keeping it close and rotating smoothly. The king of kettlebell exercises for cardio and power."
+    "description": "Single-arm snatch starting from a swing. Hike the bell back, explosively drive hips forward, and guide the kettlebell overhead in one fluid motion. Punch through at the top to lock out the arm. Avoid letting the bell bang your forearm by keeping it close and rotating smoothly. The king of kettlebell exercises for cardio and power.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/asgooch/status/2020926315990483449",
+        "source": "@asgooch",
+        "caption": "Kettlebell Full Body Training Demo"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2022366570052293012",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Cardio Complex"
+      },
+      {
+        "type": "link",
+        "value": "https://x.com/Asgooch/status/2021254033797734405",
+        "source": "@Asgooch",
+        "caption": "Single Kettlebell Overhead Mobility Complex"
+      }
+    ]
   },
   {
     "id": "kettlebell-tactical-clean",
@@ -6119,7 +6958,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "A clean variation that emphasizes control and precision. From the floor or hang position, clean the kettlebell to rack using a threading or rotational motion. Often used as a transition movement in kettlebell flows and complexes. The 'tactical' element comes from the controlled, deliberate nature of the movement — no unnecessary momentum."
+    "description": "A clean variation that emphasizes control and precision. From the floor or hang position, clean the kettlebell to rack using a threading or rotational motion. Often used as a transition movement in kettlebell flows and complexes. The 'tactical' element comes from the controlled, deliberate nature of the movement — no unnecessary momentum.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://www.facebook.com/reel/1397870815215714",
+        "source": "facebook",
+        "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
+      }
+    ]
   },
   {
     "id": "kettlebell-thruster",
@@ -6148,6 +6995,37 @@
     "description": "Hold one or two kettlebells in the rack position at shoulders. Squat down to at least parallel, then explosively drive up and use the momentum to press the kettlebells overhead. Lock out at the top, then lower bells back to rack as you descend into the next squat in one fluid motion. Great metabolic conditioning exercise."
   },
   {
+    "id": "kettlebell-triceps-extension",
+    "name": "Kettlebell Triceps Extension",
+    "type": "weights",
+    "muscles": [
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "isolation",
+      "upper-body",
+      "kettlebell",
+      "strength",
+      "arms"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Hold the kettlebell by the horns overhead with both hands, arms fully extended. Keeping your elbows close to your head and pointed forward, lower the bell behind your head by bending at the elbows. Press back up to full extension. Keep your core tight and avoid arching your back.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymfiesta/status/2020867535785148583",
+        "source": "@gymfiesta",
+        "caption": "Daily 100 Reps Kettlebell Routine"
+      }
+    ]
+  },
+  {
     "id": "kettlebell-turkish-getup",
     "name": "Kettlebell Turkish Get-Up",
     "type": "weights",
@@ -6172,6 +7050,41 @@
     "difficulty": "advanced",
     "duration": 90,
     "description": "Start lying on the floor, kettlebell locked out overhead in one hand. Methodically rise to standing through a series of positions: roll to elbow, post to hand, bridge hips, sweep leg through to half-kneeling, then stand. Reverse the sequence to return to the floor. Keep eyes on the bell and arm locked out throughout. One of the best full-body stability exercises."
+  },
+  {
+    "id": "kettlebell-windmill",
+    "name": "Kettlebell Windmill",
+    "type": "weights",
+    "muscles": [
+      "obliques",
+      "core",
+      "shoulders",
+      "hamstrings",
+      "hips"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "core",
+      "kettlebell",
+      "mobility",
+      "overhead",
+      "unilateral",
+      "skill-work"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Press the kettlebell overhead with one arm and lock it out. Turn your feet about 45 degrees away from the loaded side. Keeping your eyes on the bell, slowly hinge at the hip and lower your free hand toward your front foot. The overhead arm stays locked out the entire time. Reverse to standing. Demands serious hip mobility, oblique strength, and shoulder stability.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2021223932536226019",
+        "source": "@powerbrutehq",
+        "caption": "Kettlebell Core Exercises Library"
+      }
+    ]
   },
   {
     "id": "knee-push-up",
@@ -6584,6 +7497,29 @@
     "difficulty": "intermediate",
     "duration": 60,
     "description": "Lie on your back with both legs raised to about 45-60 degrees off the floor. Perform flutter kicks in this elevated position - small, rapid alternating kicks. Keep your lower back pressed into the floor and shoulders slightly lifted. The elevated starting position increases the challenge."
+  },
+  {
+    "id": "low-to-high-cable-fly",
+    "name": "Low to High Cable Fly",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "isolation",
+      "push",
+      "upper-body",
+      "gym",
+      "cable",
+      "chest"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Sit on a bench between two low cable pulleys with cuff attachments around your wrists. Start with arms down and slightly behind you. Sweep your arms upward and inward in a wide arc, bringing them together in front of your upper chest. Squeeze the upper chest at the top, then lower with control back to the stretch position. The low-to-high angle targets the clavicular (upper) chest fibers."
   },
   {
     "id": "lower-back-raises",
@@ -7052,6 +7988,29 @@
     "description": "Sit with back flat against pad, elbows at 90 degrees on the arm pads. Squeeze your chest to bring the pads together in front of you. Focus on the contraction at the center, not just moving the weight. Control the movement back, feeling the stretch in your chest. Keep shoulders down and avoid shrugging. Excellent for chest isolation and mind-muscle connection."
   },
   {
+    "id": "pendulum-squat",
+    "name": "Pendulum Squat",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "lower-body",
+      "gym",
+      "machine",
+      "squat",
+      "quads"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Stand on the pendulum squat platform with shoulders under the pads and feet positioned forward on the plate. Descend by bending at the knees, allowing the pendulum arm to swing back as you lower into a deep squat. Drive through your feet to return to the top, squeezing the quads at lockout. The pendulum arc heavily loads the quads while reducing spinal compression."
+  },
+  {
     "id": "penguins",
     "name": "Penguins",
     "type": "calisthenics",
@@ -7224,6 +8183,54 @@
     "difficulty": "intermediate",
     "duration": 45,
     "description": "Lie on your back with arms extended overhead and legs together and straight. In one controlled movement, pike up by lifting both your legs and torso simultaneously, reaching your hands toward your feet at the top. Lower back down with control, keeping legs together throughout. This is the foundational pike movement used in dance and gymnastics conditioning."
+  },
+  {
+    "id": "pin-loaded-chest-press",
+    "name": "Pin Loaded Chest Press",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "gym",
+      "machine",
+      "chest"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit upright in the pin loaded chest press machine with back flat against the pad and handles at mid-chest height. Press the handles forward, extending your arms without locking elbows. Squeeze the chest at full extension and return with control. The vertical seated position and pin loaded weight stack make this machine easy to adjust between sets and ideal for drop sets."
+  },
+  {
+    "id": "pin-loaded-incline-press",
+    "name": "Pin Loaded Incline Press",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "gym",
+      "machine",
+      "chest"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit in the pin loaded incline press machine with back against the angled pad and handles at upper chest height. Press the handles forward and upward, extending your arms without locking elbows. The incline angle targets the upper chest and front delts. The pin loaded weight stack allows quick resistance changes, making it convenient for intensity techniques like drop sets."
   },
   {
     "id": "pistol-squat",
@@ -7689,6 +8696,54 @@
     "description": "Start in a high plank position. Keeping your hips level and core tight, extend one arm straight out in front of you. Hold briefly, then return to plank. Alternate arms. Focus on preventing hip rotation and maintaining a stable plank position throughout."
   },
   {
+    "id": "plate-loaded-chest-press",
+    "name": "Plate Loaded Chest Press",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "gym",
+      "machine",
+      "chest"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Lie back on the flat plate loaded press machine with feet on the floor. Grip the handles at chest level and press forward, extending your arms without locking the elbows. Squeeze the chest at full extension and return with control. Plate loaded machines allow independent arm movement and a more natural pressing arc compared to pin-loaded alternatives."
+  },
+  {
+    "id": "plate-loaded-incline-press",
+    "name": "Plate Loaded Incline Press",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "gym",
+      "machine",
+      "chest"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Sit in the incline plate loaded press machine with your back against the angled pad. Grip the handles at upper chest level and press forward and upward, extending your arms without locking the elbows. The incline angle emphasizes the upper chest and front delts. Lower with control to a deep stretch across the chest before pressing again."
+  },
+  {
     "id": "plie-squat",
     "name": "Plié Squats",
     "type": "barre",
@@ -8142,6 +9197,30 @@
     "description": "Stand in front of a stability ball with one foot placed on top of the ball behind you (Bulgarian split squat position with ball). Keep your front foot firmly planted and core engaged. Lower your body by bending your front knee until your thigh is parallel to the ground. Push through your front heel to return to standing. The unstable surface of the ball increases core and stabilizer engagement."
   },
   {
+    "id": "rear-delt-fly-machine",
+    "name": "Rear Delt Fly Machine",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "upper-back"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "pull",
+      "upper-body",
+      "gym",
+      "machine",
+      "shoulders",
+      "rear-delts"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit facing the pad on a reverse pec deck machine and grip the handles with arms extended at chest height. Open your arms out to the sides in a wide arc, squeezing the rear delts and upper back at full contraction. Return slowly with control. Keep a slight bend in the elbows and avoid using momentum. Focus on initiating the movement from the rear delts rather than the traps."
+  },
+  {
     "id": "releve",
     "name": "Relevé (Calf Raises)",
     "type": "barre",
@@ -8548,6 +9627,28 @@
     "description": "Lie on your back with legs extended and shoulders slightly lifted. Raise both legs off the floor. Cross one leg over the other in a controlled scissoring motion, then switch - alternating which leg is on top. Keep legs straight and core engaged throughout. Unlike flutter kicks (up/down), scissor kicks move legs side-to-side, crossing over and under each other."
   },
   {
+    "id": "seated-behind-back-cable-curl",
+    "name": "Seated Behind Back Cable Curl",
+    "type": "weights",
+    "muscles": [
+      "biceps"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "isolation",
+      "pull",
+      "upper-body",
+      "gym",
+      "cable",
+      "biceps"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Set a low cable behind a bench. Sit facing away from the cable and grasp the handle behind you with arm extended. Curl the weight forward and up by flexing at the elbow, squeezing the bicep at the top. Lower with control back to a full stretch. This position places the long head of the biceps under greater stretch, emphasizing its development."
+  },
+  {
     "id": "seated-cable-row",
     "name": "Seated Cable Row",
     "type": "weights",
@@ -8596,6 +9697,72 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Sit on a bench with back support, holding dumbbells at shoulder height with palms facing forward. Press the weights overhead until arms are fully extended. Lower back to shoulder height with control. The seated position provides more stability and allows you to focus on shoulder strength without core compensation."
+  },
+  {
+    "id": "seated-leg-curl",
+    "name": "Seated Leg Curl",
+    "type": "weights",
+    "muscles": [
+      "hamstrings"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "lower-body",
+      "gym",
+      "machine",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit in the machine with back against the pad and the ankle roller positioned just above your heels. Secure the thigh pad snugly above your knees. Curl your heels downward and underneath the seat, squeezing the hamstrings at full contraction. Return slowly to the start position. The seated position places the hamstrings in a stretched position at the hip, making this variation effective for muscle growth."
+  },
+  {
+    "id": "seated-machine-overhead-press",
+    "name": "Seated Machine Overhead Press",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "gym",
+      "machine",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Adjust the seat so the handles start at shoulder height. Sit with back firmly against the pad and press the handles overhead, extending arms without fully locking the elbows. Lower the weight with control back to shoulder level. Keep your core braced and avoid arching your lower back. The machine path ensures consistent shoulder engagement."
+  },
+  {
+    "id": "seated-pec-fly-machine",
+    "name": "Seated Pec Fly Machine",
+    "type": "weights",
+    "muscles": [
+      "chest"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "push",
+      "upper-body",
+      "gym",
+      "machine",
+      "chest"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit with your back flat against the pad and grip the handles or place forearms against the pads at chest height. Bring the arms together in a hugging motion, squeezing the chest hard at the midpoint. Return slowly to the start position with a deep stretch across the chest. Keep a slight bend in the elbows throughout."
   },
   {
     "id": "shoulder-press-machine",
@@ -8844,6 +10011,52 @@
     "description": "A controlled oblique activation exercise that emphasizes lateral core stability. Lie on your back with knees bent, feet flat on the floor about hip-width apart. Arms straight by your sides, palms down. Lift your head and shoulders slightly off the mat into a mini-crunch position - just enough to engage your abs but not straining your neck. MAINTAINING this position with your core engaged, reach your right hand toward your right heel by side-bending through your waist - sliding your hand along the floor. You should feel your right oblique contract. Return to center, then reach your left hand toward your left heel. Move SLOWLY and with control - this is not about speed. Keep your lower back pressed into the mat throughout. The movement is a controlled side-bend, not a full twist. Think of shortening one side of your waist while lengthening the other. Each reach (left or right) = 1 rep. Alternate sides smoothly. If your neck gets tired, rest briefly and resume."
   },
   {
+    "id": "single-arm-lat-pulldown",
+    "name": "Single Arm Lat Pulldown",
+    "type": "weights",
+    "muscles": [
+      "lats",
+      "back",
+      "biceps"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "upper-body",
+      "gym",
+      "cable",
+      "back"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Attach a single handle to a high cable pulley. Sit or kneel and grasp the handle with one hand, pulling it down toward your hip while driving the elbow down and back. Squeeze the lat at the bottom, then control the weight back up for a full stretch. Perform all reps on one side before switching. This unilateral movement helps correct imbalances and improves back width."
+  },
+  {
+    "id": "single-arm-preacher-cable-curl",
+    "name": "Single Arm Preacher Cable Curl",
+    "type": "weights",
+    "muscles": [
+      "biceps"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "isolation",
+      "pull",
+      "upper-body",
+      "gym",
+      "cable",
+      "biceps"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Set a low cable near a preacher bench. Rest one arm over the preacher pad and grasp the cable handle with an underhand grip. Curl the weight up by flexing at the elbow, squeezing the bicep at the top. Lower with control to a full stretch at the bottom. The preacher pad prevents swinging and the cable provides constant tension throughout the range of motion."
+  },
+  {
     "id": "single-leg-deadlift",
     "name": "Single Leg Deadlift",
     "type": "calisthenics",
@@ -9019,6 +10232,38 @@
     "difficulty": "intermediate",
     "duration": 60,
     "description": "A single-leg Romanian deadlift holding a kettlebell for added resistance. Stand on your left leg holding a kettlebell in your right hand. Keep a soft bend in your standing knee. Hinge at the hips, extending your right leg straight behind you for counterbalance while lowering the kettlebell toward the floor. Keep your back flat and core engaged - your body should form a T-shape at the bottom. Lower until you feel a deep stretch in your standing leg hamstring. Squeeze your glute to return to standing. Complete all reps on one side before switching. The kettlebell adds load while challenging balance and single-leg stability."
+  },
+  {
+    "id": "sissy-squat",
+    "name": "Sissy Squat",
+    "type": "calisthenics",
+    "muscles": [
+      "quads",
+      "hip-flexors",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "isolation",
+      "lower-body",
+      "legs",
+      "quads",
+      "calisthenics",
+      "bodyweight"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Stand with feet shoulder-width apart. Lean your torso back while bending at the knees, keeping hips extended forward. Lower as far as possible until quads are fully stretched and engaged, then push back up through the quads. Use a wall or support for balance if needed. Zero spinal load — all quad isolation. Great for building quad size without lower back strain.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2023337870384062747",
+        "source": "@powerbrutehq",
+        "caption": "Spine-Friendly Quad Sissy Squat"
+      }
+    ]
   },
   {
     "id": "situp-leg-crunch",
@@ -9996,6 +11241,29 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Stand facing a box or bench that's about knee height. Place one foot fully on the platform. Drive through the heel of the elevated foot to step up onto the platform, bringing the other foot up to meet it. Step back down with the same leg leading, or alternate legs. Hold dumbbells at sides, a kettlebell at chest, a barbell across back, or use a Smith machine for added resistance. Keep your chest up and core engaged throughout."
+  },
+  {
+    "id": "sternal-pecs-machine-press",
+    "name": "Sternal Pecs Machine Press",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "triceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "gym",
+      "machine",
+      "chest"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Adjust the seat so the handles align with the lower portion of your chest, targeting the sternal (lower) chest fibers. Press the handles forward with a slight downward angle, squeezing the lower chest at full extension. Return with control, keeping your back flat against the pad and feet planted on the floor."
   },
   {
     "id": "stomach-vacuum",

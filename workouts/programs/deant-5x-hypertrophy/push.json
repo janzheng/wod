@@ -1,0 +1,88 @@
+{
+  "id": "deant-5x-push",
+  "name": "Push",
+  "description": "Push day — chest, shoulders, triceps. Mix of machine presses, flys, and isolation work.",
+  "routineId": "gym",
+  "tags": ["hypertrophy", "push", "upper-body", "gym", "program", "deant-5x"],
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+  "difficulty": "intermediate",
+  "estimatedDuration": 55,
+  "equipment": ["machine", "cable"],
+  "sets": [
+    {
+      "id": "push-1",
+      "name": "Sternal Pecs Machine Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "sternal-pecs-machine-press" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "push-2",
+      "name": "Low to High Cable Flys",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "low-to-high-cable-fly" }, "reps": "5-10", "notes": "0-1 RIR, cuffed" }
+      ]
+    },
+    {
+      "id": "push-3",
+      "name": "Pec Fly Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "pec-deck-fly" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "push-4",
+      "name": "Seated Machine OHP",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-machine-overhead-press" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "push-5",
+      "name": "Cable Lateral Raises",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "cable-lateral-raise" }, "reps": "5-10", "notes": "0-1 RIR, cuffed, each arm" }
+      ]
+    },
+    {
+      "id": "push-6",
+      "name": "Single Arm Tricep Pushdowns",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "cable-tricep-pushdown" }, "reps": "5-10", "notes": "0-1 RIR, each arm" }
+      ]
+    },
+    {
+      "id": "push-7",
+      "name": "Overhead Tricep Extensions",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "overhead-tricep-extension" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    }
+  ],
+  "tips": [
+    "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+    "2 minutes rest between working sets is the FLOOR — 3 or more preferred"
+  ]
+}

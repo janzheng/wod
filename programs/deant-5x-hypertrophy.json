@@ -1,0 +1,88 @@
+{
+  "id": "deant-5x-hypertrophy",
+  "name": "5x/Week Hypertrophy Split",
+  "description": "Upper/Lower/Pull/Push/Legs split. Probably produces more gains than any other 5-day program. All working sets at 0-1 RIR, 5-10 reps, 2+ min rest.",
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+  "frequency": 5,
+  "phase": "hypertrophy",
+  "difficulty": "intermediate",
+  "equipment": ["machine", "cable", "dumbbell"],
+  "tags": ["hypertrophy", "5-day", "upper-lower", "push-pull", "gym", "intermediate"],
+  "schedule": [
+    {
+      "day": 1,
+      "label": "UPPER",
+      "type": "workout",
+      "workoutId": "deant-5x-upper"
+    },
+    {
+      "day": 2,
+      "label": "LOWER A",
+      "type": "workout",
+      "workoutId": "deant-5x-lower-a"
+    },
+    {
+      "day": 3,
+      "label": "OFF / Zone 2",
+      "type": "choice",
+      "options": [
+        { "label": "Rest", "type": "rest" },
+        {
+          "label": "Zone 2 Cardio",
+          "type": "activity",
+          "activity": {
+            "name": "Zone 2 Cardio",
+            "duration": 30,
+            "intensity": "easy",
+            "notes": "Heart rate 120-140bpm. Walk, bike, or light jog."
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "label": "PULL",
+      "type": "workout",
+      "workoutId": "deant-5x-pull"
+    },
+    {
+      "day": 5,
+      "label": "PUSH",
+      "type": "workout",
+      "workoutId": "deant-5x-push"
+    },
+    {
+      "day": 6,
+      "label": "LOWER B",
+      "type": "workout",
+      "workoutId": "deant-5x-lower-b"
+    },
+    {
+      "day": 7,
+      "label": "OFF / Zone 2",
+      "type": "choice",
+      "options": [
+        { "label": "Rest", "type": "rest" },
+        {
+          "label": "Zone 2 Cardio",
+          "type": "activity",
+          "activity": {
+            "name": "Zone 2 Cardio",
+            "duration": 30,
+            "intensity": "easy",
+            "notes": "Heart rate 120-140bpm. Walk, bike, or light jog."
+          }
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+    "If you don't trust your RIR gauge, take sets to ~0 RIR/failure",
+    "Do NOT take 50/50 reps on hack squats or SLDLs to avoid bad positions",
+    "2 minutes rest between working sets is the FLOOR — 3 or more preferred",
+    "60-90 seconds rest between warmup sets is fine"
+  ],
+  "restGuidelines": "0-1 RIR on all working sets. 2+ min rest between working sets (3+ preferred). 60-90s between warmup sets."
+}

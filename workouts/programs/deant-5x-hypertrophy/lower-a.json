@@ -1,0 +1,88 @@
+{
+  "id": "deant-5x-lower-a",
+  "name": "Lower A",
+  "description": "Lower body hypertrophy — quads, hamstrings, calves, adductors, abs. All working sets at 0-1 RIR.",
+  "routineId": "gym",
+  "tags": ["hypertrophy", "lower-body", "gym", "program", "deant-5x"],
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+  "difficulty": "intermediate",
+  "estimatedDuration": 55,
+  "equipment": ["machine"],
+  "sets": [
+    {
+      "id": "lower-a-1",
+      "name": "Seated Leg Curls",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-leg-curl" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-a-2",
+      "name": "Leg Extensions",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "leg-extension-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-a-3",
+      "name": "45° Extensions",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "45-degree-back-extension" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-a-4",
+      "name": "Calf Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "calf-press" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-a-5",
+      "name": "Leg Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "leg-press" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-a-6",
+      "name": "Adduction Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "hip-adductor-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-a-7",
+      "name": "Ab Crunch Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "ab-crunch-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    }
+  ],
+  "tips": [
+    "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+    "2 minutes rest between working sets is the FLOOR — 3 or more preferred"
+  ]
+}
