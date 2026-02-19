@@ -1,0 +1,89 @@
+{
+  "id": "deant-5x-lower-b",
+  "name": "Lower B",
+  "description": "Lower body B — heavier compounds (hack squats, SLDLs) plus quads, hamstrings, calves, glutes, abs.",
+  "routineId": "gym",
+  "tags": ["hypertrophy", "lower-body", "gym", "program", "deant-5x"],
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2023865514771247225",
+  "difficulty": "intermediate",
+  "estimatedDuration": 55,
+  "equipment": ["machine", "dumbbell"],
+  "sets": [
+    {
+      "id": "lower-b-1",
+      "name": "Leg Extensions",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "leg-extension-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-b-2",
+      "name": "Seated Leg Curls",
+      "type": "exercises",
+      "rounds": 3,
+      "restBetween": 150,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-leg-curl" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-b-3",
+      "name": "Pendulum / Hack Squats",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "pendulum-squat" }, "reps": "5-10", "notes": "0-1 RIR. Do NOT take 50/50 reps — avoid susceptible positions." }
+      ]
+    },
+    {
+      "id": "lower-b-4",
+      "name": "Stiff-Legged Deadlifts",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "romanian-deadlift" }, "reps": "5-10", "notes": "0-1 RIR. Do NOT take 50/50 reps." }
+      ]
+    },
+    {
+      "id": "lower-b-5",
+      "name": "Calf Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "calf-press" }, "reps": "5-10", "notes": "0-1 RIR, partial reps dorsiflexed to neutral" }
+      ]
+    },
+    {
+      "id": "lower-b-6",
+      "name": "Glute Bridge Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "glute-bridge-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    },
+    {
+      "id": "lower-b-7",
+      "name": "Ab Crunch Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 120,
+      "exercises": [
+        { "criteria": { "exerciseId": "ab-crunch-machine" }, "reps": "5-10", "notes": "0-1 RIR" }
+      ]
+    }
+  ],
+  "tips": [
+    "All working sets prescribed at 0-1 RIR, with 1 RIR preferred",
+    "Do NOT take 50/50 reps on hack squats or SLDLs to avoid injury",
+    "2 minutes rest between working sets is the FLOOR — 3 or more preferred"
+  ]
+}

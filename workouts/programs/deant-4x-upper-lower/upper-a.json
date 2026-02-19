@@ -1,0 +1,109 @@
+{
+  "id": "deant-4x-upper-a",
+  "name": "Upper A",
+  "description": "Upper body workout A — emphasis on plate-loaded presses and flared-elbow rows. All sets at ~1 RIR with 4-5 min rest.",
+  "routineId": "gym",
+  "tags": ["hypertrophy", "upper-body", "gym", "program", "deant-4x"],
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2024204747071181200",
+  "difficulty": "intermediate",
+  "estimatedDuration": 50,
+  "equipment": ["machine", "cable", "dumbbell"],
+  "sets": [
+    {
+      "id": "ua-1",
+      "name": "Plate Loaded Chest Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 270,
+      "exercises": [
+        { "criteria": { "exerciseId": "plate-loaded-chest-press" }, "reps": "5-7", "notes": "~1 RIR, supine (flat)" }
+      ]
+    },
+    {
+      "id": "ua-2",
+      "name": "Chest Supported T-Bar Rows",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 270,
+      "exercises": [
+        { "criteria": { "exerciseId": "chest-supported-t-bar-row" }, "reps": "5-8", "notes": "~1 RIR, elbows flared" }
+      ]
+    },
+    {
+      "id": "ua-3",
+      "name": "Plate Loaded Incline Press",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 270,
+      "exercises": [
+        { "criteria": { "exerciseId": "plate-loaded-incline-press" }, "reps": "5-8", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "ua-4",
+      "name": "Single Arm Lat Pulldown",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 240,
+      "exercises": [
+        { "criteria": { "exerciseId": "single-arm-lat-pulldown" }, "reps": "6-10", "notes": "~1 RIR, each arm" }
+      ]
+    },
+    {
+      "id": "ua-5",
+      "name": "Cuffed Cable Lateral Raises",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "cable-lateral-raise" }, "reps": "6-10", "notes": "~1 RIR, cuffed, each arm" }
+      ]
+    },
+    {
+      "id": "ua-6",
+      "name": "Seated BTB Cable Curls",
+      "type": "exercises",
+      "rounds": 1,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "seated-behind-back-cable-curl" }, "reps": "6-10", "notes": "~1 RIR" }
+      ]
+    },
+    {
+      "id": "ua-7",
+      "name": "Seated DB Hammer Curls",
+      "type": "exercises",
+      "rounds": 1,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "hammer-curl" }, "reps": "6-10", "notes": "~1 RIR, seated" }
+      ]
+    },
+    {
+      "id": "ua-8",
+      "name": "Overhead Tricep Extension Machine",
+      "type": "exercises",
+      "rounds": 2,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "overhead-tricep-extension" }, "reps": "6-10", "notes": "~1 RIR, full stretch at bottom" }
+      ]
+    },
+    {
+      "id": "ua-9",
+      "name": "Shrugs",
+      "type": "exercises",
+      "rounds": 1,
+      "restBetween": 180,
+      "exercises": [
+        { "criteria": { "exerciseId": "dumbbell-shrug" }, "reps": "6-10", "notes": "~1 RIR, hold at top" }
+      ]
+    }
+  ],
+  "tips": [
+    "4-5 minutes rest between sets",
+    "Same plan used for both bulking and cutting phases",
+    "What built you the muscle will help you retain the muscle"
+  ]
+}

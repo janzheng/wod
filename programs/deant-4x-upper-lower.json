@@ -1,0 +1,78 @@
+{
+  "id": "deant-4x-upper-lower",
+  "name": "4x/Week Upper/Lower Split",
+  "description": "Upper/Lower split with A/B variations. 4 training days + 3 Zone 2 cardio sessions. Use the same plan bulking or cutting — what built the muscle retains the muscle.",
+  "creator": "@deanttraining",
+  "sourceUrl": "https://x.com/deanttraining/status/2024204747071181200",
+  "frequency": 4,
+  "difficulty": "intermediate",
+  "equipment": ["machine", "cable", "dumbbell"],
+  "tags": ["4-day", "upper-lower", "gym", "intermediate", "hypertrophy"],
+  "schedule": [
+    {
+      "day": 1,
+      "label": "UPPER A",
+      "type": "workout",
+      "workoutId": "deant-4x-upper-a"
+    },
+    {
+      "day": 2,
+      "label": "LOWER A",
+      "type": "workout",
+      "workoutId": "deant-4x-lower-a"
+    },
+    {
+      "day": 3,
+      "label": "Zone 2 Cardio",
+      "type": "activity",
+      "activity": {
+        "name": "Zone 2 Cardio",
+        "duration": 30,
+        "intensity": "easy",
+        "notes": "Heart rate 120-140bpm. Walk, bike, or light jog."
+      }
+    },
+    {
+      "day": 4,
+      "label": "UPPER B",
+      "type": "workout",
+      "workoutId": "deant-4x-upper-b"
+    },
+    {
+      "day": 5,
+      "label": "LOWER B",
+      "type": "workout",
+      "workoutId": "deant-4x-lower-b"
+    },
+    {
+      "day": 6,
+      "label": "Zone 2 Cardio",
+      "type": "activity",
+      "activity": {
+        "name": "Zone 2 Cardio",
+        "duration": 30,
+        "intensity": "easy",
+        "notes": "Heart rate 120-140bpm. Walk, bike, or light jog."
+      }
+    },
+    {
+      "day": 7,
+      "label": "Zone 2 Cardio",
+      "type": "activity",
+      "activity": {
+        "name": "Zone 2 Cardio",
+        "duration": 30,
+        "intensity": "easy",
+        "notes": "Heart rate 120-140bpm. Walk, bike, or light jog."
+      }
+    }
+  ],
+  "tips": [
+    "Same leg day repeated twice per week",
+    "4-5 minutes rest between sets",
+    "The plan you run while bulking should be the SAME plan you run while cutting",
+    "What built you the muscle will help you retain the muscle",
+    "Programming should remain largely unchanged when shifting from surplus to deficit"
+  ],
+  "restGuidelines": "~1 RIR on all working sets. 4-5 minutes rest between sets."
+}

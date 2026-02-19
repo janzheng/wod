@@ -147,6 +147,26 @@ app.get("/api/progressions", async (c) => {
   return c.json(progressions);
 });
 
+app.get("/api/programs", async (c) => {
+  const programs = [];
+  try {
+    for await (const entry of Deno.readDir(new URL("./programs", import.meta.url))) {
+      if (entry.name.endsWith(".json")) {
+        const data = await readJson(`./programs/${entry.name}`);
+        if (data) programs.push(data);
+      }
+    }
+  } catch { /* programs directory may not exist yet */ }
+  return c.json(programs);
+});
+
+app.get("/api/programs/:id", async (c) => {
+  const id = c.req.param("id");
+  const data = await readJson(`./programs/${id}.json`);
+  if (!data) return c.json({ error: "Not found" }, 404);
+  return c.json(data);
+});
+
 // Serve static files (images, js, sounds)
 app.get("/static/*", async (c) => {
   const path = c.req.path.replace("/static/", "./static/");
@@ -304,6 +324,41 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
             </nav>
           </div>
 
+          <template x-if="programs.length > 0">
+          <div class="sidebar-group">
+            <div class="sidebar-group-label">Programs</div>
+            <div class="folder-tree">
+              <template x-for="(program, progIdx) in programs" :key="'prog-' + progIdx + '-' + program.id">
+                <div class="folder-tree-folder" x-data="{ expanded: false }">
+                  <div class="folder-tree-folder-row" @click="expanded = !expanded">
+                    <button class="folder-tree-toggle" @click.stop="expanded = !expanded">
+                      <svg class="folder-tree-chevron" :class="{ 'rotated': expanded }" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                      </svg>
+                    </button>
+                    <span class="iconify folder-tree-icon" data-icon="lucide:calendar-days"></span>
+                    <span class="folder-tree-name" x-text="program.name"></span>
+                    <span class="folder-tree-count" x-text="program.frequency + 'x/wk'"></span>
+                  </div>
+                  <div class="folder-tree-contents" x-show="expanded" x-collapse>
+                    <template x-for="(day, dayIdx) in program.schedule" :key="'prog-day-' + progIdx + '-' + dayIdx">
+                      <div class="folder-tree-item"
+                        :class="{ 'active': (day.workoutId && selectedWorkoutId === day.workoutId) || (!day.workoutId && selectedActivity && selectedActivity._dayKey === (program.id + '-' + day.day)) }"
+                        :style="day.type === 'rest' ? 'opacity: 0.5; cursor: default;' : ''"
+                        @click="day.type === 'workout' && day.workoutId ? selectWorkout(day.workoutId) : (day.type !== 'rest' ? selectActivity(day, program) : null)">
+                        <button class="folder-tree-item-btn" :style="day.type === 'rest' ? 'cursor: default;' : ''">
+                          <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;" x-text="day.day"></span>
+                          <span x-text="day.label || (day.type === 'rest' ? 'REST' : day.activity?.name || 'Day ' + day.day)"></span>
+                        </button>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+              </template>
+            </div>
+          </div>
+          </template>
+
           <div class="sidebar-group">
             <div class="sidebar-group-label">Categories</div>
             <div class="folder-tree">
@@ -354,17 +409,98 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         <button class="sidebar-trigger" @click="sidebarOpen = !sidebarOpen">
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
-        <h1 class="sidebar-inset-title" x-text="selectedWorkout ? selectedWorkout.name : 'Select a Workout'"></h1>
+        <h1 class="sidebar-inset-title" x-text="selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')"></h1>
       </header>
 
       <div class="sidebar-inset-content">
-        <template x-if="!selectedWorkout && !loading">
+        <template x-if="!selectedWorkout && !selectedActivity && !loading">
           <div class="empty-state">
             <div class="empty-state-icon">
               <span class="iconify" data-icon="lucide:dumbbell"></span>
             </div>
             <h2 class="empty-state-title">Select a Workout</h2>
             <p class="empty-state-description">Choose a saved workout from the sidebar to view its details.</p>
+          </div>
+        </template>
+
+        <template x-if="selectedActivity && !loading">
+          <div class="workout-detail">
+            <div class="workout-header">
+              <div class="workout-meta">
+                <span class="workout-tag">
+                  <span class="iconify" data-icon="lucide:calendar-days"></span>
+                  <span x-text="selectedActivity._programName"></span>
+                </span>
+                <span class="workout-tag" x-text="'Day ' + selectedActivity.day"></span>
+                <template x-if="selectedActivity.type === 'choice'">
+                  <span class="workout-tag">Rest or Activity</span>
+                </template>
+              </div>
+              <template x-if="selectedActivity.activity?.name || selectedActivity.label">
+                <p class="workout-description" style="margin-top: 0.75rem; font-size: 1rem; opacity: 0.85;" x-text="selectedActivity.activity?.notes || ''"></p>
+              </template>
+            </div>
+
+            <template x-if="selectedActivity.type === 'activity' && selectedActivity.activity">
+              <div style="padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem;">
+                <div style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem; background: var(--color-sidebar); border-radius: 0.75rem;">
+                  <span class="iconify" data-icon="lucide:heart-pulse" style="font-size: 1.5rem; color: var(--color-primary);"></span>
+                  <div>
+                    <div style="font-weight: 600;" x-text="selectedActivity.activity.name"></div>
+                    <div style="font-size: 0.85rem; opacity: 0.7;" x-text="(selectedActivity.activity.duration || 30) + ' minutes · ' + (selectedActivity.activity.intensity || 'easy') + ' intensity'"></div>
+                  </div>
+                </div>
+                <div style="line-height: 1.7; font-size: 0.9rem; opacity: 0.85;">
+                  <p><strong>What is Zone 2 Cardio?</strong></p>
+                  <p>Zone 2 is the aerobic heart rate zone where you can hold a conversation while exercising. It builds your cardiovascular base, improves fat oxidation, and aids recovery between hard training sessions.</p>
+                  <p style="margin-top: 0.75rem;"><strong>Heart Rate Target:</strong> 120–140 bpm (roughly 60–70% of max HR)</p>
+                  <p style="margin-top: 0.75rem;"><strong>Good Options:</strong></p>
+                  <ul style="margin: 0.25rem 0 0 1.25rem; list-style: disc;">
+                    <li>Walking (incline treadmill or outdoors)</li>
+                    <li>Cycling (stationary or outdoor)</li>
+                    <li>Light jogging</li>
+                    <li>Elliptical or rowing at easy pace</li>
+                    <li>Swimming at conversational pace</li>
+                  </ul>
+                  <p style="margin-top: 0.75rem;"><strong>Key Rule:</strong> If you can't comfortably talk, you're going too hard. Zone 2 should feel easy — that's the point.</p>
+                </div>
+              </div>
+            </template>
+
+            <template x-if="selectedActivity.type === 'choice' && selectedActivity.options">
+              <div style="padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem;">
+                <div style="font-size: 0.9rem; opacity: 0.85; line-height: 1.6;">
+                  <p>This is a flexible day — pick whichever option suits how you feel:</p>
+                </div>
+                <template x-for="(opt, optIdx) in selectedActivity.options" :key="'opt-' + optIdx">
+                  <div style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem; background: var(--color-sidebar); border-radius: 0.75rem;">
+                    <span class="iconify" :data-icon="opt.type === 'rest' ? 'lucide:bed' : 'lucide:heart-pulse'" style="font-size: 1.25rem; color: var(--color-primary);"></span>
+                    <div>
+                      <div style="font-weight: 600;" x-text="opt.label"></div>
+                      <template x-if="opt.activity?.notes">
+                        <div style="font-size: 0.85rem; opacity: 0.7;" x-text="opt.activity.notes"></div>
+                      </template>
+                      <template x-if="opt.type === 'rest'">
+                        <div style="font-size: 0.85rem; opacity: 0.7;">Full rest day. Let your body recover.</div>
+                      </template>
+                    </div>
+                  </div>
+                </template>
+                <div style="line-height: 1.7; font-size: 0.9rem; opacity: 0.85; margin-top: 0.5rem;">
+                  <p><strong>What is Zone 2 Cardio?</strong></p>
+                  <p>Zone 2 is the aerobic heart rate zone where you can hold a conversation while exercising. It builds your cardiovascular base, improves fat oxidation, and aids recovery between hard training sessions.</p>
+                  <p style="margin-top: 0.75rem;"><strong>Heart Rate Target:</strong> 120–140 bpm (roughly 60–70% of max HR)</p>
+                  <p style="margin-top: 0.75rem;"><strong>Key Rule:</strong> If you can't comfortably talk, you're going too hard. Zone 2 should feel easy — that's the point.</p>
+                </div>
+              </div>
+            </template>
+
+            <template x-if="selectedActivity.type === 'rest'">
+              <div style="padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; align-items: center; text-align: center;">
+                <span class="iconify" data-icon="lucide:bed" style="font-size: 2.5rem; opacity: 0.4;"></span>
+                <p style="font-size: 0.9rem; opacity: 0.7;">Full rest day. Let your body recover.</p>
+              </div>
+            </template>
           </div>
         </template>
 
@@ -631,11 +767,13 @@ function routineStackApp() {
     isMobile: false,
     savedWorkouts: [],
     routines: [],
+    programs: [],
     allWorkouts: [],
     exercisesCatalogue: [],
     progressions: {},
     selectedWorkoutId: null,
     selectedRoutineId: null,
+    selectedActivity: null,
     copied: false,
     generatedWorkout: null,
     expandedExercises: [],
@@ -811,6 +949,17 @@ function routineStackApp() {
         } catch (e) {
           console.warn('Could not load saved workouts:', e);
         }
+
+        // Load programs
+        try {
+          const res = await fetch('/api/programs');
+          if (res.ok) {
+            this.programs = await res.json();
+            console.log('Loaded ' + this.programs.length + ' programs');
+          }
+        } catch (e) {
+          console.warn('Could not load programs:', e);
+        }
       } catch (e) {
         console.error('Error loading data:', e);
       } finally {
@@ -923,6 +1072,7 @@ function routineStackApp() {
 
     selectWorkout(id, updateUrl = true) {
       this.selectedWorkoutId = id;
+      this.selectedActivity = null;
       this.generatedWorkout = null;
       const workout = this.allWorkouts.find(w => w.id === id) || this.savedWorkouts.find(w => w.id === id);
       if (workout && this.exercisesCatalogue.length > 0) {
@@ -935,6 +1085,17 @@ function routineStackApp() {
         this.updateUrl(id);
       }
       this.saveToLocalStorage();
+      if (this.isMobile) this.sidebarOpen = false;
+    },
+
+    selectActivity(day, program) {
+      this.selectedWorkoutId = null;
+      this.generatedWorkout = null;
+      this.selectedActivity = {
+        ...day,
+        _dayKey: program.id + '-' + day.day,
+        _programName: program.name,
+      };
       if (this.isMobile) this.sidebarOpen = false;
     },
 

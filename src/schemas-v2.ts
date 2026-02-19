@@ -226,6 +226,79 @@ export const progressionSchema = z.object({
 export type Progression = z.infer<typeof progressionSchema>;
 
 // ============================================
+// PROGRAM DAY (single day in a program schedule)
+// ============================================
+
+export const programDayTypeSchema = z.enum([
+  "workout",    // Perform a specific workout
+  "rest",       // Rest day
+  "activity",   // Non-exercise activity (Zone 2 cardio, walks, etc.)
+  "choice",     // User picks from options (e.g., "OFF or Zone 2 Cardio")
+]);
+
+export type ProgramDayType = z.infer<typeof programDayTypeSchema>;
+
+export const programDayOptionSchema = z.object({
+  label: z.string(),
+  type: z.enum(["rest", "workout", "activity"]),
+  workoutId: z.string().optional(),
+  activity: activitySchema.optional(),
+});
+
+export type ProgramDayOption = z.infer<typeof programDayOptionSchema>;
+
+export const programDaySchema = z.object({
+  day: z.number().int().positive(),       // Day number in the week (1-7)
+  label: z.string().optional(),           // Display label: "UPPER A", "LOWER B", "OFF"
+  type: programDayTypeSchema,
+
+  // For type "workout"
+  workoutId: z.string().optional(),       // References a Workout.id
+
+  // For type "activity"
+  activity: activitySchema.optional(),    // Inline activity (Zone 2 Cardio, etc.)
+
+  // For type "choice" -- user picks one
+  options: z.array(programDayOptionSchema).optional(),
+
+  notes: z.string().optional(),
+});
+
+export type ProgramDay = z.infer<typeof programDaySchema>;
+
+// ============================================
+// PROGRAM (weekly training program)
+// ============================================
+
+export const programSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  name: z.string().min(1),
+  description: z.string().optional(),
+
+  // Attribution
+  creator: z.string().optional(),
+  source: z.string().optional(),
+  sourceUrl: z.string().optional(),
+
+  // Program metadata
+  frequency: z.number().int().positive().optional(), // Training days per week
+  phase: z.string().optional(),           // "cutting", "bulking", "maintenance", "hypertrophy"
+  durationWeeks: z.number().int().positive().optional(), // Program length (null = indefinite)
+  difficulty: difficultySchema.optional(),
+  equipment: z.array(z.string()).optional(),
+  tags: z.array(z.string()),
+
+  // The weekly schedule
+  schedule: z.array(programDaySchema),
+
+  // Guidance
+  tips: z.array(z.string()).optional(),
+  restGuidelines: z.string().optional(),
+});
+
+export type Program = z.infer<typeof programSchema>;
+
+// ============================================
 // CATALOGUE V2 (extends original with new types)
 // ============================================
 
@@ -237,6 +310,7 @@ export interface CatalogueV2 {
   // New v2 types
   workouts: Map<string, Workout>;
   routines: Map<string, Routine>;
+  programs: Map<string, Program>;
 
   // Metadata
   meta: {

@@ -10,6 +10,10 @@ export type {
   Workout,
   RoutineDefaults,
   Routine,
+  ProgramDayType,
+  ProgramDayOption,
+  ProgramDay,
+  Program,
   CatalogueV2,
 } from "./schemas-v2.ts";
 
@@ -25,4 +29,8 @@ export {
   workoutSchema,
   routineDefaultsSchema,
   routineSchema,
+  programDayTypeSchema,
+  programDayOptionSchema,
+  programDaySchema,
+  programSchema,
 } from "./schemas-v2.ts";
