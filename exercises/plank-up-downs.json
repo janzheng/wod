@@ -1,10 +1,23 @@
 {
   "id": "plank-up-downs",
   "name": "Plank Up Downs",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "shoulders", "triceps"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "floor", "warmup", "on-hands", "plank-variation"],
+  "muscles": [
+    "core",
+    "shoulders",
+    "triceps"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "warmup",
+    "on-hands",
+    "plank-variation"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Start in a high plank position. Lower one arm at a time to forearm plank, then push back up to high plank one arm at a time. Alternate which arm leads."

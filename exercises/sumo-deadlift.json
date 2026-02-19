@@ -1,10 +1,28 @@
 {
   "id": "sumo-deadlift",
   "name": "Sumo Deadlift",
+  "category": "legs-hip-hinge",
   "type": "weights",
-  "muscles": ["glutes", "hamstrings", "quads", "adductors", "back", "core"],
-  "equipment": ["barbell"],
-  "tags": ["compound", "pull", "lower-body", "hinge", "gym", "legs", "deadlift"],
+  "muscles": [
+    "glutes",
+    "hamstrings",
+    "quads",
+    "adductors",
+    "back",
+    "core"
+  ],
+  "equipment": [
+    "barbell"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "lower-body",
+    "hinge",
+    "gym",
+    "legs",
+    "deadlift"
+  ],
   "difficulty": "intermediate",
   "duration": 180,
   "description": "Stand with feet wider than shoulder-width apart, toes pointed out at 45 degrees. Position the barbell over midfoot, closer to your shins than conventional deadlift. Grip the bar with hands inside your legs, using a mixed or double overhand grip. Keep your chest up and back straight. Drive through your heels and push your knees out as you extend your hips and knees simultaneously to lift the bar. The wide stance emphasizes inner thighs, glutes, and allows for a more upright torso position compared to conventional deadlift."

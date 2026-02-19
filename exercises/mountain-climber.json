@@ -1,10 +1,24 @@
 {
   "id": "mountain-climber",
   "name": "Mountain Climbers",
+  "category": "core",
   "type": "plyo",
-  "muscles": ["core", "shoulders", "quads"],
-  "equipment": ["bodyweight"],
-  "tags": ["cardio", "core", "floor", "circuit", "on-hands", "climber"],
+  "muscles": [
+    "core",
+    "shoulders",
+    "quads"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "cardio",
+    "core",
+    "floor",
+    "circuit",
+    "on-hands",
+    "climber"
+  ],
   "difficulty": "intermediate",
   "duration": 45,
   "description": "Start in high plank position with hands under shoulders. Drive one knee toward chest, then quickly switch legs in a running motion. Keep hips low and core engaged. Maintain a steady, quick rhythm."

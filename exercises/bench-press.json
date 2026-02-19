@@ -1,6 +1,7 @@
 {
   "id": "bench-press",
   "name": "Barbell Bench Press",
+  "category": "chest",
   "type": "weights",
   "muscles": [
     "chest",
@@ -16,7 +17,8 @@
     "push",
     "press",
     "upper-body",
-    "chest"
+    "chest",
+    "gym"
   ],
   "difficulty": "intermediate",
   "duration": 180,

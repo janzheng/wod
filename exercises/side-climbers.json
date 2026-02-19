@@ -1,10 +1,26 @@
 {
   "id": "side-climbers",
   "name": "Side Climbers",
+  "category": "shoulders",
   "type": "calisthenics",
-  "muscles": ["core", "obliques", "shoulders"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "cardio", "warmup", "circuit", "on-hands", "climber"],
+  "muscles": [
+    "core",
+    "obliques",
+    "shoulders"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "cardio",
+    "warmup",
+    "circuit",
+    "on-hands",
+    "climber",
+    "push",
+    "upper-body"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Start in a plank position. Alternate bringing your knees up toward one side of your body, creating a dynamic climbing motion that targets the obliques and core."

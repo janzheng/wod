@@ -1,10 +1,25 @@
 {
   "id": "barbell-bent-over-row",
   "name": "Barbell Bent-Over Row",
+  "category": "back-horizontal-pull",
   "type": "weights",
-  "muscles": ["back", "biceps", "rear-delts"],
-  "equipment": ["barbell"],
-  "tags": ["compound", "pull", "upper-body", "gym", "row", "back"],
+  "muscles": [
+    "back",
+    "biceps",
+    "rear-delts"
+  ],
+  "equipment": [
+    "barbell"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "upper-body",
+    "gym",
+    "row",
+    "back",
+    "horizontal-pull"
+  ],
   "difficulty": "intermediate",
   "duration": 90,
   "description": "Stand with feet hip-width apart, holding the barbell with an overhand grip slightly wider than shoulders. Hinge at the hips until torso is roughly 45 degrees to the floor, keeping back flat and core braced. Row the bar toward your lower chest, driving elbows back past your torso. Squeeze shoulder blades at the top, then lower with control. Keep the bar path close to your legs throughout. This is a fundamental back builder."

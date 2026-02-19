@@ -1,10 +1,22 @@
 {
   "id": "dumbbell-chest-fly",
   "name": "Dumbbell Chest Fly",
+  "category": "chest",
   "type": "weights",
-  "muscles": ["chest"],
-  "equipment": ["dumbbell", "bench"],
-  "tags": ["isolation", "push", "upper-body", "chest", "circuit"],
+  "muscles": [
+    "chest"
+  ],
+  "equipment": [
+    "dumbbell",
+    "bench"
+  ],
+  "tags": [
+    "isolation",
+    "push",
+    "upper-body",
+    "chest",
+    "circuit"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Lie on a flat bench holding dumbbells above your chest with arms nearly straight and palms facing each other. Lower the weights out to your sides in a wide arc until you feel a stretch in your chest. Bring the weights back together above your chest, squeezing your pecs."

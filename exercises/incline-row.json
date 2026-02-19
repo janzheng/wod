@@ -1,10 +1,24 @@
 {
   "id": "incline-row",
   "name": "Incline Row",
+  "category": "back-horizontal-pull",
   "type": "calisthenics",
-  "muscles": ["back", "biceps", "shoulders"],
-  "equipment": ["bodyweight"],
-  "tags": ["pull", "upper-body", "row", "rrr", "row-progression"],
+  "muscles": [
+    "back",
+    "biceps",
+    "shoulders"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "pull",
+    "upper-body",
+    "row",
+    "rrr",
+    "row-progression",
+    "horizontal-pull"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Set up a bar or rings at waist to chest height. Hang underneath with feet on ground, body straight. Pull your chest to the bar/rings, squeezing shoulder blades together. Lower with control. Adjust angle for difficulty."

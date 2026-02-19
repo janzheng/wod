@@ -1,6 +1,7 @@
 {
   "id": "deadlift",
   "name": "Conventional Deadlift",
+  "category": "legs-hip-hinge",
   "type": "weights",
   "muscles": [
     "back",
@@ -16,7 +17,8 @@
     "pull",
     "lower-body",
     "hinge",
-    "deadlift"
+    "deadlift",
+    "gym"
   ],
   "difficulty": "intermediate",
   "duration": 180,

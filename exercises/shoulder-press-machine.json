@@ -1,10 +1,25 @@
 {
   "id": "shoulder-press-machine",
   "name": "Shoulder Press Machine",
+  "category": "shoulders",
   "type": "weights",
-  "muscles": ["shoulders", "triceps"],
-  "equipment": ["machine"],
-  "tags": ["compound", "push", "press", "upper-body", "gym", "machine", "shoulders", "beginner-friendly"],
+  "muscles": [
+    "shoulders",
+    "triceps"
+  ],
+  "equipment": [
+    "machine"
+  ],
+  "tags": [
+    "compound",
+    "push",
+    "press",
+    "upper-body",
+    "gym",
+    "machine",
+    "shoulders",
+    "beginner-friendly"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Adjust seat so handles start at shoulder height. Sit with back against pad, core engaged. Press handles overhead until arms are nearly straight (don't lock). Lower with control to starting position. Keep your wrists neutral and avoid arching your back. Great for building shoulder strength safely."

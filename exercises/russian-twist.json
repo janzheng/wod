@@ -1,10 +1,20 @@
 {
   "id": "russian-twist",
   "name": "Russian Twists",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "obliques"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "floor", "circuit"],
+  "muscles": [
+    "core",
+    "obliques"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "circuit"
+  ],
   "difficulty": "beginner",
   "duration": 45,
   "description": "Sit with knees bent, feet lifted slightly off floor, lean back at 45 degrees. Clasp hands together and rotate torso to touch the floor on each side. Keep core engaged and move with control, not momentum."

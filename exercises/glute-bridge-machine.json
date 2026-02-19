@@ -1,10 +1,23 @@
 {
   "id": "glute-bridge-machine",
   "name": "Glute Bridge Machine",
+  "category": "legs-hip-hinge",
   "type": "weights",
-  "muscles": ["glutes", "hamstrings"],
-  "equipment": ["machine"],
-  "tags": ["isolation", "lower-body", "gym", "machine", "glutes"],
+  "muscles": [
+    "glutes",
+    "hamstrings"
+  ],
+  "equipment": [
+    "machine"
+  ],
+  "tags": [
+    "isolation",
+    "lower-body",
+    "gym",
+    "machine",
+    "glutes",
+    "hinge"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Position yourself in the hip thrust machine with your upper back against the pad and feet flat on the platform at shoulder width. Drive through your heels to extend your hips, squeezing the glutes hard at the top with a brief pause. Lower with control back to the starting position. Keep your chin tucked and avoid hyperextending the lower back at lockout."

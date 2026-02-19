@@ -1,10 +1,26 @@
 {
   "id": "chest-supported-machine-row",
   "name": "Chest Supported Machine Row",
+  "category": "back-horizontal-pull",
   "type": "weights",
-  "muscles": ["back", "lats", "upper-back", "biceps"],
-  "equipment": ["machine"],
-  "tags": ["compound", "pull", "upper-body", "gym", "machine", "back"],
+  "muscles": [
+    "back",
+    "lats",
+    "upper-back",
+    "biceps"
+  ],
+  "equipment": [
+    "machine"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "upper-body",
+    "gym",
+    "machine",
+    "back",
+    "horizontal-pull"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Sit with your chest firmly against the pad and grasp the neutral grip handles. Row the weight toward your torso by driving your elbows back, squeezing your shoulder blades together at peak contraction. Lower with control to a full stretch. The chest support removes momentum and lower back involvement, allowing you to focus entirely on back engagement."

@@ -1,10 +1,27 @@
 {
   "id": "smith-machine-inverted-row",
   "name": "Smith Machine Inverted Row",
+  "category": "back-horizontal-pull",
   "type": "weights",
-  "muscles": ["back", "lats", "biceps", "rear-delts"],
-  "equipment": ["smith-machine"],
-  "tags": ["compound", "upper-body", "gym", "machine", "pull", "back", "row"],
+  "muscles": [
+    "back",
+    "lats",
+    "biceps",
+    "rear-delts"
+  ],
+  "equipment": [
+    "smith-machine"
+  ],
+  "tags": [
+    "compound",
+    "upper-body",
+    "gym",
+    "machine",
+    "pull",
+    "back",
+    "row",
+    "horizontal-pull"
+  ],
   "difficulty": "beginner",
   "duration": 45,
   "description": "Set bar at about waist height. Hang underneath with arms extended, gripping bar overhand. Keep body straight from heels to shoulders. Pull chest to bar by squeezing shoulder blades together. Lower with control. Adjust bar height - lower bar = harder. Great for building up to pull-ups."

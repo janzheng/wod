@@ -1,10 +1,25 @@
 {
   "id": "chin-up",
   "name": "Chin-up",
+  "category": "back-vertical-pull",
   "type": "calisthenics",
-  "muscles": ["biceps", "back", "lats", "core"],
-  "equipment": ["pull-up-bar"],
-  "tags": ["compound", "pull", "upper-body", "rrr", "pull-up-progression"],
+  "muscles": [
+    "biceps",
+    "back",
+    "lats",
+    "core"
+  ],
+  "equipment": [
+    "pull-up-bar"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "upper-body",
+    "rrr",
+    "pull-up-progression",
+    "vertical-pull"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "A pull-up variation with palms facing toward you (supinated grip). Hang from a bar with hands shoulder-width apart, palms facing you. Pull yourself up until your chin clears the bar, focusing on driving your elbows down. Lower with control to full extension. The supinated grip increases bicep involvement compared to standard pull-ups, often making chin-ups easier for beginners. Keep your core tight and avoid excessive swinging. This is an excellent pulling exercise and a great way to build toward standard pull-ups."

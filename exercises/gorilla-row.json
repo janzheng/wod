@@ -1,10 +1,28 @@
 {
   "id": "gorilla-row",
   "name": "Gorilla Row",
+  "category": "back-horizontal-pull",
   "type": "weights",
-  "muscles": ["back", "biceps", "core"],
-  "equipment": ["kettlebell", "dumbbell"],
-  "tags": ["compound", "pull", "upper-body", "gym", "back", "rows", "anti-rotation", "circuit"],
+  "muscles": [
+    "back",
+    "biceps",
+    "core"
+  ],
+  "equipment": [
+    "kettlebell",
+    "dumbbell"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "upper-body",
+    "gym",
+    "back",
+    "rows",
+    "anti-rotation",
+    "circuit",
+    "horizontal-pull"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Place two kettlebells or dumbbells on the floor about shoulder-width apart. Stand over them with feet slightly wider than the weights. Hinge at the hips with a flat back to grip both weights. Row one weight up to your hip while pressing the other into the floor for stability. Lower with control and immediately row the other side. This alternating pattern challenges your core to resist rotation while building back strength. Keep your hips square and avoid twisting your torso."

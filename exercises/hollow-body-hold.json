@@ -1,10 +1,22 @@
 {
   "id": "hollow-body-hold",
   "name": "Hollow Body Hold",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "abs"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "floor", "abs", "on-back", "isometric"],
+  "muscles": [
+    "core",
+    "abs"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "abs",
+    "on-back",
+    "isometric"
+  ],
   "difficulty": "intermediate",
   "duration": 45,
   "description": "Lie on your back with arms extended overhead and legs straight. Lift shoulders and legs off the ground, creating a banana shape with your body. Hold this position while keeping lower back pressed into the floor."

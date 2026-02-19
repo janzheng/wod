@@ -1,10 +1,23 @@
 {
   "id": "dumbbell-shoulder-press",
   "name": "Dumbbell Shoulder Press",
+  "category": "shoulders",
   "type": "weights",
-  "muscles": ["shoulders", "triceps"],
-  "equipment": ["dumbbell"],
-  "tags": ["compound", "push", "upper-body", "shoulders", "circuit", "press"],
+  "muscles": [
+    "shoulders",
+    "triceps"
+  ],
+  "equipment": [
+    "dumbbell"
+  ],
+  "tags": [
+    "compound",
+    "push",
+    "upper-body",
+    "shoulders",
+    "circuit",
+    "press"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Sit or stand with dumbbells held at shoulder height, palms facing forward. Press the weights overhead until arms are fully extended. Lower back to shoulder height with control. Keep core tight and avoid arching your back."

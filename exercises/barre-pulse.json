@@ -1,6 +1,7 @@
 {
   "id": "barre-pulse",
   "name": "Barre Leg Pulses",
+  "category": "legs-quads",
   "type": "barre",
   "muscles": [
     "glutes",
@@ -15,7 +16,8 @@
     "circuit",
     "barre",
     "isometric",
-    "pulse"
+    "pulse",
+    "lower-body"
   ],
   "difficulty": "beginner",
   "duration": 45,

@@ -1,0 +1,29 @@
+{
+  "id": "karlapexfit-ppl",
+  "name": "Push/Pull/Legs Split",
+  "description": "A 3-day Push/Pull/Legs split built from @KarlApexFit's 65-exercise database covering every muscle group. Run 3x/week or 6x/week (PPL x2).",
+  "creator": "@KarlApexFit",
+  "source": "https://x.com/karlapexfit/status/2023359316456271917",
+  "frequency": 3,
+  "tags": ["gym", "strength", "ppl", "push-pull-legs", "hypertrophy"],
+  "schedule": [
+    {
+      "day": 1,
+      "label": "PUSH",
+      "type": "workout",
+      "workoutId": "ppl-push"
+    },
+    {
+      "day": 2,
+      "label": "PULL",
+      "type": "workout",
+      "workoutId": "ppl-pull"
+    },
+    {
+      "day": 3,
+      "label": "LEGS",
+      "type": "workout",
+      "workoutId": "ppl-legs"
+    }
+  ]
+}

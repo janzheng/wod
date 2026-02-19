@@ -1,10 +1,23 @@
 {
   "id": "slow-mountain-climbers",
   "name": "Slow Mountain Climbers",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "hip-flexors", "shoulders"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "floor", "circuit", "on-hands", "climber"],
+  "muscles": [
+    "core",
+    "hip-flexors",
+    "shoulders"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "circuit",
+    "on-hands",
+    "climber"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Start in high plank position. Slowly bring one knee toward your chest with control, then return to plank. Alternate sides slowly and deliberately, focusing on core tension and controlled movement over speed."

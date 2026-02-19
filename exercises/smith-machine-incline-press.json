@@ -1,10 +1,26 @@
 {
   "id": "smith-machine-incline-press",
   "name": "Smith Machine Incline Press",
+  "category": "chest",
   "type": "weights",
-  "muscles": ["chest", "shoulders", "triceps"],
-  "equipment": ["smith-machine", "bench"],
-  "tags": ["compound", "upper-body", "gym", "machine", "push", "press", "chest"],
+  "muscles": [
+    "chest",
+    "shoulders",
+    "triceps"
+  ],
+  "equipment": [
+    "smith-machine",
+    "bench"
+  ],
+  "tags": [
+    "compound",
+    "upper-body",
+    "gym",
+    "machine",
+    "push",
+    "press",
+    "chest"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Set bench to 30-45 degree incline under the Smith machine. Grip bar slightly wider than shoulder width. Unhook and lower bar to upper chest with control. Press up to full arm extension without locking elbows. The incline angle targets upper chest and front delts more than flat pressing."

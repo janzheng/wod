@@ -1,10 +1,22 @@
 {
   "id": "flutter-kicks",
   "name": "Flutter Kicks",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "hip-flexors", "glutes"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "floor", "abs", "on-back"],
+  "muscles": [
+    "core",
+    "hip-flexors",
+    "glutes"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "abs",
+    "on-back"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Lie on your back with legs extended. Lift shoulders slightly off the ground. Rapidly alternate kicking your legs up and down in a fluttering motion without touching the ground."

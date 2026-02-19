@@ -1,10 +1,21 @@
 {
   "id": "ab-crunch-machine",
   "name": "Ab Crunch Machine",
+  "category": "core",
   "type": "weights",
-  "muscles": ["abs", "core"],
-  "equipment": ["machine"],
-  "tags": ["isolation", "core", "gym", "machine"],
+  "muscles": [
+    "abs",
+    "core"
+  ],
+  "equipment": [
+    "machine"
+  ],
+  "tags": [
+    "isolation",
+    "core",
+    "gym",
+    "machine"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Sit in the machine with your back against the pad and grip the handles or place arms behind the pads. Crunch forward by flexing your spine, driving your ribcage toward your pelvis. Squeeze the abs hard at the bottom of the movement, then return slowly to the start. Focus on spinal flexion rather than hip flexion to keep tension on the abs."

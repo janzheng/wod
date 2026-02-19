@@ -1,10 +1,27 @@
 {
   "id": "barbell-good-morning",
   "name": "Barbell Good Morning",
+  "category": "legs-hip-hinge",
   "type": "weights",
-  "muscles": ["hamstrings", "glutes", "back", "core"],
-  "equipment": ["barbell", "squat-rack"],
-  "tags": ["compound", "lower-body", "gym", "hinge", "posterior-chain", "hamstrings", "powerlifting"],
+  "muscles": [
+    "hamstrings",
+    "glutes",
+    "back",
+    "core"
+  ],
+  "equipment": [
+    "barbell",
+    "squat-rack"
+  ],
+  "tags": [
+    "compound",
+    "lower-body",
+    "gym",
+    "hinge",
+    "posterior-chain",
+    "hamstrings",
+    "powerlifting"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Position barbell across upper back in squat position. Stand with feet shoulder-width apart, soft bend in knees. Brace your core hard. Push hips back while keeping back flat and chest up, lowering torso until nearly parallel to floor. Feel the deep stretch in hamstrings. Squeeze glutes and drive hips forward to return. Start light—this movement requires excellent hip hinge mechanics before adding significant weight."

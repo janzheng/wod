@@ -1,10 +1,25 @@
 {
   "id": "egg-push-up",
   "name": "Egg Push-ups",
+  "category": "chest",
   "type": "calisthenics",
-  "muscles": ["chest", "triceps", "core"],
-  "equipment": ["bodyweight"],
-  "tags": ["push", "compound", "circuit", "floor", "push-up-variation", "on-hands"],
+  "muscles": [
+    "chest",
+    "triceps",
+    "core"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "push",
+    "compound",
+    "circuit",
+    "floor",
+    "push-up-variation",
+    "on-hands",
+    "upper-body"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Perform a push-up with your elbows tucked closely to your body, creating an egg-shaped form. This variation increases triceps engagement compared to standard push-ups."

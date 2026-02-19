@@ -1,10 +1,21 @@
 {
   "id": "concentration-curl",
   "name": "Concentration Curl",
+  "category": "arms-biceps",
   "type": "weights",
-  "muscles": ["biceps"],
-  "equipment": ["dumbbell"],
-  "tags": ["isolation", "pull", "upper-body", "arms", "circuit"],
+  "muscles": [
+    "biceps"
+  ],
+  "equipment": [
+    "dumbbell"
+  ],
+  "tags": [
+    "isolation",
+    "pull",
+    "upper-body",
+    "arms",
+    "circuit"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Sit on a bench with legs spread. Hold a dumbbell in one hand and brace your elbow against the inside of your thigh. Curl the weight up toward your shoulder, focusing on squeezing the bicep at the top. Lower with control. Complete all reps on one side before switching."

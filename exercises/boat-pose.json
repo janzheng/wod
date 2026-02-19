@@ -1,10 +1,21 @@
 {
   "id": "boat-pose",
   "name": "Boat Pose",
+  "category": "mobility",
   "type": "yoga",
-  "muscles": ["core", "hip-flexors"],
-  "equipment": ["mat"],
-  "tags": ["core", "floor", "yoga", "circuit"],
+  "muscles": [
+    "core",
+    "hip-flexors"
+  ],
+  "equipment": [
+    "mat"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "yoga",
+    "circuit"
+  ],
   "difficulty": "intermediate",
   "duration": 45,
   "description": "Sit with knees bent, feet flat. Lean back slightly, lift feet off floor and extend legs to 45 degrees. Reach arms forward parallel to floor. Balance on sit bones, keeping spine straight and chest lifted. Hold and breathe."

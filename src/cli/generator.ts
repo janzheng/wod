@@ -68,6 +68,13 @@ function matchesCriteria(exercise: Exercise, criteria: Criteria): boolean {
     }
   }
 
+  // Check category filter (OR within array)
+  if (criteria.categories && criteria.categories.length > 0) {
+    if (!exercise.category || !criteria.categories.includes(exercise.category)) {
+      return false;
+    }
+  }
+
   // Check muscle filter (OR within array)
   if (criteria.muscles && criteria.muscles.length > 0) {
     const hasMatch = criteria.muscles.some((m) => exercise.muscles.includes(m));

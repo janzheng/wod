@@ -1,10 +1,25 @@
 {
   "id": "single-arm-lat-pulldown",
   "name": "Single Arm Lat Pulldown",
+  "category": "back-vertical-pull",
   "type": "weights",
-  "muscles": ["lats", "back", "biceps"],
-  "equipment": ["cable"],
-  "tags": ["compound", "pull", "upper-body", "gym", "cable", "back"],
+  "muscles": [
+    "lats",
+    "back",
+    "biceps"
+  ],
+  "equipment": [
+    "cable"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "upper-body",
+    "gym",
+    "cable",
+    "back",
+    "vertical-pull"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Attach a single handle to a high cable pulley. Sit or kneel and grasp the handle with one hand, pulling it down toward your hip while driving the elbow down and back. Squeeze the lat at the bottom, then control the weight back up for a full stretch. Perform all reps on one side before switching. This unilateral movement helps correct imbalances and improves back width."

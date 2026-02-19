@@ -1,10 +1,32 @@
 {
   "id": "ring-muscle-up",
   "name": "Ring Muscle-up",
+  "category": "back-vertical-pull",
   "type": "calisthenics",
-  "muscles": ["back", "chest", "triceps", "shoulders", "core", "biceps", "forearms"],
-  "equipment": ["rings"],
-  "tags": ["compound", "pull", "push", "upper-body", "advanced", "calisthenics", "gymnastics", "skill-work", "rings"],
+  "muscles": [
+    "back",
+    "chest",
+    "triceps",
+    "shoulders",
+    "core",
+    "biceps",
+    "forearms"
+  ],
+  "equipment": [
+    "rings"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "push",
+    "upper-body",
+    "advanced",
+    "calisthenics",
+    "gymnastics",
+    "skill-work",
+    "rings",
+    "vertical-pull"
+  ],
   "difficulty": "advanced",
   "duration": 60,
   "description": "A muscle-up performed on gymnastics rings - often considered easier than bar muscle-ups due to the rings' freedom of movement. Start in a dead hang with a false grip (wrists wrapped over the rings). Pull powerfully, keeping the rings close to your body. As your chest reaches ring height, lean forward aggressively and transition by rotating your hands, moving from below the rings to above them. Press up to support hold. The false grip is essential - without it, the transition is nearly impossible. The rings can move with you, making the transition smoother than on a fixed bar. Prerequisites: false grip rows, ring dips, and 10+ pull-ups."
