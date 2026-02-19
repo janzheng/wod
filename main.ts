@@ -95,7 +95,7 @@ app.get("/api/routines/:id", async (c) => {
 app.get("/api/saved", async (c) => {
   // Load all saved workout files
   const savedWorkouts = [];
-  const savedFiles = ['aj-standing-barre', 'aj-floor-barre', 'aj-random-4', 'morning-wakeup', 'apartment-gym', '4x4x3-block', 'squat-rack', 'machine-circuit', 'gentle-yoga', 'hip-lower-back-flow', 'reddit-rrr', 'gym-classic-workouts', 'calisthenics-classic-workouts', 'kb-random-circuit'];
+  const savedFiles = ['aj-standing-barre', 'aj-floor-barre', 'aj-random-4', 'morning-wakeup', 'apartment-gym', '4x4x3-block', 'squat-rack', 'machine-circuit', 'gentle-yoga', 'hip-lower-back-flow', 'reddit-rrr', 'gym-classic-workouts', 'calisthenics-classic-workouts', 'kb-random-circuit', 'kb-controlled-power', 'kb-controlled-power-challenge'];
   for (const id of savedFiles) {
     const data = await readJson(`./saved/${id}.json`);
     if (data) savedWorkouts.push(data);
@@ -519,36 +519,56 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <template x-if="set.generatedExercises && set.generatedExercises.length > 0">
                       <div class="exercise-list">
                         <template x-for="(ex, exIdx) in set.generatedExercises" :key="'gen-ex-' + setIdx + '-' + exIdx">
-                          <div class="exercise-line" :class="{ 'expandable': ex.description || ex.media }" @click="(ex.description || ex.media) && toggleExerciseExpand(ex.id)">
-                            <template x-if="ex.shuffleable">
-                              <button class="ex-shuffle" @click.stop="shuffleExercise(set.id, exIdx)" title="Shuffle">↻</button>
-                            </template>
-                            <span class="ex-name" x-text="ex.name"></span>
-                            <span class="ex-duration" x-text="ex.duration ? ex.duration + 's' : (ex.reps ? ex.reps + ' reps' : '')"></span>
+                          <div class="exercise-line" :class="{ 'expandable': ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl }" @click="(ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl) && toggleExerciseExpand(setIdx + '-' + exIdx)">
+                            <div class="ex-title-row">
+                              <template x-if="ex.shuffleable">
+                                <button class="ex-shuffle" @click.stop="shuffleExercise(set.id, exIdx)" title="Shuffle">↻</button>
+                              </template>
+                              <span class="ex-name" x-text="ex.name"></span>
+                              <span class="ex-duration" x-text="ex.duration ? ex.duration + 's' : (ex.reps ? ex.reps + ' reps' : '')"></span>
+                              <template x-if="ex.media && ex.media.length > 0">
+                                <span class="ex-media-icon"><span class="iconify" data-icon="lucide:play-circle"></span></span>
+                              </template>
+                              <template x-if="ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl">
+                                <span class="ex-expand" :class="{ 'expanded': expandedExercises?.includes(setIdx + '-' + exIdx) }">
+                                  <span class="iconify" data-icon="lucide:chevron-down"></span>
+                                </span>
+                              </template>
+                            </div>
                             <template x-if="ex.notes">
-                              <span class="ex-notes" x-text="ex.notes"></span>
+                              <div class="ex-notes" x-text="ex.notes"></div>
                             </template>
-                            <template x-if="ex.media && ex.media.length > 0">
-                              <span class="ex-media-icon"><span class="iconify" data-icon="lucide:image"></span></span>
-                            </template>
-                            <template x-if="ex.description || ex.media">
-                              <span class="ex-expand" :class="{ 'expanded': expandedExercises?.includes(ex.id) }">
-                                <span class="iconify" data-icon="lucide:chevron-down"></span>
-                              </span>
-                            </template>
-                            <template x-if="expandedExercises?.includes(ex.id)">
+                            <template x-if="expandedExercises?.includes(setIdx + '-' + exIdx)">
                               <div class="ex-expanded" @click.stop>
                                 <template x-if="ex.description">
                                   <p class="ex-desc" x-text="ex.description"></p>
                                 </template>
                                 <template x-if="ex.media && ex.media.length > 0">
-                                  <div class="ex-media">
-                                    <template x-if="ex.media[0].type === 'image'">
-                                      <img :src="getExerciseImagePath(ex.media[0].value)" :alt="ex.name" loading="lazy">
+                                  <div class="ex-media-links">
+                                    <template x-for="(m, mIdx) in ex.media.filter((v, i, a) => a.findIndex(x => x.value === v.value) === i)" :key="'m-' + mIdx">
+                                      <div>
+                                        <template x-if="m.type === 'image'">
+                                          <img :src="getExerciseImagePath(m.value)" :alt="ex.name" loading="lazy" style="max-width:240px;border-radius:0.375rem;">
+                                        </template>
+                                        <template x-if="m.type === 'youtube'">
+                                          <iframe :src="'https://www.youtube.com/embed/' + getYoutubeId(m.value)" frameborder="0" allowfullscreen style="width:240px;aspect-ratio:16/9;border:none;border-radius:0.375rem;"></iframe>
+                                        </template>
+                                        <template x-if="m.type === 'link' || m.type === 'tweet'">
+                                          <a :href="m.value" target="_blank" rel="noopener" class="ex-media-link" @click.stop>
+                                            <span class="iconify" data-icon="lucide:external-link"></span>
+                                            <span x-text="(m.source || m.caption || 'Watch demo')"></span>
+                                          </a>
+                                        </template>
+                                      </div>
                                     </template>
-                                    <template x-if="ex.media[0].type === 'youtube'">
-                                      <iframe :src="'https://www.youtube.com/embed/' + getYoutubeId(ex.media[0].value)" frameborder="0" allowfullscreen></iframe>
-                                    </template>
+                                  </div>
+                                </template>
+                                <template x-if="generatedWorkout?.sourceUrl && !(ex.media && ex.media.length > 0)">
+                                  <div class="ex-media-links">
+                                    <a :href="generatedWorkout.sourceUrl" target="_blank" rel="noopener" class="ex-media-link" @click.stop>
+                                      <span class="iconify" data-icon="lucide:external-link"></span>
+                                      <span x-text="generatedWorkout.source || 'Watch workout'"></span>
+                                    </a>
                                   </div>
                                 </template>
                               </div>

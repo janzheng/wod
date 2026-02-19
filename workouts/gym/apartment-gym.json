@@ -1,11 +1,11 @@
 {
   "id": "apartment-gym",
   "name": "Apartment Gym Session",
-  "description": "Full body workout for apartment gyms with limited equipment: floor, bench, and Smith machine.",
+  "description": "Full body workout for apartment gyms with limited equipment: floor, bench, Smith machine, and kettlebell.",
   "routineId": "gym",
-  "tags": ["gym", "apartment", "smith-machine", "bench", "full-body"],
+  "tags": ["gym", "apartment", "smith-machine", "bench", "kettlebell", "full-body"],
   "estimatedDuration": 45,
-  "equipment": ["smith-machine", "bench", "dumbbell", "bodyweight"],
+  "equipment": ["smith-machine", "bench", "dumbbell", "kettlebell", "bodyweight"],
   "sets": [
     {
       "id": "warmup",
@@ -63,6 +63,20 @@
       "restAfter": 90
     },
     {
+      "id": "kettlebell-block",
+      "name": "Kettlebell Work",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["hinge", "dynamic"] }, "reps": "12-15", "notes": "Explosive hip snap" },
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["squat", "lower-body"] }, "reps": "10-12", "notes": "Full depth" },
+        { "criteria": { "equipment": ["kettlebell"], "tags": ["push"], "muscles": ["shoulders", "triceps"] }, "reps": "8 each", "notes": "Controlled press" }
+      ],
+      "restBetween": 30,
+      "restAfter": 90
+    },
+    {
       "id": "floor-core",
       "name": "Floor Core Finisher",
       "type": "exercises",
@@ -82,6 +96,7 @@
     "Smith machine bar weighs 15-25 lbs depending on model",
     "Position feet slightly in front of bar for squats",
     "Use the safety catches - that's what they're for",
-    "Great option when you can't make it to a full gym"
+    "Great option when you can't make it to a full gym",
+    "Kettlebell block adds variety — swings, squats, presses with a single bell"
   ]
 }

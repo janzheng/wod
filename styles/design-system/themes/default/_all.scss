@@ -10,6 +10,7 @@
 /* Import all component partials with underscore prefix */
 @use '_base' as *;
 @use '_typography' as *;
+@use '_prose' as *;
 @use '_lists' as *;
 @use '_tables' as *;
 @use '_forms' as *;

@@ -1,0 +1,49 @@
+{
+  "id": "kb-controlled-power-challenge",
+  "name": "KB Controlled Power Challenge",
+  "description": "230 total reps of kettlebell work — no running, no jumping, just controlled power. Start with 50 around-the-body passes, then 60 each of side swings, high pulls, and goblet squats. Based on @metabolicfactor's daily KB routine.",
+  "routineId": "challenges",
+  "tags": ["challenge", "kettlebell", "full-body", "core", "strength", "endurance"],
+  "difficulty": "hard",
+  "estimatedDuration": 20,
+  "equipment": ["kettlebell"],
+  "source": "@metabolicfactor",
+  "sourceUrl": "https://x.com/metabolicfactor/status/2023668997959348230",
+  "sets": [
+    {
+      "id": "around-body-pass",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "kettlebell-around-body-pass" }, "reps": 50, "notes": "Smooth circles, alternate direction halfway" }
+      ]
+    },
+    {
+      "id": "side-swings",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "kettlebell-side-swing" }, "reps": 60, "notes": "Drive from the hips, control the arc" }
+      ]
+    },
+    {
+      "id": "high-pulls",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "kettlebell-high-pull" }, "reps": 60, "notes": "Explosive pull to shoulder height, keep bell close" }
+      ]
+    },
+    {
+      "id": "goblet-squats",
+      "type": "exercises",
+      "exercises": [
+        { "criteria": { "exerciseId": "kettlebell-goblet-squat" }, "reps": 60, "notes": "Full depth, elbows inside knees" }
+      ]
+    }
+  ],
+  "tips": [
+    "230 total reps — pace yourself, this is a grind",
+    "Break each exercise into sets of 10-15 if needed",
+    "Use a moderate weight — you need to survive all 4 exercises",
+    "Rest between exercises as needed, but try to keep moving",
+    "The passes are your warmup — use them to find your rhythm"
+  ]
+}

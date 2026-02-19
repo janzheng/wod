@@ -1,0 +1,34 @@
+{
+  "id": "kb-daily-controlled-power",
+  "name": "Daily KB Controlled Power (@metabolicfactor)",
+  "description": "A daily mini-workout using a kettlebell for controlled power movements. No running, no jumping — just controlled power. Targets full-body strength, core definition, and posture. 50 circles + 60 reps of swings, pulls, and squats.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "core", "daily", "beginner-friendly", "circuit"],
+  "estimatedDuration": 15,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@metabolicfactor",
+  "sourceUrl": "https://x.com/metabolicfactor/status/2023668997959348230",
+  "tips": [
+    "No running, no jumping — just controlled power",
+    "Can be done daily as a standalone routine",
+    "Focus on smooth, controlled movements",
+    "Rest 30s between exercises if needed"
+  ],
+  "sets": [
+    {
+      "id": "circuit",
+      "name": "Controlled Power Circuit",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": 50, "notes": "Smooth circles, alternate directions halfway" },
+        { "id": "kettlebell-side-swing", "reps": 60, "notes": "Controlled arc, drive from hips" },
+        { "id": "kettlebell-high-pull", "reps": 60, "notes": "Explosive pull, controlled lower" },
+        { "id": "kettlebell-goblet-squat", "reps": 60, "notes": "Full depth, chest up" }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ]
+}
