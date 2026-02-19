@@ -1,10 +1,22 @@
 {
   "id": "v-sit",
   "name": "V-Sit",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "abs", "hip-flexors"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "abs", "floor", "on-back"],
+  "muscles": [
+    "core",
+    "abs",
+    "hip-flexors"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "abs",
+    "floor",
+    "on-back"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Lie on your back with arms extended overhead. Simultaneously lift your legs and torso, reaching your hands toward your toes to form a 'V' shape. Balance on your glutes at the top, then lower back down with control. Keep your legs as straight as possible throughout the movement."

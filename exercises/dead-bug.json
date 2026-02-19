@@ -1,10 +1,24 @@
 {
   "id": "dead-bug",
   "name": "Dead Bug",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "abs", "hip-flexors"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "floor", "abs", "warmup", "on-back", "active-stretch"],
+  "muscles": [
+    "core",
+    "abs",
+    "hip-flexors"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "abs",
+    "warmup",
+    "on-back",
+    "active-stretch"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Lie on your back with arms extended toward ceiling and knees bent at 90 degrees. Slowly lower opposite arm and leg toward the floor while keeping your lower back pressed into the ground. Return and repeat on the other side."

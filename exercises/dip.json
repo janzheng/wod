@@ -1,10 +1,24 @@
 {
   "id": "dip",
   "name": "Dip",
+  "category": "chest",
   "type": "calisthenics",
-  "muscles": ["chest", "triceps", "shoulders"],
-  "equipment": ["bodyweight"],
-  "tags": ["push", "upper-body", "compound", "rrr", "dip-progression", "calisthenics"],
+  "muscles": [
+    "chest",
+    "triceps",
+    "shoulders"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "push",
+    "upper-body",
+    "compound",
+    "rrr",
+    "dip-progression",
+    "calisthenics"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Support yourself on parallel bars with arms straight. Lower your body by bending your elbows until shoulders are below elbows. Keep core tight and lean slightly forward for chest emphasis. Push back up to full arm extension."

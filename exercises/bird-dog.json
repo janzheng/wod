@@ -1,10 +1,27 @@
 {
   "id": "bird-dog",
   "name": "Bird Dog",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "back", "glutes"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "anti-rotation", "balance", "rrr", "core-progression", "mcgill", "active-stretch", "floor", "warmup"],
+  "muscles": [
+    "core",
+    "back",
+    "glutes"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "anti-rotation",
+    "balance",
+    "rrr",
+    "core-progression",
+    "mcgill",
+    "active-stretch",
+    "floor",
+    "warmup"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "media": [

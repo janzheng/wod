@@ -1,10 +1,25 @@
 {
   "id": "pistol-squat",
   "name": "Pistol Squat",
+  "category": "legs-quads",
   "type": "calisthenics",
-  "muscles": ["quads", "glutes", "hamstrings", "core"],
-  "equipment": ["bodyweight"],
-  "tags": ["squat", "lower-body", "unilateral", "balance", "rrr", "squat-progression"],
+  "muscles": [
+    "quads",
+    "glutes",
+    "hamstrings",
+    "core"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "squat",
+    "lower-body",
+    "unilateral",
+    "balance",
+    "rrr",
+    "squat-progression"
+  ],
   "difficulty": "advanced",
   "duration": 60,
   "description": "Stand on one leg with the other leg extended straight in front of you. Lower into a deep single-leg squat while keeping the extended leg off the ground. Push through your heel to stand back up. Requires significant strength and mobility."

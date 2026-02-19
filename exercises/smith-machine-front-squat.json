@@ -1,10 +1,25 @@
 {
   "id": "smith-machine-front-squat",
   "name": "Smith Machine Front Squat",
+  "category": "legs-quads",
   "type": "weights",
-  "muscles": ["quads", "glutes", "core"],
-  "equipment": ["smith-machine"],
-  "tags": ["compound", "lower-body", "gym", "machine", "squat", "legs", "quads"],
+  "muscles": [
+    "quads",
+    "glutes",
+    "core"
+  ],
+  "equipment": [
+    "smith-machine"
+  ],
+  "tags": [
+    "compound",
+    "lower-body",
+    "gym",
+    "machine",
+    "squat",
+    "legs",
+    "quads"
+  ],
   "difficulty": "intermediate",
   "duration": 90,
   "description": "Position bar across the front of your shoulders, elbows high. Cross your arms to grip the bar or use a clean grip. Stand with feet shoulder-width apart, slightly in front of the bar. Unhook and descend, keeping torso upright and elbows high. Drive through heels to stand. Front position emphasizes quads more than back squat."

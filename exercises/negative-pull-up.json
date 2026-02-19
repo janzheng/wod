@@ -1,10 +1,24 @@
 {
   "id": "negative-pull-up",
   "name": "Negative Pull-up",
+  "category": "back-vertical-pull",
   "type": "calisthenics",
-  "muscles": ["back", "biceps", "shoulders"],
-  "equipment": ["pull-up-bar"],
-  "tags": ["pull", "upper-body", "compound", "rrr", "pull-up-progression"],
+  "muscles": [
+    "back",
+    "biceps",
+    "shoulders"
+  ],
+  "equipment": [
+    "pull-up-bar"
+  ],
+  "tags": [
+    "pull",
+    "upper-body",
+    "compound",
+    "rrr",
+    "pull-up-progression",
+    "vertical-pull"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Jump or use a box to get to the top of a pull-up position (chin over bar). Slowly lower yourself down over 3-5 seconds, fighting gravity the entire way. Focus on control and keeping your core engaged. Reset and repeat."

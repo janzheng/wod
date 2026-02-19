@@ -31,6 +31,7 @@ export const criteriaSchema = z.object({
 
   // Filters (OR logic within each, AND logic between fields)
   types: z.array(z.string()).optional(),      // ["barre", "yoga", "calisthenics"]
+  categories: z.array(z.string()).optional(), // ["chest", "back-vertical-pull", "legs-quads"]
   muscles: z.array(z.string()).optional(),    // ["glutes", "quads", "core"]
   tags: z.array(z.string()).optional(),       // ["floor", "standing", "compound"]
   equipment: z.array(z.string()).optional(),  // ["bodyweight", "mat", "dumbbell"]

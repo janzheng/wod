@@ -1,10 +1,23 @@
 {
   "id": "standing-leg-lift",
   "name": "Standing Leg Lift",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "hip-flexors", "abs"],
-  "equipment": ["bodyweight"],
-  "tags": ["warmup", "core", "abs", "standing", "active-stretch"],
+  "muscles": [
+    "core",
+    "hip-flexors",
+    "abs"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "warmup",
+    "core",
+    "abs",
+    "standing",
+    "active-stretch"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Stand upright and lift one leg straight up in front of you as high as comfortable while keeping your torso upright and core engaged. Lower with control and repeat. This is like a standing leg raise, great for warming up the hip flexors and core. Can hold onto something for balance if needed."

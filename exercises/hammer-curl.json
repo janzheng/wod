@@ -1,10 +1,22 @@
 {
   "id": "hammer-curl",
   "name": "Hammer Curl",
+  "category": "arms-biceps",
   "type": "weights",
-  "muscles": ["biceps", "forearms"],
-  "equipment": ["dumbbell"],
-  "tags": ["isolation", "pull", "upper-body", "arms", "circuit"],
+  "muscles": [
+    "biceps",
+    "forearms"
+  ],
+  "equipment": [
+    "dumbbell"
+  ],
+  "tags": [
+    "isolation",
+    "pull",
+    "upper-body",
+    "arms",
+    "circuit"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Stand with feet shoulder-width apart, holding dumbbells at your sides with palms facing each other (neutral grip). Curl the weights up while maintaining the neutral grip. This variation targets the brachialis and forearms more than standard curls."

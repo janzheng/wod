@@ -1,10 +1,27 @@
 {
   "id": "dumbbell-pullover",
   "name": "Dumbbell Pullover",
+  "category": "back-vertical-pull",
   "type": "weights",
-  "muscles": ["lats", "chest", "triceps", "core"],
-  "equipment": ["dumbbell", "bench"],
-  "tags": ["compound", "upper-body", "gym", "lats", "chest"],
+  "muscles": [
+    "lats",
+    "chest",
+    "triceps",
+    "core"
+  ],
+  "equipment": [
+    "dumbbell",
+    "bench"
+  ],
+  "tags": [
+    "compound",
+    "upper-body",
+    "gym",
+    "lats",
+    "chest",
+    "pull",
+    "vertical-pull"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Lie perpendicular across a bench with just your upper back on the bench. Hold one dumbbell with both hands above your chest. With slight elbow bend, lower dumbbell behind your head in an arc until you feel a stretch. Pull back up in the same arc. Keep hips up and core braced."

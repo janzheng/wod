@@ -1,10 +1,25 @@
 {
   "id": "plank-pulse",
   "name": "Plank Pulses",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "abs", "shoulders"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "floor", "warmup", "circuit", "on-hands", "plank-variation", "pulse"],
+  "muscles": [
+    "core",
+    "abs",
+    "shoulders"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "warmup",
+    "circuit",
+    "on-hands",
+    "plank-variation",
+    "pulse"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "From a plank position with hands shoulder-width apart, perform small pulses by moving your body forward and backward a few inches while maintaining core engagement. Keep hips level and don't let your lower back sag."

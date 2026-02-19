@@ -1,6 +1,7 @@
 {
   "id": "kettlebell-row",
   "name": "Kettlebell Row",
+  "category": "back-horizontal-pull",
   "type": "weights",
   "muscles": [
     "back",
@@ -18,7 +19,8 @@
     "kettlebell",
     "strength",
     "pull",
-    "back"
+    "back",
+    "horizontal-pull"
   ],
   "difficulty": "beginner",
   "duration": 60,

@@ -1,0 +1,141 @@
+{
+  "id": "ppl-pull",
+  "name": "PPL Pull Day (Back/Biceps)",
+  "description": "Pull day from @KarlApexFit's 65-exercise database. Vertical pulls for lats, horizontal pulls for rhomboids/upper back, and bicep isolation.",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl"],
+  "estimatedDuration": 60,
+  "equipment": ["cable", "barbell", "dumbbell", "machine", "bench", "pull-up-bar"],
+  "source": {
+    "creator": "@KarlApexFit",
+    "url": "https://x.com/karlapexfit/status/2023359316456271917"
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["back", "shoulders"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio"] }, "reps": 10 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "vertical-pull",
+      "name": "Back: Vertical Pulls (Lats)",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-vertical-pull",
+          "name": "Classic Vertical Pull",
+          "exercises": [
+            { "id": "pull-up", "reps": "6-10", "notes": "add weight if bodyweight is easy" },
+            { "id": "lat-pulldown", "reps": "10-12", "notes": "wide grip" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["lats", "back"], "tags": ["pull", "compound"], "equipment": ["pull-up-bar", "bodyweight"] }, "reps": "6-10" },
+        { "criteria": { "muscles": ["lats"], "equipment": ["cable", "machine"], "tags": ["pull"] }, "reps": "10-12" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "horizontal-pull",
+      "name": "Back: Horizontal Pulls (Rhomboids/Upper Back)",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-horizontal-pull",
+          "name": "Classic Horizontal Pull",
+          "exercises": [
+            { "id": "chest-supported-t-bar-row", "reps": "8-10" },
+            { "id": "face-pull", "reps": "15-20", "notes": "light weight, squeeze rear delts" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["back", "upper-back"], "tags": ["pull", "compound"], "equipment": ["machine", "barbell"] }, "reps": "8-10" },
+        { "criteria": { "muscles": ["rear-delts", "upper-back"], "equipment": ["cable"], "tags": ["pull"] }, "reps": "15-20" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "lat-isolation",
+      "name": "Back: Lat Isolation",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-lat-iso",
+          "name": "Classic Lat Isolation",
+          "exercises": [
+            { "id": "single-arm-lat-pulldown", "reps": "10-12", "notes": "each arm" },
+            { "id": "cable-pullover", "reps": "12-15" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["lats"], "equipment": ["cable"], "tags": ["isolation"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["lats"], "tags": ["isolation", "pull"] }, "reps": "12-15" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "biceps",
+      "name": "Biceps: Isolation Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-biceps",
+          "name": "Classic Biceps",
+          "exercises": [
+            { "id": "preacher-curl", "reps": "10-12" },
+            { "id": "incline-curl", "reps": "10-12", "notes": "full stretch at bottom" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["biceps"], "tags": ["isolation"], "equipment": ["barbell", "dumbbell", "bench"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["biceps"], "tags": ["isolation"], "equipment": ["dumbbell", "cable"] }, "reps": "10-12" }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    },
+    {
+      "id": "shrugs",
+      "name": "Traps: Shrugs (Optional)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-shrug", "reps": "12-15", "notes": "hold at top for 2 seconds" }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Vertical pulls target lats; horizontal pulls target rhomboids and upper back",
+    "Barbell Row listed as sub-optimal — prefer chest-supported rows for back isolation",
+    "Face pulls are essential for shoulder health, don't skip them",
+    "Keep bicep work at the end so grip fatigue doesn't limit back training"
+  ]
+}

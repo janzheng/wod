@@ -1,10 +1,23 @@
 {
   "id": "banded-bicep-curl",
   "name": "Banded Bicep Curl",
+  "category": "arms-biceps",
   "type": "calisthenics",
-  "muscles": ["biceps", "forearms"],
-  "equipment": ["resistance-band"],
-  "tags": ["banded", "biceps", "isolation", "upper-body", "arms"],
+  "muscles": [
+    "biceps",
+    "forearms"
+  ],
+  "equipment": [
+    "resistance-band"
+  ],
+  "tags": [
+    "banded",
+    "biceps",
+    "isolation",
+    "upper-body",
+    "arms",
+    "pull"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Stand on the center of a resistance band with feet shoulder-width apart, holding the ends with palms facing forward. Curl your hands toward your shoulders, keeping your elbows pinned at your sides. Squeeze your biceps at the top, then lower with control. The band provides accommodating resistance - harder at the top where you're strongest."

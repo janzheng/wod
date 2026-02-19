@@ -1,10 +1,22 @@
 {
   "id": "assisted-squat",
   "name": "Assisted Squat",
+  "category": "legs-quads",
   "type": "calisthenics",
-  "muscles": ["quads", "glutes", "hamstrings"],
-  "equipment": ["bodyweight"],
-  "tags": ["squat", "lower-body", "rrr", "squat-progression"],
+  "muscles": [
+    "quads",
+    "glutes",
+    "hamstrings"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "squat",
+    "lower-body",
+    "rrr",
+    "squat-progression"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Hold onto a sturdy object like a doorframe or pole. Perform a squat while using your arms to assist on the way up. Focus on sitting back into your heels and keeping your chest up. Use less assistance as you get stronger."

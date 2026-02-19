@@ -1,10 +1,24 @@
 {
   "id": "horizontal-row",
   "name": "Horizontal Row",
+  "category": "back-horizontal-pull",
   "type": "calisthenics",
-  "muscles": ["back", "biceps", "shoulders"],
-  "equipment": ["bodyweight"],
-  "tags": ["pull", "upper-body", "row", "rrr", "row-progression"],
+  "muscles": [
+    "back",
+    "biceps",
+    "shoulders"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "pull",
+    "upper-body",
+    "row",
+    "rrr",
+    "row-progression",
+    "horizontal-pull"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Set up a bar or rings at hip height. Hang underneath with body horizontal and feet elevated on a box. Pull your chest to the bar, keeping body straight throughout. Squeeze shoulder blades at the top. Lower with control."

@@ -1,10 +1,23 @@
 {
   "id": "cable-bicep-curl",
   "name": "Cable Bicep Curl",
+  "category": "arms-biceps",
   "type": "weights",
-  "muscles": ["biceps"],
-  "equipment": ["cable"],
-  "tags": ["isolation", "upper-body", "gym", "machine", "biceps", "beginner-friendly"],
+  "muscles": [
+    "biceps"
+  ],
+  "equipment": [
+    "cable"
+  ],
+  "tags": [
+    "isolation",
+    "upper-body",
+    "gym",
+    "machine",
+    "biceps",
+    "beginner-friendly",
+    "pull"
+  ],
   "difficulty": "beginner",
   "duration": 45,
   "description": "Stand facing the low cable with a straight bar or EZ-bar attachment. Grip the handle with palms up, arms extended, elbows at your sides. Curl the bar up toward your shoulders, keeping elbows stationary. Squeeze biceps at the top, then lower with control. The constant cable tension makes this excellent for muscle building."

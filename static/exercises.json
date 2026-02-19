@@ -2,6 +2,7 @@
   {
     "id": "45-degree-back-extension",
     "name": "45 Degree Back Extension",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -25,6 +26,7 @@
   {
     "id": "ab-crunch-machine",
     "name": "Ab Crunch Machine",
+    "category": "core",
     "type": "weights",
     "muscles": [
       "abs",
@@ -46,6 +48,7 @@
   {
     "id": "ab-wheel-rollout",
     "name": "Ab Wheel Rollout",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -69,6 +72,7 @@
   {
     "id": "active-pigeon",
     "name": "Active Pigeon Pose",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "glutes",
@@ -95,6 +99,7 @@
   {
     "id": "advanced-tuck-back-lever",
     "name": "Advanced Tuck Back Lever",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -122,6 +127,7 @@
   {
     "id": "advanced-tuck-front-lever",
     "name": "Advanced Tuck Front Lever",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -149,6 +155,7 @@
   {
     "id": "advanced-tuck-planche",
     "name": "Advanced Tuck Planche",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -177,6 +184,7 @@
   {
     "id": "alternating-hand-to-foot-crunch",
     "name": "Alternating Hand to Foot Crunch",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -200,6 +208,7 @@
   {
     "id": "alternating-leg-raise",
     "name": "Alternating Leg Raise",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -223,6 +232,7 @@
   {
     "id": "alternating-toe-taps",
     "name": "Alternating Toe Taps (Floor Taps)",
+    "category": "mobility",
     "type": "rehab",
     "muscles": [
       "core",
@@ -251,6 +261,7 @@
   {
     "id": "american-kettlebell-swing",
     "name": "American Kettlebell Swing",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -268,7 +279,8 @@
       "full-body",
       "kettlebell",
       "power",
-      "hiit"
+      "hiit",
+      "hinge"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -277,6 +289,7 @@
   {
     "id": "arch-hang",
     "name": "Arch Hang",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -292,7 +305,8 @@
       "upper-body",
       "scapular",
       "rrr",
-      "pull-up-progression"
+      "pull-up-progression",
+      "vertical-pull"
     ],
     "difficulty": "beginner",
     "duration": 30,
@@ -301,6 +315,7 @@
   {
     "id": "archer-pull-up",
     "name": "Archer Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -317,7 +332,8 @@
       "upper-body",
       "advanced",
       "calisthenics",
-      "one-arm-progression"
+      "one-arm-progression",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -326,6 +342,7 @@
   {
     "id": "arm-circles",
     "name": "Arm Circles",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders"
@@ -341,7 +358,8 @@
       "shoulders",
       "mobility",
       "circuit",
-      "active-stretch"
+      "active-stretch",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -350,6 +368,7 @@
   {
     "id": "arnold-press",
     "name": "Arnold Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -374,6 +393,7 @@
   {
     "id": "arrow-push-up",
     "name": "Arrow Push-ups",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -388,7 +408,8 @@
       "push",
       "push-up-variation",
       "floor",
-      "circuit"
+      "circuit",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -397,6 +418,7 @@
   {
     "id": "asian-squat",
     "name": "Asian Squat",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "quads",
@@ -421,6 +443,7 @@
   {
     "id": "assisted-dip",
     "name": "Assisted Dip",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -445,6 +468,7 @@
   {
     "id": "assisted-pull-up",
     "name": "Assisted Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -460,7 +484,8 @@
       "upper-body",
       "compound",
       "rrr",
-      "pull-up-progression"
+      "pull-up-progression",
+      "vertical-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -469,6 +494,7 @@
   {
     "id": "assisted-squat",
     "name": "Assisted Squat",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -491,6 +517,7 @@
   {
     "id": "back-extension",
     "name": "Back Extension",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -505,7 +532,9 @@
       "extension",
       "posterior-chain",
       "rrr",
-      "core-progression"
+      "core-progression",
+      "lower-body",
+      "hinge"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -514,6 +543,7 @@
   {
     "id": "back-lever",
     "name": "Back Lever",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -541,6 +571,7 @@
   {
     "id": "ball-lunge",
     "name": "Stability Ball Lunge",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -568,6 +599,7 @@
   {
     "id": "banded-bicep-curl",
     "name": "Banded Bicep Curl",
+    "category": "arms-biceps",
     "type": "calisthenics",
     "muscles": [
       "biceps",
@@ -581,7 +613,8 @@
       "biceps",
       "isolation",
       "upper-body",
-      "arms"
+      "arms",
+      "pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -590,6 +623,7 @@
   {
     "id": "banded-calf-raises",
     "name": "Banded Calf Raises",
+    "category": "calves",
     "type": "calisthenics",
     "muscles": [
       "calves",
@@ -612,6 +646,7 @@
   {
     "id": "banded-front-raise",
     "name": "Banded Front Raise",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -625,7 +660,8 @@
       "shoulders",
       "isolation",
       "upper-body",
-      "front-delt"
+      "front-delt",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -634,6 +670,7 @@
   {
     "id": "banded-lateral-raise",
     "name": "Banded Lateral Raise",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -647,7 +684,8 @@
       "shoulders",
       "isolation",
       "upper-body",
-      "lateral-delt"
+      "lateral-delt",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -656,6 +694,7 @@
   {
     "id": "banded-nordic-curl",
     "name": "Banded Nordic Curl",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "hamstrings"
@@ -678,6 +717,7 @@
   {
     "id": "banded-pallof-hold",
     "name": "Banded Pallof Hold",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -699,6 +739,7 @@
   {
     "id": "banded-push-up",
     "name": "Banded Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -724,6 +765,7 @@
   {
     "id": "banded-rear-delt-raise",
     "name": "Banded Rear Delt Raise",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -739,7 +781,8 @@
       "isolation",
       "upper-body",
       "rear-delt",
-      "posture"
+      "posture",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -748,6 +791,7 @@
   {
     "id": "banded-soleus-raises",
     "name": "Banded Soleus Raises",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "calves",
@@ -771,6 +815,7 @@
   {
     "id": "banded-squat",
     "name": "Banded Squat (Behind Neck)",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -796,6 +841,7 @@
   {
     "id": "bar-hand-switches",
     "name": "Bar Hand Switches",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "forearms",
@@ -818,6 +864,7 @@
   {
     "id": "barbell-bent-over-row",
     "name": "Barbell Bent-Over Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -833,7 +880,8 @@
       "upper-body",
       "gym",
       "row",
-      "back"
+      "back",
+      "horizontal-pull"
     ],
     "difficulty": "intermediate",
     "duration": 90,
@@ -842,6 +890,7 @@
   {
     "id": "barbell-good-morning",
     "name": "Barbell Good Morning",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings",
@@ -869,6 +918,7 @@
   {
     "id": "barbell-romanian-deadlift",
     "name": "Barbell Romanian Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings",
@@ -896,6 +946,7 @@
   {
     "id": "barbell-shoulder-press",
     "name": "Barbell Shoulder Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -910,7 +961,8 @@
       "push",
       "upper-body",
       "shoulders",
-      "press"
+      "press",
+      "gym"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -919,6 +971,7 @@
   {
     "id": "barre-all-fours-side-kick",
     "name": "All Fours Side Kick",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -931,7 +984,8 @@
       "floor",
       "kick",
       "unilateral",
-      "on-hands"
+      "on-hands",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Start on all fours. Cross one knee behind the other, then kick that leg out to the side. (Day 8)",
@@ -952,6 +1006,7 @@
   {
     "id": "barre-attitude-position",
     "name": "Attitude Position Kickback",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -964,7 +1019,8 @@
       "floor",
       "attitude",
       "unilateral",
-      "on-hands"
+      "on-hands",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "On all fours, lift one leg with the knee bent and ankle crossed over/angled (attitude position). (Day 20)",
@@ -985,6 +1041,7 @@
   {
     "id": "barre-bent-leg-side-lift",
     "name": "Side-Lying Bent Leg Lift",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "hips",
@@ -996,7 +1053,8 @@
     "tags": [
       "floor",
       "side-lying",
-      "bent-leg"
+      "bent-leg",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Lie on side with legs bent at 90 degrees. Lift the entire top leg (knee and ankle) parallel to the floor. (Day 25)",
@@ -1017,6 +1075,7 @@
   {
     "id": "barre-bridge-single-leg",
     "name": "Bridge with Single Leg Lift",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1032,7 +1091,8 @@
       "unilateral",
       "on-back",
       "maternity",
-      "gentle"
+      "gentle",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Lie on back in bridge position. Lift one leg straight up to the ceiling while pulsing hips up and down. (Day 14)",
@@ -1053,6 +1113,7 @@
   {
     "id": "barre-bridge-tendu",
     "name": "Bridge with Tendu",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1068,7 +1129,8 @@
       "tendu",
       "on-back",
       "maternity",
-      "gentle"
+      "gentle",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Hold a glute bridge position. Extend one leg straight out forward (knees aligned) or point toe. (Day 29)",
@@ -1089,6 +1151,7 @@
   {
     "id": "barre-clamshell",
     "name": "Clamshell",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1102,7 +1165,8 @@
       "isolation",
       "abduction",
       "maternity",
-      "gentle"
+      "gentle",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Lie on your side with legs stacked and knees bent. Keep feet touching while opening the top knee upward. (Day 3)",
@@ -1123,6 +1187,7 @@
   {
     "id": "barre-donkey-kick",
     "name": "All Fours Donkey Kick",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1135,7 +1200,8 @@
       "floor",
       "kick",
       "extension",
-      "on-hands"
+      "on-hands",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "From all fours, extend one leg straight back and slightly up, engaging the glute. (Day 17)",
@@ -1156,6 +1222,7 @@
   {
     "id": "barre-donkey-kick-pulse",
     "name": "Donkey Kick Pulse",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1169,7 +1236,8 @@
       "floor",
       "donkey-kick",
       "weighted",
-      "on-hands"
+      "on-hands",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "On all fours, perform donkey kick pulses with the sole of the foot toward the ceiling. Use a weight behind the knee if possible. (Day 21)",
@@ -1190,6 +1258,7 @@
   {
     "id": "barre-fire-hydrant",
     "name": "Fire Hydrant",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1202,7 +1271,8 @@
       "floor",
       "abduction",
       "fire-hydrant",
-      "on-hands"
+      "on-hands",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Start on all fours. Lift one bent knee out to the side (fire hydrant movement) keeping hips square. (Day 12)",
@@ -1223,6 +1293,7 @@
   {
     "id": "barre-first-position-plie",
     "name": "First Position Plié",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "quads",
@@ -1235,7 +1306,8 @@
     "tags": [
       "standing",
       "plie",
-      "external-rotation"
+      "external-rotation",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Stand with heels touching and toes out (first position). Rise onto toes, bend knees into a diamond shape, and pulse or straighten. (Day 5)",
@@ -1256,6 +1328,7 @@
   {
     "id": "barre-glute-kickback",
     "name": "Glute Kickback",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1290,6 +1363,7 @@
   {
     "id": "barre-grand-plie-passe",
     "name": "Grand Plié to Passé Rise",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "quads",
@@ -1302,7 +1376,8 @@
     "tags": [
       "standing",
       "dynamic",
-      "plie"
+      "plie",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Perform a grande plié (deep squat), then rise and bring one foot to passé (knee bent, toe to knee). Alternate sides. (Day 15)",
@@ -1323,6 +1398,7 @@
   {
     "id": "barre-leg-circles",
     "name": "Leg Circle Series",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1336,7 +1412,8 @@
       "floor",
       "mobility",
       "glutes",
-      "on-hands"
+      "on-hands",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Start on all fours. Extend one leg straight back. Tap the toe to the floor on the left, lift in a high arc, and tap on the right. (Day 6)",
@@ -1357,6 +1434,7 @@
   {
     "id": "barre-plie-jump",
     "name": "Plié Squat Jump",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -1369,7 +1447,8 @@
     "tags": [
       "standing",
       "cardio",
-      "plie"
+      "plie",
+      "lower-body"
     ],
     "difficulty": "advanced",
     "description": "Perform explosive plié squat jumps, landing softly through the feet. (Day 22)",
@@ -1390,6 +1469,7 @@
   {
     "id": "barre-plie-releve",
     "name": "Plié to Relevé",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "quads",
@@ -1402,7 +1482,8 @@
     "tags": [
       "standing",
       "rotation",
-      "plie"
+      "plie",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Focus on external rotators. Perform a plié, rise to toes (relevé), and extend to straight legs. (Day 13)",
@@ -1423,6 +1504,7 @@
   {
     "id": "barre-pretzel-lift",
     "name": "Pretzel Leg Lift",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "obliques",
@@ -1434,7 +1516,8 @@
     "tags": [
       "floor",
       "mobility",
-      "pretzel"
+      "pretzel",
+      "lower-body"
     ],
     "difficulty": "advanced",
     "description": "Seated or side-lying pretzel position. Lift the back leg off the floor while keeping the torso upright. (Day 19)",
@@ -1455,6 +1538,7 @@
   {
     "id": "barre-prone-glute-lift",
     "name": "Prone Glute Lift",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1466,7 +1550,8 @@
     "tags": [
       "floor",
       "prone",
-      "isolation"
+      "isolation",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Lie on stomach. Bend knees and bring heels together. Raise knees off the floor while keeping upper body static. (Day 16)",
@@ -1487,6 +1572,7 @@
   {
     "id": "barre-pulse",
     "name": "Barre Leg Pulses",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1501,7 +1587,8 @@
       "circuit",
       "barre",
       "isometric",
-      "pulse"
+      "pulse",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -1510,6 +1597,7 @@
   {
     "id": "barre-releve-passe",
     "name": "Relevé Passé",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "calves",
@@ -1522,7 +1610,8 @@
     "tags": [
       "standing",
       "balance",
-      "releve"
+      "releve",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Stand on one leg with the other foot resting against the standing inner thigh (passé position). Rise up onto the ball of the standing foot (relevé) and lower. (Day 2)",
@@ -1543,6 +1632,7 @@
   {
     "id": "barre-rond-de-jambe",
     "name": "Rond de Jambe",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "hips",
@@ -1554,7 +1644,8 @@
     "tags": [
       "standing",
       "mobility",
-      "rotation"
+      "rotation",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Stand at barre. Extend outside leg and perform small controlled circles (rond de jambe). (Day 30)",
@@ -1575,6 +1666,7 @@
   {
     "id": "barre-scissor-kick",
     "name": "Scissor Kick",
+    "category": "core",
     "type": "barre",
     "muscles": [
       "core",
@@ -1608,6 +1700,7 @@
   {
     "id": "barre-side-lying-leg-lift",
     "name": "Side-Lying Leg Lift",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "hips",
@@ -1622,7 +1715,8 @@
       "side-lying",
       "abduction",
       "maternity",
-      "gentle"
+      "gentle",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Lie on your side, propped on one elbow. Extend the top leg straight out and lift/lower or circle it. (Day 9)",
@@ -1643,6 +1737,7 @@
   {
     "id": "barre-single-leg-deadlift",
     "name": "Single Leg Deadlift at Barre",
+    "category": "legs-hip-hinge",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1654,7 +1749,8 @@
     "tags": [
       "standing",
       "hinge",
-      "unilateral"
+      "unilateral",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Face a barre or chair. Hinge forward at hips, keeping back flat. Lift one leg straight back behind you. (Day 11)",
@@ -1675,6 +1771,7 @@
   {
     "id": "barre-squat-jump",
     "name": "Squat Jump",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -1687,7 +1784,8 @@
     "tags": [
       "standing",
       "jumping",
-      "squat"
+      "squat",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Start in a narrow squat and jump out to a wide squat, or perform squat jumps. (Day 26)",
@@ -1708,6 +1806,7 @@
   {
     "id": "barre-stability-ball-pulse",
     "name": "Wide Plié Relevé Pulse",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "calves",
@@ -1721,7 +1820,8 @@
     "tags": [
       "standing",
       "balance",
-      "plie"
+      "plie",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Stand in a wide plié position with feet wide and toes turned out. Rise up onto the balls of your feet (relevé) and pulse up and down while maintaining the wide stance. (Day 10)",
@@ -1742,6 +1842,7 @@
   {
     "id": "barre-standing-abduction",
     "name": "Standing Abduction at Barre",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "hips",
@@ -1754,7 +1855,8 @@
     "tags": [
       "standing",
       "abduction",
-      "lateral"
+      "lateral",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Stand holding a barre. Lift outside leg straight out to the side. (Day 23)",
@@ -1775,6 +1877,7 @@
   {
     "id": "barre-standing-arabesque",
     "name": "Standing Arabesque Pulse",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "glutes",
@@ -1787,7 +1890,8 @@
     "tags": [
       "standing",
       "unilateral",
-      "arabesque"
+      "arabesque",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Hold onto a barre or chair. Lean forward slightly and extend one leg straight back, pulsing it upward. (Day 4)",
@@ -1808,6 +1912,7 @@
   {
     "id": "barre-starfish-lift",
     "name": "Side-Lying Starfish Lift",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "obliques",
@@ -1819,7 +1924,8 @@
     "tags": [
       "floor",
       "side-lying",
-      "core"
+      "core",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Lie on side with legs extended straight. Lift both legs simultaneously like a starfish. (Day 24)",
@@ -1840,6 +1946,7 @@
   {
     "id": "barre-superman",
     "name": "Superman Hold",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "lower-back",
@@ -1854,7 +1961,8 @@
       "prone",
       "superman",
       "back-exercise",
-      "on-hands"
+      "on-hands",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Lie on stomach with arms and legs extended. Lift opposite arm and leg simultaneously. (Day 27)",
@@ -1875,6 +1983,7 @@
   {
     "id": "barre-wide-plie-lift",
     "name": "Wide Plié Lift",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "quads",
@@ -1886,7 +1995,8 @@
     "tags": [
       "standing",
       "plie",
-      "pulse"
+      "pulse",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "description": "Stand with feet wider than shoulder-width apart, toes pointed outward. Lower into a deep squat with knees bent and tracking over toes. Arms rounded in front of body at hip level in ballet first position (bras bas). Pulse up and down in small controlled movements.",
@@ -1908,6 +2018,7 @@
   {
     "id": "barre-wide-plie-pulse",
     "name": "Wide Plié Pulse",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "quads",
@@ -1920,7 +2031,8 @@
     "tags": [
       "standing",
       "sumo-squat",
-      "pulse"
+      "pulse",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "description": "Stand with feet wide and toes turned out. Lower into a wide plié squat and perform small pulses. (Day 7)",
@@ -1941,6 +2053,7 @@
   {
     "id": "bear-crawl-hold",
     "name": "Bear Crawl Hold",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -1965,6 +2078,7 @@
   {
     "id": "bench-press",
     "name": "Barbell Bench Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -1980,7 +2094,8 @@
       "push",
       "press",
       "upper-body",
-      "chest"
+      "chest",
+      "gym"
     ],
     "difficulty": "intermediate",
     "duration": 180,
@@ -1989,6 +2104,7 @@
   {
     "id": "bicep-curl",
     "name": "Bicep Curl",
+    "category": "arms-biceps",
     "type": "weights",
     "muscles": [
       "biceps"
@@ -2010,6 +2126,7 @@
   {
     "id": "bicycle-crunch",
     "name": "Bicycle Crunches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2032,6 +2149,7 @@
   {
     "id": "bicycle-straight-legs",
     "name": "Bicycle Straight Legs",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2056,6 +2174,7 @@
   {
     "id": "bird-dog",
     "name": "Bird Dog",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2090,6 +2209,7 @@
   {
     "id": "boat-pose",
     "name": "Boat Pose",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "core",
@@ -2111,6 +2231,7 @@
   {
     "id": "boat-pose-pulses",
     "name": "Boat Pose Pulses",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2137,6 +2258,7 @@
   {
     "id": "bodyweight-squat",
     "name": "Bodyweight Squat",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -2161,6 +2283,7 @@
   {
     "id": "box-jump",
     "name": "Box Jumps",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -2173,7 +2296,8 @@
     "tags": [
       "explosive",
       "legs",
-      "power"
+      "power",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -2182,6 +2306,7 @@
   {
     "id": "bridge-lift",
     "name": "Bridge Lift",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "glutes",
@@ -2206,6 +2331,7 @@
   {
     "id": "bulgarian-split-squat",
     "name": "Bulgarian Split Squat",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -2236,6 +2362,7 @@
   {
     "id": "burpee",
     "name": "Burpee",
+    "category": "full-body",
     "type": "plyo",
     "muscles": [
       "full-body"
@@ -2257,6 +2384,7 @@
   {
     "id": "butt-kicks",
     "name": "Butt Kicks",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "hamstrings",
@@ -2280,6 +2408,7 @@
   {
     "id": "butterfly-stretch",
     "name": "Butterfly Stretch",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "hips",
@@ -2303,6 +2432,7 @@
   {
     "id": "cable-bicep-curl",
     "name": "Cable Bicep Curl",
+    "category": "arms-biceps",
     "type": "weights",
     "muscles": [
       "biceps"
@@ -2316,7 +2446,8 @@
       "gym",
       "machine",
       "biceps",
-      "beginner-friendly"
+      "beginner-friendly",
+      "pull"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -2325,6 +2456,7 @@
   {
     "id": "cable-chest-fly",
     "name": "Cable Chest Fly",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest"
@@ -2344,8 +2476,56 @@
     "description": "Set cable pulleys to shoulder height. Stand in the center with a handle in each hand, arms extended out to the sides with a slight elbow bend. Step forward into a staggered stance for stability. Bring your hands together in front of your chest in a hugging motion, squeezing your pecs hard at the center. Control the weight back, feeling the stretch in your chest. Keep the same elbow angle throughout - this is a fly, not a press."
   },
   {
+    "id": "cable-chest-press",
+    "name": "Cable Chest Press",
+    "category": "chest",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "press",
+      "upper-body",
+      "gym",
+      "chest"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Set two cable pulleys to chest height. Grab a handle in each hand, step forward into a staggered stance, and press both handles forward until your arms are fully extended. Squeeze your chest at the peak, then return with control. The cables provide constant tension and allow a greater range of motion than barbell pressing."
+  },
+  {
+    "id": "cable-crunch",
+    "name": "Cable Crunch",
+    "category": "core",
+    "type": "weights",
+    "muscles": [
+      "abs",
+      "core"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "isolation",
+      "core",
+      "abs",
+      "gym"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Kneel facing a high cable with a rope attachment held behind your head. Crunch down by flexing your spine, bringing your elbows toward your knees. Focus on contracting your abs rather than pulling with your arms. Return to the starting position with control. Allows progressive overload on abs unlike bodyweight crunches."
+  },
+  {
     "id": "cable-lateral-raise",
     "name": "Cable Lateral Raise",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders"
@@ -2366,8 +2546,35 @@
     "description": "Stand sideways to a low cable pulley with the handle in your far hand (cable crosses in front of your body). Keep a slight bend in your elbow and raise your arm out to the side until it reaches shoulder height. Lower with control. The cable provides constant tension throughout the range of motion, unlike dumbbells which are hardest at the top. Complete all reps then switch sides."
   },
   {
+    "id": "cable-pullover",
+    "name": "Cable Pull Over",
+    "category": "back-vertical-pull",
+    "type": "weights",
+    "muscles": [
+      "lats",
+      "chest",
+      "core"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "isolation",
+      "pull",
+      "upper-body",
+      "gym",
+      "back",
+      "lats",
+      "vertical-pull"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Stand facing away from a high cable with a straight bar or rope attachment. With a slight bend in your elbows, pull the cable in an arc from overhead down to your hips. Keep your core braced and focus on squeezing your lats throughout the movement. The cable provides constant tension unlike the dumbbell variant."
+  },
+  {
     "id": "cable-row-machine",
     "name": "Cable Row Machine",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -2385,7 +2592,8 @@
       "gym",
       "machine",
       "back",
-      "row"
+      "row",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -2394,6 +2602,7 @@
   {
     "id": "cable-tricep-pushdown",
     "name": "Cable Tricep Pushdown",
+    "category": "arms-triceps",
     "type": "weights",
     "muscles": [
       "triceps"
@@ -2407,7 +2616,8 @@
       "gym",
       "machine",
       "triceps",
-      "beginner-friendly"
+      "beginner-friendly",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -2416,6 +2626,7 @@
   {
     "id": "calf-press",
     "name": "Calf Press",
+    "category": "calves",
     "type": "weights",
     "muscles": [
       "calves"
@@ -2437,6 +2648,7 @@
   {
     "id": "calf-raise-machine",
     "name": "Seated Calf Raise Machine",
+    "category": "calves",
     "type": "weights",
     "muscles": [
       "calves"
@@ -2459,6 +2671,7 @@
   {
     "id": "candlestick",
     "name": "Candlestick",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2484,6 +2697,7 @@
   {
     "id": "cat-cow",
     "name": "Cat-Cow Stretch",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "back",
@@ -2508,6 +2722,7 @@
   {
     "id": "chair-dip",
     "name": "Chair Dip",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "triceps",
@@ -2532,6 +2747,7 @@
   {
     "id": "chest-press-machine",
     "name": "Chest Press Machine",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -2556,8 +2772,35 @@
     "description": "Adjust seat height so handles are at mid-chest level. Sit with back flat against pad and feet on floor. Grip handles and press forward, extending arms without locking elbows. Squeeze chest at full extension, then control the weight back. The machine guides your movement path, making this ideal for learning pressing patterns."
   },
   {
+    "id": "chest-supported-low-row",
+    "name": "Chest Supported Low Row",
+    "category": "back-horizontal-pull",
+    "type": "weights",
+    "muscles": [
+      "back",
+      "lats",
+      "upper-back",
+      "biceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "upper-body",
+      "gym",
+      "back",
+      "horizontal-pull"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Sit at a low row machine with a chest pad for support. Grip the handles and pull toward your lower torso, keeping your elbows tight to your body. The chest support eliminates momentum and lower back fatigue, letting you focus entirely on back contraction."
+  },
+  {
     "id": "chest-supported-machine-row",
     "name": "Chest Supported Machine Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -2574,15 +2817,43 @@
       "upper-body",
       "gym",
       "machine",
-      "back"
+      "back",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
     "description": "Sit with your chest firmly against the pad and grasp the neutral grip handles. Row the weight toward your torso by driving your elbows back, squeezing your shoulder blades together at peak contraction. Lower with control to a full stretch. The chest support removes momentum and lower back involvement, allowing you to focus entirely on back engagement."
   },
   {
+    "id": "chest-supported-neutral-grip-row",
+    "name": "Chest Supported Neutral Grip Row",
+    "category": "back-horizontal-pull",
+    "type": "weights",
+    "muscles": [
+      "back",
+      "lats",
+      "upper-back",
+      "biceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "upper-body",
+      "gym",
+      "back",
+      "horizontal-pull"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Lie face down on a chest-supported row machine or incline bench. Grip the neutral (palms-facing) handles and row the weight toward your torso, driving your elbows back. The neutral grip shifts emphasis slightly toward the lats and is easier on the wrists and shoulders."
+  },
+  {
     "id": "chest-supported-seated-cable-row",
     "name": "Chest Supported Seated Cable Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -2599,7 +2870,8 @@
       "upper-body",
       "gym",
       "cable",
-      "back"
+      "back",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -2608,6 +2880,7 @@
   {
     "id": "chest-supported-t-bar-row",
     "name": "Chest Supported T-Bar Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -2624,7 +2897,8 @@
       "pull",
       "upper-body",
       "gym",
-      "back"
+      "back",
+      "horizontal-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -2633,6 +2907,7 @@
   {
     "id": "childs-pose",
     "name": "Child's Pose",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "back",
@@ -2657,6 +2932,7 @@
   {
     "id": "chin-up",
     "name": "Chin-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "biceps",
@@ -2672,7 +2948,8 @@
       "pull",
       "upper-body",
       "rrr",
-      "pull-up-progression"
+      "pull-up-progression",
+      "vertical-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -2681,6 +2958,7 @@
   {
     "id": "clap-jack",
     "name": "Clap Jack",
+    "category": "full-body",
     "type": "plyo",
     "muscles": [
       "full-body",
@@ -2705,6 +2983,7 @@
   {
     "id": "clavicular-pecs-machine-press",
     "name": "Clavicular Pecs Machine Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -2729,6 +3008,7 @@
   {
     "id": "close-grip-cable-row",
     "name": "Close Grip Cable Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -2745,7 +3025,8 @@
       "gym",
       "machine",
       "back",
-      "row"
+      "row",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -2754,6 +3035,7 @@
   {
     "id": "close-grip-push-up",
     "name": "Close Grip Push-up",
+    "category": "arms-triceps",
     "type": "calisthenics",
     "muscles": [
       "triceps",
@@ -2769,7 +3051,8 @@
       "warmup",
       "floor",
       "push-up-variation",
-      "on-hands"
+      "on-hands",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -2778,6 +3061,7 @@
   {
     "id": "commando-pull-up",
     "name": "Commando Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -2792,7 +3076,8 @@
       "compound",
       "pull",
       "upper-body",
-      "calisthenics"
+      "calisthenics",
+      "vertical-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -2801,6 +3086,7 @@
   {
     "id": "concentration-curl",
     "name": "Concentration Curl",
+    "category": "arms-biceps",
     "type": "weights",
     "muscles": [
       "biceps"
@@ -2822,6 +3108,7 @@
   {
     "id": "copenhagen-plank",
     "name": "Copenhagen Plank",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2846,6 +3133,7 @@
   {
     "id": "cossack-squat",
     "name": "Cossack Squat",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -2875,6 +3163,7 @@
   {
     "id": "couch-stretch",
     "name": "Couch Stretch",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "hip-flexors",
@@ -2896,6 +3185,7 @@
   {
     "id": "crab-march",
     "name": "Crab March",
+    "category": "full-body",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2921,6 +3211,7 @@
   {
     "id": "cross-body-mountain-climbers",
     "name": "Cross-Body Mountain Climbers",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2944,6 +3235,7 @@
   {
     "id": "cross-crunch-toe-tap",
     "name": "Cross Crunch Toe Tap",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -2969,6 +3261,7 @@
   {
     "id": "crow-pose",
     "name": "Crow Pose",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "core",
@@ -2992,6 +3285,7 @@
   {
     "id": "crow-push-up",
     "name": "Crow Push-up",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -3009,7 +3303,9 @@
       "calisthenics",
       "floor",
       "crow",
-      "push-up-variation"
+      "push-up-variation",
+      "push",
+      "upper-body"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -3018,6 +3314,7 @@
   {
     "id": "crow-to-plank",
     "name": "Crow to Plank",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -3045,6 +3342,7 @@
   {
     "id": "crunch",
     "name": "Crunch",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -3067,6 +3365,7 @@
   {
     "id": "curl-to-press",
     "name": "Curl to Press",
+    "category": "arms-biceps",
     "type": "weights",
     "muscles": [
       "biceps",
@@ -3080,7 +3379,8 @@
       "upper-body",
       "arms",
       "shoulders",
-      "circuit"
+      "circuit",
+      "pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -3089,6 +3389,7 @@
   {
     "id": "curtsy-lunge",
     "name": "Curtsy Lunge",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "glutes",
@@ -3115,6 +3416,7 @@
   {
     "id": "dead-bug",
     "name": "Dead Bug",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -3139,6 +3441,7 @@
   {
     "id": "dead-bug-arms-legs",
     "name": "Dead Bug (Arms and Legs)",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -3163,6 +3466,7 @@
   {
     "id": "dead-bug-opposite-reach",
     "name": "Dead Bug Opposite Reach",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -3186,6 +3490,7 @@
   {
     "id": "dead-hang",
     "name": "Dead Hang",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "grip",
@@ -3203,7 +3508,10 @@
       "shoulders",
       "beginner",
       "rrr",
-      "pull-up-progression"
+      "pull-up-progression",
+      "pull",
+      "upper-body",
+      "vertical-pull"
     ],
     "difficulty": "beginner",
     "duration": 30,
@@ -3212,6 +3520,7 @@
   {
     "id": "deadlift",
     "name": "Conventional Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "back",
@@ -3227,7 +3536,8 @@
       "pull",
       "lower-body",
       "hinge",
-      "deadlift"
+      "deadlift",
+      "gym"
     ],
     "difficulty": "intermediate",
     "duration": 180,
@@ -3236,6 +3546,7 @@
   {
     "id": "deadlift-smith-machine",
     "name": "Smith Machine Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "back",
@@ -3261,8 +3572,35 @@
     "description": "Position yourself in the Smith machine with the bar over your midfoot. Stand with feet hip-width apart, hinge at the hips to grip the bar just outside your legs. Keep your chest up and back flat. Drive through your heels, extending your hips and knees simultaneously to stand tall. Reverse the movement with control, pushing your hips back while keeping the bar close to your body. The guided bar path allows you to focus on form."
   },
   {
+    "id": "decline-barbell-press",
+    "name": "Decline Barbell Press",
+    "category": "chest",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "press",
+      "upper-body",
+      "gym",
+      "chest"
+    ],
+    "difficulty": "intermediate",
+    "duration": 180,
+    "description": "Lie on a decline bench with your feet secured at the top. Unrack the barbell, lower it to your lower chest, then press it back up to lockout. The decline angle emphasizes the lower portion of the chest."
+  },
+  {
     "id": "decline-push-up",
     "name": "Decline Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -3277,7 +3615,8 @@
       "compound",
       "floor",
       "push-up-variation",
-      "on-hands"
+      "on-hands",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -3286,6 +3625,7 @@
   {
     "id": "diamond-push-up",
     "name": "Diamond Push-ups",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "triceps",
@@ -3301,7 +3641,8 @@
       "circuit",
       "push-up-variation",
       "on-hands",
-      "rrr"
+      "rrr",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -3310,6 +3651,7 @@
   {
     "id": "diaphragmatic-breathing",
     "name": "Diaphragmatic Breathing (Deep Core Activation)",
+    "category": "mobility",
     "type": "rehab",
     "muscles": [
       "core",
@@ -3339,6 +3681,7 @@
   {
     "id": "dip",
     "name": "Dip",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -3363,6 +3706,7 @@
   {
     "id": "dip-machine",
     "name": "Dip Machine",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -3386,6 +3730,7 @@
   {
     "id": "donkey-kick-handstand",
     "name": "Donkey Kick to Handstand",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -3404,7 +3749,9 @@
       "dynamic",
       "gymnastics",
       "handstand-progression",
-      "plyometric"
+      "plyometric",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -3413,6 +3760,7 @@
   {
     "id": "double-kettlebell-clean",
     "name": "Double Kettlebell Clean",
+    "category": "full-body",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -3448,6 +3796,7 @@
   {
     "id": "double-kettlebell-snatch",
     "name": "Double Kettlebell Snatch",
+    "category": "full-body",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -3485,6 +3834,7 @@
   {
     "id": "double-kettlebell-swing",
     "name": "Double Kettlebell Swing",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -3505,7 +3855,8 @@
       "dynamic",
       "cardio",
       "strength",
-      "advanced"
+      "advanced",
+      "lower-body"
     ],
     "difficulty": "advanced",
     "duration": 45,
@@ -3522,6 +3873,7 @@
   {
     "id": "down-dog-knee-to-head",
     "name": "Down Dog Knee to Head",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -3537,7 +3889,9 @@
       "yoga",
       "circuit",
       "on-hands",
-      "down-dog-variation"
+      "down-dog-variation",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -3546,6 +3900,7 @@
   {
     "id": "down-dog-leg-raise",
     "name": "Down Dog Leg Raise",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "glutes",
@@ -3572,6 +3927,7 @@
   {
     "id": "downward-dog",
     "name": "Downward Dog",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "shoulders",
@@ -3597,6 +3953,7 @@
   {
     "id": "dumbbell-chest-fly",
     "name": "Dumbbell Chest Fly",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest"
@@ -3619,6 +3976,7 @@
   {
     "id": "dumbbell-goblet-squat",
     "name": "Dumbbell Goblet Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -3642,6 +4000,7 @@
   {
     "id": "dumbbell-kickback",
     "name": "Dumbbell Tricep Kickback",
+    "category": "arms-triceps",
     "type": "weights",
     "muscles": [
       "triceps"
@@ -3654,7 +4013,8 @@
       "upper-body",
       "gym",
       "triceps",
-      "arms"
+      "arms",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -3663,6 +4023,7 @@
   {
     "id": "dumbbell-lunge",
     "name": "Dumbbell Walking Lunge",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -3686,6 +4047,7 @@
   {
     "id": "dumbbell-pullover",
     "name": "Dumbbell Pullover",
+    "category": "back-vertical-pull",
     "type": "weights",
     "muscles": [
       "lats",
@@ -3702,7 +4064,9 @@
       "upper-body",
       "gym",
       "lats",
-      "chest"
+      "chest",
+      "pull",
+      "vertical-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -3711,6 +4075,7 @@
   {
     "id": "dumbbell-reverse-fly",
     "name": "Dumbbell Reverse Fly",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "rear-delts",
@@ -3725,7 +4090,8 @@
       "upper-body",
       "gym",
       "shoulders",
-      "back"
+      "back",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -3734,6 +4100,7 @@
   {
     "id": "dumbbell-romanian-deadlift",
     "name": "Dumbbell Romanian Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings",
@@ -3760,6 +4127,7 @@
   {
     "id": "dumbbell-row",
     "name": "Dumbbell Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -3776,7 +4144,8 @@
       "gym",
       "pull",
       "back",
-      "row"
+      "row",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -3785,6 +4154,7 @@
   {
     "id": "dumbbell-shoulder-press",
     "name": "Dumbbell Shoulder Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -3808,6 +4178,7 @@
   {
     "id": "dumbbell-shrug",
     "name": "Dumbbell Shrug",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "traps",
@@ -3821,7 +4192,8 @@
       "upper-body",
       "gym",
       "traps",
-      "shoulders"
+      "shoulders",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -3830,6 +4202,7 @@
   {
     "id": "dumbbell-skull-crusher",
     "name": "Dumbbell Skull Crusher",
+    "category": "arms-triceps",
     "type": "weights",
     "muscles": [
       "triceps"
@@ -3843,7 +4216,8 @@
       "upper-body",
       "gym",
       "triceps",
-      "arms"
+      "arms",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -3852,6 +4226,7 @@
   {
     "id": "egg-push-up",
     "name": "Egg Push-ups",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -3867,7 +4242,8 @@
       "circuit",
       "floor",
       "push-up-variation",
-      "on-hands"
+      "on-hands",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -3876,6 +4252,7 @@
   {
     "id": "elevated-pike-push-up",
     "name": "Elevated Pike Push-up",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -3891,7 +4268,8 @@
       "push-up-variation",
       "shoulders",
       "hspu-progression",
-      "advanced"
+      "advanced",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -3900,6 +4278,7 @@
   {
     "id": "elevated-push-up",
     "name": "Elevated Push-ups",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -3914,7 +4293,8 @@
       "push",
       "push-up-variation",
       "floor",
-      "circuit"
+      "circuit",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -3923,6 +4303,7 @@
   {
     "id": "extended-side-angle",
     "name": "Extended Side Angle (Utthita Parsvakonasana)",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "obliques",
@@ -3945,8 +4326,37 @@
     "description": "From Warrior II, lower your front forearm to rest on your front thigh (or place hand on floor inside front foot for deeper stretch). Extend your top arm overhead, creating a line from back foot to fingertips. Open chest toward ceiling. Hold and breathe deeply, then switch sides."
   },
   {
+    "id": "face-pull",
+    "name": "Face Pull",
+    "category": "back-horizontal-pull",
+    "type": "weights",
+    "muscles": [
+      "rear-delts",
+      "upper-back",
+      "traps",
+      "shoulders"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "isolation",
+      "pull",
+      "upper-body",
+      "gym",
+      "shoulders",
+      "back",
+      "rear-delts",
+      "horizontal-pull"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Set a cable pulley to head height with a rope attachment. Pull the rope toward your face, splitting the ends apart as your hands reach your ears. Squeeze your rear delts and upper back at the peak. A key exercise for shoulder health and posture."
+  },
+  {
     "id": "false-grip-to-dip",
     "name": "False Grip to Dip Transition",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -3975,6 +4385,7 @@
   {
     "id": "feet-elevated-push-up",
     "name": "Feet Elevated Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -4001,6 +4412,7 @@
   {
     "id": "figure-four-stretch",
     "name": "Figure Four Stretch",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "glutes",
@@ -4023,6 +4435,7 @@
   {
     "id": "flutter-kicks",
     "name": "Flutter Kicks",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4045,6 +4458,7 @@
   {
     "id": "forearm-stand",
     "name": "Forearm Stand",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -4064,7 +4478,9 @@
       "calisthenics",
       "isometric",
       "hold",
-      "gymnastics"
+      "gymnastics",
+      "push",
+      "upper-body"
     ],
     "difficulty": "advanced",
     "duration": 30,
@@ -4073,6 +4489,7 @@
   {
     "id": "frog-stretch",
     "name": "Frog Stretch",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "hips",
@@ -4097,6 +4514,7 @@
   {
     "id": "frogger",
     "name": "Frogger",
+    "category": "full-body",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -4121,6 +4539,7 @@
   {
     "id": "front-lever",
     "name": "Front Lever",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -4148,6 +4567,7 @@
   {
     "id": "front-lever-pull",
     "name": "Front Lever Pull",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -4166,7 +4586,9 @@
       "pull",
       "advanced",
       "compound",
-      "front-lever-progression"
+      "front-lever-progression",
+      "upper-body",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -4175,6 +4597,7 @@
   {
     "id": "front-raise",
     "name": "Front Raise",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders"
@@ -4196,6 +4619,7 @@
   {
     "id": "full-body-toe-tap",
     "name": "Full Body Toe Tap",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4210,7 +4634,9 @@
       "floor",
       "abs",
       "on-back",
-      "100-each-core"
+      "100-each-core",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -4219,6 +4645,7 @@
   {
     "id": "full-planche",
     "name": "Full Planche",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -4248,6 +4675,7 @@
   {
     "id": "german-hang",
     "name": "German Hang",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -4267,7 +4695,9 @@
       "isometric",
       "hold",
       "rrr",
-      "lever-progression"
+      "lever-progression",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 30,
@@ -4276,6 +4706,7 @@
   {
     "id": "glute-bridge",
     "name": "Glute Bridge",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "glutes",
@@ -4291,7 +4722,9 @@
       "circuit",
       "maternity",
       "gentle",
-      "on-back"
+      "on-back",
+      "lower-body",
+      "hinge"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -4300,6 +4733,7 @@
   {
     "id": "glute-bridge-machine",
     "name": "Glute Bridge Machine",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -4313,7 +4747,8 @@
       "lower-body",
       "gym",
       "machine",
-      "glutes"
+      "glutes",
+      "hinge"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -4322,6 +4757,7 @@
   {
     "id": "gmb-wrist-prep",
     "name": "GMB Wrist Prep",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "forearms"
@@ -4349,6 +4785,7 @@
   {
     "id": "good-morning",
     "name": "Good Morning",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "hamstrings",
@@ -4376,6 +4813,7 @@
   {
     "id": "gorilla-row",
     "name": "Gorilla Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -4394,7 +4832,8 @@
       "back",
       "rows",
       "anti-rotation",
-      "circuit"
+      "circuit",
+      "horizontal-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -4403,6 +4842,7 @@
   {
     "id": "hack-squat",
     "name": "Hack Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -4429,6 +4869,7 @@
   {
     "id": "hammer-curl",
     "name": "Hammer Curl",
+    "category": "arms-biceps",
     "type": "weights",
     "muscles": [
       "biceps",
@@ -4451,6 +4892,7 @@
   {
     "id": "handstand-box-hold",
     "name": "Handstand Box Hold",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -4469,7 +4911,9 @@
       "isometric",
       "hold",
       "gymnastics",
-      "handstand-progression"
+      "handstand-progression",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 30,
@@ -4478,6 +4922,7 @@
   {
     "id": "handstand-kickup",
     "name": "Handstand Kick-up",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -4495,7 +4940,9 @@
       "calisthenics",
       "dynamic",
       "gymnastics",
-      "handstand-progression"
+      "handstand-progression",
+      "push",
+      "upper-body"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -4504,6 +4951,7 @@
   {
     "id": "handstand-wall-walk",
     "name": "Handstand Wall Walk",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -4522,7 +4970,9 @@
       "calisthenics",
       "dynamic",
       "gymnastics",
-      "handstand-progression"
+      "handstand-progression",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -4531,6 +4981,7 @@
   {
     "id": "hanging-knee-raise",
     "name": "Hanging Knee Raise",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4556,6 +5007,7 @@
   {
     "id": "hanging-leg-raise",
     "name": "Hanging Leg Raise",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4582,6 +5034,7 @@
   {
     "id": "happy-baby",
     "name": "Happy Baby",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "hips",
@@ -4608,6 +5061,7 @@
   {
     "id": "headstand-to-push-up",
     "name": "Headstand to Push-up",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -4627,7 +5081,9 @@
       "floor",
       "headstand",
       "push-up-variation",
-      "transition"
+      "transition",
+      "push",
+      "upper-body"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -4636,6 +5092,7 @@
   {
     "id": "headstand-tuck-hold",
     "name": "Headstand Tuck Hold",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4655,7 +5112,9 @@
       "calisthenics",
       "isometric",
       "headstand",
-      "hold"
+      "hold",
+      "push",
+      "upper-body"
     ],
     "difficulty": "advanced",
     "duration": 30,
@@ -4664,6 +5123,7 @@
   {
     "id": "high-knees",
     "name": "High Knees",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -4677,7 +5137,8 @@
       "warmup",
       "floor",
       "circuit",
-      "active-stretch"
+      "active-stretch",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -4686,6 +5147,7 @@
   {
     "id": "hip-abductor-machine",
     "name": "Hip Abductor Machine",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -4709,6 +5171,7 @@
   {
     "id": "hip-adductor-machine",
     "name": "Hip Adductor Machine",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "adductors",
@@ -4732,6 +5195,7 @@
   {
     "id": "hip-flexor-lunge-stretch",
     "name": "Hip Flexor Lunge Stretch",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "hip-flexors",
@@ -4753,6 +5217,7 @@
   {
     "id": "hip-lift-to-shoulder-stand",
     "name": "Hip Lift to Shoulder Stand",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4777,8 +5242,35 @@
     "description": "Lie on your back with legs extended. Lift your legs toward the ceiling, then use your core to lift your hips off the floor, pressing your legs straight up into a brief shoulder stand position. Lower your hips back down with control, then lower your legs. Each rep involves lifting up to the shoulder stand and returning. A dynamic core exercise that builds strength for full shoulder stands."
   },
   {
+    "id": "hip-thrust",
+    "name": "Hip Thrust",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "lower-body",
+      "gym",
+      "glutes",
+      "hinge"
+    ],
+    "difficulty": "intermediate",
+    "duration": 180,
+    "description": "Sit on the floor with your upper back against a bench and a loaded barbell across your hips. Drive through your heels to lift your hips until your body forms a straight line from shoulders to knees. Squeeze your glutes hard at the top, then lower with control. The primary glute builder."
+  },
+  {
     "id": "hollow-body-hold",
     "name": "Hollow Body Hold",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4801,6 +5293,7 @@
   {
     "id": "hollow-body-rocks",
     "name": "Hollow Body Rocks",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4826,6 +5319,7 @@
   {
     "id": "hollow-hold-push-up",
     "name": "Hollow Hold Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -4843,7 +5337,8 @@
       "floor",
       "push-up-variation",
       "advanced",
-      "calisthenics"
+      "calisthenics",
+      "upper-body"
     ],
     "difficulty": "advanced",
     "duration": 90,
@@ -4852,6 +5347,7 @@
   {
     "id": "horizontal-row",
     "name": "Horizontal Row",
+    "category": "back-horizontal-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -4866,7 +5362,8 @@
       "upper-body",
       "row",
       "rrr",
-      "row-progression"
+      "row-progression",
+      "horizontal-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -4875,6 +5372,7 @@
   {
     "id": "ice-cream-maker",
     "name": "Ice Cream Maker",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -4892,7 +5390,9 @@
       "gymnastics",
       "advanced",
       "front-lever-progression",
-      "pull"
+      "pull",
+      "upper-body",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -4901,6 +5401,7 @@
   {
     "id": "inchworm-walkout",
     "name": "Inchworm Walkout",
+    "category": "full-body",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -4925,8 +5426,33 @@
     "description": "A dynamic full-body movement that stretches and strengthens. Stand tall with feet hip-width apart. Hinge at the hips and place your hands on the floor in front of your feet, keeping legs as straight as possible to stretch the hamstrings. Walk your hands forward one at a time until you reach a high plank position. Pause briefly in plank, then walk your feet forward in small steps toward your hands, keeping legs straight. Return to standing and repeat. This warms up the entire posterior chain, core, and shoulders while building shoulder stability."
   },
   {
+    "id": "incline-curl",
+    "name": "Incline Curl",
+    "category": "arms-biceps",
+    "type": "weights",
+    "muscles": [
+      "biceps"
+    ],
+    "equipment": [
+      "dumbbell",
+      "bench"
+    ],
+    "tags": [
+      "isolation",
+      "pull",
+      "upper-body",
+      "gym",
+      "arms",
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit on an incline bench set to about 45 degrees. Let dumbbells hang at your sides with arms fully extended. Curl the weights up while keeping your upper arms stationary. The incline position stretches the long head of the biceps, providing a deeper range of motion than standing curls."
+  },
+  {
     "id": "incline-dumbbell-fly",
     "name": "Incline Dumbbell Fly",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest"
@@ -4949,6 +5475,7 @@
   {
     "id": "incline-dumbbell-press",
     "name": "Incline Dumbbell Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -4974,6 +5501,7 @@
   {
     "id": "incline-push-up",
     "name": "Incline Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -4997,6 +5525,7 @@
   {
     "id": "incline-row",
     "name": "Incline Row",
+    "category": "back-horizontal-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -5011,7 +5540,8 @@
       "upper-body",
       "row",
       "rrr",
-      "row-progression"
+      "row-progression",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -5020,6 +5550,7 @@
   {
     "id": "inverted-hang",
     "name": "Inverted Hang",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -5038,15 +5569,46 @@
       "hold",
       "intermediate",
       "rrr",
-      "lever-progression"
+      "lever-progression",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 30,
     "description": "Hanging upside down from a bar or rings with your body vertical. From a dead hang, pull your legs up and over, rotating until your body is inverted - head down, feet pointing up. Arms are straight and body is vertical. On a bar, you can hook your legs over for security while learning. On rings, you need to maintain the position through core tension. This builds comfort being inverted, core strength, and grip endurance. It's also the starting position for skin the cat, ice cream makers, and lever progressions. Start with short holds and progress gradually. Blood rushing to your head is normal - come down if you feel dizzy."
   },
   {
+    "id": "inverted-row",
+    "name": "Inverted Row",
+    "category": "back-horizontal-pull",
+    "type": "calisthenics",
+    "muscles": [
+      "back",
+      "upper-back",
+      "biceps",
+      "core"
+    ],
+    "equipment": [
+      "barbell",
+      "squat-rack"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "upper-body",
+      "gym",
+      "back",
+      "bodyweight",
+      "horizontal-pull"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Set a barbell in a rack at about waist height. Hang underneath it with an overhand grip, body straight and heels on the floor. Pull your chest up to the bar, squeezing your shoulder blades together at the top. Lower with control. A bodyweight horizontal pull that scales difficulty by adjusting the bar height."
+  },
+  {
     "id": "jackknife-sits",
     "name": "Jackknife Sits",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -5069,6 +5631,7 @@
   {
     "id": "jump-lunge",
     "name": "Jump Lunge",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -5095,6 +5658,7 @@
   {
     "id": "jump-rope",
     "name": "Jump Rope",
+    "category": "full-body",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5121,6 +5685,7 @@
   {
     "id": "jump-rope-basic-bounce",
     "name": "Jump Rope: Basic Bounce",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5144,6 +5709,7 @@
   {
     "id": "jump-rope-boxer-step",
     "name": "Jump Rope: Boxer Step",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5167,6 +5733,7 @@
   {
     "id": "jump-rope-butt-kicks",
     "name": "Jump Rope: Butt Kicks",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5190,6 +5757,7 @@
   {
     "id": "jump-rope-criss-cross",
     "name": "Jump Rope: Criss-Cross",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5214,6 +5782,7 @@
   {
     "id": "jump-rope-double-under",
     "name": "Jump Rope: Double Under",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5240,6 +5809,7 @@
   {
     "id": "jump-rope-front-back",
     "name": "Jump Rope: Front-Back Hops",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5263,6 +5833,7 @@
   {
     "id": "jump-rope-heel-toe",
     "name": "Jump Rope: Heel-Toe Step",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5286,6 +5857,7 @@
   {
     "id": "jump-rope-high-knees",
     "name": "Jump Rope: High Knees",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5310,6 +5882,7 @@
   {
     "id": "jump-rope-lateral-hops",
     "name": "Jump Rope: Lateral Hops",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5334,6 +5907,7 @@
   {
     "id": "jump-rope-mummy-kicks",
     "name": "Jump Rope: Mummy Kicks",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5358,6 +5932,7 @@
   {
     "id": "jump-rope-running-in-place",
     "name": "Jump Rope: Running in Place",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5382,6 +5957,7 @@
   {
     "id": "jump-rope-scissor-step",
     "name": "Jump Rope: Scissor Step",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5406,6 +5982,7 @@
   {
     "id": "jump-rope-side-swing",
     "name": "Jump Rope: Side Swing",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "shoulders",
@@ -5429,6 +6006,7 @@
   {
     "id": "jump-rope-single-leg",
     "name": "Jump Rope: Single Leg Hops",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5453,6 +6031,7 @@
   {
     "id": "jump-rope-twist",
     "name": "Jump Rope: Twist",
+    "category": "cardio",
     "type": "plyo",
     "muscles": [
       "calves",
@@ -5476,6 +6055,7 @@
   {
     "id": "jumping-jacks",
     "name": "Jumping Jacks",
+    "category": "full-body",
     "type": "plyo",
     "muscles": [
       "full-body"
@@ -5497,6 +6077,7 @@
   {
     "id": "kettlebell-ab-stance-goblet-squat",
     "name": "A/B Stance Goblet Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -5531,6 +6112,7 @@
   {
     "id": "kettlebell-alternating-bent-over-row",
     "name": "Kettlebell Alternating Bent-Over Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -5549,7 +6131,8 @@
       "strength",
       "pull",
       "back",
-      "unilateral"
+      "unilateral",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -5578,6 +6161,7 @@
   {
     "id": "kettlebell-around-body-pass",
     "name": "Kettlebell Around-the-Body Pass",
+    "category": "full-body",
     "type": "weights",
     "muscles": [
       "core",
@@ -5610,6 +6194,7 @@
   {
     "id": "kettlebell-bent-over-straddle-squat",
     "name": "Kettlebell Bent-Over Straddle Squat",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "quads",
@@ -5637,6 +6222,7 @@
   {
     "id": "kettlebell-bent-press",
     "name": "Kettlebell Bent Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -5656,7 +6242,8 @@
       "strength",
       "overhead",
       "unilateral",
-      "skill-work"
+      "skill-work",
+      "push"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -5673,6 +6260,7 @@
   {
     "id": "kettlebell-chest-press",
     "name": "Kettlebell Chest Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -5696,6 +6284,7 @@
   {
     "id": "kettlebell-clean-and-press",
     "name": "Kettlebell Clean and Press",
+    "category": "full-body",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -5731,6 +6320,7 @@
   {
     "id": "kettlebell-clean-and-squat",
     "name": "Kettlebell Clean and Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -5779,6 +6369,7 @@
   {
     "id": "kettlebell-close-grip-pushup",
     "name": "Close Grip Kettlebell Push Up",
+    "category": "arms-triceps",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -5796,7 +6387,8 @@
       "triceps",
       "kettlebell",
       "calisthenics",
-      "strength"
+      "strength",
+      "isolation"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -5813,6 +6405,7 @@
   {
     "id": "kettlebell-dead-clean",
     "name": "Kettlebell Dead Clean",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings",
@@ -5831,7 +6424,8 @@
       "strength",
       "hinge",
       "pull",
-      "explosive"
+      "explosive",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -5854,6 +6448,7 @@
   {
     "id": "kettlebell-deadlift",
     "name": "Kettlebell Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -5880,6 +6475,7 @@
   {
     "id": "kettlebell-feet-elevated-pushup",
     "name": "Feet Elevated Pushup (on Kettlebell)",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -5913,6 +6509,7 @@
   {
     "id": "kettlebell-floor-press",
     "name": "Kettlebell Floor Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -5944,6 +6541,7 @@
   {
     "id": "kettlebell-front-squat",
     "name": "Kettlebell Front Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -5983,6 +6581,7 @@
   {
     "id": "kettlebell-goblet-press",
     "name": "Kettlebell Goblet Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -6016,6 +6615,7 @@
   {
     "id": "kettlebell-goblet-squat",
     "name": "Kettlebell Goblet Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6067,6 +6667,7 @@
   {
     "id": "kettlebell-halo",
     "name": "Kettlebell Halo",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -6082,7 +6683,8 @@
       "kettlebell",
       "warmup",
       "mobility",
-      "shoulders"
+      "shoulders",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -6105,6 +6707,7 @@
   {
     "id": "kettlebell-high-pull",
     "name": "Kettlebell High Pull",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -6121,7 +6724,8 @@
       "kettlebell",
       "shoulders",
       "compound",
-      "dynamic"
+      "dynamic",
+      "push"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -6144,6 +6748,7 @@
   {
     "id": "kettlebell-lateral-lunge",
     "name": "Kettlebell Lateral Lunge",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6179,6 +6784,7 @@
   {
     "id": "kettlebell-lunge",
     "name": "Kettlebell Lunge",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6218,6 +6824,7 @@
   {
     "id": "kettlebell-lunge-clean-to-press",
     "name": "Kettlebell Lunge Clean to Press",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6237,7 +6844,8 @@
       "dynamic",
       "explosive",
       "strength",
-      "unilateral"
+      "unilateral",
+      "lower-body"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -6254,6 +6862,7 @@
   {
     "id": "kettlebell-lunge-snatch",
     "name": "Kettlebell Lunge Snatch",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6273,7 +6882,8 @@
       "dynamic",
       "explosive",
       "strength",
-      "unilateral"
+      "unilateral",
+      "lower-body"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -6290,6 +6900,7 @@
   {
     "id": "kettlebell-offset-pushup",
     "name": "Kettlebell Offset Push-Up",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -6324,6 +6935,7 @@
   {
     "id": "kettlebell-overhead-lunge",
     "name": "Overhead Kettlebell Lunge",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6361,6 +6973,7 @@
   {
     "id": "kettlebell-overhead-press",
     "name": "Kettlebell Overhead Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -6393,6 +7006,7 @@
   {
     "id": "kettlebell-overhead-squat",
     "name": "Overhead Kettlebell Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6413,7 +7027,8 @@
       "squat",
       "overhead",
       "stability",
-      "mobility"
+      "mobility",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -6430,6 +7045,7 @@
   {
     "id": "kettlebell-push-press",
     "name": "Kettlebell Push Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -6465,6 +7081,7 @@
   {
     "id": "kettlebell-reverse-lunge-swing",
     "name": "Kettlebell Reverse Lunge Swing",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6483,7 +7100,9 @@
       "dynamic",
       "legs",
       "unilateral",
-      "cardio"
+      "cardio",
+      "lower-body",
+      "hinge"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -6500,6 +7119,7 @@
   {
     "id": "kettlebell-row",
     "name": "Kettlebell Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -6517,7 +7137,8 @@
       "kettlebell",
       "strength",
       "pull",
-      "back"
+      "back",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -6552,6 +7173,7 @@
   {
     "id": "kettlebell-russian-twist",
     "name": "Kettlebell Russian Twist",
+    "category": "core",
     "type": "weights",
     "muscles": [
       "core",
@@ -6583,6 +7205,7 @@
   {
     "id": "kettlebell-side-bend",
     "name": "Kettlebell Side Bend",
+    "category": "core",
     "type": "weights",
     "muscles": [
       "obliques",
@@ -6613,6 +7236,7 @@
   {
     "id": "kettlebell-side-swing",
     "name": "Kettlebell Side-to-Side Swing",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "core",
@@ -6629,7 +7253,8 @@
       "kettlebell",
       "core",
       "dynamic",
-      "hinge"
+      "hinge",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -6652,6 +7277,7 @@
   {
     "id": "kettlebell-split-stance-pass-through",
     "name": "Kettlebell Split Stance Pass Through",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6687,6 +7313,7 @@
   {
     "id": "kettlebell-straddle-squat",
     "name": "Kettlebell Straddle Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6712,6 +7339,7 @@
   {
     "id": "kettlebell-suitcase-deadlift",
     "name": "Kettlebell Suitcase Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -6748,6 +7376,7 @@
   {
     "id": "kettlebell-sumo-deadlift",
     "name": "Kettlebell Sumo Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -6782,6 +7411,7 @@
   {
     "id": "kettlebell-swing",
     "name": "Kettlebell Swing",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -6800,7 +7430,8 @@
       "hinge",
       "dynamic",
       "cardio",
-      "strength"
+      "strength",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -6847,6 +7478,7 @@
   {
     "id": "kettlebell-swing-clean",
     "name": "Kettlebell Swing Clean",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -6865,7 +7497,8 @@
       "kettlebell",
       "dynamic",
       "strength",
-      "hinge"
+      "hinge",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -6888,6 +7521,7 @@
   {
     "id": "kettlebell-swing-snatch",
     "name": "Kettlebell Swing Snatch",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -6908,7 +7542,9 @@
       "dynamic",
       "strength",
       "cardio",
-      "skill-work"
+      "skill-work",
+      "lower-body",
+      "hinge"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -6937,6 +7573,7 @@
   {
     "id": "kettlebell-tactical-clean",
     "name": "Kettlebell Tactical Clean",
+    "category": "full-body",
     "type": "weights",
     "muscles": [
       "core",
@@ -6971,6 +7608,7 @@
   {
     "id": "kettlebell-thruster",
     "name": "Kettlebell Thruster",
+    "category": "full-body",
     "type": "weights",
     "muscles": [
       "quads",
@@ -6997,6 +7635,7 @@
   {
     "id": "kettlebell-triceps-extension",
     "name": "Kettlebell Triceps Extension",
+    "category": "arms-triceps",
     "type": "weights",
     "muscles": [
       "triceps",
@@ -7011,7 +7650,8 @@
       "upper-body",
       "kettlebell",
       "strength",
-      "arms"
+      "arms",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -7028,6 +7668,7 @@
   {
     "id": "kettlebell-turkish-getup",
     "name": "Kettlebell Turkish Get-Up",
+    "category": "full-body",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -7054,6 +7695,7 @@
   {
     "id": "kettlebell-windmill",
     "name": "Kettlebell Windmill",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "obliques",
@@ -7072,7 +7714,9 @@
       "mobility",
       "overhead",
       "unilateral",
-      "skill-work"
+      "skill-work",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -7089,6 +7733,7 @@
   {
     "id": "knee-push-up",
     "name": "Knee Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -7115,6 +7760,7 @@
   {
     "id": "kneeling-ab-wheel-rollout",
     "name": "Kneeling Ab Wheel Rollout",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7138,6 +7784,7 @@
   {
     "id": "l-hang",
     "name": "L-Hang",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7165,6 +7812,7 @@
   {
     "id": "l-sit",
     "name": "L-Sit",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7196,6 +7844,7 @@
   {
     "id": "l-sit-pull-up",
     "name": "L-Sit Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -7215,7 +7864,8 @@
       "advanced",
       "calisthenics",
       "rrr",
-      "pull-up-progression"
+      "pull-up-progression",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -7224,6 +7874,7 @@
   {
     "id": "lat-pulldown",
     "name": "Lat Pulldown",
+    "category": "back-vertical-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -7241,7 +7892,8 @@
       "gym",
       "machine",
       "back",
-      "lats"
+      "lats",
+      "vertical-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -7250,6 +7902,7 @@
   {
     "id": "lateral-raise",
     "name": "Lateral Raise",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders"
@@ -7271,6 +7924,7 @@
   {
     "id": "lateral-squat",
     "name": "Lateral Squat",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -7293,6 +7947,7 @@
   {
     "id": "lateral-to-front-raise",
     "name": "Lateral to Front Raise",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders"
@@ -7315,6 +7970,7 @@
   {
     "id": "leg-curl-machine",
     "name": "Leg Curl Machine",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings"
@@ -7328,7 +7984,8 @@
       "gym",
       "machine",
       "hamstrings",
-      "beginner-friendly"
+      "beginner-friendly",
+      "hinge"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -7337,6 +7994,7 @@
   {
     "id": "leg-extension-machine",
     "name": "Leg Extension Machine",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads"
@@ -7359,6 +8017,7 @@
   {
     "id": "leg-kicks-on-back",
     "name": "Leg Kicks on Back",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7382,6 +8041,7 @@
   {
     "id": "leg-press",
     "name": "Leg Press",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -7405,8 +8065,31 @@
     "description": "Sit in the leg press machine with feet shoulder-width apart on the platform. Release the safety handles and lower the platform by bending your knees toward your chest until thighs are at 90 degrees. Push through your heels to extend your legs without locking your knees. Keep your lower back pressed firmly against the pad throughout the movement."
   },
   {
+    "id": "leg-press-calf-raise",
+    "name": "Leg Press Calf Raise",
+    "category": "calves",
+    "type": "weights",
+    "muscles": [
+      "calves"
+    ],
+    "equipment": [
+      "leg-press-machine"
+    ],
+    "tags": [
+      "isolation",
+      "push",
+      "lower-body",
+      "gym",
+      "calves"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit in a leg press machine and place just the balls of your feet on the bottom edge of the platform. Extend your legs nearly straight, then push through your toes to press the sled away, then let your toes come back toward you for a full calf stretch. Allows heavy loading with a full range of motion."
+  },
+  {
     "id": "leg-raise-compression",
     "name": "Leg Raise Compression",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7432,6 +8115,7 @@
   {
     "id": "leg-raises",
     "name": "Lying Leg Raises",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7454,6 +8138,7 @@
   {
     "id": "leg-straddle-reaches",
     "name": "Leg Straddle Reaches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7478,6 +8163,7 @@
   {
     "id": "leg-up-flutter-kicks",
     "name": "Leg Up Flutter Kicks",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7501,6 +8187,7 @@
   {
     "id": "low-to-high-cable-fly",
     "name": "Low to High Cable Fly",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -7524,6 +8211,7 @@
   {
     "id": "lower-back-raises",
     "name": "Lower Back Raises",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -7541,7 +8229,9 @@
       "extension",
       "posterior-chain",
       "back-exercise",
-      "core"
+      "core",
+      "lower-body",
+      "hinge"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -7550,6 +8240,7 @@
   {
     "id": "lunge-knee-up",
     "name": "Lunge Knee Up",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -7575,6 +8266,7 @@
   {
     "id": "lying-knee-crunch",
     "name": "Lying Knee to Chest Crunch",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7599,6 +8291,7 @@
   {
     "id": "lying-knee-tucks",
     "name": "Lying Knee Tucks",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7621,6 +8314,7 @@
   {
     "id": "lying-leg-push",
     "name": "Lying Single Leg Push",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "glutes",
@@ -7650,6 +8344,7 @@
   {
     "id": "lying-windshield-wipers",
     "name": "Lying Windshield Wipers",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7674,6 +8369,7 @@
   {
     "id": "malasana-hold",
     "name": "Malasana Hold (Garland Pose)",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "hips",
@@ -7703,6 +8399,7 @@
   {
     "id": "mcgill-crunch",
     "name": "McGill Crunch",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7733,6 +8430,7 @@
   {
     "id": "mountain-climber",
     "name": "Mountain Climbers",
+    "category": "core",
     "type": "plyo",
     "muscles": [
       "core",
@@ -7757,6 +8455,7 @@
   {
     "id": "muscle-up",
     "name": "Muscle-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -7778,15 +8477,44 @@
       "advanced",
       "calisthenics",
       "gymnastics",
-      "skill-work"
+      "skill-work",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
     "description": "A complete pulling-to-pushing movement: pull yourself up and over the bar (or rings) to end in a dip support position. From a dead hang, perform an explosive pull-up while driving your chest toward the bar. As your chest reaches bar height, lean forward aggressively and transition your hands from pulling to pushing, rolling over the bar. Press up to full arm extension in the support position. The key is the transition - the pull must be high enough and the forward lean aggressive enough to get over the bar. Bar muscle-ups typically use a kip; ring muscle-ups rely more on a false grip and strength. Prerequisites: 10+ pull-ups, dips, and ideally false grip work on rings."
   },
   {
+    "id": "narrow-grip-bench-press",
+    "name": "Narrow Grip Bench Press",
+    "category": "arms-triceps",
+    "type": "weights",
+    "muscles": [
+      "triceps",
+      "chest",
+      "shoulders"
+    ],
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "press",
+      "upper-body",
+      "gym",
+      "arms",
+      "triceps"
+    ],
+    "difficulty": "intermediate",
+    "duration": 180,
+    "description": "Lie on a flat bench and grip the barbell with hands about shoulder-width apart or slightly narrower. Lower the bar to your lower chest, keeping elbows tucked close to your body. Press back up to lockout. The narrow grip shifts emphasis from the chest to the triceps."
+  },
+  {
     "id": "negative-dip",
     "name": "Negative Dip",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -7810,6 +8538,7 @@
   {
     "id": "negative-pull-up",
     "name": "Negative Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -7824,7 +8553,8 @@
       "upper-body",
       "compound",
       "rrr",
-      "pull-up-progression"
+      "pull-up-progression",
+      "vertical-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -7833,6 +8563,7 @@
   {
     "id": "nordic-curl",
     "name": "Nordic Curl",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "hamstrings"
@@ -7855,6 +8586,7 @@
   {
     "id": "oblique-plank-crunches",
     "name": "Oblique Plank Crunches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7878,6 +8610,7 @@
   {
     "id": "one-arm-pull-up-negative",
     "name": "One-Arm Pull-up Negative",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -7895,7 +8628,8 @@
       "upper-body",
       "advanced",
       "calisthenics",
-      "one-arm-progression"
+      "one-arm-progression",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -7904,6 +8638,7 @@
   {
     "id": "overhead-press",
     "name": "Overhead Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -7917,7 +8652,8 @@
       "compound",
       "push",
       "upper-body",
-      "press"
+      "press",
+      "gym"
     ],
     "difficulty": "intermediate",
     "duration": 150,
@@ -7926,6 +8662,7 @@
   {
     "id": "overhead-tricep-extension",
     "name": "Overhead Tricep Extension",
+    "category": "arms-triceps",
     "type": "weights",
     "muscles": [
       "triceps"
@@ -7947,6 +8684,7 @@
   {
     "id": "pallof-press",
     "name": "Pallof Press",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -7968,6 +8706,7 @@
   {
     "id": "pec-deck-fly",
     "name": "Pec Deck Fly",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest"
@@ -7981,7 +8720,8 @@
       "gym",
       "machine",
       "chest",
-      "beginner-friendly"
+      "beginner-friendly",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -7990,6 +8730,7 @@
   {
     "id": "pendulum-squat",
     "name": "Pendulum Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -8013,6 +8754,7 @@
   {
     "id": "penguins",
     "name": "Penguins",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8036,6 +8778,7 @@
   {
     "id": "pigeon-pose",
     "name": "Pigeon Pose",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "glutes",
@@ -8063,6 +8806,7 @@
   {
     "id": "pike-crunches",
     "name": "Pike Crunches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8086,6 +8830,7 @@
   {
     "id": "pike-hold",
     "name": "Pike Hold",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8115,6 +8860,7 @@
   {
     "id": "pike-push-up",
     "name": "Pike Push-ups",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -8129,7 +8875,8 @@
       "floor",
       "circuit",
       "push-up-variation",
-      "on-hands"
+      "on-hands",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -8138,6 +8885,7 @@
   {
     "id": "pike-to-cobra-worms",
     "name": "Pike to Cobra Worms",
+    "category": "full-body",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -8161,6 +8909,7 @@
   {
     "id": "pike-up",
     "name": "Pike Up",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8187,6 +8936,7 @@
   {
     "id": "pin-loaded-chest-press",
     "name": "Pin Loaded Chest Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -8211,6 +8961,7 @@
   {
     "id": "pin-loaded-incline-press",
     "name": "Pin Loaded Incline Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -8235,6 +8986,7 @@
   {
     "id": "pistol-squat",
     "name": "Pistol Squat",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -8260,6 +9012,7 @@
   {
     "id": "pistol-squat-to-box",
     "name": "Pistol Squat to Box",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -8285,6 +9038,7 @@
   {
     "id": "planche-lean",
     "name": "Planche Lean (Front Support Hold)",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -8314,6 +9068,7 @@
   {
     "id": "planche-push-up",
     "name": "Planche Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -8344,6 +9099,7 @@
   {
     "id": "plank",
     "name": "Plank",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8369,6 +9125,7 @@
   {
     "id": "plank-arm-reach",
     "name": "Plank Arm Reach",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8392,6 +9149,7 @@
   {
     "id": "plank-crunches",
     "name": "Plank Crunches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8415,6 +9173,7 @@
   {
     "id": "plank-forward-shifts",
     "name": "Plank Forward Shifts",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8438,6 +9197,7 @@
   {
     "id": "plank-hip-dips",
     "name": "Plank Hip Dips",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8461,6 +9221,7 @@
   {
     "id": "plank-jacks",
     "name": "Plank Jacks",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8484,6 +9245,7 @@
   {
     "id": "plank-lateral-shifts",
     "name": "Plank Lateral Shifts",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8508,6 +9270,7 @@
   {
     "id": "plank-leg-raise",
     "name": "Plank Leg Raise",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8532,6 +9295,7 @@
   {
     "id": "plank-pulse",
     "name": "Plank Pulses",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8557,6 +9321,7 @@
   {
     "id": "plank-shoulder-taps",
     "name": "Plank Shoulder Taps",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8580,6 +9345,7 @@
   {
     "id": "plank-to-down-dog",
     "name": "Plank to Down Dog",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8604,6 +9370,7 @@
   {
     "id": "plank-to-star",
     "name": "Plank to Star",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8628,6 +9395,7 @@
   {
     "id": "plank-up-downs",
     "name": "Plank Up Downs",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8651,6 +9419,7 @@
   {
     "id": "plank-walkout",
     "name": "Plank Walkout",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8675,6 +9444,7 @@
   {
     "id": "plank-with-arm-reach",
     "name": "Plank with Arm Reach",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -8698,6 +9468,7 @@
   {
     "id": "plate-loaded-chest-press",
     "name": "Plate Loaded Chest Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -8722,6 +9493,7 @@
   {
     "id": "plate-loaded-incline-press",
     "name": "Plate Loaded Incline Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -8746,6 +9518,7 @@
   {
     "id": "plie-squat",
     "name": "Plié Squats",
+    "category": "legs-quads",
     "type": "barre",
     "muscles": [
       "quads",
@@ -8759,7 +9532,8 @@
       "legs",
       "floor",
       "circuit",
-      "barre"
+      "barre",
+      "lower-body"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -8768,6 +9542,7 @@
   {
     "id": "plow-pose",
     "name": "Plow Pose (Halasana)",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "spine",
@@ -8792,8 +9567,33 @@
     "description": "Lie on your back and lift your legs over your head, lowering your toes to the floor behind your head. Keep your legs straight and support your lower back with your hands, or extend arms along the floor for a deeper stretch. Your weight should be on your shoulders, not your neck. This pose stretches the entire posterior chain and calms the nervous system. Hold for 30-60 seconds. Contraindicated for those with neck injuries."
   },
   {
+    "id": "preacher-curl",
+    "name": "Preacher Curl",
+    "category": "arms-biceps",
+    "type": "weights",
+    "muscles": [
+      "biceps"
+    ],
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "tags": [
+      "isolation",
+      "pull",
+      "upper-body",
+      "gym",
+      "arms",
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit at a preacher bench with your upper arms resting on the angled pad. Grip a barbell or EZ-bar with an underhand grip and curl the weight up, then lower with control. The pad prevents swinging and isolates the biceps through a full stretch at the bottom."
+  },
+  {
     "id": "prone-leg-raise-extension",
     "name": "Prone Leg Raise with Back Extension",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -8809,7 +9609,9 @@
       "posterior-chain",
       "on-chest",
       "extension",
-      "100-each-core"
+      "100-each-core",
+      "lower-body",
+      "hinge"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -8818,6 +9620,7 @@
   {
     "id": "prone-leg-raises",
     "name": "Prone Leg Raises (Back Lever Prep)",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -8844,6 +9647,7 @@
   {
     "id": "prone-t-raises",
     "name": "Prone T-Raises",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -8858,7 +9662,9 @@
       "floor",
       "circuit",
       "on-hands",
-      "back-exercise"
+      "back-exercise",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -8867,6 +9673,7 @@
   {
     "id": "prone-w-raises",
     "name": "Prone W-Raises",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -8881,7 +9688,9 @@
       "floor",
       "circuit",
       "on-hands",
-      "back-exercise"
+      "back-exercise",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -8890,6 +9699,7 @@
   {
     "id": "prone-y-raises",
     "name": "Prone Y-Raises",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -8904,7 +9714,9 @@
       "floor",
       "circuit",
       "on-hands",
-      "back-exercise"
+      "back-exercise",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -8913,6 +9725,7 @@
   {
     "id": "pseudo-planche-push-up",
     "name": "Pseudo Planche Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -8939,6 +9752,7 @@
   {
     "id": "pull-up",
     "name": "Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -8954,7 +9768,8 @@
       "upper-body",
       "rrr",
       "pull-up-progression",
-      "calisthenics"
+      "calisthenics",
+      "vertical-pull"
     ],
     "difficulty": "intermediate",
     "duration": 90,
@@ -8963,6 +9778,7 @@
   {
     "id": "pull-up-shrug",
     "name": "Pull-up with Scapular Shrug",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -8980,7 +9796,8 @@
       "upper-body",
       "calisthenics",
       "strength",
-      "scapular"
+      "scapular",
+      "vertical-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -8989,6 +9806,7 @@
   {
     "id": "push-press",
     "name": "Push Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -9006,7 +9824,8 @@
       "upper-body",
       "shoulders",
       "press",
-      "explosive"
+      "explosive",
+      "gym"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -9015,6 +9834,7 @@
   {
     "id": "push-up",
     "name": "Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -9041,6 +9861,7 @@
   {
     "id": "push-up-star",
     "name": "Push-up Star",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9057,7 +9878,9 @@
       "push-up-variation",
       "on-hands",
       "dynamic",
-      "100-each-core"
+      "100-each-core",
+      "push",
+      "upper-body"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -9066,6 +9889,7 @@
   {
     "id": "push-up-walk-to-stand",
     "name": "Push-up Walk to Standing",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9081,7 +9905,9 @@
       "floor",
       "full-body",
       "dynamic",
-      "100-each-core"
+      "100-each-core",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -9090,6 +9916,7 @@
   {
     "id": "quick-bicycles",
     "name": "Quick Bicycles",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9117,6 +9944,7 @@
   {
     "id": "quick-scissors",
     "name": "Quick Scissors",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9145,6 +9973,7 @@
   {
     "id": "quick-v-ups",
     "name": "Quick V-Ups",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9172,6 +10001,7 @@
   {
     "id": "raised-ball-lunge",
     "name": "Raised Ball Lunge",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -9199,6 +10029,7 @@
   {
     "id": "rear-delt-fly-machine",
     "name": "Rear Delt Fly Machine",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -9214,7 +10045,8 @@
       "gym",
       "machine",
       "shoulders",
-      "rear-delts"
+      "rear-delts",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -9223,6 +10055,7 @@
   {
     "id": "releve",
     "name": "Relevé (Calf Raises)",
+    "category": "calves",
     "type": "barre",
     "muscles": [
       "calves"
@@ -9234,7 +10067,9 @@
       "legs",
       "floor",
       "circuit",
-      "barre"
+      "barre",
+      "lower-body",
+      "isolation"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -9243,6 +10078,7 @@
   {
     "id": "renegade-row",
     "name": "Renegade Row",
+    "category": "back-horizontal-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -9260,7 +10096,8 @@
       "core",
       "upper-body",
       "circuit",
-      "anti-rotation"
+      "anti-rotation",
+      "horizontal-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -9269,6 +10106,7 @@
   {
     "id": "reverse-crunches",
     "name": "Reverse Crunches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9291,6 +10129,7 @@
   {
     "id": "reverse-hyper",
     "name": "Reverse Hyper",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "glutes",
@@ -9305,7 +10144,9 @@
       "extension",
       "posterior-chain",
       "rrr",
-      "core-progression"
+      "core-progression",
+      "lower-body",
+      "hinge"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -9314,6 +10155,7 @@
   {
     "id": "reverse-snow-angels",
     "name": "Reverse Snow Angels",
+    "category": "back-horizontal-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -9328,7 +10170,10 @@
       "floor",
       "warmup",
       "on-hands",
-      "back-exercise"
+      "back-exercise",
+      "pull",
+      "upper-body",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -9337,6 +10182,7 @@
   {
     "id": "reverse-table-knee-tuck",
     "name": "Reverse Table Knee Tuck",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9359,6 +10205,7 @@
   {
     "id": "ring-dip",
     "name": "Ring Dip",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -9386,6 +10233,7 @@
   {
     "id": "ring-false-grip-row",
     "name": "Ring False Grip Row",
+    "category": "back-horizontal-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -9402,7 +10250,8 @@
       "rings",
       "calisthenics",
       "skill-work",
-      "advanced"
+      "advanced",
+      "horizontal-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -9411,6 +10260,7 @@
   {
     "id": "ring-muscle-up",
     "name": "Ring Muscle-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -9433,7 +10283,8 @@
       "calisthenics",
       "gymnastics",
       "skill-work",
-      "rings"
+      "rings",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -9442,6 +10293,7 @@
   {
     "id": "ring-pull-up-assisted",
     "name": "Assisted Ring Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -9457,7 +10309,8 @@
       "upper-body",
       "rings",
       "calisthenics",
-      "beginner-friendly"
+      "beginner-friendly",
+      "vertical-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -9466,6 +10319,7 @@
   {
     "id": "ring-rows",
     "name": "Ring Rows",
+    "category": "back-horizontal-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -9483,7 +10337,8 @@
       "compound",
       "beginner",
       "rrr",
-      "row-progression"
+      "row-progression",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -9492,6 +10347,7 @@
   {
     "id": "ring-support-hold",
     "name": "Ring Support Hold",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -9511,7 +10367,9 @@
       "rings",
       "intermediate",
       "rrr",
-      "dip-progression"
+      "dip-progression",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 30,
@@ -9520,6 +10378,7 @@
   {
     "id": "romanian-deadlift",
     "name": "Romanian Deadlift",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "hamstrings",
@@ -9544,6 +10403,7 @@
   {
     "id": "running",
     "name": "Running",
+    "category": "cardio",
     "type": "cardio",
     "muscles": [
       "legs",
@@ -9563,6 +10423,7 @@
   {
     "id": "russian-twist",
     "name": "Russian Twists",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9583,6 +10444,7 @@
   {
     "id": "scapular-pull",
     "name": "Scapular Pull",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -9596,7 +10458,8 @@
       "upper-body",
       "scapular",
       "rrr",
-      "pull-up-progression"
+      "pull-up-progression",
+      "vertical-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -9605,6 +10468,7 @@
   {
     "id": "scissor-kicks",
     "name": "Scissor Kicks",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9627,8 +10491,35 @@
     "description": "Lie on your back with legs extended and shoulders slightly lifted. Raise both legs off the floor. Cross one leg over the other in a controlled scissoring motion, then switch - alternating which leg is on top. Keep legs straight and core engaged throughout. Unlike flutter kicks (up/down), scissor kicks move legs side-to-side, crossing over and under each other."
   },
   {
+    "id": "seated-barbell-press",
+    "name": "Seated Barbell Press",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": [
+      "barbell",
+      "bench",
+      "squat-rack"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "press",
+      "upper-body",
+      "gym",
+      "shoulders"
+    ],
+    "difficulty": "intermediate",
+    "duration": 180,
+    "description": "Sit on an upright bench inside a rack. Unrack the barbell at shoulder height, lower it to your upper chest, then press overhead to full lockout. The seated position reduces lower-body involvement, isolating the shoulders and triceps."
+  },
+  {
     "id": "seated-behind-back-cable-curl",
     "name": "Seated Behind Back Cable Curl",
+    "category": "arms-biceps",
     "type": "weights",
     "muscles": [
       "biceps"
@@ -9651,6 +10542,7 @@
   {
     "id": "seated-cable-row",
     "name": "Seated Cable Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -9669,7 +10561,8 @@
       "machine",
       "back",
       "rows",
-      "row"
+      "row",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -9678,6 +10571,7 @@
   {
     "id": "seated-dumbbell-shoulder-press",
     "name": "Seated Dumbbell Shoulder Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -9701,6 +10595,7 @@
   {
     "id": "seated-leg-curl",
     "name": "Seated Leg Curl",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings"
@@ -9713,7 +10608,8 @@
       "lower-body",
       "gym",
       "machine",
-      "hamstrings"
+      "hamstrings",
+      "hinge"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -9722,6 +10618,7 @@
   {
     "id": "seated-machine-overhead-press",
     "name": "Seated Machine Overhead Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -9745,6 +10642,7 @@
   {
     "id": "seated-pec-fly-machine",
     "name": "Seated Pec Fly Machine",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest"
@@ -9767,6 +10665,7 @@
   {
     "id": "shoulder-press-machine",
     "name": "Shoulder Press Machine",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -9792,6 +10691,7 @@
   {
     "id": "shoulder-stand",
     "name": "Shoulder Stand (Sarvangasana)",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "core",
@@ -9819,6 +10719,7 @@
   {
     "id": "side-climbers",
     "name": "Side Climbers",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9834,7 +10735,9 @@
       "warmup",
       "circuit",
       "on-hands",
-      "climber"
+      "climber",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -9843,6 +10746,7 @@
   {
     "id": "side-crunches",
     "name": "Side Crunches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9863,6 +10767,7 @@
   {
     "id": "side-lying-oblique-crunch",
     "name": "Side Lying Oblique Crunch",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9885,6 +10790,7 @@
   {
     "id": "side-plank-hip-dips",
     "name": "Side Plank Hip Dips",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9908,6 +10814,7 @@
   {
     "id": "side-plank-hold",
     "name": "Side Plank Hold",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9934,6 +10841,7 @@
   {
     "id": "side-plank-push-up",
     "name": "Side Plank Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -9952,7 +10860,8 @@
       "floor",
       "push-up-variation",
       "obliques",
-      "advanced"
+      "advanced",
+      "upper-body"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -9961,6 +10870,7 @@
   {
     "id": "side-plank-thread-needle",
     "name": "Side Plank Thread the Needle",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -9986,6 +10896,7 @@
   {
     "id": "side-to-side-reaches",
     "name": "Side to Side Reaches (Supine Heel Touches)",
+    "category": "mobility",
     "type": "rehab",
     "muscles": [
       "core",
@@ -10013,6 +10924,7 @@
   {
     "id": "single-arm-lat-pulldown",
     "name": "Single Arm Lat Pulldown",
+    "category": "back-vertical-pull",
     "type": "weights",
     "muscles": [
       "lats",
@@ -10028,7 +10940,8 @@
       "upper-body",
       "gym",
       "cable",
-      "back"
+      "back",
+      "vertical-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -10037,6 +10950,7 @@
   {
     "id": "single-arm-preacher-cable-curl",
     "name": "Single Arm Preacher Cable Curl",
+    "category": "arms-biceps",
     "type": "weights",
     "muscles": [
       "biceps"
@@ -10059,6 +10973,7 @@
   {
     "id": "single-leg-deadlift",
     "name": "Single Leg Deadlift",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "hamstrings",
@@ -10085,6 +11000,7 @@
   {
     "id": "single-leg-good-morning",
     "name": "Single Leg Good Morning",
+    "category": "legs-hip-hinge",
     "type": "calisthenics",
     "muscles": [
       "hamstrings",
@@ -10103,7 +11019,8 @@
       "balance",
       "unilateral",
       "hamstrings",
-      "circuit"
+      "circuit",
+      "hinge"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -10112,6 +11029,7 @@
   {
     "id": "single-leg-lunge",
     "name": "Single Leg Lunge",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -10135,6 +11053,7 @@
   {
     "id": "single-leg-pike-up-left",
     "name": "Single Leg Pike Up (Left)",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10162,6 +11081,7 @@
   {
     "id": "single-leg-pike-up-right",
     "name": "Single Leg Pike Up (Right)",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10189,6 +11109,7 @@
   {
     "id": "single-leg-raise",
     "name": "Single Leg Raise",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10211,6 +11132,7 @@
   {
     "id": "single-leg-rdl-kettlebell",
     "name": "Single Leg RDL with Kettlebell",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings",
@@ -10236,6 +11158,7 @@
   {
     "id": "sissy-squat",
     "name": "Sissy Squat",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -10268,6 +11191,7 @@
   {
     "id": "situp-leg-crunch",
     "name": "Sit-up Leg Crunch",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10291,6 +11215,7 @@
   {
     "id": "skin-the-cat",
     "name": "Skin the Cat",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -10311,7 +11236,10 @@
       "advanced",
       "rrr",
       "pull-up-progression",
-      "lever-progression"
+      "lever-progression",
+      "pull",
+      "upper-body",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -10320,6 +11248,7 @@
   {
     "id": "slow-crunch",
     "name": "Slow Crunch",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10344,6 +11273,7 @@
   {
     "id": "slow-flutter-kicks",
     "name": "Slow Flutter Kicks",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10369,6 +11299,7 @@
   {
     "id": "slow-mountain-climbers",
     "name": "Slow Mountain Climbers",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10392,6 +11323,7 @@
   {
     "id": "smith-machine-bench-press",
     "name": "Smith Machine Bench Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -10418,6 +11350,7 @@
   {
     "id": "smith-machine-bent-over-squat",
     "name": "Smith Machine Bent-Over Squat",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10446,6 +11379,7 @@
   {
     "id": "smith-machine-bulgarian-split-squat",
     "name": "Smith Machine Bulgarian Split Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10473,6 +11407,7 @@
   {
     "id": "smith-machine-calf-raise",
     "name": "Smith Machine Calf Raise",
+    "category": "calves",
     "type": "weights",
     "muscles": [
       "calves"
@@ -10494,6 +11429,7 @@
   {
     "id": "smith-machine-close-grip-press",
     "name": "Smith Machine Close Grip Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "triceps",
@@ -10519,6 +11455,7 @@
   {
     "id": "smith-machine-front-squat",
     "name": "Smith Machine Front Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10544,6 +11481,7 @@
   {
     "id": "smith-machine-good-morning",
     "name": "Smith Machine Good Morning",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings",
@@ -10570,6 +11508,7 @@
   {
     "id": "smith-machine-hip-thrust",
     "name": "Smith Machine Hip Thrust",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -10586,7 +11525,8 @@
       "gym",
       "machine",
       "glutes",
-      "hip-hinge"
+      "hip-hinge",
+      "hinge"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -10595,6 +11535,7 @@
   {
     "id": "smith-machine-incline-press",
     "name": "Smith Machine Incline Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -10621,6 +11562,7 @@
   {
     "id": "smith-machine-inverted-row",
     "name": "Smith Machine Inverted Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -10638,7 +11580,8 @@
       "machine",
       "pull",
       "back",
-      "row"
+      "row",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -10647,6 +11590,7 @@
   {
     "id": "smith-machine-lunge",
     "name": "Smith Machine Lunge",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10672,6 +11616,7 @@
   {
     "id": "smith-machine-romanian-deadlift",
     "name": "Smith Machine Romanian Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "hamstrings",
@@ -10688,7 +11633,8 @@
       "gym",
       "machine",
       "hip-hinge",
-      "hamstrings"
+      "hamstrings",
+      "hinge"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -10697,6 +11643,7 @@
   {
     "id": "smith-machine-row",
     "name": "Smith Machine Bent-Over Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -10712,7 +11659,8 @@
       "gym",
       "machine",
       "back",
-      "row"
+      "row",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 90,
@@ -10721,6 +11669,7 @@
   {
     "id": "smith-machine-shoulder-press",
     "name": "Smith Machine Shoulder Press",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -10746,6 +11695,7 @@
   {
     "id": "smith-machine-split-squat",
     "name": "Smith Machine Split Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10771,6 +11721,7 @@
   {
     "id": "smith-machine-squat",
     "name": "Smith Machine Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10795,6 +11746,7 @@
   {
     "id": "smith-machine-step-up",
     "name": "Smith Machine Step Up",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10822,6 +11774,7 @@
   {
     "id": "smith-machine-sumo-squat",
     "name": "Smith Machine Sumo Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10848,6 +11801,7 @@
   {
     "id": "snap-kicks",
     "name": "Snap Kicks",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10875,6 +11829,7 @@
   {
     "id": "soleus-pushup",
     "name": "Soleus Pushup",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "calves",
@@ -10901,6 +11856,7 @@
   {
     "id": "spiderman-plank",
     "name": "Spiderman Plank",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -10925,6 +11881,7 @@
   {
     "id": "split-squat",
     "name": "Split Squat",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -10948,6 +11905,7 @@
   {
     "id": "squat",
     "name": "Barbell Back Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -10962,7 +11920,8 @@
     "tags": [
       "compound",
       "legs",
-      "lower-body"
+      "lower-body",
+      "gym"
     ],
     "difficulty": "intermediate",
     "duration": 180,
@@ -10971,6 +11930,7 @@
   {
     "id": "squat-arm-raise",
     "name": "Squat with Arm Raise",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -10998,6 +11958,7 @@
   {
     "id": "squat-jump",
     "name": "Squat Jumps",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -11011,7 +11972,8 @@
       "explosive",
       "legs",
       "floor",
-      "circuit"
+      "circuit",
+      "lower-body"
     ],
     "difficulty": "intermediate",
     "duration": 45,
@@ -11020,6 +11982,7 @@
   {
     "id": "squat-kick",
     "name": "Squat Kick",
+    "category": "legs-quads",
     "type": "plyo",
     "muscles": [
       "quads",
@@ -11044,6 +12007,7 @@
   {
     "id": "squat-sky-reaches",
     "name": "Squat Sky Reaches",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "quads",
@@ -11069,6 +12033,7 @@
   {
     "id": "squat-to-calves",
     "name": "Squat to Calf Raise",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -11093,6 +12058,7 @@
   {
     "id": "squat-to-stand",
     "name": "Squat to Stand",
+    "category": "legs-quads",
     "type": "calisthenics",
     "muscles": [
       "quads",
@@ -11121,6 +12087,7 @@
   {
     "id": "stacked-leg-ups",
     "name": "Stacked Leg Ups",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11144,6 +12111,7 @@
   {
     "id": "stand-to-pushup-walk",
     "name": "Stand to Push-up Walk",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11161,15 +12129,40 @@
       "circuit",
       "dynamic",
       "gymnastics",
-      "compound"
+      "compound",
+      "push",
+      "upper-body"
     ],
     "difficulty": "intermediate",
     "duration": 60,
     "description": "A dynamic movement flowing from standing to push-up and back. Start standing tall with feet hip-width apart. Hinge at the hips and place your hands on the floor in front of your feet. Walk your hands forward until you reach a push-up position. Perform one push-up (optional - can skip for warmup). Walk your hands back toward your feet, keeping legs as straight as possible. Stand back up to the starting position. This combines the inchworm with push-up work, building upper body strength while dynamically stretching the hamstrings. Great as a warm-up or as part of a bodyweight circuit."
   },
   {
+    "id": "standing-calf-raise",
+    "name": "Standing Calf Raise",
+    "category": "calves",
+    "type": "weights",
+    "muscles": [
+      "calves"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "push",
+      "lower-body",
+      "gym",
+      "calves"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Stand on a calf raise machine with shoulder pads resting on your shoulders and the balls of your feet on the platform edge. Rise up onto your toes as high as possible, squeeze at the top, then lower until you feel a full stretch in your calves. The standing position targets the gastrocnemius (outer calf)."
+  },
+  {
     "id": "standing-leg-lift",
     "name": "Standing Leg Lift",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11193,6 +12186,7 @@
   {
     "id": "star-situps",
     "name": "Star Situps",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11215,6 +12209,7 @@
   {
     "id": "step-up",
     "name": "Step Up",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -11245,6 +12240,7 @@
   {
     "id": "sternal-pecs-machine-press",
     "name": "Sternal Pecs Machine Press",
+    "category": "chest",
     "type": "weights",
     "muscles": [
       "chest",
@@ -11268,6 +12264,7 @@
   {
     "id": "stomach-vacuum",
     "name": "Stomach Vacuum Hold",
+    "category": "mobility",
     "type": "rehab",
     "muscles": [
       "core",
@@ -11297,6 +12294,7 @@
   {
     "id": "straddle-back-lever",
     "name": "Straddle Back Lever",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -11324,6 +12322,7 @@
   {
     "id": "straddle-front-lever",
     "name": "Straddle Front Lever",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -11351,6 +12350,7 @@
   {
     "id": "straddle-hold",
     "name": "Straddle Hold",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11380,6 +12380,7 @@
   {
     "id": "straddle-pike-up",
     "name": "Straddle Pike Up",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11408,6 +12409,7 @@
   {
     "id": "straddle-planche",
     "name": "Straddle Planche",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -11437,6 +12439,7 @@
   {
     "id": "straddle-sit-stretch",
     "name": "Straddle Sit Stretch",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "adductors",
@@ -11462,6 +12465,7 @@
   {
     "id": "straddle-snaps",
     "name": "Straddle Snaps",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11491,6 +12495,7 @@
   {
     "id": "straddle-tuck-compression",
     "name": "Straddle Tuck Compression",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11518,6 +12523,7 @@
   {
     "id": "straight-arm-pulldown",
     "name": "Straight Arm Pulldown",
+    "category": "back-vertical-pull",
     "type": "weights",
     "muscles": [
       "lats",
@@ -11533,7 +12539,8 @@
       "upper-body",
       "gym",
       "lats",
-      "back"
+      "back",
+      "vertical-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -11542,6 +12549,7 @@
   {
     "id": "straight-leg-raises",
     "name": "Straight Leg Raises",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11564,6 +12572,7 @@
   {
     "id": "suitcase-squat",
     "name": "Suitcase Squat",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "quads",
@@ -11591,6 +12600,7 @@
   {
     "id": "sumo-deadlift",
     "name": "Sumo Deadlift",
+    "category": "legs-hip-hinge",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -11619,6 +12629,7 @@
   {
     "id": "superman",
     "name": "Superman",
+    "category": "back-horizontal-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -11633,7 +12644,10 @@
       "posterior-chain",
       "floor",
       "rrr",
-      "core-progression"
+      "core-progression",
+      "pull",
+      "upper-body",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -11642,6 +12656,7 @@
   {
     "id": "supine-hip-abduction",
     "name": "Supine Hip Abduction (Leg Drops)",
+    "category": "mobility",
     "type": "rehab",
     "muscles": [
       "core",
@@ -11672,6 +12687,7 @@
   {
     "id": "supine-leg-slides",
     "name": "Supine Leg Slides (Heel Slides)",
+    "category": "mobility",
     "type": "rehab",
     "muscles": [
       "core",
@@ -11700,6 +12716,7 @@
   {
     "id": "support-hold",
     "name": "Support Hold",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -11724,6 +12741,7 @@
   {
     "id": "toe-touches",
     "name": "Toe Touches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11746,6 +12764,7 @@
   {
     "id": "toes-to-bar",
     "name": "Toes to Bar",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11774,6 +12793,7 @@
   {
     "id": "tree-pose",
     "name": "Tree Pose (Vrksasana)",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "quads",
@@ -11799,6 +12819,7 @@
   {
     "id": "triangle-pose",
     "name": "Triangle Pose (Trikonasana)",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "hamstrings",
@@ -11826,6 +12847,7 @@
   {
     "id": "tricep-dip",
     "name": "Tricep Dip",
+    "category": "arms-triceps",
     "type": "calisthenics",
     "muscles": [
       "triceps",
@@ -11841,7 +12863,8 @@
       "upper-body",
       "arms",
       "circuit",
-      "triceps"
+      "triceps",
+      "isolation"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -11850,6 +12873,7 @@
   {
     "id": "tricep-extension",
     "name": "Tricep Extension",
+    "category": "arms-triceps",
     "type": "weights",
     "muscles": [
       "triceps"
@@ -11871,6 +12895,7 @@
   {
     "id": "tripod-headstand-to-pushup",
     "name": "Tripod Headstand Leg Raises to Push-up",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -11898,6 +12923,7 @@
   {
     "id": "tuck-back-lever",
     "name": "Tuck Back Lever",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -11927,6 +12953,7 @@
   {
     "id": "tuck-front-lever",
     "name": "Tuck Front Lever",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -11956,6 +12983,7 @@
   {
     "id": "tuck-hold",
     "name": "Tuck Hold",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -11983,6 +13011,7 @@
   {
     "id": "tuck-planche",
     "name": "Tuck Planche",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -12012,6 +13041,7 @@
   {
     "id": "tuck-snaps",
     "name": "Tuck Snaps",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -12039,6 +13069,7 @@
   {
     "id": "typewriter-pull-up",
     "name": "Typewriter Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -12055,7 +13086,8 @@
       "upper-body",
       "advanced",
       "calisthenics",
-      "one-arm-progression"
+      "one-arm-progression",
+      "vertical-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -12064,6 +13096,7 @@
   {
     "id": "upright-row",
     "name": "Upright Row",
+    "category": "shoulders",
     "type": "weights",
     "muscles": [
       "shoulders",
@@ -12077,7 +13110,8 @@
       "pull",
       "upper-body",
       "shoulders",
-      "circuit"
+      "circuit",
+      "push"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -12086,6 +13120,7 @@
   {
     "id": "v-sit",
     "name": "V-Sit",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -12108,6 +13143,7 @@
   {
     "id": "v-tucks",
     "name": "V-Tucks (Seated Knee Tucks)",
+    "category": "mobility",
     "type": "rehab",
     "muscles": [
       "core",
@@ -12134,6 +13170,7 @@
   {
     "id": "v-up",
     "name": "V-Ups",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core"
@@ -12155,6 +13192,7 @@
   {
     "id": "vertical-band-push",
     "name": "Vertical Band Push",
+    "category": "shoulders",
     "type": "calisthenics",
     "muscles": [
       "shoulders",
@@ -12178,6 +13216,7 @@
   {
     "id": "walkout-straight-legs",
     "name": "Walkout with Straight Legs",
+    "category": "full-body",
     "type": "calisthenics",
     "muscles": [
       "hamstrings",
@@ -12205,6 +13244,7 @@
   {
     "id": "wall-headstand-leg-raises",
     "name": "Wall Headstand Leg Raises",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -12233,6 +13273,7 @@
   {
     "id": "wall-push-up",
     "name": "Wall Push-up",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -12258,6 +13299,7 @@
   {
     "id": "warrior-one",
     "name": "Warrior I (Virabhadrasana I)",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "quads",
@@ -12285,6 +13327,7 @@
   {
     "id": "warrior-two",
     "name": "Warrior II (Virabhadrasana II)",
+    "category": "mobility",
     "type": "yoga",
     "muscles": [
       "quads",
@@ -12310,6 +13353,7 @@
   {
     "id": "weighted-bridge-lift",
     "name": "Weighted Bridge Lift",
+    "category": "core",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -12337,6 +13381,7 @@
   {
     "id": "weighted-crunch",
     "name": "Weighted Crunch",
+    "category": "core",
     "type": "weights",
     "muscles": [
       "core",
@@ -12361,6 +13406,7 @@
   {
     "id": "weighted-single-leg-bridge",
     "name": "Weighted Single Leg Bridge",
+    "category": "legs-quads",
     "type": "weights",
     "muscles": [
       "glutes",
@@ -12384,6 +13430,7 @@
   {
     "id": "wide-crunches",
     "name": "Wide Crunches",
+    "category": "core",
     "type": "calisthenics",
     "muscles": [
       "core",
@@ -12405,6 +13452,7 @@
   {
     "id": "wide-grip-cable-row",
     "name": "Wide Grip Cable Row",
+    "category": "back-horizontal-pull",
     "type": "weights",
     "muscles": [
       "back",
@@ -12422,7 +13470,8 @@
       "gym",
       "machine",
       "back",
-      "row"
+      "row",
+      "horizontal-pull"
     ],
     "difficulty": "beginner",
     "duration": 60,
@@ -12431,6 +13480,7 @@
   {
     "id": "wide-grip-pull-up",
     "name": "Wide Grip Pull-up",
+    "category": "back-vertical-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -12448,7 +13498,8 @@
       "calisthenics",
       "strength",
       "rrr",
-      "pull-up-progression"
+      "pull-up-progression",
+      "vertical-pull"
     ],
     "difficulty": "intermediate",
     "duration": 60,
@@ -12457,6 +13508,7 @@
   {
     "id": "wide-push-up",
     "name": "Wide Push-ups",
+    "category": "chest",
     "type": "calisthenics",
     "muscles": [
       "chest",
@@ -12471,7 +13523,8 @@
       "floor",
       "circuit",
       "push-up-variation",
-      "on-hands"
+      "on-hands",
+      "upper-body"
     ],
     "difficulty": "beginner",
     "duration": 45,
@@ -12480,6 +13533,7 @@
   {
     "id": "wide-row",
     "name": "Wide Row",
+    "category": "back-horizontal-pull",
     "type": "calisthenics",
     "muscles": [
       "back",
@@ -12494,7 +13548,8 @@
       "upper-body",
       "row",
       "rrr",
-      "row-progression"
+      "row-progression",
+      "horizontal-pull"
     ],
     "difficulty": "advanced",
     "duration": 60,
@@ -12503,6 +13558,7 @@
   {
     "id": "yuris-shoulder-band-warmup",
     "name": "Yuri's Shoulder Band Warmup",
+    "category": "mobility",
     "type": "stretch",
     "muscles": [
       "shoulders",

@@ -1,10 +1,27 @@
 {
   "id": "good-morning",
   "name": "Good Morning",
+  "category": "legs-hip-hinge",
   "type": "calisthenics",
-  "muscles": ["hamstrings", "glutes", "back"],
-  "equipment": ["bodyweight", "dumbbell", "barbell", "smith-machine"],
-  "tags": ["hinge", "lower-body", "posterior-chain", "floor", "circuit", "gym"],
+  "muscles": [
+    "hamstrings",
+    "glutes",
+    "back"
+  ],
+  "equipment": [
+    "bodyweight",
+    "dumbbell",
+    "barbell",
+    "smith-machine"
+  ],
+  "tags": [
+    "hinge",
+    "lower-body",
+    "posterior-chain",
+    "floor",
+    "circuit",
+    "gym"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Stand with feet shoulder-width apart, hands behind your head or crossed on chest. Keep your back straight and knees slightly bent. Hinge at the hips, pushing them back and lowering your torso until it's nearly parallel to the floor. Feel the stretch in your hamstrings. Return to standing by squeezing your glutes and driving your hips forward. Progress with a dumbbell held at chest, barbell across back, or Smith machine for guided resistance."

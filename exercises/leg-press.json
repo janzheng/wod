@@ -1,10 +1,25 @@
 {
   "id": "leg-press",
   "name": "Leg Press",
+  "category": "legs-quads",
   "type": "weights",
-  "muscles": ["quads", "glutes", "hamstrings"],
-  "equipment": ["leg-press-machine", "machine"],
-  "tags": ["compound", "legs", "lower-body", "gym", "machine", "quads"],
+  "muscles": [
+    "quads",
+    "glutes",
+    "hamstrings"
+  ],
+  "equipment": [
+    "leg-press-machine",
+    "machine"
+  ],
+  "tags": [
+    "compound",
+    "legs",
+    "lower-body",
+    "gym",
+    "machine",
+    "quads"
+  ],
   "difficulty": "beginner",
   "duration": 90,
   "description": "Sit in the leg press machine with feet shoulder-width apart on the platform. Release the safety handles and lower the platform by bending your knees toward your chest until thighs are at 90 degrees. Push through your heels to extend your legs without locking your knees. Keep your lower back pressed firmly against the pad throughout the movement."

@@ -1,10 +1,25 @@
 {
   "id": "close-grip-push-up",
   "name": "Close Grip Push-up",
+  "category": "arms-triceps",
   "type": "calisthenics",
-  "muscles": ["triceps", "chest", "core"],
-  "equipment": ["bodyweight"],
-  "tags": ["push", "compound", "warmup", "floor", "push-up-variation", "on-hands"],
+  "muscles": [
+    "triceps",
+    "chest",
+    "core"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "push",
+    "compound",
+    "warmup",
+    "floor",
+    "push-up-variation",
+    "on-hands",
+    "upper-body"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Perform a push-up with hands placed close together, directly under your chest. This variation increases triceps engagement compared to standard push-ups."

@@ -1,10 +1,22 @@
 {
   "id": "bicycle-crunch",
   "name": "Bicycle Crunches",
+  "category": "core",
   "type": "calisthenics",
-  "muscles": ["core", "obliques"],
-  "equipment": ["bodyweight"],
-  "tags": ["core", "floor", "circuit", "on-back", "abs"],
+  "muscles": [
+    "core",
+    "obliques"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "core",
+    "floor",
+    "circuit",
+    "on-back",
+    "abs"
+  ],
   "difficulty": "beginner",
   "duration": 45,
   "description": "Lie on back with hands behind head, legs raised. Bring right elbow to left knee while extending right leg, then switch sides in a pedaling motion. Keep lower back pressed to floor and avoid pulling on neck."

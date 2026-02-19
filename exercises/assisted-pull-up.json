@@ -1,10 +1,25 @@
 {
   "id": "assisted-pull-up",
   "name": "Assisted Pull-up",
+  "category": "back-vertical-pull",
   "type": "calisthenics",
-  "muscles": ["back", "biceps", "shoulders"],
-  "equipment": ["pull-up-bar", "resistance-band"],
-  "tags": ["pull", "upper-body", "compound", "rrr", "pull-up-progression"],
+  "muscles": [
+    "back",
+    "biceps",
+    "shoulders"
+  ],
+  "equipment": [
+    "pull-up-bar",
+    "resistance-band"
+  ],
+  "tags": [
+    "pull",
+    "upper-body",
+    "compound",
+    "rrr",
+    "pull-up-progression",
+    "vertical-pull"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Loop a resistance band over the pull-up bar and place one or both feet in the loop. Perform a full pull-up with the band assisting you. Focus on pulling your elbows down and back, getting chin over the bar. Lower with control."

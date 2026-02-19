@@ -1,10 +1,24 @@
 {
   "id": "romanian-deadlift",
   "name": "Romanian Deadlift",
+  "category": "legs-hip-hinge",
   "type": "calisthenics",
-  "muscles": ["hamstrings", "glutes", "back"],
-  "equipment": ["bodyweight"],
-  "tags": ["hinge", "lower-body", "posterior-chain", "rrr", "hinge-progression", "deadlift"],
+  "muscles": [
+    "hamstrings",
+    "glutes",
+    "back"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "hinge",
+    "lower-body",
+    "posterior-chain",
+    "rrr",
+    "hinge-progression",
+    "deadlift"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Stand with feet hip-width apart. Push your hips back while keeping a slight bend in knees and back straight. Lower your torso until you feel a stretch in your hamstrings. Squeeze glutes to return to standing."

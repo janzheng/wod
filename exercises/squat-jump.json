@@ -1,10 +1,23 @@
 {
   "id": "squat-jump",
   "name": "Squat Jumps",
+  "category": "legs-quads",
   "type": "plyo",
-  "muscles": ["quads", "glutes", "calves"],
-  "equipment": ["bodyweight"],
-  "tags": ["explosive", "legs", "floor", "circuit"],
+  "muscles": [
+    "quads",
+    "glutes",
+    "calves"
+  ],
+  "equipment": [
+    "bodyweight"
+  ],
+  "tags": [
+    "explosive",
+    "legs",
+    "floor",
+    "circuit",
+    "lower-body"
+  ],
   "difficulty": "intermediate",
   "duration": 45,
   "description": "Stand with feet shoulder-width apart. Lower into a squat with thighs parallel to floor, then explosively jump as high as possible. Swing arms for momentum. Land softly with bent knees and immediately lower into the next squat."

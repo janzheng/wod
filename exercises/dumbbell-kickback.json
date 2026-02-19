@@ -1,10 +1,22 @@
 {
   "id": "dumbbell-kickback",
   "name": "Dumbbell Tricep Kickback",
+  "category": "arms-triceps",
   "type": "weights",
-  "muscles": ["triceps"],
-  "equipment": ["dumbbell"],
-  "tags": ["isolation", "upper-body", "gym", "triceps", "arms"],
+  "muscles": [
+    "triceps"
+  ],
+  "equipment": [
+    "dumbbell"
+  ],
+  "tags": [
+    "isolation",
+    "upper-body",
+    "gym",
+    "triceps",
+    "arms",
+    "push"
+  ],
   "difficulty": "beginner",
   "duration": 45,
   "description": "Hinge forward at hips with flat back. Hold dumbbells with elbows bent at 90 degrees, tucked to your sides. Extend arms straight back, squeezing triceps at the top. Lower with control. Keep upper arms stationary - only your forearms move. Can do one arm at a time using other hand for support."

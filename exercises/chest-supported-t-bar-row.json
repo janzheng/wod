@@ -1,10 +1,26 @@
 {
   "id": "chest-supported-t-bar-row",
   "name": "Chest Supported T-Bar Row",
+  "category": "back-horizontal-pull",
   "type": "weights",
-  "muscles": ["back", "lats", "upper-back", "biceps"],
-  "equipment": ["machine", "barbell"],
-  "tags": ["compound", "pull", "upper-body", "gym", "back"],
+  "muscles": [
+    "back",
+    "lats",
+    "upper-back",
+    "biceps"
+  ],
+  "equipment": [
+    "machine",
+    "barbell"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "upper-body",
+    "gym",
+    "back",
+    "horizontal-pull"
+  ],
   "difficulty": "intermediate",
   "duration": 60,
   "description": "Lie face down on the angled chest pad with feet on the platform. Grip the handles with a pronated (overhand) grip and row the weight toward your chest, driving elbows back and squeezing your shoulder blades together at the top. Lower with control. The chest support eliminates momentum and lower back strain, isolating the back muscles."

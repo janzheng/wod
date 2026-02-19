@@ -1,0 +1,130 @@
+{
+  "id": "ppl-push",
+  "name": "PPL Push Day (Chest/Shoulders/Triceps)",
+  "description": "Push day from @KarlApexFit's 65-exercise database. Chest compounds, shoulder presses, lateral raises, and triceps isolation.",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl"],
+  "estimatedDuration": 60,
+  "equipment": ["barbell", "dumbbell", "cable", "bench", "machine", "smith-machine"],
+  "source": {
+    "creator": "@KarlApexFit",
+    "url": "https://x.com/karlapexfit/status/2023359316456271917"
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["shoulders", "chest"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio"] }, "reps": 10 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "chest-compound",
+      "name": "Chest: Heavy Compound",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-chest-compound",
+          "name": "Classic Chest Compound",
+          "exercises": [
+            { "id": "bench-press", "reps": "6-8", "notes": "flat barbell bench" },
+            { "id": "incline-dumbbell-press", "reps": "8-10", "notes": "30-45 degree incline" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["barbell", "machine", "smith-machine"], "tags": ["compound", "press"] }, "reps": "6-8" },
+        { "criteria": { "muscles": ["chest"], "equipment": ["dumbbell", "machine"], "tags": ["compound", "press"] }, "reps": "8-10" }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "chest-isolation",
+      "name": "Chest: Isolation",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-chest-iso",
+          "name": "Classic Chest Isolation",
+          "exercises": [
+            { "id": "cable-chest-press", "reps": "10-12" },
+            { "id": "seated-pec-fly-machine", "reps": "12-15" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["chest"], "equipment": ["cable", "machine"], "tags": ["push"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["chest"], "tags": ["isolation"] }, "reps": "12-15" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "shoulders",
+      "name": "Shoulders: Press + Lateral Raise",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-shoulders",
+          "name": "Classic Shoulders",
+          "exercises": [
+            { "id": "seated-dumbbell-shoulder-press", "reps": "8-10" },
+            { "id": "cable-lateral-raise", "reps": "12-15", "notes": "each arm" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["shoulders"], "tags": ["press", "compound"] }, "reps": "8-10" },
+        { "criteria": { "muscles": ["shoulders"], "tags": ["isolation", "lateral-delts"] }, "reps": "12-15" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "triceps",
+      "name": "Triceps: Isolation Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-triceps",
+          "name": "Classic Triceps",
+          "exercises": [
+            { "id": "dumbbell-skull-crusher", "reps": "10-12" },
+            { "id": "cable-tricep-pushdown", "reps": "12-15" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["triceps"], "equipment": ["barbell", "dumbbell"], "tags": ["isolation"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["triceps"], "equipment": ["cable"], "tags": ["isolation"] }, "reps": "12-15" }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Start with heavy chest compounds when fresh",
+    "Shoulder press: seated variations are more stable and recommended over standing",
+    "Arnold Press and Military Press are listed as sub-optimal by the source",
+    "Superset lateral raises with triceps for time efficiency"
+  ]
+}

@@ -1,10 +1,24 @@
 {
   "id": "smith-machine-squat",
   "name": "Smith Machine Squat",
+  "category": "legs-quads",
   "type": "weights",
-  "muscles": ["quads", "glutes", "hamstrings"],
-  "equipment": ["smith-machine"],
-  "tags": ["compound", "lower-body", "gym", "machine", "squat", "legs"],
+  "muscles": [
+    "quads",
+    "glutes",
+    "hamstrings"
+  ],
+  "equipment": [
+    "smith-machine"
+  ],
+  "tags": [
+    "compound",
+    "lower-body",
+    "gym",
+    "machine",
+    "squat",
+    "legs"
+  ],
   "difficulty": "beginner",
   "duration": 90,
   "description": "Position the bar across your upper back (not neck). Stand with feet slightly in front of the bar path, shoulder-width apart. Unhook the bar and descend by pushing hips back and bending knees until thighs are parallel. Drive through your heels to stand. The guided bar path helps maintain balance and allows you to focus on depth and form."

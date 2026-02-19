@@ -1,0 +1,180 @@
+{
+  "id": "ppl-legs",
+  "name": "PPL Legs Day (Quads/Hams/Glutes/Calves/Core)",
+  "description": "Legs day from @KarlApexFit's 65-exercise database. Quad-dominant squats, hip hinge for hamstrings and glutes, calf work, and core finisher.",
+  "routineId": "gym",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "calves", "core", "ppl"],
+  "estimatedDuration": 65,
+  "equipment": ["barbell", "dumbbell", "machine", "smith-machine", "bench", "cable"],
+  "source": {
+    "creator": "@KarlApexFit",
+    "url": "https://x.com/karlapexfit/status/2023359316456271917"
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "randomize": true,
+      "exercises": [
+        { "criteria": { "tags": ["warmup", "mobility"], "equipment": ["bodyweight"] }, "duration": 30 },
+        { "criteria": { "tags": ["warmup", "mobility"], "muscles": ["legs", "hips"] }, "duration": 45 },
+        { "criteria": { "tags": ["warmup"], "equipment": ["bodyweight"], "excludeTags": ["cardio"] }, "reps": 10 }
+      ],
+      "restBetween": 10,
+      "restAfter": 60
+    },
+    {
+      "id": "quads-compound",
+      "name": "Quads: Heavy Compound",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-quads",
+          "name": "Classic Quads",
+          "exercises": [
+            { "id": "leg-press", "reps": "8-10", "notes": "feet shoulder-width, mid-platform" },
+            { "id": "hack-squat", "reps": "10-12" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["quads"], "equipment": ["leg-press-machine", "machine", "smith-machine"], "tags": ["compound", "squat"] }, "reps": "8-10" },
+        { "criteria": { "muscles": ["quads"], "equipment": ["machine", "hack-squat-machine"], "tags": ["compound"] }, "reps": "10-12" }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "quads-unilateral",
+      "name": "Quads: Unilateral Work",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-unilateral",
+          "name": "Classic Unilateral Quads",
+          "exercises": [
+            { "id": "dumbbell-goblet-squat", "reps": "10-12" },
+            { "id": "split-squat", "reps": "10 each", "notes": "each leg" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["quads"], "equipment": ["dumbbell", "kettlebell"], "tags": ["squat"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["quads"], "tags": ["unilateral", "squat"] }, "reps": "10 each", "notes": "each leg" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "hip-hinge",
+      "name": "Hip Hinge: Hamstrings & Glutes",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-hinge",
+          "name": "Classic Hip Hinge",
+          "exercises": [
+            { "id": "romanian-deadlift", "reps": "8-10" },
+            { "id": "hip-thrust", "reps": "10-12", "notes": "squeeze glutes at top" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["hamstrings", "glutes"], "equipment": ["barbell", "dumbbell"], "tags": ["hinge", "compound"] }, "reps": "8-10" },
+        { "criteria": { "muscles": ["glutes"], "equipment": ["barbell", "bodyweight"], "tags": ["compound"] }, "reps": "10-12" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "ham-isolation",
+      "name": "Hamstrings: Isolation",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-ham-iso",
+          "name": "Classic Hamstring Isolation",
+          "exercises": [
+            { "id": "seated-leg-curl", "reps": "10-12" },
+            { "id": "back-extension", "reps": "12-15", "notes": "squeeze glutes at top" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["hamstrings"], "equipment": ["machine"], "tags": ["isolation"] }, "reps": "10-12" },
+        { "criteria": { "muscles": ["hamstrings", "glutes"], "tags": ["hinge"] }, "reps": "12-15" }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "calves",
+      "name": "Calves",
+      "type": "exercises",
+      "rounds": 4,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-calves",
+          "name": "Classic Calves",
+          "exercises": [
+            { "id": "standing-calf-raise", "reps": "12-15", "notes": "gastrocnemius focus" },
+            { "id": "calf-raise-machine", "reps": "15-20", "notes": "seated, soleus focus" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["calves"], "equipment": ["machine"], "tags": ["isolation"] }, "reps": "12-15" },
+        { "criteria": { "muscles": ["calves"], "tags": ["isolation"] }, "reps": "15-20" }
+      ],
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "core-finisher",
+      "name": "Core Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "randomize": true,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "classic-core",
+          "name": "Classic Core",
+          "exercises": [
+            { "id": "hanging-leg-raise", "reps": "10-15" },
+            { "id": "cable-crunch", "reps": "15-20" },
+            { "id": "pallof-press", "reps": "10 each", "notes": "each side, anti-rotation" }
+          ]
+        }
+      ],
+      "exercises": [
+        { "criteria": { "muscles": ["abs"], "tags": ["core"], "equipment": ["pull-up-bar", "bodyweight"] }, "reps": "10-15" },
+        { "criteria": { "muscles": ["abs"], "equipment": ["cable", "bodyweight"], "tags": ["core"] }, "reps": "15-20" },
+        { "criteria": { "muscles": ["core"], "tags": ["core"] }, "reps": "10-15" }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Start with heavy quad compounds when legs are fresh",
+    "Seated hamstring curl targets hamstrings differently than lying — do both if time allows",
+    "Standing calf raise = gastrocnemius, seated = soleus — train both",
+    "Core work at the end so it doesn't fatigue your stabilizers for heavy lifts"
+  ]
+}

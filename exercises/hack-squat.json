@@ -1,10 +1,26 @@
 {
   "id": "hack-squat",
   "name": "Hack Squat",
+  "category": "legs-quads",
   "type": "weights",
-  "muscles": ["quads", "glutes", "hamstrings"],
-  "equipment": ["hack-squat-machine", "machine"],
-  "tags": ["compound", "legs", "lower-body", "gym", "machine", "squat", "quads"],
+  "muscles": [
+    "quads",
+    "glutes",
+    "hamstrings"
+  ],
+  "equipment": [
+    "hack-squat-machine",
+    "machine"
+  ],
+  "tags": [
+    "compound",
+    "legs",
+    "lower-body",
+    "gym",
+    "machine",
+    "squat",
+    "quads"
+  ],
   "difficulty": "beginner",
   "duration": 90,
   "description": "Position yourself in the hack squat machine with your back against the pad and shoulders under the pads. Place feet shoulder-width apart on the platform. Release the safety handles and lower your body by bending your knees until thighs are parallel to the platform. Keep your back pressed against the pad throughout. Drive through your heels to extend your legs and return to standing. The machine provides support while allowing heavy loading of the quads."

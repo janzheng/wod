@@ -23,6 +23,7 @@ export type MediaItem = z.infer<typeof mediaItemSchema>;
 export const exerciseSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   name: z.string().min(1),
+  category: z.string().optional(), // movement pattern category: chest, back-vertical-pull, legs-quads, etc.
   type: z.string(), // weights, plyo, yoga, cardio, etc.
   muscles: z.array(z.string()), // chest, back, shoulders, etc.
   equipment: z.array(z.string()), // barbell, dumbbell, bodyweight, etc.

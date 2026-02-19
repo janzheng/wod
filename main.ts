@@ -294,6 +294,22 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
 
         <div class="sidebar-content">
           <div class="sidebar-group">
+            <div class="sidebar-menu">
+              <div class="sidebar-menu-item">
+                <button
+                  class="sidebar-menu-button"
+                  :class="{ 'active': currentView === 'exercises' }"
+                  @click="currentView = currentView === 'exercises' ? 'workout' : 'exercises'; selectedWorkoutId = null; generatedWorkout = null; selectedActivity = null; if(isMobile) sidebarOpen = false;"
+                >
+                  <span class="iconify sidebar-icon" data-icon="lucide:library"></span>
+                  <span class="sidebar-menu-label">Exercise Library</span>
+                  <span class="sidebar-menu-badge" x-text="exercisesCatalogue.length"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-group">
             <div class="sidebar-group-label">Saved Workouts</div>
             <nav class="sidebar-menu">
               <template x-if="loading">
@@ -409,11 +425,124 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         <button class="sidebar-trigger" @click="sidebarOpen = !sidebarOpen">
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
-        <h1 class="sidebar-inset-title" x-text="selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')"></h1>
+        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout'))"></h1>
       </header>
 
       <div class="sidebar-inset-content">
-        <template x-if="!selectedWorkout && !selectedActivity && !loading">
+        <!-- ═══ Exercise Library View ═══ -->
+        <template x-if="currentView === 'exercises'">
+          <div class="exercise-library">
+            <div class="exercise-library-header">
+              <div class="exercise-library-search">
+                <span class="iconify search-icon" data-icon="lucide:search"></span>
+                <input
+                  type="text"
+                  x-model.debounce.200ms="exerciseSearch"
+                  placeholder="Search exercises..."
+                  class="exercise-search-input"
+                />
+                <template x-if="exerciseSearch || exerciseCategoryFilter || exerciseMuscleFilter || exerciseEquipmentFilter || exerciseTypeFilter">
+                  <button class="exercise-clear-btn" @click="clearExerciseFilters()">
+                    <span class="iconify" data-icon="lucide:x"></span>
+                  </button>
+                </template>
+              </div>
+
+              <div class="exercise-filters">
+                <select x-model="exerciseCategoryFilter" class="exercise-filter-select">
+                  <option value="">All Categories</option>
+                  <template x-for="cat in exerciseCategories" :key="cat">
+                    <option :value="cat" x-text="formatCategory(cat)"></option>
+                  </template>
+                </select>
+                <select x-model="exerciseMuscleFilter" class="exercise-filter-select">
+                  <option value="">All Muscles</option>
+                  <template x-for="m in exerciseMuscles" :key="m">
+                    <option :value="m" x-text="m"></option>
+                  </template>
+                </select>
+                <select x-model="exerciseEquipmentFilter" class="exercise-filter-select">
+                  <option value="">All Equipment</option>
+                  <template x-for="e in exerciseEquipmentList" :key="e">
+                    <option :value="e" x-text="e"></option>
+                  </template>
+                </select>
+              </div>
+
+              <div class="exercise-result-count">
+                <span x-text="_filteredExerciseResults.length"></span> exercises
+                <template x-if="exerciseCategoryFilter || exerciseMuscleFilter || exerciseEquipmentFilter || exerciseSearch">
+                  <span style="opacity:0.6"> (filtered)</span>
+                </template>
+              </div>
+            </div>
+
+            <div class="exercise-library-list">
+              <template x-for="ex in _filteredExerciseResults.slice(0, 100)" :key="ex.id">
+                <div class="exercise-library-card" @click="toggleLibraryExercise(ex.id)">
+                  <div class="exercise-card-main">
+                    <div class="exercise-card-name" x-text="ex.name"></div>
+                    <div class="exercise-card-meta">
+                      <span class="exercise-card-category" x-text="formatCategory(ex.category)"></span>
+                      <template x-if="ex.difficulty">
+                        <span class="exercise-card-difficulty" :class="'diff-' + ex.difficulty" x-text="ex.difficulty"></span>
+                      </template>
+                      <template x-if="ex.equipment && ex.equipment.length > 0">
+                        <span class="exercise-card-equipment" x-text="ex.equipment.join(', ')"></span>
+                      </template>
+                    </div>
+                    <div class="exercise-card-muscles">
+                      <template x-for="m in (ex.muscles || []).slice(0, 5)" :key="m">
+                        <span class="exercise-muscle-tag" x-text="m"></span>
+                      </template>
+                    </div>
+                  </div>
+                  <div class="exercise-card-expand-icon">
+                    <span class="iconify" :class="{ 'rotated-icon': expandedLibraryExercises.includes(ex.id) }" data-icon="lucide:chevron-down"></span>
+                  </div>
+
+                  <template x-if="expandedLibraryExercises.includes(ex.id)">
+                    <div class="exercise-card-expanded" @click.stop>
+                      <template x-if="ex.description">
+                        <p class="exercise-card-desc" x-text="ex.description"></p>
+                      </template>
+                      <div class="exercise-card-tags">
+                        <template x-for="t in (ex.tags || [])" :key="t">
+                          <span class="exercise-tag-pill" x-text="t"></span>
+                        </template>
+                      </div>
+                      <template x-if="ex.media && ex.media.length > 0">
+                        <div class="exercise-card-media">
+                          <template x-for="(media, mIdx) in ex.media" :key="'media-' + mIdx">
+                            <a :href="media.value" target="_blank" rel="noopener" class="exercise-media-link">
+                              <span class="iconify" data-icon="lucide:external-link"></span>
+                              <span x-text="media.caption || media.source || 'View'"></span>
+                            </a>
+                          </template>
+                        </div>
+                      </template>
+                    </div>
+                  </template>
+                </div>
+              </template>
+              <template x-if="_filteredExerciseResults.length > 100">
+                <div class="exercise-library-more">
+                  Showing 100 of <span x-text="_filteredExerciseResults.length"></span> results. Use search or filters to narrow down.
+                </div>
+              </template>
+              <template x-if="_filteredExerciseResults.length === 0">
+                <div class="exercise-library-empty">
+                  <span class="iconify" data-icon="lucide:search-x" style="font-size: 2rem; opacity: 0.4;"></span>
+                  <p>No exercises match your filters.</p>
+                  <button class="exercise-clear-btn-large" @click="clearExerciseFilters()">Clear Filters</button>
+                </div>
+              </template>
+            </div>
+          </div>
+        </template>
+
+        <!-- ═══ Workout View (existing) ═══ -->
+        <template x-if="currentView === 'workout' && !selectedWorkout && !selectedActivity && !loading">
           <div class="empty-state">
             <div class="empty-state-icon">
               <span class="iconify" data-icon="lucide:dumbbell"></span>
@@ -423,7 +552,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
           </div>
         </template>
 
-        <template x-if="selectedActivity && !loading">
+        <template x-if="currentView === 'workout' && selectedActivity && !loading">
           <div class="workout-detail">
             <div class="workout-header">
               <div class="workout-meta">
@@ -511,7 +640,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
           </div>
         </template>
 
-        <template x-if="selectedWorkout && !loading">
+        <template x-if="currentView === 'workout' && selectedWorkout && !loading">
           <div class="workout-detail">
             <div class="workout-header">
               <div class="workout-meta">
@@ -778,6 +907,16 @@ function routineStackApp() {
     generatedWorkout: null,
     expandedExercises: [],
 
+    // Exercise library state
+    currentView: 'workout',
+    exerciseSearch: '',
+    exerciseCategoryFilter: '',
+    exerciseMuscleFilter: '',
+    exerciseEquipmentFilter: '',
+    exerciseTypeFilter: '',
+    expandedLibraryExercises: [],
+    _filteredExerciseResults: [],
+
     // Timer state
     timerMode: false,
     timer: null,
@@ -892,6 +1031,14 @@ function routineStackApp() {
       await this.loadExercisesCatalogue();
       await this.loadProgressions();
       this.autoLoadRandomWorkout();
+
+      // Update filtered exercises on any filter change
+      this.updateFilteredExercises();
+      this.$watch('exerciseSearch', () => this.updateFilteredExercises());
+      this.$watch('exerciseCategoryFilter', () => this.updateFilteredExercises());
+      this.$watch('exerciseMuscleFilter', () => this.updateFilteredExercises());
+      this.$watch('exerciseEquipmentFilter', () => this.updateFilteredExercises());
+      this.$watch('exerciseTypeFilter', () => this.updateFilteredExercises());
     },
 
     async loadData() {
@@ -1071,6 +1218,7 @@ function routineStackApp() {
     },
 
     selectWorkout(id, updateUrl = true) {
+      this.currentView = 'workout';
       this.selectedWorkoutId = id;
       this.selectedActivity = null;
       this.generatedWorkout = null;
@@ -1194,6 +1342,139 @@ function routineStackApp() {
         this.timer.stop();
       }
       document.body.style.overflow = '';
+    },
+
+    // ─── Exercise Library ──────────────────────────────────────
+
+    get exerciseCategories() {
+      const cats = new Set();
+      for (const ex of this.exercisesCatalogue) {
+        if (ex.category) cats.add(ex.category);
+      }
+      return [...cats].sort();
+    },
+
+    get exerciseMuscles() {
+      const muscles = {};
+      for (const ex of this.exercisesCatalogue) {
+        for (const m of (ex.muscles || [])) {
+          muscles[m] = (muscles[m] || 0) + 1;
+        }
+      }
+      return Object.entries(muscles)
+        .sort((a, b) => b[1] - a[1])
+        .map(([m]) => m);
+    },
+
+    get exerciseEquipmentList() {
+      const eq = {};
+      for (const ex of this.exercisesCatalogue) {
+        for (const e of (ex.equipment || [])) {
+          eq[e] = (eq[e] || 0) + 1;
+        }
+      }
+      return Object.entries(eq)
+        .sort((a, b) => b[1] - a[1])
+        .map(([e]) => e);
+    },
+
+    updateFilteredExercises() {
+      let results = [...this.exercisesCatalogue];
+
+      // Category filter
+      if (this.exerciseCategoryFilter) {
+        results = results.filter(ex => ex.category === this.exerciseCategoryFilter);
+      }
+
+      // Muscle filter
+      if (this.exerciseMuscleFilter) {
+        results = results.filter(ex => ex.muscles && ex.muscles.includes(this.exerciseMuscleFilter));
+      }
+
+      // Equipment filter
+      if (this.exerciseEquipmentFilter) {
+        results = results.filter(ex => ex.equipment && ex.equipment.includes(this.exerciseEquipmentFilter));
+      }
+
+      // Type filter
+      if (this.exerciseTypeFilter) {
+        results = results.filter(ex => ex.type === this.exerciseTypeFilter);
+      }
+
+      // Text search (simple BM25-ish: name match weighted highest, then description, then tags)
+      const q = (this.exerciseSearch || '').trim().toLowerCase();
+      if (q) {
+        const terms = q.split(/\s+/);
+        results = results.map(ex => {
+          let score = 0;
+          const name = (ex.name || '').toLowerCase();
+          const desc = (ex.description || '').toLowerCase();
+          const tags = (ex.tags || []).join(' ').toLowerCase();
+          const muscles = (ex.muscles || []).join(' ').toLowerCase();
+          const category = (ex.category || '').toLowerCase();
+
+          for (const term of terms) {
+            // Name match (highest weight)
+            if (name.includes(term)) score += 10;
+            if (name.startsWith(term)) score += 5;
+            // Category match
+            if (category.includes(term)) score += 6;
+            // Muscle match
+            if (muscles.includes(term)) score += 4;
+            // Tag match
+            if (tags.includes(term)) score += 3;
+            // Description match
+            if (desc.includes(term)) score += 1;
+          }
+          return { ...ex, _score: score };
+        })
+        .filter(ex => ex._score > 0)
+        .sort((a, b) => b._score - a._score);
+      } else {
+        // Default sort: alphabetical by name
+        results.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+      }
+
+      this._filteredExerciseResults = results;
+    },
+
+    clearExerciseFilters() {
+      this.exerciseSearch = '';
+      this.exerciseCategoryFilter = '';
+      this.exerciseMuscleFilter = '';
+      this.exerciseEquipmentFilter = '';
+      this.exerciseTypeFilter = '';
+    },
+
+    toggleLibraryExercise(exId) {
+      if (!this.expandedLibraryExercises) this.expandedLibraryExercises = [];
+      const idx = this.expandedLibraryExercises.indexOf(exId);
+      if (idx === -1) this.expandedLibraryExercises.push(exId);
+      else this.expandedLibraryExercises.splice(idx, 1);
+    },
+
+    formatCategory(cat) {
+      if (!cat) return '';
+      return cat.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    },
+
+    getCategoryIcon(cat) {
+      const icons = {
+        'chest': 'lucide:heart',
+        'back-vertical-pull': 'lucide:arrow-up',
+        'back-horizontal-pull': 'lucide:arrow-left',
+        'shoulders': 'lucide:mountain',
+        'arms-biceps': 'lucide:beef',
+        'arms-triceps': 'lucide:beef',
+        'legs-quads': 'lucide:footprints',
+        'legs-hip-hinge': 'lucide:footprints',
+        'calves': 'lucide:footprints',
+        'core': 'lucide:circle-dot',
+        'full-body': 'lucide:person-standing',
+        'mobility': 'lucide:stretch-horizontal',
+        'cardio': 'lucide:zap',
+      };
+      return icons[cat] || 'lucide:dumbbell';
     },
   };
 }

@@ -12,6 +12,7 @@ const OUTPUT_PATH = new URL("../static/exercises.json", import.meta.url).pathnam
 interface Exercise {
   id: string;
   name: string;
+  category?: string;
   type: string;
   muscles: string[];
   equipment: string[];
@@ -71,11 +72,13 @@ async function buildExercises(): Promise<void> {
     total: count,
     errors,
     types: [...new Set(exercises.map(e => e.type))],
+    categories: [...new Set(exercises.map(e => e.category).filter(Boolean))],
     challenges: [...new Set(exercises.filter(e => e.challenge).map(e => e.challenge!.id))],
   };
 
   console.log(`✅ Built ${count} exercises → static/exercises.json`);
   console.log(`   Types: ${stats.types.join(", ")}`);
+  console.log(`   Categories: ${stats.categories.join(", ")}`);
   console.log(`   Challenges: ${stats.challenges.length > 0 ? stats.challenges.join(", ") : "none"}`);
   if (errors > 0) {
     console.log(`   ⚠️ ${errors} files skipped due to errors`);

@@ -1,0 +1,29 @@
+{
+  "id": "apex-fitness-65-exercise-database",
+  "name": "65 Exercise Database for Every Muscle Group",
+  "type": "weights",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/karlapexfit/status/2023359316456271917",
+    "creator": "@KarlApexFit",
+    "capturedAt": "2026-02-19"
+  },
+  "tags": ["full-body", "upper-body", "lower-body", "core", "abs", "shoulders", "back", "chest", "arms", "glutes", "compound", "isolation", "push", "pull", "squat", "hinge", "gym"],
+  "equipment": ["machine", "dumbbell", "barbell", "cable", "smith-machine", "bench"],
+  "muscles": ["core", "abs", "shoulders", "chest", "back", "lats", "upper-back", "biceps", "triceps", "glutes", "quads", "hamstrings", "calves"],
+  "difficulty": "intermediate",
+  "description": "A curated database of 65 weight-training exercises categorized by muscle group and movement pattern, from @KarlApexFit's 17 years of training experience.",
+  "categories": {
+    "legs-quads": ["Leg Press", "Hack Squat", "Pendulum Squat", "Smith Machine Squat", "Goblet Squat", "Split Squat", "Lunge"],
+    "hip-hinge": ["Romanian Deadlift", "Deadlift", "Hip Thrust", "Glute Bridge", "Good Morning", "Back Extension", "Seated Hamstring Curl", "Lying Hamstring Curl"],
+    "shoulders": ["Seated Shoulder Press Machine", "Smith Machine Overhead Press", "Seated Dumbbell Press", "Seated Barbell Press", "Arnold Press", "Military Press", "Single Arm Cable Lateral Raise", "Dumbbell Lateral Raise"],
+    "back-vertical-pull": ["Shrug", "Pull Up", "Lat Pull Down", "Single-Arm Cable Pull-Down", "Dumbbell Pull Over", "Cable Pull Over"],
+    "back-horizontal-pull": ["Face Pull", "Cable Row", "Inverted Row", "Chest-Supported T-Bar Row", "Chest-Supported Neutral Grip Row", "Chest-Supported Low Row", "Incline Bench Dumbbell Row", "Barbell Row"],
+    "chest": ["Dip", "Push Up", "Cable Press", "Incline Dumbbell Press", "Barbell Bench Press", "Decline Barbell Press", "Flat Chest Press Machine", "Incline Chest Press Machine", "Incline Smith Machine Press", "Pec Fly"],
+    "arms-triceps": ["Narrow Grip Bench Press", "Skull Crusher", "Cable Push Down"],
+    "arms-biceps": ["Preacher Curl", "Incline Curl", "Cable Curl"],
+    "calves": ["Seated Calf Raise", "Standing Calf Raise", "Leg Press Calf Raise", "Smith Machine Calf Raise"],
+    "abs-core": ["Cable Crunch", "Plank", "Hanging Leg Raise", "Deadbug", "Ab Wheel Rollout", "Russian Twist", "Pallof Press"]
+  },
+  "subOptimal": ["Arnold Press", "Military Press", "Barbell Row"]
+}

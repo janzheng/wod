@@ -1,10 +1,25 @@
 {
   "id": "smith-machine-row",
   "name": "Smith Machine Bent-Over Row",
+  "category": "back-horizontal-pull",
   "type": "weights",
-  "muscles": ["back", "biceps"],
-  "equipment": ["smith-machine"],
-  "tags": ["compound", "pull", "upper-body", "gym", "machine", "back", "row"],
+  "muscles": [
+    "back",
+    "biceps"
+  ],
+  "equipment": [
+    "smith-machine"
+  ],
+  "tags": [
+    "compound",
+    "pull",
+    "upper-body",
+    "gym",
+    "machine",
+    "back",
+    "row",
+    "horizontal-pull"
+  ],
   "difficulty": "beginner",
   "duration": 90,
   "description": "Stand with feet shoulder-width apart. Hinge at hips until torso is roughly 45 degrees. Grip the bar slightly wider than shoulder-width. Unhook and row the bar toward your lower chest, driving elbows back and squeezing shoulder blades. Lower with control. The guided path helps maintain consistent form throughout the movement."

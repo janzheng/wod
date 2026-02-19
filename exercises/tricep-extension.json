@@ -1,10 +1,21 @@
 {
   "id": "tricep-extension",
   "name": "Tricep Extension",
+  "category": "arms-triceps",
   "type": "weights",
-  "muscles": ["triceps"],
-  "equipment": ["dumbbell"],
-  "tags": ["isolation", "push", "upper-body", "arms", "circuit"],
+  "muscles": [
+    "triceps"
+  ],
+  "equipment": [
+    "dumbbell"
+  ],
+  "tags": [
+    "isolation",
+    "push",
+    "upper-body",
+    "arms",
+    "circuit"
+  ],
   "difficulty": "beginner",
   "duration": 60,
   "description": "Stand or sit holding a dumbbell with both hands behind your head, elbows pointing up. Extend your arms to raise the weight overhead, keeping upper arms stationary. Lower the weight behind your head with control. Keep elbows close to your head throughout."

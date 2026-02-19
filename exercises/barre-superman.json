@@ -1,6 +1,7 @@
 {
   "id": "barre-superman",
   "name": "Superman Hold",
+  "category": "legs-quads",
   "type": "barre",
   "muscles": [
     "lower-back",
@@ -10,7 +11,14 @@
   "equipment": [
     "mat"
   ],
-  "tags": ["floor", "prone", "superman", "back-exercise", "on-hands"],
+  "tags": [
+    "floor",
+    "prone",
+    "superman",
+    "back-exercise",
+    "on-hands",
+    "lower-body"
+  ],
   "difficulty": "beginner",
   "description": "Lie on stomach with arms and legs extended. Lift opposite arm and leg simultaneously. (Day 27)",
   "challenge": {
