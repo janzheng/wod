@@ -2374,6 +2374,17 @@ html, body {
   color: #64748b;
 }
 
+.timer-skip-rest-btn {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4);
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+
+  &:hover {
+    box-shadow: 0 6px 24px rgba(59, 130, 246, 0.5);
+  }
+}
+
 .timer-complete {
   display: flex;
   flex-direction: column;
