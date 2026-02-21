@@ -755,8 +755,8 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     </div>
                     <span x-text="timer.formattedTotalRemaining + ' left'"></span>
                   </div>
-                  <template x-if="timer.currentSegment?.isUserControlled">
-                    <button class="timer-inline-done" @click="timer.markDone()">
+                  <template x-if="timer.currentSegment && !timer.isWorkoutComplete">
+                    <button class="timer-inline-done" @click="timer.currentSegment?.isUserControlled ? timer.markDone() : timer.advanceToNextSegment()">
                       <span class="iconify" data-icon="lucide:check"></span>
                       <span>Done</span>
                     </button>

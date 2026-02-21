@@ -11673,7 +11673,7 @@
   {
     "id": "kb-100-rep-daily-challenge",
     "name": "100 Rep Daily KB Challenge (@gymfiesta)",
-    "description": "100 reps of 6 kettlebell exercises — halos, side swings, high pulls, swings, tricep extensions, and rows. Do it daily with a light bell. High volume, full body, posture and conditioning focused.",
+    "description": "100 reps of 6 kettlebell exercises — around-the-body passes, side swings, upright rows, swings, tricep extensions, and bent-over horn rows. Do it daily with a light bell. High volume, full body, posture and conditioning focused.",
     "routineId": "kettlebell",
     "tags": [
       "kettlebell",
@@ -11693,14 +11693,14 @@
     "sets": [
       {
         "id": "core-stability",
-        "name": "Core Stability: Halos",
+        "name": "Core Stability: Around-the-Body Pass",
         "type": "exercises",
         "rounds": 4,
         "exercises": [
           {
-            "id": "kettlebell-halo",
+            "id": "kettlebell-around-body-pass",
             "reps": 25,
-            "notes": "Alternate directions. 4x25 = 100 total."
+            "notes": "Pass KB around your hips/body. Alternate directions. 4x25 = 100 total."
           }
         ],
         "restBetween": 0,
@@ -11713,7 +11713,7 @@
         "rounds": 4,
         "exercises": [
           {
-            "id": "kettlebell-swing",
+            "id": "kettlebell-side-swing",
             "reps": 25,
             "notes": "Side-to-side swings across the body. 4x25 = 100 total. Use core rotation."
           }
@@ -11723,14 +11723,14 @@
       },
       {
         "id": "shoulders",
-        "name": "Shoulders: High Pulls",
+        "name": "Shoulders: Upright Rows",
         "type": "exercises",
         "rounds": 4,
         "exercises": [
           {
-            "id": "kettlebell-swing-clean",
+            "id": "kettlebell-upright-row",
             "reps": 25,
-            "notes": "High pull variation — elbows high, shrug at top. 4x25 = 100 total."
+            "notes": "Strict pull — elbows high, shrug at top, no hip snap. 4x25 = 100 total."
           }
         ],
         "restBetween": 0,
@@ -11758,9 +11758,9 @@
         "rounds": 4,
         "exercises": [
           {
-            "id": "kettlebell-overhead-press",
+            "id": "kettlebell-triceps-extension",
             "reps": 25,
-            "notes": "Tricep extension variation — lower behind head, extend. Elbows stay close. 4x25 = 100 total."
+            "notes": "Hold by horns overhead, lower behind head, extend. Elbows stay close. 4x25 = 100 total."
           }
         ],
         "restBetween": 0,
@@ -11768,14 +11768,14 @@
       },
       {
         "id": "back",
-        "name": "Back: Rows",
+        "name": "Back: Bent-Over Horn Rows",
         "type": "exercises",
         "rounds": 4,
         "exercises": [
           {
-            "id": "kettlebell-row",
-            "reps": "25 total",
-            "notes": "~12-13 per side per set. 4 sets = 100 total. Pull with back, squeeze."
+            "id": "kettlebell-bent-over-horn-row",
+            "reps": 25,
+            "notes": "Both hands on horns, bent over, row to hips and extend. 4x25 = 100 total."
           }
         ],
         "restBetween": 0,

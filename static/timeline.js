@@ -260,6 +260,9 @@ const TimelineBuilder = {
     let minDistance = Infinity;
 
     for (const cp of checkpoints) {
+      // Skip rest checkpoints — only snap to exercise checkpoints
+      if (cp.type === 'rest-after' || cp.type === 'rest-between') continue;
+
       const distance = Math.abs(cp.percent - percent);
       if (distance < minDistance && distance <= threshold) {
         minDistance = distance;

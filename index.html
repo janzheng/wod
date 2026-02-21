@@ -492,23 +492,15 @@
           </button>
         </div>
 
-        <!-- Done Button (for rep-based exercises) -->
-        <template x-if="timer.currentSegment?.isUserControlled">
+        <!-- Done Button (always visible during workout) -->
+        <template x-if="timer.currentSegment && !timer.isWorkoutComplete">
           <div class="timer-done-container">
-            <button class="timer-done-btn" @click="timer.markDone()">
+            <button
+              class="timer-done-btn"
+              @click="timer.currentSegment?.isUserControlled ? timer.markDone() : timer.advanceToNextSegment()"
+            >
               <span class="iconify" data-icon="lucide:check"></span>
-              <span>DONE</span>
-            </button>
-            <span class="timer-done-hint">Tap when complete</span>
-          </div>
-        </template>
-
-        <!-- Skip Rest Button -->
-        <template x-if="timer.isRestSegment && !timer.currentSegment?.isUserControlled">
-          <div class="timer-done-container">
-            <button class="timer-done-btn timer-skip-rest-btn" @click="timer.advanceToNextSegment()">
-              <span class="iconify" data-icon="lucide:skip-forward"></span>
-              <span>SKIP REST</span>
+              <span>Done</span>
             </button>
           </div>
         </template>
