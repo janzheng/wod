@@ -526,7 +526,7 @@ function workoutTimer() {
     onScrub(event) {
       if (!this.isScrubbing) return;
 
-      const target = event.target;
+      const target = event.currentTarget || event.target;
       const rect = target.getBoundingClientRect();
       const x = event.clientX || (event.touches && event.touches[0]?.clientX) || 0;
       const percent = Math.max(0, Math.min(100, ((x - rect.left) / rect.width) * 100));

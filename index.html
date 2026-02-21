@@ -436,7 +436,7 @@
             @touchstart="scrubbing = true; timer.startScrub()"
             @touchend="scrubbing = false; timer.endScrub()"
             @touchmove="if (scrubbing) timer.onScrub($event)"
-            @click="timer.seek(($event.offsetX / $event.target.offsetWidth) * 100)"
+            @click="(() => { const rect = $event.currentTarget.getBoundingClientRect(); timer.seek(((($event.clientX || ($event.touches && $event.touches[0]?.clientX) || 0) - rect.left) / rect.width) * 100); })()"
           >
             <div class="timer-scrubber-track">
               <div class="timer-scrubber-progress" :style="'width: ' + timer.progress + '%'"></div>
@@ -500,6 +500,16 @@
               <span>DONE</span>
             </button>
             <span class="timer-done-hint">Tap when complete</span>
+          </div>
+        </template>
+
+        <!-- Skip Rest Button -->
+        <template x-if="timer.isRestSegment && !timer.currentSegment?.isUserControlled">
+          <div class="timer-done-container">
+            <button class="timer-done-btn timer-skip-rest-btn" @click="timer.advanceToNextSegment()">
+              <span class="iconify" data-icon="lucide:skip-forward"></span>
+              <span>SKIP REST</span>
+            </button>
           </div>
         </template>
 
