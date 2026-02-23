@@ -1,0 +1,58 @@
+{
+  "id": "daily-mobility",
+  "name": "Daily Mobility (10 Min)",
+  "description": "Quick daily floor routine to do every morning or before any workout. Core activation, hip mobility, spine health. Light enough to do 7 days a week without affecting recovery. Just a mat and 10 minutes.",
+  "routineId": "morning",
+  "tags": ["morning", "floor", "mobility", "core", "home", "daily", "warmup", "gentle"],
+  "estimatedDuration": 10,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "spine",
+      "name": "Wake Up the Spine",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Slow, breathe into it. Exhale on cat, inhale on cow." },
+        { "id": "dead-bug", "reps": "5 each", "notes": "Opposite arm/leg. Keep lower back pressed into floor." },
+        { "id": "bird-dog", "reps": "5 each", "notes": "Extend opposite arm/leg, hold 2 seconds, squeeze glute." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "hips",
+      "name": "Open the Hips",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "hip-flexor-lunge-stretch", "duration": 30, "notes": "30s each side. Push hips forward gently." },
+        { "id": "active-pigeon", "duration": 30, "notes": "30s each side. Rock gently into it if tight." },
+        { "id": "squat-to-stand", "reps": 5, "notes": "Touch toes, grab ankles, drop into deep squat, stand. Repeat." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "activate",
+      "name": "Activate",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "glute-bridge", "reps": 10, "notes": "Squeeze hard at top, 2 second hold" },
+        { "id": "plank", "duration": 30, "notes": "Tight everything. Squeeze glutes, brace core." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Do this every day — it won't affect recovery from the main program",
+    "On gym days, this doubles as your pre-workout warmup",
+    "On rest days, this keeps you moving without taxing anything",
+    "Total: ~10 min. No excuses.",
+    "If you're tight somewhere, spend an extra 30s on that stretch",
+    "Don't do heavy core (ab wheel, weighted crunches) before a squat or deadlift day — this is light enough to be fine"
+  ]
+}

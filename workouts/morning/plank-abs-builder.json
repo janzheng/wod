@@ -1,0 +1,54 @@
+{
+  "id": "plank-abs-builder",
+  "name": "Plank-Based Abs Builder Circuit",
+  "description": "A fast and intense circuit of plank variations designed to build strong, defined abs by targeting core stability and strength.",
+  "routineId": "morning",
+  "tags": ["morning", "core", "abs", "on-hands", "floor", "calisthenics", "bodyweight", "circuit", "plank-variation"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight"],
+  "difficulty": "intermediate",
+  "source": "@_fitnesshub",
+  "sourceUrl": "https://x.com/_fitnesshub/status/2025131203527946637",
+  "sets": [
+    {
+      "type": "circuit",
+      "rounds": 3,
+      "rest": 60,
+      "activities": [
+        {
+          "exerciseId": "plank-arm-reach",
+          "reps": 10,
+          "notes": "Reach forward to keep your body aligned. If you're shaking, that's your core working."
+        },
+        {
+          "exerciseId": "plank-bird-dog",
+          "reps": 10,
+          "notes": "Crunch tight through the core. Alternate sides, avoid rotating hips."
+        },
+        {
+          "exerciseId": "plank-leg-raise",
+          "reps": 10,
+          "notes": "Stay strong through the motions. Squeeze glutes and core to prevent sagging."
+        },
+        {
+          "exerciseId": "low-plank-tuck-explode",
+          "reps": 10,
+          "notes": "Finish with power. Squeeze your core at the top for maximum engagement."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Perform exercises consecutively with minimal rest between them",
+    "60 seconds rest between rounds",
+    "Focus on form and core engagement over speed"
+  ],
+  "media": [
+    {
+      "type": "link",
+      "value": "https://x.com/_fitnesshub/status/2025131203527946637",
+      "source": "@_fitnesshub",
+      "caption": "Plank-Based Abs Builder Circuit"
+    }
+  ]
+}

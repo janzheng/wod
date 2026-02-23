@@ -1,0 +1,68 @@
+{
+  "id": "30-min-hiit-home-vs-gym",
+  "name": "30 Min HIIT: Home vs Gym",
+  "description": "6-exercise HIIT circuit from @Selfdefencess with bodyweight home variations and weighted gym alternatives. Each exercise has a floor/bodyweight option and a dumbbell/kettlebell option. Pick one column or mix and match based on your equipment.",
+  "routineId": "gym",
+  "tags": ["hiit", "cardio", "circuit", "full-body", "home", "gym", "intermediate", "compound"],
+  "estimatedDuration": 30,
+  "equipment": ["bodyweight", "dumbbell", "kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@Selfdefencess",
+  "sourceUrl": "https://x.com/selfdefencess/status/2025207177406013946",
+  "sets": [
+    {
+      "id": "home-circuit",
+      "name": "Home (Bodyweight) Circuit",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "jump-lunge", "duration": 45, "notes": "Explosive alternating jump lunges. Land softly, keep torso upright." },
+        { "id": "squat-jack", "duration": 45, "notes": "Jump feet wide into squat, jump back to standing. Maintain squat depth." },
+        { "id": "wide-to-narrow-push-up", "duration": 45, "notes": "Alternate wide and narrow hand placement each rep." },
+        { "id": "mountain-climber", "duration": 45, "notes": "Fast pace, hips low, drive knees to chest." },
+        { "id": "plank-walkout", "duration": 45, "notes": "Hinge forward, walk hands out to plank, walk back to standing." },
+        { "id": "burpee", "duration": 45, "notes": "Full burpee with push-up. Step instead of jump to scale down." }
+      ],
+      "restBetween": 20,
+      "restAfter": 60
+    },
+    {
+      "id": "gym-circuit",
+      "name": "Gym (Weighted) Circuit",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "twisting-lunge", "duration": 45, "notes": "Alternating weighted lunges with torso rotation. Hold dumbbell at chest." },
+        { "id": "squat-front-raise", "duration": 45, "notes": "Squat with dumbbell front raise on the way up to shoulder height." },
+        { "id": "standing-upward-fly", "duration": 45, "notes": "Raise dumbbells out and up in a wide arc. Squeeze at the top." },
+        { "id": "weighted-crunch", "duration": 45, "notes": "Hold weight across chest. Lift shoulders, squeeze abs at top." },
+        { "id": "kettlebell-swing", "duration": 45, "notes": "Explosive hip hinge. Swing to chest height with straight arms." },
+        { "id": "weighted-burpee", "duration": 45, "notes": "Burpee holding dumbbells. Add a push-up row and clean & press at top." }
+      ],
+      "restBetween": 20,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "From @Selfdefencess — choose home OR gym circuit, or mix exercises from both",
+    "45 seconds work / 20 seconds rest per exercise, 60 seconds rest between rounds",
+    "4 rounds total fits into 30 minutes",
+    "Home circuit is pure bodyweight — no equipment needed",
+    "Gym circuit uses dumbbells and a kettlebell for added resistance",
+    "Scale down: reduce to 3 rounds or 30-second work intervals"
+  ],
+  "media": [
+    {
+      "type": "link",
+      "value": "https://x.com/selfdefencess/status/2025207177406013946",
+      "source": "@Selfdefencess",
+      "caption": "30 Minute HIIT: Home vs Gym variations"
+    }
+  ],
+  "raw": {
+    "transcript": "",
+    "caption": "Add this exercise in your daily routine",
+    "textOverlays": ["Home 30 min vs Gym", "Jumping Lunges", "Alternating weighted lunges", "Alternating twisting lunges", "Squat Jacks", "Squat front raises", "Wide to narrow push up", "Standing upward fly", "Mountain Climbers", "Weighted crunches", "Plank walk outs", "Kettlebell swings", "Squat burpee", "Weighted burpee"],
+    "visualSummary": "Side-by-side video demonstrations of home bodyweight exercises and gym weighted alternatives cycling through lunges, squat jacks, push-ups, mountain climbers, plank walkouts, and burpees in a fast-paced HIIT format."
+  }
+}

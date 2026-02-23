@@ -1,0 +1,64 @@
+{
+  "id": "push-up-variations-workout",
+  "name": "Push-Up Variations Workout",
+  "type": "calisthenics",
+  "source": {
+    "platform": "twitter",
+    "url": "https://x.com/fitnesswork_out/status/2025155229617131647",
+    "creator": "@fitnesswork_out",
+    "capturedAt": "2026-02-22"
+  },
+  "tags": ["floor", "on-hands", "upper-body", "push", "compound", "calisthenics", "push-up-variation", "circuit", "dynamic", "snippet"],
+  "equipment": ["bodyweight"],
+  "muscles": ["chest", "shoulders", "triceps", "core"],
+  "difficulty": "intermediate",
+  "estimatedDuration": 15,
+  "description": "A bodyweight push-up workout with 4 variations, progressing from commando push-ups to explosive and hand-reach variations, finishing with close-to-wide repositioning.",
+  "exercises": [
+    {
+      "name": "Commando Push-up",
+      "reps": 20,
+      "duration": null,
+      "description": "From push-up position, lower one arm to elbow, then the other, then push back up one arm at a time. Alternate which arm leads.",
+      "notes": "2 sets. Keep hips square, don't rotate."
+    },
+    {
+      "name": "Explosive Commando Push-up",
+      "reps": 15,
+      "duration": null,
+      "description": "From push-up position, drop both arms to elbows simultaneously, then explosively push back up to hands, leaving the ground.",
+      "notes": "2 sets. Land soft, absorb impact."
+    },
+    {
+      "name": "Push-up Hand Reach",
+      "reps": 15,
+      "duration": null,
+      "description": "Lower into push-up. At the bottom, alternate reaching both hands out in front above your head, bring them back, then push up.",
+      "notes": "2 sets. Both hands tap forward before pushing up."
+    },
+    {
+      "name": "Close-to-Wide Push-up",
+      "reps": 15,
+      "duration": null,
+      "description": "Alternate between close-grip and wide-grip push-ups, lifting hands off the ground to reposition between each rep.",
+      "notes": "2 sets. Explosive hand repositioning."
+    }
+  ],
+  "circuit": {
+    "rounds": 2,
+    "repsPerExercise": null,
+    "restBetweenExercises": 0,
+    "restBetweenRounds": 60,
+    "notes": "4 exercises, 2 sets each with varying reps (20, 15, 15, 15). Rest times not specified."
+  },
+  "raw": {
+    "transcript": "",
+    "caption": "Pushp workout....",
+    "textOverlays": ["2x20", "2x15", "2x15", "2x15"],
+    "visualSummary": "A man in camo performs 4 push-up variations: alternating elbow drops, explosive double elbow drops, hand reaches at the bottom, and close-to-wide hand repositioning."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": ["No rest times provided between exercises or sets."]
+  }
+}

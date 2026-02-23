@@ -1,0 +1,112 @@
+{
+  "id": "functional-bulk-6x",
+  "name": "Functional Bulk (6x/Week Hybrid)",
+  "description": "Hybrid program for getting functionally large: 3 heavy gym days (Push/Pull/Legs) for size and strength, 2 kettlebell + conditioning days for work capacity and fun, plus an optional Zone 2 day. Alternates between full gym and apartment gym so you never do the same thing two days in a row. The 12-min run to the gym is your built-in Zone 2.",
+  "creator": "Custom",
+  "frequency": 6,
+  "phase": "hypertrophy",
+  "difficulty": "intermediate",
+  "equipment": ["barbell", "dumbbell", "cable", "machine", "smith-machine", "bench", "kettlebell", "pull-up-bar"],
+  "tags": ["6-day", "hybrid", "gym", "kettlebell", "conditioning", "ppl", "hypertrophy", "functional"],
+  "schedule": [
+    {
+      "day": 1,
+      "label": "PUSH",
+      "type": "workout",
+      "workoutId": "ppl-push"
+    },
+    {
+      "day": 2,
+      "label": "KB FULL BODY",
+      "type": "workout",
+      "workoutId": "kb-full-body-shred"
+    },
+    {
+      "day": 3,
+      "label": "PULL",
+      "type": "workout",
+      "workoutId": "ppl-pull"
+    },
+    {
+      "day": 4,
+      "label": "KB CONDITIONING",
+      "type": "workout",
+      "workoutId": "kb-conditioning-blast"
+    },
+    {
+      "day": 5,
+      "label": "LEGS",
+      "type": "workout",
+      "workoutId": "ppl-legs"
+    },
+    {
+      "day": 6,
+      "label": "ZONE 2 / OPTIONAL",
+      "type": "choice",
+      "options": [
+        {
+          "label": "Stairmaster",
+          "type": "activity",
+          "activity": {
+            "name": "Stairmaster Zone 2",
+            "duration": 30,
+            "intensity": "easy",
+            "notes": "Steady climb, 120-140bpm. Conversational pace. Great for legs without the impact."
+          }
+        },
+        {
+          "label": "Rowing",
+          "type": "activity",
+          "activity": {
+            "name": "Steady State Row",
+            "duration": 30,
+            "intensity": "easy",
+            "notes": "20-22 strokes/min, 120-140bpm. Focus on leg drive and smooth recovery."
+          }
+        },
+        {
+          "label": "Run",
+          "type": "activity",
+          "activity": {
+            "name": "Easy Run",
+            "duration": 30,
+            "intensity": "easy",
+            "notes": "Conversational pace, 120-140bpm. Can do this outdoors for a change of scenery."
+          }
+        },
+        {
+          "label": "Assault Treadmill",
+          "type": "activity",
+          "activity": {
+            "name": "Assault Treadmill Intervals",
+            "duration": 15,
+            "intensity": "intervals",
+            "notes": "Not Zone 2 — this is Zone 5 fun. 30s sprint / 30s rest × 8 rounds. Do this if you're feeling fired up."
+          }
+        },
+        {
+          "label": "Rest",
+          "type": "rest"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "label": "REST",
+      "type": "rest"
+    }
+  ],
+  "tips": [
+    "Gym days (Push/Pull/Legs) are for building size — go heavy, rest 2-3 min between sets",
+    "KB days are for conditioning and fun — lighter weight, keep moving, build work capacity",
+    "The 12-min run to/from the full gym = 72 min/week of Zone 2 for free",
+    "Day 2 (KB Shred) is structured strength; Day 4 (KB Blast) is fast conditioning — different stimulus",
+    "Day 6 is truly optional — rest if you're beat, assault tread if you're fired up",
+    "Pair the KB Conditioning Blast with 15 min on the assault treadmill or stairmaster for a complete session",
+    "For the Functional Bulk goal: eat in a slight surplus, prioritize protein, sleep 7-8 hours",
+    "Progress the gym lifts weekly (more weight or reps), progress KB by adding rounds or going heavier",
+    "This is meant to be sustainable — if you're consistently exhausted, take Day 6 as rest",
+    "Do the Daily Mobility (10 min) every morning — cat-cow, dead bugs, bird dogs, hip openers, plank. Won't affect recovery. Doubles as a warmup on training days."
+  ],
+  "restGuidelines": "Gym days: 2-3 min between working sets. KB days: minimal rest within circuits, 45-60s between rounds. Zone 2: keep HR 120-140bpm."
+}

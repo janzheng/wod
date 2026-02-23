@@ -1,0 +1,49 @@
+{
+  "id": "martial-arts-strength-mobility-agility",
+  "name": "Martial Arts-Inspired Strength, Mobility & Agility Circuit",
+  "description": "A bodyweight circuit of three martial arts-inspired exercises targeting strength, mobility, and agility, performed for 3 sets with minimal rest.",
+  "routineId": "morning",
+  "tags": ["morning", "floor", "on-hands", "standing", "full-body", "dynamic", "circuit", "calisthenics", "mobility", "martial-arts", "agility"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "intermediate",
+  "source": "@sculptherbody",
+  "sourceUrl": "https://x.com/sculptherbody/status/2025533634589917569",
+  "sets": [
+    {
+      "type": "circuit",
+      "rounds": 3,
+      "rest": 0,
+      "activities": [
+        {
+          "exerciseId": "alligator-push-up",
+          "reps": 8,
+          "notes": "Keep core engaged, maintain straight body line. 8-10 reps total."
+        },
+        {
+          "exerciseId": "kick-through-to-fighters-stance",
+          "reps": 10,
+          "notes": "Focus on smooth rotation and balance. 10 reps total, alternating sides."
+        },
+        {
+          "exerciseId": "switch-stance-sprawl",
+          "duration": 30,
+          "notes": "Drive hips back in sprawl, land softly. Work for 30 seconds continuously."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Perform exercises back-to-back with minimal rest",
+    "Complete 3 full rounds",
+    "Focus on controlled movement quality over speed"
+  ],
+  "media": [
+    {
+      "type": "link",
+      "value": "https://x.com/sculptherbody/status/2025533634589917569",
+      "source": "@sculptherbody",
+      "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
+    }
+  ]
+}

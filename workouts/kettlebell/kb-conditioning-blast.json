@@ -1,0 +1,57 @@
+{
+  "id": "kb-conditioning-blast",
+  "name": "KB Conditioning Blast",
+  "description": "Fast-paced kettlebell conditioning circuit. Swings, cleans, snatches, and thrusters in a short, brutal format. Designed to pair with cardio equipment (assault treadmill, stairmaster, or rower) for a complete 30-min conditioning session. Different from the KB Full Body Shred — this is speed and gas tank, not structured strength.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "conditioning", "hiit", "cardio"],
+  "estimatedDuration": 15,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Quick Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen up fast" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings to prime the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "complex",
+      "name": "KB Complex",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Two-handed, explosive" },
+        { "id": "kettlebell-clean-and-press", "reps": "5 each", "notes": "Clean to rack, strict press, switch sides" },
+        { "id": "kettlebell-thruster", "reps": 8, "notes": "Squat to press in one fluid motion" },
+        { "id": "kettlebell-swing-snatch", "reps": "5 each", "notes": "Full power, punch through at the top" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "flow-combos",
+      "name": "Flow Combos (Legs + Upper)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-halo-to-reverse-lunge", "reps": "5 each leg", "notes": "Halo one direction, lunge, halo other direction, lunge other leg" },
+        { "id": "kettlebell-figure-8-to-reverse-lunge", "reps": "5 each leg", "notes": "Figure-8 pass then step back into lunge. Alternate legs." }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "This is meant to be fast — minimal rest between exercises, 45s between rounds",
+    "Use a lighter bell than your strength days. This is conditioning, not max effort.",
+    "Pair with 15 min on assault treadmill, stairmaster, or rower for a complete session",
+    "The complex hits every movement pattern: hinge, push, squat, pull",
+    "If snatches aren't in your toolbox yet, sub high pulls or more clean-and-presses"
+  ]
+}

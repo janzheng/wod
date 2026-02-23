@@ -1,0 +1,37 @@
+{
+  "id": "kb-overhead-halo-pyramid",
+  "name": "KB Overhead Extension to Halo Pyramid",
+  "description": "Pyramid-style kettlebell shoulder burnout: overhead tricep extension into a halo, adding one rep each round and switching halo direction. Great as a warm-up or finisher. Use a LIGHT bell — the overhead-to-halo transition can stress the rotator cuff if you go too heavy or too fast.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "shoulders", "triceps", "upper-body", "finisher", "snippet", "mobility"],
+  "estimatedDuration": 8,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@wealthmail",
+  "sourceUrl": "https://x.com/wealthmail/status/2025450838164947031",
+  "sets": [
+    {
+      "id": "pyramid",
+      "name": "Overhead Extension + Halo Pyramid",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-overhead-extension-to-halo", "reps": 1, "notes": "1 extension + 1 halo (clockwise)" },
+        { "id": "kettlebell-overhead-extension-to-halo", "reps": 2, "notes": "2 extensions + 2 halos (counter-clockwise)" },
+        { "id": "kettlebell-overhead-extension-to-halo", "reps": 3, "notes": "3 extensions + 3 halos (clockwise)" },
+        { "id": "kettlebell-overhead-extension-to-halo", "reps": 4, "notes": "4 extensions + 4 halos (counter-clockwise)" },
+        { "id": "kettlebell-overhead-extension-to-halo", "reps": 5, "notes": "5 extensions + 5 halos (clockwise)" }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Use a LIGHT kettlebell — this is shoulder mobility work, not a strength test",
+    "Go slow and controlled through the overhead-to-halo transition",
+    "Switch halo direction each round of the pyramid",
+    "Original video says 'do it until you can't' — 5 rounds is plenty, go higher if you want",
+    "Skip this if you have shoulder or rotator cuff issues",
+    "Works great as: warm-up before push day, finisher after upper body, or quick standalone KB session"
+  ]
+}

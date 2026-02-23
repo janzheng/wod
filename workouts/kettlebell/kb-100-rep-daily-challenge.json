@@ -1,7 +1,7 @@
 {
   "id": "kb-100-rep-daily-challenge",
   "name": "100 Rep Daily KB Challenge (@gymfiesta)",
-  "description": "100 reps of 6 kettlebell exercises — around-the-body passes, side swings, upright rows, swings, tricep extensions, and bent-over horn rows. Do it daily with a light bell. High volume, full body, posture and conditioning focused.",
+  "description": "100 reps of 6 kettlebell exercises — around-the-body passes, side swings, upright rows, swings, tricep extensions, and bent-over horn rows. Each block has randomized variants so it stays fresh daily. Do it with a light bell. High volume, full body, posture and conditioning focused.",
   "routineId": "kettlebell",
   "tags": ["kettlebell", "full-body", "challenge", "high-volume", "conditioning", "daily"],
   "estimatedDuration": 30,
@@ -12,9 +12,26 @@
   "sets": [
     {
       "id": "core-stability",
-      "name": "Core Stability: Around-the-Body Pass",
+      "name": "Core Stability",
       "type": "exercises",
       "rounds": 4,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "core-figure-8",
+          "name": "Core: Figure 8s",
+          "exercises": [
+            { "id": "kettlebell-figure-8", "reps": 25, "notes": "Stay low in a wide stance, pass the bell in a figure-8 between legs. 4x25 = 100 total." }
+          ]
+        },
+        {
+          "id": "core-halo",
+          "name": "Core: Halos",
+          "exercises": [
+            { "id": "kettlebell-halo", "reps": 25, "notes": "Circle the bell around your head. Alternate directions each set. 4x25 = 100 total." }
+          ]
+        }
+      ],
       "exercises": [
         { "id": "kettlebell-around-body-pass", "reps": 25, "notes": "Pass KB around your hips/body. Alternate directions. 4x25 = 100 total." }
       ],
@@ -23,9 +40,26 @@
     },
     {
       "id": "obliques",
-      "name": "Obliques: Side Swings",
+      "name": "Obliques",
       "type": "exercises",
       "rounds": 4,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "obliques-russian-twist",
+          "name": "Obliques: Russian Twists",
+          "exercises": [
+            { "id": "kettlebell-russian-twist", "reps": 25, "notes": "Seated, feet up, rotate side to side with the bell. 4x25 = 100 total." }
+          ]
+        },
+        {
+          "id": "obliques-side-bend",
+          "name": "Obliques: Side Bends",
+          "exercises": [
+            { "id": "kettlebell-side-bend", "reps": "25 each side", "notes": "Hold bell in one hand, side bend away then back. Switch sides each set. 4x25 = 100 total." }
+          ]
+        }
+      ],
       "exercises": [
         { "id": "kettlebell-side-swing", "reps": 25, "notes": "Side-to-side swings across the body. 4x25 = 100 total. Use core rotation." }
       ],
@@ -34,9 +68,26 @@
     },
     {
       "id": "shoulders",
-      "name": "Shoulders: Upright Rows",
+      "name": "Shoulders",
       "type": "exercises",
       "rounds": 4,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "shoulders-high-pull",
+          "name": "Shoulders: High Pulls",
+          "exercises": [
+            { "id": "kettlebell-high-pull", "reps": 25, "notes": "Explosive hip snap, pull bell to chin height. 4x25 = 100 total." }
+          ]
+        },
+        {
+          "id": "shoulders-halo",
+          "name": "Shoulders: Halos",
+          "exercises": [
+            { "id": "kettlebell-halo", "reps": 25, "notes": "Slow controlled circles around head. Great for shoulder mobility. 4x25 = 100 total." }
+          ]
+        }
+      ],
       "exercises": [
         { "id": "kettlebell-upright-row", "reps": 25, "notes": "Strict pull — elbows high, shrug at top, no hip snap. 4x25 = 100 total." }
       ],
@@ -45,9 +96,33 @@
     },
     {
       "id": "glutes",
-      "name": "Glutes: Swings",
+      "name": "Glutes & Legs",
       "type": "exercises",
       "rounds": 4,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "glutes-rdl",
+          "name": "Glutes: KB Romanian Deadlifts",
+          "exercises": [
+            { "id": "kettlebell-romanian-deadlift", "reps": 25, "notes": "Slow hinge, feel the hamstring stretch, squeeze glutes at top. 4x25 = 100 total." }
+          ]
+        },
+        {
+          "id": "glutes-sumo-deadlift",
+          "name": "Glutes: KB Sumo Deadlifts",
+          "exercises": [
+            { "id": "kettlebell-sumo-deadlift", "reps": 25, "notes": "Wide stance, toes out, hinge to grab bell, drive through heels. 4x25 = 100 total." }
+          ]
+        },
+        {
+          "id": "glutes-goblet-squat",
+          "name": "Glutes: Goblet Squats",
+          "exercises": [
+            { "id": "kettlebell-goblet-squat", "reps": 25, "notes": "Full depth, chest up. Light bell, high reps — legs and glutes. 4x25 = 100 total." }
+          ]
+        }
+      ],
       "exercises": [
         { "id": "kettlebell-swing", "reps": 25, "notes": "Standard two-handed swings. Squeeze glutes hard at top. 4x25 = 100 total." }
       ],
@@ -56,9 +131,26 @@
     },
     {
       "id": "arms",
-      "name": "Arms: Tricep Extensions",
+      "name": "Arms",
       "type": "exercises",
       "rounds": 4,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "arms-overhead-halo",
+          "name": "Arms: Overhead Extension to Halo",
+          "exercises": [
+            { "id": "kettlebell-overhead-extension-to-halo", "reps": 25, "notes": "Tricep extension then circle into a halo. Smooth transitions. 4x25 = 100 total." }
+          ]
+        },
+        {
+          "id": "arms-floor-press",
+          "name": "Arms: Floor Press",
+          "exercises": [
+            { "id": "kettlebell-floor-press", "reps": "25 each", "notes": "Lie on floor, press bell up. Alternate arms each set. 4x25 = 100 total." }
+          ]
+        }
+      ],
       "exercises": [
         { "id": "kettlebell-triceps-extension", "reps": 25, "notes": "Hold by horns overhead, lower behind head, extend. Elbows stay close. 4x25 = 100 total." }
       ],
@@ -67,9 +159,26 @@
     },
     {
       "id": "back",
-      "name": "Back: Bent-Over Horn Rows",
+      "name": "Back",
       "type": "exercises",
       "rounds": 4,
+      "fixedVariantChance": 0.4,
+      "fixedVariants": [
+        {
+          "id": "back-gorilla-row",
+          "name": "Back: Gorilla Rows",
+          "exercises": [
+            { "id": "gorilla-row", "reps": 25, "notes": "Two KBs on floor, hinged over, alternating explosive rows. Anti-rotation. 4x25 = 100 total." }
+          ]
+        },
+        {
+          "id": "back-alternating-row",
+          "name": "Back: Alternating Bent-Over Rows",
+          "exercises": [
+            { "id": "kettlebell-alternating-bent-over-row", "reps": 25, "notes": "Hinged, one bell, alternate arms each rep. Pull past ribs. 4x25 = 100 total." }
+          ]
+        }
+      ],
       "exercises": [
         { "id": "kettlebell-bent-over-horn-row", "reps": 25, "notes": "Both hands on horns, bent over, row to hips and extend. 4x25 = 100 total." }
       ],
@@ -79,9 +188,11 @@
   ],
   "tips": [
     "Use a LIGHT kettlebell — this is 600 total reps",
+    "Each block has a 40% chance to swap in a different exercise — keeps it fresh daily",
     "Break each 100 into 4x25 or 5x20 as needed",
     "Designed to be done daily — not a max effort session",
     "Focus on form over speed at this volume",
-    "Credit: @gymfiesta"
+    "Gorilla rows need 2 bells — sub alternating rows if you only have one",
+    "Credit: @gymfiesta (base workout), variants added for daily variety"
   ]
 }
