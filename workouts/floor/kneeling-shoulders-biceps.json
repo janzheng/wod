@@ -1,0 +1,54 @@
+{
+  "id": "kneeling-shoulders-biceps",
+  "name": "Kneeling Dumbbell Shoulders & Biceps Circuit",
+  "description": "A dumbbell circuit targeting shoulders and biceps, performed kneeling to engage core stability. Includes curl and press variations for upper body strength.",
+  "routineId": "floor",
+  "tags": ["floor", "upper-body", "shoulders", "circuit", "weighted", "kneeling"],
+  "estimatedDuration": 25,
+  "equipment": ["dumbbell", "mat"],
+  "difficulty": "intermediate",
+  "source": "@powerbrutehq",
+  "sourceUrl": "https://x.com/powerbrutehq/status/2025089437202338284",
+  "sets": [
+    {
+      "type": "circuit",
+      "rounds": 3,
+      "rest": 60,
+      "activities": [
+        {
+          "exerciseId": "kneeling-hammer-curl-to-press-out",
+          "reps": 10,
+          "notes": "Nice and low down, a lot of tension. Brace the rib cage."
+        },
+        {
+          "exerciseId": "kneeling-curl-reverse-grip-press",
+          "reps": 10,
+          "notes": "Drive the knees, think of the grip of the elbow."
+        },
+        {
+          "exerciseId": "kneeling-cross-body-external-rotation",
+          "reps": 10,
+          "notes": "Palms towards up, full external rotation, proud chest. Each side."
+        },
+        {
+          "exerciseId": "kneeling-wide-hammer-y-press",
+          "reps": 10,
+          "notes": "Pressing away, back and return. Focus on top ends of front delts."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "All exercises performed kneeling on a mat",
+    "Brace core and rib cage throughout",
+    "3 sets of 10 reps per exercise"
+  ],
+  "media": [
+    {
+      "type": "link",
+      "value": "https://x.com/powerbrutehq/status/2025089437202338284",
+      "source": "@powerbrutehq",
+      "caption": "Shoulders and Biceps Dumbbell Workout"
+    }
+  ]
+}

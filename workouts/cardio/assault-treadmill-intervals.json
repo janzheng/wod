@@ -1,0 +1,52 @@
+{
+  "id": "assault-treadmill-intervals",
+  "name": "Assault Treadmill Intervals",
+  "description": "High-intensity sprint intervals on an assault/curved treadmill. Self-powered = no buttons, just go. ~15 minutes of pure work capacity and mental toughness.",
+  "routineId": "cardio",
+  "tags": ["cardio", "hiit", "intervals", "conditioning", "sprint"],
+  "estimatedDuration": 15,
+  "equipment": [],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup Jog",
+      "type": "activity",
+      "activity": {
+        "name": "Easy Jog",
+        "duration": 2,
+        "intensity": "easy",
+        "notes": "Find your rhythm, gradually increase pace"
+      }
+    },
+    {
+      "id": "intervals",
+      "name": "Sprint Intervals",
+      "type": "exercises",
+      "rounds": 8,
+      "exercises": [
+        { "id": "sprint", "name": "All-Out Sprint", "duration": 30, "notes": "Max effort — drive with arms and legs" },
+        { "id": "recover", "name": "Walk/Slow Jog", "duration": 30, "notes": "Recover, catch your breath" }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "activity",
+      "activity": {
+        "name": "Easy Walk",
+        "duration": 2,
+        "intensity": "easy",
+        "notes": "Walk it off, let heart rate come down"
+      }
+    }
+  ],
+  "tips": [
+    "The curved treadmill is self-powered — the harder you push, the faster it goes",
+    "30s on / 30s off is a starting point — go 20s/40s if you're dying, or 40s/20s if you're a monster",
+    "8 rounds = 8 minutes of actual sprinting, which is plenty",
+    "Great paired with a KB session or as a standalone conditioning day"
+  ]
+}

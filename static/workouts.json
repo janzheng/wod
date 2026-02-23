@@ -2874,6 +2874,75 @@
     "category": "calisthenics"
   },
   {
+    "id": "assault-treadmill-intervals",
+    "name": "Assault Treadmill Intervals",
+    "description": "High-intensity sprint intervals on an assault/curved treadmill. Self-powered = no buttons, just go. ~15 minutes of pure work capacity and mental toughness.",
+    "routineId": "cardio",
+    "tags": [
+      "cardio",
+      "hiit",
+      "intervals",
+      "conditioning",
+      "sprint"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup Jog",
+        "type": "activity",
+        "activity": {
+          "name": "Easy Jog",
+          "duration": 2,
+          "intensity": "easy",
+          "notes": "Find your rhythm, gradually increase pace"
+        }
+      },
+      {
+        "id": "intervals",
+        "name": "Sprint Intervals",
+        "type": "exercises",
+        "rounds": 8,
+        "exercises": [
+          {
+            "id": "sprint",
+            "name": "All-Out Sprint",
+            "duration": 30,
+            "notes": "Max effort — drive with arms and legs"
+          },
+          {
+            "id": "recover",
+            "name": "Walk/Slow Jog",
+            "duration": 30,
+            "notes": "Recover, catch your breath"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "activity",
+        "activity": {
+          "name": "Easy Walk",
+          "duration": 2,
+          "intensity": "easy",
+          "notes": "Walk it off, let heart rate come down"
+        }
+      }
+    ],
+    "tips": [
+      "The curved treadmill is self-powered — the harder you push, the faster it goes",
+      "30s on / 30s off is a starting point — go 20s/40s if you're dying, or 40s/20s if you're a monster",
+      "8 rounds = 8 minutes of actual sprinting, which is plenty",
+      "Great paired with a KB session or as a standalone conditioning day"
+    ],
+    "category": "cardio"
+  },
+  {
     "id": "erg-intervals",
     "name": "ERG Rowing Intervals",
     "description": "Rowing machine interval workout for cardio and conditioning",
@@ -4360,6 +4429,418 @@
     "category": "extracted"
   },
   {
+    "id": "close-to-wide-push-up-challenge",
+    "name": "Close-to-Wide Push Up Challenge",
+    "type": "calisthenics",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/kaylorkianna_/status/2018149620971356374",
+      "creator": "@kaylorkianna_",
+      "capturedAt": "2026-02-22"
+    },
+    "tags": [
+      "floor",
+      "on-hands",
+      "upper-body",
+      "push",
+      "calisthenics",
+      "push-up-variation",
+      "dynamic",
+      "snippet"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "difficulty": "intermediate",
+    "estimatedDuration": 15,
+    "description": "Push-up challenge alternating between close and wide grip, lifting hands off the ground to reposition between each rep.",
+    "exercises": [
+      {
+        "name": "Close-to-Wide Push-up",
+        "reps": null,
+        "duration": null,
+        "description": "Alternate between close-grip and wide-grip push-ups, hands leave the floor to reposition between each rep.",
+        "notes": "Explosive hand repositioning, maintain core tension throughout."
+      }
+    ],
+    "raw": {
+      "transcript": "",
+      "caption": "New Month, New Push Up Challenge. #militarywomen #pushups",
+      "textOverlays": [],
+      "visualSummary": "A woman in army camo performs dynamic push-ups alternating between close and wide hand positions, lifting hands off the ground to reposition between reps."
+    },
+    "confidence": {
+      "overall": "high",
+      "uncertainties": [
+        "No specific rep count provided in video or caption."
+      ]
+    },
+    "category": "extracted"
+  },
+  {
+    "id": "push-up-head-tap-demo",
+    "name": "Push-up Head Tap",
+    "type": "calisthenics",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/melaninpalace/status/2024882970662723604",
+      "creator": "@melaninpalace",
+      "capturedAt": "2026-02-22"
+    },
+    "tags": [
+      "floor",
+      "on-hands",
+      "upper-body",
+      "push",
+      "calisthenics",
+      "dynamic",
+      "compound",
+      "push-up-variation",
+      "advanced",
+      "snippet"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "difficulty": "advanced",
+    "estimatedDuration": 10,
+    "description": "Advanced push-up variation where you lower down, shift back to elbows to tap your head, then shift forward and push up.",
+    "exercises": [
+      {
+        "name": "Push-up Head Tap",
+        "reps": 10,
+        "duration": null,
+        "description": "Start in push-up position. Lower down, shift back onto elbows with hands tapping head, shift forward back to hands, push up.",
+        "notes": "Maintain controlled tempo, engage core throughout."
+      }
+    ],
+    "raw": {
+      "transcript": "",
+      "caption": "People don't understand how hard this push up is",
+      "textOverlays": [],
+      "visualSummary": "A woman in military camo performs multiple fluid reps of push-up head taps on a carpeted floor, transitioning from hands to elbows and back."
+    },
+    "confidence": {
+      "overall": "high",
+      "uncertainties": [
+        "Reps estimated as default since not specified in video."
+      ]
+    },
+    "category": "extracted"
+  },
+  {
+    "id": "push-up-variations-workout",
+    "name": "Push-Up Variations Workout",
+    "type": "calisthenics",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/fitnesswork_out/status/2025155229617131647",
+      "creator": "@fitnesswork_out",
+      "capturedAt": "2026-02-22"
+    },
+    "tags": [
+      "floor",
+      "on-hands",
+      "upper-body",
+      "push",
+      "compound",
+      "calisthenics",
+      "push-up-variation",
+      "circuit",
+      "dynamic",
+      "snippet"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "muscles": [
+      "chest",
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "difficulty": "intermediate",
+    "estimatedDuration": 15,
+    "description": "A bodyweight push-up workout with 4 variations, progressing from commando push-ups to explosive and hand-reach variations, finishing with close-to-wide repositioning.",
+    "exercises": [
+      {
+        "name": "Commando Push-up",
+        "reps": 20,
+        "duration": null,
+        "description": "From push-up position, lower one arm to elbow, then the other, then push back up one arm at a time. Alternate which arm leads.",
+        "notes": "2 sets. Keep hips square, don't rotate."
+      },
+      {
+        "name": "Explosive Commando Push-up",
+        "reps": 15,
+        "duration": null,
+        "description": "From push-up position, drop both arms to elbows simultaneously, then explosively push back up to hands, leaving the ground.",
+        "notes": "2 sets. Land soft, absorb impact."
+      },
+      {
+        "name": "Push-up Hand Reach",
+        "reps": 15,
+        "duration": null,
+        "description": "Lower into push-up. At the bottom, alternate reaching both hands out in front above your head, bring them back, then push up.",
+        "notes": "2 sets. Both hands tap forward before pushing up."
+      },
+      {
+        "name": "Close-to-Wide Push-up",
+        "reps": 15,
+        "duration": null,
+        "description": "Alternate between close-grip and wide-grip push-ups, lifting hands off the ground to reposition between each rep.",
+        "notes": "2 sets. Explosive hand repositioning."
+      }
+    ],
+    "circuit": {
+      "rounds": 2,
+      "repsPerExercise": null,
+      "restBetweenExercises": 0,
+      "restBetweenRounds": 60,
+      "notes": "4 exercises, 2 sets each with varying reps (20, 15, 15, 15). Rest times not specified."
+    },
+    "raw": {
+      "transcript": "",
+      "caption": "Pushp workout....",
+      "textOverlays": [
+        "2x20",
+        "2x15",
+        "2x15",
+        "2x15"
+      ],
+      "visualSummary": "A man in camo performs 4 push-up variations: alternating elbow drops, explosive double elbow drops, hand reaches at the bottom, and close-to-wide hand repositioning."
+    },
+    "confidence": {
+      "overall": "high",
+      "uncertainties": [
+        "No rest times provided between exercises or sets."
+      ]
+    },
+    "category": "extracted"
+  },
+  {
+    "id": "kneeling-shoulders-biceps",
+    "name": "Kneeling Dumbbell Shoulders & Biceps Circuit",
+    "description": "A dumbbell circuit targeting shoulders and biceps, performed kneeling to engage core stability. Includes curl and press variations for upper body strength.",
+    "routineId": "floor",
+    "tags": [
+      "floor",
+      "upper-body",
+      "shoulders",
+      "circuit",
+      "weighted",
+      "kneeling"
+    ],
+    "estimatedDuration": 25,
+    "equipment": [
+      "dumbbell",
+      "mat"
+    ],
+    "difficulty": "intermediate",
+    "source": "@powerbrutehq",
+    "sourceUrl": "https://x.com/powerbrutehq/status/2025089437202338284",
+    "sets": [
+      {
+        "type": "circuit",
+        "rounds": 3,
+        "rest": 60,
+        "activities": [
+          {
+            "exerciseId": "kneeling-hammer-curl-to-press-out",
+            "reps": 10,
+            "notes": "Nice and low down, a lot of tension. Brace the rib cage."
+          },
+          {
+            "exerciseId": "kneeling-curl-reverse-grip-press",
+            "reps": 10,
+            "notes": "Drive the knees, think of the grip of the elbow."
+          },
+          {
+            "exerciseId": "kneeling-cross-body-external-rotation",
+            "reps": 10,
+            "notes": "Palms towards up, full external rotation, proud chest. Each side."
+          },
+          {
+            "exerciseId": "kneeling-wide-hammer-y-press",
+            "reps": 10,
+            "notes": "Pressing away, back and return. Focus on top ends of front delts."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "All exercises performed kneeling on a mat",
+      "Brace core and rib cage throughout",
+      "3 sets of 10 reps per exercise"
+    ],
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "source": "@powerbrutehq",
+        "caption": "Shoulders and Biceps Dumbbell Workout"
+      }
+    ],
+    "category": "floor"
+  },
+  {
+    "id": "30-min-hiit-home-vs-gym",
+    "name": "30 Min HIIT: Home vs Gym",
+    "description": "6-exercise HIIT circuit from @Selfdefencess with bodyweight home variations and weighted gym alternatives. Each exercise has a floor/bodyweight option and a dumbbell/kettlebell option. Pick one column or mix and match based on your equipment.",
+    "routineId": "gym",
+    "tags": [
+      "hiit",
+      "cardio",
+      "circuit",
+      "full-body",
+      "home",
+      "gym",
+      "intermediate",
+      "compound"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "bodyweight",
+      "dumbbell",
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "source": "@Selfdefencess",
+    "sourceUrl": "https://x.com/selfdefencess/status/2025207177406013946",
+    "sets": [
+      {
+        "id": "home-circuit",
+        "name": "Home (Bodyweight) Circuit",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "jump-lunge",
+            "duration": 45,
+            "notes": "Explosive alternating jump lunges. Land softly, keep torso upright."
+          },
+          {
+            "id": "squat-jack",
+            "duration": 45,
+            "notes": "Jump feet wide into squat, jump back to standing. Maintain squat depth."
+          },
+          {
+            "id": "wide-to-narrow-push-up",
+            "duration": 45,
+            "notes": "Alternate wide and narrow hand placement each rep."
+          },
+          {
+            "id": "mountain-climber",
+            "duration": 45,
+            "notes": "Fast pace, hips low, drive knees to chest."
+          },
+          {
+            "id": "plank-walkout",
+            "duration": 45,
+            "notes": "Hinge forward, walk hands out to plank, walk back to standing."
+          },
+          {
+            "id": "burpee",
+            "duration": 45,
+            "notes": "Full burpee with push-up. Step instead of jump to scale down."
+          }
+        ],
+        "restBetween": 20,
+        "restAfter": 60
+      },
+      {
+        "id": "gym-circuit",
+        "name": "Gym (Weighted) Circuit",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "twisting-lunge",
+            "duration": 45,
+            "notes": "Alternating weighted lunges with torso rotation. Hold dumbbell at chest."
+          },
+          {
+            "id": "squat-front-raise",
+            "duration": 45,
+            "notes": "Squat with dumbbell front raise on the way up to shoulder height."
+          },
+          {
+            "id": "standing-upward-fly",
+            "duration": 45,
+            "notes": "Raise dumbbells out and up in a wide arc. Squeeze at the top."
+          },
+          {
+            "id": "weighted-crunch",
+            "duration": 45,
+            "notes": "Hold weight across chest. Lift shoulders, squeeze abs at top."
+          },
+          {
+            "id": "kettlebell-swing",
+            "duration": 45,
+            "notes": "Explosive hip hinge. Swing to chest height with straight arms."
+          },
+          {
+            "id": "weighted-burpee",
+            "duration": 45,
+            "notes": "Burpee holding dumbbells. Add a push-up row and clean & press at top."
+          }
+        ],
+        "restBetween": 20,
+        "restAfter": 60
+      }
+    ],
+    "tips": [
+      "From @Selfdefencess — choose home OR gym circuit, or mix exercises from both",
+      "45 seconds work / 20 seconds rest per exercise, 60 seconds rest between rounds",
+      "4 rounds total fits into 30 minutes",
+      "Home circuit is pure bodyweight — no equipment needed",
+      "Gym circuit uses dumbbells and a kettlebell for added resistance",
+      "Scale down: reduce to 3 rounds or 30-second work intervals"
+    ],
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/selfdefencess/status/2025207177406013946",
+        "source": "@Selfdefencess",
+        "caption": "30 Minute HIIT: Home vs Gym variations"
+      }
+    ],
+    "raw": {
+      "transcript": "",
+      "caption": "Add this exercise in your daily routine",
+      "textOverlays": [
+        "Home 30 min vs Gym",
+        "Jumping Lunges",
+        "Alternating weighted lunges",
+        "Alternating twisting lunges",
+        "Squat Jacks",
+        "Squat front raises",
+        "Wide to narrow push up",
+        "Standing upward fly",
+        "Mountain Climbers",
+        "Weighted crunches",
+        "Plank walk outs",
+        "Kettlebell swings",
+        "Squat burpee",
+        "Weighted burpee"
+      ],
+      "visualSummary": "Side-by-side video demonstrations of home bodyweight exercises and gym weighted alternatives cycling through lunges, squat jacks, push-ups, mountain climbers, plank walkouts, and burpees in a fast-paced HIIT format."
+    },
+    "category": "gym"
+  },
+  {
     "id": "4x4x3-block",
     "name": "4x4x3 Floor & Bench",
     "description": "Classic block training: 4 blocks of 4 exercises, 3 rounds each. Uses dumbbells, kettlebells, and barbells on floor and bench.",
@@ -5195,6 +5676,107 @@
       "Block 2 combines pressing, pushing, and pulling movements",
       "This is a fixed sequence - no randomization",
       "Focus on form and control"
+    ],
+    "category": "gym"
+  },
+  {
+    "id": "glute-compound-shred",
+    "name": "Glute Compound Shred",
+    "description": "Heavy compound glute workout from @whoisthismommy — 5 big lifts (Bulgarian split squat, RDL, hip thrust, back extension, sumo squat) followed by cable and machine accessory work. Designed to hammer glutes from every angle: unilateral, hinge, thrust, and isolation. Pairs well as a glute-focused leg day or as a standalone lower body session.",
+    "routineId": "gym",
+    "tags": [
+      "gym",
+      "lower-body",
+      "glutes",
+      "strength",
+      "intermediate",
+      "compound"
+    ],
+    "estimatedDuration": 45,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "bench",
+      "cable",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "compounds",
+        "name": "Compound Lifts",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "bulgarian-split-squat",
+            "reps": "10 each",
+            "notes": "Dumbbell in each hand or barbell. Control the descent, drive through front heel."
+          },
+          {
+            "id": "romanian-deadlift",
+            "reps": 12,
+            "notes": "Barbell or dumbbell. Slow eccentric, feel the hamstrings stretch, squeeze glutes at top."
+          },
+          {
+            "id": "hip-thrust",
+            "reps": 12,
+            "notes": "Barbell across hips. Pause and squeeze at the top for 1 second."
+          },
+          {
+            "id": "back-extension",
+            "reps": 15,
+            "notes": "Glute bias — round upper back slightly and think about squeezing glutes to lift, not lower back."
+          },
+          {
+            "id": "sumo-squat",
+            "reps": 12,
+            "notes": "Wide stance, toes out. Hold heavy dumbbell. Push knees out, sit deep."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 60
+      },
+      {
+        "id": "accessories",
+        "name": "Accessory Burnout",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "cable-glute-kickback",
+            "reps": "12 each",
+            "notes": "Squeeze at the top, control on the way back. No momentum."
+          },
+          {
+            "id": "hip-abduction-machine",
+            "reps": 15,
+            "notes": "Push knees wide, squeeze outer glutes. Slow eccentric."
+          },
+          {
+            "id": "hip-adductor-machine",
+            "reps": 15,
+            "notes": "Squeeze inner thighs together. Control on the way out."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "From @whoisthismommy — designed as a complete glute session",
+      "The 5 compound lifts hit glutes from every angle: unilateral (BSS), hinge (RDL), thrust, extension, and wide squat",
+      "Back extension glute bias: think about lifting with your glutes, not arching your lower back",
+      "Accessories are burnout — lighter weight, higher reps, chase the pump",
+      "Can replace the PPL legs day in Functional Bulk for a glute-focused week"
+    ],
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/whoisthismommy/status/2024684639382855931",
+        "source": "@whoisthismommy",
+        "caption": "5 compound glute exercises + accessories"
+      }
     ],
     "category": "gym"
   },
@@ -11673,7 +12255,7 @@
   {
     "id": "kb-100-rep-daily-challenge",
     "name": "100 Rep Daily KB Challenge (@gymfiesta)",
-    "description": "100 reps of 6 kettlebell exercises — around-the-body passes, side swings, upright rows, swings, tricep extensions, and bent-over horn rows. Do it daily with a light bell. High volume, full body, posture and conditioning focused.",
+    "description": "100 reps of 6 kettlebell exercises — around-the-body passes, side swings, upright rows, swings, tricep extensions, and bent-over horn rows. Each block has randomized variants so it stays fresh daily. Do it with a light bell. High volume, full body, posture and conditioning focused.",
     "routineId": "kettlebell",
     "tags": [
       "kettlebell",
@@ -11693,9 +12275,34 @@
     "sets": [
       {
         "id": "core-stability",
-        "name": "Core Stability: Around-the-Body Pass",
+        "name": "Core Stability",
         "type": "exercises",
         "rounds": 4,
+        "fixedVariantChance": 0.4,
+        "fixedVariants": [
+          {
+            "id": "core-figure-8",
+            "name": "Core: Figure 8s",
+            "exercises": [
+              {
+                "id": "kettlebell-figure-8",
+                "reps": 25,
+                "notes": "Stay low in a wide stance, pass the bell in a figure-8 between legs. 4x25 = 100 total."
+              }
+            ]
+          },
+          {
+            "id": "core-halo",
+            "name": "Core: Halos",
+            "exercises": [
+              {
+                "id": "kettlebell-halo",
+                "reps": 25,
+                "notes": "Circle the bell around your head. Alternate directions each set. 4x25 = 100 total."
+              }
+            ]
+          }
+        ],
         "exercises": [
           {
             "id": "kettlebell-around-body-pass",
@@ -11708,9 +12315,34 @@
       },
       {
         "id": "obliques",
-        "name": "Obliques: Side Swings",
+        "name": "Obliques",
         "type": "exercises",
         "rounds": 4,
+        "fixedVariantChance": 0.4,
+        "fixedVariants": [
+          {
+            "id": "obliques-russian-twist",
+            "name": "Obliques: Russian Twists",
+            "exercises": [
+              {
+                "id": "kettlebell-russian-twist",
+                "reps": 25,
+                "notes": "Seated, feet up, rotate side to side with the bell. 4x25 = 100 total."
+              }
+            ]
+          },
+          {
+            "id": "obliques-side-bend",
+            "name": "Obliques: Side Bends",
+            "exercises": [
+              {
+                "id": "kettlebell-side-bend",
+                "reps": "25 each side",
+                "notes": "Hold bell in one hand, side bend away then back. Switch sides each set. 4x25 = 100 total."
+              }
+            ]
+          }
+        ],
         "exercises": [
           {
             "id": "kettlebell-side-swing",
@@ -11723,9 +12355,34 @@
       },
       {
         "id": "shoulders",
-        "name": "Shoulders: Upright Rows",
+        "name": "Shoulders",
         "type": "exercises",
         "rounds": 4,
+        "fixedVariantChance": 0.4,
+        "fixedVariants": [
+          {
+            "id": "shoulders-high-pull",
+            "name": "Shoulders: High Pulls",
+            "exercises": [
+              {
+                "id": "kettlebell-high-pull",
+                "reps": 25,
+                "notes": "Explosive hip snap, pull bell to chin height. 4x25 = 100 total."
+              }
+            ]
+          },
+          {
+            "id": "shoulders-halo",
+            "name": "Shoulders: Halos",
+            "exercises": [
+              {
+                "id": "kettlebell-halo",
+                "reps": 25,
+                "notes": "Slow controlled circles around head. Great for shoulder mobility. 4x25 = 100 total."
+              }
+            ]
+          }
+        ],
         "exercises": [
           {
             "id": "kettlebell-upright-row",
@@ -11738,9 +12395,45 @@
       },
       {
         "id": "glutes",
-        "name": "Glutes: Swings",
+        "name": "Glutes & Legs",
         "type": "exercises",
         "rounds": 4,
+        "fixedVariantChance": 0.4,
+        "fixedVariants": [
+          {
+            "id": "glutes-rdl",
+            "name": "Glutes: KB Romanian Deadlifts",
+            "exercises": [
+              {
+                "id": "kettlebell-romanian-deadlift",
+                "reps": 25,
+                "notes": "Slow hinge, feel the hamstring stretch, squeeze glutes at top. 4x25 = 100 total."
+              }
+            ]
+          },
+          {
+            "id": "glutes-sumo-deadlift",
+            "name": "Glutes: KB Sumo Deadlifts",
+            "exercises": [
+              {
+                "id": "kettlebell-sumo-deadlift",
+                "reps": 25,
+                "notes": "Wide stance, toes out, hinge to grab bell, drive through heels. 4x25 = 100 total."
+              }
+            ]
+          },
+          {
+            "id": "glutes-goblet-squat",
+            "name": "Glutes: Goblet Squats",
+            "exercises": [
+              {
+                "id": "kettlebell-goblet-squat",
+                "reps": 25,
+                "notes": "Full depth, chest up. Light bell, high reps — legs and glutes. 4x25 = 100 total."
+              }
+            ]
+          }
+        ],
         "exercises": [
           {
             "id": "kettlebell-swing",
@@ -11753,9 +12446,34 @@
       },
       {
         "id": "arms",
-        "name": "Arms: Tricep Extensions",
+        "name": "Arms",
         "type": "exercises",
         "rounds": 4,
+        "fixedVariantChance": 0.4,
+        "fixedVariants": [
+          {
+            "id": "arms-overhead-halo",
+            "name": "Arms: Overhead Extension to Halo",
+            "exercises": [
+              {
+                "id": "kettlebell-overhead-extension-to-halo",
+                "reps": 25,
+                "notes": "Tricep extension then circle into a halo. Smooth transitions. 4x25 = 100 total."
+              }
+            ]
+          },
+          {
+            "id": "arms-floor-press",
+            "name": "Arms: Floor Press",
+            "exercises": [
+              {
+                "id": "kettlebell-floor-press",
+                "reps": "25 each",
+                "notes": "Lie on floor, press bell up. Alternate arms each set. 4x25 = 100 total."
+              }
+            ]
+          }
+        ],
         "exercises": [
           {
             "id": "kettlebell-triceps-extension",
@@ -11768,9 +12486,34 @@
       },
       {
         "id": "back",
-        "name": "Back: Bent-Over Horn Rows",
+        "name": "Back",
         "type": "exercises",
         "rounds": 4,
+        "fixedVariantChance": 0.4,
+        "fixedVariants": [
+          {
+            "id": "back-gorilla-row",
+            "name": "Back: Gorilla Rows",
+            "exercises": [
+              {
+                "id": "gorilla-row",
+                "reps": 25,
+                "notes": "Two KBs on floor, hinged over, alternating explosive rows. Anti-rotation. 4x25 = 100 total."
+              }
+            ]
+          },
+          {
+            "id": "back-alternating-row",
+            "name": "Back: Alternating Bent-Over Rows",
+            "exercises": [
+              {
+                "id": "kettlebell-alternating-bent-over-row",
+                "reps": 25,
+                "notes": "Hinged, one bell, alternate arms each rep. Pull past ribs. 4x25 = 100 total."
+              }
+            ]
+          }
+        ],
         "exercises": [
           {
             "id": "kettlebell-bent-over-horn-row",
@@ -11784,10 +12527,12 @@
     ],
     "tips": [
       "Use a LIGHT kettlebell — this is 600 total reps",
+      "Each block has a 40% chance to swap in a different exercise — keeps it fresh daily",
       "Break each 100 into 4x25 or 5x20 as needed",
       "Designed to be done daily — not a max effort session",
       "Focus on form over speed at this volume",
-      "Credit: @gymfiesta"
+      "Gorilla rows need 2 bells — sub alternating rows if you only have one",
+      "Credit: @gymfiesta (base workout), variants added for daily variety"
     ],
     "category": "kettlebell"
   },
@@ -12280,6 +13025,105 @@
     "category": "kettlebell"
   },
   {
+    "id": "kb-conditioning-blast",
+    "name": "KB Conditioning Blast",
+    "description": "Fast-paced kettlebell conditioning circuit. Swings, cleans, snatches, and thrusters in a short, brutal format. Designed to pair with cardio equipment (assault treadmill, stairmaster, or rower) for a complete 30-min conditioning session. Different from the KB Full Body Shred — this is speed and gas tank, not structured strength.",
+    "routineId": "kettlebell",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "circuit",
+      "conditioning",
+      "hiit",
+      "cardio"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Quick Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Loosen up fast"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings to prime the hinge"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "complex",
+        "name": "KB Complex",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Two-handed, explosive"
+          },
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "5 each",
+            "notes": "Clean to rack, strict press, switch sides"
+          },
+          {
+            "id": "kettlebell-thruster",
+            "reps": 8,
+            "notes": "Squat to press in one fluid motion"
+          },
+          {
+            "id": "kettlebell-swing-snatch",
+            "reps": "5 each",
+            "notes": "Full power, punch through at the top"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 45
+      },
+      {
+        "id": "flow-combos",
+        "name": "Flow Combos (Legs + Upper)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-halo-to-reverse-lunge",
+            "reps": "5 each leg",
+            "notes": "Halo one direction, lunge, halo other direction, lunge other leg"
+          },
+          {
+            "id": "kettlebell-figure-8-to-reverse-lunge",
+            "reps": "5 each leg",
+            "notes": "Figure-8 pass then step back into lunge. Alternate legs."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 45
+      }
+    ],
+    "tips": [
+      "This is meant to be fast — minimal rest between exercises, 45s between rounds",
+      "Use a lighter bell than your strength days. This is conditioning, not max effort.",
+      "Pair with 15 min on assault treadmill, stairmaster, or rower for a complete session",
+      "The complex hits every movement pattern: hinge, push, squat, pull",
+      "If snatches aren't in your toolbox yet, sub high pulls or more clean-and-presses"
+    ],
+    "category": "kettlebell"
+  },
+  {
     "id": "kb-core-library",
     "name": "KB Core Library (@powerbrutehq)",
     "description": "Pick-and-choose kettlebell core exercises from @powerbrutehq. Russian twists, windmills, halos, side bends, and swings. Use as a core finisher or build your own core circuit from these.",
@@ -12644,6 +13488,160 @@
       "Single bell for all exercises, switch hands as noted",
       "If using double bells, reduce reps by 30%",
       "Great for home gym or travel workouts"
+    ],
+    "category": "kettlebell"
+  },
+  {
+    "id": "kb-full-body-shred",
+    "name": "KB Full Body Shred",
+    "description": "A complete full-body kettlebell workout covering all movement patterns — squat, hinge, push, pull, unilateral, and core. Like the Reddit Recommended Routine but all kettlebell. Heavier on lower body than most KB workouts: Bulgarian splits, RDLs, and goblet squats balance out the usual swing-heavy programming. Single bell, ~40 min.",
+    "routineId": "kettlebell",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "strength",
+      "intermediate",
+      "home",
+      "gym-replacement"
+    ],
+    "estimatedDuration": 40,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light, loosen shoulders and thoracic spine"
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 5,
+            "notes": "Easy reps, find your depth"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings, groove the hinge"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "block-1-quad",
+        "name": "Block 1: Legs — Quad Dominant",
+        "type": "exercises",
+        "rounds": 3,
+        "fixedVariantChance": 0.4,
+        "fixedVariants": [
+          {
+            "id": "flow-combo-variant",
+            "name": "Flow Combos: Legs + Upper",
+            "exercises": [
+              {
+                "id": "kettlebell-halo-to-reverse-lunge",
+                "reps": "6 each leg",
+                "notes": "Halo one direction, lunge, switch direction, lunge other leg. Controlled."
+              },
+              {
+                "id": "kettlebell-figure-8-to-reverse-lunge",
+                "reps": "6 each leg",
+                "notes": "Figure-8 pass between legs, then step back into lunge. Alternate."
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 12,
+            "notes": "Full depth, chest up, elbows inside knees at the bottom"
+          },
+          {
+            "id": "bulgarian-split-squat",
+            "reps": "8 each",
+            "notes": "Hold KB goblet style at chest. Rear foot on bench/chair/couch. Control the descent."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-2-hinge",
+        "name": "Block 2: Legs — Posterior Chain",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-romanian-deadlift",
+            "reps": 10,
+            "notes": "Slow on the way down, squeeze glutes at the top. Feel the hamstrings."
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 15,
+            "notes": "Explosive hips. This is the power complement to the slow RDL."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-3-upper",
+        "name": "Block 3: Upper — Push & Pull",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "6 each",
+            "notes": "Clean to rack, strict press overhead. Alternate arms each set or do all one side then switch."
+          },
+          {
+            "id": "kettlebell-row",
+            "reps": "10 each",
+            "notes": "Hinge position, pull elbow past ribs, squeeze at top"
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-4-core",
+        "name": "Block 4: Core & Finish",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each",
+            "notes": "Slow and controlled. Eyes on the bell. This is core stability + hip mobility."
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 20,
+            "notes": "Last push — full power, empty the tank"
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      }
+    ],
+    "tips": [
+      "One kettlebell, ~40 minutes — covers every movement pattern",
+      "The Bulgarian splits and RDLs give this way more lower body work than typical KB circuits",
+      "Use a moderate bell you can press for 8+ reps — lower body exercises will feel easy but that's fine",
+      "For the Bulgarian split squat, any elevated surface works: bench, chair, couch, stairs",
+      "Progress by adding reps, then adding a round, then going heavier",
+      "Can be done 2-3x per week as a primary training session"
     ],
     "category": "kettlebell"
   },
@@ -13230,6 +14228,74 @@
       "Start lighter than you think — double snatches are humbling",
       "Rest between rounds as needed — quality over speed",
       "Credit: @kb_kings / @alexkaru"
+    ],
+    "category": "kettlebell"
+  },
+  {
+    "id": "kb-overhead-halo-pyramid",
+    "name": "KB Overhead Extension to Halo Pyramid",
+    "description": "Pyramid-style kettlebell shoulder burnout: overhead tricep extension into a halo, adding one rep each round and switching halo direction. Great as a warm-up or finisher. Use a LIGHT bell — the overhead-to-halo transition can stress the rotator cuff if you go too heavy or too fast.",
+    "routineId": "kettlebell",
+    "tags": [
+      "kettlebell",
+      "shoulders",
+      "triceps",
+      "upper-body",
+      "finisher",
+      "snippet",
+      "mobility"
+    ],
+    "estimatedDuration": 8,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "source": "@wealthmail",
+    "sourceUrl": "https://x.com/wealthmail/status/2025450838164947031",
+    "sets": [
+      {
+        "id": "pyramid",
+        "name": "Overhead Extension + Halo Pyramid",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-overhead-extension-to-halo",
+            "reps": 1,
+            "notes": "1 extension + 1 halo (clockwise)"
+          },
+          {
+            "id": "kettlebell-overhead-extension-to-halo",
+            "reps": 2,
+            "notes": "2 extensions + 2 halos (counter-clockwise)"
+          },
+          {
+            "id": "kettlebell-overhead-extension-to-halo",
+            "reps": 3,
+            "notes": "3 extensions + 3 halos (clockwise)"
+          },
+          {
+            "id": "kettlebell-overhead-extension-to-halo",
+            "reps": 4,
+            "notes": "4 extensions + 4 halos (counter-clockwise)"
+          },
+          {
+            "id": "kettlebell-overhead-extension-to-halo",
+            "reps": 5,
+            "notes": "5 extensions + 5 halos (clockwise)"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Use a LIGHT kettlebell — this is shoulder mobility work, not a strength test",
+      "Go slow and controlled through the overhead-to-halo transition",
+      "Switch halo direction each round of the pyramid",
+      "Original video says 'do it until you can't' — 5 rounds is plenty, go higher if you want",
+      "Skip this if you have shoulder or rotator cuff issues",
+      "Works great as: warm-up before push day, finisher after upper body, or quick standalone KB session"
     ],
     "category": "kettlebell"
   },
@@ -14394,6 +15460,109 @@
     "category": "maternity"
   },
   {
+    "id": "daily-mobility",
+    "name": "Daily Mobility (10 Min)",
+    "description": "Quick daily floor routine to do every morning or before any workout. Core activation, hip mobility, spine health. Light enough to do 7 days a week without affecting recovery. Just a mat and 10 minutes.",
+    "routineId": "morning",
+    "tags": [
+      "morning",
+      "floor",
+      "mobility",
+      "core",
+      "home",
+      "daily",
+      "warmup",
+      "gentle"
+    ],
+    "estimatedDuration": 10,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "spine",
+        "name": "Wake Up the Spine",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Slow, breathe into it. Exhale on cat, inhale on cow."
+          },
+          {
+            "id": "dead-bug",
+            "reps": "5 each",
+            "notes": "Opposite arm/leg. Keep lower back pressed into floor."
+          },
+          {
+            "id": "bird-dog",
+            "reps": "5 each",
+            "notes": "Extend opposite arm/leg, hold 2 seconds, squeeze glute."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hips",
+        "name": "Open the Hips",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "hip-flexor-lunge-stretch",
+            "duration": 30,
+            "notes": "30s each side. Push hips forward gently."
+          },
+          {
+            "id": "active-pigeon",
+            "duration": 30,
+            "notes": "30s each side. Rock gently into it if tight."
+          },
+          {
+            "id": "squat-to-stand",
+            "reps": 5,
+            "notes": "Touch toes, grab ankles, drop into deep squat, stand. Repeat."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "activate",
+        "name": "Activate",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "glute-bridge",
+            "reps": 10,
+            "notes": "Squeeze hard at top, 2 second hold"
+          },
+          {
+            "id": "plank",
+            "duration": 30,
+            "notes": "Tight everything. Squeeze glutes, brace core."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Do this every day — it won't affect recovery from the main program",
+      "On gym days, this doubles as your pre-workout warmup",
+      "On rest days, this keeps you moving without taxing anything",
+      "Total: ~10 min. No excuses.",
+      "If you're tight somewhere, spend an extra 30s on that stretch",
+      "Don't do heavy core (ab wheel, weighted crunches) before a squat or deadlift day — this is light enough to be fine"
+    ],
+    "category": "morning"
+  },
+  {
     "id": "floor-core-classic",
     "name": "Floor Core Classic",
     "description": "Classic floor core and bodyweight movements - preserved exactly as it was",
@@ -14482,6 +15651,71 @@
       "3 legged dog: from downward dog, lift one leg, bring knee to head/nose",
       "This is a fixed sequence - no randomization",
       "Focus on controlled movements and core engagement"
+    ],
+    "category": "morning"
+  },
+  {
+    "id": "martial-arts-strength-mobility-agility",
+    "name": "Martial Arts-Inspired Strength, Mobility & Agility Circuit",
+    "description": "A bodyweight circuit of three martial arts-inspired exercises targeting strength, mobility, and agility, performed for 3 sets with minimal rest.",
+    "routineId": "morning",
+    "tags": [
+      "morning",
+      "floor",
+      "on-hands",
+      "standing",
+      "full-body",
+      "dynamic",
+      "circuit",
+      "calisthenics",
+      "mobility",
+      "martial-arts",
+      "agility"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "intermediate",
+    "source": "@sculptherbody",
+    "sourceUrl": "https://x.com/sculptherbody/status/2025533634589917569",
+    "sets": [
+      {
+        "type": "circuit",
+        "rounds": 3,
+        "rest": 0,
+        "activities": [
+          {
+            "exerciseId": "alligator-push-up",
+            "reps": 8,
+            "notes": "Keep core engaged, maintain straight body line. 8-10 reps total."
+          },
+          {
+            "exerciseId": "kick-through-to-fighters-stance",
+            "reps": 10,
+            "notes": "Focus on smooth rotation and balance. 10 reps total, alternating sides."
+          },
+          {
+            "exerciseId": "switch-stance-sprawl",
+            "duration": 30,
+            "notes": "Drive hips back in sprawl, land softly. Work for 30 seconds continuously."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Perform exercises back-to-back with minimal rest",
+      "Complete 3 full rounds",
+      "Focus on controlled movement quality over speed"
+    ],
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2025533634589917569",
+        "source": "@sculptherbody",
+        "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
+      }
     ],
     "category": "morning"
   },
@@ -14870,6 +16104,73 @@
       "Each block builds on the last: loosen up → activate → work → core",
       "Breathe deeply throughout",
       "Skip a round if short on time - you'll still get a complete session"
+    ],
+    "category": "morning"
+  },
+  {
+    "id": "plank-abs-builder",
+    "name": "Plank-Based Abs Builder Circuit",
+    "description": "A fast and intense circuit of plank variations designed to build strong, defined abs by targeting core stability and strength.",
+    "routineId": "morning",
+    "tags": [
+      "morning",
+      "core",
+      "abs",
+      "on-hands",
+      "floor",
+      "calisthenics",
+      "bodyweight",
+      "circuit",
+      "plank-variation"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight"
+    ],
+    "difficulty": "intermediate",
+    "source": "@_fitnesshub",
+    "sourceUrl": "https://x.com/_fitnesshub/status/2025131203527946637",
+    "sets": [
+      {
+        "type": "circuit",
+        "rounds": 3,
+        "rest": 60,
+        "activities": [
+          {
+            "exerciseId": "plank-arm-reach",
+            "reps": 10,
+            "notes": "Reach forward to keep your body aligned. If you're shaking, that's your core working."
+          },
+          {
+            "exerciseId": "plank-bird-dog",
+            "reps": 10,
+            "notes": "Crunch tight through the core. Alternate sides, avoid rotating hips."
+          },
+          {
+            "exerciseId": "plank-leg-raise",
+            "reps": 10,
+            "notes": "Stay strong through the motions. Squeeze glutes and core to prevent sagging."
+          },
+          {
+            "exerciseId": "low-plank-tuck-explode",
+            "reps": 10,
+            "notes": "Finish with power. Squeeze your core at the top for maximum engagement."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Perform exercises consecutively with minimal rest between them",
+      "60 seconds rest between rounds",
+      "Focus on form and core engagement over speed"
+    ],
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "source": "@_fitnesshub",
+        "caption": "Plank-Based Abs Builder Circuit"
+      }
     ],
     "category": "morning"
   },

@@ -182,6 +182,53 @@
     "description": "The progression between tuck planche and straddle planche. Get into a tuck planche position (feet off ground, arms straight, knees tucked). Instead of keeping knees at chest, extend your hips back so your thighs point behind you while keeping knees bent. Your back should flatten out, creating a more horizontal body position. This significantly increases the lever arm and difficulty. Maintain the forward lean, straight arms, and protracted shoulders. The flatter your back, the harder it becomes. Work toward 10-15 second holds before progressing to straddle planche. This builds the specific strength needed for the straighter body positions."
   },
   {
+    "id": "alligator-push-up",
+    "name": "Alligator Push-Up",
+    "aliases": [
+      "Jacaré Push-Up"
+    ],
+    "category": "chest",
+    "type": "calisthenics",
+    "muscles": [
+      "chest",
+      "triceps",
+      "core",
+      "hip-flexors",
+      "shoulders"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "push-up-variation",
+      "floor",
+      "on-hands",
+      "dynamic",
+      "crawling",
+      "martial-arts"
+    ],
+    "difficulty": "advanced",
+    "duration": 60,
+    "description": "Start in a high plank position with feet together. Lower your body into a push-up while bringing your right knee toward your right elbow and shifting your weight forward. After pressing up, rock back into a low crouch with knees nearly touching the floor, arms straight, and head down. Then drive forward again into the next rep on the opposite side, crawling forward with each push-up.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2025533634589917569",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2025533634589917569",
+        "source": "@sculptherbody",
+        "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
+      }
+    ]
+  },
+  {
     "id": "alternating-hand-to-foot-crunch",
     "name": "Alternating Hand to Foot Crunch",
     "category": "core",
@@ -338,6 +385,34 @@
     "difficulty": "advanced",
     "duration": 60,
     "description": "A unilateral pull-up variation that shifts most of the work to one arm. Use a wide grip on the bar. Pull yourself up while shifting your body toward one hand - the working arm bends fully while the other arm stays mostly straight, extending out to the side like drawing a bow. Your body moves diagonally toward the working arm. Lower with control and repeat on the same side, or alternate sides. This progression builds toward one-arm pull-ups by training each arm to handle more of the load. Keep the straight arm engaged (not completely passive) for safety."
+  },
+  {
+    "id": "archer-push-up",
+    "name": "Archer Push-up",
+    "category": "chest",
+    "type": "calisthenics",
+    "muscles": [
+      "chest",
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "push-up-variation",
+      "floor",
+      "on-hands",
+      "unilateral"
+    ],
+    "difficulty": "advanced",
+    "duration": 60,
+    "description": "Start in a wide push-up position. Shift weight to one arm and lower toward that side while the other arm extends straight out. Push back up and alternate sides. Builds toward one-arm push-up strength.",
+    "media": []
   },
   {
     "id": "arm-circles",
@@ -2523,6 +2598,39 @@
     "description": "Kneel facing a high cable with a rope attachment held behind your head. Crunch down by flexing your spine, bringing your elbows toward your knees. Focus on contracting your abs rather than pulling with your arms. Return to the starting position with control. Allows progressive overload on abs unlike bodyweight crunches."
   },
   {
+    "id": "cable-glute-kickback",
+    "name": "Cable Glute Kickback",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "isolation",
+      "lower-body",
+      "gym",
+      "cable",
+      "glutes",
+      "unilateral",
+      "beginner-friendly"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Attach an ankle strap to a low cable. Face the machine and brace yourself on the frame. Keeping your leg straight or with a slight bend, kick your working leg back and up by squeezing your glute. Control the return — don't let the weight stack slam. Focus on feeling the glute contract, not swinging momentum. Do all reps one side then switch.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/whoisthismommy/status/2024684639382855931",
+        "source": "@whoisthismommy",
+        "caption": "Glute compound shred workout"
+      }
+    ]
+  },
+  {
     "id": "cable-lateral-raise",
     "name": "Cable Lateral Raise",
     "category": "shoulders",
@@ -3056,7 +3164,50 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Perform a push-up with hands placed close together, directly under your chest. This variation increases triceps engagement compared to standard push-ups."
+    "description": "Perform a push-up with hands placed close together, directly under your chest. This variation increases triceps engagement compared to standard push-ups.",
+    "media": []
+  },
+  {
+    "id": "close-to-wide-push-up",
+    "name": "Close-to-Wide Push-up",
+    "category": "chest",
+    "type": "calisthenics",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "push-up-variation",
+      "floor",
+      "on-hands",
+      "dynamic",
+      "plyometric"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Alternate between close-grip and wide-grip push-ups, lifting your hands off the ground between each rep to reposition. Push up from close grip, hands leave the floor and land wide, push up from wide grip, hands leave the floor and land close. Repeat.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://x.com/kaylorkianna_/status/2018149620971356374",
+        "source": "twitter",
+        "creator": "@kaylorkianna_"
+      },
+      {
+        "type": "video",
+        "url": "https://x.com/fitnesswork_out/status/2025155229617131647",
+        "source": "twitter",
+        "creator": "@fitnesswork_out"
+      }
+    ]
   },
   {
     "id": "commando-pull-up",
@@ -3082,6 +3233,41 @@
     "difficulty": "intermediate",
     "duration": 60,
     "description": "A pull-up variation performed with hands in line (one in front of the other) along the bar. Stand perpendicular to the bar and grip it with one hand in front of the other, palms facing each other. Pull up, bringing your head to one side of the bar. Lower and repeat, alternating which side of the bar your head goes to. This grip variation hits your muscles differently, adding rotational core work and grip challenge. Also called a typewriter pull-up or commando grip pull-up."
+  },
+  {
+    "id": "commando-push-up",
+    "name": "Commando Push-up",
+    "category": "chest",
+    "type": "calisthenics",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "push-up-variation",
+      "floor",
+      "on-hands",
+      "dynamic"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Start in push-up position. Lower one arm down to your elbow, then the other arm, so you're in a forearm plank. Push back up one arm at a time to the starting position. Alternate which arm leads.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://x.com/fitnesswork_out/status/2025155229617131647",
+        "source": "twitter",
+        "creator": "@fitnesswork_out"
+      }
+    ]
   },
   {
     "id": "concentration-curl",
@@ -3646,7 +3832,8 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "Place hands together under your chest, forming a diamond shape with thumbs and index fingers. Lower your chest toward your hands, keeping elbows close to body. Push back up. This variation emphasizes triceps activation."
+    "description": "Place hands together under your chest, forming a diamond shape with thumbs and index fingers. Lower your chest toward your hands, keeping elbows close to body. Push back up. This variation emphasizes triceps activation.",
+    "media": []
   },
   {
     "id": "diaphragmatic-breathing",
@@ -4095,7 +4282,15 @@
     ],
     "difficulty": "beginner",
     "duration": 45,
-    "description": "Hinge forward at hips with flat back, arms hanging straight down holding dumbbells. With slight bend in elbows, raise arms out to sides until they're parallel to floor. Squeeze shoulder blades together at top. Lower with control. Keep torso stable - don't swing."
+    "description": "Hinge forward at hips with flat back, arms hanging straight down holding dumbbells. With slight bend in elbows, raise arms out to sides until they're parallel to floor. Squeeze shoulder blades together at top. Lower with control. Keep torso stable - don't swing.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymsociety/status/2025164844819779767",
+        "source": "@gymsociety",
+        "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ]
   },
   {
     "id": "dumbbell-romanian-deadlift",
@@ -4149,7 +4344,15 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Place one knee and hand on a bench for support. Hold dumbbell in the other hand with arm hanging straight down. Pull dumbbell to your hip, squeezing shoulder blade back. Lower with control. Keep back flat and core braced. Don't rotate torso. Complete all reps then switch sides."
+    "description": "Place one knee and hand on a bench for support. Hold dumbbell in the other hand with arm hanging straight down. Pull dumbbell to your hip, squeezing shoulder blade back. Lower with control. Keep back flat and core braced. Don't rotate torso. Complete all reps then switch sides.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymsociety/status/2025164844819779767",
+        "source": "@gymsociety",
+        "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ]
   },
   {
     "id": "dumbbell-shoulder-press",
@@ -4299,6 +4502,42 @@
     "difficulty": "intermediate",
     "duration": 45,
     "description": "Place your feet on a raised surface (bench, step, or box) with hands on the floor. Maintain a straight line from head to heels. Lower chest toward the floor, then push back up. The elevation shifts emphasis to upper chest and shoulders."
+  },
+  {
+    "id": "explosive-commando-push-up",
+    "name": "Explosive Commando Push-up",
+    "category": "chest",
+    "type": "calisthenics",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "push-up-variation",
+      "floor",
+      "on-hands",
+      "dynamic",
+      "advanced"
+    ],
+    "difficulty": "advanced",
+    "duration": 60,
+    "description": "Start in push-up position. Drop both arms down to elbows at the same time, then explosively push back up to hands, leaving the ground. A plyometric version of the commando push-up.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://x.com/fitnesswork_out/status/2025155229617131647",
+        "source": "twitter",
+        "creator": "@fitnesswork_out"
+      }
+    ]
   },
   {
     "id": "extended-side-angle",
@@ -4887,7 +5126,15 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Stand with feet shoulder-width apart, holding dumbbells at your sides with palms facing each other (neutral grip). Curl the weights up while maintaining the neutral grip. This variation targets the brachialis and forearms more than standard curls."
+    "description": "Stand with feet shoulder-width apart, holding dumbbells at your sides with palms facing each other (neutral grip). Curl the weights up while maintaining the neutral grip. This variation targets the brachialis and forearms more than standard curls.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymsociety/status/2025164844819779767",
+        "source": "@gymsociety",
+        "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ]
   },
   {
     "id": "handstand-box-hold",
@@ -5143,6 +5390,38 @@
     "difficulty": "beginner",
     "duration": 45,
     "description": "Run in place, driving your knees up toward your chest as high as possible with each step. Pump your arms in rhythm."
+  },
+  {
+    "id": "hip-abduction-machine",
+    "name": "Hip Abduction Machine",
+    "category": "legs-quads",
+    "type": "weights",
+    "muscles": [
+      "glutes",
+      "hips"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "lower-body",
+      "gym",
+      "machine",
+      "glutes",
+      "beginner-friendly"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Sit in the machine with outer thighs against the pads, legs together at the starting position. Push your legs apart against the resistance, focusing on squeezing the outer glutes. Control the movement back in — don't let the weight stack crash. Targets the gluteus medius and minimus for hip stability and that outer glute shelf.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/whoisthismommy/status/2024684639382855931",
+        "source": "@whoisthismommy",
+        "caption": "Glute compound shred workout"
+      }
+    ]
   },
   {
     "id": "hip-abductor-machine",
@@ -5424,6 +5703,34 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "A dynamic full-body movement that stretches and strengthens. Stand tall with feet hip-width apart. Hinge at the hips and place your hands on the floor in front of your feet, keeping legs as straight as possible to stretch the hamstrings. Walk your hands forward one at a time until you reach a high plank position. Pause briefly in plank, then walk your feet forward in small steps toward your hands, keeping legs straight. Return to standing and repeat. This warms up the entire posterior chain, core, and shoulders while building shoulder stability."
+  },
+  {
+    "id": "incline-bench-dumbbell-row",
+    "name": "Incline Bench Dumbbell Row",
+    "category": "back-horizontal-pull",
+    "type": "weights",
+    "muscles": [
+      "back",
+      "lats",
+      "upper-back",
+      "biceps",
+      "rear-delts"
+    ],
+    "equipment": [
+      "dumbbell",
+      "bench"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "upper-body",
+      "gym",
+      "back",
+      "horizontal-pull"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Set an adjustable bench to about 30-45 degrees. Lie face down with your chest against the pad, feet on the floor for stability. Hold a dumbbell in each hand with arms hanging straight down. Row both dumbbells up by driving elbows back and squeezing shoulder blades together at the top. Lower with control. The chest support eliminates momentum and protects the lower back, allowing you to focus purely on the back muscles."
   },
   {
     "id": "incline-curl",
@@ -6192,6 +6499,42 @@
     ]
   },
   {
+    "id": "kettlebell-bent-over-horn-row",
+    "name": "Kettlebell Bent-Over Horn Row",
+    "category": "back-horizontal-pull",
+    "type": "weights",
+    "muscles": [
+      "back",
+      "lats",
+      "rear-delts",
+      "biceps",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "upper-body",
+      "kettlebell",
+      "strength",
+      "pull",
+      "back",
+      "horizontal-pull"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Hinge forward at the hips with a flat back, holding the kettlebell by both horns with both hands. Pull the bell back toward your hips, squeezing the shoulder blades together at the top. Extend the arms forward to release back to the starting position. Stay bent over the entire time. Keep core braced and avoid standing up between reps.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymfiesta/status/2020867535785148583",
+        "source": "@gymfiesta",
+        "caption": "Daily 100 Reps Kettlebell Routine"
+      }
+    ]
+  },
+  {
     "id": "kettlebell-bent-over-straddle-squat",
     "name": "Kettlebell Bent-Over Straddle Squat",
     "category": "legs-hip-hinge",
@@ -6507,6 +6850,80 @@
     ]
   },
   {
+    "id": "kettlebell-figure-8",
+    "name": "Kettlebell Figure 8",
+    "category": "core",
+    "type": "weights",
+    "muscles": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "grip",
+      "shoulders"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "kettlebell",
+      "standing",
+      "dynamic",
+      "lower-body",
+      "core",
+      "cardio"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Stand with feet wider than shoulder-width in a slight squat. Pass the kettlebell between your legs in a figure-8 pattern — one hand passes it through to the other from front to back, alternating sides. Stay low in the squat position and keep your chest up. Builds grip, coordination, and core stability while keeping your legs under tension.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/wealthmail/status/2024846506361028711",
+        "source": "@wealthmail",
+        "caption": "KB figure 8 and flow combos"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-figure-8-to-reverse-lunge",
+    "name": "Kettlebell Figure 8 to Reverse Lunge",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "core",
+      "quads",
+      "glutes",
+      "hamstrings",
+      "grip",
+      "shoulders"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "full-body",
+      "kettlebell",
+      "standing",
+      "dynamic",
+      "unilateral",
+      "lower-body",
+      "cardio"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Perform a figure-8 pass between your legs (staying low in a wide stance), then step back into a reverse lunge. Return to standing, do another figure-8 pass, and lunge on the other leg. The figure-8 keeps you in a low squat position working grip and core, then the lunge adds unilateral leg work. More dynamic and cardio-heavy than the halo version.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/wealthmail/status/2024846506361028711",
+        "source": "@wealthmail",
+        "caption": "KB halo to reverse lunge + figure 8 to reverse lunge combo"
+      }
+    ]
+  },
+  {
     "id": "kettlebell-floor-press",
     "name": "Kettlebell Floor Press",
     "category": "chest",
@@ -6701,6 +7118,43 @@
         "value": "https://x.com/gymfiesta/status/2020867535785148583",
         "source": "@gymfiesta",
         "caption": "Daily 100 Reps Kettlebell Routine"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-halo-to-reverse-lunge",
+    "name": "Kettlebell Halo to Reverse Lunge",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "core",
+      "quads",
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "full-body",
+      "kettlebell",
+      "standing",
+      "dynamic",
+      "unilateral",
+      "lower-body",
+      "mobility"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Perform a kettlebell halo (circling the bell around your head), then immediately step back into a reverse lunge. Return to standing and repeat the halo in the opposite direction before lunging on the other leg. The halo keeps the shoulders and core engaged while the lunge hits quads, glutes, and balance. Smooth and controlled — don't rush the halo.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/wealthmail/status/2024846506361028711",
+        "source": "@wealthmail",
+        "caption": "KB halo to reverse lunge + figure 8 to reverse lunge combo"
       }
     ]
   },
@@ -6933,6 +7387,41 @@
     ]
   },
   {
+    "id": "kettlebell-overhead-extension-to-halo",
+    "name": "Kettlebell Overhead Extension to Halo",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "triceps",
+      "core",
+      "upper-back",
+      "traps"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "upper-body",
+      "kettlebell",
+      "standing",
+      "dynamic",
+      "mobility"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Hold the kettlebell by the horns at hip level. Raise it up and behind your head into a tricep extension position, then press it overhead and guide it into a halo around your head. Reverse direction on alternating rounds. Keep elbows close on the extension and move slowly through the halo. Use a LIGHT kettlebell — the overhead-to-halo transition loads the shoulder in a vulnerable position. Not recommended with pre-existing shoulder or rotator cuff issues.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/wealthmail/status/2025450838164947031",
+        "source": "@wealthmail",
+        "caption": "KB overhead extension to halo pyramid flow"
+      }
+    ]
+  },
+  {
     "id": "kettlebell-overhead-lunge",
     "name": "Overhead Kettlebell Lunge",
     "category": "legs-quads",
@@ -7115,6 +7604,33 @@
         "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
       }
     ]
+  },
+  {
+    "id": "kettlebell-romanian-deadlift",
+    "name": "Kettlebell Romanian Deadlift",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "hamstrings",
+      "glutes",
+      "back",
+      "core",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "hinge",
+      "lower-body",
+      "posterior-chain",
+      "kettlebell",
+      "compound",
+      "deadlift"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Hold one or two kettlebells in front of your thighs. Feet hip-width apart, slight bend in knees. Push your hips straight back while lowering the bells along your legs, keeping your back flat and core braced. Lower until you feel a deep stretch in your hamstrings, then squeeze your glutes to drive back to standing. The KB handles make this easier to grip than a barbell RDL. Can also be done single-leg (suitcase hold) for a balance challenge."
   },
   {
     "id": "kettlebell-row",
@@ -7666,6 +8182,33 @@
     ]
   },
   {
+    "id": "kettlebell-turkish-getup",
+    "name": "Kettlebell Turkish Get-Up",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "core",
+      "glutes",
+      "quads",
+      "hip-flexors"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "full-body",
+      "kettlebell",
+      "strength",
+      "stability",
+      "skill-work"
+    ],
+    "difficulty": "advanced",
+    "duration": 90,
+    "description": "Start lying on the floor, kettlebell locked out overhead in one hand. Methodically rise to standing through a series of positions: roll to elbow, post to hand, bridge hips, sweep leg through to half-kneeling, then stand. Reverse the sequence to return to the floor. Keep eyes on the bell and arm locked out throughout. One of the best full-body stability exercises."
+  },
+  {
     "id": "kettlebell-upright-row",
     "name": "Kettlebell Upright Row",
     "category": "shoulders",
@@ -7698,69 +8241,6 @@
         "caption": "Daily 100 Reps Kettlebell Routine"
       }
     ]
-  },
-  {
-    "id": "kettlebell-bent-over-horn-row",
-    "name": "Kettlebell Bent-Over Horn Row",
-    "category": "back-horizontal-pull",
-    "type": "weights",
-    "muscles": [
-      "back",
-      "lats",
-      "rear-delts",
-      "biceps",
-      "core"
-    ],
-    "equipment": [
-      "kettlebell"
-    ],
-    "tags": [
-      "compound",
-      "upper-body",
-      "kettlebell",
-      "strength",
-      "pull",
-      "back",
-      "horizontal-pull"
-    ],
-    "difficulty": "beginner",
-    "duration": 45,
-    "description": "Hinge forward at the hips with a flat back, holding the kettlebell by both horns with both hands. Pull the bell back toward your hips, squeezing the shoulder blades together at the top. Extend the arms forward to release back to the starting position. Stay bent over the entire time. Keep core braced and avoid standing up between reps.",
-    "media": [
-      {
-        "type": "link",
-        "value": "https://x.com/gymfiesta/status/2020867535785148583",
-        "source": "@gymfiesta",
-        "caption": "Daily 100 Reps Kettlebell Routine"
-      }
-    ]
-  },
-  {
-    "id": "kettlebell-turkish-getup",
-    "name": "Kettlebell Turkish Get-Up",
-    "category": "full-body",
-    "type": "weights",
-    "muscles": [
-      "shoulders",
-      "core",
-      "glutes",
-      "quads",
-      "hip-flexors"
-    ],
-    "equipment": [
-      "kettlebell"
-    ],
-    "tags": [
-      "compound",
-      "full-body",
-      "kettlebell",
-      "strength",
-      "stability",
-      "skill-work"
-    ],
-    "difficulty": "advanced",
-    "duration": 90,
-    "description": "Start lying on the floor, kettlebell locked out overhead in one hand. Methodically rise to standing through a series of positions: roll to elbow, post to hand, bridge hips, sweep leg through to half-kneeling, then stand. Reverse the sequence to return to the floor. Keep eyes on the bell and arm locked out throughout. One of the best full-body stability exercises."
   },
   {
     "id": "kettlebell-windmill",
@@ -7797,6 +8277,49 @@
         "value": "https://x.com/powerbrutehq/status/2021223932536226019",
         "source": "@powerbrutehq",
         "caption": "Kettlebell Core Exercises Library"
+      }
+    ]
+  },
+  {
+    "id": "kick-through-to-fighters-stance",
+    "name": "Kick-Through to Fighter's Stance",
+    "category": "full-body",
+    "type": "calisthenics",
+    "muscles": [
+      "core",
+      "shoulders",
+      "obliques",
+      "hip-flexors",
+      "glutes",
+      "quads"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "floor",
+      "on-hands",
+      "dynamic",
+      "rotational",
+      "mobility",
+      "martial-arts"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Start on all fours with knees hovering off the ground. Thread one arm under your body while kicking the opposite leg through to rotate into a fighter's stance on one knee. Return to the starting position and switch sides.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2025533634589917569",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2025533634589917569",
+        "source": "@sculptherbody",
+        "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
       }
     ]
   },
@@ -7850,6 +8373,158 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Kneel on the floor with an ab wheel (or use a towel on a smooth floor). Roll forward, extending your body as far as you can while maintaining a tight core. Don't let your lower back arch. Roll back to the starting position with control."
+  },
+  {
+    "id": "kneeling-cross-body-external-rotation",
+    "name": "Kneeling Cross-Body External Rotation",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "rear-delts",
+      "biceps",
+      "core"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "isolation",
+      "upper-body",
+      "pull",
+      "kneeling",
+      "rotational"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Kneel holding dumbbells. Curl one weight across your body toward the opposite shoulder, then externally rotate at the top with palms facing up and a proud chest. Alternate sides.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/powerbrutehq/status/2025089437202338284",
+      "creator": "@powerbrutehq",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "source": "@powerbrutehq",
+        "caption": "Shoulders and Biceps Dumbbell Workout"
+      }
+    ]
+  },
+  {
+    "id": "kneeling-curl-reverse-grip-press",
+    "name": "Kneeling Curl Reverse Grip Press",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "biceps",
+      "shoulders",
+      "forearms",
+      "core"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "compound",
+      "upper-body",
+      "push",
+      "pull",
+      "kneeling"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Kneel holding dumbbells with a reverse (pronated) grip. Curl the weights up to shoulder height, then press overhead. Lower back to shoulders and down to start.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/powerbrutehq/status/2025089437202338284",
+      "creator": "@powerbrutehq",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "source": "@powerbrutehq",
+        "caption": "Shoulders and Biceps Dumbbell Workout"
+      }
+    ]
+  },
+  {
+    "id": "kneeling-hammer-curl-to-press-out",
+    "name": "Kneeling Hammer Curl to Press Out",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "biceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "compound",
+      "upper-body",
+      "push",
+      "pull",
+      "kneeling"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Kneel on a mat holding dumbbells with a neutral (hammer) grip at your sides. Curl the weights to shoulder height, then press them out in front of you. Return to shoulders and lower back down.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/powerbrutehq/status/2025089437202338284",
+      "creator": "@powerbrutehq",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "source": "@powerbrutehq",
+        "caption": "Shoulders and Biceps Dumbbell Workout"
+      }
+    ]
+  },
+  {
+    "id": "kneeling-wide-hammer-y-press",
+    "name": "Kneeling Wide Hammer Y-Press",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "compound",
+      "upper-body",
+      "push",
+      "kneeling"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Kneel with dumbbells in a hammer grip. Press the weights upward and outward in a Y shape, targeting the top ends of the front deltoids. Press away, then return with control.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/powerbrutehq/status/2025089437202338284",
+      "creator": "@powerbrutehq",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "source": "@powerbrutehq",
+        "caption": "Shoulders and Biceps Dumbbell Workout"
+      }
+    ]
   },
   {
     "id": "l-hang",
@@ -7989,7 +8664,15 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Stand with feet shoulder-width apart, holding dumbbells at your sides with palms facing in. Raise the weights out to your sides until they reach shoulder height, keeping a slight bend in your elbows. Lower with control. Targets the middle deltoids."
+    "description": "Stand with feet shoulder-width apart, holding dumbbells at your sides with palms facing in. Raise the weights out to your sides until they reach shoulder height, keeping a slight bend in your elbows. Lower with control. Targets the middle deltoids.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymsociety/status/2025164844819779767",
+        "source": "@gymsociety",
+        "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ]
   },
   {
     "id": "lateral-squat",
@@ -8255,6 +8938,47 @@
     "description": "Lie on your back with both legs raised to about 45-60 degrees off the floor. Perform flutter kicks in this elevated position - small, rapid alternating kicks. Keep your lower back pressed into the floor and shoulders slightly lifted. The elevated starting position increases the challenge."
   },
   {
+    "id": "low-plank-tuck-explode",
+    "name": "Low Plank Tuck Explode",
+    "category": "core",
+    "type": "calisthenics",
+    "muscles": [
+      "core",
+      "hip-flexors",
+      "quads",
+      "shoulders"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "floor",
+      "on-hands",
+      "explosive",
+      "plank-variation",
+      "dynamic",
+      "plyo"
+    ],
+    "difficulty": "advanced",
+    "duration": 60,
+    "description": "Start in a low forearm plank. Explosively tuck both knees toward your chest, then spring back out to full plank extension. Squeeze your core at the top of each rep for maximum engagement.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/_fitnesshub/status/2025131203527946637",
+      "creator": "@_fitnesshub",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "source": "@_fitnesshub",
+        "caption": "Plank-Based Abs Builder Circuit"
+      }
+    ]
+  },
+  {
     "id": "low-to-high-cable-fly",
     "name": "Low to High Cable Fly",
     "category": "chest",
@@ -8306,6 +9030,31 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Lie face down on the floor with arms at your sides, palms facing up, or hands behind your head. Keep your legs straight and together. Slowly raise your upper body (chest and shoulders) off the floor by extending your lower back, lifting as high as comfortable without hyperextending. Squeeze your glutes and lower back muscles at the top. Lower back down with control. Focus on using your erector spinae (lower back muscles) to lift, not momentum. Keep your neck in a neutral position - don't crane it upward. This strengthens the posterior chain and improves spinal stability. Can be done with arms extended overhead for added difficulty."
+  },
+  {
+    "id": "lunge",
+    "name": "Lunge",
+    "category": "legs-quads",
+    "type": "calisthenics",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "lower-body",
+      "legs",
+      "unilateral",
+      "squat"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Stand tall with feet hip-width apart. Step forward with one leg, lowering your hips until both knees are at about 90 degrees. Front knee stays over ankle, back knee hovers just above the floor. Push through your front heel to return to standing. Alternate legs each rep. Keep torso upright and core engaged throughout."
   },
   {
     "id": "lunge-knee-up",
@@ -9214,7 +9963,56 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Start in high plank position. Without rotating hips, reach one arm forward as far as possible while maintaining balance, then return. Alternate sides. This challenges core stability and anti-rotation strength."
+    "description": "Start in high plank position. Without rotating hips, reach one arm forward as far as possible while maintaining balance, then return. Alternate sides. This challenges core stability and anti-rotation strength.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "source": "@_fitnesshub",
+        "caption": "Plank-Based Abs Builder Circuit"
+      }
+    ]
+  },
+  {
+    "id": "plank-bird-dog",
+    "name": "Plank Bird Dog",
+    "category": "core",
+    "type": "calisthenics",
+    "muscles": [
+      "core",
+      "shoulders",
+      "glutes",
+      "back"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "core",
+      "floor",
+      "on-hands",
+      "plank-variation",
+      "anti-rotation",
+      "balance",
+      "dynamic"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "From a high plank position, simultaneously extend one arm forward and the opposite leg backward, holding briefly. Then crunch inward, bringing the extended knee to the opposite elbow before returning to plank. Alternate sides. Harder than the standard bird dog since you're supporting on two points from plank rather than all fours.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/_fitnesshub/status/2025131203527946637",
+      "creator": "@_fitnesshub",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "source": "@_fitnesshub",
+        "caption": "Plank-Based Abs Builder Circuit"
+      }
+    ]
   },
   {
     "id": "plank-crunches",
@@ -9360,7 +10158,15 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Start in a high plank or forearm plank position. Keeping your hips level and core tight, lift one leg straight up behind you. Hold briefly at the top, then lower with control. Alternate legs. Focus on preventing hip rotation as you lift each leg."
+    "description": "Start in a high plank or forearm plank position. Keeping your hips level and core tight, lift one leg straight up behind you. Hold briefly at the top, then lower with control. Alternate legs. Focus on preventing hip rotation as you lift each leg.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "source": "@_fitnesshub",
+        "caption": "Plank-Based Abs Builder Circuit"
+      }
+    ]
   },
   {
     "id": "plank-pulse",
@@ -9926,7 +10732,85 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Start in plank position with hands shoulder-width apart. Keep body straight from head to heels. Lower chest toward the floor by bending elbows, then push back up to starting position. Keep core engaged throughout."
+    "description": "Start in plank position with hands shoulder-width apart. Keep body straight from head to heels. Lower chest toward the floor by bending elbows, then push back up to starting position. Keep core engaged throughout.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymsociety/status/2025164844819779767",
+        "source": "@gymsociety",
+        "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ]
+  },
+  {
+    "id": "push-up-hand-reach",
+    "name": "Push-up Hand Reach",
+    "category": "chest",
+    "type": "calisthenics",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "push-up-variation",
+      "floor",
+      "on-hands",
+      "dynamic"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Lower into push-up position. At the bottom, alternate reaching both hands out in front above your head, then bring them back. Push back up. The hand reach at the bottom adds anti-extension core work and shoulder engagement.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://x.com/fitnesswork_out/status/2025155229617131647",
+        "source": "twitter",
+        "creator": "@fitnesswork_out"
+      }
+    ]
+  },
+  {
+    "id": "push-up-head-tap",
+    "name": "Push-up Head Tap",
+    "category": "chest",
+    "type": "calisthenics",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "push-up-variation",
+      "floor",
+      "on-hands",
+      "dynamic"
+    ],
+    "difficulty": "advanced",
+    "duration": 60,
+    "description": "Start in push-up position. Lower down, then shift back onto your elbows so your hands tap your head. Shift forward back onto your hands, then push up to starting position. An advanced push-up variation that challenges chest, triceps, and shoulders through the full range transition.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://x.com/melaninpalace/status/2024882970662723604",
+        "source": "twitter",
+        "creator": "@melaninpalace"
+      }
+    ]
   },
   {
     "id": "push-up-star",
@@ -12026,6 +12910,70 @@
     "description": "Stand with feet shoulder-width apart, arms at your sides (can hold light dumbbells for added resistance). As you descend into a squat, simultaneously raise your arms straight out in front of you to shoulder height. At the bottom of the squat, your thighs should be parallel to the ground and arms extended forward. As you stand up, lower your arms back to your sides. This combination movement elevates heart rate and works both lower and upper body."
   },
   {
+    "id": "squat-front-raise",
+    "name": "Squat Front Raise",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "compound",
+      "full-body",
+      "circuit",
+      "standing",
+      "dynamic"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Hold dumbbells at your sides. Squat down, and as you stand, raise the dumbbells to the front to shoulder height with straight arms. Lower the dumbbells as you descend into the next squat.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/selfdefencess/status/2025207177406013946",
+      "creator": "@Selfdefencess",
+      "capturedAt": "2026-02-22"
+    }
+  },
+  {
+    "id": "squat-jack",
+    "name": "Squat Jack",
+    "category": "legs-glutes",
+    "type": "plyo",
+    "muscles": [
+      "quads",
+      "glutes",
+      "calves",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "lower-body",
+      "cardio",
+      "hiit",
+      "circuit",
+      "plyo",
+      "standing",
+      "dynamic"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Jump feet out wide while lowering into a squat, then jump feet back together to standing. Like a jumping jack but adding squat depth at the wide position. Land softly and maintain squat depth throughout.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/selfdefencess/status/2025207177406013946",
+      "creator": "@Selfdefencess",
+      "capturedAt": "2026-02-22"
+    }
+  },
+  {
     "id": "squat-jump",
     "name": "Squat Jumps",
     "category": "legs-quads",
@@ -12252,6 +13200,35 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Stand upright and lift one leg straight up in front of you as high as comfortable while keeping your torso upright and core engaged. Lower with control and repeat. This is like a standing leg raise, great for warming up the hip flexors and core. Can hold onto something for balance if needed."
+  },
+  {
+    "id": "standing-upward-fly",
+    "name": "Standing Upward Fly",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "chest",
+      "upper-back"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "upper-body",
+      "standing",
+      "circuit",
+      "isolation"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Stand with dumbbells at your sides. Raise both arms out to the sides and upward in a wide arc, squeezing shoulder blades together at the top. Lower with control. Keep a slight bend in the elbows throughout.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/selfdefencess/status/2025207177406013946",
+      "creator": "@Selfdefencess",
+      "capturedAt": "2026-02-22"
+    }
   },
   {
     "id": "star-situps",
@@ -12697,6 +13674,41 @@
     "description": "Stand with feet wider than shoulder-width apart, toes pointed out at 45 degrees. Position the barbell over midfoot, closer to your shins than conventional deadlift. Grip the bar with hands inside your legs, using a mixed or double overhand grip. Keep your chest up and back straight. Drive through your heels and push your knees out as you extend your hips and knees simultaneously to lift the bar. The wide stance emphasizes inner thighs, glutes, and allows for a more upright torso position compared to conventional deadlift."
   },
   {
+    "id": "sumo-squat",
+    "name": "Sumo Squat",
+    "category": "legs-quads",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "adductors",
+      "hips"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "compound",
+      "lower-body",
+      "gym",
+      "squat",
+      "legs",
+      "glutes",
+      "beginner-friendly"
+    ],
+    "difficulty": "beginner",
+    "duration": 90,
+    "description": "Stand with feet wide, toes pointed out 45 degrees. Hold a dumbbell vertically at arms' length in front of you. Squat down by pushing knees out over toes, keeping chest up and back straight. Go as deep as your mobility allows. Drive through heels to stand. The wide stance emphasizes inner thighs and glutes more than a standard squat.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/whoisthismommy/status/2024684639382855931",
+        "source": "@whoisthismommy",
+        "caption": "Glute compound shred workout"
+      }
+    ]
+  },
+  {
     "id": "superman",
     "name": "Superman",
     "category": "back-horizontal-pull",
@@ -12807,6 +13819,51 @@
     "difficulty": "beginner",
     "duration": 30,
     "description": "Support yourself at the top of the dip position on parallel bars or between two sturdy chairs. Keep arms straight, shoulders depressed (away from ears), and core tight. Hold this position with good posture. This builds the strength foundation for dips."
+  },
+  {
+    "id": "switch-stance-sprawl",
+    "name": "Switch Stance Sprawl",
+    "category": "full-body",
+    "type": "calisthenics",
+    "muscles": [
+      "full-body",
+      "core",
+      "quads",
+      "glutes",
+      "shoulders",
+      "hip-flexors"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "floor",
+      "standing",
+      "dynamic",
+      "explosive",
+      "cardio",
+      "martial-arts",
+      "agility",
+      "sprawl-variation"
+    ],
+    "difficulty": "intermediate",
+    "duration": 30,
+    "description": "Start in a low athletic stance. Jump back into a sprawl with legs wide in a full plank position, then explosively jump up while switching your stance so the lead leg changes. Repeat alternating stances.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2025533634589917569",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-02-22"
+    },
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2025533634589917569",
+        "source": "@sculptherbody",
+        "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
+      }
+    ]
   },
   {
     "id": "toe-touches",
@@ -12960,7 +14017,15 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Stand or sit holding a dumbbell with both hands behind your head, elbows pointing up. Extend your arms to raise the weight overhead, keeping upper arms stationary. Lower the weight behind your head with control. Keep elbows close to your head throughout."
+    "description": "Stand or sit holding a dumbbell with both hands behind your head, elbows pointing up. Extend your arms to raise the weight overhead, keeping upper arms stationary. Lower the weight behind your head with control. Keep elbows close to your head throughout.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/gymsociety/status/2025164844819779767",
+        "source": "@gymsociety",
+        "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ]
   },
   {
     "id": "tripod-headstand-to-pushup",
@@ -13135,6 +14200,38 @@
     "difficulty": "intermediate",
     "duration": 30,
     "description": "Lie on your back with arms overhead. Explosively snap your knees to your chest while simultaneously crunching your torso up, then quickly extend back out to full length. The movement should be rapid - snap in, snap out. Think of your body as a spring, quickly compressing and extending. This builds explosive core power used in dance and acrobatics."
+  },
+  {
+    "id": "twisting-lunge",
+    "name": "Twisting Lunge",
+    "category": "legs-glutes",
+    "type": "compound",
+    "muscles": [
+      "quads",
+      "glutes",
+      "core",
+      "obliques"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "lower-body",
+      "core",
+      "circuit",
+      "standing",
+      "dynamic",
+      "compound"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Step forward into a lunge, lowering until both knees are at 90 degrees. At the bottom, rotate your torso toward the front leg, engaging obliques. Return to center, push back to standing, and alternate legs.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/selfdefencess/status/2025207177406013946",
+      "creator": "@Selfdefencess",
+      "capturedAt": "2026-02-22"
+    }
   },
   {
     "id": "typewriter-pull-up",
@@ -13449,6 +14546,39 @@
     "description": "Lie on your back with knees bent and feet flat. Hold a dumbbell or kettlebell on your hips. Lift hips into a bridge position, then raise one leg straight up while holding the weight steady. Alternate legs with control."
   },
   {
+    "id": "weighted-burpee",
+    "name": "Weighted Burpee",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "full-body",
+      "chest",
+      "quads",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "full-body",
+      "cardio",
+      "hiit",
+      "circuit",
+      "compound",
+      "dynamic"
+    ],
+    "difficulty": "advanced",
+    "duration": 45,
+    "description": "Hold dumbbells at your sides. Squat down and place dumbbells on the floor, jump or step feet back to plank on the dumbbells, perform a push-up row (optional), jump feet forward, then clean and press the dumbbells overhead as you stand. Lower and repeat.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/selfdefencess/status/2025207177406013946",
+      "creator": "@Selfdefencess",
+      "capturedAt": "2026-02-22"
+    }
+  },
+  {
     "id": "weighted-crunch",
     "name": "Weighted Crunch",
     "category": "core",
@@ -13576,6 +14706,33 @@
     "description": "A pull-up variation with hands placed wider than shoulder width to emphasize the lats. Hang from a pull-up bar with hands 1.5x shoulder-width apart, palms facing away (overhand grip). Engage your shoulder blades by pulling them down and back. Pull yourself up by driving your elbows down toward your hips until your chin clears the bar. Focus on squeezing your lats at the top. Lower with control to full arm extension. The wider grip increases lat activation and reduces bicep involvement compared to standard pull-ups. This is sometimes called a shoulder pull-up because of the wider hand position."
   },
   {
+    "id": "wide-grip-push-up",
+    "name": "Wide-Grip Push-up",
+    "category": "chest",
+    "type": "calisthenics",
+    "muscles": [
+      "chest",
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "compound",
+      "push",
+      "upper-body",
+      "push-up-variation",
+      "floor",
+      "on-hands"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Perform a push-up with hands placed wider than shoulder-width apart. Lower body while keeping arms angled outward, then push back up. This variation emphasizes the outer chest and shoulders.",
+    "media": []
+  },
+  {
     "id": "wide-push-up",
     "name": "Wide Push-ups",
     "category": "chest",
@@ -13624,6 +14781,37 @@
     "difficulty": "advanced",
     "duration": 60,
     "description": "Perform a horizontal row with hands placed wider than shoulder-width apart. This emphasizes the rear deltoids and rhomboids. Keep elbows flared out slightly as you pull chest to bar."
+  },
+  {
+    "id": "wide-to-narrow-push-up",
+    "name": "Wide to Narrow Push-Up",
+    "category": "chest",
+    "type": "bodyweight",
+    "muscles": [
+      "chest",
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "upper-body",
+      "floor",
+      "circuit",
+      "push-up-variation",
+      "compound"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Alternate between wide and narrow hand positions with each push-up rep. Perform one push-up with hands wide (outside shoulder width) targeting chest, then walk hands in to perform one with hands close together (diamond or close grip) targeting triceps. Repeat.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/selfdefencess/status/2025207177406013946",
+      "creator": "@Selfdefencess",
+      "capturedAt": "2026-02-22"
+    }
   },
   {
     "id": "yuris-shoulder-band-warmup",
