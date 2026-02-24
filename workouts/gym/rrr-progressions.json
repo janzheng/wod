@@ -1,15 +1,17 @@
 {
   "id": "rrr-progressions",
   "name": "Reddit RRR Progressions",
-  "description": "Bodyweight strength training using Reddit Recommended Routine progressions",
+  "description": "The r/bodyweightfitness Recommended Routine — full-body calisthenics strength training using progression chains. 3 superset pairs + core triplet, done 3x/week on non-consecutive days.",
   "routineId": "gym",
-  "tags": ["calisthenics", "strength", "bodyweight", "progressions"],
-  "estimatedDuration": 45,
+  "source": "r/bodyweightfitness",
+  "sourceUrl": "https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine/",
+  "tags": ["calisthenics", "strength", "bodyweight", "progressions", "full-body"],
+  "estimatedDuration": 60,
   "equipment": ["bodyweight", "pull-up-bar"],
   "sets": [
     {
       "id": "warmup",
-      "name": "Dynamic Warmup",
+      "name": "Dynamic Warmup (5-10 min)",
       "type": "exercises",
       "randomize": true,
       "exercises": [
@@ -34,32 +36,49 @@
     },
     {
       "id": "pair-2",
-      "name": "Pair 2: Dips & Rows",
+      "name": "Pair 2: Dips & Hinges",
       "type": "superset",
       "rounds": 3,
       "exercises": [
         { "criteria": { "progression": "dip-progression" }, "reps": "5-8" },
-        { "criteria": { "progression": "row-progression" }, "reps": "5-8" }
+        { "criteria": { "progression": "hinge-progression" }, "reps": "5-8" }
       ],
       "restBetween": 90,
       "restAfter": 90
     },
     {
       "id": "pair-3",
-      "name": "Pair 3: Push-ups & Hinges",
+      "name": "Pair 3: Rows & Push-ups",
       "type": "superset",
       "rounds": 3,
       "exercises": [
-        { "criteria": { "progression": "push-up-progression" }, "reps": "5-8" },
-        { "criteria": { "progression": "hinge-progression" }, "reps": "5-8" }
+        { "criteria": { "progression": "row-progression" }, "reps": "5-8" },
+        { "criteria": { "progression": "push-up-progression" }, "reps": "5-8" }
       ],
-      "restBetween": 90
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "core-triplet",
+      "name": "Core Triplet",
+      "type": "superset",
+      "rounds": 3,
+      "exercises": [
+        { "criteria": { "tags": ["core", "anti-extension"], "equipment": ["bodyweight"] }, "reps": "8-12", "poolSize": 2 },
+        { "criteria": { "tags": ["core", "anti-rotation"], "equipment": ["bodyweight"] }, "reps": "8-12", "poolSize": 2 },
+        { "criteria": { "tags": ["core", "extension", "back"], "equipment": ["bodyweight"] }, "reps": "8-12", "poolSize": 2 }
+      ],
+      "restBetween": 60
     }
   ],
   "tips": [
-    "Rest 90 seconds between exercises in each pair",
-    "Each pair: do exercise A, rest, do exercise B, rest, repeat 3x",
-    "Pick the progression level that lets you do 5-8 clean reps",
-    "When you can do 3x8, move to the next progression level"
-  ]
+    "Rest 90s between exercises in each pair (gives ~3 min recovery per muscle group)",
+    "Each pair: do exercise A, rest 90s, do exercise B, rest 90s, repeat 3x",
+    "Pick the progression level that lets you do 5-8 clean reps with good form",
+    "When you can do 3×8, move to the next progression level at 3×5",
+    "Stay 1 rep short of failure — do 7-7-7 instead of 8-6-5",
+    "All exercises use 10X0 tempo: 1s down, no pause, explode up, no pause at top",
+    "BARBELL OPTION: If you have a barbell, you can swap in barbell squats (3×5) for the squat progression, and Romanian deadlifts (3×8) / deadlifts (3×5) for the hinge progression"
+  ],
+  "referenceText": "REDDIT RECOMMENDED ROUTINE (RRR)\n— r/bodyweightfitness Wiki —\n\nGOALS\nThis routine covers strength, hypertrophy/muscle gain (with proper diet), and fat loss (with proper diet). It's a general-purpose full-body program.\n\nEQUIPMENT NEEDED\n• A pull-up bar (monkey bars, doorframe bar, rings, etc.)\n• A place to do rows (low bar, rings, sturdy table, or even a knotted bedsheet in a door) — this is non-negotiable\n• Parallel bars for dips (kitchen counter corners, two sturdy chairs, etc.) — alternatives exist if you truly can't find any\n\nHOW PROGRESSIONS WORK\n• Each exercise has a chain of variations from easy to hard (e.g., wall push-up → incline → knee → full → diamond → pseudo-planche)\n• Pick the variation where you can do 3 sets of 5 reps with good form\n• Each session, try to add 1 rep per set until you reach 3 sets of 8 reps\n• Once you hit 3×8 with good form, move to the next harder variation at 3×5\n• You only perform ONE exercise from each progression per session — drop the easier one\n• For isometric holds (support hold, tuck front lever, etc.): hold 10-30 seconds per set, advance when you hit 3×30s\n\nWARMUP (5-10 min)\n  Reps     Exercise                          Notes\n  5-10     Yuri's Shoulder Band Warmup        Alternative: stick/towel dislocates\n  5-10     Squat Sky Reaches                  Can be done assisted\n  10+      GMB Wrist Prep                     Do as many reps as you want\n  30s      Deadbugs                           Core activation\n  10       Arch Hangs                         Add after you reach negative pull-ups\n  30s      Support Hold                       Add after you reach negative dips\n  10       Easier Squat Progression            Add after you reach Bulgarian split squats\n  10       Easier Hinge Progression            Add after you reach banded Nordic curls\n\nSTRENGTH WORK STRUCTURE (40-60 min)\nDone as supersets — alternate between the two exercises in each pair.\n\n  Pair 1: Pull-ups & Squats\n    3×5-8 Pull-up progression ↔ 3×5-8 Squat progression\n\n  Pair 2: Dips & Hinges\n    3×5-8 Dip progression ↔ 3×5-8 Hinge progression\n\n  Pair 3: Rows & Push-ups\n    3×5-8 Row progression ↔ 3×5-8 Push-up progression\n\n  Core Triplet\n    3×8-12 Anti-Extension ↔ 3×8-12 Anti-Rotation ↔ 3×8-12 Extension (60s rest between each)\n\nHOW PAIRING WORKS\nDo a set of exercise A, rest 90s, do a set of exercise B, rest 90s, repeat 3 times. This gives each muscle ~3 min total recovery between its own sets while keeping the workout efficient. For the core triplet, use 60s rest between each of the 3 exercises.\n\nExample:\n  Pull-ups → rest 90s → Squats → rest 90s →\n  Pull-ups → rest 90s → Squats → rest 90s →\n  Pull-ups → rest 90s → Squats → rest 90s →\n  move to next pair\n\nREST TIME\n90s between exercises is the baseline. If you're dropping reps (e.g., 8 on set 1 but only 5-6 on set 2), extend rest up to 3 minutes. Quality reps matter more than speed.\n\nTEMPO\nAll exercises use 10X0 tempo: 1 second on the way down, no pause at bottom, explode up (intent matters even if the actual movement is slow), no pause at top.\n\nREP STRATEGY\nStay 1 rep short of failure. If your max is 8 reps, do 7-7-7 instead of 8-6-5. Going to failure on early sets kills your volume on later sets, which reduces total work and slows progress.\n\nBARBELL INTEGRATION (Optional)\nIf you have access to a barbell and squat rack, you can swap in barbell work for the lower body progressions after mastering the basics:\n• Replace squat progression with barbell squats: 3×5\n• Workouts 1 & 3 of the week: replace hinge progression with Romanian deadlifts (weighted): 3×8\n• Workout 2 of the week: replace hinge progression with deadlifts: 3×5\n• Result: squatting 3x/week, Romanian deadlifting 2x/week, deadlifting 1x/week\n• Warm up with progressively heavier sets before your work sets\n\nIF THE ROUTINE IS TOO MUCH\n• Reduce sets to 1-2 instead of 3 (preferred modification for beginners)\n• Increase rep range to 5-12 or 5-15 before progressing to the next exercise\n• Reduce from 3x/week to 2x/week\n• Split into upper/lower across different days (e.g., MWFSat)\n• Start with just 3 exercises: squat progression + push-ups + rows\n\nTIMELINE FOR RESULTS\n• Performance improvements: 2-3 workouts in\n• Visible to yourself: 4-6 weeks (with proper diet)\n• Visible to others: 12+ weeks (with proper diet)\n\nWHEN TO MOVE ON\nMove to an intermediate routine when you plateau for weeks despite good diet, sleep, and stress management. Or when you exhaust all progressions. The r/bodyweightfitness community recommends developing your own intermediate routine based on the programming principles you'll learn along the way."
 }

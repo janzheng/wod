@@ -1,0 +1,80 @@
+{
+  "id": "fb-w1-pull",
+  "name": "Week 1 Pull (Back/Biceps/Rear Delts)",
+  "description": "Foundation pull day grouped by station — pull-up bar, then barbell rows, then all cable work, then dumbbells to finish. Minimizes equipment switching. All fixed exercises.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "cable", "pull-up-bar", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Squeeze shoulder blades, warm up upper back" },
+        { "id": "cat-cow", "reps": 10, "notes": "Loosen thoracic spine" },
+        { "id": "dead-hang", "reps": 1, "duration": 20, "notes": "Decompress spine, activate grip and lats" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Station 1: Pull-up Bar",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "pull-up", "reps": "5-8", "notes": "Full dead hang to chin over bar. Add weight when you hit 3×8. If you can't do 5, use a band or do negatives." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "barbell-station",
+      "name": "Station 2: Barbell",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "barbell-bent-over-row", "reps": "6-8", "notes": "Hinge at hips, pull to lower chest, squeeze at top. Keep core tight, don't round the back." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-station",
+      "name": "Station 3: Cable Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "reps": "10-12", "notes": "Wide grip, lean back slightly, pull to upper chest. Control the eccentric." },
+        { "id": "seated-cable-row", "reps": "10-12", "notes": "Swap to close-grip handle. Chest up, pull to belly button, squeeze shoulder blades." },
+        { "id": "face-pull", "reps": "15-20", "notes": "High cable, rope attachment. Pull to face, externally rotate at the end. Light weight." },
+        { "id": "cable-bicep-curl", "reps": "10-12", "notes": "Low cable, straight bar or EZ bar. Full extension, squeeze at top. Finish all cable work here." }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-station",
+      "name": "Station 4: Dumbbells",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-reverse-fly", "reps": "12-15", "notes": "Bent over on a bench or standing. Slight bend in elbows, squeeze rear delts." },
+        { "id": "hammer-curl", "reps": "10-12", "notes": "Same dumbbells, neutral grip. Hits brachialis and forearms." }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Grouped by station — pull-up bar → barbell → cable machine → dumbbells",
+    "Cable station has 4 exercises — just swap attachments and weight, don't move",
+    "Pull-ups and rows are your main lifts — progressive overload these",
+    "Face pulls are non-negotiable — they keep your shoulders healthy for pressing days",
+    "Total volume: ~18 working sets for pull muscles"
+  ]
+}

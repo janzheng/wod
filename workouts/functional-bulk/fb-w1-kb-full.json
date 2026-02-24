@@ -1,0 +1,80 @@
+{
+  "id": "fb-w1-kb-full",
+  "name": "Week 1 KB Full Body",
+  "description": "Full-body kettlebell strength session covering all movement patterns — squat, hinge, push, pull, and core. Heavier on lower body with goblet squats, Bulgarian splits, and RDLs. Single bell, ~40 min. All fixed exercises.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "strength", "intermediate", "fixed"],
+  "estimatedDuration": 40,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light, loosen shoulders and thoracic spine" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Easy reps, find your depth" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings, groove the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-quad",
+      "name": "Block 1: Legs — Quad Dominant",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-goblet-squat", "reps": 12, "notes": "Full depth, chest up, elbows inside knees at the bottom" },
+        { "id": "bulgarian-split-squat", "reps": "8 each", "notes": "Hold KB goblet style at chest. Rear foot on bench/chair/couch. Control the descent." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-hinge",
+      "name": "Block 2: Legs — Posterior Chain",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-romanian-deadlift", "reps": 10, "notes": "Slow on the way down, squeeze glutes at the top. Feel the hamstrings." },
+        { "id": "kettlebell-swing", "reps": 15, "notes": "Explosive hips. This is the power complement to the slow RDL." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-upper",
+      "name": "Block 3: Upper — Push & Pull",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-clean-and-press", "reps": "6 each", "notes": "Clean to rack, strict press overhead. Alternate arms each set or do all one side then switch." },
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "Hinge position, pull elbow past ribs, squeeze at top" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-4-core",
+      "name": "Block 4: Core & Finish",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-windmill", "reps": "5 each", "notes": "Slow and controlled. Eyes on the bell. This is core stability + hip mobility." },
+        { "id": "kettlebell-swing", "reps": 20, "notes": "Last push — full power, empty the tank" }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "One kettlebell, ~40 minutes — covers every movement pattern",
+    "The Bulgarian splits and RDLs give this way more lower body work than typical KB circuits",
+    "Use a moderate bell you can press for 8+ reps — lower body exercises will feel easy but that's fine",
+    "For the Bulgarian split squat, any elevated surface works: bench, chair, couch, stairs",
+    "Progress by adding reps, then adding a round, then going heavier"
+  ]
+}

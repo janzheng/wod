@@ -415,6 +415,26 @@
     "media": []
   },
   {
+    "id": "arm-circle",
+    "name": "Arm Circle",
+    "category": "mobility",
+    "type": "warmup",
+    "muscles": [
+      "shoulders"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "warmup",
+      "mobility",
+      "shoulders",
+      "upper-body"
+    ],
+    "difficulty": "beginner",
+    "description": "Stand with arms extended to the sides. Make small circles, gradually increasing size. Do forward circles then reverse. Loosens the shoulder joint and warms up the rotator cuff."
+  },
+  {
     "id": "arm-circles",
     "name": "Arm Circles",
     "category": "shoulders",
@@ -670,6 +690,30 @@
     "difficulty": "intermediate",
     "duration": 60,
     "description": "Stand facing away from a stability ball. Place the top of one foot on the ball behind you, toes pointed down. The ball should be about a leg's length away. Keep your front foot firmly planted. Lower into a lunge by bending your front knee, allowing the ball to roll slightly as your back leg extends. Descend until your front thigh is parallel to the ground. Push through your front heel to stand. The ball challenges your balance and activates stabilizer muscles."
+  },
+  {
+    "id": "band-pull-apart",
+    "name": "Band Pull-Apart",
+    "category": "strength",
+    "type": "isolation",
+    "muscles": [
+      "shoulders",
+      "back",
+      "rear-delts"
+    ],
+    "equipment": [
+      "resistance-band"
+    ],
+    "tags": [
+      "warmup",
+      "mobility",
+      "shoulders",
+      "upper-body",
+      "rear-delts",
+      "prehab"
+    ],
+    "difficulty": "beginner",
+    "description": "Hold a resistance band at shoulder width with arms straight in front. Pull the band apart by squeezing your shoulder blades together until the band touches your chest. Slowly return to start. Great for warming up the upper back and rear delts."
   },
   {
     "id": "banded-bicep-curl",
@@ -5472,6 +5516,27 @@
     "description": "Sit in the machine with inner thighs against the pads, legs spread to the starting position. Squeeze your legs together against the resistance, focusing on inner thigh activation. Control the movement back out - this eccentric phase is key. Strengthens the adductors for better hip stability and injury prevention."
   },
   {
+    "id": "hip-circle",
+    "name": "Hip Circle",
+    "category": "mobility",
+    "type": "warmup",
+    "muscles": [
+      "hips",
+      "glutes"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "warmup",
+      "mobility",
+      "hips",
+      "lower-body"
+    ],
+    "difficulty": "beginner",
+    "description": "Stand on one leg and make large circles with the other leg, rotating from the hip. Do clockwise then counterclockwise. Alternatively, stand with hands on hips and make large circles with your hips. Opens up the hip joint and activates the glutes."
+  },
+  {
     "id": "hip-flexor-lunge-stretch",
     "name": "Hip Flexor Lunge Stretch",
     "category": "mobility",
@@ -6497,6 +6562,39 @@
         "caption": "Daily Kettlebell Controlled Power Routine"
       }
     ]
+  },
+  {
+    "id": "kettlebell-b-stance-swing",
+    "name": "B-Stance Kettlebell Swing",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "core",
+      "shoulders"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "lower-body",
+      "kettlebell",
+      "dynamic",
+      "hinge",
+      "unilateral",
+      "b-stance"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "A kettlebell swing performed in B-stance — one foot forward flat, back foot staggered behind with heel elevated. This shifts more load to the front leg while maintaining the hip hinge pattern. Hike the bell back and drive explosively through the front hip. The staggered stance challenges single-leg stability and glute activation more than a standard bilateral swing.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/Asgooch/status/2026011472489324584",
+      "creator": "@Asgooch",
+      "capturedAt": "2026-02-23"
+    }
   },
   {
     "id": "kettlebell-bent-over-horn-row",
@@ -11105,6 +11203,31 @@
     "difficulty": "intermediate",
     "duration": 60,
     "description": "Lie face down on a bench or elevated surface with hips at the edge and legs hanging off. Hold onto the bench for support. Raise your legs by squeezing your glutes until they're in line with your body. Lower with control and repeat."
+  },
+  {
+    "id": "reverse-nordic-curl",
+    "name": "Reverse Nordic Curl",
+    "category": "legs-quads",
+    "type": "calisthenics",
+    "muscles": [
+      "quads",
+      "hip-flexors",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "floor",
+      "kneeling",
+      "eccentric",
+      "quad",
+      "lower-body"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Kneel upright on a mat with knees hip-width apart. Keep your body in a straight line from knees to head — hips fully extended, core braced. Slowly lean your entire body backwards as far as you can control, keeping that straight line (don't bend at the hips). Your quads will burn fighting the lean. Come back up to the starting position. Go only as far back as you can return from."
   },
   {
     "id": "reverse-snow-angels",

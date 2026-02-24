@@ -3819,89 +3819,6 @@
     "category": "challenges"
   },
   {
-    "id": "kb-controlled-power-challenge",
-    "name": "KB Controlled Power Challenge",
-    "description": "230 total reps of kettlebell work — no running, no jumping, just controlled power. Start with 50 around-the-body passes, then 60 each of side swings, high pulls, and goblet squats. Based on @metabolicfactor's daily KB routine.",
-    "routineId": "challenges",
-    "tags": [
-      "challenge",
-      "kettlebell",
-      "full-body",
-      "core",
-      "strength",
-      "endurance"
-    ],
-    "difficulty": "hard",
-    "estimatedDuration": 20,
-    "equipment": [
-      "kettlebell"
-    ],
-    "source": "@metabolicfactor",
-    "sourceUrl": "https://x.com/metabolicfactor/status/2023668997959348230",
-    "sets": [
-      {
-        "id": "around-body-pass",
-        "type": "exercises",
-        "exercises": [
-          {
-            "criteria": {
-              "exerciseId": "kettlebell-around-body-pass"
-            },
-            "reps": 50,
-            "notes": "Smooth circles, alternate direction halfway"
-          }
-        ]
-      },
-      {
-        "id": "side-swings",
-        "type": "exercises",
-        "exercises": [
-          {
-            "criteria": {
-              "exerciseId": "kettlebell-side-swing"
-            },
-            "reps": 60,
-            "notes": "Drive from the hips, control the arc"
-          }
-        ]
-      },
-      {
-        "id": "high-pulls",
-        "type": "exercises",
-        "exercises": [
-          {
-            "criteria": {
-              "exerciseId": "kettlebell-high-pull"
-            },
-            "reps": 60,
-            "notes": "Explosive pull to shoulder height, keep bell close"
-          }
-        ]
-      },
-      {
-        "id": "goblet-squats",
-        "type": "exercises",
-        "exercises": [
-          {
-            "criteria": {
-              "exerciseId": "kettlebell-goblet-squat"
-            },
-            "reps": 60,
-            "notes": "Full depth, elbows inside knees"
-          }
-        ]
-      }
-    ],
-    "tips": [
-      "230 total reps — pace yourself, this is a grind",
-      "Break each exercise into sets of 10-15 if needed",
-      "Use a moderate weight — you need to survive all 4 exercises",
-      "Rest between exercises as needed, but try to keep moving",
-      "The passes are your warmup — use them to find your rhythm"
-    ],
-    "category": "challenges"
-  },
-  {
     "id": "melange-challenge",
     "name": "Melange Challenge",
     "description": "A comprehensive, high-volume challenge workout combining calisthenics, strength, mobility, and flexibility. This intense full-body melange includes inversions, high-rep exercises, banded work, holds, and stretches. A true test of endurance, strength, and mental fortitude.",
@@ -4696,6 +4613,822 @@
     "category": "floor"
   },
   {
+    "id": "fb-w1-d2-morning-flow",
+    "name": "Week 1 Day 2 Morning Flow",
+    "description": "Morning flow after Push day. Core-heavy floor work, bodyweight legs, hip mobility, and light pushup variations for blood flow. No equipment needed — just a mat. Helps you recover faster while still getting work in.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "recovery",
+      "core",
+      "legs",
+      "mobility",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "mobility-flow",
+        "name": "Block 1: Mobility Flow",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Slow — exhale on cat, inhale on cow. Wake up the spine."
+          },
+          {
+            "id": "hip-flexor-lunge-stretch",
+            "duration": 30,
+            "notes": "30s each side. Push hips forward gently. Your hip flexors are tight from sitting."
+          },
+          {
+            "id": "active-pigeon",
+            "duration": 30,
+            "notes": "30s each side. Rock gently into it. Opens up glutes and hips."
+          },
+          {
+            "id": "squat-to-stand",
+            "reps": 5,
+            "notes": "Touch toes, grab ankles, drop into deep squat, stand. Repeat."
+          },
+          {
+            "id": "downward-dog",
+            "duration": 30,
+            "notes": "Pedal out the feet, push hips high. Stretches hamstrings and shoulders."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "core-block",
+        "name": "Block 2: Core",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dead-bug",
+            "reps": "8 each",
+            "notes": "Opposite arm/leg. Keep lower back glued to floor. Slow and controlled."
+          },
+          {
+            "id": "bicycle-crunch",
+            "reps": 20,
+            "notes": "Slow — touch elbow to opposite knee, fully extend the other leg."
+          },
+          {
+            "id": "bird-dog",
+            "reps": "8 each",
+            "notes": "Extend opposite arm/leg, hold 2 seconds, squeeze glute. Core stability."
+          },
+          {
+            "id": "plank",
+            "duration": 30,
+            "notes": "Squeeze everything — glutes, core, quads. Don't sag."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      },
+      {
+        "id": "legs-block",
+        "name": "Block 3: Bodyweight Legs",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth, arms in front. Slow on the way down — 2 second descent."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "6 each",
+            "notes": "Deep lateral squat, heel stays planted. Opens up adductors and hips."
+          },
+          {
+            "id": "glute-bridge",
+            "reps": 15,
+            "notes": "Squeeze hard at top, 2 second hold. Feel the glutes, not the lower back."
+          },
+          {
+            "id": "lunge",
+            "reps": "8 each",
+            "notes": "Slow walking or reverse lunges. Control the descent, drive through front heel."
+          },
+          {
+            "id": "barre-wide-plie-pulse",
+            "reps": 20,
+            "notes": "Action Jacquelyn. Wide stance, toes out, drop into a plié and pulse. Inner thighs and quads."
+          },
+          {
+            "id": "reverse-nordic-curl",
+            "reps": "6-8",
+            "notes": "Kneel upright, body straight, lean backwards as far as you can control. Quads fight the lean. Come back up. Go only as far as you can return from."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      },
+      {
+        "id": "pushup-blood-flow",
+        "name": "Block 4: Light Pushup Work (Blood Flow)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Easy reps — not to failure. Just getting blood into chest/tris/shoulders to help recovery."
+          },
+          {
+            "id": "wide-push-up",
+            "reps": 8,
+            "notes": "Wider grip, feel the chest stretch at the bottom. Easy pace."
+          },
+          {
+            "id": "slow-mountain-climbers",
+            "reps": "8 each",
+            "notes": "Slow and controlled — bring knee to chest, hold 1 second. Core + hip flexors."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      },
+      {
+        "id": "cooldown",
+        "name": "Block 5: Cooldown Stretch",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "hip-flexor-lunge-stretch",
+            "duration": 30,
+            "notes": "30s each side. Deeper than the warmup — you're warm now."
+          },
+          {
+            "id": "asian-squat",
+            "duration": 60,
+            "notes": "Deep squat hold — just hang out. Scroll your phone. Opens everything up."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 5,
+            "notes": "Slow, end on cow (extension). Finish with a good spine position."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "This is RECOVERY — nothing should feel hard. If it does, do fewer reps.",
+      "Core and legs are the focus since your upper body is wrecked from Push day",
+      "The pushup block is just for blood flow — do NOT go to failure",
+      "Cossack squats are gold for hip mobility AND leg strength",
+      "Asian squat hold at the end: just sit in it, let gravity do the work",
+      "Total: ~30 min on a mat. No equipment needed."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w1-kb-cond",
+    "name": "Week 1 KB Conditioning",
+    "description": "Fast-paced kettlebell conditioning circuit — swings, cleans, snatches, and thrusters in a short, brutal format. Designed to pair with cardio equipment for a complete 30-min session. All fixed exercises.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "circuit",
+      "conditioning",
+      "hiit",
+      "cardio",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Quick Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Loosen up fast"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings to prime the hinge"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "complex",
+        "name": "KB Complex",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Two-handed, explosive"
+          },
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "5 each",
+            "notes": "Clean to rack, strict press, switch sides"
+          },
+          {
+            "id": "kettlebell-thruster",
+            "reps": 8,
+            "notes": "Squat to press in one fluid motion"
+          },
+          {
+            "id": "kettlebell-swing-snatch",
+            "reps": "5 each",
+            "notes": "Full power, punch through at the top"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 45
+      },
+      {
+        "id": "flow-combos",
+        "name": "Flow Combos (Legs + Upper)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-halo-to-reverse-lunge",
+            "reps": "5 each leg",
+            "notes": "Halo one direction, lunge, halo other direction, lunge other leg"
+          },
+          {
+            "id": "kettlebell-figure-8-to-reverse-lunge",
+            "reps": "5 each leg",
+            "notes": "Figure-8 pass then step back into lunge. Alternate legs."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 45
+      }
+    ],
+    "tips": [
+      "This is meant to be fast — minimal rest between exercises, 45s between rounds",
+      "Use a lighter bell than your strength days. This is conditioning, not max effort.",
+      "Pair with 15 min on assault treadmill, stairmaster, or rower for a complete session",
+      "The complex hits every movement pattern: hinge, push, squat, pull",
+      "If snatches aren't in your toolbox yet, sub high pulls or more clean-and-presses"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w1-kb-full",
+    "name": "Week 1 KB Full Body",
+    "description": "Full-body kettlebell strength session covering all movement patterns — squat, hinge, push, pull, and core. Heavier on lower body with goblet squats, Bulgarian splits, and RDLs. Single bell, ~40 min. All fixed exercises.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "strength",
+      "intermediate",
+      "fixed"
+    ],
+    "estimatedDuration": 40,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light, loosen shoulders and thoracic spine"
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 5,
+            "notes": "Easy reps, find your depth"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings, groove the hinge"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "block-1-quad",
+        "name": "Block 1: Legs — Quad Dominant",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 12,
+            "notes": "Full depth, chest up, elbows inside knees at the bottom"
+          },
+          {
+            "id": "bulgarian-split-squat",
+            "reps": "8 each",
+            "notes": "Hold KB goblet style at chest. Rear foot on bench/chair/couch. Control the descent."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-2-hinge",
+        "name": "Block 2: Legs — Posterior Chain",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-romanian-deadlift",
+            "reps": 10,
+            "notes": "Slow on the way down, squeeze glutes at the top. Feel the hamstrings."
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 15,
+            "notes": "Explosive hips. This is the power complement to the slow RDL."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-3-upper",
+        "name": "Block 3: Upper — Push & Pull",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "6 each",
+            "notes": "Clean to rack, strict press overhead. Alternate arms each set or do all one side then switch."
+          },
+          {
+            "id": "kettlebell-row",
+            "reps": "10 each",
+            "notes": "Hinge position, pull elbow past ribs, squeeze at top"
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-4-core",
+        "name": "Block 4: Core & Finish",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each",
+            "notes": "Slow and controlled. Eyes on the bell. This is core stability + hip mobility."
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 20,
+            "notes": "Last push — full power, empty the tank"
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      }
+    ],
+    "tips": [
+      "One kettlebell, ~40 minutes — covers every movement pattern",
+      "The Bulgarian splits and RDLs give this way more lower body work than typical KB circuits",
+      "Use a moderate bell you can press for 8+ reps — lower body exercises will feel easy but that's fine",
+      "For the Bulgarian split squat, any elevated surface works: bench, chair, couch, stairs",
+      "Progress by adding reps, then adding a round, then going heavier"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w1-legs",
+    "name": "Week 1 Legs (Quads/Hamstrings/Glutes/Calves)",
+    "description": "Foundation leg day grouped by station — squat rack for squats and RDLs, leg press for quads and calves, leg curl machine, then dumbbells for lunges. Minimizes moving around a crowded gym. All fixed exercises.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "legs",
+      "lower-body",
+      "quads",
+      "hamstrings",
+      "glutes",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth, arms in front for balance"
+          },
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Open up the hips"
+          },
+          {
+            "id": "lunge",
+            "reps": "5 each leg",
+            "notes": "Bodyweight walking lunges, feel the stretch"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "rack-station",
+        "name": "Station 1: Squat Rack",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": "6-8",
+            "notes": "Barbell back squat. Below parallel, chest up, drive through heels. Main lift — add weight when you hit 4×8."
+          },
+          {
+            "id": "barbell-romanian-deadlift",
+            "reps": "8-10",
+            "notes": "Same bar, strip some weight. Slow descent, feel hamstrings stretch, squeeze glutes at top."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "legpress-station",
+        "name": "Station 2: Leg Press",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": "10-12",
+            "notes": "Feet shoulder-width, mid-platform. Full depth without butt lifting."
+          },
+          {
+            "id": "leg-press-calf-raise",
+            "reps": "15-20",
+            "notes": "Same machine — feet low on platform, toes only. Full stretch at bottom, squeeze at top."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 90
+      },
+      {
+        "id": "legcurl-station",
+        "name": "Station 3: Leg Curl Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-leg-curl",
+            "reps": "10-12",
+            "notes": "Full range of motion, squeeze at peak contraction, slow 2-second negative."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 60
+      },
+      {
+        "id": "dumbbell-station",
+        "name": "Station 4: Dumbbells",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-lunge",
+            "reps": "10 each leg",
+            "notes": "Walking or reverse. Dumbbells at sides. Control the descent, drive through front heel."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Grouped by station — squat rack → leg press → leg curl → dumbbells",
+      "Squat rack: do squats AND RDLs here — same bar, just change the weight",
+      "Leg press: do calf raises here too — same machine, just move your feet down",
+      "Squat is your main lift — warm up with progressively heavier sets first",
+      "Rest 2 min between squat/RDL sets, 60s between everything else",
+      "Total volume: ~17 working sets for legs"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w1-pull",
+    "name": "Week 1 Pull (Back/Biceps/Rear Delts)",
+    "description": "Foundation pull day grouped by station — pull-up bar, then barbell rows, then all cable work, then dumbbells to finish. Minimizes equipment switching. All fixed exercises.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "pull",
+      "upper-body",
+      "back",
+      "biceps",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "cable",
+      "pull-up-bar",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Squeeze shoulder blades, warm up upper back"
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Loosen thoracic spine"
+          },
+          {
+            "id": "dead-hang",
+            "reps": 1,
+            "duration": 20,
+            "notes": "Decompress spine, activate grip and lats"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "pullup-station",
+        "name": "Station 1: Pull-up Bar",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "5-8",
+            "notes": "Full dead hang to chin over bar. Add weight when you hit 3×8. If you can't do 5, use a band or do negatives."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "barbell-station",
+        "name": "Station 2: Barbell",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "barbell-bent-over-row",
+            "reps": "6-8",
+            "notes": "Hinge at hips, pull to lower chest, squeeze at top. Keep core tight, don't round the back."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "cable-station",
+        "name": "Station 3: Cable Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "lat-pulldown",
+            "reps": "10-12",
+            "notes": "Wide grip, lean back slightly, pull to upper chest. Control the eccentric."
+          },
+          {
+            "id": "seated-cable-row",
+            "reps": "10-12",
+            "notes": "Swap to close-grip handle. Chest up, pull to belly button, squeeze shoulder blades."
+          },
+          {
+            "id": "face-pull",
+            "reps": "15-20",
+            "notes": "High cable, rope attachment. Pull to face, externally rotate at the end. Light weight."
+          },
+          {
+            "id": "cable-bicep-curl",
+            "reps": "10-12",
+            "notes": "Low cable, straight bar or EZ bar. Full extension, squeeze at top. Finish all cable work here."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 90
+      },
+      {
+        "id": "dumbbell-station",
+        "name": "Station 4: Dumbbells",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": "12-15",
+            "notes": "Bent over on a bench or standing. Slight bend in elbows, squeeze rear delts."
+          },
+          {
+            "id": "hammer-curl",
+            "reps": "10-12",
+            "notes": "Same dumbbells, neutral grip. Hits brachialis and forearms."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Grouped by station — pull-up bar → barbell → cable machine → dumbbells",
+      "Cable station has 4 exercises — just swap attachments and weight, don't move",
+      "Pull-ups and rows are your main lifts — progressive overload these",
+      "Face pulls are non-negotiable — they keep your shoulders healthy for pressing days",
+      "Total volume: ~18 working sets for pull muscles"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w1-push",
+    "name": "Week 1 Push (Chest/Shoulders/Triceps)",
+    "description": "Foundation push day grouped by station — bench work first, then dumbbells, then cables. Minimizes equipment switching in a crowded gym. All fixed exercises for tracking progression.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "push",
+      "upper-body",
+      "chest",
+      "shoulders",
+      "triceps",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "cable",
+      "bench"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Forward then backward, loosen shoulders"
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Light band, squeeze shoulder blades"
+          },
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Easy reps, get blood flowing to chest and tris"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "bench-station",
+        "name": "Station 1: Bench",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "bench-press",
+            "reps": "6-8",
+            "notes": "Flat barbell bench. Plant feet, arch slightly, drive through chest. Add weight when you hit 4×8."
+          },
+          {
+            "id": "incline-dumbbell-press",
+            "reps": "8-10",
+            "notes": "Adjust bench to 30-45°. Controlled descent, press up and slightly in. Grab DBs before you start."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "dumbbell-station",
+        "name": "Station 2: Dumbbells",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-shoulder-press",
+            "reps": "8-10",
+            "notes": "Seated or standing. Full lockout overhead, controlled descent to ears."
+          },
+          {
+            "id": "lateral-raise",
+            "reps": "12-15",
+            "notes": "Same dumbbells but lighter — or grab a second pair. Lead with elbows, slight lean forward."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 90
+      },
+      {
+        "id": "cable-station",
+        "name": "Station 3: Cable Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "cable-chest-fly",
+            "reps": "10-12",
+            "notes": "High or mid-cable. Slight forward lean, big stretch, squeeze at center."
+          },
+          {
+            "id": "cable-lateral-raise",
+            "reps": "12-15",
+            "notes": "Drop the weight, single arm cross-body. Constant tension."
+          },
+          {
+            "id": "cable-tricep-pushdown",
+            "reps": "10-12",
+            "notes": "Swap to rope or V-bar. Elbows pinned, full extension, squeeze at bottom."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Grouped by station — claim one spot, do all your work there, move on",
+      "Bench station is your main lift — focus on progressive overload here",
+      "Cable station: just swap the attachment between exercises, no need to move",
+      "Rest 2 min between bench sets, 60s between isolation sets",
+      "Total volume: ~16 working sets for push muscles"
+    ],
+    "category": "functional-bulk"
+  },
+  {
     "id": "30-min-hiit-home-vs-gym",
     "name": "30 Min HIIT: Home vs Gym",
     "description": "6-exercise HIIT circuit from @Selfdefencess with bodyweight home variations and weighted gym alternatives. Each exercise has a floor/bodyweight option and a dumbbell/kettlebell option. Pick one column or mix and match based on your equipment.",
@@ -5219,7 +5952,7 @@
   },
   {
     "id": "apartment-gym",
-    "name": "Apartment Gym Session",
+    "name": "Bench / Smith / KB Gym",
     "description": "Full body workout for apartment gyms with limited equipment: floor, bench, Smith machine, and kettlebell.",
     "routineId": "gym",
     "tags": [
@@ -5305,12 +6038,28 @@
             "notes": "feet slightly forward"
           },
           {
-            "id": "smith-machine-bulgarian-split-squat",
+            "criteria": {
+              "equipment": [
+                "smith-machine"
+              ],
+              "tags": [
+                "squat",
+                "unilateral"
+              ]
+            },
             "reps": 10,
             "notes": "each leg"
           },
           {
-            "id": "smith-machine-good-morning",
+            "criteria": {
+              "equipment": [
+                "smith-machine"
+              ],
+              "tags": [
+                "hinge",
+                "posterior-chain"
+              ]
+            },
             "reps": "10-12"
           }
         ],
@@ -9353,15 +10102,18 @@
   {
     "id": "rrr-progressions",
     "name": "Reddit RRR Progressions",
-    "description": "Bodyweight strength training using Reddit Recommended Routine progressions",
+    "description": "The r/bodyweightfitness Recommended Routine — full-body calisthenics strength training using progression chains. 3 superset pairs + core triplet, done 3x/week on non-consecutive days.",
     "routineId": "gym",
+    "source": "r/bodyweightfitness",
+    "sourceUrl": "https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine/",
     "tags": [
       "calisthenics",
       "strength",
       "bodyweight",
-      "progressions"
+      "progressions",
+      "full-body"
     ],
-    "estimatedDuration": 45,
+    "estimatedDuration": 60,
     "equipment": [
       "bodyweight",
       "pull-up-bar"
@@ -9369,7 +10121,7 @@
     "sets": [
       {
         "id": "warmup",
-        "name": "Dynamic Warmup",
+        "name": "Dynamic Warmup (5-10 min)",
         "type": "exercises",
         "randomize": true,
         "exercises": [
@@ -9459,7 +10211,7 @@
       },
       {
         "id": "pair-2",
-        "name": "Pair 2: Dips & Rows",
+        "name": "Pair 2: Dips & Hinges",
         "type": "superset",
         "rounds": 3,
         "exercises": [
@@ -9471,7 +10223,7 @@
           },
           {
             "criteria": {
-              "progression": "row-progression"
+              "progression": "hinge-progression"
             },
             "reps": "5-8"
           }
@@ -9481,32 +10233,86 @@
       },
       {
         "id": "pair-3",
-        "name": "Pair 3: Push-ups & Hinges",
+        "name": "Pair 3: Rows & Push-ups",
         "type": "superset",
         "rounds": 3,
         "exercises": [
           {
             "criteria": {
-              "progression": "push-up-progression"
+              "progression": "row-progression"
             },
             "reps": "5-8"
           },
           {
             "criteria": {
-              "progression": "hinge-progression"
+              "progression": "push-up-progression"
             },
             "reps": "5-8"
           }
         ],
-        "restBetween": 90
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "core-triplet",
+        "name": "Core Triplet",
+        "type": "superset",
+        "rounds": 3,
+        "exercises": [
+          {
+            "criteria": {
+              "tags": [
+                "core",
+                "anti-extension"
+              ],
+              "equipment": [
+                "bodyweight"
+              ]
+            },
+            "reps": "8-12",
+            "poolSize": 2
+          },
+          {
+            "criteria": {
+              "tags": [
+                "core",
+                "anti-rotation"
+              ],
+              "equipment": [
+                "bodyweight"
+              ]
+            },
+            "reps": "8-12",
+            "poolSize": 2
+          },
+          {
+            "criteria": {
+              "tags": [
+                "core",
+                "extension",
+                "back"
+              ],
+              "equipment": [
+                "bodyweight"
+              ]
+            },
+            "reps": "8-12",
+            "poolSize": 2
+          }
+        ],
+        "restBetween": 60
       }
     ],
     "tips": [
-      "Rest 90 seconds between exercises in each pair",
-      "Each pair: do exercise A, rest, do exercise B, rest, repeat 3x",
-      "Pick the progression level that lets you do 5-8 clean reps",
-      "When you can do 3x8, move to the next progression level"
+      "Rest 90s between exercises in each pair (gives ~3 min recovery per muscle group)",
+      "Each pair: do exercise A, rest 90s, do exercise B, rest 90s, repeat 3x",
+      "Pick the progression level that lets you do 5-8 clean reps with good form",
+      "When you can do 3×8, move to the next progression level at 3×5",
+      "Stay 1 rep short of failure — do 7-7-7 instead of 8-6-5",
+      "All exercises use 10X0 tempo: 1s down, no pause, explode up, no pause at top",
+      "BARBELL OPTION: If you have a barbell, you can swap in barbell squats (3×5) for the squat progression, and Romanian deadlifts (3×8) / deadlifts (3×5) for the hinge progression"
     ],
+    "referenceText": "REDDIT RECOMMENDED ROUTINE (RRR)\n— r/bodyweightfitness Wiki —\n\nGOALS\nThis routine covers strength, hypertrophy/muscle gain (with proper diet), and fat loss (with proper diet). It's a general-purpose full-body program.\n\nEQUIPMENT NEEDED\n• A pull-up bar (monkey bars, doorframe bar, rings, etc.)\n• A place to do rows (low bar, rings, sturdy table, or even a knotted bedsheet in a door) — this is non-negotiable\n• Parallel bars for dips (kitchen counter corners, two sturdy chairs, etc.) — alternatives exist if you truly can't find any\n\nHOW PROGRESSIONS WORK\n• Each exercise has a chain of variations from easy to hard (e.g., wall push-up → incline → knee → full → diamond → pseudo-planche)\n• Pick the variation where you can do 3 sets of 5 reps with good form\n• Each session, try to add 1 rep per set until you reach 3 sets of 8 reps\n• Once you hit 3×8 with good form, move to the next harder variation at 3×5\n• You only perform ONE exercise from each progression per session — drop the easier one\n• For isometric holds (support hold, tuck front lever, etc.): hold 10-30 seconds per set, advance when you hit 3×30s\n\nWARMUP (5-10 min)\n  Reps     Exercise                          Notes\n  5-10     Yuri's Shoulder Band Warmup        Alternative: stick/towel dislocates\n  5-10     Squat Sky Reaches                  Can be done assisted\n  10+      GMB Wrist Prep                     Do as many reps as you want\n  30s      Deadbugs                           Core activation\n  10       Arch Hangs                         Add after you reach negative pull-ups\n  30s      Support Hold                       Add after you reach negative dips\n  10       Easier Squat Progression            Add after you reach Bulgarian split squats\n  10       Easier Hinge Progression            Add after you reach banded Nordic curls\n\nSTRENGTH WORK STRUCTURE (40-60 min)\nDone as supersets — alternate between the two exercises in each pair.\n\n  Pair 1: Pull-ups & Squats\n    3×5-8 Pull-up progression ↔ 3×5-8 Squat progression\n\n  Pair 2: Dips & Hinges\n    3×5-8 Dip progression ↔ 3×5-8 Hinge progression\n\n  Pair 3: Rows & Push-ups\n    3×5-8 Row progression ↔ 3×5-8 Push-up progression\n\n  Core Triplet\n    3×8-12 Anti-Extension ↔ 3×8-12 Anti-Rotation ↔ 3×8-12 Extension (60s rest between each)\n\nHOW PAIRING WORKS\nDo a set of exercise A, rest 90s, do a set of exercise B, rest 90s, repeat 3 times. This gives each muscle ~3 min total recovery between its own sets while keeping the workout efficient. For the core triplet, use 60s rest between each of the 3 exercises.\n\nExample:\n  Pull-ups → rest 90s → Squats → rest 90s →\n  Pull-ups → rest 90s → Squats → rest 90s →\n  Pull-ups → rest 90s → Squats → rest 90s →\n  move to next pair\n\nREST TIME\n90s between exercises is the baseline. If you're dropping reps (e.g., 8 on set 1 but only 5-6 on set 2), extend rest up to 3 minutes. Quality reps matter more than speed.\n\nTEMPO\nAll exercises use 10X0 tempo: 1 second on the way down, no pause at bottom, explode up (intent matters even if the actual movement is slow), no pause at top.\n\nREP STRATEGY\nStay 1 rep short of failure. If your max is 8 reps, do 7-7-7 instead of 8-6-5. Going to failure on early sets kills your volume on later sets, which reduces total work and slows progress.\n\nBARBELL INTEGRATION (Optional)\nIf you have access to a barbell and squat rack, you can swap in barbell work for the lower body progressions after mastering the basics:\n• Replace squat progression with barbell squats: 3×5\n• Workouts 1 & 3 of the week: replace hinge progression with Romanian deadlifts (weighted): 3×8\n• Workout 2 of the week: replace hinge progression with deadlifts: 3×5\n• Result: squatting 3x/week, Romanian deadlifting 2x/week, deadlifting 1x/week\n• Warm up with progressively heavier sets before your work sets\n\nIF THE ROUTINE IS TOO MUCH\n• Reduce sets to 1-2 instead of 3 (preferred modification for beginners)\n• Increase rep range to 5-12 or 5-15 before progressing to the next exercise\n• Reduce from 3x/week to 2x/week\n• Split into upper/lower across different days (e.g., MWFSat)\n• Start with just 3 exercises: squat progression + push-ups + rows\n\nTIMELINE FOR RESULTS\n• Performance improvements: 2-3 workouts in\n• Visible to yourself: 4-6 weeks (with proper diet)\n• Visible to others: 12+ weeks (with proper diet)\n\nWHEN TO MOVE ON\nMove to an intermediate routine when you plateau for weeks despite good diet, sleep, and stress management. Or when you exhaust all progressions. The r/bodyweightfitness community recommends developing your own intermediate routine based on the programming principles you'll learn along the way.",
     "category": "gym"
   },
   {
@@ -12537,67 +13343,6 @@
     "category": "kettlebell"
   },
   {
-    "id": "kb-20-min-full-body",
-    "name": "20-Min KB Full Body (@Asgooch)",
-    "description": "Only got 20 minutes and one kettlebell? Swings, goblet squats, rows, goblet press — 10 reps each, 5 rounds. @Asgooch says do this 3x/week to get fit from home.",
-    "routineId": "kettlebell",
-    "tags": [
-      "kettlebell",
-      "full-body",
-      "circuit",
-      "beginner",
-      "quick",
-      "home"
-    ],
-    "estimatedDuration": 20,
-    "equipment": [
-      "kettlebell"
-    ],
-    "difficulty": "beginner",
-    "source": "@Asgooch",
-    "sourceUrl": "https://x.com/Asgooch/status/2019227198805459434",
-    "sets": [
-      {
-        "id": "full-body-circuit",
-        "name": "Full Body Circuit",
-        "type": "exercises",
-        "rounds": 5,
-        "exercises": [
-          {
-            "id": "kettlebell-swing",
-            "reps": 10,
-            "notes": "Two-handed. Explosive hips, back straight."
-          },
-          {
-            "id": "kettlebell-goblet-squat",
-            "reps": 10,
-            "notes": "Chest up, full depth, controlled."
-          },
-          {
-            "id": "kettlebell-row",
-            "reps": "10 each",
-            "notes": "Single arm, 10 per side. Pull with back."
-          },
-          {
-            "id": "kettlebell-overhead-press",
-            "reps": 10,
-            "notes": "Goblet press — both hands, KB at chest to overhead."
-          }
-        ],
-        "restBetween": 0,
-        "restAfter": 60
-      }
-    ],
-    "tips": [
-      "20 minutes, one kettlebell — that's all you need",
-      "Do this 3x per week for general fitness",
-      "No rest between exercises, 60 seconds between rounds",
-      "Perfect for home, hotel, or outdoor training",
-      "Credit: @Asgooch"
-    ],
-    "category": "kettlebell"
-  },
-  {
     "id": "kb-athletic-alternating",
     "name": "Athletic Alternating KB Circuit (@Asgooch)",
     "description": "Build an athletic physique with one kettlebell. Everything alternates — cleans, squats, presses — adding core stability on top of the strength work. Finish with offset pushups on the bell.",
@@ -12761,6 +13506,73 @@
       "Great for building athletic power and coordination",
       "Can be added to any leg day as a dynamic finisher",
       "Credit: @sculptherbody"
+    ],
+    "category": "kettlebell"
+  },
+  {
+    "id": "kb-b-stance-flow",
+    "name": "KB B-Stance Flow (@Asgooch)",
+    "description": "A unilateral kettlebell flow: B-stance swing → swing clean → B-stance squat → snatch overhead → OH lunge. All same arm, don't put the bell down. 5 reps each side, 5 rounds. Builds coordination, conditioning, control, and strength.",
+    "routineId": "kettlebell",
+    "tags": [
+      "kettlebell",
+      "flow",
+      "unilateral",
+      "full-body",
+      "compound",
+      "dynamic",
+      "intermediate"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "source": "@Asgooch",
+    "sourceUrl": "https://x.com/Asgooch/status/2026011472489324584",
+    "sets": [
+      {
+        "id": "flow",
+        "name": "B-Stance Flow",
+        "type": "exercises",
+        "rounds": 5,
+        "exercises": [
+          {
+            "id": "kettlebell-b-stance-swing",
+            "reps": "5 each side",
+            "notes": "One foot back, heel up. Explosive hip drive."
+          },
+          {
+            "id": "kettlebell-swing-clean",
+            "reps": "5 each side",
+            "notes": "Swing up to shoulder/rack — same arm"
+          },
+          {
+            "id": "kettlebell-ab-stance-goblet-squat",
+            "reps": "5 each side",
+            "notes": "Hold at rack, B-stance squat — back foot heel up"
+          },
+          {
+            "id": "kettlebell-swing-snatch",
+            "reps": "5 each side",
+            "notes": "From rack, snatch straight overhead — split stance"
+          },
+          {
+            "id": "kettlebell-overhead-lunge",
+            "reps": "5 each side",
+            "notes": "Bell locked out overhead, lunge forward — same side"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 150
+      }
+    ],
+    "tips": [
+      "5 reps each side per round — do all 5 exercises on one side, then switch",
+      "Don't put the bell down between exercises — it's a continuous flow",
+      "@Asgooch used a 24kg bell for all rounds",
+      "Rest 2-3 minutes between rounds",
+      "Focus on smooth transitions between movements"
     ],
     "category": "kettlebell"
   },
@@ -13386,7 +14198,7 @@
       "strength",
       "cardio"
     ],
-    "estimatedDuration": 30,
+    "estimatedDuration": 40,
     "equipment": [
       "kettlebell"
     ],
@@ -13438,8 +14250,61 @@
         "restAfter": 60
       },
       {
-        "id": "block-2-strength",
-        "name": "Block 2: Strength",
+        "id": "block-2-legs",
+        "name": "Block 2: Legs",
+        "type": "exercises",
+        "rounds": 3,
+        "randomize": true,
+        "exercises": [
+          {
+            "criteria": {
+              "equipment": [
+                "kettlebell"
+              ],
+              "tags": [
+                "squat",
+                "lower-body"
+              ]
+            },
+            "reps": "10-12",
+            "notes": "Full depth, chest up"
+          },
+          {
+            "criteria": {
+              "equipment": [
+                "kettlebell"
+              ],
+              "tags": [
+                "hinge"
+              ],
+              "muscles": [
+                "hamstrings",
+                "glutes"
+              ]
+            },
+            "reps": 10,
+            "notes": "Slow down, squeeze at top"
+          },
+          {
+            "criteria": {
+              "equipment": [
+                "kettlebell"
+              ],
+              "tags": [
+                "unilateral",
+                "lower-body"
+              ]
+            },
+            "reps": "8 each",
+            "notes": "Each leg"
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-3-strength",
+        "name": "Block 3: Strength",
         "type": "exercises",
         "rounds": 3,
         "exercises": [
@@ -13463,8 +14328,8 @@
         "restAfter": 60
       },
       {
-        "id": "block-3-finisher",
-        "name": "Block 3: Metabolic Finisher",
+        "id": "block-4-finisher",
+        "name": "Block 4: Metabolic Finisher",
         "type": "exercises",
         "rounds": 3,
         "exercises": [
@@ -13642,116 +14507,6 @@
       "For the Bulgarian split squat, any elevated surface works: bench, chair, couch, stairs",
       "Progress by adding reps, then adding a round, then going heavier",
       "Can be done 2-3x per week as a primary training session"
-    ],
-    "category": "kettlebell"
-  },
-  {
-    "id": "kb-gym-replacement",
-    "name": "KB Gym Replacement Full Body (@Asgooch)",
-    "description": "Ditch the gym membership — one or two kettlebells can replace it all. @Asgooch's 35-minute full-body session covering all movement patterns: squat, hinge, push, pull, lunge. Cardio, strength, mobility, and muscle building in one session.",
-    "routineId": "kettlebell",
-    "tags": [
-      "kettlebell",
-      "full-body",
-      "strength",
-      "intermediate",
-      "home",
-      "gym-replacement"
-    ],
-    "estimatedDuration": 35,
-    "equipment": [
-      "kettlebell"
-    ],
-    "difficulty": "intermediate",
-    "source": "@Asgooch",
-    "sourceUrl": "https://x.com/Asgooch/status/2020926315990483449",
-    "sets": [
-      {
-        "id": "warmup",
-        "name": "Warmup",
-        "type": "exercises",
-        "rounds": 1,
-        "exercises": [
-          {
-            "id": "kettlebell-halo",
-            "reps": "5 each direction",
-            "notes": "Loosen shoulders"
-          },
-          {
-            "id": "kettlebell-swing",
-            "reps": 10,
-            "notes": "Easy swings to warm up the hinge"
-          }
-        ],
-        "restBetween": 0,
-        "restAfter": 45
-      },
-      {
-        "id": "block-1-lower",
-        "name": "Block 1: Lower Body",
-        "type": "exercises",
-        "rounds": 4,
-        "exercises": [
-          {
-            "id": "kettlebell-goblet-squat",
-            "reps": 12,
-            "notes": "Chest up, full depth"
-          },
-          {
-            "id": "kettlebell-deadlift",
-            "reps": 12,
-            "notes": "Hinge, flat back, squeeze glutes"
-          },
-          {
-            "id": "kettlebell-lunge",
-            "reps": "8 each",
-            "notes": "Goblet or suitcase hold"
-          }
-        ],
-        "restBetween": 15,
-        "restAfter": 60
-      },
-      {
-        "id": "block-2-upper",
-        "name": "Block 2: Upper Body",
-        "type": "exercises",
-        "rounds": 4,
-        "exercises": [
-          {
-            "id": "kettlebell-overhead-press",
-            "reps": "8 each",
-            "notes": "Strict press from rack"
-          },
-          {
-            "id": "kettlebell-row",
-            "reps": "10 each",
-            "notes": "Squeeze at top"
-          }
-        ],
-        "restBetween": 15,
-        "restAfter": 60
-      },
-      {
-        "id": "block-3-conditioning",
-        "name": "Block 3: Conditioning",
-        "type": "exercises",
-        "rounds": 3,
-        "exercises": [
-          {
-            "id": "kettlebell-swing",
-            "reps": 20,
-            "notes": "Full power, go hard"
-          }
-        ],
-        "restBetween": 0,
-        "restAfter": 45
-      }
-    ],
-    "tips": [
-      "All you need is one or two kettlebells to replace an entire gym",
-      "Covers all movement patterns: squat, hinge, push, pull, lunge",
-      "30-45 minutes for a better workout than most gym sessions",
-      "Credit: @Asgooch — 'ditch the gym membership and train with kettlebells'"
     ],
     "category": "kettlebell"
   },
@@ -14096,138 +14851,6 @@
       "Should be able to do all exercises without putting the bell down within a round",
       "Focus on breathing and smooth transitions between exercises",
       "Great for travel, hotel gyms, or days you don't want to go heavy"
-    ],
-    "category": "kettlebell"
-  },
-  {
-    "id": "kb-moving-target-complex",
-    "name": "Moving Target Double KB Complex",
-    "description": "The 'Moving Target' double kettlebell complex from @kb_kings (via @alexkaru). Swing → Clean → Snatch flowing together, with descending snatch reps each round (3-2-1). Don't set the bells down.",
-    "routineId": "kettlebell",
-    "tags": [
-      "kettlebell",
-      "full-body",
-      "complex",
-      "advanced",
-      "strength",
-      "cardio",
-      "dynamic"
-    ],
-    "estimatedDuration": 15,
-    "equipment": [
-      "kettlebell"
-    ],
-    "difficulty": "advanced",
-    "source": "@kb_kings / @alexkaru",
-    "sourceUrl": "https://x.com/kb_kings/status/2022331481889357842",
-    "sets": [
-      {
-        "id": "warmup",
-        "name": "Warmup (Single Bell)",
-        "type": "exercises",
-        "rounds": 1,
-        "exercises": [
-          {
-            "id": "kettlebell-halo",
-            "reps": "5 each direction",
-            "notes": "Light single bell"
-          },
-          {
-            "id": "kettlebell-swing",
-            "reps": 10,
-            "notes": "Single bell, groove the hinge"
-          },
-          {
-            "id": "kettlebell-clean-and-press",
-            "reps": "3 each",
-            "notes": "Single bell, warm up the clean and overhead position"
-          }
-        ],
-        "restBetween": 0,
-        "restAfter": 60
-      },
-      {
-        "id": "moving-target-round-1",
-        "name": "Round 1: 3 Snatches",
-        "type": "exercises",
-        "rounds": 1,
-        "exercises": [
-          {
-            "id": "double-kettlebell-swing",
-            "reps": 5,
-            "notes": "Flow directly into cleans — don't set bells down"
-          },
-          {
-            "id": "double-kettlebell-clean",
-            "reps": 3,
-            "notes": "Rack position, then straight into snatches"
-          },
-          {
-            "id": "double-kettlebell-snatch",
-            "reps": 3,
-            "notes": "Punch through at the top. 3 snatches this round."
-          }
-        ],
-        "restBetween": 0,
-        "restAfter": 60
-      },
-      {
-        "id": "moving-target-round-2",
-        "name": "Round 2: 2 Snatches",
-        "type": "exercises",
-        "rounds": 1,
-        "exercises": [
-          {
-            "id": "double-kettlebell-swing",
-            "reps": 5,
-            "notes": "Same flow — swing into clean into snatch"
-          },
-          {
-            "id": "double-kettlebell-clean",
-            "reps": 3
-          },
-          {
-            "id": "double-kettlebell-snatch",
-            "reps": 2,
-            "notes": "2 snatches this round — the target is moving"
-          }
-        ],
-        "restBetween": 0,
-        "restAfter": 60
-      },
-      {
-        "id": "moving-target-round-3",
-        "name": "Round 3: 1 Snatch",
-        "type": "exercises",
-        "rounds": 1,
-        "exercises": [
-          {
-            "id": "double-kettlebell-swing",
-            "reps": 5,
-            "notes": "Last round — make it count"
-          },
-          {
-            "id": "double-kettlebell-clean",
-            "reps": 3
-          },
-          {
-            "id": "double-kettlebell-snatch",
-            "reps": 1,
-            "notes": "1 snatch — one big explosive rep to finish"
-          }
-        ],
-        "restBetween": 0,
-        "restAfter": 0
-      }
-    ],
-    "tips": [
-      "Requires TWO kettlebells of equal weight",
-      "The 'moving target' = snatch reps decrease each round: 3 → 2 → 1",
-      "Do NOT set the bells down during each round — continuous flow",
-      "Master single-bell snatches before attempting double snatches",
-      "Start lighter than you think — double snatches are humbling",
-      "Rest between rounds as needed — quality over speed",
-      "Credit: @kb_kings / @alexkaru"
     ],
     "category": "kettlebell"
   },
@@ -17536,6 +18159,138 @@
       "60-90 seconds rest between warmup sets"
     ],
     "category": "programs"
+  },
+  {
+    "id": "kb-moving-target-complex",
+    "name": "Moving Target Double KB Complex",
+    "description": "The 'Moving Target' double kettlebell complex from @kb_kings (via @alexkaru). Swing → Clean → Snatch flowing together, with descending snatch reps each round (3-2-1). Don't set the bells down.",
+    "routineId": "snippets",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "complex",
+      "advanced",
+      "strength",
+      "cardio",
+      "dynamic"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "advanced",
+    "source": "@kb_kings / @alexkaru",
+    "sourceUrl": "https://x.com/kb_kings/status/2022331481889357842",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (Single Bell)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light single bell"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Single bell, groove the hinge"
+          },
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "3 each",
+            "notes": "Single bell, warm up the clean and overhead position"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "moving-target-round-1",
+        "name": "Round 1: 3 Snatches",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "double-kettlebell-swing",
+            "reps": 5,
+            "notes": "Flow directly into cleans — don't set bells down"
+          },
+          {
+            "id": "double-kettlebell-clean",
+            "reps": 3,
+            "notes": "Rack position, then straight into snatches"
+          },
+          {
+            "id": "double-kettlebell-snatch",
+            "reps": 3,
+            "notes": "Punch through at the top. 3 snatches this round."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "moving-target-round-2",
+        "name": "Round 2: 2 Snatches",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "double-kettlebell-swing",
+            "reps": 5,
+            "notes": "Same flow — swing into clean into snatch"
+          },
+          {
+            "id": "double-kettlebell-clean",
+            "reps": 3
+          },
+          {
+            "id": "double-kettlebell-snatch",
+            "reps": 2,
+            "notes": "2 snatches this round — the target is moving"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "moving-target-round-3",
+        "name": "Round 3: 1 Snatch",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "double-kettlebell-swing",
+            "reps": 5,
+            "notes": "Last round — make it count"
+          },
+          {
+            "id": "double-kettlebell-clean",
+            "reps": 3
+          },
+          {
+            "id": "double-kettlebell-snatch",
+            "reps": 1,
+            "notes": "1 snatch — one big explosive rep to finish"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Requires TWO kettlebells of equal weight",
+      "The 'moving target' = snatch reps decrease each round: 3 → 2 → 1",
+      "Do NOT set the bells down during each round — continuous flow",
+      "Master single-bell snatches before attempting double snatches",
+      "Start lighter than you think — double snatches are humbling",
+      "Rest between rounds as needed — quality over speed",
+      "Credit: @kb_kings / @alexkaru"
+    ],
+    "category": "snippets"
   },
   {
     "id": "plate-abs-workout",
