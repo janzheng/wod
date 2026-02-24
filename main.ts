@@ -346,7 +346,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
             <div class="folder-tree">
               <template x-for="(program, progIdx) in programs" :key="'prog-' + progIdx + '-' + program.id">
                 <div class="folder-tree-folder" x-data="{ expanded: false }">
-                  <div class="folder-tree-folder-row" @click="expanded = !expanded">
+                  <div class="folder-tree-folder-row" @click="expanded = !expanded; if (expanded) selectProgramOverview(program);">
                     <button class="folder-tree-toggle" @click.stop="expanded = !expanded">
                       <svg class="folder-tree-chevron" :class="{ 'rotated': expanded }" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9 18 15 12 9 6"></polyline>
@@ -357,15 +357,68 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <span class="folder-tree-count" x-text="program.frequency + 'x/wk'"></span>
                   </div>
                   <div class="folder-tree-contents" x-show="expanded" x-collapse>
-                    <template x-for="(day, dayIdx) in program.schedule" :key="'prog-day-' + progIdx + '-' + dayIdx">
-                      <div class="folder-tree-item"
-                        :class="{ 'active': (day.workoutId && selectedWorkoutId === day.workoutId) || (!day.workoutId && selectedActivity && selectedActivity._dayKey === (program.id + '-' + day.day)) }"
-                        :style="day.type === 'rest' ? 'opacity: 0.5; cursor: default;' : ''"
-                        @click="day.type === 'workout' && day.workoutId ? selectWorkout(day.workoutId) : (day.type !== 'rest' ? selectActivity(day, program) : null)">
-                        <button class="folder-tree-item-btn" :style="day.type === 'rest' ? 'cursor: default;' : ''">
-                          <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;" x-text="day.day"></span>
-                          <span x-text="day.label || (day.type === 'rest' ? 'REST' : day.activity?.name || 'Day ' + day.day)"></span>
-                        </button>
+                    <div class="folder-tree-item"
+                      :class="{ 'active': selectedProgram && selectedProgram.id === program.id && selectedWeekIdx === null }"
+                      @click="selectProgramOverview(program)">
+                      <button class="folder-tree-item-btn">
+                        <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;">0</span>
+                        <span>Overview</span>
+                      </button>
+                    </div>
+                    <!-- Week-based programs -->
+                    <template x-if="program.weeks && program.weeks.length > 0">
+                      <div>
+                        <template x-for="(week, weekIdx) in program.weeks" :key="'prog-week-' + progIdx + '-' + weekIdx">
+                          <div x-data="{ weekExpanded: false }">
+                            <div class="folder-tree-item"
+                              style="cursor: pointer;"
+                              @click="weekExpanded = !weekExpanded">
+                              <button class="folder-tree-item-btn" style="gap: 0.35rem;">
+                                <svg :class="{ 'rotated': weekExpanded }" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.4; flex-shrink: 0; transition: transform 0.15s;">
+                                  <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                                <span style="font-size: 0.8rem;" x-text="'Week ' + week.week + (week.label ? ': ' + week.label : '')"></span>
+                              </button>
+                            </div>
+                            <div x-show="weekExpanded" x-collapse style="padding-left: 1.25rem;">
+                              <div class="folder-tree-item"
+                                :class="{ 'active': selectedProgram && selectedProgram.id === program.id && selectedWeekIdx === weekIdx }"
+                                @click="selectWeek(program, weekIdx)">
+                                <button class="folder-tree-item-btn">
+                                  <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;">0</span>
+                                  <span>Overview</span>
+                                </button>
+                              </div>
+                              <template x-for="(day, dayIdx) in week.schedule" :key="'prog-week-day-' + progIdx + '-' + weekIdx + '-' + dayIdx">
+                                <div class="folder-tree-item"
+                                  :class="{ 'active': (day.workoutId && selectedWorkoutId === day.workoutId) || (!day.workoutId && selectedActivity && selectedActivity._dayKey === (program.id + '-w' + week.week + '-' + day.day)) }"
+                                  :style="day.type === 'rest' ? 'opacity: 0.5; cursor: default;' : ''"
+                                  @click="day.type === 'workout' && day.workoutId ? selectWorkout(day.workoutId) : (day.type !== 'rest' ? selectActivity(day, program, week.week) : null)">
+                                  <button class="folder-tree-item-btn" :style="day.type === 'rest' ? 'cursor: default;' : ''">
+                                    <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;" x-text="day.day"></span>
+                                    <span x-text="day.label || (day.type === 'rest' ? 'REST' : day.activity?.name || 'Day ' + day.day)"></span>
+                                  </button>
+                                </div>
+                              </template>
+                            </div>
+                          </div>
+                        </template>
+                      </div>
+                    </template>
+                    <!-- Flat schedule programs (no weeks) -->
+                    <template x-if="!program.weeks || program.weeks.length === 0">
+                      <div>
+                        <template x-for="(day, dayIdx) in program.schedule" :key="'prog-day-' + progIdx + '-' + dayIdx">
+                          <div class="folder-tree-item"
+                            :class="{ 'active': (day.workoutId && selectedWorkoutId === day.workoutId) || (!day.workoutId && selectedActivity && selectedActivity._dayKey === (program.id + '-' + day.day)) }"
+                            :style="day.type === 'rest' ? 'opacity: 0.5; cursor: default;' : ''"
+                            @click="day.type === 'workout' && day.workoutId ? selectWorkout(day.workoutId) : (day.type !== 'rest' ? selectActivity(day, program) : null)">
+                            <button class="folder-tree-item-btn" :style="day.type === 'rest' ? 'cursor: default;' : ''">
+                              <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;" x-text="day.day"></span>
+                              <span x-text="day.label || (day.type === 'rest' ? 'REST' : day.activity?.name || 'Day ' + day.day)"></span>
+                            </button>
+                          </div>
+                        </template>
                       </div>
                     </template>
                   </div>
@@ -425,7 +478,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         <button class="sidebar-trigger" @click="sidebarOpen = !sidebarOpen">
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
-        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout'))"></h1>
+        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
       </header>
 
       <div class="sidebar-inset-content">
@@ -542,7 +595,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         </template>
 
         <!-- ═══ Workout View (existing) ═══ -->
-        <template x-if="currentView === 'workout' && !selectedWorkout && !selectedActivity && !loading">
+        <template x-if="currentView === 'workout' && !selectedWorkout && !selectedActivity && !selectedProgram && !loading">
           <div class="empty-state">
             <div class="empty-state-icon">
               <span class="iconify" data-icon="lucide:dumbbell"></span>
@@ -633,6 +686,344 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
           </div>
         </template>
 
+        <!-- ═══ Program Overview View ═══ -->
+        <template x-if="currentView === 'workout' && selectedProgram && !loading">
+          <div class="workout-detail">
+            <div class="workout-header">
+              <div class="workout-meta">
+                <template x-if="selectedProgram.frequency">
+                  <span class="workout-tag">
+                    <span class="iconify" data-icon="lucide:calendar-days"></span>
+                    <span x-text="selectedProgram.frequency + 'x/week'"></span>
+                  </span>
+                </template>
+                <template x-if="selectedProgram.difficulty">
+                  <span class="workout-tag" x-text="selectedProgram.difficulty"></span>
+                </template>
+                <template x-if="selectedProgram.overview?.duration">
+                  <span class="workout-tag">
+                    <span class="iconify" data-icon="lucide:clock"></span>
+                    <span x-text="selectedProgram.overview.duration"></span>
+                  </span>
+                </template>
+                <template x-if="selectedProgram.sourceUrl">
+                  <a class="workout-tag workout-source-link" :href="selectedProgram.sourceUrl" target="_blank" rel="noopener" @click.stop>
+                    <span class="iconify" data-icon="lucide:external-link"></span>
+                    <span x-text="selectedProgram.creator || 'Source'"></span>
+                  </a>
+                </template>
+                <template x-if="!selectedProgram.sourceUrl && selectedProgram.creator">
+                  <span class="workout-tag workout-source-tag">
+                    <span x-text="selectedProgram.creator"></span>
+                  </span>
+                </template>
+              </div>
+              <template x-if="selectedProgram.description">
+                <p class="workout-description" x-text="selectedProgram.description"></p>
+              </template>
+            </div>
+
+            <!-- ═══ Week Landing Page ═══ -->
+            <template x-if="selectedWeekIdx !== null && selectedProgram.weeks && selectedProgram.weeks[selectedWeekIdx]">
+              <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <div>
+                  <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.4; margin-bottom: 0.25rem;">
+                    <span style="cursor: pointer; text-decoration: underline;" @click="selectProgramOverview(selectedProgram)">Program Overview</span>
+                  </div>
+                  <div style="font-weight: 700; font-size: 1.25rem;" x-text="'Week ' + selectedProgram.weeks[selectedWeekIdx].week + (selectedProgram.weeks[selectedWeekIdx].label ? ': ' + selectedProgram.weeks[selectedWeekIdx].label : '')"></div>
+                </div>
+
+                <template x-if="selectedProgram.weeks[selectedWeekIdx].description">
+                  <p style="line-height: 1.7; font-size: 0.95rem;" x-text="selectedProgram.weeks[selectedWeekIdx].description"></p>
+                </template>
+
+                <!-- Week Schedule -->
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Schedule</div>
+                  <div style="display: flex; flex-direction: column; gap: 0;">
+                    <template x-for="(day, dayIdx) in selectedProgram.weeks[selectedWeekIdx].schedule" :key="'wk-day-' + dayIdx">
+                      <div
+                        style="display: flex; align-items: baseline; gap: 0.75rem; padding: 0.35rem 0; border-bottom: 1px solid rgba(128,128,128,0.08);"
+                        :style="day.type === 'workout' ? 'cursor: pointer;' : (day.type === 'rest' ? 'opacity: 0.4;' : 'cursor: pointer;')"
+                        @click="day.type === 'workout' && day.workoutId ? selectWorkout(day.workoutId) : (day.type !== 'rest' ? selectActivity(day, selectedProgram, selectedProgram.weeks[selectedWeekIdx].week) : null)"
+                      >
+                        <span style="font-size: 0.75rem; font-weight: 600; opacity: 0.35; min-width: 1.5rem; text-align: right;" x-text="day.day"></span>
+                        <span style="font-weight: 600; font-size: 0.875rem; flex: 1;" x-text="day.label"></span>
+                        <template x-if="day.type === 'workout'">
+                          <span style="font-size: 0.7rem; opacity: 0.3;">&rsaquo;</span>
+                        </template>
+                        <template x-if="day.type === 'choice'">
+                          <span style="font-size: 0.7rem; opacity: 0.4; font-style: italic;">options</span>
+                        </template>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+
+                <!-- Week Tips -->
+                <template x-if="selectedProgram.weeks[selectedWeekIdx].tips && selectedProgram.weeks[selectedWeekIdx].tips.length > 0">
+                  <div>
+                    <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Week Tips</div>
+                    <ul style="margin: 0; padding-left: 1.25rem; list-style: disc; display: flex; flex-direction: column; gap: 0.4rem;">
+                      <template x-for="(tip, tipIdx) in selectedProgram.weeks[selectedWeekIdx].tips" :key="'wtip-' + tipIdx">
+                        <li style="line-height: 1.6; font-size: 0.9rem;" x-text="tip"></li>
+                      </template>
+                    </ul>
+                  </div>
+                </template>
+              </div>
+            </template>
+
+            <!-- ═══ Program Overview (when no week selected) ═══ -->
+            <template x-if="selectedWeekIdx === null">
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+              <!-- Cycle Note -->
+              <template x-if="selectedProgram.overview?.cycleNote">
+                <div style="padding: 0.75rem 1rem; background: rgba(128,128,128,0.06); border-radius: 0.5rem; font-size: 0.85rem; line-height: 1.6; opacity: 0.85;">
+                  <span x-text="selectedProgram.overview.cycleNote"></span>
+                </div>
+              </template>
+
+              <!-- Goal -->
+              <template x-if="selectedProgram.overview?.goal">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Goal</div>
+                  <p style="line-height: 1.7; font-size: 0.95rem;" x-text="selectedProgram.overview.goal"></p>
+                </div>
+              </template>
+
+              <!-- Who It's For -->
+              <template x-if="selectedProgram.overview?.whoIsItFor">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Who It's For</div>
+                  <p style="line-height: 1.7; font-size: 0.95rem;" x-text="selectedProgram.overview.whoIsItFor"></p>
+                </div>
+              </template>
+
+              <!-- What to Expect -->
+              <template x-if="selectedProgram.overview?.whatToExpect">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">What to Expect</div>
+                  <p style="line-height: 1.7; font-size: 0.95rem;" x-text="selectedProgram.overview.whatToExpect"></p>
+                </div>
+              </template>
+
+              <!-- Weekly Structure -->
+              <template x-if="selectedProgram.overview?.weeklyStructure">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Weekly Structure</div>
+                  <div style="padding: 0.75rem 1rem; background: var(--color-sidebar); border-radius: 0.5rem; font-family: monospace; font-size: 0.85rem; line-height: 1.8; word-break: break-word;" x-text="selectedProgram.overview.weeklyStructure"></div>
+                </div>
+              </template>
+
+              <!-- Weeks Overview (for multi-week programs) -->
+              <template x-if="selectedProgram.weeks && selectedProgram.weeks.length > 0">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Weeks</div>
+                  <div style="display: flex; flex-direction: column; gap: 0;">
+                    <template x-for="(week, weekIdx) in selectedProgram.weeks" :key="'ov-week-' + weekIdx">
+                      <div
+                        style="display: flex; align-items: baseline; gap: 0.75rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(128,128,128,0.08); cursor: pointer;"
+                        @click="selectWeek(selectedProgram, weekIdx)"
+                      >
+                        <span style="font-size: 0.75rem; font-weight: 600; opacity: 0.35; min-width: 1.5rem; text-align: right;" x-text="week.week"></span>
+                        <span style="font-weight: 600; font-size: 0.875rem; flex: 1;" x-text="week.label || ('Week ' + week.week)"></span>
+                        <span style="font-size: 0.7rem; opacity: 0.3;">&rsaquo;</span>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+              </template>
+
+              <!-- Schedule (for flat schedule programs) -->
+              <template x-if="selectedProgram.schedule && (!selectedProgram.weeks || selectedProgram.weeks.length === 0)">
+              <div>
+                <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Schedule</div>
+                <div style="display: flex; flex-direction: column; gap: 0;">
+                  <template x-for="(day, dayIdx) in selectedProgram.schedule" :key="'ov-day-' + dayIdx">
+                    <div
+                      style="display: flex; align-items: baseline; gap: 0.75rem; padding: 0.35rem 0; border-bottom: 1px solid rgba(128,128,128,0.08);"
+                      :style="day.type === 'workout' ? 'cursor: pointer;' : (day.type === 'rest' ? 'opacity: 0.4;' : 'cursor: pointer;')"
+                      @click="day.type === 'workout' && day.workoutId ? selectWorkout(day.workoutId) : (day.type !== 'rest' ? selectActivity(day, selectedProgram) : null)"
+                    >
+                      <span style="font-size: 0.75rem; font-weight: 600; opacity: 0.35; min-width: 1.5rem; text-align: right;" x-text="day.day"></span>
+                      <span style="font-weight: 600; font-size: 0.875rem; flex: 1;" x-text="day.label"></span>
+                      <template x-if="day.type === 'workout'">
+                        <span style="font-size: 0.7rem; opacity: 0.3;">&rsaquo;</span>
+                      </template>
+                      <template x-if="day.type === 'choice'">
+                        <span style="font-size: 0.7rem; opacity: 0.4; font-style: italic;">options</span>
+                      </template>
+                    </div>
+                  </template>
+                </div>
+              </div>
+              </template>
+
+              <!-- Key Principles -->
+              <template x-if="selectedProgram.overview?.keyPrinciples && selectedProgram.overview.keyPrinciples.length > 0">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Key Principles</div>
+                  <ul style="margin: 0; padding-left: 1.25rem; list-style: disc; display: flex; flex-direction: column; gap: 0.4rem;">
+                    <template x-for="(principle, pIdx) in selectedProgram.overview.keyPrinciples" :key="'principle-' + pIdx">
+                      <li style="line-height: 1.6; font-size: 0.9rem;" x-text="principle"></li>
+                    </template>
+                  </ul>
+                </div>
+              </template>
+
+              <!-- Pros & Cons -->
+              <template x-if="selectedProgram.overview?.prosAndCons">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.75rem;">Pros & Cons</div>
+                  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                      <div style="font-weight: 600; font-size: 0.8rem; color: #22c55e; display: flex; align-items: center; gap: 0.35rem;">
+                        <span class="iconify" data-icon="lucide:thumbs-up" style="font-size: 0.85rem;"></span> Pros
+                      </div>
+                      <ul style="margin: 0; padding-left: 1rem; list-style: none; display: flex; flex-direction: column; gap: 0.35rem;">
+                        <template x-for="(pro, proIdx) in selectedProgram.overview.prosAndCons.pros" :key="'pro-' + proIdx">
+                          <li style="line-height: 1.5; font-size: 0.85rem; position: relative; padding-left: 0.75rem;">
+                            <span style="position: absolute; left: 0; color: #22c55e;">+</span>
+                            <span x-text="pro"></span>
+                          </li>
+                        </template>
+                      </ul>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                      <div style="font-weight: 600; font-size: 0.8rem; color: #ef4444; display: flex; align-items: center; gap: 0.35rem;">
+                        <span class="iconify" data-icon="lucide:thumbs-down" style="font-size: 0.85rem;"></span> Cons
+                      </div>
+                      <ul style="margin: 0; padding-left: 1rem; list-style: none; display: flex; flex-direction: column; gap: 0.35rem;">
+                        <template x-for="(con, conIdx) in selectedProgram.overview.prosAndCons.cons" :key="'con-' + conIdx">
+                          <li style="line-height: 1.5; font-size: 0.85rem; position: relative; padding-left: 0.75rem;">
+                            <span style="position: absolute; left: 0; color: #ef4444;">−</span>
+                            <span x-text="con"></span>
+                          </li>
+                        </template>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </template>
+
+              <!-- Tips -->
+              <template x-if="selectedProgram.tips && selectedProgram.tips.length > 0">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Tips</div>
+                  <div class="workout-tips-inline" style="margin: 0;">
+                    <template x-for="(tip, tipIdx) in selectedProgram.tips" :key="'ptip-' + tipIdx">
+                      <span><span x-text="tip"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
+                    </template>
+                  </div>
+                </div>
+              </template>
+
+              <!-- Rest Guidelines -->
+              <template x-if="selectedProgram.restGuidelines">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Rest Guidelines</div>
+                  <p style="line-height: 1.7; font-size: 0.9rem;" x-text="selectedProgram.restGuidelines"></p>
+                </div>
+              </template>
+
+              <!-- Equipment -->
+              <template x-if="selectedProgram.equipment && selectedProgram.equipment.length > 0">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Equipment Needed</div>
+                  <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                    <template x-for="(eq, eqIdx) in selectedProgram.equipment" :key="'eq-' + eqIdx">
+                      <span class="workout-tag" x-text="eq"></span>
+                    </template>
+                  </div>
+                </div>
+              </template>
+
+              <!-- Reference Guide -->
+              <template x-if="selectedProgram.overview?.referenceGuide && selectedProgram.overview.referenceGuide.length > 0">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.75rem;">Reference Guide</div>
+                  <div style="display: flex; flex-direction: column; gap: 0;">
+                    <template x-for="(section, secIdx) in selectedProgram.overview.referenceGuide" :key="'guide-' + secIdx">
+                      <details class="ref-guide-section" style="border-top: 1px solid rgba(128,128,128,0.15);">
+                        <summary style="padding: 0.75rem 0; cursor: pointer; font-weight: 600; font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem; user-select: none;">
+                          <svg style="width: 12px; height: 12px; transition: transform 0.2s; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                          <span x-text="section.title"></span>
+                        </summary>
+                        <div style="padding: 0 0 1rem 1.25rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                          <!-- Content text -->
+                          <template x-if="section.content">
+                            <p style="line-height: 1.7; font-size: 0.85rem; margin: 0;" x-text="section.content"></p>
+                          </template>
+
+                          <!-- Bullet items -->
+                          <template x-if="section.items && section.items.length > 0">
+                            <ul style="margin: 0; padding-left: 1rem; list-style: disc; display: flex; flex-direction: column; gap: 0.3rem;">
+                              <template x-for="(item, itemIdx) in section.items" :key="'item-' + secIdx + '-' + itemIdx">
+                                <li style="line-height: 1.6; font-size: 0.85rem;" x-text="item"></li>
+                              </template>
+                            </ul>
+                          </template>
+
+                          <!-- Table -->
+                          <template x-if="section.table">
+                            <div style="overflow-x: auto;">
+                              <table style="width: 100%; border-collapse: collapse; font-size: 0.8rem;">
+                                <thead>
+                                  <tr>
+                                    <template x-for="(header, hIdx) in section.table.headers" :key="'th-' + secIdx + '-' + hIdx">
+                                      <th style="text-align: left; padding: 0.4rem 0.6rem; border-bottom: 2px solid rgba(128,128,128,0.2); font-weight: 600; white-space: nowrap;" x-text="header"></th>
+                                    </template>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <template x-for="(row, rIdx) in section.table.rows" :key="'tr-' + secIdx + '-' + rIdx">
+                                    <tr>
+                                      <template x-for="(cell, cIdx) in row" :key="'td-' + secIdx + '-' + rIdx + '-' + cIdx">
+                                        <td style="padding: 0.35rem 0.6rem; border-bottom: 1px solid rgba(128,128,128,0.1);" :style="cIdx === 0 ? 'font-weight: 600; white-space: nowrap; min-width: 3rem;' : ''" x-text="cell"></td>
+                                      </template>
+                                    </tr>
+                                  </template>
+                                </tbody>
+                              </table>
+                            </div>
+                          </template>
+
+                          <!-- Subsections -->
+                          <template x-if="section.subsections && section.subsections.length > 0">
+                            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                              <template x-for="(sub, subIdx) in section.subsections" :key="'sub-' + secIdx + '-' + subIdx">
+                                <div style="padding: 0.6rem 0.75rem; background: var(--color-sidebar); border-radius: 0.375rem;">
+                                  <div style="font-weight: 600; font-size: 0.85rem;" x-text="sub.name"></div>
+                                  <div style="font-size: 0.8rem; opacity: 0.75; margin-top: 0.2rem; font-family: monospace;" x-text="sub.detail"></div>
+                                </div>
+                              </template>
+                            </div>
+                          </template>
+
+                          <!-- Example -->
+                          <template x-if="section.example">
+                            <div style="padding: 0.5rem 0.75rem; background: var(--color-sidebar); border-radius: 0.375rem; font-family: monospace; font-size: 0.75rem; line-height: 1.8; word-break: break-word; white-space: pre-wrap;" x-text="section.example"></div>
+                          </template>
+                        </div>
+                      </details>
+                    </template>
+                  </div>
+                </div>
+              </template>
+
+              <!-- Full Reference Text -->
+              <template x-if="selectedProgram.overview?.referenceText">
+                <div>
+                  <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.75rem;">Full Reference Text</div>
+                  <pre style="white-space: pre-wrap; word-break: break-word; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.8rem; line-height: 1.7; padding: 1rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; margin: 0; max-height: 600px; overflow-y: auto;" x-text="selectedProgram.overview.referenceText"></pre>
+                </div>
+              </template>
+            </div>
+            </template>
+          </div>
+        </template>
+
         <template x-if="loading">
           <div class="loading-state">
             <span class="iconify" data-icon="lucide:loader-2"></span>
@@ -675,6 +1066,58 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <span><span x-text="tip"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
                   </template>
                 </p>
+              </template>
+
+              <!-- Morning Flow -->
+              <template x-if="workoutFlow">
+                <div @click="selectWorkout(workoutFlow.workoutId)" style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s;">
+                  <span style="font-size: 1rem;">&#9728;</span>
+                  <div style="flex: 1;">
+                    <span style="font-weight: 600;" x-text="workoutFlow.label || 'Morning Flow'"></span>
+                    <template x-if="workoutFlow.notes">
+                      <span style="opacity: 0.6; margin-left: 0.4rem;" x-text="workoutFlow.notes"></span>
+                    </template>
+                  </div>
+                  <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </div>
+              </template>
+
+              <!-- Session Log -->
+              <template x-if="workoutLog">
+                <div x-data="{ logOpen: false }" style="margin-top: 0.75rem;">
+                  <div @click="logOpen = !logOpen" style="cursor: pointer; display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; opacity: 0.7;">
+                    <svg :style="logOpen ? 'transform: rotate(90deg)' : ''" width="12" height="12" style="min-width: 12px; max-width: 12px; min-height: 12px; max-height: 12px; flex-shrink: 0; transition: transform 0.15s;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                    <span x-text="'Session Log (' + workoutLog.entries.length + ')'"></span>
+                  </div>
+                  <div x-show="logOpen" x-collapse style="margin-top: 0.5rem;">
+                    <template x-for="(entry, entryIdx) in workoutLog.entries" :key="'log-' + entryIdx">
+                      <div style="padding: 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; margin-bottom: 0.5rem; font-size: 0.8rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+                          <span style="font-weight: 600;" x-text="entry.date"></span>
+                          <template x-if="entry.cardio">
+                            <span style="opacity: 0.6; font-size: 0.75rem;" x-text="entry.cardio"></span>
+                          </template>
+                        </div>
+                        <template x-if="entry.notes">
+                          <p style="margin: 0 0 0.5rem 0; opacity: 0.8; line-height: 1.4;" x-text="entry.notes"></p>
+                        </template>
+                        <template x-if="entry.exercises && entry.exercises.length > 0">
+                          <div style="display: flex; flex-direction: column; gap: 0.35rem;">
+                            <template x-for="(ex, exIdx) in entry.exercises" :key="'logex-' + exIdx">
+                              <div style="display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; align-items: baseline;">
+                                <span style="font-weight: 500; min-width: 140px;" x-text="ex.id + (ex.swappedFor ? ' (for ' + ex.swappedFor + ')' : '')"></span>
+                                <span style="opacity: 0.7; font-size: 0.75rem;" x-text="ex.sets.join(' / ')"></span>
+                                <template x-if="ex.workingWeight">
+                                  <span style="font-size: 0.7rem; background: var(--color-bg, #fff); border: 1px solid var(--color-border, #e5e7eb); border-radius: 3px; padding: 0 4px; white-space: nowrap;">Working: <span x-text="ex.workingWeight"></span> lbs</span>
+                                </template>
+                              </div>
+                            </template>
+                          </div>
+                        </template>
+                      </div>
+                    </template>
+                  </div>
+                </div>
               </template>
             </div>
 
@@ -861,6 +1304,14 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
               </div>
             </template>
 
+            <!-- Full Reference Text (for workouts like RRR) -->
+            <template x-if="selectedWorkout.referenceText">
+              <div style="margin-top: 1.5rem;">
+                <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.75rem;">Full Reference Text</div>
+                <pre style="white-space: pre-wrap; word-break: break-word; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.8rem; line-height: 1.7; padding: 1rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; margin: 0; max-height: 600px; overflow-y: auto;" x-text="selectedWorkout.referenceText"></pre>
+              </div>
+            </template>
+
             <details class="json-details">
               <summary class="json-summary">
                 <span class="json-summary-text">Workout JSON</span>
@@ -903,6 +1354,8 @@ function routineStackApp() {
     selectedWorkoutId: null,
     selectedRoutineId: null,
     selectedActivity: null,
+    selectedProgram: null,
+    selectedWeekIdx: null,
     copied: false,
     generatedWorkout: null,
     expandedExercises: [],
@@ -941,6 +1394,34 @@ function routineStackApp() {
       return this.allWorkouts.find(w => w.id === this.selectedWorkoutId) || null;
     },
 
+    get workoutLog() {
+      if (!this.selectedWorkoutId) return null;
+      for (const program of this.programs) {
+        if (!program.weeks) continue;
+        for (const week of program.weeks) {
+          if (!week.log) continue;
+          const entries = week.log.filter(l => l.workoutId === this.selectedWorkoutId);
+          if (entries.length > 0) return { program, week, entries };
+        }
+      }
+      return null;
+    },
+
+    get workoutFlow() {
+      if (!this.selectedWorkoutId) return null;
+      for (const program of this.programs) {
+        if (!program.weeks) continue;
+        for (const week of program.weeks) {
+          // Check per-day flow first
+          const day = week.schedule?.find(d => d.workoutId === this.selectedWorkoutId);
+          if (day?.flow) return day.flow;
+          // Fall back to week-level flow
+          if (week.flow && day) return week.flow;
+        }
+      }
+      return null;
+    },
+
     get canShuffle() {
       // For alternative workouts, check the generated workout
       if (this.generatedWorkout && this.generatedWorkout._originalId === this.selectedWorkoutId) {
@@ -964,7 +1445,7 @@ function routineStackApp() {
         const bShuffable = this.isWorkoutShuffleable(b);
         if (aShuffable && !bShuffable) return -1;
         if (!aShuffable && bShuffable) return 1;
-        return 0;
+        return (a.name || '').localeCompare(b.name || '', undefined, { numeric: true });
       });
     },
 
@@ -978,29 +1459,42 @@ function routineStackApp() {
       return WorkoutGenerator?.hasRandomizableSets(workout) ?? false;
     },
 
-    getWorkoutIdFromUrl() {
+    getSlugFromUrl() {
       const path = window.location.pathname;
       if (path === '/' || path === '') return null;
-      // Remove leading and trailing slashes
       let slug = path;
       if (slug.startsWith('/')) slug = slug.substring(1);
       if (slug.endsWith('/')) slug = slug.substring(0, slug.length - 1);
-      // Skip API routes and static files
       if (slug.startsWith('api/') || slug.startsWith('static/')) return null;
       return slug || null;
     },
 
-    updateUrl(workoutId) {
-      if (!workoutId) {
-        // Clear URL if no workout selected
+    // Keep old name for compatibility
+    getWorkoutIdFromUrl() {
+      const slug = this.getSlugFromUrl();
+      if (!slug) return null;
+      // program/ prefix means it's a program overview, not a workout
+      if (slug.startsWith('program/')) return null;
+      return slug;
+    },
+
+    getProgramIdFromUrl() {
+      const slug = this.getSlugFromUrl();
+      if (!slug) return null;
+      if (slug.startsWith('program/')) return slug.substring('program/'.length);
+      return null;
+    },
+
+    updateUrl(id, type = 'workout') {
+      if (!id) {
         if (window.location.pathname !== '/') {
-          window.history.pushState({ workoutId: null }, '', '/');
+          window.history.pushState({ type: null, id: null }, '', '/');
         }
         return;
       }
-      const currentPath = '/' + workoutId;
+      const currentPath = type === 'program' ? '/program/' + id : '/' + id;
       if (window.location.pathname !== currentPath) {
-        window.history.pushState({ workoutId }, '', currentPath);
+        window.history.pushState({ type, id }, '', currentPath);
       }
     },
 
@@ -1018,12 +1512,21 @@ function routineStackApp() {
 
       // Listen for browser back/forward navigation
       window.addEventListener('popstate', (e) => {
+        const programId = this.getProgramIdFromUrl();
+        if (programId) {
+          const program = this.programs.find(p => p.id === programId);
+          if (program) {
+            this.selectProgramOverview(program, false);
+            return;
+          }
+        }
         const workoutId = this.getWorkoutIdFromUrl();
         if (workoutId && workoutId !== this.selectedWorkoutId) {
-          this.selectWorkout(workoutId, false); // Don't update URL since it's already changed
+          this.selectWorkout(workoutId, false);
         } else if (!workoutId && this.selectedWorkoutId) {
           this.selectedWorkoutId = null;
           this.generatedWorkout = null;
+          this.selectedProgram = null;
         }
       });
 
@@ -1101,7 +1604,7 @@ function routineStackApp() {
         try {
           const res = await fetch('/api/programs');
           if (res.ok) {
-            this.programs = await res.json();
+            this.programs = (await res.json()).sort((a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99));
             console.log('Loaded ' + this.programs.length + ' programs');
           }
         } catch (e) {
@@ -1115,7 +1618,20 @@ function routineStackApp() {
     },
 
     autoLoadRandomWorkout() {
-      // First, check URL for workout ID
+      // First, check URL for program overview
+      const urlProgramId = this.getProgramIdFromUrl();
+      if (urlProgramId) {
+        const program = this.programs.find(p => p.id === urlProgramId);
+        if (program) {
+          console.log('Loading program from URL:', urlProgramId);
+          this.selectProgramOverview(program, false);
+          return;
+        } else {
+          console.warn('Program not found in URL:', urlProgramId);
+        }
+      }
+
+      // Then, check URL for workout ID
       const urlWorkoutId = this.getWorkoutIdFromUrl();
       if (urlWorkoutId) {
         // Check if workout exists in loaded workouts
@@ -1221,6 +1737,8 @@ function routineStackApp() {
       this.currentView = 'workout';
       this.selectedWorkoutId = id;
       this.selectedActivity = null;
+      this.selectedProgram = null;
+      this.selectedWeekIdx = null;
       this.generatedWorkout = null;
       const workout = this.allWorkouts.find(w => w.id === id) || this.savedWorkouts.find(w => w.id === id);
       if (workout && this.exercisesCatalogue.length > 0) {
@@ -1236,14 +1754,39 @@ function routineStackApp() {
       if (this.isMobile) this.sidebarOpen = false;
     },
 
-    selectActivity(day, program) {
+    selectActivity(day, program, weekNum) {
       this.selectedWorkoutId = null;
       this.generatedWorkout = null;
+      this.selectedProgram = null;
+      this.selectedWeekIdx = null;
       this.selectedActivity = {
         ...day,
-        _dayKey: program.id + '-' + day.day,
+        _dayKey: program.id + (weekNum ? '-w' + weekNum : '') + '-' + day.day,
         _programName: program.name,
       };
+      if (this.isMobile) this.sidebarOpen = false;
+    },
+
+    selectProgramOverview(program, updateUrl = true) {
+      this.currentView = 'workout';
+      this.selectedWorkoutId = null;
+      this.generatedWorkout = null;
+      this.selectedActivity = null;
+      this.selectedProgram = program;
+      this.selectedWeekIdx = null;
+      if (updateUrl) {
+        this.updateUrl(program.id, 'program');
+      }
+      if (this.isMobile) this.sidebarOpen = false;
+    },
+
+    selectWeek(program, weekIdx) {
+      this.currentView = 'workout';
+      this.selectedWorkoutId = null;
+      this.generatedWorkout = null;
+      this.selectedActivity = null;
+      this.selectedProgram = program;
+      this.selectedWeekIdx = weekIdx;
       if (this.isMobile) this.sidebarOpen = false;
     },
 

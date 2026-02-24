@@ -1,0 +1,69 @@
+{
+  "id": "fb-w1-push",
+  "name": "Week 1 Push (Chest/Shoulders/Triceps)",
+  "description": "Foundation push day grouped by station — bench work first, then dumbbells, then cables. Minimizes equipment switching in a crowded gym. All fixed exercises for tracking progression.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "cable", "bench"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Forward then backward, loosen shoulders" },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Light band, squeeze shoulder blades" },
+        { "id": "push-up", "reps": 10, "notes": "Easy reps, get blood flowing to chest and tris" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "bench-station",
+      "name": "Station 1: Bench",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "bench-press", "reps": "6-8", "notes": "Flat barbell bench. Plant feet, arch slightly, drive through chest. Add weight when you hit 4×8." },
+        { "id": "incline-dumbbell-press", "reps": "8-10", "notes": "Adjust bench to 30-45°. Controlled descent, press up and slightly in. Grab DBs before you start." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-station",
+      "name": "Station 2: Dumbbells",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-shoulder-press", "reps": "8-10", "notes": "Seated or standing. Full lockout overhead, controlled descent to ears." },
+        { "id": "lateral-raise", "reps": "12-15", "notes": "Same dumbbells but lighter — or grab a second pair. Lead with elbows, slight lean forward." }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-station",
+      "name": "Station 3: Cable Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "cable-chest-fly", "reps": "10-12", "notes": "High or mid-cable. Slight forward lean, big stretch, squeeze at center." },
+        { "id": "cable-lateral-raise", "reps": "12-15", "notes": "Drop the weight, single arm cross-body. Constant tension." },
+        { "id": "cable-tricep-pushdown", "reps": "10-12", "notes": "Swap to rope or V-bar. Elbows pinned, full extension, squeeze at bottom." }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Grouped by station — claim one spot, do all your work there, move on",
+    "Bench station is your main lift — focus on progressive overload here",
+    "Cable station: just swap the attachment between exercises, no need to move",
+    "Rest 2 min between bench sets, 60s between isolation sets",
+    "Total volume: ~16 working sets for push muscles"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "apartment-gym",
-  "name": "Apartment Gym Session",
+  "name": "Bench / Smith / KB Gym",
   "description": "Full body workout for apartment gyms with limited equipment: floor, bench, Smith machine, and kettlebell.",
   "routineId": "gym",
   "tags": ["gym", "apartment", "smith-machine", "bench", "kettlebell", "full-body"],
@@ -28,8 +28,8 @@
       "randomize": true,
       "exercises": [
         { "criteria": { "equipment": ["smith-machine"], "muscles": ["quads", "glutes"] }, "reps": "10-12", "notes": "feet slightly forward" },
-        { "id": "smith-machine-bulgarian-split-squat", "reps": 10, "notes": "each leg" },
-        { "id": "smith-machine-good-morning", "reps": "10-12" }
+        { "criteria": { "equipment": ["smith-machine"], "tags": ["squat", "unilateral"] }, "reps": 10, "notes": "each leg" },
+        { "criteria": { "equipment": ["smith-machine"], "tags": ["hinge", "posterior-chain"] }, "reps": "10-12" }
       ],
       "restBetween": 60,
       "restAfter": 120

@@ -65,7 +65,7 @@ Tracks where exercises, workouts, and programs come from.
 - **What:** Kettlebell exercise demos and complexes
 - **Import status:** COMPLETE (ongoing - new posts may appear)
 - **Exercises with media:** ~20+ kettlebell exercises (goblet squat, swing, clean, press, rows, etc.)
-- **Workouts:** kb-athletic-alternating, kb-the-only-workout, kb-overhead-mobility-complex, kb-20-min-full-body, kb-brutal-complex, kb-gym-replacement, kb-beginner-full-body, kb-cardio-complex
+- **Workouts:** kb-athletic-alternating, kb-the-only-workout, kb-overhead-mobility-complex, kb-brutal-complex, kb-beginner-full-body, kb-cardio-complex, kb-b-stance-flow
 
 ### @powerbrutehq (X/Twitter)
 - **What:** Kettlebell exercises and leg/core circuits

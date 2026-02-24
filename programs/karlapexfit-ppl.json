@@ -6,6 +6,8 @@
   "source": "https://x.com/karlapexfit/status/2023359316456271917",
   "frequency": 3,
   "tags": ["gym", "strength", "ppl", "push-pull-legs", "hypertrophy"],
+  "difficulty": "intermediate",
+  "equipment": ["barbell", "dumbbell", "cable", "machine"],
   "schedule": [
     {
       "day": 1,
@@ -25,5 +27,26 @@
       "type": "workout",
       "workoutId": "ppl-legs"
     }
-  ]
+  ],
+  "tips": [
+    "Run as 3x/week (Push, Pull, Legs) or 6x/week (PPL × 2) depending on recovery and schedule",
+    "Each workout covers one movement pattern thoroughly",
+    "Exercises drawn from a curated 65-exercise database covering every muscle group"
+  ],
+  "restGuidelines": "2-3 min rest between compound working sets. 60-90s between isolation sets.",
+  "overview": {
+    "duration": "Ongoing (run indefinitely)",
+    "goal": "Build strength and size with a clean Push/Pull/Legs split. Simple, proven structure that covers every muscle group across 3 sessions.",
+    "whoIsItFor": "Beginner to intermediate lifters who want a straightforward gym program. Works great for people with 3 or 6 days to train — run the cycle once or twice per week.",
+    "whatToExpect": "Three focused workouts: Push (chest, shoulders, triceps), Pull (back, biceps, rear delts), and Legs (quads, hamstrings, glutes, calves). Each session covers one movement pattern thoroughly using compound and isolation work.",
+    "keyPrinciples": [
+      "Push/Pull/Legs is the most popular split for a reason — simple and balanced",
+      "Run 3x/week for a sustainable schedule or 6x/week for maximum frequency",
+      "Compound movements first, isolation work after",
+      "65 exercises curated to cover every muscle group comprehensively",
+      "Add weight or reps each week to ensure progressive overload"
+    ],
+    "cycleNote": "This is a repeating cycle — run Push/Pull/Legs on repeat. 3x/week means one cycle per week, 6x/week means two cycles per week. Progress by adding weight or reps.",
+    "weeklyStructure": "3x: Push → Pull → Legs (+ rest days) | 6x: Push → Pull → Legs → Push → Pull → Legs → Rest"
+  }
 }

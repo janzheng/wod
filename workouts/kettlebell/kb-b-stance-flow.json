@@ -1,0 +1,36 @@
+{
+  "id": "kb-b-stance-flow",
+  "name": "KB B-Stance Flow (@Asgooch)",
+  "description": "A unilateral kettlebell flow: B-stance swing → swing clean → B-stance squat → snatch overhead → OH lunge. All same arm, don't put the bell down. 5 reps each side, 5 rounds. Builds coordination, conditioning, control, and strength.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "flow", "unilateral", "full-body", "compound", "dynamic", "intermediate"],
+  "estimatedDuration": 30,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@Asgooch",
+  "sourceUrl": "https://x.com/Asgooch/status/2026011472489324584",
+  "sets": [
+    {
+      "id": "flow",
+      "name": "B-Stance Flow",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-b-stance-swing", "reps": "5 each side", "notes": "One foot back, heel up. Explosive hip drive." },
+        { "id": "kettlebell-swing-clean", "reps": "5 each side", "notes": "Swing up to shoulder/rack — same arm" },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": "5 each side", "notes": "Hold at rack, B-stance squat — back foot heel up" },
+        { "id": "kettlebell-swing-snatch", "reps": "5 each side", "notes": "From rack, snatch straight overhead — split stance" },
+        { "id": "kettlebell-overhead-lunge", "reps": "5 each side", "notes": "Bell locked out overhead, lunge forward — same side" }
+      ],
+      "restBetween": 0,
+      "restAfter": 150
+    }
+  ],
+  "tips": [
+    "5 reps each side per round — do all 5 exercises on one side, then switch",
+    "Don't put the bell down between exercises — it's a continuous flow",
+    "@Asgooch used a 24kg bell for all rounds",
+    "Rest 2-3 minutes between rounds",
+    "Focus on smooth transitions between movements"
+  ]
+}

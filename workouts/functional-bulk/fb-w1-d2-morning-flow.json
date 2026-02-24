@@ -1,0 +1,91 @@
+{
+  "id": "fb-w1-d2-morning-flow",
+  "name": "Week 1 Day 2 Morning Flow",
+  "description": "Morning flow after Push day. Core-heavy floor work, bodyweight legs, hip mobility, and light pushup variations for blood flow. No equipment needed — just a mat. Helps you recover faster while still getting work in.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "recovery", "core", "legs", "mobility", "bodyweight", "fixed"],
+  "estimatedDuration": 30,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "mobility-flow",
+      "name": "Block 1: Mobility Flow",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Slow — exhale on cat, inhale on cow. Wake up the spine." },
+        { "id": "hip-flexor-lunge-stretch", "duration": 30, "notes": "30s each side. Push hips forward gently. Your hip flexors are tight from sitting." },
+        { "id": "active-pigeon", "duration": 30, "notes": "30s each side. Rock gently into it. Opens up glutes and hips." },
+        { "id": "squat-to-stand", "reps": 5, "notes": "Touch toes, grab ankles, drop into deep squat, stand. Repeat." },
+        { "id": "downward-dog", "duration": 30, "notes": "Pedal out the feet, push hips high. Stretches hamstrings and shoulders." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "core-block",
+      "name": "Block 2: Core",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dead-bug", "reps": "8 each", "notes": "Opposite arm/leg. Keep lower back glued to floor. Slow and controlled." },
+        { "id": "bicycle-crunch", "reps": 20, "notes": "Slow — touch elbow to opposite knee, fully extend the other leg." },
+        { "id": "bird-dog", "reps": "8 each", "notes": "Extend opposite arm/leg, hold 2 seconds, squeeze glute. Core stability." },
+        { "id": "plank", "duration": 30, "notes": "Squeeze everything — glutes, core, quads. Don't sag." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "legs-block",
+      "name": "Block 3: Bodyweight Legs",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, arms in front. Slow on the way down — 2 second descent." },
+        { "id": "cossack-squat", "reps": "6 each", "notes": "Deep lateral squat, heel stays planted. Opens up adductors and hips." },
+        { "id": "glute-bridge", "reps": 15, "notes": "Squeeze hard at top, 2 second hold. Feel the glutes, not the lower back." },
+        { "id": "lunge", "reps": "8 each", "notes": "Slow walking or reverse lunges. Control the descent, drive through front heel." },
+        { "id": "barre-wide-plie-pulse", "reps": 20, "notes": "Action Jacquelyn. Wide stance, toes out, drop into a plié and pulse. Inner thighs and quads." },
+        { "id": "reverse-nordic-curl", "reps": "6-8", "notes": "Kneel upright, body straight, lean backwards as far as you can control. Quads fight the lean. Come back up. Go only as far as you can return from." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "pushup-blood-flow",
+      "name": "Block 4: Light Pushup Work (Blood Flow)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "push-up", "reps": 10, "notes": "Easy reps — not to failure. Just getting blood into chest/tris/shoulders to help recovery." },
+        { "id": "wide-push-up", "reps": 8, "notes": "Wider grip, feel the chest stretch at the bottom. Easy pace." },
+        { "id": "slow-mountain-climbers", "reps": "8 each", "notes": "Slow and controlled — bring knee to chest, hold 1 second. Core + hip flexors." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "cooldown",
+      "name": "Block 5: Cooldown Stretch",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "hip-flexor-lunge-stretch", "duration": 30, "notes": "30s each side. Deeper than the warmup — you're warm now." },
+        { "id": "asian-squat", "duration": 60, "notes": "Deep squat hold — just hang out. Scroll your phone. Opens everything up." },
+        { "id": "cat-cow", "reps": 5, "notes": "Slow, end on cow (extension). Finish with a good spine position." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This is RECOVERY — nothing should feel hard. If it does, do fewer reps.",
+    "Core and legs are the focus since your upper body is wrecked from Push day",
+    "The pushup block is just for blood flow — do NOT go to failure",
+    "Cossack squats are gold for hip mobility AND leg strength",
+    "Asian squat hold at the end: just sit in it, let gravity do the work",
+    "Total: ~30 min on a mat. No equipment needed."
+  ]
+}

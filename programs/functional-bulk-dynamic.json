@@ -1,0 +1,184 @@
+{
+  "id": "functional-bulk-dynamic",
+  "sortOrder": 0,
+  "name": "Functional Bulk Dynamic",
+  "description": "Multi-week hybrid program for getting functionally large. 3 heavy gym days (Push/Pull/Legs) for size and strength, 2 kettlebell days for conditioning, plus an optional Zone 2 day. Unlike the standard Functional Bulk, this version uses fixed exercises each week (no randomization) so you can track progression, and evolves week-to-week with different exercises and rep schemes.",
+  "creator": "Custom",
+  "frequency": 6,
+  "phase": "hypertrophy",
+  "difficulty": "intermediate",
+  "equipment": ["barbell", "dumbbell", "cable", "machine", "bench", "kettlebell", "pull-up-bar"],
+  "tags": ["6-day", "hybrid", "gym", "kettlebell", "conditioning", "ppl", "hypertrophy", "functional", "dynamic", "multi-week"],
+  "weeks": [
+    {
+      "week": 1,
+      "label": "Foundation",
+      "description": "Establish your baseline. Learn the movement patterns, find your working weights, and build the habit. All exercises are fixed so you know exactly what you're doing each session.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH",
+          "type": "workout",
+          "workoutId": "fb-w1-push"
+        },
+        {
+          "day": 2,
+          "label": "KB FULL BODY",
+          "type": "workout",
+          "workoutId": "fb-w1-kb-full",
+          "flow": {
+            "workoutId": "fb-w1-d2-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Core, mobility, bodyweight legs. ~30 min on a mat."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL",
+          "type": "workout",
+          "workoutId": "fb-w1-pull"
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING",
+          "type": "workout",
+          "workoutId": "fb-w1-kb-cond"
+        },
+        {
+          "day": 5,
+          "label": "LEGS",
+          "type": "workout",
+          "workoutId": "fb-w1-legs"
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Rowing",
+              "type": "activity",
+              "activity": {
+                "name": "Steady State Row",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "20-22 strokes/min, 120-140bpm. Focus on leg drive."
+              }
+            },
+            {
+              "label": "Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "Focus on learning the movement patterns — form over weight",
+        "Find your working weights: the last 2 reps of each set should be challenging but doable",
+        "Write down your weights so you can beat them next week",
+        "If you can complete all sets at the top of the rep range, increase weight next session"
+      ],
+      "log": [
+        {
+          "day": 1,
+          "workoutId": "fb-w1-push",
+          "date": "2026-02-23",
+          "notes": "Arrilaga was packed — bouncer at the door. No barbell available, swapped BB bench for DB bench. Started too heavy and dropped weight over rounds — finding working weights. Going earlier in 2 days to get barbell access. 12 min zone 2 run each way felt good.",
+          "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+          "exercises": [
+            {
+              "id": "dumbbell-bench-press",
+              "swappedFor": "bench-press",
+              "sets": ["65lbs x8", "65lbs x6", "50lbs x8", "50lbs x8"],
+              "workingWeight": 50,
+              "notes": "Started too heavy at 65, dropped to 50 by round 3. 50 is the working weight."
+            },
+            {
+              "id": "incline-dumbbell-press",
+              "sets": ["50lbs x8", "50lbs x7", "45lbs x8", "45lbs x7"],
+              "workingWeight": 45,
+              "notes": "Similar pattern — 45 is the working weight."
+            },
+            {
+              "id": "dumbbell-shoulder-press",
+              "sets": ["40lbs x8", "40lbs x6", "40lbs x7"],
+              "workingWeight": 40
+            },
+            {
+              "id": "lateral-raise",
+              "sets": ["15lbs x15", "15lbs x15", "15lbs x13"],
+              "workingWeight": 15
+            },
+            {
+              "id": "cable-chest-fly",
+              "sets": ["TRX x8", "22.5lbs x12", "27.5lbs x6 / 22.5lbs x6"],
+              "notes": "Round 1 subbed TRX fly (no cable). Found cable for rounds 2-3."
+            },
+            {
+              "id": "cable-lateral-raise",
+              "sets": ["12.5lbs x15", "12.5lbs x12", "12.5lbs x12"],
+              "workingWeight": 12.5
+            },
+            {
+              "id": "cable-tricep-pushdown",
+              "sets": ["32.5lbs x12", "37.5lbs x12", "37.5lbs x14"],
+              "workingWeight": 37.5,
+              "notes": "Warmed into it — went up over rounds."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Gym days (Push/Pull/Legs) are for building size — go heavy, rest 2-3 min between sets",
+    "KB days are for conditioning and fun — lighter weight, keep moving, build work capacity",
+    "The 12-min run to/from the full gym = 72 min/week of Zone 2 for free",
+    "Day 6 is truly optional — rest if you're beat, do cardio if you're fired up",
+    "For the Functional Bulk goal: eat in a slight surplus, prioritize protein, sleep 7-8 hours",
+    "Each week has fixed exercises — no randomization — so you can track and beat your numbers",
+    "New weeks will be added over time with different exercises, rep schemes, and progressions"
+  ],
+  "restGuidelines": "Gym days: 2-3 min between compound sets, 60-90s between isolation. KB days: minimal rest within circuits, 45-60s between rounds. Zone 2: keep HR 120-140bpm.",
+  "overview": {
+    "duration": "Multi-week (ongoing — new weeks added over time)",
+    "goal": "Get functionally large — build size and strength in the gym while maintaining conditioning and athleticism. Unlike the standard version, this tracks your exact exercises week-to-week so you can measure progress.",
+    "whoIsItFor": "Intermediate lifters who want structure AND progression. You want to know exactly what you're doing each day, track your weights, and see yourself getting stronger week to week.",
+    "whatToExpect": "3 heavy gym days (Push/Pull/Legs) for building size, 2 kettlebell days for conditioning, plus an optional Zone 2 day. Each week has a specific focus and fixed exercises. Week 1 establishes your baseline; future weeks introduce new exercises, higher volume, or different rep schemes.",
+    "keyPrinciples": [
+      "Fixed exercises each week — no randomization — so you can track progression",
+      "Gym days are for building size — go heavy, rest 2-3 min between sets",
+      "KB days are for conditioning — lighter weight, keep moving",
+      "Each week has a different focus that builds on the previous",
+      "Eat in a slight surplus, prioritize protein, sleep 7-8 hours",
+      "Do 10 min daily mobility every morning — it won't affect recovery"
+    ],
+    "cycleNote": "This is a multi-week program. Each week has its own set of workouts. Complete all sessions in a week before moving to the next. New weeks are developed over time based on your progress and goals.",
+    "weeklyStructure": "Mon: Push (Gym) → Tue: KB Full Body → Wed: Pull (Gym) → Thu: KB Conditioning → Fri: Legs (Gym) → Sat: Zone 2/Optional → Sun: Rest"
+  }
+}
