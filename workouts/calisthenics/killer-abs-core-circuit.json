@@ -1,0 +1,40 @@
+{
+  "id": "killer-abs-core-circuit",
+  "name": "Quick Killer Abs & Core Circuit",
+  "description": "A quick 3-exercise bodyweight circuit targeting abs and core. Pointed toe pedaling crunch, alternating leg lowers, and reverse plank knee tucks — 20 reps each for 3 sets.",
+  "routineId": "calisthenics",
+  "tags": ["calisthenics", "core", "abs", "floor", "on-back", "circuit", "bodyweight", "quick"],
+  "estimatedDuration": 10,
+  "equipment": ["bodyweight"],
+  "difficulty": "intermediate",
+  "source": "@sculptherbody",
+  "sourceUrl": "https://x.com/sculptherbody/status/2026983176472576368",
+  "sets": [
+    {
+      "id": "abs-circuit",
+      "name": "Abs & Core Circuit",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "pointed-toe-pedaling-crunch", "reps": 20, "notes": "Pointed toes, head raised and still. Pedal legs to almost straight." },
+        { "id": "alternating-leg-raise", "reps": 20, "notes": "20 total (10 per leg). Keep back flat, control the movement." },
+        { "id": "reverse-plank-knee-tuck", "reps": 20, "notes": "Hands and feet on floor, face up. Drive knees to chest." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    }
+  ],
+  "tips": [
+    "Only 3 exercises — focus on form over speed",
+    "20 reps each, 2-3 sets (do 3 if you can)",
+    "Keep core engaged throughout all exercises"
+  ],
+  "media": [
+    {
+      "type": "link",
+      "value": "https://x.com/sculptherbody/status/2026983176472576368",
+      "source": "@sculptherbody",
+      "caption": "Quick but KILLER ABS & CORE"
+    }
+  ]
+}

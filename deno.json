@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "exports": "./main.ts",
   "tasks": {
-    "dev": "PORT=8010 deno run --allow-read --allow-env --allow-write --allow-net --watch main.ts",
-    "serve": "PORT=8010 deno run --allow-read --allow-env --allow-write --allow-net --reload=https://esm.town main.ts",
+    "dev": "PORT=8010 deno run --allow-read --allow-env --allow-write --allow-net --allow-import --watch main.ts",
+    "serve": "PORT=8010 deno run --allow-read --allow-env --allow-write --allow-net --allow-import --reload=https://esm.town main.ts",
     "build:styles": "cd styles && deno run --allow-read --allow-write --allow-env --allow-import --allow-sys build.ts",
     "build:exercises": "deno run -A scripts/build-exercises.ts",
     "build:workouts": "deno run -A scripts/build-workouts.ts",
@@ -31,7 +31,14 @@
     "wod:cardio:rowing": "deno run -A src/cli/mod.ts generate --workout=erg-intervals",
     "wod:aj": "deno run -A src/cli/mod.ts generate --routine=action-jacqueline",
     "wod:random": "deno run -A src/cli/mod.ts generate --routine=gym --random",
-    "deploy": "deno deploy --app 'wod' --prod"
+    "deploy": "deno deploy --app 'wod' --prod",
+    "ai:chat": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/cli.ts",
+    "ai:chat:local": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/cli.ts --preset local",
+    "ai:serve": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/server.ts",
+    "ai:test": "deno test --allow-read --allow-import src/ai/tests/engine/",
+    "ai:test:session": "deno test --allow-read --allow-import src/ai/tests/session_test.ts",
+    "ai:test:all": "deno test --allow-read --allow-net --allow-env --allow-import src/ai/",
+    "ai:smoke": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/cli.ts --once --prompt 'make a barre workout'"
   },
   "imports": {
     "hono": "https://deno.land/x/hono@v3.11.7/mod.ts",

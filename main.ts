@@ -1,6 +1,24 @@
+import "jsr:@std/dotenv/load";
 import { Hono } from "hono";
+import { createWodAI, getConfig } from "./src/ai/mod.ts";
+import { complete } from "./src/ai/llm/provider.ts";
+import type { ConversationSession } from "./src/ai/types.ts";
 
 const app = new Hono();
+
+// AI pipeline (lazy init on first request)
+let wodAI: Awaited<ReturnType<typeof createWodAI>> | null = null;
+const aiSessions = new Map<string, ConversationSession>();
+
+async function getWodAI() {
+  if (!wodAI) {
+    const dataDir = new URL("./", import.meta.url).pathname;
+    const config = getConfig();
+    wodAI = await createWodAI(dataDir, config);
+    console.log(`AI loaded: ${wodAI.index.size} exercises, ${wodAI.data.workouts.size} templates`);
+  }
+  return wodAI;
+}
 
 // PWA Manifest
 const MANIFEST = {
@@ -19,8 +37,8 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v2';
-const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js'];
+const CACHE_NAME = 'wod-v3';
+const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -167,6 +185,183 @@ app.get("/api/programs/:id", async (c) => {
   return c.json(data);
 });
 
+// Exercise search endpoint
+app.get("/api/ai/search", async (c) => {
+  const q = c.req.query("q") || "";
+  const limit = parseInt(c.req.query("limit") || "10");
+  if (!q.trim()) return c.json({ results: [] });
+
+  const wod = await getWodAI();
+  const results = wod.index.search(q.trim(), limit).map((ex) => ({
+    id: ex.id,
+    name: ex.name,
+    category: ex.category,
+    type: ex.type,
+    muscles: ex.muscles,
+    equipment: ex.equipment,
+    tags: ex.tags,
+    difficulty: ex.difficulty,
+    description: ex.description,
+  }));
+  return c.json({ results, query: q.trim() });
+});
+
+// AI Chat endpoint — classifies message as Q&A vs workout generation
+app.post("/api/ai/chat", async (c) => {
+  const body = await c.req.json<{
+    prompt: string;
+    sessionId?: string;
+    workoutContext?: Record<string, unknown>;
+    history?: Array<{ role: string; content: string; workoutContext?: Record<string, unknown> }>;
+    enableCritic?: boolean;
+  }>();
+  if (!body.prompt) return c.json({ error: "prompt is required" }, 400);
+
+  const apiKey = Deno.env.get("GROQ_API_KEY");
+  if (!apiKey) return c.json({ error: "GROQ_API_KEY not configured" }, 503);
+
+  try {
+    const config = getConfig();
+
+    // Step 1: Classify — question, search, or generate?
+    const classifyMessages = [
+      {
+        role: "system" as const,
+        content: `You are a classifier. Given a user message about fitness/workouts, respond with EXACTLY one word:
+- "search" if the user asks about a specific exercise by name, wants to find exercises, or asks "what is X" / "do we have X" / "tell me about X exercise" (e.g. "what about butterfly stretch", "do we have turkish getup", "find me hamstring exercises", "what is a plié squat")
+- "question" if the user asks a general question, seeks advice, or wants information about a workout they're viewing (e.g. "does this build muscle?", "is this good for beginners?", "how many calories?", "what should I eat?")
+- "generate" if the user wants to create, modify, or change a workout (e.g. "make a leg workout", "make it harder", "add more core", "create a 30 min routine")
+
+Respond with ONLY one word, nothing else.`,
+      },
+      { role: "user" as const, content: body.prompt },
+    ];
+
+    const classification = (await complete(classifyMessages, { ...config, temperature: 0 })).toLowerCase().trim();
+    const intent = classification.startsWith("search") ? "search"
+      : classification.startsWith("question") ? "question"
+      : "generate";
+
+    if (intent === "search" || intent === "question") {
+      // Search the exercise library when relevant
+      const wod = await getWodAI();
+      let searchResults: Array<Record<string, unknown>> = [];
+
+      if (intent === "search") {
+        // Extract search terms (strip common prefixes)
+        const searchQuery = body.prompt
+          .replace(/^(what about|do we have|find me|tell me about|what is|show me|search for|look up)\s*/i, "")
+          .replace(/\?+$/, "")
+          .trim();
+        const results = wod.index.search(searchQuery, 8);
+        searchResults = results.map((ex) => ({
+          id: ex.id, name: ex.name, category: ex.category, type: ex.type,
+          muscles: ex.muscles, equipment: ex.equipment, tags: ex.tags,
+          difficulty: ex.difficulty, description: ex.description,
+        }));
+      }
+
+      // Q&A path — answer using workout context + search results + history
+      let systemPrompt = `You are a knowledgeable, friendly fitness coach. Answer the user's question concisely and helpfully.`;
+
+      if (searchResults.length > 0) {
+        systemPrompt += `\n\nSearch results from the exercise library:\n${JSON.stringify(searchResults, null, 2)}\n\nUse these results to answer the user's question. Mention which exercises were found and key details (muscles, difficulty, description). If the exact exercise wasn't found, mention the closest matches.`;
+      } else if (intent === "search") {
+        systemPrompt += `\n\nNo matching exercises were found in the library for this search. Let the user know and suggest what they might search for instead.`;
+      }
+
+      if (body.workoutContext) {
+        systemPrompt += `\n\nThe user is currently viewing this workout:\n${JSON.stringify(body.workoutContext, null, 2)}`;
+      }
+
+      systemPrompt += `\nKeep answers focused and practical. Use 2-4 sentences unless the question needs more detail. Don't generate a new workout unless explicitly asked.
+When the user references previous workouts from the conversation, use the context provided in earlier messages to answer accurately.`;
+
+      // Build messages array with history
+      const chatMessages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [
+        { role: "system", content: systemPrompt },
+      ];
+
+      if (body.history?.length) {
+        for (const h of body.history.slice(-16)) {
+          const role = h.role === "user" ? "user" as const : "assistant" as const;
+          let content = h.content;
+          if (h.role === "user" && h.workoutContext) {
+            content = `[Viewing: ${(h.workoutContext as Record<string, unknown>).name}] ${content}`;
+          }
+          chatMessages.push({ role, content });
+        }
+      }
+
+      chatMessages.push({ role: "user", content: body.prompt });
+
+      const answer = await complete(chatMessages, config);
+      const sessionId = body.sessionId || crypto.randomUUID();
+
+      return c.json({
+        workout: null,
+        intent: intent,
+        critique: null,
+        sessionId,
+        message: answer,
+        searchResults: searchResults.length > 0 ? searchResults : undefined,
+      });
+    }
+
+    // Workout generation path — use full pipeline
+    const wod = await getWodAI();
+    const session = body.sessionId ? aiSessions.get(body.sessionId) : undefined;
+
+    // Build enriched prompt with conversation history + current context
+    let enrichedPrompt = "";
+
+    // Add conversation history summary so generation knows about previously discussed workouts
+    if (body.history?.length) {
+      const workoutMentions: string[] = [];
+      for (const h of body.history.slice(-16)) {
+        if (h.role === "user" && h.workoutContext) {
+          const wc = h.workoutContext as Record<string, unknown>;
+          workoutMentions.push(`- "${wc.name}": ${h.content}`);
+        }
+      }
+      if (workoutMentions.length) {
+        enrichedPrompt += `[PREVIOUSLY DISCUSSED WORKOUTS]\n${workoutMentions.join("\n")}\n\n`;
+      }
+    }
+
+    if (body.workoutContext) {
+      enrichedPrompt += `[CURRENT WORKOUT CONTEXT]\n${JSON.stringify(body.workoutContext)}\n\n`;
+    }
+    enrichedPrompt += `[USER MESSAGE]\n${body.prompt}`;
+
+    const result = await wod.chat({
+      prompt: enrichedPrompt,
+      session,
+      enableCritic: body.enableCritic ?? true,
+    });
+
+    aiSessions.set(result.session.id, result.session);
+
+    const w = result.workout;
+    const exCount = w.sets.reduce((n: number, s: { exercises: unknown[] }) => n + s.exercises.length, 0);
+    let message = `Here's "${w.name}" — ${w.sets.length} sets, ${exCount} exercises`;
+    if (w.estimatedDuration) message += `, ~${w.estimatedDuration} min`;
+    message += ".";
+    if (w.tips?.length) message += ` Tip: ${w.tips[0]}`;
+
+    return c.json({
+      workout: result.workout,
+      intent: result.intent,
+      critique: result.critique,
+      sessionId: result.session.id,
+      message,
+    });
+  } catch (err) {
+    console.error("AI chat error:", err);
+    return c.json({ error: String(err) }, 500);
+  }
+});
+
 // Serve static files (images, js, sounds)
 app.get("/static/*", async (c) => {
   const path = c.req.path.replace("/static/", "./static/");
@@ -250,11 +445,12 @@ app.get("/*", async (c) => {
   const generatorJs = await Deno.readTextFile(new URL("./static/generator.js", import.meta.url)).catch(() => "");
   const timelineJs = await Deno.readTextFile(new URL("./static/timeline.js", import.meta.url)).catch(() => "");
   const timerJs = await Deno.readTextFile(new URL("./static/timer.js", import.meta.url)).catch(() => "");
+  const chatJs = await Deno.readTextFile(new URL("./static/chat.js", import.meta.url)).catch(() => "");
 
-  return c.html(renderPage(css, generatorJs, timelineJs, timerJs));
+  return c.html(renderPage(css, generatorJs, timelineJs, timerJs, chatJs));
 });
 
-function renderPage(css: string, generatorJs: string, timelineJs: string, timerJs: string) {
+function renderPage(css: string, generatorJs: string, timelineJs: string, timerJs: string, chatJs: string) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -428,6 +624,31 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
           </div>
           </template>
 
+          <!-- AI Custom Workouts -->
+          <template x-if="customWorkouts && customWorkouts.length > 0">
+          <div class="sidebar-group">
+            <div class="sidebar-group-label">AI Custom</div>
+            <nav class="sidebar-menu">
+              <template x-for="(cw, cwIdx) in customWorkouts" :key="'custom-' + cwIdx">
+                <div class="sidebar-menu-item" style="position: relative;">
+                  <button
+                    class="sidebar-menu-button"
+                    :class="{ 'active': selectedWorkoutId === cw.id }"
+                    @click="applyAIWorkout(cw)"
+                  >
+                    <span class="iconify sidebar-icon" data-icon="lucide:sparkles"></span>
+                    <span class="sidebar-menu-label" x-text="cw.name"></span>
+                    <span class="sidebar-menu-badge" x-show="cw.estimatedDuration" x-text="cw.estimatedDuration + 'm'"></span>
+                  </button>
+                  <button class="custom-workout-delete" @click.stop="removeCustomWorkout(cw.id)" title="Remove">
+                    <span class="iconify" data-icon="lucide:x" style="width: 0.75rem; height: 0.75rem;"></span>
+                  </button>
+                </div>
+              </template>
+            </nav>
+          </div>
+          </template>
+
           <div class="sidebar-group">
             <div class="sidebar-group-label">Categories</div>
             <div class="folder-tree">
@@ -479,6 +700,10 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
         <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
+        <button class="chat-toggle-btn" @click="toggleChat()" :class="{ 'active': chatOpen }">
+          <span class="iconify" data-icon="lucide:message-square"></span>
+          <span class="chat-toggle-label">AI Coach</span>
+        </button>
       </header>
 
       <div class="sidebar-inset-content">
@@ -567,10 +792,17 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                       <template x-if="ex.media && ex.media.length > 0">
                         <div class="exercise-card-media">
                           <template x-for="(media, mIdx) in ex.media" :key="'media-' + mIdx">
-                            <a :href="media.value" target="_blank" rel="noopener" class="exercise-media-link">
-                              <span class="iconify" data-icon="lucide:external-link"></span>
-                              <span x-text="media.caption || media.source || 'View'"></span>
-                            </a>
+                            <div>
+                              <template x-if="media.type === 'image'">
+                                <img class="exercise-media-img" :src="media.value.startsWith('/') ? '/static' + media.value : media.value" :alt="media.caption || ex.name" loading="lazy" />
+                              </template>
+                              <template x-if="media.type !== 'image'">
+                                <a :href="media.value" target="_blank" rel="noopener" class="exercise-media-link">
+                                  <span class="iconify" data-icon="lucide:external-link"></span>
+                                  <span x-text="media.caption || media.source || 'View'"></span>
+                                </a>
+                              </template>
+                            </div>
                           </template>
                         </div>
                       </template>
@@ -1325,10 +1557,86 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         </template>
       </div>
     </main>
+
+    <!-- AI Chat Panel (Right Sidebar) -->
+    <div class="chat-panel-wrapper" :class="{ 'open': chatOpen }">
+    <aside class="chat-panel">
+      <div class="chat-panel-header">
+        <div class="chat-panel-title">
+          <span class="iconify" data-icon="lucide:bot"></span>
+          <span>AI Coach</span>
+        </div>
+        <div class="chat-panel-actions">
+          <button class="chat-action-btn" @click="clearChat()" title="Clear chat">
+            <span class="iconify" data-icon="lucide:trash-2"></span>
+          </button>
+          <button class="chat-action-btn" @click="chatOpen = false">
+            <span class="iconify" data-icon="lucide:x"></span>
+          </button>
+        </div>
+      </div>
+
+      <template x-if="selectedWorkout">
+        <div class="chat-context-bar">
+          <span class="iconify" data-icon="lucide:eye"></span>
+          <span x-text="'Viewing: ' + selectedWorkout.name"></span>
+        </div>
+      </template>
+
+      <div class="chat-messages">
+        <template x-if="chatMessages.length === 0">
+          <div class="chat-empty">
+            <span class="iconify" data-icon="lucide:message-square" style="font-size: 2rem; opacity: 0.3;"></span>
+            <p>Ask me to modify your workout, generate a new one, or explain exercises.</p>
+            <div class="chat-suggestions">
+              <button class="chat-suggestion" @click="chatInput = 'Make this workout harder'; sendChatMessage()">Make it harder</button>
+              <button class="chat-suggestion" @click="chatInput = 'Add more core exercises'; sendChatMessage()">Add more core</button>
+              <button class="chat-suggestion" @click="chatInput = 'Generate a 20 min bodyweight workout'; sendChatMessage()">Quick bodyweight</button>
+            </div>
+          </div>
+        </template>
+
+        <template x-for="(msg, msgIdx) in chatMessages" :key="'chat-' + msgIdx">
+          <div class="chat-message" :class="msg.role">
+            <div class="chat-message-content" x-html="renderMarkdown(msg.content)"></div>
+            <template x-if="msg.role === 'assistant' && msg.workout">
+              <div class="chat-message-actions">
+                <button class="chat-apply-btn" @click="applyAIWorkout(msg.workout)">
+                  <span class="iconify" data-icon="lucide:download"></span>
+                  Save &amp; Apply
+                </button>
+              </div>
+            </template>
+          </div>
+        </template>
+
+        <template x-if="chatLoading">
+          <div class="chat-message assistant">
+            <div class="chat-typing"><span></span><span></span><span></span></div>
+          </div>
+        </template>
+      </div>
+
+      <div class="chat-input-area">
+        <input
+          type="text"
+          class="chat-input-field"
+          x-model="chatInput"
+          @keydown.enter="sendChatMessage()"
+          placeholder="Ask about this workout..."
+          :disabled="chatLoading"
+        />
+        <button class="chat-send-btn" @click="sendChatMessage()" :disabled="!chatInput.trim() || chatLoading">
+          <span class="iconify" data-icon="lucide:send"></span>
+        </button>
+      </div>
+    </aside>
+    </div>
   </div>
 
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/marked@15/marked.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.3/dist/cdn.min.js"></script>
 
@@ -1339,8 +1647,12 @@ ${timelineJs}
 
 ${timerJs}
 
+${chatJs}
+
 function routineStackApp() {
+  const chatMixin = typeof chatPanel === 'function' ? chatPanel() : {};
   return {
+    ...chatMixin,
     sidebarOpen: true,
     loading: true,
     initialized: false,
@@ -1534,6 +1846,9 @@ function routineStackApp() {
       await this.loadExercisesCatalogue();
       await this.loadProgressions();
       this.autoLoadRandomWorkout();
+
+      // Initialize AI chat panel
+      if (this.initChat) this.initChat();
 
       // Update filtered exercises on any filter change
       this.updateFilteredExercises();

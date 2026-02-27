@@ -108,6 +108,55 @@ Living document tracking goals, decisions, session logs, and plans for the Funct
 
 **Reflection:** "felt pretty good... started heavier than i could do; first round fine and then i fell apart" -- That's the point of Day 1: finding working weights. Now you know them.
 
+### Day 2: KB Full Body (2026-02-24)
+
+Did the morning flow and full KB workout. Decided not to track sets — this is supposed to be an easy day, kept it light. Morning flow felt good as a wakeup routine.
+
+**Cardio:** 12 min zone 2 run to gym + 12 min zone 2 run back
+
+### Day 3: Pull (2026-02-25)
+
+**Context:** Skipped morning flow (too tired / had work early). Gym packed again — did blocks of each exercise instead of station circuits. Hands still burning from climbing 3 days ago!
+
+**Cardio:** 12 min zone 2 run to gym + 12 min zone 2 run back
+
+| Exercise | Sets | Working Weight | Notes |
+|----------|------|---------------|-------|
+| Pull-up | BW x8, BW x8, BW x8 | BW | 3x8 struggling. Climbing hands made grip rough |
+| Lat Pulldown (weird double machine) | 70lbs x8, 60lbs x8, 70lbs x6 | 70 lbs | Unfamiliar machine, adjusting |
+| Face Pull | 42lbs x8, 47.5lbs x8, 47.5lbs x8, 52.5lbs x8 | 47.5 lbs | Warmed into it, went up |
+| Seated Cable Row | 140lbs x7, 140lbs x7, 140lbs x6 | 140 lbs | Heavy but manageable |
+| Cable Bicep Curl | 37.5lbs x12, 42.5lbs x12, 47.5lbs x10 | 42.5 lbs | Warmed into it |
+| Reverse Fly | 20lbs x15, 20lbs x12, 20lbs x12 | 20 lbs | Bent over standing — no benches available |
+| Hammer Curl | 20lbs x12, 20lbs x10, 20lbs x10 | 20 lbs | Bent over / kneeling over one knee |
+
+**Notes:** Skipped barbell bent-over-row (gym too packed). Did blocks of each exercise instead of circuits between stations. Climbing 3 days ago still affecting grip.
+
+### Day 4: KB Conditioning (2026-02-26)
+
+Did the morning flow — felt great despite being insanely sore. KB conditioning felt short, but that's by design (easy conditioning day to preserve recovery for heavy gym days). Didn't track sets.
+
+**Cardio:** 12 min zone 2 run to gym + 12 min zone 2 run back
+
+### Day 5: Legs (2026-02-27)
+
+**Context:** Skipped morning flow — legs were dead from accumulated week fatigue. First week and legs felt like jello. Took forever since tired. The whole week caught up by Friday.
+
+**Cardio:** 12 min zone 2 run to gym + 12 min zone 2 run back
+
+*Note: Barbell weights (squat, RDL) are plates only — not including 45lb bar.*
+
+| Exercise | Sets | Working Weight | Notes |
+|----------|------|---------------|-------|
+| Squat | 25lbs x8 (warmup), 35lbs x8 (warmup), 45lbs x8, 55lbs x8, 65lbs x6 | 55 lbs plates (100 total) | 55 felt like work, 65 was a push |
+| RDL | 45lbs x10 (warmup), 55lbs x10, 65lbs x8, 65lbs x8 | 65 lbs plates (110 total) | 65 was hard but doable |
+| Leg Press | 180lbs x12, 270lbs x12, 360lbs x12, 360lbs x10 | 360 lbs (4 plates/side) | 2 plates too easy, ramped to 4. Lost depth at 360x10 |
+| Calf Raise (leg press) | 180lbs x12, 270lbs x12, 360lbs x12 | 360 lbs (4 plates/side) | Felt easier than expected |
+| Seated Leg Curl | 30lbs x12, 50lbs x12, 70lbs x10, 50lbs x12 | 50 lbs | Overshot — did 4 sets instead of 3 |
+| DB Lunges | 50lbs x fail, 30lbs x10, 30lbs x10, 30lbs x10 | 30 lbs (per hand) | Died at 50 per hand, dropped to 30 |
+
+**Reflection:** Week 1 complete. Legs day hit hardest — accumulated fatigue from the whole week caught up. Working weights established for all exercises. The program is doing its job.
+
 ## Progression Model
 
 - Week 1 = Foundation (find working weights, learn patterns)
@@ -140,4 +189,6 @@ Living document tracking goals, decisions, session logs, and plans for the Funct
 | `workouts/functional-bulk/fb-w1-kb-full.json` | KB Full Body |
 | `workouts/functional-bulk/fb-w1-kb-cond.json` | KB Conditioning |
 | `workouts/functional-bulk/fb-w1-d2-morning-flow.json` | Day 2 Morning Flow |
+| `workouts/functional-bulk/fb-w1-d4-morning-flow.json` | Day 4 Morning Flow (hip-heavy) |
+| `workouts/functional-bulk/fb-w1-d5-morning-flow.json` | Day 5 Morning Flow (hip primer) |
 | `main.ts` | Full app (Hono server + Alpine.js frontend) |

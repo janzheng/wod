@@ -1,0 +1,77 @@
+{
+  "id": "fb-w1-d4-morning-flow",
+  "name": "Week 1 Day 4 Morning Flow",
+  "description": "Hip-heavy morning flow before KB Conditioning day. Built around the @biolifex 8-exercise mobility flow for hip opening and spinal mobility, plus light core and deep hip stretches from @_fitnesshub. Everything is sore — this is about moving through it.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "recovery", "hips", "mobility", "flow", "bodyweight", "fixed"],
+  "estimatedDuration": 30,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "hip-mobility-flow",
+      "name": "Block 1: Hip Mobility Flow (@biolifex)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "dynamic-malasana", "reps": 10, "notes": "Squat to standing, head stays down, hands touching toes. Wake up the hips." },
+        { "id": "skandasana-side-lunge", "reps": "10 each", "notes": "Keep hips low, alternate sides. Opens adductors and inner hips." },
+        { "id": "forward-fold-twist", "reps": "10 each", "notes": "Easy twist from forward fold. Spine rotation + hamstring stretch." },
+        { "id": "mountain-to-pigeon-pose", "reps": "10 each", "notes": "Step from standing to pigeon, hold briefly. Deep hip opener." },
+        { "id": "frog-pose-pulses", "reps": 15, "notes": "Pulse hips forward and back. This is where the magic happens for sore hips." },
+        { "id": "puppy-pose-cat-cow", "reps": 15, "notes": "Breathe with movement — inhale arch, exhale round. Spine + shoulders." },
+        { "id": "seated-hip-opener", "reps": "10 each", "notes": "Figure-four position, lean forward gently. Gets deep into the glutes." },
+        { "id": "childs-pose-to-cobra", "reps": 15, "notes": "Smooth transitions, slide forward through the floor. Feels amazing on sore everything." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "core-block",
+      "name": "Block 2: Light Core",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "dead-bug", "reps": "8 each", "notes": "Opposite arm/leg. Keep lower back glued to floor." },
+        { "id": "bird-dog", "reps": "8 each", "notes": "Extend opposite arm/leg, hold 2 seconds. Core stability without loading the spine." },
+        { "id": "plank", "duration": 30, "notes": "Squeeze everything. Don't sag." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "pushup-blood-flow",
+      "name": "Block 3: Light Pushup Blood Flow",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "push-up", "reps": 8, "notes": "Easy reps — blood flow for chest/tris recovery from push day." },
+        { "id": "slow-mountain-climbers", "reps": "8 each", "notes": "Slow and controlled — also hits hip flexors which need the work today." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "deep-hip-cooldown",
+      "name": "Block 4: Deep Hip Cooldown (@_fitnesshub)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 30, "notes": "Each side — keep hips square, fold over front leg. Deep glute/hip stretch." },
+        { "id": "lizard-pose", "duration": 30, "notes": "Each side — elbows down for deeper stretch. Hip flexors and groin." },
+        { "id": "butterfly-stretch", "duration": 30, "notes": "Gently press knees down, hinge from hips. Inner thighs." },
+        { "id": "lying-windshield-wipers", "reps": 10, "notes": "Keep shoulders down, controlled side-to-side. Spinal rotation + hip release." }
+      ],
+      "restBetween": 10,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Block 1 is the whole @biolifex mobility flow — do it as one continuous sequence, no rest",
+    "Everything is sore and that's fine — move THROUGH it, not around it",
+    "Core is only 2 rounds today — just enough to wake up the stabilizers",
+    "Pushups are pure blood flow — do NOT push hard, your chest is still recovering",
+    "Block 4 deep stretches: just breathe into them and let gravity work",
+    "Total: ~30 min on a mat. You'll feel way better after this."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "fb-w1-d5-morning-flow",
+  "name": "Week 1 Day 5 Morning Flow",
+  "description": "Quick hip primer before Legs day. Just mobility and stretching — no core, no pushups, no leg work. Open up the hips, wake up the spine, get out the door.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "recovery", "hips", "mobility", "flow", "bodyweight", "fixed", "pre-legs"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "hip-primer",
+      "name": "Hip Primer",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Slow — wake up the spine. Exhale cat, inhale cow." },
+        { "id": "dynamic-malasana", "reps": 8, "notes": "Squat to standing, head stays down. Opens up the squat pattern." },
+        { "id": "hip-flexor-lunge-stretch", "duration": 30, "notes": "30s each side. Push hips forward. Your hip flexors need this before squats." },
+        { "id": "frog-pose-pulses", "reps": 10, "notes": "Pulse hips forward and back. Opens inner hips and groin." },
+        { "id": "active-pigeon", "duration": 30, "notes": "30s each side. Rock gently. Gets deep into glutes." },
+        { "id": "downward-dog", "duration": 30, "notes": "Pedal out the feet. Hamstrings and calves — both about to get worked." },
+        { "id": "squat-to-stand", "reps": 5, "notes": "Touch toes, drop into deep squat, stand. Rehearsing the squat pattern." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This is a 15-minute hip primer — NOT a workout",
+    "No core, no pushups, no leg exercises. Save your legs for squats.",
+    "The goal is to open up your hips so your squat depth is better at the gym",
+    "Dynamic malasana and squat-to-stand are rehearsing the squat movement pattern",
+    "If you're short on time, just do cat-cow + hip flexor stretch + squat-to-stand"
+  ]
+}

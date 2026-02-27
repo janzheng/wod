@@ -1809,6 +1809,70 @@
     "category": "calisthenics"
   },
   {
+    "id": "killer-abs-core-circuit",
+    "name": "Quick Killer Abs & Core Circuit",
+    "description": "A quick 3-exercise bodyweight circuit targeting abs and core. Pointed toe pedaling crunch, alternating leg lowers, and reverse plank knee tucks — 20 reps each for 3 sets.",
+    "routineId": "calisthenics",
+    "tags": [
+      "calisthenics",
+      "core",
+      "abs",
+      "floor",
+      "on-back",
+      "circuit",
+      "bodyweight",
+      "quick"
+    ],
+    "estimatedDuration": 10,
+    "equipment": [
+      "bodyweight"
+    ],
+    "difficulty": "intermediate",
+    "source": "@sculptherbody",
+    "sourceUrl": "https://x.com/sculptherbody/status/2026983176472576368",
+    "sets": [
+      {
+        "id": "abs-circuit",
+        "name": "Abs & Core Circuit",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "pointed-toe-pedaling-crunch",
+            "reps": 20,
+            "notes": "Pointed toes, head raised and still. Pedal legs to almost straight."
+          },
+          {
+            "id": "alternating-leg-raise",
+            "reps": 20,
+            "notes": "20 total (10 per leg). Keep back flat, control the movement."
+          },
+          {
+            "id": "reverse-plank-knee-tuck",
+            "reps": 20,
+            "notes": "Hands and feet on floor, face up. Drive knees to chest."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 60
+      }
+    ],
+    "tips": [
+      "Only 3 exercises — focus on form over speed",
+      "20 reps each, 2-3 sets (do 3 if you can)",
+      "Keep core engaged throughout all exercises"
+    ],
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/sculptherbody/status/2026983176472576368",
+        "source": "@sculptherbody",
+        "caption": "Quick but KILLER ABS & CORE"
+      }
+    ],
+    "category": "calisthenics"
+  },
+  {
     "id": "nathan-core-classic",
     "name": "Nathan Core Classic",
     "description": "Core and calisthenics sequence from Nathan - deep core activation, McGill Big 3, and dynamic core work",
@@ -4796,6 +4860,240 @@
       "Cossack squats are gold for hip mobility AND leg strength",
       "Asian squat hold at the end: just sit in it, let gravity do the work",
       "Total: ~30 min on a mat. No equipment needed."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w1-d4-morning-flow",
+    "name": "Week 1 Day 4 Morning Flow",
+    "description": "Hip-heavy morning flow before KB Conditioning day. Built around the @biolifex 8-exercise mobility flow for hip opening and spinal mobility, plus light core and deep hip stretches from @_fitnesshub. Everything is sore — this is about moving through it.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "recovery",
+      "hips",
+      "mobility",
+      "flow",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "hip-mobility-flow",
+        "name": "Block 1: Hip Mobility Flow (@biolifex)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "dynamic-malasana",
+            "reps": 10,
+            "notes": "Squat to standing, head stays down, hands touching toes. Wake up the hips."
+          },
+          {
+            "id": "skandasana-side-lunge",
+            "reps": "10 each",
+            "notes": "Keep hips low, alternate sides. Opens adductors and inner hips."
+          },
+          {
+            "id": "forward-fold-twist",
+            "reps": "10 each",
+            "notes": "Easy twist from forward fold. Spine rotation + hamstring stretch."
+          },
+          {
+            "id": "mountain-to-pigeon-pose",
+            "reps": "10 each",
+            "notes": "Step from standing to pigeon, hold briefly. Deep hip opener."
+          },
+          {
+            "id": "frog-pose-pulses",
+            "reps": 15,
+            "notes": "Pulse hips forward and back. This is where the magic happens for sore hips."
+          },
+          {
+            "id": "puppy-pose-cat-cow",
+            "reps": 15,
+            "notes": "Breathe with movement — inhale arch, exhale round. Spine + shoulders."
+          },
+          {
+            "id": "seated-hip-opener",
+            "reps": "10 each",
+            "notes": "Figure-four position, lean forward gently. Gets deep into the glutes."
+          },
+          {
+            "id": "childs-pose-to-cobra",
+            "reps": 15,
+            "notes": "Smooth transitions, slide forward through the floor. Feels amazing on sore everything."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "core-block",
+        "name": "Block 2: Light Core",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "dead-bug",
+            "reps": "8 each",
+            "notes": "Opposite arm/leg. Keep lower back glued to floor."
+          },
+          {
+            "id": "bird-dog",
+            "reps": "8 each",
+            "notes": "Extend opposite arm/leg, hold 2 seconds. Core stability without loading the spine."
+          },
+          {
+            "id": "plank",
+            "duration": 30,
+            "notes": "Squeeze everything. Don't sag."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      },
+      {
+        "id": "pushup-blood-flow",
+        "name": "Block 3: Light Pushup Blood Flow",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "push-up",
+            "reps": 8,
+            "notes": "Easy reps — blood flow for chest/tris recovery from push day."
+          },
+          {
+            "id": "slow-mountain-climbers",
+            "reps": "8 each",
+            "notes": "Slow and controlled — also hits hip flexors which need the work today."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      },
+      {
+        "id": "deep-hip-cooldown",
+        "name": "Block 4: Deep Hip Cooldown (@_fitnesshub)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 30,
+            "notes": "Each side — keep hips square, fold over front leg. Deep glute/hip stretch."
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 30,
+            "notes": "Each side — elbows down for deeper stretch. Hip flexors and groin."
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 30,
+            "notes": "Gently press knees down, hinge from hips. Inner thighs."
+          },
+          {
+            "id": "lying-windshield-wipers",
+            "reps": 10,
+            "notes": "Keep shoulders down, controlled side-to-side. Spinal rotation + hip release."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Block 1 is the whole @biolifex mobility flow — do it as one continuous sequence, no rest",
+      "Everything is sore and that's fine — move THROUGH it, not around it",
+      "Core is only 2 rounds today — just enough to wake up the stabilizers",
+      "Pushups are pure blood flow — do NOT push hard, your chest is still recovering",
+      "Block 4 deep stretches: just breathe into them and let gravity work",
+      "Total: ~30 min on a mat. You'll feel way better after this."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w1-d5-morning-flow",
+    "name": "Week 1 Day 5 Morning Flow",
+    "description": "Quick hip primer before Legs day. Just mobility and stretching — no core, no pushups, no leg work. Open up the hips, wake up the spine, get out the door.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "recovery",
+      "hips",
+      "mobility",
+      "flow",
+      "bodyweight",
+      "fixed",
+      "pre-legs"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "hip-primer",
+        "name": "Hip Primer",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Slow — wake up the spine. Exhale cat, inhale cow."
+          },
+          {
+            "id": "dynamic-malasana",
+            "reps": 8,
+            "notes": "Squat to standing, head stays down. Opens up the squat pattern."
+          },
+          {
+            "id": "hip-flexor-lunge-stretch",
+            "duration": 30,
+            "notes": "30s each side. Push hips forward. Your hip flexors need this before squats."
+          },
+          {
+            "id": "frog-pose-pulses",
+            "reps": 10,
+            "notes": "Pulse hips forward and back. Opens inner hips and groin."
+          },
+          {
+            "id": "active-pigeon",
+            "duration": 30,
+            "notes": "30s each side. Rock gently. Gets deep into glutes."
+          },
+          {
+            "id": "downward-dog",
+            "duration": 30,
+            "notes": "Pedal out the feet. Hamstrings and calves — both about to get worked."
+          },
+          {
+            "id": "squat-to-stand",
+            "reps": 5,
+            "notes": "Touch toes, drop into deep squat, stand. Rehearsing the squat pattern."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "This is a 15-minute hip primer — NOT a workout",
+      "No core, no pushups, no leg exercises. Save your legs for squats.",
+      "The goal is to open up your hips so your squat depth is better at the gym",
+      "Dynamic malasana and squat-to-stand are rehearsing the squat movement pattern",
+      "If you're short on time, just do cat-cow + hip flexor stretch + squat-to-stand"
     ],
     "category": "functional-bulk"
   },
@@ -18358,6 +18656,97 @@
     "category": "snippets"
   },
   {
+    "id": "30-minute-mobility-flow",
+    "name": "30 Minute Mobility Flow",
+    "description": "A yoga-inspired mobility flow focusing on hip opening, spinal twists, and dynamic stretches. 8 exercises performed as a continuous sequence, each for 10-15 reps. Repeat the full sequence to fill 30 minutes.",
+    "routineId": "yoga",
+    "tags": [
+      "yoga",
+      "mobility",
+      "hip-opener",
+      "dynamic",
+      "flow",
+      "full-body",
+      "stretch"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "intermediate",
+    "source": "@biolifex",
+    "sourceUrl": "https://x.com/biolifex/status/2026966403614478461",
+    "sets": [
+      {
+        "id": "mobility-flow",
+        "name": "Mobility Flow",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "dynamic-malasana",
+            "reps": 10,
+            "notes": "Squat to standing, head stays down, hands touching toes"
+          },
+          {
+            "id": "skandasana-side-lunge",
+            "reps": "10 each side",
+            "notes": "Keep hips low, alternate sides"
+          },
+          {
+            "id": "forward-fold-twist",
+            "reps": "10 each side",
+            "notes": "Easy twist from forward fold"
+          },
+          {
+            "id": "mountain-to-pigeon-pose",
+            "reps": "10 each side",
+            "notes": "Step from standing to pigeon, hold briefly"
+          },
+          {
+            "id": "frog-pose-pulses",
+            "reps": 15,
+            "notes": "Pulse hips forward and back, focus on hip opening"
+          },
+          {
+            "id": "puppy-pose-cat-cow",
+            "reps": 15,
+            "notes": "Breathe with movement — inhale arch, exhale round"
+          },
+          {
+            "id": "seated-hip-opener",
+            "reps": "10 each side",
+            "notes": "Figure-four position, lean forward gently"
+          },
+          {
+            "id": "childs-pose-to-cobra",
+            "reps": 15,
+            "notes": "Smooth transitions, slide forward through the floor"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Perform as a continuous flow — no rest between exercises",
+      "Breathe deeply and move slowly with each transition",
+      "Repeat the full sequence if needed to reach 30 minutes",
+      "Focus on controlled, smooth movements over speed",
+      "Mobility: the secret ingredient to pain-free movement"
+    ],
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/biolifex/status/2026966403614478461",
+        "source": "@biolifex",
+        "caption": "30 Minutes Mobility Routine"
+      }
+    ],
+    "category": "yoga"
+  },
+  {
     "id": "gentle-yoga-flow",
     "name": "Gentle Yoga Flow",
     "description": "Simple yoga sequence for flexibility and relaxation",
@@ -18482,6 +18871,106 @@
       "Move slowly and mindfully",
       "Never force a stretch",
       "Breathe into tight areas"
+    ],
+    "category": "yoga"
+  },
+  {
+    "id": "top-10-essential-stretches",
+    "name": "Top 10 Stretches Your Body Needs",
+    "description": "A sequence of 10 essential stretches covering full body mobility, focusing on hips, legs, and core. Hold each stretch 30 seconds or perform 10 reps for dynamic movements.",
+    "routineId": "yoga",
+    "tags": [
+      "stretch",
+      "mobility",
+      "full-body",
+      "hips",
+      "hamstrings",
+      "beginner",
+      "sequence"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "source": "@_fitnesshub",
+    "sourceUrl": "https://x.com/_fitnesshub/status/2026916958973608047",
+    "sets": [
+      {
+        "id": "essential-stretches",
+        "name": "Essential Stretches",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pump-stretch",
+            "duration": 30,
+            "notes": "Dynamic pumping in low split position"
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 30,
+            "notes": "Each side — keep hips square, fold over front leg"
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 30,
+            "notes": "Each side — elbows down for deeper stretch"
+          },
+          {
+            "id": "crab-pulse",
+            "reps": 10,
+            "notes": "Pulse hips up and down, keep shoulders away from ears"
+          },
+          {
+            "id": "sissy-squat",
+            "duration": 30,
+            "notes": "Use wall for support if needed, controlled lean back"
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 30,
+            "notes": "Gently press knees down, hinge from hips"
+          },
+          {
+            "id": "straddle-sit-stretch",
+            "duration": 30,
+            "notes": "Keep back straight, fold from hips"
+          },
+          {
+            "id": "plow-pose",
+            "duration": 30,
+            "notes": "Support lower back with hands, avoid neck strain"
+          },
+          {
+            "id": "lying-windshield-wipers",
+            "reps": 10,
+            "notes": "Keep shoulders down, controlled side-to-side"
+          },
+          {
+            "id": "cossack-squat",
+            "duration": 30,
+            "notes": "Each side — keep heel down on working leg"
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Hold each stretch for 30 seconds or perform 10 reps for dynamic ones",
+      "Breathe deeply into each stretch",
+      "These 10 stretches cover everything — save this routine",
+      "Great for post-workout recovery or standalone mobility session"
+    ],
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "source": "@_fitnesshub",
+        "caption": "The Top 10 Stretches Your Body Needs"
+      }
     ],
     "category": "yoga"
   }
