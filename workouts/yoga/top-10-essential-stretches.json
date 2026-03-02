@@ -1,0 +1,48 @@
+{
+  "id": "top-10-essential-stretches",
+  "name": "Top 10 Stretches Your Body Needs",
+  "description": "A sequence of 10 essential stretches covering full body mobility, focusing on hips, legs, and core. Hold each stretch 30 seconds or perform 10 reps for dynamic movements.",
+  "routineId": "yoga",
+  "tags": ["stretch", "mobility", "full-body", "hips", "hamstrings", "beginner", "sequence"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "source": "@_fitnesshub",
+  "sourceUrl": "https://x.com/_fitnesshub/status/2026916958973608047",
+  "sets": [
+    {
+      "id": "essential-stretches",
+      "name": "Essential Stretches",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pump-stretch", "duration": 30, "notes": "Dynamic pumping in low split position" },
+        { "id": "pigeon-pose", "duration": 30, "notes": "Each side — keep hips square, fold over front leg" },
+        { "id": "lizard-pose", "duration": 30, "notes": "Each side — elbows down for deeper stretch" },
+        { "id": "crab-pulse", "reps": 10, "notes": "Pulse hips up and down, keep shoulders away from ears" },
+        { "id": "sissy-squat", "duration": 30, "notes": "Use wall for support if needed, controlled lean back" },
+        { "id": "butterfly-stretch", "duration": 30, "notes": "Gently press knees down, hinge from hips" },
+        { "id": "straddle-sit-stretch", "duration": 30, "notes": "Keep back straight, fold from hips" },
+        { "id": "plow-pose", "duration": 30, "notes": "Support lower back with hands, avoid neck strain" },
+        { "id": "lying-windshield-wipers", "reps": 10, "notes": "Keep shoulders down, controlled side-to-side" },
+        { "id": "cossack-squat", "duration": 30, "notes": "Each side — keep heel down on working leg" }
+      ],
+      "restBetween": 10,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Hold each stretch for 30 seconds or perform 10 reps for dynamic ones",
+    "Breathe deeply into each stretch",
+    "These 10 stretches cover everything — save this routine",
+    "Great for post-workout recovery or standalone mobility session"
+  ],
+  "media": [
+    {
+      "type": "link",
+      "value": "https://x.com/_fitnesshub/status/2026916958973608047",
+      "source": "@_fitnesshub",
+      "caption": "The Top 10 Stretches Your Body Needs"
+    }
+  ]
+}

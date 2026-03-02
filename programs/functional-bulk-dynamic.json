@@ -42,13 +42,23 @@
           "day": 4,
           "label": "KB CONDITIONING",
           "type": "workout",
-          "workoutId": "fb-w1-kb-cond"
+          "workoutId": "fb-w1-kb-cond",
+          "flow": {
+            "workoutId": "fb-w1-d4-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Hip-heavy mobility + deep stretches. Everything is sore — move through it."
+          }
         },
         {
           "day": 5,
           "label": "LEGS",
           "type": "workout",
-          "workoutId": "fb-w1-legs"
+          "workoutId": "fb-w1-legs",
+          "flow": {
+            "workoutId": "fb-w1-d5-morning-flow",
+            "label": "Morning Flow",
+            "notes": "15 min hip primer. No leg work — just open up for squats."
+          }
         },
         {
           "day": 6,
@@ -149,6 +159,114 @@
               "sets": ["32.5lbs x12", "37.5lbs x12", "37.5lbs x14"],
               "workingWeight": 37.5,
               "notes": "Warmed into it — went up over rounds."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "workoutId": "fb-w1-kb-full",
+          "date": "2026-02-24",
+          "notes": "Did morning flow + full KB workout. Didn't track sets — easy day, kept it light. Morning flow felt good as a wakeup routine.",
+          "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back"
+        },
+        {
+          "day": 3,
+          "workoutId": "fb-w1-pull",
+          "date": "2026-02-25",
+          "notes": "Skipped morning flow (too tired / had work). Gym packed again — did blocks of each exercise instead of station circuits. Hands still burning from climbing 3 days ago. Skipped barbell bent-over-row (too packed).",
+          "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+          "exercises": [
+            {
+              "id": "pull-up",
+              "sets": ["BW x8", "BW x8", "BW x8"],
+              "notes": "3x8 struggling. Climbing hands made grip rough."
+            },
+            {
+              "id": "lat-pulldown",
+              "sets": ["70lbs x8", "60lbs x8", "70lbs x6"],
+              "workingWeight": 70,
+              "notes": "Weird double machine, unfamiliar. Adjusting."
+            },
+            {
+              "id": "face-pull",
+              "sets": ["42lbs x8", "47.5lbs x8", "47.5lbs x8", "52.5lbs x8"],
+              "workingWeight": 47.5,
+              "notes": "Warmed into it, went up."
+            },
+            {
+              "id": "seated-cable-row",
+              "sets": ["140lbs x7", "140lbs x7", "140lbs x6"],
+              "workingWeight": 140
+            },
+            {
+              "id": "cable-bicep-curl",
+              "sets": ["37.5lbs x12", "42.5lbs x12", "47.5lbs x10"],
+              "workingWeight": 42.5,
+              "notes": "Warmed into it."
+            },
+            {
+              "id": "dumbbell-reverse-fly",
+              "sets": ["20lbs x15", "20lbs x12", "20lbs x12"],
+              "workingWeight": 20,
+              "notes": "Bent over standing — no benches available."
+            },
+            {
+              "id": "hammer-curl",
+              "sets": ["20lbs x12", "20lbs x10", "20lbs x10"],
+              "workingWeight": 20,
+              "notes": "Bent over / kneeling over one knee."
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "workoutId": "fb-w1-kb-cond",
+          "date": "2026-02-26",
+          "notes": "Did morning flow — felt great despite being insanely sore. KB conditioning felt short but that's by design. Easy day, didn't track sets.",
+          "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back"
+        },
+        {
+          "day": 5,
+          "workoutId": "fb-w1-legs",
+          "date": "2026-02-27",
+          "notes": "Skipped morning flow — legs were dead from accumulated week fatigue. First week and legs felt like jello. Took forever since tired. Barbell weights below are plates only (not including 45lb bar).",
+          "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+          "exercises": [
+            {
+              "id": "squat",
+              "sets": ["25lbs x8 (warmup)", "35lbs x8 (warmup)", "45lbs x8", "55lbs x8", "65lbs x6"],
+              "workingWeight": 55,
+              "notes": "Plates only (+45lb bar). 55 felt like work (100lbs total). 65 was a push at 6 reps (110lbs total)."
+            },
+            {
+              "id": "barbell-romanian-deadlift",
+              "sets": ["45lbs x10 (warmup)", "55lbs x10", "65lbs x8", "65lbs x8"],
+              "workingWeight": 65,
+              "notes": "Plates only (+45lb bar). 65 was hard but doable (110lbs total)."
+            },
+            {
+              "id": "leg-press",
+              "sets": ["180lbs x12", "270lbs x12", "360lbs x12", "360lbs x10"],
+              "workingWeight": 360,
+              "notes": "Weights are total (plates per side x2). 2 plates too easy, ramped to 4 plates per side. Lost depth on last set."
+            },
+            {
+              "id": "leg-press-calf-raise",
+              "sets": ["180lbs x12", "270lbs x12", "360lbs x12"],
+              "workingWeight": 360,
+              "notes": "Weights are total (plates per side x2). Felt easier than expected."
+            },
+            {
+              "id": "seated-leg-curl",
+              "sets": ["30lbs x12", "50lbs x12", "70lbs x10", "50lbs x12"],
+              "workingWeight": 50,
+              "notes": "Overshot — did 4 sets instead of 3. 50 is the repeatable working weight."
+            },
+            {
+              "id": "dumbbell-lunge",
+              "sets": ["50lbs x fail", "30lbs x10", "30lbs x10", "30lbs x10"],
+              "workingWeight": 30,
+              "notes": "Died at 50 per hand. Dropped to 30 per hand for 3x10."
             }
           ]
         }

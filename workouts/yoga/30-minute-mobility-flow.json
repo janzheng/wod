@@ -1,0 +1,47 @@
+{
+  "id": "30-minute-mobility-flow",
+  "name": "30 Minute Mobility Flow",
+  "description": "A yoga-inspired mobility flow focusing on hip opening, spinal twists, and dynamic stretches. 8 exercises performed as a continuous sequence, each for 10-15 reps. Repeat the full sequence to fill 30 minutes.",
+  "routineId": "yoga",
+  "tags": ["yoga", "mobility", "hip-opener", "dynamic", "flow", "full-body", "stretch"],
+  "estimatedDuration": 30,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "intermediate",
+  "source": "@biolifex",
+  "sourceUrl": "https://x.com/biolifex/status/2026966403614478461",
+  "sets": [
+    {
+      "id": "mobility-flow",
+      "name": "Mobility Flow",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "dynamic-malasana", "reps": 10, "notes": "Squat to standing, head stays down, hands touching toes" },
+        { "id": "skandasana-side-lunge", "reps": "10 each side", "notes": "Keep hips low, alternate sides" },
+        { "id": "forward-fold-twist", "reps": "10 each side", "notes": "Easy twist from forward fold" },
+        { "id": "mountain-to-pigeon-pose", "reps": "10 each side", "notes": "Step from standing to pigeon, hold briefly" },
+        { "id": "frog-pose-pulses", "reps": 15, "notes": "Pulse hips forward and back, focus on hip opening" },
+        { "id": "puppy-pose-cat-cow", "reps": 15, "notes": "Breathe with movement — inhale arch, exhale round" },
+        { "id": "seated-hip-opener", "reps": "10 each side", "notes": "Figure-four position, lean forward gently" },
+        { "id": "childs-pose-to-cobra", "reps": 15, "notes": "Smooth transitions, slide forward through the floor" }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Perform as a continuous flow — no rest between exercises",
+    "Breathe deeply and move slowly with each transition",
+    "Repeat the full sequence if needed to reach 30 minutes",
+    "Focus on controlled, smooth movements over speed",
+    "Mobility: the secret ingredient to pain-free movement"
+  ],
+  "media": [
+    {
+      "type": "link",
+      "value": "https://x.com/biolifex/status/2026966403614478461",
+      "source": "@biolifex",
+      "caption": "30 Minutes Mobility Routine"
+    }
+  ]
+}

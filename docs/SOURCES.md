@@ -74,9 +74,12 @@ Tracks where exercises, workouts, and programs come from.
 - **Workouts:** kb-core-library, kb-legs-circuit (inspired by)
 
 ### @sculptherbody (X/Twitter)
-- **What:** Kettlebell lunge and press variations
+- **What:** Kettlebell lunge/press variations + bodyweight abs circuit
 - **Import status:** COMPLETE
-- **Exercises with media:** kettlebell clean-and-press, reverse-lunge-swing, split-stance-pass-through, lunge-snatch, lunge-clean-to-press, lunge
+- **Exercises with media:** kettlebell clean-and-press, reverse-lunge-swing, split-stance-pass-through, lunge-snatch, lunge-clean-to-press, lunge, pointed-toe-pedaling-crunch, reverse-plank-knee-tuck
+- **Exercises existing (media added):** alternating-leg-raise
+- **Workouts:** killer-abs-core-circuit
+- **URLs:** https://x.com/sculptherbody/status/2026983176472576368 (abs circuit)
 
 ### @gymfiesta (X/Twitter)
 - **What:** Kettlebell exercise demos
@@ -135,6 +138,23 @@ Tracks where exercises, workouts, and programs come from.
 - **New workouts created:** `kb-conditioning-blast` (KB complex circuit), `assault-treadmill-intervals` (sprint intervals)
 - **New exercises created:** `kettlebell-romanian-deadlift`, `kettlebell-overhead-extension-to-halo`, `lunge`, `incline-bench-dumbbell-row`
 - **References existing:** `ppl-push`, `ppl-pull`, `ppl-legs` (KarlApexFit), `kb-full-body-shred`
+
+### @biolifex (X/Twitter)
+- **URL:** https://x.com/biolifex/status/2026966403614478461
+- **What:** 30-minute yoga-inspired mobility flow — 8 hip-opening and spinal exercises
+- **Import status:** COMPLETE
+- **Exercises created:** dynamic-malasana, skandasana-side-lunge, forward-fold-twist, mountain-to-pigeon-pose, frog-pose-pulses, puppy-pose-cat-cow, seated-hip-opener, childs-pose-to-cobra
+- **Workouts:** 30-minute-mobility-flow
+- **Notes:** Continuous flow sequence, no rest between exercises. All exercises have media links to source video.
+
+### @_fitnesshub (X/Twitter)
+- **URL:** https://x.com/_fitnesshub/status/2026916958973608047
+- **What:** Top 10 essential stretches — full body mobility sequence
+- **Import status:** COMPLETE
+- **Exercises created:** pump-stretch, lizard-pose, crab-pulse
+- **Exercises existing (media added):** pigeon-pose, sissy-squat, butterfly-stretch, straddle-sit-stretch, plow-pose, lying-windshield-wipers, cossack-squat
+- **Workouts:** top-10-essential-stretches
+- **Notes:** Beginner-friendly stretch sequence. 30s holds for static stretches, 10 reps for dynamic ones. All exercises have media links to source video.
 
 ### General/Uncredited
 - **What:** Standard gym, calisthenics, yoga, stretch, rehab exercises
