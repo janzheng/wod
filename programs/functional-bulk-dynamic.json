@@ -271,6 +271,258 @@
           ]
         }
       ]
+    },
+    {
+      "week": 2,
+      "label": "Accumulate",
+      "description": "You know your working weights. Now beat them. Same core lifts with small accessory swaps to keep it fresh. Your body is adapting — you should feel less wrecked than Week 1.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH",
+          "type": "workout",
+          "workoutId": "fb-w2-push",
+          "flow": {
+            "workoutId": "fb-push-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min shoulder/chest opener. Band pull-aparts, arm circles, easy push-ups."
+          },
+          "homeGym": "Dead hangs 2-3x20s + pull-ups 2-3x5 (easy, don't go to failure). Pull-ups don't interfere with push day."
+        },
+        {
+          "day": 2,
+          "label": "KB FULL BODY",
+          "type": "workout",
+          "workoutId": "fb-w2-kb-full",
+          "flow": {
+            "workoutId": "fb-w1-d2-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Same flow as W1 — core, mobility, bodyweight legs. ~30 min on a mat."
+          },
+          "homeGym": "Dead hangs 2-3x20s + pull-ups 2-3x5. Tomorrow is Pull day — keep these easy."
+        },
+        {
+          "day": 3,
+          "label": "PULL",
+          "type": "workout",
+          "workoutId": "fb-w2-pull",
+          "flow": {
+            "workoutId": "fb-pull-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min back/lat primer. Dead hangs, scap pulls, band pull-aparts."
+          },
+          "homeGym": "Dead hangs 2-3x20s only. Skip home pull-ups — you're doing them at the gym today."
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING",
+          "type": "workout",
+          "workoutId": "fb-w2-kb-cond",
+          "flow": {
+            "workoutId": "fb-w1-d4-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Same hip-heavy flow as W1. You're sore but less sore than last week. Move through it."
+          },
+          "homeGym": "Dead hangs 2-3x20s only. Back recovering from Pull day yesterday."
+        },
+        {
+          "day": 5,
+          "label": "LEGS",
+          "type": "workout",
+          "workoutId": "fb-w2-legs",
+          "flow": {
+            "workoutId": "fb-w1-d5-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Same 15 min hip primer. Don't skip it this week — your squats will thank you."
+          },
+          "homeGym": "Dead hangs 2-3x20s + pull-ups 2-3x5. Legs and pull-ups don't compete."
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "homeGym": "Dead hangs 2-3x20s + pull-ups 2-3x5 if you feel good. Easy day.",
+          "options": [
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Rowing",
+              "type": "activity",
+              "activity": {
+                "name": "Steady State Row",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "20-22 strokes/min, 120-140bpm. Focus on leg drive."
+              }
+            },
+            {
+              "label": "Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest",
+          "homeGym": "Dead hangs 2-3x20s. That's it — rest day."
+        }
+      ],
+      "tips": [
+        "You know your working weights — hit them from set 1, no ramping up",
+        "Goal: add 1-2 reps per exercise compared to W1, or add 5lbs where you topped the rep range",
+        "New exercises this week: pec deck, overhead tricep extension, DB rows, step-ups, KB high pulls, Turkish get-ups",
+        "Turkish get-ups: go LIGHT. This is a skill you're learning, not a strength test.",
+        "Try to do the morning flows this week — W1 you skipped most of them"
+      ],
+      "log": [
+        {
+          "day": 1,
+          "workoutId": "fb-w2-push",
+          "date": "2026-03-02",
+          "notes": "First time on barbell bench — found working weight at 55/side (155 total). Gym packed mid-session, improvised with cable column and Kinesis machine. Took too-long breaks, pushed into rush hour — need to go even earlier. Overall felt good, way easier than W1. Did 4 sets of shoulder press by accident (planned 3). Skipped morning flow (already past morning).",
+          "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+          "exercises": [
+            {
+              "id": "bench-press",
+              "sets": ["25/side x8 (warmup)", "45/side x8 (good effort)", "65/side x2 (too heavy)", "55/side x8 (working weight)", "55/side x5"],
+              "workingWeight": 55,
+              "notes": "First time on barbell! Per-side plate weights (+45lb bar). 45/side (135 total) felt good. 65/side (175) too hard. Working weight: 55/side (155 total). Got 8 then 5."
+            },
+            {
+              "id": "incline-dumbbell-press",
+              "sets": ["50lbs x10", "50lbs x8", "50lbs x9", "50lbs x9"],
+              "workingWeight": 50,
+              "notes": "Up from 45 in W1! First set felt good, hard by set 4. Clear progress."
+            },
+            {
+              "id": "dumbbell-shoulder-press",
+              "sets": ["40lbs x10 (standing)", "40lbs x9 (sitting)", "40lbs x7", "40lbs x6"],
+              "workingWeight": 40,
+              "notes": "Did 4 sets by accident (planned 3). Standing first set was brutal — switched to sitting. Started arching by set 2. Same weight as W1 but more total volume."
+            },
+            {
+              "id": "lateral-raise",
+              "sets": ["15lbs x12", "15lbs x12", "15lbs x12"],
+              "workingWeight": 15,
+              "notes": "Slowed on last 2 reps of set 3 but completed all. Same weight as W1."
+            },
+            {
+              "id": "cable-lateral-raise",
+              "sets": ["15lbs x15", "15lbs x15", "15lbs x15"],
+              "workingWeight": 15,
+              "notes": "Used cable column — nobody uses it so always free! Up from 12.5 in W1. Too easy at 15x15 — bump to 20 next time."
+            },
+            {
+              "id": "incline-cable-overhead-tricep-extension",
+              "sets": ["45lbs x12", "45lbs x12", "45lbs x12"],
+              "workingWeight": 45,
+              "equipment": "cable column (position 1)",
+              "notes": "NEW — the video exercise. HIGH cable, kneeling at cable column facing away (replicates 45° bench angle). Hands near chest, extend out. Hits lats + tricep long head. 45lbs on cable column felt manageable for 3x12."
+            },
+            {
+              "id": "cable-overhead-tricep-extension",
+              "sets": ["30lbs x11", "30lbs x8"],
+              "workingWeight": 30,
+              "equipment": "regular cable (low pulley)",
+              "notes": "Standing overhead tricep extension from low cable. Different exercise — pure tricep isolation. Died immediately after the lat/tricep work above. Cable column 45 ≠ regular cable 30 — different resistance profiles."
+            },
+            {
+              "id": "pec-deck-fly",
+              "equipment": "Kinesis machine (fly setting)",
+              "sets": ["4 x12", "5 x12", "6 x12", "7 x9"],
+              "workingWeight": 6,
+              "notes": "Pec deck taken — used Kinesis machine on fly setting. Weight scale is tiny single digits (not comparable to normal machines). Hard to baseline. 7 was failure at 9 reps."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "workoutId": "fb-w2-kb-full",
+          "date": "2026-03-03",
+          "notes": "Morning flow felt good. Ran to/from Arrillaga. Did hangs at gym before KB work. Most KBs taken — used 50lb for almost everything. Clean & press was brutal at 50lb. TGU first time ever — started bodyweight to learn pattern, then 15lb. Left side derpy, right side got fluid by end. Wants more TGU + windmill next week. 50lb is Arrillaga max; apt gym goes to 100lb.",
+          "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+          "exercises": [
+            {
+              "id": "kettlebell-goblet-squat",
+              "sets": ["50lbs x12", "50lbs x12", "50lbs x12"],
+              "workingWeight": 50,
+              "equipment": "2x40lb DB for some sets",
+              "notes": "Used 50lb KB. Felt solid."
+            },
+            {
+              "id": "bulgarian-split-squat",
+              "sets": ["40lbs x8 each", "40lbs x8 each", "40lbs x8 each"],
+              "workingWeight": 40,
+              "equipment": "2x40lb DB goblet hold",
+              "notes": "Switched to DBs since KBs were taken. Didn't want to go too heavy on single-leg."
+            },
+            {
+              "id": "kettlebell-romanian-deadlift",
+              "sets": ["40lbs x10"],
+              "workingWeight": 40,
+              "equipment": "2x40lb DB",
+              "notes": "Did 1 set RDL then switched to single-leg sets. Used DBs."
+            },
+            {
+              "id": "single-leg-romanian-deadlift",
+              "sets": ["40lbs x8 each", "40lbs x8 each"],
+              "workingWeight": 40,
+              "equipment": "2x40lb DB",
+              "notes": "Swapped remaining RDL sets for single-leg. Good balance challenge."
+            },
+            {
+              "id": "kettlebell-high-pull",
+              "sets": ["40lbs x8 each", "40lbs x8 each", "40lbs x8 each"],
+              "workingWeight": 40,
+              "equipment": "2x40lb DB",
+              "notes": "Used DBs here too. Felt good."
+            },
+            {
+              "id": "kettlebell-clean-and-press",
+              "sets": ["50lbs x6 each", "50lbs x6 each", "50lbs x5 each"],
+              "workingWeight": 50,
+              "notes": "Brutal at 50lb. Last set only got 5. Took lots of breaks between sets. Hardest exercise of the session."
+            },
+            {
+              "id": "kettlebell-row",
+              "sets": ["50lbs x10 each", "50lbs x10 each", "50lbs x10 each"],
+              "workingWeight": 50,
+              "notes": "50lb KB. Felt manageable."
+            },
+            {
+              "id": "kettlebell-turkish-getup",
+              "sets": ["BW x3 each (practice)", "15lbs x3 each", "15lbs x3 each"],
+              "workingWeight": 15,
+              "notes": "First time EVER doing TGU. Had to do bodyweight several times to learn the pattern. Left side remained clunky, right side got really fluid by end. 15lb felt easy by last set — the coordination was the hard part, not the weight. Wants more TGU next week. Also liked windmill from W1 — wants both."
+            },
+            {
+              "id": "kettlebell-swing",
+              "sets": ["50lbs x20", "50lbs x20"],
+              "workingWeight": 50,
+              "notes": "50lb felt good. Solid finish."
+            }
+          ]
+        }
+      ]
     }
   ],
   "tips": [

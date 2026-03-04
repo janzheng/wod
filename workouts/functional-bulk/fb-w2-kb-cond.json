@@ -1,0 +1,70 @@
+{
+  "id": "fb-w2-kb-cond",
+  "name": "Week 2 KB Conditioning",
+  "description": "Thursday = refine what you learned Tuesday + your requested moves. Skill block first (TGU + windmill practice), then your picks (overhead lunges + Simba lift), then a short complex to finish. Still a real workout — just with more brain.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "circuit", "conditioning", "skill-work", "fixed"],
+  "estimatedDuration": 25,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Quick Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen up fast" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings to prime the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "Skill Block: Tuesday Refinement",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-turkish-getup", "reps": "2 each side", "notes": "PRACTICE — this is Tuesday's new move. Go light (15lb or less). Focus on left side catching up to right. Slow is smooth, smooth is fast." },
+        { "id": "kettlebell-windmill", "reps": "3 each side", "notes": "You loved these in W1. Light weight, eyes on the bell, deep hip hinge. Pairs beautifully with TGU — same shoulder stability pattern." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "your-picks",
+      "name": "Your Picks: Overhead Lunges + Simba Lift",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-overhead-lunge", "reps": "5 each leg", "notes": "Lock KB out overhead with one arm. Step forward into lunge. Keep arm LOCKED and torso upright. Shoulder stability + legs. Go light — 15-25lb to start." },
+        { "id": "squat-front-raise", "reps": 8, "notes": "The 'Simba lift' — goblet squat down, then as you stand, extend the KB straight out in front at shoulder height, arms locked. Hold for a beat. Present that lion cub. Use a light KB." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "complex",
+      "name": "Finisher Complex",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Two-handed, explosive" },
+        { "id": "kettlebell-clean-and-press", "reps": "5 each", "notes": "Clean to rack, strict press. Tuesday you did these at 50lb — use the same or lighter here." },
+        { "id": "kettlebell-thruster", "reps": 8, "notes": "Squat to press, one fluid motion" }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "Thursday = refine Tuesday's new moves + try your requested exercises",
+    "Skill block is NOT conditioning — take your time, focus on form. Rest as needed between sides.",
+    "TGU: your right side got fluid Tuesday, now get the left side there too",
+    "Overhead lunges: start lighter than you think — the stability demand is sneaky",
+    "Simba lift: the front raise portion is the hard part. Arms locked, hold at the top for a beat.",
+    "Complex is only 3 rounds — it's the finisher, not the main event",
+    "Light bell for skill block (15-25lb), working bell for complex (50lb)"
+  ]
+}

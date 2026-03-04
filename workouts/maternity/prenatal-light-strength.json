@@ -1,0 +1,84 @@
+{
+  "id": "prenatal-light-strength",
+  "name": "Prenatal Strength",
+  "description": "A 30-minute bodyweight strength workout for pregnancy. Builds real strength in glutes, legs, and upper body with challenging but safe movements. 3 rounds of lower body, 2 rounds of upper body + core.",
+  "routineId": "maternity",
+  "tags": ["maternity", "strength", "bodyweight", "pelvic-floor", "glutes", "active"],
+  "estimatedDuration": 30,
+  "equipment": ["mat", "bodyweight"],
+  "difficulty": "beginner-intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Warm up the spine, add hip circles" },
+        { "id": "bodyweight-squat", "reps": 10, "notes": "Wide stance, controlled tempo. Wake up the legs." },
+        { "id": "glute-bridge", "reps": 8, "notes": "Easy warmup bridges — squeeze at top, 2 second hold." }
+      ],
+      "restBetween": 10,
+      "restAfter": 30
+    },
+    {
+      "id": "glutes-lower",
+      "name": "Glutes & Lower Body",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "glute-bridge", "reps": 15, "notes": "Squeeze hard at top, hold 2 seconds. Last 5 reps: hold at top for 3 seconds." },
+        { "id": "barre-bridge-single-leg", "reps": "10 each side", "notes": "Harder than it looks — keep hips level. Drop to regular bridge if too much." },
+        { "id": "bodyweight-squat", "reps": 12, "notes": "Wide stance, slow — 3 seconds down, pause at bottom, 2 seconds up. These should burn by round 3." },
+        { "id": "barre-clamshell", "reps": "15 each side", "notes": "Side-lying. Squeeze at the top. Add a hold on the last 5 reps." },
+        { "id": "barre-side-lying-leg-lift", "reps": "12 each side", "notes": "Slow and controlled — no swinging. Pulse 5x at the top on last rep." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "upper-body",
+      "name": "Upper Body",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "knee-push-up", "reps": 10, "notes": "Slow tempo — 2 seconds down, push up strong. Keep core tight." },
+        { "id": "wall-push-up", "reps": 12, "notes": "Wider hand placement than normal — targets chest more. Controlled tempo." },
+        { "id": "plank", "duration": 20, "notes": "On knees if needed. Focus on neutral spine — don't let belly sag." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "core-pelvic",
+      "name": "Core & Pelvic Floor",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "stomach-vacuum", "duration": 30, "notes": "All-fours position. Draw belly button toward spine on exhale, hold, release on inhale." },
+        { "id": "alternating-toe-taps", "reps": 12, "notes": "Reclined or side-lying. Slow, controlled core stability work." },
+        { "id": "supine-leg-slides", "reps": "10 each side", "notes": "Reclined, knees bent. Slide one heel out, return. Deep core engagement." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 45, "notes": "Each side — earned it after that leg work." },
+        { "id": "childs-pose", "duration": 60, "notes": "Knees wide, breathe deeply." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This should feel like real work — your glutes and legs should burn by round 3",
+    "Slow tempo makes bodyweight exercises much harder — don't rush the reps",
+    "Single-leg bridges are challenging — drop to regular bridges if needed",
+    "Knee push-ups are a real exercise, not a cop-out — control the descent",
+    "Keep breathing throughout — never brace and hold your breath",
+    "Modify or skip anything that doesn't feel right — but push yourself where you can",
+    "Always consult your healthcare provider before starting any exercise program during pregnancy"
+  ]
+}

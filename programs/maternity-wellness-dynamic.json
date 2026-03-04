@@ -1,0 +1,490 @@
+{
+  "id": "maternity-wellness-dynamic",
+  "sortOrder": 1,
+  "name": "Maternity Wellness",
+  "description": "Prenatal fitness program starting at week 17. 3 structured workout days (yoga, stretch/mobility, strength) plus walking built into the weekday commute. Workouts are pregnancy-safe but not babied — you'll feel the burn. Weekends are for hiking or rest. Evolves week-to-week as pregnancy progresses.",
+  "creator": "Custom",
+  "frequency": 7,
+  "phase": "wellness",
+  "difficulty": "beginner-intermediate",
+  "equipment": ["mat", "bodyweight"],
+  "tags": ["maternity", "prenatal", "yoga", "stretch", "strength", "walking", "hiking", "wellness", "dynamic", "multi-week"],
+  "commute": "18 min walk to work + 18 min walk home (M-F). That's 36 min/day, 180 min/week of easy cardio built in.",
+  "weeks": [
+    {
+      "week": 1,
+      "label": "Week 17 — Get Moving",
+      "description": "Second trimester energy is back. Establish the 3-day workout rhythm alongside your daily commute walks. Sessions are 25-30 min and should feel like real work — not a nap on a mat.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "YOGA FLOW",
+          "type": "workout",
+          "workoutId": "prenatal-yoga-flow",
+          "commute": "18 min walk to work + 18 min walk home",
+          "notes": "30 min active yoga — warriors, dynamic flows, deep squats. Your legs should feel worked."
+        },
+        {
+          "day": 2,
+          "label": "COMMUTE WALK",
+          "type": "rest",
+          "commute": "18 min walk to work + 18 min walk home",
+          "notes": "36 min of walking from the commute. That's your cardio. Enjoy the rest day."
+        },
+        {
+          "day": 3,
+          "label": "STRETCH & MOBILITY",
+          "type": "workout",
+          "workoutId": "prenatal-stretch-mobility",
+          "commute": "18 min walk to work + 18 min walk home",
+          "notes": "25 min active stretch — dynamic warmup, deep hip openers, back relief. Not passive."
+        },
+        {
+          "day": 4,
+          "label": "COMMUTE WALK",
+          "type": "rest",
+          "commute": "18 min walk to work + 18 min walk home",
+          "notes": "Another 36 min of walking. Rest from structured work."
+        },
+        {
+          "day": 5,
+          "label": "STRENGTH",
+          "type": "workout",
+          "workoutId": "prenatal-light-strength",
+          "commute": "18 min walk to work + 18 min walk home",
+          "notes": "30 min strength — 3 rounds of glutes/legs, 3 rounds of upper body, core work. You'll feel it."
+        },
+        {
+          "day": 6,
+          "label": "HIKE / ACTIVE",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Weekend Hike",
+                "duration": 60,
+                "intensity": "easy-moderate",
+                "notes": "Easy trail, conversational pace. Bring water and snacks. Poles if you have them."
+              }
+            },
+            {
+              "label": "Long Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Long Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Longer weekend walk — explore a new route."
+              }
+            },
+            {
+              "label": "Yoga",
+              "type": "workout",
+              "workoutId": "prenatal-yoga-flow",
+              "notes": "Extra yoga session if you're feeling good."
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest",
+          "notes": "Full rest. Stretch on the couch if you feel like it."
+        }
+      ],
+      "tips": [
+        "Your commute = 36 min of walking/day. That's already great cardio — own it.",
+        "Workout days should feel like real work, not just gentle stretching",
+        "Warrior holds are meant to burn — hold them strong",
+        "Bodyweight squats at slow tempo are harder than you think",
+        "Malasana (deep squat) appears in almost every session — it's the best labor prep move",
+        "If you feel dizzy, short of breath, or any pain — stop and rest"
+      ]
+    },
+    {
+      "week": 2,
+      "label": "Week 18 — Push a Little",
+      "description": "Same workouts, more confidence. Hold poses longer, add reps where it felt easy, try the harder modification. Your body is adapting to the routine.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "YOGA FLOW",
+          "type": "workout",
+          "workoutId": "prenatal-yoga-flow",
+          "commute": "18 min walk to work + 18 min walk home",
+          "notes": "Same flow. Hold warriors 10 seconds longer. Try closing eyes in tree pose."
+        },
+        {
+          "day": 2,
+          "label": "COMMUTE WALK",
+          "type": "rest",
+          "commute": "18 min walk to work + 18 min walk home"
+        },
+        {
+          "day": 3,
+          "label": "STRETCH & MOBILITY",
+          "type": "workout",
+          "workoutId": "prenatal-stretch-mobility",
+          "commute": "18 min walk to work + 18 min walk home",
+          "notes": "Same routine. Sink deeper into pigeon. Try the side-to-side child's pose variation."
+        },
+        {
+          "day": 4,
+          "label": "COMMUTE WALK",
+          "type": "rest",
+          "commute": "18 min walk to work + 18 min walk home"
+        },
+        {
+          "day": 5,
+          "label": "STRENGTH",
+          "type": "workout",
+          "workoutId": "prenatal-light-strength",
+          "commute": "18 min walk to work + 18 min walk home",
+          "notes": "Same workout. Add 2-3 reps to bridges and squats if round 3 felt easy. Try single-leg bridges if you haven't."
+        },
+        {
+          "day": 6,
+          "label": "HIKE / ACTIVE",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Weekend Hike",
+                "duration": 75,
+                "intensity": "easy-moderate",
+                "notes": "Slightly longer hike this week if last week felt good."
+              }
+            },
+            {
+              "label": "Long Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Long Walk",
+                "duration": 50,
+                "intensity": "easy",
+                "notes": "50 min weekend walk."
+              }
+            },
+            {
+              "label": "Yoga",
+              "type": "workout",
+              "workoutId": "prenatal-yoga-flow"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "If round 3 of strength didn't burn last week, add reps this week",
+        "Single-leg bridges are the upgrade from regular bridges — try them",
+        "Your commute walking is building a solid aerobic base without extra effort",
+        "Baby is growing — widen your squat stance if belly starts getting in the way",
+        "Try a daily malasana hold (even 30 seconds) outside of workouts"
+      ]
+    },
+    {
+      "week": 3,
+      "label": "Week 19 — Mix It Up",
+      "description": "Introduce workout choices. The 30-min mobility flow is a great swap for yoga day. Lower back & hips stretch is available if that area needs attention. Maternity strength flow adds upper body variety.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "YOGA / MOBILITY",
+          "type": "choice",
+          "commute": "18 min walk to work + 18 min walk home",
+          "options": [
+            {
+              "label": "Prenatal Yoga Flow",
+              "type": "workout",
+              "workoutId": "prenatal-yoga-flow",
+              "notes": "30 min active yoga — your go-to."
+            },
+            {
+              "label": "30 Min Mobility Flow",
+              "type": "workout",
+              "workoutId": "30-minute-mobility-flow",
+              "notes": "Dynamic mobility flow — skip plow pose, modify deep forward folds. Fresh challenge."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "label": "COMMUTE WALK",
+          "type": "rest",
+          "commute": "18 min walk to work + 18 min walk home"
+        },
+        {
+          "day": 3,
+          "label": "STRETCH & MOBILITY",
+          "type": "choice",
+          "commute": "18 min walk to work + 18 min walk home",
+          "options": [
+            {
+              "label": "Prenatal Stretch",
+              "type": "workout",
+              "workoutId": "prenatal-stretch-mobility",
+              "notes": "25 min active stretch."
+            },
+            {
+              "label": "Lower Back & Hips",
+              "type": "workout",
+              "workoutId": "lower-back-and-hips-stretch",
+              "notes": "15 min — great if lower back is nagging."
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "label": "COMMUTE WALK",
+          "type": "rest",
+          "commute": "18 min walk to work + 18 min walk home"
+        },
+        {
+          "day": 5,
+          "label": "STRENGTH",
+          "type": "choice",
+          "commute": "18 min walk to work + 18 min walk home",
+          "options": [
+            {
+              "label": "Prenatal Strength",
+              "type": "workout",
+              "workoutId": "prenatal-light-strength",
+              "notes": "30 min strength — your go-to."
+            },
+            {
+              "label": "Maternity Strength Flow",
+              "type": "workout",
+              "workoutId": "maternity-strength-flow",
+              "notes": "25 min — randomized exercises, more upper body and core variety."
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "HIKE / ACTIVE",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Weekend Hike",
+                "duration": 75,
+                "intensity": "easy-moderate",
+                "notes": "Trail hike. Bring poles if terrain is uneven — balance changes as belly grows."
+              }
+            },
+            {
+              "label": "Long Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Long Walk",
+                "duration": 50,
+                "intensity": "easy",
+                "notes": "Weekend walk."
+              }
+            },
+            {
+              "label": "Yoga + Stretch Combo",
+              "type": "workout",
+              "workoutId": "maternity-gentle-flow",
+              "notes": "15 min gentle flow — lighter option if the week was tiring."
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "Week 19 — almost halfway! Belly is noticeable now",
+        "The mobility flow is more dynamic than the yoga flow — good variety",
+        "Lower back pain is common around now — the lower back & hips stretch targets that",
+        "Start using poles on hikes if you haven't — your center of gravity is shifting",
+        "Choices are good — listen to what your body wants each day"
+      ]
+    },
+    {
+      "week": 4,
+      "label": "Week 20 — Halfway",
+      "description": "Halfway mark. Belly is real and growing. Same 3-day structure with full workout choices. Energy may fluctuate day-to-day but you've built a strong foundation. Push when you can, ease off when you need to.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "YOGA / MOBILITY",
+          "type": "choice",
+          "commute": "18 min walk to work + 18 min walk home",
+          "options": [
+            {
+              "label": "Prenatal Yoga Flow",
+              "type": "workout",
+              "workoutId": "prenatal-yoga-flow"
+            },
+            {
+              "label": "30 Min Mobility Flow",
+              "type": "workout",
+              "workoutId": "30-minute-mobility-flow",
+              "notes": "Skip plow pose and deep forward folds."
+            },
+            {
+              "label": "Gentle Yoga Flow",
+              "type": "workout",
+              "workoutId": "gentle-yoga-flow",
+              "notes": "15 min — lighter option for low-energy days."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "label": "COMMUTE WALK",
+          "type": "rest",
+          "commute": "18 min walk to work + 18 min walk home"
+        },
+        {
+          "day": 3,
+          "label": "STRETCH & MOBILITY",
+          "type": "choice",
+          "commute": "18 min walk to work + 18 min walk home",
+          "options": [
+            {
+              "label": "Prenatal Stretch",
+              "type": "workout",
+              "workoutId": "prenatal-stretch-mobility"
+            },
+            {
+              "label": "Lower Back & Hips",
+              "type": "workout",
+              "workoutId": "lower-back-and-hips-stretch"
+            },
+            {
+              "label": "Lower Body Stretch",
+              "type": "workout",
+              "workoutId": "lower-body-stretch"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "label": "COMMUTE WALK",
+          "type": "rest",
+          "commute": "18 min walk to work + 18 min walk home"
+        },
+        {
+          "day": 5,
+          "label": "STRENGTH",
+          "type": "choice",
+          "commute": "18 min walk to work + 18 min walk home",
+          "options": [
+            {
+              "label": "Prenatal Strength",
+              "type": "workout",
+              "workoutId": "prenatal-light-strength"
+            },
+            {
+              "label": "Maternity Strength Flow",
+              "type": "workout",
+              "workoutId": "maternity-strength-flow"
+            },
+            {
+              "label": "Maternity Gentle Flow",
+              "type": "workout",
+              "workoutId": "maternity-gentle-flow",
+              "notes": "Swap to gentle flow if energy is really low — still movement."
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "HIKE / ACTIVE",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Weekend Hike",
+                "duration": 60,
+                "intensity": "easy-moderate",
+                "notes": "Easy trail. May need to slow pace — that's fine."
+              }
+            },
+            {
+              "label": "Long Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Long Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Weekend walk."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "Halfway! You've built 4 weeks of consistent movement — that's huge",
+        "Energy fluctuates more now — always have an easier option ready",
+        "The belly changes your center of gravity — widen stance, use walls, use poles",
+        "Round ligament pain may show up — skip squats those days, do hip stretches instead",
+        "Your commute walking alone puts you ahead of most prenatal exercise recommendations",
+        "Keep going — consistency matters more than intensity from here on"
+      ]
+    }
+  ],
+  "tips": [
+    "3 workout days (Mon/Wed/Fri) + commute walking (36 min/day M-F) + weekend hike",
+    "Workouts are 25-30 minutes and should feel like real work",
+    "The daily commute walk = 180 min/week of cardio built in — that's a solid base",
+    "Hip openers (malasana, pigeon, butterfly) are labor prep — practice them daily",
+    "Never exercise flat on your back — use side-lying position",
+    "Push yourself where it feels safe, ease off when your body says to",
+    "Always consult your healthcare provider before starting any exercise program during pregnancy"
+  ],
+  "restGuidelines": "Workout days: minimal rest between stretches/holds (5-15s), 15-60s between strength sets. No time pressure — take what you need.",
+  "overview": {
+    "duration": "Multi-week (starting week 17, new weeks added over time)",
+    "goal": "Stay strong, flexible, and energized through pregnancy. Build glute and pelvic floor strength for labor. Keep hips open. Maintain cardio through daily walking.",
+    "startWeek": 17,
+    "target": "Second trimester through third trimester",
+    "weeklyStructure": "Mon: Yoga/Mobility | Tue: Commute Walk | Wed: Stretch/Mobility | Thu: Commute Walk | Fri: Strength | Sat: Hike/Active | Sun: Rest",
+    "weeklyCardio": "Commute: 18 min walk each way, 5 days/week = 180 min. Weekend hike adds another 45-75 min.",
+    "keyPrinciples": [
+      "The commute walk is your cardio base — 36 min/day, 5 days/week",
+      "3 workout days should feel like real work, not just gentle stretching",
+      "Hip openers and pelvic floor are the priorities for labor prep",
+      "Choices expand each week — your body tells you what it needs",
+      "Comfort and safety first — but don't be afraid to push a little"
+    ]
+  }
+}

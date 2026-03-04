@@ -24,6 +24,31 @@
     "description": "Position yourself face down on the 45 degree hyperextension bench with the pad at your upper thighs and feet secured under the ankle rollers. Cross arms over your chest or behind your head. Lower your torso by hinging at the hips until you feel a stretch in the hamstrings, then extend back up by squeezing the glutes and hamstrings. Avoid hyperextending the lower back at the top."
   },
   {
+    "id": "90-90-stretch",
+    "name": "90/90 Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "hips",
+      "glutes",
+      "hip-flexors"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "stretch",
+      "mobility",
+      "hip-opener",
+      "floor",
+      "cooldown"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Sit on the floor with one leg in front of you bent at 90 degrees (shin roughly parallel to your chest) and the other leg behind you also bent at 90 degrees. Your front shin and back shin should both be flat on the ground. Sit tall, then lean your torso forward over the front shin to deepen the stretch. Hold, then switch sides. Excellent for hip internal and external rotation."
+  },
+  {
     "id": "ab-crunch-machine",
     "name": "Ab Crunch Machine",
     "category": "core",
@@ -3311,6 +3336,33 @@
     ]
   },
   {
+    "id": "cobra-stretch",
+    "name": "Cobra Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "lower-back",
+      "hip-flexors",
+      "abs"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "stretch",
+      "yoga",
+      "mobility",
+      "floor",
+      "spinal",
+      "cooldown",
+      "gentle"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Lie face down with palms flat on the floor beside your chest. Press through your hands to lift your chest off the ground, keeping your hips and legs on the floor. Straighten your arms as much as comfortable, arching your upper back. Keep your shoulders down away from your ears. Hold and breathe, feeling the stretch through your abs, hip flexors, and lower back. Also known as Bhujangasana."
+  },
+  {
     "id": "commando-pull-up",
     "name": "Commando Pull-up",
     "category": "back-vertical-pull",
@@ -6027,6 +6079,49 @@
     "description": "Set an adjustable bench to about 30-45 degrees. Lie face down with your chest against the pad, feet on the floor for stability. Hold a dumbbell in each hand with arms hanging straight down. Row both dumbbells up by driving elbows back and squeezing shoulder blades together at the top. Lower with control. The chest support eliminates momentum and protects the lower back, allowing you to focus purely on the back muscles."
   },
   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "name": "Incline Cable Overhead Tricep Extension",
+    "category": "arms-triceps",
+    "type": "weights",
+    "muscles": [
+      "triceps",
+      "lats"
+    ],
+    "equipment": [
+      "cable",
+      "bench"
+    ],
+    "tags": [
+      "isolation",
+      "push",
+      "upper-body",
+      "arms",
+      "gym",
+      "machine",
+      "triceps",
+      "long-head",
+      "stretch-focused",
+      "lats"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Set an adjustable bench to ~45° incline facing away from a HIGH cable pulley. Grip rope or bar, sit back on the bench. Start with hands near chest (elbows bent), then extend arms forward/overhead against the cable resistance. The high cable angle creates a deep stretch on both the lats and the triceps long head. Works primarily lats with significant tricep long head activation. Can also be replicated kneeling at a cable column (position 1) facing away. Note: different from a standard LOW cable overhead tricep extension, which isolates triceps more.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://x.com/deanttraining/status/2027798729642655818",
+        "source": "@DeanTTraining / @CoachFHM",
+        "caption": "Coach Francis incline cable overhead extension demo — HIGH cable, 45° bench, lat + tricep long head"
+      }
+    ],
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/deanttraining/status/2027798729642655818",
+      "creator": "@CoachFHM",
+      "capturedAt": "2026-03-02"
+    }
+  },
+  {
     "id": "incline-curl",
     "name": "Incline Curl",
     "category": "arms-biceps",
@@ -8678,6 +8773,32 @@
     "description": "Start in a push-up position with knees on the ground instead of toes. Keep body straight from knees to head. Lower chest toward the ground, then push back up. Focus on full range of motion and proper form."
   },
   {
+    "id": "knee-to-chest-stretch",
+    "name": "Knee-to-Chest Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "lower-back",
+      "glutes",
+      "hips"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "stretch",
+      "mobility",
+      "floor",
+      "on-back",
+      "cooldown",
+      "gentle"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Lie on your back with both legs flat. Bring one knee up toward your chest and hug it in with both hands, interlocking your fingers just below the knee. Keep your opposite leg flat on the ground and your lower back pressed into the floor. Hold and breathe, feeling the stretch in your lower back and glute. Switch sides. Can also be done with both knees at once for a deeper lower back release."
+  },
+  {
     "id": "kneeling-ab-wheel-rollout",
     "name": "Kneeling Ab Wheel Rollout",
     "category": "core",
@@ -9452,6 +9573,32 @@
     "difficulty": "intermediate",
     "duration": 60,
     "description": "Start standing with feet hip-width apart. Step back into a reverse lunge, lowering your back knee toward the floor. Explosively drive up through your front foot while bringing your back knee up toward your chest. Return to the lunge position and repeat. Alternate legs or complete all reps on one side before switching."
+  },
+  {
+    "id": "lying-hamstring-stretch",
+    "name": "Lying Hamstring Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "hamstrings",
+      "calves"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "stretch",
+      "mobility",
+      "floor",
+      "on-back",
+      "cooldown",
+      "gentle",
+      "unilateral"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Lie on your back with both legs flat on the ground. Raise one leg straight up toward the ceiling. Grab behind your thigh, calf, or ankle (or use a towel/strap around your foot) and gently pull the leg toward you. Keep the leg as straight as possible and your opposite leg flat on the ground. Hold and breathe, then switch sides."
   },
   {
     "id": "lying-knee-crunch",
@@ -12017,6 +12164,34 @@
     "description": "Sit with knees bent, feet lifted slightly off floor, lean back at 45 degrees. Clasp hands together and rotate torso to touch the floor on each side. Keep core engaged and move with control, not momentum."
   },
   {
+    "id": "saddle-pose",
+    "name": "Saddle Pose",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "hip-flexors",
+      "quads",
+      "lower-back",
+      "hips"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "stretch",
+      "yoga",
+      "hip-opener",
+      "mobility",
+      "floor",
+      "cooldown",
+      "gentle"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Kneel on the floor and sit between your heels with your legs folded by your sides. Slowly lean back as far as comfortable, supporting yourself with your hands behind you. If flexibility allows, lower onto your elbows or all the way down to the floor. Hold the position and breathe deeply. This deeply stretches the hip flexors, quads, and lower back. Also known as Reclined Hero Pose (Supta Virasana)."
+  },
+  {
     "id": "scapular-pull",
     "name": "Scapular Pull",
     "category": "back-vertical-pull",
@@ -12064,6 +12239,32 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Lie on your back with legs extended and shoulders slightly lifted. Raise both legs off the floor. Cross one leg over the other in a controlled scissoring motion, then switch - alternating which leg is on top. Keep legs straight and core engaged throughout. Unlike flutter kicks (up/down), scissor kicks move legs side-to-side, crossing over and under each other."
+  },
+  {
+    "id": "scorpion-stretch",
+    "name": "Scorpion Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "lower-back",
+      "hip-flexors",
+      "glutes",
+      "obliques"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "stretch",
+      "mobility",
+      "floor",
+      "spinal",
+      "cooldown"
+    ],
+    "difficulty": "intermediate",
+    "duration": 30,
+    "description": "Lie face down with arms extended out to the sides in a T shape. Lift one leg and sweep it across your body toward the opposite hand, rotating through your lower back and hip. Keep both arms and your chest as flat to the ground as possible. Hold briefly, return, and switch sides. Great for opening the hip flexors and mobilizing the thoracic and lumbar spine."
   },
   {
     "id": "seated-barbell-press",
@@ -12166,6 +12367,32 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Sit on a bench with back support, holding dumbbells at shoulder height with palms facing forward. Press the weights overhead until arms are fully extended. Lower back to shoulder height with control. The seated position provides more stability and allows you to focus on shoulder strength without core compensation."
+  },
+  {
+    "id": "seated-forward-fold",
+    "name": "Seated Forward Fold",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "hamstrings",
+      "lower-back",
+      "calves"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "stretch",
+      "yoga",
+      "mobility",
+      "floor",
+      "cooldown",
+      "gentle"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sit on the floor with legs extended straight in front of you. Keeping your back as flat as possible, hinge at the hips and reach your hands toward your feet. Grab your shins, ankles, or feet depending on flexibility. Hold and breathe, relaxing deeper into the stretch with each exhale. Also known as Paschimottanasana."
   },
   {
     "id": "seated-hip-opener",
@@ -12277,6 +12504,30 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Sit with your back flat against the pad and grip the handles or place forearms against the pads at chest height. Bring the arms together in a hugging motion, squeezing the chest hard at the midpoint. Return slowly to the start position with a deep stretch across the chest. Keep a slight bend in the elbows throughout."
+  },
+  {
+    "id": "seated-piriformis-stretch",
+    "name": "Seated Piriformis Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "glutes",
+      "hips",
+      "lower-back"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "stretch",
+      "mobility",
+      "hip-opener",
+      "cooldown",
+      "gentle"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Sit in a chair or on the floor with legs extended. Cross one ankle over the opposite knee. Sit tall and gently lean forward from the hips, keeping your back straight. You should feel a deep stretch in the outer hip and glute of the crossed leg. For a deeper stretch, gently press down on the crossed knee. Hold, then switch sides. Targets the piriformis muscle which can contribute to sciatic discomfort when tight."
   },
   {
     "id": "shoulder-press-machine",
@@ -13889,6 +14140,30 @@
     "description": "Stand on a calf raise machine with shoulder pads resting on your shoulders and the balls of your feet on the platform edge. Rise up onto your toes as high as possible, squeeze at the top, then lower until you feel a full stretch in your calves. The standing position targets the gastrocnemius (outer calf)."
   },
   {
+    "id": "standing-hamstring-stretch",
+    "name": "Standing Hamstring Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "hamstrings",
+      "lower-back",
+      "calves"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "stretch",
+      "mobility",
+      "standing",
+      "cooldown",
+      "gentle"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Stand tall with feet hip-width apart. Keeping your legs straight (a slight bend is fine), hinge at the hips and reach your hands toward your toes. Let your head hang relaxed. Go only as far as comfortable and hold. You should feel a deep stretch along the back of your legs and into your lower back."
+  },
+  {
     "id": "standing-leg-lift",
     "name": "Standing Leg Lift",
     "category": "core",
@@ -13911,6 +14186,30 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Stand upright and lift one leg straight up in front of you as high as comfortable while keeping your torso upright and core engaged. Lower with control and repeat. This is like a standing leg raise, great for warming up the hip flexors and core. Can hold onto something for balance if needed."
+  },
+  {
+    "id": "standing-quad-stretch",
+    "name": "Standing Quad Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "quads",
+      "hip-flexors"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "stretch",
+      "mobility",
+      "standing",
+      "cooldown",
+      "gentle",
+      "unilateral"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Stand on one leg (hold a wall or chair for balance if needed). Bend the other knee and grab your ankle or foot behind you, pulling your heel toward your glute. Keep your knees close together and your standing leg slightly bent. Push your hips slightly forward to deepen the stretch in the front of your thigh. Hold, then switch sides."
   },
   {
     "id": "standing-upward-fly",
@@ -14513,6 +14812,35 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "A foundational dead bug progression that teaches core stability during leg movement. Lie on your back with knees bent, feet flat on floor. First, find your neutral spine position - there should be a small natural curve in your lower back (you could slide your hand under). Gently engage your deep core by exhaling and drawing your belly button slightly toward your spine WITHOUT flattening your back. MAINTAINING this core engagement, slowly slide one heel along the floor to extend that leg fully, then slide it back to the start position. The KEY is keeping your pelvis completely still and your lower back in neutral - no rocking, no arching, no flattening. If your back arches as the leg extends, you've gone too far. Alternate legs. Move SLOWLY - this is about control, not speed. Each leg extension = 1 rep. Breathe naturally throughout, exhaling as you extend."
+  },
+  {
+    "id": "supine-spinal-twist",
+    "name": "Supine Spinal Twist",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "lower-back",
+      "glutes",
+      "hips",
+      "obliques"
+    ],
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "tags": [
+      "stretch",
+      "yoga",
+      "mobility",
+      "floor",
+      "on-back",
+      "cooldown",
+      "gentle",
+      "spinal"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Lie on your back with arms extended to the sides in a T shape. Bring both knees up to your chest, then let them fall to one side toward the floor. Keep both shoulders pinned to the ground and look toward the opposite hand. Hold and breathe deeply, feeling the stretch through your lower back and outer hip. Switch sides. Also known as Reclined Twist or Supta Matsyendrasana."
   },
   {
     "id": "support-hold",
@@ -15126,6 +15454,29 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Stand with feet hip-width apart. Bend at the hips and place your hands on the floor in front of your feet, keeping your legs as straight as possible. Walk your hands forward while maintaining straight legs, shifting your weight onto your hands. Continue walking forward until your body forms a straight line from shoulders to heels (plank position). Keep your core braced, glutes squeezed, and back flat throughout. Hold briefly at the plank position, then walk your hands back toward your feet, still keeping legs straight. Return to standing. This exercise dynamically stretches the hamstrings while warming up the core and shoulders. Focus on maintaining straight legs throughout - if your hamstrings feel tight, continue breathing and work within your range of motion."
+  },
+  {
+    "id": "wall-calf-stretch",
+    "name": "Wall Calf Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "calves",
+      "achilles"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "stretch",
+      "mobility",
+      "standing",
+      "cooldown",
+      "gentle"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Stand facing a wall with both hands on it at chest height. Step one foot back about 2-3 feet, keeping it straight with the heel pressed into the floor. Bend your front knee and lean into the wall until you feel a stretch in the back calf. Keep the back leg straight for gastrocnemius; bend it slightly to target the soleus. Hold, then switch sides."
   },
   {
     "id": "wall-headstand-leg-raises",

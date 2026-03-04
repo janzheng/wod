@@ -1,0 +1,82 @@
+{
+  "id": "fb-w2-pull",
+  "name": "Week 2 Pull (Back/Biceps/Rear Delts)",
+  "description": "Same core lifts, one key swap: DB rows replace barbell rows (you skipped BB rows W1 because the gym was packed — DB rows need less space and let you go heavier per side). Added a 4th set of pull-ups since you hit 3x8.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "pull-up-bar", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Squeeze shoulder blades, warm up upper back" },
+        { "id": "cat-cow", "reps": 10, "notes": "Loosen thoracic spine" },
+        { "id": "dead-hang", "reps": 1, "duration": 20, "notes": "Decompress spine, activate grip and lats" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Station 1: Pull-up Bar",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "5-8", "notes": "You hit 3x8 in W1 — now do 4 sets. If you can't hit 8 on set 4, that's fine. Get the volume in." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-row-station",
+      "name": "Station 2: Dumbbell Row",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-row", "reps": "8-10", "notes": "NEW — replaces barbell row. One arm at a time, brace on bench. Pull elbow past ribs, squeeze at top. Needs less space than a barbell." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-station",
+      "name": "Station 3: Cable Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "reps": "10-12", "notes": "W1 working weight: 70lbs. Lean back slightly, pull to upper chest." },
+        { "id": "seated-cable-row", "reps": "10-12", "notes": "W1 working weight: 140lbs. Chest up, pull to belly button." },
+        { "id": "face-pull", "reps": "15-20", "notes": "W1 working weight: 47.5lbs. High cable, rope. Pull to face, externally rotate." },
+        { "id": "cable-bicep-curl", "reps": "10-12", "notes": "W1 working weight: 42.5lbs. Full extension, squeeze at top." }
+      ],
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-finish",
+      "name": "Station 4: Dumbbells",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-reverse-fly", "reps": "12-15", "notes": "W1 working weight: 20lbs. Bent over, squeeze rear delts." },
+        { "id": "hammer-curl", "reps": "10-12", "notes": "W1 working weight: 20lbs. Neutral grip, hits brachialis." }
+      ],
+      "restBetween": 75,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Pull-ups go from 3 sets to 4 — you earned it by hitting 3x8 last week",
+    "DB rows replace barbell rows — more practical at Arrilaga and you can go heavier per arm",
+    "Everything else stays the same — beat your Week 1 numbers",
+    "Rest 3 min between pull-ups, 2 min between rows, 75s between cable isolation",
+    "Cable station: swap attachments, don't move. Same efficiency trick as W1.",
+    "If a machine is taken, check Training Notes for swap options",
+    "Total volume: ~19 working sets for pull muscles (up from 18)"
+  ]
+}

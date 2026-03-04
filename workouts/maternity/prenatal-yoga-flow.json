@@ -1,0 +1,83 @@
+{
+  "id": "prenatal-yoga-flow",
+  "name": "Prenatal Yoga Flow",
+  "description": "A 30-minute active prenatal yoga session. Dynamic flows, longer warrior holds, deep hip openers, and malasana work. More than just stretching — you'll feel the burn in your legs and shoulders.",
+  "routineId": "maternity",
+  "tags": ["maternity", "yoga", "active", "hip-opener", "breathing", "flexibility", "strength"],
+  "estimatedDuration": 30,
+  "equipment": ["mat", "bodyweight"],
+  "difficulty": "beginner-intermediate",
+  "sets": [
+    {
+      "id": "centering",
+      "name": "Centering & Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "diaphragmatic-breathing", "duration": 60, "notes": "Seated. 4 count in, 6 count out. Set intention." },
+        { "id": "cat-cow", "reps": 12, "notes": "Sync with breath. Add circles — move hips in figure-8s between reps." }
+      ],
+      "restBetween": 5,
+      "restAfter": 10
+    },
+    {
+      "id": "sun-salutation-modified",
+      "name": "Modified Sun Salutations",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "downward-dog", "duration": 20, "notes": "Pedal feet out, warm up hamstrings and calves." },
+        { "id": "warrior-one", "duration": 30, "notes": "Each side — step forward from down dog. Sink deep, arms overhead. Feel the quads work." },
+        { "id": "warrior-two", "duration": 30, "notes": "Each side — open hips from warrior one. Arms parallel to floor, gaze over front hand. Hold strong." }
+      ],
+      "restBetween": 5,
+      "restAfter": 20
+    },
+    {
+      "id": "standing-strength-flow",
+      "name": "Standing Strength Flow",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "triangle-pose", "duration": 30, "notes": "Each side — reach long, engage core. Block on floor if needed." },
+        { "id": "tree-pose", "duration": 30, "notes": "Each side — challenge yourself: close eyes for 10 seconds if balance is good." },
+        { "id": "malasana-hold", "duration": 45, "notes": "Deep squat — press elbows into knees to open hips. Engage pelvic floor on exhale." },
+        { "id": "bodyweight-squat", "reps": 10, "notes": "Wide stance, slow tempo — 3 seconds down, 1 second hold at bottom, 2 seconds up." }
+      ],
+      "restBetween": 10,
+      "restAfter": 20
+    },
+    {
+      "id": "floor-hip-openers",
+      "name": "Deep Hip Openers",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "Each side — prop up on block or pillow if needed. Breathe and sink deeper with each exhale." },
+        { "id": "butterfly-stretch", "duration": 45, "notes": "Sit tall, press knees toward floor. Try pulsing 10x then hold." },
+        { "id": "happy-baby", "duration": 45, "notes": "Side-lying modification if needed. Rock gently side to side." },
+        { "id": "malasana-hold", "duration": 30, "notes": "One more round — this time hands in prayer, elbows pressing knees wide." }
+      ],
+      "restBetween": 5,
+      "restAfter": 15
+    },
+    {
+      "id": "cooldown",
+      "name": "Wind Down",
+      "type": "exercises",
+      "exercises": [
+        { "id": "childs-pose", "duration": 60, "notes": "Knees wide for belly. Arms forward, forehead down. Let everything go." },
+        { "id": "diaphragmatic-breathing", "duration": 90, "notes": "Side-lying. Full relaxation." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This is an active yoga session — your legs should feel worked by the end",
+    "Warrior holds build real leg strength — don't rush them",
+    "Malasana (deep squat) is the #1 prenatal pose — practice it daily",
+    "Use blocks and pillows freely but challenge yourself where you can",
+    "Avoid lying flat on your back — side-lying for any supine work",
+    "If balance is shaky, keep one hand on a wall — no shame in support",
+    "Always consult your healthcare provider before starting any exercise program during pregnancy"
+  ]
+}

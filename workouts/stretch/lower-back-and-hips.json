@@ -1,0 +1,58 @@
+{
+  "id": "lower-back-and-hips-stretch",
+  "name": "Lower Back & Hips Stretch",
+  "description": "Gentle stretch routine targeting the lower back, hips, and glutes. Ideal for desk workers, post-deadlift recovery, or morning stiffness.",
+  "routineId": "stretch",
+  "tags": ["stretch", "mobility", "lower-back", "hips", "recovery", "cooldown", "gentle"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Gentle Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Slow and controlled, sync with breath" },
+        { "id": "knee-to-chest-stretch", "duration": 30, "notes": "Each side — keep opposite leg flat" }
+      ],
+      "restBetween": 5,
+      "restAfter": 10
+    },
+    {
+      "id": "hip-openers",
+      "name": "Hip Openers",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "90-90-stretch", "duration": 45, "notes": "Each side — sit tall, lean forward over front shin" },
+        { "id": "figure-four-stretch", "duration": 30, "notes": "Each side — pull bottom leg toward chest" },
+        { "id": "seated-piriformis-stretch", "duration": 30, "notes": "Each side — sit tall and lean forward" },
+        { "id": "frog-stretch", "duration": 45, "notes": "Widen knees gradually, keep hips in line" }
+      ],
+      "restBetween": 5,
+      "restAfter": 10
+    },
+    {
+      "id": "back-release",
+      "name": "Back Release",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cobra-stretch", "duration": 30, "notes": "Press up gently, keep hips on floor" },
+        { "id": "scorpion-stretch", "duration": 30, "notes": "Each side — keep chest and arms flat" },
+        { "id": "supine-spinal-twist", "duration": 45, "notes": "Each side — both shoulders on the ground" },
+        { "id": "childs-pose", "duration": 60, "notes": "Relax completely, breathe into lower back" }
+      ],
+      "restBetween": 5,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Breathe deeply into each stretch — exhale to go deeper",
+    "Never force through pain, especially in the lower back",
+    "Great first thing in the morning or after sitting all day",
+    "Can be done daily for cumulative mobility gains"
+  ]
+}

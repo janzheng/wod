@@ -4677,6 +4677,168 @@
     "category": "floor"
   },
   {
+    "id": "fb-pull-morning-flow",
+    "name": "Pull Day Morning Flow",
+    "description": "12 min upper back and lat primer + hip openers before pull day. Dead hangs, scap work, thoracic mobility, plus hip stretches for desk-bound humans.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "recovery",
+      "mobility",
+      "back",
+      "shoulders",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "pull-up-bar"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "flow",
+        "name": "Back & Lat Primer",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Slow. Focus on thoracic extension on the cow."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 20,
+            "notes": "Decompress spine, stretch lats. Relax into it."
+          },
+          {
+            "id": "scapular-pull",
+            "reps": 8,
+            "notes": "From the hang — pull shoulder blades down and together without bending arms. Activates lats."
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Squeeze rear delts and rhomboids. Warms up the pulling muscles."
+          },
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Big circles. Loosen shoulder capsule."
+          },
+          {
+            "id": "downward-dog",
+            "duration": 30,
+            "notes": "Press chest toward floor. Stretches lats and shoulders for overhead pulling."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      },
+      {
+        "id": "hip-openers",
+        "name": "Hip Openers (for desk humans)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "90-90-stretch",
+            "duration": 30,
+            "notes": "30s each side. Sit tall, rotate between internal and external hip rotation."
+          },
+          {
+            "id": "couch-stretch",
+            "duration": 30,
+            "notes": "30s each side. Wall or couch. Opens hip flexors — the muscles that get tightest from sitting."
+          },
+          {
+            "id": "malasana-hold",
+            "duration": 30,
+            "notes": "Deep squat hold. Elbows press knees out, chest tall. Hang out and breathe."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min — upper back primer + hip openers",
+      "If no pull-up bar at home, skip dead hang and scap pulls — do them at the gym before your first set",
+      "The dead hang alone makes a huge difference for pull-up performance"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-push-morning-flow",
+    "name": "Push Day Morning Flow",
+    "description": "10 min shoulder/chest opener before push day. Loosen thoracic spine, warm up rotator cuffs, get blood into chest and shoulders. Mat or floor only.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "recovery",
+      "mobility",
+      "shoulders",
+      "chest",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 10,
+    "equipment": [
+      "bodyweight"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "flow",
+        "name": "Shoulder & Chest Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Slow. Wake up the thoracic spine."
+          },
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Small to big. Forward then backward."
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Light band or no band — just squeeze shoulder blades. Opens up the chest."
+          },
+          {
+            "id": "downward-dog",
+            "duration": 30,
+            "notes": "Push hips high, press chest toward floor. Stretches shoulders and lats."
+          },
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Easy reps. Slow descent, feel the stretch at the bottom. Blood flow, not fatigue."
+          },
+          {
+            "id": "scapular-pull",
+            "reps": 8,
+            "notes": "Hang from bar or doorframe. Depress and retract scapulae. Activates the stabilizers."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "10 min max — this is a primer, not a workout",
+      "If no band available, just do the pull-apart motion with arms extended",
+      "Focus on opening the chest and warming rotator cuffs"
+    ],
+    "category": "functional-bulk"
+  },
+  {
     "id": "fb-w1-d2-morning-flow",
     "name": "Week 1 Day 2 Morning Flow",
     "description": "Morning flow after Push day. Core-heavy floor work, bodyweight legs, hip mobility, and light pushup variations for blood flow. No equipment needed — just a mat. Helps you recover faster while still getting work in.",
@@ -5722,6 +5884,658 @@
       "Bench station is your main lift — focus on progressive overload here",
       "Cable station: just swap the attachment between exercises, no need to move",
       "Rest 2 min between bench sets, 60s between isolation sets",
+      "Total volume: ~16 working sets for push muscles"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w2-kb-cond",
+    "name": "Week 2 KB Conditioning",
+    "description": "Thursday = refine what you learned Tuesday + your requested moves. Skill block first (TGU + windmill practice), then your picks (overhead lunges + Simba lift), then a short complex to finish. Still a real workout — just with more brain.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "circuit",
+      "conditioning",
+      "skill-work",
+      "fixed"
+    ],
+    "estimatedDuration": 25,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Quick Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Loosen up fast"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings to prime the hinge"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "skill-block",
+        "name": "Skill Block: Tuesday Refinement",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "2 each side",
+            "notes": "PRACTICE — this is Tuesday's new move. Go light (15lb or less). Focus on left side catching up to right. Slow is smooth, smooth is fast."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "3 each side",
+            "notes": "You loved these in W1. Light weight, eyes on the bell, deep hip hinge. Pairs beautifully with TGU — same shoulder stability pattern."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "your-picks",
+        "name": "Your Picks: Overhead Lunges + Simba Lift",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-overhead-lunge",
+            "reps": "5 each leg",
+            "notes": "Lock KB out overhead with one arm. Step forward into lunge. Keep arm LOCKED and torso upright. Shoulder stability + legs. Go light — 15-25lb to start."
+          },
+          {
+            "id": "squat-front-raise",
+            "reps": 8,
+            "notes": "The 'Simba lift' — goblet squat down, then as you stand, extend the KB straight out in front at shoulder height, arms locked. Hold for a beat. Present that lion cub. Use a light KB."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "complex",
+        "name": "Finisher Complex",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Two-handed, explosive"
+          },
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "5 each",
+            "notes": "Clean to rack, strict press. Tuesday you did these at 50lb — use the same or lighter here."
+          },
+          {
+            "id": "kettlebell-thruster",
+            "reps": 8,
+            "notes": "Squat to press, one fluid motion"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 45
+      }
+    ],
+    "tips": [
+      "Thursday = refine Tuesday's new moves + try your requested exercises",
+      "Skill block is NOT conditioning — take your time, focus on form. Rest as needed between sides.",
+      "TGU: your right side got fluid Tuesday, now get the left side there too",
+      "Overhead lunges: start lighter than you think — the stability demand is sneaky",
+      "Simba lift: the front raise portion is the hard part. Arms locked, hold at the top for a beat.",
+      "Complex is only 3 rounds — it's the finisher, not the main event",
+      "Light bell for skill block (15-25lb), working bell for complex (50lb)"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w2-kb-full",
+    "name": "Week 2 KB Full Body",
+    "description": "Same structure as W1 — squat, hinge, push, pull, core. Two swaps: high pulls replace swings in the hinge block (progression — more explosive pull), Turkish get-ups replace windmills in the core block (more complex movement, full-body coordination). Single bell, ~40 min.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "strength",
+      "intermediate",
+      "fixed"
+    ],
+    "estimatedDuration": 40,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light, loosen shoulders and thoracic spine"
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 5,
+            "notes": "Easy reps, find your depth"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings, groove the hinge"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "block-1-quad",
+        "name": "Block 1: Legs — Quad Dominant",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 12,
+            "notes": "Same as W1 — aim for cleaner depth and more control. Full depth, elbows inside knees."
+          },
+          {
+            "id": "bulgarian-split-squat",
+            "reps": "8 each",
+            "notes": "Hold KB goblet style. Rear foot on bench/chair. You know the movement now — push the depth."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-2-hinge",
+        "name": "Block 2: Legs — Posterior Chain",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-romanian-deadlift",
+            "reps": 10,
+            "notes": "Same as W1 — slow descent, squeeze glutes at top."
+          },
+          {
+            "id": "kettlebell-high-pull",
+            "reps": "8 each",
+            "notes": "NEW — replaces swings. Explosive hip snap, pull the bell to shoulder height. More upper back work than swings."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-3-upper",
+        "name": "Block 3: Upper — Push & Pull",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "6 each",
+            "notes": "Same as W1 — clean to rack, strict press. Try to go heavier or cleaner."
+          },
+          {
+            "id": "kettlebell-row",
+            "reps": "10 each",
+            "notes": "Same as W1 — hinge position, pull elbow past ribs."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-4-core",
+        "name": "Block 4: Core & Finish",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "3 each",
+            "notes": "NEW — replaces windmill. Go LIGHT. This is a complex full-body movement — learn the pattern. Look up the steps if needed."
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 20,
+            "notes": "Last push — full power, empty the tank. Same as W1."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      }
+    ],
+    "tips": [
+      "Same structure as W1 — you know the flow now, so it should feel smoother",
+      "High pulls are a progression from swings — same hip snap, but you pull the bell higher. More explosive.",
+      "Turkish get-ups: go VERY light the first time. This is skill work, not strength work yet.",
+      "If TGUs feel too awkward, do windmills instead — no shame, they're still great",
+      "Progress by adding reps, then adding a round, then going heavier"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w2-legs",
+    "name": "Week 2 Legs (Quads/Hamstrings/Glutes/Calves)",
+    "description": "Same core lifts — beat your Week 1 numbers. Swap: step-ups replace lunges (different unilateral pattern, easier to control when fatigued). You know your working weights now, so push harder.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "legs",
+      "lower-body",
+      "quads",
+      "hamstrings",
+      "glutes",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "machine",
+      "bench"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth, arms in front for balance"
+          },
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Open up the hips"
+          },
+          {
+            "id": "lunge",
+            "reps": "5 each leg",
+            "notes": "Bodyweight walking lunges, feel the stretch"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "rack-station",
+        "name": "Station 1: Squat Rack",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": "6-8",
+            "notes": "W1 working weight: 55lbs plates (100 total). Aim for 4x8 at 55, then try 65 on your last set."
+          },
+          {
+            "id": "barbell-romanian-deadlift",
+            "reps": "8-10",
+            "notes": "W1 working weight: 65lbs plates (110 total). Aim for 4x10. Slow descent, squeeze glutes at top."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 90
+      },
+      {
+        "id": "legpress-station",
+        "name": "Station 2: Leg Press",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": "10-12",
+            "notes": "W1 working weight: 360lbs (4 plates/side). Start at 360, aim for 3x12 with full depth."
+          },
+          {
+            "id": "leg-press-calf-raise",
+            "reps": "15-20",
+            "notes": "W1 working weight: 360lbs. Full stretch at bottom, squeeze at top. Push toward 20 reps."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "legcurl-station",
+        "name": "Station 3: Leg Curl Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-leg-curl",
+            "reps": "10-12",
+            "notes": "W1 working weight: 50lbs. Full ROM, 2-second negative. If 3x12 is easy, bump to 60."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "stepup-station",
+        "name": "Station 4: Bench + Dumbbells",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "step-up",
+            "reps": "10 each leg",
+            "notes": "NEW — replaces lunges. DBs at sides, step onto bench. Drive through the top leg, don't push off the back foot. More controlled than lunges when your legs are cooked."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "You know your working weights now — no more ramping up. Hit your numbers from set 1.",
+      "Squat: warm up with 25 and 35 plates before jumping to working weight",
+      "Rest 3 min between squat/RDL sets, 2 min on leg press, 90s on isolation",
+      "Step-ups replace lunges — similar muscles, but more stable when you're fried at the end",
+      "If the rack is taken, start with leg press — it's just as good for hypertrophy. Hack squat works too.",
+      "W1 you were jello by the end. You'll be less wrecked this time — your body is adapting.",
+      "If a machine is taken, check Training Notes for swap options",
+      "Total volume: ~17 working sets for legs"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w2-pull",
+    "name": "Week 2 Pull (Back/Biceps/Rear Delts)",
+    "description": "Same core lifts, one key swap: DB rows replace barbell rows (you skipped BB rows W1 because the gym was packed — DB rows need less space and let you go heavier per side). Added a 4th set of pull-ups since you hit 3x8.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "pull",
+      "upper-body",
+      "back",
+      "biceps",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "pull-up-bar",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Squeeze shoulder blades, warm up upper back"
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Loosen thoracic spine"
+          },
+          {
+            "id": "dead-hang",
+            "reps": 1,
+            "duration": 20,
+            "notes": "Decompress spine, activate grip and lats"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "pullup-station",
+        "name": "Station 1: Pull-up Bar",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "5-8",
+            "notes": "You hit 3x8 in W1 — now do 4 sets. If you can't hit 8 on set 4, that's fine. Get the volume in."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 90
+      },
+      {
+        "id": "dumbbell-row-station",
+        "name": "Station 2: Dumbbell Row",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-row",
+            "reps": "8-10",
+            "notes": "NEW — replaces barbell row. One arm at a time, brace on bench. Pull elbow past ribs, squeeze at top. Needs less space than a barbell."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "cable-station",
+        "name": "Station 3: Cable Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "lat-pulldown",
+            "reps": "10-12",
+            "notes": "W1 working weight: 70lbs. Lean back slightly, pull to upper chest."
+          },
+          {
+            "id": "seated-cable-row",
+            "reps": "10-12",
+            "notes": "W1 working weight: 140lbs. Chest up, pull to belly button."
+          },
+          {
+            "id": "face-pull",
+            "reps": "15-20",
+            "notes": "W1 working weight: 47.5lbs. High cable, rope. Pull to face, externally rotate."
+          },
+          {
+            "id": "cable-bicep-curl",
+            "reps": "10-12",
+            "notes": "W1 working weight: 42.5lbs. Full extension, squeeze at top."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 90
+      },
+      {
+        "id": "dumbbell-finish",
+        "name": "Station 4: Dumbbells",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": "12-15",
+            "notes": "W1 working weight: 20lbs. Bent over, squeeze rear delts."
+          },
+          {
+            "id": "hammer-curl",
+            "reps": "10-12",
+            "notes": "W1 working weight: 20lbs. Neutral grip, hits brachialis."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Pull-ups go from 3 sets to 4 — you earned it by hitting 3x8 last week",
+      "DB rows replace barbell rows — more practical at Arrilaga and you can go heavier per arm",
+      "Everything else stays the same — beat your Week 1 numbers",
+      "Rest 3 min between pull-ups, 2 min between rows, 75s between cable isolation",
+      "Cable station: swap attachments, don't move. Same efficiency trick as W1.",
+      "If a machine is taken, check Training Notes for swap options",
+      "Total volume: ~19 working sets for pull muscles (up from 18)"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w2-push",
+    "name": "Week 2 Push (Chest/Shoulders/Triceps)",
+    "description": "Same core lifts as Week 1 — beat your numbers. Swaps: pec deck replaces cable fly (constant tension, easier to load), overhead tricep extension replaces pushdown (hits long head). Station-based grouping.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "push",
+      "upper-body",
+      "chest",
+      "shoulders",
+      "triceps",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "cable",
+      "bench",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Forward then backward, loosen shoulders"
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Light band, squeeze shoulder blades"
+          },
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Easy reps, get blood flowing to chest and tris"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "bench-station",
+        "name": "Station 1: Bench",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "bench-press",
+            "reps": "6-8",
+            "notes": "W1 you used DB bench at 50lbs. Try barbell if rack is free, otherwise DB bench — aim for 4x8 this week."
+          },
+          {
+            "id": "incline-dumbbell-press",
+            "reps": "8-10",
+            "notes": "W1 working weight: 45lbs. Aim for 4x8 minimum, push toward 10 if you can."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 90
+      },
+      {
+        "id": "dumbbell-station",
+        "name": "Station 2: Dumbbells",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-shoulder-press",
+            "reps": "8-10",
+            "notes": "W1 working weight: 40lbs. Aim for 3x8 clean reps before going up."
+          },
+          {
+            "id": "lateral-raise",
+            "reps": "12-15",
+            "notes": "W1 working weight: 15lbs. Hit 3x15 before bumping to 17.5 or 20."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "machine-cable-station",
+        "name": "Station 3: Pec Deck + Cables",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "pec-deck-fly",
+            "reps": "10-12",
+            "notes": "NEW — replaces cable fly. Constant tension through full ROM. Squeeze hard at center, slow stretch on the way back."
+          },
+          {
+            "id": "cable-lateral-raise",
+            "reps": "12-15",
+            "notes": "W1 working weight: 12.5lbs. Single arm cross-body. Constant tension."
+          },
+          {
+            "id": "incline-cable-overhead-tricep-extension",
+            "reps": "10-12",
+            "notes": "NEW — replaces pushdown. HIGH cable, bench ~45° facing away (or kneel at cable column facing away). Hands near chest, extend out. Hits lats + tricep long head. Go lighter than you think. Video: x.com/deanttraining/status/2027798729642655818"
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Same core lifts as Week 1 — your job is to beat your numbers",
+      "Two swaps: pec deck for cable fly (better tension curve), overhead tricep extension for pushdown (hits long head)",
+      "If pec deck is taken, cable fly is fine — just use the same weight from W1 and add reps",
+      "Overhead tricep extension: start light, the stretch is intense. 60-70% of your pushdown weight.",
+      "Rest 3 min between bench sets, 2 min between shoulder press, 75s between cable/isolation sets",
+      "If a machine is taken, check Training Notes for swap options",
       "Total volume: ~16 working sets for push muscles"
     ],
     "category": "functional-bulk"
@@ -13936,6 +14750,65 @@
     "category": "kettlebell"
   },
   {
+    "id": "kb-beginner-strength",
+    "name": "Beginner KB Strength Builder",
+    "description": "Simple full-body strength workout with one kettlebell. Four foundational exercises — swings, squats, presses, rows — for 5 rounds. Super easy to progress by adding weight or reps week over week. 30-40 minutes.",
+    "routineId": "kettlebell",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "strength",
+      "beginner",
+      "home",
+      "single-bell"
+    ],
+    "estimatedDuration": 35,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "strength-circuit",
+        "name": "Full Body Strength Circuit",
+        "type": "exercises",
+        "rounds": 5,
+        "exercises": [
+          {
+            "id": "kettlebell-swing",
+            "reps": 12,
+            "notes": "Two-hand swing. Explosive hip snap, arms straight. Chest height."
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": "10-12",
+            "notes": "Hold bell at chest. Elbows between knees at the bottom. Full depth."
+          },
+          {
+            "id": "kettlebell-chest-press",
+            "reps": "10-12",
+            "notes": "Close grip floor press. Both hands on the bell. Control the negative."
+          },
+          {
+            "id": "kettlebell-alternating-bent-over-row",
+            "reps": "20 total",
+            "notes": "10 each side. Flat back, squeeze at the top. Alternate each rep."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 90
+      }
+    ],
+    "tips": [
+      "Only need ONE kettlebell for the entire workout",
+      "Start with a weight you can goblet squat comfortably for 12",
+      "Progress by adding reps first (10 to 12), then up the weight",
+      "Can run as a circuit or do straight sets if you prefer more rest",
+      "Pairs well with other training — throw it in 2-3x per week"
+    ],
+    "category": "kettlebell"
+  },
+  {
     "id": "kb-brutal-complex",
     "name": "Brutal KB Complex (@Asgooch)",
     "description": "Quick but brutal single-bell complex from @Asgooch. Swing → Squat → Row → Push Up, 10 reps each, 4 rounds. Don't put the bell down between exercises.",
@@ -16381,6 +17254,476 @@
     "category": "maternity"
   },
   {
+    "id": "prenatal-light-strength",
+    "name": "Prenatal Strength",
+    "description": "A 30-minute bodyweight strength workout for pregnancy. Builds real strength in glutes, legs, and upper body with challenging but safe movements. 3 rounds of lower body, 2 rounds of upper body + core.",
+    "routineId": "maternity",
+    "tags": [
+      "maternity",
+      "strength",
+      "bodyweight",
+      "pelvic-floor",
+      "glutes",
+      "active"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "mat",
+      "bodyweight"
+    ],
+    "difficulty": "beginner-intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Warm up the spine, add hip circles"
+          },
+          {
+            "id": "bodyweight-squat",
+            "reps": 10,
+            "notes": "Wide stance, controlled tempo. Wake up the legs."
+          },
+          {
+            "id": "glute-bridge",
+            "reps": 8,
+            "notes": "Easy warmup bridges — squeeze at top, 2 second hold."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 30
+      },
+      {
+        "id": "glutes-lower",
+        "name": "Glutes & Lower Body",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "glute-bridge",
+            "reps": 15,
+            "notes": "Squeeze hard at top, hold 2 seconds. Last 5 reps: hold at top for 3 seconds."
+          },
+          {
+            "id": "barre-bridge-single-leg",
+            "reps": "10 each side",
+            "notes": "Harder than it looks — keep hips level. Drop to regular bridge if too much."
+          },
+          {
+            "id": "bodyweight-squat",
+            "reps": 12,
+            "notes": "Wide stance, slow — 3 seconds down, pause at bottom, 2 seconds up. These should burn by round 3."
+          },
+          {
+            "id": "barre-clamshell",
+            "reps": "15 each side",
+            "notes": "Side-lying. Squeeze at the top. Add a hold on the last 5 reps."
+          },
+          {
+            "id": "barre-side-lying-leg-lift",
+            "reps": "12 each side",
+            "notes": "Slow and controlled — no swinging. Pulse 5x at the top on last rep."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 60
+      },
+      {
+        "id": "upper-body",
+        "name": "Upper Body",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "knee-push-up",
+            "reps": 10,
+            "notes": "Slow tempo — 2 seconds down, push up strong. Keep core tight."
+          },
+          {
+            "id": "wall-push-up",
+            "reps": 12,
+            "notes": "Wider hand placement than normal — targets chest more. Controlled tempo."
+          },
+          {
+            "id": "plank",
+            "duration": 20,
+            "notes": "On knees if needed. Focus on neutral spine — don't let belly sag."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 45
+      },
+      {
+        "id": "core-pelvic",
+        "name": "Core & Pelvic Floor",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "stomach-vacuum",
+            "duration": 30,
+            "notes": "All-fours position. Draw belly button toward spine on exhale, hold, release on inhale."
+          },
+          {
+            "id": "alternating-toe-taps",
+            "reps": 12,
+            "notes": "Reclined or side-lying. Slow, controlled core stability work."
+          },
+          {
+            "id": "supine-leg-slides",
+            "reps": "10 each side",
+            "notes": "Reclined, knees bent. Slide one heel out, return. Deep core engagement."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 45,
+            "notes": "Each side — earned it after that leg work."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "Knees wide, breathe deeply."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "This should feel like real work — your glutes and legs should burn by round 3",
+      "Slow tempo makes bodyweight exercises much harder — don't rush the reps",
+      "Single-leg bridges are challenging — drop to regular bridges if needed",
+      "Knee push-ups are a real exercise, not a cop-out — control the descent",
+      "Keep breathing throughout — never brace and hold your breath",
+      "Modify or skip anything that doesn't feel right — but push yourself where you can",
+      "Always consult your healthcare provider before starting any exercise program during pregnancy"
+    ],
+    "category": "maternity"
+  },
+  {
+    "id": "prenatal-stretch-mobility",
+    "name": "Prenatal Stretch & Mobility",
+    "description": "A 25-minute active stretch and mobility session. Mix of dynamic warmup movements and deeper static holds targeting pregnancy trouble spots — hips, lower back, shoulders, and calves.",
+    "routineId": "maternity",
+    "tags": [
+      "maternity",
+      "stretch",
+      "mobility",
+      "active",
+      "recovery",
+      "hips",
+      "lower-back"
+    ],
+    "estimatedDuration": 25,
+    "equipment": [
+      "mat",
+      "bodyweight"
+    ],
+    "difficulty": "beginner-intermediate",
+    "sets": [
+      {
+        "id": "dynamic-warmup",
+        "name": "Dynamic Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Add hip circles between reps — figure-8 motion"
+          },
+          {
+            "id": "side-to-side-reaches",
+            "reps": 12,
+            "notes": "Standing — reach overhead and bend to each side. Open the ribcage."
+          },
+          {
+            "id": "bodyweight-squat",
+            "reps": 8,
+            "notes": "Slow, wide stance — pause 2 seconds at the bottom of each rep."
+          },
+          {
+            "id": "downward-dog",
+            "duration": 30,
+            "notes": "Pedal feet, bend one knee at a time. Active warmup for hamstrings and calves."
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-openers",
+        "name": "Hip Openers",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "90-90-stretch",
+            "duration": 45,
+            "notes": "Each side — sit tall, lean forward. Try gentle pulses for 10 reps then hold."
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 45,
+            "notes": "Pulse knees 10x then hold. Lean forward from hips."
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "Each side — go deeper than you think. Use pillows if hip is far from floor."
+          },
+          {
+            "id": "malasana-hold",
+            "duration": 45,
+            "notes": "Deep squat hold — elbows press knees wide. Rock gently side to side."
+          },
+          {
+            "id": "seated-piriformis-stretch",
+            "duration": 30,
+            "notes": "Each side — sit tall, lean forward. Important for sciatic relief."
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 15
+      },
+      {
+        "id": "back-shoulders",
+        "name": "Back & Shoulder Relief",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "knee-to-chest-stretch",
+            "duration": 30,
+            "notes": "Each side — gentle pull, opposite leg bent"
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 45,
+            "notes": "Each side — pillow between knees. Modified side-lying if uncomfortable."
+          },
+          {
+            "id": "cobra-stretch",
+            "duration": 30,
+            "notes": "Gentle — press up just enough to feel the stretch. Avoid deep backbends."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "Knees wide. Walk hands to the left, hold 15s. Walk to the right, hold 15s. Back to center."
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 15
+      },
+      {
+        "id": "legs",
+        "name": "Leg Stretches",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "standing-hamstring-stretch",
+            "duration": 30,
+            "notes": "Each side — foot on low surface, gentle lean. Keep back flat."
+          },
+          {
+            "id": "standing-quad-stretch",
+            "duration": 30,
+            "notes": "Each side — use wall for balance"
+          },
+          {
+            "id": "wall-calf-stretch",
+            "duration": 30,
+            "notes": "Each side — straight leg then bent leg. Helps with nighttime cramps."
+          },
+          {
+            "id": "lying-hamstring-stretch",
+            "duration": 30,
+            "notes": "Each side — use a towel or strap. Side-lying modification available."
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "The dynamic warmup should get blood flowing — don't skip it",
+      "Hip openers will feel more productive as pregnancy progresses and relaxin kicks in",
+      "Malasana shows up in every session for a reason — it's the best labor prep stretch",
+      "Piriformis stretch helps with sciatic pain — common in second trimester",
+      "Calf stretches can prevent nighttime leg cramps",
+      "Always consult your healthcare provider before starting any exercise program during pregnancy"
+    ],
+    "category": "maternity"
+  },
+  {
+    "id": "prenatal-yoga-flow",
+    "name": "Prenatal Yoga Flow",
+    "description": "A 30-minute active prenatal yoga session. Dynamic flows, longer warrior holds, deep hip openers, and malasana work. More than just stretching — you'll feel the burn in your legs and shoulders.",
+    "routineId": "maternity",
+    "tags": [
+      "maternity",
+      "yoga",
+      "active",
+      "hip-opener",
+      "breathing",
+      "flexibility",
+      "strength"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "mat",
+      "bodyweight"
+    ],
+    "difficulty": "beginner-intermediate",
+    "sets": [
+      {
+        "id": "centering",
+        "name": "Centering & Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "diaphragmatic-breathing",
+            "duration": 60,
+            "notes": "Seated. 4 count in, 6 count out. Set intention."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 12,
+            "notes": "Sync with breath. Add circles — move hips in figure-8s between reps."
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 10
+      },
+      {
+        "id": "sun-salutation-modified",
+        "name": "Modified Sun Salutations",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "downward-dog",
+            "duration": 20,
+            "notes": "Pedal feet out, warm up hamstrings and calves."
+          },
+          {
+            "id": "warrior-one",
+            "duration": 30,
+            "notes": "Each side — step forward from down dog. Sink deep, arms overhead. Feel the quads work."
+          },
+          {
+            "id": "warrior-two",
+            "duration": 30,
+            "notes": "Each side — open hips from warrior one. Arms parallel to floor, gaze over front hand. Hold strong."
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 20
+      },
+      {
+        "id": "standing-strength-flow",
+        "name": "Standing Strength Flow",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "triangle-pose",
+            "duration": 30,
+            "notes": "Each side — reach long, engage core. Block on floor if needed."
+          },
+          {
+            "id": "tree-pose",
+            "duration": 30,
+            "notes": "Each side — challenge yourself: close eyes for 10 seconds if balance is good."
+          },
+          {
+            "id": "malasana-hold",
+            "duration": 45,
+            "notes": "Deep squat — press elbows into knees to open hips. Engage pelvic floor on exhale."
+          },
+          {
+            "id": "bodyweight-squat",
+            "reps": 10,
+            "notes": "Wide stance, slow tempo — 3 seconds down, 1 second hold at bottom, 2 seconds up."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 20
+      },
+      {
+        "id": "floor-hip-openers",
+        "name": "Deep Hip Openers",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "Each side — prop up on block or pillow if needed. Breathe and sink deeper with each exhale."
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 45,
+            "notes": "Sit tall, press knees toward floor. Try pulsing 10x then hold."
+          },
+          {
+            "id": "happy-baby",
+            "duration": 45,
+            "notes": "Side-lying modification if needed. Rock gently side to side."
+          },
+          {
+            "id": "malasana-hold",
+            "duration": 30,
+            "notes": "One more round — this time hands in prayer, elbows pressing knees wide."
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 15
+      },
+      {
+        "id": "cooldown",
+        "name": "Wind Down",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "Knees wide for belly. Arms forward, forehead down. Let everything go."
+          },
+          {
+            "id": "diaphragmatic-breathing",
+            "duration": 90,
+            "notes": "Side-lying. Full relaxation."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "This is an active yoga session — your legs should feel worked by the end",
+      "Warrior holds build real leg strength — don't rush them",
+      "Malasana (deep squat) is the #1 prenatal pose — practice it daily",
+      "Use blocks and pillows freely but challenge yourself where you can",
+      "Avoid lying flat on your back — side-lying for any supine work",
+      "If balance is shaky, keep one hand on a wall — no shame in support",
+      "Always consult your healthcare provider before starting any exercise program during pregnancy"
+    ],
+    "category": "maternity"
+  },
+  {
     "id": "daily-mobility",
     "name": "Daily Mobility (10 Min)",
     "description": "Quick daily floor routine to do every morning or before any workout. Core activation, hip mobility, spine health. Light enough to do 7 days a week without affecting recovery. Just a mat and 10 minutes.",
@@ -18654,6 +19997,209 @@
       "Great as a core finisher after main workout"
     ],
     "category": "snippets"
+  },
+  {
+    "id": "lower-back-and-hips-stretch",
+    "name": "Lower Back & Hips Stretch",
+    "description": "Gentle stretch routine targeting the lower back, hips, and glutes. Ideal for desk workers, post-deadlift recovery, or morning stiffness.",
+    "routineId": "stretch",
+    "tags": [
+      "stretch",
+      "mobility",
+      "lower-back",
+      "hips",
+      "recovery",
+      "cooldown",
+      "gentle"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Gentle Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Slow and controlled, sync with breath"
+          },
+          {
+            "id": "knee-to-chest-stretch",
+            "duration": 30,
+            "notes": "Each side — keep opposite leg flat"
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 10
+      },
+      {
+        "id": "hip-openers",
+        "name": "Hip Openers",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "90-90-stretch",
+            "duration": 45,
+            "notes": "Each side — sit tall, lean forward over front shin"
+          },
+          {
+            "id": "figure-four-stretch",
+            "duration": 30,
+            "notes": "Each side — pull bottom leg toward chest"
+          },
+          {
+            "id": "seated-piriformis-stretch",
+            "duration": 30,
+            "notes": "Each side — sit tall and lean forward"
+          },
+          {
+            "id": "frog-stretch",
+            "duration": 45,
+            "notes": "Widen knees gradually, keep hips in line"
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 10
+      },
+      {
+        "id": "back-release",
+        "name": "Back Release",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cobra-stretch",
+            "duration": 30,
+            "notes": "Press up gently, keep hips on floor"
+          },
+          {
+            "id": "scorpion-stretch",
+            "duration": 30,
+            "notes": "Each side — keep chest and arms flat"
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 45,
+            "notes": "Each side — both shoulders on the ground"
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "Relax completely, breathe into lower back"
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Breathe deeply into each stretch — exhale to go deeper",
+      "Never force through pain, especially in the lower back",
+      "Great first thing in the morning or after sitting all day",
+      "Can be done daily for cumulative mobility gains"
+    ],
+    "category": "stretch"
+  },
+  {
+    "id": "lower-body-stretch",
+    "name": "Lower Body Stretch",
+    "description": "Targeted stretch routine for quads, hamstrings, hips, and calves. Great post-leg-day or as a standalone mobility session.",
+    "routineId": "stretch",
+    "tags": [
+      "stretch",
+      "mobility",
+      "lower-body",
+      "cooldown",
+      "recovery"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "standing-stretches",
+        "name": "Standing Stretches",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "standing-hamstring-stretch",
+            "duration": 30,
+            "notes": "Each side — keep legs straight, gentle reach"
+          },
+          {
+            "id": "standing-quad-stretch",
+            "duration": 30,
+            "notes": "Each side — use wall for balance if needed"
+          },
+          {
+            "id": "wall-calf-stretch",
+            "duration": 30,
+            "notes": "Each side — straight leg for gastroc, bent for soleus"
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 15
+      },
+      {
+        "id": "floor-stretches",
+        "name": "Floor Stretches",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "seated-forward-fold",
+            "duration": 60,
+            "notes": "Hinge from hips, keep back flat"
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 45,
+            "notes": "Press knees gently toward floor"
+          },
+          {
+            "id": "lying-hamstring-stretch",
+            "duration": 30,
+            "notes": "Each side — use strap or towel if needed"
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 45,
+            "notes": "Each side — square hips, fold forward"
+          },
+          {
+            "id": "saddle-pose",
+            "duration": 45,
+            "notes": "Lean back only as far as comfortable, hands behind for support"
+          },
+          {
+            "id": "couch-stretch",
+            "duration": 30,
+            "notes": "Each side — use wall or couch"
+          }
+        ],
+        "restBetween": 5,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Hold each stretch and breathe deeply — don't bounce",
+      "Go to mild discomfort, never pain",
+      "Great after leg day or a long run",
+      "Do both sides for unilateral stretches"
+    ],
+    "category": "stretch"
   },
   {
     "id": "30-minute-mobility-flow",

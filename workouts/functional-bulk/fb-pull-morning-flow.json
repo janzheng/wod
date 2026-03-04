@@ -1,0 +1,46 @@
+{
+  "id": "fb-pull-morning-flow",
+  "name": "Pull Day Morning Flow",
+  "description": "12 min upper back and lat primer + hip openers before pull day. Dead hangs, scap work, thoracic mobility, plus hip stretches for desk-bound humans.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "recovery", "mobility", "back", "shoulders", "bodyweight", "fixed"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight", "pull-up-bar"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "flow",
+      "name": "Back & Lat Primer",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Slow. Focus on thoracic extension on the cow." },
+        { "id": "dead-hang", "duration": 20, "notes": "Decompress spine, stretch lats. Relax into it." },
+        { "id": "scapular-pull", "reps": 8, "notes": "From the hang — pull shoulder blades down and together without bending arms. Activates lats." },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Squeeze rear delts and rhomboids. Warms up the pulling muscles." },
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Big circles. Loosen shoulder capsule." },
+        { "id": "downward-dog", "duration": 30, "notes": "Press chest toward floor. Stretches lats and shoulders for overhead pulling." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "hip-openers",
+      "name": "Hip Openers (for desk humans)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "90-90-stretch", "duration": 30, "notes": "30s each side. Sit tall, rotate between internal and external hip rotation." },
+        { "id": "couch-stretch", "duration": 30, "notes": "30s each side. Wall or couch. Opens hip flexors — the muscles that get tightest from sitting." },
+        { "id": "malasana-hold", "duration": 30, "notes": "Deep squat hold. Elbows press knees out, chest tall. Hang out and breathe." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "12 min — upper back primer + hip openers",
+    "If no pull-up bar at home, skip dead hang and scap pulls — do them at the gym before your first set",
+    "The dead hang alone makes a huge difference for pull-up performance"
+  ]
+}

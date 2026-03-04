@@ -1,0 +1,81 @@
+{
+  "id": "fb-w2-legs",
+  "name": "Week 2 Legs (Quads/Hamstrings/Glutes/Calves)",
+  "description": "Same core lifts — beat your Week 1 numbers. Swap: step-ups replace lunges (different unilateral pattern, easier to control when fatigued). You know your working weights now, so push harder.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine", "bench"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, arms in front for balance" },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Open up the hips" },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight walking lunges, feel the stretch" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "rack-station",
+      "name": "Station 1: Squat Rack",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "squat", "reps": "6-8", "notes": "W1 working weight: 55lbs plates (100 total). Aim for 4x8 at 55, then try 65 on your last set." },
+        { "id": "barbell-romanian-deadlift", "reps": "8-10", "notes": "W1 working weight: 65lbs plates (110 total). Aim for 4x10. Slow descent, squeeze glutes at top." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Station 2: Leg Press",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press", "reps": "10-12", "notes": "W1 working weight: 360lbs (4 plates/side). Start at 360, aim for 3x12 with full depth." },
+        { "id": "leg-press-calf-raise", "reps": "15-20", "notes": "W1 working weight: 360lbs. Full stretch at bottom, squeeze at top. Push toward 20 reps." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Station 3: Leg Curl Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": "10-12", "notes": "W1 working weight: 50lbs. Full ROM, 2-second negative. If 3x12 is easy, bump to 60." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "stepup-station",
+      "name": "Station 4: Bench + Dumbbells",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "step-up", "reps": "10 each leg", "notes": "NEW — replaces lunges. DBs at sides, step onto bench. Drive through the top leg, don't push off the back foot. More controlled than lunges when your legs are cooked." }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "You know your working weights now — no more ramping up. Hit your numbers from set 1.",
+    "Squat: warm up with 25 and 35 plates before jumping to working weight",
+    "Rest 3 min between squat/RDL sets, 2 min on leg press, 90s on isolation",
+    "Step-ups replace lunges — similar muscles, but more stable when you're fried at the end",
+    "If the rack is taken, start with leg press — it's just as good for hypertrophy. Hack squat works too.",
+    "W1 you were jello by the end. You'll be less wrecked this time — your body is adapting.",
+    "If a machine is taken, check Training Notes for swap options",
+    "Total volume: ~17 working sets for legs"
+  ]
+}

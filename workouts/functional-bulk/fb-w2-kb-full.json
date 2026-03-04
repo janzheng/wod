@@ -1,0 +1,80 @@
+{
+  "id": "fb-w2-kb-full",
+  "name": "Week 2 KB Full Body",
+  "description": "Same structure as W1 — squat, hinge, push, pull, core. Two swaps: high pulls replace swings in the hinge block (progression — more explosive pull), Turkish get-ups replace windmills in the core block (more complex movement, full-body coordination). Single bell, ~40 min.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "strength", "intermediate", "fixed"],
+  "estimatedDuration": 40,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light, loosen shoulders and thoracic spine" },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Easy reps, find your depth" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings, groove the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "block-1-quad",
+      "name": "Block 1: Legs — Quad Dominant",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-goblet-squat", "reps": 12, "notes": "Same as W1 — aim for cleaner depth and more control. Full depth, elbows inside knees." },
+        { "id": "bulgarian-split-squat", "reps": "8 each", "notes": "Hold KB goblet style. Rear foot on bench/chair. You know the movement now — push the depth." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-hinge",
+      "name": "Block 2: Legs — Posterior Chain",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-romanian-deadlift", "reps": 10, "notes": "Same as W1 — slow descent, squeeze glutes at top." },
+        { "id": "kettlebell-high-pull", "reps": "8 each", "notes": "NEW — replaces swings. Explosive hip snap, pull the bell to shoulder height. More upper back work than swings." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-upper",
+      "name": "Block 3: Upper — Push & Pull",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-clean-and-press", "reps": "6 each", "notes": "Same as W1 — clean to rack, strict press. Try to go heavier or cleaner." },
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "Same as W1 — hinge position, pull elbow past ribs." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-4-core",
+      "name": "Block 4: Core & Finish",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-turkish-getup", "reps": "3 each", "notes": "NEW — replaces windmill. Go LIGHT. This is a complex full-body movement — learn the pattern. Look up the steps if needed." },
+        { "id": "kettlebell-swing", "reps": 20, "notes": "Last push — full power, empty the tank. Same as W1." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "Same structure as W1 — you know the flow now, so it should feel smoother",
+    "High pulls are a progression from swings — same hip snap, but you pull the bell higher. More explosive.",
+    "Turkish get-ups: go VERY light the first time. This is skill work, not strength work yet.",
+    "If TGUs feel too awkward, do windmills instead — no shame, they're still great",
+    "Progress by adding reps, then adding a round, then going heavier"
+  ]
+}
