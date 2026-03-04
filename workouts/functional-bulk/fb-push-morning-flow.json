@@ -1,0 +1,33 @@
+{
+  "id": "fb-push-morning-flow",
+  "name": "Push Day Morning Flow",
+  "description": "10 min shoulder/chest opener before push day. Loosen thoracic spine, warm up rotator cuffs, get blood into chest and shoulders. Mat or floor only.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "recovery", "mobility", "shoulders", "chest", "bodyweight", "fixed"],
+  "estimatedDuration": 10,
+  "equipment": ["bodyweight"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "flow",
+      "name": "Shoulder & Chest Opener",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Slow. Wake up the thoracic spine." },
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Small to big. Forward then backward." },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Light band or no band — just squeeze shoulder blades. Opens up the chest." },
+        { "id": "downward-dog", "duration": 30, "notes": "Push hips high, press chest toward floor. Stretches shoulders and lats." },
+        { "id": "push-up", "reps": 10, "notes": "Easy reps. Slow descent, feel the stretch at the bottom. Blood flow, not fatigue." },
+        { "id": "scapular-pull", "reps": 8, "notes": "Hang from bar or doorframe. Depress and retract scapulae. Activates the stabilizers." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "10 min max — this is a primer, not a workout",
+    "If no band available, just do the pull-apart motion with arms extended",
+    "Focus on opening the chest and warming rotator cuffs"
+  ]
+}

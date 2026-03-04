@@ -636,7 +636,7 @@
 
         try {
           // 1. Load routines (categories) first
-          const routineFiles = ['barre', 'cardio', 'gym', 'calisthenics', 'morning', 'yoga', 'action-jacqueline', 'challenges', 'maternity', 'heavy-duty', 'jump-rope', 'kettlebell', 'snippets'];
+          const routineFiles = ['barre', 'cardio', 'gym', 'calisthenics', 'morning', 'yoga', 'stretch', 'action-jacqueline', 'challenges', 'maternity', 'heavy-duty', 'jump-rope', 'kettlebell', 'snippets'];
           for (const id of routineFiles) {
             try {
               const res = await fetch(`./routines/${id}.json`);
@@ -668,6 +668,8 @@
             { path: 'yoga/gentle-flow.json', category: 'yoga' },
             { path: 'yoga/30-minute-mobility-flow.json', category: 'yoga' },
             { path: 'yoga/top-10-essential-stretches.json', category: 'yoga' },
+            { path: 'stretch/lower-back-and-hips.json', category: 'stretch' },
+            { path: 'stretch/lower-body-stretch.json', category: 'stretch' },
             { path: 'calisthenics/killer-abs-core-circuit.json', category: 'calisthenics' },
             { path: 'morning/wakeup-flow.json', category: 'morning' },
             { path: 'push-day.json', category: 'gym' },
@@ -890,6 +892,7 @@
           'cardio': 'lucide:heart',
           'calisthenics': 'lucide:activity',
           'yoga': 'lucide:flower-2',
+          'stretch': 'lucide:move-diagonal',
           'morning': 'lucide:sunrise',
           'action-jacqueline': 'lucide:sparkles',
           'challenges': 'lucide:flame',

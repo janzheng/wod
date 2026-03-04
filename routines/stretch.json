@@ -1,0 +1,17 @@
+{
+  "id": "stretch",
+  "name": "Stretch + Mobility",
+  "description": "Targeted stretching routines for recovery, flexibility, and mobility",
+  "icon": "🤸",
+  "color": "#26A69A",
+  "defaults": {
+    "duration": 15,
+    "difficulty": "beginner",
+    "equipment": ["mat"],
+    "tags": ["stretch", "mobility", "recovery"],
+    "criteria": {
+      "types": ["stretch"]
+    }
+  },
+  "sortOrder": 4
+}

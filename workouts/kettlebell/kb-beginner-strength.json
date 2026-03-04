@@ -1,0 +1,33 @@
+{
+  "id": "kb-beginner-strength",
+  "name": "Beginner KB Strength Builder",
+  "description": "Simple full-body strength workout with one kettlebell. Four foundational exercises — swings, squats, presses, rows — for 5 rounds. Super easy to progress by adding weight or reps week over week. 30-40 minutes.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "strength", "beginner", "home", "single-bell"],
+  "estimatedDuration": 35,
+  "equipment": ["kettlebell"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "strength-circuit",
+      "name": "Full Body Strength Circuit",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 12, "notes": "Two-hand swing. Explosive hip snap, arms straight. Chest height." },
+        { "id": "kettlebell-goblet-squat", "reps": "10-12", "notes": "Hold bell at chest. Elbows between knees at the bottom. Full depth." },
+        { "id": "kettlebell-chest-press", "reps": "10-12", "notes": "Close grip floor press. Both hands on the bell. Control the negative." },
+        { "id": "kettlebell-alternating-bent-over-row", "reps": "20 total", "notes": "10 each side. Flat back, squeeze at the top. Alternate each rep." }
+      ],
+      "restBetween": 15,
+      "restAfter": 90
+    }
+  ],
+  "tips": [
+    "Only need ONE kettlebell for the entire workout",
+    "Start with a weight you can goblet squat comfortably for 12",
+    "Progress by adding reps first (10 to 12), then up the weight",
+    "Can run as a circuit or do straight sets if you prefer more rest",
+    "Pairs well with other training — throw it in 2-3x per week"
+  ]
+}

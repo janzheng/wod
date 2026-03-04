@@ -1,0 +1,47 @@
+{
+  "id": "lower-body-stretch",
+  "name": "Lower Body Stretch",
+  "description": "Targeted stretch routine for quads, hamstrings, hips, and calves. Great post-leg-day or as a standalone mobility session.",
+  "routineId": "stretch",
+  "tags": ["stretch", "mobility", "lower-body", "cooldown", "recovery"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "standing-stretches",
+      "name": "Standing Stretches",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "standing-hamstring-stretch", "duration": 30, "notes": "Each side — keep legs straight, gentle reach" },
+        { "id": "standing-quad-stretch", "duration": 30, "notes": "Each side — use wall for balance if needed" },
+        { "id": "wall-calf-stretch", "duration": 30, "notes": "Each side — straight leg for gastroc, bent for soleus" }
+      ],
+      "restBetween": 5,
+      "restAfter": 15
+    },
+    {
+      "id": "floor-stretches",
+      "name": "Floor Stretches",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-forward-fold", "duration": 60, "notes": "Hinge from hips, keep back flat" },
+        { "id": "butterfly-stretch", "duration": 45, "notes": "Press knees gently toward floor" },
+        { "id": "lying-hamstring-stretch", "duration": 30, "notes": "Each side — use strap or towel if needed" },
+        { "id": "pigeon-pose", "duration": 45, "notes": "Each side — square hips, fold forward" },
+        { "id": "saddle-pose", "duration": 45, "notes": "Lean back only as far as comfortable, hands behind for support" },
+        { "id": "couch-stretch", "duration": 30, "notes": "Each side — use wall or couch" }
+      ],
+      "restBetween": 5,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Hold each stretch and breathe deeply — don't bounce",
+    "Go to mild discomfort, never pain",
+    "Great after leg day or a long run",
+    "Do both sides for unilateral stretches"
+  ]
+}

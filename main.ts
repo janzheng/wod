@@ -95,7 +95,7 @@ async function readJson(path: string) {
 app.get("/api/routines", async (c) => {
   // Load all routine files
   const routines = [];
-  const routineFiles = ['barre', 'cardio', 'gym', 'calisthenics', 'morning', 'yoga', 'action-jacqueline', 'challenges', 'maternity', 'heavy-duty', 'jump-rope', 'kettlebell', 'snippets'];
+  const routineFiles = ['barre', 'cardio', 'gym', 'calisthenics', 'morning', 'yoga', 'stretch', 'action-jacqueline', 'challenges', 'maternity', 'heavy-duty', 'jump-rope', 'kettlebell', 'snippets'];
   for (const id of routineFiles) {
     const data = await readJson(`./routines/${id}.json`);
     if (data) routines.push(data);
@@ -184,6 +184,7 @@ app.get("/api/programs/:id", async (c) => {
   if (!data) return c.json({ error: "Not found" }, 404);
   return c.json(data);
 });
+
 
 // Exercise search endpoint
 app.get("/api/ai/search", async (c) => {
@@ -495,11 +496,21 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 <button
                   class="sidebar-menu-button"
                   :class="{ 'active': currentView === 'exercises' }"
-                  @click="currentView = currentView === 'exercises' ? 'workout' : 'exercises'; selectedWorkoutId = null; generatedWorkout = null; selectedActivity = null; if(isMobile) sidebarOpen = false;"
+                  @click="toggleExerciseLibrary()"
                 >
                   <span class="iconify sidebar-icon" data-icon="lucide:library"></span>
                   <span class="sidebar-menu-label">Exercise Library</span>
                   <span class="sidebar-menu-badge" x-text="exercisesCatalogue.length"></span>
+                </button>
+              </div>
+              <div class="sidebar-menu-item">
+                <button
+                  class="sidebar-menu-button"
+                  :class="{ 'active': currentView === 'notes' }"
+                  @click="currentView = currentView === 'notes' ? 'workout' : 'notes'; selectedWorkoutId = null; generatedWorkout = null; selectedActivity = null; selectedProgram = null; if(currentView === 'notes' && !notesHtml) loadNotes(); if(isMobile) sidebarOpen = false;"
+                >
+                  <span class="iconify sidebar-icon" data-icon="lucide:notebook-pen"></span>
+                  <span class="sidebar-menu-label">Training Notes</span>
                 </button>
               </div>
             </div>
@@ -699,7 +710,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         <button class="sidebar-trigger" @click="sidebarOpen = !sidebarOpen">
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
-        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
+        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? 'Training Notes' : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
         <button class="chat-toggle-btn" @click="toggleChat()" :class="{ 'active': chatOpen }">
           <span class="iconify" data-icon="lucide:message-square"></span>
           <span class="chat-toggle-label">AI Coach</span>
@@ -743,6 +754,12 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <option value="">All Equipment</option>
                   <template x-for="e in exerciseEquipmentList" :key="e">
                     <option :value="e" x-text="e"></option>
+                  </template>
+                </select>
+                <select x-model="exerciseTypeFilter" class="exercise-filter-select">
+                  <option value="">All Types</option>
+                  <template x-for="t in exerciseTypes" :key="t">
+                    <option :value="t" x-text="formatCategory(t)"></option>
                   </template>
                 </select>
               </div>
@@ -823,6 +840,21 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </div>
               </template>
             </div>
+          </div>
+        </template>
+
+        <!-- ═══ Training Notes View ═══ -->
+        <template x-if="currentView === 'notes'">
+          <div style="padding: 1.5rem; overflow-y: auto; height: 100%;">
+            <template x-if="!notesHtml">
+              <div class="empty-state">
+                <span class="iconify" data-icon="lucide:loader-2" style="animation: spin 1s linear infinite; font-size: 2rem; opacity: 0.4;"></span>
+                <span style="opacity: 0.5;">Loading notes...</span>
+              </div>
+            </template>
+            <template x-if="notesHtml">
+              <div class="prose prose-full" x-html="notesHtml"></div>
+            </template>
           </div>
         </template>
 
@@ -915,6 +947,14 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 <p style="font-size: 0.9rem; opacity: 0.7;">Full rest day. Let your body recover.</p>
               </div>
             </template>
+
+            <!-- Home Gym Notes -->
+            <template x-if="selectedActivity.homeGym">
+              <div style="margin: 0 1.5rem 1.5rem; padding: 0.75rem 1rem; background: rgba(128,128,128,0.06); border-radius: 0.5rem; display: flex; gap: 0.6rem; align-items: flex-start;">
+                <span class="iconify" data-icon="lucide:plus-circle" style="font-size: 1rem; opacity: 0.5; margin-top: 0.15rem; flex-shrink: 0;"></span>
+                <div style="font-size: 0.85rem; line-height: 1.6; opacity: 0.75;" x-text="selectedActivity.homeGym"></div>
+              </div>
+            </template>
           </div>
         </template>
 
@@ -975,12 +1015,15 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <div style="display: flex; flex-direction: column; gap: 0;">
                     <template x-for="(day, dayIdx) in selectedProgram.weeks[selectedWeekIdx].schedule" :key="'wk-day-' + dayIdx">
                       <div
-                        style="display: flex; align-items: baseline; gap: 0.75rem; padding: 0.35rem 0; border-bottom: 1px solid rgba(128,128,128,0.08);"
+                        style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; padding: 0.35rem 0; border-bottom: 1px solid rgba(128,128,128,0.08);"
                         :style="day.type === 'workout' ? 'cursor: pointer;' : (day.type === 'rest' ? 'opacity: 0.4;' : 'cursor: pointer;')"
                         @click="day.type === 'workout' && day.workoutId ? selectWorkout(day.workoutId) : (day.type !== 'rest' ? selectActivity(day, selectedProgram, selectedProgram.weeks[selectedWeekIdx].week) : null)"
                       >
                         <span style="font-size: 0.75rem; font-weight: 600; opacity: 0.35; min-width: 1.5rem; text-align: right;" x-text="day.day"></span>
                         <span style="font-weight: 600; font-size: 0.875rem; flex: 1;" x-text="day.label"></span>
+                        <template x-if="day.homeGym">
+                          <span class="iconify" data-icon="lucide:plus-circle" style="font-size: 0.7rem; opacity: 0.3;" title="Daily extras"></span>
+                        </template>
                         <template x-if="day.type === 'workout'">
                           <span style="font-size: 0.7rem; opacity: 0.3;">&rsaquo;</span>
                         </template>
@@ -1298,6 +1341,14 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <span><span x-text="tip"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
                   </template>
                 </p>
+              </template>
+
+              <!-- Home Gym Notes -->
+              <template x-if="workoutHomeGym">
+                <div style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: rgba(128,128,128,0.06); border-radius: 0.5rem; display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.8rem;">
+                  <span class="iconify" data-icon="lucide:plus-circle" style="font-size: 0.9rem; opacity: 0.45; margin-top: 0.1rem; flex-shrink: 0;"></span>
+                  <span style="line-height: 1.5; opacity: 0.7;" x-text="workoutHomeGym"></span>
+                </div>
               </template>
 
               <!-- Morning Flow -->
@@ -1682,6 +1733,9 @@ function routineStackApp() {
     expandedLibraryExercises: [],
     _filteredExerciseResults: [],
 
+    // Training notes state
+    notesHtml: '',
+
     // Timer state
     timerMode: false,
     timer: null,
@@ -1729,6 +1783,18 @@ function routineStackApp() {
           if (day?.flow) return day.flow;
           // Fall back to week-level flow
           if (week.flow && day) return week.flow;
+        }
+      }
+      return null;
+    },
+
+    get workoutHomeGym() {
+      if (!this.selectedWorkoutId) return null;
+      for (const program of this.programs) {
+        if (!program.weeks) continue;
+        for (const week of program.weeks) {
+          const day = week.schedule?.find(d => d.workoutId === this.selectedWorkoutId);
+          if (day?.homeGym) return day.homeGym;
         }
       }
       return null;
@@ -1787,6 +1853,7 @@ function routineStackApp() {
       if (!slug) return null;
       // program/ prefix means it's a program overview, not a workout
       if (slug.startsWith('program/')) return null;
+      if (slug === 'exercise-library') return null;
       return slug;
     },
 
@@ -1824,6 +1891,16 @@ function routineStackApp() {
 
       // Listen for browser back/forward navigation
       window.addEventListener('popstate', (e) => {
+        const navSlug = this.getSlugFromUrl();
+        if (navSlug === 'exercise-library') {
+          this.currentView = 'exercises';
+          this.selectedWorkoutId = null;
+          this.generatedWorkout = null;
+          return;
+        }
+        if (this.currentView === 'exercises') {
+          this.currentView = 'workout';
+        }
         const programId = this.getProgramIdFromUrl();
         if (programId) {
           const program = this.programs.find(p => p.id === programId);
@@ -1933,6 +2010,13 @@ function routineStackApp() {
     },
 
     autoLoadRandomWorkout() {
+      // Check URL for exercise library
+      const slug = this.getSlugFromUrl();
+      if (slug === 'exercise-library') {
+        this.currentView = 'exercises';
+        return;
+      }
+
       // First, check URL for program overview
       const urlProgramId = this.getProgramIdFromUrl();
       if (urlProgramId) {
@@ -2021,6 +2105,16 @@ function routineStackApp() {
       } catch (e) { console.warn('Could not load progressions:', e); }
     },
 
+    async loadNotes() {
+      try {
+        const res = await fetch('/static/notes.md');
+        if (res.ok) {
+          const md = await res.text();
+          this.notesHtml = marked.parse(md);
+        }
+      } catch (e) { console.warn('Could not load notes:', e); }
+    },
+
     shuffleWorkout() {
       if (!this.selectedWorkoutId || this.exercisesCatalogue.length === 0) return;
       const originalWorkout = this.allWorkouts.find(w => w.id === this.selectedWorkoutId) ||
@@ -2046,6 +2140,20 @@ function routineStackApp() {
 
     isSetRandomizable(set) {
       return WorkoutGenerator?.isRandomizable(set) ?? false;
+    },
+
+    toggleExerciseLibrary() {
+      if (this.currentView === 'exercises') {
+        this.currentView = 'workout';
+        window.history.pushState({ type: null, id: null }, '', '/');
+      } else {
+        this.currentView = 'exercises';
+        this.selectedWorkoutId = null;
+        this.generatedWorkout = null;
+        this.selectedActivity = null;
+        window.history.pushState({ type: 'exercises' }, '', '/exercise-library');
+      }
+      if (this.isMobile) this.sidebarOpen = false;
     },
 
     selectWorkout(id, updateUrl = true) {
@@ -2126,6 +2234,7 @@ function routineStackApp() {
         'heavy-duty': 'lucide:weight',
         'jump-rope': 'lucide:zap',
         'snippets': 'lucide:puzzle',
+        'stretch': 'lucide:move-diagonal',
       };
       return categoryIcons[workout.category] || categoryIcons[workout.routineId] || 'lucide:file';
     },
@@ -2220,8 +2329,16 @@ function routineStackApp() {
         }
       }
       return Object.entries(muscles)
-        .sort((a, b) => b[1] - a[1])
-        .map(([m]) => m);
+        .map(([m]) => m)
+        .sort((a, b) => a.localeCompare(b));
+    },
+
+    get exerciseTypes() {
+      const types = new Set();
+      for (const ex of this.exercisesCatalogue) {
+        if (ex.type) types.add(ex.type);
+      }
+      return [...types].sort();
     },
 
     get exerciseEquipmentList() {
@@ -2232,8 +2349,8 @@ function routineStackApp() {
         }
       }
       return Object.entries(eq)
-        .sort((a, b) => b[1] - a[1])
-        .map(([e]) => e);
+        .map(([e]) => e)
+        .sort((a, b) => a.localeCompare(b));
     },
 
     updateFilteredExercises() {

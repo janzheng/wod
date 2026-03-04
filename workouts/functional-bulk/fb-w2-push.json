@@ -1,0 +1,71 @@
+{
+  "id": "fb-w2-push",
+  "name": "Week 2 Push (Chest/Shoulders/Triceps)",
+  "description": "Same core lifts as Week 1 — beat your numbers. Swaps: pec deck replaces cable fly (constant tension, easier to load), overhead tricep extension replaces pushdown (hits long head). Station-based grouping.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "cable", "bench", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Forward then backward, loosen shoulders" },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Light band, squeeze shoulder blades" },
+        { "id": "push-up", "reps": 10, "notes": "Easy reps, get blood flowing to chest and tris" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "bench-station",
+      "name": "Station 1: Bench",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "bench-press", "reps": "6-8", "notes": "W1 you used DB bench at 50lbs. Try barbell if rack is free, otherwise DB bench — aim for 4x8 this week." },
+        { "id": "incline-dumbbell-press", "reps": "8-10", "notes": "W1 working weight: 45lbs. Aim for 4x8 minimum, push toward 10 if you can." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-station",
+      "name": "Station 2: Dumbbells",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-shoulder-press", "reps": "8-10", "notes": "W1 working weight: 40lbs. Aim for 3x8 clean reps before going up." },
+        { "id": "lateral-raise", "reps": "12-15", "notes": "W1 working weight: 15lbs. Hit 3x15 before bumping to 17.5 or 20." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "machine-cable-station",
+      "name": "Station 3: Pec Deck + Cables",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "pec-deck-fly", "reps": "10-12", "notes": "NEW — replaces cable fly. Constant tension through full ROM. Squeeze hard at center, slow stretch on the way back." },
+        { "id": "cable-lateral-raise", "reps": "12-15", "notes": "W1 working weight: 12.5lbs. Single arm cross-body. Constant tension." },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": "10-12", "notes": "NEW — replaces pushdown. HIGH cable, bench ~45° facing away (or kneel at cable column facing away). Hands near chest, extend out. Hits lats + tricep long head. Go lighter than you think. Video: x.com/deanttraining/status/2027798729642655818" }
+      ],
+      "restBetween": 75,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Same core lifts as Week 1 — your job is to beat your numbers",
+    "Two swaps: pec deck for cable fly (better tension curve), overhead tricep extension for pushdown (hits long head)",
+    "If pec deck is taken, cable fly is fine — just use the same weight from W1 and add reps",
+    "Overhead tricep extension: start light, the stretch is intense. 60-70% of your pushdown weight.",
+    "Rest 3 min between bench sets, 2 min between shoulder press, 75s between cable/isolation sets",
+    "If a machine is taken, check Training Notes for swap options",
+    "Total volume: ~16 working sets for push muscles"
+  ]
+}

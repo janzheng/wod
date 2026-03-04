@@ -1,0 +1,76 @@
+{
+  "id": "prenatal-stretch-mobility",
+  "name": "Prenatal Stretch & Mobility",
+  "description": "A 25-minute active stretch and mobility session. Mix of dynamic warmup movements and deeper static holds targeting pregnancy trouble spots — hips, lower back, shoulders, and calves.",
+  "routineId": "maternity",
+  "tags": ["maternity", "stretch", "mobility", "active", "recovery", "hips", "lower-back"],
+  "estimatedDuration": 25,
+  "equipment": ["mat", "bodyweight"],
+  "difficulty": "beginner-intermediate",
+  "sets": [
+    {
+      "id": "dynamic-warmup",
+      "name": "Dynamic Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Add hip circles between reps — figure-8 motion" },
+        { "id": "side-to-side-reaches", "reps": 12, "notes": "Standing — reach overhead and bend to each side. Open the ribcage." },
+        { "id": "bodyweight-squat", "reps": 8, "notes": "Slow, wide stance — pause 2 seconds at the bottom of each rep." },
+        { "id": "downward-dog", "duration": 30, "notes": "Pedal feet, bend one knee at a time. Active warmup for hamstrings and calves." }
+      ],
+      "restBetween": 5,
+      "restAfter": 15
+    },
+    {
+      "id": "hip-openers",
+      "name": "Hip Openers",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "90-90-stretch", "duration": 45, "notes": "Each side — sit tall, lean forward. Try gentle pulses for 10 reps then hold." },
+        { "id": "butterfly-stretch", "duration": 45, "notes": "Pulse knees 10x then hold. Lean forward from hips." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "Each side — go deeper than you think. Use pillows if hip is far from floor." },
+        { "id": "malasana-hold", "duration": 45, "notes": "Deep squat hold — elbows press knees wide. Rock gently side to side." },
+        { "id": "seated-piriformis-stretch", "duration": 30, "notes": "Each side — sit tall, lean forward. Important for sciatic relief." }
+      ],
+      "restBetween": 5,
+      "restAfter": 15
+    },
+    {
+      "id": "back-shoulders",
+      "name": "Back & Shoulder Relief",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "knee-to-chest-stretch", "duration": 30, "notes": "Each side — gentle pull, opposite leg bent" },
+        { "id": "supine-spinal-twist", "duration": 45, "notes": "Each side — pillow between knees. Modified side-lying if uncomfortable." },
+        { "id": "cobra-stretch", "duration": 30, "notes": "Gentle — press up just enough to feel the stretch. Avoid deep backbends." },
+        { "id": "childs-pose", "duration": 60, "notes": "Knees wide. Walk hands to the left, hold 15s. Walk to the right, hold 15s. Back to center." }
+      ],
+      "restBetween": 5,
+      "restAfter": 15
+    },
+    {
+      "id": "legs",
+      "name": "Leg Stretches",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "standing-hamstring-stretch", "duration": 30, "notes": "Each side — foot on low surface, gentle lean. Keep back flat." },
+        { "id": "standing-quad-stretch", "duration": 30, "notes": "Each side — use wall for balance" },
+        { "id": "wall-calf-stretch", "duration": 30, "notes": "Each side — straight leg then bent leg. Helps with nighttime cramps." },
+        { "id": "lying-hamstring-stretch", "duration": 30, "notes": "Each side — use a towel or strap. Side-lying modification available." }
+      ],
+      "restBetween": 5,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "The dynamic warmup should get blood flowing — don't skip it",
+    "Hip openers will feel more productive as pregnancy progresses and relaxin kicks in",
+    "Malasana shows up in every session for a reason — it's the best labor prep stretch",
+    "Piriformis stretch helps with sciatic pain — common in second trimester",
+    "Calf stretches can prevent nighttime leg cramps",
+    "Always consult your healthcare provider before starting any exercise program during pregnancy"
+  ]
+}

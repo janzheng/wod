@@ -81,3 +81,20 @@ After extracting from either skill:
 - `docs/SOURCES.md` — Tracks all content sources and attribution
 - `docs/EXTRACT_NOTES.md` — Running notes on extraction patterns, platform quirks, and exercise name mappings
 - `docs/COVERFLOW-VIDEO-PERSISTENCE.md` — Design doc for coverflow file I/O (input files + output persistence)
+- `docs/notes/` — Training discussion notes, readings, and research summaries with sources
+
+## Session Logging
+
+When logging gym day sessions from conversation:
+
+- **Cardio default:** Unless noted otherwise, every Arrilaga gym session includes a 12 min zone 2 run to the gym + 12 min zone 2 run back. Always include this in the log `cardio` field.
+- **KB days:** Light-touch logging — just note the KB weight used and general feel. No set-by-set tracking needed.
+- **Gym days (Push/Pull/Legs):** Track sets, reps, and working weights per exercise. Note any swaps and equipment used.
+
+## Discussion Notes
+
+When the user shares training articles, tweets, or research for discussion:
+
+1. Create a markdown file in `docs/notes/` with a descriptive slug (e.g., `barbells-vs-machines.md`)
+2. Include: date, source URL/attribution, summary of the argument, discussion/analysis, and application to the user's program
+3. Keep notes conversational but structured — these are living references, not academic papers

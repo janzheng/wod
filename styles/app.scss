@@ -3132,3 +3132,19 @@ html, body {
     display: none;
   }
 }
+
+// ==========================================================================
+// Prose table overflow fix — prevent tables from expanding beyond page width
+// ==========================================================================
+
+.prose table {
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  .prose thead th,
+  .prose tbody td {
+    white-space: normal;
+    word-break: break-word;
+  }
+}
