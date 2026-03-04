@@ -509,11 +509,16 @@ html, body {
 }
 
 .sidebar-inset-title {
+  flex: 1;
+  min-width: 0;
   font-size: 1rem;
   font-weight: 600;
   color: var(--color-text-primary, #111827);
   margin: 0;
   line-height: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .sidebar-inset-content {
@@ -1332,6 +1337,22 @@ html, body {
 .ex-expanded {
   flex-basis: 100%;
   padding: 0.5rem 0 0.25rem;
+}
+
+// Full exercise name shown when expanded — only visible on mobile where name is truncated
+.ex-full-name {
+  display: none;
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-primary, #111827);
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .ex-full-name {
+    display: block;
+  }
 }
 
 .ex-desc {
