@@ -1531,6 +1531,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                             </template>
                             <template x-if="expandedExercises?.includes(setIdx + '-' + exIdx)">
                               <div class="ex-expanded" @click.stop>
+                                <p class="ex-full-name" x-text="ex.name"></p>
                                 <template x-if="ex.description">
                                   <p class="ex-desc" x-text="ex.description"></p>
                                 </template>
