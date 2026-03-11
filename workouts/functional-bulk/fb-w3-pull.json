@@ -1,0 +1,82 @@
+{
+  "id": "fb-w3-pull",
+  "name": "Week 3 Pull (Back/Biceps/Rear Delts)",
+  "description": "DB rows now pyramid by design (you were doing it naturally). Preacher curl replaces hammer curl — way harder, way better for bicep growth. Note which lat pulldown/cable row machine you use so numbers are comparable.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "pull-up-bar", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Squeeze shoulder blades, warm up upper back" },
+        { "id": "cat-cow", "reps": 10, "notes": "Loosen thoracic spine" },
+        { "id": "dead-hang", "reps": 1, "duration": 20, "notes": "Decompress spine, activate grip and lats" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Station 1: Pull-up Bar",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "6-10", "notes": "W2: 8/6/8/5. Goal: more consistent across sets. Aim for 4x7+ or try to beat total reps (W2 total: 27)." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-row-station",
+      "name": "Station 2: Dumbbell Row (Pyramid)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "dumbbell-row", "reps": "8-10", "notes": "PYRAMID — you did this naturally in W2: 50→55→60→65x7. Now it's official. Set 1: 55x10, Set 2: 60x8, Set 3: 65x8, Set 4: 70x6-8 (new PR attempt). One arm at a time, brace on bench." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-station",
+      "name": "Station 3: Cable Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "reps": "8-12", "notes": "W2: 140x11, 140x10, 160x7. IMPORTANT: note which machine you use (pulley variance is real). Start at your W2 weight on that machine." },
+        { "id": "seated-cable-row", "reps": "10-12", "notes": "W2: 120x10 was working weight (140 was immovable on a different machine). Note the machine! Start at 120, push for 130 if it feels right." },
+        { "id": "face-pull", "reps": "15-20", "notes": "W2: 47.5 x20/18/18/15. Try 50lbs. High cable, rope, pull to face and externally rotate." },
+        { "id": "cable-bicep-curl", "reps": "10-12", "notes": "W2: 42.5x10 then dropped to 37.5. Try 42.5 for all sets — you're stronger than last week." }
+      ],
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-finish",
+      "name": "Station 4: Dumbbells + Preacher Bench",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-reverse-fly", "reps": "12-15", "notes": "W2: 20x15, getting hard by set 3. Try 22.5 or 25 if available. Bent over, squeeze rear delts." },
+        { "id": "preacher-curl", "reps": "8-12", "notes": "NEW — replaces hammer curl (too easy at 20lb). Sit-down preacher bench with fixed EZ curl bars. Try a few weights to find your working weight — it'll be humbling. Full stretch at bottom, squeeze at top." }
+      ],
+      "restBetween": 75,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "DB rows are now a pyramid by design — go heavier each set, top set is a PR attempt",
+    "Preacher curl: the fixed EZ bars have set weights. Try a few to find your working weight — probably 30-40lb range",
+    "WRITE DOWN which lat pulldown and cable row machine you use. Different pulleys = different numbers.",
+    "Pull-up goal: beat your W2 total of 27 reps across 4 sets",
+    "Cable curls at 42.5 for all 4 sets — you can do it, you're just 2 weeks stronger",
+    "Rest 3 min between pull-ups, 2 min between rows, 75s between cable isolation",
+    "Total volume: ~20 working sets for pull muscles"
+  ]
+}

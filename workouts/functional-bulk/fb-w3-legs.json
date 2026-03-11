@@ -1,0 +1,80 @@
+{
+  "id": "fb-w3-legs",
+  "name": "Week 3 Legs (Quads/Hamstrings/Glutes/Calves)",
+  "description": "Big corrections from W2: leg curl jumps to 90 (real working weight), calf raises bump up, squat starts at 65/side. Walking lunges replace step-ups (back to unilateral basics). You're stronger than you thought.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine", "bench"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, arms in front for balance" },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Open up the hips" },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight walking lunges, feel the stretch" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "rack-station",
+      "name": "Station 1: Squat Rack",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "squat", "reps": "6-8", "notes": "W2: pyramided to 65/side (175 total) and got 6. Start at 55 for set 1, then 65 for sets 2-4. Goal: 3x6+ at 65/side." },
+        { "id": "barbell-romanian-deadlift", "reps": "8-10", "notes": "W2: 65/side was hard but doable (8/10/8). Same weight, aim for more consistent reps — 3x10 at 65." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Station 2: Leg Press",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press", "reps": "10-12", "notes": "W2: 360x10 all sets, went deeper on last two. Same weight, keep the deeper ROM, push for 12 reps. If 3x12 deep is easy, bump to 400 (4.5 plates/side)." },
+        { "id": "leg-press-calf-raise", "reps": "15-20", "notes": "W2: 360 was too easy. Bump to 450 (5 plates/side). Full stretch at bottom, squeeze at top." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Station 3: Leg Curl Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": "10-12", "notes": "W2: 50 was a joke, 90 was real working weight (negatives hard). Start at 90. Make sure the pad position matches what you found in W2. 2-second negatives." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "lunge-station",
+      "name": "Station 4: Walking Lunges",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": "10 each leg", "notes": "Back to lunges — W1 had these, W2 swapped to step-ups. DBs at sides, 40lbs. Long stride, back knee kisses the floor. Don't rush — your legs are cooked by now and that's the point." }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Squat: warm up at 45/side, then 55 for set 1, 65 for sets 2-4. You've earned it.",
+    "Leg curl: 90 is your real weight. Don't second-guess it — position matters more than the number on the stack.",
+    "Calf raises: bump weight. Calves are stubborn — they need more load, not more reps.",
+    "Walking lunges at the end will be brutal on tired legs. That's intentional — time under tension when fatigued = growth.",
+    "Rest 3 min between squat/RDL sets, 2 min on leg press, 90s on isolation",
+    "If a machine is taken, check Training Notes for swap options",
+    "Total volume: ~17 working sets for legs"
+  ]
+}

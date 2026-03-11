@@ -1,7 +1,7 @@
 {
   "id": "prenatal-stretch-mobility",
   "name": "Prenatal Stretch & Mobility",
-  "description": "A 25-minute active stretch and mobility session. Mix of dynamic warmup movements and deeper static holds targeting pregnancy trouble spots — hips, lower back, shoulders, and calves.",
+  "description": "Jess: 25-min active stretch and mobility. Dynamic warmup then deep holds for hips, lower back, shoulders, calves. NO flat-on-back — knee-to-chest, spinal twist, hamstring stretch all done side-lying. Stay more upright in pigeon to avoid belly compression.",
   "routineId": "maternity",
   "tags": ["maternity", "stretch", "mobility", "active", "recovery", "hips", "lower-back"],
   "estimatedDuration": 25,
@@ -29,7 +29,7 @@
       "exercises": [
         { "id": "90-90-stretch", "duration": 45, "notes": "Each side — sit tall, lean forward. Try gentle pulses for 10 reps then hold." },
         { "id": "butterfly-stretch", "duration": 45, "notes": "Pulse knees 10x then hold. Lean forward from hips." },
-        { "id": "pigeon-pose", "duration": 60, "notes": "Each side — go deeper than you think. Use pillows if hip is far from floor." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "Each side — use pillows if hip is far from floor. Stay more upright to avoid belly compression." },
         { "id": "malasana-hold", "duration": 45, "notes": "Deep squat hold — elbows press knees wide. Rock gently side to side." },
         { "id": "seated-piriformis-stretch", "duration": 30, "notes": "Each side — sit tall, lean forward. Important for sciatic relief." }
       ],
@@ -42,8 +42,8 @@
       "type": "exercises",
       "rounds": 1,
       "exercises": [
-        { "id": "knee-to-chest-stretch", "duration": 30, "notes": "Each side — gentle pull, opposite leg bent" },
-        { "id": "supine-spinal-twist", "duration": 45, "notes": "Each side — pillow between knees. Modified side-lying if uncomfortable." },
+        { "id": "knee-to-chest-stretch", "duration": 30, "notes": "Each side — SIDE-LYING position (not flat on back). Gentle pull, keep breathing." },
+        { "id": "supine-spinal-twist", "duration": 45, "notes": "Each side — do SIDE-LYING with pillow between knees. Not flat on back." },
         { "id": "cobra-stretch", "duration": 30, "notes": "Gentle — press up just enough to feel the stretch. Avoid deep backbends." },
         { "id": "childs-pose", "duration": 60, "notes": "Knees wide. Walk hands to the left, hold 15s. Walk to the right, hold 15s. Back to center." }
       ],
@@ -59,18 +59,19 @@
         { "id": "standing-hamstring-stretch", "duration": 30, "notes": "Each side — foot on low surface, gentle lean. Keep back flat." },
         { "id": "standing-quad-stretch", "duration": 30, "notes": "Each side — use wall for balance" },
         { "id": "wall-calf-stretch", "duration": 30, "notes": "Each side — straight leg then bent leg. Helps with nighttime cramps." },
-        { "id": "lying-hamstring-stretch", "duration": 30, "notes": "Each side — use a towel or strap. Side-lying modification available." }
+        { "id": "lying-hamstring-stretch", "duration": 30, "notes": "Each side — do SIDE-LYING or use towel/strap from reclined with head propped up. Not flat on back." }
       ],
       "restBetween": 5,
       "restAfter": 0
     }
   ],
   "tips": [
-    "The dynamic warmup should get blood flowing — don't skip it",
+    "Jess: dynamic warmup should get blood flowing — don't skip it",
+    "NO flat-on-back — knee-to-chest, spinal twist, hamstring stretch all done side-lying",
+    "Stay upright in pigeon and forward folds — don't fold deep enough to compress belly",
     "Hip openers will feel more productive as pregnancy progresses and relaxin kicks in",
     "Malasana shows up in every session for a reason — it's the best labor prep stretch",
     "Piriformis stretch helps with sciatic pain — common in second trimester",
-    "Calf stretches can prevent nighttime leg cramps",
-    "Always consult your healthcare provider before starting any exercise program during pregnancy"
+    "Calf stretches can prevent nighttime leg cramps"
   ]
 }

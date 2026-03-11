@@ -1,7 +1,7 @@
 {
   "id": "prenatal-yoga-flow",
   "name": "Prenatal Yoga Flow",
-  "description": "A 30-minute active prenatal yoga session. Dynamic flows, longer warrior holds, deep hip openers, and malasana work. More than just stretching — you'll feel the burn in your legs and shoulders.",
+  "description": "Jess: 30-min active prenatal yoga. Warriors, dynamic flows, deep squats, hip openers. Your legs should feel worked. NO flat-on-back (do happy baby side-lying). Avoid folding too deep in pigeon — belly compression. First session took ~38 min with reading time, should be faster now.",
   "routineId": "maternity",
   "tags": ["maternity", "yoga", "active", "hip-opener", "breathing", "flexibility", "strength"],
   "estimatedDuration": 30,
@@ -52,9 +52,9 @@
       "type": "exercises",
       "rounds": 1,
       "exercises": [
-        { "id": "pigeon-pose", "duration": 60, "notes": "Each side — prop up on block or pillow if needed. Breathe and sink deeper with each exhale." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "Each side — prop up on block or pillow if needed. Don't fold forward too deep — belly compression. Breathe and sink deeper with each exhale." },
         { "id": "butterfly-stretch", "duration": 45, "notes": "Sit tall, press knees toward floor. Try pulsing 10x then hold." },
-        { "id": "happy-baby", "duration": 45, "notes": "Side-lying modification if needed. Rock gently side to side." },
+        { "id": "happy-baby", "duration": 45, "notes": "Do this SIDE-LYING — flat on back causes too much belly pressure. Rock gently side to side." },
         { "id": "malasana-hold", "duration": 30, "notes": "One more round — this time hands in prayer, elbows pressing knees wide." }
       ],
       "restBetween": 5,
@@ -72,12 +72,13 @@
     }
   ],
   "tips": [
-    "This is an active yoga session — your legs should feel worked by the end",
+    "Jess: this is an active yoga session — your legs should feel worked by the end",
     "Warrior holds build real leg strength — don't rush them",
     "Malasana (deep squat) is the #1 prenatal pose — practice it daily",
     "Use blocks and pillows freely but challenge yourself where you can",
-    "Avoid lying flat on your back — side-lying for any supine work",
+    "NO flat-on-back poses — do happy baby side-lying, spinal twists with pillow between knees",
+    "Belly compression: don't fold too deep in pigeon or forward folds — stay upright-ish",
     "If balance is shaky, keep one hand on a wall — no shame in support",
-    "Always consult your healthcare provider before starting any exercise program during pregnancy"
+    "Second time through will be faster — first session took ~38 min with reading time"
   ]
 }

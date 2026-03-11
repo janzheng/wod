@@ -1,0 +1,58 @@
+{
+  "id": "fb-w3-d2-morning-flow",
+  "name": "W3 KB Day Morning Flow (Explore Prep)",
+  "description": "15 min flow before KB Explore day. Core is harder this week (plank variations + hollow body), mobility targets the hips and thoracic spine you'll need for bent press and cossack squat. Doubles as a standalone flow if you're short on time.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "core", "hips", "bodyweight", "fixed"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "core-block",
+      "name": "Core (Harder Than W2)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "hollow-body-rocks", "reps": 10, "notes": "NEW — hollow body position but rocking back and forth. Gymnastic core work. Keep lower back pressed down the entire time." },
+        { "id": "plank-shoulder-taps", "reps": "8 each", "notes": "NEW — in plank, tap opposite shoulder without rotating hips. Anti-rotation core work. Harder than a regular plank." },
+        { "id": "bird-dog", "reps": "8 each", "notes": "Familiar from W1-W2. Opposite arm/leg, hold 2 seconds. The stable base for everything else." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "hip-thoracic",
+      "name": "Hip + Thoracic Mobility (KB Prep)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "straddle-sit-stretch", "duration": 45, "notes": "NEW — legs wide, fold forward. Opens adductors for cossack squats later. Go slow, breathe, walk hands forward." },
+        { "id": "saddle-pose", "duration": 30, "notes": "NEW — kneel, lean back. Opens quad and hip flexors deeply. Start gentle — if it's too intense, put hands behind you for support." },
+        { "id": "supine-spinal-twist", "duration": 30, "notes": "30s each side. Thoracic rotation you'll need for bent press. Knees to one side, arms spread." },
+        { "id": "malasana-hold", "duration": 30, "notes": "Deep squat hold. Elbows press knees out. Primes the deep squat pattern for goblet squats and cossack squats." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "movement-flow",
+      "name": "Movement Flow",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bear-crawl-hold", "duration": 20, "notes": "NEW — hands and feet on ground, knees hovering 1 inch off floor. Hold still. Fires up everything — core, shoulders, quads. Sneaky hard." },
+        { "id": "plank-to-down-dog", "reps": 6, "notes": "Flow between positions. Wakes up the whole posterior chain." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "15 min — harder core + KB-specific mobility. This is a real flow, not just stretching.",
+    "Hollow body rocks: if you can't maintain position, just hold static hollow body",
+    "Saddle pose: go easy first time. If knees hurt, come out immediately — it's a flexibility thing, not a pain thing.",
+    "Bear crawl hold: the goal is stillness. If you're shaking, that's working.",
+    "This flow prepares you specifically for bent press (thoracic rotation) and cossack squat (adductors)"
+  ]
+}

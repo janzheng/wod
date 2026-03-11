@@ -1,0 +1,70 @@
+{
+  "id": "fb-w3-kb-cond",
+  "name": "Week 3 KB Conditioning (Refine & Drill)",
+  "description": "Thursday = refine Tuesday's new stuff + keep your favorites. Drill bent press and cossack squat from Tuesday. Keep overhead lunges and Simba lift at heavier weights (you earned the bump). Finisher complex stays — it's a real workout, not just practice.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "circuit", "conditioning", "skill-work", "fixed"],
+  "estimatedDuration": 30,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Quick Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen up fast" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings to prime the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "Skill Block: Tuesday Refinement",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "Drill from Tuesday. Same light weight (18lb). Focus on the path — your body moves down and around the bell. If Tuesday felt ok, try to go slightly deeper." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Drill from Tuesday. KB goblet hold. Push for deeper range than Tuesday. Heels down, chest up." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "favorites",
+      "name": "Your Favorites (Heavier This Week)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-overhead-lunge", "reps": "5 each leg", "notes": "W2 you did these at 50lb and they were fine. Stay at 50 or try alternating arms each set. Lock out overhead, torso upright." },
+        { "id": "squat-front-raise", "reps": 8, "notes": "Simba lift — W2 was 18lb (too easy). Bump to 25lb or 35lb. If 50lb is the max, add a 2-3 second hold at the top with arms locked." },
+        { "id": "kettlebell-windmill", "reps": "3 each side", "notes": "Your comfort move. Light bell. Keep it in the rotation — it's the perfect active rest between the harder stuff." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "complex",
+      "name": "Finisher Complex",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "50lb. Two-handed, explosive." },
+        { "id": "kettlebell-clean-and-press", "reps": "5 each", "notes": "50lb. Stay at 50, flex reps based on feel. If you get 5 each, great. If you get 4, that's fine too." },
+        { "id": "kettlebell-thruster", "reps": 8, "notes": "50lb. Squat to press, one fluid motion." }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    }
+  ],
+  "tips": [
+    "Thursday = refine Tuesday's new moves + heavier favorites",
+    "Bent press: still light (18lb). You need at least 2-3 weeks before going heavier on this one.",
+    "Simba lift: bump the weight. 18lb was too easy. 25-35lb range, or add the pause hold at top.",
+    "Windmill is your palate cleanser — light, familiar, keeps shoulders healthy between the harder stuff",
+    "Complex: 50lb for everything. Flex reps on clean & press if needed.",
+    "Total time ~30 min — longer than W2 because you added windmill to the favorites block"
+  ]
+}

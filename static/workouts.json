@@ -6541,6 +6541,1159 @@
     "category": "functional-bulk"
   },
   {
+    "id": "fb-w3-d2-morning-flow",
+    "name": "W3 KB Day Morning Flow (Explore Prep)",
+    "description": "15 min flow before KB Explore day. Core is harder this week (plank variations + hollow body), mobility targets the hips and thoracic spine you'll need for bent press and cossack squat. Doubles as a standalone flow if you're short on time.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "core",
+      "hips",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "core-block",
+        "name": "Core (Harder Than W2)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "hollow-body-rocks",
+            "reps": 10,
+            "notes": "NEW — hollow body position but rocking back and forth. Gymnastic core work. Keep lower back pressed down the entire time."
+          },
+          {
+            "id": "plank-shoulder-taps",
+            "reps": "8 each",
+            "notes": "NEW — in plank, tap opposite shoulder without rotating hips. Anti-rotation core work. Harder than a regular plank."
+          },
+          {
+            "id": "bird-dog",
+            "reps": "8 each",
+            "notes": "Familiar from W1-W2. Opposite arm/leg, hold 2 seconds. The stable base for everything else."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "hip-thoracic",
+        "name": "Hip + Thoracic Mobility (KB Prep)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "straddle-sit-stretch",
+            "duration": 45,
+            "notes": "NEW — legs wide, fold forward. Opens adductors for cossack squats later. Go slow, breathe, walk hands forward."
+          },
+          {
+            "id": "saddle-pose",
+            "duration": 30,
+            "notes": "NEW — kneel, lean back. Opens quad and hip flexors deeply. Start gentle — if it's too intense, put hands behind you for support."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 30,
+            "notes": "30s each side. Thoracic rotation you'll need for bent press. Knees to one side, arms spread."
+          },
+          {
+            "id": "malasana-hold",
+            "duration": 30,
+            "notes": "Deep squat hold. Elbows press knees out. Primes the deep squat pattern for goblet squats and cossack squats."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "movement-flow",
+        "name": "Movement Flow",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bear-crawl-hold",
+            "duration": 20,
+            "notes": "NEW — hands and feet on ground, knees hovering 1 inch off floor. Hold still. Fires up everything — core, shoulders, quads. Sneaky hard."
+          },
+          {
+            "id": "plank-to-down-dog",
+            "reps": 6,
+            "notes": "Flow between positions. Wakes up the whole posterior chain."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min — harder core + KB-specific mobility. This is a real flow, not just stretching.",
+      "Hollow body rocks: if you can't maintain position, just hold static hollow body",
+      "Saddle pose: go easy first time. If knees hurt, come out immediately — it's a flexibility thing, not a pain thing.",
+      "Bear crawl hold: the goal is stillness. If you're shaking, that's working.",
+      "This flow prepares you specifically for bent press (thoracic rotation) and cossack squat (adductors)"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-d4-morning-flow",
+    "name": "W3 KB Conditioning Morning Flow",
+    "description": "15 min hip-heavy flow before KB Refine day. Different from the D2 flow — this one is more recovery-oriented since you've had 3 training days already. Plow pose for spinal decompression, deep stretches for sore hips, light core.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "recovery",
+      "hips",
+      "mobility",
+      "flow",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "decompress",
+        "name": "Decompress (Everything Is Sore)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "puppy-pose-cat-cow",
+            "reps": 12,
+            "notes": "Slow transitions. Inhale arch, exhale round. Gets into the thoracic spine and shoulders."
+          },
+          {
+            "id": "plow-pose",
+            "duration": 30,
+            "notes": "NEW — lie on back, legs over head, toes touch floor behind you. Full posterior chain stretch + spinal decompression. If you can't reach the floor, just go as far as comfortable. Skip if neck feels weird."
+          },
+          {
+            "id": "happy-baby",
+            "duration": 30,
+            "notes": "Grab feet, knees toward armpits. Rock gently side to side. Resets the lower back and opens hips."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "deep-hips",
+        "name": "Deep Hip Work",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 30,
+            "notes": "30s each side. Keep hips square, fold over front leg. Different angle than Tuesday's hip work."
+          },
+          {
+            "id": "frog-stretch",
+            "duration": 45,
+            "notes": "Hands and knees, wide knees, sink back. Intense inner thigh opener. Breathe through the discomfort."
+          },
+          {
+            "id": "saddle-pose",
+            "duration": 30,
+            "notes": "Kneel, lean back. Quad and hip flexor stretch. If you did this Tuesday, you should be able to go deeper today."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 15
+      },
+      {
+        "id": "light-core",
+        "name": "Light Core (Just Enough)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "dead-bug",
+            "reps": "8 each",
+            "notes": "Opposite arm/leg. Keep lower back glued to floor. Familiar and effective."
+          },
+          {
+            "id": "side-plank-hold",
+            "duration": 20,
+            "notes": "20s each side. Obliques + shoulder stability. Primes the lateral stability you need for KB work."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min — recovery-focused. You've had push, KB, and pull this week already.",
+      "Plow pose: if it feels weird on your neck, skip it. Do a forward fold instead.",
+      "Frog stretch: second time this week if you did the pull day flow. Should feel easier.",
+      "If you're time-crunched like last week: do the decompress + deep hips blocks, skip core.",
+      "This flow + the KB Refine workout should take ~45 min total"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-d5-morning-flow",
+    "name": "W3 Legs Morning Flow",
+    "description": "15 min squat prep + hip primer. More dynamic than W1-W2 — warrior flow to open hips, crow pose attempt for fun, deeper stretches to prime the heavy squats. Your squats are going to 65/side today, so prep matters.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "hips",
+      "legs",
+      "core",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "dynamic-warmup",
+        "name": "Dynamic Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "warrior-one",
+            "duration": 30,
+            "notes": "30s each side. Deep lunge, arms overhead. Opens hip flexors before you load them with a barbell."
+          },
+          {
+            "id": "extended-side-angle",
+            "duration": 30,
+            "notes": "30s each side. From warrior II, reach over. Lateral hip + groin stretch that squats and lunges need."
+          },
+          {
+            "id": "dynamic-malasana",
+            "reps": 10,
+            "notes": "Squat to standing, hands at toes. Groove the deep squat pattern before you go heavy."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-mobility",
+        "name": "Hip Mobility (Deep)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "skandasana-side-lunge",
+            "reps": "8 each",
+            "notes": "Deep side lunge, alternating. Primes the same lateral hip pattern as cossack squats from KB day."
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 30,
+            "notes": "30s each side. Elbows down for deeper stretch. Hip flexors and groin."
+          },
+          {
+            "id": "90-90-stretch",
+            "duration": 30,
+            "notes": "30s each side. Internal and external hip rotation. Your hips need this before heavy squats."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "core-balance",
+        "name": "Core + Balance Challenge",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "crow-pose",
+            "duration": 15,
+            "notes": "NEW — try it! Hands on ground, knees on triceps, lean forward until feet lift. If you fall, you fall. It's fun and builds the body awareness you're developing from KB work. Even 3 seconds is a win."
+          },
+          {
+            "id": "plank-hip-dips",
+            "reps": 10,
+            "notes": "NEW — in plank, rotate hips side to side, tapping the floor. Obliques + hip mobility in one move."
+          },
+          {
+            "id": "hollow-body-hold",
+            "duration": 20,
+            "notes": "Lower back pressed down. Arms and legs hovering. 20s of pure core."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min — more dynamic and intense than W1-W2 leg day flows",
+      "Warrior + side angle: think yoga class energy. Breathe deep into each one.",
+      "Crow pose: just TRY it. Even if you only hold for 2 seconds, you're building something. Put a pillow in front of you if you're worried about face-planting.",
+      "This flow specifically primes heavy squats — the hip work matters today",
+      "If short on time: do dynamic warmup + hip mobility, skip core/balance"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-kb-cond",
+    "name": "Week 3 KB Conditioning (Refine & Drill)",
+    "description": "Thursday = refine Tuesday's new stuff + keep your favorites. Drill bent press and cossack squat from Tuesday. Keep overhead lunges and Simba lift at heavier weights (you earned the bump). Finisher complex stays — it's a real workout, not just practice.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "circuit",
+      "conditioning",
+      "skill-work",
+      "fixed"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Quick Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Loosen up fast"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings to prime the hinge"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "skill-block",
+        "name": "Skill Block: Tuesday Refinement",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3 each side",
+            "notes": "Drill from Tuesday. Same light weight (18lb). Focus on the path — your body moves down and around the bell. If Tuesday felt ok, try to go slightly deeper."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "Drill from Tuesday. KB goblet hold. Push for deeper range than Tuesday. Heels down, chest up."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "favorites",
+        "name": "Your Favorites (Heavier This Week)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-overhead-lunge",
+            "reps": "5 each leg",
+            "notes": "W2 you did these at 50lb and they were fine. Stay at 50 or try alternating arms each set. Lock out overhead, torso upright."
+          },
+          {
+            "id": "squat-front-raise",
+            "reps": 8,
+            "notes": "Simba lift — W2 was 18lb (too easy). Bump to 25lb or 35lb. If 50lb is the max, add a 2-3 second hold at the top with arms locked."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "3 each side",
+            "notes": "Your comfort move. Light bell. Keep it in the rotation — it's the perfect active rest between the harder stuff."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "complex",
+        "name": "Finisher Complex",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "50lb. Two-handed, explosive."
+          },
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "5 each",
+            "notes": "50lb. Stay at 50, flex reps based on feel. If you get 5 each, great. If you get 4, that's fine too."
+          },
+          {
+            "id": "kettlebell-thruster",
+            "reps": 8,
+            "notes": "50lb. Squat to press, one fluid motion."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 45
+      }
+    ],
+    "tips": [
+      "Thursday = refine Tuesday's new moves + heavier favorites",
+      "Bent press: still light (18lb). You need at least 2-3 weeks before going heavier on this one.",
+      "Simba lift: bump the weight. 18lb was too easy. 25-35lb range, or add the pause hold at top.",
+      "Windmill is your palate cleanser — light, familiar, keeps shoulders healthy between the harder stuff",
+      "Complex: 50lb for everything. Flex reps on clean & press if needed.",
+      "Total time ~30 min — longer than W2 because you added windmill to the favorites block"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-kb-full",
+    "name": "Week 3 KB Full Body (Explore Day)",
+    "description": "Tuesday = Explore. Two new weird movements this week: bent press (overhead strength through rotation) and cossack squat (deep lateral hip mobility + strength). Plus your now-familiar TGU and windmill. Traditional KB strength stays in the mix — you're building a toolkit.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "strength",
+      "intermediate",
+      "fixed",
+      "explore"
+    ],
+    "estimatedDuration": 40,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light, loosen shoulders and thoracic spine"
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 5,
+            "notes": "Easy reps, find your depth"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings, groove the hinge"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "block-1-explore",
+        "name": "Block 1: New Movements (Explore!)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3 each side",
+            "notes": "NEW — the weird one. Hold KB overhead, then bend your torso sideways and DOWN while keeping the KB locked out above. Your body moves around the weight, not the other way. Go LIGHT (18lb). It's like a windmill's cooler older sibling."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "NEW — deep side lunge. One leg straight, one bent in a deep squat. Hold KB goblet style for counterbalance. Opens hips laterally in a way nothing else does. Go slow, go deep."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 60
+      },
+      {
+        "id": "block-2-skill",
+        "name": "Block 2: Skill Refinement (TGU + Windmill)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "2 each side",
+            "notes": "W2 you went from bodyweight to 18lb. Try 25lb if 18 felt controlled. Left side should feel less derpy by now. Eyes on the bell the whole time."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "3 each side",
+            "notes": "You love these. Same weight as TGU or lighter. Deep hip hinge, eyes on the bell. These are your comfort zone now — push the depth."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-3-strength",
+        "name": "Block 3: Traditional KB Strength",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "5 each",
+            "notes": "50lb. W2 was brutal — you got 6/6/5. Aim for 3x6 this week. The movement should feel smoother by now."
+          },
+          {
+            "id": "kettlebell-row",
+            "reps": "10 each",
+            "notes": "50lb. Hinge position, pull elbow past ribs. Solid and familiar."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "block-4-finisher",
+        "name": "Block 4: Finisher",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 12,
+            "notes": "50lb. Deep, controlled. You know this one cold."
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 20,
+            "notes": "50lb. Empty the tank. Full hip snap."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Tuesday = EXPLORE. Two new movements this week: bent press and cossack squat.",
+      "Bent press: go LIGHT. 18lb max. This is a skill that takes weeks to learn. Watch the weight stay still while your body moves under it.",
+      "Cossack squat: use KB as counterbalance. Heels stay down. If you can't go deep, go as deep as you can — it'll improve fast.",
+      "TGU: if 18lb felt easy in W2, try 25lb. Left side should be catching up.",
+      "Clean & press: stay at 50lb, push for more consistent reps",
+      "Light bell (18lb) for new movements, working bell (50lb) for familiar movements",
+      "Thursday you'll drill the bent press and cossack squat again — today is about trying them, not perfecting them"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-legs",
+    "name": "Week 3 Legs (Quads/Hamstrings/Glutes/Calves)",
+    "description": "Big corrections from W2: leg curl jumps to 90 (real working weight), calf raises bump up, squat starts at 65/side. Walking lunges replace step-ups (back to unilateral basics). You're stronger than you thought.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "legs",
+      "lower-body",
+      "quads",
+      "hamstrings",
+      "glutes",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "machine",
+      "bench"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth, arms in front for balance"
+          },
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Open up the hips"
+          },
+          {
+            "id": "lunge",
+            "reps": "5 each leg",
+            "notes": "Bodyweight walking lunges, feel the stretch"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "rack-station",
+        "name": "Station 1: Squat Rack",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": "6-8",
+            "notes": "W2: pyramided to 65/side (175 total) and got 6. Start at 55 for set 1, then 65 for sets 2-4. Goal: 3x6+ at 65/side."
+          },
+          {
+            "id": "barbell-romanian-deadlift",
+            "reps": "8-10",
+            "notes": "W2: 65/side was hard but doable (8/10/8). Same weight, aim for more consistent reps — 3x10 at 65."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 90
+      },
+      {
+        "id": "legpress-station",
+        "name": "Station 2: Leg Press",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": "10-12",
+            "notes": "W2: 360x10 all sets, went deeper on last two. Same weight, keep the deeper ROM, push for 12 reps. If 3x12 deep is easy, bump to 400 (4.5 plates/side)."
+          },
+          {
+            "id": "leg-press-calf-raise",
+            "reps": "15-20",
+            "notes": "W2: 360 was too easy. Bump to 450 (5 plates/side). Full stretch at bottom, squeeze at top."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "legcurl-station",
+        "name": "Station 3: Leg Curl Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-leg-curl",
+            "reps": "10-12",
+            "notes": "W2: 50 was a joke, 90 was real working weight (negatives hard). Start at 90. Make sure the pad position matches what you found in W2. 2-second negatives."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "lunge-station",
+        "name": "Station 4: Walking Lunges",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-lunge",
+            "reps": "10 each leg",
+            "notes": "Back to lunges — W1 had these, W2 swapped to step-ups. DBs at sides, 40lbs. Long stride, back knee kisses the floor. Don't rush — your legs are cooked by now and that's the point."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Squat: warm up at 45/side, then 55 for set 1, 65 for sets 2-4. You've earned it.",
+      "Leg curl: 90 is your real weight. Don't second-guess it — position matters more than the number on the stack.",
+      "Calf raises: bump weight. Calves are stubborn — they need more load, not more reps.",
+      "Walking lunges at the end will be brutal on tired legs. That's intentional — time under tension when fatigued = growth.",
+      "Rest 3 min between squat/RDL sets, 2 min on leg press, 90s on isolation",
+      "If a machine is taken, check Training Notes for swap options",
+      "Total volume: ~17 working sets for legs"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-pull",
+    "name": "Week 3 Pull (Back/Biceps/Rear Delts)",
+    "description": "DB rows now pyramid by design (you were doing it naturally). Preacher curl replaces hammer curl — way harder, way better for bicep growth. Note which lat pulldown/cable row machine you use so numbers are comparable.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "pull",
+      "upper-body",
+      "back",
+      "biceps",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "pull-up-bar",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Squeeze shoulder blades, warm up upper back"
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Loosen thoracic spine"
+          },
+          {
+            "id": "dead-hang",
+            "reps": 1,
+            "duration": 20,
+            "notes": "Decompress spine, activate grip and lats"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "pullup-station",
+        "name": "Station 1: Pull-up Bar",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "6-10",
+            "notes": "W2: 8/6/8/5. Goal: more consistent across sets. Aim for 4x7+ or try to beat total reps (W2 total: 27)."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 90
+      },
+      {
+        "id": "dumbbell-row-station",
+        "name": "Station 2: Dumbbell Row (Pyramid)",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "dumbbell-row",
+            "reps": "8-10",
+            "notes": "PYRAMID — you did this naturally in W2: 50→55→60→65x7. Now it's official. Set 1: 55x10, Set 2: 60x8, Set 3: 65x8, Set 4: 70x6-8 (new PR attempt). One arm at a time, brace on bench."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "cable-station",
+        "name": "Station 3: Cable Machine",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "lat-pulldown",
+            "reps": "8-12",
+            "notes": "W2: 140x11, 140x10, 160x7. IMPORTANT: note which machine you use (pulley variance is real). Start at your W2 weight on that machine."
+          },
+          {
+            "id": "seated-cable-row",
+            "reps": "10-12",
+            "notes": "W2: 120x10 was working weight (140 was immovable on a different machine). Note the machine! Start at 120, push for 130 if it feels right."
+          },
+          {
+            "id": "face-pull",
+            "reps": "15-20",
+            "notes": "W2: 47.5 x20/18/18/15. Try 50lbs. High cable, rope, pull to face and externally rotate."
+          },
+          {
+            "id": "cable-bicep-curl",
+            "reps": "10-12",
+            "notes": "W2: 42.5x10 then dropped to 37.5. Try 42.5 for all sets — you're stronger than last week."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 90
+      },
+      {
+        "id": "dumbbell-finish",
+        "name": "Station 4: Dumbbells + Preacher Bench",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": "12-15",
+            "notes": "W2: 20x15, getting hard by set 3. Try 22.5 or 25 if available. Bent over, squeeze rear delts."
+          },
+          {
+            "id": "preacher-curl",
+            "reps": "8-12",
+            "notes": "NEW — replaces hammer curl (too easy at 20lb). Sit-down preacher bench with fixed EZ curl bars. Try a few weights to find your working weight — it'll be humbling. Full stretch at bottom, squeeze at top."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "DB rows are now a pyramid by design — go heavier each set, top set is a PR attempt",
+      "Preacher curl: the fixed EZ bars have set weights. Try a few to find your working weight — probably 30-40lb range",
+      "WRITE DOWN which lat pulldown and cable row machine you use. Different pulleys = different numbers.",
+      "Pull-up goal: beat your W2 total of 27 reps across 4 sets",
+      "Cable curls at 42.5 for all 4 sets — you can do it, you're just 2 weeks stronger",
+      "Rest 3 min between pull-ups, 2 min between rows, 75s between cable isolation",
+      "Total volume: ~20 working sets for pull muscles"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-pull-morning-flow",
+    "name": "W3 Pull Morning Flow",
+    "description": "12 min back/lat primer + deeper hip openers. Upgraded from W2: active hangs replace passive, frog stretch and happy baby replace the basic hip work. More intense, more interesting.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "back",
+      "hips",
+      "core",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "pull-up-bar"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "back-primer",
+        "name": "Back & Lat Primer",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "dead-hang",
+            "duration": 25,
+            "notes": "5 seconds longer than W2. Relax into it, decompress the spine."
+          },
+          {
+            "id": "scapular-pull",
+            "reps": 10,
+            "notes": "More reps than W2. Pull shoulder blades down and together from the hang. Should feel more controlled by now."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 30,
+            "notes": "NEW — lie on back, knees to one side. 30s each side. Opens thoracic spine and lower back. Different angle from cat-cow."
+          },
+          {
+            "id": "extended-side-angle",
+            "duration": 30,
+            "notes": "NEW — 30s each side. From warrior II, forearm to thigh, top arm reaches over. Deep lat stretch + hip opener in one."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-openers",
+        "name": "Deep Hip Openers",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "frog-stretch",
+            "duration": 45,
+            "notes": "NEW — hands and knees, knees wide, sink hips back. INTENSE inner thigh and hip opener. Way different from 90-90. Breathe through it."
+          },
+          {
+            "id": "happy-baby",
+            "duration": 30,
+            "notes": "NEW — on your back, grab feet, knees toward armpits. Gently rock side to side. Playful but effective hip opener."
+          },
+          {
+            "id": "couch-stretch",
+            "duration": 30,
+            "notes": "30s each side. Keeping this from W2 — still the best hip flexor stretch for desk humans."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min — back primer + deeper hip work. More intense than W2.",
+      "Frog stretch is no joke — ease into it. If it's too much, don't go as wide.",
+      "Happy baby: looks silly, feels amazing. Rock gently side to side.",
+      "If no pull-up bar at home, do the hang/scap work at the gym before your first set"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-push",
+    "name": "Week 3 Push (Chest/Shoulders/Triceps)",
+    "description": "You own these lifts now. Bench at 55/side minimum, push toward 65. Swap: push press replaces strict shoulder press (uses legs to drive heavier overhead). Everything else stays — beat your W2 numbers.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "push",
+      "upper-body",
+      "chest",
+      "shoulders",
+      "triceps",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "cable",
+      "bench",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (anywhere)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Forward then backward, loosen shoulders"
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Light band, squeeze shoulder blades"
+          },
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Easy reps, get blood flowing"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "bench-station",
+        "name": "Station 1: Bench",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "bench-press",
+            "reps": "6-8",
+            "notes": "W2 working weight: 55/side (155 total). Start at 55, push for 65/side (175) on sets 3-4 if set 1-2 felt clean. You hit 65x2 in W2 squats — your bench can get there too."
+          },
+          {
+            "id": "incline-dumbbell-press",
+            "reps": "8-10",
+            "notes": "W2 working weight: 50lbs. Aim for 4x10. If you hit it clean, try 55s next week."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 90
+      },
+      {
+        "id": "dumbbell-station",
+        "name": "Station 2: Dumbbells",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "push-press",
+            "reps": "6-8",
+            "notes": "NEW — replaces strict shoulder press. Small dip with legs, drive the weight overhead explosively. You can go heavier than strict press — try 45lbs, maybe 50. More athletic, more fun."
+          },
+          {
+            "id": "lateral-raise",
+            "reps": "12-15",
+            "notes": "W2 working weight: 15lbs. If 15x15 is clean, bump to 17.5 or 20. Last set: drop set — do 15s to failure, immediately grab 10s for 10 more reps."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "machine-cable-station",
+        "name": "Station 3: Pec Deck + Cables",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "pec-deck-fly",
+            "reps": "10-12",
+            "notes": "W2: Kinesis machine at 6. Try the actual pec deck if it's free. Squeeze hard at center, 2-second hold."
+          },
+          {
+            "id": "cable-lateral-raise",
+            "reps": "12-15",
+            "notes": "W2 working weight: 15lbs (too easy). Bump to 20. Single arm cross-body."
+          },
+          {
+            "id": "incline-cable-overhead-tricep-extension",
+            "reps": "10-12",
+            "notes": "W2 working weight: 45lbs (cable column). Same setup — HIGH cable, kneeling facing away. Try 50 if 45 felt manageable."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Push press is the big swap — uses leg drive to get heavier weight overhead. It's a progression from strict press, not a cheat.",
+      "Lateral raise drop set on set 3: go to failure at working weight, immediately grab lighter DBs for 10 more. Burns.",
+      "Bench: you're ready for 65/side. Even if you only get 4-5 reps, that's progress.",
+      "Cable lat raise: 15 was too easy. Bump to 20, no excuses.",
+      "Rest 3 min between bench sets, 2 min between push press, 75s between cable/isolation sets",
+      "Total volume: ~16 working sets for push muscles"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w3-push-morning-flow",
+    "name": "W3 Push Morning Flow",
+    "description": "12 min shoulder/chest opener with more intensity than W1-W2. Warrior flow for dynamic shoulder opening, plank-to-down-dog for active mobility, hollow body hold for core. Same targets, new movements.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "shoulders",
+      "chest",
+      "core",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "warrior-flow",
+        "name": "Warrior Flow (Shoulder + Hip Opener)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "warrior-one",
+            "duration": 30,
+            "notes": "30s each side. Arms overhead, sink into the lunge. Opens hip flexors AND shoulders simultaneously."
+          },
+          {
+            "id": "warrior-two",
+            "duration": 30,
+            "notes": "30s each side. Open the hips, arms wide. Feel the chest stretch as arms extend."
+          },
+          {
+            "id": "triangle-pose",
+            "duration": 30,
+            "notes": "30s each side. Reach long, side body stretch. Gets into the lats and obliques — great pre-push day."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "active-mobility",
+        "name": "Active Mobility",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "plank-to-down-dog",
+            "reps": 8,
+            "notes": "Smooth transitions. Plank loads the chest/shoulders, down dog stretches them. Best of both worlds."
+          },
+          {
+            "id": "scorpion-stretch",
+            "reps": "5 each side",
+            "notes": "Lie face down, reach one leg across to the opposite side. Opens chest, shoulders, and hip flexors in one move."
+          },
+          {
+            "id": "scapular-pull",
+            "reps": 8,
+            "notes": "From a hang or doorframe. Pull shoulder blades down and back. Activates stabilizers before you push heavy."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "core-activation",
+        "name": "Core Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "hollow-body-hold",
+            "duration": 20,
+            "notes": "Lower back pressed into floor, arms and legs hovering. This is the gymnastic core position — harder than a plank."
+          },
+          {
+            "id": "side-plank-hold",
+            "duration": 20,
+            "notes": "20s each side. Obliques and shoulder stability. Stack your feet or stagger if needed."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min — warrior flow + active mobility + core. More movement than W1-W2 flows.",
+      "Warrior flow: think yoga class energy. Breathe into each position.",
+      "Scorpion stretch is sneaky good — you'll feel it in your chest and hip flexors",
+      "Hollow body hold: if 20s is easy, extend to 30s. If it's impossible, bend your knees."
+    ],
+    "category": "functional-bulk"
+  },
+  {
     "id": "30-min-hiit-home-vs-gym",
     "name": "30 Min HIIT: Home vs Gym",
     "description": "6-exercise HIIT circuit from @Selfdefencess with bodyweight home variations and weighted gym alternatives. Each exercise has a floor/bodyweight option and a dumbbell/kettlebell option. Pick one column or mix and match based on your equipment.",
@@ -17256,7 +18409,7 @@
   {
     "id": "prenatal-light-strength",
     "name": "Prenatal Strength",
-    "description": "A 30-minute bodyweight strength workout for pregnancy. Builds real strength in glutes, legs, and upper body with challenging but safe movements. 3 rounds of lower body, 2 rounds of upper body + core.",
+    "description": "Jess: 30-min bodyweight strength. 3 rounds glutes/legs, 3 rounds upper body, 2 rounds core. Should feel like real work — glutes burn by round 3. NO flat-on-back — toe taps and leg slides done propped on elbows or side-lying.",
     "routineId": "maternity",
     "tags": [
       "maternity",
@@ -17371,12 +18524,12 @@
           {
             "id": "alternating-toe-taps",
             "reps": 12,
-            "notes": "Reclined or side-lying. Slow, controlled core stability work."
+            "notes": "SIDE-LYING or propped up on elbows — not flat on back. Slow, controlled core stability."
           },
           {
             "id": "supine-leg-slides",
             "reps": "10 each side",
-            "notes": "Reclined, knees bent. Slide one heel out, return. Deep core engagement."
+            "notes": "Propped up on elbows or side-lying — not flat on back. Slide one heel out, return. Deep core engagement."
           }
         ],
         "restBetween": 15,
@@ -17402,20 +18555,20 @@
       }
     ],
     "tips": [
-      "This should feel like real work — your glutes and legs should burn by round 3",
+      "Jess: this should feel like real work — glutes and legs should burn by round 3",
+      "NO flat-on-back — toe taps and leg slides done propped on elbows or side-lying",
       "Slow tempo makes bodyweight exercises much harder — don't rush the reps",
       "Single-leg bridges are challenging — drop to regular bridges if needed",
       "Knee push-ups are a real exercise, not a cop-out — control the descent",
       "Keep breathing throughout — never brace and hold your breath",
-      "Modify or skip anything that doesn't feel right — but push yourself where you can",
-      "Always consult your healthcare provider before starting any exercise program during pregnancy"
+      "Modify or skip anything that doesn't feel right — but push yourself where you can"
     ],
     "category": "maternity"
   },
   {
     "id": "prenatal-stretch-mobility",
     "name": "Prenatal Stretch & Mobility",
-    "description": "A 25-minute active stretch and mobility session. Mix of dynamic warmup movements and deeper static holds targeting pregnancy trouble spots — hips, lower back, shoulders, and calves.",
+    "description": "Jess: 25-min active stretch and mobility. Dynamic warmup then deep holds for hips, lower back, shoulders, calves. NO flat-on-back — knee-to-chest, spinal twist, hamstring stretch all done side-lying. Stay more upright in pigeon to avoid belly compression.",
     "routineId": "maternity",
     "tags": [
       "maternity",
@@ -17481,7 +18634,7 @@
           {
             "id": "pigeon-pose",
             "duration": 60,
-            "notes": "Each side — go deeper than you think. Use pillows if hip is far from floor."
+            "notes": "Each side — use pillows if hip is far from floor. Stay more upright to avoid belly compression."
           },
           {
             "id": "malasana-hold",
@@ -17506,12 +18659,12 @@
           {
             "id": "knee-to-chest-stretch",
             "duration": 30,
-            "notes": "Each side — gentle pull, opposite leg bent"
+            "notes": "Each side — SIDE-LYING position (not flat on back). Gentle pull, keep breathing."
           },
           {
             "id": "supine-spinal-twist",
             "duration": 45,
-            "notes": "Each side — pillow between knees. Modified side-lying if uncomfortable."
+            "notes": "Each side — do SIDE-LYING with pillow between knees. Not flat on back."
           },
           {
             "id": "cobra-stretch",
@@ -17551,7 +18704,7 @@
           {
             "id": "lying-hamstring-stretch",
             "duration": 30,
-            "notes": "Each side — use a towel or strap. Side-lying modification available."
+            "notes": "Each side — do SIDE-LYING or use towel/strap from reclined with head propped up. Not flat on back."
           }
         ],
         "restBetween": 5,
@@ -17559,19 +18712,20 @@
       }
     ],
     "tips": [
-      "The dynamic warmup should get blood flowing — don't skip it",
+      "Jess: dynamic warmup should get blood flowing — don't skip it",
+      "NO flat-on-back — knee-to-chest, spinal twist, hamstring stretch all done side-lying",
+      "Stay upright in pigeon and forward folds — don't fold deep enough to compress belly",
       "Hip openers will feel more productive as pregnancy progresses and relaxin kicks in",
       "Malasana shows up in every session for a reason — it's the best labor prep stretch",
       "Piriformis stretch helps with sciatic pain — common in second trimester",
-      "Calf stretches can prevent nighttime leg cramps",
-      "Always consult your healthcare provider before starting any exercise program during pregnancy"
+      "Calf stretches can prevent nighttime leg cramps"
     ],
     "category": "maternity"
   },
   {
     "id": "prenatal-yoga-flow",
     "name": "Prenatal Yoga Flow",
-    "description": "A 30-minute active prenatal yoga session. Dynamic flows, longer warrior holds, deep hip openers, and malasana work. More than just stretching — you'll feel the burn in your legs and shoulders.",
+    "description": "Jess: 30-min active prenatal yoga. Warriors, dynamic flows, deep squats, hip openers. Your legs should feel worked. NO flat-on-back (do happy baby side-lying). Avoid folding too deep in pigeon — belly compression. First session took ~38 min with reading time, should be faster now.",
     "routineId": "maternity",
     "tags": [
       "maternity",
@@ -17672,7 +18826,7 @@
           {
             "id": "pigeon-pose",
             "duration": 60,
-            "notes": "Each side — prop up on block or pillow if needed. Breathe and sink deeper with each exhale."
+            "notes": "Each side — prop up on block or pillow if needed. Don't fold forward too deep — belly compression. Breathe and sink deeper with each exhale."
           },
           {
             "id": "butterfly-stretch",
@@ -17682,7 +18836,7 @@
           {
             "id": "happy-baby",
             "duration": 45,
-            "notes": "Side-lying modification if needed. Rock gently side to side."
+            "notes": "Do this SIDE-LYING — flat on back causes too much belly pressure. Rock gently side to side."
           },
           {
             "id": "malasana-hold",
@@ -17713,13 +18867,14 @@
       }
     ],
     "tips": [
-      "This is an active yoga session — your legs should feel worked by the end",
+      "Jess: this is an active yoga session — your legs should feel worked by the end",
       "Warrior holds build real leg strength — don't rush them",
       "Malasana (deep squat) is the #1 prenatal pose — practice it daily",
       "Use blocks and pillows freely but challenge yourself where you can",
-      "Avoid lying flat on your back — side-lying for any supine work",
+      "NO flat-on-back poses — do happy baby side-lying, spinal twists with pillow between knees",
+      "Belly compression: don't fold too deep in pigeon or forward folds — stay upright-ish",
       "If balance is shaky, keep one hand on a wall — no shame in support",
-      "Always consult your healthcare provider before starting any exercise program during pregnancy"
+      "Second time through will be faster — first session took ~38 min with reading time"
     ],
     "category": "maternity"
   },
