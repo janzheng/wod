@@ -1,0 +1,57 @@
+{
+  "id": "fb-w3-d4-morning-flow",
+  "name": "W3 KB Conditioning Morning Flow",
+  "description": "15 min hip-heavy flow before KB Refine day. Different from the D2 flow — this one is more recovery-oriented since you've had 3 training days already. Plow pose for spinal decompression, deep stretches for sore hips, light core.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "recovery", "hips", "mobility", "flow", "bodyweight", "fixed"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "decompress",
+      "name": "Decompress (Everything Is Sore)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "puppy-pose-cat-cow", "reps": 12, "notes": "Slow transitions. Inhale arch, exhale round. Gets into the thoracic spine and shoulders." },
+        { "id": "plow-pose", "duration": 30, "notes": "NEW — lie on back, legs over head, toes touch floor behind you. Full posterior chain stretch + spinal decompression. If you can't reach the floor, just go as far as comfortable. Skip if neck feels weird." },
+        { "id": "happy-baby", "duration": 30, "notes": "Grab feet, knees toward armpits. Rock gently side to side. Resets the lower back and opens hips." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "deep-hips",
+      "name": "Deep Hip Work",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 30, "notes": "30s each side. Keep hips square, fold over front leg. Different angle than Tuesday's hip work." },
+        { "id": "frog-stretch", "duration": 45, "notes": "Hands and knees, wide knees, sink back. Intense inner thigh opener. Breathe through the discomfort." },
+        { "id": "saddle-pose", "duration": 30, "notes": "Kneel, lean back. Quad and hip flexor stretch. If you did this Tuesday, you should be able to go deeper today." }
+      ],
+      "restBetween": 10,
+      "restAfter": 15
+    },
+    {
+      "id": "light-core",
+      "name": "Light Core (Just Enough)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "dead-bug", "reps": "8 each", "notes": "Opposite arm/leg. Keep lower back glued to floor. Familiar and effective." },
+        { "id": "side-plank-hold", "duration": 20, "notes": "20s each side. Obliques + shoulder stability. Primes the lateral stability you need for KB work." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "15 min — recovery-focused. You've had push, KB, and pull this week already.",
+    "Plow pose: if it feels weird on your neck, skip it. Do a forward fold instead.",
+    "Frog stretch: second time this week if you did the pull day flow. Should feel easier.",
+    "If you're time-crunched like last week: do the decompress + deep hips blocks, skip core.",
+    "This flow + the KB Refine workout should take ~45 min total"
+  ]
+}

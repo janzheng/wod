@@ -1,0 +1,292 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w2-push",
+    "date": "2026-03-02",
+    "notes": "First time on barbell bench — found working weight at 55/side (155 total). Gym packed mid-session, improvised with cable column and Kinesis machine. Took too-long breaks, pushed into rush hour — need to go even earlier. Overall felt good, way easier than W1. Did 4 sets of shoulder press by accident (planned 3). Skipped morning flow (already past morning).",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "bench-press",
+        "sets": ["25/side x8 (warmup)", "45/side x8 (good effort)", "65/side x2 (too heavy)", "55/side x8 (working weight)", "55/side x5"],
+        "workingWeight": 55,
+        "notes": "First time on barbell! Per-side plate weights (+45lb bar). 45/side (135 total) felt good. 65/side (175) too hard. Working weight: 55/side (155 total). Got 8 then 5."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": ["50lbs x10", "50lbs x8", "50lbs x9", "50lbs x9"],
+        "workingWeight": 50,
+        "notes": "Up from 45 in W1! First set felt good, hard by set 4. Clear progress."
+      },
+      {
+        "id": "dumbbell-shoulder-press",
+        "sets": ["40lbs x10 (standing)", "40lbs x9 (sitting)", "40lbs x7", "40lbs x6"],
+        "workingWeight": 40,
+        "notes": "Did 4 sets by accident (planned 3). Standing first set was brutal — switched to sitting. Started arching by set 2. Same weight as W1 but more total volume."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": ["15lbs x12", "15lbs x12", "15lbs x12"],
+        "workingWeight": 15,
+        "notes": "Slowed on last 2 reps of set 3 but completed all. Same weight as W1."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "sets": ["15lbs x15", "15lbs x15", "15lbs x15"],
+        "workingWeight": 15,
+        "notes": "Used cable column — nobody uses it so always free! Up from 12.5 in W1. Too easy at 15x15 — bump to 20 next time."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": ["45lbs x12", "45lbs x12", "45lbs x12"],
+        "workingWeight": 45,
+        "equipment": "cable column (position 1)",
+        "notes": "NEW — the video exercise. HIGH cable, kneeling at cable column facing away (replicates 45° bench angle). Hands near chest, extend out. Hits lats + tricep long head. 45lbs on cable column felt manageable for 3x12."
+      },
+      {
+        "id": "overhead-tricep-extension",
+        "sets": ["30lbs x11", "30lbs x8"],
+        "workingWeight": 30,
+        "equipment": "regular cable (low pulley)",
+        "notes": "Standing overhead tricep extension from low cable. Different exercise — pure tricep isolation. Died immediately after the lat/tricep work above. Cable column 45 ≠ regular cable 30 — different resistance profiles."
+      },
+      {
+        "id": "pec-deck-fly",
+        "equipment": "Kinesis machine (fly setting)",
+        "sets": ["4 x12", "5 x12", "6 x12", "7 x9"],
+        "workingWeight": 6,
+        "notes": "Pec deck taken — used Kinesis machine on fly setting. Weight scale is tiny single digits (not comparable to normal machines). Hard to baseline. 7 was failure at 9 reps."
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w2-kb-full",
+    "date": "2026-03-03",
+    "notes": "Morning flow felt good. Ran to/from Arrillaga. Did hangs at gym before KB work. Most KBs taken — used 50lb for almost everything. Clean & press was brutal at 50lb. TGU first time ever — started bodyweight to learn pattern, then 15lb. Left side derpy, right side got fluid by end. Wants more TGU + windmill next week. 50lb is Arrillaga max; apt gym goes to 100lb.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "kettlebell-goblet-squat",
+        "sets": ["50lbs x12", "50lbs x12", "50lbs x12"],
+        "workingWeight": 50,
+        "equipment": "2x40lb DB for some sets",
+        "notes": "Used 50lb KB. Felt solid."
+      },
+      {
+        "id": "bulgarian-split-squat",
+        "sets": ["40lbs x8 each", "40lbs x8 each", "40lbs x8 each"],
+        "workingWeight": 40,
+        "equipment": "2x40lb DB goblet hold",
+        "notes": "Switched to DBs since KBs were taken. Didn't want to go too heavy on single-leg."
+      },
+      {
+        "id": "kettlebell-romanian-deadlift",
+        "sets": ["40lbs x10"],
+        "workingWeight": 40,
+        "equipment": "2x40lb DB",
+        "notes": "Did 1 set RDL then switched to single-leg sets. Used DBs."
+      },
+      {
+        "id": "single-leg-deadlift",
+        "sets": ["40lbs x8 each", "40lbs x8 each"],
+        "workingWeight": 40,
+        "equipment": "2x40lb DB",
+        "notes": "Swapped remaining RDL sets for single-leg. Good balance challenge."
+      },
+      {
+        "id": "kettlebell-high-pull",
+        "sets": ["40lbs x8 each", "40lbs x8 each", "40lbs x8 each"],
+        "workingWeight": 40,
+        "equipment": "2x40lb DB",
+        "notes": "Used DBs here too. Felt good."
+      },
+      {
+        "id": "kettlebell-clean-and-press",
+        "sets": ["50lbs x6 each", "50lbs x6 each", "50lbs x5 each"],
+        "workingWeight": 50,
+        "notes": "Brutal at 50lb. Last set only got 5. Took lots of breaks between sets. Hardest exercise of the session."
+      },
+      {
+        "id": "kettlebell-row",
+        "sets": ["50lbs x10 each", "50lbs x10 each", "50lbs x10 each"],
+        "workingWeight": 50,
+        "notes": "50lb KB. Felt manageable."
+      },
+      {
+        "id": "kettlebell-turkish-getup",
+        "sets": ["BW x3 each (practice)", "15lbs x3 each", "15lbs x3 each"],
+        "workingWeight": 15,
+        "notes": "First time EVER doing TGU. Had to do bodyweight several times to learn the pattern. Left side remained clunky, right side got really fluid by end. 15lb felt easy by last set — the coordination was the hard part, not the weight. Wants more TGU next week. Also liked windmill from W1 — wants both."
+      },
+      {
+        "id": "kettlebell-swing",
+        "sets": ["50lbs x20", "50lbs x20"],
+        "workingWeight": 50,
+        "notes": "50lb felt good. Solid finish."
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w2-pull",
+    "date": "2026-03-04",
+    "notes": "Solid pull day. DB rows progressed nicely up to 65x7 (hard). Lat pulldown way harder than W1 at same weight — suspect different pulley/cable. Pushed to 160x7. Seated cable row: 140 was immovable (??), dropped to 120 as working weight. Cable curls humbling vs DB curls at same weight. Want to try barbell curl platform next time.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": ["BWx8", "BWx6", "BWx8", "BWx5"],
+        "workingWeight": "BW",
+        "notes": "Mixed rep counts. Solid for bodyweight."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": ["50x8", "55x8", "60x8", "65x7"],
+        "workingWeight": 65,
+        "notes": "Pyramided up each set. 65x7 was hard! Good progression — this is new for W2."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": ["140x11", "140x10", "160x7"],
+        "workingWeight": 140,
+        "notes": "140 felt WAY harder than W1 at the same number — different pulley? Pushed to 160x7 on last set. Hard!"
+      },
+      {
+        "id": "seated-cable-row",
+        "sets": ["100x12", "120x10", "120x10"],
+        "workingWeight": 120,
+        "notes": "140 (old W1 number) couldn't even budge — must be a different machine/pulley. 100x12 felt right, 120 was working weight. Hard and good."
+      },
+      {
+        "id": "face-pull",
+        "sets": ["47.5x20", "47.5x18", "47.5x18", "47.5x15"],
+        "workingWeight": 47.5,
+        "notes": "Same weight as W1. Reps dropped across sets but solid volume."
+      },
+      {
+        "id": "cable-bicep-curl",
+        "sets": ["42.5x10", "42.5x10", "37.5x10", "37.5x10"],
+        "workingWeight": 42.5,
+        "notes": "42.5 was struggle by rep 10. Dropped to 37.5 for last two sets — still very struggle at end. Cable curls feel way harder than DB curls."
+      },
+      {
+        "id": "dumbbell-reverse-fly",
+        "sets": ["20x15", "20x15", "20x15"],
+        "workingWeight": 20,
+        "equipment": "dumbbell",
+        "notes": "Getting hard by set 3 but not failure. Same as W1."
+      },
+      {
+        "id": "hammer-curl",
+        "sets": ["20x15", "20x15", "20x15"],
+        "workingWeight": 20,
+        "notes": "Easy ending. Weird how easy this feels compared to cable curls at the same weight. Want to try barbell curl platform next time for more challenge."
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "workoutId": "fb-w2-kb-cond",
+    "date": "2026-03-05",
+    "notes": "Busy work day — prioritized KB workout, did flow hip stuff but skipped core/pushup blocks (ran out of time). 50lb heavy bell, 18lb light bell. Simba lift on light. Overhead lunges on heavy. Good session despite time crunch.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "morningFlow": "Partial — did hip mobility flow (Block 1) and deep hip cooldown (Block 4). Skipped light core (Block 2) and pushup blood flow (Block 3).",
+    "exercises": [
+      {
+        "id": "kettlebell-halo",
+        "sets": ["18lb x5 each"],
+        "workingWeight": 18,
+        "notes": "Warmup, light bell."
+      },
+      {
+        "id": "kettlebell-swing",
+        "sets": ["50lb x10 (warmup)", "50lb x10 x3 (complex)"],
+        "workingWeight": 50,
+        "notes": "Warmup + complex finisher on heavy bell."
+      },
+      {
+        "id": "kettlebell-turkish-getup",
+        "sets": ["18lb x2 each x3"],
+        "workingWeight": 18,
+        "notes": "Light bell for skill practice. Refining Tuesday's work."
+      },
+      {
+        "id": "kettlebell-windmill",
+        "sets": ["18lb x3 each x3"],
+        "workingWeight": 18,
+        "notes": "Light bell. Pairs well with TGU — same stability pattern."
+      },
+      {
+        "id": "kettlebell-overhead-lunge",
+        "sets": ["50lb x5 each x3"],
+        "workingWeight": 50,
+        "notes": "Heavy bell for overhead lunges. Shoulder stability + legs."
+      },
+      {
+        "id": "squat-front-raise",
+        "sets": ["18lb x8 x3"],
+        "workingWeight": 18,
+        "notes": "Simba lift on light bell."
+      },
+      {
+        "id": "kettlebell-clean-and-press",
+        "sets": ["50lb x5 each x3"],
+        "workingWeight": 50,
+        "notes": "Complex finisher, heavy bell."
+      },
+      {
+        "id": "kettlebell-thruster",
+        "sets": ["50lb x8 x3"],
+        "workingWeight": 50,
+        "notes": "Complex finisher, heavy bell."
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w2-legs",
+    "date": "2026-03-06",
+    "notes": "Felt strong overall. Had to rush at the end for a work meeting — cut step-ups short. Squats pyramided up nicely, topped at 65/side. RDL hard at 65/side. Leg press went deeper on last two sets. Seated leg curl was WAY too easy at 50 — jumped to 70 then 90 (negatives hard but completed 12). Calf raises easy, bump up next time.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": ["45x2 x8 (light)", "55x2 x8", "55x2 x8", "65x2 x6", "65x2 x6"],
+        "workingWeight": "55-65 plates",
+        "notes": "Started at 45/side, worked up. 65/side felt good, got another set of 6 and stopped out. Clear progression from W1 (55 plates)."
+      },
+      {
+        "id": "barbell-romanian-deadlift",
+        "sets": ["65x2 x8", "65x2 x10", "65x2 x8"],
+        "workingWeight": "65 plates",
+        "notes": "Really hard first set of 8. Second set somehow got 10. Third set hard again at 8. Same weight as W1 but more controlled."
+      },
+      {
+        "id": "leg-press",
+        "sets": ["360 x10", "360 x10", "360 x10"],
+        "workingWeight": 360,
+        "notes": "All sets x10. Went deeper on last two sets — too hard to push to 12 with the deeper ROM. Good work."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": ["360 x15-20", "360 x15-20", "360 x15-20"],
+        "workingWeight": 360,
+        "notes": "Felt easy. Bump up next time."
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": ["50 x12", "50 x12", "70 x12", "90 x12"],
+        "workingWeight": 90,
+        "notes": "50 WAY too easy. Jumped to 70, then 90. Negatives hard at 90 but completed 12. Maybe wrong position last time? 90 is likely the real working weight."
+      },
+      {
+        "id": "step-up",
+        "sets": ["40x2 x10 each", "40x2 x10 each", "40x2 x5 each (cut short)"],
+        "workingWeight": 40,
+        "equipment": "2x40lb DB",
+        "notes": "Had to jump on a meeting — cut last set in half. Could have pushed harder. 40lb DBs felt right."
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "fb-w3-push-morning-flow",
+  "name": "W3 Push Morning Flow",
+  "description": "12 min shoulder/chest opener with more intensity than W1-W2. Warrior flow for dynamic shoulder opening, plank-to-down-dog for active mobility, hollow body hold for core. Same targets, new movements.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "shoulders", "chest", "core", "bodyweight", "fixed"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "warrior-flow",
+      "name": "Warrior Flow (Shoulder + Hip Opener)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "warrior-one", "duration": 30, "notes": "30s each side. Arms overhead, sink into the lunge. Opens hip flexors AND shoulders simultaneously." },
+        { "id": "warrior-two", "duration": 30, "notes": "30s each side. Open the hips, arms wide. Feel the chest stretch as arms extend." },
+        { "id": "triangle-pose", "duration": 30, "notes": "30s each side. Reach long, side body stretch. Gets into the lats and obliques — great pre-push day." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "active-mobility",
+      "name": "Active Mobility",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "plank-to-down-dog", "reps": 8, "notes": "Smooth transitions. Plank loads the chest/shoulders, down dog stretches them. Best of both worlds." },
+        { "id": "scorpion-stretch", "reps": "5 each side", "notes": "Lie face down, reach one leg across to the opposite side. Opens chest, shoulders, and hip flexors in one move." },
+        { "id": "scapular-pull", "reps": 8, "notes": "From a hang or doorframe. Pull shoulder blades down and back. Activates stabilizers before you push heavy." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "core-activation",
+      "name": "Core Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "hollow-body-hold", "duration": 20, "notes": "Lower back pressed into floor, arms and legs hovering. This is the gymnastic core position — harder than a plank." },
+        { "id": "side-plank-hold", "duration": 20, "notes": "20s each side. Obliques and shoulder stability. Stack your feet or stagger if needed." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "12 min — warrior flow + active mobility + core. More movement than W1-W2 flows.",
+    "Warrior flow: think yoga class energy. Breathe into each position.",
+    "Scorpion stretch is sneaky good — you'll feel it in your chest and hip flexors",
+    "Hollow body hold: if 20s is easy, extend to 30s. If it's impossible, bend your knees."
+  ]
+}

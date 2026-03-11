@@ -171,7 +171,18 @@ app.get("/api/programs", async (c) => {
     for await (const entry of Deno.readDir(new URL("./programs", import.meta.url))) {
       if (entry.name.endsWith(".json")) {
         const data = await readJson(`./programs/${entry.name}`);
-        if (data) programs.push(data);
+        if (data) {
+          // Resolve external log files into inline log arrays
+          if (data.weeks) {
+            for (const week of data.weeks) {
+              if (week.logFile) {
+                const logData = await readJson(`./programs/${week.logFile}`);
+                if (logData) week.log = logData;
+              }
+            }
+          }
+          programs.push(data);
+        }
       }
     }
   } catch { /* programs directory may not exist yet */ }
@@ -182,6 +193,15 @@ app.get("/api/programs/:id", async (c) => {
   const id = c.req.param("id");
   const data = await readJson(`./programs/${id}.json`);
   if (!data) return c.json({ error: "Not found" }, 404);
+  // Resolve external log files into inline log arrays
+  if (data.weeks) {
+    for (const week of data.weeks) {
+      if (week.logFile) {
+        const logData = await readJson(`./programs/${week.logFile}`);
+        if (logData) week.log = logData;
+      }
+    }
+  }
   return c.json(data);
 });
 
@@ -1021,9 +1041,6 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                       >
                         <span style="font-size: 0.75rem; font-weight: 600; opacity: 0.35; min-width: 1.5rem; text-align: right;" x-text="day.day"></span>
                         <span style="font-weight: 600; font-size: 0.875rem; flex: 1;" x-text="day.label"></span>
-                        <template x-if="day.homeGym">
-                          <span class="iconify" data-icon="lucide:plus-circle" style="font-size: 0.7rem; opacity: 0.3;" title="Daily extras"></span>
-                        </template>
                         <template x-if="day.type === 'workout'">
                           <span style="font-size: 0.7rem; opacity: 0.3;">&rsaquo;</span>
                         </template>

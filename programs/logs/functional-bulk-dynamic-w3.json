@@ -1,0 +1,125 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w3-push",
+    "date": "2026-03-09",
+    "notes": "Morning flow was good — liked the yoga poses, added extra flow transitions. Accidentally loaded 70/side on bench first (math wrong), no spotter so backed off. Wants to consider machine alternatives for heavy bench to build confidence. Swapped incline DB for incline barbell since bench was right there. Push press is HARD. Cable lat raise machine didn't have 20 setting, jumped to 30 and it was fine? Spontaneously added straight-arm pulldown and pull-ups at end — had energy left despite some exercises being at max.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "morningFlow": "Did fb-w3-push-morning-flow. Liked the yoga poses, added extra flow movements. Wants more flowing transitions and straddled-leg stretches baked in for next time.",
+    "exercises": [
+      {
+        "id": "bench-press",
+        "sets": ["70/side x? (too heavy, math wrong)", "55/side x8", "55/side x7", "55/side x7 (had to break mid-set)", "55/side x6"],
+        "workingWeight": 55,
+        "notes": "Loaded 70/side by accident (math wrong). No spotter so felt sketchy — backed off to 55. Losing depth by set 2, super hard by set 3 (broke mid-set), stopped out at 6 on set 4. Wants to explore machine press alternatives for heavier work without a spotter."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": ["65/side x12", "65/side x12", "90/side x10", "90/side x8"],
+        "workingWeight": "65-90",
+        "equipment": "barbell (incline bench at squat rack)",
+        "notes": "SWAPPED to incline barbell since the bench was right there. 65 felt easy for 12. Jumped to 90 — got 10 then 8. Hard! Big jump from W2's 50lb DBs (different exercise though — barbell vs DB)."
+      },
+      {
+        "id": "push-press",
+        "sets": ["45/side x6", "45/side x6", "45/side x5"],
+        "workingWeight": "45 plates/side",
+        "notes": "These are HARD. 'I really don't know what more fun means???' Dying by set 2, lost a rep on set 3. The leg drive helps but overhead is still brutal."
+      },
+      {
+        "id": "pec-deck-fly",
+        "sets": ["85 x12", "85 x12", "100 x10"],
+        "workingWeight": "85-100",
+        "notes": "Got the actual pec deck this time (not Kinesis). 85x12 hard-ish, last two reps hard to hold. Bumped to 100 on set 3 — really hard but completed 10."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": ["15 x15", "15 x15", "15 x15", "15 x15 (form dropping)", "drop to 8 x12 (failure)"],
+        "workingWeight": 15,
+        "notes": "4 sets of 15x15. Form dropping at end of last two sets. Drop set settled to 8lb x12 to failure. Yes, form breaking = not clean reps. The drop set is the right call."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "sets": ["30 x12", "30 x12", "30 x12"],
+        "workingWeight": 30,
+        "notes": "Same cable column as W2! Machine didn't have 20, jumped to 30x12x3 and wasn't too tired. Genuine strength jump from 15→30. Working weight is now 30."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": ["50 x12", "55 x10", "55 x10"],
+        "workingWeight": 55,
+        "notes": "50x12 not too hard. Bumped to 55 — hard by rep 10. Hands drifted together on last set which made it easier. (Yes, hands together shifts load — keep them apart for full tricep isolation.)"
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": ["90 x10", "90 x10", "90 x10"],
+        "workingWeight": 90,
+        "notes": "ADDED spontaneously — had energy and was already at cables. Actually really hard and felt like it fits. (Yes, this IS a pull/lat exercise — but it's fine here as a finisher. Lats aren't fatigued from push work so you're not compromising tomorrow.)"
+      },
+      {
+        "id": "pull-up",
+        "sets": ["alternating sets, felt easy"],
+        "workingWeight": "BW",
+        "notes": "Added at end, alternated with other work. Way easier today than any other day — fresh back muscles on a push day. Don't read too much into it."
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w3-kb-full",
+    "date": "2026-03-10",
+    "notes": "KB Explore day. Loved the bent press — wants to do a full flow next week on easy weights for fluidity. Bent press at 25 is the right working weight (balance + tension challenge). Cossack squat easy at 45 (expected — bodyweight movement with light counterbalance). TGU at 25 is doable, left side still unstable but completed all reps. Windmills felt easy at 25 but hard at the same time — did extra reps. Clean & press at 50 is CLICKING — 3x6 both sides fluid nonstop. Catching the bell on the way up with slight knee bend = zero impact. Way more coordinated on right vs left but progressing. Rested more between C&P sets for clean form — worth it.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "morningFlow": "Did fb-w3-d2-morning-flow. Liked it.",
+    "exercises": [
+      {
+        "id": "kettlebell-bent-press",
+        "sets": ["20lb x3/side x3 sets", "25lb x3/side x3 sets"],
+        "workingWeight": 25,
+        "notes": "NEW exercise — loved it! 20 felt easy, 25 doable but feel the balance and tension. Can screw up the balance so 25 is the right working weight. Wants to do full flow with bent press next week on easy weights for fluidity."
+      },
+      {
+        "id": "cossack-squat",
+        "sets": ["45lb goblet x5/side x3 sets"],
+        "workingWeight": 45,
+        "notes": "Easy at 45 but expected — this is more of a mobility/balance movement. Weight is counterbalance."
+      },
+      {
+        "id": "kettlebell-turkish-getup",
+        "sets": ["25lb x3/side (noted as 3x on 25)"],
+        "workingWeight": 25,
+        "notes": "Bumped from 18→25, doable! Left side still unstable but completed all reps. Good weight — challenging enough to demand focus without compromising form."
+      },
+      {
+        "id": "kettlebell-windmill",
+        "sets": ["25lb - extra reps beyond prescribed, same number of sets"],
+        "workingWeight": 25,
+        "notes": "Felt easy at 25 but 'hard at the same time' — that's the flexibility/stability demand vs strength. Did more reps than asked. These are becoming a comfort movement."
+      },
+      {
+        "id": "kettlebell-clean-and-press",
+        "sets": ["50lb x6/side", "50lb x6/side", "50lb x6/side"],
+        "workingWeight": 50,
+        "notes": "HUGE improvement! 3x6 both sides fluid nonstop. First set was fluid nonstop — couldn't believe it. Getting good at catching the bell on the way up with slight knee bend = zero impact, then shooting straight up with whole body. Way more coordinated on right than left but progressing. Rested generously between sets for clean form. The technique is clicking!"
+      },
+      {
+        "id": "kettlebell-row",
+        "sets": ["50lb x10/side x3"],
+        "workingWeight": 50,
+        "notes": "No surprises at 50. Max KB weight — will start adding reps/sets to progress."
+      },
+      {
+        "id": "kettlebell-goblet-squat",
+        "sets": ["50lb x12 x2"],
+        "workingWeight": 50,
+        "notes": "No surprises at 50. Max KB weight."
+      },
+      {
+        "id": "kettlebell-swing",
+        "sets": ["50lb x20 x2"],
+        "workingWeight": 50,
+        "notes": "No surprises at 50. Max KB weight — will add reps to progress."
+      }
+    ]
+  }
+]
