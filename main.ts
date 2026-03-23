@@ -934,23 +934,39 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
             </template>
 
             <template x-if="selectedActivity.type === 'choice' && selectedActivity.options">
-              <div style="padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem;">
+              <div style="padding: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
                 <div style="font-size: 0.9rem; opacity: 0.85; line-height: 1.6;">
                   <p>This is a flexible day — pick whichever option suits how you feel:</p>
                 </div>
                 <template x-for="(opt, optIdx) in selectedActivity.options" :key="'opt-' + optIdx">
-                  <div style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem; background: var(--color-sidebar); border-radius: 0.75rem;">
-                    <span class="iconify" :data-icon="opt.type === 'rest' ? 'lucide:bed' : 'lucide:heart-pulse'" style="font-size: 1.25rem; color: var(--color-primary);"></span>
-                    <div>
-                      <div style="font-weight: 600;" x-text="opt.label"></div>
-                      <template x-if="opt.activity?.notes">
-                        <div style="font-size: 0.85rem; opacity: 0.7;" x-text="opt.activity.notes"></div>
-                      </template>
-                      <template x-if="opt.type === 'rest'">
-                        <div style="font-size: 0.85rem; opacity: 0.7;">Full rest day. Let your body recover.</div>
-                      </template>
+                  <template x-if="opt.type === 'workout' && opt.workoutId">
+                    <div @click="selectWorkout(opt.workoutId)" style="padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s;">
+                      <span class="iconify" data-icon="lucide:dumbbell" style="font-size: 1rem; color: var(--color-primary); flex-shrink: 0;"></span>
+                      <div style="flex: 1;">
+                        <span style="font-weight: 600;" x-text="opt.label"></span>
+                        <template x-if="opt.notes">
+                          <span style="opacity: 0.6; margin-left: 0.4rem;" x-text="opt.notes"></span>
+                        </template>
+                      </div>
+                      <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
                     </div>
-                  </div>
+                  </template>
+                </template>
+                <template x-for="(opt, optIdx) in selectedActivity.options" :key="'opt2-' + optIdx">
+                  <template x-if="opt.type !== 'workout'">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.6rem 0.75rem; background: var(--color-sidebar); border-radius: 0.5rem;">
+                      <span class="iconify" :data-icon="opt.type === 'rest' ? 'lucide:bed' : 'lucide:heart-pulse'" style="font-size: 1.25rem; color: var(--color-primary);"></span>
+                      <div>
+                        <div style="font-weight: 600;" x-text="opt.label"></div>
+                        <template x-if="opt.activity?.notes">
+                          <div style="font-size: 0.85rem; opacity: 0.7;" x-text="opt.activity.notes"></div>
+                        </template>
+                        <template x-if="opt.type === 'rest'">
+                          <div style="font-size: 0.85rem; opacity: 0.7;">Full rest day. Let your body recover.</div>
+                        </template>
+                      </div>
+                    </div>
+                  </template>
                 </template>
                 <div style="line-height: 1.7; font-size: 0.9rem; opacity: 0.85; margin-top: 0.5rem;">
                   <p><strong>What is Zone 2 Cardio?</strong></p>
@@ -1869,8 +1885,9 @@ function routineStackApp() {
     getWorkoutIdFromUrl() {
       const slug = this.getSlugFromUrl();
       if (!slug) return null;
-      // program/ prefix means it's a program overview, not a workout
+      // program/ and activity/ prefixes are not workouts
       if (slug.startsWith('program/')) return null;
+      if (slug.startsWith('activity/')) return null;
       if (slug === 'exercise-library') return null;
       return slug;
     },
@@ -1882,6 +1899,31 @@ function routineStackApp() {
       return null;
     },
 
+    getActivityIdFromUrl() {
+      const slug = this.getSlugFromUrl();
+      if (!slug) return null;
+      if (slug.startsWith('activity/')) return slug.substring('activity/'.length);
+      return null;
+    },
+
+    _loadActivityFromKey(key) {
+      // key format: programId-wN-dN (e.g., functional-bulk-dynamic-w3-d6)
+      const weekMatch = key.match(/-w(\d+)-d(\d+)$/);
+      if (!weekMatch) return false;
+      const weekNum = parseInt(weekMatch[1]);
+      const dayNum = parseInt(weekMatch[2]);
+      const programId = key.replace(/-w\d+-d\d+$/, '');
+      const program = this.programs.find(p => p.id === programId);
+      if (!program) return false;
+      const week = program.weeks?.find(w => w.week === weekNum);
+      const schedule = week?.schedule || program.schedule;
+      if (!schedule) return false;
+      const day = schedule.find(d => d.day === dayNum);
+      if (!day) return false;
+      this.selectActivity(day, program, weekNum, false);
+      return true;
+    },
+
     updateUrl(id, type = 'workout') {
       if (!id) {
         if (window.location.pathname !== '/') {
@@ -1889,7 +1931,7 @@ function routineStackApp() {
         }
         return;
       }
-      const currentPath = type === 'program' ? '/program/' + id : '/' + id;
+      const currentPath = type === 'program' ? '/program/' + id : type === 'activity' ? '/activity/' + id : '/' + id;
       if (window.location.pathname !== currentPath) {
         window.history.pushState({ type, id }, '', currentPath);
       }
@@ -1918,6 +1960,11 @@ function routineStackApp() {
         }
         if (this.currentView === 'exercises') {
           this.currentView = 'workout';
+        }
+        const activityKey = this.getActivityIdFromUrl();
+        if (activityKey) {
+          this._loadActivityFromKey(activityKey);
+          return;
         }
         const programId = this.getProgramIdFromUrl();
         if (programId) {
@@ -2032,6 +2079,13 @@ function routineStackApp() {
       const slug = this.getSlugFromUrl();
       if (slug === 'exercise-library') {
         this.currentView = 'exercises';
+        return;
+      }
+
+      // Check URL for activity page (e.g., /activity/functional-bulk-dynamic-w3-d6)
+      const urlActivityKey = this.getActivityIdFromUrl();
+      if (urlActivityKey) {
+        this._loadActivityFromKey(urlActivityKey);
         return;
       }
 
@@ -2195,16 +2249,22 @@ function routineStackApp() {
       if (this.isMobile) this.sidebarOpen = false;
     },
 
-    selectActivity(day, program, weekNum) {
+    selectActivity(day, program, weekNum, updateUrl = true) {
       this.selectedWorkoutId = null;
       this.generatedWorkout = null;
       this.selectedProgram = null;
       this.selectedWeekIdx = null;
+      const dayKey = program.id + (weekNum ? '-w' + weekNum : '') + '-d' + day.day;
       this.selectedActivity = {
         ...day,
-        _dayKey: program.id + (weekNum ? '-w' + weekNum : '') + '-' + day.day,
+        _dayKey: dayKey,
         _programName: program.name,
+        _programId: program.id,
+        _weekNum: weekNum,
       };
+      if (updateUrl) {
+        this.updateUrl(dayKey, 'activity');
+      }
       if (this.isMobile) this.sidebarOpen = false;
     },
 

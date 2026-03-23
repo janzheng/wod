@@ -1,0 +1,70 @@
+{
+  "id": "fb-w4-kb-cond",
+  "name": "Week 4 KB Conditioning (Refine & Drill)",
+  "description": "Saturday = drill Tuesday's progressions. Bent press at 30lb if Tuesday went well. TGU cleaning up left side. Overhead lunges and Simba lift heavier. Finisher circuit is earned — legs just went yesterday so keep it controlled.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "circuit", "conditioning", "skill-work", "fixed"],
+  "estimatedDuration": 35,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Quick Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen up fast" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings to prime the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "Skill Block: Tuesday Refinement",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3-5 each side", "notes": "If Tuesday's 30lb felt ok, stay at 30 and add a rep (aim for 5). If it felt shaky, drop to 25 and nail the path. Thursday off means your shoulder is fresh — use it." },
+        { "id": "cossack-squat", "reps": "8 each side", "notes": "Drill from Tuesday. Push for deeper range. Heels down, stay in the hole for a beat." },
+        { "id": "kettlebell-turkish-getup", "reps": "3 each side", "notes": "30lb. Left side: slow down at every checkpoint. Right side is already solid — use it as the template for left." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "favorites",
+      "name": "Favorites Block (Heavier)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-overhead-lunge", "reps": "5 each leg", "notes": "50lb. Legs just did heavy work yesterday — keep torso upright and locked, let the shoulder stability do the work, not brute force." },
+        { "id": "squat-front-raise", "reps": 8, "notes": "W3 Refine: pyramided to 45lb with pause on top. Stay at 45lb, do all 3 sets there instead of pyramiding. 2-second hold at top." },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "25lb (bumped from Tuesday's 18lb in prior weeks). This is your palate cleanser — light relative to everything else, but the new weight demands focus." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "complex",
+      "name": "Finisher Complex",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "50lb. Two-handed, explosive." },
+        { "id": "kettlebell-clean-and-press", "reps": "5 each", "notes": "50lb. Legs are tired from yesterday — 2 rounds instead of 3. Quality over grinding." },
+        { "id": "kettlebell-thruster", "reps": 6, "notes": "50lb. 6 reps instead of 8 — legs day was yesterday. Don't be a hero." }
+      ],
+      "restBetween": 15,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Saturday after legs day — keep the finisher to 2 rounds, not 3. Your legs already worked.",
+    "Bent press: if 30lb felt clean Tuesday, go for 5 reps each side instead of 3.",
+    "TGU left side: pause at the elbow prop, the hand prop, the hip hinge. Don't rush the wobbly transitions.",
+    "Simba lift at 45lb flat across all 3 sets — no pyramid, just consistent heavy reps.",
+    "Windmill at 25lb: new weight, same movement. Trust it."
+  ]
+}

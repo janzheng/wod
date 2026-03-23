@@ -1,0 +1,202 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w4-push",
+    "date": "2026-03-16",
+    "notes": "Push day. Right shoulder felt weak/some pain so swapped bench press for chest press machine — all racks were taken anyway. Good call avoiding bench. Chest press topped out at 185x4. Incline DB at 55 was hard but consistent — 3x10 then 9 on last set. Push press still can't break past 45/side, 50s wouldn't even go overhead. Pec deck: accidentally discovered 5lb was on, jumped to 115x9 to failure — nice! Cable lat raises at 50 felt easy, jumped to 65 briefly. Tricep extension progressed to 65x12. Added straight arm pulldown back — 105x12 still easy, needs more weight. Did a 1hr zone 1 hilly run on Sunday.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back. Sunday: 1hr zone 1 hilly run.",
+    "exercises": [
+      {
+        "id": "chest-press-machine",
+        "sets": ["175 x6 (struggled)", "175 x8 (adjusted start position)", "175 x8", "185 x4 (barely)", "180 x3 (done)"],
+        "workingWeight": 175,
+        "notes": "SWAPPED from bench press — right shoulder felt weak/pain, plus all racks taken. First set struggled at 175, then adjusted the start position (was too far behind back). 175x8 felt slightly better. Tried 185 — barely got 4. 180x3 and called it. Smart to avoid bench with the shoulder issue."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": ["55 x10", "55 x10", "55 x10 (last set really hard)", "55 x9 (dead)"],
+        "workingWeight": 55,
+        "notes": "55x10 hard from set 1. Got 3x10 but each set was a fight, especially the last. Fourth set only got 9. Asked 'does hard but did it mean it was easy?' — no, consistent at 55x10 with degradation = right weight. Stay here until 4x10 is clean."
+      },
+      {
+        "id": "push-press",
+        "sets": ["50/side — couldn't get overhead", "45/side x5", "45/side x6", "45/side x5"],
+        "workingWeight": 45,
+        "notes": "50/side absolutely would not go overhead. Dropped to 45 — got 5/6/5. W3 was 6/6/5 at 45. Slightly worse — shoulder fatigue from chest press + incline probably a factor. Not getting worse at this, just doing it later in the session with a sore shoulder."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": ["15 x15", "15 x15", "15 x15", "15 x15", "drop to 10"],
+        "workingWeight": 15,
+        "notes": "15x15 for 4 sets, probably too easy. Drop set to 10 at end. Hard to find 20lb DBs at the gym. Next time: try 20s if available, or bump to 5 sets at 15."
+      },
+      {
+        "id": "pec-deck-fly",
+        "sets": ["105 x12", "105 x12", "115 x9 (failure)"],
+        "workingWeight": "105-115",
+        "notes": "105x12 twice — realized a 5lb add-on plate was on from W3. So W3's '100' was actually 105. Tried 115 — hit 9 to failure. Real progression: W3 105x12 → W4 115x9. 115 is the new challenge weight."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "sets": ["50 x12", "50 x12", "65 x6 / 55 x4"],
+        "workingWeight": 50,
+        "notes": "50x12 felt easy with good form — big jump from W3's 30. Tried 65 — got 6 then dropped to 55 for 4 more. 50 is the working weight, 65 is a stretch goal."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": ["55 x12 (weirdly easy)", "65 x10 (really hard)", "65 x12 (hard, losing form at end)"],
+        "workingWeight": "55-65",
+        "notes": "55x12 felt way too easy. Jumped to 65 — really hard at 10. Third set got 12 at 65 but form started breaking at the end. 65 is the new working weight. Keep hands apart."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": ["70 x12", "90 x12", "105 x12"],
+        "workingWeight": 105,
+        "notes": "Added back — was in plan but got missed in the workout file. Pyramided up: 70, 90, 105 — all x12 and all felt too easy. Need to go heavier next time, start at 105 or 110+."
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w4-kb-full",
+    "date": "2026-03-18",
+    "notes": "KB Explore — GTC light day. Followed the workout precisely. OTD flow at 25lb was the highlight — did 3 rounds per side, and ran the entire flow 3 times. Felt pretty fluid by the last set. Skill work at 25lb was good but shoulders were dead by that point from the flow's bent presses. C&P at 50lb still ridiculously hard but completed all 6x2 reps, losing form at the end.",
+    "exercises": [
+      {
+        "id": "otd-flow",
+        "exerciseIds": ["kettlebell-dead-clean", "kettlebell-front-squat", "kettlebell-lateral-lunge", "kettlebell-bent-press", "kettlebell-tactical-clean"],
+        "sets": ["25lb x3 rounds/side x3 flows"],
+        "workingWeight": 25,
+        "notes": "OTD flow (Madeline Conti). 3 rounds per side, entire flow done 3 times (way more than prescribed). Felt fluid by the last set. 25lb is the right weight for flow work — heavy enough to demand control, light enough to chain moves."
+      },
+      {
+        "id": "kettlebell-bent-press",
+        "sets": ["25lb x3 each side x2"],
+        "workingWeight": 25,
+        "notes": "Isolated skill work after the flow. 25lb was fine but shoulders dead from all the bent presses in the flow. Good form though."
+      },
+      {
+        "id": "kettlebell-windmill",
+        "sets": ["25lb x5 each side x2"],
+        "workingWeight": 25,
+        "notes": "Solid at 25."
+      },
+      {
+        "id": "cossack-squat",
+        "sets": ["25lb x5 each side x2"],
+        "workingWeight": 25,
+        "notes": "Light and easy at 25 — intentionally light for GTC day."
+      },
+      {
+        "id": "kettlebell-clean-and-press",
+        "sets": ["50lb x6 each x2"],
+        "workingWeight": 50,
+        "notes": "Still ridiculously hard. Completed all 6x2 reps but really hard at the end and losing form. The 50lb C&P after all those flow bent presses is a lot of overhead work."
+      },
+      {
+        "id": "kettlebell-swing",
+        "sets": ["50lb x15 x2"],
+        "workingWeight": 50,
+        "notes": "Finished strong."
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "workoutId": "fb-w4-pull",
+    "date": "2026-03-20",
+    "notes": "Tough day — 30C heat wave in March, completely wiped from GTC demos (10hrs on feet yesterday). Pull-ups down to 33 total (9/8/8/4+4) vs W3's 32 — technically beat it but felt way worse. DB rows had good form, especially on later sets. Lat pulldown at 150 was weirdly easy vs pull-ups being hard — 150x12 on sets 2 and 3. Cable row solid at 130x12. Bicep curl and preacher curl completely died — arms were toast by the end. Heat + GTC fatigue = worst feeling session but still got through everything.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": ["BW x9", "BW x8", "BW x8 (losing form after rest)", "BW x4+4 (split)"],
+        "workingWeight": "BW",
+        "notes": "33 total (9/8/8/8 counting the split). Barely beats W3's 32. Tired from GTC and heat. Last set had to split 4+4. Form dropping after rest on set 3 — unusual."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": ["completed all sets"],
+        "workingWeight": "55-75 pyramid",
+        "notes": "Did all prescribed sets. Good form on the later heavy sets — not rushing and not super slow. No grip problems today (unlike W3 where hands were dead)."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": ["150 x10 (weirdly easy)", "150 x12", "150 x12 (forgot to go up)"],
+        "workingWeight": 150,
+        "equipment": "back left machine",
+        "notes": "145 wasn't available so did 150. Weirdly easy despite pull-ups being hard — different movement pattern. 150x12 on sets 2-3 with good form til end. Forgot to bump to 155 on set 3. 150 is now the working weight."
+      },
+      {
+        "id": "seated-cable-row",
+        "sets": ["130 x12", "130 x12 (hard)", "130 x12 (rested extra)"],
+        "workingWeight": 130,
+        "equipment": "back right machine",
+        "notes": "130x12 across all 3 sets. Second set was hard, rested extra before third. W3: 120 was honest, 140 was too much. 130 is the right working weight — confirmed."
+      },
+      {
+        "id": "face-pull",
+        "sets": ["50 x20", "50 x20 (not clean around 17)", "50 x20 (not clean around 17)"],
+        "workingWeight": 50,
+        "notes": "50x20 for all three. Form breaking around rep 17 on sets 2-3. Same pattern as W3 — 50 is at the edge where volume degrades form."
+      },
+      {
+        "id": "cable-bicep-curl",
+        "sets": ["42.5 x12", "42.5 x12", "42.5 x12 (not clean)", "42.5 x9 (couldn't finish)"],
+        "workingWeight": 42.5,
+        "notes": "3x12 then died at 9 on set 4. W3 was 3x12 + 10. Slightly worse — fatigue and heat. Was supposed to be 3 sets? Did 4 anyway. Arms completely toast."
+      },
+      {
+        "id": "dumbbell-reverse-fly",
+        "sets": ["25 x15", "25 x15 (form dropping at 12)", "25 x15 (rested, finished)"],
+        "workingWeight": 25,
+        "notes": "All 3x15 completed. Form dropping around rep 12 on set 2. Needed extra rest before set 3 to finish clean. Consistent with W3."
+      },
+      {
+        "id": "preacher-curl",
+        "sets": ["10/side x8", "10/side x8 (very slow)"],
+        "workingWeight": "10/side",
+        "notes": "Completely dead! Got nowhere close to W3's numbers. Dropped to 10/side and could only manage 8. Last set was painfully slow. Arms were already toast from cable curls. Don't judge this — biceps were fully cooked before getting here."
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w4-legs",
+    "date": "2026-03-21",
+    "notes": "Legs day with well-rested legs — rest day yesterday (GTC), no KB before. Squat hit 70/side x8 deep for the first time! Fresh legs theory confirmed. RDL skipped (not mentioned). Leg press hips were tight from standing all week — first set couldn't get full ROM but second set opened up. Calf raises at 6 plates/side still getting 3x20 somehow — calves are absurd. Leg curl jumped to 110x12. Lunges at 40lb DBs were death as usual. Skipped KB Saturday and weekend — needed sleep and recovery from GTC week.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": ["55/side x8 (warmup)", "65/side x8 (deep)", "65/side x8 (deep)", "65/side x8 (deep)", "70/side x8 (deep, hard at end)"],
+        "workingWeight": "65-70",
+        "notes": "Fresh legs = huge difference. 55x8 warmup then straight into 65x8 deep for 3 sets — no struggling to find depth like W3. Then hit 70/side x8 DEEP — new PR weight! Still hard at the end but had room. Rest day before squats is the move. W3: needed 2 warmup sets and struggled at 65. W4: 65 felt routine, 70 was achievable."
+      },
+      {
+        "id": "leg-press",
+        "sets": ["4 plates + 25/side x12 (hard, couldn't get full ROM)", "4 plates + 25/side x12 (full ROM)"],
+        "workingWeight": "4 plates + 25/side",
+        "notes": "Hips tight from standing all week at GTC — first set couldn't get as deep as W3's knee-to-chest. Second set way better, full ROM. Probably too easy weight-wise — should go up next time. Hip tightness was the limiter, not strength."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": ["6 plates/side x20", "6 plates/side x20", "6 plates/side x20"],
+        "workingWeight": "6 plates/side",
+        "notes": "Bumped from 5 to 6 plates/side — really hard! Doing them slower too. Still getting to 20 all 3 sets. What is wrong with these calves. Easiest exercise of the day despite the weight jump. Bump again next time?"
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": ["90 x12 (too easy)", "110 x12 (hard, full ROM, slow)", "110 x12 (full ROM)"],
+        "workingWeight": 110,
+        "notes": "90 too easy now. Jumped to 110 — hard but completed all 12 with full ROM and slow tempo. Did all three sets. W3: 105 was the challenge weight, now 110. Progression: W2 50 → W3 90/105 → W4 110."
+      },
+      {
+        "id": "dumbbell-lunge",
+        "sets": ["40lb x10 each (deep, really hard)"],
+        "workingWeight": 40,
+        "notes": "First set felt impossible but went as deep as possible and completed it. Only logged one set but completed the prescribed work. Absolute death as always — lunges are the finisher that finishes you."
+      }
+    ]
+  }
+]

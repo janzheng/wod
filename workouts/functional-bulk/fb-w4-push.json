@@ -1,0 +1,81 @@
+{
+  "id": "fb-w4-push",
+  "name": "Week 4 Push (Chest/Shoulders/Triceps)",
+  "description": "GTC week push day. Swapped bench for chest press machine (shoulder comfort + no spotter needed). Push press stays at 45/side — 50 wouldn't go overhead. Cable lat raise jumped to 50 (from W3's 30). Straight arm pulldown added back.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Forward then backward, loosen shoulders" },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Light band, squeeze shoulder blades" },
+        { "id": "push-up", "reps": 12, "notes": "Warm up the chest, get blood flowing" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "press-station",
+      "name": "Station 1: Press",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "chest-press-machine", "reps": "6-8", "notes": "W4 actuals: 175x6 (struggled), 175x8 (adjusted start position forward), 175x8, 185x4, 180x3. Working weight is 175. Adjust start position so handles aren't too far behind back — that loads the shoulder joint." },
+        { "id": "incline-dumbbell-press", "reps": "10", "notes": "W4 actuals: 55x10, 55x10, 55x10 (really hard), 55x9. Hard from set 1 but consistent. Stay at 55 until 4x10 is clean." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-station",
+      "name": "Station 2: Dumbbells",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "push-press", "reps": "5-6", "notes": "W4 actuals: 50/side couldn't get overhead, dropped to 45/side — 5/6/5. Stay at 45 until 3x6+ is consistent. 50 is not ready yet." },
+        { "id": "lateral-raise", "reps": "15", "notes": "W4 actuals: 15x15 x4 sets + drop to 10. Probably too easy — try 20s if available, otherwise 5 sets at 15 with drop set." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "machine-cable-station",
+      "name": "Station 3: Machine + Cables",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "pec-deck-fly", "reps": "10-12", "notes": "W4 actuals: 105x12, 105x12, 115x9 (failure). W3's '100' was actually 105 (5lb plate was on). 115 is the new challenge weight." },
+        { "id": "cable-lateral-raise", "reps": "12", "notes": "W4 actuals: 50x12, 50x12, 65x6/55x4. Huge jump from W3's 30. Working weight is 50, 65 is a stretch goal." },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": "10-12", "notes": "W4 actuals: 55x12 (too easy), 65x10, 65x12 (form breaking at end). 65 is the new working weight. Keep hands apart." }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: Pulldown",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "straight-arm-pulldown", "reps": 12, "notes": "W4 actuals: 70/90/105 all x12, all too easy. Start at 105+ next time. This is a pull exercise but works great as a push day finisher when lats are fresh." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Chest press machine: adjust start position so handles aren't behind your back. That loaded the shoulder.",
+    "Push press at 45: 50 wouldn't go overhead. Stay at 45 until you get clean 3x6+.",
+    "Pec deck: W3's weight was actually 105 not 100 (hidden 5lb plate). 115 is the real progression.",
+    "Cable lat raise: 30→50 in one week. Real strength gain.",
+    "Tri extension: 65 is the new working weight. Hands apart.",
+    "Straight arm pulldown: start at 105+ — the pyramid was too easy."
+  ]
+}

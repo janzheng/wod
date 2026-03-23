@@ -1,0 +1,96 @@
+{
+  "id": "fb-w5-kb-full",
+  "name": "Week 5 KB Full Body (Tuesday Explore)",
+  "description": "Full KB session. OTD flow stays at 25lb to keep drilling fluidity. Skill work graduates bent press to 30lb and cossack squat back to 45lb. TGU returns at 30lb after skipping W4. C&P pushes for 8 reps. This is the real KB day.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "skill-work", "intermediate", "fixed"],
+  "estimatedDuration": 38,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Loosen shoulders and thoracic spine" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings at moderate weight, groove the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "block-1-flow",
+      "name": "Block 1: KB Flow (OTD Flow)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": "1 each side", "notes": "Dead stop on floor, explosive pull to rack." },
+        { "id": "kettlebell-front-squat", "reps": "1 each side", "notes": "Full depth from rack position." },
+        { "id": "kettlebell-lateral-lunge", "reps": "1 each side", "notes": "Step wide, hips back, trailing leg straight." },
+        { "id": "kettlebell-bent-press", "reps": "1 each side", "notes": "Bend AWAY from the bell, lock out overhead." },
+        { "id": "kettlebell-tactical-clean", "reps": "1 each side", "notes": "Control the descent back to start. Complete one side, then switch." }
+      ],
+      "notes": "OTD flow (Madeline Conti): dead clean → squat → lateral lunge → bent press → tactical clean. 25lb. 3 rounds each side, do the whole flow 3 times. W4 felt fluid by the last set — maintain that quality, don't rush.",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-skill",
+      "name": "Block 2: Skill Work (Graduated)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "30lb — up from 25lb in W4. Skipped the jump last week due to GTC, so this is the first attempt at 30. If it feels off, drop back to 25 and own it." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "45lb goblet — back to full weight after the intentional deload to 25lb for GTC week." },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "25lb. Solid last week, keep it here and focus on depth." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-tgu",
+      "name": "Block 3: TGU (Welcome Back)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-turkish-getup", "reps": "3 each side", "notes": "30lb. Skipped in W4, was 30lb in W3. Left side is the project — pause at every transition. Right side sets the template. No rushing." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-4-strength",
+      "name": "Block 4: Strength",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-clean-and-press", "reps": "8 each", "notes": "50lb. W3 and W4 both got 6. Push for 8 — catch with knee bend, full lockout. If form breaks at 7, stop there." },
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "50lb. Full stretch at bottom, squeeze at top." },
+        { "id": "kettlebell-goblet-squat", "reps": 8, "notes": "50lb. Full depth, pause at the bottom." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: Swings",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 20, "notes": "50lb. Up from 15 in W4. Two-handed, explosive hips." }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Full explore session — 35-40 min. This is the real KB day.",
+    "Block 1 (flow) stays at 25lb. Fluidity over weight — you earned it in W4.",
+    "Block 2: bent press jumps to 30lb for the first time. If it doesn't feel right, no shame in dropping back.",
+    "TGU is back after skipping W4. Left side instability is the focus — slow is smooth, smooth is fast.",
+    "C&P: 8 reps is the target. W3 and W4 both hit 6. If you get 7 clean, that's still progress.",
+    "Swings go up to 20 reps per set. You've been doing 15 — earn the volume."
+  ]
+}

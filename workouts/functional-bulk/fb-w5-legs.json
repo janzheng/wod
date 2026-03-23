@@ -1,0 +1,102 @@
+{
+  "id": "fb-w5-legs",
+  "name": "Week 5 Legs (Quads/Hamstrings/Glutes/Calves)",
+  "description": "W4 proved fresh legs = PRs. Squat jumped to 70/side for a clean 8 on the last set. RDL was skipped in W4 — bring it back at W3 weight. Leg press and calf raises were too easy — loading up. Leg curl found a real working weight at 110. Lunges stay at 40lb because they're already death.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, arms in front. Thursday KB should have been light — legs should be fresh." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Open up the hips" },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight, feel the stretch" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "rack-station",
+      "name": "Station 1: Squat Rack",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "Warmup set: 55/side x8. Deep — same depth as your working sets." }
+      ],
+      "restBetween": 0,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Station 1: Squat (Working Sets)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "W4: hit 70x8 on last set as a PR with fresh legs. This week: 70/side for all 4 sets. Full depth on every rep. If 70x8 is clean across all 4, try 75/side on the last set — that's your next frontier." }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "rdl-working",
+      "name": "Station 1: RDL",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "barbell-romanian-deadlift", "reps": 10, "notes": "Skipped in W4, W3 was 65/side 8/10/10. Back to 65/side x10 for all 3 sets. If it moves easy, try 70/side on the last set. Slow eccentric, feel the hamstring stretch." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Station 2: Leg Press",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press", "reps": "10-12", "notes": "W4: 4 plates + 25/side — hips tight first set but second set full ROM. Probably too easy. This week: 5 plates/side. Full ROM check on set 1 — knee to chest depth. If hips are tight, take a longer warmup but don't back off the weight." },
+        { "id": "leg-press-calf-raise", "reps": 20, "notes": "W4: 6 plates/side x3x20 — still too easy even with slow tempo and pause at top. Try 7 plates/side. If you max out the machine, switch to single-leg calf raises — halves the load, doubles the work, and fixes any L/R imbalance." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Station 3: Leg Curl Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": 12, "notes": "W4: 90 too easy, 110x12 hard but completed. Working weight is 110 now. 3x12 at 110. If clean on all 3 sets, try 115 on the last set. Slow negative — 2 full seconds down." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "lunge-station",
+      "name": "Station 4: Lunges (The Finisher)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": "10 each leg", "notes": "40lb DBs. Absolute death as always. Stay at 40. Long stride, back knee to floor. Don't split the last set — you've earned fresher legs this week. The finisher that finishes you." }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Thursday KB should be light enough not to matter — fresh legs proved = PRs in W4.",
+    "Squat: 70/side is the working weight now. 4x8 deep. If all clean, 75 on the last set.",
+    "RDL is back after skipping W4. 65/side x10, try 70 if it's easy.",
+    "Leg press: 5 plates/side — W4 was too easy. Full ROM or it doesn't count.",
+    "Calf raises: 7 plates/side. You keep outgrowing these. When you max out the machine, switch to single-leg.",
+    "Leg curl: 110 is the real working weight. 3x12, try 115 on last set if clean.",
+    "Lunges at 40lb: respect them. They don't care how strong your squat got.",
+    "Rest 3 min between squats, 2.5 min on RDL, 2 min on leg press, 90s on isolation"
+  ]
+}

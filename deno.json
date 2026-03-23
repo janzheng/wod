@@ -33,6 +33,7 @@
     "wod:aj": "deno run -A src/cli/mod.ts generate --routine=action-jacqueline",
     "wod:random": "deno run -A src/cli/mod.ts generate --routine=gym --random",
     "deploy": "deno deploy --app 'wod' --prod",
+    "deploy:prod": "deno deploy --app 'wod' --prod",
     "ai:chat": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/cli.ts",
     "ai:chat:local": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/cli.ts --preset local",
     "ai:serve": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/server.ts",

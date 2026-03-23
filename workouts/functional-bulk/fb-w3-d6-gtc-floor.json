@@ -1,0 +1,76 @@
+{
+  "id": "fb-w3-d6-gtc-floor",
+  "name": "W3D6 GTC Survival Floor Workout",
+  "description": "Boredom-busting floor workout for streaming training at home. 4 blocks: barre burn, plyo sweat, push-up party, core destroyer. Do blocks between sessions or all at once if you're dying of boredom. Will make you sweat.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "bodyweight", "barre", "core", "plyo", "home", "fun", "sweat"],
+  "estimatedDuration": 25,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "block-1-barre-burn",
+      "name": "Block 1: Barre Burn (Action Jacqueline vibes)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "barre-wide-plie-pulse", "reps": 20, "notes": "Deep wide stance, tiny pulses at the bottom. Feel it in inner thighs immediately." },
+        { "id": "barre-plie-releve", "reps": 12, "notes": "Plie down, rise onto toes at the top. Calves + quads + balance." },
+        { "id": "barre-donkey-kick-pulse", "reps": 15, "notes": "15 each side. All fours, kick up and pulse. Glute fire." },
+        { "id": "barre-fire-hydrant", "reps": 15, "notes": "15 each side. All fours, knee out to the side. Hip abductors." }
+      ],
+      "restBetween": 10,
+      "restAfter": 45
+    },
+    {
+      "id": "block-2-plyo-sweat",
+      "name": "Block 2: Plyo Sweat",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "squat-jump", "reps": 10, "notes": "Explode up, soft landing. This is where you earn the sweat." },
+        { "id": "mountain-climber", "duration": 30, "notes": "Fast but controlled. Drive knees to chest." },
+        { "id": "barre-plie-jump", "reps": 10, "notes": "Wide stance jump — land soft in plie. Barre meets plyo." },
+        { "id": "burpee", "reps": 6, "notes": "Only 6, but make them count. Full extension at the top." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-push-up-party",
+      "name": "Block 3: Push-Up Party",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "push-up", "reps": 10, "notes": "Standard. Full ROM." },
+        { "id": "diamond-push-up", "reps": 8, "notes": "Hands together under chest. Tricep destroyer." },
+        { "id": "plank-up-downs", "reps": 8, "notes": "Plank to push-up position and back. Alternating arms." },
+        { "id": "spiderman-plank", "reps": 10, "notes": "In plank, drive knee to elbow. 5 each side. Core + hip flexors." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-4-core-destroyer",
+      "name": "Block 4: Core Destroyer",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dead-bug-opposite-reach", "reps": 10, "notes": "Slow and controlled. Opposite arm/leg extends. Lower back stays glued to floor." },
+        { "id": "bicycle-crunch", "reps": 20, "notes": "20 total (10 each side). Elbow to opposite knee." },
+        { "id": "hollow-body-rocks", "duration": 20, "notes": "Arms overhead, legs hovering, rock like a banana. If you can't rock, just hold." },
+        { "id": "plank-hip-dips", "reps": 12, "notes": "In plank, rotate hips side to side. 6 each side. Oblique fire." }
+      ],
+      "restBetween": 10,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Do all 4 blocks for a full 25-min sweat session, or cherry-pick blocks between training streams",
+    "Block 1 (barre) is sneaky hard — the pulses accumulate fast",
+    "Block 2 (plyo) is where you'll actually sweat — push the pace",
+    "Block 3 (push-ups) builds on your bench press gains — you're stronger than you think",
+    "Block 4 (core) — hollow body rocks are humbling. Just try.",
+    "Rest day tomorrow — go hard if you want to"
+  ]
+}

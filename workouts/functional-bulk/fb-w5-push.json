@@ -1,0 +1,81 @@
+{
+  "id": "fb-w5-push",
+  "name": "Week 5 Push — Shuffle (Chest/Shoulders/Triceps)",
+  "description": "Shuffle week: reordered exercises to get honest numbers on lifts that have been dying at the end. Push press moves to station 1 (before chest fatigue) to test true overhead capacity. Chest press machine stays as main chest exercise. Based on W4 actuals.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "shuffle"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Forward then backward, loosen shoulders" },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Light band, squeeze shoulder blades" },
+        { "id": "push-up", "reps": 12, "notes": "Warm up the chest, get blood flowing" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "overhead-station",
+      "name": "Station 1: Overhead + Lateral (fresh shoulders)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "push-press", "reps": "6-8", "notes": "SHUFFLE: moved first — fresh shoulders, no chest pre-fatigue. W4 actuals: 50/side couldn't go overhead (done after chest work), 45/side got 5/6/5. Try 50/side again here. If 50 goes up clean, that confirms the W4 ceiling was fatigue, not strength." },
+        { "id": "lateral-raise", "reps": "15", "notes": "W4 actuals: 15x15 too easy. Try 20s if available. Otherwise 15s with slow eccentric or 5 sets with drop set." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "press-station",
+      "name": "Station 2: Chest Press + Incline",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "chest-press-machine", "reps": "6-8", "notes": "W4 actuals: 175x6/8/8, 185x4, 180x3. Working weight 175. Try 180 for all sets — if 180x6+ is clean, push to 185 on last set. Keep handles forward, not behind back." },
+        { "id": "incline-dumbbell-press", "reps": "10", "notes": "W4 actuals: 55x10/10/10(hard)/9. Push for clean 4x10 at 55 before going up. This is an honest 4x10 check — chest press came first now so incline may feel slightly harder." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "machine-cable-station",
+      "name": "Station 3: Pec Deck + Cable Lat Raise + Triceps",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "pec-deck-fly", "reps": "10-12", "notes": "W4 actuals: 105x12, 105x12, 115x9 (failure). Start at 110, try 115 on set 2-3. Goal: 115x10+." },
+        { "id": "cable-lateral-raise", "reps": "12", "notes": "W4 actuals: 50x12/12, 65x6 then 55x4. Working weight 50, try 55 for all sets. 65 remains stretch goal." },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": "10-12", "notes": "W4 actuals: 55x12 (easy), 65x10, 65x12 (form breaking). Working weight 65, try 70 if 65 feels clean. Keep hands apart." }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: Pulldown",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "straight-arm-pulldown", "reps": 12, "notes": "W4 actuals: 70/90/105 all x12, all too easy. Start at 110+. If 110x12 is easy, jump to 120. Pull exercise as push day finisher — lats are fresh." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "SHUFFLE WEEK: Push press is first exercise. This tests whether W4's 50/side ceiling was fatigue or actual strength limit.",
+    "If 50/side push press goes up clean here, future weeks can keep it early OR rotate position.",
+    "Chest press at 180: handles forward, not behind back. Shoulder-safe start position.",
+    "Incline DB at 55: moved after chest press now — note if the order change affects reps.",
+    "Pec deck: 110 start, push to 115. Cable lat raise: 55 target, 65 stretch.",
+    "Tricep extension: 65 working, try 70. Straight arm pulldown: start at 110+."
+  ]
+}

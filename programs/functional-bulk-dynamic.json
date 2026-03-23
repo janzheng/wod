@@ -310,6 +310,12 @@
           "homeGym": "Dead hangs 2-3x20s + pull-ups 2-3x5-8 if you feel good. Easy day.",
           "options": [
             {
+              "label": "GTC Floor Workout",
+              "type": "workout",
+              "workoutId": "fb-w3-d6-gtc-floor",
+              "notes": "Boredom-busting floor workout: barre burn, plyo sweat, push-up party, core destroyer. ~25 min, no equipment. Do all 4 blocks or cherry-pick."
+            },
+            {
               "label": "Stairmaster",
               "type": "activity",
               "activity": {
@@ -360,6 +366,170 @@
         "KB Refine day: drill Tuesday's new stuff + heavier Simba lift and overhead lunges",
         "WRITE DOWN which lat pulldown and cable row machine you use at Arrillaga",
         "DB rows are now a planned pyramid — stop pretending it was accidental"
+      ],
+      "log": []
+    },
+    {
+      "week": 4,
+      "label": "GTC Week",
+      "description": "GTC week — schedule shifted mid-week. Wed became a rest day (9am-7pm demos). Pull moved to Thu, Legs Fri, KB Sat optional. Fresh legs for squats again — no KB the day before.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH",
+          "type": "workout",
+          "workoutId": "fb-w4-push",
+          "flow": {
+            "workoutId": "fb-w4-push-morning-flow",
+            "label": "Morning Flow",
+            "notes": "NEW — 12 min. Thread-the-needle + wall angels + puppy pose. Different from W3."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL BODY (EXPLORE)",
+          "type": "workout",
+          "workoutId": "fb-w4-kb-full",
+          "flow": {
+            "workoutId": "fb-w4-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — thoracic + hip flow. Thread-the-needle + cossack bodyweight."
+          }
+        },
+        {
+          "day": 3,
+          "label": "REST (GTC demos 9am-7pm)",
+          "type": "rest"
+        },
+        {
+          "day": 4,
+          "label": "PULL",
+          "type": "workout",
+          "workoutId": "fb-w4-pull",
+          "flow": {
+            "workoutId": "fb-w4-pull-morning-flow",
+            "label": "Morning Flow",
+            "notes": "NEW — 12 min. Scapular pull-ups + dead hang + supine twists. Back primer."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS",
+          "type": "workout",
+          "workoutId": "fb-w4-legs",
+          "flow": {
+            "workoutId": "fb-w4-legs-morning-flow",
+            "label": "Morning Flow",
+            "notes": "NEW — 15 min. Pigeon pose + glute bridge. Legs are FRESH — rest day yesterday, no KB day before."
+          }
+        },
+        {
+          "day": 6,
+          "label": "KB CONDITIONING (REFINE — optional)",
+          "type": "workout",
+          "workoutId": "fb-w4-kb-cond",
+          "flow": {
+            "workoutId": "fb-w4-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — same flow as Tuesday. Light and easy end-of-week."
+          }
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "GTC week: schedule shifted — Wed rest, Thu pull, Fri legs, Sat KB optional.",
+        "Bench: no warmup sets at 55 — 65/side is your working weight now. Start there.",
+        "Legs on Friday with FRESH legs — no KB the day before for the first time. Use that.",
+        "KB Explore Tuesday: bent press 30lb, windmill 25lb.",
+        "KB Refine Saturday: finisher is 2 rounds only — legs day was yesterday.",
+        "DB row top set: 75lb PR attempt. Brace hard."
+      ],
+      "log": []
+    },
+    {
+      "week": 5,
+      "label": "Shuffle Week",
+      "description": "Same exercises, reordered to get honest numbers. Push press moves to station 1 (before chest fatigue) — does 50/side go overhead with fresh shoulders? Preacher curl moves right after pull-ups (before cable curls kill biceps). Legs stay Friday. Thursday KB Refine is genuinely light — skill drilling only, no leg loading. If meetings push Thursday late, swap Thu KB / Fri Legs freely.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (shuffled)",
+          "type": "workout",
+          "workoutId": "fb-w5-push"
+        },
+        {
+          "day": 2,
+          "label": "KB FULL BODY (EXPLORE)",
+          "type": "workout",
+          "workoutId": "fb-w5-kb-full"
+        },
+        {
+          "day": 3,
+          "label": "PULL (shuffled)",
+          "type": "workout",
+          "workoutId": "fb-w5-pull"
+        },
+        {
+          "day": 4,
+          "label": "KB REFINE (light — legs tomorrow)",
+          "type": "workout",
+          "workoutId": "fb-w5-kb-cond"
+        },
+        {
+          "day": 5,
+          "label": "LEGS",
+          "type": "workout",
+          "workoutId": "fb-w5-legs"
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 60,
+                "intensity": "easy",
+                "notes": "Get outside. Conversational pace."
+              }
+            },
+            {
+              "label": "Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "SHUFFLE WEEK: same exercises, reordered. Push press first on push day, preacher curl early on pull day.",
+        "Push press with fresh shoulders: does 50/side finally go overhead? This is the test.",
+        "Preacher curl after pull-ups only: find your real working weight without cable curl fatigue.",
+        "Thursday KB is LIGHT — 20 min skill work only. No swings, no C&P, no squats. Legs are tomorrow.",
+        "Thursday/Friday are swappable — if meetings run late, do legs Thu and KB Fri.",
+        "Squat at 70/side for all working sets. Try 75 on the last set if it's clean.",
+        "Calf raises: 7 plates. Yes, really."
       ],
       "log": []
     }

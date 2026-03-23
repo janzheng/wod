@@ -1,0 +1,70 @@
+{
+  "id": "fb-w5-kb-cond",
+  "name": "Week 5 KB Conditioning (Thursday Refine — Light)",
+  "description": "Movement practice, not a workout. Light bells, low volume, zero leg loading. Legs day is tomorrow. Drill the OTD flow and skill movements at easy weights. Get in, get smooth, get out in 20 minutes.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "light", "movement-practice", "fixed"],
+  "estimatedDuration": 20,
+  "equipment": ["kettlebell"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell. Just loosen up the shoulders." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "block-1-flow",
+      "name": "Block 1: OTD Flow (Easy)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": "1 each side", "notes": "Smooth pull, no effort." },
+        { "id": "kettlebell-front-squat", "reps": "1 each side", "notes": "Light and easy — don't sit in the hole." },
+        { "id": "kettlebell-lateral-lunge", "reps": "1 each side", "notes": "Easy range, don't push depth today." },
+        { "id": "kettlebell-bent-press", "reps": "1 each side", "notes": "20lb makes this feel like nothing. Focus on the path." },
+        { "id": "kettlebell-tactical-clean", "reps": "1 each side", "notes": "Controlled descent. Complete one side, then switch." }
+      ],
+      "notes": "OTD flow at 20lb — lighter than Tuesday. 2 rounds each side, do the whole flow twice. This should feel effortless. You're polishing the pattern, not building it.",
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "block-2-skill",
+      "name": "Block 2: Light Skill Work",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "20-25lb. If Tuesday's 30lb went well, use 25 here max. This is about the groove, not the load." },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "18-20lb. Light. Deep hip hinge, eyes on the bell, zero grinding." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "block-3-tgu",
+      "name": "Block 3: TGU Drill",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-turkish-getup", "reps": "2 each side", "notes": "25lb — lighter than Tuesday's 30. Drill the transitions. Pause at each checkpoint for a full breath. Left side: own every position before moving to the next." }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This is NOT a workout. It's movement practice. 20 minutes, light bells, zero intensity.",
+    "Legs day is tomorrow. No swings, no C&P, no squats, no lunges, no finisher. Nothing that loads the legs.",
+    "OTD flow at 20lb should feel like a warm-up. If it feels like work, the bell is too heavy.",
+    "Bent press and windmill: you're greasing the groove, not testing limits.",
+    "TGU at 25lb is about transitions, not strength. Pause everywhere. Breathe.",
+    "Do not get inspired. Do not add sets. Do not grab the 50. You will regret it tomorrow under a barbell."
+  ]
+}
