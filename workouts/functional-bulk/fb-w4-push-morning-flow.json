@@ -1,0 +1,58 @@
+{
+  "id": "fb-w4-push-morning-flow",
+  "name": "W4 Push Morning Flow",
+  "description": "12 min shoulder + chest primer. Different from W3 — scorpion stretch is out, we add thread-the-needle for thoracic rotation and a wall angel for shoulder mobility. Your push is getting stronger; open up the range before you load it.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "shoulders", "chest", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "shoulder-opener",
+      "name": "Shoulder Opener",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "15 each direction", "notes": "Big circles, loosen the joint before loading it" },
+        { "id": "thread-the-needle", "duration": 30, "notes": "30s each side. From all fours, thread one arm under and through. Opens thoracic rotation — where push press range comes from." },
+        { "id": "wall-angel", "reps": 10, "notes": "Back flat against wall, arms slide up and down like a snow angel. If you can't keep your back flat, that's the tightness you're working on." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "chest-activation",
+      "name": "Chest + Tricep Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "push-up", "reps": 10, "notes": "Easy and controlled. Full ROM — this is warming, not working." },
+        { "id": "diamond-push-up", "reps": 6, "notes": "Hands close, feel the triceps engage. Not to failure — just activation." },
+        { "id": "plank-to-down-dog", "reps": 8, "notes": "Flow between plank and downward dog. Opens chest and shoulders, warms the pushing muscles." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "stretch-flow",
+      "name": "Chest + Hip Stretch",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "low-lunge-thoracic-rotation", "duration": 30, "notes": "30s each side. Low lunge, twist toward front knee, reach overhead. Opens hip flexors AND thoracic spine — primes push press." },
+        { "id": "doorframe-chest-stretch", "duration": 30, "notes": "Hands on a doorframe or wall corner, lean forward gently. Feel the pec stretch. 30s." },
+        { "id": "puppy-pose", "duration": 30, "notes": "All fours, walk hands forward, chest toward floor. Deep shoulder and chest stretch to close out." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "12 min — different from W3's warrior flow. Focus on shoulder mobility before the heavy pressing.",
+    "Thread-the-needle is new — go slow, breathe into the rotation. Tight thoracic = limited push press lockout.",
+    "Wall angels: if your back peels off the wall, you found your sticking point. Work through it gently.",
+    "Puppy pose last — warm muscles stretch deeper. Let gravity do the work.",
+    "If short on time: skip chest activation block, just do shoulder opener + stretch"
+  ]
+}

@@ -83,6 +83,22 @@ After extracting from either skill:
 - `docs/COVERFLOW-VIDEO-PERSISTENCE.md` — Design doc for coverflow file I/O (input files + output persistence)
 - `docs/notes/` — Training discussion notes, readings, and research summaries with sources
 
+## Morning Flow Design
+
+When creating morning flows for the functional-bulk program:
+
+- **Three-part structure, ~15 min total:**
+  1. **Primer** (~3 min) — day-specific activation (hangs/scap pulls for pull, shoulder openers for push, hip circles for legs, etc.)
+  2. **Work block** (~5 min) — core, push-ups, barre movements, or light bodyweight work. Gets the body warm. Can mix in Action Jacqueline-style barre (plie pulses, relevés) for variety.
+  3. **Yoga flow** (~7 min) — flowing transitions, NOT isolated holds. Include straddle + hip openers. Should feel like one continuous arc. Goes last because warm muscles stretch deeper.
+- **Order matters:** work before stretches. Warm body = deeper stretches.
+- **Not too hard or long** — these precede a gym session. The work block should activate, not fatigue.
+- **Variety across the week** — different movements each day, rotate in new exercises so it stays interesting.
+
+## Personalized Program Context
+
+When building or modifying workouts for the functional-bulk-dynamic program (or any personalized workout), **always check `NOTES.md`** for session observations, planned progressions, exercise ideas, and equipment notes from prior weeks. These notes capture decisions and context that don't live in the workout JSON files.
+
 ## Session Logging
 
 When logging gym day sessions from conversation:

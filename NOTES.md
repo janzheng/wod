@@ -33,6 +33,11 @@ Running observations, session notes, and things to remember for future weeks.
 - **Cool KB movements to rotate in:** TGU, windmill, bent press, overhead lunge, Simba lift (squat front raise), lunge-snatch, cossack squat, dead clean, figure-8 variations. Library has tons of these.
 - **Overall W2 feel:** Easier than W1 (body adapting). W3 should bump volume or intensity slightly.
 - **W3 morning flows done:** All 5 new flows created with different exercises. Warrior flow, hollow body, frog stretch, happy baby, crow pose, scorpion stretch, bear crawl hold, plow pose, etc.
+- **Morning flow template (W3+):** Three-part structure, ~15 min:
+  1. **Primer** (~3 min) — day-specific activation (hangs/scap pulls for pull, shoulder openers for push, etc.)
+  2. **Work block** (~5 min) — core, push-ups, or light bodyweight work. Gets the body warm before stretching. Can include barre movements (Action Jacqueline style — plie pulses, relevés) for variety on push/pull days.
+  3. **Yoga flow** (~7 min) — flowing transitions, NOT isolated holds. Straddle + hip openers. Movement should feel like one continuous arc. Goes last because warm muscles stretch deeper.
+- **W4 morning flow ideas:** Mix in barre movements on push or pull days for the work block. Plie pulses, relevés, wide-stance work — fun variety that won't interfere with the gym session.
 
 ## W3 Observations
 
@@ -50,6 +55,11 @@ Running observations, session notes, and things to remember for future weeks.
   - **Thursday plan question:** User asked if they should do the full flow on Thursday or keep current Refine plan. Answer: keep Thursday as Refine & Drill — practice bent press + cossack at slightly heavier weight. Save the flow concept for W4 Tuesday.
   - **W4 Tuesday flow:** Use `kb-flow-dead-clean-press` (Facebook reel flow: dead clean → squat → lateral lunge → bent press → tactical clean) as the centerpiece. Already in the library. Perfect progression from learning bent press in isolation → chaining it into a flow.
   - **50lb ceiling on traditional KB:** Rows, goblet squats, swings all easy at 50 (Arrillaga max). Progression path: add reps, add sets, add pauses/tempos, or chain into complexes. These aren't really "rest" — they're conditioning work that happens to feel easy because the skill movements are the real challenge.
+- **W3D3 Pull (3/11):** Pull-ups 10/8/8/6 = 32 total (beat W2's 27! but felt harder — cumulative fatigue from 3 days of upper body). DB rows pyramided 55→60→65→70x6 (PR!). Seated cable row: 120 is honest working weight on back right machine, 140 pulls into bad form. Lat pulldown 140x11/12 then found +10lb add-on plate, 150x8 (grip was the limiter, not lats — back left machine). Face pulls 50x20/20/18 — harder than expected by set 3. Cable bicep curls consistent at 42.5x12, added 4th set. Reverse fly: discovered seated bent-over modification at 25lb — way better engagement than standing. Preacher curl: 15/side is working weight (25 total impossible), drop set 15→10 to failure.
+  - **Grip fatigue:** Hands were fried by mid-session. Grip limiting lat pulldown more than back strength. Consider straps for W4 if this continues.
+  - **Seated reverse fly mod:** Seated facing forward, legs forward, bent over — lock this in as the default form. Better posterior delt isolation. W4 option: try reverse incline (chest-down on incline bench) — removes the awkward hunch entirely and lets gravity do the isolation work. Three options by preference: reverse incline (best) > seated bent-over (today's win) > standing (last resort).
+  - **Preacher curl baseline:** 10/side easy, 15/side is working weight (dies at 10 reps), 25 total impossible. Way more isolating than cable curls. Drop set approach is good programming.
+  - **Cable row machine note:** Back right machine, 120 working weight. 140 exists but form breaks down (leaning back). No 130 available.
 
 ## Housekeeping
 

@@ -1,0 +1,58 @@
+{
+  "id": "fb-w4-legs-morning-flow",
+  "name": "W4 Legs Morning Flow",
+  "description": "15 min hip + squat prep. Different from W3 — no crow pose, add pigeon prep and a deep malasana hold. KEY DIFFERENCE today: your legs are not pre-cooked. This flow should feel easier and looser than W3.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "hips", "legs", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "hip-warmup",
+      "name": "Hip Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Standing, big slow circles. Feel the hip socket open up." },
+        { "id": "dynamic-malasana", "reps": 10, "notes": "Squat to standing, hands at toes. This week go SLOWER — 3 seconds down, 2 seconds in the hole, drive up. Groove the pattern." },
+        { "id": "lunge-with-rotation", "reps": "5 each side", "notes": "Low lunge, back knee down, reach inside arm toward front foot and twist. Hip flexor + thoracic." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "hip-depth",
+      "name": "Hip Depth Work",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 45, "notes": "45s each side. Front shin parallel or angled, sink into it. This is a deeper hip opener than anything in W3's flow. Breathe." },
+        { "id": "90-90-stretch", "duration": 30, "notes": "30s each side. Internal and external hip rotation. You know this one — go deeper than last week." },
+        { "id": "skandasana-side-lunge", "reps": "8 each", "notes": "Deep side lunge alternating. Same as W3 but you've been doing cossack squats for 2 weeks — you have more range now. Use it." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "activation",
+      "name": "Glute + Core Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "glute-bridge", "reps": 15, "notes": "Feet hip-width, drive hips up, squeeze glutes at top. Activates glutes before you squat — reduces knee stress." },
+        { "id": "dead-bug-opposite-reach", "reps": 10, "notes": "Opposite arm and leg extend slowly. Lower back stays down. Core bracing before loading a barbell." },
+        { "id": "hollow-body-hold", "duration": 20, "notes": "20s. Arms overhead, legs hovering. Same as W3. Just do it." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "15 min — pigeon pose is new this week (deeper than lizard). Take your time in it.",
+    "Your legs are FRESH today (no KB yesterday). This flow should feel noticeably easier than W3 legs day.",
+    "Glute bridge before squats: activates the glutes so they share the load. Reduces the knee-dominant pattern.",
+    "Malasana: slower this week. You've drilled the squat pattern for 3 weeks — now feel it.",
+    "If short on time: hip warmup + pigeon + glute bridge. 8 min minimum."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "fb-w4-legs",
+  "name": "Week 4 Legs (Quads/Hamstrings/Glutes/Calves)",
+  "description": "Your legs are fresh — no KB conditioning the day before this time (Thursday is rest). Squat from 65/side without the extended warmup you needed in W3. Leg curl pushes to 105 for all sets. Leg press at 4 plates + 25 across the board. Calf raises need more load — bump to 6 plates.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, arms in front. You're not sore today — these will feel easier." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Open up the hips" },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight, feel the stretch" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "rack-station",
+      "name": "Station 1: Squat Rack",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "squat", "reps": "6-8", "notes": "W3: needed 2x55 warmup then got 65x6, 65x6, 65x8, 65x8. Today your legs aren't dead — try 1 warmup set at 55 then straight to 65 for 4 sets. Goal: 4x8 at 65/side with full depth. You know you can do it." },
+        { "id": "barbell-romanian-deadlift", "reps": "10", "notes": "W3: 65/side 8/10/10. Goal: 3x10 consistent. If 65 is easy across all sets, try 70/side on set 4." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Station 2: Leg Press",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press", "reps": "10-12", "notes": "W3: 4 plates/side for 2 sets, then 4 plates + 25 on last set — all with great ROM. This week: 4 plates + 25 for all 3 working sets. Knee to chest depth, no half reps." },
+        { "id": "leg-press-calf-raise", "reps": "20", "notes": "W3: 5 plates/side x3x20 = too easy (you said so). Bump to 6 plates/side. That posterior chain activation you felt in W3 — chase that again." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Station 3: Leg Curl Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": "10-12", "notes": "W3: 90x12, 90x12, 105x12 (last set hard). This week: try 90x12, 105x12, 105x12. Get that 105 for two sets instead of one. Slow negative — 2 full seconds down." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "lunge-station",
+      "name": "Station 4: Lunges",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": "10 each leg", "notes": "W3: 45lb (all 40s taken) — absolute death, split last set. Today grab 40s if they're free, otherwise 45 again. Goal: don't split the last set. Long stride, back knee to floor. Your legs are fresher than W3." }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "KEY DIFFERENCE from W3: your legs are not pre-cooked today. You had two rest days. Use that.",
+    "Squat: one warmup set at 55 then 4x8 at 65/side. You've done 65x8 twice already — it's your working weight now.",
+    "Leg press: 4 plates + 25 for all sets, not just the last one. Your ROM held up fine in W3.",
+    "Leg curl at 105: two sets instead of one. Slow negative on every rep.",
+    "Calf raises at 6 plates: 5 was too easy, you said it yourself. Time to find the new hard.",
+    "Lunges: you survived 45lb x3 sets on dead legs in W3. Fresh legs today means no splitting.",
+    "Rest 3 min between squat/RDL, 2 min on leg press, 90s on isolation"
+  ]
+}

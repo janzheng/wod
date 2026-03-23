@@ -1,0 +1,81 @@
+{
+  "id": "fb-w4-pull",
+  "name": "Week 4 Pull (Back/Biceps/Rear Delts)",
+  "description": "Beat W3's 32 pull-up total. DB row pyramid goes to 75 (W3 PR was 70x6). Preacher curl: build from W3's humbling intro — try 20/side. Cable row: push for 130 on back right machine. Your back is stronger than it's ever been.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "pull-up-bar", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Squeeze shoulder blades, warm up upper back" },
+        { "id": "cat-cow", "reps": 10, "notes": "Loosen thoracic spine" },
+        { "id": "dead-hang", "reps": 1, "duration": 25, "notes": "W3: 20s. Try 25s. Decompress, grip, lats." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Station 1: Pull-up Bar",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "7-10", "notes": "W3: 10/8/8/6 = 32 total. Goal: beat 32. Aim for 4x8 (32 total) but with more consistent sets — ideally no set lower than 7. Full ROM on every rep." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-row-station",
+      "name": "Station 2: Dumbbell Row (Pyramid)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "dumbbell-row", "reps": "8-10", "notes": "W3 pyramid: 55x10, 60x8, 65x8, 70x6 (PR). This week: 55x10, 65x8, 70x8, 75x5-6 (new PR attempt on top set). Brace hard on 75 — at this weight form really matters." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-station",
+      "name": "Station 3: Cable Machine",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "reps": "8-12", "notes": "W3: 140x11, 140x12, 150x8 (back left machine). This week: 145x10, 145x10, 155x8. Write down the machine — numbers don't transfer between pulleys." },
+        { "id": "seated-cable-row", "reps": "10-12", "notes": "W3: 120x10 (honest), 140x8 (leaning back). This week: try 130 — that's the middle ground. Back right machine. Keep torso upright, no leaning." },
+        { "id": "face-pull", "reps": "15-20", "notes": "W3: 50 x20/20/18. Stay at 50. Goal: 3x20 all clean. External rotate hard at the end of each rep." },
+        { "id": "cable-bicep-curl", "reps": "10-12", "notes": "W3: 42.5x12 x3, 42.5x10 on set 4. This week: 42.5 x4 sets, all 12 reps. You were there in W3 — repeat it cleanly." }
+      ],
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "dumbbell-finish",
+      "name": "Station 4: Rear Delts + Biceps",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-reverse-fly", "reps": "12-15", "notes": "W3: 25x15, 25x14, 25x12+4. Seated bent-over modification is your version now. Stay at 25, try to get 3x15 clean." },
+        { "id": "preacher-curl", "reps": "8-10", "notes": "W3: 15/side worked (humbling at 10 reps). This week: try 20/side for sets 1-2. Drop back to 15 on set 3 if form breaks. Find out where 20/side lands." }
+      ],
+      "restBetween": 75,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Pull-up goal: beat 32. Consistency matters more than one big set — 4x8 > 10/8/8/6.",
+    "DB row top set: 75x5-6 is a PR attempt. Don't sacrifice form for reps — a clean 5 beats a dirty 7.",
+    "Cable row: 130 is the target. If back right machine isn't available, note whichever you use.",
+    "Preacher curl at 20/side: it'll be humbling again. That's normal — it's a strict isolation, no cheat possible.",
+    "Hands were dead in W3 from all the pulling — if grip fails, that's fine. Lats are the actual target.",
+    "Rest 3 min between pull-ups, 2 min between rows, 75s between cable isolation"
+  ]
+}

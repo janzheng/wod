@@ -1,0 +1,57 @@
+{
+  "id": "fb-w4-pull-morning-flow",
+  "name": "W4 Pull Morning Flow",
+  "description": "12 min back + grip primer. Different from W3 — adds dead hang progression and cat-cow with reach. Your pull numbers are climbing fast; make sure the shoulder and lat prep matches what you're asking them to do.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "back", "shoulders", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight", "mat", "pull-up-bar"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "spine-primer",
+      "name": "Spine + Scap Primer",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Slow. Exhale into cat (round spine), inhale into cow (arch). 10 full breaths." },
+        { "id": "child-pose-reach", "duration": 30, "notes": "Child's pose, but walk hands to one side then the other — 15s each side. Lateral lat stretch." },
+        { "id": "thread-the-needle", "duration": 30, "notes": "30s each side. Same as push day but focus on upper back rotation, not just shoulder." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "lat-activation",
+      "name": "Lat + Grip Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "dead-hang", "reps": 1, "duration": 20, "notes": "20s passive hang. Feel the lats stretch and activate. Grip strong but shoulders relaxed." },
+        { "id": "scapular-pull-up", "reps": 8, "notes": "Dead hang, then retract scapulae — no elbow bend, just shoulder blades pulling down and together. Activates the exact muscles you need for pull-ups and rows." },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Light band. Straight arms, pull to chest height. Rear delts and scaps warm." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "hip-opener",
+      "name": "Hip + Hamstring Opener",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "happy-baby", "duration": 30, "notes": "On back, grab outer feet, knees wide. Gentle hip opener — your DB rows and TGU both need open hips." },
+        { "id": "seated-forward-fold", "duration": 30, "notes": "Legs straight, reach toward feet. Hamstring + lower back release. Don't force it — breathe and sink." },
+        { "id": "supine-spinal-twist", "duration": 30, "notes": "30s each side. On back, one knee across the body. Releases lower back tightness from sitting at GTC all day." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "12 min — scapular pull-ups are new this week. They directly prime pull-up form.",
+    "Dead hang: let the shoulders fully relax at the bottom. Most people never hang passively — it decompresses the whole shoulder.",
+    "Supine twist: if you've been standing all day at GTC on Tuesday, your low back will love this Wednesday morning.",
+    "If short on time: spine primer + dead hang + scapular pull-ups. 5 min minimum."
+  ]
+}

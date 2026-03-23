@@ -1,0 +1,73 @@
+{
+  "id": "fb-w4-kb-full",
+  "name": "Week 4 KB Full Body (Explore — GTC Light)",
+  "description": "GTC day — you're on your feet for 6 hours after this. Flow is the centerpiece, skill work is lighter, strength block is trimmed. Get the movement quality in without cooking your legs for a day of standing.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "skill-work", "intermediate", "fixed"],
+  "estimatedDuration": 25,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light, loosen shoulders and thoracic spine" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings, groove the hinge" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "block-1-flow",
+      "name": "Block 1: KB Flow (OTD Flow)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": "1 each side", "notes": "Dead stop on floor, explosive pull to rack." },
+        { "id": "kettlebell-front-squat", "reps": "1 each side", "notes": "Full depth from rack position." },
+        { "id": "kettlebell-lateral-lunge", "reps": "1 each side", "notes": "Step wide, hips back, trailing leg straight." },
+        { "id": "kettlebell-bent-press", "reps": "1 each side", "notes": "Bend AWAY from the bell, lock out overhead." },
+        { "id": "kettlebell-tactical-clean", "reps": "1 each side", "notes": "Control the descent back to start. Complete one side, then switch." }
+      ],
+      "notes": "OTD flow (Madeline Conti): dead clean → squat → lateral lunge → bent press → tactical clean. All 5 moves connect seamlessly — no pausing. Use 25lb. 3 rounds each side, do the whole flow 3 times. Focus on making it smooth.",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-skill",
+      "name": "Block 2: Skill Work (Light)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "25lb — keep it light. You just did bent press in the flow, now isolate it for 3 clean reps per side." },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "25lb. Deep hip hinge, eyes on the bell." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "25lb goblet. Lighter than last week — save your legs for standing all day." }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-strength",
+      "name": "Block 3: Quick Strength",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-clean-and-press", "reps": "6 each", "notes": "50lb. 2 sets only. Keep the technique gains from W3 — catch with knee bend, full lockout." },
+        { "id": "kettlebell-swing", "reps": 15, "notes": "50lb. Finish strong, then go demo some GPUs." }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "GTC light day — 25 min, not 40. You're standing for 6 hours after this.",
+    "Block 1 (flow) is the main event. Light bell, smooth transitions.",
+    "Block 2 skill work: lighter weights, fewer rounds. Saturday you'll go heavier.",
+    "Block 3: just 2 sets of C&P and swings. In and out.",
+    "Skip TGU today — save it for Saturday when you're not about to stand all day.",
+    "Cossack squat at 25 instead of 45 — your legs will thank you at hour 5 of demos."
+  ]
+}

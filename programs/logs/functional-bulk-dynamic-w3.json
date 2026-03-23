@@ -121,5 +121,163 @@
         "notes": "No surprises at 50. Max KB weight — will add reps to progress."
       }
     ]
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w3-pull",
+    "date": "2026-03-11",
+    "notes": "Pull-ups 32 total (10/8/8/6) — beat W2's 27 but felt way harder than expected after two days of upper body. DB rows pyramided to 70x6 (PR!). Lat pulldown found a +10lb add-on plate, hit 150x8. Seated reverse fly modification (seated facing forward, bent over) engaged the right muscles way better. Preacher curl is humbling — 15lb/side is working weight. Grip/hands were fried by mid-session from all the pulling.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "morningFlow": "Did fb-w3-pull-morning-flow (rebuilt 3-part format).",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": ["BW x10", "BW x8", "BW x8 (last couple out of range)", "BW x6 (noped out)"],
+        "workingWeight": "BW",
+        "notes": "32 total reps (beat W2's 27!). But felt way harder than yesterday/day before — cumulative fatigue from push + KB days. Last couple reps of set 3 not full ROM. Called set 4 at 6."
+      },
+      {
+        "id": "seated-cable-row",
+        "sets": ["120 x10", "120 x10", "140 x8", "140 x8 (leaning back)"],
+        "workingWeight": 120,
+        "equipment": "back right machine",
+        "notes": "120 feels hard-ish at full ROM — good weight. Skips to 140 (no 130), very hard. Set 4 at 140 started leaning back too much — 120 is probably the honest working weight. Did 4 sets (realized after was supposed to be 3)."
+      },
+      {
+        "id": "face-pull",
+        "sets": ["50 x20", "50 x20 (struggley at 16)", "50 x18"],
+        "workingWeight": 50,
+        "notes": "First set fine. Second set started struggling at rep 16. Third set hit a wall and only got 18. Harder than expected — fatigue accumulating."
+      },
+      {
+        "id": "cable-bicep-curl",
+        "sets": ["42.5 x12", "42.5 x12", "42.5 x12 (form breaking)", "42.5 x10 (extra set, to form break)"],
+        "workingWeight": 42.5,
+        "notes": "Consistent at 42.5x12 for 3 sets, form starting to break on set 3. Added a 4th set, got 10 clean reps before form broke."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": ["55 x10", "60 x8", "65 x8 (really hard)", "70 x6 (PR, ok-ish form)"],
+        "workingWeight": "55-70 pyramid",
+        "notes": "Pyramid continues to climb! 65x8 really hard — full body engagement. 70x6 is a new PR weight — form wasn't perfect but got it done. Not doing these statically — putting everything in gear."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": ["140 x11", "140 x12", "150 x8"],
+        "workingWeight": 140,
+        "equipment": "back left machine",
+        "notes": "Hands were DEAD from all the pulling — grip was the limiter, not lats. Found an extra 10lb add-on plate and tried 150 — significantly harder on same machine. Hands completely done by set 3."
+      },
+      {
+        "id": "reverse-fly-dumbbell",
+        "sets": ["25 x15", "25 x14 (last 2 dirty)", "25 x12 + 4 (paused)"],
+        "workingWeight": 25,
+        "notes": "MODIFICATION: seated facing forward, legs forward, bent over instead of standing. Way better muscle engagement — feels like it's hitting the right muscles. No lighter weights available so 25 it is. Surprisingly good weight in this position. Not sure if same weight would work standing."
+      },
+      {
+        "id": "preacher-curl",
+        "sets": ["10/side x15", "15/side x10 (died)", "15/side x6 → drop to 10/side x10"],
+        "workingWeight": "10-15/side",
+        "equipment": "preacher curl bench with EZ curl bars",
+        "notes": "First time! 10/side x15 fine. Tried 25 total — impossible. 15/side: completely died at 10 reps. Third set got 6 good ones then died, dropped to 10/side and repped to failure at 10. Humbling exercise — way harder than cable curls at similar weight."
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "workoutId": "fb-w3-kb-cond",
+    "date": "2026-03-12",
+    "notes": "KB Refine day. TGU bumped to 30 — hard, had to pause and reset on left side last rep. Overhead lunges at 50 are hard, legs ultra sore from prior days but loosened up after warming up. Squat front raise (Simba lift) pyramided 25→35→45 — child easy at 25, 45x8 with pause on top is the real challenge. Finisher complex done circuit-style (no rest between movements) at 45lb — absolutely brutal but completed 3 rounds! Observation: fatigue forces body to find more efficient movement paths. Alternated arms on OH lunges every 5 reps — need to check if that's intended.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "cossack-squat",
+        "sets": ["25lb x10/side x3"],
+        "workingWeight": 25,
+        "notes": "Light but deep. Went 10 per set instead of 5. Lower weight = deeper range, which is the point on refine day."
+      },
+      {
+        "id": "kettlebell-bent-press",
+        "sets": ["18lb x5/side x3"],
+        "workingWeight": 18,
+        "notes": "Feels easy at 18 — bumped to 5 reps per side instead of 3. Drilling the movement path. Ready for heavier next week."
+      },
+      {
+        "id": "kettlebell-turkish-getup",
+        "sets": ["30lb x3/side", "30lb x3/side"],
+        "workingWeight": 30,
+        "notes": "Bumped from 25→30! Very hard. Had to pause on last rep left side and reset. Right side fine. Two sets of 3 each side. Good weight — demanding enough to force focus."
+      },
+      {
+        "id": "kettlebell-overhead-lunge",
+        "sets": ["50lb x5/leg x3 (alternating arms every 5)"],
+        "workingWeight": 50,
+        "notes": "Definitely hard at 50. Left side not getting full range/struggle. Legs ultra sore even without weights — warmed up and stretched, felt better. Alternating arms every 5 reps. Three sets total."
+      },
+      {
+        "id": "squat-front-raise",
+        "sets": ["25lb x? (easy)", "35lb x10", "45lb x8 (with pause on top)"],
+        "workingWeight": "25-45 pyramid",
+        "notes": "Child easy at 25 compared to overhead KB work. 35 got much harder but did 10. 45x8 with a pause on top — this is where it gets real. The pause at top is the money rep."
+      },
+      {
+        "id": "kettlebell-windmill",
+        "sets": ["18lb x5/side x3"],
+        "workingWeight": 18,
+        "notes": "5x3 at 18. Light and easy — comfort movement. Good active rest between harder exercises."
+      },
+      {
+        "id": "finisher-complex",
+        "exerciseIds": ["kettlebell-swing", "kettlebell-clean-and-press", "kettlebell-thruster"],
+        "sets": ["45lb circuit x3 rounds (no rest between movements)"],
+        "workingWeight": 45,
+        "notes": "CIRCUIT STYLE — no rest between movements! Lighter weight (45 instead of 50). Thrusters bumped to 5 each instead of prescribed 4. Round 1: nonstop, super hard. Round 2: long rest then another full set — can't believe it. Round 3: had to take 10-second breaks before thrusters, holy shit so hard. Key insight: fatigue forces body to find more efficient movement paths. Says probably won't do circuit again but... can. This is a conditioning breakthrough."
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w3-legs",
+    "date": "2026-03-14",
+    "notes": "Legs day. Legs absolutely dead from KB conditioning yesterday — very sore going in. Squat needed extended warmup to loosen up (two sets at 55, stretching between sets). Once warm, 65/side felt great — hit 2x8 deep with good form. RDL solid at 65/side. Seated leg curl jumped to 105 on last set and still got 12. Leg press ROM is EXCELLENT — knee to chest even at 4 plates + 25s. Calf raises at 5 plates too easy, but felt the engagement all the way up through glutes which was new. Lunges at 45lb DBs were absolute death on cooked legs — barely survived the last set (split it with 30s rest). Great session despite soreness.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": ["55/side x6", "55/side x6", "65/side x6 (struggling to reach depth)", "65/side x6 (stretched more, felt way better)", "65/side x8 (very good, deep)", "65/side x8 (deep, felt good, stopped here)"],
+        "workingWeight": 65,
+        "notes": "Legs dead from yesterday. First 55x6 felt bleh, did a second 55x6 to warm up more. 65x6 struggled to reach full depth initially. Did more stretching/warmup — next 65x6 felt way better. Then got 2x8 deep quality reps. Needed extra warmup sets to loosen up sore legs. Maybe do more reps at 55 next time to get loose before jumping to 65."
+      },
+      {
+        "id": "barbell-romanian-deadlift",
+        "sets": ["65/side x8", "65/side x10", "65/side x10"],
+        "workingWeight": 65,
+        "notes": "8/10/10 — missed instructions on first set and could have done more. Last set hard but completed all with good form and not rushed. Consistent at 65."
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": ["90 x12", "90 x12", "105 x12"],
+        "workingWeight": "90-105",
+        "notes": "90x12 twice, then bumped to 105 on last set — hard but still got 12 somehow. 105 is the new challenge weight. Big jump from W2's 50 → 90 → now 105."
+      },
+      {
+        "id": "leg-press",
+        "sets": ["3 plates/side x? (ROM check)", "4 plates/side x?", "4 plates/side x?", "4 plates + 25/side x?"],
+        "workingWeight": "4 plates/side",
+        "notes": "Started at 3 plates to check full ROM — went basically knee to chest, felt good. Jumped to 4 plates — still really good range, don't feel like cutting ROM at all. Did two sets at 4 plates. Added 25s to each side on last set — still doable full range. ROM is excellent even at heavier loads."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": ["5 plates/side x20", "5 plates/side x20", "5 plates/side x20"],
+        "workingWeight": "5 plates/side",
+        "notes": "45x5 plates/side = totally doable for 20. Second set felt it all the way up the back of the leg into the glutes — completely different engagement, not painful but felt the whole posterior chain working. 3x20 probably too easy — bump weight next time."
+      },
+      {
+        "id": "dumbbell-lunge",
+        "sets": ["45lb x10 each", "45lb x10 each", "45lb x5+5 each (split with 30s rest)"],
+        "workingWeight": 45,
+        "notes": "45lb DBs because all 40s were taken. Absolute death on cooked legs. First set brutal. Completed all 3 sets but had to split the last one in half with ~30s rest mid-set. Legs completely done."
+      }
+    ]
   }
 ]

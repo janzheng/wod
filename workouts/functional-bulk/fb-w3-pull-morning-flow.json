@@ -1,45 +1,65 @@
 {
   "id": "fb-w3-pull-morning-flow",
   "name": "W3 Pull Morning Flow",
-  "description": "12 min back/lat primer + deeper hip openers. Upgraded from W2: active hangs replace passive, frog stretch and happy baby replace the basic hip work. More intense, more interesting.",
+  "description": "15 min — back/lat primer, core mini-block to get warm, then a flowing hip sequence to finish. Moving before stretching = deeper stretches. Core won't interfere with pull day — different muscle groups.",
   "routineId": "functional-bulk",
   "tags": ["floor", "mobility", "back", "hips", "core", "bodyweight", "fixed"],
-  "estimatedDuration": 12,
-  "equipment": ["bodyweight", "pull-up-bar"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat", "pull-up-bar"],
   "difficulty": "beginner",
   "sets": [
     {
-      "id": "back-primer",
-      "name": "Back & Lat Primer",
+      "id": "back-lat-primer",
+      "name": "Part 1: Back & Lat Primer",
       "type": "exercises",
       "rounds": 1,
       "exercises": [
-        { "id": "dead-hang", "duration": 25, "notes": "5 seconds longer than W2. Relax into it, decompress the spine." },
-        { "id": "scapular-pull", "reps": 10, "notes": "More reps than W2. Pull shoulder blades down and together from the hang. Should feel more controlled by now." },
-        { "id": "supine-spinal-twist", "duration": 30, "notes": "NEW — lie on back, knees to one side. 30s each side. Opens thoracic spine and lower back. Different angle from cat-cow." },
-        { "id": "extended-side-angle", "duration": 30, "notes": "NEW — 30s each side. From warrior II, forearm to thigh, top arm reaches over. Deep lat stretch + hip opener in one." }
+        { "id": "dead-hang", "duration": 25, "notes": "Decompress the spine. Relax shoulders, let gravity pull you. Wakes up grip and lats for later." },
+        { "id": "scapular-pull", "reps": 10, "notes": "From the hang: pull shoulder blades down and together without bending arms. Activates the pull muscles you'll need at the gym." },
+        { "id": "thread-the-needle", "reps": "5 each side", "notes": "On hands and knees — reach one arm under, temple to floor, then open to ceiling. Flow back and forth. Opens thoracic spine and lats. Perfect pull-day prep." }
       ],
       "restBetween": 0,
       "restAfter": 15
     },
     {
-      "id": "hip-openers",
-      "name": "Deep Hip Openers",
+      "id": "core-mini-block",
+      "name": "Part 2: Core Mini-Block",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "dead-bug", "reps": "8 each", "notes": "Opposite arm/leg. Lower back GLUED to floor. Slow and controlled — 2 seconds out, 2 seconds back." },
+        { "id": "hollow-body-hold", "duration": 20, "notes": "Arms by ears, legs hovering. Lower back pressed down. If 20s is easy, go 30s. If impossible, bend knees." },
+        { "id": "side-plank-hold", "duration": 20, "notes": "20s each side. Obliques + shoulder stability. Stack or stagger feet. Don't let hips sag." },
+        { "id": "bicycle-crunch", "reps": 16, "notes": "Slow — touch elbow to opposite knee, fully extend other leg. No rushing. Quality over speed." }
+      ],
+      "restBetween": 10,
+      "restAfter": 15
+    },
+    {
+      "id": "yoga-hip-flow",
+      "name": "Part 3: Flowing Hip Sequence (Reward)",
       "type": "exercises",
       "rounds": 1,
       "exercises": [
-        { "id": "frog-stretch", "duration": 45, "notes": "NEW — hands and knees, knees wide, sink hips back. INTENSE inner thigh and hip opener. Way different from 90-90. Breathe through it." },
-        { "id": "happy-baby", "duration": 30, "notes": "NEW — on your back, grab feet, knees toward armpits. Gently rock side to side. Playful but effective hip opener." },
-        { "id": "couch-stretch", "duration": 30, "notes": "30s each side. Keeping this from W2 — still the best hip flexor stretch for desk humans." }
+        { "id": "puppy-pose-cat-cow", "reps": 8, "notes": "You're warm now — these will feel way better. Slow transitions, inhale arch, exhale round." },
+        { "id": "childs-pose-to-cobra", "reps": 5, "notes": "Flow: child's pose → slide forward through cobra → push back to child's pose. Smooth, continuous." },
+        { "id": "plank-to-down-dog", "reps": 6, "notes": "Flow: plank → push hips high to down dog → pedal feet → float back to plank. One continuous movement." },
+        { "id": "lizard-pose", "duration": 30, "notes": "30s each side. From down dog, step one foot outside same hand. Sink hips. You're warm — go deeper than you think." },
+        { "id": "straddle-sit-stretch", "duration": 45, "notes": "Sit, legs wide. Walk hands forward slowly. Then reach to each side. Your adductors are ready for this now." },
+        { "id": "butterfly-stretch", "duration": 30, "notes": "Soles together, knees out. Fold forward. From the straddle, just bring your feet in — natural transition." },
+        { "id": "happy-baby", "duration": 30, "notes": "Roll onto back, grab feet, knees toward armpits. Rock gently side to side. This is your cooldown." }
       ],
       "restBetween": 0,
       "restAfter": 0
     }
   ],
   "tips": [
-    "12 min — back primer + deeper hip work. More intense than W2.",
-    "Frog stretch is no joke — ease into it. If it's too much, don't go as wide.",
-    "Happy baby: looks silly, feels amazing. Rock gently side to side.",
-    "If no pull-up bar at home, do the hang/scap work at the gym before your first set"
+    "15 min — three parts: back primer (3 min), core work (5 min), yoga hip flow (7 min)",
+    "Order matters: primer → core gets you warm → stretches go deeper because you're not cold.",
+    "Part 3 is meant to FLOW. Don't reset between moves — transition from one into the next.",
+    "Cat-cow → child's-to-cobra → plank-to-down-dog → lizard is one continuous sequence on the floor.",
+    "Then sit up for straddle → butterfly → roll back for happy baby. The whole thing is one arc.",
+    "No pull-up bar at home? Do the hang/scap work at the gym as your first warmup set.",
+    "Short on time? Do Part 1 + Part 3, skip core. Still a solid 10 min flow."
   ]
 }

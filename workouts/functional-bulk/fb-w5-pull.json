@@ -1,0 +1,81 @@
+{
+  "id": "fb-w5-pull",
+  "name": "Week 5 Pull — Shuffle Week (Back/Biceps/Rear Delts)",
+  "description": "Shuffle week: preacher curl moves right after pull-ups so biceps get an honest test before they're fried. W4 actuals: 33 pull-ups (9/8/8/4+4 — heat + GTC fatigue), lat pulldown 150 weirdly easy, cable row 130 confirmed, preacher curl completely dead at end (10/side x8). Cable curl dies last anyway, so it stays at the end.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "fixed", "shuffle"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "pull-up-bar", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (anywhere)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Squeeze shoulder blades, warm up upper back" },
+        { "id": "cat-cow", "reps": 10, "notes": "Loosen thoracic spine" },
+        { "id": "dead-hang", "reps": 1, "duration": 30, "notes": "W4: 25s. Push to 30s. Decompress, grip, lats." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Pull-ups (always first)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "8-10", "notes": "W4: 9/8/8/4+4 = 33 total (heat + GTC fatigue dragged down sets 3-4). Goal: 34+. Aim for 4x9 = 36 in better conditions. Full ROM every rep, no kipping." }
+      ],
+      "restBetween": 180,
+      "restAfter": 90
+    },
+    {
+      "id": "preacher-row-station",
+      "name": "Station 1: Preacher Curl (MOVED UP) + DB Rows",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "preacher-curl", "reps": "8-10", "notes": "SHUFFLE: moved early so biceps are fresh. W4: 10/side x8, x8 — completely dead because biceps were already toast from 4 exercises. Start at 15/side now that they're fresh. If 15 is easy for 10, bump to 17.5 or 20 on set 2-3. This is the real test — find your honest preacher curl weight." },
+        { "id": "dumbbell-row", "reps": "8-10", "notes": "W4 pyramid: 55-75, good form on later sets. This week: 55x10, 65x8, 75x6-8 (top set — W4 confirmed 75 is doable). Drop the 4th set, keep it at 3 rounds to match preacher curl." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-station",
+      "name": "Station 2: Lat Pulldown + Seated Cable Row",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "reps": "10-12", "notes": "W4: 150x10, 150x12, 150x12 (back left machine) — weirdly easy. Bump to 155 or even 160. If 160x10 is clean, that's the new working weight. Same machine (back left)." },
+        { "id": "seated-cable-row", "reps": "10-12", "notes": "W4: 130x12 x3 (back right machine) — confirmed working weight. Stay at 130 for 3x12. If all sets hit 12 clean, try 135 on set 3. Torso upright, no leaning." }
+      ],
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "finish-station",
+      "name": "Station 3: Face Pull + Reverse Fly + Cable Curl",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "face-pull", "reps": "15-20", "notes": "W4: 50x20 x3, form breaking around 17 on sets 2-3. Stay at 50. Goal: 3x20 all clean reps. If form breaks before 17, drop to 45 and get the full 20. External rotate hard at top." },
+        { "id": "dumbbell-reverse-fly", "reps": "12-15", "notes": "W4: 25x15 x3, form dropping around 12 on set 2. Stay at 25, seated bent-over. Goal: 3x15 with no form drop. If you can't hold 15 clean, do 12 strict + pause." },
+        { "id": "cable-bicep-curl", "reps": "10-12", "notes": "Stays last — it was dying at the end anyway (W4: 42.5x12 x3 then x9). With preacher curl moved early, biceps might be even more tired here. Try 42.5 again, accept 10-rep sets. If you get 3x12, bump to 45 next week." }
+      ],
+      "restBetween": 75,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "SHUFFLE WEEK: Preacher curl moved right after pull-ups. Fresh biceps = honest numbers. Find your real working weight.",
+    "Pull-up goal: beat 33. No GTC the day before should help. 4x9 = 36 is the target.",
+    "Preacher curl at 15/side fresh should feel very different from 10/side dead. If 15 is easy, go heavier.",
+    "Lat pulldown: 150 was easy — try 155-160 and see where it lands. Same back left machine.",
+    "Cable curl is now last intentionally. It was dying at the end anyway, and preacher curl gets the fresh slot where it matters.",
+    "Rest 3 min between pull-ups, 90s between station 1, 75s between stations 2-3."
+  ]
+}
