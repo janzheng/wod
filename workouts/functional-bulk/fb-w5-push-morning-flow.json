@@ -1,0 +1,57 @@
+{
+  "id": "fb-w5-push-morning-flow",
+  "name": "W5 Push Morning Flow (Shuffle)",
+  "description": "12 min. Push press is FIRST today — this flow prioritizes overhead mobility and thoracic rotation. Get those shoulders ready to find out if 50/side goes overhead with fresh muscles.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "shoulders", "chest", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "overhead-prep",
+      "name": "Overhead Prep",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "15 each direction", "notes": "Big circles, warm the joint" },
+        { "id": "low-lunge-thoracic-rotation", "duration": 30, "notes": "30s each side. Low lunge, twist and reach overhead. Opens hip flexors + thoracic — exactly where push press lockout comes from." },
+        { "id": "wall-angel", "reps": 12, "notes": "Back flat, arms slide up. Extra reps this week — overhead range is the priority." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "activation",
+      "name": "Upper Body Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pike-push-up", "reps": 6, "notes": "NEW — hands on floor, hips high, press straight up. Mimics push press shoulder angle. Just 6 easy ones to wake up the overhead pressing muscles." },
+        { "id": "push-up", "reps": 8, "notes": "Standard, full ROM. Chest activation for later." },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Light band. Rear delts and scaps — balances all the pressing you're about to do." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "stretch-close",
+      "name": "Stretch + Close",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 30, "notes": "Wall or doorframe. Open the pecs before loading them." },
+        { "id": "thread-the-needle", "duration": 30, "notes": "30s each side. Thoracic rotation — third week in a row. Should be getting deeper each time." },
+        { "id": "cobra-stretch", "duration": 20, "notes": "Gentle backbend. Opens chest and hip flexors to close." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "12 min — overhead mobility is the priority since push press is first today.",
+    "Pike push-ups are new — they activate the overhead pressing pattern. Don't go hard, just feel it.",
+    "Wall angels: if you're getting deeper than week 1, your thoracic mobility is improving. That helps push press.",
+    "If short on time: overhead prep block only. 4 min minimum."
+  ]
+}

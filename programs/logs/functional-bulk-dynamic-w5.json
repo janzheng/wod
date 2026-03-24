@@ -1,0 +1,59 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w5-push",
+    "date": "2026-03-23",
+    "notes": "SHUFFLE WEEK PUSH. Push press first = 50/side x8! The reorder worked — W4 couldn't even get 50 overhead, now 8/8/7. Fresh shoulders make a huge difference. Lateral raise found 20s and they're doable. Right shoulder/lower blade had some tension (slept weird?) — affected a few exercises. Incline DB at 55 was gassed from push press — got 10/8/8/10. Pec deck jumped to 115x12 clean for all 3 sets. Chest press machine was last and completely died — started at 170 and couldn't even do 3, worked down to 140x6. Being last instead of first dropped it by 35lbs. Straight arm pulldown at 110 is the real working weight now.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "push-press",
+        "sets": ["50/side x8", "50/side x8", "50/side x7 (died on 7th)"],
+        "workingWeight": 50,
+        "notes": "FIRST EXERCISE — fresh shoulders. 50/side x8 x2, then died on 7th rep set 3. W4: couldn't even get 50 overhead. The shuffle proved it was fatigue, not strength. 50/side is the real working weight. Hard but decent form."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": ["20 x15", "20 x15 (right shoulder tension)", "20 x15 (last 3 hard)"],
+        "workingWeight": 20,
+        "notes": "Found 20s! Doable for 15. Right side had tension in lower shoulder blade — possibly slept weird. Affected form a bit but completed all sets. W4: 15s were too easy. 20 is the right weight."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": ["55 x10", "55 x8 (not clean)", "55 x8 (notch 5, more chest)", "55 x10 (pushed through)"],
+        "workingWeight": 55,
+        "notes": "Chest press was taken so did this before pec deck. Bench position at notch 5 = about 45 degrees. Gassed from push press — inconsistent reps (10/8/8/10). Last set pushed through for 10. Still at 55."
+      },
+      {
+        "id": "pec-deck-fly",
+        "sets": ["110 x12", "115 x12", "115 x12"],
+        "workingWeight": 115,
+        "notes": "Chest press still taken. 110x12 easy, jumped to 115 — clean for both sets! W4: 115x9 was failure. Now 115x12 clean. Big jump. 115 is the working weight, ready for 120 next time."
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": ["170 x3 (died)", "160 x3 (died)", "150 x4 (died)", "140 x6", "140 x6", "140 x4 (stopped)"],
+        "workingWeight": 140,
+        "notes": "LAST exercise — completely gassed from push press + incline + pec deck. Started at 170 and immediately died. Worked down to 140x6. W4 (first exercise): 175x8. Being last dropped working weight by 35lbs. This is the cost of the shuffle — but push press at 50 was worth it."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "sets": ["55 x12", "55 x12 (rest helped)", "55 x12 (right side struggling statically)"],
+        "workingWeight": 55,
+        "notes": "55x12 all 3 sets. Right side weaker from shoulder tension but not painful. W4: 50x12. Up 5lbs. Right side struggles to hold statically even though it should be stronger."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": ["65 x12 (easy)", "65 x12 (hard but full ROM)", "65 x10 (or 9)"],
+        "workingWeight": 65,
+        "notes": "First set felt easy, then it destroys you fast. 12/12/10(9). Same pattern as W4. 65 is solidly the working weight. That first-set-easy-then-death feeling is the tricep isolation catching up."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": ["110 x12 (really hard)", "110 x12", "110 x9 (died)"],
+        "workingWeight": 110,
+        "notes": "110 is the real working weight now — W4's 105x12 was too easy but 110x12 is genuinely hard. Died at 9 on set 3. Huge progression from W3's spontaneous 90x10."
+      }
+    ]
+  }
+]
