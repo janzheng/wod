@@ -459,31 +459,56 @@
           "day": 1,
           "label": "PUSH (shuffled)",
           "type": "workout",
-          "workoutId": "fb-w5-push"
+          "workoutId": "fb-w5-push",
+          "flow": {
+            "workoutId": "fb-w5-push-morning-flow",
+            "label": "Morning Flow",
+            "notes": "12 min — overhead mobility priority. Pike push-ups new. Push press is FIRST today."
+          }
         },
         {
           "day": 2,
           "label": "KB FULL BODY (EXPLORE)",
           "type": "workout",
-          "workoutId": "fb-w5-kb-full"
+          "workoutId": "fb-w5-kb-full",
+          "flow": {
+            "workoutId": "fb-w5-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — thoracic + hip opener. Scorpion stretch new. Primes bent press and flow work."
+          }
         },
         {
           "day": 3,
           "label": "PULL (shuffled)",
           "type": "workout",
-          "workoutId": "fb-w5-pull"
+          "workoutId": "fb-w5-pull",
+          "flow": {
+            "workoutId": "fb-w5-pull-morning-flow",
+            "label": "Morning Flow",
+            "notes": "12 min — bicep/elbow prep added since preacher curl is early today."
+          }
         },
         {
           "day": 4,
           "label": "KB REFINE (light — legs tomorrow)",
           "type": "workout",
-          "workoutId": "fb-w5-kb-cond"
+          "workoutId": "fb-w5-kb-cond",
+          "flow": {
+            "workoutId": "fb-w5-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — same flow as Tuesday. Light and easy, legs are tomorrow."
+          }
         },
         {
           "day": 5,
           "label": "LEGS",
           "type": "workout",
-          "workoutId": "fb-w5-legs"
+          "workoutId": "fb-w5-legs",
+          "flow": {
+            "workoutId": "fb-w5-legs-morning-flow",
+            "label": "Morning Flow",
+            "notes": "15 min — lizard pose new. Plank hip dips replace hollow body. 70/side is the floor today."
+          }
         },
         {
           "day": 6,

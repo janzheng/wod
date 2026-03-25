@@ -1,0 +1,45 @@
+{
+  "id": "fb-w5-kb-morning-flow",
+  "name": "W5 KB Morning Flow",
+  "description": "10 min. Used for both Tuesday Explore and Thursday Refine. Thoracic + hips for bent press and flow work. Keep it light — especially Thursday since legs are tomorrow.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "thoracic", "hips", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 10,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "thoracic-opener",
+      "name": "Thoracic + Shoulder Opener",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "thread-the-needle", "duration": 30, "notes": "30s each side. Deep thoracic rotation — bent press prep." },
+        { "id": "cat-cow", "reps": 10, "notes": "Full spinal wave, slow." },
+        { "id": "scorpion-stretch", "duration": 20, "notes": "On stomach, bring one heel across toward opposite hand. Deep thoracic + hip rotation. 20s each side." }
+      ],
+      "restBetween": 0,
+      "restAfter": 10
+    },
+    {
+      "id": "hip-flow",
+      "name": "Hip Flow",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "90-90-stretch", "duration": 30, "notes": "30s each side. TGU and overhead lunge need open hips." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Bodyweight. Deep and slow — groove the pattern." },
+        { "id": "active-pigeon", "duration": 20, "notes": "NEW — pigeon with active push to deepen. 20s each side. Opens the hip for bent press and windmill." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "10 min — same flow for Tuesday and Thursday.",
+    "Scorpion stretch is new — go easy, it's a deep rotation. Don't force it.",
+    "Active pigeon: press gently into the stretch rather than just sitting in it.",
+    "Thursday: this flows into light skill work only. Don't let the warmup make you want to go hard.",
+    "If short on time: thoracic opener block only. 4 min."
+  ]
+}

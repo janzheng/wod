@@ -1,0 +1,57 @@
+{
+  "id": "fb-w5-pull-morning-flow",
+  "name": "W5 Pull Morning Flow (Shuffle)",
+  "description": "12 min. Preacher curl is coming right after pull-ups today — prime the biceps and elbows, not just the back. Grip work + elbow prep added.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "back", "biceps", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight", "mat", "pull-up-bar"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "spine-primer",
+      "name": "Spine + Scap Primer",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Full spinal wave. Slow." },
+        { "id": "dead-hang", "duration": 20, "notes": "20s passive hang. Decompress shoulders, warm the grip." },
+        { "id": "scapular-pull-up", "reps": 8, "notes": "Retract scapulae only, no elbow bend. Activates lats for pull-ups." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "arm-elbow-prep",
+      "name": "Bicep + Elbow Prep",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "gmb-wrist-prep", "reps": 10, "notes": "Loosen wrists and forearms. Grip was a limiter in W3 — prep it." },
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Small circles, then big. Warm the bicep insertion points." },
+        { "id": "doorframe-chest-stretch", "duration": 20, "notes": "20s. Arms back — stretches biceps and chest. Primes the preacher curl angle." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "hip-opener",
+      "name": "Hip + Back Opener",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-forward-fold", "duration": 30, "notes": "Hamstrings and lower back. Breathe and sink." },
+        { "id": "supine-spinal-twist", "duration": 30, "notes": "30s each side. Releases lower back. These keep getting deeper week over week." },
+        { "id": "child-pose-reach", "duration": 30, "notes": "Walk hands to each side, 15s each. Lateral lat stretch before you pull." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "12 min — new this week: bicep/elbow prep block since preacher curl is coming early.",
+    "Dead hang: passive, shoulders relaxed. Grip warm for pull-ups.",
+    "Doorframe stretch opens the bicep insertion — primes the preacher curl angle where the EZ bar stretches you at the bottom.",
+    "If short on time: spine primer + arm/elbow prep. 6 min minimum."
+  ]
+}

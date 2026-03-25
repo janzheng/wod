@@ -9246,6 +9246,87 @@
     "category": "functional-bulk"
   },
   {
+    "id": "fb-w5-kb-morning-flow",
+    "name": "W5 KB Morning Flow",
+    "description": "10 min. Used for both Tuesday Explore and Thursday Refine. Thoracic + hips for bent press and flow work. Keep it light — especially Thursday since legs are tomorrow.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "thoracic",
+      "hips",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 10,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "thoracic-opener",
+        "name": "Thoracic + Shoulder Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Deep thoracic rotation — bent press prep."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Full spinal wave, slow."
+          },
+          {
+            "id": "scorpion-stretch",
+            "duration": 20,
+            "notes": "On stomach, bring one heel across toward opposite hand. Deep thoracic + hip rotation. 20s each side."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 10
+      },
+      {
+        "id": "hip-flow",
+        "name": "Hip Flow",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "90-90-stretch",
+            "duration": 30,
+            "notes": "30s each side. TGU and overhead lunge need open hips."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "Bodyweight. Deep and slow — groove the pattern."
+          },
+          {
+            "id": "active-pigeon",
+            "duration": 20,
+            "notes": "NEW — pigeon with active push to deepen. 20s each side. Opens the hip for bent press and windmill."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "10 min — same flow for Tuesday and Thursday.",
+      "Scorpion stretch is new — go easy, it's a deep rotation. Don't force it.",
+      "Active pigeon: press gently into the stretch rather than just sitting in it.",
+      "Thursday: this flows into light skill work only. Don't let the warmup make you want to go hard.",
+      "If short on time: thoracic opener block only. 4 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
     "id": "fb-w5-legs",
     "name": "Week 5 Legs (Quads/Hamstrings/Glutes/Calves)",
     "description": "W4 proved fresh legs = PRs. Squat jumped to 70/side for a clean 8 on the last set. RDL was skipped in W4 — bring it back at W3 weight. Leg press and calf raises were too easy — loading up. Leg curl found a real working weight at 110. Lunges stay at 40lb because they're already death.",
@@ -9403,6 +9484,112 @@
     "category": "functional-bulk"
   },
   {
+    "id": "fb-w5-legs-morning-flow",
+    "name": "W5 Legs Morning Flow",
+    "description": "15 min hip + squat prep. Same structure as W4 with deeper holds. Legs should be fresh — Thursday KB was light skill work only. 70/side is the floor, 75 is the goal.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "hips",
+      "legs",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "hip-warmup",
+        "name": "Hip Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Standing, big slow circles."
+          },
+          {
+            "id": "dynamic-malasana",
+            "reps": 10,
+            "notes": "3 seconds down, hold at the bottom for 2, drive up. You've been squatting for 4 weeks — own this pattern."
+          },
+          {
+            "id": "lunge-with-rotation",
+            "reps": "5 each side",
+            "notes": "Low lunge + twist. Hip flexors and thoracic."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-depth",
+        "name": "Hip Depth Work",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 45,
+            "notes": "45s each side. By now this should be noticeably deeper than W4."
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 30,
+            "notes": "30s each side. Elbows down if you can — deeper than pigeon for the hip flexor."
+          },
+          {
+            "id": "skandasana-side-lunge",
+            "reps": "8 each",
+            "notes": "Deep side lunge. Heels down. Your cossack squat practice makes these feel natural now."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "activation",
+        "name": "Glute + Core Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "glute-bridge",
+            "reps": 15,
+            "notes": "Squeeze at top. Activates glutes before you squat."
+          },
+          {
+            "id": "dead-bug-opposite-reach",
+            "reps": 10,
+            "notes": "Core bracing before loading the bar."
+          },
+          {
+            "id": "plank-hip-dips",
+            "reps": 12,
+            "notes": "NEW — replacing hollow body. Oblique activation + hip mobility in one move. 6 each side."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min — lizard pose is new this week. Deeper hip flexor stretch than pigeon.",
+      "Thursday KB was light skill work — legs should feel fresh. If they don't, something went wrong Thursday.",
+      "Plank hip dips: new core move. Obliques + hip mobility for squat stability.",
+      "You're squatting 70/side as a baseline this week. This flow matters.",
+      "If short on time: hip warmup + pigeon + glute bridge. 8 min minimum."
+    ],
+    "category": "functional-bulk"
+  },
+  {
     "id": "fb-w5-pull",
     "name": "Week 5 Pull — Shuffle Week (Back/Biceps/Rear Delts)",
     "description": "Shuffle week: preacher curl moves right after pull-ups so biceps get an honest test before they're fried. W4 actuals: 33 pull-ups (9/8/8/4+4 — heat + GTC fatigue), lat pulldown 150 weirdly easy, cable row 130 confirmed, preacher curl completely dead at end (10/side x8). Cable curl dies last anyway, so it stays at the end.",
@@ -9545,6 +9732,112 @@
     "category": "functional-bulk"
   },
   {
+    "id": "fb-w5-pull-morning-flow",
+    "name": "W5 Pull Morning Flow (Shuffle)",
+    "description": "12 min. Preacher curl is coming right after pull-ups today — prime the biceps and elbows, not just the back. Grip work + elbow prep added.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "back",
+      "biceps",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "mat",
+      "pull-up-bar"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "spine-primer",
+        "name": "Spine + Scap Primer",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Full spinal wave. Slow."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 20,
+            "notes": "20s passive hang. Decompress shoulders, warm the grip."
+          },
+          {
+            "id": "scapular-pull-up",
+            "reps": 8,
+            "notes": "Retract scapulae only, no elbow bend. Activates lats for pull-ups."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "arm-elbow-prep",
+        "name": "Bicep + Elbow Prep",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "gmb-wrist-prep",
+            "reps": 10,
+            "notes": "Loosen wrists and forearms. Grip was a limiter in W3 — prep it."
+          },
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Small circles, then big. Warm the bicep insertion points."
+          },
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 20,
+            "notes": "20s. Arms back — stretches biceps and chest. Primes the preacher curl angle."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-opener",
+        "name": "Hip + Back Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "seated-forward-fold",
+            "duration": 30,
+            "notes": "Hamstrings and lower back. Breathe and sink."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 30,
+            "notes": "30s each side. Releases lower back. These keep getting deeper week over week."
+          },
+          {
+            "id": "child-pose-reach",
+            "duration": 30,
+            "notes": "Walk hands to each side, 15s each. Lateral lat stretch before you pull."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min — new this week: bicep/elbow prep block since preacher curl is coming early.",
+      "Dead hang: passive, shoulders relaxed. Grip warm for pull-ups.",
+      "Doorframe stretch opens the bicep insertion — primes the preacher curl angle where the EZ bar stretches you at the bottom.",
+      "If short on time: spine primer + arm/elbow prep. 6 min minimum."
+    ],
+    "category": "functional-bulk"
+  },
+  {
     "id": "fb-w5-push",
     "name": "Week 5 Push — Shuffle (Chest/Shoulders/Triceps)",
     "description": "Shuffle week: reordered exercises to get honest numbers on lifts that have been dying at the end. Push press moves to station 1 (before chest fatigue) to test true overhead capacity. Chest press machine stays as main chest exercise. Based on W4 actuals.",
@@ -9681,6 +9974,111 @@
       "Incline DB at 55: moved after chest press now — note if the order change affects reps.",
       "Pec deck: 110 start, push to 115. Cable lat raise: 55 target, 65 stretch.",
       "Tricep extension: 65 working, try 70. Straight arm pulldown: start at 110+."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w5-push-morning-flow",
+    "name": "W5 Push Morning Flow (Shuffle)",
+    "description": "12 min. Push press is FIRST today — this flow prioritizes overhead mobility and thoracic rotation. Get those shoulders ready to find out if 50/side goes overhead with fresh muscles.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "shoulders",
+      "chest",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "overhead-prep",
+        "name": "Overhead Prep",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "15 each direction",
+            "notes": "Big circles, warm the joint"
+          },
+          {
+            "id": "low-lunge-thoracic-rotation",
+            "duration": 30,
+            "notes": "30s each side. Low lunge, twist and reach overhead. Opens hip flexors + thoracic — exactly where push press lockout comes from."
+          },
+          {
+            "id": "wall-angel",
+            "reps": 12,
+            "notes": "Back flat, arms slide up. Extra reps this week — overhead range is the priority."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "activation",
+        "name": "Upper Body Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pike-push-up",
+            "reps": 6,
+            "notes": "NEW — hands on floor, hips high, press straight up. Mimics push press shoulder angle. Just 6 easy ones to wake up the overhead pressing muscles."
+          },
+          {
+            "id": "push-up",
+            "reps": 8,
+            "notes": "Standard, full ROM. Chest activation for later."
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Light band. Rear delts and scaps — balances all the pressing you're about to do."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "stretch-close",
+        "name": "Stretch + Close",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 30,
+            "notes": "Wall or doorframe. Open the pecs before loading them."
+          },
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Thoracic rotation — third week in a row. Should be getting deeper each time."
+          },
+          {
+            "id": "cobra-stretch",
+            "duration": 20,
+            "notes": "Gentle backbend. Opens chest and hip flexors to close."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min — overhead mobility is the priority since push press is first today.",
+      "Pike push-ups are new — they activate the overhead pressing pattern. Don't go hard, just feel it.",
+      "Wall angels: if you're getting deeper than week 1, your thoracic mobility is improving. That helps push press.",
+      "If short on time: overhead prep block only. 4 min minimum."
     ],
     "category": "functional-bulk"
   },

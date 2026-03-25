@@ -1,0 +1,58 @@
+{
+  "id": "fb-w5-legs-morning-flow",
+  "name": "W5 Legs Morning Flow",
+  "description": "15 min hip + squat prep. Same structure as W4 with deeper holds. Legs should be fresh — Thursday KB was light skill work only. 70/side is the floor, 75 is the goal.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "hips", "legs", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "hip-warmup",
+      "name": "Hip Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Standing, big slow circles." },
+        { "id": "dynamic-malasana", "reps": 10, "notes": "3 seconds down, hold at the bottom for 2, drive up. You've been squatting for 4 weeks — own this pattern." },
+        { "id": "lunge-with-rotation", "reps": "5 each side", "notes": "Low lunge + twist. Hip flexors and thoracic." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "hip-depth",
+      "name": "Hip Depth Work",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 45, "notes": "45s each side. By now this should be noticeably deeper than W4." },
+        { "id": "lizard-pose", "duration": 30, "notes": "30s each side. Elbows down if you can — deeper than pigeon for the hip flexor." },
+        { "id": "skandasana-side-lunge", "reps": "8 each", "notes": "Deep side lunge. Heels down. Your cossack squat practice makes these feel natural now." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "activation",
+      "name": "Glute + Core Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "glute-bridge", "reps": 15, "notes": "Squeeze at top. Activates glutes before you squat." },
+        { "id": "dead-bug-opposite-reach", "reps": 10, "notes": "Core bracing before loading the bar." },
+        { "id": "plank-hip-dips", "reps": 12, "notes": "NEW — replacing hollow body. Oblique activation + hip mobility in one move. 6 each side." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "15 min — lizard pose is new this week. Deeper hip flexor stretch than pigeon.",
+    "Thursday KB was light skill work — legs should feel fresh. If they don't, something went wrong Thursday.",
+    "Plank hip dips: new core move. Obliques + hip mobility for squat stability.",
+    "You're squatting 70/side as a baseline this week. This flow matters.",
+    "If short on time: hip warmup + pigeon + glute bridge. 8 min minimum."
+  ]
+}
