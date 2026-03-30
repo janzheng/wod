@@ -1,0 +1,101 @@
+{
+  "id": "fb-w6-legs",
+  "name": "Week 6 Legs (Quads/Hamstrings/Glutes/Calves)",
+  "description": "70/side is the squat baseline — felt safe and strong in W5 for all 3 working sets. Try 75 on the last set. RDL at 70 baseline. Leg press starts at 6 plates. Calves trying 7 plates — if you max out, single-leg is the next move.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth. Thursday KB was light — legs should be fresh." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Open up the hips" },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight, feel the stretch" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "55/side x8. Deep — same depth as working sets." }
+      ],
+      "restBetween": 0,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat (Working Sets)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "Sets 1-3: 70/side x8 deep. Set 4: TRY 75/side. W5: 70x8 across all sets felt safe and strong. 75 is the next frontier — even 5-6 reps at 75 is a win. If 75 feels sketchy, stay at 70x8 and add a 5th set instead." }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "rdl-working",
+      "name": "RDL",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "barbell-romanian-deadlift", "reps": 10, "notes": "70/side for all 3 sets. W5: bumped to 70 on last set and it felt great. Now 70 is the baseline. Slow eccentric, hamstring stretch." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press", "reps": "10-12", "notes": "6 plates/side. W5: 5 plates x12 was easy, tried 6 plates x8 at the end. Now start at 6. Full ROM — mobility is the limiter, not strength. Lower mount point. If 6x12 is clean, you've found the new weight." },
+        { "id": "leg-press-calf-raise", "reps": 20, "notes": "7 plates/side. W5: 6 plates finally burned after 4 sets of 20. Try 7. If you literally run out of plates, do single-leg at 4 plates — halves the load, doubles the work." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Leg Curl",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": 12, "notes": "110. W5: 12/12/12 (last 3 of set 3 dying). Stay at 110, aim for 3x12 all clean. If first 2 sets are easy, try 115 on set 3. 2-second negatives." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "lunge-finisher",
+      "name": "Lunges (The Finisher)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": "10 each leg", "notes": "40lb DBs. W5: completed all sets, still hard, ugly last set. Stay at 40. The goal is clean form on all 3 sets — THEN bump weight. Walking lunges not stationary. Long stride, back knee toward floor." }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Squat 70 is the baseline — 75 on the last set is the test. Even 5 reps at 75 is a W.",
+    "RDL at 70 for all 3 sets — first time at this weight for a full session.",
+    "Leg press: 6 plates is real now. Focus on ROM depth, not just moving weight.",
+    "Calf raises: 7 plates. You're a menace. Single-leg if the machine runs out.",
+    "Leg curl: 110x12 with clean form. 115 is the stretch goal.",
+    "Lunges: form before weight. Clean all 3 sets at 40 before going to 45.",
+    "Rest 3 min between squats, 2.5 min RDL, 2 min leg press, 90s isolation"
+  ]
+}

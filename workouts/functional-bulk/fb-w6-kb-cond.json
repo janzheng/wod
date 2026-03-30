@@ -1,0 +1,59 @@
+{
+  "id": "fb-w6-kb-cond",
+  "name": "Week 6 KB Conditioning (Refine — Light)",
+  "description": "Thursday = light skill drilling. Legs are tomorrow. Same rules as W5: flow, bent press, windmill, TGU at light weights. No swings, no C&P, no squats. If you earned it this week, optional 2-round circuit at the end — but ONLY if legs feel totally fresh.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "light", "fixed"],
+  "estimatedDuration": 20,
+  "equipment": ["kettlebell"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell, loosen up" }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "flow-block",
+      "name": "OTD Flow (Light)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": "1 each side", "notes": "Light and smooth" },
+        { "id": "kettlebell-front-squat", "reps": "1 each side", "notes": "Easy depth" },
+        { "id": "kettlebell-lateral-lunge", "reps": "1 each side", "notes": "Controlled" },
+        { "id": "kettlebell-bent-press", "reps": "1 each side", "notes": "Groove the path" },
+        { "id": "kettlebell-tactical-clean", "reps": "1 each side", "notes": "Control down" }
+      ],
+      "notes": "20lb. 2 rounds each side. Should feel effortless.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "Skill Drilling",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "20-25lb. Groove, not grind. If Tuesday's 30 felt good, 25 here is maintenance." },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "18-20lb. Light. Deep hinge." },
+        { "id": "kettlebell-turkish-getup", "reps": "2 each side", "notes": "25lb. Lighter than Tuesday. Drill transitions on left side." }
+      ],
+      "restBetween": 15,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "20 minutes. Light. Legs are tomorrow.",
+    "No swings, no C&P, no goblet squats, no lunges. Zero leg loading.",
+    "This is skill maintenance — keep the movement patterns fresh without any fatigue.",
+    "If you feel amazing and want to add a circuit: DON'T. You said that last time too. Squats tomorrow.",
+    "Be boring. Boring is the goal. Your legs will thank you."
+  ]
+}

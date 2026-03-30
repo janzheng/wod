@@ -1,0 +1,80 @@
+{
+  "id": "fb-w6-push",
+  "name": "Week 6 Push (Chest/Shoulders/Triceps)",
+  "description": "Shuffle order is permanent now — push press stays first. W5 proved 50/side x8 is real. This week: lock in 3x8 at 50. Chest press moves up (after lat raises, before incline) so it's less gassed. Pec deck targets 120.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Loosen shoulders" },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Scap activation" },
+        { "id": "push-up", "reps": 12, "notes": "Get blood flowing" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "overhead-station",
+      "name": "Station 1: Overhead",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "push-press", "reps": "6-8", "notes": "50/side. W5: 8/8/7. Goal: 3x8 clean. If all three hit 8, try 55/side on a bonus set. Dip small, drive big, full lockout." },
+        { "id": "lateral-raise", "reps": 15, "notes": "20lb. W5: 3x15 doable. If 20s are clean for all 3 sets, try 25 on the last set. Watch right shoulder." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "press-station",
+      "name": "Station 2: Press",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "chest-press-machine", "reps": "6-8", "notes": "W5: died at 140 when last. Now it's station 2 — should be fresher. Start at 160, work up. If 160x8 is clean, try 170. Goal: find the honest number in this slot." },
+        { "id": "incline-dumbbell-press", "reps": 10, "notes": "55lb. W5: 10/8/8/10. Goal: 4x10 clean. If all hit 10, try 60 next week." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "machine-cable-station",
+      "name": "Station 3: Machine + Cables",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "pec-deck-fly", "reps": "10-12", "notes": "W5: 115x12 clean all 3 sets. Bump to 120. If 120x10 is clean, you've earned it." },
+        { "id": "cable-lateral-raise", "reps": 12, "notes": "55. W5: 55x12 all sets. Solid. Try 60 on last set if form is holding. Right side still the weak link." },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": "10-12", "notes": "65. W5: 12/12/10. Goal: 3x12 at 65. If all hit 12, bump to 70 on last set. Hands apart." }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "straight-arm-pulldown", "reps": 12, "notes": "110. W5: 12/12/9. Goal: 3x12 clean. If all hit 12, try 115. This is a real exercise now, not just a spontaneous add-on." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Push press first — locked in permanently. 50/side x3x8 is the target.",
+    "Chest press moved to station 2 (after overhead + lat raises). Should be ~160-170 range here vs 140 when last.",
+    "Pec deck 120: you went 85 → 105 → 115 → now 120 in 6 weeks. Respect the progression.",
+    "Right shoulder: if the twinge flares during push press lockout, drop to 45 immediately. Don't push through shoulder pain overhead.",
+    "Rest 2 min between push press, 2.5 min on chest press, 75s on cables"
+  ]
+}

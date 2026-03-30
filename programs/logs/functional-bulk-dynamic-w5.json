@@ -55,5 +55,155 @@
         "notes": "110 is the real working weight now — W4's 105x12 was too easy but 110x12 is genuinely hard. Died at 9 on set 3. Huge progression from W3's spontaneous 90x10."
       }
     ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w5-kb-full",
+    "date": "2026-03-24",
+    "notes": "KB Explore day. Followed the workout as written. Shoulders dead from yesterday's push press breakthrough (50/side x8 is a lot of overhead). Dropped C&P to 6 reps instead of 8 — smart call with the shoulder twinge still lingering. Flow and skill work went well.",
+    "exercises": [
+      {
+        "id": "otd-flow",
+        "exerciseIds": ["kettlebell-dead-clean", "kettlebell-front-squat", "kettlebell-lateral-lunge", "kettlebell-bent-press", "kettlebell-tactical-clean"],
+        "sets": ["25lb — followed as prescribed"],
+        "workingWeight": 25,
+        "notes": "Followed the workout. Flow is getting smoother week over week."
+      },
+      {
+        "id": "kettlebell-bent-press",
+        "sets": ["as prescribed"],
+        "workingWeight": 25,
+        "notes": "Skill work block. Shoulders tired but manageable at 25."
+      },
+      {
+        "id": "kettlebell-windmill",
+        "sets": ["as prescribed"],
+        "workingWeight": 25,
+        "notes": "Solid."
+      },
+      {
+        "id": "cossack-squat",
+        "sets": ["as prescribed"],
+        "workingWeight": 25,
+        "notes": "Light and easy."
+      },
+      {
+        "id": "kettlebell-clean-and-press",
+        "sets": ["50lb x6 each x2"],
+        "workingWeight": 50,
+        "notes": "Dropped from x8 to x6 — shoulders dead from yesterday's push press. Right call. Still hard at 50."
+      },
+      {
+        "id": "kettlebell-swing",
+        "sets": ["50lb — as prescribed"],
+        "workingWeight": 50,
+        "notes": "Finished up."
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w5-pull",
+    "date": "2026-03-25",
+    "notes": "Rough pull day — depleting super early. Pull-ups fragmented: 9/9/6+2/4+2+2 = 34 total but felt way worse than the number suggests. Right shoulder clicky on warmup cat-cow but felt fine during work. DB rows easy — 75x10 PR! Preacher curl early in session (shuffle): 15/side x10 was the real number, 20 and 17.5 both failed fast. Lat pulldown at 160 was weirdly easy but also tired — wider grip than pull-ups (near the bend). Seated cable row died at 130x10 on set 3. Bicep cable curls depleted at 42.5x10. Just a low-energy day overall.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": ["BW x9", "BW x9 (struggled last 2)", "BW x6+2", "BW x4+2+2"],
+        "workingWeight": "BW",
+        "notes": "34 total but super fragmented. Depleting early — felt good after short rests but couldn't sustain. Right shoulder felt the pull-ups but not painfully. W4: 33 (also rough). Something about this week — maybe cumulative fatigue from push press breakthrough."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": ["55 x10 (easy)", "65 x10 (also easy)", "75 x10 (form breaking last 2)"],
+        "workingWeight": "55-75 pyramid",
+        "notes": "75x10 PR! Form broke on last 2 both sides but completed all 10. Easy compared to pull-ups — confused why some days rows are easy and pull-ups are hard. No grip problems."
+      },
+      {
+        "id": "preacher-curl",
+        "sets": ["15/side x10 (hard, full ROM)", "20/side x2 (nope)", "17.5/side x4 (noped out)", "15/side x8", "10/side x4 (drop to failure)"],
+        "workingWeight": "15/side",
+        "notes": "SHUFFLE TEST: preacher curl early (after pull-ups only, before cable curls). 15/side x10 is the honest working weight — hard but full ROM. 20 was too much (only 2), 17.5 only got 4. Drop set 15→10 to failure. W3/W4 preacher was always last and completely dead. Now we know: 15/side x10 is the real number."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": ["160 x12 (last 2 dirty, feeling shoulder)", "160 x10 (tired)", "160 x9 (dead)"],
+        "workingWeight": 160,
+        "equipment": "back left machine",
+        "notes": "160 is a jump from W4's 150. Weirdly easy first set but also tired and lazy. Shoulder felt it slightly. Grip wider than pull-ups — holding near the bend. Different grip width = different exercise emphasis (wider = more lat isolation, less bicep)."
+      },
+      {
+        "id": "face-pull",
+        "sets": ["50 x20", "50 x20 (struggle last 3)", "50 x20 (struggle last 5)"],
+        "workingWeight": 50,
+        "notes": "Same pattern every week. 50x20 first set fine, degrades from there. Consistent."
+      },
+      {
+        "id": "seated-cable-row",
+        "sets": ["130 x12", "130 x12 (last 2 not clean)", "130 x10 (died)"],
+        "workingWeight": 130,
+        "equipment": "back right machine (middle back)",
+        "notes": "130x12/12/10. Third set died. Consistent with W4. 130 is the working weight."
+      },
+      {
+        "id": "dumbbell-reverse-fly",
+        "sets": ["25 x15 (hard)", "25 x15 (not very static)", "25 x15 (last 3 dirty)"],
+        "workingWeight": 25,
+        "notes": "Hard from set 1 today. Form breaking earlier than usual. Low energy day."
+      },
+      {
+        "id": "cable-bicep-curl",
+        "sets": ["42.5 x10 (died last 2)", "42.5 x10 (less struggle)", "42.5 x10 (last 3 mega struggle)"],
+        "workingWeight": 42.5,
+        "notes": "Only got 10s instead of 12s. Biceps already worked from preacher curl earlier. The shuffle trade-off: preacher gets honest numbers, cable curls get fewer reps. 42.5x10 is probably the right weight now that preacher comes first."
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w5-legs",
+    "date": "2026-03-29",
+    "notes": "Saturday legs (shifted from Friday for furniture moving). Squats at 70/side x8 for all 3 working sets — felt safe and strong, way better than early 65s where form felt unsafe. Thinks leg press swap earlier in the program helped build confidence. RDL bumped to 70/side on last set — fresh legs are a thing. Leg press at 5 plates, ROM limited by mobility not strength — tried 6 plates x8 at the end and it was hard but doable. Calves FINALLY burned at 6 plates x20 — first time ever feeling these. Leg curl consistent at 110x12. Walking lunges completed all sets, still hard but no nausea like W1. Big improvement across the board.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": ["55/side x8 (warmup)", "70/side x8 (cautious, not full ROM)", "70/side x8 (better range)", "70/side x8 (really good range, felt safe and strong)"],
+        "workingWeight": 70,
+        "notes": "70x8 across all 3 working sets. First set cautious/not full ROM, improved each set. Felt safe and strong — huge confidence gain vs early weeks at 65 where it felt unsafe. Thinks leg press work has helped squat confidence. W4: 70x8 was a PR on the last set only. Now it's the baseline for all sets."
+      },
+      {
+        "id": "barbell-romanian-deadlift",
+        "sets": ["65/side x10", "65/side x10", "70/side x10"],
+        "workingWeight": "65-70",
+        "notes": "65 felt good/great for 2 sets. Bumped to 70 on set 3 — felt great. Fresh legs = easy progression. W3: 65 was the working weight. 70 is ready to be the new baseline."
+      },
+      {
+        "id": "leg-press",
+        "sets": ["5 plates/side x8 (warmup, not full ROM)", "5 plates/side x12", "5 plates/side x12", "5 plates/side x12 (beat ROM on last set)", "6 plates/side x8 (hard, added after)"],
+        "workingWeight": "5-6 plates/side",
+        "equipment": "lower mount point",
+        "notes": "5 plates x12 for working sets. ROM limited by mobility, not strength — should go deeper. Started feeling strong toward end, actually beat ROM with no fatigue on last set. Tried 6 plates x8 after — hard but doable. 6 plates is the next target after a warmup round. Using lower mount point (longer ROM, harder)."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": ["5 plates/side x20 (easy)", "6 plates/side x20 (harder)", "6 plates/side x20 (hard, warmed up)", "6 plates/side x20", "6 plates/side x20 (BURNED!)"],
+        "workingWeight": "6 plates/side",
+        "notes": "FIRST TIME calves and legs actually burned from calf raises! 5 plates easy, bumped to 6 and did 4 sets of 20. Last set finally felt the burn. Progression: W3 5 plates easy → W4 6 plates easy → W5 6 plates x4 sets = finally burning. Maybe 7 plates next time, or stay at 6 with more sets."
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": ["110 x12", "110 x12", "110 x12 (last 3 dying, not full ROM)"],
+        "workingWeight": 110,
+        "notes": "110x12 consistent across 3 sets. Third set form broke on last 3 reps — not full ROM. 110 is the right weight. Try 115 on set 3 next time if first 2 sets are clean."
+      },
+      {
+        "id": "walking-lunge",
+        "sets": ["completed all sets (ugly last set with rest)"],
+        "workingWeight": 40,
+        "notes": "All full sets completed. Last set ugly with lots of rest breaks. Still very hard but didn't want to throw up like W1 — that's improvement. Walking lunges remain the finisher that finishes you."
+      }
+    ]
   }
 ]

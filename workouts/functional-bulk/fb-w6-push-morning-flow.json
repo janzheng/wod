@@ -1,0 +1,57 @@
+{
+  "id": "fb-w6-push-morning-flow",
+  "name": "W6 Push Morning Flow",
+  "description": "12 min. Same overhead priority as W5. Adding band external rotations for shoulder health — the twinge might be gone but prevention is cheap.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "shoulders", "chest", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight", "mat", "band"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "shoulder-health",
+      "name": "Shoulder Health",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "15 each direction", "notes": "Big circles, warm the joint" },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Light band, scap squeeze" },
+        { "id": "kneeling-cross-body-external-rotation", "reps": "10 each side", "notes": "Kneeling, cross-body external rotation. Rotator cuff maintenance — especially for the right shoulder." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "overhead-activation",
+      "name": "Overhead Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "wall-angel", "reps": 12, "notes": "Back flat against wall. Compare to W4 — should be noticeably easier/deeper." },
+        { "id": "pike-push-up", "reps": 8, "notes": "Up from 6 in W5. Mimics push press shoulder angle." },
+        { "id": "push-up", "reps": 10, "notes": "Standard, easy. Chest activation." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "stretch-close",
+      "name": "Stretch + Close",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "low-lunge-thoracic-rotation", "duration": 30, "notes": "30s each side. Hip flexors + thoracic — push press prep." },
+        { "id": "thread-the-needle", "duration": 30, "notes": "30s each side. Fourth week doing this — should be deep and natural." },
+        { "id": "puppy-pose", "duration": 30, "notes": "Deep shoulder stretch to close." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "12 min — band external rotation is new. Rotator cuff maintenance for the right shoulder.",
+    "Pike push-ups up to 8 reps — building overhead pressing pattern.",
+    "Thread-the-needle should feel like home by now.",
+    "If short on time: shoulder health block + pike push-ups. 5 min."
+  ]
+}
