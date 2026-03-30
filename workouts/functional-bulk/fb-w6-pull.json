@@ -1,0 +1,91 @@
+{
+  "id": "fb-w6-pull",
+  "name": "Week 6 Pull (Back/Biceps)",
+  "description": "Preacher curl stays early — 15/side x10 is the honest number. DB rows pushing for 80lb top set. Lat pulldown at 160 wide grip. Pull-ups: stop fragmenting, aim for clean sets even if fewer reps.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "fixed"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "cable", "machine", "pull-up-bar"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Scap activation" },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine warm" },
+        { "id": "dead-hang", "duration": 30, "notes": "Grip and shoulder warm" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Station 1: Pull-ups",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "8-10", "notes": "W5: 9/9/6+2/4+2+2 = 34 but fragmented. New rule: CLEAN SETS ONLY. If you can only do 7, do 7. No splitting. Quality over total count. Goal: 4 clean sets, aim for 9/8/7/6 = 30 clean." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "preacher-station",
+      "name": "Station 2: Preacher Curl (Early)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "preacher-curl", "reps": "8-10", "notes": "15/side. W5 shuffle: 15/side x10 is the honest number. 20 failed at 2 reps. Stay at 15/side, aim for 3x10. If all hit 10, try 17.5/side on last set. Drop set: 15→10 to failure on last set." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "row-station",
+      "name": "Station 3: Rows + Pulldown",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-row", "reps": "8-10", "notes": "Pyramid: 60x10, 70x8, 80x6-8 (PR attempt!). W5: 75x10 was a PR and felt easy. Your back is ready for 80. Brace hard on the top set." },
+        { "id": "lat-pulldown", "reps": "10-12", "notes": "160. Back left machine. Wide grip (near the bend) — takes biceps out after preacher curl. W5: 160x12/10/9. Goal: 3x10+ clean." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-station",
+      "name": "Station 4: Cables + Accessories",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-cable-row", "reps": "10-12", "notes": "130. Back right machine. W5: 12/12/10. Consistent. Try 135 on last set if first two are clean 12s." },
+        { "id": "face-pull", "reps": "15-20", "notes": "50. W5: 20/20/20 but form breaking at 17. Goal: 3x20 ALL clean. If form drops, do 55x15 instead — shorter sets, heavier." },
+        { "id": "dumbbell-reverse-fly", "reps": "12-15", "notes": "25lb. Seated bent-over. W5: hard from set 1. Stay at 25, aim for strict form on all 15." }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: Curls",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "cable-bicep-curl", "reps": "10-12", "notes": "42.5. Stays last — accept 10-rep sets since preacher already worked biceps. W5: 10/10/10. If 3x12 is clean, bump to 45 next week." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Pull-ups: CLEAN SETS. Stop fragmenting. 30 clean reps > 34 fragmented reps.",
+    "Preacher curl stays early — 15/side is your number. Own it before chasing 17.5.",
+    "DB row 80lb PR attempt: your back handled 75x10 on a bad day. Brace and go.",
+    "Lat pulldown wide grip: keeps biceps out of it after preacher curl. Different exercise than close grip.",
+    "Cable curls will feel harder after preacher. That's fine — 10 reps is the new baseline here.",
+    "Rest 2.5 min on pull-ups, 90s on preacher, 2 min on rows, 75s on cables"
+  ]
+}

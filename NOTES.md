@@ -61,6 +61,20 @@ Running observations, session notes, and things to remember for future weeks.
   - **Preacher curl baseline:** 10/side easy, 15/side is working weight (dies at 10 reps), 25 total impossible. Way more isolating than cable curls. Drop set approach is good programming.
   - **Cable row machine note:** Back right machine, 120 working weight. 140 exists but form breaks down (leaning back). No 130 available.
 
+## W5 Observations
+
+- **Right shoulder twinge (started W5D1, 3/23):** Appeared during push day — possibly slept weird or minor strain. Lower shoulder blade area. Noticeable when: reaching right arm fully overhead with a straight arm, or holding something heavy at full extension (e.g., heavy phone battery). NOT noticeable during: bent press (arm not fully straight), C&P (momentum helps), pull-ups, rows, general KB work. Didn't worsen during W5D2 KB session. Clicky on cat-cow warmup W5D3 but felt fine during work. Likely muscular (rotator cuff or lower trap irritation), not joint.
+  - **Monitor:** Still present W5D3. Felt it slightly on lat pulldown but didn't limit anything.
+  - **Concern for:** Push press lockout next week (full straight-arm overhead + load). If still there, may need to modify.
+  - **Rehab if persistent:** Light band external rotations + face pulls as warmup. Face pulls already built into pull day.
+  - **Action:** If not resolved by W6 push day, start push day with band external rotations (3x15) before push press.
+- **W5D1 Push — Shuffle results:** Push press first = 50/side x8/8/7. Confirmed it was fatigue ordering, not strength. Chest press machine moved to last = dropped from 175 to 140 (expected trade-off, worth it). Pec deck 115x12 clean (was 115x9 failure in W4). Lateral raise found 20lb DBs — doable. Cable lat raise up to 55. Straight arm pulldown 110 is real working weight.
+- **W5D3 Pull — Shuffle results:** Preacher curl early = 15/side x10 is the honest working weight. 20/side too heavy (only 2 reps), 17.5 only 4. Now we have a real baseline. Trade-off: cable curls dropped from 12s to 10s (biceps pre-fatigued from preacher).
+- **W5D3 Pull — Lat pulldown grip:** Holding wider (near the bend) reduces bicep involvement. Good strategy on days when pull-ups torch the biceps. Closer grip = more pull-up carryover, wider = more lat isolation. Keep flexible — wide when pull-ups go hard, closer when they feel easy.
+- **W5D3 Pull — DB rows 75x10 PR:** Easy even on a bad day. Back strength outpacing pull-up endurance. Pull-ups are limited by bodyweight/grip/bicep fatigue. Rows just need a strong back. Target 80lb for W6.
+- **W5D3 Pull — Early depletion pattern:** Pull-ups fragmented (9/9/6+2/4+2+2), everything else lower energy. Probably cumulative fatigue from push press breakthrough Mon + KB Tue. Should normalize.
+- **Shuffle week summary so far:** Reordering exercises gave honest baselines — push press (50/side is real), preacher curl (15/side is real), chest press (140 when last). Keep push press first going forward. Preacher curl placement TBD — early gives better numbers but costs cable curl reps.
+
 ## Housekeeping
 
 - **Session logs extracted:** Logs moved to `programs/logs/functional-bulk-dynamic-w{N}.json`. Program JSON uses `logFile` field, server resolves at runtime. Program JSON: 37KB → 16KB. New W3 logs go in `programs/logs/functional-bulk-dynamic-w3.json`.

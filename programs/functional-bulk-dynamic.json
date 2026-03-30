@@ -557,6 +557,115 @@
         "Calf raises: 7 plates. Yes, really."
       ],
       "log": []
+    },
+    {
+      "week": 6,
+      "label": "Lock In",
+      "description": "Shuffle order is permanent — push press stays first, preacher stays early. W5 proved the reorder works: 50/side x8 overhead, 15/side preacher honest. Now lock in and progress. Chest press moves to station 2 (fresher). Squat 75/side attempt. DB row 80lb PR. Calves trying 7 plates. KB: full Explore/Refine split, Thursday stays light.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH",
+          "type": "workout",
+          "workoutId": "fb-w6-push",
+          "flow": {
+            "workoutId": "fb-w6-push-morning-flow",
+            "label": "Morning Flow",
+            "notes": "12 min — band external rotations added for shoulder health. Overhead mobility priority."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL BODY (EXPLORE)",
+          "type": "workout",
+          "workoutId": "fb-w6-kb-full",
+          "flow": {
+            "workoutId": "fb-w6-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — thoracic + hips. Same as W5 but deeper."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL",
+          "type": "workout",
+          "workoutId": "fb-w6-pull",
+          "flow": {
+            "workoutId": "fb-w6-pull-morning-flow",
+            "label": "Morning Flow",
+            "notes": "12 min — bicep/elbow prep. Dead hang 25s, scap pull-ups x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB REFINE (light — legs tomorrow)",
+          "type": "workout",
+          "workoutId": "fb-w6-kb-cond",
+          "flow": {
+            "workoutId": "fb-w6-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — same flow as Tuesday. Be boring."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS",
+          "type": "workout",
+          "workoutId": "fb-w6-legs",
+          "flow": {
+            "workoutId": "fb-w6-legs-morning-flow",
+            "label": "Morning Flow",
+            "notes": "15 min — 75/side attempt today. Hip mobility matters more than ever."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 60,
+                "intensity": "easy",
+                "notes": "Get outside. Conversational pace."
+              }
+            },
+            {
+              "label": "Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "LOCK IN: shuffle order is permanent. Push press first, preacher early, chest press station 2.",
+        "Push press 50/side: 3x8 clean is the target. W5 was 8/8/7.",
+        "Chest press at station 2 should be ~160-170 (was 175 first, 140 last).",
+        "Pull-ups: CLEAN SETS ONLY. No more fragmenting. 30 clean > 34 messy.",
+        "DB row 80lb top set — your back is ready.",
+        "Squat 75/side on the last set. Even 5 reps is a win.",
+        "Calf raises: 7 plates. Single-leg if you max the machine.",
+        "Thursday KB: boring. Legs tomorrow. You know the drill."
+      ],
+      "log": []
     }
   ],
   "tips": [

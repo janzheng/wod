@@ -1,0 +1,56 @@
+{
+  "id": "fb-w6-pull-morning-flow",
+  "name": "W6 Pull Morning Flow",
+  "description": "12 min. Same as W5 with bicep/elbow prep since preacher is early. Adding active hang for grip.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "back", "biceps", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 12,
+  "equipment": ["bodyweight", "mat", "pull-up-bar"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "spine-primer",
+      "name": "Spine + Scap Primer",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Full spinal wave. Slow." },
+        { "id": "dead-hang", "duration": 25, "notes": "25s — up from 20. Decompress shoulders, warm grip." },
+        { "id": "scapular-pull-up", "reps": 10, "notes": "Up from 8. No elbow bend — just scapulae retracting." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "arm-elbow-prep",
+      "name": "Bicep + Elbow Prep",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "gmb-wrist-prep", "reps": 10, "notes": "Loosen wrists and forearms for grip work." },
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Small to big. Warm bicep insertions." },
+        { "id": "doorframe-chest-stretch", "duration": 20, "notes": "Opens bicep and chest. Preacher curl prep." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "hip-opener",
+      "name": "Hip + Back Opener",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "happy-baby", "duration": 30, "notes": "Hip opener. Gentle." },
+        { "id": "supine-spinal-twist", "duration": 30, "notes": "30s each side. Lower back release." },
+        { "id": "child-pose-reach", "duration": 30, "notes": "Walk hands to each side. Lateral lat stretch." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "12 min — dead hang up to 25s, scap pull-ups up to 10.",
+    "Bicep prep primes preacher curl — which comes right after pull-ups today.",
+    "If short on time: spine primer + arm prep. 6 min."
+  ]
+}

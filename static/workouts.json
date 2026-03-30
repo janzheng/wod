@@ -10083,6 +10083,1121 @@
     "category": "functional-bulk"
   },
   {
+    "id": "fb-w6-kb-cond",
+    "name": "Week 6 KB Conditioning (Refine — Light)",
+    "description": "Thursday = light skill drilling. Legs are tomorrow. Same rules as W5: flow, bent press, windmill, TGU at light weights. No swings, no C&P, no squats. If you earned it this week, optional 2-round circuit at the end — but ONLY if legs feel totally fresh.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "skill-work",
+      "light",
+      "fixed"
+    ],
+    "estimatedDuration": 20,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light bell, loosen up"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "flow-block",
+        "name": "OTD Flow (Light)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-dead-clean",
+            "reps": "1 each side",
+            "notes": "Light and smooth"
+          },
+          {
+            "id": "kettlebell-front-squat",
+            "reps": "1 each side",
+            "notes": "Easy depth"
+          },
+          {
+            "id": "kettlebell-lateral-lunge",
+            "reps": "1 each side",
+            "notes": "Controlled"
+          },
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "1 each side",
+            "notes": "Groove the path"
+          },
+          {
+            "id": "kettlebell-tactical-clean",
+            "reps": "1 each side",
+            "notes": "Control down"
+          }
+        ],
+        "notes": "20lb. 2 rounds each side. Should feel effortless.",
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "skill-block",
+        "name": "Skill Drilling",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3 each side",
+            "notes": "20-25lb. Groove, not grind. If Tuesday's 30 felt good, 25 here is maintenance."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each side",
+            "notes": "18-20lb. Light. Deep hinge."
+          },
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "2 each side",
+            "notes": "25lb. Lighter than Tuesday. Drill transitions on left side."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "20 minutes. Light. Legs are tomorrow.",
+      "No swings, no C&P, no goblet squats, no lunges. Zero leg loading.",
+      "This is skill maintenance — keep the movement patterns fresh without any fatigue.",
+      "If you feel amazing and want to add a circuit: DON'T. You said that last time too. Squats tomorrow.",
+      "Be boring. Boring is the goal. Your legs will thank you."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w6-kb-full",
+    "name": "Week 6 KB Full Body (Explore)",
+    "description": "OTD flow is second nature now — push fluidity at 25lb, maybe try 30lb if 25 feels effortless. Bent press at 30 for real. TGU at 30 — left side is the project. C&P pushing for 8 reps. Full session, no GTC excuse this week.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "strength",
+      "skill-work",
+      "intermediate",
+      "fixed"
+    ],
+    "estimatedDuration": 40,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light, loosen shoulders"
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 8,
+            "notes": "Find your depth"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "flow-block",
+        "name": "Block 1: OTD Flow",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-dead-clean",
+            "reps": "1 each side",
+            "notes": "Dead stop, explosive pull to rack."
+          },
+          {
+            "id": "kettlebell-front-squat",
+            "reps": "1 each side",
+            "notes": "Full depth from rack."
+          },
+          {
+            "id": "kettlebell-lateral-lunge",
+            "reps": "1 each side",
+            "notes": "Step wide, hips back."
+          },
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "1 each side",
+            "notes": "Bend away, lock out."
+          },
+          {
+            "id": "kettlebell-tactical-clean",
+            "reps": "1 each side",
+            "notes": "Control down to start."
+          }
+        ],
+        "notes": "OTD flow (Madeline Conti). 25lb — or try 30lb if 25 feels effortless. 3 rounds each side, do the whole flow 3 times. You know this now. Make it look easy.",
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "skill-block",
+        "name": "Block 2: Skill Work (Heavier)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3-5 each side",
+            "notes": "30lb. W5: first attempt at 30. If W5 was solid, push for 5 reps per side. If shaky, stay at 3."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "8 each side",
+            "notes": "45lb goblet. Full depth, heels down, sit in the hole for a beat."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each side",
+            "notes": "25lb. Solid and comfortable. If 25 is genuinely easy, try 30 on last set."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "tgu-block",
+        "name": "Block 3: TGU",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "3 each side",
+            "notes": "30lb. Left side: pause at elbow prop, hand prop, hip bridge. Right side is the template — match it on the left. If 30 is smooth both sides, try 35 on a single rep."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 60
+      },
+      {
+        "id": "strength-block",
+        "name": "Block 4: KB Strength",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "6-8 each",
+            "notes": "50lb. W5: did 6 (down from target 8 due to shoulder). This week fresh: push for 8. Catch with knee bend, full lockout."
+          },
+          {
+            "id": "kettlebell-row",
+            "reps": "10 each",
+            "notes": "50lb. Easy at 50 — slow it down. 2-second pull, 2-second lower."
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 12,
+            "notes": "50lb. Pause at bottom for 1 second. Max KB weight."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher: Swings",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-swing",
+            "reps": 20,
+            "notes": "50lb. Full hip snap. Save the circuit for Saturday if you want it."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Tuesday = EXPLORE. Full session this week — no GTC excuse.",
+      "OTD flow at 25 or 30: if 25 feels like autopilot, the flow has leveled up. Try 30.",
+      "Bent press at 30: this is week 2 at this weight. Should feel more controlled.",
+      "TGU left side: the project continues. Smooth > fast.",
+      "C&P: 8 reps is the goal. You hit 6 when tired last week. Fresh = 8.",
+      "No circuit finisher — save that for Saturday Refine if you want it."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w6-kb-morning-flow",
+    "name": "W6 KB Morning Flow",
+    "description": "10 min. Same for Tuesday and Thursday. Thoracic + hips. Scorpion stretch and active pigeon continue from W5.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "thoracic",
+      "hips",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 10,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "thoracic-opener",
+        "name": "Thoracic + Shoulder Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Deep thoracic rotation."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Full spinal wave."
+          },
+          {
+            "id": "scorpion-stretch",
+            "duration": 20,
+            "notes": "20s each side. Should be deeper than W5."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 10
+      },
+      {
+        "id": "hip-flow",
+        "name": "Hip Flow",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "90-90-stretch",
+            "duration": 30,
+            "notes": "30s each side."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "Bodyweight. Deep and slow."
+          },
+          {
+            "id": "active-pigeon",
+            "duration": 20,
+            "notes": "20s each side. Press into the stretch."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "10 min — same for Tuesday and Thursday.",
+      "Everything should feel familiar now. Go deeper, not longer.",
+      "Thursday: this is prep for light skill work. Don't let the warmup psych you up."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w6-legs",
+    "name": "Week 6 Legs (Quads/Hamstrings/Glutes/Calves)",
+    "description": "70/side is the squat baseline — felt safe and strong in W5 for all 3 working sets. Try 75 on the last set. RDL at 70 baseline. Leg press starts at 6 plates. Calves trying 7 plates — if you max out, single-leg is the next move.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "legs",
+      "lower-body",
+      "quads",
+      "hamstrings",
+      "glutes",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth. Thursday KB was light — legs should be fresh."
+          },
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Open up the hips"
+          },
+          {
+            "id": "lunge",
+            "reps": "5 each leg",
+            "notes": "Bodyweight, feel the stretch"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "squat-warmup",
+        "name": "Squat Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": 8,
+            "notes": "55/side x8. Deep — same depth as working sets."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 120
+      },
+      {
+        "id": "squat-working",
+        "name": "Squat (Working Sets)",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": 8,
+            "notes": "Sets 1-3: 70/side x8 deep. Set 4: TRY 75/side. W5: 70x8 across all sets felt safe and strong. 75 is the next frontier — even 5-6 reps at 75 is a win. If 75 feels sketchy, stay at 70x8 and add a 5th set instead."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 120
+      },
+      {
+        "id": "rdl-working",
+        "name": "RDL",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "barbell-romanian-deadlift",
+            "reps": 10,
+            "notes": "70/side for all 3 sets. W5: bumped to 70 on last set and it felt great. Now 70 is the baseline. Slow eccentric, hamstring stretch."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "legpress-station",
+        "name": "Leg Press",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": "10-12",
+            "notes": "6 plates/side. W5: 5 plates x12 was easy, tried 6 plates x8 at the end. Now start at 6. Full ROM — mobility is the limiter, not strength. Lower mount point. If 6x12 is clean, you've found the new weight."
+          },
+          {
+            "id": "leg-press-calf-raise",
+            "reps": 20,
+            "notes": "7 plates/side. W5: 6 plates finally burned after 4 sets of 20. Try 7. If you literally run out of plates, do single-leg at 4 plates — halves the load, doubles the work."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "legcurl-station",
+        "name": "Leg Curl",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-leg-curl",
+            "reps": 12,
+            "notes": "110. W5: 12/12/12 (last 3 of set 3 dying). Stay at 110, aim for 3x12 all clean. If first 2 sets are easy, try 115 on set 3. 2-second negatives."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "lunge-finisher",
+        "name": "Lunges (The Finisher)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-lunge",
+            "reps": "10 each leg",
+            "notes": "40lb DBs. W5: completed all sets, still hard, ugly last set. Stay at 40. The goal is clean form on all 3 sets — THEN bump weight. Walking lunges not stationary. Long stride, back knee toward floor."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Squat 70 is the baseline — 75 on the last set is the test. Even 5 reps at 75 is a W.",
+      "RDL at 70 for all 3 sets — first time at this weight for a full session.",
+      "Leg press: 6 plates is real now. Focus on ROM depth, not just moving weight.",
+      "Calf raises: 7 plates. You're a menace. Single-leg if the machine runs out.",
+      "Leg curl: 110x12 with clean form. 115 is the stretch goal.",
+      "Lunges: form before weight. Clean all 3 sets at 40 before going to 45.",
+      "Rest 3 min between squats, 2.5 min RDL, 2 min leg press, 90s isolation"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w6-legs-morning-flow",
+    "name": "W6 Legs Morning Flow",
+    "description": "15 min squat prep. You're going for 75/side on the last set today. Hip mobility and glute activation matter more than ever.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "hips",
+      "legs",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "hip-warmup",
+        "name": "Hip Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Standing, big slow circles."
+          },
+          {
+            "id": "dynamic-malasana",
+            "reps": 10,
+            "notes": "3 seconds down, 2 in the hole, drive up. You own this pattern."
+          },
+          {
+            "id": "lunge-with-rotation",
+            "reps": "5 each side",
+            "notes": "Low lunge + twist. Hip flexors and thoracic."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-depth",
+        "name": "Hip Depth Work",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 45,
+            "notes": "45s each side. Should be noticeably deeper than W4."
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 30,
+            "notes": "30s each side. Elbows down. The deep one."
+          },
+          {
+            "id": "skandasana-side-lunge",
+            "reps": "8 each",
+            "notes": "Deep side lunge. 5 weeks of cossack squats made these natural."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "activation",
+        "name": "Glute + Core Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "glute-bridge",
+            "reps": 15,
+            "notes": "Squeeze at top. Activate before you load the bar."
+          },
+          {
+            "id": "dead-bug-opposite-reach",
+            "reps": 10,
+            "notes": "Core bracing — you're going to 75/side today."
+          },
+          {
+            "id": "plank-hip-dips",
+            "reps": 12,
+            "notes": "Obliques + hip mobility. 6 each side."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min — 75/side attempt on the last set today. This flow matters.",
+      "Pigeon and lizard: your hip mobility has been improving steadily. Go deeper.",
+      "Glute bridge: activates glutes for squat. Don't skip it.",
+      "If short on time: hip warmup + pigeon + glute bridge. 8 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w6-pull",
+    "name": "Week 6 Pull (Back/Biceps)",
+    "description": "Preacher curl stays early — 15/side x10 is the honest number. DB rows pushing for 80lb top set. Lat pulldown at 160 wide grip. Pull-ups: stop fragmenting, aim for clean sets even if fewer reps.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "pull",
+      "upper-body",
+      "back",
+      "biceps",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "cable",
+      "machine",
+      "pull-up-bar"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Scap activation"
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Spine warm"
+          },
+          {
+            "id": "dead-hang",
+            "duration": 30,
+            "notes": "Grip and shoulder warm"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "pullup-station",
+        "name": "Station 1: Pull-ups",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "8-10",
+            "notes": "W5: 9/9/6+2/4+2+2 = 34 but fragmented. New rule: CLEAN SETS ONLY. If you can only do 7, do 7. No splitting. Quality over total count. Goal: 4 clean sets, aim for 9/8/7/6 = 30 clean."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "preacher-station",
+        "name": "Station 2: Preacher Curl (Early)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "preacher-curl",
+            "reps": "8-10",
+            "notes": "15/side. W5 shuffle: 15/side x10 is the honest number. 20 failed at 2 reps. Stay at 15/side, aim for 3x10. If all hit 10, try 17.5/side on last set. Drop set: 15→10 to failure on last set."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "row-station",
+        "name": "Station 3: Rows + Pulldown",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-row",
+            "reps": "8-10",
+            "notes": "Pyramid: 60x10, 70x8, 80x6-8 (PR attempt!). W5: 75x10 was a PR and felt easy. Your back is ready for 80. Brace hard on the top set."
+          },
+          {
+            "id": "lat-pulldown",
+            "reps": "10-12",
+            "notes": "160. Back left machine. Wide grip (near the bend) — takes biceps out after preacher curl. W5: 160x12/10/9. Goal: 3x10+ clean."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "cable-station",
+        "name": "Station 4: Cables + Accessories",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-cable-row",
+            "reps": "10-12",
+            "notes": "130. Back right machine. W5: 12/12/10. Consistent. Try 135 on last set if first two are clean 12s."
+          },
+          {
+            "id": "face-pull",
+            "reps": "15-20",
+            "notes": "50. W5: 20/20/20 but form breaking at 17. Goal: 3x20 ALL clean. If form drops, do 55x15 instead — shorter sets, heavier."
+          },
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": "12-15",
+            "notes": "25lb. Seated bent-over. W5: hard from set 1. Stay at 25, aim for strict form on all 15."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher: Curls",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "cable-bicep-curl",
+            "reps": "10-12",
+            "notes": "42.5. Stays last — accept 10-rep sets since preacher already worked biceps. W5: 10/10/10. If 3x12 is clean, bump to 45 next week."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Pull-ups: CLEAN SETS. Stop fragmenting. 30 clean reps > 34 fragmented reps.",
+      "Preacher curl stays early — 15/side is your number. Own it before chasing 17.5.",
+      "DB row 80lb PR attempt: your back handled 75x10 on a bad day. Brace and go.",
+      "Lat pulldown wide grip: keeps biceps out of it after preacher curl. Different exercise than close grip.",
+      "Cable curls will feel harder after preacher. That's fine — 10 reps is the new baseline here.",
+      "Rest 2.5 min on pull-ups, 90s on preacher, 2 min on rows, 75s on cables"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w6-pull-morning-flow",
+    "name": "W6 Pull Morning Flow",
+    "description": "12 min. Same as W5 with bicep/elbow prep since preacher is early. Adding active hang for grip.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "back",
+      "biceps",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "mat",
+      "pull-up-bar"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "spine-primer",
+        "name": "Spine + Scap Primer",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Full spinal wave. Slow."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 25,
+            "notes": "25s — up from 20. Decompress shoulders, warm grip."
+          },
+          {
+            "id": "scapular-pull-up",
+            "reps": 10,
+            "notes": "Up from 8. No elbow bend — just scapulae retracting."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "arm-elbow-prep",
+        "name": "Bicep + Elbow Prep",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "gmb-wrist-prep",
+            "reps": 10,
+            "notes": "Loosen wrists and forearms for grip work."
+          },
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Small to big. Warm bicep insertions."
+          },
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 20,
+            "notes": "Opens bicep and chest. Preacher curl prep."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-opener",
+        "name": "Hip + Back Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "happy-baby",
+            "duration": 30,
+            "notes": "Hip opener. Gentle."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 30,
+            "notes": "30s each side. Lower back release."
+          },
+          {
+            "id": "child-pose-reach",
+            "duration": 30,
+            "notes": "Walk hands to each side. Lateral lat stretch."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min — dead hang up to 25s, scap pull-ups up to 10.",
+      "Bicep prep primes preacher curl — which comes right after pull-ups today.",
+      "If short on time: spine primer + arm prep. 6 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w6-push",
+    "name": "Week 6 Push (Chest/Shoulders/Triceps)",
+    "description": "Shuffle order is permanent now — push press stays first. W5 proved 50/side x8 is real. This week: lock in 3x8 at 50. Chest press moves up (after lat raises, before incline) so it's less gassed. Pec deck targets 120.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "push",
+      "upper-body",
+      "chest",
+      "shoulders",
+      "triceps",
+      "ppl",
+      "fixed"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Loosen shoulders"
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Scap activation"
+          },
+          {
+            "id": "push-up",
+            "reps": 12,
+            "notes": "Get blood flowing"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "overhead-station",
+        "name": "Station 1: Overhead",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "push-press",
+            "reps": "6-8",
+            "notes": "50/side. W5: 8/8/7. Goal: 3x8 clean. If all three hit 8, try 55/side on a bonus set. Dip small, drive big, full lockout."
+          },
+          {
+            "id": "lateral-raise",
+            "reps": 15,
+            "notes": "20lb. W5: 3x15 doable. If 20s are clean for all 3 sets, try 25 on the last set. Watch right shoulder."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "press-station",
+        "name": "Station 2: Press",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "chest-press-machine",
+            "reps": "6-8",
+            "notes": "W5: died at 140 when last. Now it's station 2 — should be fresher. Start at 160, work up. If 160x8 is clean, try 170. Goal: find the honest number in this slot."
+          },
+          {
+            "id": "incline-dumbbell-press",
+            "reps": 10,
+            "notes": "55lb. W5: 10/8/8/10. Goal: 4x10 clean. If all hit 10, try 60 next week."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "machine-cable-station",
+        "name": "Station 3: Machine + Cables",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "pec-deck-fly",
+            "reps": "10-12",
+            "notes": "W5: 115x12 clean all 3 sets. Bump to 120. If 120x10 is clean, you've earned it."
+          },
+          {
+            "id": "cable-lateral-raise",
+            "reps": 12,
+            "notes": "55. W5: 55x12 all sets. Solid. Try 60 on last set if form is holding. Right side still the weak link."
+          },
+          {
+            "id": "incline-cable-overhead-tricep-extension",
+            "reps": "10-12",
+            "notes": "65. W5: 12/12/10. Goal: 3x12 at 65. If all hit 12, bump to 70 on last set. Hands apart."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "straight-arm-pulldown",
+            "reps": 12,
+            "notes": "110. W5: 12/12/9. Goal: 3x12 clean. If all hit 12, try 115. This is a real exercise now, not just a spontaneous add-on."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Push press first — locked in permanently. 50/side x3x8 is the target.",
+      "Chest press moved to station 2 (after overhead + lat raises). Should be ~160-170 range here vs 140 when last.",
+      "Pec deck 120: you went 85 → 105 → 115 → now 120 in 6 weeks. Respect the progression.",
+      "Right shoulder: if the twinge flares during push press lockout, drop to 45 immediately. Don't push through shoulder pain overhead.",
+      "Rest 2 min between push press, 2.5 min on chest press, 75s on cables"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w6-push-morning-flow",
+    "name": "W6 Push Morning Flow",
+    "description": "12 min. Same overhead priority as W5. Adding band external rotations for shoulder health — the twinge might be gone but prevention is cheap.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "shoulders",
+      "chest",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "mat",
+      "band"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "shoulder-health",
+        "name": "Shoulder Health",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "15 each direction",
+            "notes": "Big circles, warm the joint"
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Light band, scap squeeze"
+          },
+          {
+            "id": "kneeling-cross-body-external-rotation",
+            "reps": "10 each side",
+            "notes": "Kneeling, cross-body external rotation. Rotator cuff maintenance — especially for the right shoulder."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "overhead-activation",
+        "name": "Overhead Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "wall-angel",
+            "reps": 12,
+            "notes": "Back flat against wall. Compare to W4 — should be noticeably easier/deeper."
+          },
+          {
+            "id": "pike-push-up",
+            "reps": 8,
+            "notes": "Up from 6 in W5. Mimics push press shoulder angle."
+          },
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Standard, easy. Chest activation."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "stretch-close",
+        "name": "Stretch + Close",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "low-lunge-thoracic-rotation",
+            "duration": 30,
+            "notes": "30s each side. Hip flexors + thoracic — push press prep."
+          },
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Fourth week doing this — should be deep and natural."
+          },
+          {
+            "id": "puppy-pose",
+            "duration": 30,
+            "notes": "Deep shoulder stretch to close."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min — band external rotation is new. Rotator cuff maintenance for the right shoulder.",
+      "Pike push-ups up to 8 reps — building overhead pressing pattern.",
+      "Thread-the-needle should feel like home by now.",
+      "If short on time: shoulder health block + pike push-ups. 5 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
     "id": "30-min-hiit-home-vs-gym",
     "name": "30 Min HIIT: Home vs Gym",
     "description": "6-exercise HIIT circuit from @Selfdefencess with bodyweight home variations and weighted gym alternatives. Each exercise has a floor/bodyweight option and a dumbbell/kettlebell option. Pick one column or mix and match based on your equipment.",

@@ -1,0 +1,97 @@
+{
+  "id": "fb-w6-kb-full",
+  "name": "Week 6 KB Full Body (Explore)",
+  "description": "OTD flow is second nature now — push fluidity at 25lb, maybe try 30lb if 25 feels effortless. Bent press at 30 for real. TGU at 30 — left side is the project. C&P pushing for 8 reps. Full session, no GTC excuse this week.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "strength", "skill-work", "intermediate", "fixed"],
+  "estimatedDuration": 40,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light, loosen shoulders" },
+        { "id": "kettlebell-goblet-squat", "reps": 8, "notes": "Find your depth" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "Block 1: OTD Flow",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": "1 each side", "notes": "Dead stop, explosive pull to rack." },
+        { "id": "kettlebell-front-squat", "reps": "1 each side", "notes": "Full depth from rack." },
+        { "id": "kettlebell-lateral-lunge", "reps": "1 each side", "notes": "Step wide, hips back." },
+        { "id": "kettlebell-bent-press", "reps": "1 each side", "notes": "Bend away, lock out." },
+        { "id": "kettlebell-tactical-clean", "reps": "1 each side", "notes": "Control down to start." }
+      ],
+      "notes": "OTD flow (Madeline Conti). 25lb — or try 30lb if 25 feels effortless. 3 rounds each side, do the whole flow 3 times. You know this now. Make it look easy.",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "skill-block",
+      "name": "Block 2: Skill Work (Heavier)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3-5 each side", "notes": "30lb. W5: first attempt at 30. If W5 was solid, push for 5 reps per side. If shaky, stay at 3." },
+        { "id": "cossack-squat", "reps": "8 each side", "notes": "45lb goblet. Full depth, heels down, sit in the hole for a beat." },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "25lb. Solid and comfortable. If 25 is genuinely easy, try 30 on last set." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "tgu-block",
+      "name": "Block 3: TGU",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-turkish-getup", "reps": "3 each side", "notes": "30lb. Left side: pause at elbow prop, hand prop, hip bridge. Right side is the template — match it on the left. If 30 is smooth both sides, try 35 on a single rep." }
+      ],
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "strength-block",
+      "name": "Block 4: KB Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-clean-and-press", "reps": "6-8 each", "notes": "50lb. W5: did 6 (down from target 8 due to shoulder). This week fresh: push for 8. Catch with knee bend, full lockout." },
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "50lb. Easy at 50 — slow it down. 2-second pull, 2-second lower." },
+        { "id": "kettlebell-goblet-squat", "reps": 12, "notes": "50lb. Pause at bottom for 1 second. Max KB weight." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: Swings",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 20, "notes": "50lb. Full hip snap. Save the circuit for Saturday if you want it." }
+      ],
+      "restBetween": 30,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Tuesday = EXPLORE. Full session this week — no GTC excuse.",
+    "OTD flow at 25 or 30: if 25 feels like autopilot, the flow has leveled up. Try 30.",
+    "Bent press at 30: this is week 2 at this weight. Should feel more controlled.",
+    "TGU left side: the project continues. Smooth > fast.",
+    "C&P: 8 reps is the goal. You hit 6 when tired last week. Fresh = 8.",
+    "No circuit finisher — save that for Saturday Refine if you want it."
+  ]
+}
