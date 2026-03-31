@@ -75,6 +75,17 @@ Running observations, session notes, and things to remember for future weeks.
 - **W5D3 Pull — Early depletion pattern:** Pull-ups fragmented (9/9/6+2/4+2+2), everything else lower energy. Probably cumulative fatigue from push press breakthrough Mon + KB Tue. Should normalize.
 - **Shuffle week summary so far:** Reordering exercises gave honest baselines — push press (50/side is real), preacher curl (15/side is real), chest press (140 when last). Keep push press first going forward. Preacher curl placement TBD — early gives better numbers but costs cable curl reps.
 
+## W6 Observations
+
+- **Right shoulder update (W6D1, 3/31):** Still present but found a management technique — contracting shoulder down and engaging it "cracks" it and loosens it up significantly. Cable external rotations (kneeling, cable from top, 50x12 each side) felt great. Yuri band shoulder warmup (red band) mid-session really helped the crackly feeling on cable lat raises. Shoulder is manageable, not worsening, and responds well to activation work.
+  - **Action for W6+:** Add band Yuri warmup + cable external rotations to every push day warmup. Consider adding to pull day warmup too.
+  - **Igor-style rotator cuff work:** User mentioned wanting to look into this. Worth researching for a more structured shoulder prehab protocol.
+- **W6D1 Push — Chest press machine breakthrough:** 180x8 with full ROM! W5 (when last exercise): 140x6. That's a 40lb difference from exercise ordering alone. 180 is the real working weight. Drop sets to death after: 180x4→160x2→140x4.
+- **W6D1 Push — Lat raise progression:** 20x15 all 3 sets felt clean with gas left. Added isolated 25x8 each side at full ROM. Ready for 25x12 as working weight next week.
+- **W6D1 Push — Push press technique:** Slight leg stagger + momentum on dip = more stability. Set 1 was too static (still got 8). Set 2 dropped to 7 from being unbalanced. Set 3 fixed technique = 8 again. 50/side is still hard but it's real.
+  - **W7 push press rep scheme:** Stop chasing 8 — form breaks too fast. Sets 1-2: 50/side x6-8 (push for 8 only if form holds). Sets 3-4: 50/side x5-6 (drop reps to preserve form). Hard cutoff: stop the set when form breaks, even if that's rep 5. Feet parallel, slightly wider than hip-width, quick shallow dip (~4 inches), explosive drive. No stagger.
+- **W6D1 Push — Pec deck:** Bumped to 120x12 clean (W5: 115x12). Steady 5lb/week progression.
+
 ## Housekeeping
 
 - **Session logs extracted:** Logs moved to `programs/logs/functional-bulk-dynamic-w{N}.json`. Program JSON uses `logFile` field, server resolves at runtime. Program JSON: 37KB → 16KB. New W3 logs go in `programs/logs/functional-bulk-dynamic-w3.json`.

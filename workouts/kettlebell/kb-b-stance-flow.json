@@ -1,10 +1,10 @@
 {
   "id": "kb-b-stance-flow",
   "name": "KB B-Stance Flow (@Asgooch)",
-  "description": "A unilateral kettlebell flow: B-stance swing → swing clean → B-stance squat → snatch overhead → OH lunge. All same arm, don't put the bell down. 5 reps each side, 5 rounds. Builds coordination, conditioning, control, and strength.",
+  "description": "Unilateral kettlebell flow: B-stance swing → swing clean → B-stance squat → split stance snatch → OH lunge. 5 reps each side, 5 rounds. Don't put the bell down. Video: https://x.com/Asgooch/status/2026011472489324584",
   "routineId": "kettlebell",
   "tags": ["kettlebell", "flow", "unilateral", "full-body", "compound", "dynamic", "intermediate"],
-  "estimatedDuration": 30,
+  "estimatedDuration": 25,
   "equipment": ["kettlebell"],
   "difficulty": "intermediate",
   "source": "@Asgooch",
@@ -16,21 +16,24 @@
       "type": "exercises",
       "rounds": 5,
       "exercises": [
-        { "id": "kettlebell-b-stance-swing", "reps": "5 each side", "notes": "One foot back, heel up. Explosive hip drive." },
-        { "id": "kettlebell-swing-clean", "reps": "5 each side", "notes": "Swing up to shoulder/rack — same arm" },
-        { "id": "kettlebell-ab-stance-goblet-squat", "reps": "5 each side", "notes": "Hold at rack, B-stance squat — back foot heel up" },
-        { "id": "kettlebell-swing-snatch", "reps": "5 each side", "notes": "From rack, snatch straight overhead — split stance" },
-        { "id": "kettlebell-overhead-lunge", "reps": "5 each side", "notes": "Bell locked out overhead, lunge forward — same side" }
+        { "id": "kettlebell-b-stance-swing", "reps": "5 each side", "notes": "B-stance: one foot back, heel up. Swing between legs, explosive hip drive. Bell swings up to about chest height." },
+        { "id": "kettlebell-swing-clean", "reps": "5 each side", "notes": "→ On the next swing, CATCH it directly into rack position at your shoulder. Don't dead stop — ride the momentum into the clean." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": "5 each side", "notes": "→ Bell is in rack. Stay in B-stance (back foot heel still up). Squat down and stand back up. Bell stays at shoulder." },
+        { "id": "kettlebell-swing-snatch", "reps": "5 each side", "notes": "→ From rack, punch the bell straight overhead in one motion. Lock out arm, stand tall. Split stance snatch — you're still in B-stance when it goes up." },
+        { "id": "kettlebell-overhead-lunge", "reps": "5 each side", "notes": "→ Bell locked out overhead, step forward into a lunge. Stand straight up from the lunge with arm STILL locked overhead. That's 1 rep of the full flow." }
       ],
+      "notes": "5 reps each side × 5 rounds. Don't put the bell down between moves — one continuous chain. Each rep flows: swing → catch into rack → squat → punch overhead → lunge → stand up with arm locked.",
       "restBetween": 0,
-      "restAfter": 150
+      "restAfter": 120
     }
   ],
   "tips": [
-    "5 reps each side per round — do all 5 exercises on one side, then switch",
-    "Don't put the bell down between exercises — it's a continuous flow",
-    "@Asgooch used a 24kg bell for all rounds",
-    "Rest 2-3 minutes between rounds",
-    "Focus on smooth transitions between movements"
+    "Watch the video first: https://x.com/Asgooch/status/2026011472489324584",
+    "All same arm, don't put the bell down until you switch sides.",
+    "The swing clean is catching a full swing into rack — control the momentum.",
+    "Split stance snatch: punch the bell overhead from rack while still in B-stance.",
+    "OH lunge: stand straight up with arm STILL locked overhead. That's the hard part.",
+    "@Asgooch used a 24kg (53lb) bell. Go lighter to learn the transitions.",
+    "Rest 2 min between rounds."
   ]
 }

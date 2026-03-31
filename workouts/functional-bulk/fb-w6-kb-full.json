@@ -1,7 +1,7 @@
 {
   "id": "fb-w6-kb-full",
   "name": "Week 6 KB Full Body (Explore)",
-  "description": "OTD flow is second nature now — push fluidity at 25lb, maybe try 30lb if 25 feels effortless. Bent press at 30 for real. TGU at 30 — left side is the project. C&P pushing for 8 reps. Full session, no GTC excuse this week.",
+  "description": "New flow day! B-Stance Flow (@Asgooch) replaces OTD — unilateral, don't put the bell down, includes your first snatch work. Start at 20lb to learn transitions. Bent press at 30 for real. TGU at 30 — left side is the project. C&P pushing for 8 reps.",
   "routineId": "functional-bulk",
   "tags": ["kettlebell", "full-body", "strength", "skill-work", "intermediate", "fixed"],
   "estimatedDuration": 40,
@@ -23,19 +23,19 @@
     },
     {
       "id": "flow-block",
-      "name": "Block 1: OTD Flow",
+      "name": "Block 1: B-Stance Flow (@Asgooch)",
       "type": "exercises",
-      "rounds": 3,
+      "rounds": 5,
       "exercises": [
-        { "id": "kettlebell-dead-clean", "reps": "1 each side", "notes": "Dead stop, explosive pull to rack." },
-        { "id": "kettlebell-front-squat", "reps": "1 each side", "notes": "Full depth from rack." },
-        { "id": "kettlebell-lateral-lunge", "reps": "1 each side", "notes": "Step wide, hips back." },
-        { "id": "kettlebell-bent-press", "reps": "1 each side", "notes": "Bend away, lock out." },
-        { "id": "kettlebell-tactical-clean", "reps": "1 each side", "notes": "Control down to start." }
+        { "id": "kettlebell-b-stance-swing", "reps": "5 each side", "notes": "B-stance: one foot back, heel up. Swing between legs, explosive hip drive. Bell swings up to about chest height." },
+        { "id": "kettlebell-swing-clean", "reps": "5 each side", "notes": "→ On the next swing, CATCH it directly into rack position at your shoulder. Don't dead stop — ride the momentum into the clean." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": "5 each side", "notes": "→ Bell is in rack. Stay in B-stance (back foot heel still up). Squat down and stand back up. Bell stays at shoulder." },
+        { "id": "kettlebell-swing-snatch", "reps": "5 each side", "notes": "→ From rack, punch the bell straight overhead in one motion. Lock out arm, stand tall. This is the split stance snatch — you're still in B-stance when it goes up." },
+        { "id": "kettlebell-overhead-lunge", "reps": "5 each side", "notes": "→ Bell locked out overhead, step forward into a lunge. Stand straight up from the lunge with arm STILL locked overhead. That's 1 rep of the full flow." }
       ],
-      "notes": "OTD flow (Madeline Conti). 25lb — or try 30lb if 25 feels effortless. 3 rounds each side, do the whole flow 3 times. You know this now. Make it look easy.",
+      "notes": "NEW FLOW: B-Stance Flow (@Asgooch). 5 reps each side × 5 rounds. Don't put the bell down between moves — it's one continuous chain. Start at 20lb to learn the transitions, especially the swing clean and split stance snatch. Video: https://x.com/Asgooch/status/2026011472489324584",
       "restBetween": 0,
-      "restAfter": 60
+      "restAfter": 120
     },
     {
       "id": "skill-block",
@@ -87,8 +87,10 @@
     }
   ],
   "tips": [
-    "Tuesday = EXPLORE. Full session this week — no GTC excuse.",
-    "OTD flow at 25 or 30: if 25 feels like autopilot, the flow has leveled up. Try 30.",
+    "Tuesday = EXPLORE. New flow!",
+    "B-Stance Flow: 5 reps each side × 5 rounds. Watch the video first: https://x.com/Asgooch/status/2026011472489324584",
+    "20lb to learn. The transitions are the workout — swing → catch into rack → squat → punch overhead → lunge → stand up arm locked.",
+    "Swing clean = catching a full swing into rack. Split stance snatch = punch overhead while still in B-stance.",
     "Bent press at 30: this is week 2 at this weight. Should feel more controlled.",
     "TGU left side: the project continues. Smooth > fast.",
     "C&P: 8 reps is the goal. You hit 6 when tired last week. Fresh = 8.",

@@ -467,11 +467,12 @@ app.get("/*", async (c) => {
   const timelineJs = await Deno.readTextFile(new URL("./static/timeline.js", import.meta.url)).catch(() => "");
   const timerJs = await Deno.readTextFile(new URL("./static/timer.js", import.meta.url)).catch(() => "");
   const chatJs = await Deno.readTextFile(new URL("./static/chat.js", import.meta.url)).catch(() => "");
+  const linkifyJs = await Deno.readTextFile(new URL("./static/linkify.js", import.meta.url)).catch(() => "");
 
-  return c.html(renderPage(css, generatorJs, timelineJs, timerJs, chatJs));
+  return c.html(renderPage(css, generatorJs, timelineJs, timerJs, chatJs, linkifyJs));
 });
 
-function renderPage(css: string, generatorJs: string, timelineJs: string, timerJs: string, chatJs: string) {
+function renderPage(css: string, generatorJs: string, timelineJs: string, timerJs: string, chatJs: string, linkifyJs: string) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1027,7 +1028,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </template>
               </div>
               <template x-if="selectedProgram.description">
-                <p class="workout-description" x-text="selectedProgram.description"></p>
+                <p class="workout-description" x-html="linkify(selectedProgram.description)"></p>
               </template>
             </div>
 
@@ -1074,7 +1075,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Week Tips</div>
                     <ul style="margin: 0; padding-left: 1.25rem; list-style: disc; display: flex; flex-direction: column; gap: 0.4rem;">
                       <template x-for="(tip, tipIdx) in selectedProgram.weeks[selectedWeekIdx].tips" :key="'wtip-' + tipIdx">
-                        <li style="line-height: 1.6; font-size: 0.9rem;" x-text="tip"></li>
+                        <li style="line-height: 1.6; font-size: 0.9rem;" x-html="linkify(tip)"></li>
                       </template>
                     </ul>
                   </div>
@@ -1221,7 +1222,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Tips</div>
                   <div class="workout-tips-inline" style="margin: 0;">
                     <template x-for="(tip, tipIdx) in selectedProgram.tips" :key="'ptip-' + tipIdx">
-                      <span><span x-text="tip"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
+                      <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
                     </template>
                   </div>
                 </div>
@@ -1366,12 +1367,12 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </template>
               </div>
               <template x-if="selectedWorkout.description">
-                <p class="workout-description" x-text="selectedWorkout.description"></p>
+                <p class="workout-description" x-html="linkify(selectedWorkout.description)"></p>
               </template>
               <template x-if="selectedWorkout.tips && selectedWorkout.tips.length > 0">
                 <p class="workout-tips-inline">
                   <template x-for="(tip, tipIdx) in selectedWorkout.tips" :key="'tip-' + tipIdx">
-                    <span><span x-text="tip"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
+                    <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
                   </template>
                 </p>
               </template>
@@ -1560,7 +1561,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                               </template>
                             </div>
                             <template x-if="ex.notes">
-                              <div class="ex-notes" x-text="ex.notes"></div>
+                              <div class="ex-notes" x-html="linkify(ex.notes)"></div>
                             </template>
                             <template x-if="expandedExercises?.includes(setIdx + '-' + exIdx)">
                               <div class="ex-expanded" @click.stop>
@@ -1734,10 +1735,13 @@ ${timerJs}
 
 ${chatJs}
 
+${linkifyJs}
+
 function routineStackApp() {
   const chatMixin = typeof chatPanel === 'function' ? chatPanel() : {};
   return {
     ...chatMixin,
+    linkify: _linkify,
     sidebarOpen: true,
     loading: true,
     initialized: false,
