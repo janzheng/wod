@@ -1,0 +1,65 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w6-push",
+    "date": "2026-03-31",
+    "notes": "W6D1 Push. Push press still hard at 50 — first set 8, second set 7 (unbalanced/unstable, dropped down), third set 8 with better stagger technique. Right shoulder still bothering but found that contracting/engaging shoulder down cracks it and helps a lot. Band rotator cuff work felt great — 12x50 cable external rotations kneeling, plus Yuri band warmup mid-session fixed the crackly feeling. Chest press machine HUGE jump: 160→170→180x8→180x4, then drop 160x2→140x4. 180x8 is insane. Lat raises at 20x15 clean for all 3 sets, then isolated 25x8 each side with full ROM. Incline DB at 55 inconsistent (10/9/10/7). Pec deck 120x12 all 3 sets. Cable lat raise right shoulder still crackly at 50 but Yuri band warmup helped. Incline overhead tri ext dying at 65x12/12/11. Straight arm pulldown 110x10/10/9 — hard day.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "push-press",
+        "sets": ["50/side x8 (hard)", "50/side x7 (unbalanced, staggering)", "50/side x8 (more momentum + slight stagger)"],
+        "workingWeight": 50,
+        "notes": "Hard today. Set 2 was unbalanced — legs not staggered enough, dropped a rep. Set 3 fixed with more momentum and leg stagger. First set was too static. 50/side remains the working weight. Technique note: slight stagger stance + momentum on the dip helps stability."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": ["20 x15", "20 x15", "20 x15 (clean, still ready for more)", "25 x8 each side (isolated, full ROM)"],
+        "workingWeight": "20-25",
+        "notes": "20x15 all 3 sets CLEAN and felt like more was there. Added isolated 25x8 each side — full ROM! Huge jump from W5. 25 is the next working weight for full sets. Try 25x12 next week."
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": ["160 x8 (easy)", "170 x8 (way harder)", "180 x8 (extremely hard, lots of breathing/faces)", "180 x4 (died mid-5)", "160 x2 (dead)", "140 x4 (also dead)"],
+        "workingWeight": 180,
+        "notes": "HUGE session. 160 easy, 170 harder but still 8, 180x8 with full ROM and maximal effort (faces and hard breathing lol). 180x4 on set 4, then drop sets 160x2→140x4 completely dead. W5 (last exercise): 140x6 was the best. Today (not last): 180x8. 40lb jump when not pre-fatigued. 180 is the real working weight."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": ["55 x10 (easy?)", "55 x9 (died at 8, forgot to count first)", "55 x10 (felt like dying but did them, more rest)", "55 x7 (full ROM, died)"],
+        "workingWeight": 55,
+        "notes": "Setup always feels impossible then the actual reps are fine. 10/9/10/7. Not all full ROM — not always all the way to chest. Third set got more rest which helped. Fourth set went for full ROM and died at 7. 55 still the working weight. Setup anxiety remains."
+      },
+      {
+        "id": "pec-deck-fly",
+        "sets": ["120 x12 (easy)", "120 x12 (hard to get full ROM last 2)", "120 x12 (second wind, full ROM)"],
+        "workingWeight": 120,
+        "notes": "Bumped from 115 to 120. Easy first set, ROM struggled on set 2, then got second wind for full ROM on set 3. 120 is the new working weight. W5: 115x12 clean. Up 5lbs."
+      },
+      {
+        "id": "cable-external-rotation",
+        "sets": ["50 x12 each side", "50 x12 each side"],
+        "workingWeight": 50,
+        "notes": "Kneeling, cable from top, rotator cuff action. Felt great — shoulder loosened up noticeably. Added mid-session as shoulder rehab. Keep this in the routine."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "sets": ["50 x12 (right shoulder crackly, hitting elbow)", "50 x12 (better after Yuri band warmup)"],
+        "workingWeight": 50,
+        "notes": "Right shoulder still crackly, feeling linked to elbow somehow (one muscle chain?). Used red band for Yuri shoulder warmup between sets — worked super well. Second set much better. Need more band work going forward. Dropped from W5's 55 back to 50 due to shoulder."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": ["65 x12 (dying)", "65 x12 (also dying)", "65 x11"],
+        "workingWeight": 65,
+        "notes": "12/12/11. Dying on all sets. Same pattern as W5. 65 remains the working weight. Dropping form badly by end."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": ["110 x10", "110 x10", "110 x9"],
+        "workingWeight": 110,
+        "notes": "Hard today. 10/10/9. W5: 12/12/9. Lower reps this week — accumulated fatigue from the chest press monster sets. 110 still the working weight."
+      }
+    ]
+  }
+]

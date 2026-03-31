@@ -215,13 +215,13 @@
                 </template>
               </div>
               <template x-if="selectedWorkout.description">
-                <p class="workout-description" x-text="selectedWorkout.description"></p>
+                <p class="workout-description" x-html="linkify(selectedWorkout.description)"></p>
               </template>
               <!-- Tips inline -->
               <template x-if="selectedWorkout.tips && selectedWorkout.tips.length > 0">
                 <p class="workout-tips-inline">
                   <template x-for="(tip, tipIdx) in selectedWorkout.tips" :key="'tip-' + tipIdx">
-                    <span><span x-text="tip"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
+                    <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
                   </template>
                 </p>
               </template>
@@ -290,7 +290,7 @@
                             </div>
                             <!-- Row 2: notes -->
                             <template x-if="ex.notes">
-                              <div class="ex-notes" x-text="ex.notes"></div>
+                              <div class="ex-notes" x-html="linkify(ex.notes)"></div>
                             </template>
                             <!-- Expanded content -->
                             <template x-if="expandedExercises?.includes(setIdx + '-' + exIdx)">
@@ -528,6 +528,10 @@
   // App component - defined before Alpine loads (defer attribute handles timing)
   function routineStackApp() {
     return {
+      linkify(text) {
+        if (!text) return '';
+        return text.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+      },
       sidebarOpen: true,
       loading: true,
       initialized: false,
