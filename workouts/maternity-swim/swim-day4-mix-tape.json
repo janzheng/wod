@@ -1,0 +1,75 @@
+{
+  "id": "maternity-swim-day4-mix-tape",
+  "name": "Swim Day 4: Mix Tape",
+  "description": "Jess: Variety day — a little of everything, nothing too long. ~35 min, 1500-1800y. Stroke medleys, drill/swim combos, mixed kick. The 'never bored' workout.",
+  "routineId": "maternity-swim",
+  "tags": ["maternity-swim", "swimming", "variety", "moderate", "fun"],
+  "estimatedDuration": 35,
+  "equipment": ["pool", "kickboard", "pull-buoy"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-im-drill-order", "distance": "200", "notes": "50 back / 50 breast / 100 free. Easy, get all the strokes moving." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "drill-swim",
+      "name": "Drill/Swim Combo",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "swim-catch-up-drill", "distance": "50", "notes": "25 catch-up drill / 25 swim. Feel the difference." },
+        { "id": "swim-fingertip-drag", "distance": "50", "notes": "25 fingertip drag / 25 swim. High elbows should carry over." },
+        { "id": "swim-single-arm-freestyle", "distance": "50", "notes": "25 right arm / 25 left arm." },
+        { "id": "swim-freestyle", "distance": "50", "notes": "Put it all together — swim with all those cues in your head." }
+      ],
+      "restBetween": 10,
+      "restAfter": 30
+    },
+    {
+      "id": "stroke-mix",
+      "name": "Stroke Sampler",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-backstroke", "distance": "100", "notes": "Moderate effort back." },
+        { "id": "swim-breaststroke", "distance": "100", "notes": "Moderate effort breast — gliiiiide on each one." },
+        { "id": "swim-freestyle", "distance": "100", "notes": "Moderate effort free — build to 75% on the last 50." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "kick-snack",
+      "name": "Kick Snack",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-kickboard-kick", "distance": "100", "notes": "50 flutter / 50 breast kick. Variety!" },
+        { "id": "swim-kick-on-back", "distance": "100", "notes": "Easy back kick, arms at sides. Relax into it." }
+      ],
+      "restBetween": 10,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-sidestroke", "distance": "100", "notes": "Easy sidestroke." },
+        { "id": "swim-backstroke", "distance": "100", "notes": "Lazy backstroke — float home." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This is the 'never get bored' workout — nothing lasts long enough to get tedious",
+    "Drill/swim combos: the drill teaches your body, the swim lets you apply it",
+    "If you're short on time, cut the kick snack and go straight to cooldown",
+    "NO flip turns, NO butterfly, NO diving"
+  ]
+}

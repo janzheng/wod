@@ -99,6 +99,19 @@ When creating morning flows for the functional-bulk program:
 
 When building or modifying workouts for the functional-bulk-dynamic program (or any personalized workout), **always check `NOTES.md`** for session observations, planned progressions, exercise ideas, and equipment notes from prior weeks. These notes capture decisions and context that don't live in the workout JSON files.
 
+## Weekly Workout Generation
+
+When generating a new week's workout files, **every exercise note must be fresh and specific to that week**. Do NOT carry forward stale notes from previous weeks. Each exercise note should reference:
+- The most recent session log actuals (what weight/reps were actually done)
+- Any form corrections or observations from the prior week
+- The specific target for THIS week (not copy-pasted from last week)
+- Context from NOTES.md (equipment swaps, shoulder status, form focus, etc.)
+
+Bad: "W5: first attempt at 30. If W5 was solid, push for 5 reps per side."
+Good: "W7 form check: 25lb at home, 30lb at gym. W6 actuals: 30x5 each side solid. Stay at 30, focus on clean path. Right shoulder still crackly — stop if it flares."
+
+**Exercise count discipline:** When adding a new exercise, ALWAYS remove or replace an existing one — don't just add on top. Workouts should stay roughly the same length week to week. If experimenting with something new, ask the user what to drop. If unsure, propose the swap explicitly ("add X, drop Y — ok?"). The pull day getting too long in W7 is what happens when we keep adding without trimming.
+
 ## Session Logging
 
 When logging gym day sessions from conversation:

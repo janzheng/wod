@@ -1,0 +1,62 @@
+{
+  "id": "maternity-swim-day3-pull-chill",
+  "name": "Swim Day 3: Pull & Chill",
+  "description": "Jess: Upper body focus with pull buoy — let the legs rest after kick day. ~30 min, 1200-1500y. Smooth pulls, sculling, backstroke. Chill vibes.",
+  "routineId": "maternity-swim",
+  "tags": ["maternity-swim", "swimming", "pull", "upper-body", "moderate", "recovery"],
+  "estimatedDuration": 30,
+  "equipment": ["pool", "pull-buoy"],
+  "difficulty": "beginner-intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-backstroke", "distance": "200", "notes": "Easy backstroke to start — face out of the water, find your rhythm." },
+        { "id": "swim-freestyle", "distance": "100", "notes": "Smooth free, long strokes." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "pull-main",
+      "name": "Pull Set",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-pull-buoy-freestyle", "distance": "4x100", "notes": "Buoy between thighs. Long, smooth pulls. Focus on the catch — fingertips down, elbow high. Rest :15 between." },
+        { "id": "swim-pull-buoy-backstroke", "distance": "4x50", "notes": "Pull buoy backstroke — so floaty. Steady rotation, pinky-first entry." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "sculling",
+      "name": "Feel the Water",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-sculling", "distance": "4x25", "notes": "Scull on your back: head-first, feet-first, mid-scull, dealer's choice. Small figure-8s with the hands." },
+        { "id": "swim-catch-up-drill", "distance": "4x50", "notes": "Catch-up to reinforce that long front-end feeling." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-breaststroke", "distance": "100", "notes": "Easy breast — long glides, open hips." },
+        { "id": "swim-sidestroke", "distance": "100", "notes": "Sidestroke home. Switch sides at 50." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Pull buoy takes pressure off the legs — enjoy the float",
+    "The buoy lifts your hips which feels amazing with a growing belly",
+    "Sculling is meditation in the pool — let yourself zone out",
+    "If you only have 20 min, skip the sculling block and just do the pull set",
+    "NO flip turns, NO butterfly"
+  ]
+}

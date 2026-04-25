@@ -1,0 +1,61 @@
+{
+  "id": "fb-w9-push-morning-flow",
+  "name": "W9 Push Morning Flow (Pec Minor Release)",
+  "description": "15 min. Same shoulder health structure as W8 + added pec minor release block. W9D1 discovery: the right-shoulder-blade-to-front-pec connection felt on slow chest press is classic pec minor tightness. Tight pec minor tilts the shoulder blade forward, which strains what's behind it. The fix is stretching the front, not strengthening the back. Uses a doorframe (in addition to bodyweight).",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "shoulders", "chest", "pec-minor", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat", "doorframe"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "shoulder-health",
+      "name": "Shoulder Health + Strength",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "15 each direction", "notes": "Big circles, warm the joint" },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "Lie on your side, elbow at 90, rotate forearm up. Gravity is the resistance. Slow and controlled." },
+        { "id": "prone-y-raises", "reps": 10, "notes": "Face down, arms in Y overhead. Lower traps + rotator cuff. Pulls the shoulder blade down and back — direct antagonist to tight pec minor. Hold at top 1 second." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "Arms locked, only shoulder blades move — retract then protract. Serratus + pec minor fight over the shoulder blade — activating serratus helps 'unstick' a tight pec minor." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "overhead-activation",
+      "name": "Overhead Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "wall-angel", "reps": 12, "notes": "Back flat against wall. Pins the shoulder blades in the corrected position — counteracts forward rolling from pec tightness." },
+        { "id": "pike-push-up", "reps": 8, "notes": "Overhead pressing pattern. Shoulder-to-ceiling." },
+        { "id": "push-up", "reps": 10, "notes": "Standard, easy. Chest activation before the gym." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "pec-minor-release",
+      "name": "Pec Minor + Chest Release (W9 addition)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 30, "notes": "30s each arm, at LOW/MID/HIGH elbow positions (each hits a different pec minor fiber angle). Arm bent 90°, forearm on door frame, step through and rotate torso AWAY. THIS IS THE KEY MOVE. Do it daily, not just on push mornings — desk work retightens it continuously." },
+        { "id": "puppy-pose", "duration": 30, "notes": "Deep shoulder stretch. Hands far in front, hips over knees, chest sinks toward floor. Stretches lats + pec minor together." },
+        { "id": "thread-the-needle", "duration": 30, "notes": "30s each side. Deep thoracic rotation — opens up the front shoulder at the same time." },
+        { "id": "cobra-stretch", "duration": 20, "notes": "Squeeze shoulder blades down and back at top. Chest + hip flexors together." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "15 min. Pec minor release is the W9 focus.",
+    "The right-shoulder-blade ache → front-pec connection felt on W9D1 chest press is classic pec minor tightness. Tight pec minor tilts the shoulder blade forward, straining what's behind it. Stretch the front to relieve the back.",
+    "Doorframe chest stretch is the most important move this week. Do it daily — desk work continuously retightens pec minor, 3x/week doesn't keep up.",
+    "Prone Y raises + scapular push-ups are the ACTIVE side of the fix — retrain the shoulder blade to sit back and down.",
+    "If short on time: doorframe stretch + prone Y + scapular push-ups. 5 min covers the pec minor protocol.",
+    "Track for 2-3 weeks. If the shoulder blade ache fades, diagnosis confirmed. If not, we escalate (rhomboid trigger point, actual lower trap weakness)."
+  ]
+}

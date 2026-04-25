@@ -582,7 +582,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     </button>
                     <span class="iconify folder-tree-icon" data-icon="lucide:calendar-days"></span>
                     <span class="folder-tree-name" x-text="program.name"></span>
-                    <span class="folder-tree-count" x-text="program.frequency + 'x/wk'"></span>
+                    <span class="folder-tree-count" x-show="program.frequency" x-text="program.frequency + 'x/wk'"></span>
                   </div>
                   <div class="folder-tree-contents" x-show="expanded" x-collapse>
                     <div class="folder-tree-item"
@@ -1550,7 +1550,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                                 <button class="ex-shuffle" @click.stop="shuffleExercise(set.id, exIdx)" title="Shuffle">↻</button>
                               </template>
                               <span class="ex-name" x-text="ex.name"></span>
-                              <span class="ex-duration" x-text="ex.duration ? ex.duration + 's' : (ex.reps ? ex.reps + ' reps' : '')"></span>
+                              <span class="ex-duration" x-text="ex.distance ? ex.distance : (ex.duration ? ex.duration + 's' : (ex.reps ? ex.reps + ' reps' : ''))"></span>
                               <template x-if="ex.media && ex.media.length > 0">
                                 <span class="ex-media-icon"><span class="iconify" data-icon="lucide:play-circle"></span></span>
                               </template>

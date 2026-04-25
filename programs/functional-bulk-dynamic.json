@@ -666,6 +666,336 @@
         "Thursday KB: boring. Legs tomorrow. You know the drill."
       ],
       "logFile": "logs/functional-bulk-dynamic-w6.json"
+    },
+    {
+      "week": 7,
+      "label": "Form Check",
+      "description": "Same exercises, form focus. Weights stay flat — stop sets when form breaks, don't chase reps. New exercises: Kinesis cable fly (pec deck broken), chest supported DB row, high cable bicep curl, cable crunch. B-Stance flow trimmed to 3x3 (was 5x5 = way too long). RDL is the form check exercise of the week — nail the bracing.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (form check)",
+          "type": "workout",
+          "workoutId": "fb-w7-push",
+          "flow": {
+            "workoutId": "fb-w7-push-morning-flow",
+            "label": "Morning Flow",
+            "notes": "12 min — shoulder rehab kept. Overhead mobility. Push press form is the focus today."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL BODY (EXPLORE)",
+          "type": "workout",
+          "workoutId": "fb-w7-kb-full",
+          "flow": {
+            "workoutId": "fb-w7-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — thoracic + hips. B-Stance flow is trimmed today."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (form check)",
+          "type": "workout",
+          "workoutId": "fb-w7-pull",
+          "flow": {
+            "workoutId": "fb-w7-pull-morning-flow",
+            "label": "Morning Flow",
+            "notes": "12 min — bicep/elbow prep. Two new exercises today: high cable curl + cable crunch."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB REFINE (light — legs tomorrow)",
+          "type": "workout",
+          "workoutId": "fb-w7-kb-cond",
+          "flow": {
+            "workoutId": "fb-w7-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — same flow as Tuesday. Be boring. Legs tomorrow."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS (form check — RDL focus)",
+          "type": "workout",
+          "workoutId": "fb-w7-legs",
+          "flow": {
+            "workoutId": "fb-w7-legs-morning-flow",
+            "label": "Morning Flow",
+            "notes": "15 min — hip depth + glute activation. RDL bracing is the form check exercise today."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 60,
+                "intensity": "easy",
+                "notes": "Get outside. Conversational pace."
+              }
+            },
+            {
+              "label": "Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "FORM CHECK WEEK: stop sets when form breaks. Don't chase reps or weight.",
+        "Push press: parallel feet, no stagger. Accept 6 clean reps over 8 messy ones.",
+        "Kinesis cable fly: first time — scout the working number (1-12 scale).",
+        "Chest supported DB row: new. 40-50lb, strict. The preacher curl of rows.",
+        "High cable bicep curl + cable crunch: both new, both on cable column. Find working weights.",
+        "RDL is THE form check exercise — slow eccentric, brace before every rep, no back compensation.",
+        "Squat 75 baseline, 80 attempt on last set if clean.",
+        "B-Stance flow: 3 reps × 3 rounds (NOT 5x5). Learn from W6.",
+        "Thursday KB: boring. You know the drill."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w7.json"
+    },
+    {
+      "week": 8,
+      "label": "Selective Push",
+      "description": "Form check discoveries stay — push press at 45 parallel, incline DB at 50 with pause, leg press at 4 plates full ROM, back extensions at 25 slow. Push only on clean stuff: squat pyramids to 80 faster, chest press tries 185, DB rows try 85, cable crunch explores 120. Pull day trimmed (cable row dropped for chest supported). Usable strong > numbers.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH",
+          "type": "workout",
+          "workoutId": "fb-w8-push",
+          "flow": {
+            "workoutId": "fb-w8-push-morning-flow",
+            "label": "Morning Flow",
+            "notes": "15 min — bodyweight shoulder work (no bands at home). Side-lying rotation, prone Y, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL BODY (EXPLORE)",
+          "type": "workout",
+          "workoutId": "fb-w8-kb-full",
+          "flow": {
+            "workoutId": "fb-w8-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — thoracic + hips. Same as W7."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (trimmed)",
+          "type": "workout",
+          "workoutId": "fb-w8-pull",
+          "flow": {
+            "workoutId": "fb-w8-pull-morning-flow",
+            "label": "Morning Flow",
+            "notes": "12 min — bicep/elbow prep. Dead hang 25s, scap pull-ups x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB REFINE (light — legs tomorrow)",
+          "type": "workout",
+          "workoutId": "fb-w8-kb-cond",
+          "flow": {
+            "workoutId": "fb-w8-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — same as Tuesday. Boring. Legs tomorrow."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS",
+          "type": "workout",
+          "workoutId": "fb-w8-legs",
+          "flow": {
+            "workoutId": "fb-w8-legs-morning-flow",
+            "label": "Morning Flow",
+            "notes": "15 min — hip depth + glute activation. Squat pyramids to 80 faster today."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 60,
+                "intensity": "easy",
+                "notes": "Get outside. Conversational pace."
+              }
+            },
+            {
+              "label": "Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "SELECTIVE PUSH: form check stays on discoveries, push only on clean stuff.",
+        "Push press stays at 45 parallel. Don't rush back to 50.",
+        "Squat: pyramid to 80 faster — 75x8, 75x8, 80x8, 80x8.",
+        "Chest press: 180 is locked in. Try 185 on one set if 180 feels easy.",
+        "DB rows: 80x10 was clean. Try 85 on the top set.",
+        "Pull day is trimmed — cable row dropped, finisher cut to 2 sets each.",
+        "Leg press stays at 4 plates full ROM. Don't creep back to 6.",
+        "Back extensions at 25 slow. Hamstrings are just waking up.",
+        "Usable strong > numbers."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w8.json"
+    },
+    {
+      "week": 9,
+      "label": "Recovery Deload",
+      "description": "QL spasm recovery week. W7 form-check + W8 selective-push both drifted into PR territory on clean lifts, and W8D5 lunges triggered a bilateral QL spasm that lasted the weekend. W9 is a true deload: habit preserved, load cut 25-40%, QL offenders removed. Push press → seated DB press. No back extensions, no DB lunges, no Smith Bulgarians, no KB swings, no B-stance flow, no cable crunch. Daily QL release work. W10 returns to W8 loads IF recovery holds.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (deload)",
+          "type": "workout",
+          "workoutId": "fb-w9-push",
+          "flow": {
+            "workoutId": "fb-w9-push-morning-flow",
+            "label": "Morning Flow",
+            "notes": "15 min — adds pec minor release block (doorframe chest stretch). Targets the right-shoulder-blade → front-pec connection felt on W9D1 chest press."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB LIGHT (skill only, no hip hinge)",
+          "type": "workout",
+          "workoutId": "fb-w9-kb-full",
+          "flow": {
+            "workoutId": "fb-w8-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — thoracic + hips. Keep it gentle this week."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (deload)",
+          "type": "workout",
+          "workoutId": "fb-w9-pull",
+          "flow": {
+            "workoutId": "fb-w8-pull-morning-flow",
+            "label": "Morning Flow",
+            "notes": "12 min — bicep/elbow prep. Pull-ups are decompressing this week, good for the back."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB LIGHT (active recovery)",
+          "type": "workout",
+          "workoutId": "fb-w9-kb-cond",
+          "flow": {
+            "workoutId": "fb-w8-kb-morning-flow",
+            "label": "Morning Flow",
+            "notes": "10 min — same as Tuesday. Or skip entirely if back is still twitchy — take a walk instead."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS (deload, seated/supported only)",
+          "type": "workout",
+          "workoutId": "fb-w9-legs",
+          "flow": {
+            "workoutId": "fb-w9-legs-morning-flow",
+            "label": "Morning Flow",
+            "notes": "15 min — QL/hip flexor release focus. Pigeon 90s each side. Longer holds than usual."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Best recovery cardio. Long flat walk, conversational pace."
+              }
+            },
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Flat Bay Area Hike",
+                "duration": 60,
+                "intensity": "easy",
+                "notes": "Flat trails only this week — no steep descents that load the QL."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "RECOVERY WEEK — QL spasm over weekend after W8D5. Habit over intensity.",
+        "All working weights 60-80% of W8. Stop every set 2 reps shy of failure.",
+        "SKIPPED this week: back extensions, DB lunges, Smith Bulgarians, KB swings, B-stance flow, cable crunch, push press.",
+        "Push press → SEATED DB press. The standing overhead brace is what loads the QL.",
+        "Pull-ups are actually good this week — spinal decompression.",
+        "Legs day is the lightest of the program on purpose. Squat at 55/side is maintenance, not a workout.",
+        "Daily: lacrosse ball on QL, pigeon, child's pose, supine spinal twist.",
+        "If the back twinges at any point, stop the session. The recovery is the point.",
+        "W10 target: if recovery holds, ease back to W8 loads. Don't make up lost progression."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w9.json"
     }
   ],
   "tips": [

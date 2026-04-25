@@ -1,0 +1,90 @@
+{
+  "id": "fb-w9-legs",
+  "name": "Week 9 Legs — Recovery Deload (Seated/Supported Only)",
+  "description": "Post-QL-spasm legs day. SKIP everything that lit it up: back extensions, DB lunges, Smith Bulgarians, heavy squats. Keep light maintenance squat + seated/supported machine work. Add butterfly/frog stretch as cooldown (per W9 planning notes). This is the lightest legs day of the program on purpose.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "recovery", "deload", "legs", "lower-body", "ppl", "ql-safe"],
+  "estimatedDuration": 40,
+  "equipment": ["barbell", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Extra Hip/QL Mobility)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, slow. Find where the hips are tight and breathe into it." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Big slow circles. Wake up the hip stabilizers gently." },
+        { "id": "cat-cow", "reps": 10, "notes": "Extra spine mobility — don't skip this week" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-working",
+      "name": "Maintenance Squat",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "55/side x8 x3 (drop from 75-80). The 'keep squatting at least 1x/week' rule — even on recovery weeks. Deep, slow, controlled. This is maintenance, NOT progression. If the back twinges at all, rack it and skip the rest of squat work." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press (Deloaded, Seated)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press", "reps": 12, "notes": "3 plates/side (drop from 4), medium ROM — NOT the full-depth 4-plate version from W8. The deep 4-plate version is what's been hammering the hip stabilizers. Medium ROM this week, stay in the strong part of the range." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Seated Leg Curl",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": 12, "notes": "90 at the new settings (5 m 0 1). W8D5 confirmed 90 as warmup/calibration, 110 as working. Stay at 90 this week — hamstrings don't need the stimulus, we're recovering. Fully seated = QL-safe." }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "calf-raise-station",
+      "name": "Single Leg Calf Raise",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "leg-press-calf-raise", "reps": 20, "notes": "3 plates/side x20, single leg. No plate under foot this week — skip the deeper stretch progression, save it for W10 when the back is quiet." }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown-stretch",
+      "name": "Adductor + Hip Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "butterfly-stretch", "duration": 90, "notes": "90 seconds. The 'adductor stretch slot' from W9 planning — replaces the ad-hoc adductor machine experiment. Sit, soles together, hinge forward, breathe. Feels great after deep squats." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Deep hip flexor release — directly addresses what's been fried. The longer you hold, the more the QL/psoas lets go." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "RECOVERY WEEK — SKIPPING: back extensions (hidden fatigue driver), DB lunges (QL re-lighter), Smith Bulgarians (QL re-lighter).",
+    "Squat 55/side maintenance — the one rule is 'always keep squatting', even on recovery.",
+    "Leg press 3 plates medium ROM. The 4-plate full-ROM version is what's been hammering hip stabilizers.",
+    "Seated leg curl 90 (warmup weight) — don't push to 110 this week.",
+    "Butterfly stretch + pigeon as cooldown — this is where the adductor stretch slot lives now (no machine needed).",
+    "If the back twinges at ANY point, stop the session. The whole point of this week is to not re-anger it.",
+    "W10 target: ease back to W8 loads IF recovery held. Don't make up lost progression."
+  ]
+}

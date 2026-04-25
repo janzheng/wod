@@ -1,0 +1,56 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w9-push",
+    "date": "2026-04-20",
+    "notes": "W9D1 — first day of the QL-recovery deload. Felt really good, really needed it, better than staying at home. Deload is working as intended — showing up, moving, not re-angering anything. Key discoveries: (1) Seated DB press felt great — rotating the DBs from facing toward face at bottom → facing away at top really helps the shoulder, new cue to keep. (2) 'Shoulder in front' form on incline DB (the new forearm-stacked-over-elbow cue) made 40lb way harder than expected — form change IS the progression. (3) Chest press at 150 deload was actually hard with slow tempo + full ROM — noticed the nagging right shoulder blade is probably a muscle connecting the shoulder to the right front pec (feels it all at once when chest pressing slow). Second set harder than first, got 6 on third and dropped to 130x4 to finish — classic deload 'lighter weight feels real when form is honest.' Kinesis scale: lat raise 2, incline overhead tri 3, straight arm 4.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "dumbbell-shoulder-press",
+        "sets": [
+          { "weight": "30lb each, seated", "reps": "per plan", "notes": "Felt great. KEY CUE: rotate DBs from facing-in at bottom to facing-away at top — huge shoulder relief. New staple form." }
+        ]
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          { "weight": "40lb pair", "reps": "all sets", "notes": "With the new 'shoulder in front, stack forearm over elbow, elbows 45°' cue — way harder than expected. Finished all sets. The form is the progression, not the weight." }
+        ]
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": [
+          { "weight": "150", "reps": 8, "notes": "Set 1: hard with slow tempo + full ROM." },
+          { "weight": "150", "reps": 8, "notes": "Set 2: even harder than set 1." },
+          { "weight": "150", "reps": 6, "notes": "Stopped at 6." },
+          { "weight": "130", "reps": 4, "notes": "Dropped to 130 and finished 4 more. Right shoulder blade → front pec connection very noticeable at slow tempo — likely pec minor / subscapularis referring. Worth watching." }
+        ]
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": [
+          { "weight": "Kinesis 6", "reps": 12, "notes": "Fine at given weight." }
+        ]
+      },
+      {
+        "id": "cable-lateral-raise",
+        "sets": [
+          { "weight": "Kinesis 2", "reps": 12, "notes": "On Kinesis (not cable column). Scale is different from the regular cable column — 2 on Kinesis ≠ 35 on cables." }
+        ]
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": [
+          { "weight": "Kinesis 3", "reps": 12, "notes": "On Kinesis." }
+        ]
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": [
+          { "weight": "Kinesis 4", "reps": 12, "notes": "On Kinesis." }
+        ]
+      }
+    ]
+  }
+]

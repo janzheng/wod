@@ -1,0 +1,73 @@
+{
+  "id": "maternity-swim-day6-sprint-lite",
+  "name": "Swim Day 6: Fast & Short",
+  "description": "Jess: Short intervals with lots of rest — the closest to 'speed work' that's safe. ~30 min, 1200-1500y. 25s and 50s with plenty of recovery. Gets the competitive swimmer brain happy.",
+  "routineId": "maternity-swim",
+  "tags": ["maternity-swim", "swimming", "intervals", "moderate-hard", "fun"],
+  "estimatedDuration": 30,
+  "equipment": ["pool", "kickboard"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-freestyle", "distance": "200", "notes": "Easy free to warm up." },
+        { "id": "swim-backstroke", "distance": "100", "notes": "Easy back, loosen the shoulders." },
+        { "id": "swim-catch-up-drill", "distance": "4x25", "notes": "Drill to activate the catch before the main set." }
+      ],
+      "restBetween": 10,
+      "restAfter": 30
+    },
+    {
+      "id": "fast-25s",
+      "name": "Fast 25s",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-freestyle", "distance": "8x25", "notes": "FAST 25s — not all-out, but 80% effort. Like race pace from back in the day. :20 rest between each. This is the fun part." }
+      ],
+      "restBetween": 20,
+      "restAfter": 45
+    },
+    {
+      "id": "moderate-50s",
+      "name": "Moderate 50s",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-freestyle", "distance": "4x50", "notes": "Moderate-hard 50s — 70% effort. Focus on turnover and clean strokes. :30 rest between." },
+        { "id": "swim-backstroke", "distance": "4x50", "notes": "Moderate back — keep the tempo up but controlled. :20 rest." }
+      ],
+      "restBetween": 20,
+      "restAfter": 30
+    },
+    {
+      "id": "kick-flush",
+      "name": "Kick Flush",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-kickboard-breast-kick", "distance": "100", "notes": "Easy breast kick to flush the legs. Long glides." },
+        { "id": "swim-kick-on-back", "distance": "100", "notes": "Back kick, totally relaxed." }
+      ],
+      "restBetween": 10,
+      "restAfter": 15
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-sidestroke", "distance": "100", "notes": "Easy sidestroke to bring it home." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "80% effort on the fast 25s — this isn't a race, it's remembering what fast feels like",
+    "Plenty of rest between intervals — take more if you need it",
+    "Heart rate should come back down during rest before the next one",
+    "If you feel breathless or dizzy, dial it back to 60% or skip to the kick flush",
+    "The breast kick cooldown after speed work feels incredible",
+    "NO flip turns, NO diving off the blocks (tempting, I know), NO butterfly"
+  ]
+}

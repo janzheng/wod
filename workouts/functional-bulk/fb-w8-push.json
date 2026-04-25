@@ -1,0 +1,81 @@
+{
+  "id": "fb-w8-push",
+  "name": "Week 8 Push — Selective Push (Chest/Shoulders/Triceps)",
+  "description": "Selective push week. Form check discoveries locked in — parallel feet push press, 50lb incline pause, cable lat raise at 45. Where form was clean, nudge weight: chest press tries 185 on later sets, straight arm pulldown tries 115. Everything else holds.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "band"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Loosen shoulders" },
+        { "id": "yuris-shoulder-band-warmup", "reps": 1, "notes": "Full Yuri band warmup with red band. W6/W7: this clears the shoulder crackle better than anything else. Do the full sequence before touching any weight." },
+        { "id": "push-up", "reps": 12, "notes": "Get blood flowing, activate chest and triceps" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "overhead-station",
+      "name": "Station 1: Overhead",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "push-press", "reps": "6-8", "notes": "45/side. W7 actuals: 45x8x3 parallel feet, clean. DO NOT rush back to 50 — 45 with perfect form is the play. Parallel feet, shallow dip, explosive drive. Stop the set if form breaks, even at rep 6." },
+        { "id": "lateral-raise", "reps": 15, "notes": "20lb. W7 actuals: 20x15, shoulder crackly but improved with Yuri warmup. Stay at 20x15 — form was clean and shoulder tolerated it. Not chasing 25 yet." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "press-station",
+      "name": "Station 2: Press",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "chest-press-machine", "reps": "6-8", "notes": "180 base. W7 actuals: 180x8x3 clean, died on 4th set. 180 is locked in. OK TO PUSH: try 185 on set 2 or 3 (the strongest sets). If 185 feels ugly, drop back to 180 immediately — no grinding." },
+        { "id": "incline-dumbbell-press", "reps": 10, "notes": "50lb with pause at bottom. W7 actuals: 50x10x4 all completed, better ROM than 55. STAY AT 50 with pause — the pause is the progression, not the weight. Last set will be a fight, that's fine." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "machine-cable-station",
+      "name": "Station 3: Cables",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kinesis-cable-fly", "reps": "10-12", "notes": "Working number: 8. W7 actuals: 8x11 felt right. Aim for 3x12 clean this week — if all 3 sets hit 12, consider 9 next week. Constant tension, think pec deck." },
+        { "id": "cable-lateral-raise", "reps": 12, "notes": "45. W7 actuals: 45x12, dropped from 50 for stability. STAY AT 45 — both sides crackly at 50. Controlled and stable > heavy and wobbly." },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": "10-12", "notes": "54. W7 actuals: 54x12x3, surprisingly strong. Stay at 54 — can feel all the fibers, steady and safe. Hands shoulder-width for full long head emphasis." }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "straight-arm-pulldown", "reps": 12, "notes": "110 base. W7 actuals: 110x12x3 clean. OK TO PUSH: try 115 on set 2 or 3. Straight arms, lats do the work. Stop when shoulders start taking over." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "SELECTIVE PUSH: Form check discoveries stay locked in — only push where W7 was clean and confident (chest press, straight arm pulldown).",
+    "Push press at 45 is NOT a regression from 50 — it's better reps, better form, better long-term strength. Stay patient.",
+    "Yuri band warmup is non-negotiable. It's what makes the shoulder tolerate lat raises and cable work.",
+    "Chest press 185 attempt: only on set 2 or 3 when you're warmest. If form breaks, drop back to 180 immediately.",
+    "Incline DB: the pause at bottom IS the progression. 50 with pause > 55 without.",
+    "Rest 2 min between push press, 2.5 min on chest press, 75s on cables"
+  ]
+}

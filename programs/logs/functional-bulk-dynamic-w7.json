@@ -1,0 +1,234 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w7-push",
+    "date": "2026-04-07",
+    "notes": "FORM CHECK WEEK push day. Push press at 45/side x8 x3 with PARALLEL FEET — no stagger, almost full ROM. Way cleaner than 50/side. Last two reps of last set starting to collapse but solid overall. Chest press 180x8 for 3 clean sets then died on 4th. Incline DB dropped to 50 for better ROM with pause at bottom — 4x10 all completed. Cable lat raise dropped to 45 for stability. Kinesis fly first time — found working number at 8 (6 too easy, 9 losing form). Right shoulder crackly on lat raises but improved with warmup. Tri extension and straight arm pulldown both weirdly strong today.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "push-press",
+        "sets": ["45/side x8 (parallel, good form)", "45/side x8 (parallel, good form)", "45/side x8 (last 2 starting to collapse)"],
+        "workingWeight": 45,
+        "notes": "FORM CHECK: 45/side x8 x3 with completely parallel feet, no stagger. Almost full ROM. Really clean — this is the solid base to build from. Lost parallel quickly at 50 last week, so 45 with perfect form is more valuable. Last two reps of set 3 not best form but still parallel."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": ["20 x15 (right shoulder crackly)", "20 x15 (warmed up, better)", "20 x15 (felt best, less crackly)"],
+        "workingWeight": 20,
+        "notes": "Hard because of right shoulder, not tiredness. Improved each set as shoulder warmed up. Need to watch this and adjust if it doesn't improve. Injury prevention paramount."
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": ["180 x8 (good)", "180 x8 (hard, good form)", "180 x8 (really hard, almost all good)", "180 x4 (died) → 160 x4 (also dead)"],
+        "workingWeight": 180,
+        "notes": "3x8 at 180 with good form! Consistent with W6's 180x8 PR. Fourth set died at 4, dropped to 160 and also dead. 180x8 for 3 clean sets is the confirmed working weight at this station slot."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": ["50 x10 (good range, pause at bottom)", "50 x10 (good, getting winded)", "50 x10 (struggled last one)", "50 x10 (mega struggle last rep, held halfway, pushed to lock)"],
+        "workingWeight": 50,
+        "notes": "FORM CHECK: dropped from 55 to 50 for better ROM with pause at bottom. All 4x10 completed! Better form than 55 — consistent depth, clean pause. Last set was a fight but locked it out. 50 with pause > 55 without."
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": ["6 x12 (way too easy)", "9 x10 (losing form at 10)", "8 x11"],
+        "workingWeight": 8,
+        "notes": "FIRST TIME on Kinesis for flys. 6 too easy, 9 losing form. 8 is the sweet spot — feels like pec deck fly weight. Interesting how little support there is vs pec deck — feels more like DB fly but with constant tension. Really cool machine. Working number: 8."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "sets": ["50 x12 (hard, both sides crackly)", "45 x12 (dropped for form, really hard)", "45 x12 (more stable)"],
+        "workingWeight": 45,
+        "notes": "FORM CHECK: dropped from 55/50 to 45 for better form. Both sides crackly at 50. 45 feels more stable and controlled. Better to be strict at 45 than sloppy at 50."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": ["54 x12", "54 x12", "54 x12 (hard at end)"],
+        "workingWeight": 54,
+        "notes": "Surprisingly strong today. 54x12 for all 3 sets. Can feel all the fibers — steady and safe exercise. Loves these. Different number than usual (was 65) — maybe different cable/setting?"
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": ["110 x12", "110 x12", "110 x12"],
+        "workingWeight": 110,
+        "notes": "Weirdly fresh today — 3x12 all clean! W6: 10/10/9. Form check week energy? Less overall fatigue from lighter push press = more left for accessories."
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w7-kb-full",
+    "date": "2026-04-08",
+    "notes": "KB Explore — form check week. Used 25lb for basically everything except the 50lb strength block. B-stance flow at 3x3 (not 5x5 like W6 murder session). C&P at 50lb x8 for every set — breakthrough! Felt pretty good. 25lb cossacks gave much better depth than 40s. KB flow loosened up deep tightness — hip flexors and internal muscles very tight, rocking backward is very tight even in cobra. Form check week continues to feel great — confident and not overloaded.",
+    "exercises": [
+      {
+        "id": "b-stance-flow",
+        "exerciseIds": ["kettlebell-b-stance-swing", "kettlebell-swing-clean", "kettlebell-ab-stance-goblet-squat", "kettlebell-swing-snatch", "kettlebell-overhead-lunge"],
+        "sets": ["25lb x3 each side x3 rounds"],
+        "workingWeight": 25,
+        "notes": "3x3 not 5x5! Way more manageable. Still a great workout. Loosened up a lot of deep tightness."
+      },
+      {
+        "id": "kettlebell-bent-press",
+        "sets": ["25lb x3-5 each side x3"],
+        "workingWeight": 25,
+        "notes": "25lb for form check. Felt the internal stabilizer muscles working — these are likely the source of the deep soreness from recent weeks."
+      },
+      {
+        "id": "cossack-squat",
+        "sets": ["25lb x8 each side x3"],
+        "workingWeight": 25,
+        "notes": "25lb gives MUCH better depth than 40/45. Sticking to 25 in future to prioritize depth and form over weight."
+      },
+      {
+        "id": "kettlebell-windmill",
+        "sets": ["25lb x5 each side"],
+        "workingWeight": 25,
+        "notes": "25lb, solid."
+      },
+      {
+        "id": "kettlebell-turkish-getup",
+        "sets": ["25lb x3 each side x2"],
+        "workingWeight": 25,
+        "notes": "25lb for form check."
+      },
+      {
+        "id": "kettlebell-clean-and-press",
+        "sets": ["50lb x8 each x3"],
+        "workingWeight": 50,
+        "notes": "8 reps every set!! Breakthrough — W6 was 6 reps. Form check week + lighter flow = fresher for strength block. Both sides felt good."
+      },
+      {
+        "id": "kettlebell-row",
+        "sets": ["50lb as prescribed"],
+        "workingWeight": 50,
+        "notes": "Went well."
+      },
+      {
+        "id": "kettlebell-goblet-squat",
+        "sets": ["50lb as prescribed"],
+        "workingWeight": 50,
+        "notes": "Went well."
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w7-pull",
+    "date": "2026-04-09",
+    "notes": "Pull day — form check week. Pull-ups mixed grip positions (climber handles, wide, straight) = 32 total. Preacher was taken so did concentration curls on incline bench instead — surprisingly similar feel at 25lb. DB rows on bench this time: 80x10 (up from 80x7 last week!) with better bracing, slow and controlled. Chest supported row at 40 felt good. Lat pulldown 170 too heavy for slow/controlled — backed to 160. Cable row 130 but weird pulley slippage when going slow. Face pulls 50x20 slow were hard. Found the high cable bicep curl machine — dual pulley, 50-60 range, better isolation without full lockout. Cable crunch: 50 and 60 way too easy, 110 is the base. Workout getting long.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": ["10 (climber handles)", "8 (wide grip on bar)", "8 (normal grip, very slow dead hang)", "4+2 (slow, died)"],
+        "workingWeight": "BW",
+        "notes": "32 total. Mixed grip positions — climber handles, wide bar, normal bar. Not as strong as W6's 36 but different grips = different stimulus. Slow dead hangs on set 3 were brutal. Not a great pull-up day but still clean sets."
+      },
+      {
+        "id": "concentration-curl",
+        "sets": ["25 x10 each", "25 x8+2 assisted", "25 x6+2 assisted"],
+        "workingWeight": 25,
+        "notes": "SWAPPED from preacher curl (taken). Incline bench concentration curls. 25lb each side. Surprisingly similar feel to preacher — strict isolation, no cheating. Assisted last 2 reps with other hand on sets 2-3. Great alternative when preacher is taken."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": ["60 x10 (very slow)", "70 x10 (very slow, pauses, braced)", "80 x10 (lost slow form around 7)"],
+        "workingWeight": "60-80 pyramid",
+        "notes": "80x10! Up from 80x7 last week. On a bench this time — better bracing position. 60 and 70 very slow with pauses, ran out of breath from bracing at 70. 80x10 but lost the slow controlled form around rep 7 — still completed all 10. Surprisingly not that hard at 80."
+      },
+      {
+        "id": "chest-supported-dumbbell-row",
+        "sets": ["40 x10 each (slow, controlled)"],
+        "workingWeight": 40,
+        "notes": "Incline bench, chest supported. 40lb slow and controlled. Felt good and really hard at end. Could probably go slightly higher. Good strict accessory after the heavier rows."
+      },
+      {
+        "id": "seated-cable-row",
+        "sets": ["130 x12 (pretty good form, upright)", "130 x10 (lost form at 10)", "130 x6ish (weird pulley slippage)"],
+        "workingWeight": 130,
+        "equipment": "back right machine",
+        "notes": "Back right machine this time. 130x12 first set good and upright. Form degraded on sets 2-3. Weird pulley slippage when going slowly — mechanical issue with the machine, not strength."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": ["170 x7 (died, slow and controlled)", "160 x8 (slow, died)", "160 x6 (stopped out)"],
+        "workingWeight": 160,
+        "equipment": "back left machine",
+        "notes": "170 too heavy for slow and controlled form — died at 7. Dropped to 160, still dying at 8 and 6. Form check week = these are honest numbers at slow tempo. 160 with strict form is harder than 170 with momentum."
+      },
+      {
+        "id": "face-pull",
+        "sets": ["50 x20 (super slow, good)", "50 x20 (died at 16 on slow)", "50 x20 (faster ones)"],
+        "workingWeight": 50,
+        "notes": "Super slow on set 1 — great form. Set 2 died on slow around 16. Set 3 went faster to complete 20. Slow face pulls are a different exercise than fast ones."
+      },
+      {
+        "id": "dumbbell-reverse-fly",
+        "sets": ["25 x15 (good)", "25 x13 (good)", "25 x13 (done)"],
+        "workingWeight": 25,
+        "notes": "15/13/13. Form stayed good throughout — better than recent weeks where last 2 were always dirty. The form focus is working."
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "sets": ["50 x12", "60 x12 (better without full lockout)"],
+        "workingWeight": "50-60",
+        "equipment": "middle dual pulley machine, hands outside double pulley handle area",
+        "notes": "FIRST TIME. Middle machine with dual pulley. Found that NOT locking out all the way (not going full pulldown position) keeps better tension on the biceps. 60 is probably the working weight. Only 2 sets — already a long workout."
+      },
+      {
+        "id": "cable-crunch",
+        "sets": ["50 x15 (too easy)", "60 x15 (too easy)", "110 x12 (challenging)"],
+        "workingWeight": 110,
+        "notes": "FIRST TIME. 50 and 60 way too easy. Jumped to 110 — this was challenging. 110 is the base. Core has been doing hidden work from squats and KB for 7 weeks."
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w7-legs",
+    "date": "2026-04-11",
+    "notes": "Legs day — form check week finale. Squats solid including 80/side on last set! Felt good, almost easy, good ROM. Thinking about pyramiding to 80 faster. Back extensions at 25lb: TORCHED hamstrings, dead slow with 2s pause, completely different from RDL — hamstrings are doing all the work. Leg press dropped from 6 plates to 4 plates for FULL ROM — way deeper, engaging hidden muscles, caught on safety and adjusted. Super slow deep reps are brutally hard in a breathing/straining way not muscle-straining way. Lunges extremely hard — deeper everything plus back extensions made bracing impossible. Skipped D4 KB.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": ["55/side x8 (warmup)", "75/side x8 (good ROM)", "75/side x8 (good ROM)", "75/side x8 (good ROM)", "80/side x8 (felt good, almost easy, good ROM)"],
+        "workingWeight": "75-80",
+        "notes": "80/side on last set felt good — almost easy (wasn't, but confident). Good ROM on all sets. Form check week confidence is real. Thinking about pyramiding to 80 faster next time instead of 3 sets at 75 first."
+      },
+      {
+        "id": "45-degree-back-extension",
+        "sets": ["25lb x15 (dead slow, 2s pause)", "25lb x15 (sweating hard)", "25lb x15 (hamstrings completely dead, barely got off machine)"],
+        "workingWeight": 25,
+        "notes": "HOLY SHIT. 25lb plate, dead slow, 2s pause at top. Feels NOTHING like RDL — hamstrings doing all the work, no back compensation. Sweating hard. Third set: hamstrings completely torched, no ROM problem but could barely get off the machine. Keep these for a while. Can probably go up in weight but likes dead slow form at 25 first."
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": ["110 x12 (hard last 7)", "110 x12 (slow, full ROM)", "110 x12 → 100 to finish"],
+        "workingWeight": 110,
+        "equipment": "settings 5/5/2 from top — way more leverage",
+        "notes": "Settings 5/5/2 from top gives better leverage. 110x12 all sets, hard on last 7. Slow and full ROM. Dropped to 100 to finish with good form on last set. Note the machine settings for consistency."
+      },
+      {
+        "id": "leg-press",
+        "sets": ["4 plates/side x12 (full ROM, caught on highest safety)", "4 plates/side x12 (second safety, super slow deep)", "4 plates/side x12 (third safety, full extension, very hard)"],
+        "workingWeight": "4 plates/side",
+        "notes": "DROPPED from 6 plates to 4 plates for FULL ROM. Way deeper than before — engaging muscles in weird places. Caught on highest safety first set, moved to second. Super slow deep reps, full extension back to full. Really hard at full range but not in a 'muscles straining' way — more breathing heavy and whole-body straining. The hidden muscles that never got worked at 6 plates with shorter ROM. Stay at 4 plates and keep working on full ROM rather than chasing weight."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": ["4 plates/side x20 single leg x3"],
+        "workingWeight": "4 plates/side (single leg)",
+        "notes": "Single leg, other foot stabilizing. Consistent with W6."
+      },
+      {
+        "id": "dumbbell-lunge",
+        "sets": ["40lb x10 each x3 (extremely hard)"],
+        "workingWeight": 40,
+        "notes": "Extremely hard — deeper everything plus back extensions made bracing nearly impossible. Feel like a noodle. The finisher is doing its job. Stay at 40."
+      }
+    ]
+  }
+]

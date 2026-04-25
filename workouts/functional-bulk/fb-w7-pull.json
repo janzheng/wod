@@ -1,0 +1,106 @@
+{
+  "id": "fb-w7-pull",
+  "name": "Week 7 Pull — Form Check (Back/Biceps)",
+  "description": "Form Check Week. Less yanking, more static control. W6 pull-ups hit 36 clean — keep the clean-only rule. DB rows hit 80x7 PR but form changed; keep 80 as top set with strict form. NEW: chest supported DB row as strict accessory, high cable bicep curl replaces cable curl, cable crunch added as true finisher.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "form-check"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Scap activation" },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine warm" },
+        { "id": "dead-hang", "duration": 30, "notes": "Grip and shoulder warm" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Pull-ups",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "8-10", "notes": "W6: 10/10/9/7 = 36 clean. The clean-only rule is working. Form check week: controlled descent, no kipping, full dead hang at bottom. Don't chase 10 on every set — 8 strict beats 10 sloppy." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "station-1",
+      "name": "Station 1: Preacher Curl + DB Row",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "preacher-curl", "reps": "8-10", "notes": "15/side. W6: 9/9/8 + drop. Stay at 15/side — form check week means no bumping. Full ROM, slow negative, no cheating the bottom." },
+        { "id": "dumbbell-row", "reps": "7-10", "notes": "Pyramid: 60x10, 70x8, 80x7 (strict form). W6: 80x7 PR but had to brace everything. Form check week: 80 stays as top set but zero momentum. Brace core, pull to hip, squeeze at top, slow lower." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "station-2",
+      "name": "Station 2: Chest Supported Row + Lat Pulldown",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "chest-supported-dumbbell-row", "reps": 10, "notes": "NEW. 40-50lb. No momentum possible — the bench does the work of keeping you honest. Squeeze at top, 2-second negative. Start at 40, go to 50 if 40 is easy." },
+        { "id": "lat-pulldown", "reps": "10-12", "notes": "170 (up from 160). Back left machine. Wide grip near the bend. W6: 160x12 x3 clean. Form check: lean back slightly, pull to chest not behind neck, hold the squeeze 1 second." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "station-3",
+      "name": "Station 3: Cable Row + Face Pull",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-cable-row", "reps": "10-12", "notes": "130 (120+10 add-on). Back right machine. Upright posture, slower tempo. W6: form is the progression now. 2-second concentric, 1-second hold, 2-second eccentric. No leaning back." },
+        { "id": "face-pull", "reps": 20, "notes": "50 (back from 57.5). W6: 57.5x15 form broke down. Form check week: 50x20 all clean. External rotate at the top, elbows high, hold 1 second. If 20 is easy, stay — the point is perfect reps." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "station-4",
+      "name": "Station 4: Reverse Fly",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-reverse-fly", "reps": "12-15", "notes": "25lb. W6: form breaks last 2 reps. Form check week: if you can only do 13 strict, stop at 13. Seated bent-over, slow squeeze, no swinging." }
+      ],
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: High Cable Curl + Cable Crunch",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "high-cable-bicep-curl", "reps": "10-12", "notes": "NEW — replaces cable-bicep-curl. Seated at lat pulldown, two handles, curl down. Find your working weight this week. Start light (30-40), slow and strict. Biceps are pre-fatigued from preacher so go lighter than ego says." },
+        { "id": "cable-crunch", "reps": "12-15", "notes": "NEW — true finisher. Find working number this week. Kneel facing away from cable, crunch down. Keep hips locked — movement comes from abs, not hip flexors. Start around 50-60, adjust." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "FORM CHECK WEEK: every rep should be textbook. If form breaks, stop the set. Less yanking, more static control.",
+    "Pull-ups: 36 clean last week was great. Don't force 10 on every set — 8 strict is the priority.",
+    "DB row 80lb stays but zero momentum. The chest supported row afterward will expose any cheating habits.",
+    "Chest supported DB row is NEW: the bench removes all body english. Start at 40lb, find your honest number.",
+    "Face pull dropped back to 50x20 on purpose. 57.5 broke form — own 50 with perfect external rotation.",
+    "High cable bicep curl is NEW: seated at lat pulldown with two handles. Find your weight — biceps are already cooked from preacher.",
+    "Cable crunch is NEW: abs finisher on the cable column. Keep hips locked, crunch from the abs only.",
+    "Both finishers are on the cable column — no moving between stations. Efficient.",
+    "Rest: 2.5 min pull-ups, 2 min stations 1-2, 90s station 3, 75s station 4, 60s finisher"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "fb-w8-kb-full",
+  "name": "Week 8 KB Full Body (Explore)",
+  "description": "W7 nailed the volume: B-stance flow 25lb 3x3 was ~10 min, perfect. Bent press/cossack/windmill all at 25 — depth over weight. C&P 50x8x3 breakthrough. W8: hold everything steady. 25lb for all skill/flow, 50lb for strength block only.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "full-body", "strength", "skill-work", "intermediate", "fixed"],
+  "estimatedDuration": 35,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light, loosen shoulders" },
+        { "id": "kettlebell-goblet-squat", "reps": 8, "notes": "Find your depth" },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy swings, wake up the hips" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "Block 1: B-Stance Flow (@Asgooch)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-b-stance-swing", "reps": "3 each side", "notes": "25lb. B-stance: one foot back, heel up. W7 actuals: 3x3 was the sweet spot — ~10 min total." },
+        { "id": "kettlebell-swing-clean", "reps": "3 each side", "notes": "-> Catch into rack on the swing. Momentum should be smooth by now." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": "3 each side", "notes": "-> Stay in B-stance, squat from rack." },
+        { "id": "kettlebell-swing-snatch", "reps": "3 each side", "notes": "-> Punch overhead from rack. Lock out hard." },
+        { "id": "kettlebell-overhead-lunge", "reps": "3 each side", "notes": "-> Bell locked overhead, step into lunge. Full flow." }
+      ],
+      "notes": "25lb. 3 reps each side x 3 rounds. Proven volume from W7 — don't change it.",
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "skill-block",
+      "name": "Block 2: Skill Work",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3-5 each side", "notes": "25lb. W7 actuals: 25lb felt clean. Stay here — deep stabilizers are the point, not load. Clean path, slow descent." },
+        { "id": "cossack-squat", "reps": "8 each side", "notes": "25lb goblet. W7 confirmed better depth at 25 than 40/45. Sit deep, heels down. Mobility exercise, not strength." },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "25lb. W7 felt good. Deep hip hinge, feel the stretch through hip flexors." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "tgu-block",
+      "name": "Block 3: TGU",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-turkish-getup", "reps": "3 each side", "notes": "25lb. W7 actuals: 25lb transitions were cleaner than 30. Left side: still pause at every checkpoint. Stay at 25." }
+      ],
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "strength-block",
+      "name": "Block 4: KB Strength",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-clean-and-press", "reps": "8 each", "notes": "50lb. W7 breakthrough: 8 reps ALL 3 sets. Whole-body technique — hips drive clean, legs dip, shoulder pushes, arm locks out. Maintain 8x3, don't chase 10 yet." },
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "50lb. Slow: 2s pull, 2s lower. Max KB weight — progress by tempo." },
+        { "id": "kettlebell-goblet-squat", "reps": 12, "notes": "50lb. Pause at bottom 1 second. Max KB weight." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 20, "notes": "50lb. Explosive hips. 2 sets of 20, catch your breath between." }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Tuesday = EXPLORE. B-Stance flow at 3x3 is locked in — W7 proved the volume.",
+    "25lb for all skill/flow/mobility work. 50lb only for strength block + finisher.",
+    "Don't chase heavier weights on KB skill work. Depth and form are the gains.",
+    "C&P 8x3 at 50 was a W7 breakthrough — consolidate, don't escalate.",
+    "Finisher swings are back: 50x20 x2. Quick and done."
+  ]
+}

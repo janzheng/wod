@@ -1,0 +1,184 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w8-push",
+    "date": "2026-04-14",
+    "notes": "W8D1 Push — selective push week. Skipped Saturday KB (too sore) = extra rest = weirdly strong today. Push press 45x8x3 with pauses at top and slow controlled descent — best push press session ever, completely confidence boosting. Chest press JUMPED to 190x8 (up from 180). Incline DB at 50 with tempo (2-2-2-2). Kinesis fly still humbling at 8. Tri extension pyramided 55→65→75x12 which makes no sense but happened (nap + rest?). Straight arm pulldown yolo'd to 120. Only 15s available for lat raises but slow and controlled was good. Right shoulder still crackly on lat raises — strongest indicator of the shoulder issue.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "push-press",
+        "sets": ["45/side x8 (great form, shoulder crackly)", "45/side x8 (small hip press, pausing 2s at top, slow down)", "45/side x8 (held at top for 5 seconds! slow and controlled, felt full body compression)"],
+        "workingWeight": 45,
+        "notes": "Best push press session EVER. Parallel feet, slow and controlled up and down, 2-second pause at top, last set held for 5 seconds. Felt the entire compression through the body. Completely confidence boosting. Right shoulder still crackly but didn't limit anything. 45 with this tempo is harder and more valuable than 50 fast."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": ["15 x15 (super slow, controlled)", "15 x15 (slow)", "15 x15 (completed all)"],
+        "workingWeight": 15,
+        "notes": "Only 15s available (gym busy). Super slow and controlled. Right shoulder definitely rough — this exercise is the strongest indicator of whatever shoulder thing is going on. Completed all sets though. Happy with the form check at this weight."
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": ["180 x8", "190 x8 (full range, no collapse!)", "190 x8 (slow and controlled)", "190 x7.5 (8th was a halfsie)"],
+        "workingWeight": 190,
+        "notes": "190x8!! Up from 180. Weirdly strong. Full range, slow and controlled, no collapse. Set 4 got 7 clean + 1 half. 190 is the new working weight. Skipping KB Saturday = extra rest = this."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": ["50 x10 (tempo 2-2-2-2, dying at end)", "50 x8+2 (tried 3-1 tempo, died at 8, picked up for 2 more)"],
+        "workingWeight": 50,
+        "notes": "Tempo work: pauses up and down. Full range, slow, dying at end but pushed through. Set 2 tried 3-count up 1 down, died at 8 but picked up and did 2 more. The tempo makes 50 WAY harder than 55 was without tempo. Only got 2 sets in."
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": ["8 x12 (harder than pec deck, humbling)", "8 x12 (faces were made, poor form)", "8 x12 (easier standing further back but still hard)"],
+        "workingWeight": 8,
+        "notes": "Harder than pec deck — less structured, requires more stabilization. Standing distance affects difficulty. Still humbling at 8. 3x12 completed. Note: position relative to machine matters a lot."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "sets": ["3x12 (crackly on right but completed all)"],
+        "workingWeight": 45,
+        "notes": "Right shoulder crackly but got through all three. Good weight, stable."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": ["55 x12 (weirdly easy)", "65 x12", "75 x12 (crazy hard but did it)"],
+        "workingWeight": "55-75 pyramid",
+        "notes": "WHAT. Pyramided from 55 to 75 and got 12 on everything. 75 was crazy hard but still got mostly good 12. W7: was doing 54x12. Either different cable setting, the nap, or the extra rest day unlocked something. Need to verify the number next week."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": ["120 x12 (died but full ROM)", "120 x10 (stopped)", "120 x9 (stopped out)"],
+        "workingWeight": 120,
+        "notes": "Yolo'd up to 120 from 110. Died but got 12 on first set with full ROM. 10 and 9 on sets 2-3. Crazy hard. 120 is the new challenge weight."
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "rest",
+    "date": "2026-04-15",
+    "notes": "W8D2 — Skipped KB for work dinner. Extremely sore (psoas, deep leg muscles, adductors). Recovery day: stretching, hot tub, 40 min walk to Stanford hospital cafe. Everything tight and impossible to roll out."
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w8-pull",
+    "date": "2026-04-16",
+    "notes": "W8D3 Pull — came in extremely sore (psoas, quads, adductors, deep everything). Run to gym was hard. Busy gym so had to jump around stations. Despite feeling like death, pull-ups felt surprisingly easy relative to body state. DB rows at 85 were ugly but completed. Cable crunch at 120 feeling like a legit new muscle. Lat pulldowns at 160 strict again.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": ["climber handle strict x10 (good form)", "wide strict slow x9 + 1 negative", "close grip x7 (died)", "wide slow x5 (died)"],
+        "workingWeight": "bodyweight",
+        "notes": "Felt surprisingly easy given how destroyed the body was. Climber handle 10 good form, wide 9+1 negative. Close grip died at 7, wide again died at 5 slow ones. Total: 31 reps. Down from 36 last week but body was wrecked coming in."
+      },
+      {
+        "id": "face-pull",
+        "sets": ["42.5 x20 (slow strict)", "50 x20 (slow strict)", "50 x20 (slow strict, expected to die faster)"],
+        "workingWeight": 50,
+        "notes": "42.5 warm-up then 50x20x2. Slow and strict on all sets. Surprised at endurance — expected to fail earlier on the 50s. Good shoulder health work."
+      },
+      {
+        "id": "reverse-fly-machine",
+        "sets": ["3 sets — dead on last 3 reps each, gave up strict form"],
+        "notes": "Strict form abandoned on last ~3 reps each set. Getting the work in but not pretty."
+      },
+      {
+        "id": "incline-dumbbell-curl",
+        "sets": ["25 x10 on bench 5", "25 x10 on bench 6 (more straight up)", "25 x10 (hard, last couple supported)"],
+        "workingWeight": 25,
+        "notes": "Incline bench concentration curls. Bench angle matters — 6 (more upright) felt different than 5. Last couple reps on set 3 needed support. Solid 3x10 at 25."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": ["completed all sets up to 85"],
+        "workingWeight": 85,
+        "notes": "Did the full pyramid. 85s were definitely not strict — not even the first two. Wild that he could even pick them up given how sore everything was. Completed though."
+      },
+      {
+        "id": "chest-supported-dumbbell-row",
+        "sets": ["30 x15 (strict with hold)", "30 x15 (strict with hold)", "30 x15 (extremely hard at end)"],
+        "workingWeight": 30,
+        "notes": "Hard to find weights so went with 30 strict with hold. 3x15 completed but extremely hard at the end. Good isolation work — chest support removes the ability to cheat."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": ["160 x10 (strict)", "160 x10 (strict, longer break)", "160 x8 + 2 (short break mid-set)"],
+        "workingWeight": 160,
+        "notes": "160 strict again! Set 3 was 8 strict + 2 more after a short pause. Considering going lighter for better form/feel — 'lighter feels better maybe?' Consistent at 160 across W7-W8."
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "sets": ["120 x15", "120 x15 (hard)"],
+        "workingWeight": 120,
+        "notes": "Back left single pulley. 120x15x2. Second set was hard. Good bicep finisher."
+      },
+      {
+        "id": "cable-crunch",
+        "sets": ["120 x12", "120 x12"],
+        "workingWeight": 120,
+        "notes": "120x12x2. Hard but could be harder — feels like a new muscle activating. Really good mind-muscle connection. Up from 110 last week. Could push to 130 next week."
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "workoutId": "rest",
+    "date": "2026-04-17",
+    "notes": "W8D4 — Skipped KB again. Second KB skip in a row (W8D2 was also skipped). Body still recovering from deep soreness week. Legs tomorrow."
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w8-legs",
+    "date": "2026-04-18",
+    "notes": "W8D5 Legs — slow/tempo day. Good barbell press form work at 80 focusing on ROM. 45-plate back extensions BRUTAL when done slow — likely the main contributor to the week's deep soreness. New seated leg curl settings (5 m 0 1) feel correct — dropped to 90, built to 110. Hip adductor machine feels broken (305 didn't feel hard, arms couldn't move the stack) — ended up at 315 mostly for stretch value. Couldn't get leg press so did Smith machine single-leg Bulgarian-style (45/side) — excellent substitute, last set with more support-leg use gave much better ROM. Single-leg calf raises surprisingly easy at 45/side until adding a plate under the ball of foot. Lunges: 40s pair felt great for 2 sets, then something seized bilaterally in the hip flexor region on set 2 — finished last set bodyweight. Both hip flexors/TFL cranky, massaging helps.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "barbell-press",
+        "sets": ["80 x (slow, form focus)", "80 x (slow, form focus)", "80 x (slow, form focus)"],
+        "workingWeight": 80,
+        "notes": "Pretty good push on all sets. ROM can still improve at 80 — KEEP the weight, work on form and tempo. Slow and controlled is the goal, not load."
+      },
+      {
+        "id": "back-extension",
+        "sets": ["45 plate — dead already on set 1", "45 plate — slow/controlled, burning", "45 plate — slow/controlled, burning"],
+        "workingWeight": "45 plate",
+        "notes": "First set was already dead — this is probably what's been making everything so sore all week. Two more sets slow and controlled, felt like burning. Not deathly hard during the sets but after all three: can barely walk. Slow/controlled IS the way on this. Back-ext at 45 is likely the hidden driver of the whole week's deep soreness."
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": ["90 x (new settings, getting used to it)", "90 x (second set to lock in feel)", "110 x (pretty hard)"],
+        "workingWeight": "90-110",
+        "notes": "NEW MACHINE SETTINGS: 5 m 0 1 — the old settings were wrong. With the correct settings 90 feels right, did it twice to calibrate. Third set at 110 was pretty hard. Baseline resets here — future weeks compare against these numbers, not older-setting numbers."
+      },
+      {
+        "id": "hip-adductor-machine",
+        "sets": ["315 x12", "315 x12 (slow 2-count + hold)", "315 x12 + 12 pulses (last super hard, not full ROM)"],
+        "workingWeight": 315,
+        "notes": "Machine likely BROKEN — pushed the stack all the way to 305 and it didn't feel hard; tried to move it with arms and couldn't budge it. Weight reading is unreliable. Only adductor machine in this gym — will need to re-evaluate on a different machine elsewhere to know real numbers. That said: fantastic hip/inner-thigh stretch at top. Last set slow 2-count + hold, last reps not full ROM, then 12 pulses to finish. Open question: is this actually doing anything beyond the stretch?"
+      },
+      {
+        "id": "smith-machine-single-leg-bulgarian-split-squat",
+        "sets": ["45/side x8 each leg (hard, not full ROM)", "45/side x8 each leg (same feel)", "45/side x8 each leg (used support leg more, got way more ROM)"],
+        "workingWeight": "45/side",
+        "notes": "Substitute for leg press (machine taken). Smith machine, one foot on bench behind, 45lb each side. HARD. First two sets short ROM. Set 3 figured out to use the support leg more actively — ROM opened up dramatically. Still prefers leg press but this is a fantastic alternative, especially for unilateral work. Keep as option when leg press unavailable."
+      },
+      {
+        "id": "single-leg-calf-raise",
+        "sets": ["45/side x20 each (easy)", "45/side x20 each (easy)", "45/side x20 each + plate under ball of foot (hard last few)"],
+        "workingWeight": "45/side",
+        "notes": "Smith machine single-leg. Surprisingly easy at this weight — bodies are weird. Last set added a plate under the ball of the foot for deeper stretch/ROM — made it way harder, struggled on last few reps. Use the plate-under-foot variation going forward for real challenge."
+      },
+      {
+        "id": "dumbbell-lunge",
+        "sets": ["40/hand x (good)", "40/hand x (something seized at end, painful)", "bodyweight x (weights were hard even to rack)"],
+        "workingWeight": 40,
+        "notes": "Walking lunges, 40lb DBs in each hand. First 2 sets good. End of set 2 something seized bilaterally in the hip-flexor / upper-hip region — very painful. Didn't pull anything but couldn't continue loaded. Set 3 bodyweight only, and even racking the DBs afterward was hard. BOTH sides of upper hip (likely hip flexors / TFL) complaining — massaging helps a lot. Note: 40lb lunges at the end of a long legs day after fried hip flexors all week was too much. Next week: cap lunge volume or move lunges earlier in session."
+      }
+    ]
+  }
+]

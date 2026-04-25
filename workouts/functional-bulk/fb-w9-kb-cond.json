@@ -1,0 +1,54 @@
+{
+  "id": "fb-w9-kb-cond",
+  "name": "Week 9 KB — Thursday Light (Recovery)",
+  "description": "Same idea as W8 Thursday but even lighter. 15-20 min. No swings, no C&P, no squats, no hip hinges. Just bent press + TGU drilling at 20lb, then floor mobility. This is closer to active recovery than a workout.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "recovery", "skill-work", "light", "ql-safe"],
+  "estimatedDuration": 18,
+  "equipment": ["kettlebell"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell. Loosen up shoulders." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "skill-block",
+      "name": "Skill Drilling",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "20lb. Groove the movement. Legs tomorrow (deloaded) but still — save something." },
+        { "id": "kettlebell-windmill", "reps": "3 each side", "notes": "20lb. Deep stretch, slow." },
+        { "id": "kettlebell-turkish-getup", "reps": "2 each side", "notes": "20lb. Left side focus. Pause at each checkpoint." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "mobility",
+      "name": "Floor Mobility",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "60s." },
+        { "id": "supine-spinal-twist", "duration": 45, "notes": "45s each side." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "15-20 min. Closer to active recovery than a workout.",
+    "No swings, no C&P, no squats, no hip hinges.",
+    "If the back's still twitchy, skip the KB entirely and just do floor mobility + a walk."
+  ]
+}

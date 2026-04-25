@@ -1,0 +1,92 @@
+{
+  "id": "fb-w9-pull",
+  "name": "Week 9 Pull — Recovery Deload",
+  "description": "QL spasm recovery week. Pull-ups are fine (spinal decompression). DB rows dropped to 60lb to avoid heavy bracing. Chest supported row stays (supported = QL-safe). Lat pulldown deloaded. Finisher cut. Stop well short of failure on everything.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "recovery", "deload", "pull", "upper-body", "back", "biceps", "ppl"],
+  "estimatedDuration": 40,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Scap activation" },
+        { "id": "cat-cow", "reps": 10, "notes": "Gentle spine warm — go slow this week, feel for any QL tightness" },
+        { "id": "dead-hang", "duration": 30, "notes": "Pull-ups are spinal DECOMPRESSION — safe and actually helpful this week" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Pull-ups (Keep)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "pull-up", "reps": "6-8", "notes": "3 sets this week (down from 4). Clean reps only. Stop 1-2 shy of failure on every set — no grinding. Pull-ups decompress the spine so they're actually good for recovery, but don't fatigue to the point where form breaks and you start bracing hard." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "station-1",
+      "name": "Station 1: Preacher + DB Row (Deloaded)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "preacher-curl", "reps": "10-12", "notes": "10/side (drop from 15). Preacher is supported = QL-safe. Easy strict reps, no grinding. If 10 feels nothing, it's fine — don't go up." },
+        { "id": "dumbbell-row", "reps": 10, "notes": "60lb all 3 sets (drop from 80-85 pyramid). W8 rows required full body bracing at 80+ — that bracing is what we're avoiding this week. 60 is light enough to stay loose. Keep it strict, don't yank." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "station-2",
+      "name": "Station 2: Chest Supported Row + Lat Pulldown",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "chest-supported-dumbbell-row", "reps": 10, "notes": "35 each side (drop from 40-45). Chest supported = QL-safe, no spinal bracing. 2 sets only. Squeeze at top." },
+        { "id": "lat-pulldown", "reps": 10, "notes": "130 (drop from 160). Light, slow, strict. 2 sets only. Wide grip, pull to chest." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "station-3",
+      "name": "Station 3: Face Pull + Reverse Fly",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "face-pull", "reps": 15, "notes": "40 (drop from 50). Rotator cuff + posterior delt, minimal spinal load. 2 sets." },
+        { "id": "dumbbell-reverse-fly", "reps": 12, "notes": "20 (drop from 25). Seated bent-over, slow squeeze. 2 sets only." }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher (Skip if tired)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "high-cable-bicep-curl", "reps": 12, "notes": "45 (drop from 60). 2 sets, easy pump. SKIP cable crunch this week — direct abs work can re-activate the QL. Crunch will be back in W10." }
+      ],
+      "restBetween": 45,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "RECOVERY WEEK — pull-ups are spinal decompression, so they're helpful. Heavy DB rows are not — bracing is the enemy this week.",
+    "DB row 60lb all sets (NOT pyramiding to 80). The full-body brace at 80+ is exactly what re-lit the QL on W8D5's session.",
+    "Cable crunch is OUT this week — direct abs/flexor work can wake up the QL.",
+    "Chest supported row is the star of this week — supported = safe.",
+    "Finisher is optional. Skip if the back is talking.",
+    "Form over numbers. Stop 2 reps shy of failure on everything.",
+    "Rest short — the point is to move, not to max out."
+  ]
+}

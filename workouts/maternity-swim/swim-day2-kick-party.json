@@ -1,0 +1,73 @@
+{
+  "id": "maternity-swim-day2-kick-party",
+  "name": "Swim Day 2: Kick Party",
+  "description": "Jess: Kick-heavy day — legs, hips, glutes, core. ~30 min, 1200-1500y. Board work, back kick, breast kick. Legs will feel it. Hip openers built in via breaststroke kick.",
+  "routineId": "maternity-swim",
+  "tags": ["maternity-swim", "swimming", "kick", "legs", "hips", "moderate"],
+  "estimatedDuration": 30,
+  "equipment": ["pool", "kickboard"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-freestyle", "distance": "200", "notes": "Easy free, wake up the body." },
+        { "id": "swim-breaststroke", "distance": "100", "notes": "Long glides, open up the hips." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "kick-main",
+      "name": "Kick Set",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-kickboard-kick", "distance": "4x50", "notes": "Steady flutter kick. Compact, from the hips. No death grip on the board." },
+        { "id": "swim-kickboard-breast-kick", "distance": "4x50", "notes": "Kick — squeeze — gliiiiide. Count to 3 on each glide. Hip opener city." },
+        { "id": "swim-kick-on-back", "distance": "4x50", "notes": "No board, arms at sides. Relax the neck, look at the ceiling, kick easy." },
+        { "id": "swim-underwater-dolphin-kick", "distance": "4x25", "notes": "Surface dolphin kick on your back. Gentle wave motion. Skip if back feels off." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "kick-mix",
+      "name": "Kick Medley",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-kickboard-kick", "distance": "200", "notes": "Build effort: 50 easy / 50 moderate / 50 moderate / 50 easy. Like a wave." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "swim-out",
+      "name": "Swim Out",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-backstroke", "distance": "100", "notes": "Easy backstroke to recover." },
+        { "id": "swim-freestyle", "distance": "100", "notes": "Easy free — smooth and long." }
+      ],
+      "restBetween": 10,
+      "restAfter": 0
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-sidestroke", "distance": "100", "notes": "Lazy sidestroke, alternate sides at 50." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Breaststroke kick is amazing for pregnancy hip mobility — lean into it",
+    "If flutter kick aggravates the lower back, switch to back kick or breast kick",
+    "Keep the dolphin kick gentle — surface only, soft undulation",
+    "Bring a water bottle — kicking is sneaky cardio",
+    "NO flip turns, NO butterfly"
+  ]
+}
