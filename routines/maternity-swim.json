@@ -1,0 +1,18 @@
+{
+  "id": "maternity-swim",
+  "name": "Maternity Swim",
+  "description": "Swim workouts for pregnancy — drills, kick sets, pull sets, and mixed sessions for former swimmers",
+  "icon": "🏊‍♀️",
+  "color": "#00BCD4",
+  "defaults": {
+    "duration": 30,
+    "difficulty": "beginner-intermediate",
+    "equipment": ["pool"],
+    "tags": ["maternity-swim", "swimming"],
+    "criteria": {
+      "tags": ["maternity-swim", "swimming"],
+      "equipment": ["pool"]
+    }
+  },
+  "sortOrder": 8
+}

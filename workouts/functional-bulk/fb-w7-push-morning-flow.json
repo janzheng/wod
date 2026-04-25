@@ -1,0 +1,59 @@
+{
+  "id": "fb-w7-push-morning-flow",
+  "name": "W7 Push Morning Flow",
+  "description": "15 min. Beefed up shoulder health block — more bodyweight shoulder strength/rehab. No equipment needed. Overhead mobility + shoulder stability before push press.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "shoulders", "chest", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "shoulder-health",
+      "name": "Shoulder Health + Strength",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "15 each direction", "notes": "Big circles, warm the joint" },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "Lie on your side, elbow at 90, rotate forearm up. No band needed — gravity is the resistance. Targets the rotator cuff. Go slow." },
+        { "id": "prone-y-raises", "reps": 10, "notes": "Face down, lift arms in a Y shape overhead. Hits lower traps + rotator cuff. Hold at the top for 1 second." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "Push-up position, arms locked. Only the shoulder blades move — sink down (retract) then push the floor away (protract). Strengthens serratus anterior." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "overhead-activation",
+      "name": "Overhead Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "wall-angel", "reps": 12, "notes": "Back flat against wall. Getting deeper each week." },
+        { "id": "pike-push-up", "reps": 8, "notes": "Overhead pressing pattern. Shoulder-to-ceiling." },
+        { "id": "push-up", "reps": 10, "notes": "Standard, easy. Chest activation." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "stretch-close",
+      "name": "Stretch + Close",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "thread-the-needle", "duration": 30, "notes": "30s each side. Deep thoracic rotation." },
+        { "id": "puppy-pose", "duration": 30, "notes": "Deep shoulder stretch." },
+        { "id": "cobra-stretch", "duration": 20, "notes": "Open up the chest and hip flexors." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "15 min — shoulder health block is bigger this week. All bodyweight, no equipment.",
+    "Side-lying external rotation: the simplest rotator cuff exercise. Slow is the point.",
+    "Prone Y raises: if your lower traps are weak, these will burn fast. That's good.",
+    "Scapular push-ups: serratus anterior stabilizes your shoulder during all pressing. Train it.",
+    "If short on time: shoulder health block only. 5 min of the most important stuff."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "maternity-swim-day7-recovery-play",
+  "name": "Swim Day 7: Recovery & Play",
+  "description": "Jess: Active recovery day — treading, sculling, easy strokes, pool walking. ~25 min, 800-1000y. Low key, playful, feel good. Or take the day off — either is perfect.",
+  "routineId": "maternity-swim",
+  "tags": ["maternity-swim", "swimming", "recovery", "easy", "fun", "play"],
+  "estimatedDuration": 25,
+  "equipment": ["pool"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Easy Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-backstroke", "distance": "200", "notes": "Super easy backstroke. No rush. Enjoy being weightless." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "play-block",
+      "name": "Play Block",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-sculling", "distance": "4x25", "notes": "Sculling in all directions — head-first, feet-first, mid-scull. Get creative. Remember doing these at practice?" },
+        { "id": "swim-water-treading", "duration": 120, "notes": "2 min of easy treading — egg-beater or flutter, whatever feels good. Chat with a lane-mate if you have one." },
+        { "id": "swim-vertical-kick", "duration": 60, "notes": "1 min vertical kick — arms crossed. Sneaky good core work. Drop arms into the water if it's too much." }
+      ],
+      "restBetween": 30,
+      "restAfter": 30
+    },
+    {
+      "id": "easy-strokes",
+      "name": "Easy Stroke Sampler",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-breaststroke", "distance": "100", "notes": "Breaststroke — count your strokes per length. Can you do it in fewer?" },
+        { "id": "swim-sidestroke", "distance": "100", "notes": "Sidestroke — alternate sides. Channel your inner lifeguard." },
+        { "id": "swim-freestyle", "distance": "100", "notes": "Easy free — try breathing bilaterally just for fun." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "pool-walk",
+      "name": "Pool Walking",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-pool-walking", "duration": 300, "notes": "5 min pool walking in the shallow end — forward, backward, sideways. Water resistance = sneaky workout. The buoyancy feels amazing on a pregnant body." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This is the 'just get in the water' day — zero pressure",
+    "Pool walking is genuinely great exercise during pregnancy — zero impact, full support",
+    "If you're tired, skip this entirely and rest — rest is also training",
+    "Vertical kick and treading are old-school water polo drills — great core work",
+    "The water supports ~90% of your body weight — enjoy feeling light",
+    "NO flip turns, NO butterfly, NO guilt if you skip this day"
+  ]
+}

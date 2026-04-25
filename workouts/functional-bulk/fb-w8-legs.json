@@ -1,0 +1,111 @@
+{
+  "id": "fb-w8-legs",
+  "name": "Week 8 Legs — Selective Push (Quads/Hamstrings/Glutes/Calves)",
+  "description": "Selective push week. Squat pyramids faster — W7 hit 80x8 clean, so open at 75 and get to 80 sooner. Back extensions stay at 25lb dead slow — hamstrings were torched, this is working. Leg press stays at 4 plates for full ROM (dropped from 6 in W7, way deeper, found hidden muscles). Lunges brutally hard at 40 with the deeper everything — hold steady.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "fixed", "selective-push"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth. Wake up the legs." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Open up the hips" },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight, feel the stretch" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "55/side x8. Deep — same depth as working sets." }
+      ],
+      "restBetween": 0,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat (Working Sets)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "Pyramid faster: 75x8, 75x8, 80x8, 80x8. W7 actuals: 75x8x3 + 80x8 felt good, almost easy, good ROM. 80 is no longer a test — it's a working weight now. Two sets at 80 this week. Focus on same depth and control at 80 as you had at 75." }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "back-extension-working",
+      "name": "Back Extension (Dead Slow)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "45-degree-back-extension", "reps": 15, "notes": "25lb plate, dead slow, 2s pause at bottom. W7 actuals: 25x15x3 torched the hamstrings. This feels nothing like RDL — it's working as its own thing. Stay at 25lb, don't rush heavier. Slow eccentric is the stimulus. If it stops feeling hard, go slower before going heavier." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press (Full ROM)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press", "reps": "10-12", "notes": "4 plates/side, FULL ROM, lower mount point. W7: dropped from 6 to 4 plates and found way more depth — hidden muscles lit up. Stay at 4 plates. Chase depth, not weight. Don't creep back up to 6." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "calf-raise-station",
+      "name": "Single Leg Calf Raise",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press-calf-raise", "reps": 20, "notes": "SINGLE LEG: 4 plates/side x20, other foot stabilizing on the plate. W7 actuals: 4 plates x20 single leg, solid. Stay here." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Leg Curl",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": 12, "notes": "110, settings 5/5/2. W7 actuals: 110x12x3, hard last 7, dropped to 100 to finish. Stay at 110 — fight for all 12 on every set. If you need to drop to 100 on the last set again, that's fine, but try to hold 110 longer this week." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "lunge-finisher",
+      "name": "Lunges (The Finisher)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": "10 each leg", "notes": "40lb DBs. W7 actuals: extremely hard — deeper squats + deeper leg press wrecked bracing for lunges. Stay at 40. The deeper everything upstream is the real progression here. Walking lunges, long stride, back knee toward floor." }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "SELECTIVE PUSH — squat pyramids faster (two sets at 80 instead of one). Everything else holds or refines.",
+    "Squat: 75x8, 75x8, 80x8, 80x8. Two sets at 80 is the push this week.",
+    "Back extension: 25lb dead slow with 2s pause. Go slower before going heavier.",
+    "Leg press: 4 plates FULL ROM. Don't chase weight — depth is the stimulus now.",
+    "Leg curl: 110x12 all 3 sets. Fight for every rep before dropping weight.",
+    "Lunges: 40lb, survive. The deeper upstream work is making these harder already.",
+    "Rest 3 min between squats, 2 min leg press, 90s isolation"
+  ]
+}

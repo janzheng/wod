@@ -1,0 +1,108 @@
+{
+  "id": "maternity-swim-daily",
+  "name": "Jess's Maternity Swim",
+  "description": "7 swim workouts to rotate through whenever — no fixed schedule, just pick whatever sounds fun today. Designed for a former high school swimmer in the 2nd trimester. No butterfly, no flip turns, no diving. Pool temp 78-84°F.",
+  "creator": "WOD",
+  "frequency": null,
+  "difficulty": "beginner-intermediate",
+  "equipment": ["pool", "kickboard", "pull-buoy"],
+  "tags": ["maternity-swim", "swimming", "prenatal", "2nd-trimester"],
+  "schedule": [
+    {
+      "day": 1,
+      "label": "Drill Day",
+      "type": "workout",
+      "workoutId": "maternity-swim-day1-technique",
+      "notes": "All drills, all technique. Get out swimming better than you got in."
+    },
+    {
+      "day": 2,
+      "label": "Kick Party",
+      "type": "workout",
+      "workoutId": "maternity-swim-day2-kick-party",
+      "notes": "Legs, hips, glutes. Breaststroke kick = free hip mobility work."
+    },
+    {
+      "day": 3,
+      "label": "Pull & Chill",
+      "type": "workout",
+      "workoutId": "maternity-swim-day3-pull-chill",
+      "notes": "Upper body with pull buoy. Legs rest after kick day."
+    },
+    {
+      "day": 4,
+      "label": "Mix Tape",
+      "type": "workout",
+      "workoutId": "maternity-swim-day4-mix-tape",
+      "notes": "A little of everything. The 'never bored' workout."
+    },
+    {
+      "day": 5,
+      "label": "Long & Easy",
+      "type": "workout",
+      "workoutId": "maternity-swim-day5-endurance-easy",
+      "notes": "Steady-state, zone out, rack up yards. The meditative one."
+    },
+    {
+      "day": 6,
+      "label": "Fast & Short",
+      "type": "workout",
+      "workoutId": "maternity-swim-day6-sprint-lite",
+      "notes": "Short intervals with lots of rest. Scratches the competitive itch."
+    },
+    {
+      "day": 7,
+      "label": "Recovery & Play",
+      "type": "workout",
+      "workoutId": "maternity-swim-day7-recovery-play",
+      "notes": "Sculling, treading, pool walking. The lightest option."
+    }
+  ],
+  "tips": [
+    "NEVER: butterfly, flip turns, diving, hot tubs (>90°F)",
+    "ALWAYS: open turns, water bottle on deck, breathe as often as you need",
+    "No schedule — just pick whatever sounds fun and go swim",
+    "Swimming is one of the best exercises during pregnancy — buoyancy supports the belly, zero impact on joints",
+    "If something feels off, dial it back or get out. Trust your body.",
+    "As the belly grows, breaststroke and backstroke may feel better than freestyle — lean into it",
+    "Pull buoy becomes more comfortable as pregnancy progresses — the extra buoyancy is your friend",
+    "Stay hydrated even though you're in water — you're still sweating",
+    "Consult your OB before starting — swimming is generally very safe but always check first"
+  ],
+  "overview": {
+    "duration": "Ongoing through 2nd trimester (adjust as needed into 3rd)",
+    "goal": "Stay active, have fun in the water, maintain fitness during pregnancy",
+    "whoIsItFor": "Former competitive swimmer who wants varied pool workouts during pregnancy",
+    "whatToExpect": "7 workouts to pick from, 25-35 min each, 800-2000y. Pick whatever sounds fun — no order, no pressure.",
+    "keyPrinciples": [
+      "No schedule — just a menu of workouts to choose from",
+      "No butterfly — too much back extension and abdominal pressure",
+      "No flip turns — open turns only",
+      "Effort stays conversational with brief moderate pushes on the intervals workout",
+      "Breaststroke kick doubles as hip mobility work",
+      "Pull buoy = extra buoyancy as belly grows",
+      "Listen to your body above all else"
+    ],
+    "pregnancySafety": {
+      "avoid": [
+        "Butterfly stroke — excessive back extension and abdominal pressure",
+        "Flip turns — compresses the belly",
+        "Diving — risk of abdominal impact",
+        "Hot pools/hot tubs — water temp should be 78-84°F",
+        "Breath holding for extended periods",
+        "All-out sprints — keep max effort around 80%",
+        "Swimming alone — always have someone aware you're in the pool"
+      ],
+      "encouraged": [
+        "Backstroke — neutral spine, face out of water",
+        "Breaststroke — hip opener, natural breathing",
+        "Freestyle — great cardio, modify breathing as needed",
+        "Sidestroke — relaxed recovery stroke",
+        "Kick work — legs and hips without impact",
+        "Pull buoy — extra support as belly grows",
+        "Pool walking — zero impact, water supports 90% of body weight"
+      ],
+      "warning": "Always consult your healthcare provider before starting an exercise program during pregnancy. Stop immediately if you experience dizziness, bleeding, contractions, chest pain, or anything that doesn't feel right."
+    }
+  }
+}

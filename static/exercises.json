@@ -2965,6 +2965,33 @@
     "description": "Adjust seat height so handles are at mid-chest level. Sit with back flat against pad and feet on floor. Grip handles and press forward, extending arms without locking elbows. Squeeze chest at full extension, then control the weight back. The machine guides your movement path, making this ideal for learning pressing patterns."
   },
   {
+    "id": "chest-supported-dumbbell-row",
+    "name": "Chest Supported Dumbbell Row",
+    "category": "back",
+    "type": "weights",
+    "muscles": [
+      "lats",
+      "rhomboids",
+      "rear-delts",
+      "biceps"
+    ],
+    "equipment": [
+      "dumbbell",
+      "bench"
+    ],
+    "tags": [
+      "compound",
+      "upper-body",
+      "gym",
+      "back",
+      "pull",
+      "strict-form"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Set an incline bench to about 30-45 degrees. Lie face down with your chest against the pad, feet on the floor. Hold a dumbbell in each hand, arms hanging straight down. Row both dumbbells up by driving elbows back past your ribs. Squeeze shoulder blades together at the top, then lower with control. The chest support removes momentum and lower back involvement, isolating the back muscles for honest reps."
+  },
+  {
     "id": "chest-supported-low-row",
     "name": "Chest Supported Low Row",
     "category": "back-horizontal-pull",
@@ -5714,6 +5741,30 @@
     "difficulty": "advanced",
     "duration": 30,
     "description": "From headstand position, bring your knees into your chest in a tucked position and hold. This challenges core stability and balance in the inverted position. Keep your elbows bent at 90 degrees with hands on the floor forming a tripod base. The tuck position is a progression toward freestanding headstand control and press to handstand."
+  },
+  {
+    "id": "high-cable-bicep-curl",
+    "name": "High Cable Bicep Curl (Seated)",
+    "category": "arms-biceps",
+    "type": "weights",
+    "muscles": [
+      "biceps"
+    ],
+    "equipment": [
+      "cable",
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "upper-body",
+      "gym",
+      "machine",
+      "biceps",
+      "pull"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Sit at a lat pulldown station with two individual handles attached to the high pulley. Grip one handle in each hand with palms facing up. Start with arms extended overhead, then curl the handles down toward your shoulders, keeping upper arms relatively stable. Squeeze biceps at the bottom, then control back up. The overhead angle emphasizes the short head of the bicep and provides constant cable tension throughout the range."
   },
   {
     "id": "high-knees",
@@ -8767,6 +8818,31 @@
         "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
       }
     ]
+  },
+  {
+    "id": "kinesis-cable-fly",
+    "name": "Kinesis Cable Fly",
+    "category": "chest",
+    "type": "weights",
+    "muscles": [
+      "chest",
+      "front-delts"
+    ],
+    "equipment": [
+      "cable",
+      "machine"
+    ],
+    "tags": [
+      "isolation",
+      "upper-body",
+      "gym",
+      "machine",
+      "chest",
+      "push"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Stand centered at the Kinesis machine with handles at chest height. Grip one handle in each hand, step forward slightly for tension. With a slight bend in the elbows, bring hands together in front of your chest in a hugging arc. Squeeze the chest at the peak contraction, then control back to the start position. The Kinesis resistance system provides constant tension through the full range. Note: Kinesis numbers (1-12) don't correspond to standard weight — find your working number by feel."
   },
   {
     "id": "knee-push-up",
@@ -12290,6 +12366,31 @@
     "description": "Hang from a pull-up bar with arms fully extended. Without bending your elbows, pull your shoulder blades down and together, raising your body slightly. Hold briefly at the top, then lower with control. Focus on using only your back muscles."
   },
   {
+    "id": "scapular-push-up",
+    "name": "Scapular Push-Up",
+    "category": "shoulders",
+    "type": "calisthenics",
+    "muscles": [
+      "serratus-anterior",
+      "shoulders",
+      "upper-back"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "rehab",
+      "shoulder-health",
+      "bodyweight",
+      "floor",
+      "beginner-friendly",
+      "warmup"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Start in a push-up position with arms straight. Without bending your elbows, let your chest sink down between your shoulder blades (retract), then push the floor away by spreading your shoulder blades apart (protract). Only the shoulder blades move — arms stay locked. Strengthens the serratus anterior, which stabilizes the shoulder during pressing movements."
+  },
+  {
     "id": "scissor-kicks",
     "name": "Scissor Kicks",
     "category": "core",
@@ -12704,6 +12805,31 @@
     "difficulty": "beginner",
     "duration": 45,
     "description": "Lie on your side with knees bent. Crunch your upper body toward your knees, focusing on the obliques. Repeat on both sides."
+  },
+  {
+    "id": "side-lying-external-rotation",
+    "name": "Side-Lying External Rotation",
+    "category": "shoulders",
+    "type": "rehab",
+    "muscles": [
+      "rotator-cuff",
+      "rear-delts"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "rehab",
+      "shoulder-health",
+      "bodyweight",
+      "floor",
+      "beginner-friendly",
+      "warmup",
+      "rotator-cuff"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Lie on your side with the working arm on top. Elbow bent at 90 degrees, tucked against your side. Starting with your forearm pointing toward the floor, rotate your forearm up toward the ceiling while keeping your elbow pinned to your side. Control back down slowly. No weight needed — gravity provides the resistance. Targets the infraspinatus and teres minor (external rotators of the rotator cuff)."
   },
   {
     "id": "side-lying-oblique-crunch",
@@ -14940,6 +15066,488 @@
     "difficulty": "beginner",
     "duration": 30,
     "description": "Support yourself at the top of the dip position on parallel bars or between two sturdy chairs. Keep arms straight, shoulders depressed (away from ears), and core tight. Hold this position with good posture. This builds the strength foundation for dips."
+  },
+  {
+    "id": "swim-6-3-6-drill",
+    "name": "6-3-6 Drill",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "core",
+      "shoulders",
+      "hips"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "drill",
+      "technique",
+      "rotation",
+      "maternity-safe"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "6 kicks on your side, 3 strokes, 6 kicks on the other side. Builds body rotation awareness and balance. Stay long and streamlined on each side."
+  },
+  {
+    "id": "swim-backstroke",
+    "name": "Backstroke",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "shoulders",
+      "lats",
+      "core",
+      "hips"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "cardio",
+      "full-body",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Backstroke — great during pregnancy because face stays out of the water and spine is neutral. Steady rotation, relaxed kick. No flip turns."
+  },
+  {
+    "id": "swim-breaststroke",
+    "name": "Breaststroke",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "chest",
+      "inner-thighs",
+      "hips",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "cardio",
+      "full-body",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Breaststroke — pregnancy-friendly stroke that opens the hips. Keep head position natural, don't over-arch the back on the pull. Great for hip mobility."
+  },
+  {
+    "id": "swim-catch-up-drill",
+    "name": "Catch-Up Drill",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "shoulders",
+      "lats",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "drill",
+      "technique",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Freestyle catch-up: one arm stays extended in front while the other completes a full stroke and 'catches up' before switching. Forces long, smooth strokes and good rotation."
+  },
+  {
+    "id": "swim-fingertip-drag",
+    "name": "Fingertip Drag Drill",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "shoulders",
+      "lats",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "drill",
+      "technique",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Freestyle with fingertips dragging along the water surface during recovery. Promotes high elbow recovery and smooth arm path. Keep it relaxed."
+  },
+  {
+    "id": "swim-fist-drill",
+    "name": "Fist Drill",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "forearms",
+      "shoulders",
+      "lats",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "drill",
+      "technique",
+      "maternity-safe"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Freestyle with fists closed — forces you to engage forearms and feel the water with the whole arm, not just the hand. Open hands feel amazing after. Alternate 25 fist / 25 open."
+  },
+  {
+    "id": "swim-freestyle",
+    "name": "Freestyle",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "shoulders",
+      "lats",
+      "core",
+      "hips"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "cardio",
+      "full-body",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Standard freestyle/front crawl. During pregnancy: focus on smooth rotation, long strokes, and relaxed breathing. Open turns instead of flip turns."
+  },
+  {
+    "id": "swim-im-drill-order",
+    "name": "IM Order (No Fly)",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "shoulders",
+      "lats",
+      "chest",
+      "hips",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "cardio",
+      "full-body",
+      "variety",
+      "maternity-safe"
+    ],
+    "difficulty": "intermediate",
+    "duration": 120,
+    "description": "Modified IM — skip butterfly, swim backstroke-breaststroke-freestyle. 25 or 50 of each. All the variety of IM without the back-wrenching fly. Keeps things interesting."
+  },
+  {
+    "id": "swim-kick-on-back",
+    "name": "Kick on Back",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "core",
+      "quads",
+      "hips"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "kick",
+      "legs",
+      "maternity-safe",
+      "recovery"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Flutter kick on your back — arms at sides or streamlined overhead. Face out of water, totally relaxed breathing. Great for when you want easy kick work without a board."
+  },
+  {
+    "id": "swim-kickboard-breast-kick",
+    "name": "Breaststroke Kick with Board",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "inner-thighs",
+      "hips",
+      "glutes",
+      "core"
+    ],
+    "equipment": [
+      "pool",
+      "kickboard"
+    ],
+    "tags": [
+      "swimming",
+      "kick",
+      "legs",
+      "hips",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Breaststroke kick holding a kickboard. Focus on the glide — kick, squeeze, gliiiiide. Opens the hips beautifully. Great pregnancy exercise."
+  },
+  {
+    "id": "swim-kickboard-kick",
+    "name": "Kickboard Kick",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "quads",
+      "hips",
+      "core",
+      "glutes"
+    ],
+    "equipment": [
+      "pool",
+      "kickboard"
+    ],
+    "tags": [
+      "swimming",
+      "kick",
+      "legs",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Flutter kick with kickboard. Steady tempo, kick from the hips not the knees. Keep kick compact — no big splashy kicks. Great leg work without impact."
+  },
+  {
+    "id": "swim-pool-walking",
+    "name": "Pool Walking",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hips",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "recovery",
+      "maternity-safe",
+      "low-intensity"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Walk laps in the shallow end — chest-deep water. Forward, backward, sideways. Water resistance makes this surprisingly good work. Zero impact on joints."
+  },
+  {
+    "id": "swim-pull-buoy-backstroke",
+    "name": "Pull Buoy Backstroke",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "shoulders",
+      "lats",
+      "core"
+    ],
+    "equipment": [
+      "pool",
+      "pull-buoy"
+    ],
+    "tags": [
+      "swimming",
+      "pull",
+      "upper-body",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Backstroke with pull buoy. Extra buoyancy makes this super relaxed. Focus on steady rotation and clean hand entry. Great recovery option."
+  },
+  {
+    "id": "swim-pull-buoy-freestyle",
+    "name": "Pull Buoy Freestyle",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "shoulders",
+      "lats",
+      "chest",
+      "core"
+    ],
+    "equipment": [
+      "pool",
+      "pull-buoy"
+    ],
+    "tags": [
+      "swimming",
+      "pull",
+      "upper-body",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Freestyle with pull buoy between thighs — isolates upper body, lets legs rest. Buoy also lifts hips which feels great with a belly. Focus on long, smooth catches."
+  },
+  {
+    "id": "swim-sculling",
+    "name": "Sculling",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "forearms",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "drill",
+      "technique",
+      "maternity-safe"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Sculling on your back or front — small figure-8 motions with hands to feel the water and move slowly. Head-first, feet-first, or mid-scull. Classic feel-for-the-water drill."
+  },
+  {
+    "id": "swim-sidestroke",
+    "name": "Sidestroke",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "obliques",
+      "shoulders",
+      "lats",
+      "hips"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "cardio",
+      "maternity-safe",
+      "recovery"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Sidestroke — relaxed recovery stroke. Great for pregnancy since belly is supported laterally. Alternate sides each length. Good active recovery option."
+  },
+  {
+    "id": "swim-single-arm-freestyle",
+    "name": "Single-Arm Freestyle",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "shoulders",
+      "lats",
+      "obliques",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "drill",
+      "technique",
+      "maternity-safe"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Freestyle using one arm only — other arm extended in front or at side. Forces great rotation and catch awareness. 25 right / 25 left."
+  },
+  {
+    "id": "swim-underwater-dolphin-kick",
+    "name": "Easy Dolphin Kick",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "core",
+      "hips",
+      "glutes"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "kick",
+      "core",
+      "maternity-safe"
+    ],
+    "difficulty": "intermediate",
+    "duration": 30,
+    "description": "Gentle dolphin kick on your back or side — NOT underwater, stay at the surface. Soft undulation from core through hips. Keep it easy and wave-like, not aggressive. Skip if any low back discomfort."
+  },
+  {
+    "id": "swim-vertical-kick",
+    "name": "Vertical Kick",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "core",
+      "hips",
+      "quads",
+      "glutes"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "kick",
+      "core",
+      "maternity-safe"
+    ],
+    "difficulty": "intermediate",
+    "duration": 30,
+    "description": "Treading water with just kick — arms crossed on chest or out of the water. Flutter kick or egg-beater. Sneaky hard core and leg work. Keep head above water, stay tall."
+  },
+  {
+    "id": "swim-water-treading",
+    "name": "Water Treading",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "core",
+      "hips",
+      "shoulders",
+      "legs"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "cardio",
+      "core",
+      "maternity-safe"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Treading water in the deep end — egg-beater kick or flutter kick. Easy conversational pace. Great full-body work with zero impact. Mix in sculling for variety."
   },
   {
     "id": "switch-stance-sprawl",

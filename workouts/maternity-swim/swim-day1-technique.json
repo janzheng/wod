@@ -1,0 +1,74 @@
+{
+  "id": "maternity-swim-day1-technique",
+  "name": "Swim Day 1: Drill Day",
+  "description": "Jess: Technique-focused swim — all drills, smooth strokes, feel the water. ~35 min, 1500-1800y. The kind of practice where you get out feeling like you swim better than when you got in.",
+  "routineId": "maternity-swim",
+  "tags": ["maternity-swim", "swimming", "technique", "drills", "moderate"],
+  "estimatedDuration": 35,
+  "equipment": ["pool", "kickboard", "pull-buoy"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-freestyle", "distance": "200", "notes": "Easy free — long strokes, find your rhythm. Open turns." },
+        { "id": "swim-backstroke", "distance": "100", "notes": "Loosen up the shoulders, easy kick." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "drill-block-1",
+      "name": "Catch & Pull Drills",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-catch-up-drill", "distance": "4x50", "notes": "Focus on full extension before the next stroke. Glide." },
+        { "id": "swim-fist-drill", "distance": "4x50", "notes": "25 fist / 25 open. Feel the difference — the open hand 25 should feel like you have paddles on." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "drill-block-2",
+      "name": "Rotation & Balance Drills",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-6-3-6-drill", "distance": "4x50", "notes": "Stay long on each side. Hips and shoulders rotate together." },
+        { "id": "swim-single-arm-freestyle", "distance": "4x50", "notes": "25 right / 25 left. Non-working arm extended in front." },
+        { "id": "swim-fingertip-drag", "distance": "4x50", "notes": "High elbows, relaxed recovery. Let the fingertips barely skim the surface." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "pull",
+      "name": "Pull Set",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-pull-buoy-freestyle", "distance": "4x75", "notes": "Smooth and long. Focus on applying what you drilled — high catch, full rotation. Enjoy the buoyancy." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-backstroke", "distance": "100", "notes": "Easy backstroke, let the heart rate come down." },
+        { "id": "swim-sidestroke", "distance": "100", "notes": "Lazy sidestroke — you earned it." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "NO flip turns — open turns only, no crunching the belly",
+    "NO butterfly — skip it entirely during pregnancy",
+    "Keep effort conversational — you should be able to talk between sets",
+    "Stay hydrated — bring a water bottle to the pool deck",
+    "If any drill feels weird or uncomfortable, swap it for easy free",
+    "Pool temp should be 78-84°F — avoid hot tubs and very warm pools"
+  ]
+}

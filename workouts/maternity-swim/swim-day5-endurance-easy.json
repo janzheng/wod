@@ -1,0 +1,70 @@
+{
+  "id": "maternity-swim-day5-endurance-easy",
+  "name": "Swim Day 5: Long & Easy",
+  "description": "Jess: Steady-state endurance swim — longer sets, easy effort. ~35 min, 1800-2000y. Zone out, find your flow, rack up the yards. The meditative one.",
+  "routineId": "maternity-swim",
+  "tags": ["maternity-swim", "swimming", "endurance", "easy", "meditative"],
+  "estimatedDuration": 35,
+  "equipment": ["pool", "pull-buoy"],
+  "difficulty": "beginner-intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-freestyle", "distance": "300", "notes": "Easy 300 free. No rush. Find your breathing pattern and settle in." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "main-swim",
+      "name": "Main Set: Steady Free",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-freestyle", "distance": "4x150", "notes": "Steady, conversational effort. Breathe every 3 or every 4 — whatever's comfortable. :20 rest between. Just swim." }
+      ],
+      "restBetween": 20,
+      "restAfter": 45
+    },
+    {
+      "id": "pull-block",
+      "name": "Pull Break",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-pull-buoy-freestyle", "distance": "200", "notes": "Pull buoy — let the legs rest. Smooth, easy pulls." },
+        { "id": "swim-pull-buoy-backstroke", "distance": "100", "notes": "Pull buoy backstroke — float city." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "stroke-variety",
+      "name": "Stroke Switch",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-backstroke", "distance": "200", "notes": "Easy backstroke — different muscles, same chill effort." },
+        { "id": "swim-breaststroke", "distance": "100", "notes": "Breast with looong glides. Count your strokes per length — try to lower the count." }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        { "id": "swim-sidestroke", "distance": "100", "notes": "Sidestroke — the laziest cooldown in swimming." }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "This is the zen swim — long sets, easy effort, zone out",
+    "If 150s feel too long, break them into 100s with :10 rest",
+    "Counting strokes per length is a fun game to stay engaged during longer sets",
+    "Breathe as often as you need — every 2 is totally fine during pregnancy",
+    "NO flip turns, NO butterfly"
+  ]
+}

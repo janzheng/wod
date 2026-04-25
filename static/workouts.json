@@ -11132,9 +11132,9 @@
             "notes": "Light band, scap squeeze"
           },
           {
-            "id": "kneeling-cross-body-external-rotation",
-            "reps": "10 each side",
-            "notes": "Kneeling, cross-body external rotation. Rotator cuff maintenance — especially for the right shoulder."
+            "id": "yuris-shoulder-band-warmup",
+            "reps": 10,
+            "notes": "Yuri band shoulder warmup (from RRR). Light band, slow and controlled. Rotator cuff maintenance — especially for the right shoulder."
           }
         ],
         "restBetween": 0,
@@ -11196,6 +11196,3152 @@
       "Pike push-ups up to 8 reps — building overhead pressing pattern.",
       "Thread-the-needle should feel like home by now.",
       "If short on time: shoulder health block + pike push-ups. 5 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-kb-cond",
+    "name": "Week 7 KB Conditioning (Refine -- Light)",
+    "description": "Thursday = light skill drilling. Same as W6. 20 min, no leg loading. OTD flow at 20lb 2x2, bent press 20-25, windmill 18-20, TGU 25. NO swings, NO C&P, NO squats. Legs tomorrow.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "skill-work",
+      "light",
+      "fixed"
+    ],
+    "estimatedDuration": 20,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light bell, loosen up"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "flow-block",
+        "name": "OTD Flow (Light)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-dead-clean",
+            "reps": "2 each side",
+            "notes": "Light and smooth"
+          },
+          {
+            "id": "kettlebell-front-squat",
+            "reps": "2 each side",
+            "notes": "Easy depth"
+          },
+          {
+            "id": "kettlebell-lateral-lunge",
+            "reps": "2 each side",
+            "notes": "Controlled"
+          },
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "2 each side",
+            "notes": "Groove the path"
+          },
+          {
+            "id": "kettlebell-tactical-clean",
+            "reps": "2 each side",
+            "notes": "Control down"
+          }
+        ],
+        "notes": "20lb. 2 reps each side x 2 rounds. Should feel effortless.",
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "skill-block",
+        "name": "Skill Drilling",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3 each side",
+            "notes": "20-25lb. Groove, not grind."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each side",
+            "notes": "18-20lb. Light. Deep hinge."
+          },
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "2 each side",
+            "notes": "25lb. Lighter than Tuesday. Drill transitions on left side."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "20 minutes. Light. Legs are tomorrow.",
+      "No swings, no C&P, no goblet squats, no lunges. Zero leg loading.",
+      "This is skill maintenance -- keep the movement patterns fresh without any fatigue.",
+      "OTD flow at 2 reps each side instead of 1 -- slightly more volume but still light.",
+      "Be boring. Boring is the goal. Your legs will thank you."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-kb-full",
+    "name": "Week 7 KB Full Body (Explore)",
+    "description": "B-Stance Flow stays but volume drops hard: W6 was 5x5x5 = 30+ min just for flow, way too long. W7: 3 reps each side x 3 rounds at 25lb. Bent press at 30, cossack 45, windmill 25, TGU 30, C&P pushing for 8 at 50. ~35 min total.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "strength",
+      "skill-work",
+      "intermediate",
+      "fixed"
+    ],
+    "estimatedDuration": 35,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light, loosen shoulders"
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 8,
+            "notes": "Find your depth"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "flow-block",
+        "name": "Block 1: B-Stance Flow (@Asgooch)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-b-stance-swing",
+            "reps": "3 each side",
+            "notes": "25lb. B-stance: one foot back, heel up. Swing between legs, explosive hip drive."
+          },
+          {
+            "id": "kettlebell-swing-clean",
+            "reps": "3 each side",
+            "notes": "-> Catch into rack on the swing. Ride the momentum."
+          },
+          {
+            "id": "kettlebell-ab-stance-goblet-squat",
+            "reps": "3 each side",
+            "notes": "-> Stay in B-stance, squat from rack position."
+          },
+          {
+            "id": "kettlebell-swing-snatch",
+            "reps": "3 each side",
+            "notes": "-> Punch overhead from rack. Lock out, stand tall."
+          },
+          {
+            "id": "kettlebell-overhead-lunge",
+            "reps": "3 each side",
+            "notes": "-> Bell locked overhead, step into lunge. Full flow complete."
+          }
+        ],
+        "notes": "25lb. 3 reps each side x 3 rounds. W6 was 5x5 = way too long. This should be ~10 min, not 30+. Quality over volume.",
+        "restBetween": 0,
+        "restAfter": 90
+      },
+      {
+        "id": "skill-block",
+        "name": "Block 2: Skill Work",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3-5 each side",
+            "notes": "25lb. Form check — lighter weight, clean path. Feel the deep stabilizers working (these are what's been making you sore). Don't chase 30 this week."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "8 each side",
+            "notes": "25lb goblet. W7D2 confirmed: 25lb gives MUCH better depth than 40/45. This is a mobility exercise — depth over load. Sit deep, heels down."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each side",
+            "notes": "25lb. Deep hip hinge, feel the stretch. These loosen up the hip flexor tightness you've been noticing."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "tgu-block",
+        "name": "Block 3: TGU",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "3 each side",
+            "notes": "25lb. Form check week — dropped from 30 for cleaner transitions. Left side: pause at every checkpoint. The deep stabilizers fire hard here."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 60
+      },
+      {
+        "id": "strength-block",
+        "name": "Block 4: KB Strength",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "8 each",
+            "notes": "50lb. W7D2: hit 8 for ALL 3 sets — breakthrough! Use your whole body: hips drive the clean, legs dip, shoulder pushes, arm locks out. That's the technique, not cheating. Maintain this."
+          },
+          {
+            "id": "kettlebell-row",
+            "reps": "10 each",
+            "notes": "50lb. Slow: 2s pull, 2s lower. Max KB weight — progress by slowing down."
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 12,
+            "notes": "50lb. Pause at bottom 1 second. Max KB weight."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Tuesday = EXPLORE. B-Stance flow volume fixed: 3x3 instead of 5x5.",
+      "W6 lesson: 5 reps x 5 rounds x 5 exercises = 30+ min. Too long. 3x3 keeps the flow without eating the session.",
+      "25lb for the flow — up from 20 in W6. You know the transitions now.",
+      "Bent press at 30: week 3. Should feel natural.",
+      "C&P at 50: push for 8. This is the strength target.",
+      "No finisher swings — session is ~35 min, keep it tight."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-kb-morning-flow",
+    "name": "W7 KB Morning Flow",
+    "description": "10 min. Same as W6. Thread-the-needle, cat-cow, scorpion stretch, 90-90, cossack BW, active pigeon. Tuesday and Thursday.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "thoracic",
+      "hips",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 10,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "thoracic-opener",
+        "name": "Thoracic + Shoulder Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Deep thoracic rotation."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Full spinal wave."
+          },
+          {
+            "id": "scorpion-stretch",
+            "duration": 20,
+            "notes": "20s each side. Should be deeper than W6."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 10
+      },
+      {
+        "id": "hip-flow",
+        "name": "Hip Flow",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "90-90-stretch",
+            "duration": 30,
+            "notes": "30s each side."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "Bodyweight. Deep and slow."
+          },
+          {
+            "id": "active-pigeon",
+            "duration": 20,
+            "notes": "20s each side. Press into the stretch."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "10 min -- same for Tuesday and Thursday.",
+      "Everything should feel familiar. Go deeper, not longer.",
+      "Thursday: prep for light skill work. Don't let the warmup psych you up."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-legs",
+    "name": "Week 7 Legs — Form Check Week (Quads/Hamstrings/Glutes/Calves)",
+    "description": "Form Check Week. 75/side is the squat baseline — felt as easy as 70 in W6. RDL is the focus: back was kicking in at 65 on first 2 sets, third set was best (slow, static, good bracing). Stay at 65-70 and nail the bracing pattern. Leg press, calf raise, leg curl, lunges all hold steady.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "legs",
+      "lower-body",
+      "quads",
+      "hamstrings",
+      "glutes",
+      "ppl",
+      "fixed",
+      "form-check"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth. Wake up the legs."
+          },
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Open up the hips"
+          },
+          {
+            "id": "lunge",
+            "reps": "5 each leg",
+            "notes": "Bodyweight, feel the stretch"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "squat-warmup",
+        "name": "Squat Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": 8,
+            "notes": "55/side x8. Deep — same depth as working sets."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 120
+      },
+      {
+        "id": "squat-working",
+        "name": "Squat (Working Sets)",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": 8,
+            "notes": "Sets 1-3: 75/side x8 deep. Set 4: TRY 80/side. W6: 75x8 across all 3 working sets felt as easy as 70. 75 is the confirmed baseline. 80 on the last set is the test — even 5-6 clean reps at 80 is a win."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 120
+      },
+      {
+        "id": "back-extension-working",
+        "name": "Back Extension — RDL Swap (Form Check)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "45-degree-back-extension",
+            "reps": "12-15",
+            "notes": "SWAPPED from RDL this week. Hold a plate at your chest (start with 25lb, go up if easy). HINGE AT THE HIPS, not the spine — keep back neutral, bend at the hip crease. You should feel hamstrings and glutes, NOT lower back. If you only feel your back, you're rounding. Slow: 2 seconds down, squeeze glutes at top, 2 seconds up. This teaches you what the RDL posterior chain activation is supposed to feel like without barbell bracing stress."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "legpress-station",
+        "name": "Leg Press",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": "10-12",
+            "notes": "6 plates/side. W6: hard but good ROM after first set. Stay at 6 plates. Full ROM — lower mount point. Focus on depth, not speed."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "calf-raise-station",
+        "name": "Single Leg Calf Raise",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press-calf-raise",
+            "reps": 20,
+            "notes": "SINGLE LEG: 4 plates/side x20, other foot stabilizing on the plate. W6: graduated to single leg. Stay here — this is the new baseline."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "legcurl-station",
+        "name": "Leg Curl",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-leg-curl",
+            "reps": 12,
+            "notes": "110. W6: 12 reps, hard last 3. Stay at 110. 2-second negatives on every rep. Clean form before any weight bump."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "lunge-finisher",
+        "name": "Lunges (The Finisher)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-lunge",
+            "reps": "10 each leg",
+            "notes": "40lb DBs. W6: still death but no sitting between sets — that's progress. Stay at 40. Walking lunges, long stride, back knee toward floor. Form check week = clean all 3 sets before any weight bump."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "FORM CHECK WEEK — RDL is the main focus. Brace before every rep, slow eccentric, no back compensation.",
+      "Squat 75 is the baseline. 80 on the last set if sets 1-3 are clean.",
+      "RDL cues: brace hard, 3-count eccentric, hips back not down, feel hamstrings not lower back.",
+      "If RDL bracing is solid all 3 sets at 65, try 70 on set 3 only.",
+      "Calf raises are single leg now — 4 plates x20, other foot just stabilizing.",
+      "Leg curl: 110x12 with 2-second negatives. Stay here.",
+      "Lunges: 40lb, survive all 3 sets with clean form.",
+      "Rest 3 min between squats, 2.5 min RDL, 2 min leg press, 90s isolation"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-legs-morning-flow",
+    "name": "W7 Legs Morning Flow",
+    "description": "15 min. Same as W6. Hip warmup, pigeon + lizard, glute bridge + dead bug + plank hip dips. Note: RDL form check today -- bracing matters.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "hips",
+      "legs",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "hip-warmup",
+        "name": "Hip Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Standing, big slow circles."
+          },
+          {
+            "id": "dynamic-malasana",
+            "reps": 10,
+            "notes": "3 seconds down, 2 in the hole, drive up."
+          },
+          {
+            "id": "lunge-with-rotation",
+            "reps": "5 each side",
+            "notes": "Low lunge + twist. Hip flexors and thoracic."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-depth",
+        "name": "Hip Depth Work",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 45,
+            "notes": "45s each side. Keep going deeper each week."
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 30,
+            "notes": "30s each side. Elbows down."
+          },
+          {
+            "id": "skandasana-side-lunge",
+            "reps": "8 each",
+            "notes": "Deep side lunge. Cossack squat carryover."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "activation",
+        "name": "Glute + Core Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "glute-bridge",
+            "reps": 15,
+            "notes": "Squeeze at top. Activate before you load."
+          },
+          {
+            "id": "dead-bug-opposite-reach",
+            "reps": 10,
+            "notes": "Core bracing -- RDL form check today, this matters."
+          },
+          {
+            "id": "plank-hip-dips",
+            "reps": 12,
+            "notes": "Obliques + hip mobility. 6 each side."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min -- same structure as W6.",
+      "RDL form check today: bracing is the focus. Dead bug primes core for it.",
+      "Pigeon and lizard: your hip mobility should keep improving. Go deeper.",
+      "If short on time: hip warmup + pigeon + glute bridge. 8 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-pull",
+    "name": "Week 7 Pull — Form Check (Back/Biceps)",
+    "description": "Form Check Week. Less yanking, more static control. W6 pull-ups hit 36 clean — keep the clean-only rule. DB rows hit 80x7 PR but form changed; keep 80 as top set with strict form. NEW: chest supported DB row as strict accessory, high cable bicep curl replaces cable curl, cable crunch added as true finisher.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "pull",
+      "upper-body",
+      "back",
+      "biceps",
+      "ppl",
+      "form-check"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine",
+      "pull-up-bar",
+      "band"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Scap activation"
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Spine warm"
+          },
+          {
+            "id": "dead-hang",
+            "duration": 30,
+            "notes": "Grip and shoulder warm"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "pullup-station",
+        "name": "Pull-ups",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "8-10",
+            "notes": "W6: 10/10/9/7 = 36 clean. The clean-only rule is working. Form check week: controlled descent, no kipping, full dead hang at bottom. Don't chase 10 on every set — 8 strict beats 10 sloppy."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "station-1",
+        "name": "Station 1: Preacher Curl + DB Row",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "preacher-curl",
+            "reps": "8-10",
+            "notes": "15/side. W6: 9/9/8 + drop. Stay at 15/side — form check week means no bumping. Full ROM, slow negative, no cheating the bottom."
+          },
+          {
+            "id": "dumbbell-row",
+            "reps": "7-10",
+            "notes": "Pyramid: 60x10, 70x8, 80x7 (strict form). W6: 80x7 PR but had to brace everything. Form check week: 80 stays as top set but zero momentum. Brace core, pull to hip, squeeze at top, slow lower."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "station-2",
+        "name": "Station 2: Chest Supported Row + Lat Pulldown",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "chest-supported-dumbbell-row",
+            "reps": 10,
+            "notes": "NEW. 40-50lb. No momentum possible — the bench does the work of keeping you honest. Squeeze at top, 2-second negative. Start at 40, go to 50 if 40 is easy."
+          },
+          {
+            "id": "lat-pulldown",
+            "reps": "10-12",
+            "notes": "170 (up from 160). Back left machine. Wide grip near the bend. W6: 160x12 x3 clean. Form check: lean back slightly, pull to chest not behind neck, hold the squeeze 1 second."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "station-3",
+        "name": "Station 3: Cable Row + Face Pull",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-cable-row",
+            "reps": "10-12",
+            "notes": "130 (120+10 add-on). Back right machine. Upright posture, slower tempo. W6: form is the progression now. 2-second concentric, 1-second hold, 2-second eccentric. No leaning back."
+          },
+          {
+            "id": "face-pull",
+            "reps": 20,
+            "notes": "50 (back from 57.5). W6: 57.5x15 form broke down. Form check week: 50x20 all clean. External rotate at the top, elbows high, hold 1 second. If 20 is easy, stay — the point is perfect reps."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "station-4",
+        "name": "Station 4: Reverse Fly",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": "12-15",
+            "notes": "25lb. W6: form breaks last 2 reps. Form check week: if you can only do 13 strict, stop at 13. Seated bent-over, slow squeeze, no swinging."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 90
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher: High Cable Curl + Cable Crunch",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "high-cable-bicep-curl",
+            "reps": "10-12",
+            "notes": "NEW — replaces cable-bicep-curl. Seated at lat pulldown, two handles, curl down. Find your working weight this week. Start light (30-40), slow and strict. Biceps are pre-fatigued from preacher so go lighter than ego says."
+          },
+          {
+            "id": "cable-crunch",
+            "reps": "12-15",
+            "notes": "NEW — true finisher. Find working number this week. Kneel facing away from cable, crunch down. Keep hips locked — movement comes from abs, not hip flexors. Start around 50-60, adjust."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "FORM CHECK WEEK: every rep should be textbook. If form breaks, stop the set. Less yanking, more static control.",
+      "Pull-ups: 36 clean last week was great. Don't force 10 on every set — 8 strict is the priority.",
+      "DB row 80lb stays but zero momentum. The chest supported row afterward will expose any cheating habits.",
+      "Chest supported DB row is NEW: the bench removes all body english. Start at 40lb, find your honest number.",
+      "Face pull dropped back to 50x20 on purpose. 57.5 broke form — own 50 with perfect external rotation.",
+      "High cable bicep curl is NEW: seated at lat pulldown with two handles. Find your weight — biceps are already cooked from preacher.",
+      "Cable crunch is NEW: abs finisher on the cable column. Keep hips locked, crunch from the abs only.",
+      "Both finishers are on the cable column — no moving between stations. Efficient.",
+      "Rest: 2.5 min pull-ups, 2 min stations 1-2, 90s station 3, 75s station 4, 60s finisher"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-pull-morning-flow",
+    "name": "W7 Pull Morning Flow",
+    "description": "12 min. Same structure as W6. Spine primer + bicep/elbow prep (preacher curl is early) + hip opener. Dead hang 25s, scap pull-ups x10.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "back",
+      "biceps",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "mat",
+      "pull-up-bar"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "spine-primer",
+        "name": "Spine + Scap Primer",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Full spinal wave. Slow."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 25,
+            "notes": "25s. Decompress shoulders, warm grip."
+          },
+          {
+            "id": "scapular-pull-up",
+            "reps": 10,
+            "notes": "No elbow bend -- just scapulae retracting."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "shoulder-arm-prep",
+        "name": "Shoulder + Arm Prep",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "prone-y-raises",
+            "reps": 8,
+            "notes": "Face down, arms in Y. Lower trap + rotator cuff. Shoulder health carries over from push day."
+          },
+          {
+            "id": "gmb-wrist-prep",
+            "reps": 10,
+            "notes": "Loosen wrists and forearms for grip work."
+          },
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Small to big. Warm bicep insertions."
+          },
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 20,
+            "notes": "Opens bicep and chest. Preacher curl prep."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-opener",
+        "name": "Hip + Back Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "happy-baby",
+            "duration": 30,
+            "notes": "Hip opener. Gentle."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 30,
+            "notes": "30s each side. Lower back release."
+          },
+          {
+            "id": "child-pose-reach",
+            "duration": 30,
+            "notes": "Walk hands to each side. Lateral lat stretch."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min -- same as W6. Dead hang 25s, scap pull-ups x10.",
+      "Bicep prep primes preacher curl -- which comes early in the pull session.",
+      "If short on time: spine primer + arm prep. 6 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-push",
+    "name": "Week 7 Push — Form Check (Chest/Shoulders/Triceps)",
+    "description": "Form Check Week. Same exercises, same or slightly lower weights. Stop every set when form breaks — don't chase reps. Pec deck is broken, swapping to kinesis cable fly (first time). Push press cue: parallel feet, no stagger.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "push",
+      "upper-body",
+      "chest",
+      "shoulders",
+      "triceps",
+      "ppl",
+      "form-check"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup + Shoulder Rehab",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Loosen shoulders"
+          },
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Scap activation, slow and controlled"
+          },
+          {
+            "id": "kneeling-cross-body-external-rotation",
+            "reps": "10 each side",
+            "notes": "Shoulder rehab — Yuri band warmup. Keep in every push session."
+          },
+          {
+            "id": "push-up",
+            "reps": 12,
+            "notes": "Get blood flowing"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "overhead-station",
+        "name": "Station 1: Overhead",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "push-press",
+            "reps": "6-8",
+            "notes": "45/side. W7D1: 45x8x3 with parallel feet — way cleaner than 50. Stay at 45 for form check. Last 2 reps of set 3 started to collapse — stop there if form breaks. No stagger, no momentum hacks."
+          },
+          {
+            "id": "lateral-raise",
+            "reps": "12-15",
+            "notes": "20lb. W7D1: right shoulder crackly but improved each set with warmup. Stay at 20x15. Watch the shoulder — injury prevention is paramount."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "press-station",
+        "name": "Station 2: Press",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "chest-press-machine",
+            "reps": "6-8",
+            "notes": "180. W7D1: 180x8x3 clean then died on 4th. Confirmed working weight at station 2. Full ROM, controlled eccentric."
+          },
+          {
+            "id": "incline-dumbbell-press",
+            "reps": 10,
+            "notes": "50lb. W7D1: dropped from 55 to 50 for pause at bottom — 4x10 all completed with better ROM. 50 with pause > 55 without. Last set mega struggle but locked it out."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "machine-cable-station",
+        "name": "Station 3: Cables",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kinesis-cable-fly",
+            "reps": "10-12",
+            "notes": "Working number: 8. W7D1: 6 too easy, 9 losing form, 8x11 felt most like pec deck. Feels like DB fly with constant tension — less support than pec deck. Stay at 8."
+          },
+          {
+            "id": "cable-lateral-raise",
+            "reps": 12,
+            "notes": "45. W7D1: dropped from 50 to 45 for stability. Both sides crackly at 50. 45 feels more controlled. Stay here."
+          },
+          {
+            "id": "incline-cable-overhead-tricep-extension",
+            "reps": "10-12",
+            "notes": "54x12x3. W7D1: surprisingly strong, can feel all the fibers. Steady and safe. Love these."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "straight-arm-pulldown",
+            "reps": 12,
+            "notes": "110. W6: 10/10/9. Stay at 110, form focus. Straight arms, lats do the work, stop when shoulders start taking over."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "FORM CHECK WEEK: Stop every set when form breaks. If you only get 6 clean reps, that's the set. Don't grind ugly reps to hit a number.",
+      "Push press: parallel feet, no stagger. Shallow dip, big drive, full lockout. This is the cue to drill this week.",
+      "Kinesis cable fly is new — treat the first session as exploration. Find the working number, learn the movement path.",
+      "Weights stay flat or dip. The goal is perfect reps, not PRs. PRs come from form weeks.",
+      "Shoulder rehab stays in the warmup — band pull-aparts + kneeling cross-body external rotations every push day.",
+      "Rest 2 min between push press, 2.5 min on chest press, 75s on cables"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w7-push-morning-flow",
+    "name": "W7 Push Morning Flow",
+    "description": "15 min. Beefed up shoulder health block — more bodyweight shoulder strength/rehab. No equipment needed. Overhead mobility + shoulder stability before push press.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "shoulders",
+      "chest",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "shoulder-health",
+        "name": "Shoulder Health + Strength",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "15 each direction",
+            "notes": "Big circles, warm the joint"
+          },
+          {
+            "id": "side-lying-external-rotation",
+            "reps": "10 each side",
+            "notes": "Lie on your side, elbow at 90, rotate forearm up. No band needed — gravity is the resistance. Targets the rotator cuff. Go slow."
+          },
+          {
+            "id": "prone-y-raises",
+            "reps": 10,
+            "notes": "Face down, lift arms in a Y shape overhead. Hits lower traps + rotator cuff. Hold at the top for 1 second."
+          },
+          {
+            "id": "scapular-push-up",
+            "reps": 10,
+            "notes": "Push-up position, arms locked. Only the shoulder blades move — sink down (retract) then push the floor away (protract). Strengthens serratus anterior."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "overhead-activation",
+        "name": "Overhead Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "wall-angel",
+            "reps": 12,
+            "notes": "Back flat against wall. Getting deeper each week."
+          },
+          {
+            "id": "pike-push-up",
+            "reps": 8,
+            "notes": "Overhead pressing pattern. Shoulder-to-ceiling."
+          },
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Standard, easy. Chest activation."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "stretch-close",
+        "name": "Stretch + Close",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Deep thoracic rotation."
+          },
+          {
+            "id": "puppy-pose",
+            "duration": 30,
+            "notes": "Deep shoulder stretch."
+          },
+          {
+            "id": "cobra-stretch",
+            "duration": 20,
+            "notes": "Open up the chest and hip flexors."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min — shoulder health block is bigger this week. All bodyweight, no equipment.",
+      "Side-lying external rotation: the simplest rotator cuff exercise. Slow is the point.",
+      "Prone Y raises: if your lower traps are weak, these will burn fast. That's good.",
+      "Scapular push-ups: serratus anterior stabilizes your shoulder during all pressing. Train it.",
+      "If short on time: shoulder health block only. 5 min of the most important stuff."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-kb-cond",
+    "name": "Week 8 KB Conditioning (Refine -- Light)",
+    "description": "Thursday = light skill drilling. Same as W7. 20 min, no leg loading. OTD flow at 20lb 2x2, bent press 20-25, windmill 18-20, TGU 25. NO swings, NO C&P, NO squats. Legs tomorrow.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "skill-work",
+      "light",
+      "fixed"
+    ],
+    "estimatedDuration": 20,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light bell, loosen up"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "flow-block",
+        "name": "OTD Flow (Light)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-dead-clean",
+            "reps": "2 each side",
+            "notes": "Light and smooth"
+          },
+          {
+            "id": "kettlebell-front-squat",
+            "reps": "2 each side",
+            "notes": "Easy depth"
+          },
+          {
+            "id": "kettlebell-lateral-lunge",
+            "reps": "2 each side",
+            "notes": "Controlled"
+          },
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "2 each side",
+            "notes": "Groove the path"
+          },
+          {
+            "id": "kettlebell-tactical-clean",
+            "reps": "2 each side",
+            "notes": "Control down"
+          }
+        ],
+        "notes": "20lb. 2 reps each side x 2 rounds. Should feel effortless.",
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "skill-block",
+        "name": "Skill Drilling",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3 each side",
+            "notes": "20-25lb. Groove, not grind. W7 at 25 was clean — stay light here, Tuesday is the work day."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each side",
+            "notes": "18-20lb. Light. Deep hinge. Hip flexor stretch."
+          },
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "2 each side",
+            "notes": "25lb. Lighter intent than Tuesday. Drill transitions on left side — that's still the weak link."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "20 minutes. Light. Legs are tomorrow.",
+      "No swings, no C&P, no goblet squats, no lunges. Zero leg loading.",
+      "This is skill maintenance -- keep the movement patterns fresh without any fatigue.",
+      "Same as W7 — if it's not broken, don't fix it.",
+      "Be boring. Boring is the goal. Your legs will thank you."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-kb-full",
+    "name": "Week 8 KB Full Body (Explore)",
+    "description": "W7 nailed the volume: B-stance flow 25lb 3x3 was ~10 min, perfect. Bent press/cossack/windmill all at 25 — depth over weight. C&P 50x8x3 breakthrough. W8: hold everything steady. 25lb for all skill/flow, 50lb for strength block only.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "strength",
+      "skill-work",
+      "intermediate",
+      "fixed"
+    ],
+    "estimatedDuration": 35,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light, loosen shoulders"
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 8,
+            "notes": "Find your depth"
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy swings, wake up the hips"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "flow-block",
+        "name": "Block 1: B-Stance Flow (@Asgooch)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-b-stance-swing",
+            "reps": "3 each side",
+            "notes": "25lb. B-stance: one foot back, heel up. W7 actuals: 3x3 was the sweet spot — ~10 min total."
+          },
+          {
+            "id": "kettlebell-swing-clean",
+            "reps": "3 each side",
+            "notes": "-> Catch into rack on the swing. Momentum should be smooth by now."
+          },
+          {
+            "id": "kettlebell-ab-stance-goblet-squat",
+            "reps": "3 each side",
+            "notes": "-> Stay in B-stance, squat from rack."
+          },
+          {
+            "id": "kettlebell-swing-snatch",
+            "reps": "3 each side",
+            "notes": "-> Punch overhead from rack. Lock out hard."
+          },
+          {
+            "id": "kettlebell-overhead-lunge",
+            "reps": "3 each side",
+            "notes": "-> Bell locked overhead, step into lunge. Full flow."
+          }
+        ],
+        "notes": "25lb. 3 reps each side x 3 rounds. Proven volume from W7 — don't change it.",
+        "restBetween": 0,
+        "restAfter": 90
+      },
+      {
+        "id": "skill-block",
+        "name": "Block 2: Skill Work",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3-5 each side",
+            "notes": "25lb. W7 actuals: 25lb felt clean. Stay here — deep stabilizers are the point, not load. Clean path, slow descent."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "8 each side",
+            "notes": "25lb goblet. W7 confirmed better depth at 25 than 40/45. Sit deep, heels down. Mobility exercise, not strength."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each side",
+            "notes": "25lb. W7 felt good. Deep hip hinge, feel the stretch through hip flexors."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "tgu-block",
+        "name": "Block 3: TGU",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "3 each side",
+            "notes": "25lb. W7 actuals: 25lb transitions were cleaner than 30. Left side: still pause at every checkpoint. Stay at 25."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 60
+      },
+      {
+        "id": "strength-block",
+        "name": "Block 4: KB Strength",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-clean-and-press",
+            "reps": "8 each",
+            "notes": "50lb. W7 breakthrough: 8 reps ALL 3 sets. Whole-body technique — hips drive clean, legs dip, shoulder pushes, arm locks out. Maintain 8x3, don't chase 10 yet."
+          },
+          {
+            "id": "kettlebell-row",
+            "reps": "10 each",
+            "notes": "50lb. Slow: 2s pull, 2s lower. Max KB weight — progress by tempo."
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 12,
+            "notes": "50lb. Pause at bottom 1 second. Max KB weight."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-swing",
+            "reps": 20,
+            "notes": "50lb. Explosive hips. 2 sets of 20, catch your breath between."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Tuesday = EXPLORE. B-Stance flow at 3x3 is locked in — W7 proved the volume.",
+      "25lb for all skill/flow/mobility work. 50lb only for strength block + finisher.",
+      "Don't chase heavier weights on KB skill work. Depth and form are the gains.",
+      "C&P 8x3 at 50 was a W7 breakthrough — consolidate, don't escalate.",
+      "Finisher swings are back: 50x20 x2. Quick and done."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-kb-morning-flow",
+    "name": "W8 KB Morning Flow",
+    "description": "10 min. Same as W7. Thread-the-needle, cat-cow, scorpion stretch, 90-90, cossack BW, active pigeon. Tuesday and Thursday.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "thoracic",
+      "hips",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 10,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "thoracic-opener",
+        "name": "Thoracic + Shoulder Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Deep thoracic rotation."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Full spinal wave."
+          },
+          {
+            "id": "scorpion-stretch",
+            "duration": 20,
+            "notes": "20s each side. W8 — should be deeper than W7."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 10
+      },
+      {
+        "id": "hip-flow",
+        "name": "Hip Flow",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "90-90-stretch",
+            "duration": 30,
+            "notes": "30s each side."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "Bodyweight. Deep and slow. Mirrors the loaded cossack on Tuesday."
+          },
+          {
+            "id": "active-pigeon",
+            "duration": 20,
+            "notes": "20s each side. Press into the stretch."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "10 min -- same for Tuesday and Thursday.",
+      "Everything should feel familiar by W8. Go deeper, not longer.",
+      "Thursday: prep for light skill work. Don't let the warmup psych you up."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-legs",
+    "name": "Week 8 Legs — Selective Push (Quads/Hamstrings/Glutes/Calves)",
+    "description": "Selective push week. Squat pyramids faster — W7 hit 80x8 clean, so open at 75 and get to 80 sooner. Back extensions stay at 25lb dead slow — hamstrings were torched, this is working. Leg press stays at 4 plates for full ROM (dropped from 6 in W7, way deeper, found hidden muscles). Lunges brutally hard at 40 with the deeper everything — hold steady.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "legs",
+      "lower-body",
+      "quads",
+      "hamstrings",
+      "glutes",
+      "ppl",
+      "fixed",
+      "selective-push"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth. Wake up the legs."
+          },
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Open up the hips"
+          },
+          {
+            "id": "lunge",
+            "reps": "5 each leg",
+            "notes": "Bodyweight, feel the stretch"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "squat-warmup",
+        "name": "Squat Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": 8,
+            "notes": "55/side x8. Deep — same depth as working sets."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 120
+      },
+      {
+        "id": "squat-working",
+        "name": "Squat (Working Sets)",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": 8,
+            "notes": "Pyramid faster: 75x8, 75x8, 80x8, 80x8. W7 actuals: 75x8x3 + 80x8 felt good, almost easy, good ROM. 80 is no longer a test — it's a working weight now. Two sets at 80 this week. Focus on same depth and control at 80 as you had at 75."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 120
+      },
+      {
+        "id": "back-extension-working",
+        "name": "Back Extension (Dead Slow)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "45-degree-back-extension",
+            "reps": 15,
+            "notes": "25lb plate, dead slow, 2s pause at bottom. W7 actuals: 25x15x3 torched the hamstrings. This feels nothing like RDL — it's working as its own thing. Stay at 25lb, don't rush heavier. Slow eccentric is the stimulus. If it stops feeling hard, go slower before going heavier."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "legpress-station",
+        "name": "Leg Press (Full ROM)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": "10-12",
+            "notes": "4 plates/side, FULL ROM, lower mount point. W7: dropped from 6 to 4 plates and found way more depth — hidden muscles lit up. Stay at 4 plates. Chase depth, not weight. Don't creep back up to 6."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "calf-raise-station",
+        "name": "Single Leg Calf Raise",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press-calf-raise",
+            "reps": 20,
+            "notes": "SINGLE LEG: 4 plates/side x20, other foot stabilizing on the plate. W7 actuals: 4 plates x20 single leg, solid. Stay here."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "legcurl-station",
+        "name": "Leg Curl",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-leg-curl",
+            "reps": 12,
+            "notes": "110, settings 5/5/2. W7 actuals: 110x12x3, hard last 7, dropped to 100 to finish. Stay at 110 — fight for all 12 on every set. If you need to drop to 100 on the last set again, that's fine, but try to hold 110 longer this week."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "lunge-finisher",
+        "name": "Lunges (The Finisher)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-lunge",
+            "reps": "10 each leg",
+            "notes": "40lb DBs. W7 actuals: extremely hard — deeper squats + deeper leg press wrecked bracing for lunges. Stay at 40. The deeper everything upstream is the real progression here. Walking lunges, long stride, back knee toward floor."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "SELECTIVE PUSH — squat pyramids faster (two sets at 80 instead of one). Everything else holds or refines.",
+      "Squat: 75x8, 75x8, 80x8, 80x8. Two sets at 80 is the push this week.",
+      "Back extension: 25lb dead slow with 2s pause. Go slower before going heavier.",
+      "Leg press: 4 plates FULL ROM. Don't chase weight — depth is the stimulus now.",
+      "Leg curl: 110x12 all 3 sets. Fight for every rep before dropping weight.",
+      "Lunges: 40lb, survive. The deeper upstream work is making these harder already.",
+      "Rest 3 min between squats, 2 min leg press, 90s isolation"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-legs-morning-flow",
+    "name": "W8 Legs Morning Flow",
+    "description": "15 min. Same as W7. Hip warmup, pigeon + lizard, glute bridge + dead bug + plank hip dips. Back extensions are in the workout — hip flexor mobility matters.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "hips",
+      "legs",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "hip-warmup",
+        "name": "Hip Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Standing, big slow circles."
+          },
+          {
+            "id": "dynamic-malasana",
+            "reps": 10,
+            "notes": "3 seconds down, 2 in the hole, drive up."
+          },
+          {
+            "id": "lunge-with-rotation",
+            "reps": "5 each side",
+            "notes": "Low lunge + twist. Hip flexors and thoracic."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-depth",
+        "name": "Hip Depth Work",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 45,
+            "notes": "45s each side. W8 — should be noticeably deeper than W6. Keep pushing range."
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 30,
+            "notes": "30s each side. Elbows down if possible."
+          },
+          {
+            "id": "skandasana-side-lunge",
+            "reps": "8 each",
+            "notes": "Deep side lunge. Cossack squat carryover from KB days."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "activation",
+        "name": "Glute + Core Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "glute-bridge",
+            "reps": 15,
+            "notes": "Squeeze at top. Activate before you load."
+          },
+          {
+            "id": "dead-bug-opposite-reach",
+            "reps": 10,
+            "notes": "Core bracing — back extensions in today's workout need this."
+          },
+          {
+            "id": "plank-hip-dips",
+            "reps": 12,
+            "notes": "Obliques + hip mobility. 6 each side."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min -- same structure as W7.",
+      "Back extensions are in the workout today — hip flexor mobility from pigeon/lizard matters.",
+      "Pigeon and lizard: 8 weeks in, range should be visibly better. Go deeper.",
+      "If short on time: hip warmup + pigeon + glute bridge. 8 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-pull",
+    "name": "Week 8 Pull — Selective Push (Back/Biceps)",
+    "description": "Selective push week. Form check discoveries stay locked in, clean stuff inches forward. Cable row permanently dropped — chest supported DB row is the replacement. W7 pull-ups hit 32 with mixed grips (climber handles, wide, normal). DB rows hit 80x10 clean on bench — try 85 top set. Trimmed from W7: cable row gone, finisher down to 2 sets each.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "pull",
+      "upper-body",
+      "back",
+      "biceps",
+      "ppl",
+      "selective-push"
+    ],
+    "estimatedDuration": 50,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine",
+      "pull-up-bar",
+      "band"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Scap activation"
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Spine warm"
+          },
+          {
+            "id": "dead-hang",
+            "duration": 30,
+            "notes": "Grip and shoulder warm"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "pullup-station",
+        "name": "Pull-ups",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "8-10",
+            "notes": "W7 actuals: 10/8/8/4+2 = 32 with mixed grips (climber handles, wide, normal). Clean sets rule stays. W8 target: aim for 8+ on all 4 sets strict. Vary grips again — the mixed approach keeps it interesting and hits different angles."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "station-1",
+        "name": "Station 1: Preacher Curl + DB Row",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "preacher-curl",
+            "reps": "8-10",
+            "notes": "15/side. W7: preacher was taken, did concentration curl 25x10/8+2/6+2 instead. Good backup option. If preacher open, stay at 15/side strict. If taken again, concentration curl at 25 — proved to be a solid swap."
+          },
+          {
+            "id": "dumbbell-row",
+            "reps": "7-10",
+            "notes": "Pyramid: 60x10, 70x8, 85x7. W7 actuals: 80x10 on bench, slow and controlled — clean PR. OK to push: try 85 on top set. Keep it on the bench, brace hard, pull to hip. If 85 breaks form, drop back to 80 and own it."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "station-2",
+        "name": "Station 2: Chest Supported Row + Lat Pulldown",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "chest-supported-dumbbell-row",
+            "reps": 10,
+            "notes": "W7 actuals: 40x10 each side, felt good. Permanently replaces cable row (pulley slippage issues). W8: stay at 40, try 45 on last set if 40 feels easy. Squeeze at top, 2-second negative."
+          },
+          {
+            "id": "lat-pulldown",
+            "reps": "8-10",
+            "notes": "W7 actuals: 170x7 too heavy for strict, dropped to 160x8/160x6. Stay at 160 strict — form over numbers. Wide grip near the bend, lean back slightly, pull to chest, 1-second squeeze at bottom."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "station-3",
+        "name": "Station 3: Face Pull + Reverse Fly",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "face-pull",
+            "reps": 20,
+            "notes": "W7 actuals: 50x20, slow was hard. Stay at 50x20 strict — the slow tempo is the progression now. External rotate at top, elbows high, hold 1 second. Don't bump weight until 3x20 feels controlled."
+          },
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": "12-15",
+            "notes": "W7 actuals: 25x15/13/13. Stay at 25, aim for 3x15 strict. Seated bent-over, slow squeeze, no swinging. If all 3 sets hit 15, then consider 27.5 next week."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher: High Cable Curl + Cable Crunch",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "high-cable-bicep-curl",
+            "reps": "10-12",
+            "notes": "W7 actuals: 50-60 on dual pulley, better without full lockout. W8: 2 sets only (trimmed from 3). Stay at 60, skip full lockout — partial ROM at bottom keeps tension on biceps. Quick pump, don't linger."
+          },
+          {
+            "id": "cable-crunch",
+            "reps": "12-15",
+            "notes": "W7 actuals: 110 is base. W8: 2 sets only (trimmed from 3). OK to push — try 120 on second set. Hips locked, crunch from abs only. If 120 is clean, make it the new base."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "SELECTIVE PUSH: form check discoveries are locked in. Clean lifts inch forward, everything else holds.",
+      "Pull-ups: 32 with mixed grips was solid. Keep varying grips — climber handles, wide, normal. Clean sets only.",
+      "DB row 85 on top set — earned it after 80x10 clean. If form breaks at 85, no shame dropping back to 80.",
+      "Cable row is permanently gone. Chest supported row stays — the bench keeps you honest, no pulley issues.",
+      "Lat pulldown stays at 160 strict. 170 was too heavy for good form — own 160 before chasing numbers.",
+      "Finisher trimmed to 2 sets each (down from 3). Pull day was too long in W7 — this keeps it tight.",
+      "Rest: 2.5 min pull-ups, 2 min stations 1-2, 90s station 3, 60s finisher"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-pull-morning-flow",
+    "name": "W8 Pull Morning Flow",
+    "description": "12 min. Same as W7. Spine primer (cat-cow, dead hang 25s, scap pull-ups x10) + shoulder/arm prep + hip opener.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "back",
+      "biceps",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 12,
+    "equipment": [
+      "bodyweight",
+      "mat",
+      "pull-up-bar"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "spine-primer",
+        "name": "Spine + Scap Primer",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Full spinal wave. Slow."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 25,
+            "notes": "25s. Decompress shoulders, warm grip."
+          },
+          {
+            "id": "scapular-pull-up",
+            "reps": 10,
+            "notes": "No elbow bend -- just scapulae retracting. Should be crisp by W8."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "shoulder-arm-prep",
+        "name": "Shoulder + Arm Prep",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "prone-y-raises",
+            "reps": 8,
+            "notes": "Face down, arms in Y. Lower trap + rotator cuff. Carries over from push day."
+          },
+          {
+            "id": "gmb-wrist-prep",
+            "reps": 10,
+            "notes": "Loosen wrists and forearms for grip work."
+          },
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Small to big. Warm bicep insertions."
+          },
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 20,
+            "notes": "Opens bicep and chest. Preacher curl prep."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-opener",
+        "name": "Hip + Back Opener",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "happy-baby",
+            "duration": 30,
+            "notes": "Hip opener. Gentle."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 30,
+            "notes": "30s each side. Lower back release."
+          },
+          {
+            "id": "child-pose-reach",
+            "duration": 30,
+            "notes": "Walk hands to each side. Lateral lat stretch."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "12 min -- same as W7. Dead hang 25s, scap pull-ups x10.",
+      "Bicep prep primes preacher curl -- which comes early in the pull session.",
+      "If short on time: spine primer + arm prep. 6 min."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-push",
+    "name": "Week 8 Push — Selective Push (Chest/Shoulders/Triceps)",
+    "description": "Selective push week. Form check discoveries locked in — parallel feet push press, 50lb incline pause, cable lat raise at 45. Where form was clean, nudge weight: chest press tries 185 on later sets, straight arm pulldown tries 115. Everything else holds.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "push",
+      "upper-body",
+      "chest",
+      "shoulders",
+      "triceps",
+      "ppl"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine",
+      "band"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup + Shoulder Rehab",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Loosen shoulders"
+          },
+          {
+            "id": "yuris-shoulder-band-warmup",
+            "reps": 1,
+            "notes": "Full Yuri band warmup with red band. W6/W7: this clears the shoulder crackle better than anything else. Do the full sequence before touching any weight."
+          },
+          {
+            "id": "push-up",
+            "reps": 12,
+            "notes": "Get blood flowing, activate chest and triceps"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "overhead-station",
+        "name": "Station 1: Overhead",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "push-press",
+            "reps": "6-8",
+            "notes": "45/side. W7 actuals: 45x8x3 parallel feet, clean. DO NOT rush back to 50 — 45 with perfect form is the play. Parallel feet, shallow dip, explosive drive. Stop the set if form breaks, even at rep 6."
+          },
+          {
+            "id": "lateral-raise",
+            "reps": 15,
+            "notes": "20lb. W7 actuals: 20x15, shoulder crackly but improved with Yuri warmup. Stay at 20x15 — form was clean and shoulder tolerated it. Not chasing 25 yet."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "press-station",
+        "name": "Station 2: Press",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "chest-press-machine",
+            "reps": "6-8",
+            "notes": "180 base. W7 actuals: 180x8x3 clean, died on 4th set. 180 is locked in. OK TO PUSH: try 185 on set 2 or 3 (the strongest sets). If 185 feels ugly, drop back to 180 immediately — no grinding."
+          },
+          {
+            "id": "incline-dumbbell-press",
+            "reps": 10,
+            "notes": "50lb with pause at bottom. W7 actuals: 50x10x4 all completed, better ROM than 55. STAY AT 50 with pause — the pause is the progression, not the weight. Last set will be a fight, that's fine."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "machine-cable-station",
+        "name": "Station 3: Cables",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kinesis-cable-fly",
+            "reps": "10-12",
+            "notes": "Working number: 8. W7 actuals: 8x11 felt right. Aim for 3x12 clean this week — if all 3 sets hit 12, consider 9 next week. Constant tension, think pec deck."
+          },
+          {
+            "id": "cable-lateral-raise",
+            "reps": 12,
+            "notes": "45. W7 actuals: 45x12, dropped from 50 for stability. STAY AT 45 — both sides crackly at 50. Controlled and stable > heavy and wobbly."
+          },
+          {
+            "id": "incline-cable-overhead-tricep-extension",
+            "reps": "10-12",
+            "notes": "54. W7 actuals: 54x12x3, surprisingly strong. Stay at 54 — can feel all the fibers, steady and safe. Hands shoulder-width for full long head emphasis."
+          }
+        ],
+        "restBetween": 75,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "straight-arm-pulldown",
+            "reps": 12,
+            "notes": "110 base. W7 actuals: 110x12x3 clean. OK TO PUSH: try 115 on set 2 or 3. Straight arms, lats do the work. Stop when shoulders start taking over."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "SELECTIVE PUSH: Form check discoveries stay locked in — only push where W7 was clean and confident (chest press, straight arm pulldown).",
+      "Push press at 45 is NOT a regression from 50 — it's better reps, better form, better long-term strength. Stay patient.",
+      "Yuri band warmup is non-negotiable. It's what makes the shoulder tolerate lat raises and cable work.",
+      "Chest press 185 attempt: only on set 2 or 3 when you're warmest. If form breaks, drop back to 180 immediately.",
+      "Incline DB: the pause at bottom IS the progression. 50 with pause > 55 without.",
+      "Rest 2 min between push press, 2.5 min on chest press, 75s on cables"
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w8-push-morning-flow",
+    "name": "W8 Push Morning Flow",
+    "description": "15 min. Same structure as W7. All bodyweight, no equipment needed. Shoulder health + overhead activation + stretch. NO BANDS.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "shoulders",
+      "chest",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "shoulder-health",
+        "name": "Shoulder Health + Strength",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "15 each direction",
+            "notes": "Big circles, warm the joint"
+          },
+          {
+            "id": "side-lying-external-rotation",
+            "reps": "10 each side",
+            "notes": "Lie on your side, elbow at 90, rotate forearm up. No band — gravity is the resistance. Slow and controlled."
+          },
+          {
+            "id": "prone-y-raises",
+            "reps": 10,
+            "notes": "Face down, arms in Y overhead. Lower traps + rotator cuff. Hold at top 1 second."
+          },
+          {
+            "id": "scapular-push-up",
+            "reps": 10,
+            "notes": "Arms locked, only shoulder blades move — retract then protract. Serratus anterior work."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "overhead-activation",
+        "name": "Overhead Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "wall-angel",
+            "reps": 12,
+            "notes": "Back flat against wall. Should be getting deeper by W8."
+          },
+          {
+            "id": "pike-push-up",
+            "reps": 8,
+            "notes": "Overhead pressing pattern. Shoulder-to-ceiling."
+          },
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Standard, easy. Chest activation before the gym."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "stretch-close",
+        "name": "Stretch + Close",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Deep thoracic rotation."
+          },
+          {
+            "id": "puppy-pose",
+            "duration": 30,
+            "notes": "Deep shoulder stretch."
+          },
+          {
+            "id": "cobra-stretch",
+            "duration": 20,
+            "notes": "Open up chest and hip flexors."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min — same as W7. All bodyweight, no bands, no equipment.",
+      "Side-lying external rotation + prone Y raises = rotator cuff insurance.",
+      "Scapular push-ups: serratus anterior stabilizes all pressing. Keep these in.",
+      "If short on time: shoulder health block only. 5 min of the most important stuff."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w9-kb-cond",
+    "name": "Week 9 KB — Thursday Light (Recovery)",
+    "description": "Same idea as W8 Thursday but even lighter. 15-20 min. No swings, no C&P, no squats, no hip hinges. Just bent press + TGU drilling at 20lb, then floor mobility. This is closer to active recovery than a workout.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "recovery",
+      "skill-work",
+      "light",
+      "ql-safe"
+    ],
+    "estimatedDuration": 18,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light bell. Loosen up shoulders."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "skill-block",
+        "name": "Skill Drilling",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3 each side",
+            "notes": "20lb. Groove the movement. Legs tomorrow (deloaded) but still — save something."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "3 each side",
+            "notes": "20lb. Deep stretch, slow."
+          },
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "2 each side",
+            "notes": "20lb. Left side focus. Pause at each checkpoint."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "mobility",
+        "name": "Floor Mobility",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "60s each side."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "60s."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 45,
+            "notes": "45s each side."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15-20 min. Closer to active recovery than a workout.",
+      "No swings, no C&P, no squats, no hip hinges.",
+      "If the back's still twitchy, skip the KB entirely and just do floor mobility + a walk."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w9-kb-full",
+    "name": "Week 9 KB — Recovery (Skill-Only, No Hip Hinge)",
+    "description": "QL recovery week KB day. NO swings (hip hinge = QL reload), NO B-stance flow (unilateral hip bracing), NO heavy C&P (overhead lockout under load stresses spine). Just light skill drilling: bent press, windmill, TGU, cossack. 20lb. Groove, don't grind. 25 min max.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "recovery",
+      "skill-work",
+      "light",
+      "ql-safe"
+    ],
+    "estimatedDuration": 25,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "Light bell, slow. Shoulder prep."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Spine mobility — pay attention to QL tightness."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "skill-block",
+        "name": "Skill Work (Light)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3 each side",
+            "notes": "20lb (drop from 25). Groove the path slow. Bent press is actually good for hip mobility — just go light."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "20lb goblet (drop from 25). Mobility, not strength. Deep, slow. 5/side not 8 — half volume this week."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "3 each side",
+            "notes": "20lb. Hip hinge is gentle here (supported by the locked arm) — should actually help the hip flexors release. Go slow and feel the stretch."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "tgu-block",
+        "name": "TGU (Drill)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "2 each side",
+            "notes": "20lb (drop from 25). Focus on the left side (still weak link). Slow transitions, pause at each checkpoint. Zero rush."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 60
+      },
+      {
+        "id": "ground-mobility",
+        "name": "Floor Mobility (QL Focus)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "60s each side. QL/hip flexor release."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "60s. Decompress the low back."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 45,
+            "notes": "45s each side. Gentle QL release — the exact muscle we're recovering."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "RECOVERY KB — skill only. NO swings, NO B-stance flow, NO heavy C&P this week.",
+      "20lb for everything — mobility bell weight.",
+      "Bent press and windmill are actually helpful for hip/QL release at light weight — keep these.",
+      "TGU at 20lb is pure pattern drilling.",
+      "End with floor mobility — pigeon, child's pose, spinal twist. The QL release is the whole point.",
+      "If anything tweaks the back, stop and stretch instead. This is a stretching day if it needs to be."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w9-legs",
+    "name": "Week 9 Legs — Recovery Deload (Seated/Supported Only)",
+    "description": "Post-QL-spasm legs day. SKIP everything that lit it up: back extensions, DB lunges, Smith Bulgarians, heavy squats. Keep light maintenance squat + seated/supported machine work. Add butterfly/frog stretch as cooldown (per W9 planning notes). This is the lightest legs day of the program on purpose.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "recovery",
+      "deload",
+      "legs",
+      "lower-body",
+      "ppl",
+      "ql-safe"
+    ],
+    "estimatedDuration": 40,
+    "equipment": [
+      "barbell",
+      "machine"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (Extra Hip/QL Mobility)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth, slow. Find where the hips are tight and breathe into it."
+          },
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Big slow circles. Wake up the hip stabilizers gently."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Extra spine mobility — don't skip this week"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "squat-working",
+        "name": "Maintenance Squat",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": 8,
+            "notes": "55/side x8 x3 (drop from 75-80). The 'keep squatting at least 1x/week' rule — even on recovery weeks. Deep, slow, controlled. This is maintenance, NOT progression. If the back twinges at all, rack it and skip the rest of squat work."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "legpress-station",
+        "name": "Leg Press (Deloaded, Seated)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": 12,
+            "notes": "3 plates/side (drop from 4), medium ROM — NOT the full-depth 4-plate version from W8. The deep 4-plate version is what's been hammering the hip stabilizers. Medium ROM this week, stay in the strong part of the range."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "legcurl-station",
+        "name": "Seated Leg Curl",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "seated-leg-curl",
+            "reps": 12,
+            "notes": "90 at the new settings (5 m 0 1). W8D5 confirmed 90 as warmup/calibration, 110 as working. Stay at 90 this week — hamstrings don't need the stimulus, we're recovering. Fully seated = QL-safe."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 60
+      },
+      {
+        "id": "calf-raise-station",
+        "name": "Single Leg Calf Raise",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "leg-press-calf-raise",
+            "reps": 20,
+            "notes": "3 plates/side x20, single leg. No plate under foot this week — skip the deeper stretch progression, save it for W10 when the back is quiet."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 60
+      },
+      {
+        "id": "cooldown-stretch",
+        "name": "Adductor + Hip Cooldown",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "butterfly-stretch",
+            "duration": 90,
+            "notes": "90 seconds. The 'adductor stretch slot' from W9 planning — replaces the ad-hoc adductor machine experiment. Sit, soles together, hinge forward, breathe. Feels great after deep squats."
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "60s each side. Deep hip flexor release — directly addresses what's been fried. The longer you hold, the more the QL/psoas lets go."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "RECOVERY WEEK — SKIPPING: back extensions (hidden fatigue driver), DB lunges (QL re-lighter), Smith Bulgarians (QL re-lighter).",
+      "Squat 55/side maintenance — the one rule is 'always keep squatting', even on recovery.",
+      "Leg press 3 plates medium ROM. The 4-plate full-ROM version is what's been hammering hip stabilizers.",
+      "Seated leg curl 90 (warmup weight) — don't push to 110 this week.",
+      "Butterfly stretch + pigeon as cooldown — this is where the adductor stretch slot lives now (no machine needed).",
+      "If the back twinges at ANY point, stop the session. The whole point of this week is to not re-anger it.",
+      "W10 target: ease back to W8 loads IF recovery held. Don't make up lost progression."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w9-legs-morning-flow",
+    "name": "W9 Legs Morning Flow (QL Release)",
+    "description": "15 min. QL/hip flexor release focused — this is the day to be generous with mobility. Lacrosse ball QL release, long hip flexor stretches, gentle spinal decompression. Goes before the deloaded legs session.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "hips",
+      "ql",
+      "recovery",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat",
+      "lacrosse-ball"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "ql-release",
+        "name": "QL + Low Back Release",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "60s. Decompress the low back to start."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 60,
+            "notes": "60s each side. Gentle twist — exactly what the QL wants. Don't force, let gravity do it."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "hip-flexor-release",
+        "name": "Hip Flexor Release",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 90,
+            "notes": "90s each side (longer than usual). The QL and psoas share fascial connections — pigeon gets both."
+          },
+          {
+            "id": "hip-flexor-lunge-stretch",
+            "duration": 60,
+            "notes": "60s each side. Deep hip flexor stretch — this is exactly the area that was seizing on W8D5."
+          },
+          {
+            "id": "couch-stretch",
+            "duration": 60,
+            "notes": "60s each side. The most direct quad + hip flexor stretch. Wall or couch — knee bent, opposite foot up behind."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "gentle-activation",
+        "name": "Gentle Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Slow and breathing. Feel for any remaining QL tightness."
+          },
+          {
+            "id": "glute-bridge",
+            "reps": 12,
+            "notes": "Gentle squeeze — wake up glutes without bracing hard. Glutes inhibited = QL overworks, so this actually helps."
+          },
+          {
+            "id": "dead-bug-opposite-reach",
+            "reps": 8,
+            "notes": "SLOW. Gentle core engagement, no crunching. 8 reps, not 10."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "RECOVERY FLOW — longer holds, no activation-heavy work.",
+      "Pigeon for 90s each side — the longer hold lets the QL/psoas actually let go.",
+      "If there's a lacrosse ball at the gym, roll the QL before coming in — both sides of the low back, above the iliac crest.",
+      "Skip glute bridge + dead bug if anything feels twitchy. The stretches are the whole workout if needed.",
+      "Pigeon, child's pose, and supine twist are the three 'if I only have time for three' moves this week."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w9-pull",
+    "name": "Week 9 Pull — Recovery Deload",
+    "description": "QL spasm recovery week. Pull-ups are fine (spinal decompression). DB rows dropped to 60lb to avoid heavy bracing. Chest supported row stays (supported = QL-safe). Lat pulldown deloaded. Finisher cut. Stop well short of failure on everything.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "recovery",
+      "deload",
+      "pull",
+      "upper-body",
+      "back",
+      "biceps",
+      "ppl"
+    ],
+    "estimatedDuration": 40,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine",
+      "pull-up-bar",
+      "band"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Scap activation"
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Gentle spine warm — go slow this week, feel for any QL tightness"
+          },
+          {
+            "id": "dead-hang",
+            "duration": 30,
+            "notes": "Pull-ups are spinal DECOMPRESSION — safe and actually helpful this week"
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "pullup-station",
+        "name": "Pull-ups (Keep)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "6-8",
+            "notes": "3 sets this week (down from 4). Clean reps only. Stop 1-2 shy of failure on every set — no grinding. Pull-ups decompress the spine so they're actually good for recovery, but don't fatigue to the point where form breaks and you start bracing hard."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "station-1",
+        "name": "Station 1: Preacher + DB Row (Deloaded)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "preacher-curl",
+            "reps": "10-12",
+            "notes": "10/side (drop from 15). Preacher is supported = QL-safe. Easy strict reps, no grinding. If 10 feels nothing, it's fine — don't go up."
+          },
+          {
+            "id": "dumbbell-row",
+            "reps": 10,
+            "notes": "60lb all 3 sets (drop from 80-85 pyramid). W8 rows required full body bracing at 80+ — that bracing is what we're avoiding this week. 60 is light enough to stay loose. Keep it strict, don't yank."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "station-2",
+        "name": "Station 2: Chest Supported Row + Lat Pulldown",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "chest-supported-dumbbell-row",
+            "reps": 10,
+            "notes": "35 each side (drop from 40-45). Chest supported = QL-safe, no spinal bracing. 2 sets only. Squeeze at top."
+          },
+          {
+            "id": "lat-pulldown",
+            "reps": 10,
+            "notes": "130 (drop from 160). Light, slow, strict. 2 sets only. Wide grip, pull to chest."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "station-3",
+        "name": "Station 3: Face Pull + Reverse Fly",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "face-pull",
+            "reps": 15,
+            "notes": "40 (drop from 50). Rotator cuff + posterior delt, minimal spinal load. 2 sets."
+          },
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": 12,
+            "notes": "20 (drop from 25). Seated bent-over, slow squeeze. 2 sets only."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher (Skip if tired)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "high-cable-bicep-curl",
+            "reps": 12,
+            "notes": "45 (drop from 60). 2 sets, easy pump. SKIP cable crunch this week — direct abs work can re-activate the QL. Crunch will be back in W10."
+          }
+        ],
+        "restBetween": 45,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "RECOVERY WEEK — pull-ups are spinal decompression, so they're helpful. Heavy DB rows are not — bracing is the enemy this week.",
+      "DB row 60lb all sets (NOT pyramiding to 80). The full-body brace at 80+ is exactly what re-lit the QL on W8D5's session.",
+      "Cable crunch is OUT this week — direct abs/flexor work can wake up the QL.",
+      "Chest supported row is the star of this week — supported = safe.",
+      "Finisher is optional. Skip if the back is talking.",
+      "Form over numbers. Stop 2 reps shy of failure on everything.",
+      "Rest short — the point is to move, not to max out."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w9-push",
+    "name": "Week 9 Push — Recovery Deload",
+    "description": "QL spasm recovery week. Swap push press for SEATED DB press (no standing OH load, no spinal bracing). Everything else 60-70% of W8 working weights. Cut sets to 2-3. Stop 2 reps shy of failure on every set. Yuri band warmup non-negotiable. If a set gets hard, rack it.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "recovery",
+      "deload",
+      "push",
+      "upper-body",
+      "chest",
+      "shoulders",
+      "triceps",
+      "ppl"
+    ],
+    "estimatedDuration": 40,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine",
+      "band"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup + Shoulder Rehab",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Loosen shoulders"
+          },
+          {
+            "id": "yuris-shoulder-band-warmup",
+            "reps": 1,
+            "notes": "Full Yuri warmup, red band. Especially important this week — body is reactive."
+          },
+          {
+            "id": "push-up",
+            "reps": 8,
+            "notes": "Easy. Just blood flow, not a test."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "overhead-station",
+        "name": "Station 1: Seated DB Press (QL-safe swap)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-shoulder-press",
+            "reps": "8-10",
+            "notes": "SEATED on a bench with back support. 30lb each. SWAP for push press this week — standing OH press loads the spine and makes the QL brace, exactly what we're recovering from. Seated removes all of that. Don't chase weight, these are just to keep the shoulder pattern active."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "press-station",
+        "name": "Station 2: Chest Press (Deloaded)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "chest-press-machine",
+            "reps": "8-10",
+            "notes": "140-150 (70-80% of W8's 180). W8 actuals: 180x8 locked in. DO NOT touch 180 this week. Full ROM, slow tempo, 2 reps shy of failure. The goal is movement quality, not load."
+          },
+          {
+            "id": "incline-dumbbell-press",
+            "reps": 8,
+            "notes": "40lb pause at bottom (dropped from 50). Lighter than W8. The pause is the work. If 40 feels easy, that's fine — stay at 40. Do not creep up."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "machine-cable-station",
+        "name": "Station 3: Cables (Light)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kinesis-cable-fly",
+            "reps": 12,
+            "notes": "Working number 6 (down from 8). Light constant tension, pec isolation. 2 sets only."
+          },
+          {
+            "id": "cable-lateral-raise",
+            "reps": 12,
+            "notes": "35 (down from 45). Shoulder is still a bit reactive — stay light and clean. 2 sets only."
+          },
+          {
+            "id": "incline-cable-overhead-tricep-extension",
+            "reps": 12,
+            "notes": "45 (down from 54). 2 sets only. Easy squeeze, don't chase pump."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Finisher (Optional)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "straight-arm-pulldown",
+            "reps": 12,
+            "notes": "90 (down from 110). Light, lat-focused, 2 sets. SKIP this if anything in the back is twitchy — straight-arm pulldown still loads the spine slightly when you brace."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "RECOVERY WEEK — QL spasm just resolved. The goal is habit + movement quality, NOT load.",
+      "Seated DB press REPLACES push press this week. Standing OH press is exactly what reloads the QL.",
+      "All working weights are 60-80% of W8. If something feels easy, it is — don't creep up.",
+      "Stop every set 2 reps shy of failure. If form breaks, rack it.",
+      "Yuri band warmup is non-negotiable — body is reactive this week.",
+      "If the back feels tight at ANY point, stop the session. The recovery is the point.",
+      "Skip the finisher if your back is talking to you. It's optional."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w9-push-morning-flow",
+    "name": "W9 Push Morning Flow (Pec Minor Release)",
+    "description": "15 min. Same shoulder health structure as W8 + added pec minor release block. W9D1 discovery: the right-shoulder-blade-to-front-pec connection felt on slow chest press is classic pec minor tightness. Tight pec minor tilts the shoulder blade forward, which strains what's behind it. The fix is stretching the front, not strengthening the back. Uses a doorframe (in addition to bodyweight).",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "shoulders",
+      "chest",
+      "pec-minor",
+      "morning",
+      "bodyweight",
+      "fixed"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat",
+      "doorframe"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "shoulder-health",
+        "name": "Shoulder Health + Strength",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "15 each direction",
+            "notes": "Big circles, warm the joint"
+          },
+          {
+            "id": "side-lying-external-rotation",
+            "reps": "10 each side",
+            "notes": "Lie on your side, elbow at 90, rotate forearm up. Gravity is the resistance. Slow and controlled."
+          },
+          {
+            "id": "prone-y-raises",
+            "reps": 10,
+            "notes": "Face down, arms in Y overhead. Lower traps + rotator cuff. Pulls the shoulder blade down and back — direct antagonist to tight pec minor. Hold at top 1 second."
+          },
+          {
+            "id": "scapular-push-up",
+            "reps": 10,
+            "notes": "Arms locked, only shoulder blades move — retract then protract. Serratus + pec minor fight over the shoulder blade — activating serratus helps 'unstick' a tight pec minor."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "overhead-activation",
+        "name": "Overhead Activation",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "wall-angel",
+            "reps": 12,
+            "notes": "Back flat against wall. Pins the shoulder blades in the corrected position — counteracts forward rolling from pec tightness."
+          },
+          {
+            "id": "pike-push-up",
+            "reps": 8,
+            "notes": "Overhead pressing pattern. Shoulder-to-ceiling."
+          },
+          {
+            "id": "push-up",
+            "reps": 10,
+            "notes": "Standard, easy. Chest activation before the gym."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "pec-minor-release",
+        "name": "Pec Minor + Chest Release (W9 addition)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 30,
+            "notes": "30s each arm, at LOW/MID/HIGH elbow positions (each hits a different pec minor fiber angle). Arm bent 90°, forearm on door frame, step through and rotate torso AWAY. THIS IS THE KEY MOVE. Do it daily, not just on push mornings — desk work retightens it continuously."
+          },
+          {
+            "id": "puppy-pose",
+            "duration": 30,
+            "notes": "Deep shoulder stretch. Hands far in front, hips over knees, chest sinks toward floor. Stretches lats + pec minor together."
+          },
+          {
+            "id": "thread-the-needle",
+            "duration": 30,
+            "notes": "30s each side. Deep thoracic rotation — opens up the front shoulder at the same time."
+          },
+          {
+            "id": "cobra-stretch",
+            "duration": 20,
+            "notes": "Squeeze shoulder blades down and back at top. Chest + hip flexors together."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "15 min. Pec minor release is the W9 focus.",
+      "The right-shoulder-blade ache → front-pec connection felt on W9D1 chest press is classic pec minor tightness. Tight pec minor tilts the shoulder blade forward, straining what's behind it. Stretch the front to relieve the back.",
+      "Doorframe chest stretch is the most important move this week. Do it daily — desk work continuously retightens pec minor, 3x/week doesn't keep up.",
+      "Prone Y raises + scapular push-ups are the ACTIVE side of the fix — retrain the shoulder blade to sit back and down.",
+      "If short on time: doorframe stretch + prone Y + scapular push-ups. 5 min covers the pec minor protocol.",
+      "Track for 2-3 weeks. If the shoulder blade ache fades, diagnosis confirmed. If not, we escalate (rhomboid trigger point, actual lower trap weakness)."
     ],
     "category": "functional-bulk"
   },
@@ -22386,6 +25532,826 @@
       "Second time through will be faster — first session took ~38 min with reading time"
     ],
     "category": "maternity"
+  },
+  {
+    "id": "maternity-swim-day1-technique",
+    "name": "Swim Day 1: Drill Day",
+    "description": "Jess: Technique-focused swim — all drills, smooth strokes, feel the water. ~35 min, 1500-1800y. The kind of practice where you get out feeling like you swim better than when you got in.",
+    "routineId": "maternity-swim",
+    "tags": [
+      "maternity-swim",
+      "swimming",
+      "technique",
+      "drills",
+      "moderate"
+    ],
+    "estimatedDuration": 35,
+    "equipment": [
+      "pool",
+      "kickboard",
+      "pull-buoy"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-freestyle",
+            "distance": "200",
+            "notes": "Easy free — long strokes, find your rhythm. Open turns."
+          },
+          {
+            "id": "swim-backstroke",
+            "distance": "100",
+            "notes": "Loosen up the shoulders, easy kick."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "drill-block-1",
+        "name": "Catch & Pull Drills",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-catch-up-drill",
+            "distance": "4x50",
+            "notes": "Focus on full extension before the next stroke. Glide."
+          },
+          {
+            "id": "swim-fist-drill",
+            "distance": "4x50",
+            "notes": "25 fist / 25 open. Feel the difference — the open hand 25 should feel like you have paddles on."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "drill-block-2",
+        "name": "Rotation & Balance Drills",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-6-3-6-drill",
+            "distance": "4x50",
+            "notes": "Stay long on each side. Hips and shoulders rotate together."
+          },
+          {
+            "id": "swim-single-arm-freestyle",
+            "distance": "4x50",
+            "notes": "25 right / 25 left. Non-working arm extended in front."
+          },
+          {
+            "id": "swim-fingertip-drag",
+            "distance": "4x50",
+            "notes": "High elbows, relaxed recovery. Let the fingertips barely skim the surface."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "pull",
+        "name": "Pull Set",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-pull-buoy-freestyle",
+            "distance": "4x75",
+            "notes": "Smooth and long. Focus on applying what you drilled — high catch, full rotation. Enjoy the buoyancy."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-backstroke",
+            "distance": "100",
+            "notes": "Easy backstroke, let the heart rate come down."
+          },
+          {
+            "id": "swim-sidestroke",
+            "distance": "100",
+            "notes": "Lazy sidestroke — you earned it."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "NO flip turns — open turns only, no crunching the belly",
+      "NO butterfly — skip it entirely during pregnancy",
+      "Keep effort conversational — you should be able to talk between sets",
+      "Stay hydrated — bring a water bottle to the pool deck",
+      "If any drill feels weird or uncomfortable, swap it for easy free",
+      "Pool temp should be 78-84°F — avoid hot tubs and very warm pools"
+    ],
+    "category": "maternity-swim"
+  },
+  {
+    "id": "maternity-swim-day2-kick-party",
+    "name": "Swim Day 2: Kick Party",
+    "description": "Jess: Kick-heavy day — legs, hips, glutes, core. ~30 min, 1200-1500y. Board work, back kick, breast kick. Legs will feel it. Hip openers built in via breaststroke kick.",
+    "routineId": "maternity-swim",
+    "tags": [
+      "maternity-swim",
+      "swimming",
+      "kick",
+      "legs",
+      "hips",
+      "moderate"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "pool",
+      "kickboard"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-freestyle",
+            "distance": "200",
+            "notes": "Easy free, wake up the body."
+          },
+          {
+            "id": "swim-breaststroke",
+            "distance": "100",
+            "notes": "Long glides, open up the hips."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "kick-main",
+        "name": "Kick Set",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-kickboard-kick",
+            "distance": "4x50",
+            "notes": "Steady flutter kick. Compact, from the hips. No death grip on the board."
+          },
+          {
+            "id": "swim-kickboard-breast-kick",
+            "distance": "4x50",
+            "notes": "Kick — squeeze — gliiiiide. Count to 3 on each glide. Hip opener city."
+          },
+          {
+            "id": "swim-kick-on-back",
+            "distance": "4x50",
+            "notes": "No board, arms at sides. Relax the neck, look at the ceiling, kick easy."
+          },
+          {
+            "id": "swim-underwater-dolphin-kick",
+            "distance": "4x25",
+            "notes": "Surface dolphin kick on your back. Gentle wave motion. Skip if back feels off."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "kick-mix",
+        "name": "Kick Medley",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-kickboard-kick",
+            "distance": "200",
+            "notes": "Build effort: 50 easy / 50 moderate / 50 moderate / 50 easy. Like a wave."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "swim-out",
+        "name": "Swim Out",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-backstroke",
+            "distance": "100",
+            "notes": "Easy backstroke to recover."
+          },
+          {
+            "id": "swim-freestyle",
+            "distance": "100",
+            "notes": "Easy free — smooth and long."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 0
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-sidestroke",
+            "distance": "100",
+            "notes": "Lazy sidestroke, alternate sides at 50."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Breaststroke kick is amazing for pregnancy hip mobility — lean into it",
+      "If flutter kick aggravates the lower back, switch to back kick or breast kick",
+      "Keep the dolphin kick gentle — surface only, soft undulation",
+      "Bring a water bottle — kicking is sneaky cardio",
+      "NO flip turns, NO butterfly"
+    ],
+    "category": "maternity-swim"
+  },
+  {
+    "id": "maternity-swim-day3-pull-chill",
+    "name": "Swim Day 3: Pull & Chill",
+    "description": "Jess: Upper body focus with pull buoy — let the legs rest after kick day. ~30 min, 1200-1500y. Smooth pulls, sculling, backstroke. Chill vibes.",
+    "routineId": "maternity-swim",
+    "tags": [
+      "maternity-swim",
+      "swimming",
+      "pull",
+      "upper-body",
+      "moderate",
+      "recovery"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "pool",
+      "pull-buoy"
+    ],
+    "difficulty": "beginner-intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-backstroke",
+            "distance": "200",
+            "notes": "Easy backstroke to start — face out of the water, find your rhythm."
+          },
+          {
+            "id": "swim-freestyle",
+            "distance": "100",
+            "notes": "Smooth free, long strokes."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "pull-main",
+        "name": "Pull Set",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-pull-buoy-freestyle",
+            "distance": "4x100",
+            "notes": "Buoy between thighs. Long, smooth pulls. Focus on the catch — fingertips down, elbow high. Rest :15 between."
+          },
+          {
+            "id": "swim-pull-buoy-backstroke",
+            "distance": "4x50",
+            "notes": "Pull buoy backstroke — so floaty. Steady rotation, pinky-first entry."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "sculling",
+        "name": "Feel the Water",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-sculling",
+            "distance": "4x25",
+            "notes": "Scull on your back: head-first, feet-first, mid-scull, dealer's choice. Small figure-8s with the hands."
+          },
+          {
+            "id": "swim-catch-up-drill",
+            "distance": "4x50",
+            "notes": "Catch-up to reinforce that long front-end feeling."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-breaststroke",
+            "distance": "100",
+            "notes": "Easy breast — long glides, open hips."
+          },
+          {
+            "id": "swim-sidestroke",
+            "distance": "100",
+            "notes": "Sidestroke home. Switch sides at 50."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Pull buoy takes pressure off the legs — enjoy the float",
+      "The buoy lifts your hips which feels amazing with a growing belly",
+      "Sculling is meditation in the pool — let yourself zone out",
+      "If you only have 20 min, skip the sculling block and just do the pull set",
+      "NO flip turns, NO butterfly"
+    ],
+    "category": "maternity-swim"
+  },
+  {
+    "id": "maternity-swim-day4-mix-tape",
+    "name": "Swim Day 4: Mix Tape",
+    "description": "Jess: Variety day — a little of everything, nothing too long. ~35 min, 1500-1800y. Stroke medleys, drill/swim combos, mixed kick. The 'never bored' workout.",
+    "routineId": "maternity-swim",
+    "tags": [
+      "maternity-swim",
+      "swimming",
+      "variety",
+      "moderate",
+      "fun"
+    ],
+    "estimatedDuration": 35,
+    "equipment": [
+      "pool",
+      "kickboard",
+      "pull-buoy"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-im-drill-order",
+            "distance": "200",
+            "notes": "50 back / 50 breast / 100 free. Easy, get all the strokes moving."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "drill-swim",
+        "name": "Drill/Swim Combo",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "swim-catch-up-drill",
+            "distance": "50",
+            "notes": "25 catch-up drill / 25 swim. Feel the difference."
+          },
+          {
+            "id": "swim-fingertip-drag",
+            "distance": "50",
+            "notes": "25 fingertip drag / 25 swim. High elbows should carry over."
+          },
+          {
+            "id": "swim-single-arm-freestyle",
+            "distance": "50",
+            "notes": "25 right arm / 25 left arm."
+          },
+          {
+            "id": "swim-freestyle",
+            "distance": "50",
+            "notes": "Put it all together — swim with all those cues in your head."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 30
+      },
+      {
+        "id": "stroke-mix",
+        "name": "Stroke Sampler",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-backstroke",
+            "distance": "100",
+            "notes": "Moderate effort back."
+          },
+          {
+            "id": "swim-breaststroke",
+            "distance": "100",
+            "notes": "Moderate effort breast — gliiiiide on each one."
+          },
+          {
+            "id": "swim-freestyle",
+            "distance": "100",
+            "notes": "Moderate effort free — build to 75% on the last 50."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "kick-snack",
+        "name": "Kick Snack",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-kickboard-kick",
+            "distance": "100",
+            "notes": "50 flutter / 50 breast kick. Variety!"
+          },
+          {
+            "id": "swim-kick-on-back",
+            "distance": "100",
+            "notes": "Easy back kick, arms at sides. Relax into it."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 30
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-sidestroke",
+            "distance": "100",
+            "notes": "Easy sidestroke."
+          },
+          {
+            "id": "swim-backstroke",
+            "distance": "100",
+            "notes": "Lazy backstroke — float home."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "This is the 'never get bored' workout — nothing lasts long enough to get tedious",
+      "Drill/swim combos: the drill teaches your body, the swim lets you apply it",
+      "If you're short on time, cut the kick snack and go straight to cooldown",
+      "NO flip turns, NO butterfly, NO diving"
+    ],
+    "category": "maternity-swim"
+  },
+  {
+    "id": "maternity-swim-day5-endurance-easy",
+    "name": "Swim Day 5: Long & Easy",
+    "description": "Jess: Steady-state endurance swim — longer sets, easy effort. ~35 min, 1800-2000y. Zone out, find your flow, rack up the yards. The meditative one.",
+    "routineId": "maternity-swim",
+    "tags": [
+      "maternity-swim",
+      "swimming",
+      "endurance",
+      "easy",
+      "meditative"
+    ],
+    "estimatedDuration": 35,
+    "equipment": [
+      "pool",
+      "pull-buoy"
+    ],
+    "difficulty": "beginner-intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-freestyle",
+            "distance": "300",
+            "notes": "Easy 300 free. No rush. Find your breathing pattern and settle in."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "main-swim",
+        "name": "Main Set: Steady Free",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-freestyle",
+            "distance": "4x150",
+            "notes": "Steady, conversational effort. Breathe every 3 or every 4 — whatever's comfortable. :20 rest between. Just swim."
+          }
+        ],
+        "restBetween": 20,
+        "restAfter": 45
+      },
+      {
+        "id": "pull-block",
+        "name": "Pull Break",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-pull-buoy-freestyle",
+            "distance": "200",
+            "notes": "Pull buoy — let the legs rest. Smooth, easy pulls."
+          },
+          {
+            "id": "swim-pull-buoy-backstroke",
+            "distance": "100",
+            "notes": "Pull buoy backstroke — float city."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "stroke-variety",
+        "name": "Stroke Switch",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-backstroke",
+            "distance": "200",
+            "notes": "Easy backstroke — different muscles, same chill effort."
+          },
+          {
+            "id": "swim-breaststroke",
+            "distance": "100",
+            "notes": "Breast with looong glides. Count your strokes per length — try to lower the count."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-sidestroke",
+            "distance": "100",
+            "notes": "Sidestroke — the laziest cooldown in swimming."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "This is the zen swim — long sets, easy effort, zone out",
+      "If 150s feel too long, break them into 100s with :10 rest",
+      "Counting strokes per length is a fun game to stay engaged during longer sets",
+      "Breathe as often as you need — every 2 is totally fine during pregnancy",
+      "NO flip turns, NO butterfly"
+    ],
+    "category": "maternity-swim"
+  },
+  {
+    "id": "maternity-swim-day6-sprint-lite",
+    "name": "Swim Day 6: Fast & Short",
+    "description": "Jess: Short intervals with lots of rest — the closest to 'speed work' that's safe. ~30 min, 1200-1500y. 25s and 50s with plenty of recovery. Gets the competitive swimmer brain happy.",
+    "routineId": "maternity-swim",
+    "tags": [
+      "maternity-swim",
+      "swimming",
+      "intervals",
+      "moderate-hard",
+      "fun"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "pool",
+      "kickboard"
+    ],
+    "difficulty": "intermediate",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-freestyle",
+            "distance": "200",
+            "notes": "Easy free to warm up."
+          },
+          {
+            "id": "swim-backstroke",
+            "distance": "100",
+            "notes": "Easy back, loosen the shoulders."
+          },
+          {
+            "id": "swim-catch-up-drill",
+            "distance": "4x25",
+            "notes": "Drill to activate the catch before the main set."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 30
+      },
+      {
+        "id": "fast-25s",
+        "name": "Fast 25s",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-freestyle",
+            "distance": "8x25",
+            "notes": "FAST 25s — not all-out, but 80% effort. Like race pace from back in the day. :20 rest between each. This is the fun part."
+          }
+        ],
+        "restBetween": 20,
+        "restAfter": 45
+      },
+      {
+        "id": "moderate-50s",
+        "name": "Moderate 50s",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-freestyle",
+            "distance": "4x50",
+            "notes": "Moderate-hard 50s — 70% effort. Focus on turnover and clean strokes. :30 rest between."
+          },
+          {
+            "id": "swim-backstroke",
+            "distance": "4x50",
+            "notes": "Moderate back — keep the tempo up but controlled. :20 rest."
+          }
+        ],
+        "restBetween": 20,
+        "restAfter": 30
+      },
+      {
+        "id": "kick-flush",
+        "name": "Kick Flush",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-kickboard-breast-kick",
+            "distance": "100",
+            "notes": "Easy breast kick to flush the legs. Long glides."
+          },
+          {
+            "id": "swim-kick-on-back",
+            "distance": "100",
+            "notes": "Back kick, totally relaxed."
+          }
+        ],
+        "restBetween": 10,
+        "restAfter": 15
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-sidestroke",
+            "distance": "100",
+            "notes": "Easy sidestroke to bring it home."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "80% effort on the fast 25s — this isn't a race, it's remembering what fast feels like",
+      "Plenty of rest between intervals — take more if you need it",
+      "Heart rate should come back down during rest before the next one",
+      "If you feel breathless or dizzy, dial it back to 60% or skip to the kick flush",
+      "The breast kick cooldown after speed work feels incredible",
+      "NO flip turns, NO diving off the blocks (tempting, I know), NO butterfly"
+    ],
+    "category": "maternity-swim"
+  },
+  {
+    "id": "maternity-swim-day7-recovery-play",
+    "name": "Swim Day 7: Recovery & Play",
+    "description": "Jess: Active recovery day — treading, sculling, easy strokes, pool walking. ~25 min, 800-1000y. Low key, playful, feel good. Or take the day off — either is perfect.",
+    "routineId": "maternity-swim",
+    "tags": [
+      "maternity-swim",
+      "swimming",
+      "recovery",
+      "easy",
+      "fun",
+      "play"
+    ],
+    "estimatedDuration": 25,
+    "equipment": [
+      "pool"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Easy Warmup",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-backstroke",
+            "distance": "200",
+            "notes": "Super easy backstroke. No rush. Enjoy being weightless."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "play-block",
+        "name": "Play Block",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-sculling",
+            "distance": "4x25",
+            "notes": "Sculling in all directions — head-first, feet-first, mid-scull. Get creative. Remember doing these at practice?"
+          },
+          {
+            "id": "swim-water-treading",
+            "duration": 120,
+            "notes": "2 min of easy treading — egg-beater or flutter, whatever feels good. Chat with a lane-mate if you have one."
+          },
+          {
+            "id": "swim-vertical-kick",
+            "duration": 60,
+            "notes": "1 min vertical kick — arms crossed. Sneaky good core work. Drop arms into the water if it's too much."
+          }
+        ],
+        "restBetween": 30,
+        "restAfter": 30
+      },
+      {
+        "id": "easy-strokes",
+        "name": "Easy Stroke Sampler",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-breaststroke",
+            "distance": "100",
+            "notes": "Breaststroke — count your strokes per length. Can you do it in fewer?"
+          },
+          {
+            "id": "swim-sidestroke",
+            "distance": "100",
+            "notes": "Sidestroke — alternate sides. Channel your inner lifeguard."
+          },
+          {
+            "id": "swim-freestyle",
+            "distance": "100",
+            "notes": "Easy free — try breathing bilaterally just for fun."
+          }
+        ],
+        "restBetween": 15,
+        "restAfter": 30
+      },
+      {
+        "id": "pool-walk",
+        "name": "Pool Walking",
+        "type": "exercises",
+        "exercises": [
+          {
+            "id": "swim-pool-walking",
+            "duration": 300,
+            "notes": "5 min pool walking in the shallow end — forward, backward, sideways. Water resistance = sneaky workout. The buoyancy feels amazing on a pregnant body."
+          }
+        ],
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "This is the 'just get in the water' day — zero pressure",
+      "Pool walking is genuinely great exercise during pregnancy — zero impact, full support",
+      "If you're tired, skip this entirely and rest — rest is also training",
+      "Vertical kick and treading are old-school water polo drills — great core work",
+      "The water supports ~90% of your body weight — enjoy feeling light",
+      "NO flip turns, NO butterfly, NO guilt if you skip this day"
+    ],
+    "category": "maternity-swim"
   },
   {
     "id": "daily-mobility",

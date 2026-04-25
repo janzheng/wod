@@ -1,0 +1,81 @@
+{
+  "id": "fb-w9-push",
+  "name": "Week 9 Push — Recovery Deload",
+  "description": "QL spasm recovery week. Swap push press for SEATED DB press (no standing OH load, no spinal bracing). Everything else 60-70% of W8 working weights. Cut sets to 2-3. Stop 2 reps shy of failure on every set. Yuri band warmup non-negotiable. If a set gets hard, rack it.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "recovery", "deload", "push", "upper-body", "chest", "shoulders", "triceps", "ppl"],
+  "estimatedDuration": 40,
+  "equipment": ["dumbbell", "cable", "machine", "band"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Loosen shoulders" },
+        { "id": "yuris-shoulder-band-warmup", "reps": 1, "notes": "Full Yuri warmup, red band. Especially important this week — body is reactive." },
+        { "id": "push-up", "reps": 8, "notes": "Easy. Just blood flow, not a test." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "overhead-station",
+      "name": "Station 1: Seated DB Press (QL-safe swap)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-shoulder-press", "reps": "8-10", "notes": "SEATED on a bench with back support. 30lb each. SWAP for push press this week — standing OH press loads the spine and makes the QL brace, exactly what we're recovering from. Seated removes all of that. Don't chase weight, these are just to keep the shoulder pattern active." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "press-station",
+      "name": "Station 2: Chest Press (Deloaded)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "chest-press-machine", "reps": "8-10", "notes": "140-150 (70-80% of W8's 180). W8 actuals: 180x8 locked in. DO NOT touch 180 this week. Full ROM, slow tempo, 2 reps shy of failure. The goal is movement quality, not load." },
+        { "id": "incline-dumbbell-press", "reps": 8, "notes": "40lb pause at bottom (dropped from 50). Lighter than W8. The pause is the work. If 40 feels easy, that's fine — stay at 40. Do not creep up." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "machine-cable-station",
+      "name": "Station 3: Cables (Light)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kinesis-cable-fly", "reps": 12, "notes": "Working number 6 (down from 8). Light constant tension, pec isolation. 2 sets only." },
+        { "id": "cable-lateral-raise", "reps": 12, "notes": "35 (down from 45). Shoulder is still a bit reactive — stay light and clean. 2 sets only." },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": 12, "notes": "45 (down from 54). 2 sets only. Easy squeeze, don't chase pump." }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher (Optional)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "straight-arm-pulldown", "reps": 12, "notes": "90 (down from 110). Light, lat-focused, 2 sets. SKIP this if anything in the back is twitchy — straight-arm pulldown still loads the spine slightly when you brace." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "RECOVERY WEEK — QL spasm just resolved. The goal is habit + movement quality, NOT load.",
+    "Seated DB press REPLACES push press this week. Standing OH press is exactly what reloads the QL.",
+    "All working weights are 60-80% of W8. If something feels easy, it is — don't creep up.",
+    "Stop every set 2 reps shy of failure. If form breaks, rack it.",
+    "Yuri band warmup is non-negotiable — body is reactive this week.",
+    "If the back feels tight at ANY point, stop the session. The recovery is the point.",
+    "Skip the finisher if your back is talking to you. It's optional."
+  ]
+}

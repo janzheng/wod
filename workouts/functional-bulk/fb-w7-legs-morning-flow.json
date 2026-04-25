@@ -1,0 +1,57 @@
+{
+  "id": "fb-w7-legs-morning-flow",
+  "name": "W7 Legs Morning Flow",
+  "description": "15 min. Same as W6. Hip warmup, pigeon + lizard, glute bridge + dead bug + plank hip dips. Note: RDL form check today -- bracing matters.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "hips", "legs", "morning", "bodyweight", "fixed"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "hip-warmup",
+      "name": "Hip Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Standing, big slow circles." },
+        { "id": "dynamic-malasana", "reps": 10, "notes": "3 seconds down, 2 in the hole, drive up." },
+        { "id": "lunge-with-rotation", "reps": "5 each side", "notes": "Low lunge + twist. Hip flexors and thoracic." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "hip-depth",
+      "name": "Hip Depth Work",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 45, "notes": "45s each side. Keep going deeper each week." },
+        { "id": "lizard-pose", "duration": 30, "notes": "30s each side. Elbows down." },
+        { "id": "skandasana-side-lunge", "reps": "8 each", "notes": "Deep side lunge. Cossack squat carryover." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "activation",
+      "name": "Glute + Core Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "glute-bridge", "reps": 15, "notes": "Squeeze at top. Activate before you load." },
+        { "id": "dead-bug-opposite-reach", "reps": 10, "notes": "Core bracing -- RDL form check today, this matters." },
+        { "id": "plank-hip-dips", "reps": 12, "notes": "Obliques + hip mobility. 6 each side." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "15 min -- same structure as W6.",
+    "RDL form check today: bracing is the focus. Dead bug primes core for it.",
+    "Pigeon and lizard: your hip mobility should keep improving. Go deeper.",
+    "If short on time: hip warmup + pigeon + glute bridge. 8 min."
+  ]
+}

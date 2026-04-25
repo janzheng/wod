@@ -1,0 +1,69 @@
+{
+  "id": "fb-w9-kb-full",
+  "name": "Week 9 KB — Recovery (Skill-Only, No Hip Hinge)",
+  "description": "QL recovery week KB day. NO swings (hip hinge = QL reload), NO B-stance flow (unilateral hip bracing), NO heavy C&P (overhead lockout under load stresses spine). Just light skill drilling: bent press, windmill, TGU, cossack. 20lb. Groove, don't grind. 25 min max.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "recovery", "skill-work", "light", "ql-safe"],
+  "estimatedDuration": 25,
+  "equipment": ["kettlebell"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell, slow. Shoulder prep." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine mobility — pay attention to QL tightness." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "Skill Work (Light)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "20lb (drop from 25). Groove the path slow. Bent press is actually good for hip mobility — just go light." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "20lb goblet (drop from 25). Mobility, not strength. Deep, slow. 5/side not 8 — half volume this week." },
+        { "id": "kettlebell-windmill", "reps": "3 each side", "notes": "20lb. Hip hinge is gentle here (supported by the locked arm) — should actually help the hip flexors release. Go slow and feel the stretch." }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "tgu-block",
+      "name": "TGU (Drill)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-turkish-getup", "reps": "2 each side", "notes": "20lb (drop from 25). Focus on the left side (still weak link). Slow transitions, pause at each checkpoint. Zero rush." }
+      ],
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "ground-mobility",
+      "name": "Floor Mobility (QL Focus)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. QL/hip flexor release." },
+        { "id": "childs-pose", "duration": 60, "notes": "60s. Decompress the low back." },
+        { "id": "supine-spinal-twist", "duration": 45, "notes": "45s each side. Gentle QL release — the exact muscle we're recovering." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "RECOVERY KB — skill only. NO swings, NO B-stance flow, NO heavy C&P this week.",
+    "20lb for everything — mobility bell weight.",
+    "Bent press and windmill are actually helpful for hip/QL release at light weight — keep these.",
+    "TGU at 20lb is pure pattern drilling.",
+    "End with floor mobility — pigeon, child's pose, spinal twist. The QL release is the whole point.",
+    "If anything tweaks the back, stop and stretch instead. This is a stretching day if it needs to be."
+  ]
+}

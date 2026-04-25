@@ -1,0 +1,82 @@
+{
+  "id": "fb-w7-push",
+  "name": "Week 7 Push — Form Check (Chest/Shoulders/Triceps)",
+  "description": "Form Check Week. Same exercises, same or slightly lower weights. Stop every set when form breaks — don't chase reps. Pec deck is broken, swapping to kinesis cable fly (first time). Push press cue: parallel feet, no stagger.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "form-check"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Loosen shoulders" },
+        { "id": "band-pull-apart", "reps": 15, "notes": "Scap activation, slow and controlled" },
+        { "id": "kneeling-cross-body-external-rotation", "reps": "10 each side", "notes": "Shoulder rehab — Yuri band warmup. Keep in every push session." },
+        { "id": "push-up", "reps": 12, "notes": "Get blood flowing" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "overhead-station",
+      "name": "Station 1: Overhead",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "push-press", "reps": "6-8", "notes": "45/side. W7D1: 45x8x3 with parallel feet — way cleaner than 50. Stay at 45 for form check. Last 2 reps of set 3 started to collapse — stop there if form breaks. No stagger, no momentum hacks." },
+        { "id": "lateral-raise", "reps": "12-15", "notes": "20lb. W7D1: right shoulder crackly but improved each set with warmup. Stay at 20x15. Watch the shoulder — injury prevention is paramount." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "press-station",
+      "name": "Station 2: Press",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "chest-press-machine", "reps": "6-8", "notes": "180. W7D1: 180x8x3 clean then died on 4th. Confirmed working weight at station 2. Full ROM, controlled eccentric." },
+        { "id": "incline-dumbbell-press", "reps": 10, "notes": "50lb. W7D1: dropped from 55 to 50 for pause at bottom — 4x10 all completed with better ROM. 50 with pause > 55 without. Last set mega struggle but locked it out." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "machine-cable-station",
+      "name": "Station 3: Cables",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kinesis-cable-fly", "reps": "10-12", "notes": "Working number: 8. W7D1: 6 too easy, 9 losing form, 8x11 felt most like pec deck. Feels like DB fly with constant tension — less support than pec deck. Stay at 8." },
+        { "id": "cable-lateral-raise", "reps": 12, "notes": "45. W7D1: dropped from 50 to 45 for stability. Both sides crackly at 50. 45 feels more controlled. Stay here." },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": "10-12", "notes": "54x12x3. W7D1: surprisingly strong, can feel all the fibers. Steady and safe. Love these." }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "straight-arm-pulldown", "reps": 12, "notes": "110. W6: 10/10/9. Stay at 110, form focus. Straight arms, lats do the work, stop when shoulders start taking over." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "FORM CHECK WEEK: Stop every set when form breaks. If you only get 6 clean reps, that's the set. Don't grind ugly reps to hit a number.",
+    "Push press: parallel feet, no stagger. Shallow dip, big drive, full lockout. This is the cue to drill this week.",
+    "Kinesis cable fly is new — treat the first session as exploration. Find the working number, learn the movement path.",
+    "Weights stay flat or dip. The goal is perfect reps, not PRs. PRs come from form weeks.",
+    "Shoulder rehab stays in the warmup — band pull-aparts + kneeling cross-body external rotations every push day.",
+    "Rest 2 min between push press, 2.5 min on chest press, 75s on cables"
+  ]
+}

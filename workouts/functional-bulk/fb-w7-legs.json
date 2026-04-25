@@ -1,0 +1,112 @@
+{
+  "id": "fb-w7-legs",
+  "name": "Week 7 Legs — Form Check Week (Quads/Hamstrings/Glutes/Calves)",
+  "description": "Form Check Week. 75/side is the squat baseline — felt as easy as 70 in W6. RDL is the focus: back was kicking in at 65 on first 2 sets, third set was best (slow, static, good bracing). Stay at 65-70 and nail the bracing pattern. Leg press, calf raise, leg curl, lunges all hold steady.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "fixed", "form-check"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth. Wake up the legs." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Open up the hips" },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight, feel the stretch" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "55/side x8. Deep — same depth as working sets." }
+      ],
+      "restBetween": 0,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat (Working Sets)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "Sets 1-3: 75/side x8 deep. Set 4: TRY 80/side. W6: 75x8 across all 3 working sets felt as easy as 70. 75 is the confirmed baseline. 80 on the last set is the test — even 5-6 clean reps at 80 is a win." }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "back-extension-working",
+      "name": "Back Extension — RDL Swap (Form Check)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "45-degree-back-extension", "reps": "12-15", "notes": "SWAPPED from RDL this week. Hold a plate at your chest (start with 25lb, go up if easy). HINGE AT THE HIPS, not the spine — keep back neutral, bend at the hip crease. You should feel hamstrings and glutes, NOT lower back. If you only feel your back, you're rounding. Slow: 2 seconds down, squeeze glutes at top, 2 seconds up. This teaches you what the RDL posterior chain activation is supposed to feel like without barbell bracing stress." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press", "reps": "10-12", "notes": "6 plates/side. W6: hard but good ROM after first set. Stay at 6 plates. Full ROM — lower mount point. Focus on depth, not speed." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "calf-raise-station",
+      "name": "Single Leg Calf Raise",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "leg-press-calf-raise", "reps": 20, "notes": "SINGLE LEG: 4 plates/side x20, other foot stabilizing on the plate. W6: graduated to single leg. Stay here — this is the new baseline." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Leg Curl",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": 12, "notes": "110. W6: 12 reps, hard last 3. Stay at 110. 2-second negatives on every rep. Clean form before any weight bump." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "lunge-finisher",
+      "name": "Lunges (The Finisher)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-lunge", "reps": "10 each leg", "notes": "40lb DBs. W6: still death but no sitting between sets — that's progress. Stay at 40. Walking lunges, long stride, back knee toward floor. Form check week = clean all 3 sets before any weight bump." }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "FORM CHECK WEEK — RDL is the main focus. Brace before every rep, slow eccentric, no back compensation.",
+    "Squat 75 is the baseline. 80 on the last set if sets 1-3 are clean.",
+    "RDL cues: brace hard, 3-count eccentric, hips back not down, feel hamstrings not lower back.",
+    "If RDL bracing is solid all 3 sets at 65, try 70 on set 3 only.",
+    "Calf raises are single leg now — 4 plates x20, other foot just stabilizing.",
+    "Leg curl: 110x12 with 2-second negatives. Stay here.",
+    "Lunges: 40lb, survive all 3 sets with clean form.",
+    "Rest 3 min between squats, 2.5 min RDL, 2 min leg press, 90s isolation"
+  ]
+}

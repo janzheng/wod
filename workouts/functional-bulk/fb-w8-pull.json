@@ -1,0 +1,93 @@
+{
+  "id": "fb-w8-pull",
+  "name": "Week 8 Pull — Selective Push (Back/Biceps)",
+  "description": "Selective push week. Form check discoveries stay locked in, clean stuff inches forward. Cable row permanently dropped — chest supported DB row is the replacement. W7 pull-ups hit 32 with mixed grips (climber handles, wide, normal). DB rows hit 80x10 clean on bench — try 85 top set. Trimmed from W7: cable row gone, finisher down to 2 sets each.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "selective-push"],
+  "estimatedDuration": 50,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Scap activation" },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine warm" },
+        { "id": "dead-hang", "duration": 30, "notes": "Grip and shoulder warm" }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Pull-ups",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "8-10", "notes": "W7 actuals: 10/8/8/4+2 = 32 with mixed grips (climber handles, wide, normal). Clean sets rule stays. W8 target: aim for 8+ on all 4 sets strict. Vary grips again — the mixed approach keeps it interesting and hits different angles." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "station-1",
+      "name": "Station 1: Preacher Curl + DB Row",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "preacher-curl", "reps": "8-10", "notes": "15/side. W7: preacher was taken, did concentration curl 25x10/8+2/6+2 instead. Good backup option. If preacher open, stay at 15/side strict. If taken again, concentration curl at 25 — proved to be a solid swap." },
+        { "id": "dumbbell-row", "reps": "7-10", "notes": "Pyramid: 60x10, 70x8, 85x7. W7 actuals: 80x10 on bench, slow and controlled — clean PR. OK to push: try 85 on top set. Keep it on the bench, brace hard, pull to hip. If 85 breaks form, drop back to 80 and own it." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "station-2",
+      "name": "Station 2: Chest Supported Row + Lat Pulldown",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "chest-supported-dumbbell-row", "reps": 10, "notes": "W7 actuals: 40x10 each side, felt good. Permanently replaces cable row (pulley slippage issues). W8: stay at 40, try 45 on last set if 40 feels easy. Squeeze at top, 2-second negative." },
+        { "id": "lat-pulldown", "reps": "8-10", "notes": "W7 actuals: 170x7 too heavy for strict, dropped to 160x8/160x6. Stay at 160 strict — form over numbers. Wide grip near the bend, lean back slightly, pull to chest, 1-second squeeze at bottom." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "station-3",
+      "name": "Station 3: Face Pull + Reverse Fly",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "face-pull", "reps": 20, "notes": "W7 actuals: 50x20, slow was hard. Stay at 50x20 strict — the slow tempo is the progression now. External rotate at top, elbows high, hold 1 second. Don't bump weight until 3x20 feels controlled." },
+        { "id": "dumbbell-reverse-fly", "reps": "12-15", "notes": "W7 actuals: 25x15/13/13. Stay at 25, aim for 3x15 strict. Seated bent-over, slow squeeze, no swinging. If all 3 sets hit 15, then consider 27.5 next week." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: High Cable Curl + Cable Crunch",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "high-cable-bicep-curl", "reps": "10-12", "notes": "W7 actuals: 50-60 on dual pulley, better without full lockout. W8: 2 sets only (trimmed from 3). Stay at 60, skip full lockout — partial ROM at bottom keeps tension on biceps. Quick pump, don't linger." },
+        { "id": "cable-crunch", "reps": "12-15", "notes": "W7 actuals: 110 is base. W8: 2 sets only (trimmed from 3). OK to push — try 120 on second set. Hips locked, crunch from abs only. If 120 is clean, make it the new base." }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "SELECTIVE PUSH: form check discoveries are locked in. Clean lifts inch forward, everything else holds.",
+    "Pull-ups: 32 with mixed grips was solid. Keep varying grips — climber handles, wide, normal. Clean sets only.",
+    "DB row 85 on top set — earned it after 80x10 clean. If form breaks at 85, no shame dropping back to 80.",
+    "Cable row is permanently gone. Chest supported row stays — the bench keeps you honest, no pulley issues.",
+    "Lat pulldown stays at 160 strict. 170 was too heavy for good form — own 160 before chasing numbers.",
+    "Finisher trimmed to 2 sets each (down from 3). Pull day was too long in W7 — this keeps it tight.",
+    "Rest: 2.5 min pull-ups, 2 min stations 1-2, 90s station 3, 60s finisher"
+  ]
+}
