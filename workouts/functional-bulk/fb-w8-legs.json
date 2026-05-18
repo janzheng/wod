@@ -44,12 +44,12 @@
       "restAfter": 120
     },
     {
-      "id": "back-extension-working",
-      "name": "Back Extension (Dead Slow)",
+      "id": "incline-rdl-working",
+      "name": "Incline RDL (Dead Slow)",
       "type": "exercises",
       "rounds": 3,
       "exercises": [
-        { "id": "45-degree-back-extension", "reps": 15, "notes": "25lb plate, dead slow, 2s pause at bottom. W7 actuals: 25x15x3 torched the hamstrings. This feels nothing like RDL — it's working as its own thing. Stay at 25lb, don't rush heavier. Slow eccentric is the stimulus. If it stops feeling hard, go slower before going heavier." }
+        { "id": "incline-rdl", "reps": 15, "notes": "25lb plate, dead slow, 2s pause at bottom. W7 actuals: 25x15x3 torched the hamstrings. Stay at 25lb, don't rush heavier. Slow eccentric is the stimulus. If it stops feeling hard, go slower before going heavier." }
       ],
       "restBetween": 90,
       "restAfter": 90

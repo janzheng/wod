@@ -1,0 +1,232 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w11-push",
+    "date": "2026-05-06",
+    "rawInput": "push press\n40x10\n40x10\n40x8 oops did too many but felt good ended stopped out; should have rested longer but whatever\n\nlat raise\nstill feeling shoulder a bit but definitely feel warmer and less painful\n15x20\n15x20\n15x15 plus another 5 these are hard slow\n\nincline press\n- felt fairly easy though right cheat and right shoulder connected muscle still tight - the warm ups are helping tho\n- 40s felt good otherwise\n\nchest press\n- 165 felt hard ish right side is definitely tighter than normal for some reason; left side feels way better today\n- 165x10\n- 165x8 stopped out\n- 165x3 stopped out 150x5 stopped out\n- oof this was really hard today for some odd reason; i think it was bc it was at the end? not even the shoulder stuff just hard lol even left side\n\ncable fly felt great did all sets felt good, form felt good; made shoulder feel good too esp at the stretch\n\nlat raise on kinesis at 3\n- equivalent to 30ish\n- other machine was taken\n- really hard to do one side first!!??\n- right shoulder definitely weaker from injury but holding tight!\n\nincline tricep extension\n- kinesis at 4\n- other machine still busy; felt good working weight at 4 this machine is fine\n- 4x12\n- 4x12 too easy\n- 5x12 significantly harder\n\nstraight arm pull down at 6\nmachine is not linear this feels like 100",
+    "notes": "Shoulder warmer/less painful than W10. Chest press rough — user wondered if it was because it came at the end. Cable fly stretch felt good on the shoulder. End block all on Kinesis (cable column occupied): lat raise 3, tri ext 4→5, straight-arm pulldown 6 (user: Kinesis 6 ≈ cable column 100).",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "push-press",
+        "sets": [
+          { "weight": "40lb each", "reps": 10 },
+          { "weight": "40lb each", "reps": 10 },
+          { "weight": "40lb each", "reps": 8, "notes": "Did too many, ended/stopped out. Should have rested longer." }
+        ]
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          { "weight": "15lb", "reps": 20, "notes": "Still feeling shoulder a bit but warmer/less painful." },
+          { "weight": "15lb", "reps": 20 },
+          { "weight": "15lb", "reps": "15+5", "notes": "Hard slow." }
+        ]
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          { "weight": "40lb pair", "reps": "—", "notes": "Felt fairly easy. Right chest and right shoulder connected muscle still tight — warmups are helping. 40s felt good." }
+        ]
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": [
+          { "weight": "165", "reps": 10 },
+          { "weight": "165", "reps": 8, "notes": "Stopped out." },
+          { "weight": "165", "reps": 3, "notes": "Stopped out." },
+          { "weight": "150", "reps": 5, "notes": "Stopped out. Right side tighter than normal, left side felt better today. Really hard — user wondered if it was because it was at the end. Even left side hard." }
+        ]
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": [
+          { "weight": "Kinesis 8", "reps": 12, "notes": "Felt great, did all sets, form felt good. Made shoulder feel good especially at the stretch." },
+          { "weight": "Kinesis 8", "reps": 12 },
+          { "weight": "Kinesis 8", "reps": 12 }
+        ]
+      },
+      {
+        "id": "cable-lateral-raise",
+        "equipment": "Kinesis (cable column occupied)",
+        "sets": [
+          { "weight": "Kinesis 3 (≈30 cable equivalent per user)", "reps": 12, "notes": "Cable column taken. Really hard to do one side first." },
+          { "weight": "Kinesis 3", "reps": 12, "notes": "Right shoulder definitely weaker from injury but holding tight." },
+          { "weight": "Kinesis 3", "reps": 12 }
+        ]
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "equipment": "Kinesis (cable column occupied)",
+        "sets": [
+          { "weight": "Kinesis 4", "reps": 12, "notes": "Felt good — this machine is fine at 4." },
+          { "weight": "Kinesis 4", "reps": 12, "notes": "Too easy." },
+          { "weight": "Kinesis 5", "reps": 12, "notes": "Significantly harder." }
+        ]
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "equipment": "Kinesis (cable column occupied)",
+        "sets": [
+          { "weight": "Kinesis 6", "reps": 12, "notes": "User: 'machine is not linear, this feels like 100' — so Kinesis 6 ≈ cable column 100." }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w11-kb-full",
+    "date": "2026-05-07",
+    "rawInput": "everything went great\n\ngoing two forward two reverse on the get ups\n\nno other surprises; kind of want some new flows and skills from the repo for kb",
+    "notes": "Light-touch KB Tuesday. Ran the prescribed plan, no surprises. **TGU pattern: going 2 forward + 2 reverse per side** — adding the reverse direction (standing → lying) on top of the standard forward direction. Worth baking into the W12 TGU note. User asked for new flows/skills from the repo to rotate in — see W11+ planning notes for candidates.",
+    "exercises": [
+      {
+        "id": "kettlebell-turkish-getup",
+        "sets": [
+          { "weight": "(not specified)", "reps": "2 forward + 2 reverse per side", "notes": "New pattern: 2 reps in the standard direction, then 2 reps in reverse (standing → lying). Adds a skill dimension on top of the prescribed 2-per-side count." }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w11-pull",
+    "date": "2026-05-08",
+    "rawInput": "w11d3\n\npull ups\nfeel better this week w/ shoulder!\nclimber hold (none of these rotate the rotating one / adjustable one not a climber hold) x7\nflat bar wide x7 feeling it on front of right shoulder! stretches help this used to be rotator / scalp fwiw all connected\nflat bar close x7 really feeling right front; back shoulder not much tho\nwide slow to 6 stopped out \n\n\nchest supported incline thing\n- 30 bc 35 na\n- hard doing these slow up to 12 x 3 sets- really tight at end even with lower weights\n\nrows\n- 80 is really hard kind of broke slow form the other ones were good still did all sets though\n- 60/70x10\n- 80x8 way harder more momentum naturally \n\nthese are not concentration drills how did you drift and hallucinate so shittily fuck look back at previous notes\n- incline supported curls\n- slow stopped at bottom 2s\n- much harder on left side\n- 25x10\n- 25x10\n- 25x5 on left side then needed support right didn't \n- \n\ndb rev fly we don't have 22.5 that's why lol your notes are so bad\n- 20 bc none of the fucking weights are around \n- lighter but somehow never easier\n- could complete all sets slowly though but still a struggle at end \n\nface pull\n- last five of last two sets hard but finished with ok form\n\nlat pulldown on double pulley so 70\n- you don't have to write notes i give to you in the fucking workout you dolt - the stuff about 5 incr is for you lol don't fucking tell me that you fuck head \n\ncable column bicep curl pull\n- 150x12 x2 on each side\n- felt pretty good could go up prob one arm at a time really nice compared to the lat pull\n\n120 cable crunch felt a bit easy\n\n\n\n\n\n- When I say \"equipment not available\" it's not exactly by choice so stop changing shit to \"oh I wanted that\" it's literally impossible to do some things so I have to adjust\n- You drifted so much that incline bench curls became concentration curls - I have literally never done these and if you took notes you would have known\n- idk what happened to your intelligence but you have to start reading notes god damn it there's not that many and you're hallucinating shit left and right it's not rocket science \n- you also have to write them properly which is basically paste all of my short texts in idk why this is so hard ",
+    "notes": "Shoulder feels better this week. **Equipment used:** prescribed setup for everything except lat pulldown — face pull, high cable curl, cable crunch all on the prescribed cable column. Lat pulldown forced to dual pulley (regular lat pulldown N/A) — user calibration: 'it's like half the weight, so 70 is 140 more or less.' **Other forced subs from availability (NOT user preference):** chest-supported row 30 (35 N/A), DB reverse fly 20 (22.5 N/A — 'none of the fucking weights are around'). **Curl exercise correction:** the bicep work is `incline-curl` (back-against-incline-bench DB curl, 2s pause at bottom), NOT `concentration-curl`. User direct quote: 'I have literally never done these [concentration curls] and if you took notes you would have known.' Per user history: 'it used to be preacher curl and i started an incline curl bc the preacher curl is always taken and then you just drifted.' Prior W7/W8/W10 entries that used `concentration-curl` were mislabeled — fixed those too. High cable curl on cable column 150x12 each side x2 (one arm at a time, could go up — first cable-column data point for this lift). Cable crunch cable column 120 a bit easy. **User meta-feedback on workout authoring:** stop putting notes-to-Claude inside the user-facing workout text (e.g., the W11 'log this fact every session' note about the lat pulldown 5lb increment was internal context, not for the user).",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": [
+          { "weight": "BW (rack handles labeled 'climber hold' but NOT actually rotating — adjustable, not a true climber hold)", "reps": 7 },
+          { "weight": "BW (flat bar, wide)", "reps": 7, "notes": "Feeling it on front of right shoulder. Stretches help — this used to be rotator/scalp, all connected fwiw." },
+          { "weight": "BW (flat bar, close)", "reps": 7, "notes": "Really feeling right front; back shoulder not much tho." },
+          { "weight": "BW (wide, slow)", "reps": 6, "notes": "Stopped out." }
+        ]
+      },
+      {
+        "id": "chest-supported-dumbbell-row",
+        "sets": [
+          { "weight": "30lb (35 NOT available)", "reps": 12 },
+          { "weight": "30lb", "reps": 12 },
+          { "weight": "30lb", "reps": 12, "notes": "Hard doing these slow up to 12 x 3 sets. Really tight at end even with lower weights." }
+        ]
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": [
+          { "weight": "60lb", "reps": 10 },
+          { "weight": "70lb", "reps": 10 },
+          { "weight": "80lb", "reps": 8, "notes": "Really hard. Kind of broke slow form. The other sets were good. Still did all sets though. 80 way harder, more momentum naturally." }
+        ]
+      },
+      {
+        "id": "incline-curl",
+        "sets": [
+          { "weight": "25lb", "reps": 10, "notes": "Slow, stopped at bottom 2s. Much harder on left side." },
+          { "weight": "25lb", "reps": 10 },
+          { "weight": "25lb", "reps": "5L (then needed support) / 10R (didn't)", "notes": "Left side: 5 strict then needed support. Right side: didn't need support." }
+        ],
+        "notes": "**Exercise ID corrected:** user clarified 'these are not concentration drills.' This is `incline-curl` (back against incline bench, 2s pause at bottom). NOT `concentration-curl`. The W11 prescription used the wrong ID; W7/W8/W10 logs also corrected."
+      },
+      {
+        "id": "dumbbell-reverse-fly",
+        "sets": [
+          { "weight": "20lb (22.5 NOT around — 'none of the fucking weights are around')", "reps": "—" },
+          { "weight": "20lb", "reps": "—" },
+          { "weight": "20lb", "reps": "—", "notes": "Lighter but somehow never easier. Could complete all sets slowly though, still a struggle at end." }
+        ]
+      },
+      {
+        "id": "face-pull",
+        "sets": [
+          { "weight": "cable column 42.5 (used as prescribed)", "reps": 20, "notes": "Last 5 of last 2 sets hard but finished with ok form." }
+        ]
+      },
+      {
+        "id": "lat-pulldown",
+        "equipment": "dual pulley (only option — regular lat pulldown N/A)",
+        "sets": [
+          { "weight": "70/side on dual pulley", "reps": "—", "notes": "User calibration: 'it's like half the weight, so 70 is 140 more or less.' The dual pulley displays ~half the equivalent weight per side, so 70 each side ≈ 140 on the regular lat pulldown machine." }
+        ]
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "equipment": "cable column",
+        "sets": [
+          { "weight": "150 cable column (one arm at a time)", "reps": 12, "notes": "Each side." },
+          { "weight": "150 cable column (one arm at a time)", "reps": 12, "notes": "Each side. Felt pretty good, could go up. One arm at a time really nice compared to the lat pulldown." }
+        ]
+      },
+      {
+        "id": "cable-crunch",
+        "sets": [
+          { "weight": "120 (cable column, as prescribed)", "reps": "—", "notes": "Felt a bit easy." }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "workoutId": "fb-w11-kb-cond",
+    "date": "2026-05-09",
+    "skipped": true,
+    "notes": "W11D4 KB Thursday — skipped."
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w11-legs",
+    "date": "2026-05-10",
+    "rawInput": "skipped w11d4\n\nw11d5\n\nbar bell squat\n- 10s hard to find so went up to 70 lol\n- felt pretty easy and good for all sets i think my ql finally caught up or at least getting there\n- did all four sets\n- \n\nleg press\n- felt really good went slightly deeper than medium ROM pretty easy all sets; got a good stretch and can feel where the QL are stronger in the middle\n\ncalf raises were great - did slow ones double feet difficulty was ok slightly easy did all\n\nleg curls \n- this new order makes leg curls really easy for some reason even though i'm doing them correctly?\n- 50x12 too easy\n- 65x12 eccentrics also easy \n- 90x12 did four eccentrics and then got too hard finished the last set tho prob working weight\n- did another 90x12 ok somewhat working weight checked everything looks good position wise \n\nincline rdl\n- MARKED WRONG not back extensions how did this drift so hard\n- felt good otherwise did all sets, super slow; rested more between squeezed glutes \n",
+    "notes": "W11D5 — solid legs day, several upward moves from prescribed loads. Squat: couldn't find 10lb plates, so jumped from prescribed 65 to **70/side x 8 x 4** — felt 'pretty easy and good for all sets'; user thinks 'QL finally caught up or at least getting there.' Leg press: went **slightly deeper than medium ROM**, all sets pretty easy, good stretch — user could feel where the QL are 'stronger in the middle.' Calf raises: chose **Option A (double-leg slow)** as recommended, slightly easy, all sets done. Leg curls: ramped past the prescribed 50 hard-reset — 50x12 too easy, 65x12 eccentrics easy, then 90x12 (got too hard around the 4th eccentric, finished last set) and another 90x12 — **90 is the working weight at corrected ankle placement** (per user: 'position wise looks good'). User flagged that **'this new order makes leg curls really easy for some reason' even though doing them correctly** (W11 moved leg curl earlier — leg press → calf raise → leg curl, vs W10 which had back ext + 2 lifts before leg curl). **Naming correction:** user flagged the prescription's 'back extension' label as **WRONG — this is incline RDL**, not back extensions. Workout JSON updated to use `incline-rdl` going forward. Lift itself: 25lb plate, super slow, all sets done, rested more between sets, squeezed glutes. Lunges not in user's input — likely skipped or not logged.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": [
+          { "weight": "70/side", "reps": 8, "notes": "Couldn't find 10lb plates — went to 70/side instead of prescribed 65." },
+          { "weight": "70/side", "reps": 8 },
+          { "weight": "70/side", "reps": 8 },
+          { "weight": "70/side", "reps": 8, "notes": "All 4 sets — 'pretty easy and good for all sets'. User: 'i think my QL finally caught up or at least getting there.'" }
+        ]
+      },
+      {
+        "id": "leg-press",
+        "sets": [
+          { "weight": "3 plates/side, slightly deeper than medium ROM", "reps": 12, "notes": "Felt really good." },
+          { "weight": "3 plates/side", "reps": 12 },
+          { "weight": "3 plates/side", "reps": 12 },
+          { "weight": "3 plates/side", "reps": 12, "notes": "Pretty easy all sets. Good stretch — user: 'can feel where the QL are stronger in the middle.' Went slightly past the prescribed medium ROM with no QL flag." }
+        ]
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": [
+          { "weight": "3 plates/side, double-leg slow (Option A)", "reps": 15, "notes": "Slow tempo as recommended." },
+          { "weight": "3 plates/side, double-leg slow", "reps": 15 },
+          { "weight": "3 plates/side, double-leg slow", "reps": 15, "notes": "Difficulty was ok / slightly easy, did all sets. Option A (double-leg slow) was the right call — much more sustainable than W10D5's single-leg + slow combo." }
+        ]
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": [
+          { "weight": "50 (corrected ankle placement)", "reps": 12, "notes": "Too easy — ramped up." },
+          { "weight": "65", "reps": 12, "notes": "Eccentrics also easy." },
+          { "weight": "90", "reps": 12, "notes": "Did four eccentrics and then got too hard, finished the last set. Probably working weight." },
+          { "weight": "90", "reps": 12, "notes": "Another set — somewhat working weight. User: 'checked everything looks good position wise.' This is the corrected-lever 90, not the wrong-lever 90/100 from W7-W10." }
+        ],
+        "notes": "User: 'this new order makes leg curls really easy for some reason even though I'm doing them correctly.' W11 ordering put leg curl after leg press + calf raise (vs W10 which had back ext + leg press + calf raise + leg curl). Working weight at corrected ankle placement is settling around **90**."
+      },
+      {
+        "id": "incline-rdl",
+        "sets": [
+          { "weight": "25lb plate, super slow", "reps": 15, "notes": "Felt good." },
+          { "weight": "25lb plate", "reps": 15, "notes": "Squeezed glutes, rested more between sets." },
+          { "weight": "25lb plate", "reps": 15, "notes": "All sets done." }
+        ],
+        "notes": "**Naming correction (user flagged):** 'MARKED WRONG not back extensions how did this drift so hard.' This is the **incline RDL** on the 45° bench — hip hinge, not a back extension. Created `exercises/incline-rdl.json` and updated W11 legs workout to use it. **Audit completed W11D5:** past workouts (W7/W8/W10 legs) and past logs (W7/W8/W10) have been retroactively corrected to use `incline-rdl`. W1-W6 stay as `barbell-romanian-deadlift` (those were the actual barbell RDL on the squat rack — different lift)."
+      }
+    ]
+  }
+]

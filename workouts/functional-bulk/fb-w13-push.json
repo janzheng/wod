@@ -1,0 +1,224 @@
+{
+  "id": "fb-w13-push",
+  "name": "Week 13 Push — DELOAD (Spotlight: Cable Column Block — Lat Raise + Tri Ext + Straight-Arm Pulldown)",
+  "description": "**DELOAD WEEK.** W10/W11/W12 were 3 hard weeks; W12 also added new lifts (behind-back shrugs, cool-down block). Fatigue signals are firing: the new right-shoulder symptom cluster (W12D1 — 'line from hand to shoulder,' grip-triggered shoulder pain), universal tightness, multiple soft-tissue patterns. Per the locked 3-hard/1-deload cadence, W13 is a deload. **HOLD all loads, CUT volume ~60-70%** — drop a set per exercise. Spotlights rotate to the **cable column block** (cable lat raise + incline overhead tri ext + straight-arm pulldown) — the lightest lifts of the day, perfect for a deload where the cue is the only thing being trained. **NEW: farmer carry** joins as a closing block (W12D1 shoulder-shrugs discussion outcome — loaded carry trains the same packed-shoulder pattern as the shrugs). **W12D1 takeaways baked in:** chest press 165 x 10 x 3 ran clean at the 3rd-station placement ('way easier when this is third'); incline DB went to 45 cleanly ('weirdly good no pain'); Kinesis fly 8 'stretching and relaxing everything.'",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "form-first", "spotlight-rotation", "deload"],
+  "estimatedDuration": 50,
+  "equipment": ["dumbbell", "cable", "machine", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "DELOAD — first deload since W9. Motivated by W10-W12 being 3 hard weeks plus W12's new lifts, and by the W12D1 fatigue cluster: the new right-shoulder symptom pattern (line-of-sensation + grip-triggered pain), universal tightness, multiple soft-tissue patterns. HOLD every load, cut every exercise by a set. The cable column block is the spotlight precisely because it's the lightest work of the day — a deload is the right time to drill cues with nothing else competing. NEW farmer carry closing block extends the trap-chain work the shrugs started.",
+    "spotlights": [
+      {
+        "exerciseId": "cable-lateral-raise",
+        "why": "W12D1 surfaced a real cue interaction — 'if I lead with elbow and focus on back, I feel it in the elbow even tho not using it at all.' A deload is the week to untangle that: drill lead-with-elbow WITHOUT letting the elbow take load, soft-fixed elbow, stop at shoulder height. Light load, full attention on the path."
+      },
+      {
+        "exerciseId": "incline-cable-overhead-tricep-extension",
+        "why": "W12D1 locked cable column 70 as the working number (first cable-column data point — W10/W11 were on Kinesis). Deload drills the setup: kneel facing away, torso-forward 'incline,' elbows pinned, full overhead stretch. Hold 70, drill the elbow pin."
+      },
+      {
+        "exerciseId": "straight-arm-pulldown",
+        "why": "Cable column ~100 working number. The lift most likely to drift into a lat-pulldown — drill the fixed slight-elbow-bend + 'pull to thighs not past' + lat squeeze. Deload load, deep cue."
+      }
+    ],
+    "rotationPlan": "W11 chest press machine · W12 lateral raise + Kinesis cable fly · W13 cable column block — lat raise + tri ext + straight-arm pulldown (current, DELOAD) · W14 cycle back to push press + incline DB to refresh.",
+    "watchpoints": [
+      "**This is a DELOAD — resist the urge to push.** Loads HOLD at W12 numbers; every exercise drops a set. If a set feels easy, that is the deload working as designed — do NOT add reps or weight. The point is to let connective tissue catch up to muscle (it lags 6-8 weeks).",
+      "**Right shoulder symptom cluster (W12D1) is the headline watchpoint.** 'Line from hand to shoulder' at 90°, raising the arm to 90° getting hard, squeezing the right hand triggering shoulder weakness/pain. The deload + cool-down + shrug/carry work is the intervention. **If the cluster is WORSE by W13D3 pull day, that flips the hypothesis from functional to structural — book a PT eval.** Don't escalate push press load until it settles.",
+      "**Chest press cut to 2 sets at 165** — W12D1 confirmed 165 x 10 x 3 ran clean at the 3rd-station slot; deload trims to 2. Hold 165, do NOT chase a 3rd set.",
+      "**Incline DB holds 45** — W12D1 went to 45 'weirdly good no pain.' Deload: 2 sets, hold 45. Drop to 40 only if the right shoulder is loud on set 1.",
+      "**NEW: farmer carry closing block** — extends the W12D1 shoulder-shrugs discussion. The packed-shoulder loaded carry trains the same down-and-back trap pattern as the behind-back shrugs. Introduce light: 2 walks, 40-50lb DBs. Cue is 'pack DOWN not up.'",
+      "Yuri band red warmup non-negotiable. Doorframe pec stretch in the morning flow add-on."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "arm-circle",
+          "reps": "10 each direction",
+          "notes": "Slow, big circles. Wake up scap glide before loading."
+        },
+        {
+          "id": "yuris-shoulder-band-warmup",
+          "reps": 1,
+          "notes": "Full sequence with red band. Non-negotiable on push day — extra important this week with the right-shoulder symptom cluster active."
+        },
+        {
+          "id": "push-up",
+          "reps": 10,
+          "notes": "Ribs down, glutes tight, body in one line. Slow eccentric, 1s pause with chest 1-2\" off the floor. (Deload: 10, not 12.)"
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "db-rack-overhead",
+      "name": "Station 1: DB Rack — Push Press + Lateral Raise (DELOAD — 2 Sets Each)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "push-press",
+          "reps": "8-10",
+          "notes": "**LOAD:** 40/side (HOLD — W12D1 hit 40 x 10/10/8). **DELOAD: 2 sets, NOT 3.**\n- **Feet parallel, hip-width** — locked since W7\n- **Ribs DOWN before the dip** — W12D1 flagged rib flare creeping in on set 2; on a 2-set day there is no excuse for it, catch it on set 1\n- **Pack DOWN, not up** — shoulder blades into the back pockets, neck long. If you have to shrug up to lock out, the load is too heavy *for the cue* — that check matters more than ever with the shoulder cluster active.\n- Shallow dip ~3-4\", vertical DB path, head pokes through at the top\n- Stop the set the moment rib position or the packed shoulder breaks"
+        },
+        {
+          "id": "lateral-raise",
+          "reps": 18,
+          "notes": "**LOAD:** 15lb (HOLD — W12D1 hit 15 x 20 x 2, slow eccentric 'super hard'). **DELOAD: 2 sets, ~18 reps** (slightly trimmed from 20).\n- **Lead with elbow, hand passive** — wrist follows, no wrist break\n- **Soft elbow ~10-15°, FIXED** through the rep\n- **Stop at shoulder height — never higher** (past = traps eat the rep)\n- **2s eccentric** — slow descent is the stimulus\n- **Scap-reset between sets** — roll shoulders, engage/disengage scapula\n- Massage the right pec between sets if the shoulder talks"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "db-rack-bench",
+      "name": "Station 2: DB Rack — Incline Bench (DELOAD — 2 Sets)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "incline-dumbbell-press",
+          "reps": "8-10",
+          "notes": "**LOAD:** 45lb pair (HOLD — W12D1 hit 45 x 10 x 3, 'felt weirdly good no pain'). **DELOAD: 2 sets.** Drop to 40 only if the right shoulder is loud on set 1.\n- **Bench at 30°**, NOT 45° — forearm stack is automatic at 30°\n- **Shoulders packed back AND down** — pin scaps into the bench\n- Elbows ~45° from torso\n- 1s pause at the bottom, no DB clack at the top\n- This is a deload — 45 should feel controlled, not a grind. If it grinds, the right shoulder is telling you something — drop to 40."
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "chest-press-machine-station",
+      "name": "Station 3: Chest Press Machine (DELOAD — 2 Sets at 165)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "chest-press-machine",
+          "reps": "8-10",
+          "notes": "**LOAD:** 165 (HOLD — W12D1 ran 165 x 10 x 3 clean at this 3rd-station placement, 'way easier when this is third'). **DELOAD: 2 sets, NOT 3.** Do not chase a 3rd set just because 165 felt good last week — the deload is the cut.\n- **Seat height: handles align with mid-chest / nipple line**, set BEFORE sitting\n- **Shoulders pinned BACK against the back pad** — the foundation cue\n- **3s eccentric** — count it\n- **Press to almost extension** — leave a hair of bend\n- Massage out the right pec between sets — pre-empt the referral"
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "kinesis-station",
+      "name": "Station 4: Kinesis Cable Fly (DELOAD — 2 Sets)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kinesis-cable-fly",
+          "reps": "10-12",
+          "notes": "**LOAD:** Kinesis 8 (HOLD — W12D1 'felt great, stretching and relaxing everything'). **DELOAD: 2 sets.** This is the lift that loosens the right shoulder — protect it even on a deload.\n- **Slight forward hinge at hips** — chest leads, not head\n- **Soft elbow ~10-15°, FIXED throughout** — not a press, not a curl\n- **\"Hug a tree\"** — squeeze from the chest, not the arms\n- **Slow eccentric (~3s)** — let the cables pull the arms back for the deep pec stretch\n- **Stretch is the stimulus** — W12D1 said the shoulder felt good at the stretch; that's the cue"
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "cable-column-block",
+      "name": "🔆 Station 5: Cable Column Block — Lat Raise → Tri Ext → Straight-Arm Pulldown (Spotlight, DELOAD — 2 Rounds)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "cable-lateral-raise",
+          "equipment": "cable column (default — W12D1 setup) — Kinesis 3 fallback if column is occupied",
+          "reps": 12,
+          "notes": "**LOAD:** cable column ~30-40lb (HOLD — form-first range). **DELOAD: 2 rounds, one arm at a time.**\n\n**🔆 SPOTLIGHT — drill the W12D1 cue interaction every rep:**\n- W12D1 observation: **'if I lead with elbow and focus on back, I feel it in the elbow even tho not using it at all.'** That sensation means the elbow is becoming a load path it shouldn't be.\n- **Lead with the elbow as a DIRECTION, not a lever** — the elbow points the way the arm travels; it does not bend, extend, or grip. If you feel the elbow *working*, you've turned a direction cue into a joint action. Reset: soft elbow, fixed angle, let the medial delt lift the whole arm as one unit.\n- **Soft elbow ~10°, FIXED throughout** — the angle never changes from start to top\n- **Stand sideways to the column**, working arm farther from the stack\n- **Stop at shoulder height — higher = traps**\n- **Fight the cable on the way down**, no snap-back, 2s eccentric\n- **Massage the right pec between sets** — kills the crackle\n- **Skip 'run line behind body' cue** — doesn't apply at this gym's geometry\n\n**Reflection:** by round 2, is the elbow quiet (just pointing) or is it still 'feeling' the rep? If it's still feeling it, slow down and lighten — the deload is the week to get this clean."
+        },
+        {
+          "id": "incline-cable-overhead-tricep-extension",
+          "equipment": "cable column kneeling (default — W12D1 working number) — Kinesis 5 fallback if column is occupied",
+          "reps": "10-12",
+          "notes": "**LOAD:** cable column 70 (HOLD — W12D1 locked 70 as the working number; 50 was too easy). **DELOAD: 2 rounds.**\n\n**🔆 SPOTLIGHT — drill the setup every rep:**\n- **Kneel facing AWAY from the high pulley**, rope overhead\n- **Torso slightly forward — that's the 'incline.'** It biases the long head; without the forward lean it's an ordinary pressdown.\n- **Elbows PINNED** — only the forearms move. The elbow is the hinge and nothing else. If the elbows drift forward or flare, the long head offloads.\n- **Hands shoulder-width on the rope** (long-head emphasis)\n- **Full stretch at the bottom** — let the rope pull the hands behind the head\n- **Stop just shy of lockout**, slow eccentric\n\n**Reflection:** at round 2, are the elbows still pinned in the same spot they started, or have they crept forward? The pin is the lift."
+        },
+        {
+          "id": "straight-arm-pulldown",
+          "equipment": "cable column (default — W12D1 setup) — Kinesis 6 ≈ cable column 100 fallback",
+          "reps": 12,
+          "notes": "**LOAD:** cable column 100 (HOLD — W12D1 working number, done clean 'no specifics needed'). **DELOAD: 2 rounds.**\n\n**🔆 SPOTLIGHT — drill the cues that keep this from becoming a lat pulldown:**\n- **Stand a step back, hinge ~15° at the hips** — fixed hinge, the torso doesn't pump\n- **Slight elbow bend (~5°), FIXED throughout** — perfectly straight arms = elbow risk; bending arms = it becomes a pulldown. The elbow holds ONE angle the whole set.\n- **Pull the bar to the thighs, NOT past** — past the thighs the shoulders roll forward and the lats switch off\n- **Squeeze the lats hard at the bottom** — 'oranges into the back pockets'\n- **Slow controlled return to a full overhead stretch** — the stretch at the top is half the lift\n\n**Reflection:** does it feel like a straight-arm lat movement, or has the elbow started bending to help? If the elbow is bending, that's the lat tapping out — stop the set."
+        }
+      ],
+      "notes": "**The spotlight block — and the lightest work of the day, which is exactly why it's the deload spotlight.** Nothing here is heavy; the entire training effect this week is the quality of the cue. One trip to the cable column covers all three (slide the attachment between exercises). 2 rounds, not 3.",
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "farmer-carry-block",
+      "name": "🆕 Station 6: Farmer Carry (NEW — W12D1 shoulder-shrugs discussion outcome)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "farmer-carry",
+          "equipment": "DB rack",
+          "duration": 40,
+          "notes": "**LOAD:** 40-50lb DBs — start at 40, this is an introduction. **2 walks of ~30-45s.**\n\n**Why this lift, now** (W12D1 shoulder-shrugs discussion — see `docs/notes/functional-bulk/shoulder-shrugs-discussion.md`):\n- The behind-back shrugs gave a strong first signal W12D3 ('crackly pop, then everything aligned'). Farmer carry trains the **same packed-shoulder pattern** under a different stimulus — the traps engage tonically to hold the shoulder packed while you walk.\n- It directly drills the **'pack DOWN, not up'** correction the user flagged W12D1.\n\n**Cues (drill every step):**\n- **Stand TALL** — ribs down, crown of the head reaching up\n- **Shoulders pulled DOWN and BACK** — into the back pockets, NEVER shrugged toward the ears. This is the whole point of the lift. The DBs will try to pull the shoulders up; resist that the entire walk.\n- **Neck long, eyes forward** — no chin poke\n- **Walk a straight line at a deliberate pace**, breathing steadily — don't rush\n- **Grip firm but not death-clenched** — note whether a hard right-hand squeeze provokes the shoulder (W12D1 grip→shoulder coupling watch)\n\n**What to watch (REPORT BACK):** does keeping the shoulder packed under the carry feel like it RELIEVES the right-shoulder cluster (like the shrugs did), or aggravate it? Same hypothesis test as the shrugs — relief = functional pattern, aggravation = structural, escalate to PT.\n\n**DELOAD note:** keep this genuinely light — 2 walks, 40lb. It's a new lift in a deload week; build the cue, the load comes later."
+        }
+      ],
+      "notes": "Quick closing block at the DB rack on the way to the cool-down. 2 walks, ~30-45s each, light load. Focus is the packed-shoulder posture, not the weight. Total ~3 min including rest.",
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm at MID elbow position. Arm bent 90°, forearm on the door frame, step through + rotate the torso AWAY. Pec minor lengthen — the antagonist to the upper-trap chain that's been loaded all session."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive hang from the pull-up bar. **Don't engage** — let the shoulders unpack and the spine decompress. Especially valuable this week for the right-shoulder cluster."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side on the mat. Lie back, draw one knee across the body, opposite arm extended. Breathe into the rib cage on the rotated side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side. Front leg + back leg at 90°. Sink hips toward the floor — hip-rotator decompression."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "60s slow breathing. Knees wide, big toes touching, arms extended forward. Breathe into the back ribs — parasympathetic shift before leaving the gym."
+        }
+      ],
+      "notes": "**5 minutes of recovery work, non-negotiable closing block (permanent since W12D3).** On a deload week this block matters even more — it's the connective-tissue-catch-up window. Goes after the last lift, before walking out.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**DELOAD WEEK — hold every load, cut every exercise a set.** First deload since W9. If something feels easy, that's the design. Do not add reps or weight.",
+    "**Spotlight: the cable column block** (cable lat raise + incline overhead tri ext + straight-arm pulldown) — the lightest work of the day, drilled deep because a deload has nothing else competing for attention.",
+    "**Cable lat raise: 'lead with elbow' is a DIRECTION, not a joint action.** If you feel the elbow working, you've corrupted the cue (W12D1 observation). Reset to a fixed soft elbow.",
+    "**Right shoulder symptom cluster is the headline watchpoint.** If it's worse by W13D3 pull day, the hypothesis flips to structural — book a PT eval.",
+    "**Chest press 2 sets at 165, incline DB 2 sets at 45** — both held from W12D1's clean numbers. Deload trims the volume, not the load.",
+    "**Pack DOWN, not up** — push press, incline DB, chest press, lateral raise, farmer carry all carry the cue. If you must shrug up to finish a rep, the load is too heavy for the cue — drop it.",
+    "**NEW: farmer carry closing block** — 2 walks, 40-50lb DBs, 'tall posture, packed shoulders, breathe.' Extends the trap-chain work the shrugs started. Report whether it relieves or aggravates the right shoulder.",
+    "**Cool-down stays — 5-min block, permanent every gym day.** On a deload it's the connective-tissue catch-up window.",
+    "Yuri band red warmup non-negotiable. Doorframe pec stretch in the morning flow add-on.",
+    "Rotation plan: W14 cycles back to push press + incline DB to refresh those cues.",
+    "Rest 2 min DB rack work, 2.5 min chest press, 75s cables + carry."
+  ],
+  "formPhilosophy": "Deload week — the first since W9, locked in by the 3-hard/1-deload cadence. The training effect this week is NOT load; it's letting connective tissue catch up to muscle (it lags 6-8 weeks) and drilling cues with the volume turned down. The cable column spotlight, the cool-down, and the new farmer carry all serve recovery and pattern quality. Building decades, not weeks."
+}

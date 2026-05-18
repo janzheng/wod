@@ -1,0 +1,72 @@
+{
+  "id": "fb-banded-shoulder-flow",
+  "name": "Banded Shoulder Flow (Seated, KB-Day Variant)",
+  "description": "12 min. Reusable Tue/Thu morning flow variant — built around a 7-position seated mini-band sequence (@sculptherbody). Sustained tension, NOT reps. Pairs well with KB days because it primes scaps, rear delts, and lats for overhead/rack work without burning the legs. Bookended with the standard thoracic + hip openers from the W7-W8 KB flow.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "shoulders", "scapular", "banded", "morning", "kb-day", "tue-thu"],
+  "estimatedDuration": 12,
+  "equipment": ["mini-band", "mat"],
+  "difficulty": "beginner",
+  "source": "@sculptherbody",
+  "sourceUrl": "https://x.com/sculptherbody/status/2048273465661120547",
+  "sets": [
+    {
+      "id": "thoracic-opener",
+      "name": "Thoracic Opener",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "thread-the-needle", "duration": 30, "notes": "30s each side. Deep thoracic rotation — primes the spine for the band work." },
+        { "id": "cat-cow", "reps": 8, "notes": "Full spinal wave, slow." }
+      ],
+      "restBetween": 0,
+      "restAfter": 10
+    },
+    {
+      "id": "banded-flow",
+      "name": "Seated Banded Shoulder Flow",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Heels tucked. Arms straight overhead, hands wider than shoulders. **Sustained tension**, ribs down — not snappy reps." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Pull band down behind the head — **elbows drive to ribs**, scaps depress. Don't crank the neck forward." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Band wraps the upper back, hands hold the ends in front. **Press straight out to T** — feel the rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Band at sternum height, **pull apart and squeeze scaps**. Slower than overhead version — chest opens, ribs stay down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep arms further back behind the body line. Subtle — **don't overarch the lower back** to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "30s = 15s each side. One arm overhead, other diagonal-out. **Lat + side-body stretch** with band tension. Switch sides." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in overhead V/Y. **Hold and breathe** — lower traps fire here. Closes the flow." }
+      ],
+      "notes": "2 rounds, ~3 min each. Sustained tension throughout, no rest between positions. Mini-band stays in your hands the whole time.",
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "hip-flow",
+      "name": "Hip Flow",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "90-90-stretch", "duration": 30, "notes": "30s each side." },
+        { "id": "active-pigeon", "duration": 20, "notes": "20s each side. Press into the stretch." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**KB-day variant** — designed to pair with Tue/Thu KB sessions where upper-body skill work dominates.",
+    "**Sustained tension, not reps.** Each banded position = ~20s steady pull, breathe through it.",
+    "Mini-band only — no equipment swaps. Keeps the flow continuous.",
+    "If the seated heels-tucked posture is uncomfortable, sit cross-legged or on a yoga block.",
+    "Excellent prep for bent press, windmill, TGU — all the overhead-load KB skills."
+  ],
+  "media": [
+    {
+      "type": "video",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "platform": "x",
+      "creator": "@sculptherbody",
+      "duration": 53
+    }
+  ]
+}

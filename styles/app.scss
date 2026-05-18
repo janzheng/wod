@@ -1309,6 +1309,32 @@ html, body {
 .ex-notes {
   color: var(--color-text-muted, #6b7280);
   font-size: 1rem;
+
+  // Markdown rendering inside notes — keep tight, no big block spacing
+  p {
+    margin: 0.35rem 0;
+    &:first-child { margin-top: 0; }
+    &:last-child { margin-bottom: 0; }
+  }
+  ul, ol {
+    margin: 0.35rem 0;
+    padding-left: 1.25rem;
+  }
+  li {
+    margin: 0.15rem 0;
+    line-height: 1.45;
+  }
+  strong {
+    font-weight: 600;
+    color: var(--color-text-primary, #111827);
+  }
+  em { font-style: italic; }
+  code {
+    background: var(--color-bg-secondary, #f3f4f6);
+    padding: 0.05rem 0.3rem;
+    border-radius: 0.25rem;
+    font-size: 0.9em;
+  }
 }
 
 .ex-media-icon {

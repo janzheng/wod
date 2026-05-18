@@ -1,0 +1,178 @@
+{
+  "id": "fb-w10-legs",
+  "name": "Week 10 Legs — Form-First Return (Spotlight: Squat + Incline RDL)",
+  "description": "Form-first cycle, easing back from W9 deload. NOT a return to W8 PR loads. **Spotlight lifts:** squat (drill the bottom-position depth + intra-abdominal bracing — your W9D5 milestone of being able to live in the bottom is the foundation) and incline RDL (drill the hip hinge + slow eccentric — the W7/W8 lesson that slow IS the progression). Lunges drop way back (40 → 25) — the QL spasm origin lift, treated with respect. Watch the back all session.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "form-first", "spotlight-rotation", "ql-watch"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Easing back from W9 deload with form-first cues. Squat depth + bracing get drilled. QL stays the watchpoint — abort any lift that twinges.",
+    "spotlights": [
+      {
+        "exerciseId": "squat",
+        "why": "W9D5 milestone: 55/side became a place you could live in the bottom of. W10 builds on that — drill the brace pattern + depth at slightly heavier (65/side), with full attention on the bottom position. Form is the progression."
+      },
+      {
+        "exerciseId": "incline-rdl",
+        "why": "W7/W8 confirmed: 25lb dead slow with 2s pause torches the hammies. The slow eccentric IS the stimulus. Drill the hip hinge pattern — this is the incline RDL on the 45° bench, not a lower-back extension."
+      }
+    ],
+    "rotationPlan": "W10 squat + incline RDL · W11 leg press · W12 seated leg curl + calf raise · W13 lunge (when QL is fully cleared) · W14 cycle back. ~4 weeks per cycle.",
+    "watchpoints": [
+      "**QL is the #1 priority.** Any twinge = abort the lift. The whole point of this week is to confirm recovery, not push.",
+      "Lunges are the QL spasm origin lift — 25lb max, drop further if anything feels off, or skip outright if the back is talking",
+      "Incline RDL is in the SPOTLIGHT but loaded conservatively — slow tempo, don't chase the 25lb plate yet",
+      "Leg press at 3 plates medium ROM (W9 deload load) — DON'T jump to 4 plates full ROM yet, that's the hidden hip-stabilizer hammer"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "bodyweight-squat",
+          "reps": 15,
+          "notes": "Full depth, slow. Find where the hips are tight and breathe into it. This is also a depth-check before loading."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Big slow circles. Wake up the hip stabilizers gently."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine mobility — extra important post-QL-spasm."
+        },
+        {
+          "id": "lunge",
+          "reps": "5 each leg",
+          "notes": "Bodyweight, feel the stretch. Use this to assess the QL — if anything talks here, modify the day."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": 8,
+          "notes": "Set 1: 45/side x8. Set 2: 55/side x8. Same depth as working sets. The W9D5 depth — sit in the bottom position, this is where you live now."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat (Working Sets)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": 8,
+          "notes": "**LOAD:** 65/side (one notch back from W8's 75-80). 4 sets at 65 — clean and deep, not a pyramid this week.\n\n**🔆 SPOTLIGHT — drill these every set:**\n- **Bar setup:** high-bar position on upper traps (NOT on the neck). Squeeze the upper back to make a shelf.\n- **Brace like prepping for a punch** — deep belly breath at the top, hold the breath through the descent (intra-abdominal pressure), exhale on the drive up. This is NOT a lower-back exercise; it's an abs-and-everything exercise.\n- **Hips back AND down**, not just down. The hips initiate the descent.\n- **\"Spread the floor\"** with the feet — active outward rotation through the feet engages the glutes / hip abductors. Feels like screwing the feet into the ground.\n- **Knees track over toes** — the 2010 myth is dead. Knees following toes is normal and healthy. What matters is the line, not the position.\n- **Same depth as W9D5** — sit in the bottom, no rushing. Brief pause before the drive.\n- **Drive through the WHOLE foot** — heel + ball + outer edge together. Not toes, not heels alone.\n\n**Reflection:** does the bottom position feel as solid at 65 as it did at 55 on W9D5? If yes, the brace is working. If not, the weight is ahead of the form."
+        }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "incline-rdl-working",
+      "name": "Incline RDL (Dead Slow)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "incline-rdl",
+          "reps": 15,
+          "notes": "**LOAD:** 25lb plate, dead slow with 2s pause at the bottom (hold W8 — slow IS the stimulus, no need to load up).\n\n**🔆 SPOTLIGHT — drill these every set:**\n- **Pad position:** just below the hip crease — NOT on the upper thigh, NOT on the stomach. The pad is the hinge fulcrum.\n- **This is the incline RDL on the 45° bench — a HIP HINGE, not a lumbar extension.** The lower back stays NEUTRAL throughout — neither rounded at the bottom nor hyperextended at the top.\n- **At the bottom:** keep neutral spine, feel the stretch in the **hamstrings and glutes**, NOT the lower back. If the lumbar rounds, you're going too deep for current mobility.\n- **Drive up by squeezing the glutes and hamstrings** — these are the prime movers, NOT the spinal erectors.\n- **At the top:** stop at neutral. Driving past neutral = lumbar load = QL irritation. The top is a straight line from heels to head, no further.\n- **Tempo:** 3s eccentric, 2s pause at bottom, 1s drive up. The slow eccentric is the entire reason this lift works.\n\n**Reflection:** are you feeling this in the hamstrings/glutes (correct) or in the lower back (wrong — modify pad position or pull weight)?"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press (Conservative ROM)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 3 plates/side, **medium ROM** (the W9 deload load — DO NOT jump to 4 plates full ROM yet). Hold week — spotlight is W11.\n- Feet shoulder-width, mid-foot on platform, slight toe-out\n- **Press through the WHOLE foot** — heels grounded, push the platform with heels and ball together\n- Medium ROM — stay in the strong part of the range. No deep 4-plate version this week (that's the stabilizer hammer)\n- Slow descent (3s), no bounce at bottom\n- **Watch:** if the hips lift off the pad at depth, you're going too deep — back off"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "calf-raise-station",
+      "name": "Single Leg Calf Raise",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": 20,
+          "notes": "**LOAD:** 3 plates/side, single leg (back from W8's 4 plates). Hold week.\n- Ball of foot on platform edge\n- **Full stretch at the bottom** — let the heel drop below the platform, that's the growth signal\n- 1s squeeze at the top, full plantarflexion\n- 2s descent, no bouncing\n- Plate-under-foot variation lives in W11+ when the back is fully quiet"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Seated Leg Curl",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "seated-leg-curl",
+          "reps": 12,
+          "notes": "**LOAD:** 100 (back from W8's 110). Settings 5/m/0/1. Hold week.\n- Ankles UNDER the pad, knees aligned with the machine pivot\n- Lap pad locked down firmly\n- Curl heels toward glutes — full ROM, full squeeze\n- 2s eccentric, 1s squeeze at peak\n- Don't let the torso lift forward — that's lower back, not hamstring"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "lunge-finisher",
+      "name": "Lunges (Conservative — QL Watch)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "dumbbell-lunge",
+          "reps": "10 each leg",
+          "notes": "**LOAD:** 25lb DBs (WAY back from W8's 40 — this is the QL spasm origin lift, treated with respect). Walking lunges.\n- **Long stride forward** — short stride = knee crashes forward = knee stress\n- **Vertical shin on the front leg** — knee tracks toes, doesn't crash forward\n- **Back knee toward floor** — 1-2\" off, don't slam\n- **Drive up through the front HEEL**, not the toes\n- Torso vertical — no leaning forward to cheat\n\n**ABORT IF:** any twinge in the lower back / QL area. Stop the set immediately. This lift is the canary — if the back is talking here, drop weight further or skip outright. Lunges return to spotlight in W13 only when the QL is fully cleared."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**FORM-FIRST WEEK** — easing back from W9 deload, NOT chasing W8 PRs. The QL is still the watchpoint.",
+    "**Spotlight lifts** are squat + incline RDL — drill those cues every set. Other lifts get sharp/short cues only.",
+    "**Squat 65/side**: drill the bottom position (the W9D5 milestone). 4 clean sets, not a pyramid this week.",
+    "**Incline RDL 25lb dead slow**: hip hinge, not lower-back work. Hamstrings/glutes feel it, NOT lumbar.",
+    "**Leg press stays at 3 plates medium ROM** — DON'T return to 4 plates full ROM yet. That's the hidden stabilizer hammer.",
+    "**Lunges 25lb max** — way down from 40. This is the QL spasm origin lift. Abort any lift that talks.",
+    "**Rotation plan:** W11 leg press · W12 seated leg curl + calf raise · W13 lunge (when QL is fully cleared).",
+    "Rest 3 min squats, 90s incline RDL, 2 min leg press, 90s isolations."
+  ],
+  "formPhilosophy": "Form-first base-building. Modern 2026 cues — knees-over-toes is fine, hip hinge for posterior chain, brace like prepping for a punch. Build the bottom position before chasing depth at heavier loads. Building decades, not weeks. The QL is still the boss this week."
+}

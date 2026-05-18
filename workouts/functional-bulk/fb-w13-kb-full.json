@@ -1,0 +1,199 @@
+{
+  "id": "fb-w13-kb-full",
+  "name": "Week 13 KB Full Body — Heal Week, Full Variety (Spotlight: C&P + TGU) + NEW Brutal Complex",
+  "description": "W13 is a **shoulder-heal week** — the heavy PPL volume backs off and the right-shoulder cluster gets a beat. The KB day is **NOT trimmed**: KB flow/skill work isn't what's fatiguing (the shoulder + heavy lifting are), so this day keeps full variety. The @Asgooch overhead mobility complex runs its full **5 rounds** per side, and a **NEW non-overhead conditioning block — the @Asgooch Brutal Complex** (Swing → AB-stance goblet squat → alternating row → close-grip pushup) — joins as a finisher for fresh variety, deliberately non-overhead so it adds work without taxing the healing shoulder. Spotlights cycle back to **C&P + TGU** per the rotation tracker — a refresh of technique cues. Cossack + windmill drop to maintenance after their W12 spotlight. **W12 takeaways:** the Asgooch flow landed well; C&P hit 45 cleanly ('everything went great'); TGU both sides 'feel fine now' (W12D4).",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "spotlight-rotation", "overhead", "deload"],
+  "estimatedDuration": 57,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Shoulder-heal week — but the KB day keeps FULL variety, not trimmed (flow work isn't the fatigue source). Asgooch flow runs all 5 rounds; a new non-overhead Brutal Complex finisher adds fresh conditioning. Spotlights cycle back to C&P + TGU — technique refresh. Cossack + windmill go to maintenance. C&P holds 45, TGU holds 30. The only heal-week concession is keeping overhead-SHOULDER volume managed — modify the Asgooch overhead moves if the shoulder talks.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-clean-and-press",
+        "why": "Cycles back to spotlight per the rotation tracker. W11/W12 confirmed 45 grooves cleanly ('everything went great'). Deload week refreshes the technique cues at 45 — knee-bent catch, hips drive the clean, ribs down on the press — without the pull toward 50. The cue is the work."
+      },
+      {
+        "exerciseId": "kettlebell-turkish-getup",
+        "why": "Cycles back to spotlight. W12D4: 'TGU on both sides feel fine now' — the W12 left-side checkpoint drilling did its job, the left is no longer the weak link. W13 drills full checkpoint discipline at 30lb on both sides equally — the straight-arm overhead lockout, pause at every checkpoint, slow reverse. Refresh, not rehab."
+      }
+    ],
+    "rotationPlan": "W11 swing mechanics + bent press leverage · W12 windmill + cossack mobility · W13 C&P + TGU (current, DELOAD refresh) · W14 cycle forward — bent press / flow work returns.",
+    "watchpoints": [
+      "**W13 is a shoulder-heal week — but the KB day is NOT shortened.** Full variety stays: Asgooch flow 5 rounds, plus the new Brutal Complex finisher. The heal applies to LOADS — C&P holds 45 (no 50), TGU holds 30, no load chasing. Variety is rich; weight is held.",
+      "**TGU is a STRAIGHT-ARM lift.** Punch the bell to a stable straight-arm overhead lockout — the arm stays locked vertical the whole way up and down. There is NO rack hold during the get-up (the clean-to-rack is only the brief setup before pressing overhead). Wobble at the lockout = wobble through the lift.",
+      "**Right shoulder watch through all overhead work** — the Asgooch flow stacks 4 overhead moves. If the shoulder talks during the snatch or OH lunge, drop the weight or modify (front-rack lunge instead of OH lunge).",
+      "**Overhead squat is the hardest move in the flow** — if mobility limits, REDUCE DEPTH before reducing load.",
+      "Cossack + windmill are maintenance this week — sharp cues only, both at 25lb, range is the work."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles — open the shoulders before loading overhead." },
+        { "id": "kettlebell-overhead-press", "reps": "3 each side", "notes": "**LOAD:** 20lb. Light — test the overhead position. If anything cracks/twinges, do extra band warmup before the flow." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips. Sit in the bottom for a beat." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands — both work." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire — preps the overhead lockout for the flow and the TGU." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block-left",
+      "name": "Block 1: Asgooch Overhead Mobility Complex — LEFT SIDE (5 Rounds — Full Variety Kept)",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 5, "notes": "**LOAD:** 20-25lb (start at 25 if smooth, drop to 20 if the right shoulder warmup felt off). Left hand. Controlled pull, full extension, hips hinged, back flat." },
+        { "id": "kettlebell-swing-snatch", "reps": 5, "notes": "Left hand. **Hips drive the bell**, not the arm. Straight overhead, punch through at the top — smooth catch sets up the next 3 moves." },
+        { "id": "kettlebell-overhead-lunge", "reps": 5, "notes": "Left hand overhead. **Lock the elbow, bell over the shoulder, torso TALL.** Drive through the front HEEL. **Right shoulder talks → modify to a front-rack lunge** on this move only." },
+        { "id": "kettlebell-overhead-squat", "reps": 5, "notes": "Left hand overhead. **Hardest move in the flow.** Full depth IF mobility allows; **reduce depth before load** if mobility limits. Bell stacked over the shoulder, core braced, no lower-back arching." },
+        { "id": "kettlebell-push-press", "reps": 5, "notes": "Left hand. **Dip and drive** — legs do the work, arm guides. Smooth descent to the rack. End of one round." }
+      ],
+      "notes": "**5 rounds LEFT side**, all moves continuous, no rest within a round. Bell stays in the working hand for the whole round. Rest 30-45s between rounds. **Weak side first** — left gets the freshest reps.",
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "flow-block-right",
+      "name": "Block 1 (continued): Asgooch Overhead Mobility Complex — RIGHT SIDE (5 Rounds)",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 5, "notes": "Right hand. Controlled pull, full extension." },
+        { "id": "kettlebell-swing-snatch", "reps": 5, "notes": "Right hand. Hips drive, punch through at the top." },
+        { "id": "kettlebell-overhead-lunge", "reps": 5, "notes": "Right hand overhead. **Right shoulder watchpoint** — most likely place for the crackle. Front-rack lunge if needed." },
+        { "id": "kettlebell-overhead-squat", "reps": 5, "notes": "Right hand overhead. Same depth/load discipline as the left side." },
+        { "id": "kettlebell-push-press", "reps": 5, "notes": "Right hand. Finish strong. End of the complex." }
+      ],
+      "notes": "**5 rounds RIGHT side** after the left is done. Same rest pattern. **Right shoulder watchpoint** — the snatch + OH lunge + OH squat stack the overhead position; if the shoulder talks, modify (front-rack lunge, front squat) rather than grinding. This is the one heal-week concession — keep the overhead moves clean, don't push through a cranky shoulder.",
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "skill-block",
+      "name": "Block 2: Cossack + Windmill (Maintenance — sharp cues only)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "cossack-squat",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 25lb goblet (HOLD). Maintenance — spotlight was W12.\n- Sit DEEP, heels stay down\n- Working leg in full external rotation\n- Slow descent, hard stop at end-range — that's the work, not failure\n- Range, not load"
+        },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 25lb (HOLD). Maintenance — spotlight was W12.\n- Bell locked overhead, eye tracks the bell\n- **Hip hinge AWAY from the bell side**\n- **Stretch lives in the back leg's hip flexor, NOT the lower back**\n- Long spine throughout"
+        }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "tgu-block",
+      "name": "🔆 Block 3: TGU (Spotlight — Checkpoint Discipline Refresh)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "2 forward + 2 reverse per side",
+          "notes": "**LOAD:** 30 (HOLD — light; the Asgooch flow already loaded the shoulder, and it's a deload). 2 rounds.\n\n**🔆 SPOTLIGHT — refresh the checkpoint discipline (W12D4: both sides feel fine now, so drill BOTH equally):**\n- **The TGU is a STRAIGHT-ARM lift** — punch the bell to a stable straight-arm overhead lockout and keep the arm locked vertical the whole way up and down. There is NO rack hold during the get-up. If the overhead lockout is wobbly, the rest of the lift inherits the wobble.\n- **Eyes ON the bell** at every checkpoint — eyes leaving the bell = bell drift\n- **Pause at every checkpoint** — lying → elbow → hand → hip bridge → leg sweep → lunge → stand → reverse. No rushing.\n- **Hip bridge: glute squeeze, ribs down** (no flare — rib flare = lower-back load)\n- **Reverse with the same discipline as forward** — the descent is half the lift\n- **'Focus on the clean itself'** (the W10D2 unlock) — the setup IS the work\n\n**Pattern:** 2 forward + 2 reverse per side, left side first. **Reflection:** with both sides clean now, does the checkpoint discipline hold up under no-rush attention, or does a checkpoint still get skipped when the focus drifts? The deload is the week to make every checkpoint deliberate."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cp-block",
+      "name": "🔆 Block 4: Clean & Press (Spotlight — Technique Refresh at 45)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-clean-and-press",
+          "reps": "5 each",
+          "notes": "**LOAD:** 45 (HOLD — W11/W12 confirmed 45 grooves cleanly, 'everything went great'). **NO 50 — it's a deload, and 50 was never the W13 plan.** 2 rounds.\n\n**🔆 SPOTLIGHT — refresh the technique cues at 45:**\n- **Catch the clean with the knees slightly bent** — the W3 cue, durable: the knee bend absorbs the clean so there's zero impact at the rack\n- **Hips drive the clean**, NOT the arm — the arm just guides the bell into the rack\n- **Press: ribs DOWN** (the W8 trigger) — no rib flare under the press\n- **Bicep finishes by the ear, full lockout** at the top\n- **Lower with control — no slam** back to the rack\n\n**Symmetry check:** if the left at 45 feels rougher than the right, that's normal (right is ahead) — but if it's a big gap, do the left reps slower. Quality wins. **Reflection:** at a held 45 with full attention on the cues, does the clean feel automatic? If yes, that's the technique grooved — W14+ can revisit 50."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "figure-8-flow",
+      "name": "🆕 Block 5: Figure-8 → Tactical Clean (Skill Flow — Now Practiced Twice a Week)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "duration": 60, "notes": "**LOAD: 12kg (26lb).** 2 rounds of 60s continuous flow.\n\nThe figure-8-tactical-clean is ONE compound move — the figure-8 pass between the legs exits into a clean to rack, alternating sides:\n- START in the hike position (bell between the legs, hinged at the hips)\n- **Figure-8 → exit into a tactical clean to rack** — pass between the legs, hand catches BEHIND, the pull becomes the clean\n- Lower the bell back through hike; the next pass switches sides\n- Continue alternating for the full 60s\n\n**Cues:**\n- **The figure-8 EXITS into the clean** — the bell doesn't return to a hand mid-pass; the catch becomes the clean\n- **Tactical clean = controlled, threaded into the rack** — no yank, no forearm slam\n- **Hike is home base** — every transition resets through hike\n- **Right shoulder watch on the rack catch** — if it talks, drop to figure-8 passes only and finish the round\n\nThis is the W12D4 flow you liked — added to Tuesday so you're drilling it twice a week (here + Saturday's kb-cond). Skill practice, light bell, keep it smooth." }
+      ],
+      "notes": "Light figure-8 skill block — 2 rounds at 12kg, ~3 min work + rest. You're now practicing this flow twice weekly (Tuesday + Saturday). The pass exits INTO the clean — that's the skill being drilled.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "brutal-complex",
+      "name": "🆕 Block 6: Brutal Complex Finisher (@Asgooch — NEW, Non-Overhead Conditioning)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Hips snap the bell to chest height — it's a hinge, not a squat, not a front raise. Shoulders packed down." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": 10, "notes": "Bell at the chest, offset (B-stance) goblet squat — most of the load on the front leg, the back foot is a kickstand. Sit tall, full depth. Switch the front leg each round." },
+        { "id": "kettlebell-alternating-bent-over-row", "reps": "10 each", "notes": "Hinged over, flat back, row one side then the other. Pull the elbow to the hip, no torso rotation." },
+        { "id": "kettlebell-close-grip-pushup", "reps": 10, "notes": "Hands close (on the floor or on the bell handle). Ribs down, body in one line, slow. Scale to the knees if the rounds get ragged." }
+      ],
+      "notes": "**🆕 NEW — the @Asgooch Brutal Complex, added W13 for fresh conditioning variety.** Swing → AB-stance goblet squat → alternating row → close-grip pushup, 10 reps each, **continuous — don't put the bell down between moves.** 3 rounds. **Deliberately non-overhead** — it adds a real conditioning hit without loading the healing shoulder overhead. Single bell, moderate weight (start ~25-30lb). This is the 'metabolism going' kind of block — pace it, but keep moving.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "**LOAD:** 25lb. Light row, 2s pull / 2s lower. Skip if the shoulders are cooked from the flow." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight on KB days from cossacks." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**W13 is a shoulder-heal week — but the KB day keeps full variety, not trimmed.** Asgooch flow runs all 5 rounds; the heal applies to LOADS (C&P 45, TGU 30, no chasing), not to variety.",
+    "**🆕 NEW: Brutal Complex finisher** (@Asgooch — swing → AB-stance goblet squat → alt row → close-grip pushup, 3 rounds). Non-overhead by design — fresh conditioning that doesn't tax the healing shoulder.",
+    "**Figure-8 → tactical clean flow added to Tuesday** — you're now drilling the W12D4 flow you liked twice a week (Tue here + Sat kb-cond). Light skill practice, 12kg.",
+    "**Spotlights cycle back to C&P + TGU** — a technique refresh of two lifts that already grooved well. Drill the cues at held loads.",
+    "**TGU is a STRAIGHT-ARM lift** — straight-arm overhead lockout, no rack hold during the get-up. Both sides feel fine now (W12D4) — drill checkpoint discipline equally.",
+    "**C&P: knee-bent catch, hips drive the clean, ribs down on the press.** 45 is the held working weight — 50 is a post-deload conversation.",
+    "**Cossack + windmill are maintenance** — sharp cues only, both at 25lb, range is the work.",
+    "**Right shoulder watch through all overhead work** — modify the OH lunge to a front-rack lunge if the shoulder talks.",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W14 cycles forward — bent press / flow work returns."
+  ],
+  "formPhilosophy": "Shoulder-heal week — but the KB day is where variety lives, not where volume gets cut. Full Asgooch flow + a new non-overhead conditioning complex. The heal is in the held loads and the managed overhead-shoulder volume, not in a shortened session. The C&P + TGU spotlight refreshes cues that already work."
+}

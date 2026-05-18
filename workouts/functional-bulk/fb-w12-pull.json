@@ -1,0 +1,227 @@
+{
+  "id": "fb-w12-pull",
+  "name": "Week 12 Pull — Form-First (Spotlight: Face Pull + Reverse Fly)",
+  "description": "Third week of the form-first cycle. Spotlights rotate to **face pull + reverse fly** — both posterior-shoulder lifts that pair naturally with the right-shoulder rehab work on push days. **NEW (W12D1 discussion):** behind-back DB shrugs added as a final block — see `docs/notes/functional-bulk/shoulder-shrugs-discussion.md` for the full reasoning. The grip → shoulder pain pattern responds to controlled load on the trap chain; W12D1 post-session shrugs already relaxed the right shoulder. **W11D3 takeaways baked in:** pull-ups stepped up to 7/7/7/6 (clean) on adjustable handles → flat bar wide → flat bar close → wide slow; chest-supported row dropped to 30 (35 N/A); DB reverse fly dropped to 20 (22.5 N/A — none of the weights around); lat pulldown forced to dual pulley 70/side ≈ 140 (regular lat pulldown N/A); high cable curl 150 cable column 'felt good, could go up'; cable crunch 120 'felt a bit easy.' The forced equipment subs are noted; if the prescribed setups are free this week, use them. Equipment-consolidated layout holds.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "form-first", "spotlight-rotation", "station-focused"],
+  "estimatedDuration": 50,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Face pull + reverse fly in the spotlight — both posterior-shoulder lifts that pair with the right-shoulder rehab work. Pull-ups step up to 6-8 reps after W11's clean 7/7/7/6. High cable curl + cable crunch get a small push (W11 said both had headroom).",
+    "spotlights": [
+      {
+        "exerciseId": "face-pull",
+        "why": "W11D3 hit 42.5 x 20 with 'last 5 of last 2 sets hard but finished with ok form' — that's the right state. The cue is the progression now: drill elbows-high + external rotation + 1s peak hold. The lift exists for the rotation, not the volume."
+      },
+      {
+        "exerciseId": "dumbbell-reverse-fly",
+        "why": "W11D3 was forced to 20lb (22.5 N/A) — 'lighter but somehow never easier, could complete all sets slowly though, still a struggle at end.' Lighter load + clean form = the form-first thesis. W12 drills the seated bent-over + lead-with-elbow at 20-22.5 (whatever's available)."
+      }
+    ],
+    "rotationPlan": "W10 pull-up + DB row · W11 chest-supported row + lat pulldown · W12 face pull + reverse fly (current) · W13 preacher curl + high cable curl + cable crunch · W14 cycle back to pull-up + DB row.",
+    "watchpoints": [
+      "**Forced equipment subs from W11D3:** chest-supported row 30 (35 N/A), DB reverse fly 20 (22.5 N/A), lat pulldown 70/side dual pulley (regular machine N/A). If the prescribed setup is available this week, use it; if not, the W11 numbers stand. **These were availability subs, not preferences.**",
+      "**Left bicep weaker than right** (W10D3 + W11D3 incline curl: right 10 strict, left 5 + assist). Hit left first, freshest reps to the weak side. Stop at strict failure — don't assist past asymmetry.",
+      "**~15lb recent weight gain** is making pull-ups harder than W7's 32. W11D3 hit 7/7/7/6 clean — that's the new W12 floor, push to 6-8 with mixed grips.",
+      "**High cable curl + cable crunch had headroom** — W11D3 said 150 'could go up,' 120 'felt a bit easy.' Small push this week, NOT a jump.",
+      "**NEW: behind-back DB shrugs as the final block** — W12D1 discussion outcome. The grip → right-shoulder pain pattern responds to controlled load on the trap chain. Light to moderate weight, 2-3s top hold, slow eccentric, 'down + back, not up.' See `docs/notes/functional-bulk/shoulder-shrugs-discussion.md`. Stop and report if shrugs WORSEN the grip-shoulder coupling — that flips the working hypothesis from functional to structural and means PT eval."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "band-pull-apart",
+          "reps": 15,
+          "notes": "Scap activation. Squeeze shoulder blades together, soft elbow."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine warm — slow, full ROM each direction."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "Active hang, not collapsed — engage lats, pull shoulders DOWN away from ears even at full extension."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Station 1: Pull-Ups",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "pull-up",
+          "reps": "6-8",
+          "notes": "**LOAD:** Bodyweight. **Reps adjusted UP from W11's 5-7** — W11D3 hit 7/7/7/6 clean, the floor moved up. 6-8 strict; stop the set when form breaks, never kip.\n\n**Mix grips across sets (W11D3 sequence worked):**\n- Set 1: adjustable rack handles (the 'climber-style' handles that don't actually rotate — adjustable, not climber)\n- Set 2: flat bar, **wide** grip\n- Set 3: flat bar, **close** grip\n- Set 4: wide slow — go for clean reps, stop when the rep stops being clean\n\n**Form cues:**\n- Active hang start (not collapsed)\n- Pull elbows DOWN to ribs, NOT chin to bar\n- Chest leads to bar at the top\n- Eyes ahead, head neutral — no chin tucking\n- Slow eccentric, ~2-3s, return to active hang\n\n**W11D3 watch:** front of right shoulder lit up on the wide grip — stretches help (used to be rotator/scalp, all connected). If it talks this week, drop the wide grip set and replace with another close or neutral set."
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "db-bench-block",
+      "name": "🔆 Station 2: DB Rack / Bench Block (Reverse Fly Spotlight + Chest-Supported Row + DB Row + Incline Curl)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "chest-supported-dumbbell-row",
+          "reps": 10,
+          "notes": "**LOAD:** **35lb if available** (prescribed default), 30lb if 35s aren't around (W11D3 forced sub — 'hard doing these slow up to 12 x 3 sets, really tight at end'). 3 sets.\n- **Chest stays GLUED to the bench** — if it lifts off, the weight is too heavy\n- Pull elbow toward HIP, not toward armpit (toward armpit = rear delt; toward hip = lat)\n- Both elbows pull together — asymmetric = slow down\n- 2s eccentric, 1s squeeze\n- No DB slam at the bottom"
+        },
+        {
+          "id": "dumbbell-row",
+          "reps": "8-10",
+          "notes": "**LOAD:** Pyramid 60x10, 70x10, 80x8 (HOLD — W11D3 hit the pyramid; 80 'really hard, kind of broke slow form, more momentum naturally'). Spotlight was W10; sharp cues only.\n- Chest-supported on incline bench\n- Pull elbow toward HIP, not armpit\n- Don't rotate the torso\n- Slow 2s descent, 1s squeeze\n\n**W11D3 form watch at 80:** form broke from naturally taking momentum. If 80 still goes ugly this week, hold 75 instead — 80 with clean form > 80 with momentum."
+        },
+        {
+          "id": "incline-curl",
+          "reps": "8-10",
+          "notes": "**LOAD:** 25lb (HOLD — W7+ proven swap from preacher; preacher curl bench is always taken at Arrilaga). 3 sets.\n- Sit on incline bench (~45-60°), back against the bench, DBs hanging at sides\n- **Full stretch at the bottom — pause 2s** (W11D3 user cue)\n- Curl smoothly to peak squeeze\n- 2-3s eccentric — fight the long-head stretch\n\n**Left first today** — W10D3 + W11D3 both showed left bicep weaker (right got 10 strict, left got 5-7 + assist). Freshest reps to the weak side. Stop the set at strict failure — don't assist past asymmetry.\n\n**Swap:** preacher curl at 12.5/side if it's actually free — usually not.",
+          "swappedFor": "preacher-curl"
+        },
+        {
+          "id": "dumbbell-reverse-fly",
+          "reps": 12,
+          "notes": "**LOAD:** **22.5lb if available**, 20lb if not (W11D3 forced sub — 'none of the fucking weights are around'). 3 sets.\n\n**🔆 SPOTLIGHT — drill these every rep:**\n- **Seated bent-over** — chest toward thighs (W3 default form). Rounding the upper back instead of hinging at the hips kills the lift.\n- **DBs hanging fully extended at start, soft elbow ~10-15°, FIXED throughout** — locked elbow recruits lats, not rear delts.\n- **Lead with the elbow, hand passive** — same pattern as lateral raise. Wrist follows.\n- **Wings out and slightly UP to shoulder height** — sweep, don't lift. The 'slightly up' is the rear delt; pure horizontal is more middle trap.\n- **Slow controlled both directions** — 2s eccentric, 1s squeeze at peak. No swing, no momentum.\n- **Breath:** out on lift, in on descent.\n\n**Reflection:** does 20lb feel different at rep 12 of set 3 with the strict bent-over form than W11D3's 'lighter but somehow never easier'? If the lift gets harder as the form gets cleaner, that's the spotlight working — load goes up later, after the cue is automatic.\n\n**Setup option:** reverse-incline (chest-down on incline bench) is even better when the bench is free — removes the awkward seated hunch."
+        }
+      ],
+      "notes": "**One trip to the DB rack covers all 4 lifts.** Either circuit (A→B→C→D, rest, repeat) or straight sets (3 of A, then 3 of B). Bench at incline ~30° for the rows + incline curl; sit upright (or use reverse-incline if bench is free) for the reverse fly.",
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "lat-pulldown-station",
+      "name": "Station 3: Lat Pulldown",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "lat-pulldown",
+          "equipment": "regular lat pulldown (default, 140) — dual pulley fallback (70/side ≈ 140 per W11D3 calibration)",
+          "reps": "8-10",
+          "notes": "**LOAD:** regular lat pulldown 140 (HOLD — W10D3 working number). **Forced sub from W11D3:** dual pulley 70/side ≈ 140 (user calibration: 'it's like half the weight, so 70 is 140 more or less'). 3 sets.\n\n**Spotlight was W11; sharp cues only:**\n- **Wide grip near the bend** — more lat isolation, less bicep\n- **Slight backward lean ~15°, NO further** — more = becomes a row\n- **Pull bar to UPPER CHEST — NEVER behind the neck**\n- 'Lats squeezing oranges into back pockets' at the bottom\n- 1s pause at contraction, 2s controlled return to full overhead stretch\n- Knees pinned firmly under pad\n\n**Set count cut from 4 to 3** — W11D3 ran 4 sets at 140 and high cable curl was the lift that 'felt pretty good could go up.' Trim a set here, redirect intensity to the curl + crunch finisher."
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "face-pull-station",
+      "name": "🔆 Station 4: Cable Column — Face Pull (Spotlight)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "face-pull",
+          "equipment": "cable column (mid/upper-chest height + rope)",
+          "reps": 20,
+          "notes": "**LOAD:** cable column **42.5** (HOLD — W11D3 'last 5 of last 2 sets hard but finished with ok form'). The machine doesn't have 45; 42.5 is the right working number. 3 sets.\n\n**🔆 SPOTLIGHT — drill these every rep:**\n- **Pull rope to face level** — not to chest (becomes a row, loses rear delt focus)\n- **ELBOWS HIGH (above shoulders)** — this is the make-or-break cue. If elbows drop below shoulders, the rear delt offloads and the lift becomes a chest-supported pull.\n- **External rotate at the top — knuckles point UP, like a double-biceps pose.** This is why the lift exists — for the rotation, not the volume. No external rotation = no shoulder-health benefit, just back work.\n- **1s peak hold at the contracted position** — count it. The hold is where the rear delt + external rotators get loaded longest.\n- **Slow controlled return, 2s** — let the cable pull the arms back. Speed up the return = lose the stretch stimulus.\n- **Breath:** out on pull, in on return.\n\n**Reflection:** at set 3, are the elbows still ABOVE the shoulders, or have they crept down to shoulder height? If they've dropped, the rear delts have tapped out — stop the set. The lift's job is shoulder rotation health; doing it sloppy doesn't add anything.\n\n**Setup: pick the cable column you'll use for the rest of the workout** — high cable curl + cable crunch live at the same column. Slide the rope from the chest-height attachment to the high attachment after this exercise."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Station 5: Cable Column — Finisher (High Cable Curl + Cable Crunch)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "high-cable-bicep-curl",
+          "equipment": "cable column (high attachment) — same column as face pull",
+          "reps": "10-12",
+          "notes": "**LOAD:** cable column **160** (small push — W11D3 hit 150 each side x 2, 'felt pretty good, could go up'). One arm at a time. 2 sets each side.\n- **Single D-handle, one arm at a time** (the W11D3 setup that 'felt nice')\n- Stand sideways, arm out at shoulder level\n- **Upper arm parallel to floor, FIXED** — if elbow drops, becomes a regular curl\n- Curl hand to ear, peak squeeze\n- Slow eccentric, no bounce at start\n\n**Push to 170 only if 160 feels like W11's 150** — same 'felt good, could go up' state. Otherwise hold 160."
+        },
+        {
+          "id": "cable-crunch",
+          "equipment": "cable column (high attachment + rope)",
+          "reps": "12-15",
+          "notes": "**LOAD:** cable column **130** (small push — W11D3 hit 120 'felt a bit easy'). 2 sets.\n- **High attachment + rope** (swap from D-handle if needed — same column)\n- Kneel under the high cable\n- Rope behind head, **HIPS LOCKED** (most important cue)\n- **Crunch from the abs only** — spine flexes, hips don't move. Hips moving = hip flexor work, not abs.\n- Chest toward thighs, hold the crunch 1 second\n- Slow eccentric\n\n**If 130 feels like W11's 120 ('a bit easy'), push to 140 next week.**"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "shoulder-reset",
+      "name": "Station 6: Shoulder Reset — Behind-Back DB Shrugs (NEW, W12D1 discussion outcome)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "equipment": "DB rack",
+          "reps": 12,
+          "notes": "**LOAD:** Start **30-40lb DBs** — light to moderate, this is an introduction. Build the cue first, the load comes later. 3 sets.\n\n**Why this lift, this week** (full reasoning in `docs/notes/functional-bulk/shoulder-shrugs-discussion.md`):\n- W12D1 surfaced a grip-squeeze → shoulder pain pattern + 'super tight' shoulders + tight neck + tight right pec, all as a unit.\n- Loading helps (cable fly stretch, shrugs both relaxed the shoulder). That's the signal that the pattern is **functional**, not structural — upper traps locked tonic, lower/mid trap underused.\n- Behind-the-back variant **biases lower trap + mid trap** vs. front shrugs which are upper-trap dominant. Lower trap is the underused side of the pattern.\n\n**Cues (drill these every rep):**\n- **DBs held BEHIND the body**, palms facing back, arms straight\n- **Ribs DOWN** before the first rep — no rib flare under the shrug\n- **Pull the shoulder blades into your back pockets at the top, NOT up to your ears.** Down + back, not up. The cue for this lift is opposite the cue for a standard front shrug.\n- **2-3s hold at the top** — count it. The hold is where the lower trap loads.\n- **Slow eccentric**, controlled all the way down. No bounce.\n- Don't roll the shoulders — straight up + back, straight down.\n\n**What to watch (REPORT BACK):**\n- Does the grip → right-shoulder coupling **reduce** after these? (Hypothesis: yes — that's why we're adding them.)\n- If the coupling **worsens** under shrugs → the structural side (cervical, TOS) is the real driver. Stop the protocol and book a PT eval.\n- Right pec / neck tightness should also respond. If it doesn't shift over 2-3 sessions, escalate to PT.\n\n**Rotation:** alternates with `trap-3-raise` across pull days going forward — W13D3 swaps to trap-3 raises (more lower-trap isolation, lighter load). Don't do both same day."
+        }
+      ],
+      "notes": "Quick block at the DB rack on the way out. 3 sets, light load, focus is the cue. Total ~4 min including rest.",
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (NEW from W12D1 discussion)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm at MID elbow position. Arm bent 90°, forearm on door frame, step through + rotate torso AWAY. Pec minor lengthen — the antagonist to the upper-trap chain that's been tonically loaded all session."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive hang from the pull-up bar (or any sturdy overhead). **Don't engage** — let the shoulders unpack and the spine decompress. The opposite of every loaded lift today."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side on the mat. Lie back, draw one knee across the body, opposite arm extended. Breathe into the rib cage on the rotated side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side. Front leg + back leg at 90°. Sink hips toward the floor. Hip-rotator decompression — pulls the QL/glute pattern out of the squat/deadlift bracing."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "60s slow breathing. Knees wide, big toes touching, arms extended forward. Breathe into the back ribs — parasympathetic shift before leaving the gym."
+        }
+      ],
+      "notes": "**5 minutes of recovery work, non-negotiable closing block (W12D1 discussion outcome).** Targets the four chains that get hammered in gym work: pec minor (doorframe), shoulder decompression (dead hang), thoracic rotation (supine twist), hip rotators (90/90), parasympathetic reset (child's pose). Goes after the last lift, before walking out. This is what catches the connective-tissue debt that builds across hard training weeks.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Spotlights: face pull + reverse fly.** Both posterior-shoulder lifts that pair with the push-day shoulder rehab. Drill the cues, hold the loads.",
+    "**Face pull: elbows HIGH + external rotation IS the lift.** Without those cues it's just a row.",
+    "**Reverse fly: lighter + cleaner > heavier + sloppy.** W11D3 'lighter but somehow never easier' is the form-first thesis in one sentence.",
+    "**Pull-ups bumped to 6-8** after W11's clean 7/7/7/6. Mix grips: rack handles → flat bar wide → flat bar close → wide slow.",
+    "**Forced equipment subs from W11D3** carry forward as fallbacks: chest-supported row 30 (35 if available), reverse fly 20 (22.5 if available), lat pulldown dual pulley 70/side (regular machine 140 if available).",
+    "**Left bicep weak side — left first.** Strict reps only, no assist past asymmetry.",
+    "**High cable curl 160 + cable crunch 130** — small pushes, NOT jumps. W11 said both had headroom.",
+    "**DB row pyramid 60/70/80 holds** — but if 80 still breaks slow form like W11, drop to 75 instead. Clean > heavy.",
+    "**NEW closing block: behind-back DB shrugs 30-40lb x 12 x 3.** W12D1 discussion outcome — the grip → shoulder pattern responds to loaded trap chain work. Cue is 'down + back, not up.' See `docs/notes/functional-bulk/shoulder-shrugs-discussion.md`. **Report if it worsens the coupling** — that means PT eval.",
+    "Set count trim: lat pulldown 4→3 sets, redirected intensity to face pull + curl/crunch finisher.",
+    "Rotation plan: W13 preacher curl + high cable curl + cable crunch · W13 closing block rotates to trap-3 raises · W14 cycle back to pull-up + DB row.",
+    "Rest 2.5 min pull-ups, 90s DB block (4 lifts circuit), 2 min lat pulldown, 90s face pull, 60s curl/crunch finisher, 60s closing shrug block."
+  ],
+  "formPhilosophy": "Form-first base-building, week 3 of the cycle. Same loads as W11D3 with sharper cues on face pull + reverse fly. Pull-ups step up to 6-8 because last week's 7/7/7/6 was clean. Small pushes on the lifts that had headroom (high cable curl, cable crunch). The cue is still the progression."
+}

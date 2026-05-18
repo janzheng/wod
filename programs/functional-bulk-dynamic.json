@@ -996,6 +996,461 @@
         "W10 target: if recovery holds, ease back to W8 loads. Don't make up lost progression."
       ],
       "logFile": "logs/functional-bulk-dynamic-w9.json"
+    },
+    {
+      "week": 10,
+      "label": "Form-First Return",
+      "description": "Return from W9 deload, but NOT a 'pick up where W8 left off' week. This is a form-first cycle: weights pulled back ~10-15% from W8 highs across the board, modern 2026 form cues drilled on every lift, spotlight rotation kicks in (1-2 'spotlight' lifts per day get deep cue treatment, others get sharp cues only). Goal: build the base for years of clean, injury-free training. KBs return after W9 sick-week rest. Lunges way back (40 → 25) — QL respect. Spotlights this week: push press + incline DB (Mon), pull-up + DB row (Wed), squat + back extension (Fri). See `docs/notes/functional-bulk/form-cues-2026.md` for the full per-exercise cue reference.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (form-first)",
+          "type": "workout",
+          "workoutId": "fb-w10-push",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow** — 15 min bodyweight + 3-5 min day-specific add-on at the end. **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups. Doorframe stretch is the KEY W9 protocol move; desk work re-tightens pec minor daily."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL (return after W9 break)",
+          "type": "workout",
+          "workoutId": "fb-w10-kb-full",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow.** **Skip the day-specific add-on at the end** — the in-workout banded prep block on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (form-first)",
+          "type": "workout",
+          "workoutId": "fb-w10-pull",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow.** **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10. Do at the gym before pull-ups if no bar at home. Scap engagement before loaded pulls."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING (return after W9 break)",
+          "type": "workout",
+          "workoutId": "fb-w10-kb-cond",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow.** **Skip the day-specific add-on at the end** — the in-workout banded prep block on Thu covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS (form-first, QL watch)",
+          "type": "workout",
+          "workoutId": "fb-w10-legs",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow.** **Today: do the LEGS add-on** — 90s pigeon (each side) + supine spinal twist. The W8 QL-spasm protocol; non-negotiable on legs day. Lacrosse-ball QL roll above iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Long flat walk, conversational pace."
+              }
+            },
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 75,
+                "intensity": "easy",
+                "notes": "Flat or rolling trails. If QL is fully quiet, can add modest descent — but pull back if anything talks."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "FORM-FIRST WEEK — every weight intentionally below W8. Modern 2026 cues drilled on every lift.",
+        "Spotlight rotation is the new structure: 1-2 spotlight lifts per day get deep cue treatment, others get sharp cues only.",
+        "Push: push press + incline DB. Pull: pull-up + DB row. Legs: squat + back extension.",
+        "See `docs/notes/functional-bulk/form-cues-2026.md` for the full reusable per-exercise cue reference.",
+        "KBs return after W9 sick-week rest — treat first sessions back as re-acquaintance, no PRs.",
+        "Lunges deloaded to 25lb (way back from W8's 40) — they're the QL spasm origin lift, treated with respect.",
+        "If a cue can't be held, the cue wins — drop weight, slow tempo, or skip the rep. No grinding bad reps.",
+        "QL is still the watchpoint. Abort any lift that twinges. Recovery confirmation > load progression."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w10.json"
+    },
+    {
+      "week": 11,
+      "label": "Form-First Week 2 — Spotlights Rotate",
+      "description": "Second week of the form-first cycle. Spotlights rotate per the tracker: chest press machine (push), chest-supported DB row + lat pulldown (pull), leg press (legs), swing mechanics + bent press leverage (KB Tue), windmill mechanics (KB Thu). Big W10 takeaways baked in — squat brace pattern is locking in (hold 65), seated leg curl HARD RESET to 50 with corrected ankle placement (W10D5 form discovery — pad UNDER ankles, not on the calf), calf raise tempo strategy shift (double-leg slow OR single-leg faster, not both), C&P ramps 40 → 45 per W10D2 projection, lunges hold 25 (no QL spasm last week — earn the way back to 30 over multiple clean weeks), pull workout is now station-focused per the W10D3 meta-feedback (less machine-hopping). See `docs/notes/functional-bulk/form-cues-2026.md` for the full per-exercise cue reference.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (form-first, chest press spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w11-push",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow** (variety on W10's shape) — 15 min bodyweight + 3-5 min day-specific add-on. **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups. Pec-minor maintenance is daily, desk work re-tightens it."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL (swing + bent press spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w11-kb-full",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow.** **Skip the day-specific add-on** — the in-workout banded prep block on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (form-first, station-focused)",
+          "type": "workout",
+          "workoutId": "fb-w11-pull",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow.** **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10. Do at the gym before pull-ups if no bar at home."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING (windmill spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w11-kb-cond",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow.** **Skip the day-specific add-on** — the in-workout banded prep block on Thu covers the equivalent (and the diagonal-reach band move is today's direct windmill prime)."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS (form-first, leg press spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w11-legs",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow.** **Today: do the LEGS add-on** — 90s pigeon (each side) + supine spinal twist. The W8 QL-spasm protocol stays non-negotiable on legs day. Lacrosse-ball QL roll above iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Long flat walk, conversational pace."
+              }
+            },
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 75,
+                "intensity": "easy",
+                "notes": "Flat or rolling trails. QL has been quiet at light loads; modest descent ok if it stays quiet."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "FORM-FIRST WEEK 2 — spotlights rotate, loads HOLD where W10 found edge-of-form. The cue is the progression.",
+        "Push spotlight: chest press machine (drill seat alignment + scap pack + 3s eccentric at 165). Layout shifts to station-focused.",
+        "Pull spotlights: chest-supported DB row + lat pulldown (drill chest-glued-to-bench + lats-to-back-pockets). Station-focused per the W10D3 meta-feedback.",
+        "Legs spotlight: leg press (drill foot mechanics + medium-ROM discipline). Squat HOLDS at 65 — brace pattern is locking in.",
+        "**Seated leg curl HARD RESET to 50** — W10D5 found prescribed 100 was a wrong-lever weight. Pad UNDER ANKLES. Rebuild from 50.",
+        "**Calf raise tempo shift** — double-leg slow OR single-leg faster, not both (W10D5 discovery).",
+        "KB Tue spotlights: B-stance swing mechanics + bent press leverage. C&P ramps 40 → 45 per W10D2 projection.",
+        "KB Thu spotlight: windmill mechanics (the bent press's sibling lift — same lateral hinge family).",
+        "Lunges HOLD at 25 — W10D5 confirmed no QL spasm. Earn the way back to 30 over multiple clean weeks.",
+        "QL is still the watchpoint. Abort any lift that twinges."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w11.json"
+    },
+    {
+      "week": 12,
+      "label": "Form-First Week 3 — Spotlights Rotate Again",
+      "description": "Third week of the form-first cycle. Spotlights rotate per the tracker: lateral raise + Kinesis cable fly (push), face pull + reverse fly (pull), seated leg curl + calf raise (legs), windmill + cossack mobility (KB Tue — already exists in fb-w12-kb-full), TGU left-side checkpoints (KB Thu). **W11 takeaways baked in:** chest press fatigue protocol (3 sets vs 4, drop to 150 if form breaks); incline DB held at 40 unless right shoulder is warm + quiet; Kinesis fallback numbers locked from W11D1 (lat raise 3, tri ext 5, straight-arm pulldown 6); pull-ups stepped up to 6-8 after W11D3's clean 7/7/7/6; squat pushed to 75 after W11D5's 'QL caught up'; seated leg curl 90 at corrected ankle placement is the new baseline; calf raise plate-under-foot for deeper stretch; incline RDL holds 25 dead slow; lunges optional (second clean week before W13 spotlight). The naming correction from W11D5 (incline RDL not back extension) is permanent.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (form-first, lat raise + cable fly spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-push",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow** (variety on W11). 15 min bodyweight + 3-5 min day-specific add-on. **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL (NEW Asgooch overhead flow + windmill/cossack spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-kb-full",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow.** **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (form-first, face pull + reverse fly spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-pull",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow.** **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING (TGU left-side spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-kb-cond",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow.** **Skip the day-specific add-on** — the in-workout banded prep on Thu covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS (form-first, leg curl + calf raise spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-legs",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow.** **Today: do the LEGS add-on** — 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Long flat walk, conversational pace."
+              }
+            },
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 75,
+                "intensity": "easy",
+                "notes": "Flat or rolling trails. QL has been quiet at light loads through W11; modest descent ok if it stays quiet."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "FORM-FIRST WEEK 3 — spotlights rotate again. Loads HOLD where W11 found edge-of-form, push only where W11 actuals showed clean headroom.",
+        "**NEW (W12D1 discussion):** end-of-session 5-min cool-down block added to gym days starting W12D3, Sunday long-flow added as a permanent option on Day 7. Behind-back DB shrugs added as a closing block on pull days (rotates with trap-3 raises). See `docs/notes/functional-bulk/shoulder-shrugs-discussion.md` for full reasoning.",
+        "Push spotlights: lateral raise (drill scap-reset + slow eccentric at 15) + Kinesis cable fly (drill stretch + hug-a-tree at Kinesis 8).",
+        "Push fatigue test: chest press 3 sets at 165 (NOT 4), permission to drop to 150 if form breaks. No grinding 3-rep sets.",
+        "Pull spotlights: face pull (drill elbows-high + external rotation at 42.5) + reverse fly (lighter + cleaner at 20-22.5).",
+        "Pull-ups bumped to 6-8 after W11's clean 7/7/7/6 — mix grips: rack handles → flat bar wide → flat bar close → wide slow.",
+        "Legs spotlights: seated leg curl 90 at corrected ankle placement (the new baseline) + calf raise plate-under-foot for deeper stretch.",
+        "Squat pushes to 75/side after W11D5's 'QL caught up' signal — permission to drop to 70 if warmup is off.",
+        "Leg press: drill DEPTH at 3 plates (W11D5 went past medium ROM cleanly), NOT load. W13 tests 4 plates if depth at 3 holds.",
+        "Incline RDL HOLDS at 25lb dead slow — naming correction is permanent (not 'back extension').",
+        "Lunges optional this week (second clean QL week before W13 spotlight).",
+        "KB Tue: NEW @Asgooch overhead mobility complex (Row → Snatch → OH Lunge → OH Squat → Push Press) replaces dead-clean-press as Block 1 — genuinely fresh from the library, never integrated before. Spotlights stay: windmill + cossack mobility. Bent press rested this week (overhead pressing already loaded 4 ways in the new flow).",
+        "KB Thu spotlight: TGU left-side checkpoints. 1+1 per side per round, 3 rounds — fewer reps, cleaner reps.",
+        "QL is still the watchpoint. Abort any lift that twinges."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w12.json"
+    },
+    {
+      "week": 13,
+      "label": "DELOAD — 3 Hard / 1 Deload (First Deload Since W9)",
+      "description": "**DELOAD WEEK.** W10/W11/W12 were 3 hard weeks; W12 also added new lifts (behind-back shrugs, the cool-down block). The 3-hard/1-deload cadence — locked from W13 forward (next deloads W17, W21) — puts the cut here, and the fatigue signals back it up: the new right-shoulder symptom cluster (W12D1 — line-of-sensation + grip-triggered pain), universal tightness, multiple soft-tissue patterns. **HOLD all loads, CUT volume ~60-70%** — drop a set per exercise. Spotlights still rotate (the cue work IS deload-appropriate): cable column block — lat raise + tri ext + straight-arm pulldown (push), bicep curl + high cable curl + cable crunch (pull), the NEW Bulgarian split squat (legs), C&P + TGU (KB Tue), bent press (KB Thu). **Three NEW elements introduced at deload volume:** farmer carry (push closing block), trap-3 raise (replaces the shrug block on pull this week), Bulgarian split squat (replaces the walking lunge permanently on legs). The connective tissue lags muscle adaptation 6-8 weeks — this week lets it catch up.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — DELOAD (cable column block spotlight + NEW farmer carry)",
+          "type": "workout",
+          "workoutId": "fb-w13-push",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow** (rotated moves on W12; morning flows don't deload). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups, + side-lying external rotation (worth it this week with the shoulder cluster active)."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — DELOAD (C&P + TGU spotlight, Asgooch flow cut to 3 rounds)",
+          "type": "workout",
+          "workoutId": "fb-w13-kb-full",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow.** **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — DELOAD (curl + crunch spotlight, trap-3 raise replaces shrugs)",
+          "type": "workout",
+          "workoutId": "fb-w13-pull",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow.** **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "REST / LIGHT MOBILITY (Thursday is now a rest day — KB moved to Saturday to protect legs day)",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Morning Flow / Mobility",
+              "type": "workout",
+              "workoutId": "fb-w13-morning-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "label": "LEGS — DELOAD (NEW Bulgarian split squat spotlight, replaces walking lunge)",
+          "type": "workout",
+          "workoutId": "fb-w13-legs",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow.** **Today: do the LEGS add-on** — the NEW cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "KB CONDITIONING — DELOAD (moved from Thursday — bent press spotlight + figure-8 flow)",
+          "type": "workout",
+          "workoutId": "fb-w13-kb-cond",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow.** **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "DELOAD WEEK — first deload since W9. HOLD all loads, CUT volume ~60-70% (drop a set per exercise). The training effect is recovery + cue quality, not load. If a lift feels easy, that's the design.",
+        "**3 hard / 1 deload cadence is locked from W13 forward** — next deloads W17, W21.",
+        "**Schedule change — KB conditioning moves Thursday → Saturday; Thursday becomes rest.** W12D4's Thursday KB wrecked Friday legs (the QL came in tight). A rest day before legs + the KB day landing before Sunday rest fixes the collision. Testing the slot during this light week.",
+        "**Right shoulder symptom cluster is the headline watchpoint.** Cross-check W13D1 push vs. W13D3 pull — if it's worse, the hypothesis flips from functional to structural and a PT eval becomes priority.",
+        "Push: 2 sets chest press at 165, 2 sets incline DB at 45, cable column block spotlight (2 rounds). NEW farmer carry closing block (2 walks, 40-50lb).",
+        "Pull: pull-ups 3 sets, DB row 2 sets at 70 only (skip 60 and 80), curl/crunch spotlight. Trap-3 raise replaces the behind-back shrug block this week (planned rotation).",
+        "Legs: squat holds 75/side as a 3-set pyramid (8/6/8), leg press holds 3 plates / full ROM. NEW Bulgarian split squat replaces the walking lunge permanently — introduced form-only at deload volume.",
+        "KB Tue: Asgooch flow cut to 3 rounds per side, C&P + TGU spotlight refresh, C&P holds 45 (no 50).",
+        "KB Thu: bent press spotlight refresh, figure-8 flow stays — but the PRESCRIBED 2 rounds only (W12D4's bonus rounds tightened the QL before legs day).",
+        "**NEW QL/psoas release move** — the standing cross-leg lateral lean (W12D5 user discovery) is now in the legs warmup, the legs cool-down, and the legs-day morning add-on.",
+        "Cool-down stays — 5-min block, permanent every gym day. On a deload it's the connective-tissue catch-up window.",
+        "Sunday long flow encouraged this week — it fits the deload's recovery intent."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w13.json"
     }
   ],
   "tips": [

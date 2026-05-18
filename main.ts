@@ -1028,7 +1028,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </template>
               </div>
               <template x-if="selectedProgram.description">
-                <p class="workout-description" x-html="linkify(selectedProgram.description)"></p>
+                <p class="workout-description" x-html="renderInline(selectedProgram.description)"></p>
               </template>
             </div>
 
@@ -1075,7 +1075,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Week Tips</div>
                     <ul style="margin: 0; padding-left: 1.25rem; list-style: disc; display: flex; flex-direction: column; gap: 0.4rem;">
                       <template x-for="(tip, tipIdx) in selectedProgram.weeks[selectedWeekIdx].tips" :key="'wtip-' + tipIdx">
-                        <li style="line-height: 1.6; font-size: 0.9rem;" x-html="linkify(tip)"></li>
+                        <li style="line-height: 1.6; font-size: 0.9rem;" x-html="renderInline(tip)"></li>
                       </template>
                     </ul>
                   </div>
@@ -1222,7 +1222,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Tips</div>
                   <div class="workout-tips-inline" style="margin: 0;">
                     <template x-for="(tip, tipIdx) in selectedProgram.tips" :key="'ptip-' + tipIdx">
-                      <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
+                      <span><span x-html="renderInline(tip)"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
                     </template>
                   </div>
                 </div>
@@ -1367,12 +1367,12 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </template>
               </div>
               <template x-if="selectedWorkout.description">
-                <p class="workout-description" x-html="linkify(selectedWorkout.description)"></p>
+                <p class="workout-description" x-html="renderInline(selectedWorkout.description)"></p>
               </template>
               <template x-if="selectedWorkout.tips && selectedWorkout.tips.length > 0">
                 <p class="workout-tips-inline">
                   <template x-for="(tip, tipIdx) in selectedWorkout.tips" :key="'tip-' + tipIdx">
-                    <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
+                    <span><span x-html="renderInline(tip)"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
                   </template>
                 </p>
               </template>
@@ -1392,7 +1392,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <div style="flex: 1;">
                     <span style="font-weight: 600;" x-text="workoutFlow.label || 'Morning Flow'"></span>
                     <template x-if="workoutFlow.notes">
-                      <span style="opacity: 0.6; margin-left: 0.4rem;" x-text="workoutFlow.notes"></span>
+                      <span style="opacity: 0.6; margin-left: 0.4rem;" x-html="renderInline(workoutFlow.notes)"></span>
                     </template>
                   </div>
                   <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
@@ -1561,7 +1561,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                               </template>
                             </div>
                             <template x-if="ex.notes">
-                              <div class="ex-notes" x-html="linkify(ex.notes)"></div>
+                              <div class="ex-notes" x-html="renderNotes(ex.notes)"></div>
                             </template>
                             <template x-if="expandedExercises?.includes(setIdx + '-' + exIdx)">
                               <div class="ex-expanded" @click.stop>
@@ -1742,6 +1742,20 @@ function routineStackApp() {
   return {
     ...chatMixin,
     linkify: _linkify,
+    renderNotes(text) {
+      if (!text) return '';
+      if (typeof marked !== 'undefined' && marked.parse) {
+        return marked.parse(text);
+      }
+      return _linkify(text);
+    },
+    renderInline(text) {
+      if (!text) return '';
+      if (typeof marked !== 'undefined' && marked.parseInline) {
+        return marked.parseInline(text);
+      }
+      return _linkify(text);
+    },
     sidebarOpen: true,
     loading: true,
     initialized: false,

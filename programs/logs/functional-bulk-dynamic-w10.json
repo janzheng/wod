@@ -1,0 +1,276 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w10-push",
+    "date": "2026-04-27",
+    "notes": "W10D1 — first push of the form-first cycle. Big spotlight wins on push press: parallel feet locked in, 40s genuinely hard with proper form, slight bar drift forward (less than KB presses, no T-shape), chest pushed out / rib flare on set 1 — caught it and controlled for it on subsequent sets. Slight crackle showing up on the right shoulder by the third set but 40 is the right working weight. Lateral raise breakthrough: leading with elbow shot a line of pain from scapula down to elbow (not super painful) on set 1 — rolled shoulders, engaged/disengaged scapula between sets, sets 2 and 3 felt way better, set 3 actually hard 'in the right way'. Right pec is super sore today, definitely connected to shoulder — chest pressing slow magnifies the link. Form-over-load reality check: 40lb DBs on incline press at 30° actually felt harder than expected, died at 7-9 reps, didn't need 2-up-2-down. 30° incline + automatic forearm stack is the move; going wider to T feels awkward and lower than I used to do it. Cable lat raise crackle improving with right-side pec massage between sets — last 3 sets hard but more muscle than crackle, just nerve tip at elbow. Cues feedback: cable lat raise 'run line behind body' didn't make sense, ignored it. Incline overhead tri done kneeling on cable column, not following written notes. Several descriptions are off from actual movement — flagged for cue cleanup.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "push-press",
+        "sets": [
+          { "weight": "40lb each", "reps": 8, "notes": "First set — chest pushed out / rib flare immediately. Controlled for it on later sets." },
+          { "weight": "40lb each", "reps": 12, "notes": "Probably too many — these are hard." },
+          { "weight": "40lb each", "reps": 8, "notes": "Hard. Slight crackle starting on right shoulder. 40 is a very good weight to keep working at — pressing up slightly forward but not full T-shape, less drift than KB presses." }
+        ]
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          { "weight": "15lb", "reps": 20, "notes": "Set 1 — leading with elbow caused shooting line of pain from scapula down to ~elbow (not super painful). Stretches helping but shoulder makes lat raises hard to do correctly." },
+          { "weight": "15lb", "reps": 20, "notes": "Rolled shoulders + engaged/disengaged scapula between sets — felt a lot loosen. Way better." },
+          { "weight": "15lb", "reps": 20, "notes": "Rotated and engaged scapula again. Felt way better still — actually hard 'in the right way' at the end." }
+        ]
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": [
+          { "weight": "165", "reps": 10, "notes": "Feels really good and stable. Right pec super sore — can massage it out, definitely connected to the shoulder." },
+          { "weight": "165", "reps": 10 },
+          { "weight": "165", "reps": 10, "notes": "Huge struggle at the end — choosing to maintain form vs push hard with form drop. Different feel than W8 ego sets." },
+          { "weight": "165", "reps": 6, "notes": "Couldn't pick it up after rest." }
+        ]
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          { "weight": "45lb pair", "reps": 10, "notes": "30° feels great, super hard here. Forearm stack is automatic at 30 — going wider to T feels awkward, this is lower than I used to do it." },
+          { "weight": "45lb pair", "reps": 8 },
+          { "weight": "45lb pair", "reps": 9, "notes": "Died at 9 — went each rep faster but with hold at bottom." },
+          { "weight": "45lb pair", "reps": 7, "notes": "Died at 7. Really feeling it now even at lower weight — probably don't need 2-up-2-down tempo." }
+        ]
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": [
+          { "weight": "Kinesis 8", "reps": 12, "notes": "Doing these correctly is super hard." },
+          { "weight": "Kinesis 8", "reps": 12 },
+          { "weight": "Kinesis 8", "reps": 12, "notes": "Died on the last set a bit." }
+        ]
+      },
+      {
+        "id": "cable-lateral-raise",
+        "equipment": "cable column (working weight not cleanly captured this session)",
+        "sets": [
+          { "weight": "cable column", "reps": 12, "notes": "Ignored 'run line behind body' cue — didn't make sense in practice. Massaging out right pec between sets really helped — not super crackly!" },
+          { "weight": "cable column", "reps": 12, "notes": "Hard for both sides at least." },
+          { "weight": "cable column", "reps": 12, "notes": "Last set of 3 was hard but more the muscle than the crackle. Still feel a bit at the tip of elbow — like a set of nerves?" }
+        ]
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "equipment": "cable column kneeling",
+        "sets": [
+          { "weight": "cable column kneeling", "reps": "—", "notes": "Kneeling cable column setup (the actual setup — corrects W9 log's 'Kinesis 3' AI labeling error). Went great / felt great. Hard at end." }
+        ]
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "equipment": "cable column",
+        "sets": [
+          { "weight": "100 (cable column)", "reps": 12, "notes": "[CORRECTED] originally logged as 'Kinesis 100' which is impossible — Kinesis is a 1-12 scale; 100 is cable column. Cable column has been the setup all program (W7=110, W8=120). Oof really hard today." },
+          { "weight": "100 (cable column)", "reps": 12 },
+          { "weight": "100 (cable column)", "reps": 10, "notes": "Stopped at 10." }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w10-kb-full",
+    "date": "2026-04-28",
+    "notes": "W10D2 — first KB session back after 3 weeks (W8 Tue/Thu skipped, W9 sick). Re-acquaintance worked: home-base 25lb on the skill block felt right, and the spotlights both produced wins. Banded prep swap: used the blue rope band held in hands instead of the mini-band — shoulders and scaps felt 'like a massage' afterward, very relaxed going into the bent press / windmill work. B-stance flow at 25lb x 3 each side x 3 rounds felt great — almost too light, briefly worried about overdoing it, but a few hours later confirmed it was the right dose. Cossacks were the surprise: very hard to do slow and deep, but once the groove kicked in they felt really good; hit a stop at the end (range/depth limit, not failure). TGU spotlight breakthrough: bumped UP to 40lb after 25 felt grooved — the focus on the clean itself made each side feel weightless, including 40. Left side still harder than right (especially the to-standing transition), but left is more *correct* because it's weaker and gets the deliberate reps; right is stronger but sloppier. C&P spotlight landed exactly on plan: 35lb good, 40lb good — projection: start at 40 next week, work toward 45. Net: had a workout AND a good stretch, left feeling strong. The 'Tuesday is skill/mobility flank' framing held — fresher, not cooked. No QL talk on swings.",
+    "exercises": [
+      {
+        "id": "banded-prep",
+        "sets": [
+          { "weight": "blue rope band, held (swapped from mini-band)", "reps": "1 round through all 7 positions", "notes": "Used a blue rope band gripped in hands instead of an anchored mini-band. Shoulders and scapula felt deeply relaxed afterward — 'like a massage'. Set up the bent press / TGU work very well." }
+        ]
+      },
+      {
+        "id": "kettlebell-b-stance-swing",
+        "sets": [
+          { "weight": "25lb", "reps": "3 each side", "notes": "Round 1 — felt great, light." },
+          { "weight": "25lb", "reps": "3 each side" },
+          { "weight": "25lb", "reps": "3 each side", "notes": "All 3 rounds in. Felt very light at 25 — initially wondered if overdone, hours later confirmed it was the right dose." }
+        ]
+      },
+      {
+        "id": "kettlebell-bent-press",
+        "sets": [
+          { "weight": "25lb", "reps": "3 each side", "notes": "Felt good — home-base 25 was the right call." },
+          { "weight": "25lb", "reps": "3 each side" }
+        ]
+      },
+      {
+        "id": "cossack-squat",
+        "sets": [
+          { "weight": "25lb goblet", "reps": "8 each side", "notes": "Very hard to do slow and deep — but once the groove kicked in, felt really good." },
+          { "weight": "25lb goblet", "reps": "8 each side", "notes": "Hit a stop at the end — range/depth limit, not strength failure. The slow-and-deep was the work." }
+        ]
+      },
+      {
+        "id": "kettlebell-windmill",
+        "sets": [
+          { "weight": "25lb", "reps": "5 each side", "notes": "Felt good." },
+          { "weight": "25lb", "reps": "5 each side" }
+        ]
+      },
+      {
+        "id": "kettlebell-turkish-getup",
+        "sets": [
+          { "weight": "25lb", "reps": "2 each side", "notes": "Round 1 at prescribed 25. Left harder than right but better than the first time back. Going to standing is the hardest checkpoint on the left." },
+          { "weight": "40lb", "reps": "2 each side", "notes": "Bumped UP to 40 (vs prescribed 25) after R1 felt grooved. **Focus on the clean itself made each side feel weightless** — even at 40. Right side stronger; left side more *correct* because it's weaker and gets deliberate reps. The weak-side-first protocol is producing better quality on the left." }
+        ]
+      },
+      {
+        "id": "kettlebell-clean-and-press",
+        "sets": [
+          { "weight": "35lb", "reps": "5 each side", "notes": "Round 1 — good. On plan." },
+          { "weight": "40lb", "reps": "5 each side", "notes": "Round 2 — good. **Could probably start at 40 next week and work toward 45.** The 35→40→45→50 ramp is on track for next 2-3 KB sessions. No QL talk." }
+        ]
+      },
+      {
+        "id": "kettlebell-row",
+        "sets": [
+          { "weight": "25lb", "reps": "8 each", "notes": "Cooldown row, light. Per plan." }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w10-pull",
+    "date": "2026-04-29",
+    "notes": "W10D3 — first pull of the form-first cycle. Pull-up spotlight win: discovered the rack's adjustable climber-style handles — narrow / normal / wide across sets, 6 slow (not to chin, focus on engaging back) / 6 / 6 / 4+2. The handles felt really natural (W11D3 clarified they don't actually rotate — adjustable, not a true climber hold). Reality check: gained ~15lb recently, pull-ups are getting harder — quality reps the priority, not chasing W7's 32. Incline DB curl swap (preacher taken): 25lb good — too many reps on set 1 (12), dialed to 10s with slow stable form; left side hard at 7, used right arm to lightly assist last 3 reps. DB reverse fly at 25 (heavier than prescribed 22.5 — had the weights ready, slow leading-with-elbows felt great). DB row pyramid + chest-supported row both went well — slow and controlled, all sets doable, no need to push up. Face pulls 42.5 (machine doesn't do 45) — set 1 nailed slow, set 2 hard at 17, rested more set 3 hard at 19. Lat pulldown 140 (no 5s on the machine, so not 145) — three sets solid, rested more before the last set, full 12 reps slow. **Equipment-specificity gap (recurring):** the workout descriptions don't say WHICH machine to use, and the session logs haven't been recording it either, so weights from prior weeks aren't comparable. Today: high cable curl on single pulley (100 easy → 120 harder/slow), cable crunch on single-pulley regular machine (57.5x15 easy). The setup rotates week to week based on what's free — fix is to make the workout descriptions setup-agnostic AND require the log to capture which machine was used. Bigger meta-feedback: workouts should be reorganized as STATION focuses to minimize machine-hopping — currently bouncing between cable column / Kinesis / single pulley / DBs / racks within the same day.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": [
+          { "weight": "BW (adjustable climber-style handles, narrow grip)", "reps": 6, "notes": "Slow — not to chin, focus on engaging back. Rotating handles on the rack felt really natural, hard to find but worth it." },
+          { "weight": "BW (adjustable climber-style handles, normal grip)", "reps": 6, "notes": "Slow + back-engaged." },
+          { "weight": "BW (adjustable climber-style handles, wide grip)", "reps": 6 },
+          { "weight": "BW (adjustable climber-style handles)", "reps": "4+2", "notes": "Final set — got 4 clean, broke for 2 more. Gained ~15lb recently → pull-ups noticeably harder. Quality > chasing W7 numbers." }
+        ]
+      },
+      {
+        "id": "incline-curl",
+        "sets": [
+          { "weight": "25lb", "reps": 12, "notes": "Preacher was taken — swapped to incline DB curl (back against incline bench). Too many reps on set 1." },
+          { "weight": "25lb", "reps": 10, "notes": "Good slow stable." },
+          { "weight": "25lb", "reps": "10R / 7L+assist", "notes": "Right side 10 hard. Left 7 strict, used right arm to lightly assist last 3 reps. Left bicep weaker — flag for the asymmetry watchlist." }
+        ],
+        "swappedFor": "preacher-curl"
+      },
+      {
+        "id": "dumbbell-reverse-fly",
+        "sets": [
+          { "weight": "25lb", "reps": 12, "notes": "Heavier than prescribed 22.5 — had the weights ready. Slow, leading with elbows. Felt good." }
+        ]
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": [
+          { "weight": "60/70/80 pyramid", "reps": "10/10/8", "notes": "All sets per plan, hard but doable. Slow and controlled. Don't feel the need to go up — clean 80 was the goal and it was clean. Spotlight cue (chest-supported torso lock + elbow-to-hip line) holding well." }
+        ]
+      },
+      {
+        "id": "chest-supported-dumbbell-row",
+        "sets": [
+          { "weight": "35lb", "reps": 10, "notes": "All sets per plan. Slow and controlled, feel the engagement well. Don't feel the need to go up." }
+        ]
+      },
+      {
+        "id": "face-pull",
+        "sets": [
+          { "weight": "42.5 (machine doesn't have 45)", "reps": 20, "notes": "Set 1 — slow and good. Really like nailing these sets." },
+          { "weight": "42.5", "reps": 20, "notes": "Set 2 — getting hard at 17." },
+          { "weight": "42.5", "reps": 20, "notes": "Set 3 — rested a bit more, got hard at 19." }
+        ]
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": [
+          { "weight": "140 (no 5s on this machine, so not 145)", "reps": 10, "notes": "Set 1 — solid." },
+          { "weight": "140", "reps": 10 },
+          { "weight": "140", "reps": 10 },
+          { "weight": "140", "reps": 12, "notes": "Rested more before last set, got a full 12 slow. 'Back left' note — felt the load on the back/left side, no shoulder flag." }
+        ]
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "equipment": "single pulley (dual was taken / not free)",
+        "sets": [
+          { "weight": "100 (single pulley)", "reps": 12, "notes": "Pretty easy. Setup rotates week to week — W7 was dual pulley at 50-60, W8 was single pulley at 120, today single pulley again." },
+          { "weight": "120 (single pulley)", "reps": 12, "notes": "A lot better / harder, still slow. ~120 has been the single-pulley working number since W8." }
+        ]
+      },
+      {
+        "id": "cable-crunch",
+        "equipment": "single-pulley regular machine (cable column was occupied / not picked today)",
+        "sets": [
+          { "weight": "57.5 (single-pulley regular machine)", "reps": 15, "notes": "Felt good but easy. Setup rotates — W7-W8 was cable column at 110-120, today single-pulley regular machine. Different scale entirely. Find the working single-pulley number next time it comes up." }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w10-legs",
+    "date": "2026-05-01",
+    "notes": "W10D5 — first legs of the form-first cycle. Order jumped around due to machine availability (squat → leg press → calf raise → seated leg curl → incline RDL → lunges). Squat spotlight at 65/side x 8 x 4: felt 'pretty good and solid' going slow, except for a 'weightless' / energy-gap sensation in the middle of the rep — bottom solid, top solid, middle feels like the legs aren't really working. **This is biomechanically normal**: in the mid-range of a back squat, the moment arms shift such that hip and knee leverage are both partially favorable, so it's the easiest zone of the lift (think strength curve, not uniform load). Feeling lighter through the middle = you're moving smoothly through the easy zone. The bottom and top are where the real work happens — and that's where the brace + drive matter. Last 2 sets got better as the brace pattern locked in. Still got super sweaty — confirms 65 is enough work even when slow. Leg press easy, 'hard not to add more' — but as soon as the depth went a little deeper the QL started engaging, so backed off. Confirms the 3-plate medium-ROM hold week is doing exactly what it should: protecting the QL, not chasing load. Calf raise: really hard slow — dying at 15, needs other-foot support for the negatives. Flag: **might need both feet for 3-4s tempo** when going slow — single-leg + slow eccentric together is too much. Seated leg curl breakthrough: **dropped to 50 and moved the pad around the ankles** (per the prescribed cue 'ankles UNDER the pad') and it felt more correct — clearly was doing it wrong before with the pad too high on the calf. The W8/W10 prescribed 100 was working through a wrong lever; 50 with correct ankle placement is genuinely working the hamstrings. **Start W11 at 50 with correct ankle placement and rebuild from there** — don't carry forward the wrong-form 100 number. Incline RDL: first set easy, second set way harder. Left side legs really tight (the W7/W8 hammie tightness pattern is back). Slow tempo is hard — confirms the 'slow IS the stimulus' lesson. Lunges 25lb light by feel but 'very very hard' — didn't feel like dying though, **no QL spasms**. Big confidence boost: the QL spasm origin lift handled the easing-back load. Net: 'really good overall, interesting how going much lighter still felt like a workout' — the form-first cycle is working as designed. **(Naming corrected W11D5: this lift was prescribed as 'back extension' through W10; it's the incline RDL on the 45° bench. Exercise ID corrected here.)**",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": [
+          { "weight": "65/side", "reps": 8, "notes": "Set 1 — felt the 'weightless middle' (bottom + top solid, middle felt like legs not working). Biomechanically normal: mid-range is the easiest zone of the lift. Bottom + top is where the brace really matters." },
+          { "weight": "65/side", "reps": 8 },
+          { "weight": "65/side", "reps": 8, "notes": "Last 2 sets got better as the brace locked in." },
+          { "weight": "65/side", "reps": 8, "notes": "4th set — solid and confident. Got super sweaty even at this load — slow tempo is doing the work. Bottom position feels as solid at 65 as 55 felt on W9D5. Brace pattern is holding." }
+        ]
+      },
+      {
+        "id": "leg-press",
+        "sets": [
+          { "weight": "3 plates/side, medium ROM", "reps": 12, "notes": "Easy. Hard not to add more weight." },
+          { "weight": "3 plates/side, medium ROM", "reps": 12 },
+          { "weight": "3 plates/side, medium ROM", "reps": 12, "notes": "Still sweaty and feeling these. Could go up — but as soon as depth gets a little deeper the **QL engages and I back off**. Confirms the 3-plate medium-ROM hold week is doing its job. The QL still needs to catch up before 4-plate full-ROM returns." }
+        ]
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": [
+          { "weight": "3 plates/side, single leg", "reps": 15, "notes": "Really hard slow — dying at 15. Needed other-foot support for the negatives." },
+          { "weight": "3 plates/side, single leg + assist", "reps": 15, "notes": "Same — needed assist on the descents." },
+          { "weight": "3 plates/side", "reps": 15, "notes": "Flag: **might need both feet for 3-4s slow tempo** — single-leg + slow eccentric is too much together. Try double-leg slow next time, or single-leg with faster tempo." }
+        ]
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": [
+          { "weight": "50 (corrected ankle placement)", "reps": 12, "notes": "**Form correction:** dropped from prescribed 100 to 50 and moved the pad to be around the ankles (per the cue 'ankles UNDER the pad'). Feels more correct — clearly was doing it wrong before with the pad too high on the calf. Still feel it. **Start W11 at 50 with correct ankle placement and rebuild from there — don't carry forward the wrong-form 100 number.**" },
+          { "weight": "50", "reps": 12 },
+          { "weight": "50", "reps": 12, "notes": "Hold 50 next time, work back up from here with correct lever." }
+        ]
+      },
+      {
+        "id": "incline-rdl",
+        "sets": [
+          { "weight": "25lb plate, dead slow", "reps": 15, "notes": "First set easy." },
+          { "weight": "25lb plate, dead slow", "reps": 15, "notes": "Second set way harder. Left side legs really tight (the W7/W8 hammie tightness pattern is back). Slow tempo really is hard — confirms 'slow IS the stimulus.'" },
+          { "weight": "25lb plate, dead slow", "reps": 15, "notes": "Hammies and glutes feeling it (correct), no lumbar load (correct)." }
+        ]
+      },
+      {
+        "id": "dumbbell-lunge",
+        "sets": [
+          { "weight": "25lb DBs", "reps": "10 each", "notes": "Light by feel but 'very very hard'. Didn't feel like dying though." },
+          { "weight": "25lb DBs", "reps": "10 each" },
+          { "weight": "25lb DBs", "reps": "10 each", "notes": "**No QL spasms.** The QL spasm origin lift handled the easing-back load — big confidence boost. Stay at 25 in W11, the slow controlled work is enough." }
+        ]
+      }
+    ]
+  }
+]

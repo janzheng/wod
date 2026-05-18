@@ -1,0 +1,107 @@
+{
+  "id": "kb-figure-8-tactical-clean-complex",
+  "name": "Figure-8 → Tactical Clean Complex (@kettleclubfam / kettleclubfam program)",
+  "description": "A single-bell hand-switching complex that pairs the figure-8 pass with a tactical clean. The figure-8 passes the bell between the legs and exits into a clean to rack — the pass IS the clean entry. Then a regular tactical clean back through hike and up to rack on the other side. Hand switches happen at the figure-8 pass-through. Source format: 4 sets of descending time / ascending weight pyramid (2:00 @ 12kg → 1:30 @ 16kg → 1:00 @ 20kg → 0:30 @ 24kg), rest 1:00 between sets.\n\n**Pattern per side:**\n- START: Hike position (bell between legs, hinged)\n- Figure-8 → Tactical Clean (figure-8 between legs, exit-pass becomes the clean to rack)\n- Tactical Clean (lower controlled, hike, re-clean to rack)\n- END: Hike position\n- Switch sides\n\nThe pass-through is where you switch hands; the clean is where you build skill at hand catches under load. Bell-baddie vibes.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "flow", "complex", "single-bell", "hand-switch", "tactical", "skill-work", "intermediate", "dance", "passing", "figure-8"],
+  "estimatedDuration": 25,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@kettleclubfam",
+  "sourceUrl": "https://www.facebook.com/reel/2784846568518362",
+  "dayOverview": {
+    "theme": "A figure-8 + tactical clean complex with built-in hand switches. The pass IS the clean entry — the figure-8 exits into a rack catch. Ascending-weight pyramid lets you find your skill ceiling within one session.",
+    "watchpoints": [
+      "**The figure-8 exits INTO the clean — the bell doesn't return to a hand mid-pass.** Pass between legs, hand catches behind, pull becomes the clean to rack. Practice slowly before adding load.",
+      "**Tactical clean = controlled, no momentum hack.** The 'tactical' part is deliberate threading/rotation of the wrist into rack. No flopping, no banging the forearm.",
+      "**Hand catches under load are the skill.** That's why the source author programs ascending weight — heavier bell forces cleaner catch mechanics.",
+      "**Hike position is the home base.** Every transition resets through hike. If you lose the bell, get back to hike before re-starting.",
+      "**Ascending weight = descending time** on purpose. Heavier bells get less work time; lighter bells get longer flow time. Don't try to keep 12kg pace at 24kg."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell, warm the shoulders." },
+        { "id": "kettlebell-around-body-pass", "reps": "10 each direction", "notes": "Light bell, get the pass-through pattern grooved before adding the clean." },
+        { "id": "kettlebell-figure-8", "reps": 10, "notes": "Light bell, low wide stance. Just the pass — no clean exit yet. Get the hand-switch comfortable." },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Hip hinge warm-up. Light bell." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "set-1-light",
+      "name": "Set 1: 2:00 @ ~26lb (12kg) — Longest Work, Lightest Bell",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "duration": 120, "notes": "**2 minutes of the complex** at 26lb (12kg) — or whatever your **MEDIUM bell** is per the source author's relative scale.\n\n**Pattern (one compound move, repeated alternating sides):**\n- START hike position (bell between legs, hinged)\n- **Figure-8 pass exits INTO Tactical Clean to rack** on one side\n- Lower bell back through hike\n- Next figure-8 pass switches sides → clean to rack on the other side\n- Continue alternating\n\n**Pace yourself** — 2:00 is long. Find a sustainable rhythm. The first set is the technique set." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "set-2-medium",
+      "name": "Set 2: 1:30 @ ~35lb (16kg)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "duration": 90, "notes": "**90 seconds at 35lb (16kg)** — or your **MEDIUM-HEAVY bell**.\nSame compound move. Heavier bell = catch mechanics matter more. Slow down before form breaks." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "set-3-heavy",
+      "name": "Set 3: 1:00 @ ~44lb (20kg)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "duration": 60, "notes": "**60 seconds at 44lb (20kg)** — or your **HEAVY bell**.\nThis is where the catch under load gets real. Bell-baddie territory." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "set-4-heaviest",
+      "name": "Set 4: 0:30 @ ~53lb (24kg) — Heaviest Bell, Shortest Time",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "duration": 30, "notes": "**30 seconds at 53lb (24kg)** — or your **HEAVIEST bell**.\n\n**Note:** Arrilaga max is 50lb — 24kg is right at the ceiling. If 24kg isn't available, hold 20kg (44lb) and add 15-30s of work time to feel the load. The point of set 4 is the heaviest bell you have access to + the cleanest catches you can make at that weight.\n\nFinish strong. Hand catches stay tight." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell, decompress the shoulders." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hike position fries the hip flexors and glutes — pigeon resets them." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Wide-stance work tightens the adductors." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**The figure-8 exits INTO the clean** — that's the whole skill. Pass between legs, hand catches behind, the catch becomes the clean to rack. No 'land and re-grip.'",
+    "**Tactical clean = controlled, no momentum hack.** Threading motion into rack, not a yank.",
+    "**Ascending weight + descending time** is the source author's intentional pattern. Don't keep 12kg pace at 24kg.",
+    "**Hand catches under load** are where the skill builds. That's why the heavy sets are short.",
+    "**Hike position is home base.** Every transition resets through hike — if you lose the bell, go back to hike before re-starting.",
+    "**Light warmup first** — get the pass-through and clean grooved separately before chaining them.",
+    "**Source bell weights** (12/16/20/24kg = 26/35/44/53lb) — pick what you have access to. Arrilaga max is 50lb, so 24kg may not be available — hold 20kg longer if so.",
+    "**Cooldown matters** — hike position + figure-8 wide stance = adductor + hip flexor tightness. Pigeon + butterfly resets.",
+    "Source: @kettleclubfam (kettleclubfam program)."
+  ],
+  "formPhilosophy": "Skill-first KB flow with ascending load. The complex isolates the figure-8-to-clean transition — the moment when a passing pattern becomes a strength catch. Pyramid lets you find the skill ceiling within a single session: long-and-light to lock the pattern, short-and-heavy to test it under load."
+}

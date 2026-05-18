@@ -1,0 +1,181 @@
+{
+  "id": "fb-w12-legs",
+  "name": "Week 12 Legs — Form-First (Spotlight: Seated Leg Curl + Calf Raise)",
+  "description": "Third week of the form-first cycle. Spotlights rotate to **seated leg curl + calf raise**. **W11D5 takeaways baked in:** squat jumped to 70/side and 'felt pretty easy and good for all sets — QL finally caught up' (W12 pushes to 75); leg press went slightly past medium ROM cleanly at 3 plates (W12 keeps 3 plates, drills the depth push); seated leg curl ramped 50 → 65 → 90 → 90 with corrected ankle placement (90 = new working weight at the corrected lever); calf raise double-leg slow was 'slightly easy' (W12 drills the deep heel-drop stretch + slow eccentric at the same load); incline RDL 25lb dead slow held; lunges weren't logged in W11 (optional finisher this week).",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["barbell", "dumbbell", "machine"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Seated leg curl + calf raise in the spotlight. Squat pushes to 75 after W11D5 cleared the QL signal. Leg press drills depth at 3 plates (W11D5 went past medium ROM cleanly). Incline RDL holds 25 dead slow. Lunges optional — earn the way back to 30 over multiple clean weeks at 25.",
+    "spotlights": [
+      {
+        "exerciseId": "seated-leg-curl",
+        "why": "W11D5 ramped 50 → 65 → 90 with corrected ankle placement (pad UNDER the ankles, not on the calf — W10D5 form discovery). The W7-W10 numbers (90-110) were on the wrong lever. **90 at the corrected lever is the new baseline** — W12 drills the ankle placement + 5/m/0/1 settings + slow tempo at 90. The lift is genuinely working the hamstrings now."
+      },
+      {
+        "exerciseId": "leg-press-calf-raise",
+        "why": "W11D5 confirmed double-leg slow was 'slightly easy' at 3 plates — Option A worked, single-leg + slow eccentric was the W10D5 trap. W12 holds the load and drills the deep heel-drop stretch + slow eccentric: balls of the feet on the bottom platform edge, heels dropping off for the full stretch. The slow eccentric is the stimulus, not more weight."
+      }
+    ],
+    "rotationPlan": "W10 squat + incline RDL · W11 leg press · W12 seated leg curl + calf raise (current) · W13 lunge (when QL fully cleared — W11D5 cleared one week, this is the second clean week) · W14 cycle back to squat + incline RDL.",
+    "watchpoints": [
+      "**Squat pushes to 75/side** — W11D5 70/side 'felt pretty easy' and user said QL caught up. 75 is the next step, well within the W7-W8 baseline. Permission to drop back to 70 if anything's off in the warmup.",
+      "**Leg press depth push at 3 plates first, NOT load.** W11D5 went slightly past medium ROM cleanly. Add depth before adding plates. If 3 plates full ROM is clean for all sets, W13 can test 4 plates medium ROM.",
+      "**Seated leg curl 90 at corrected ankle placement** — pad UNDER ANKLES, machine settings 5/m/0/1. W7-W10 numbers don't translate; this is a new baseline.",
+      "**Calf raise: balls of the feet on the bottom platform edge, heels hanging off** — the platform edge gives the heel drop, no plate needed. Bottom-half ROM, deep stretch, slow eccentric. Stay double-leg. The slow eccentric is the stimulus.",
+      "**QL has been quiet for W11D5 + W11 KB** — that's two clean weeks. Lunges return to spotlight in W13 IF this trend holds. Optional finisher today; skip if anything's off."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "bodyweight-squat",
+          "reps": 15,
+          "notes": "Full depth, slow. Find where the hips are tight and breathe into it. Depth-check before loading."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Big slow circles. Wake up the hip stabilizers."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine mobility — extra important post-QL-spasm history."
+        },
+        {
+          "id": "lunge",
+          "reps": "5 each leg",
+          "notes": "Bodyweight. Use this as a QL check — if anything talks here, modify the day."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": 8,
+          "notes": "Set 1: 45/side x8. Set 2: 65/side x8. Same depth as working sets."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat (Working Sets — Push to 75)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": 8,
+          "notes": "**LOAD:** **75/side** (push from W11D5's 70 — 'felt pretty easy and good for all sets, QL finally caught up'). 4 sets at 75. **Permission to drop back to 70 if the warmup feels off** — but the W11D5 signal was clear, this is the right next step.\n\n**Sharp cues only — spotlight was W10:**\n- Bar high on upper traps (NOT on neck), upper-back shelf squeezed\n- **Brace like prepping for a punch** — deep belly breath at top, HOLD through descent, exhale on drive up\n- **Hips back AND down**, not just down\n- 'Spread the floor' — screw feet into the ground\n- Knees track over toes (line, not position)\n- Same depth as W11 — sit in the bottom\n- Drive through the WHOLE foot — heel + ball + outer edge\n\n**Watchpoint — the 'weightless middle':** mid-range is biomechanically the easiest zone. Bottom + top are where the brace + drive matter. Don't be surprised by it again — it's normal.\n\n**Reflection:** does the bottom position feel as solid at 75 as it did at 70 last week? If yes, the brace pattern is generalizing. If 75 is shakier, hold 75 for another week before pushing to 80."
+        }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press (Depth Push at 3 Plates)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 3 plates/side (HOLD — W11D5 went slightly past medium ROM cleanly, no QL flag). **Push depth, NOT load.** Spotlight was W11; sharp cues only.\n\n- **Foot position: shoulder-width, mid-foot on platform, slight toe-out** — set BEFORE loading\n- **Press through the WHOLE foot** — heels grounded, push platform with heels and ball together\n- **W12 progression: go DEEPER at 3 plates** — chase full ROM, not more weight\n- Slow descent (3s), no bounce at the bottom\n- Don't lock out hard at the top — leave a hair of bend\n- **Watch:** if hips lift off the pad at depth = too deep, back off. The hip lift IS the QL signal.\n- **Breath:** in on descent, out on drive\n\n**Test for W13:** if 3 plates full ROM is clean across all 4 sets this week, W13 can try 4 plates at medium ROM. Don't jump there yet — earn it with one more clean week first."
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "calf-raise-station",
+      "name": "🔆 Calf Raise (Spotlight — Deep Heel-Drop Stretch + Slow Eccentric)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": 15,
+          "notes": "**LOAD:** 3 plates/side, **double-leg, on the incline leg press machine.** 3 sets.\n\n**🔆 SPOTLIGHT — drill the stretch every rep:**\n- **Setup:** balls of both feet on the BOTTOM EDGE of the platform, heels hanging off the edge. No plate under the foot — the platform edge already gives the heel drop. This is a bottom-half-ROM movement: the stretch comes from the heels dropping below the platform edge.\n- **Both feet on the platform** (W11D5 confirmed double-leg slow was sustainable; single-leg + slow was the W10D5 trap)\n- **Full stretch at the bottom** — let the heels drop as far below the platform edge as they'll go. **The deep stretch + slow eccentric is the stimulus, NOT more weight.**\n- **Drive to FULL plantarflexion at the top** — calves love full range, half reps don't grow them\n- **3-4s eccentric** — slow descent, count it\n- **1s squeeze at peak**\n- **No bouncing** at the bottom or top\n- **Breath:** continuous, don't hold\n\n**Reflection:** the slow eccentric is the whole lift here — if the descent count isn't hard, slow it down further before adding load.\n\n**Test for W13:** if double-leg slow at 3 plates is dialed for all 3 sets, W13 can test single-leg at the same load (per the W10D5 lesson — change one variable at a time)."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "🔆 Seated Leg Curl (Spotlight — 90 at Corrected Lever)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "seated-leg-curl",
+          "reps": 12,
+          "notes": "**LOAD:** **90** (W11D5 working weight at corrected ankle placement). 3 sets.\n\n**🔆 SPOTLIGHT — drill the setup every rep:**\n- **Ankles UNDER the pad** — not the mid-calf, not the upper calf. **The ankle bone is the contact point.** The whole W7-W10 history of 100-110 was on the wrong lever (pad too high on the calf); 90 here is GENUINELY working the hamstrings.\n- **Knees aligned with the machine pivot** — adjust the seat back if needed. Misalignment compounds across reps.\n- **Lap pad locked DOWN firmly**, not loose. Loose pad = torso lift = lower back work, not hamstring.\n- **Settings: 5/m/0/1** (W8 corrected baseline — verify before loading)\n- **Curl heels toward glutes — full ROM, full squeeze.** Partial ROM is the most common fault here.\n- **2s eccentric, 1s squeeze at peak**\n- **Don't let the torso lift forward** — that's lower back, not hamstring. Stays anchored to the seat.\n- **No bouncing out of the bottom**\n- **Breath:** out on curl, in on return\n\n**Reflection — this is the spotlight question:** does 90 with strict ankle placement feel like genuine hamstring work today, or is the form drifting back toward the wrong lever? **The ankle position is the entire lift right now.** If you catch the pad creeping up the calf mid-rep, stop and reset.\n\n**For W13+:** when 90 with the strict setup feels like W11's 65 felt at the corrected lever, push to 100 — but only at the corrected lever. The numbers from W7-W10 stay invalid forever; this is a new scale."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "incline-rdl-working",
+      "name": "Incline RDL (Dead Slow)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "incline-rdl",
+          "reps": 15,
+          "notes": "**LOAD:** 25lb plate (HOLD — W11D5 'felt good otherwise did all sets, super slow, rested more between, squeezed glutes'). Dead slow with 2s pause at the bottom. Spotlight was W10; sharp cues only.\n- Pad just below the hip crease (NOT upper thigh, NOT stomach)\n- **Hip hinge — Romanian deadlift on the 45° bench, NOT a lumbar extension**\n- Lower back NEUTRAL throughout\n- At the bottom: stretch in **hamstrings and glutes**, NOT lower back\n- Drive up by squeezing glutes and hamstrings\n- At the top: stop at neutral — driving past = lumbar load\n- Tempo: 3s eccentric, 2s pause, 1s drive\n\n**W11D5 said extra rest between sets felt right** — keep that. Quality > tempo of session pacing here."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "lunge-finisher",
+      "name": "Lunges (Optional — QL Watchpoint)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "dumbbell-lunge",
+          "reps": "10 each leg",
+          "notes": "**LOAD:** 25lb DBs (HOLD — W10D5 + W11 KB clean of QL signal; W11D5 didn't log lunges). **Optional this week** — skip if time-short or anything feels off in the warmup. Spotlight is W13.\n\n**Sharp cues:**\n- **Long stride forward** — short stride = knee crashes forward\n- **Vertical shin on the front leg** — knee tracks toes\n- Back knee toward floor — 1-2\" off, don't slam\n- Drive up through the front HEEL\n- Torso vertical\n\n**ABORT IF:** any twinge in the lower back / QL area. The W10D5 + W11 trend has been QL-clear; if W12 stays clear, W13 spotlights lunges and a careful 25 → 30 ramp becomes the work."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Spotlights: seated leg curl + calf raise.** Drill the corrected ankle placement (90) and the plate-under-foot stretch progression.",
+    "**Squat pushes to 75/side** after W11D5's 70 felt easy and 'QL caught up.' Permission to drop back to 70 if warmup is off.",
+    "**Leg press: depth push at 3 plates, NOT load.** W11D5 went past medium ROM cleanly — chase full ROM. W13 tests 4 plates at medium ROM if this week's full ROM is clean.",
+    "**Seated leg curl 90** at corrected ankle placement (pad UNDER ankles, settings 5/m/0/1). W7-W10 numbers don't translate.",
+    "**Calf raise: balls of the feet on the bottom platform edge**, heels hanging off for the deep stretch — no plate needed. Double-leg slow stays; the slow eccentric is the stimulus.",
+    "**Incline RDL holds 25lb dead slow.** Extra rest between sets per W11D5.",
+    "**Lunges optional** — earn the way back to 30 over multiple clean weeks at 25. W12 is the second clean week; if it stays clean, W13 spotlights them.",
+    "**QL watchpoint stays.** Two clean weeks doesn't mean the QL is forgotten — abort any lift that twinges.",
+    "Rotation plan: W13 lunge spotlight (when QL fully cleared) · W14 cycle back to squat + incline RDL.",
+    "Rest 3 min squats, 2 min leg press, 90s isolations."
+  ],
+  "formPhilosophy": "Form-first base-building, week 3 of the cycle. The spotlights drill the setup details that make the lift work — ankle placement, full ROM stretch, foot mechanics. The squat push to 75 is earned (not forced) by W11D5's clear signal. Building decades, not weeks."
+}

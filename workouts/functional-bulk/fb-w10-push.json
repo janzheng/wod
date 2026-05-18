@@ -1,0 +1,145 @@
+{
+  "id": "fb-w10-push",
+  "name": "Week 10 Push — Form-First Return (Spotlight: Push Press + Incline DB)",
+  "description": "Form-first cycle, NOT a return-to-PR week. Weights pulled back ~10-15% from W8. The progression this week is the form. **Spotlight lifts (drill these all session):** push press and incline DB press. Everything else holds and gets sharp cues only. Goal: leave the gym feeling like every rep was honest.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Form-first return from W9 deload. Modern 2026 cues, lighter loads, cleaner reps.",
+    "spotlights": [
+      {
+        "exerciseId": "push-press",
+        "why": "W7 found parallel feet > duck feet. W10 locks that in plus rib-down + vertical bar path. Make it automatic this week."
+      },
+      {
+        "exerciseId": "incline-dumbbell-press",
+        "why": "W9D1 discovered the forearm-stacked-over-elbow cue makes 40lb honest. Drill that cue until it's the default setup, not a thought."
+      }
+    ],
+    "rotationPlan": "W10 push press + incline DB · W11 chest press machine · W12 lateral raise + cable fly · W13 cable lat raise + tri ext + straight arm pulldown. ~4 weeks per cycle, then refresh.",
+    "watchpoints": [
+      "Right scap → front-pec referral on chest press (W9D1) — slow tempo first, drop weight only if needed",
+      "Yuri band warmup is non-negotiable for shoulder tolerance",
+      "If a cue can't be held, the cue wins — drop the weight or the rep"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "arm-circle",
+          "reps": "10 each direction",
+          "notes": "Slow, big circles. Wake up scap glide before loading."
+        },
+        {
+          "id": "yuris-shoulder-band-warmup",
+          "reps": 1,
+          "notes": "Full sequence with red band. The shoulder won't tolerate cable work without it — never skip on push day."
+        },
+        {
+          "id": "push-up",
+          "reps": 12,
+          "notes": "Sets the press template for the day.\n\n**Form cues:**\n- Ribs down, glutes tight, body in one line — no pike, no sag\n- Hands stack DIRECTLY under shoulders (not in front, not wide)\n- Slow eccentric, 1s pause with chest 1-2\" off the floor"
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "overhead-station",
+      "name": "Station 1: Overhead Press",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "push-press",
+          "reps": "6-8",
+          "notes": "**LOAD:** 40/side (one notch back from W8's 45 — give the form room to rebuild).\n\n**🔆 SPOTLIGHT — drill these every set:**\n- **Feet parallel, hip-width** — NOT duck stance. The W7 discovery, locked in.\n- **Ribs DOWN before the dip** — squeeze the front of your ribs toward your hips. No rib flare = no lower-back compensation.\n- **Shallow dip** (~3-4 inches), straight down through the heels. The dip is for legs to drive, not for momentum.\n- **Vertical DB path** — dumbbells go from front-of-shoulders straight up to *over the heels* at lockout (two parallel lines next to your ears). Head pokes through at the top. If the DBs drift forward, the lockout is fake.\n- **Breath:** in at the dip, out on the drive.\n\n**Reflection:** which cue slipped first when you got tired? That's next week's drill. Stop the set if rib position breaks."
+        },
+        {
+          "id": "lateral-raise",
+          "reps": 15,
+          "notes": "**LOAD:** 20lb (hold). Sharp cues only — this is a hold week for laterals.\n- Soft elbow ~10-15° bend (locked elbow stresses the joint, recruits traps)\n- Lead with the elbow, hand passive\n- Stop at shoulder height — higher just shrugs traps\n- 2-second eccentric"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "press-station",
+      "name": "Station 2: Press",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "chest-press-machine",
+          "reps": "8-10",
+          "notes": "**LOAD:** 165 (back off from W8's 180/185). Hold-and-clean week — spotlight is W11.\n- Seat aligned so handles hit **mid-chest / nipple line**, NOT shoulder height\n- Set scaps back AND down into the pad before unracking\n- Slow eccentric, 3 seconds down\n- Press to ALMOST lockout — leave a hair of bend\n- **Watch:** right scap → front-pec referral (W9D1). If it twinges, slow down further before dropping weight."
+        },
+        {
+          "id": "incline-dumbbell-press",
+          "reps": "8-10",
+          "notes": "**LOAD:** 45lb pair (back off from W8's 50).\n\n**🔆 SPOTLIGHT — drill these every set. The W9D1 discovery is the foundation:**\n- **Bench at ~30°**, NOT 45°. Steeper = more front delt, less upper chest.\n- **Shoulders packed back AND down** — pin the back of the shoulder into the bench, like you're trying to break it in half with your scaps.\n- **Forearm stacked vertically over the elbow at the bottom** — elbow directly under the wrist when DBs are at chest level. *This* is what made 40lb feel hard W9D1. The cue IS the progression.\n- **Elbows ~45° from torso** — not flared 90°, not tucked tight\n- **Pause 1s at the bottom** — \"dead weight\" before driving up\n- Press to a fingerwidth apart at the top. No DB clack.\n\n**Swap option:** if the shoulder feels off, swap to seated DB shoulder press at 35-40lb using the W9D1 rotation cue — DBs facing IN at the bottom (palms toward face), rotating to facing-OUT at the top. That cue gives the shoulder real relief.\n\n**Reflection:** does the forearm stack feel automatic by set 4, or are you still thinking about it?"
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "machine-cable-station",
+      "name": "Station 3: Cables",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kinesis-cable-fly",
+          "reps": "10-12",
+          "notes": "**LOAD:** Kinesis 8 (hold).\n- Slight forward hinge at hips — chest leads, not head\n- Soft elbow ~10-15°, fixed throughout\n- Think \"hug a tree\" — squeeze from chest, not arms\n- Stop a fistwidth apart at top, no crash\n- Slow eccentric for full pec stretch"
+        },
+        {
+          "id": "cable-lateral-raise",
+          "reps": 12,
+          "notes": "**LOAD:** cable column ~30-40 (W7-W8 working range was 45-50; pull back ~10-15% for form-first). One arm at a time, 3 sets per side.\n- Stand sideways to the machine, working arm farther from the stack\n- Soft elbow ~10°, fixed throughout\n- Lead with elbow, hand passive — wrist follows\n- Stop at shoulder height (any higher = traps)\n- Fight the cable on the way down, no snap-back\n- **W10 trick that worked:** massage out right pec between sets — kills the crackle. Roll/engage scapula too."
+        },
+        {
+          "id": "incline-cable-overhead-tricep-extension",
+          "reps": "10-12",
+          "notes": "**LOAD:** ~50 (cable column kneeling — your actual setup, not 'incline' as the name implies).\n- Kneel facing away from the stack, rope attachment overhead\n- Torso slightly forward, head between arms — that's your 'incline' position\n- Elbows pinned, only forearms move\n- Full stretch at the bottom, long head loads deep\n- Stop just shy of lockout at top, slow eccentric"
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "straight-arm-pulldown",
+          "reps": 12,
+          "notes": "**LOAD:** cable column ~100 (W7=110, W8=120; W10 form-first pullback). Cable column has been the setup the entire program — W7-W8 logs and W10D1 actuals all confirm.\n- Stand a step back, hinge ~15° at hips\n- Slight elbow bend (5°), fixed throughout — perfectly straight = injury risk\n- Pull to **thighs**, NOT past — past = shoulders roll forward, lats off\n- Squeeze lats hard at bottom — \"oranges into back pockets\"\n- Slow controlled return to full overhead stretch"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**FORM-FIRST WEEK** — every weight is intentionally below W8. The progression IS the form, not the load.",
+    "**Spotlight lifts** are push press + incline DB — drill those cues every set. Other lifts get sharp/short cues only.",
+    "**Rotation plan:** W11 chest press · W12 lateral raise + cable fly · W13 cable lat raise + tri ext + straight arm pulldown. ~4-week cycle.",
+    "If a cue can't be held, the cue wins — drop weight, slow tempo, or skip the rep. Don't grind a bad rep.",
+    "Yuri band warmup is non-negotiable. Push press swap to seated DB shoulder press (rotation cue) is a legit option if the shoulder isn't ready to stand-and-load.",
+    "Rest 2 min push press, 2.5 min chest press (form takes more rest than ego does), 75s cables."
+  ],
+  "formPhilosophy": "Form-first base-building. Modern 2026 cues, not 2010 bro-science. Joint stacking, ROM, tempo, breath are the progressions. Load is the last lever. Building decades, not weeks."
+}
