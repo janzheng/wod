@@ -1,0 +1,220 @@
+{
+  "id": "fb-w13-legs",
+  "name": "Week 13 Legs — DELOAD (Spotlight: 🆕 Bulgarian Split Squat — Replaces the Walking Lunge)",
+  "description": "**DELOAD WEEK.** Same deload as the rest of W13 — hold all loads, cut volume ~60-70%. Squat HOLDS at 75/side but runs as an explicit pyramid (W12D5 discovery: fewer reps per set gives the user cleaner depth and removes the rep-count fear). **NEW: the Bulgarian split squat officially replaces the walking lunge** as the program's unilateral leg lift (W12D5 user request — 'officially introduce bulgarians'). It is the W13 spotlight, introduced at conservative deload volume — bodyweight or light DBs, form-only. **W12D5 takeaways baked in:** squat self-pyramided 75 x 10/6/6/8 ('doing fewer lets me do it way better'); leg press 3 plates full ROM is 'a QL massage' — depth is the work, hold the plates; calf raise setup corrected (balls of the feet on the bottom platform edge, no plate); seated leg curl 90 at the corrected ankle lever held clean; incline RDL 25lb dead slow held. **NEW QL/psoas release move added** — the standing cross-leg lateral lean (W12D5 user discovery) is now in the warmup.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "form-first", "spotlight-rotation", "deload"],
+  "estimatedDuration": 50,
+  "equipment": ["barbell", "dumbbell", "machine", "bench"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "DELOAD — hold every load, cut every exercise a set. Squat holds 75/side as a 3-set pyramid (W12D5 confirmed pyramiding beats flat sets for this user). The NEW Bulgarian split squat is the spotlight, introduced form-only at deload volume — it replaces the walking lunge permanently. Leg press holds 3 plates and keeps chasing full ROM ('the core isn't untucked yet,' W12D5). The cool-down biases toward hip/QL — and the new cross-leg lateral lean is in the warmup.",
+    "spotlights": [
+      {
+        "exerciseId": "bulgarian-split-squat",
+        "why": "🆕 W12D5 user request — 'officially introduce bulgarians into the next leg day.' Replaces the walking lunge as the unilateral leg lift: rear foot fixed (no travel) makes it more controlled, a better single-leg builder, and gentler on the QL — a good fit for a deload introduction. As a NEW lift in a deload week the spotlight is the PATTERN, not the load: front-heel drive, vertical-shin front leg, torso tall. Bodyweight or light DBs only this week."
+      }
+    ],
+    "rotationPlan": "W11 leg press · W12 seated leg curl + calf raise · W13 Bulgarian split squat (current — NEW lift, DELOAD introduction) · W14 cycle back to squat + incline RDL.",
+    "watchpoints": [
+      "**This is a DELOAD — hold loads, cut sets.** Squat 3 sets (not 4), leg press 3 (not 4), leg curl + incline RDL + calf raise 2 each (not 3). If a lift feels easy, the deload is working — do NOT add reps or weight.",
+      "**Squat HOLDS at 75/side — no push.** W12D5 cleared 75 cleanly. Deload runs it as a 3-set pyramid (8/6/8): the 6-rep middle set is the deepest, cleanest one. W12D5: 'doing fewer lets me do it way better and not fear the reps being too many.'",
+      "**🆕 Bulgarian split squat is a NEW lift — introduce it, don't load it.** Bodyweight or light DBs, 2 sets x 8-10 each leg, form-only. Smith machine preferred (`smith-machine-bulgarian-split-squat`) but it's always taken here — the realistic default is a bench + light DBs at the sides.",
+      "**Leg press HOLDS 3 plates — chase DEPTH, not plates.** W12D5: full ROM at 3 plates is 'a QL massage'; the deep ROM works the weak core/QL. The user's own call: full ROM at lighter load until 'the core muscles get untucked.' No 4-plate test this week — it's a deload.",
+      "**QL/psoas watchpoint.** W12D5 came in with the QL/psoas 'extremely tight' from the W12D4 figure-8 volume. The NEW cross-leg lateral lean is in the warmup specifically for this. If anything in the QL talks during the warmup, modify the day — abort any lift that twinges.",
+      "Cool-down stays — 5-min block, hip/QL-biased on legs day."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (incl. 🆕 Cross-Leg Lateral Lean — QL/Psoas Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "bodyweight-squat",
+          "reps": 15,
+          "notes": "Full depth, slow. Find where the hips are tight and breathe into it. Depth-check before loading."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "**🆕 NEW — W12D5 user discovery, now official.** 30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean AWAY from the back leg — the stretch runs down the side of the waist into the QL and the lateral hip. The user found this loosens a tight QL/psoas better than a square-stance side bend. **Do this BEFORE loading the squat** — especially if the QL feels tight coming off the KB day."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Big slow circles. Wake up the hip stabilizers."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine mobility — extra important post-QL-spasm history."
+        },
+        {
+          "id": "lunge",
+          "reps": "5 each leg",
+          "notes": "Bodyweight. Use this as a QL check — if anything talks here, modify the day. (It also previews the Bulgarian split squat pattern coming up.)"
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": 8,
+          "notes": "Set 1: 45/side x8. Set 2: 65/side x8. Same depth as the working sets."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat (DELOAD — 3-Set Pyramid at 75)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "8 / 6 / 8",
+          "notes": "**LOAD:** 75/side (HOLD — no push, this is a deload). **DELOAD: 3 sets as a pyramid — 8, then 6, then 8.**\n\n**Why the pyramid** (W12D5 discovery): the user self-pyramided W12D5 to 10/6/6/8 and found **fewer reps per set = deeper, cleaner squats + no fear of overshooting the count.** The 6-rep middle set is the one to make the deepest and cleanest — treat it as the quality set. Sets 1 and 3 at 8 bookend it.\n\n**Sharp cues only — spotlight was W10:**\n- Bar high on the upper traps (NOT the neck), upper-back shelf squeezed\n- **Brace like prepping for a punch** — deep belly breath at the top, HOLD through the descent, exhale on the drive up\n- **Hips back AND down**, not just down\n- 'Spread the floor' — screw the feet into the ground\n- Knees track over the toes\n- Sit in the bottom — same depth as W12\n- Drive through the WHOLE foot\n\n**Reflection:** does the 6-rep middle set feel like the cleanest, deepest one? If yes, that confirms the W12D5 pattern — W14 can build the pyramid out. Hold 75; the deload is not the week to chase depth-plus-load at once."
+        }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press (DELOAD — 3 Sets, 3 Plates, Full ROM)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 3 plates/side (HOLD — no plate test this week). **DELOAD: 3 sets, NOT 4.** Chase DEPTH, not load.\n\n**W12D5 framed this lift exactly right:** full ROM at 3 plates is 'a QL massage' — not hard on the leg muscles, but the deep knee-to-chest ROM works the weak core/QL at the bottom. The user's own call: **full ROM at lighter load is the way to go 'until the core muscles get untucked.'** That holds for a deload too — no 4-plate test.\n\n- **Foot position: shoulder-width, mid-foot on the platform, slight toe-out** — set before loading\n- **Press through the WHOLE foot** — heels grounded\n- **Full ROM — 'knee to chest like frogger'** (W12D5), actively pushing to keep the lower back from lifting off the pad\n- Slow descent (3s), no bounce at the bottom\n- Don't lock out hard at the top — leave a hair of bend\n- **Watch:** hips lifting off the pad at depth = too deep, back off. The hip lift IS the QL signal.\n- **Breath:** in on the descent, out on the drive"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "bulgarian-station",
+      "name": "🔆🆕 Bulgarian Split Squat (Spotlight — NEW Lift, Replaces the Walking Lunge)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "bulgarian-split-squat",
+          "equipment": "bench + light DBs (realistic default) — Smith machine preferred if free (use smith-machine-bulgarian-split-squat)",
+          "reps": "8-10 each leg",
+          "notes": "**LOAD:** Bodyweight or LIGHT DBs (10-15lb at the sides max). **DELOAD: 2 sets x 8-10 each leg. This is an INTRODUCTION — the load is not the point.**\n\n**Why this lift, now** (W12D5 user request — see `docs/notes/functional-bulk/form-cues-2026.md` W13 legs note):\n- The Bulgarian split squat **officially replaces the walking lunge** as the program's unilateral leg lift. Rear foot fixed = no travel = more controlled, a better single-leg builder, and gentler on the QL than a walking lunge. That control is exactly why it's a good deload introduction.\n- **Equipment:** Smith machine preferred (`smith-machine-bulgarian-split-squat`, guided bar path) but it's 'always taken' here — the realistic default is a flat bench for the rear foot + light DBs held at the sides.\n\n**🔆 SPOTLIGHT — drill the pattern every rep (this is the whole lift this week):**\n- **Rear foot up on the bench behind you**, laces down or toes tucked — whichever is comfortable\n- **Take a long enough forward step that the front shin stays roughly VERTICAL at the bottom** — too short a stance and the knee crashes forward past the toes\n- **Front knee tracks over the front foot** — not caving in\n- **Lower until the rear knee nearly touches the floor** — controlled, no dropping\n- **Drive up through the FRONT HEEL** — the front leg does the work; the rear leg is a kickstand for balance, not a pushing leg\n- **Torso stays TALL** — slight forward lean is fine, but no folding over\n- **2s descent, controlled** — own the bottom\n\n**Reflection — the introduction question:** which is the limiter today — balance, or strength? If it's balance/coordination (very likely on rep 1 of a new lift), stay at bodyweight and just groove the pattern. If the pattern is already stable, light DBs are fine. Either way, **do NOT chase load on a new lift in a deload week** — clean reps on both legs is the entire goal. Note any side-to-side asymmetry; that's the data for W14.\n\n**QL watch:** the Bulgarian is gentler on the QL than the walking lunge, but it's still unilateral hip work. If anything in the QL/psoas talks, drop to bodyweight or cut to 1 set — it's a new lift, no need to push it."
+        }
+      ],
+      "notes": "**🆕 First time the Bulgarian split squat is in the program.** It permanently replaces the walking lunge. Deload introduction — 2 sets, bodyweight or light DBs, form-only. The spotlight is the movement pattern; load is a W14+ conversation.",
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "calf-raise-station",
+      "name": "Calf Raise (DELOAD — 2 Sets, Deep Heel-Drop + Slow Eccentric)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": 15,
+          "notes": "**LOAD:** 3 plates/side, **double-leg, on the incline leg press machine.** **DELOAD: 2 sets, NOT 3.**\n\n**Setup (corrected W12D5 — the workout used to describe this wrong):**\n- **Balls of both feet on the BOTTOM EDGE of the platform, heels hanging off the edge.** No plate under the foot — the platform edge already gives the heel drop. This is a bottom-half-ROM movement.\n- **Both feet on the platform** — double-leg (single-leg + slow was the W10D5 trap)\n\n**Sharp cues — spotlight was W12:**\n- **Full stretch at the bottom** — let the heels drop as far below the platform edge as they'll go\n- **Drive to FULL plantarflexion at the top**\n- **3-4s eccentric** — the slow descent is the stimulus, not more weight (W12D5: 'slow count is incredibly hard')\n- **1s squeeze at the peak**, no bouncing\n- **Breath:** continuous, don't hold"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Seated Leg Curl (DELOAD — 2 Sets at 90)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "seated-leg-curl",
+          "reps": 12,
+          "notes": "**LOAD:** 90 (HOLD — W11D5/W12D5 working weight at the corrected ankle placement). **DELOAD: 2 sets, NOT 3.**\n\n**Sharp cues — spotlight was W12:**\n- **Ankles UNDER the pad** — the ankle bone is the contact point, NOT the mid-calf. The W7-W10 numbers (100-110) were on the wrong lever; 90 here is genuine hamstring work.\n- **Settings: 5/m/0/1** (verify before loading)\n- **Lap pad locked DOWN firmly** — loose pad = torso lift = lower-back work\n- **Curl the heels toward the glutes — full ROM, full squeeze**\n- **2s eccentric, 1s squeeze**\n- **Don't let the torso lift forward** — stays anchored to the seat\n- No bouncing out of the bottom"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "incline-rdl-working",
+      "name": "Incline RDL (DELOAD — 2 Sets, Dead Slow)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "incline-rdl",
+          "reps": 15,
+          "notes": "**LOAD:** 25lb plate (HOLD). **DELOAD: 2 sets, NOT 3.** Dead slow with a 2s pause at the bottom.\n\n**Sharp cues — spotlight was W10:**\n- Pad just below the hip crease (NOT the upper thigh, NOT the stomach)\n- **Hip hinge — a Romanian deadlift on the 45° bench, NOT a lumbar extension**\n- Lower back NEUTRAL throughout\n- At the bottom: stretch in the **hamstrings and glutes**, NOT the lower back\n- Drive up by squeezing the glutes and hamstrings\n- At the top: stop at neutral — past neutral = lumbar load\n- Tempo: 3s eccentric, 2s pause, 1s drive\n\n**W12D5 said extra rest between sets felt right** — keep that, even on a 2-set day."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Recovery Block (Hip/QL-Biased for Legs Day)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. The QL/psoas release move again — bookend the session with it. Scissor the legs, reach overhead, lean away from the back leg."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "45s each side. Deep hip-flexor + glute release — the long hold is what lets the QL/psoas let go (the W8 QL-spasm protocol move)."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side. Gentle twist for the QL — draw one knee across the body, opposite arm extended."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side. Front leg + back leg at 90°. Hip-rotator decompression — pulls the QL/glute pattern out of the squat bracing."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift before leaving the gym."
+        }
+      ],
+      "notes": "**5-min recovery block, permanent every-gym-day closing block (since W12D3).** On legs day it's biased toward hip/QL — the chains that take the most load from squats, leg press, and the new Bulgarian split squat. The cross-leg lateral lean opens it, child's pose closes it.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**DELOAD WEEK — hold every load, cut every exercise a set.** Squat 3 sets (not 4), leg press 3 (not 4), leg curl + incline RDL + calf raise 2 each. If a lift feels easy, that's the design.",
+    "**🆕 Bulgarian split squat is the spotlight — and a NEW lift.** It permanently replaces the walking lunge. Introduce it form-only: bodyweight or light DBs, 2 sets x 8-10 each leg. Smith machine preferred (always taken) → bench + light DBs default.",
+    "**Squat HOLDS 75/side as a 3-set pyramid (8/6/8)** — W12D5 confirmed pyramiding gives cleaner depth than flat sets. Make the 6-rep middle set the deepest, cleanest one.",
+    "**Leg press: hold 3 plates, chase DEPTH.** W12D5 — full ROM at 3 plates is 'a QL massage,' the deep ROM works the weak core/QL. No 4-plate test on a deload.",
+    "**🆕 Cross-leg lateral lean added to the warmup** — W12D5 user discovery for releasing a tight QL/psoas. Also bookends the cool-down.",
+    "**QL/psoas watchpoint.** W12D5 came in tight from the KB day. Use the warmup cross-leg lean, and abort any lift that twinges.",
+    "**Cool-down stays — 5-min block, hip/QL-biased on legs day.**",
+    "Rotation plan: W14 cycles back to squat + incline RDL spotlights.",
+    "Rest 3 min squats, 2 min leg press, 90s Bulgarian + isolations."
+  ],
+  "formPhilosophy": "Deload week — hold loads, cut sets. The squat pyramid and the leg-press depth focus are both about quality at held load. The Bulgarian split squat enters the program as a NEW lift, introduced the right way: form first, load later. A deload is the ideal week to learn a new movement pattern with nothing heavy at stake. Building decades, not weeks."
+}

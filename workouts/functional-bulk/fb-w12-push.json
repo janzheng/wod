@@ -1,0 +1,163 @@
+{
+  "id": "fb-w12-push",
+  "name": "Week 12 Push — Form-First (Spotlight: Lateral Raise + Kinesis Cable Fly)",
+  "description": "Third week of the form-first cycle. Spotlights rotate to **lateral raise + Kinesis cable fly** — the two W11D1 lifts that ran clean and have room to drill deeper. **W11D1 takeaways baked in:** chest press 165 cratered at the end (user wondered if fatigue ordering caused it — 165x10/8/3, dropped to 150x5); incline DB deloaded to 40lb (right chest/shoulder tight going in, 40 felt fairly easy); end-block all on Kinesis (cable column was occupied) — Kinesis 3 = lat raise, Kinesis 5 = tri ext, Kinesis 6 = straight-arm pulldown. W12 keeps cable column as default but locks the Kinesis fallback numbers as known-good. Equipment-consolidated layout holds.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "form-first", "spotlight-rotation", "station-focused"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Lateral raise + Kinesis cable fly in the spotlight — both ran cleanly W11D1 and have headroom to drill cues deeper. Chest press fatigue protocol: drop to 3 working sets (vs W11's 4), permission to drop to 150 anytime form breaks. Incline DB held at 40 unless the right shoulder is warm and quiet. Kinesis fallback numbers locked from W11D1.",
+    "spotlights": [
+      {
+        "exerciseId": "lateral-raise",
+        "why": "W11D1 hit 15lb x 20/20/15+5 with slow tempo getting 'hard slow' at the end — that's the right load with room to drill the cue. The W10D1 scap-reset-between-sets protocol IS the spotlight: lead-with-elbow + scap-reset-default + 2s eccentric. Drill the rep itself, not the load."
+      },
+      {
+        "exerciseId": "kinesis-cable-fly",
+        "why": "W11D1 'felt great, made shoulder feel good especially at the stretch' at Kinesis 8. The lift that helps the right shoulder is the lift to drill — soft-elbow-fixed + hug-a-tree + slow eccentric for the deep stretch. The cue is the progression."
+      }
+    ],
+    "rotationPlan": "W10 push press + incline DB · W11 chest press machine · W12 lateral raise + Kinesis cable fly (current) · W13 cable lat raise + incline tri ext + straight-arm pulldown · W14 cycle back to push press + incline DB.",
+    "watchpoints": [
+      "**Chest press fatigue ordering question** (W11D1) — user: 'really hard today, i think it was bc it was at the end?' W12 keeps the consolidated late placement (form-cues lesson: tradeoff acceptable for non-spotlight weeks) but cuts from 4 sets to 3, with explicit permission to drop 165 → 150 the moment form breaks. Test: does 3x10 at 165 feel cleaner than W11's 4-set crater?",
+      "**Right chest / right shoulder still connected and tight** (W11D1) — warmups are helping (W11 'shoulder warmer/less painful than W10'). 40lb incline DB held; only push to 45 if the right side feels warm and quiet on set 1.",
+      "**Cable column vs Kinesis** — cable column is the default; if it's occupied, the W11D1-locked Kinesis numbers are: lat raise Kinesis 3, tri ext Kinesis 5, straight-arm pulldown Kinesis 6 (≈ cable column 100). Don't re-calibrate these — they're known.",
+      "Yuri band red warmup non-negotiable. Doorframe pec stretch in the morning flow add-on."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "arm-circle",
+          "reps": "10 each direction",
+          "notes": "Slow, big circles. Wake up scap glide before loading."
+        },
+        {
+          "id": "yuris-shoulder-band-warmup",
+          "reps": 1,
+          "notes": "Full sequence with red band. Non-negotiable on push day."
+        },
+        {
+          "id": "push-up",
+          "reps": 12,
+          "notes": "Ribs down, glutes tight, body in one line. Slow eccentric, 1s pause with chest 1-2\" off the floor."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "db-rack-overhead",
+      "name": "🔆 Station 1: DB Rack — Push Press + Lateral Raise (Spotlight)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "push-press",
+          "reps": "8-10",
+          "notes": "**LOAD:** 40/side (HOLD — W11D1 hit 40 x 10/10/8, very consistent). 3 sets, 8-10 clean.\n- **Feet parallel, hip-width** — locked since W7\n- **Ribs DOWN before the dip** — catch rib flare on set 1, don't carry it into set 2\n- Shallow dip ~3-4\", straight down through the heels\n- Vertical DB path, head pokes through at the top\n- Stop the set if rib position breaks"
+        },
+        {
+          "id": "lateral-raise",
+          "reps": 20,
+          "notes": "**LOAD:** 15lb (HOLD — W11D1 hit 15 x 20/20/15+5 with the last set 'hard slow'). 3 sets.\n\n**🔆 SPOTLIGHT — drill these every set:**\n- **Lead with elbow, hand passive** — wrist follows, no wrist break. The W10D1 shooting-line came from leading with hand instead of elbow.\n- **Soft elbow ~10-15°, FIXED** through the rep — locked elbow recruits traps + stresses joint.\n- **Stop at shoulder height — never higher.** Past shoulder height = traps eat the rep, medial delt offloads.\n- **\"Pour the water out of two cups\"** at the top — slight internal rotation, pinky leads up by a hair.\n- **2s eccentric** — that's where the deltoid grows. Speed up the descent and you've lost the stimulus.\n- **Scap-reset between sets is the DEFAULT** (W10D1 protocol that worked): roll shoulders + actively engage/disengage scapula a few times. Don't wait for the crackle to show up; reset preemptively.\n- **Massage out the right pec between sets** if the shoulder starts talking — connected pattern from W10D1.\n\n**Reflection:** does set 3 feel cleaner than W11's 15+5 stop-out? The W11 'hard slow' was the right state — replicate it for all 20 reps this week, not just the last 5."
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "db-rack-bench",
+      "name": "Station 2: DB Rack — Incline Bench (Adjust Bench to 30°)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "incline-dumbbell-press",
+          "reps": "8-10",
+          "notes": "**LOAD:** 40lb pair default; **try 45 only if right shoulder is warm + quiet on set 1**, else hold 40 (W11D1 deload from 45 was the right call when the right side was tight). 3 sets.\n- **Bench at 30°**, NOT 45°. Forearm stack is automatic at 30°.\n- **Shoulders packed back AND down** — pin scaps into bench like trying to break it in half.\n- Elbows ~45° from torso\n- 1s pause at the bottom, no DB clack at the top\n\n**Set count cut from 4 to 3** to manage chest-press fatigue downstream — W11's set 4 of incline + 4 sets of chest press was where fatigue compounded. 3 here makes room for chest press at 165 with cleaner reps."
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "chest-press-machine-station",
+      "name": "Station 3: Chest Press Machine (Fatigue Test — 3 Sets, Drop to 150 If Form Breaks)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "chest-press-machine",
+          "reps": "8-10",
+          "notes": "**LOAD:** 165 (HOLD — W10D1 was the edge-of-form weight, W11D1 cratered at the end and user wondered about ordering). **3 sets, NOT 4.** Explicit permission to drop to 150 the moment form breaks — don't grind through a 3-rep set the way W11 did.\n\n**Spotlight was W11; sharp cues only:**\n- **Seat height: handles align with mid-chest / nipple line**, set BEFORE sitting\n- **Shoulders pinned BACK against the back pad** — the foundation cue\n- **3s eccentric** — count it, the W11 'huge struggle' was tempo getting rushed\n- **Press to almost extension** — leave a hair of bend, don't lock\n- **Massage out right pec between sets** (W10D1 trick) — pre-empt the referral\n\n**Set protocol:**\n- Set 1: 165 x 10 (target)\n- Set 2: 165 x 10 (target — if form breaks at rep 6-7, finish what you can clean and stop)\n- Set 3: **165 x 8-10 IF form is holding, else drop to 150 x 10 immediately.** No grinding 165x3 to honor the number.\n\n**Test question:** does 3x clean at 165 (with permission to drop to 150) feel better than W11's 4 grinding sets? If yes, the order tradeoff is acceptable. If still rough, W13 tries the spotlight-earlier reorder."
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "kinesis-station",
+      "name": "🔆 Station 4: Kinesis Cable Fly (Spotlight)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kinesis-cable-fly",
+          "reps": "10-12",
+          "notes": "**LOAD:** Kinesis 8 (HOLD — W11D1 'felt great, did all sets, made shoulder feel good especially at the stretch'). 3 sets.\n\n**🔆 SPOTLIGHT — drill these every rep:**\n- **Slight forward hinge at hips** — chest leads, NOT head. Standing fully upright = upper chest only, lose mid/lower pec.\n- **Soft elbow ~10-15°, FIXED throughout** — these are NOT bicep curls, the elbow doesn't move through the rep. Elbow angle changing = becomes a press.\n- **\"Hug a tree\"** — squeeze comes from the chest, NOT the arms pulling together. Mental image is the difference between this lift working and not.\n- **Stop a fistwidth apart at the top** — don't crash the handles. Last few inches are arm work, not chest. The squeeze peaks before contact.\n- **Slow eccentric (~3s)** — let the cables pull the arms back, get the deep pec lengthen. This is where the lift earns its keep.\n- **Stretch is the stimulus** — W11D1 'shoulder felt good especially at the stretch.' That's the lift telling you what to drill.\n- **Breath:** out on squeeze, in on stretch.\n\n**Reflection:** at set 3, is the squeeze coming from the chest or has it shifted to the arms? When the arms take over, the lift stops working — that's the cue to stop the set, not push through."
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "cable-column-block",
+      "name": "Station 5: Cable Column Block (Lat Raise → Tri Ext → Straight Arm Pulldown)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "cable-lateral-raise",
+          "equipment": "cable column (default) — Kinesis 3 fallback if column is occupied",
+          "reps": 12,
+          "notes": "**LOAD:** cable column ~30-40lb (form-first range). **Kinesis fallback (W11D1 calibration): Kinesis 3 ≈ 30 cable equivalent.** 3 sets per side, one arm at a time.\n- Stand sideways to the column, working arm farther from the stack\n- Soft elbow ~10°, fixed throughout\n- Lead with elbow, hand passive\n- Stop at shoulder height — higher = traps\n- Fight the cable on the way down, no snap-back\n- **Massage right pec between sets** — kills the crackle (W10D1 protocol)\n- **Skip 'run line behind body' cue** — doesn't apply at this gym's geometry"
+        },
+        {
+          "id": "incline-cable-overhead-tricep-extension",
+          "equipment": "cable column kneeling (default) — Kinesis 5 fallback if column is occupied",
+          "reps": "10-12",
+          "notes": "**LOAD:** cable column kneeling — find the working number. **Kinesis fallback (W11D1 calibration): Kinesis 5 (4 was too easy).** 3 sets.\n- Kneel facing AWAY from the high pulley, rope overhead\n- Torso slightly forward — that's the 'incline'\n- **Elbows pinned**, only forearms move\n- Hands shoulder-width on rope (long-head emphasis)\n- Full stretch at the bottom, stop just shy of lockout, slow eccentric"
+        },
+        {
+          "id": "straight-arm-pulldown",
+          "equipment": "cable column (default) — Kinesis 6 ≈ 100 cable column fallback",
+          "reps": 12,
+          "notes": "**LOAD:** cable column 100 (HOLD — W10D1 working number). **Kinesis fallback (W11D1): Kinesis 6 ≈ cable column 100** (user calibration: 'machine not linear, this feels like 100'). 3 sets.\n- Stand a step back, hinge ~15° at hips\n- Slight elbow bend (5°), fixed throughout — perfectly straight = elbow risk\n- **Pull bar to thighs, NOT past** — past = shoulders roll forward, lats off\n- Squeeze lats hard at bottom — 'oranges into back pockets'\n- Slow controlled return to full overhead stretch"
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Spotlights: lateral raise + Kinesis cable fly.** Both ran clean W11D1; the cue is the progression at held loads.",
+    "**Lateral raise scap-reset is the DEFAULT** — don't wait for crackle, reset between every set.",
+    "**Kinesis cable fly: drill the stretch + hug-a-tree squeeze.** W11D1 said the right shoulder felt better at the stretch — that's the lift telling you what to drill.",
+    "**Chest press fatigue test:** 3 sets at 165, NOT 4. Permission to drop 150 the moment form breaks. No 3-rep grinding sets.",
+    "**Incline DB held at 40** (W11 deload was correct); only push to 45 if right shoulder is warm + quiet on set 1.",
+    "**Kinesis fallback numbers locked from W11D1** — lat raise 3, tri ext 5, straight-arm pulldown 6. Don't recalibrate; defer to cable column when free.",
+    "**Right pec massage protocol** — kills the crackle on chest press + cable lat raise. Pre-empt, don't react.",
+    "Yuri band red warmup non-negotiable. Doorframe pec stretch in morning flow add-on.",
+    "Rotation plan: W13 cable lat raise + incline tri ext + straight-arm pulldown · W14 cycle back to push press + incline DB.",
+    "Rest 2 min DB rack work, 2.5 min chest press, 75s cables."
+  ],
+  "formPhilosophy": "Form-first base-building, week 3 of the cycle. Lifts that ran clean W11D1 (lateral raise, Kinesis cable fly) get the deep cue treatment. Lifts that struggled (chest press) get a structural fix — fewer sets, explicit drop-down protocol. The cue is still the progression. Building decades, not weeks."
+}

@@ -1,0 +1,149 @@
+{
+  "id": "fb-w13-kb-cond",
+  "name": "Week 13 KB Conditioning — Heal Week, Full Variety (Spotlight: Bent Press) + Figure-8 + NEW Controlled-Power Flow",
+  "description": "W13 is a shoulder-heal week; this KB day is **now on Saturday** (moved from Thursday — see the schedule change). It keeps **full variety, not trimmed** — KB flow work isn't the fatigue source. **Spotlight cycles back to bent press** per the rotation tracker — it rested W12, returns as a leverage-cue refresh. **The figure-8 → tactical clean flow stays** — a big W12D4 hit ('strength + cardio + very entertaining'). **NEW: a controlled-power flow block** (@metabolicfactor — around-body pass → side swing → high pull → goblet squat): flowy, passing-based (a cousin of the figure-8), non-overhead, the 'metabolism going' conditioning feel. **W12D5 lesson:** the figure-8 done 'more than written' tightened the QL — keep the dose honest. Legs day is now the day BEFORE this (Friday), so go easy on the loaded squatting in the flows. TGU + windmill are maintenance.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "spotlight-rotation", "deload"],
+  "estimatedDuration": 33,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "beginner",
+  "dayOverview": {
+    "theme": "Shoulder-heal week, KB day on Saturday now — full variety kept. Bent press cycles back to spotlight (leverage refresh). Figure-8 flow stays + a NEW controlled-power flow block adds fresh conditioning variety. Legs was yesterday — keep loaded squatting in the flows light. TGU + windmill maintenance.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-bent-press",
+        "why": "Cycles back to spotlight per the tracker (rested W12). W10 was its first spotlight — the leverage unlock: the body goes DOWN, the bell barely moves. W13 refreshes that cue at a light load. A deload Thursday is the ideal low-stakes week to re-groove a skill lift."
+      }
+    ],
+    "rotationPlan": "W11 windmill mechanics · W12 TGU left-side checkpoints · W13 bent press (current, DELOAD refresh) · W14 cycle forward — figure-8 flow stays in rotation, windmill/TGU rotate as needed.",
+    "watchpoints": [
+      "**W13 is a shoulder-heal week — this KB day keeps FULL variety, now on Saturday.** The heal is in held loads, not a shortened session. Skill + flow + conditioning, no load chasing.",
+      "**Keep the dose honest on the flows.** W12D4 the user did the figure-8 'more than written' (to music) and the QL came in 'extremely tight' the next day. Legs was YESTERDAY (Friday) now — the QL is already worked, so go easy on the loaded squatting in the controlled-power + OTD flow blocks.",
+      "**TGU is a STRAIGHT-ARM lift** — straight-arm overhead lockout, no rack hold during the get-up. Both sides feel fine now (W12D4), so this is maintenance, not rehab.",
+      "**Right shoulder watch on the figure-8 clean catch** — same crackly pattern as push days. If anything talks during the catch, drop to figure-8 passes only (no clean) and finish the round.",
+      "**Go easy on loaded squatting — legs was yesterday.** This Saturday KB day is a recovery flank for the legs; keep the goblet squats and flow squats light and controlled."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band overhead OR blue rope band gripped in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Press out to a T — fires rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Pull apart at the sternum, scaps retract, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep the arms back. Don't overarch." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge — directly preps the bent press." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y overhead. Hold and breathe — lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "OTD Flow (Light Groove)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "notes": "Bell starts on the floor between the feet, hips drive the lift, catch in the rack with the knees slightly bent." },
+        { "id": "kettlebell-front-squat", "notes": "Goblet/rack position. Sit tall, full depth, no bouncing." },
+        { "id": "kettlebell-lateral-lunge", "notes": "Stride out wide, sit into the working leg, keep the other leg long. Mobility, not strength." },
+        { "id": "kettlebell-tactical-clean", "notes": "Control on the way down — bell to the floor as cleanly as it came up." }
+      ],
+      "notes": "**This is a continuous FLOW, not separate stations.** Move through the chain as one — dead clean → front squat → lateral lunge → tactical clean — letting each move feed the next, then switch sides and flow back. About 2 reps' worth at each move, but don't stop to count — let the rhythm carry it. 20lb throughout, 2 rounds. Deload + light groove — should feel effortless.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "🔆 Skill Drilling (Bent Press Spotlight + TGU + Windmill)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-bent-press",
+          "reps": "4 each side",
+          "notes": "**LOAD:** 25lb (HOLD — the home-base skill weight; deload, no push). 2 rounds, ~4 reps each side.\n\n**🔆 SPOTLIGHT — refresh the leverage cue (W10's unlock):**\n- **The body goes DOWN; the bell barely moves.** This is the whole lift. It is NOT a press — you don't push the bell up, you lower your body underneath a bell that stays roughly where it is.\n- **Bell locked overhead, eyes track the bell** the entire rep\n- **Hinge and rotate AWAY from the bell side** — the same lateral-hinge family as the windmill\n- **Reach the free hand down toward the inside of the front foot** as the torso lowers\n- **Long spine throughout** — the bend is at the hip, not a crunch of the spine\n- **Slow and deliberate** — bent press is a skill lift, fluidity over speed\n\n**Reflection:** does the 'body down, bell still' feeling click this round, or are you still pressing the bell? If it still feels like a press, slow down and lighten — a deload Thursday is the perfect low-stakes week to re-find the leverage."
+        },
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "1 forward + 1 reverse per side",
+          "notes": "**LOAD:** 25lb (light — maintenance, both sides feel fine now per W12D4). 2 rounds.\n- **Straight-arm overhead lockout** — punch the bell up, arm stays locked vertical the whole way; no rack hold during the get-up\n- Eyes ON the bell every checkpoint\n- Pause at every checkpoint — no rushing, the reverse is half the lift\n- Hip bridge: glute squeeze, ribs down"
+        },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 18-20lb (light — maintenance after its W11 spotlight). 2 rounds.\n- Bell locked overhead, eyes track the bell\n- **Hip hinge AWAY from the bell side**\n- **Stretch lives in the back leg's hip flexor, NOT the lower back**\n- Slow descent, brief pause, controlled return"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 30
+    },
+    {
+      "id": "figure-8-tactical-clean-flow",
+      "name": "Skill Block: Figure-8 → Tactical Clean (Stays in Rotation — PRESCRIBED Dose Only)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "duration": 60, "notes": "**LOAD: 12kg (26lb) only.** 2 rounds of 60s continuous flow.\n\n**The figure-8-tactical-clean is ONE compound move** — the figure-8 pass exits into a clean to rack, repeated alternating sides:\n- START in the hike position (bell between the legs, hinged at the hips)\n- **Figure-8 → exit into a tactical clean to rack** — pass between the legs, hand catches BEHIND, the pull becomes the clean\n- Lower the bell back through the hike position; the next pass switches sides\n- Continue alternating for the full 60s\n\n**Cues:**\n- **The figure-8 EXITS into the clean** — the bell does not return to a hand mid-pass; the catch becomes the clean\n- **Tactical clean = controlled, threaded into the rack** — no yank, no forearm slam\n- **Hike is home base** — every transition resets through hike\n- **Right shoulder watch on the rack catch** — if it talks, drop to figure-8 passes only and finish the round\n\n**⚠️ DOSE DISCIPLINE — do the prescribed 2 rounds, NOT more.** W12D4 the user did this flow 'more than written' (to music) and W12D5 came in with the QL/psoas 'extremely tight.' The flow is fun — that's the trap. 2 rounds is the dose. Legs was yesterday — the QL is already worked, no need for bonus rounds." }
+      ],
+      "notes": "Figure-8 flow stays in rotation (W12D4 confirmed it lands well). 2 rounds at 12kg, ~3 min work + rest. The discipline this week is doing the prescribed dose and stopping — the W12D5 QL tightness traced straight back to bonus rounds here.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "controlled-power-flow",
+      "name": "🆕 Controlled-Power Flow (@metabolicfactor — NEW, Non-Overhead Conditioning)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": "10 each direction", "notes": "Pass the bell around the body, hand to hand — the passing-flow cousin of the figure-8. Stand tall, ribs down, let the bell travel smoothly." },
+        { "id": "kettlebell-side-swing", "reps": "15 each side", "notes": "One-arm swing out to the side on a diagonal — hips drive it, not the arm. Stay light." },
+        { "id": "kettlebell-high-pull", "reps": 15, "notes": "Hinge-driven pull — elbow leads high, bell to upper chest. Sub-overhead, no pressing out at the top." },
+        { "id": "kettlebell-goblet-squat", "reps": 12, "notes": "Bell at the chest, full depth, sit tall. **Legs were yesterday — keep these light and controlled.**" }
+      ],
+      "notes": "**🆕 NEW — @metabolicfactor controlled-power circuit, added W13 for fresh variety.** Around-body pass → side swing → high pull → goblet squat, flowing continuously, 2 rounds. **Non-overhead and passing-based** — the flowy 'metabolism going' feel you liked from the figure-8, with no overhead pressing to tax the healing shoulder. Single light bell (~20-26lb). Keep the goblet squats light — legs were yesterday.",
+      "restBetween": 45,
+      "restAfter": 45
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the TGU hip bridge + lateral lunge work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from the lateral lunges + figure-8 stance." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**W13 is a shoulder-heal week — this KB day keeps full variety, now on Saturday.** Skill + flow + conditioning; the heal is in held loads, not a shortened session.",
+    "**Spotlight: bent press** — refresh the leverage cue (body goes DOWN, bell barely moves). A heal week is a low-stakes window to re-groove a skill lift.",
+    "**Figure-8 flow stays — keep the dose honest.** W12D4's bonus rounds tightened the QL the next day. 2 rounds is the dose; fun is the trap.",
+    "**🆕 NEW: controlled-power flow** (@metabolicfactor — around-body pass → side swing → high pull → goblet squat). Non-overhead, passing-based — fresh variety in the figure-8 family.",
+    "**TGU is a STRAIGHT-ARM lift** — straight-arm overhead lockout, no rack hold during the get-up. Maintenance this week — both sides feel fine.",
+    "**Right shoulder watch on the figure-8 rack catch** — drop to passes only if it talks.",
+    "**Legs was yesterday** — go easy on loaded squatting in the flows; this Saturday KB day is a recovery flank for the legs.",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W14 cycles forward — figure-8 flow stays, windmill/TGU rotate as needed."
+  ],
+  "formPhilosophy": "Shoulder-heal week, KB day on Saturday — full variety kept, not a shrunken session. Skill + flow + conditioning: bent press leverage, the figure-8 flow, the new controlled-power circuit. The heal is in held loads and managed overhead volume. The discipline is dosing the flows honestly — a fun flow is the easiest thing to overdo."
+}

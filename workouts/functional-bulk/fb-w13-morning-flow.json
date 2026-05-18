@@ -1,0 +1,90 @@
+{
+  "id": "fb-w13-morning-flow",
+  "name": "W13 Morning Flow — Bodyweight Spine + Hip (All Days, Deload-Week Variety)",
+  "description": "15 min bodyweight floor flow — **universal W13 morning flow, used every training day** (Mon push / Tue KB / Wed pull / Thu KB / Fri legs). Same three-part shape as W11/W12 with rotated moves for variety. Morning flows are already low-fatigue, so they stay unchanged in intensity through the deload — only the move selection rotates. Three-part: spine primer → bodyweight work → deep stretch arc. Day-specific therapeutic add-on at the end (push = pec-minor protocol; pull = dead hang + scap pull; legs = pigeon + supine twist + the new cross-leg lateral lean; KB days skip — banded prep covers it).",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "thoracic", "hips", "morning", "bodyweight", "home", "spine", "scorpion-family", "variety", "deload"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "primer",
+      "name": "Primer — Wake the Spine (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "duration": 60, "notes": "Slow, full ROM each direction. Spine wave wakes the segment-by-segment articulation." },
+        { "id": "thread-the-needle", "duration": 60, "notes": "30s each side. Thoracic rotation + shoulder opener — reach a little further each week." },
+        { "id": "cobra-stretch", "duration": 60, "notes": "Gentle spinal extension — counters the all-day desk flexion. **Replaces W12's puppy-pose** in the primer; the extension wakes the back line." }
+      ],
+      "notes": "Spine extension swaps in for the lat-stretch opener — variety on the same wake-the-spine intent.",
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Bodyweight Activation (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "inchworm-walkout", "duration": 60, "notes": "Slow walkouts — hamstring load on the way out, plank on the way in. **Rotates back in** (W11 had it) — full-body warm in one shape." },
+        { "id": "plank-bird-dog", "duration": 45, "notes": "45s alternating. Plank with opposite arm + leg extension — anti-rotation. **Rotates back in** — different anti-rotation pattern than W12's shoulder taps." },
+        { "id": "down-dog-knee-to-head", "duration": 45, "notes": "45s alternating. From down-dog, draw one knee toward the forehead, hold a beat, switch. **Stays** — the core+hip+shoulder integration earns its place." },
+        { "id": "spiderman-plank", "duration": 45, "notes": "45s slow. **Stays** — durable hip opener under plank load." },
+        { "id": "side-plank-thread-needle", "duration": 60, "notes": "30s each side. **Stays** — the windmill on the floor, the lateral-hinge cue translation." }
+      ],
+      "notes": "Inchworm + bird-dog rotate back in for variety. Anti-rotation gets a different shape than W12.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "scorpion-stretch", "duration": 60, "notes": "30s each side. **Stays every week** — signature spine move." },
+        { "id": "barre-fire-hydrant", "duration": 60, "notes": "30s each direction. Quadruped hip abduction — slow, full ROM." },
+        { "id": "lizard-pose", "duration": 60, "notes": "30s each side. Hip flexor + adductor + back-leg quad. Drop to elbows if accessible. **Stays** — durable hip opener." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Bodyweight, slow. **Stays every week** — mirrors the Tuesday loaded cossack." },
+        { "id": "mountain-to-pigeon-pose", "duration": 60, "notes": "30s each side. Flowing entry into pigeon. **Replaces W12's static pigeon** — the flowing version for variety; the hip release still lands." },
+        { "id": "frog-pose-pulses", "duration": 60, "notes": "60s slow pulses. Adductor + hip opener. **Rotates back in** (W11 had it) — gentle pulsing release." }
+      ],
+      "notes": "Continuous arc — flow between shapes, breathe deeply. Anchors stay (scorpion, cossack, lizard); pigeon + adductor work rotate for variety.",
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "day-specific-addon",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 90, "notes": "**📍 PUSH DAYS — KEY PROTOCOL MOVE.** 30s each at LOW / MID / HIGH elbow positions. Arm bent 90°, forearm on the door frame, step through and rotate the torso AWAY. Desk work continuously re-tightens pec minor — daily." },
+        { "id": "prone-y-raises", "reps": 10, "notes": "**📍 PUSH DAYS** — active side of the pec-minor fix. Lower trap + rotator cuff." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "**📍 PUSH DAYS** — serratus activation, helps unstick a tight pec minor." },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "**📍 PUSH DAYS (optional)** — slow rotator cuff work. Add if the shoulder feels off — worth doing this week with the right-shoulder cluster active." },
+        { "id": "wall-angel", "reps": 12, "notes": "**📍 PUSH DAYS (optional)** — pins the shoulder blades in the corrected position." },
+        { "id": "dead-hang", "duration": 25, "notes": "**📍 PULL DAYS** — 25s. Decompress the shoulders, warm the grip." },
+        { "id": "scapular-pull", "reps": 10, "notes": "**📍 PULL DAYS** — scapulae retracting only, no elbow bend. Crisp scap engagement before loaded pulls." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "**📍 LEGS DAYS — 🆕 NEW (W12D5 user discovery).** 30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — QL/psoas release. Do this before heading to the gym; it's also in the legs-workout warmup." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "**📍 LEGS DAYS — W8 QL-SPASM PROTOCOL.** 90s each side. The long hold is what lets the QL/psoas release. **Non-negotiable on legs day.**" },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "**📍 LEGS DAYS** — 60s each side. Gentle twist for the QL. Lacrosse-ball QL roll above the iliac crest beforehand if available." }
+      ],
+      "notes": "**Pick today's day-specific protocol — push / pull / legs.** ~3-5 min total. KB days (Tue/Thu) skip this block — the in-workout banded prep covers the equivalent.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Same shape as W11/W12, rotated moves.** Morning flows are low-fatigue — they stay unchanged in intensity through the deload, only the move selection rotates.",
+    "**15 min main flow + 3-5 min day-specific add-on** — universal across W13 (Mon push / Tue KB / Wed pull / Thu KB / Fri legs).",
+    "**Scorpion + cossack BW + lizard pose stay every week** — durable spine + hip + adductor anchors.",
+    "Cobra, inchworm, bird-dog, mountain-to-pigeon, frog pulses rotate in this week for variety.",
+    "**🆕 Legs-day add-on now includes the standing cross-leg lateral lean** — the W12D5 QL/psoas release move, now official.",
+    "**Day-specific add-on at the end** — push days do the pec-minor protocol, pull days do dead hang + scap pull, legs days do the cross-leg lean + 90s pigeon + supine twist. KB days skip the add-on.",
+    "If short on time: scorpion + lizard + cossack BW + mountain-to-pigeon, plus today's day-specific add-on."
+  ],
+  "formPhilosophy": "Same as W11/W12 — variety means different shapes hitting the same patterns. Scorpion-family spine work + hip openers + adductor stretches. Morning flows don't deload (they're already low-fatigue); they just rotate moves to stay interesting. Designed for home, structured around the in-workout banded prep's logic."
+}

@@ -117,7 +117,7 @@
     "day": 3,
     "workoutId": "fb-w7-pull",
     "date": "2026-04-09",
-    "notes": "Pull day — form check week. Pull-ups mixed grip positions (climber handles, wide, straight) = 32 total. Preacher was taken so did concentration curls on incline bench instead — surprisingly similar feel at 25lb. DB rows on bench this time: 80x10 (up from 80x7 last week!) with better bracing, slow and controlled. Chest supported row at 40 felt good. Lat pulldown 170 too heavy for slow/controlled — backed to 160. Cable row 130 but weird pulley slippage when going slow. Face pulls 50x20 slow were hard. Found the high cable bicep curl machine — dual pulley, 50-60 range, better isolation without full lockout. Cable crunch: 50 and 60 way too easy, 110 is the base. Workout getting long.",
+    "notes": "Pull day — form check week. Pull-ups mixed grip positions (climber handles, wide, straight) = 32 total. Preacher was taken so did incline DB curls instead — surprisingly similar feel at 25lb. DB rows on bench this time: 80x10 (up from 80x7 last week!) with better bracing, slow and controlled. Chest supported row at 40 felt good. Lat pulldown 170 too heavy for slow/controlled — backed to 160. Cable row 130 but weird pulley slippage when going slow. Face pulls 50x20 slow were hard. Found the high cable bicep curl machine — dual pulley, 50-60 range, better isolation without full lockout. Cable crunch: 50 and 60 way too easy, 110 is the base. Workout getting long.",
     "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
     "exercises": [
       {
@@ -127,10 +127,11 @@
         "notes": "32 total. Mixed grip positions — climber handles, wide bar, normal bar. Not as strong as W6's 36 but different grips = different stimulus. Slow dead hangs on set 3 were brutal. Not a great pull-up day but still clean sets."
       },
       {
-        "id": "concentration-curl",
+        "id": "incline-curl",
         "sets": ["25 x10 each", "25 x8+2 assisted", "25 x6+2 assisted"],
         "workingWeight": 25,
-        "notes": "SWAPPED from preacher curl (taken). Incline bench concentration curls. 25lb each side. Surprisingly similar feel to preacher — strict isolation, no cheating. Assisted last 2 reps with other hand on sets 2-3. Great alternative when preacher is taken."
+        "swappedFor": "preacher-curl",
+        "notes": "SWAPPED from preacher curl (taken). Incline DB curls — back against incline bench, 25lb each side. Surprisingly similar feel to preacher — strict isolation, no cheating. Assisted last 2 reps with other hand on sets 2-3. Great alternative when preacher is taken."
       },
       {
         "id": "dumbbell-row",
@@ -189,7 +190,7 @@
     "day": 5,
     "workoutId": "fb-w7-legs",
     "date": "2026-04-11",
-    "notes": "Legs day — form check week finale. Squats solid including 80/side on last set! Felt good, almost easy, good ROM. Thinking about pyramiding to 80 faster. Back extensions at 25lb: TORCHED hamstrings, dead slow with 2s pause, completely different from RDL — hamstrings are doing all the work. Leg press dropped from 6 plates to 4 plates for FULL ROM — way deeper, engaging hidden muscles, caught on safety and adjusted. Super slow deep reps are brutally hard in a breathing/straining way not muscle-straining way. Lunges extremely hard — deeper everything plus back extensions made bracing impossible. Skipped D4 KB.",
+    "notes": "Legs day — form check week finale. Squats solid including 80/side on last set! Felt good, almost easy, good ROM. Thinking about pyramiding to 80 faster. Incline RDL at 25lb: TORCHED hamstrings, dead slow with 2s pause — hamstrings are doing all the work. Leg press dropped from 6 plates to 4 plates for FULL ROM — way deeper, engaging hidden muscles, caught on safety and adjusted. Super slow deep reps are brutally hard in a breathing/straining way not muscle-straining way. Lunges extremely hard — deeper everything plus the incline RDL made bracing impossible. Skipped D4 KB. **(Naming: this lift was prescribed as 'back extension' through W10; user flagged W11D5 that it's incline RDL on the 45° bench. Exercise ID corrected to `incline-rdl` here for consistency.)**",
     "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
     "exercises": [
       {
@@ -199,10 +200,10 @@
         "notes": "80/side on last set felt good — almost easy (wasn't, but confident). Good ROM on all sets. Form check week confidence is real. Thinking about pyramiding to 80 faster next time instead of 3 sets at 75 first."
       },
       {
-        "id": "45-degree-back-extension",
+        "id": "incline-rdl",
         "sets": ["25lb x15 (dead slow, 2s pause)", "25lb x15 (sweating hard)", "25lb x15 (hamstrings completely dead, barely got off machine)"],
         "workingWeight": 25,
-        "notes": "HOLY SHIT. 25lb plate, dead slow, 2s pause at top. Feels NOTHING like RDL — hamstrings doing all the work, no back compensation. Sweating hard. Third set: hamstrings completely torched, no ROM problem but could barely get off the machine. Keep these for a while. Can probably go up in weight but likes dead slow form at 25 first."
+        "notes": "HOLY SHIT. 25lb plate, dead slow, 2s pause at top. Hamstrings doing all the work, no back compensation. Sweating hard. Third set: hamstrings completely torched, no ROM problem but could barely get off the machine. Keep these for a while. Can probably go up in weight but likes dead slow form at 25 first."
       },
       {
         "id": "seated-leg-curl",
@@ -227,7 +228,7 @@
         "id": "dumbbell-lunge",
         "sets": ["40lb x10 each x3 (extremely hard)"],
         "workingWeight": 40,
-        "notes": "Extremely hard — deeper everything plus back extensions made bracing nearly impossible. Feel like a noodle. The finisher is doing its job. Stay at 40."
+        "notes": "Extremely hard — deeper everything plus the incline RDL made bracing nearly impossible. Feel like a noodle. The finisher is doing its job. Stay at 40."
       }
     ]
   }

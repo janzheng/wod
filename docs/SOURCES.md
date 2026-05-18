@@ -74,12 +74,14 @@ Tracks where exercises, workouts, and programs come from.
 - **Workouts:** kb-core-library, kb-legs-circuit (inspired by)
 
 ### @sculptherbody (X/Twitter)
-- **What:** Kettlebell lunge/press variations + bodyweight abs circuit
+- **What:** Kettlebell lunge/press variations + bodyweight abs circuit + seated banded shoulder mobility flow
 - **Import status:** COMPLETE
-- **Exercises with media:** kettlebell clean-and-press, reverse-lunge-swing, split-stance-pass-through, lunge-snatch, lunge-clean-to-press, lunge, pointed-toe-pedaling-crunch, reverse-plank-knee-tuck
+- **Exercises with media:** kettlebell clean-and-press, reverse-lunge-swing, split-stance-pass-through, lunge-snatch, lunge-clean-to-press, lunge, pointed-toe-pedaling-crunch, reverse-plank-knee-tuck, seated-banded-overhead-pull-apart, seated-banded-behind-neck-pulldown, seated-banded-t-raise, seated-banded-chest-pull-apart, seated-banded-reverse-fly, seated-banded-diagonal-reach, seated-banded-overhead-v-hold
 - **Exercises existing (media added):** alternating-leg-raise
-- **Workouts:** killer-abs-core-circuit
-- **URLs:** https://x.com/sculptherbody/status/2026983176472576368 (abs circuit)
+- **Workouts:** killer-abs-core-circuit, fb-banded-shoulder-flow
+- **URLs:**
+  - https://x.com/sculptherbody/status/2026983176472576368 (abs circuit)
+  - https://x.com/sculptherbody/status/2048273465661120547 (seated banded shoulder flow, captured 2026-04-26)
 
 ### @gymfiesta (X/Twitter)
 - **What:** Kettlebell exercise demos
@@ -122,6 +124,16 @@ Tracks where exercises, workouts, and programs come from.
 - **Import status:** COMPLETE
 - **Exercises with media:** kettlebell tactical-clean, lateral-lunge, bent-press, front-squat, dead-clean
 - **Workouts:** kb-flow-dead-clean-press
+
+### @kettleclubfam (Facebook)
+- **URL:** https://www.facebook.com/reel/2784846568518362
+- **What:** Figure-8 → Tactical Clean complex — single-bell hand-switching flow where the figure-8 pass exits into a clean to rack. From the kettleclubfam program.
+- **Import status:** COMPLETE (W12D3 user request — wanted "traditional KB flow, dance-like, passing through legs")
+- **Captured:** 2026-05-14
+- **Format:** 4 ascending-weight / descending-time sets (2:00 @ 12kg, 1:30 @ 16kg, 1:00 @ 20kg, 0:30 @ 24kg, rest 1:00). Both sides per set.
+- **Workouts:** kb-figure-8-tactical-clean-complex (standalone, full pyramid) + light version slotted into fb-w12-kb-cond as the W12D4 skill block
+- **Exercises used (existing):** kettlebell-figure-8, kettlebell-tactical-clean, kettlebell-halo, kettlebell-around-body-pass, kettlebell-swing
+- **Notes:** Source workout video extraction pipeline (video-workout-extract) was broken (python/runCode registry issue) — workout file was built manually from user-provided description. May want to re-run extraction later for media metadata + confidence scores when the pipeline is fixed.
 
 ### @whoisthismommy (X/Twitter)
 - **URL:** https://x.com/whoisthismommy/status/2024684639382855931

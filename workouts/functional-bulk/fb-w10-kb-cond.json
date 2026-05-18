@@ -1,0 +1,113 @@
+{
+  "id": "fb-w10-kb-cond",
+  "name": "Week 10 KB Conditioning — Skill Drill + Mobility (Light, Form-First)",
+  "description": "Thursday is the lightest day of the program — by design. Recovery flank between Wed pull and Fri legs. Drill Tuesday's cues at low load, refine what was clunky, groove what clicked. **Spotlight: bent press** (lateral hinge mechanics — the leverage cue from W7 takes weeks to make automatic). 20 min, zero leg loading, no swings, no C&P, no goblet squats. Heaviest bell touched: 25lb. Should feel effortless. Ends with a hip-and-adductor cooldown — hips get tight on KB days.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "return-week"],
+  "estimatedDuration": 23,
+  "equipment": ["kettlebell", "mini-band"],
+  "difficulty": "beginner",
+  "dayOverview": {
+    "theme": "Thursday is recovery + skill drilling, NOT a workout. Drill Tuesday's cues at low load. Should leave you fresher, not more cooked.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-bent-press",
+        "why": "Bent press is mechanically the most technique-dense KB lift — lateral hinge + overhead load + eye-track + leverage press. The W7 click ('groove the path') needs weeks of light reps to become automatic. Drill it here at 18-20lb where the brain can pay attention to the cues, not the load."
+      }
+    ],
+    "rotationPlan": "W10 bent press · W11 windmill mechanics · W12 TGU left-side checkpoints · W13 cycle back. Thursday is always lighter than Tuesday's spotlight.",
+    "watchpoints": [
+      "**Zero leg loading.** No swings, no C&P, no goblet squats, no lunges. Legs day is tomorrow.",
+      "If anything feels heavy, the load is wrong. Pull weight or skip the block.",
+      "Boring is the goal. Don't innovate on light skill day — same blueprint as W7-W8 with cleaner cues.",
+      "5 hard days/week = injury. Thursday MUST stay light, even if you feel fresh."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener — that's it." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (Scap Activation, ~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Heels tucked, mini-band overhead, hands wider than shoulders. **Sustained tension** — primes scap upward rotation for bent press + TGU." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Pull band down behind head — **elbows drive to ribs**, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Band wraps the upper back. **Press out to T** — fires rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Band at sternum, **pull apart, scaps retract**, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep arms further back. **Don't overarch** the lower back." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Half-windmill with band — **primes the bent press lateral hinge cue** (today's spotlight)." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in V/Y overhead. **Hold and breathe** — lower traps fire here." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Scap + rear delt activation before the bent press spotlight + skill work. Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "OTD Flow (Light Groove)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": "2 each side", "notes": "**LOAD:** 20lb. Light and smooth.\n- Bell starts on the floor between feet\n- **Hips drive the lift**, not the arm\n- Catch in rack with **knees slightly bent** (Tuesday's spotlight cue)" },
+        { "id": "kettlebell-front-squat", "reps": "2 each side", "notes": "Goblet/rack position. **Sit tall**, full depth, no bouncing. Same depth as gym squats — find the floor of the squat." },
+        { "id": "kettlebell-lateral-lunge", "reps": "2 each side", "notes": "Stride out wide, **sit into the working leg**, keep the other leg long. Working leg's hip in external rotation. Mobility, not strength." },
+        { "id": "kettlebell-bent-press", "reps": "2 each side", "notes": "**Tuesday's spotlight cue** — see Skill Drilling block below for the full pattern. Light groove here." },
+        { "id": "kettlebell-tactical-clean", "reps": "2 each side", "notes": "**Control on the way down** — bell to floor with the same cleanness as the way up. The tactical clean's whole point is the controlled descent." }
+      ],
+      "notes": "20lb, 2 reps each side x 2 rounds. Should feel effortless throughout.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "🔆 Skill Drilling (Bent Press Spotlight)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-bent-press",
+          "reps": "3 each side",
+          "notes": "**LOAD:** 18-20lb (light to keep the cues clean, NOT 25). 2 rounds (not 3 — keep it skill-day light).\n\n**🔆 SPOTLIGHT — drill these every rep:**\n- **Bell starts in rack, eye on bell throughout** — the head turn IS part of the lift\n- **Lateral hip hinge AWAY from bell side** — push the hip out sideways, knee soft on bell side\n- **Spine stays long** — this is a *lateral hinge with overhead load*, NOT a side bend. If you feel the lower back compress, you're side-bending.\n- **Press up by moving body DOWN, not by pushing bell UP** — the press is mostly leverage. The bell barely moves; your body changes shape under it.\n- Slow descent, controlled return to rack — no slam\n- **Free hand:** can drift to inside of front foot for counterbalance, but the bell-side stays vertical\n\n**Reflection:** does the lateral hinge feel like a hinge, or are you side-bending? Side-bending = lower back load. Hinging = hip + glute load."
+        },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "**LOAD:** 18-20lb. Light. Same hinge family as bent press.\n- Bell locked overhead, **eye tracks the bell**\n- **Hip hinge AWAY from bell side** — same pattern as bent press\n- Reach free hand toward inside of front foot\n- **Long spine** — stretch should land in the **hip flexor of the back leg** and the hamstrings, NOT the lower back" },
+        { "id": "kettlebell-turkish-getup", "reps": "2 each side", "notes": "**LOAD:** 25lb (max bell of the day). Lighter intent than Tuesday — drill the **left side** transitions (still the weak link).\n- Pause at every checkpoint: lying → elbow → hand → hip bridge → leg sweep → lunge → stand\n- Reverse with the same discipline — the descent is half the lift\n- Left side first, get the freshest reps to the weak side" }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — KB flow + cossack + lateral lunge fries the hip flexors. This counters." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from B-stance, cossack squats, and lateral lunges. Sit, soles together, hinge forward, breathe." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**THURSDAY = SKILL + MOBILITY, NOT WORKOUT.** ~23 min, light. Recovery flank between Wed pull and Fri legs.",
+    "**NEW W10:** Seated mini-band shoulder prep added after the halo warmup (@sculptherbody flow). 7 positions, ~3 min, sustained tension. Primes the bent press lateral hinge spotlight.",
+    "**Zero leg loading.** No swings, no C&P, no goblet squats, no lunges.",
+    "Heaviest bell: 25lb (TGU only). Most of the session at 18-20lb.",
+    "Spotlight: bent press lateral hinge. Drill the leverage cue at light load — automaticity is the goal.",
+    "Skill maintenance + Tuesday's cue refinement. If a cue from Tuesday felt off, this is when you fix it (low-stakes reps).",
+    "Cooldown is mandatory — pigeon + butterfly. Hips and adductors get tight on KB days.",
+    "Should feel effortless. If anything feels like work, you've gone too hard. Pull back."
+  ],
+  "formPhilosophy": "Light grooves are how cues become automatic. Bent press leverage takes weeks of low-load reps before the body 'gets it.' Same with TGU left-side stability. This is the day where complex skill becomes default movement — without ego, without load, without rush."
+}

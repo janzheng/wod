@@ -2228,6 +2228,33 @@
     "description": "Start on all fours with hands under shoulders and knees under hips. Lift your knees 1-2 inches off the ground while keeping your back flat. Hold this position with core engaged. Your shins should be parallel to the floor. This isometric hold builds tremendous core stability."
   },
   {
+    "id": "behind-back-dumbbell-shrug",
+    "name": "Behind-the-Back Dumbbell Shrug",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "traps",
+      "shoulders",
+      "upper-back"
+    ],
+    "equipment": [
+      "dumbbell"
+    ],
+    "tags": [
+      "isolation",
+      "upper-body",
+      "gym",
+      "traps",
+      "lower-trap",
+      "shoulders",
+      "posture",
+      "pull"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Stand with dumbbells held behind the body (palms facing back, arms straight). The behind-the-back position biases lower trap and mid trap recruitment versus the standard front-shrug variant which is more upper-trap dominant. Shrug straight up — squeeze the shoulder blades DOWN and BACK at the top, not just elevation. 2-3s hold at the top, slow controlled eccentric. Don't roll shoulders. Keep ribs down throughout. Common cue: 'pull the shoulder blades into your back pockets at the top, not up to your ears.'"
+  },
+  {
     "id": "bench-press",
     "name": "Barbell Bench Press",
     "category": "chest",
@@ -4916,6 +4943,37 @@
     "description": "A muscle-up transition drill practicing the movement from false grip pull to support/dip position. Start hanging from rings with a false grip (wrists wrapped over the rings, not palms). Pull yourself up as if doing a pull-up. As your chest reaches ring height, lean forward aggressively, rolling your hands over the rings and transitioning into the bottom of a dip position. Press up to support hold. Lower back down with control. This is the transition portion of a muscle-up, isolated for practice. Focus on the aggressive forward lean and fast hand rotation. The false grip must be maintained throughout the pull to make the transition possible. Prerequisite for ring muscle-ups."
   },
   {
+    "id": "farmer-carry",
+    "name": "Farmer Carry",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "traps",
+      "shoulders",
+      "forearms",
+      "grip",
+      "core",
+      "glutes"
+    ],
+    "equipment": [
+      "dumbbell",
+      "kettlebell"
+    ],
+    "tags": [
+      "loaded-carry",
+      "grip",
+      "traps",
+      "core",
+      "posture",
+      "full-body",
+      "finisher",
+      "gym"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Walk holding heavy dumbbells (or kettlebells) at the sides. Stand tall — ribs down, shoulders pulled DOWN and BACK (not shrugged toward ears), neck long, eyes forward. Walk in a straight line at a deliberate pace, breathing steadily. The goal is to keep the shoulder packed under load — traps engage tonically to support the joint, which is the same pattern that resolves chronic upper-trap tightness. Common cue: 'tall posture, packed shoulders, breathe.' Distance/time-based: 30-60s per set is typical for shoulder/posture work; longer walks (60-90s) when grip is the focus. Use heavy enough that grip is challenged by the end but posture stays clean."
+  },
+  {
     "id": "feet-elevated-push-up",
     "name": "Feet Elevated Push-up",
     "category": "chest",
@@ -6293,6 +6351,32 @@
     "description": "Place hands on an elevated surface like a bench, box, or sturdy chair. Perform a push-up by lowering your chest to the surface and pushing back up. Keep body straight from head to heels. Lower the surface height as you progress."
   },
   {
+    "id": "incline-rdl",
+    "name": "Incline RDL (45° Hyperextension Bench)",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "hamstrings",
+      "glutes",
+      "lower-back"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "tags": [
+      "compound",
+      "lower-body",
+      "gym",
+      "machine",
+      "hinge",
+      "hamstrings",
+      "deadlift"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Performed on the 45-degree hyperextension bench, but executed as a Romanian deadlift — not a back extension. Pad sits just below the hip crease (the hinge fulcrum). Hinge at the hips, keep the lower back NEUTRAL throughout, and feel the stretch in the hamstrings and glutes — not the lumbar. Drive up by squeezing glutes and hamstrings; stop at neutral at the top (no hyperextension). Slow eccentric (3s) with optional pause at the bottom is the core stimulus. Functionally the same machine as the 45-degree back extension, but the form intent is RDL — hip hinge, hamstring stretch, neutral spine."
+  },
+  {
     "id": "incline-row",
     "name": "Incline Row",
     "category": "back-horizontal-pull",
@@ -7380,6 +7464,52 @@
         "caption": "KB figure 8 and flow combos"
       }
     ]
+  },
+  {
+    "id": "kettlebell-figure-8-tactical-clean",
+    "name": "Kettlebell Figure 8 Tactical Clean",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "shoulders",
+      "back",
+      "grip",
+      "forearms"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "kettlebell",
+      "full-body",
+      "dynamic",
+      "skill-work",
+      "flow",
+      "hand-switch",
+      "tactical",
+      "unilateral"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "A compound kettlebell move where a figure-8 pass between the legs exits directly into a tactical clean. Start in hike position with the bell between your legs. Pass the bell through your legs in a figure-8 pattern — but instead of the pass returning to a hand, the catching hand pulls the bell up into a clean to the rack position on the opposite side. Return to hike. Switch sides via the next figure-8 pass. The hand-switch happens DURING the pass; the clean happens as the catch. Combines the dance/flow quality of the figure-8 with the strength/skill of the tactical clean catch.",
+    "media": [
+      {
+        "type": "link",
+        "value": "https://www.facebook.com/reel/2784846568518362",
+        "source": "@kettleclubfam",
+        "caption": "Single Kettlebell Complex: Figure 8 Tactical Clean (kettleclub program)"
+      }
+    ],
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2784846568518362",
+      "creator": "@kettleclubfam",
+      "capturedAt": "2026-05-14"
+    }
   },
   {
     "id": "kettlebell-figure-8-to-reverse-lunge",
@@ -12442,6 +12572,236 @@
     "description": "Lie face down with arms extended out to the sides in a T shape. Lift one leg and sweep it across your body toward the opposite hand, rotating through your lower back and hip. Keep both arms and your chest as flat to the ground as possible. Hold briefly, return, and switch sides. Great for opening the hip flexors and mobilizing the thoracic and lumbar spine."
   },
   {
+    "id": "seated-banded-behind-neck-pulldown",
+    "name": "Seated Banded Behind-Neck Pulldown",
+    "category": "mobility",
+    "type": "isolation",
+    "muscles": [
+      "lats",
+      "upper-back",
+      "rear-delts",
+      "shoulders"
+    ],
+    "equipment": [
+      "mini-band"
+    ],
+    "tags": [
+      "banded",
+      "lats",
+      "scapular",
+      "mobility",
+      "seated",
+      "morning-flow",
+      "pulldown"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Sit heels-tucked. Mini-band looped between hands, arms straight overhead. Pull the band apart while bringing it down behind the head/neck — elbows drive down toward the ribs, scaps retract and depress. Cable lat-pulldown pattern without the cable. Slow and controlled; do not crank the neck forward.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-04-26"
+    }
+  },
+  {
+    "id": "seated-banded-chest-pull-apart",
+    "name": "Seated Banded Chest Pull-Apart",
+    "category": "mobility",
+    "type": "isolation",
+    "muscles": [
+      "rear-delts",
+      "rhomboids",
+      "mid-traps",
+      "upper-back"
+    ],
+    "equipment": [
+      "mini-band"
+    ],
+    "tags": [
+      "banded",
+      "rear-delts",
+      "scapular",
+      "mobility",
+      "seated",
+      "morning-flow",
+      "pull-apart"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Sit heels-tucked. Hold a mini-band between hands at sternum height, arms straight in front. Pull the band apart, scaps retract, chest opens. Slower than the overhead version — the 'core' opener of the seated band flow. Keep ribs down to avoid overarching.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-04-26"
+    }
+  },
+  {
+    "id": "seated-banded-diagonal-reach",
+    "name": "Seated Banded Diagonal Reach",
+    "category": "mobility",
+    "type": "isolation",
+    "muscles": [
+      "lats",
+      "shoulders",
+      "side-body",
+      "obliques"
+    ],
+    "equipment": [
+      "mini-band"
+    ],
+    "tags": [
+      "banded",
+      "lats",
+      "side-body",
+      "mobility",
+      "seated",
+      "morning-flow",
+      "diagonal"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Sit heels-tucked. Hold a mini-band between hands; one arm reaches high overhead, the other reaches diagonal-out at shoulder height — band makes a slanted line from high to low. Like a half-windmill with band. Lat + side-body opener. Switch sides to balance.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-04-26"
+    }
+  },
+  {
+    "id": "seated-banded-overhead-pull-apart",
+    "name": "Seated Banded Overhead Pull-Apart",
+    "category": "mobility",
+    "type": "isolation",
+    "muscles": [
+      "shoulders",
+      "upper-back",
+      "rear-delts",
+      "lats"
+    ],
+    "equipment": [
+      "mini-band"
+    ],
+    "tags": [
+      "banded",
+      "shoulders",
+      "mobility",
+      "warmup",
+      "scapular",
+      "seated",
+      "morning-flow"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Sit heels-tucked (seiza or half-lotus). Loop a mini-band between hands, arms straight overhead, hands wider than shoulders. Pull the band apart to create steady tension overhead. Ribs down, shoulders away from ears, sustained pull (not snappy reps). Trains overhead scap upward rotation and rear delts at end-range.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-04-26"
+    }
+  },
+  {
+    "id": "seated-banded-overhead-v-hold",
+    "name": "Seated Banded Overhead V-Hold",
+    "category": "mobility",
+    "type": "isometric",
+    "muscles": [
+      "shoulders",
+      "lower-traps",
+      "lats",
+      "upper-back"
+    ],
+    "equipment": [
+      "mini-band"
+    ],
+    "tags": [
+      "banded",
+      "shoulders",
+      "lower-traps",
+      "isometric",
+      "mobility",
+      "seated",
+      "morning-flow"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Sit heels-tucked. Hold a mini-band overhead, both arms reaching high and wide into a V/Y diamond. Hold the tension at end-range while breathing. Activates lower traps and overhead scap depression — the muscles most underused in modern desk posture.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-04-26"
+    }
+  },
+  {
+    "id": "seated-banded-reverse-fly",
+    "name": "Seated Banded Reverse Fly",
+    "category": "mobility",
+    "type": "isolation",
+    "muscles": [
+      "rear-delts",
+      "rhomboids",
+      "mid-traps"
+    ],
+    "equipment": [
+      "mini-band"
+    ],
+    "tags": [
+      "banded",
+      "rear-delts",
+      "scapular",
+      "mobility",
+      "seated",
+      "morning-flow",
+      "reverse-fly"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Sit heels-tucked. From the chest pull-apart position, sweep both arms further back behind the body line. Rear delts and rhomboids drive it. Subtle move — don't overarch the lower back to chase range. Long spine, ribs stacked over hips.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-04-26"
+    }
+  },
+  {
+    "id": "seated-banded-t-raise",
+    "name": "Seated Banded T-Raise",
+    "category": "mobility",
+    "type": "isolation",
+    "muscles": [
+      "rear-delts",
+      "mid-traps",
+      "rhomboids",
+      "upper-back"
+    ],
+    "equipment": [
+      "mini-band"
+    ],
+    "tags": [
+      "banded",
+      "rear-delts",
+      "scapular",
+      "mobility",
+      "seated",
+      "morning-flow",
+      "t-raise"
+    ],
+    "difficulty": "beginner",
+    "duration": 30,
+    "description": "Sit heels-tucked. Wrap the mini-band around the upper back/shoulder blades, hold the band ends in front. Press both arms straight out to the sides into a T — band creates resistance against the rear delts and mid-traps. Palms can rotate forward. Targets the muscles that hold posture.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "creator": "@sculptherbody",
+      "capturedAt": "2026-04-26"
+    }
+  },
+  {
     "id": "seated-barbell-press",
     "name": "Seated Barbell Press",
     "category": "shoulders",
@@ -14340,6 +14700,36 @@
     "description": "Stand on a calf raise machine with shoulder pads resting on your shoulders and the balls of your feet on the platform edge. Rise up onto your toes as high as possible, squeeze at the top, then lower until you feel a full stretch in your calves. The standing position targets the gastrocnemius (outer calf)."
   },
   {
+    "id": "standing-cross-leg-lateral-stretch",
+    "name": "Standing Cross-Leg Lateral Stretch",
+    "category": "mobility",
+    "type": "stretch",
+    "muscles": [
+      "quadratus-lumborum",
+      "obliques",
+      "lats",
+      "hip-abductors",
+      "it-band"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "mobility",
+      "ql",
+      "psoas",
+      "lateral-line",
+      "hip",
+      "lower-back",
+      "warmup",
+      "cooldown",
+      "home"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Standing QL and lateral-line release. Cross one foot over in front of the other so the legs are scissored, then reach the same-side arm overhead and lean the torso AWAY from the crossed (back) leg — the stretch runs down the side of the trunk into the quadratus lumborum and the lateral hip of the back leg. Hold, breathe into the stretched side, then switch the leg cross and lean the other way. User-discovered (W12D5): crossing the legs and leaning side to side loosens a tight QL/psoas better than a square-stance side bend, because the leg cross pre-tensions the lateral hip so the lean reaches the QL directly. Common cue: 'scissor the legs, reach long overhead, lean away from the back leg — feel it from the hip up the side of the waist.' Slow, no bouncing, ~30s each side."
+  },
+  {
     "id": "standing-hamstring-stretch",
     "name": "Standing Hamstring Stretch",
     "category": "mobility",
@@ -15673,6 +16063,35 @@
     "difficulty": "advanced",
     "duration": 60,
     "description": "An advanced hanging core exercise where your toes touch the pull-up bar. Hang from a bar with arms extended and shoulders active. Initiate a slight kip by pushing the bar away and creating a small swing. As you swing back, engage your lats and core to pull your hips up while raising straight legs. Touch your toes (or shins) to the bar between your hands. Lower with control and repeat. The strict version eliminates the kip - raise legs using only core and hip flexor strength. This requires significant core compression strength, hip flexor power, and grip endurance. Master hanging leg raises and L-hangs before attempting. Common in CrossFit and gymnastics training."
+  },
+  {
+    "id": "trap-3-raise",
+    "name": "Trap-3 Raise (Prone Y at 135°)",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "lower-trap",
+      "shoulders",
+      "upper-back",
+      "rotator-cuff"
+    ],
+    "equipment": [
+      "dumbbell",
+      "incline-bench"
+    ],
+    "tags": [
+      "isolation",
+      "lower-trap",
+      "rotator-cuff",
+      "scap-stability",
+      "posture",
+      "rehab",
+      "pull",
+      "upper-body"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Lie face-down on an incline bench (~30-45°) holding light dumbbells. Arms extended toward the floor with thumbs pointing UP (external rotation). Lift the arms in a Y shape — at roughly 135° from the torso, NOT straight overhead. Raise until arms are in line with ears or slightly above, hold 1-2s at the top, slow eccentric back to neutral. The 135° angle isolates the lower trap (the underused 'trap 3' division — vs. trap 1 = upper trap, trap 2 = mid trap). Common cue: 'thumbs up, arms in a Y, lift from the SHOULDER BLADES not the hands.' Start light — 5-10lb is plenty. Lower trap is small and fatigues fast. Often prescribed for shoulder-impingement rehab, scapular dyskinesia, and chronic upper-trap dominance."
   },
   {
     "id": "tree-pose",
