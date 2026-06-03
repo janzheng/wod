@@ -190,7 +190,7 @@
     "day": 5,
     "workoutId": "fb-w7-legs",
     "date": "2026-04-11",
-    "notes": "Legs day — form check week finale. Squats solid including 80/side on last set! Felt good, almost easy, good ROM. Thinking about pyramiding to 80 faster. Incline RDL at 25lb: TORCHED hamstrings, dead slow with 2s pause — hamstrings are doing all the work. Leg press dropped from 6 plates to 4 plates for FULL ROM — way deeper, engaging hidden muscles, caught on safety and adjusted. Super slow deep reps are brutally hard in a breathing/straining way not muscle-straining way. Lunges extremely hard — deeper everything plus the incline RDL made bracing impossible. Skipped D4 KB. **(Naming: this lift was prescribed as 'back extension' through W10; user flagged W11D5 that it's incline RDL on the 45° bench. Exercise ID corrected to `incline-rdl` here for consistency.)**",
+    "notes": "Legs day — form check week finale. Squats solid including 80/side on last set! Felt good, almost easy, good ROM. Thinking about pyramiding to 80 faster. Incline RDL at 45lb: TORCHED hamstrings, dead slow with 2s pause — hamstrings are doing all the work. Leg press dropped from 6 plates to 4 plates for FULL ROM — way deeper, engaging hidden muscles, caught on safety and adjusted. Super slow deep reps are brutally hard in a breathing/straining way not muscle-straining way. Lunges extremely hard — deeper everything plus the incline RDL made bracing impossible. Skipped D4 KB. **(Naming: this lift was prescribed as 'back extension' through W10; user flagged W11D5 that it's incline RDL on the 45° bench. Exercise ID corrected to `incline-rdl` here for consistency.)**",
     "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
     "exercises": [
       {
@@ -201,9 +201,9 @@
       },
       {
         "id": "incline-rdl",
-        "sets": ["25lb x15 (dead slow, 2s pause)", "25lb x15 (sweating hard)", "25lb x15 (hamstrings completely dead, barely got off machine)"],
-        "workingWeight": 25,
-        "notes": "HOLY SHIT. 25lb plate, dead slow, 2s pause at top. Hamstrings doing all the work, no back compensation. Sweating hard. Third set: hamstrings completely torched, no ROM problem but could barely get off the machine. Keep these for a while. Can probably go up in weight but likes dead slow form at 25 first."
+        "sets": ["45lb x15 (dead slow, 2s pause)", "45lb x15 (sweating hard)", "45lb x15 (hamstrings completely dead, barely got off machine)"],
+        "workingWeight": 45,
+        "notes": "HOLY SHIT. 45lb plate, dead slow, 2s pause at top. Hamstrings doing all the work, no back compensation. Sweating hard. Third set: hamstrings completely torched, no ROM problem but could barely get off the machine. Keep these for a while. Can probably go up in weight but likes dead slow form at 45 first."
       },
       {
         "id": "seated-leg-curl",

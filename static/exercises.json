@@ -5802,7 +5802,7 @@
   },
   {
     "id": "high-cable-bicep-curl",
-    "name": "High Cable Bicep Curl (Seated)",
+    "name": "High Cable Bicep Curl (Single Arm)",
     "category": "arms-biceps",
     "type": "weights",
     "muscles": [
@@ -5822,7 +5822,7 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "Sit at a lat pulldown station with two individual handles attached to the high pulley. Grip one handle in each hand with palms facing up. Start with arms extended overhead, then curl the handles down toward your shoulders, keeping upper arms relatively stable. Squeeze biceps at the bottom, then control back up. The overhead angle emphasizes the short head of the bicep and provides constant cable tension throughout the range."
+    "description": "A single-arm high cable curl. Set a high pulley — either a cable column with a single D-handle, or a pulley/weight-stack station, whichever is free. Stand to the side of the cable with the upper arm raised out to shoulder level and parallel to the floor, fixed throughout the rep. Curl the handle toward the head/ear, squeezing the bicep at peak contraction, then control back without bouncing at the start. The high, fixed arm position keeps constant tension and emphasizes the bicep peak. The stack scales differ between the cable column and the pulley station, so record which one was used."
   },
   {
     "id": "high-knees",
@@ -6255,7 +6255,7 @@
   },
   {
     "id": "incline-curl",
-    "name": "Incline Curl",
+    "name": "Incline Chest-Supported Curl (Preacher-Style)",
     "category": "arms-biceps",
     "type": "weights",
     "muscles": [
@@ -6275,7 +6275,7 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Sit on an incline bench set to about 45 degrees. Let dumbbells hang at your sides with arms fully extended. Curl the weights up while keeping your upper arms stationary. The incline position stretches the long head of the biceps, providing a deeper range of motion than standing curls."
+    "description": "Set an incline bench to about 45 degrees and lean into it chest-first (chest-supported). Rest the armpit and the back of the upper arm flat against the pad, holding a dumbbell with an underhand grip so the arm hangs down the face of the pad. Curl the weight up by flexing at the elbow, keeping the upper arm flat on the pad the entire rep, then lower to a full stretch. The pad braces the arm and eliminates swing — a preacher-curl substitute used when the preacher bench is taken. The left bicep is the weaker side; lead with it."
   },
   {
     "id": "incline-dumbbell-fly",
@@ -6400,6 +6400,51 @@
     "difficulty": "beginner",
     "duration": 60,
     "description": "Set up a bar or rings at waist to chest height. Hang underneath with feet on ground, body straight. Pull your chest to the bar/rings, squeezing shoulder blades together. Lower with control. Adjust angle for difficulty."
+  },
+  {
+    "id": "internal-core-fist-rotation",
+    "name": "Internal Core Fist Rotation",
+    "category": "mobility",
+    "type": "warmup",
+    "muscles": [
+      "forearms",
+      "wrists",
+      "grip",
+      "lats",
+      "lower-back",
+      "shoulders",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "warmup",
+      "mobility",
+      "active-stretch",
+      "wrists",
+      "forearms",
+      "grip",
+      "fascia",
+      "posterior-chain",
+      "isometric"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Stand with feet shoulder-width, knees soft, torso hinged slightly forward. Make tight fists with the thumbs tucked inside the fingers, then rotate the wrists internally and hold the tension. The wrist is the dial: a small, deliberate internal rotation pulls a stretch up the whole back chain — forearm to elbow to shoulder to lats to low back to pelvis. The finger position fires the deep forearm muscles that connect through to the fingertip tendons. Move slowly, breathe steadily, and feel the line lengthen rather than chasing a big range. ~30-60s.",
+    "source": {
+      "platform": "twitter",
+      "url": "https://x.com/muccistrength/status/2057492215857807483",
+      "creator": "@muccistrength",
+      "capturedAt": "2026-05-22"
+    },
+    "media": [
+      {
+        "type": "twitter",
+        "value": "https://x.com/muccistrength/status/2057492215857807483",
+        "caption": "@muccistrength demo — Internal Core Fist (credited to @TheDavidWeck)"
+      }
+    ]
   },
   {
     "id": "inverted-hang",
@@ -8417,6 +8462,36 @@
     ]
   },
   {
+    "id": "kettlebell-single-leg-around-the-world",
+    "name": "Single-Leg Kettlebell Around-the-World",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "core",
+      "obliques",
+      "glutes",
+      "hip-stabilizers",
+      "shoulders",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "core",
+      "balance",
+      "single-leg",
+      "unilateral",
+      "stability",
+      "mobility",
+      "grip"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Stand on one leg, knee soft, the other leg lifted slightly off the floor. Pass the kettlebell around the body — hand to hand behind the back and in front — keeping the torso quiet and the standing-leg hip locked in. The standing-leg glute and hip stabilizers fight the rotational pull of the bell. Do the prescribed reps in one direction, then reverse direction; switch legs and repeat. Burns fast — the off-balance load multiplies the work."
+  },
+  {
     "id": "kettlebell-split-stance-pass-through",
     "name": "Kettlebell Split Stance Pass Through",
     "category": "legs-quads",
@@ -9323,7 +9398,7 @@
   },
   {
     "id": "lateral-raise",
-    "name": "Lateral Raise",
+    "name": "Dumbbell Lateral Raise",
     "category": "shoulders",
     "type": "weights",
     "muscles": [
@@ -17034,6 +17109,33 @@
       "creator": "@Selfdefencess",
       "capturedAt": "2026-02-22"
     }
+  },
+  {
+    "id": "worlds-greatest-stretch",
+    "name": "World's Greatest Stretch",
+    "category": "mobility",
+    "type": "warmup",
+    "muscles": [
+      "hip-flexors",
+      "thoracic-spine",
+      "lats",
+      "adductors",
+      "glutes"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "warmup",
+      "mobility",
+      "hips",
+      "thoracic",
+      "full-body",
+      "floor"
+    ],
+    "difficulty": "beginner",
+    "duration": 60,
+    "description": "Step into a deep lunge. Plant the opposite-side hand on the floor next to the front foot, then rotate the torso and reach the same-side arm to the ceiling. Hip flexor, thoracic spine, and lat open in one shape. Hold or flow, 30s each side."
   },
   {
     "id": "yuris-shoulder-band-warmup",

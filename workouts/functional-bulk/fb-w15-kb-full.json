@@ -1,0 +1,172 @@
+{
+  "id": "fb-w15-kb-full",
+  "name": "Week 15 KB Full Body — Strength Block Step-Up (Spotlight: Clean & Press + Strength Block)",
+  "description": "KB Tuesday, full template: banded shoulder prep → strength block → Asgooch overhead flow → mobility → cooldown. Spotlight cycles forward to the clean & press + the strength block as a unit — the block steps UP via volume (3 rounds, not 2) rather than bell weight, per the template's design. KB row is prescribed at 45 explicitly (it ran there last week). The Asgooch flow runs as the alternating-sides flow, 4 sets mandatory (5th optional). Brutal Complex finisher stays optional/extra.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "strength", "spotlight-rotation", "overhead", "station-focused"],
+  "estimatedDuration": 62,
+  "equipment": ["kettlebell", "mini-band", "rope-band", "pull-up-bar"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Full template. Spotlight cycles forward to clean & press + the strength block — the block steps up to 3 rounds (volume is the lever, not bell weight). KB row prescribed at 45. Asgooch flow 4 sets. Brutal Complex optional. Leg-heavy flows bias to Tuesday (farther from Friday legs).",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-clean-and-press",
+        "why": "Cycles forward, and it's a 'huge leap from the first week' at 45 — held weight, real strength showing. Spotlight drills the clean-catch + ribs-down press at the working load, and anchors the strength block that's stepping up to 3 rounds."
+      }
+    ],
+    "rotationPlan": "W12 windmill + cossack · W13 C&P + TGU refresh · W14 bent press + flow work · W15 C&P + strength block (current) · W16 cycle forward — TGU or windmill refresh.",
+    "watchpoints": [
+      "**Strength block steps to 3 rounds** (was 2) — volume is the step-up lever, not the bell. C&P 45, KB row 45, pull-up greasing.",
+      "**Asgooch flow is a FLOW, not reps** — one pass = row → snatch → squat → lunge → push press on one arm, then alternate arms. 5 passes per side = 1 set. **4 sets mandatory, 5th optional.** Pace it; don't stack a 5th set + Brutal Complex + extras and run long.",
+      "**Brutal Complex finisher stays OPTIONAL/EXTRA** — do it on energy/time days; the mandatory workout finishes at the cooldown.",
+      "**Pull-up greasing in the strength block** — 1-2 sets, slow, NOT to failure. Part of the weekly pull-up frequency.",
+      "**Protective shrug greasing set in the warmup (NEW)** — the pull-day behind-back shrug, scattered here because it's cheap and easy to forget. 1 light set, DBs or a bell behind the body.",
+      "**Right shoulder watch through the overhead stack** — the Asgooch stacks 4 overhead moves. If the shoulder talks on the snatch / OH lunge, drop the load or sub a front-rack lunge on that move.",
+      "**Leg-heavy flow bias = Tuesday** — the Asgooch's OH lunge + OH squat is fine here; Thursday keeps the loaded squatting lighter."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles — open the shoulders before loading overhead." },
+        { "id": "kettlebell-overhead-press", "reps": "3 each side", "notes": "**LOAD:** 20lb. Light — test the overhead position. If anything cracks/twinges, do extra band warmup before the flow." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips. Sit in the bottom for a beat." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for KB rack work." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set) — the pull-day shrug, scattered to KB days.** 1 light set held behind the body (DBs or a bell), palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "strength-block",
+      "name": "🔆 Strength Block (Spotlight — C&P + Row + Pull-Up Greasing, 3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kettlebell-clean-and-press",
+          "reps": "5 each",
+          "notes": "**LOAD:** 45. 3 rounds, 5 each side.\n\n**🔆 SPOTLIGHT — drill the clean-catch and the press:**\n- **Catch the clean with the knees slightly bent** — absorb the bell, zero impact at the rack\n- **Hips drive the clean**, NOT the arm — the arm just guides the bell into the rack\n- **Press: ribs DOWN** — no rib flare; brace before each press\n- **Bicep finishes by the ear, full lockout** at the top\n- **Lower with control — no slam** back to the rack\n- **Left side first** if asymmetry shows\n\n**Reflection:** at 45 across 3 rounds (up from 2), does the press stay clean — ribs down, full lockout — on the last round, or does the third round start to grind? The added round is the step-up; the bell stays put."
+        },
+        {
+          "id": "kettlebell-row",
+          "reps": "10 each",
+          "notes": "**LOAD:** 45. 3 rounds, 10 each side (up from 8 — the bell ran easy at this load).\n- Hips hinged, back flat\n- Pull the elbow toward the hip\n- 2s pull, 2s lower\n- Full extension at the bottom, full squeeze at the top"
+        },
+        {
+          "id": "pull-up",
+          "reps": "5-6",
+          "notes": "**Pull-up greasing set** — 1-2 sets in the strength block, bodyweight, slow, NOT to failure. If the shoulder talks, drop to scapular-pulls only. (Weekly pull-up volume: 4 sets Wed pull day + 1 push warmup + 1-2 here.)"
+        }
+      ],
+      "notes": "**Spotlight block, stepped to 3 rounds.** Volume is the lever this week — same loads, one more round. If the third round of C&P grinds the form, that's the ceiling of the volume step; note it.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "flow-block",
+      "name": "Asgooch Overhead Flow — Alternating Sides (Flow, NOT Reps)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "1 per pass", "notes": "Single hand. Controlled pull, full extension, hips hinged, back flat." },
+        { "id": "kettlebell-swing-snatch", "reps": "1 per pass", "notes": "**Hips drive the bell**, not the arm. Straight overhead, punch through — a smooth catch sets up the overhead moves." },
+        { "id": "kettlebell-overhead-squat", "reps": "1 per pass", "notes": "Bell locked overhead. **Hardest move in the flow.** Full depth IF mobility allows; reduce depth before load if it limits." },
+        { "id": "kettlebell-overhead-lunge", "reps": "1 per pass", "notes": "Bell overhead. **Lock the elbow, bell over the shoulder, torso TALL.** Drive through the front HEEL. **Right shoulder watchpoint** — most likely place for the crackle; sub a front-rack lunge on this move only if it talks." },
+        { "id": "kettlebell-push-press", "reps": "1 per pass", "notes": "**Dip and drive** — legs do the work, the arm guides. Smooth descent to the rack. End of one pass." }
+      ],
+      "notes": "**This is a FLOW, not a reps circuit.** One PASS = move through all five moves once — **row → snatch → squat → lunge → push press** — on ONE arm, continuous, no rest between moves. **Alternate arms every pass:** left pass, right pass, left pass... **5 passes per side = 1 set.** Do **4 sets (5th optional)**, resting 60-90s between sets. Weak side starts each set. Right shoulder watch on the overhead stack — modify rather than grind.",
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "mobility-block",
+      "name": "Mobility Block — Cossack + Windmill + Single-Leg Around-the-World (Maintenance)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "cossack-squat",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 25-30lb goblet. Maintenance.\n- Sit DEEP, heels stay down\n- Working leg in full external rotation\n- Slow descent, hard stop at end-range\n- Range, not load — the cardio cost is structural"
+        },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 25lb. Maintenance (spotlighted on Thursday this week).\n- Bell locked overhead, eye tracks the bell\n- **Hip hinge AWAY from the bell side**\n- **Stretch lives in the back leg's hip flexor, NOT the lower back**\n- Long spine throughout"
+        },
+        {
+          "id": "kettlebell-single-leg-around-the-world",
+          "reps": "5 each direction, each leg",
+          "notes": "**LOAD:** 15-20lb.\n- **Stand on one leg, knee soft, opposite leg lifted slightly**\n- Pass the bell around the body — hand to hand behind / in front\n- **Standing-leg glute LOCKED IN** — the hip drives stability, not the spine\n- 5 reps clockwise, 5 counter-clockwise, then switch legs\n- **Torso quiet** — the bell tries to pull you into rotation; resist"
+        }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "brutal-complex-optional",
+      "name": "🔻 OPTIONAL EXTRA: Brutal Complex Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "**LOAD:** 35-40lb (heavier bell for the swing). Hip drive, not a squat." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": 10, "notes": "Same bell. Goblet position, ab-stance (asymmetric stance), full depth." },
+        { "id": "kettlebell-alternating-bent-over-row", "reps": "10 each", "notes": "Same bell. Alternating bent-over row — hips hinged, back flat." },
+        { "id": "kettlebell-close-grip-pushup", "reps": 10, "notes": "Bodyweight. Hands at the bell or close together — triceps emphasis." }
+      ],
+      "notes": "**🔻 OPTIONAL EXTRA — do this on days you have time and energy. Skip when the workout has already taken 55+ min or you're cooked** (especially since the strength block added a round this week). 3 rounds, continuous within a round. The mandatory workout finishes at the cooldown without this block.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "**LOAD:** 25lb. Light row, 2s pull / 2s lower. Skip if the shoulders are cooked from the flow." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight on KB days from the cossacks." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Full template** — banded prep → strength block (3 rounds) → Asgooch flow → mobility → cooldown.",
+    "**Spotlight: clean & press + the strength block.** The block steps up to 3 rounds — volume is the lever, loads hold.",
+    "**KB row prescribed at 45** (10 each) — it ran easy there last week.",
+    "**Asgooch flow = a FLOW, not reps.** One pass through all 5 moves on one arm, then alternate arms. 5 passes/side = 1 set. 4 sets mandatory, 5th optional. Pace it.",
+    "**Brutal Complex finisher stays OPTIONAL/EXTRA** — skip it on packed days; the strength-block extra round already added time.",
+    "**Pull-up greasing in the strength block** — 1-2 light bodyweight sets, NOT to failure.",
+    "**Right shoulder watch through the Asgooch overhead stack** — sub a front-rack lunge rather than grind.",
+    "**Leg-heavy flow bias = Tuesday** — Thursday will be lighter on the loaded squatting (Friday legs is the day after).",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W16 cycles forward — TGU or windmill refresh."
+  ],
+  "formPhilosophy": "The KB Tuesday template is settled; W15 exercises its built-in step-up lever — the strength block adds a round rather than the bells adding weight, which is exactly how the template was designed to progress without bloating or chasing load. Clean & press anchors the spotlight because it's where real strength is showing at held weight. The Asgooch flow stays a flow. Building decades, not weeks."
+}

@@ -1,0 +1,176 @@
+{
+  "id": "fb-w14-kb-cond",
+  "name": "Week 14 KB Conditioning — Back to Thursday, Full Template (Spotlight: Figure-8 → Tactical Clean)",
+  "description": "KB Conditioning returns to Thursday (W13 Saturday-experiment ends). Runs the new full template — banded prep → strength block (lighter) → flow block → mobility → cooldown — same shape as Tuesday but lighter on the loaded squatting (Thursday is the day before Friday legs; W12D4 lesson). Spotlight: figure-8 → tactical clean flow (the W12D4 user favorite, due for deeper cue drilling).",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "conditioning", "spotlight-rotation", "thursday"],
+  "estimatedDuration": 50,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Thursday KB day, full template. Lighter on loaded squatting (Friday legs is tomorrow). Spotlight = figure-8 → tactical clean flow. Bent press lives inside the light OTD flow; TGU and windmill are maintenance.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-figure-8-tactical-clean",
+        "why": "The figure-8 → tactical clean flow has been the W12D4 favorite and ran through W13. Spotlight refresh drills the EXIT into clean — the pass doesn't return to a hand; the catch IS the clean. The skill being trained is the seamless figure-8-to-rack transition."
+      }
+    ],
+    "rotationPlan": "W10 bent press · W11 windmill · W12 TGU · W13 bent press refresh · W14 figure-8 flow (current) · W15 cycle forward — windmill or TGU refresh.",
+    "watchpoints": [
+      "**Back to Thursday.** W13's Saturday experiment ends. Thursday = day before Friday legs, so the loaded squatting (goblet, OH squat) stays light here.",
+      "**New full template runs both KB days** — banded prep → strength → flow → mobility → cooldown.",
+      "**Figure-8 flow spotlight** — 2-3 rounds of 60s. The pass EXITS INTO the clean — no mid-pass hand catch.",
+      "**Right shoulder watch on the figure-8 rack catch** — if it talks, drop to figure-8 passes only and finish the round.",
+      "**Thursday strength block stays light** — single-arm work + light volume. The heavy strength work is Tuesday's job. **Goblet squats kept light** (don't fatigue legs the day before Friday).",
+      "**Finisher is a light Flow + Balance block, not a metabolic complex.** Thursday is conditioning + skills + balance, not brutal finishing — and Friday legs is tomorrow. Overhead-extension-to-halo flow, single-leg RDL balance, bird-dog. Light bell, no loaded squatting."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — wakes the grip and forearms for the figure-8 + clean catches." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band overhead OR blue rope band gripped in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Press out to a T — fires rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Pull apart at the sternum, scaps retract, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep arms back. Don't overarch." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y overhead. Hold and breathe — lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "strength-block",
+      "name": "Strength Block (Lighter — Thursday Variant)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each",
+          "notes": "**LOAD:** 30lb. 2 rounds, 8 each side. Hips hinged, back flat, pull elbow to hip."
+        },
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "5 each",
+          "notes": "**LOAD:** 25-30lb. 2 rounds, 5 each side. Single-arm strict press — clean to rack, press straight up.\n- **Ribs DOWN** before the press — no rib flare\n- **Bicep finishes by the ear, full lockout**\n- Slow descent back to rack"
+        }
+      ],
+      "notes": "Lighter strength block — single-arm row + press, the bigger compound presses (C&P) are Tuesday's job. ~5 min.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "otd-flow-block",
+      "name": "OTD Flow (Light Groove — Skill Practice)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "notes": "Bell starts on the floor between the feet, hips drive the lift, catch in the rack with the knees slightly bent." },
+        { "id": "kettlebell-front-squat", "notes": "Goblet/rack position. **LIGHT** — Thursday before Friday legs, keep depth without grinding. Sit tall, full depth, no bouncing." },
+        { "id": "kettlebell-lateral-lunge", "notes": "Stride out wide, sit into the working leg, keep the other leg long. Mobility, not strength." },
+        { "id": "kettlebell-bent-press", "notes": "The deliberate leverage move inside the flow — **the body goes DOWN, the bell barely moves.** From the rack, hinge and rotate AWAY from the bell side, eyes tracking the bell, until the arm locks out overhead — you lower your body under the bell, you don't press it up. Slow and smooth; it's leverage, not a press." },
+        { "id": "kettlebell-tactical-clean", "notes": "Control on the way down — bell to the floor as cleanly as it came up. Closes the flow before switching sides." }
+      ],
+      "notes": "**This is a continuous FLOW, not separate stations.** Move through the full chain on ONE side — dead clean → front squat → lateral lunge → bent press → tactical clean — letting each move feed the next, then repeat the whole flow on the other side. About 2 reps' worth at each move, don't stop to count. **~20-25lb throughout, 2 rounds. Light groove** — it should feel effortless. Friday legs is tomorrow.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "figure-8-spotlight",
+      "name": "🔆 Figure-8 → Tactical Clean Flow (Spotlight)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kettlebell-figure-8-tactical-clean",
+          "duration": 60,
+          "notes": "**LOAD:** 25lb. 3 rounds of 60s continuous flow.\n\n**🔆 SPOTLIGHT — the exit-into-clean cue:**\n- **START in the hike position** (bell between the legs, hinged at the hips)\n- **Figure-8 → exit into a tactical clean to rack** — pass between the legs, hand catches BEHIND, the pull becomes the clean\n- **The figure-8 EXITS into the clean** — the bell does not return to a hand mid-pass; the catch becomes the clean. This is the skill.\n- Lower the bell back through the hike position; the next pass switches sides\n- Continue alternating for the full 60s\n\n**Cues:**\n- **Tactical clean = controlled, threaded into the rack** — no yank, no forearm slam\n- **Hike is home base** — every transition resets through hike\n- **Right shoulder watch on the rack catch** — if it talks, drop to figure-8 passes only and finish the round\n\n**Reflection:** does the pass→clean feel like one motion, or two? The skill is the seamless transition — if there's a hand catch between the pass and the clean, the cue's broken.\n\n**Dose: 3 rounds at 25lb.** Volume restored from W13's 2 rounds — this is the spotlight, deeper drill at slightly more volume."
+        }
+      ],
+      "notes": "Spotlight skill flow. 3 rounds at 25lb, ~5 min including rest.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "mobility-block",
+      "name": "Mobility Block — TGU + Windmill (Maintenance)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "1 forward + 1 reverse per side",
+          "notes": "**LOAD:** 25-30lb. 2 rounds. Maintenance — spotlight was W12 + W13 refresh.\n- **Straight-arm overhead lockout** — arm stays locked vertical the whole way\n- Eyes ON the bell every checkpoint\n- Pause at every checkpoint — reverse is half the lift\n- Hip bridge: glute squeeze, ribs down"
+        },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 18-20lb. 2 rounds. Maintenance.\n- Bell locked overhead, eyes track the bell\n- **Hip hinge AWAY from the bell side**\n- **Stretch lives in the back leg's hip flexor, NOT the lower back**\n- Slow descent, brief pause, controlled return"
+        },
+        {
+          "id": "kettlebell-single-leg-around-the-world",
+          "reps": "5 each direction, each leg",
+          "notes": "**LOAD:** 15-20lb. New from W13D6 — 'super tiring super quick.'\n- **Stand on one leg, knee soft, opposite leg lifted slightly**\n- Pass the bell around the body — hand to hand behind / in front\n- **Standing-leg glute LOCKED IN** — hip drives stability, not the spine\n- 5 reps clockwise, 5 reps counter-clockwise, then switch legs\n- **Torso quiet** — the bell tries to pull you into rotation; resist"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-balance-block",
+      "name": "Flow + Balance — Light Skill Practice",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-overhead-extension-to-halo", "reps": "5", "notes": "**LOAD:** 15-20lb. Flowing overhead tricep extension into a halo — one continuous shape, thoracic + shoulder opener under light load. **Flow, don't grind** — smooth circles, ribs down. Right shoulder watch: keep it light and loosening; back off range if it pinches." },
+        { "id": "single-leg-rdl-kettlebell", "reps": "5 each leg", "notes": "**LOAD:** 15-20lb. Single-leg balance + hip hinge. **The point is balance and control, not load** — keep it light so legs stay fresh for Friday. Standing-leg glute locked, hips square, slow reach to the floor and back. The wobble is the training." },
+        { "id": "bird-dog", "reps": "8 each side", "notes": "Bodyweight. Slow anti-rotation balance — opposite arm + leg extend, hold 2s, hips stay square (no rotation). Resets the spine after the figure-8 and single-leg work." }
+      ],
+      "notes": "Light flow + balance, 2 rounds, ~5 min. Thursday is conditioning + skill + balance — keep it flowing and light; nothing here should pre-fatigue legs for Friday.",
+      "restBetween": 30,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the TGU hip bridge and lateral lunge work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from lateral lunges and figure-8 stance." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Back to Thursday.** Day before Friday legs — keep loaded squatting LIGHT (goblet/OH squat at 20lb, no PR attempts).",
+    "**Full template launches both KB days** — banded prep → strength → flow → mobility → cooldown. Same shape as Tuesday, lighter dose on Thursday.",
+    "**Spotlight: figure-8 → tactical clean flow** (3 rounds at 25lb). The pass EXITS INTO the clean.",
+    "**Strength block on Thursday is lighter** — single-arm row + press only (no C&P, that's Tuesday).",
+    "**Finisher = light Flow + Balance block** (overhead-extension-to-halo, single-leg RDL, bird-dog) — flow and balance, not a metabolic complex. Keeps legs fresh for Friday.",
+    "**TGU + windmill are maintenance** — sharp cues, light loads.",
+    "**Right shoulder watch on the figure-8 rack catch** — drop to passes only if it talks.",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W15 cycles forward — windmill or TGU refresh."
+  ],
+  "formPhilosophy": "Thursday KB day, full template, lighter dose on the loaded squatting because Friday legs is the day after. Figure-8 spotlight drills the exit-into-clean skill — fun flow, useful cue, three rounds of focused practice. Thursday's intent is conditioning + skill + balance, so the session closes on a light flow + balance block rather than a metabolic finisher — flowing technique work that won't pre-fatigue legs for Friday. Building decades, not weeks."
+}

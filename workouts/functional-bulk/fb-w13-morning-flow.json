@@ -1,9 +1,9 @@
 {
   "id": "fb-w13-morning-flow",
-  "name": "W13 Morning Flow — Bodyweight Spine + Hip (All Days, Deload-Week Variety)",
-  "description": "15 min bodyweight floor flow — **universal W13 morning flow, used every training day** (Mon push / Tue KB / Wed pull / Thu KB / Fri legs). Same three-part shape as W11/W12 with rotated moves for variety. Morning flows are already low-fatigue, so they stay unchanged in intensity through the deload — only the move selection rotates. Three-part: spine primer → bodyweight work → deep stretch arc. Day-specific therapeutic add-on at the end (push = pec-minor protocol; pull = dead hang + scap pull; legs = pigeon + supine twist + the new cross-leg lateral lean; KB days skip — banded prep covers it).",
+  "name": "W13 Morning Flow — Bodyweight Spine + Hip (All Days, Heal-Week Variety)",
+  "description": "15 min bodyweight floor flow — **universal W13 morning flow, used every training day** (Mon push / Tue KB / Wed pull / Thu KB / Fri legs). Same three-part shape as W11/W12 with rotated moves for variety. Morning flows are already low-fatigue, so they stay unchanged in intensity through the heal week — only the move selection rotates. Three-part: spine primer → bodyweight work → deep stretch arc. Day-specific therapeutic add-on at the end (push = pec-minor protocol; pull = dead hang + scap pull; legs = pigeon + supine twist + the new cross-leg lateral lean; KB days skip — banded prep covers it).",
   "routineId": "functional-bulk",
-  "tags": ["floor", "mobility", "thoracic", "hips", "morning", "bodyweight", "home", "spine", "scorpion-family", "variety", "deload"],
+  "tags": ["floor", "mobility", "thoracic", "hips", "morning", "bodyweight", "home", "spine", "scorpion-family", "variety", "heal-week"],
   "estimatedDuration": 15,
   "equipment": ["bodyweight", "mat"],
   "difficulty": "beginner",
@@ -16,7 +16,8 @@
       "exercises": [
         { "id": "cat-cow", "duration": 60, "notes": "Slow, full ROM each direction. Spine wave wakes the segment-by-segment articulation." },
         { "id": "thread-the-needle", "duration": 60, "notes": "30s each side. Thoracic rotation + shoulder opener — reach a little further each week." },
-        { "id": "cobra-stretch", "duration": 60, "notes": "Gentle spinal extension — counters the all-day desk flexion. **Replaces W12's puppy-pose** in the primer; the extension wakes the back line." }
+        { "id": "cobra-stretch", "duration": 60, "notes": "Gentle spinal extension — counters the all-day desk flexion. **Replaces W12's puppy-pose** in the primer; the extension wakes the back line." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Make tight fists with thumbs tucked, rotate the wrists internally and **hold the tension**. The wrist is the dial — a small internal rotation pulls a stretch up the whole back chain, forearm → shoulder → lats → low back. Slow, breathe." }
       ],
       "notes": "Spine extension swaps in for the lat-stretch opener — variety on the same wake-the-spine intent.",
       "restBetween": 0,
@@ -78,7 +79,7 @@
     }
   ],
   "tips": [
-    "**Same shape as W11/W12, rotated moves.** Morning flows are low-fatigue — they stay unchanged in intensity through the deload, only the move selection rotates.",
+    "**Same shape as W11/W12, rotated moves.** Morning flows are low-fatigue — they stay unchanged in intensity through the heal week, only the move selection rotates.",
     "**15 min main flow + 3-5 min day-specific add-on** — universal across W13 (Mon push / Tue KB / Wed pull / Thu KB / Fri legs).",
     "**Scorpion + cossack BW + lizard pose stay every week** — durable spine + hip + adductor anchors.",
     "Cobra, inchworm, bird-dog, mountain-to-pigeon, frog pulses rotate in this week for variety.",
@@ -86,5 +87,5 @@
     "**Day-specific add-on at the end** — push days do the pec-minor protocol, pull days do dead hang + scap pull, legs days do the cross-leg lean + 90s pigeon + supine twist. KB days skip the add-on.",
     "If short on time: scorpion + lizard + cossack BW + mountain-to-pigeon, plus today's day-specific add-on."
   ],
-  "formPhilosophy": "Same as W11/W12 — variety means different shapes hitting the same patterns. Scorpion-family spine work + hip openers + adductor stretches. Morning flows don't deload (they're already low-fatigue); they just rotate moves to stay interesting. Designed for home, structured around the in-workout banded prep's logic."
+  "formPhilosophy": "Same as W11/W12 — variety means different shapes hitting the same patterns. Scorpion-family spine work + hip openers + adductor stretches. Morning flows aren't cut back (they're already low-fatigue); they just rotate moves to stay interesting. Designed for home, structured around the in-workout banded prep's logic."
 }

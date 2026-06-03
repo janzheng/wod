@@ -74,6 +74,9 @@ After extracting from either skill:
 - `deno task build:exercises` — Rebuild exercises catalogue
 - `deno task build:workouts` — Rebuild workouts catalogue
 - `deno task dev` — Dev server on port 8010
+- `deno task deploy` — Deploy the app to Deno Deploy production (org `yawnxyz`, app `wod`)
+
+**"Publish" = deploy.** When the user says "publish" (e.g. "publish W13"), run `deno task deploy` — the Deno Deploy production deploy. It does NOT mean `deno publish` (JSR) and does NOT mean a git commit/PR.
 
 ## Docs
 
@@ -100,19 +103,19 @@ The exact moves can swap if a session targets a different chain (e.g., legs day 
 
 Day 7 (Sunday) is `REST or LONG FLOW` — a choice between full rest or the 25-30 min yin/restorative session (`fb-sunday-long-flow`). Long-hold (90s-2min) work is what fascia responds to, vs. morning flow's activation-grade 30-60s holds. Encourage the long flow during high-fatigue weeks; full rest is fine when the week was light.
 
-## Deload Cadence (W13+)
+## Heal Weeks (Lighter Weeks — Symptom-Driven)
 
-**3 hard / 1 deload, locked from W13 forward.** Next deload weeks: W13, W17, W21. The W9 → W13 spacing sets the pattern.
+**Lighter weeks are symptom-driven, NOT a locked calendar cadence.** Take one when the body signals it — a nagging joint or symptom cluster, accumulated soft-tissue tightness, sleep/energy dipping. This program is form-first (loads are held, not chased), so there is no heavy-progressive-overload fatigue to "deload" from in the classic sense — don't schedule lighter weeks by the calendar. These weeks recur — the right shoulder is a long-running issue and lighter/heal stretches have come up repeatedly across the program (W9's QL spasm, W13's shoulder cluster, and others before). Recurrence is expected, not a failure of the plan; still trigger each one by symptoms, not by date. If heal weeks keep recurring for the *same* shoulder, that's a signal the fix is structural (mobility, a specific lift's mechanics, possibly a PT eval) — backing off manages the symptom but doesn't resolve it.
 
-**Deload week structure:**
+**Heal-week structure:**
 - HOLD all loads (no progression, no PR attempts)
 - CUT volume to ~60-70%: typically drop a set per exercise (3→2) OR drop reps (10→6-8). Pick one lever per exercise.
-- Keep NEW lifts at their introduction volume (don't escalate during a deload)
-- Morning flows stay
-- Sunday long flow encouraged
+- Keep NEW lifts at their introduction volume
+- KB days keep full variety — KB flow/skill work isn't the fatigue source; trim the loaded gym work, not the flows
+- Morning flows stay; Sunday long flow encouraged
 - End-of-session cool-down stays (permanent every-gym-day)
 
-When generating a deload week, write `dayOverview.theme` to explicitly call out it's a deload + what fatigue signals motivated it.
+When generating a heal week, write `dayOverview.theme` to call out that it's a heal week + the specific symptoms/signals that motivated it.
 
 ## Form Cue: "Pack DOWN, Not UP"
 
@@ -136,6 +139,20 @@ When creating morning flows for the functional-bulk program:
 
 When building or modifying workouts for the functional-bulk-dynamic program (or any personalized workout), **always check `NOTES.md`** for session observations, planned progressions, exercise ideas, and equipment notes from prior weeks. These notes capture decisions and context that don't live in the workout JSON files.
 
+## Look Up the Canonical Source Before You Guess — REQUIRED
+
+**Before reconstructing anything that already exists in the repo, find and read its canonical source. Never rebuild it from memory.** Reconstructing-from-memory is how pieces get silently dropped, reordered, or relabeled — and the error then propagates forward week after week because each new week is built off the last. This is a hard rule, not a preference.
+
+**Flows are atomic, canonical units.** A named flow has ONE source of truth, and a weekly workout COPIES the full sequence verbatim — it does not re-type it move-by-move. Dropping, adding, or reordering a single move breaks the flow. Canonical flow files:
+- **OTD flow** → `workouts/kettlebell/kb-flow-dead-clean-press.json` — dead clean → front squat → lateral lunge → bent press → tactical clean (in the program since W4)
+- **Figure-8 → tactical clean** → `workouts/kettlebell/kb-figure-8-tactical-clean-complex.json`
+- **Asgooch overhead mobility complex** → `workouts/kettlebell/kb-overhead-mobility-complex.json`
+- **B-stance flow** → `workouts/kettlebell/kb-b-stance-flow.json`
+
+What went wrong without this rule (the cautionary tale): the bent press was move #4 of the OTD flow for 8 weeks (W4–W12); W13 pulled it out into a separate block (flow degraded to 4 moves); W14 lost it entirely; and a hasty "fix" re-added it in the wrong slot. All because the flow was re-typed each week instead of copied from `kb-flow-dead-clean-press.json`.
+
+**Generalize beyond flows.** Whenever you're about to assert "this exercise is X" / "the equipment is Y" / "the sequence is Z" / "there's no canonical file for this" — first `grep`/`rg` the repo and read the actual definition (`exercises/*.json`, `workouts/kettlebell/*.json`, `progressions/*.json`, `NOTES.md`, the form-cues doc). If you catch yourself guessing, stop and look it up. A wrong "there's no canonical file" answer is worse than saying "let me check."
+
 ## Weekly Workout Generation
 
 When generating a new week's workout files, **every exercise note must be fresh and specific to that week**. Do NOT carry forward stale notes from previous weeks. Each exercise note should reference:
@@ -156,6 +173,70 @@ Good: "W7 form check: 25lb at home, 30lb at gym. W6 actuals: 30x5 each side soli
 Default workflow before writing W{N} cues: `grep -A4 "<exercise-id>" programs/logs/functional-bulk-dynamic-w*.json` and read the most recent 2-3 entries. If equipment differs from the form-cues reference doc, **fix the reference doc too** so the same mistake doesn't repeat next week.
 
 **Exercise count discipline:** When adding a new exercise, ALWAYS remove or replace an existing one — don't just add on top. Workouts should stay roughly the same length week to week. If experimenting with something new, ask the user what to drop. If unsure, propose the swap explicitly ("add X, drop Y — ok?"). The pull day getting too long in W7 is what happens when we keep adding without trimming.
+
+## Workout Files Are the Prescription, Not Scratch Notes
+
+Workout JSON files (`workouts/`) and program files are the **interface the user reads to train**. Write every `notes`, `description`, `theme`, `watchpoints`, and `tips` field like a real report or a menu — the prescription only: loads, sets/reps, cues, reflection prompts.
+
+**Do NOT write scratch / program-management notes in them.** Specifically banned inside workout and program files:
+- "HOLD" / "confirmed" / "actual working weight" bookkeeping
+- Parenthetical justification for *why* a load was chosen ("22.5 doesn't exist at this gym", "W12 said it had headroom")
+- Week-by-week history ("W12D5 discovery", "spotlight was W10", "the workout used to describe this wrong")
+- Edit changelog ("X was removed", "originally added but cut")
+- Future-planning chatter ("that's a W14 decision", "W14 can build this out")
+- Set counts framed as a delta ("3 sets, NOT 4" → just write "3 sets")
+
+All of that — load rationale, equipment history, edit context, design intent, rotation planning — lives in `NOTES.md`, the session logs, or commit messages. **Cues and reflection prompts stay; bookkeeping goes.** If the user reads a sentence and it tells them nothing about what to do right now, it does not belong in the file.
+
+## Station Grouping in Multi-Equipment Workouts
+
+When designing a weekly workout, **sequence consecutive exercises so they share a physical station / piece of equipment.** The user trains in a real gym with finite machines, and walking back to a station for one more exercise costs time and breaks the flow. The `feedback_station_focused_workouts` memory says this; treat it as a hard sequencing rule, not a stylistic preference.
+
+**Concrete cases that come up:**
+- **Calf raise on the leg press machine** (`leg-press-calf-raise`) belongs **immediately after leg press**, NOT after Bulgarian / lunges / other stations. Same machine = adjacent in the workout. (W13D5 user flag: "calf raise is in a bad position it needs to be with the equipment.")
+- **Cable column lifts** (lat pulldown, face pull, cable crunch, straight-arm pulldown, cable lateral raise, incline cable tri ext) cluster together — don't scatter across the workout.
+- **Kinesis cable** lifts cluster together — and are kept separate from cable column lifts (different machines, different stack scales).
+- **Bench-based lifts** (incline DB press, chest-supported row, incline curl, incline RDL) cluster around the adjustable benches.
+- **Smith machine / squat rack** lifts (squat, push press, Bulgarian on Smith, behind-back shrugs) cluster around the rack.
+
+**The check before finalizing a weekly workout JSON:** read down the `sets[]` order and ask "if I'm at the previous exercise's station, is the next exercise at the same station or right next to it?" If the user has to walk back and forth across the gym mid-session, re-order. **Spotlight rotation does NOT override station grouping** — put the spotlight in the right station slot, then make the slot the spotlight.
+
+If two grouping constraints conflict (e.g., a spotlight lift wants to come early, but its station is in the middle of the flow), the station-grouping wins for the body of the workout — adjust the spotlight callout in `dayOverview` instead of fragmenting the sequence.
+
+## Equipment Variant Tracking (W14+)
+
+Many lifts can be done on multiple pieces of equipment at the user's gym — cable column vs. cable pulley vs. Kinesis vs. dedicated machine. The numbers **don't convert directly** — different stack scales, different leverage. The user moves between equipment based on availability, so the workout has to anticipate that and so do the logs.
+
+**Three rules:**
+
+**1. Workout JSON load notes list a number per equipment option.** When a lift has multiple equipment options, the `notes` field gives a number for *each* one — not just the default with a fallback aside. Format:
+
+```
+**LOAD:**
+- Regular lat pulldown machine: 140
+- Cable column: 52.5-57.5
+- Cable pulley: 47.5
+Pick whichever's free; **note which equipment + number you used in the log.**
+```
+
+The user shouldn't have to guess what "the equivalent" is on a different machine. Pre-populate.
+
+**2. Session logs always record equipment + number, not just number.** Every `exercises[].sets[]` entry that's on a cable lift gets an `equipment` field naming which machine was used, and the `weight` field has the number on *that* machine's scale. The set-by-set `equipment` field is fine when it varies; the lift-level field on the exercise object is fine when it's consistent across sets.
+
+Bad: `{ "weight": "47.5", "reps": "8-10" }` for a lat pulldown — no machine context, future cross-reference is broken.
+Good: `{ "weight": "47.5", "equipment": "cable pulley", "reps": "8-10" }`.
+
+**3. The Equipment Calibration Table in NOTES.md is the cross-equipment source of truth.** When a lift gets done on a NEW variant for the first time, add the new entry to the table. When a working number updates on an existing variant, edit that line. The table is the reference the next weekly workout pulls from. If the table is wrong, fix it before writing the next week.
+
+**Default equipment per lift (current as of W14):**
+- Lat raise (cable variant) — **Kinesis** (swapped W9)
+- Straight-arm pulldown — **Kinesis** (swapped W9)
+- Incline overhead tri ext — **cable column 70**, Kinesis 5 fallback
+- Cable fly — **Kinesis** (established since W7)
+- Lat pulldown — **regular machine 140**, cable column / cable pulley fallbacks
+- Cable crunch + face pull + high cable curl — **cable column** primary
+
+When the default is occupied, the workout's load notes give the fallback number explicitly. The user picks based on what's free.
 
 ## Form Cues + Spotlight Rotation (W10+)
 

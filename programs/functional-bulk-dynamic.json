@@ -1345,23 +1345,23 @@
     },
     {
       "week": 13,
-      "label": "DELOAD — 3 Hard / 1 Deload (First Deload Since W9)",
-      "description": "**DELOAD WEEK.** W10/W11/W12 were 3 hard weeks; W12 also added new lifts (behind-back shrugs, the cool-down block). The 3-hard/1-deload cadence — locked from W13 forward (next deloads W17, W21) — puts the cut here, and the fatigue signals back it up: the new right-shoulder symptom cluster (W12D1 — line-of-sensation + grip-triggered pain), universal tightness, multiple soft-tissue patterns. **HOLD all loads, CUT volume ~60-70%** — drop a set per exercise. Spotlights still rotate (the cue work IS deload-appropriate): cable column block — lat raise + tri ext + straight-arm pulldown (push), bicep curl + high cable curl + cable crunch (pull), the NEW Bulgarian split squat (legs), C&P + TGU (KB Tue), bent press (KB Thu). **Three NEW elements introduced at deload volume:** farmer carry (push closing block), trap-3 raise (replaces the shrug block on pull this week), Bulgarian split squat (replaces the walking lunge permanently on legs). The connective tissue lags muscle adaptation 6-8 weeks — this week lets it catch up.",
+      "label": "Heal Week — Symptom-Driven Lighter Week (Shoulder + Soft Tissue)",
+      "description": "**Heal week.** W13 is a deliberate lighter week — the latest of several across this program, since the right shoulder is a long-running issue — prompted by the W12D1 right-shoulder symptom cluster (line-of-sensation + grip-triggered pain) and the accumulated soft-tissue tightness of the first sustained training cycle. It is NOT a 'deload' (the form-first cycle held loads, never chased heavy progressive overload) and NOT a locked calendar cadence — lighter weeks here are symptom-driven, taken when the body signals. **HOLD all loads, CUT volume ~60-70%** — drop a set per exercise. Spotlights still rotate (the cue work IS heal-week-appropriate): cable column block — lat raise + tri ext + straight-arm pulldown (push), bicep curl + high cable curl + cable crunch (pull), the NEW Bulgarian split squat (legs), C&P + TGU (KB Tue), bent press (KB Thu). **Three NEW elements introduced at light volume:** farmer carry (push closing block), trap-3 raise (replaces the shrug block on pull this week), Bulgarian split squat (replaces the walking lunge permanently on legs). The connective tissue lags muscle adaptation 6-8 weeks — this week lets it catch up.",
       "schedule": [
         {
           "day": 1,
-          "label": "PUSH — DELOAD (cable column block spotlight + NEW farmer carry)",
+          "label": "PUSH — Heal Week (cable column block spotlight + NEW farmer carry)",
           "type": "workout",
           "workoutId": "fb-w13-push",
           "flow": {
             "workoutId": "fb-w13-morning-flow",
             "label": "Morning Flow",
-            "notes": "**Universal W13 flow** (rotated moves on W12; morning flows don't deload). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups, + side-lying external rotation (worth it this week with the shoulder cluster active)."
+            "notes": "**Universal W13 flow** (rotated moves on W12; morning flows aren't cut back). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups, + side-lying external rotation (worth it this week with the shoulder cluster active)."
           }
         },
         {
           "day": 2,
-          "label": "KB FULL — DELOAD (C&P + TGU spotlight, Asgooch flow cut to 3 rounds)",
+          "label": "KB FULL — Heal Week (C&P + TGU spotlight, Asgooch flow cut to 3 rounds)",
           "type": "workout",
           "workoutId": "fb-w13-kb-full",
           "flow": {
@@ -1372,7 +1372,7 @@
         },
         {
           "day": 3,
-          "label": "PULL — DELOAD (curl + crunch spotlight, trap-3 raise replaces shrugs)",
+          "label": "PULL — Heal Week (curl + crunch spotlight, trap-3 raise replaces shrugs)",
           "type": "workout",
           "workoutId": "fb-w13-pull",
           "flow": {
@@ -1399,7 +1399,7 @@
         },
         {
           "day": 5,
-          "label": "LEGS — DELOAD (NEW Bulgarian split squat spotlight, replaces walking lunge)",
+          "label": "LEGS — Heal Week (NEW Bulgarian split squat spotlight, replaces walking lunge)",
           "type": "workout",
           "workoutId": "fb-w13-legs",
           "flow": {
@@ -1410,7 +1410,7 @@
         },
         {
           "day": 6,
-          "label": "KB CONDITIONING — DELOAD (moved from Thursday — bent press spotlight + figure-8 flow)",
+          "label": "KB CONDITIONING — Heal Week (moved from Thursday — bent press spotlight + figure-8 flow)",
           "type": "workout",
           "workoutId": "fb-w13-kb-cond",
           "flow": {
@@ -1437,20 +1437,220 @@
         }
       ],
       "tips": [
-        "DELOAD WEEK — first deload since W9. HOLD all loads, CUT volume ~60-70% (drop a set per exercise). The training effect is recovery + cue quality, not load. If a lift feels easy, that's the design.",
-        "**3 hard / 1 deload cadence is locked from W13 forward** — next deloads W17, W21.",
+        "Heal week — a lighter week for the long-running right shoulder + soft-tissue tightness (one of several this program, not a one-off). HOLD all loads, CUT volume ~60-70% (drop a set per exercise). The training effect is recovery + cue quality, not load. If a lift feels easy, that's the design.",
+        "**Lighter weeks are symptom-driven, not calendar-locked** — take the next one when the body signals it (a symptom cluster, accumulated tightness), not on a fixed schedule.",
         "**Schedule change — KB conditioning moves Thursday → Saturday; Thursday becomes rest.** W12D4's Thursday KB wrecked Friday legs (the QL came in tight). A rest day before legs + the KB day landing before Sunday rest fixes the collision. Testing the slot during this light week.",
         "**Right shoulder symptom cluster is the headline watchpoint.** Cross-check W13D1 push vs. W13D3 pull — if it's worse, the hypothesis flips from functional to structural and a PT eval becomes priority.",
         "Push: 2 sets chest press at 165, 2 sets incline DB at 45, cable column block spotlight (2 rounds). NEW farmer carry closing block (2 walks, 40-50lb).",
         "Pull: pull-ups 3 sets, DB row 2 sets at 70 only (skip 60 and 80), curl/crunch spotlight. Trap-3 raise replaces the behind-back shrug block this week (planned rotation).",
-        "Legs: squat holds 75/side as a 3-set pyramid (8/6/8), leg press holds 3 plates / full ROM. NEW Bulgarian split squat replaces the walking lunge permanently — introduced form-only at deload volume.",
-        "KB Tue: Asgooch flow cut to 3 rounds per side, C&P + TGU spotlight refresh, C&P holds 45 (no 50).",
-        "KB Thu: bent press spotlight refresh, figure-8 flow stays — but the PRESCRIBED 2 rounds only (W12D4's bonus rounds tightened the QL before legs day).",
+        "Legs: squat holds 75/side as a 3-set pyramid (8/6/8), leg press holds 3 plates / full ROM. NEW Bulgarian split squat replaces the walking lunge permanently — introduced form-only at light volume.",
+        "KB Tue: Asgooch flow 5 rounds per side, C&P + TGU spotlight refresh, C&P holds 45 (no 50).",
+        "KB Sat: bent press spotlight refresh, figure-8 flow stays — but the PRESCRIBED 2 rounds only (W12D4's bonus rounds tightened the QL before legs day).",
         "**NEW QL/psoas release move** — the standing cross-leg lateral lean (W12D5 user discovery) is now in the legs warmup, the legs cool-down, and the legs-day morning add-on.",
-        "Cool-down stays — 5-min block, permanent every gym day. On a deload it's the connective-tissue catch-up window.",
-        "Sunday long flow encouraged this week — it fits the deload's recovery intent."
+        "Cool-down stays — 5-min block, permanent every gym day. On a heal week it's the connective-tissue catch-up window.",
+        "Sunday long flow encouraged this week — it fits the heal week's recovery intent."
       ],
       "logFile": "logs/functional-bulk-dynamic-w13.json"
+    },
+    {
+      "week": 14,
+      "label": "Volume Restored — Out of Heal Week (Sets up, Loads held; New KB Full-Template Launches)",
+      "description": "Out of the W13 heal week. **Sets restored to normal volume across the board; loads held at W13 calibrations.** Spotlights cycle back to the W10 foundation lifts (push press + incline DB on push, pull-up + DB row on pull, squat + incline RDL on legs). KB schedule returns to Tuesday + Thursday — Saturday experiment ends. **NEW KB full-template launches both days:** banded shoulder prep → strength block → flow block → cooldown. The strength block is the new component (C&P + rows + pull-up greasing). **Pull-up greasing across the week:** 4 sets on pull day + 1 fresh set in push warmup + 1-2 sets in KB Tuesday strength block (the user wanted more pull-up frequency after W13D3 weakness). **Bulgarian split squat steps up from W13's bodyweight intro to light DBs at the sides (15-20lb pair).** **Legs sequence re-grouped per the W13D5 station-grouping rule:** leg press → leg-press-calf-raise (same machine) → Bulgarian → leg curl → incline RDL. **Squat runs the user's requested 6/7/8/8 ascending pyramid.** New W14+ infrastructure: equipment-variant load notes — cable lifts list a number per machine (Kinesis / cable column / cable pulley) so the user can pick whichever's free.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Volume Restored (push press + incline DB spotlight refresh)",
+          "type": "workout",
+          "workoutId": "fb-w14-push",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow (rotated moves on W13). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — New Template Launch (bent press spotlight, Asgooch 4+1)",
+          "type": "workout",
+          "workoutId": "fb-w14-kb-full",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Volume Restored (pull-up + DB row spotlight refresh)",
+          "type": "workout",
+          "workoutId": "fb-w14-pull",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Back to Thursday, Full Template (figure-8 flow spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w14-kb-cond",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Volume Restored, Station-Grouped (squat 6/7/8/8 + incline RDL spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w14-legs",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w14-kb-cardio", "notes": "NEW W14 — cave-pull conditioning day. Asgooch cardio complex + flow combos + controlled-power finisher. LIGHT bell, ~40 min." },
+            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
+            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
+            { "label": "Rest", "type": "rest" }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
+            { "label": "Full Rest", "type": "rest" }
+          ]
+        }
+      ],
+      "tips": [
+        "**Volume restored, loads held.** Heal-week cuts come off — back to 3-4 sets across the board. Loads stay at W13 calibrations.",
+        "**Spotlights cycle back to the W10 foundation lifts:** push press + incline DB (push), pull-up + DB row (pull), squat + incline RDL (legs). The deep cue refresh is on lifts with confirmed working weights.",
+        "**KB schedule back to Tuesday + Thursday.** The W13 Saturday experiment ends; KB Thursday returns. Tuesday biases leg-heavy flows; Thursday stays lighter on loaded squatting (Friday legs is the day after).",
+        "**NEW KB full-template launches both KB days:** banded prep → strength block → flow block → mobility → cooldown. The strength block (C&P + rows + pull-up greasing) is the new component.",
+        "**Pull-up frequency bumps via greasing-the-groove:** 4 sets on pull day + 1 fresh set in push warmup + 1-2 sets in KB Tuesday strength block. Greasing sets are slow, bodyweight, NOT to failure.",
+        "**Asgooch flow: 4 rounds per side mandatory, 5th round OPTIONAL.** Brutal Complex finisher kept but OPTIONAL/EXTRA on both KB days. (W13D2 lesson: 5 + extras stacked too long.)",
+        "**Bulgarian split squat steps up to light DBs at sides (15-20lb pair)** from W13D5's bodyweight intro. Drop back to bodyweight if anything twitches.",
+        "**Legs station-grouped (W13D5 rule):** warmup → squat → leg press → leg-press-calf-raise (same machine) → Bulgarian → leg curl → incline RDL → cool-down.",
+        "**Squat 6/7/8/8 ascending pyramid at 75/side** (the W13D5 user request, extended to 4 sets). Test: does set 1's depth carry to set 3?",
+        "**Cable lifts have per-equipment numbers** (W14+ equipment tracking infrastructure) — lat pulldown (140 machine / 52.5-57.5 column / 47.5 pulley), cable crunch (130 column / 62.5 pulley). Pick whatever's free, log equipment + number used.",
+        "**Right shoulder watch continues** — W13 closed clean; cross-check across W14D1 push and W14D3 pull. If the cluster returns, drop volume on day.",
+        "**Behind-back shrug returns** (alternates with trap-3 raise across pull days — trap-3 was W13D3).",
+        "**Saturday D6 NEW KB CARDIO option** — cave-pull conditioning day. Asgooch cardio complex + halo/figure-8 to reverse lunge combos + high-rep controlled-power finisher. LIGHT bell (16-20lb), ~40 min. Choice-of-the-day alongside stairmaster / easy run / rest.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Internal core fist rotation stays in morning flows + all gym-day warmup blocks."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w14.json"
+    },
+    {
+      "week": 15,
+      "label": "Steady State — Sets and Loads Hold; Spotlights Cycle Forward",
+      "description": "Steady-state week — sets and loads hold across the board; the gains come from sharper execution at the established numbers. **Spotlights cycle forward:** chest press + farmer carry (push), chest-supported row + face pull (pull), leg press + Bulgarian (legs), clean & press + the strength block (KB Tuesday), windmill (KB Thursday). **Structural changes:** the behind-back pull-day shrug moves to an early activation slot (it's protective 'opposite movement' work for the right shoulder — burying it as the closing station meant a rushed session dropped it and the shoulder flared). **Earned step-ups:** chest-supported row 35→40, cable crunch past pulley 72.5, Bulgarian load step-up, and the KB strength block goes to 3 rounds (volume, not bell weight). Order on gym days is availability-driven — take whichever station is free, but keep each station's work grouped. Cable lifts list a number per equipment option.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (chest press + farmer carry spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w15-push",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow (rotated moves on W14). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — Strength Block Step-Up (C&P spotlight, Asgooch flow 4+1)",
+          "type": "workout",
+          "workoutId": "fb-w15-kb-full",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (chest-supported row + face pull spotlight; shrug moves early)",
+          "type": "workout",
+          "workoutId": "fb-w15-pull",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, Full Template (windmill spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w15-kb-cond",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State, Station-Grouped (leg press + Bulgarian spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w15-legs",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w15-kb-cardio", "notes": "Conditioning day — Asgooch cardio complex + flow combos + a rotated brutal-complex-variant finisher. LIGHT bell, ~40 min." },
+            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
+            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
+            { "label": "Rest", "type": "rest" }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
+            { "label": "Full Rest", "type": "rest" }
+          ]
+        }
+      ],
+      "tips": [
+        "**Steady state — sets and loads hold.** The work is depth of execution at the established numbers, not new weight.",
+        "**Spotlights cycle forward:** chest press + farmer carry (push), chest-supported row + face pull (pull), leg press + Bulgarian (legs), clean & press + strength block (KB Tue), windmill (KB Thu).",
+        "**Behind-back pull-day shrug moves to an early activation slot — and a light greasing version is scattered into the push + KB-day warmups** — it's protective 'opposite movement' work that's cheap and easy to forget.",
+        "**Earned step-ups:** chest-supported row 35→40, cable crunch past pulley 72.5, Bulgarian load step-up. KB strength block goes to 3 rounds (volume is the lever, not the bell).",
+        "**Chest press gets the cross-body arm stretch between every set** — it cleared the right-pec referral last session.",
+        "**Cable lateral raise holds at cable column 30** — the pain-free shoulder streak is new, don't chase load.",
+        "**Order on gym days is availability-driven** — take whatever station is free, keep each station's work grouped. Push press going second costs a couple reps; that's the accepted trade-off.",
+        "**Leg curl stays BEFORE incline RDL** — don't reverse them, or the two hamstring lifts stack.",
+        "**Asgooch flow: 4 rounds per side mandatory, 5th optional.** Brutal Complex finisher stays OPTIONAL/EXTRA on Tuesday; Saturday's finisher rotates to a brutal-complex variant.",
+        "**OTD flow (Thursday) is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. Bent press is move #4, in the flow. KB flow loads in lb, not kg.",
+        "**Shoulder management:** last week's pull-day flare was VOLUME-driven, not weight. Ramp the tempo (don't make every set all-slow-eccentric at once), keep the early shrug, lean on cable fly + morning stretches + external rotations.",
+        "**Right shoulder watch continues** — push day's been the cleanest in 6 weeks; track whether the early shrug keeps the pull day clean too.",
+        "**Cable lifts have per-equipment numbers** — lat pulldown (140 machine / 70 dual pulley / 52.5-57.5 column / 47.5 pulley), cable crunch (135 column / 75-77.5 pulley). Pick what's free, log equipment + number.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Internal core fist rotation stays in morning flows + all gym-day warmup blocks."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w15.json"
     }
   ],
   "tips": [

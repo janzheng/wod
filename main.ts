@@ -1387,7 +1387,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
 
               <!-- Morning Flow -->
               <template x-if="workoutFlow">
-                <div @click="selectWorkout(workoutFlow.workoutId)" style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s;">
+                <a :href="'/' + workoutFlow.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(workoutFlow.workoutId); }" style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s; text-decoration: none; color: inherit;">
                   <span style="font-size: 1rem;">&#9728;</span>
                   <div style="flex: 1;">
                     <span style="font-weight: 600;" x-text="workoutFlow.label || 'Morning Flow'"></span>
@@ -1396,7 +1396,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     </template>
                   </div>
                   <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-                </div>
+                </a>
               </template>
 
               <!-- Session Log -->

@@ -292,6 +292,7 @@
 **Notes from real sessions**
 - 15/side is the working weight (W5 finding); 20/side too heavy at 2 reps
 - Incline DB curl (`incline-curl`) at 25 is the proven backup when preacher is taken (W7+) — NOT `concentration-curl` (different catalogue exercise; user has never done that variation; W7-W10 entries originally mislabeled, corrected W11D3)
+- **W14D3 correction — `incline-curl` IS a preacher-style movement, not a back-against-bench incline curl.** User: "chest supported preacher style on 45 degree, armpit is on the pad and arm/hand is flat on the pad and curling." Set the incline bench to ~45°, lean in chest-first, armpit + back of upper arm flat on the pad, arm hangs down the face of the pad, curl keeping the upper arm flat. The exercise definition was rewritten to match; the earlier "back against the bench, DBs hanging at sides" cue (W11-W13 pull workouts) was wrong. Use the chest-supported cue going forward.
 - Drop set 15→10 to failure is good programming
 
 ---
@@ -475,6 +476,7 @@
 - Without full lockout at the bottom keeps tension on biceps (W7 discovery, holds across both setups)
 - 2 sets only in the finisher (trimmed from 3 in W8)
 - When writing weekly workouts, give a setup-agnostic prescription ("high cable curl, find the working number on whatever pulley is free — recent: ~60 dual / ~120 single") instead of locking one
+- **W14D3 confirms the single-arm framing** — user: "single arm cable column OR the more common pulley w/ weights depending on availability (history has both)." Cable column working = **170** (W12-W14, "hard but doable not to failure" at 12 each). Pulley working ≈ **120**. Exercise definition was rewritten (was stale — had described a seated two-handed lat-pulldown version).
 
 ---
 
@@ -546,6 +548,8 @@
 - W9D5 milestone: 55/side became a place you could "live in the bottom of" — adaptation marker
 - W7-W8 hit 75-80/side cleanly, 80 is no longer a test
 - Plate counting convention: weights are plates only (e.g., "65/side" = 175 total with 45lb bar)
+- W12D5: user self-pyramided 75 x 10/6/6/8 from a prescribed 75x8x4. **Discovery: fewer reps per set deepens the form** — set 1 at 10 "kind of heavy, didn't get full range," the 6-rep sets were "lower" and cleaner. User wants to pyramid more next time to "build up courage."
+- W13D5: pyramid 8/6/8 at 75/side, **set 3 "super super deep and felt very good."** User preference for next time: a **6/7/8 ascending pyramid** instead of 8/6/8 — same logic as W12D5 (fewer reps lets depth and form land). W14 squat: test 6/7/8 and check whether the set-3 depth carries across all three sets.
 
 ---
 
@@ -574,10 +578,11 @@
 - Moving fast (loses the stimulus — speed is the worst progression here)
 
 **Notes from real sessions**
-- 25lb plate dead slow with 2s pause torches the hammies (W7-W8)
+- Dead slow with a 2s pause torches the hammies — it's been the 45lb plate since W7 (the early "25lb" logs were a drift from the prescription template; that gym area has no 25s to drag over)
 - Slower before heavier — go to 4s eccentric before adding weight
 - Identified as hidden fatigue driver in W8 (likely contributor to QL spasm) — keep but RESPECT it
-- W11D5: 25lb dead slow, all sets done with extra rest between sets, glute squeeze emphasis. User corrected the naming: "MARKED WRONG not back extensions" — this lift has always been an incline RDL in execution; the program now matches.
+- W11D5: 45lb dead slow, all sets done with extra rest between sets, glute squeeze emphasis. User corrected the naming: "MARKED WRONG not back extensions" — this lift has always been an incline RDL in execution; the program now matches.
+- W14D5: **LOAD CORRECTION — it's a 45lb plate, not 25.** User: "has always been a 45 lb plate ever since the beginning." The W7 prescription template said "start with 25lb, go up if easy", but the user used the 45 available in that area the whole time (no 25s to drag over) — every "25" in the early logs was drift. Working load is **45lb plate, dead slow, 3×15, close to failure** at that tempo. The tempo is still the progression — but the number on the plate is 45.
 
 ---
 
@@ -607,6 +612,8 @@
 - 4 plates at FULL ROM is the W8 stimulus — but it's ALSO the hidden hip-stabilizer hammer (W9D5 confirmed)
 - 3 plates at MEDIUM ROM is the W9 deload load — adductors and small stabilizers fire even at this load
 - Long-term: alternate heavy/full-ROM weeks with lighter/medium-ROM weeks to avoid the W8 stabilizer overload pattern
+- W12D5: **3 plates at FULL ROM ("knee to chest like frogger") is the core/QL stimulus**, not a leg stimulus. User: "it's like a QL massage… not hard at all but feel the intersection of super weak [core/QL] muscles plus leg muscles which don't care about this weight." Full ROM at lighter load is the prescription until the core chain catches up.
+- W13D5: confirmed — 3 plates full ROM landed as **abs + psoas sore**, exactly the W12D5 pattern. The lighter-load full-ROM call is doing what it was designed to do.
 
 ---
 
@@ -634,6 +641,8 @@
 **Notes from real sessions**
 - 110 is working hard (W8), 90 is warmup/calibration
 - Baseline numbers are on settings 5/m/0/1 — don't compare to older numbers on different settings
+- W11D5: ramped past prescribed 50 — 50x12 too easy, 65x12 eccentrics easy, 90x12 working ("got too hard around the 4th eccentric"); 90 settled as the working weight at corrected ankle placement.
+- W13D5: 2 sets at 90 ran clean — **slow tempo is the stimulus.** User: "feel these deeply when doing it slowly." The heal-week cut to 2 sets landed without losing the feel.
 
 ---
 
@@ -661,6 +670,38 @@
 - 4 plates/side single leg felt solid (W7-W8)
 - W9 planning note: a small plate UNDER the ball of the foot to deepen the stretch — **tested W12D5, rejected, see below.**
 - W12D5 — plate-under-foot rejected. On the incline leg press the balls of the feet already sit on the bottom edge of the platform with the heels hanging off, so the heel drop gives the full stretch on its own — a plate under the foot "doesn't make sense" on this machine. The stimulus is the **slow eccentric**, not added elevation (W12D5 slow count at 3 plates was "incredibly hard"). Stay flat: balls of the feet on the platform edge, deep heel drop, 3-4s eccentric. The program ran double-leg from W11 on (single-leg + slow was the W10D5 trap).
+- W13D5 — **station-sequencing flag.** User: "calf raise is in a bad position it needs to be with the equipment, CLAUDE.md needs this note." The lift is done on the leg press machine but had been sequenced after the Bulgarian station — forcing a walk back. Rule made explicit in CLAUDE.md ("Station Grouping in Multi-Equipment Workouts"): leg-press-calf-raise belongs **immediately after leg press**, same station. W14 legs sequence: leg press → leg-press-calf-raise → Bulgarian → leg curl → incline RDL. The lift itself felt easy on slow eccentrics today.
+
+---
+
+### Bulgarian split squat
+
+**Equipment priority:** **Smith machine preferred** (`smith-machine-bulgarian-split-squat`) — fixed bar path means the front-heel drive does all the work, no balance tax. Smith is "always taken" at this gym, so the realistic default is **flat bench + DBs at the sides** (`bulgarian-split-squat`). Replaces the walking lunge as the program's unilateral leg lift (W12D5 user request).
+
+**Setup**
+- **Rear foot up on a bench** behind you, laces down (or toes tucked — taste)
+- **Step the front foot out far enough that the front shin stays roughly VERTICAL at the bottom of the rep.** Too short a stance → knee crashes past the toes. The stride length is the cue most often missed.
+- DBs at the sides (Smith bar on traps if using Smith)
+- Torso tall, not folded forward
+
+**Movement**
+- **Front knee tracks over the front foot** — does not cave in
+- **Lower until the rear knee nearly touches the floor** — controlled, no dropping
+- **Drive up through the FRONT HEEL** — the front leg does the work; the rear leg is a kickstand for balance, not a contributor
+- Torso stays tall — slight forward lean is fine, no folding over
+
+**Tempo + breath**
+- **2s descent**, own the bottom
+- Breath: in on the descent, out on the drive
+
+**Common faults**
+- Stance too short → front shin past vertical at the bottom → knee crashes forward
+- Pushing through the rear foot (defeats the unilateral point)
+- Torso folding forward (becomes a glute-dominant hinge, not a leg drive)
+- Loading too heavy before the pattern is grooved — the failure mode is QL/hip-stabilizer spasm, not a knee tweak
+
+**Notes from real sessions**
+- W13D5 — introduction session at bodyweight / light DBs as prescribed. Clean: "good to do at this weight, felt fine no twitching or spawning [spasming]." User context: prior unprogrammed Bulgarian attempts had been loaded too heavily without easing in and triggered spasms — the light-introduction call landed correctly. **"Happy to go up after this"** — W14 can step up incrementally (light DBs at sides ~15-20lb each, keep the pattern the focus).
 
 ---
 
@@ -912,8 +953,9 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W10  | Push press, incline DB | Done |
 | W11  | Chest press machine | Done |
 | W12  | Lateral raise, kinesis cable fly | Done |
-| W13  | Cable lat raise, incline overhead tri ext, straight arm pulldown (DELOAD) | Current |
-| W14  | Cycle back to push press / incline DB to refresh | Planned |
+| W13  | Cable lat raise, incline overhead tri ext, straight arm pulldown (heal week) | Current |
+| W14  | Push press, incline DB (refresh) | Done |
+| W15  | Chest press, farmer carry | Current |
 
 ### Pull rotation
 
@@ -922,8 +964,9 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W10  | Pull-up, DB row | Done |
 | W11  | Chest-supported DB row, lat pulldown | Done |
 | W12  | Face pull, reverse fly | Done |
-| W13  | Bicep curl (incline), high cable curl, cable crunch (DELOAD) | Current |
-| W14  | Cycle back to pull-up / DB row | Planned |
+| W13  | Bicep curl (incline), high cable curl, cable crunch (heal week) | Current |
+| W14  | Pull-up, DB row (refresh) | Done |
+| W15  | Chest-supported row (weight-up to 40), face pull (refresh) | Current |
 
 ### Legs rotation
 
@@ -932,10 +975,13 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W10  | Squat, incline RDL | Done |
 | W11  | Leg press | Done |
 | W12  | Seated leg curl, calf raise | Done |
-| W13  | Bulgarian split squat (NEW — replaces walking lunge; introduce at deload volume) | Current |
-| W14  | Cycle back to squat / incline RDL | Planned |
+| W13  | Bulgarian split squat (NEW — replaces walking lunge; introduce at light volume) | Done |
+| W14  | Squat, incline RDL (refresh) | Done |
+| W15  | Leg press (full-ROM depth), Bulgarian (load step-up) | Current |
 
-**W13 legs note:** The Bulgarian split squat replaces the walking lunge as the program's unilateral leg lift (W12D5 user request — "officially introduce bulgarians into the next leg day"). It is more controlled than the walking lunge (rear foot fixed, no travel), which makes it both a better single-leg builder and a gentler QL choice — a good fit for a deload introduction. Equipment priority: **Smith machine preferred** (`smith-machine-bulgarian-split-squat`) but it's "always taken" at this gym, so the **bench + DBs** fallback (`bulgarian-split-squat`, DBs at sides) is the realistic default. As a NEW lift in a deload week, introduce at conservative volume — bodyweight or light DBs, 2 sets, focus on the front-heel drive + vertical-torso pattern, not load.
+**W13 legs note:** The Bulgarian split squat replaces the walking lunge as the program's unilateral leg lift (W12D5 user request — "officially introduce bulgarians into the next leg day"). It is more controlled than the walking lunge (rear foot fixed, no travel), which makes it both a better single-leg builder and a gentler QL choice — a good fit for a heal week introduction. Equipment priority: **Smith machine preferred** (`smith-machine-bulgarian-split-squat`) but it's "always taken" at this gym, so the **bench + DBs** fallback (`bulgarian-split-squat`, DBs at sides) is the realistic default. As a NEW lift in a heal week, introduce at conservative volume — bodyweight or light DBs, 2 sets, focus on the front-heel drive + vertical-torso pattern, not load.
+
+**W13D5 result:** introduction at light load ran clean — no twitching/spasms, user "happy to go up after this." Full cue set + real-session note now lives in the dedicated **Bulgarian split squat** section above.
 
 ### KB Tuesday rotation (KB Full Body — slightly heavier skill)
 
@@ -944,15 +990,25 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W10  | C&P (technique drill), TGU (left-side checkpoints) | Done |
 | W11  | Swing mechanics, bent press leverage | Done |
 | W12  | Windmill, cossack mobility | Done |
-| W13  | Cycle back to C&P + TGU (DELOAD refresh) | Current |
+| W13  | Cycle back to C&P + TGU (heal week refresh) | Done |
+| W14  | Bent press + flow work | Done |
+| W15  | C&P + strength block (3-round volume step-up) | Current |
 
 ### KB Thursday rotation (KB Conditioning — lightest day, skill-only)
+
+**Thursday closes on a light Flow + Balance block — never a Brutal/metabolic finisher.** It's the day before Friday legs, and its identity is conditioning + skills/technique + balance (W14D4 user call). Metabolic complexes live on Tuesday (optional) or Saturday (pure conditioning), not here.
+
+**The OTD flow is a canonical 5-move flow — copy it verbatim, never reconstruct it.** Source of truth: `workouts/kettlebell/kb-flow-dead-clean-press.json` ("KB Flow: Dead Clean → Squat → Lateral Lunge → Bent Press"), in the program since W4. The sequence is **dead clean → front squat → lateral lunge → bent press → tactical clean**, full flow on one side then the other. The bent press is move #4 — NOT rotation-only, NOT optional. W13 pulled it out into a separate spotlight block (broke the flow to 4 moves); W14 lost it entirely. When building any week, copy the canonical sequence move-for-move; dropping or reordering a move breaks the flow (W14D4 user call).
+
+**Express all KB flow loads in lb, never kg** — the user trains on lb bells (25lb is the bell that maps to the @kettleclubfam "12kg" figure-8 call). Source reels use kg; translate to the lb bell when annotating. The figure-8 flow drifted to "12kg" in W14 and the user asked to turn it back (W14D4).
 
 | Week | Spotlight lifts | Status |
 |------|----------------|--------|
 | W10  | Bent press (lateral hinge mechanics) | Done |
 | W11  | Windmill mechanics | Done (W11D4 was skipped) |
 | W12  | TGU left-side checkpoints | Done |
-| W13  | Cycle back to bent press (DELOAD refresh) | Current |
+| W13  | Cycle back to bent press (heal week refresh) | Done |
+| W14  | Figure-8 → tactical clean flow | Done |
+| W15  | Windmill (lateral-hinge mechanics) | Current |
 
 When a cue clicks → log it under the exercise's "Notes from real sessions" subsection. When a cue fails or needs revision → update the cue itself, not a sticky note.

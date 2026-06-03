@@ -83,6 +83,14 @@ Tracks where exercises, workouts, and programs come from.
   - https://x.com/sculptherbody/status/2026983176472576368 (abs circuit)
   - https://x.com/sculptherbody/status/2048273465661120547 (seated banded shoulder flow, captured 2026-04-26)
 
+### @muccistrength (X/Twitter)
+- **What:** Wrist-driven fascia/mobility work (credits David Weck / @TheDavidWeck)
+- **Import status:** COMPLETE
+- **Exercises with media:** internal-core-fist-rotation
+- **Workouts:** added to fb-w13-morning-flow, daily-mobility, fb-banded-shoulder-flow, and the fb-w13 push/pull/legs warmup blocks
+- **URLs:**
+  - https://x.com/muccistrength/status/2057492215857807483 (Internal Core Fist, captured 2026-05-22)
+
 ### @gymfiesta (X/Twitter)
 - **What:** Kettlebell exercise demos
 - **Import status:** COMPLETE
