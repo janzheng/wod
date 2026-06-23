@@ -1,0 +1,106 @@
+[
+ {
+  "day": 1,
+  "workoutId": "fb-w18-push",
+  "date": "2026-06-22",
+  "rawInput": "w18d1\n\npush press\npretty good; 10/10/8 still no full three set still at 45; should be resting more getting a bit restless here :P bc a bench opened - force me to rest here for at least a minute; first set super easy and last set super hard so this is a good workout\n\nincline press\nfelt strong rested more did all sets and felt like still had more in the tank!\n\nlat raises\ndid slowly and i'd all of them, wasn't too bad actually \n\nshoulder getting better should we do front raises with the 15s or with a 45 plate with rotation?\n\ncable fly fine should step forward more / makes it harder\n\nlat raise right shoulder still sore but doing much better more muscle weakness than pain\n\noverheat tri always hard here at last set - this one also starts very easy and ends very hard on third set\n\nlat pulldown died on 9th on last set\n\ndips\nlegs fold back to get more forward lean\ndid 10 good rom and slow first set with good lean\nwhat really helped is leaning against the bar and doing mini dips to warm shoulder up - this is the same part that shoulder shrugs helps “crack” same muscle or tendon or whatever i think is the root cause or at least connection to shoulder and pec issue\ndid another set of 10, seems like going past 10 is hard \ndied on 8 on last set\n\nforgot to do dips oops did them last\n\nfarmers carry is fine; mostly this is grip and shoulder  / form\n\ngreat workout u made - curious, its starting to feel *easier* - i'm less sweaty and the roudns go by faster; i think we tapered on the weights and kind of went down to account for shoulder; are we doing too low of weights or is this fine / am i still seeing improvement at this weight and rate",
+  "notes": "W18 push, steady-state — a clean, confident session with the shoulder visibly improving ('still sore but doing much better, more muscle weakness than pain'). Push press held 45, 10/10/8 again — this week he forced ~1 min rest (a bench opened), 'first set super easy and last set super hard, this is a good workout'; set 3 still capped at 8 even with the longer rest. Incline 'felt strong, rested more, did all sets, still had more in the tank.' Two things to answer in conversation: the front-raise question (15s vs 45-plate-with-rotation) and the big one — the whole session is 'starting to feel easier, less sweaty, rounds go by faster… are we doing too low of weights?' (the floor-rising signal, not a problem). New self-discovered rehab cue: mini-dips leaning on the bar warm the shoulder and 'crack' the same spot the protective shrug does — user reads it as the root-cause link between the shoulder and the front-pec issue. Dips got shuffled to last ('forgot… did them last').",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "push-press",
+    "context": "Ran first; this week forced ~1 min rest (a bench opened up) — more than W17's ~30s, less than the prescribed 2 min",
+    "sets": [
+     { "weight": "45lb each", "reps": 10, "notes": "'Super easy.'" },
+     { "weight": "45lb each", "reps": 10 },
+     { "weight": "45lb each", "reps": 8, "notes": "'Last set super hard' — still capped at 8 even on the longer ~1 min rest." }
+    ],
+    "notes": "45/side, 10/10/8 — same as W16/W17. He rested ~1 min this week (vs W17's ~30s) and liked the shape ('first set super easy, last set super hard… this is a good workout'), but set 3 still landed at 8, not the full 10. So the W17 'fuller rest recovers set 3' hypothesis is only half-confirmed: ~1 min helped the feel but didn't add the rep. Either the FULL 2 min is needed, or 8 is just the honest set-3 number at 45 right now. Not a problem to fix — hold 45; W19 test the full 2 min once before reading anything into the 8."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "context": "Held the prescribed 45 pair (not restated); rested more this week",
+    "sets": [
+     { "weight": "45lb pair", "reps": 12 },
+     { "weight": "45lb pair", "reps": 12 },
+     { "weight": "45lb pair", "reps": 12, "notes": "'Felt like still had more in the tank.'" }
+    ],
+    "notes": "'Felt strong, rested more, did all sets, still had more in the tank.' The rest-is-the-lever read landing cleanly here — fuller rest + a sense of headroom at 45. The 'more in the tank' is the floor rising, not a cue to load up (the at-risk front shoulder is the reason to bank the headroom, not spend it). Hold 45."
+   },
+   {
+    "id": "lateral-raise",
+    "context": "Held the prescribed 15 (not restated)",
+    "sets": [
+     { "weight": "15lb", "reps": "15-18" },
+     { "weight": "15lb", "reps": "15-18" },
+     { "weight": "15lb", "reps": "15-18", "notes": "'Did slowly and did all of them, wasn't too bad actually.'" }
+    ],
+    "notes": "15lb, slow, all sets — 'wasn't too bad actually,' another floor-rising read on a lift that used to be 'always hard.' Hold 15, slow eccentric."
+   },
+   {
+    "id": "kinesis-cable-fly",
+    "equipment": "Kinesis",
+    "context": "Held the prescribed Kinesis 9 (not restated)",
+    "sets": [
+     { "weight": "Kinesis 9", "reps": "10-12" },
+     { "weight": "Kinesis 9", "reps": "10-12" },
+     { "weight": "Kinesis 9", "reps": "10-12" }
+    ],
+    "notes": "'Fine — should step forward more / makes it harder.' He's found the free progression: stepping forward deepens the stretch and the difficulty without touching the load — exactly the ROM-as-progression lever the program wants. Keep 9, step forward to chase the harder stretch."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "context": "Cable block; weight not restated this session",
+    "sets": [
+     { "reps": 12, "notes": "Weight not specified." }
+    ],
+    "notes": "Logged under its shoulder note: 'right shoulder still sore but doing much better, more muscle weakness than pain.' Weight not given this session. The 'weakness, not pain' read is the headline — the structure is shifting from a pain problem toward a strength deficit (a much better place to be)."
+   },
+   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "context": "Cable block; weight not restated this session",
+    "sets": [
+     { "reps": "10-12", "notes": "Weight not specified." }
+    ],
+    "notes": "'Always hard here at the last set — starts very easy and ends very hard on the third set.' Same start-easy / end-brutal shape as W17 — that's the lift working (long time-under-tension on a small muscle), not a load problem. Weight not given."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "context": "User wrote 'lat pulldown' — in the push-day cable block this is the straight-arm pulldown (the 3rd cable item); logged as such. Weight not restated.",
+    "sets": [
+     { "reps": 9, "notes": "'Died on 9th on last set.' Weight not specified." }
+    ],
+    "notes": "'Lat pulldown died on 9th on last set' — read as the straight-arm pulldown (3rd in the cable block), got 9 on the final set. Consistent with W17's 'still dying at end' on this lift. Weight not given this session. (If it was actually a separate lat pulldown machine on push day, flag it next session.)"
+   },
+   {
+    "id": "dip",
+    "context": "🔆 W18 spotlight. Bodyweight, full ROM, good forward lean. Got shuffled to LAST ('forgot… did them last').",
+    "sets": [
+     { "weight": "bodyweight", "reps": 10, "notes": "First set — good full ROM, slow, good forward lean (legs folded back to get the lean)." },
+     { "weight": "bodyweight", "reps": 10, "notes": "'Going past 10 is hard.'" },
+     { "weight": "bodyweight", "reps": 8, "notes": "'Died on 8 on last set.'" }
+    ],
+    "notes": "Bodyweight 10/10/8, full ROM, the chest-bias lean grooving (legs fold back → more forward lean). **Key self-discovery: mini-dips leaning on the bar warm the shoulder up before full dips — and it 'cracks' the SAME spot the protective shrug does.** User reads this as the root-cause link between the shoulder and the front-pec issue. This is a genuinely useful prehab find — added as a dip warmup cue (NOTES + form-cues doc). 10 looks like the current ceiling per set ('going past 10 is hard'); that's fine — bodyweight reps creep up on their own. No shoulder complaint flagged on the dips themselves."
+   },
+   {
+    "id": "farmer-carry",
+    "context": "Held the prescribed 50 (not restated)",
+    "sets": [
+     { "weight": "50lb", "duration": 50 },
+     { "weight": "50lb", "duration": 50 },
+     { "weight": "50lb", "duration": 50 }
+    ],
+    "notes": "'Fine — mostly this is grip and shoulder / form.' Grip stays the honest limiter (as designed; no straps). Hold 50, packed-tall posture, set down when grip gives."
+   }
+  ],
+  "shoulderStatus": "**The best shoulder report in a while.** 'Right shoulder still sore but doing MUCH better — more muscle weakness than pain.' The structure is shifting from a pain problem toward a strength deficit, which is exactly the direction we want (you can train weakness; you protect pain). No shoulder complaint on dips (the at-risk spotlight move) even at full ROM. The headline insight: mini-dips on the bar + the protective shrug both 'crack' the same spot — the user's own read that this is the root-cause connection between the shoulder and the front-pec issue. Worth treating that spot deliberately: the mini-dip warmup is now the pre-dip ritual, and it reinforces why the protective shrug stays a permanent anchor.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**'It's starting to feel easier' is the win, not a red flag.** User asks if the weights are too low (less sweaty, rounds go faster, feels easier). That's the floor rising — same loads now move with full reps, fuller rest, clean form, and faster recovery (better work capacity). The taper for the shoulder is *working*; you don't undo a taper the moment it works. Don't push progressive overload (fuzzy-progression). The honest 'still improving?' tells are: push press still hasn't capped 45 (set 3 is 8, not 10 — there's literally a rep still to win), and 'easier' partly = the rest fix landing (more rest → less metabolic sweat, more strength expression). When 45 push press is a clean 10/10/10 across full rest, THEN a small nudge is earned.",
+   "**Push press: rest hypothesis only half-confirmed.** ~1 min rest (vs W17's 30s) improved the feel but set 3 still hit 8, not 10. W19: try ONE session at the full prescribed 2 min before concluding 8 is the ceiling at 45. Either way, hold 45 — don't load up.",
+   "**Mini-dip warmup is now the pre-dip ritual.** Leaning on the bar doing mini-dips warms the shoulder and 'cracks' the same spot the protective shrug does — user's read: the root-cause link between the shoulder and the front-pec. Bake it into the dip station as a warmup cue (done — form-cues doc + W19 push). Reinforces the protective shrug as a permanent anchor.",
+   "**Front-raise question (answered in conversation):** if added at all, go LIGHT and controlled (15s, or lighter, slow with the rotation through range) and put it in the shoulder-rehab warmup slot — NOT the 45 plate (too much anterior torque on a healing shoulder) and NOT a 4th working pressing station (push day is at capacity; anterior delt is already covered by push press + incline + dips). Rehab wants control + range, not load.",
+   "**Free progressions the user found himself, on-philosophy:** Kinesis fly — step forward to deepen the stretch (harder without more load). Dips — full ROM + forward lean. These are ROM/leverage progressions, exactly the levers the program prefers over heavier plates. Encourage more of this."
+  ]
+ }
+]

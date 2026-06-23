@@ -67,6 +67,14 @@ Tracks where exercises, workouts, and programs come from.
 - **Exercises with media:** ~20+ kettlebell exercises (goblet squat, swing, clean, press, rows, etc.)
 - **Workouts:** kb-athletic-alternating, kb-the-only-workout, kb-overhead-mobility-complex, kb-brutal-complex, kb-beginner-full-body, kb-cardio-complex, kb-b-stance-flow
 
+### @GymFiesta (X/Twitter)
+- **URL:** https://x.com/GymFiesta/status/2062207034108358802
+- **What:** Four-move full-body kettlebell circuit (around-the-body pass to squat / reverse lunge to knee drive / snatch / single-arm press to march), 3 rounds (rounds inferred, not stated)
+- **Import status:** COMPLETE
+- **Exercises created:** kettlebell-snatch (foundational single-arm snatch — was a gap), kettlebell-around-the-body-pass-to-squat, kettlebell-reverse-lunge-to-knee-drive, kettlebell-single-arm-press-to-march
+- **Workouts:** kb-gymfiesta-full-body-circuit
+- **Notes:** Extracted via wod-xai-extract (Grok video understanding). Sibling to the Asgooch cardio complex — same low-and-explosive full-body conditioning. Penciled as a Tuesday strength/conditioning rotation option (W17 D2+); not Thursday.
+
 ### @powerbrutehq (X/Twitter)
 - **What:** Kettlebell exercises and leg/core circuits
 - **Import status:** COMPLETE
@@ -114,6 +122,7 @@ Tracks where exercises, workouts, and programs come from.
 - **Import status:** COMPLETE
 - **Programs:** 5x hypertrophy split (push/pull/upper/lower-a/lower-b), 4x upper-lower split (upper-a/upper-b/lower-a/lower-b)
 - **No individual exercises** - program-level source only
+- **Post ref:** [low-to-high cable fly demo](https://x.com/DeanTTraining/status/2065547190987051151) — overhead-finish upper-chest fly; planned as a light W18 push-warmup opener (graded shoulder exposure).
 
 ### @actionjacquelyn (YouTube/Social)
 - **What:** Barre workouts - 30-day sculpted leg challenge
@@ -132,6 +141,7 @@ Tracks where exercises, workouts, and programs come from.
 - **Import status:** COMPLETE
 - **Exercises with media:** kettlebell tactical-clean, lateral-lunge, bent-press, front-squat, dead-clean
 - **Workouts:** kb-flow-dead-clean-press
+- **Reel ([1510541494200598](https://www.facebook.com/reel/1510541494200598), Madeleine Conti Personal Training, captured 2026-06-16):** leggy single-bell flow → workout `kb-leggy-flow` (Leggy Flow); new exercise `kettlebell-lateral-squat-clean`. Lower-body cousin of the bent-press/OTD flow.
 
 ### @kettleclubfam (Facebook)
 - **URL:** https://www.facebook.com/reel/2784846568518362
@@ -142,6 +152,13 @@ Tracks where exercises, workouts, and programs come from.
 - **Workouts:** kb-figure-8-tactical-clean-complex (standalone, full pyramid) + light version slotted into fb-w12-kb-cond as the W12D4 skill block
 - **Exercises used (existing):** kettlebell-figure-8, kettlebell-tactical-clean, kettlebell-halo, kettlebell-around-body-pass, kettlebell-swing
 - **Notes:** Source workout video extraction pipeline (video-workout-extract) was broken (python/runCode registry issue) — workout file was built manually from user-provided description. May want to re-run extraction later for media metadata + confidence scores when the pipeline is fixed.
+
+### @gymvibe_ (X/Twitter)
+- **URL:** https://x.com/gymvibe_/status/2060769199404851529
+- **What:** 9-minute single-bell KB AMRAP complex — ballistic row (8/side) → goblet squat-to-press / "goblet cluster" (8) → reverse lunge + knee drive (8/side), AMRAP in 9 min, no rest. Brutal strength/conditioning, NOT a flow.
+- **Import status:** COMPLETE — canonical file `kb-gymvibe-9min-amrap` built; slotted for W18 D2 (see NOTES.md). Captured 2026-06-16.
+- **Exercises used (all existing):** kettlebell-row (ballistic cue), kettlebell-thruster (the source's "goblet cluster"), kettlebell-reverse-lunge-to-knee-drive.
+- **Format:** 24kg/53lb in the source; runs here as a 30 → 40 → 50lb load ladder over three 3-min thirds (50lb = our gym ceiling).
 
 ### @whoisthismommy (X/Twitter)
 - **URL:** https://x.com/whoisthismommy/status/2024684639382855931

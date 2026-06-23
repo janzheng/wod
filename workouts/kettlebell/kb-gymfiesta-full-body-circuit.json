@@ -1,0 +1,60 @@
+{
+  "id": "kb-gymfiesta-full-body-circuit",
+  "name": "Full-Body Kettlebell Circuit — Pass / Lunge Drive / Snatch / Press-March",
+  "description": "A four-move full-body kettlebell circuit: around-the-body pass to squat, reverse lunge to knee drive, snatch, and single-arm press to march, run in sequence for 3 rounds. Low-and-explosive conditioning on a single bell — a close sibling to the Asgooch cardio complex (row/clean/squat/snatch), same full-body conditioning intent with a snatch as the centerpiece. Round count is not stated in the source; 3 is the conventional read.",
+  "routineId": "kettlebell",
+  "tags": [
+    "kettlebell",
+    "full-body",
+    "circuit",
+    "conditioning",
+    "cardio",
+    "complex",
+    "explosive"
+  ],
+  "estimatedDuration": 15,
+  "equipment": [
+    "kettlebell"
+  ],
+  "difficulty": "intermediate",
+  "source": "@GymFiesta",
+  "sourceUrl": "https://x.com/GymFiesta/status/2062207034108358802",
+  "sets": [
+    {
+      "id": "full-body-circuit",
+      "name": "Full-Body KB Circuit",
+      "type": "circuit",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kettlebell-around-the-body-pass-to-squat",
+          "reps": 20,
+          "notes": "Pass around the body once → squat → next pass. Torso tall and still during the pass; full depth on the squat. Alternate pass direction."
+        },
+        {
+          "id": "kettlebell-reverse-lunge-to-knee-drive",
+          "reps": "10 each side",
+          "notes": "Step back to a reverse lunge → drive the back knee forward and up to a tall, balanced stand → repeat. Drive through the front heel; stay tall."
+        },
+        {
+          "id": "kettlebell-snatch",
+          "reps": "10 each side",
+          "notes": "Hips drive the bell, punch the hand THROUGH at the top for a soft catch — no bang on the wrist. Right shoulder watch on the catch; sub high pulls if it crackles."
+        },
+        {
+          "id": "kettlebell-single-arm-press-to-march",
+          "reps": "10 each side",
+          "notes": "Press with the shoulder packed DOWN, lock it out, then march alternate knees keeping the bell stacked overhead. Obliques fight to keep the torso square under the offset load."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60,
+      "notes": "Move through the four in order with minimal rest between moves. Rest ~60s between rounds, 3 rounds total. Light-to-moderate bell — this is conditioning, keep the breathing rate up. Source overlays read x20 / x10 / x10 / x10; the unilateral moves are written as per-side, scale to total if that's too much."
+    }
+  ],
+  "tips": [
+    "Single bell throughout. Conditioning intent — pick a load you can keep moving with for 3 rounds, not a 1-rep-max bell.",
+    "The snatch is the technical centerpiece: hip drive, punch-through, soft catch. If the right shoulder complains, swap snatches for high pulls.",
+    "Sibling to the Asgooch cardio complex — same low-and-explosive full-body conditioning. Good fit for a Tuesday strength/conditioning rotation or a Saturday cardio choice; NOT for Thursday (no brutal/explosive finishing before Friday legs)."
+  ]
+}

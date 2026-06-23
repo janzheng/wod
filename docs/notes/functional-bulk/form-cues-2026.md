@@ -44,6 +44,8 @@
 
 ### Lateral raise (DB)
 
+**Targets:** the **medial (side) deltoid** — the cap of the shoulder that builds width. Secondary: supraspinatus (initiates the lift), a little anterior delt. The slow eccentric piles time-under-tension onto a *small* muscle, which is exactly why the last set stays hard even at a light load — that burn is the medial delt, working as intended. If you feel it in the upper traps/neck instead, the DBs are going above shoulder height or the elbow is locking/unlocking — both shift the work off the delt.
+
 **Setup**
 - Stand tall, feet hip-width
 - DBs at sides, slight bend in elbow ~10-15° — *fixed throughout the rep*
@@ -64,6 +66,7 @@
 
 **Notes from real sessions**
 - W10D1: Leading with the elbow on set 1 caused a shooting line (not super painful) from scapula down to elbow. **The fix that worked:** between sets, roll shoulders + actively engage/disengage scapula a few times. Sets 2 and 3 felt way better, set 3 was hard "in the right way." Make scapula reset between sets a default when shoulder is acting up — don't just push through it. (Stretches helping overall; the right-shoulder crackle is real but manageable.)
+- W16D1 (spotlight): 15lb x 15-18 x3 done deliberately slowly — "still hard at last set, especially the slower i go." Confirms the slow eccentric is biting the medial delt (that's the point). User asked "what muscle is this focusing on?" → added the **Targets** line above. Mild right-shoulder soreness *began* around this lift this session, but the farmer carry's tall, packed-down-and-back posture cleared it later — the carry reads as shoulder decompression.
 
 ---
 
@@ -236,6 +239,36 @@
 **Notes from real sessions**
 - W10D1: cable column 100, 12/12/10 stopped out. "Oof really hard today." — accumulated push-day fatigue showing up here. (W7=110, W8=120, W10 pulled back to ~100 for form-first.)
 - W11D1: Cable column busy → **Kinesis 6 ≈ cable column 100** (user calibration: "machine not linear, this feels like 100"). Lock Kinesis 6 as the Kinesis-fallback working number.
+
+---
+
+### Dip (parallel-bar, chest-bias)
+
+**Targets:** chest (sternal pec) when chest-biased; triceps + front delt when upright. A stretch-position bodyweight push — different stimulus from a fixed-path machine press, which is why it "feels nothing like a weight chest press" (user, W17). The front-pec insertion is loaded hard in the bottom stretch.
+
+**Warmup (the user's own discovery, W18 — now the pre-dip ritual)**
+- **Mini-dips leaning against the bar first** — a few shallow, supported reps before full dips. Warms the shoulder and "cracks" the same spot the protective behind-back shrug does. User reads this spot as the root-cause link between the right shoulder and the front-pec issue — so treat it deliberately: mini-dip warmup + the protective shrug both serve it.
+
+**Movement**
+- **Lean the torso forward ~15-30°** and let the elbows flare slightly — that's what shifts load onto the chest (upright + tucked = triceps-bias).
+- **Fold the legs back behind you** — gets the forward lean and quiets the body-bob (user cue, W18).
+- **Pack the shoulders DOWN and BACK at the top** — never shrug up around the ears. Pack-down is the whole game on dips.
+- **Controlled descent ~2s, drive to a soft lockout** — don't drop into the bottom or snap the elbows.
+
+**The watch**
+- **Front-pec: pressure is fine, PAIN is not.** A little pressure on the front pec in the bottom stretch is expected (chest-bias dip). If it tips to pain, shorten the depth or move to the supported machine — that's the cue, not the rep count.
+
+**Swap:** supported/assisted dip machine or band-assisted if the front shoulder talks — same movement, just enough assist to hold the depth controlled.
+
+**Notes from real sessions**
+- W17D1 (debut): bodyweight 12/(6+6)/8, fuller-than-prescribed ROM, **no shoulder complaint** even deep. "Really hard to lead with chest, body bobs up" — new-pattern groove. Front pec got pressure, not pain.
+- W18D1 (spotlight): bodyweight 10/10/8, full ROM, lean grooving (legs folded back). **Mini-dip-on-the-bar warmup discovered** (see above). "Going past 10 is hard" — 10/set is the current per-set ceiling; it'll creep on its own. Shoulder quiet.
+
+---
+
+### Front raise — NOT programmed (rehab-only if at all)
+
+The anterior delt is already covered three ways (push press, incline DB, dips), so a working front raise is a redundant add on an at-risk-shoulder program — and push day is at capacity. User asked W18 whether to add it (15s vs 45-plate-with-rotation). **Answer: if at all, LIGHT and controlled (15s or lighter, slow, rotation through range) in the shoulder-rehab warmup slot — not the 45 plate** (too much anterior torque on a healing shoulder) and not a 4th pressing station. Rehab wants control + range, not load.
 
 ---
 
@@ -550,6 +583,8 @@
 - Plate counting convention: weights are plates only (e.g., "65/side" = 175 total with 45lb bar)
 - W12D5: user self-pyramided 75 x 10/6/6/8 from a prescribed 75x8x4. **Discovery: fewer reps per set deepens the form** — set 1 at 10 "kind of heavy, didn't get full range," the 6-rep sets were "lower" and cleaner. User wants to pyramid more next time to "build up courage."
 - W13D5: pyramid 8/6/8 at 75/side, **set 3 "super super deep and felt very good."** User preference for next time: a **6/7/8 ascending pyramid** instead of 8/6/8 — same logic as W12D5 (fewer reps lets depth and form land). W14 squat: test 6/7/8 and check whether the set-3 depth carries across all three sets.
+- W14D5: 6/7/8/8 ascending at 75 — **depth BUILT UP across the ramp, opposite the W14 hypothesis** (which predicted set 1 deepest): "set 7 and 8 were deepest; last 8th also felt great, and deep." User wanted to hold 75 and keep working depth.
+- W15D5: 75 / 6-7-8-8 ran clean with great ROM — "the bump up in weight plus reduction in reps really helped." **W16 steps to 80 — but KEEPING 6/7/8/8** (user prefers adding reps over going heavier: "we could go even heavier with fewer reps but i like adding more reps instead"). Reps are the progression lever from here, not load. User also likes the heavy-ish warmup: "the warmup with slightly lighter but still heavy really adds the reps." (An earlier note read "fewer reps 5/6/6/6" — the user corrected it; reps stay.)
 
 ---
 
@@ -583,6 +618,7 @@
 - Identified as hidden fatigue driver in W8 (likely contributor to QL spasm) — keep but RESPECT it
 - W11D5: 45lb dead slow, all sets done with extra rest between sets, glute squeeze emphasis. User corrected the naming: "MARKED WRONG not back extensions" — this lift has always been an incline RDL in execution; the program now matches.
 - W14D5: **LOAD CORRECTION — it's a 45lb plate, not 25.** User: "has always been a 45 lb plate ever since the beginning." The W7 prescription template said "start with 25lb, go up if easy", but the user used the 45 available in that area the whole time (no 25s to drag over) — every "25" in the early logs was drift. Working load is **45lb plate, dead slow, 3×15, close to failure** at that tempo. The tempo is still the progression — but the number on the plate is 45.
+- W15D5: ran 2nd / fresh (leg press was occupied) — "pretty easy as second exercise," but "third set still burned" with the slower eccentric. **User explicitly declined a load bump: "don't really want to go up just yet... i can just slow down more."** Tempo stays the progression; hold the 45lb plate, keep slowing the eccentric. Do NOT offer load here.
 
 ---
 
@@ -614,6 +650,8 @@
 - Long-term: alternate heavy/full-ROM weeks with lighter/medium-ROM weeks to avoid the W8 stabilizer overload pattern
 - W12D5: **3 plates at FULL ROM ("knee to chest like frogger") is the core/QL stimulus**, not a leg stimulus. User: "it's like a QL massage… not hard at all but feel the intersection of super weak [core/QL] muscles plus leg muscles which don't care about this weight." Full ROM at lighter load is the prescription until the core chain catches up.
 - W13D5: confirmed — 3 plates full ROM landed as **abs + psoas sore**, exactly the W12D5 pattern. The lighter-load full-ROM call is doing what it was designed to do.
+- W14D5: third week running — "feel ql and core muscles getting worked more than legs." The full-ROM-at-3-plates core stimulus is settled, not a fluke.
+- W15D5: **spotlight answered about as cleanly as it gets** — work lands in QL/psoas/core, "leg muscles barely feel anything... core still catching up to legs... stabilizers getting a workout," full knees-to-chest depth ("legs literally digging into my chest... max rom"), lower back stays on the pad. User: "range improving a ton," "this has been very good PT," "doing these instead of chasing weight is the best move." **W16 → 4 plates as the new go-to** (user: "4 plates is fairly easy too so that should be the new go to"), deep ROM still primary; drop back to 3 if 4 shortens the ROM or lifts the back off the pad. This is now the user's favorite lift as functional PT — never reframe it as a load-chase. **Two W16-prep observations:** (1) it's harder COLD — the deep ROM opens once the hips are warm, so keep it after the warmup + squat and don't judge set 1; (2) order-independent — other leg work before it does NOT make it harder ("it still felt the same no matter what"), which retires the W15D5 "fresh legs" confound. **On the old W8/W9 caveat:** 4-plates-full-ROM was historically the hip-stabilizer hammer behind the W9 QL spasm — but the core/QL has caught up (no spasm across weeks of deep loaded work), so the "alternate heavy/light-ROM weeks" caution is likely outdated; watch the QL anyway.
 
 ---
 
@@ -643,6 +681,8 @@
 - Baseline numbers are on settings 5/m/0/1 — don't compare to older numbers on different settings
 - W11D5: ramped past prescribed 50 — 50x12 too easy, 65x12 eccentrics easy, 90x12 working ("got too hard around the 4th eccentric"); 90 settled as the working weight at corrected ankle placement.
 - W13D5: 2 sets at 90 ran clean — **slow tempo is the stimulus.** User: "feel these deeply when doing it slowly." The heal-week cut to 2 sets landed without losing the feel.
+- W14D5: "extremely hard after incline rdl" at 90 — but that was an ORDER artifact (incline RDL ran first that day, stacking the two hamstring lifts and smoking the second). Keep leg curl BEFORE incline RDL.
+- W15D5: 90 held, "all sets with effort" — genuine working weight. The equipment shuffle happened to space the hamstring lifts out this week (incline RDL ran early, separately), so no stacking/smoking. Hold 90.
 
 ---
 
@@ -671,6 +711,8 @@
 - W9 planning note: a small plate UNDER the ball of the foot to deepen the stretch — **tested W12D5, rejected, see below.**
 - W12D5 — plate-under-foot rejected. On the incline leg press the balls of the feet already sit on the bottom edge of the platform with the heels hanging off, so the heel drop gives the full stretch on its own — a plate under the foot "doesn't make sense" on this machine. The stimulus is the **slow eccentric**, not added elevation (W12D5 slow count at 3 plates was "incredibly hard"). Stay flat: balls of the feet on the platform edge, deep heel drop, 3-4s eccentric. The program ran double-leg from W11 on (single-leg + slow was the W10D5 trap).
 - W13D5 — **station-sequencing flag.** User: "calf raise is in a bad position it needs to be with the equipment, CLAUDE.md needs this note." The lift is done on the leg press machine but had been sequenced after the Bulgarian station — forcing a walk back. Rule made explicit in CLAUDE.md ("Station Grouping in Multi-Equipment Workouts"): leg-press-calf-raise belongs **immediately after leg press**, same station. W14 legs sequence: leg press → leg-press-calf-raise → Bulgarian → leg curl → incline RDL. The lift itself felt easy on slow eccentrics today.
+- W14D5: "really hard at this speed... not to failure but close" — the slow eccentric is **biting at 3 plates now** (vs W13D5's "felt easy"). Hold 3 plates; the tempo is doing the work.
+- W15D5: 3 plates, slow tempo "still pretty hard but i can do all sets at this pace" — held, all sets. Double-leg + slow eccentric stays the prescription; the single-leg conversation waits until the double-leg slow eccentric is fully dialed (and starts feeling easy), not before.
 
 ---
 
@@ -702,6 +744,8 @@
 
 **Notes from real sessions**
 - W13D5 — introduction session at bodyweight / light DBs as prescribed. Clean: "good to do at this weight, felt fine no twitching or spawning [spasming]." User context: prior unprogrammed Bulgarian attempts had been loaded too heavily without easing in and triggered spasms — the light-introduction call landed correctly. **"Happy to go up after this"** — W14 can step up incrementally (light DBs at sides ~15-20lb each, keep the pattern the focus).
+- W14D5: **single 40lb DB (suitcase), not the prescribed 15-20 pair** — "decently hard, really focused on form, got hard-ish at the end bc going slowly, could go heavier." Step-up from BW landed clean, no twitching/spasms. (The "15-20lb pair" was a prescription number that never matched the actual — the user carries a single DB suitcase-style.)
+- W15D5: **single 50lb suitcase, all sets, "easy-ish."** Ran mid-session (before the leg press) due to machine availability. **W16-prep correction from the user: order does NOT confound this** — "none of these make leg press any harder... it still felt the same no matter what," and the Bulgarian "was great in the middle." So the W15D5 "easy bc fresh legs" read is retired — 50 is genuinely comfortable. **W16: hold 50, optional bump to 60 if it feels easy; user will try to keep it at the end but mid-session is fine.** Real load history: BW (W13) → single 40 (W14) → single 50 (W15) → 50/opt-60 (W16).
 
 ---
 
@@ -955,7 +999,9 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W12  | Lateral raise, kinesis cable fly | Done |
 | W13  | Cable lat raise, incline overhead tri ext, straight arm pulldown (heal week) | Current |
 | W14  | Push press, incline DB (refresh) | Done |
-| W15  | Chest press, farmer carry | Current |
+| W15  | Chest press, farmer carry | Done |
+| W16  | Lateral raise (DB), Kinesis fly (refresh) | Done |
+| W17  | Push press, incline DB (refresh) | Current |
 
 ### Pull rotation
 
@@ -966,7 +1012,9 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W12  | Face pull, reverse fly | Done |
 | W13  | Bicep curl (incline), high cable curl, cable crunch (heal week) | Current |
 | W14  | Pull-up, DB row (refresh) | Done |
-| W15  | Chest-supported row (weight-up to 40), face pull (refresh) | Current |
+| W15  | Chest-supported row (weight-up to 40), face pull (refresh) | Done |
+| W16  | Lat pulldown, incline curl (both-arms-cleared refresh) | Done |
+| W17  | Chest-supported row, reverse fly (refresh) | Current |
 
 ### Legs rotation
 
@@ -977,7 +1025,9 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W12  | Seated leg curl, calf raise | Done |
 | W13  | Bulgarian split squat (NEW — replaces walking lunge; introduce at light volume) | Done |
 | W14  | Squat, incline RDL (refresh) | Done |
-| W15  | Leg press (full-ROM depth), Bulgarian (load step-up) | Current |
+| W15  | Leg press (full-ROM depth), Bulgarian (load step-up) | Done |
+| W16  | Seated leg curl, leg-press calf raise (refresh) | Done |
+| W17  | Squat depth (at 80), incline RDL (refresh) | Current |
 
 **W13 legs note:** The Bulgarian split squat replaces the walking lunge as the program's unilateral leg lift (W12D5 user request — "officially introduce bulgarians into the next leg day"). It is more controlled than the walking lunge (rear foot fixed, no travel), which makes it both a better single-leg builder and a gentler QL choice — a good fit for a heal week introduction. Equipment priority: **Smith machine preferred** (`smith-machine-bulgarian-split-squat`) but it's "always taken" at this gym, so the **bench + DBs** fallback (`bulgarian-split-squat`, DBs at sides) is the realistic default. As a NEW lift in a heal week, introduce at conservative volume — bodyweight or light DBs, 2 sets, focus on the front-heel drive + vertical-torso pattern, not load.
 
@@ -992,7 +1042,9 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W12  | Windmill, cossack mobility | Done |
 | W13  | Cycle back to C&P + TGU (heal week refresh) | Done |
 | W14  | Bent press + flow work | Done |
-| W15  | C&P + strength block (3-round volume step-up) | Current |
+| W15  | C&P + strength block (3-round volume step-up) | Done |
+| W16  | Full-Body Shred template (swap) — Bulgarian split + windmill | Done |
+| W17  | Full-Body Circuit template (single-bell) — reverse-lunge-to-knee-drive | Current |
 
 ### KB Thursday rotation (KB Conditioning — lightest day, skill-only)
 
@@ -1009,6 +1061,10 @@ Each exercise should get a "spotlight" week (deep cue drill) before cycling back
 | W12  | TGU left-side checkpoints | Done |
 | W13  | Cycle back to bent press (heal week refresh) | Done |
 | W14  | Figure-8 → tactical clean flow | Done |
-| W15  | Windmill (lateral-hinge mechanics) | Current |
+| W15  | Windmill (lateral-hinge mechanics) | Done |
+| W16  | NEW permanent Flow + Coordination block — figure-8 → reverse lunge (base-skill); TGU + windmill = maintenance | Done |
+| W17  | Flow + Coordination — figure-8 weave (kept off the legs for Friday); bent-press refresh (maintenance) | Current |
+
+**W16 Thursday structural change:** a permanent **Flow + Coordination block** now sits right after the banded prep — light-bell base KB skill-building (the user is new to KB and wants to widen the movement vocabulary, not chase cardio). It rotates content week to week (figure-8 → reverse lunge first; then figure-8 weave, split-stance pass-through, halo → reverse lunge, the GymFiesta trio, swing variants — see NOTES.md). The mobility moves (TGU, windmill, bent press) drop to maintenance with a rotating cue focus, so the flow block never gets crowded out by a non-flow spotlight again (the W15 windmill spotlight is what displaced it).
 
 When a cue clicks → log it under the exercise's "Notes from real sessions" subsection. When a cue fails or needs revision → update the cue itself, not a sticky note.

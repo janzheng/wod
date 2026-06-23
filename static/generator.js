@@ -350,13 +350,20 @@ const WorkoutGenerator = {
     // Track used exercises across ALL sets to prevent duplicates
     const globalUsed = new Set();
 
-    for (const set of workout.sets || []) {
+    // A flow bundle (defines flowSequence, no explicit sets) renders its
+    // canonical sequence as a single flow set so it can be viewed standalone.
+    let sourceSets = workout.sets || [];
+    if (sourceSets.length === 0 && Array.isArray(workout.flowSequence)) {
+      sourceSets = [{ id: 'flow', name: workout.name, type: 'flow', flowId: workout.id, rounds: workout.rounds, notes: workout.flowNotes }];
+    }
+
+    for (const set of sourceSets) {
       const generatedSet = {
         ...set,
         generatedExercises: null,
       };
 
-      if ((set.type === 'exercises' || set.type === 'superset') && set.exercises) {
+      if ((set.type === 'exercises' || set.type === 'superset' || set.type === 'circuit') && set.exercises) {
         generatedSet.generatedExercises = this.generateSetExercises(
           set.exercises,
           exercises,
@@ -367,6 +374,24 @@ const WorkoutGenerator = {
           set.fixedVariants,
           set.fixedVariantChance ?? 0.3
         );
+      } else if (set.type === 'flow' && set.flowId) {
+        // Resolve a referenced flow bundle: pull its canonical sequence + source.
+        // The flow's moves live in ONE place (the bundle's flowSequence); the
+        // weekly workout just references it by id instead of re-typing them.
+        const bundle = (workoutMap && (workoutMap[set.flowId] || (workoutMap instanceof Map ? workoutMap.get(set.flowId) : null)))
+          || (set.flowId === workout.id ? workout : null);
+        const sequence = bundle && Array.isArray(bundle.flowSequence) ? bundle.flowSequence : null;
+        if (sequence) {
+          generatedSet.generatedExercises = this.generateSetExercises(
+            sequence, exercises, false, null, globalUsed, progressions
+          );
+          generatedSet.flowRef = {
+            workoutId: bundle.id,
+            name: bundle.name,
+            source: bundle.source,
+            sourceUrl: bundle.sourceUrl,
+          };
+        }
       }
 
       generatedSets.push(generatedSet);

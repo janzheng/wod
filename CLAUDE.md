@@ -133,7 +133,17 @@ When creating morning flows for the functional-bulk program:
   3. **Yoga flow** (~7 min) — flowing transitions, NOT isolated holds. Include straddle + hip openers. Should feel like one continuous arc. Goes last because warm muscles stretch deeper.
 - **Order matters:** work before stretches. Warm body = deeper stretches.
 - **Not too hard or long** — these precede a gym session. The work block should activate, not fatigue.
-- **Variety across the week** — different movements each day, rotate in new exercises so it stays interesting.
+- **Variety across the week — REQUIRED: the morning flow MUST meaningfully rotate week to week.** Do NOT carry the same set forward. Swap roughly half the moves each week while keeping the rehab anchors (prone Y-raise, scapular push-up, wall angel, side-lying ER, dead hang, scapular pull). Pull replacements from the morning-flow pool in NOTES.md "Rotation Pool" — including older favorites that haven't appeared lately (the W12-era flows had very different content: thread-the-needle, puppy pose, happy baby, couch stretch, etc. — cycle those back in). Never let the flow calcify. See "Rotation Discipline" below.
+
+## Rotation Discipline (W17+)
+
+Weeks are built off the last, so movements silently fall off the bottom and never cycle back (the W16 KB redesign dropped 6+ moves at once; cossack fell off the KB days after W15). Rotation must be a **carousel, not a forward-only conveyor.** The move pools and tier assignments live in `NOTES.md` "Rotation Pool" — this is the rule:
+
+- **Two tiers — anchors stay every week, the pool rotates.** When building a week, glance at the last ~3-4 weeks of that day (**the workout files ARE the history — no separate last-seen tracking**) and deliberately pull 1-2 POOL moves that have NOT appeared recently, especially retired favorites — instead of only adding new material on top.
+- **Anchors NEVER rotate out:** the protective/rehab scaffold (KB-day banded shoulder prep, push-day Yuri's band warmup, protective shrug, gym cool-down), the canonical Bent Press Flow (formerly "OTD flow"), and the strength anchors. **Do NOT add band cuff/scap work to push/pull warmups** — those days already run long, and Yuri's (push) / band-pull-apart (pull) already cover the shoulder; band prep lives on KB days.
+- **Two hard guardrails (the user's conditions):** (1) **body-part coverage holds every week** — rotating a move means swapping in another that hits the same pattern, never leaving a gap; (2) **strength keeps building** — the strength anchors stay in most weeks so the floor keeps rising. Rotation is for variety / skill / mobility work, NOT the load-bearing strength lifts.
+- **Morning flow MUST rotate every week** (see Morning Flow Design) — swap ~half the moves, keep the rehab anchors, cycle older favorites back.
+- **Variety is cheap on KB / flow / morning days, expensive on gym days** — rotate freely on the former; on gym days respect the time budget + station grouping (rotate *within* a station, don't fragment it).
 
 ## Personalized Program Context
 
@@ -143,13 +153,16 @@ When building or modifying workouts for the functional-bulk-dynamic program (or 
 
 **Before reconstructing anything that already exists in the repo, find and read its canonical source. Never rebuild it from memory.** Reconstructing-from-memory is how pieces get silently dropped, reordered, or relabeled — and the error then propagates forward week after week because each new week is built off the last. This is a hard rule, not a preference.
 
-**Flows are atomic, canonical units.** A named flow has ONE source of truth, and a weekly workout COPIES the full sequence verbatim — it does not re-type it move-by-move. Dropping, adding, or reordering a single move breaks the flow. Canonical flow files:
-- **OTD flow** → `workouts/kettlebell/kb-flow-dead-clean-press.json` — dead clean → front squat → lateral lunge → bent press → tactical clean (in the program since W4)
-- **Figure-8 → tactical clean** → `workouts/kettlebell/kb-figure-8-tactical-clean-complex.json`
-- **Asgooch overhead mobility complex** → `workouts/kettlebell/kb-overhead-mobility-complex.json`
-- **B-stance flow** → `workouts/kettlebell/kb-b-stance-flow.json`
+**Flows are atomic, canonical units with a single source of truth — REFERENCE them, never re-type them.** As of W17 there is a flow architecture (see NOTES.md "Flow architecture"): a flow bundle defines its moves ONCE in a top-level `flowSequence: [{id, notes}, ...]` (plus `source`, `sourceUrl`, `flowNotes`, `tips`), and a weekly workout references it with a single set `{ "type": "flow", "flowId": "<bundle-id>", "rounds": N, "notes": "<weekly load/spotlight framing>" }`. `static/generator.js` resolves the `flowId` → renders the moves inline + a "view full flow" link with the source citation. **Do NOT re-list the moves in the weekly file.** Dropping, adding, or reordering a move breaks the flow — and there's no longer any reason to, since the weekly file doesn't contain the moves.
 
-What went wrong without this rule (the cautionary tale): the bent press was move #4 of the OTD flow for 8 weeks (W4–W12); W13 pulled it out into a separate block (flow degraded to 4 moves); W14 lost it entirely; and a hasty "fix" re-added it in the wrong slot. All because the flow was re-typed each week instead of copied from `kb-flow-dead-clean-press.json`.
+**Use this architecture for every NEW or reworked flow** (a `flowSequence` bundle + `flowId` references). The legacy flows below predate it and are still inlined in weekly files — **that's fine, leave them as-is; no need to migrate them proactively.** If you happen to be reworking one anyway, converting it is a nice-to-have, not a requirement. Canonical flow files:
+- **Leggy Flow** → `workouts/kettlebell/kb-leggy-flow.json` — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean (lower-body cousin of the Bent Press Flow, no overhead; in the program since W17 Tuesday). **On the `flowSequence` architecture — reference it via `flowId`.**
+- **Bent Press Flow** → `workouts/kettlebell/kb-flow-dead-clean-press.json` — dead clean → front squat → lateral lunge → bent press → tactical clean (in the program since W4). **Formerly called the "OTD flow"** — same flow, renamed W17 for clarity; every "OTD flow" reference in older workouts/logs/program notes points here. *(Legacy — inlined in weekly files, fine as-is.)*
+- **Figure-8 → tactical clean** → `workouts/kettlebell/kb-figure-8-tactical-clean-complex.json` *(legacy inline — fine as-is)*
+- **Asgooch overhead mobility complex** → `workouts/kettlebell/kb-overhead-mobility-complex.json` *(legacy inline — fine as-is)*
+- **B-stance flow** → `workouts/kettlebell/kb-b-stance-flow.json` *(legacy inline — fine as-is)*
+
+What went wrong before the architecture (the cautionary tale): the bent press was move #4 of the OTD flow for 8 weeks (W4–W12); W13 pulled it out into a separate block (flow degraded to 4 moves); W14 lost it entirely; and a hasty "fix" re-added it in the wrong slot. All because the flow was re-typed each week. The `flowSequence`/`flowId` architecture exists precisely so this can't happen again — the weekly file references the bundle instead of containing a copy.
 
 **Generalize beyond flows.** Whenever you're about to assert "this exercise is X" / "the equipment is Y" / "the sequence is Z" / "there's no canonical file for this" — first `grep`/`rg` the repo and read the actual definition (`exercises/*.json`, `workouts/kettlebell/*.json`, `progressions/*.json`, `NOTES.md`, the form-cues doc). If you catch yourself guessing, stop and look it up. A wrong "there's no canonical file" answer is worse than saying "let me check."
 
