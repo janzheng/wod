@@ -7982,6 +7982,56 @@
     "description": "Stand with feet shoulder-width apart, kettlebell centered between feet. Hinge at hips, push butt back, and grab the handle with both hands. Keep chest up, back flat, and shoulders pulled back. Drive through heels to stand tall, squeezing glutes at the top. Reverse the movement to lower the bell back to the floor with control."
   },
   {
+    "id": "kettlebell-deep-squat-to-overhead-press",
+    "name": "Kettlebell Deep Squat to Overhead Press",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "compound",
+      "strength",
+      "overhead",
+      "unilateral",
+      "tempo",
+      "flow"
+    ],
+    "difficulty": "intermediate",
+    "duration": 60,
+    "description": "Bell racked on one side. Sink into a full, deep squat — heels down, hips below the knees — and hold the bottom for a beat with the rack tight and the free arm reaching forward for balance. Stand all the way up, and only then press the bell overhead. The leg drive does NOT feed the press the way a thruster's does: you finish the squat first and the press is strict, so the bell covers the longest path a press can cover. Slower and more honest than a thruster at the same load — the deep bottom position is where it gets hard, and the strict press at the end has no momentum to hide behind. Also loosely called a 'long press' (Madeleine Conti's label; the name is about the long path, not a distinct technique). Can be run from a kickstand (staggered) stance for extra single-arm stability.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/3961902170780372",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-09"
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
+      }
+    ]
+  },
+  {
     "id": "kettlebell-feet-elevated-pushup",
     "name": "Feet Elevated Pushup (on Kettlebell)",
     "category": "chest",
@@ -8062,6 +8112,19 @@
         "url": "https://x.com/wealthmail/status/2024846506361028711",
         "label": "@wealthmail",
         "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
       }
     ]
   },
@@ -8563,6 +8626,11 @@
         "url": "https://www.facebook.com/reel/2467690073748507",
         "label": "Madeleine Conti Personal Training (Facebook Reel)",
         "platform": "flow"
+      },
+      {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
       }
     ],
     "flows": [
@@ -8571,6 +8639,12 @@
         "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
         "source": "Madeleine Conti Personal Training (Facebook Reel)",
         "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      },
+      {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
       }
     ]
   },
@@ -9091,6 +9165,59 @@
         "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
         "source": "Madeleine Conti Personal Training (Facebook Reel)",
         "sourceUrl": "https://www.facebook.com/reel/2050762199178758"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-outside-snatch",
+    "name": "Kettlebell Outside Snatch",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "glutes",
+      "hamstrings",
+      "back",
+      "core",
+      "obliques",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "full-body",
+      "explosive",
+      "power",
+      "ballistic",
+      "unilateral",
+      "overhead",
+      "lateral",
+      "flow"
+    ],
+    "difficulty": "advanced",
+    "duration": 45,
+    "description": "A single-arm snatch where **the bell never hikes between the legs.** Start from a tight inside rack — elbow in against the ribs — then drop the bell down and OUT around the working-side hip on an outside pendulum arc, and ride that arc straight up to a locked-out overhead catch in one motion. Inside rack in, outside arc out: the launch position sets the path, and a wide or sloppy rack leaves the arc nowhere to start. It stands to the standard snatch exactly as the outside pendulum swing stands to the standard swing — the offset lateral path trades some hip drive for a frontal-plane and anti-rotation demand, so brace the core hard and don't let the torso twist toward the bell. The hips still drive it, not the arm; punch the hand through at the top so the bell rolls onto the back of the forearm rather than banging the wrist. Go light — an overhead ballistic on an unfamiliar path.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/3961902170780372",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-09"
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
       }
     ]
   },
@@ -9957,12 +10084,23 @@
         "platform": "twitter"
       },
       {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
         "url": "https://www.facebook.com/reel/2050762199178758",
         "label": "Madeleine Conti Personal Training (Facebook Reel)",
         "platform": "flow"
       }
     ],
     "flows": [
+      {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
+      },
       {
         "workoutId": "kb-dead-cluster-flow",
         "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
@@ -10483,6 +10621,11 @@
         "platform": "flow"
       },
       {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
         "url": "https://www.facebook.com/reel/2050762199178758",
         "label": "Madeleine Conti Personal Training (Facebook Reel)",
         "platform": "flow"
@@ -10500,6 +10643,12 @@
         "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
         "source": "Madeleine Conti Personal Training (Facebook Reel)",
         "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      },
+      {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
       },
       {
         "workoutId": "kb-flow-dead-clean-press",
@@ -10548,6 +10697,11 @@
         "platform": "flow"
       },
       {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
         "url": "https://x.com/gymvibe_/status/2060769199404851529",
         "label": "@gymvibe_",
         "platform": "flow"
@@ -10561,10 +10715,66 @@
         "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
       },
       {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
+      },
+      {
         "workoutId": "kb-gymvibe-9min-amrap",
         "name": "GymVibe 9-Minute KB AMRAP — Ballistic Row / Thruster / Reverse Lunge + Knee Drive",
         "source": "@gymvibe_",
         "sourceUrl": "https://x.com/gymvibe_/status/2060769199404851529"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-transverse-lunge",
+    "name": "Kettlebell Transverse Lunge",
+    "category": "legs-quads",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "adductors",
+      "hips",
+      "obliques",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "unilateral",
+      "lunge",
+      "rotational",
+      "mobility",
+      "core",
+      "flow"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "A lunge in the transverse (rotational) plane rather than forward, back, or sideways. **The bell stays racked on the working side the whole time — it does not swing and it does not drop.** Pivot on the stance foot and sweep the trailing leg back and across at an angle, letting the torso rotate open with it, sinking until the back knee is low and the back heel is up; the free arm reaches forward as a counterbalance. Drive out of it back to standing. The rotation is the point — the offset rack load fights the twist, so the obliques and the stance hip control a plane most lunges never touch. Harder to stabilize than a forward or lateral lunge: go light, go slow, and don't let the racked shoulder get pulled forward.\n\n**Finish in the inside rack.** As you stand, settle the bell into a tight rack threaded up the INSIDE line — elbow in against the ribs, bell resting on the forearm, shoulder packed down. In a flow this landing is what the next move launches from, so it's a position to hit deliberately, not somewhere you happen to end up.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/3961902170780372",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-09"
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
       }
     ]
   },
@@ -10769,6 +10979,11 @@
         "url": "https://www.facebook.com/reel/2467690073748507",
         "label": "Madeleine Conti Personal Training (Facebook Reel)",
         "platform": "flow"
+      },
+      {
+        "url": "https://www.facebook.com/reel/3961902170780372",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
       }
     ],
     "flows": [
@@ -10777,6 +10992,12 @@
         "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
         "source": "Madeleine Conti Personal Training (Facebook Reel)",
         "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      },
+      {
+        "workoutId": "kb-outside-snatch-flow",
+        "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
       }
     ]
   },
