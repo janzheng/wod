@@ -1,0 +1,114 @@
+{
+  "id": "fb-w19-kb-full",
+  "name": "Week 19 KB Full Body — Leggy Flow (back) + Loaded Cossack + Hand-to-Hand Swing (Spotlight: Loaded Cossack)",
+  "description": "KB Tuesday, rotated. **Warmup reminder:** halo → bottoms-up press (18lb, 8/side, forward + T-plane) → goblet squat → internal core fist rotation → protective behind-back shrug, then the 7-move banded shoulder prep. This week the carousel turns: the Leggy Flow comes BACK as the skill flow (it rotated out in W18 — a lower-body, no-overhead flow that's friendly on the right shoulder), the loaded cossack squat returns as the spotlight (it fell off the KB days after W15), and the hand-to-hand swing folds in as the new hand-eye fun layer. Strict overhead press runs the new 40/45/50 ascending. Leg-athletic work sits on Tuesday, three days clear of Friday legs. Bottoms-up press is now standard in the KB warmup.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "strength", "full-body", "flow", "skill-work", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 45,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "KB Tuesday, carousel turn. Leggy Flow BACK as the skill flow (lower-body, no overhead — shoulder-friendly). Loaded cossack squat returns as the spotlight (fell off after W15). Hand-to-hand swing folds in (new hand-eye fun layer). Strict overhead press runs the new 40/45/50. Bottoms-up press now standard in the warmup. Leg-athletic, and that's fine — Tuesday is far from Friday legs.",
+    "spotlights": [
+      {
+        "exerciseId": "cossack-squat",
+        "why": "The retired favorite back — loaded cossack fell off the KB days after W15 (forward-only drift). It's a mobility-strength move: lateral depth, adductor length, ankle/hip mobility. Spotlight drills the deep lateral sit + the tall chest at a LIGHT load (depth, not weight — 25-30lb gets better depth than heavier). Returns it to the carousel."
+      }
+    ],
+    "rotationPlan": "Tuesday content rotates: W17 Leggy Flow · W18 figure-8 → tactical clean + GymVibe AMRAP · W19 Leggy Flow (back) + loaded cossack (back) + hand-to-hand swing (current) · W20 cycle forward — bring the figure-8 → tactical clean or a windmill/TGU complex back; fold in bottoms-up clean/carry.",
+    "watchpoints": [
+      "**Leggy Flow is a continuous FLOW, not stations** — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean, all on one side, then the other. The cleans come from the legs/hips, not the arm. No overhead — friendly on the right shoulder. (Canonical: kb-leggy-flow.)",
+      "**Loaded cossack spotlight — LIGHT for depth.** 25-30lb gets better depth than 40/45; it's a mobility move, not a strength grind. Drill the deep lateral sit, the other leg long, chest tall.",
+      "**Hand-to-hand swing is the new fun layer** — a two-handed-style swing where you release + re-catch with the other hand at the float point. Light bell, hip-driven, eyes on the bell. Coordination practice; sub plain two-handed swings if the catch isn't there yet.",
+      "**Strict overhead press runs the new 40/45/50 ascending** — strict (no push-press), the floor's risen here (W18: 50x5 top, 'should start edging up'). Pack the shoulder down, ribs down, both sides to the same standard.",
+      "**Bottoms-up press is now in the warmup** — 18lb, 8/side, forward + T-plane; keep the T-plane light (the angle the right shoulder likes least). Rotator-cuff prep before the overhead work.",
+      "**Leg-athletic + lateral, and that's fine** — it's Tuesday, three days clear of Friday legs. The Leggy Flow + cossack live here on purpose.",
+      "**Protective behind-back shrug greasing set stays in the warm-up** — 1 light set, easy to forget.",
+      "**Trim for time:** the Leggy Flow can drop to 2 rounds/side and the strength block to 2 rounds if the session's long."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up (incl. Bottoms-Up Cuff Prep)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles both directions — open the shoulders before the work." },
+        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "**LOAD:** 18lb. Now standard in the KB warmup — bell inverted/balanced over a vertical forearm, grip HARD, shoulder packed. **8/side in two planes:** forward press (straight overhead) + T-press (out toward a T at shoulder height). **Keep the T-plane lighter** — the abducted-and-loaded angle is the one the right shoulder likes least. Rotator-cuff prep before the overhead press." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips, sit in the bottom for a beat — previews the cossack + leggy-flow lower-body work." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for the cleans + the hand-to-hand catch." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set) — the pull-day shrug, scattered to KB days.** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the overhead + rotation." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire — primes the strict press lockout." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "leggy-flow-block",
+      "name": "🦵 Leggy Flow (Returning Flow — Skill Section)",
+      "type": "flow",
+      "flowId": "kb-leggy-flow",
+      "rounds": 3,
+      "notes": "**Single MEDIUM bell (~25-35lb), 3 rounds each side** (or 2 each if short on time). Continuous flow — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean — one side, then the other. Quality and continuity over load; the cleans come from the legs and hips, not the arm. **No overhead — friendly on the right shoulder.** Back in the rotation after sitting out W18. Reflection: do the six moves connect seamlessly, or are you pausing to re-grip between them? The smooth chain is the skill.",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "strength-cossack-block",
+      "name": "🔆 Strength + Loaded Cossack + Hand-to-Hand Swing (Spotlight: Loaded Cossack)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-overhead-press", "reps": "5 each side", "notes": "**LOAD:** 40/45/50 ascending — strict single-arm press (clean to rack, press straight up, NO push-press). 5 each side, go up the rack across your 3 sets (50 the new top — W18 hit 50x5 strict, 'should start edging up a bit').\n- **Strict, not push-press** — the legs don't help; the shoulder presses it\n- **Ribs DOWN** before the press — no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- Slow descent back to the rack\n- **Both sides to the same standard** — press the left as clean as the right." },
+        { "id": "cossack-squat", "reps": "6 each side", "notes": "**🔆 SPOTLIGHT — the returning favorite, LIGHT for depth:**\n- **LOAD:** 25-30lb goblet/racked (light — 25 gets better depth than 40/45; it's a mobility move, not a strength grind)\n- **Shift the weight onto one bent leg, the other leg long and straight** — heel down if you can, toes up\n- **Sit DEEP into the bent side** — chest tall, don't fold forward; the depth + the long-leg stretch is the work\n- **Keep the heel of the working leg grounded** — push the knee out over the toes\n- **Drive back up tall, then shift to the other side** — controlled, no bouncing out of the bottom\n- **Adductor + hip + ankle mobility** — go only as deep as control holds; depth opens as you warm\n\n**Reflection:** does the deep lateral sit reach full depth with the chest tall, or does the back round / the heel lift to get lower? Depth with control is the win — it's been off the menu since W15, so re-learn the groove light." },
+        { "id": "kettlebell-hand-to-hand-swing", "reps": "10-12", "notes": "**LOAD:** 25-30lb (LIGHT — coordination). The new hand-eye fun layer: swing the bell, and at the float point at the top release it and catch with the OTHER hand, then swing down and repeat.\n- **Hip-driven** — the hinge floats the bell, the arm is a rope; the swap happens at the weightless top, not by lifting with the arm\n- **Eyes on the bell**, soft hands, relaxed grip on the catch\n- **Ribs down, back flat** — no leaning back at the top\n- Sub plain two-handed swings if the release/catch isn't dialed in yet — build it slow." }
+      ],
+      "notes": "Strength + spotlight + fun layer, 3 rounds (2 if short on time). Strict press is the strength anchor; the loaded cossack is the returning spotlight; the hand-to-hand swing is the new coordination sprinkle. Rest as needed between the press sets; keep the cossack + swing light and clean.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the lunge + cossack work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get worked hard by the cossack + the lateral lunges." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Carousel turn:** Leggy Flow back (skill flow), loaded cossack back (spotlight), hand-to-hand swing folded in (new fun layer).",
+    "**Leggy Flow is a continuous flow** — dead clean → curtsy → lateral lunge → lateral squat clean → lateral lunge → tactical clean, one side then the other. No overhead, shoulder-friendly. Medium bell (~25-35lb), 3 rounds/side.",
+    "**Spotlight: loaded cossack — LIGHT for depth** (25-30lb beats heavier for depth). Deep lateral sit, chest tall, other leg long. Off the menu since W15 — re-learn the groove.",
+    "**Hand-to-hand swing is the new fun layer** — release + re-catch at the float point, light bell, hip-driven. Sub plain swings if the catch isn't there yet.",
+    "**Strict overhead press 40/45/50 ascending** — strict, no push-press; 50 the new top. Pack the shoulder down.",
+    "**Bottoms-up press now standard in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light). Rotator-cuff prep.",
+    "**Leg-athletic on Tuesday, far from Friday legs** — the Leggy Flow + cossack live here on purpose.",
+    "**Protective behind-back shrug greasing set in the warm-up.**",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W20 bring the figure-8 → tactical clean or a windmill/TGU complex back; fold in bottoms-up clean/carry. Trim the Leggy Flow to 2 rounds/side if short on time."
+  ],
+  "formPhilosophy": "KB Tuesday as the carousel, working as designed: the Leggy Flow returns after a week off, the loaded cossack comes back from a long absence (off the KB days since W15), and the newly-official hand-to-hand swing folds in as the fresh coordination layer — variety is cheap on KB days, so rotate freely while keeping the strict-press strength anchor and the shoulder scaffolding (bottoms-up prep, banded prep, protective shrug). The flow + cossack are lower-body and lateral, which is exactly why they sit on Tuesday, three days clear of Friday legs. Building decades, not weeks."
+}

@@ -261,6 +261,15 @@ The functional-bulk-dynamic program is **form-first**, not bodybuilder-sprint. S
 
 **`dayOverview` field on each workout JSON:** Top-level field with `theme`, `spotlights[]` (each with `exerciseId` + `why`), `rotationPlan` (which lifts spotlight in upcoming weeks), and `watchpoints[]`. Surfaces the design intent for the day.
 
+## Intensity Tags — Near-Failure vs Cue-Capped (W20+)
+
+The program is form-first, NOT failure-chasing — but the user asked (W19, confirmed 2026-07-05) to know *before* a session which lifts are OK to push near failure and which to keep shy. **Tag every gym-day lift** in the `dayOverview` (a `watchpoints[]` line or a per-lift marker) as one of:
+
+- **🔥 near-failure last set OK** — safe **isolation / machine** lifts where form doesn't degrade dangerously at the limit: leg curl, leg extension, calf raise, cable curl, cable crunch, machine chest/row, leg press. On these, occasionally taking the **last** working set to ~0-1 RIR is a fine intensity bump.
+- **🛑 keep it shy — the cue is the cap** — **compound / overhead / spinal-loaded / grip-limited** lifts: squat, RDL, overhead press, push press, pull-up, rows, bent press, anything shoulder-loaded. Here "effort" = the cue holding at a hard load/ROM; the honest ceiling is the rep where the cue breaks (shoulders shrug up, spine rounds, depth shortens, grip fails). Never grind these to a stall.
+
+**The escalation order when a lift feels too easy (bake this into the framing, not just the tag):** (1) **form lever first** — slower eccentric, deeper ROM, pause at the hard point (this is the program's actual progression engine, and it builds full-ROM / stretched-position strength); (2) **load nudge** — the fuzzy floor-rising path; (3) **near-failure last set — only on the 🔥 lifts, and by pushing the existing last set, NOT adding a round** (adds no session length, keeps intensity where form is safe). "Too easy" is usually the floor rising (a success), so reach for the form lever before reaching for more sets. Classify any new lift by the same principle: safe isolation/machine → 🔥; compound/overhead/spinal/grip-limited → 🛑.
+
 **Cue formatting:** Bullet lists with **bold** key terms. NOT paragraph blocks (those got hard to scan). Embed bullets directly in the exercise `notes` field with `\n- ` line breaks.
 
 **Refresh cadence — REMINDER:** After ~2 weeks of new spotlight lifts (so every ~W12, W14, W16 etc. for push, and the equivalent for pull/legs), revisit `docs/notes/functional-bulk/form-cues-2026.md` and update the "Notes from real sessions" subsection for the lifts that just rotated through spotlight. Capture what cue clicked, what failed, what was a surprise. The reference doc is meant to evolve from real session data, not stay static. If the user goes through a spotlight rotation without the reference doc getting updated, prompt them — that's the whole point of rotating.

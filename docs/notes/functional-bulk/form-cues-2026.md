@@ -299,6 +299,8 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - Mixed grips (climber handles, wide, normal) keep it interesting and hit different lat angles (W7-W8)
 - Wider grip = more lat isolation, less bicep
 - Cumulative fatigue on push/pull/KB stacks affects pull-up reps more than bodyweight changes
+- **Avoid the adjustable SWIVEL grip for pull-ups** (W18D3) — it rotates toward the bicep mid-pull, pulling work off the lats. User: "probably not the best for pull ups." Use the fixed straight bar.
+- W18D3 spotlight: clean 8/8/8/8 (up from W16's declining 8/8/7/6), both shoulders pain-free — the limiter is fully grip + strength now, not the shoulder.
 
 ---
 
@@ -356,6 +358,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - 80x10 was a clean PR (W7-W8), W10 holds at 80 with focus on the cue
 - Pyramid pattern (60→70→80) feels natural and works
 - Climbing days affect grip — weight feels heavier without grip changes
+- W18D3 spotlight: pyramid now 70/80/90, top set **90x6 "felt good, could go up in reps"** (up from W16's 90x5-falls-apart, grip-not-gripping) — but confounded by a fresh early/cold/empty gym. The grip cap is moving; let reps creep on the 90, no straps.
 
 ---
 
@@ -585,6 +588,8 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W13D5: pyramid 8/6/8 at 75/side, **set 3 "super super deep and felt very good."** User preference for next time: a **6/7/8 ascending pyramid** instead of 8/6/8 — same logic as W12D5 (fewer reps lets depth and form land). W14 squat: test 6/7/8 and check whether the set-3 depth carries across all three sets.
 - W14D5: 6/7/8/8 ascending at 75 — **depth BUILT UP across the ramp, opposite the W14 hypothesis** (which predicted set 1 deepest): "set 7 and 8 were deepest; last 8th also felt great, and deep." User wanted to hold 75 and keep working depth.
 - W15D5: 75 / 6-7-8-8 ran clean with great ROM — "the bump up in weight plus reduction in reps really helped." **W16 steps to 80 — but KEEPING 6/7/8/8** (user prefers adding reps over going heavier: "we could go even heavier with fewer reps but i like adding more reps instead"). Reps are the progression lever from here, not load. User also likes the heavy-ish warmup: "the warmup with slightly lighter but still heavy really adds the reps." (An earlier note read "fewer reps 5/6/6/6" — the user corrected it; reps stay.)
+- W16D5–W17D5: held 80 / 6-7-8-8. User finds depth easier UNDER load ("heavier it is the deeper") and uses the **45 warmup set to drill max depth** ("even with 45 depth isn't 100%"). ~85% effort, building reps in the later sets, "don't want to go more."
+- W18D5: **self-restructured the block around ROM** — added a **70 intermediary set** (a "semi warm up" to work range) then ran only 2 working sets at 80 (80x6, 80x8). "ROM is more important to me than absolute weight right now"; near-term goal = **fix ROM + the mid-range of the lift; hips still super tight.** ROM "better than last week, ~85%, better than most times." The 45→70→80 ramp is his own ROM-building tool — keep it; depth is the lever, hold 80. (W19 squat is the depth-refresh spotlight — formalize the ramp.)
 
 ---
 
@@ -619,6 +624,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W11D5: 45lb dead slow, all sets done with extra rest between sets, glute squeeze emphasis. User corrected the naming: "MARKED WRONG not back extensions" — this lift has always been an incline RDL in execution; the program now matches.
 - W14D5: **LOAD CORRECTION — it's a 45lb plate, not 25.** User: "has always been a 45 lb plate ever since the beginning." The W7 prescription template said "start with 25lb, go up if easy", but the user used the 45 available in that area the whole time (no 25s to drag over) — every "25" in the early logs was drift. Working load is **45lb plate, dead slow, 3×15, close to failure** at that tempo. The tempo is still the progression — but the number on the plate is 45.
 - W15D5: ran 2nd / fresh (leg press was occupied) — "pretty easy as second exercise," but "third set still burned" with the slower eccentric. **User explicitly declined a load bump: "don't really want to go up just yet... i can just slow down more."** Tempo stays the progression; hold the 45lb plate, keep slowing the eccentric. Do NOT offer load here.
+- W18D5: **cut the last set** (legs smoked from an unusually brutal leg press) — "did all sets but last one." But the slow squeeze is dialing in: "squeezing the right places slowly — makes it hard to get off the machine." The form is landing (hamstrings/glutes), not a load problem; the cut set is the honest end given the session. Hold 45, tempo's the lever.
 
 ---
 
@@ -652,6 +658,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W13D5: confirmed — 3 plates full ROM landed as **abs + psoas sore**, exactly the W12D5 pattern. The lighter-load full-ROM call is doing what it was designed to do.
 - W14D5: third week running — "feel ql and core muscles getting worked more than legs." The full-ROM-at-3-plates core stimulus is settled, not a fluke.
 - W15D5: **spotlight answered about as cleanly as it gets** — work lands in QL/psoas/core, "leg muscles barely feel anything... core still catching up to legs... stabilizers getting a workout," full knees-to-chest depth ("legs literally digging into my chest... max rom"), lower back stays on the pad. User: "range improving a ton," "this has been very good PT," "doing these instead of chasing weight is the best move." **W16 → 4 plates as the new go-to** (user: "4 plates is fairly easy too so that should be the new go to"), deep ROM still primary; drop back to 3 if 4 shortens the ROM or lifts the back off the pad. This is now the user's favorite lift as functional PT — never reframe it as a load-chase. **Two W16-prep observations:** (1) it's harder COLD — the deep ROM opens once the hips are warm, so keep it after the warmup + squat and don't judge set 1; (2) order-independent — other leg work before it does NOT make it harder ("it still felt the same no matter what"), which retires the W15D5 "fresh legs" confound. **On the old W8/W9 caveat:** 4-plates-full-ROM was historically the hip-stabilizer hammer behind the W9 QL spasm — but the core/QL has caught up (no spasm across weeks of deep loaded work), so the "alternate heavy/light-ROM weeks" caution is likely outdated; watch the QL anyway.
+- W18D5: **unusually brutal — "ROM got better but it didn't get easier! Sweating like a wet dog, this has never happened."** 4 plates / 4×12, deep ROM held/improved across the sets. User's read: the QL/core was **pre-fatigued** (from Thursday's heavy figure-8s) on top of the deep-ROM core stimulus — "showing I should be doing more to wake it up [the core/QL]." One session with a clear pre-fatigue confound — don't read it as a load change (hold 4 plates, ROM-first). But the core-as-weak-link instinct is worth a light W19 test (a short core/QL primer in the warmup) + watch whether it normalizes when the QL isn't pre-fatigued.
 
 ---
 
@@ -660,7 +667,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 **Setup**
 - Ankles UNDER the pad, knees aligned with the machine pivot
 - Lap pad locked down firmly (lock it tight, not loose)
-- Settings on Arrilaga machine: **5/m/0/1** (W8 corrected baseline)
+- Settings on Arrilaga machine: **5/m/0/-1** (W17 correction — felt better than the W8 5/m/0/1 baseline; verify before loading)
 
 **Movement**
 - Curl heels toward glutes — full ROM, full squeeze
@@ -674,7 +681,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - Bouncing out of the bottom (kills stimulus)
 - Partial ROM (most common — go full)
 - Torso lifting forward to help (becomes lower back work, not hamstring)
-- Wrong settings → wrong baseline numbers (verify 5/m/0/1)
+- Wrong settings → wrong baseline numbers (verify 5/m/0/-1)
 
 **Notes from real sessions**
 - 110 is working hard (W8), 90 is warmup/calibration
@@ -683,6 +690,8 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W13D5: 2 sets at 90 ran clean — **slow tempo is the stimulus.** User: "feel these deeply when doing it slowly." The heal-week cut to 2 sets landed without losing the feel.
 - W14D5: "extremely hard after incline rdl" at 90 — but that was an ORDER artifact (incline RDL ran first that day, stacking the two hamstring lifts and smoking the second). Keep leg curl BEFORE incline RDL.
 - W15D5: 90 held, "all sets with effort" — genuine working weight. The equipment shuffle happened to space the hamstring lifts out this week (incline RDL ran early, separately), so no stacking/smoking. Hold 90.
+- W17D5: tried settings **5/m/0/-1** ("felt better" than 5/m/0/1) + a **70 primer set to center**, then 90 working ("really hard, feeling leg muscles"). The primer + corrected lever made the 90 productive.
+- W18D5: **dropped to 80 working (from 90) — form-first, not a regression.** The 70 primer "primes my brain to do it correctly," and 80 "feels pretty correct vs what it used to be." Quality execution at 80 beats grinding 90 with drift. Leg curl is the W19 spotlight — drill the correct feel at 80, let 90 return only once the pattern's grooved. Don't push back to 90.
 
 ---
 
@@ -746,6 +755,8 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W13D5 — introduction session at bodyweight / light DBs as prescribed. Clean: "good to do at this weight, felt fine no twitching or spawning [spasming]." User context: prior unprogrammed Bulgarian attempts had been loaded too heavily without easing in and triggered spasms — the light-introduction call landed correctly. **"Happy to go up after this"** — W14 can step up incrementally (light DBs at sides ~15-20lb each, keep the pattern the focus).
 - W14D5: **single 40lb DB (suitcase), not the prescribed 15-20 pair** — "decently hard, really focused on form, got hard-ish at the end bc going slowly, could go heavier." Step-up from BW landed clean, no twitching/spasms. (The "15-20lb pair" was a prescription number that never matched the actual — the user carries a single DB suitcase-style.)
 - W15D5: **single 50lb suitcase, all sets, "easy-ish."** Ran mid-session (before the leg press) due to machine availability. **W16-prep correction from the user: order does NOT confound this** — "none of these make leg press any harder... it still felt the same no matter what," and the Bulgarian "was great in the middle." So the W15D5 "easy bc fresh legs" read is retired — 50 is genuinely comfortable. **W16: hold 50, optional bump to 60 if it feels easy; user will try to keep it at the end but mid-session is fine.** Real load history: BW (W13) → single 40 (W14) → single 50 (W15) → 50/opt-60 (W16).
+- W16D5: **switched to double-40 DBs (one per hand)** from the single-50 suitcase — "moved up to working weight, went well" (balanced, 80 total). Double-DB becomes the working setup; suitcase is the alternate.
+- W17D5–W18D5: **Smith machine re-introduced at 45/side and cleared the QL across both weeks** (W17 capped cautiously at 6 reps "so I don't get messed up"; W18 "went surprisingly well"). Smith is the confirmed QL-safe **alternate** (use it when free); double-45 DBs is the prescribed default. **New keeper (W18D5): pigeon pose on the bench BETWEEN sets** kept the hip/QL loose under the load — "really helped" (the user also took lots of stretch breaks on a QL-tight day). Add pigeon-between-sets as a station option.
 
 ---
 

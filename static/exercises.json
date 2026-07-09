@@ -7269,6 +7269,90 @@
     ]
   },
   {
+    "id": "kettlebell-bottoms-up-carry",
+    "name": "Kettlebell Bottoms-Up Carry",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "rotator-cuff",
+      "grip",
+      "core",
+      "obliques"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "unilateral",
+      "carry",
+      "shoulder-stability",
+      "rotator-cuff",
+      "core",
+      "grip"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Hold the bell BOTTOMS-UP in the rack (balanced over a vertical forearm) and walk. Keep the bell perfectly vertical, ribs down, shoulder packed, and brace the core against the tipping load. A loaded carry that trains grip, shoulder stability, and anti-tip core control at the same time. Light bell, short distances; stop and reset if the bell starts to tip."
+  },
+  {
+    "id": "kettlebell-bottoms-up-clean",
+    "name": "Kettlebell Bottoms-Up Clean",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "rotator-cuff",
+      "grip",
+      "core",
+      "glutes"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "unilateral",
+      "shoulder-stability",
+      "coordination",
+      "grip",
+      "clean"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Clean the bell from the floor or hang to the rack and catch it BOTTOMS-UP — bell balanced over a vertical forearm at shoulder height — instead of letting it rest on the forearm. The catch demands an instant hard grip and a packed shoulder or the bell tips. Soft knees absorb the catch, wrist stays straight and stacked. Trains the clean plus bottoms-up stabilization in one move. Light bell — the balanced catch is the whole skill."
+  },
+  {
+    "id": "kettlebell-bottoms-up-press",
+    "name": "Kettlebell Bottoms-Up Press",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "rotator-cuff",
+      "triceps",
+      "grip",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "unilateral",
+      "shoulder-stability",
+      "rotator-cuff",
+      "rehab",
+      "warmup",
+      "grip",
+      "press"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Hold the kettlebell upside-down (bottoms-up) — bell balanced above a vertical forearm, gripping the handle HARD. Press it up keeping the bell balanced, like a string is pulling the base to the ceiling, then lower under control. The off-balance load forces the rotator cuff, grip, and a packed shoulder to stabilize, which is why it's a premier shoulder-prep / rehab drill. Go light, low reps, single-arm; balance quality over rep count. The two press planes bias different muscles: the \"forward press\" (elbow/arm kept in front, pressing straight overhead) loads the anterior deltoid + serratus in a stable line; the \"T-press\" (arm tracking out toward a T at shoulder height) shifts to the lateral/rear delt and demands far more rotator cuff because the arm is abducted. Keep the T-plane lighter — abducted-and-loaded is the more provocative angle for a cranky shoulder."
+  },
+  {
     "id": "kettlebell-chest-press",
     "name": "Kettlebell Chest Press",
     "category": "chest",
@@ -7455,6 +7539,43 @@
         "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
       }
     ]
+  },
+  {
+    "id": "kettlebell-dead-cluster",
+    "name": "Kettlebell Dead Cluster",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "shoulders",
+      "core",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "compound",
+      "full-body",
+      "kettlebell",
+      "strength",
+      "explosive",
+      "clean",
+      "squat",
+      "press",
+      "flow"
+    ],
+    "difficulty": "advanced",
+    "duration": 45,
+    "description": "A 'cluster' is a clean → front squat → press strung into one continuous rep; 'dead' means the bell starts and returns dead on the floor each rep — no bounce, no momentum carried between reps. Dead clean the bell from the floor to the rack, sink into a front squat, drive out of the bottom and let that leg drive feed a press to overhead, then lower back to the rack and set the bell down dead. Full-body power in a single string: legs clean it, legs squat it, legs drive the press. Loosely called a 'dead cluster' in the flow it comes from.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2050762199178758",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-06"
+    }
   },
   {
     "id": "kettlebell-deadlift",
@@ -7905,6 +8026,35 @@
     ]
   },
   {
+    "id": "kettlebell-hand-to-hand-swing",
+    "name": "Kettlebell Hand-to-Hand Swing",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "core",
+      "shoulders",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "full-body",
+      "kettlebell",
+      "dynamic",
+      "hinge",
+      "coordination",
+      "hand-eye",
+      "ballistic",
+      "cardio"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "A one-arm swing where you release the bell at the top of the arc and catch it with the OTHER hand, then swing it down and back up to switch again — alternating hands every rep. The hip hinge drives the bell (arms are ropes); the hand switch happens at the weightless float point around chest height, not by muscling it across. The iconic kettlebell hand-eye-coordination drill — builds the hinge plus catch-timing and grip. Start light; the catch is the skill, not the load."
+  },
+  {
     "id": "kettlebell-high-pull",
     "name": "Kettlebell High Pull",
     "category": "shoulders",
@@ -7944,6 +8094,39 @@
         "caption": "Daily 100 Reps Kettlebell Routine"
       }
     ]
+  },
+  {
+    "id": "kettlebell-iron-cross",
+    "name": "Kettlebell Iron Cross",
+    "category": "shoulders",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "rotator-cuff",
+      "upper-back",
+      "core",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "unilateral",
+      "shoulder",
+      "stability",
+      "lateral",
+      "isometric"
+    ],
+    "difficulty": "intermediate",
+    "duration": 30,
+    "description": "Also called the crucifix. With a straight arm, raise the bell out to the side to shoulder height, arm parallel to the floor in a 'T' — a straight-arm lateral hold that lights up the whole shoulder and the stabilizers holding the bell out on a long lever. Keep the shoulder packed DOWN (not shrugged), ribs down, and don't let the arm bend to cheat the leverage. Brief hold or controlled raise-and-lower. A big straight-arm shoulder load — go light, and back off if the shoulder complains.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2050762199178758",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-06"
+    }
   },
   {
     "id": "kettlebell-lateral-lunge",
@@ -8169,6 +8352,74 @@
     ]
   },
   {
+    "id": "kettlebell-offset-rack-squat",
+    "name": "Kettlebell Offset Rack Squat",
+    "category": "legs",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "core",
+      "upper-back"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "unilateral",
+      "legs",
+      "squat",
+      "core",
+      "anti-rotation",
+      "strength"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "A squat with the kettlebell racked on ONE side only. The single-side (offset) load pulls the torso toward the loaded side, so the core has to fight lateral flexion and rotation the whole way down and up — far more trunk demand than a symmetric goblet or double-rack front squat. Feet shoulder-width, sit into the squat with the chest tall and the racked elbow up, resist the pull, drive up through the whole foot. A low-load, high-stability squat variant that trains the legs and the anti-lateral-flexion core together.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2050762199178758",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-06"
+    }
+  },
+  {
+    "id": "kettlebell-outside-pendulum-swing",
+    "name": "Kettlebell Outside Pendulum Swing",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "core",
+      "shoulders",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "unilateral",
+      "swing",
+      "hinge",
+      "explosive",
+      "lateral",
+      "conditioning",
+      "flow"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "A single-arm swing where the bell travels on an outside, pendulum-like arc — out and around the working-side hip rather than straight between the legs. Driven by the legs and hips ('leg drivers'), not the arm: hinge, load, and snap the hips to send the bell up and out, letting it float at the top before it pendulums back. The offset lateral path adds an anti-rotation and frontal-plane demand on top of the standard hinge. Keep the core braced so the torso doesn't twist toward the bell.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2050762199178758",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-06"
+    }
+  },
+  {
     "id": "kettlebell-overhead-extension-to-halo",
     "name": "Kettlebell Overhead Extension to Halo",
     "category": "shoulders",
@@ -8348,6 +8599,38 @@
         "caption": "Single Kettlebell Overhead Mobility Complex"
       }
     ]
+  },
+  {
+    "id": "kettlebell-reverse-lunge",
+    "name": "Kettlebell Reverse Lunge",
+    "category": "legs",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "unilateral",
+      "legs",
+      "lunge",
+      "single-leg",
+      "strength"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "With the kettlebell held in the rack (or goblet) position, step one leg straight back and lower until both knees bend to roughly 90 degrees, back knee toward the floor. Keep the torso tall and the core braced, front knee tracking over the toes. Drive through the front heel to return to standing. The reverse step is easier on the knees than a forward lunge and keeps the front foot planted for a stronger, more stable drive. When racked on one side, the offset load also challenges anti-lateral-flexion of the trunk.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2050762199178758",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-06"
+    }
   },
   {
     "id": "kettlebell-reverse-lunge-swing",

@@ -1608,13 +1608,13 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                         <template x-if="set.notes">
                           <div class="ex-notes" x-html="renderNotes(set.notes)"></div>
                         </template>
-                        <a x-show="set.flowRef.workoutId !== selectedWorkoutId" :href="'/' + set.flowRef.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(set.flowRef.workoutId); }" style="margin-top: 0.5rem; padding: 0.5rem 0.7rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; display: flex; align-items: center; gap: 0.5rem; font-size: 0.78rem; text-decoration: none; color: inherit;">
+                        <a x-show="set.flowRef.workoutId !== selectedWorkoutId" :href="'/' + set.flowRef.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(set.flowRef.workoutId); }" style="margin-top: 0.5rem; padding: 0.5rem 0.7rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; font-size: 0.78rem; text-decoration: none; color: inherit;">
                           <span style="font-size: 0.95rem;">&#128279;</span>
-                          <div style="flex: 1;">
+                          <div style="flex: 1 1 200px; min-width: 0;">
                             <span style="font-weight: 600;" x-text="set.flowRef.name"></span>
                             <template x-if="set.flowRef.source"><span style="opacity: 0.6; margin-left: 0.4rem;" x-text="set.flowRef.source"></span></template>
                           </div>
-                          <span style="opacity: 0.55; flex-shrink: 0;">view full flow &rarr;</span>
+                          <span style="opacity: 0.55; flex-shrink: 0; margin-left: auto;">view full flow &rarr;</span>
                         </a>
                       </div>
                     </template>

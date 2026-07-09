@@ -1,0 +1,89 @@
+{
+  "id": "fb-w19-morning-flow",
+  "name": "W19 Morning Flow — Bodyweight Spine + Hip (All Days, Rotated Variety)",
+  "description": "15 min bodyweight floor flow — universal W19 morning flow, used every training day (Mon push / Tue KB / Wed pull / Thu KB / Fri legs). Same three-part shape as W11-W18 with ~half the moves rotated for variety: this week brings in low-lunge thoracic rotation, dead-bug, inchworm walkout, McGill crunch, and cycles back the W12-era couch stretch + frog stretch. Three-part: spine primer → bodyweight work → deep stretch arc. Day-specific therapeutic add-on at the end (push = pec-minor protocol; pull = dead hang + scap pull; legs = cross-leg lateral lean + pigeon + supine twist; KB days skip — banded prep covers it).",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "thoracic", "hips", "morning", "bodyweight", "home", "spine", "variety"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "primer",
+      "name": "Primer — Wake the Spine (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "duration": 60, "notes": "Slow, full ROM each direction. Spine wave wakes the segment-by-segment articulation." },
+        { "id": "low-lunge-thoracic-rotation", "duration": 90, "notes": "Rotates in for W19 — 45s each side. In a low lunge, hand down inside the front foot, reach the other arm to the ceiling and rotate the upper back open, then thread it back under. Thoracic rotation + hip-flexor opener in one — wakes the mid-back and the hips before the day's work." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — the wrist dials a stretch up the back chain. Stays in the primer." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Bodyweight Activation (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "push-up", "reps": "max-ish (~2-3 in reserve)", "notes": "**Greasing set — 1 quick set, NEVER to failure.** Daily frequency is the point (same idea as the pull-up greasing set — the floor rises over time). Elbows ~45° (not flared), ribs down, glutes tight, body one line, **pack down not up.** Stop 2-3 reps short. Back off / drop to knees if the right shoulder talks at the bottom." },
+        { "id": "dead-bug", "duration": 60, "notes": "Rotates in for W19 — on your back, arms up, knees over hips. Press the lower back FLAT into the floor and HOLD it as you slowly extend the opposite arm + leg, then switch. The brace is the work — deep-core anti-extension (also the legs-day warmup primer)." },
+        { "id": "glute-bridge", "duration": 45, "notes": "Feet flat, drive through the heels, squeeze the glutes to a tall bridge, ribs down — no arching the lower back. Posterior-chain wake-up." },
+        { "id": "bird-dog", "duration": 60, "notes": "30s each side. Anti-rotation — opposite arm + leg extend, hold a beat, hips stay square (no swinging)." },
+        { "id": "inchworm-walkout", "reps": 6, "notes": "Rotates in for W19 — from standing, hinge and walk the hands out to a plank, hold a beat (ribs down), then walk the hands back and stand tall. Dynamic hamstring + shoulder + core warm-up that links the whole front and back line." },
+        { "id": "mcgill-crunch", "reps": "6-8", "notes": "Rotates in for W19 — McGill curl-up (his Big 3): one knee bent, hands under the low back to keep its natural arch, lift the head/shoulders just an inch WITHOUT flexing the spine. A posture-safe core brace — hold each rep a beat. Switch the bent leg halfway." }
+      ],
+      "notes": "Opens with a pushup greasing set (1 quick set, never to failure — daily habit). Dead-bug, inchworm walkout, McGill crunch rotate in for W19; glute bridge + bird-dog (anti-rotation) stay.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "scorpion-stretch", "duration": 60, "notes": "30s each side. Stays every week — signature spine move." },
+        { "id": "couch-stretch", "duration": 90, "notes": "Cycles back for W19 (a W12-era favorite) — 45s each side. Back knee on the mat, shin up a wall or couch, front foot planted, sink the hips forward and stand tall. Deep hip-flexor + quad stretch — counters all the sitting and primes the squat/hinge work." },
+        { "id": "lizard-pose", "duration": 60, "notes": "30s each side. Hip flexor + adductor + back-leg quad. Drop to elbows if accessible. Stays — durable hip opener." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Bodyweight, slow. Stays every week — keeps the loaded cossack pattern grooved (and it's back on KB Tuesday this week)." },
+        { "id": "leg-straddle-reaches", "duration": 75, "notes": "Stays — sit in a wide straddle, reach toward one foot, then center (chest toward the floor), then the other foot. Slow, breathe into each reach. The straddle + adductor + hamstring opener the flow design calls for." },
+        { "id": "frog-stretch", "duration": 60, "notes": "Cycles back for W19 (a W12-era favorite) — knees wide on the mat, shins out, sink the hips back toward the heels. Deep adductor + inner-hip opener to close the arc — useful before legs day, and a counter to all the lateral KB work this week." }
+      ],
+      "notes": "Continuous arc — flow between shapes, breathe deeply. Anchors stay (scorpion, lizard, cossack BW, straddle reaches); couch stretch + frog stretch cycle back from the W12-era for W19.",
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "day-specific-addon",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 90, "notes": "**📍 PUSH DAYS — KEY PROTOCOL MOVE.** 30s each at LOW / MID / HIGH elbow positions. Arm bent 90°, forearm on the door frame, step through and rotate the torso AWAY. Desk work continuously re-tightens pec minor — daily." },
+        { "id": "prone-y-raises", "reps": 10, "notes": "**📍 PUSH DAYS** — active side of the pec-minor fix. Lower trap + rotator cuff." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "**📍 PUSH DAYS** — serratus activation, helps unstick a tight pec minor." },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "**📍 PUSH DAYS (optional)** — slow rotator cuff work. Add if the shoulder feels off." },
+        { "id": "wall-angel", "reps": 12, "notes": "**📍 PUSH DAYS (optional)** — pins the shoulder blades in the corrected position." },
+        { "id": "dead-hang", "duration": 25, "notes": "**📍 PULL DAYS** — 25s. Decompress the shoulders, warm the grip." },
+        { "id": "scapular-pull", "reps": 10, "notes": "**📍 PULL DAYS** — scapulae retracting only, no elbow bend. Crisp scap engagement before loaded pulls." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "**📍 LEGS DAYS** — 30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — QL/psoas release. Also in the legs-workout warmup." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "**📍 LEGS DAYS — QL-SPASM PROTOCOL.** 90s each side. Long hold lets the QL/psoas release. Non-negotiable on legs day." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "**📍 LEGS DAYS** — 60s each side. Gentle twist for the QL. Lacrosse-ball QL roll above the iliac crest beforehand if available." }
+      ],
+      "notes": "**Pick today's day-specific protocol — push / pull / legs.** ~3-5 min total. KB days (Tue/Thu) skip this block — the in-workout banded prep covers the equivalent.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Same shape as W11-W18, ~half the moves rotated. Morning flows stay low-fatigue; variety keeps them fresh.",
+    "**15 min main flow + 3-5 min day-specific add-on** — universal across W19 (Mon push / Tue KB / Wed pull / Thu KB / Fri legs).",
+    "**Scorpion + cossack BW + lizard pose + straddle reaches stay every week** — durable anchors.",
+    "**Rotated in for W19:** low-lunge thoracic rotation, dead-bug, inchworm walkout, McGill crunch. **Cycled back (W12-era): couch stretch, frog stretch.**",
+    "**Day-specific add-on at the end** — push days do the pec-minor protocol, pull days do dead hang + scap pull, legs days do cross-leg lean + 90s pigeon + supine twist. KB days skip the add-on.",
+    "If short on time: low-lunge thoracic rotation + lizard + cossack BW + frog stretch, plus today's day-specific add-on."
+  ],
+  "formPhilosophy": "Same as W11-W18 — variety means different shapes hitting the same patterns. Scorpion-family spine work + hip openers + adductor/straddle stretches. W19 rotates ~half: fresh core/dynamic work in the work block (dead-bug, inchworm, McGill crunch), a thoracic-rotation primer, and the W12-era couch + frog stretches cycled back so the flow doesn't calcify; the rehab anchors and the day-specific PPL protocols stay. Building decades, not weeks."
+}

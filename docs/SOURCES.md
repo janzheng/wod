@@ -142,6 +142,7 @@ Tracks where exercises, workouts, and programs come from.
 - **Exercises with media:** kettlebell tactical-clean, lateral-lunge, bent-press, front-squat, dead-clean
 - **Workouts:** kb-flow-dead-clean-press
 - **Reel ([1510541494200598](https://www.facebook.com/reel/1510541494200598), Madeleine Conti Personal Training, captured 2026-06-16):** leggy single-bell flow → workout `kb-leggy-flow` (Leggy Flow); new exercise `kettlebell-lateral-squat-clean`. Lower-body cousin of the bent-press/OTD flow.
+- **Reel ([2050762199178758](https://www.facebook.com/reel/2050762199178758), Madeleine Conti Personal Training, captured 2026-07-06):** full-body ballistic single-bell flow ("2nd most saved & shared kb flow of 2025") → workout `kb-dead-cluster-flow` (Dead Cluster Flow); new exercises `kettlebell-dead-cluster`, `kettlebell-iron-cross`, `kettlebell-outside-pendulum-swing`, `kettlebell-reverse-lunge`, `kettlebell-offset-rack-squat`. Overhead cousin of the Leggy Flow — added to W20 D2 (Tuesday) as a second skill flow.
 
 ### @kettleclubfam (Facebook)
 - **URL:** https://www.facebook.com/reel/2784846568518362
