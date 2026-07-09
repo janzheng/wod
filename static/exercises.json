@@ -251,6 +251,13 @@
         "source": "@sculptherbody",
         "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2025533634589917569",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -306,6 +313,13 @@
         "value": "https://x.com/sculptherbody/status/2026983176472576368",
         "source": "@sculptherbody",
         "caption": "Quick but KILLER ABS & CORE"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2026983176472576368",
+        "label": "@sculptherbody",
+        "platform": "link"
       }
     ]
   },
@@ -2614,6 +2628,13 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -2739,6 +2760,13 @@
         "value": "https://x.com/whoisthismommy/status/2024684639382855931",
         "source": "@whoisthismommy",
         "caption": "Glute compound shred workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/whoisthismommy/status/2024684639382855931",
+        "label": "@whoisthismommy",
+        "platform": "link"
       }
     ]
   },
@@ -3215,6 +3243,13 @@
         "source": "@biolifex",
         "caption": "30 Minute Mobility Routine"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/biolifex/status/2026966403614478461",
+        "label": "@biolifex",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -3559,6 +3594,13 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -3646,6 +3688,13 @@
         "value": "https://x.com/_fitnesshub/status/2026916958973608047",
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "twitter"
       }
     ]
   },
@@ -3852,7 +3901,33 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Stand with feet hip-width apart and hands on your hips or at your chest. Step your right foot diagonally behind your left leg, crossing it behind as you lower into a lunge position - like a curtsy. Keep your front knee tracking over your toes and your torso upright. Lower until your front thigh is nearly parallel to the ground. Push through your front heel to return to standing. This variation targets the outer glutes (gluteus medius) more than standard lunges."
+    "description": "Stand with feet hip-width apart and hands on your hips or at your chest. Step your right foot diagonally behind your left leg, crossing it behind as you lower into a lunge position - like a curtsy. Keep your front knee tracking over your toes and your torso upright. Lower until your front thigh is nearly parallel to the ground. Push through your front heel to return to standing. This variation targets the outer glutes (gluteus medius) more than standard lunges.",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/1510541494200598",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-leggy-flow",
+        "name": "Leggy Flow — Dead Clean → Curtsy → Lateral Lunge → Lateral Squat Clean → Tactical Clean",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/1510541494200598"
+      },
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      }
+    ]
   },
   {
     "id": "dead-bug",
@@ -4256,6 +4331,21 @@
         "source": "@kb_kings",
         "caption": "Advanced Double Kettlebell Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/kb_kings/status/2022331481889357842",
+        "label": "@kb_kings",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-moving-target-complex",
+        "name": "Moving Target Double KB Complex",
+        "source": "@kb_kings / @alexkaru",
+        "sourceUrl": "https://x.com/kb_kings/status/2022331481889357842"
+      }
     ]
   },
   {
@@ -4293,6 +4383,21 @@
         "value": "https://x.com/kb_kings/status/2022331481889357842",
         "source": "@kb_kings",
         "caption": "Advanced Double Kettlebell Complex"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/kb_kings/status/2022331481889357842",
+        "label": "@kb_kings",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-moving-target-complex",
+        "name": "Moving Target Double KB Complex",
+        "source": "@kb_kings / @alexkaru",
+        "sourceUrl": "https://x.com/kb_kings/status/2022331481889357842"
       }
     ]
   },
@@ -4332,6 +4437,21 @@
         "value": "https://x.com/kb_kings/status/2022331481889357842",
         "source": "@kb_kings",
         "caption": "Advanced Double Kettlebell Complex"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/kb_kings/status/2022331481889357842",
+        "label": "@kb_kings",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-moving-target-complex",
+        "name": "Moving Target Double KB Complex",
+        "source": "@kb_kings / @alexkaru",
+        "sourceUrl": "https://x.com/kb_kings/status/2022331481889357842"
       }
     ]
   },
@@ -4568,6 +4688,13 @@
         "source": "@gymsociety",
         "caption": "Dumbbell Only Upper Body Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymsociety/status/2025164844819779767",
+        "label": "@gymsociety",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -4629,6 +4756,13 @@
         "value": "https://x.com/gymsociety/status/2025164844819779767",
         "source": "@gymsociety",
         "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymsociety/status/2025164844819779767",
+        "label": "@gymsociety",
+        "platform": "link"
       }
     ]
   },
@@ -4744,6 +4878,13 @@
         "value": "https://x.com/biolifex/status/2026966403614478461",
         "source": "@biolifex",
         "caption": "30 Minute Mobility Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/biolifex/status/2026966403614478461",
+        "label": "@biolifex",
+        "platform": "twitter"
       }
     ]
   },
@@ -5117,6 +5258,13 @@
         "source": "@biolifex",
         "caption": "30 Minute Mobility Routine"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/biolifex/status/2026966403614478461",
+        "label": "@biolifex",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -5155,6 +5303,13 @@
         "value": "https://x.com/biolifex/status/2026966403614478461",
         "source": "@biolifex",
         "caption": "30 Minute Mobility Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/biolifex/status/2026966403614478461",
+        "label": "@biolifex",
+        "platform": "twitter"
       }
     ]
   },
@@ -5452,6 +5607,13 @@
         "value": "https://www.youtube.com/watch?v=mSZWSQSSEjE",
         "caption": "GMB Wrist Prep full routine"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://www.youtube.com/watch?v=mSZWSQSSEjE",
+        "label": "GMB Wrist Prep full routine",
+        "platform": "youtube"
+      }
     ]
   },
   {
@@ -5566,6 +5728,13 @@
         "value": "https://x.com/gymsociety/status/2025164844819779767",
         "source": "@gymsociety",
         "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymsociety/status/2025164844819779767",
+        "label": "@gymsociety",
+        "platform": "link"
       }
     ]
   },
@@ -5877,6 +6046,13 @@
         "value": "https://x.com/whoisthismommy/status/2024684639382855931",
         "source": "@whoisthismommy",
         "caption": "Glute compound shred workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/whoisthismommy/status/2024684639382855931",
+        "label": "@whoisthismommy",
+        "platform": "link"
       }
     ]
   },
@@ -6251,7 +6427,14 @@
       "url": "https://x.com/deanttraining/status/2027798729642655818",
       "creator": "@CoachFHM",
       "capturedAt": "2026-03-02"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/deanttraining/status/2027798729642655818",
+        "label": "@CoachFHM",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "incline-curl",
@@ -6443,6 +6626,13 @@
         "type": "twitter",
         "value": "https://x.com/muccistrength/status/2057492215857807483",
         "caption": "@muccistrength demo — Internal Core Fist (credited to @TheDavidWeck)"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/muccistrength/status/2057492215857807483",
+        "label": "@muccistrength",
+        "platform": "twitter"
       }
     ]
   },
@@ -7006,6 +7196,32 @@
         "source": "@Asgooch",
         "caption": "Brutal Kettlebell Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2020611643718164517",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2026011472489324584",
+        "label": "@Asgooch",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-brutal-complex",
+        "name": "Brutal KB Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2020611643718164517"
+      },
+      {
+        "workoutId": "kb-b-stance-flow",
+        "name": "KB B-Stance Flow (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2026011472489324584"
+      }
     ]
   },
   {
@@ -7055,6 +7271,31 @@
         "source": "@Asgooch",
         "caption": "Beginner One Kettlebell Full Body Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2022366570052293012",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2020611643718164517",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2015520133985312910",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-brutal-complex",
+        "name": "Brutal KB Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2020611643718164517"
+      }
     ]
   },
   {
@@ -7087,6 +7328,13 @@
         "value": "https://x.com/metabolicfactor/status/2023668997959348230",
         "source": "@metabolicfactor",
         "caption": "Daily Kettlebell Controlled Power Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/metabolicfactor/status/2023668997959348230",
+        "label": "@metabolicfactor",
+        "platform": "link"
       }
     ]
   },
@@ -7131,6 +7379,13 @@
         "source": "@GymFiesta",
         "caption": "Full-body kettlebell workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/GymFiesta/status/2062207034108358802",
+        "label": "@GymFiesta",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -7164,7 +7419,22 @@
       "url": "https://x.com/Asgooch/status/2026011472489324584",
       "creator": "@Asgooch",
       "capturedAt": "2026-02-23"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2026011472489324584",
+        "label": "@Asgooch",
+        "platform": "twitter"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-b-stance-flow",
+        "name": "KB B-Stance Flow (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2026011472489324584"
+      }
+    ]
   },
   {
     "id": "kettlebell-bent-over-horn-row",
@@ -7199,6 +7469,13 @@
         "value": "https://x.com/gymfiesta/status/2020867535785148583",
         "source": "@gymfiesta",
         "caption": "Daily 100 Reps Kettlebell Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymfiesta/status/2020867535785148583",
+        "label": "@gymfiesta",
+        "platform": "link"
       }
     ]
   },
@@ -7265,6 +7542,21 @@
         "value": "https://www.facebook.com/reel/1397870815215714",
         "source": "facebook",
         "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/1397870815215714",
+        "label": "Facebook Reel",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-flow-dead-clean-press",
+        "name": "Bent Press Flow — Dead Clean → Squat → Lateral Lunge → Bent Press → Tactical Clean",
+        "source": "Facebook Reel",
+        "sourceUrl": "https://www.facebook.com/reel/1397870815215714"
       }
     ]
   },
@@ -7410,6 +7702,13 @@
         "source": "@sculptherbody",
         "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2021395070084173978",
+        "label": "@sculptherbody",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -7459,6 +7758,23 @@
         "source": "@Asgooch",
         "caption": "Beginner One Kettlebell Full Body Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2019499188610900125",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2021681074653311203",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2015520133985312910",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -7494,6 +7810,21 @@
         "value": "https://x.com/Asgooch/status/2020611643718164517",
         "source": "@Asgooch",
         "caption": "Brutal Kettlebell Complex"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2020611643718164517",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-brutal-complex",
+        "name": "Brutal KB Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2020611643718164517"
       }
     ]
   },
@@ -7538,6 +7869,37 @@
         "source": "facebook",
         "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/asgooch/status/2020926315990483449",
+        "label": "@asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/1397870815215714",
+        "label": "Facebook Reel",
+        "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/1510541494200598",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-leggy-flow",
+        "name": "Leggy Flow — Dead Clean → Curtsy → Lateral Lunge → Lateral Squat Clean → Tactical Clean",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/1510541494200598"
+      },
+      {
+        "workoutId": "kb-flow-dead-clean-press",
+        "name": "Bent Press Flow — Dead Clean → Squat → Lateral Lunge → Bent Press → Tactical Clean",
+        "source": "Facebook Reel",
+        "sourceUrl": "https://www.facebook.com/reel/1397870815215714"
+      }
     ]
   },
   {
@@ -7575,7 +7937,22 @@
       "url": "https://www.facebook.com/reel/2050762199178758",
       "creator": "Madeleine Conti Personal Training",
       "capturedAt": "2026-07-06"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2050762199178758",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-dead-cluster-flow",
+        "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2050762199178758"
+      }
+    ]
   },
   {
     "id": "kettlebell-deadlift",
@@ -7636,6 +8013,13 @@
         "source": "@Asgooch",
         "caption": "Beginner One Kettlebell Full Body Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2015520133985312910",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -7671,6 +8055,13 @@
         "value": "https://x.com/wealthmail/status/2024846506361028711",
         "source": "@wealthmail",
         "caption": "KB figure 8 and flow combos"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/wealthmail/status/2024846506361028711",
+        "label": "@wealthmail",
+        "platform": "link"
       }
     ]
   },
@@ -7750,7 +8141,33 @@
       "url": "https://www.facebook.com/reel/2784846568518362",
       "creator": "@kettleclubfam",
       "capturedAt": "2026-05-14"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2784846568518362",
+        "label": "@kettleclubfam",
+        "platform": "facebook"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      },
+      {
+        "workoutId": "kb-figure-8-tactical-clean-complex",
+        "name": "Figure-8 → Tactical Clean Complex (@kettleclubfam / kettleclubfam program)",
+        "source": "@kettleclubfam",
+        "sourceUrl": "https://www.facebook.com/reel/2784846568518362"
+      }
+    ]
   },
   {
     "id": "kettlebell-figure-8-to-reverse-lunge",
@@ -7788,6 +8205,13 @@
         "source": "@wealthmail",
         "caption": "KB halo to reverse lunge + figure 8 to reverse lunge combo"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/wealthmail/status/2024846506361028711",
+        "label": "@wealthmail",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -7819,6 +8243,13 @@
         "value": "https://x.com/Asgooch/status/2021681074653311203",
         "source": "@Asgooch",
         "caption": "The Only Kettlebell Workout You Need"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2021681074653311203",
+        "label": "@Asgooch",
+        "platform": "link"
       }
     ]
   },
@@ -7860,6 +8291,32 @@
         "source": "@Asgooch",
         "caption": "Single Kettlebell Cardio Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/1397870815215714",
+        "label": "Facebook Reel",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2022366570052293012",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-cardio-complex",
+        "name": "Single KB Cardio Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2022366570052293012"
+      },
+      {
+        "workoutId": "kb-flow-dead-clean-press",
+        "name": "Bent Press Flow — Dead Clean → Squat → Lateral Lunge → Bent Press → Tactical Clean",
+        "source": "Facebook Reel",
+        "sourceUrl": "https://www.facebook.com/reel/1397870815215714"
+      }
     ]
   },
   {
@@ -7893,6 +8350,13 @@
         "value": "https://x.com/Asgooch/status/2019227198805459434",
         "source": "@Asgooch",
         "caption": "20-Minute Full Body Kettlebell Circuit"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2019227198805459434",
+        "label": "@Asgooch",
+        "platform": "link"
       }
     ]
   },
@@ -7946,6 +8410,28 @@
         "source": "@Asgooch",
         "caption": "Brutal Kettlebell Complex (A/B Stance)"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/asgooch/status/2020926315990483449",
+        "label": "@asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/powerbrutehq/status/2021260667601277363",
+        "label": "@powerbrutehq",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2019227198805459434",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2020611643718164517",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -7986,6 +8472,18 @@
         "source": "@gymfiesta",
         "caption": "Daily 100 Reps Kettlebell Routine"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2021223932536226019",
+        "label": "@powerbrutehq",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/gymfiesta/status/2020867535785148583",
+        "label": "@gymfiesta",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -8023,6 +8521,13 @@
         "source": "@wealthmail",
         "caption": "KB halo to reverse lunge + figure 8 to reverse lunge combo"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/wealthmail/status/2024846506361028711",
+        "label": "@wealthmail",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -8052,7 +8557,22 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "A one-arm swing where you release the bell at the top of the arc and catch it with the OTHER hand, then swing it down and back up to switch again — alternating hands every rep. The hip hinge drives the bell (arms are ropes); the hand switch happens at the weightless float point around chest height, not by muscling it across. The iconic kettlebell hand-eye-coordination drill — builds the hinge plus catch-timing and grip. Start light; the catch is the skill, not the load."
+    "description": "A one-arm swing where you release the bell at the top of the arc and catch it with the OTHER hand, then swing it down and back up to switch again — alternating hands every rep. The hip hinge drives the bell (arms are ropes); the hand switch happens at the weightless float point around chest height, not by muscling it across. The iconic kettlebell hand-eye-coordination drill — builds the hinge plus catch-timing and grip. Start light; the catch is the skill, not the load.",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      }
+    ]
   },
   {
     "id": "kettlebell-high-pull",
@@ -8093,6 +8613,18 @@
         "source": "@gymfiesta",
         "caption": "Daily 100 Reps Kettlebell Routine"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/metabolicfactor/status/2023668997959348230",
+        "label": "@metabolicfactor",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/gymfiesta/status/2020867535785148583",
+        "label": "@gymfiesta",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -8126,7 +8658,22 @@
       "url": "https://www.facebook.com/reel/2050762199178758",
       "creator": "Madeleine Conti Personal Training",
       "capturedAt": "2026-07-06"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2050762199178758",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-dead-cluster-flow",
+        "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2050762199178758"
+      }
+    ]
   },
   {
     "id": "kettlebell-lateral-lunge",
@@ -8161,6 +8708,43 @@
         "value": "https://www.facebook.com/reel/1397870815215714",
         "source": "facebook",
         "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/1397870815215714",
+        "label": "Facebook Reel",
+        "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/1510541494200598",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-leggy-flow",
+        "name": "Leggy Flow — Dead Clean → Curtsy → Lateral Lunge → Lateral Squat Clean → Tactical Clean",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/1510541494200598"
+      },
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      },
+      {
+        "workoutId": "kb-flow-dead-clean-press",
+        "name": "Bent Press Flow — Dead Clean → Squat → Lateral Lunge → Bent Press → Tactical Clean",
+        "source": "Facebook Reel",
+        "sourceUrl": "https://www.facebook.com/reel/1397870815215714"
       }
     ]
   },
@@ -8198,7 +8782,22 @@
       "url": "https://www.facebook.com/reel/1510541494200598",
       "creator": "Madeleine Conti Personal Training",
       "capturedAt": "2026-06-16"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/1510541494200598",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-leggy-flow",
+        "name": "Leggy Flow — Dead Clean → Curtsy → Lateral Lunge → Lateral Squat Clean → Tactical Clean",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/1510541494200598"
+      }
+    ]
   },
   {
     "id": "kettlebell-lunge",
@@ -8238,6 +8837,18 @@
         "source": "@Asgooch",
         "caption": "The Only Kettlebell Workout You Need (Reverse Lunge)"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2021395070084173978",
+        "label": "@sculptherbody",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2021681074653311203",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -8275,6 +8886,13 @@
         "value": "https://x.com/sculptherbody/status/2021395070084173978",
         "source": "@sculptherbody",
         "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2021395070084173978",
+        "label": "@sculptherbody",
+        "platform": "link"
       }
     ]
   },
@@ -8314,6 +8932,26 @@
         "source": "@sculptherbody",
         "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2021395070084173978",
+        "label": "@sculptherbody",
+        "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      }
     ]
   },
   {
@@ -8349,6 +8987,13 @@
         "source": "@asgooch",
         "caption": "Single Kettlebell Athletic Circuit"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/asgooch/status/2013313157498880127",
+        "label": "@asgooch",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -8382,7 +9027,22 @@
       "url": "https://www.facebook.com/reel/2050762199178758",
       "creator": "Madeleine Conti Personal Training",
       "capturedAt": "2026-07-06"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2050762199178758",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-dead-cluster-flow",
+        "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2050762199178758"
+      }
+    ]
   },
   {
     "id": "kettlebell-outside-pendulum-swing",
@@ -8417,7 +9077,22 @@
       "url": "https://www.facebook.com/reel/2050762199178758",
       "creator": "Madeleine Conti Personal Training",
       "capturedAt": "2026-07-06"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2050762199178758",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-dead-cluster-flow",
+        "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2050762199178758"
+      }
+    ]
   },
   {
     "id": "kettlebell-overhead-extension-to-halo",
@@ -8451,6 +9126,13 @@
         "value": "https://x.com/wealthmail/status/2025450838164947031",
         "source": "@wealthmail",
         "caption": "KB overhead extension to halo pyramid flow"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/wealthmail/status/2025450838164947031",
+        "label": "@wealthmail",
+        "platform": "link"
       }
     ]
   },
@@ -8490,6 +9172,32 @@
         "source": "@Asgooch",
         "caption": "Single Kettlebell Overhead Mobility Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2021254033797734405",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2026011472489324584",
+        "label": "@Asgooch",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-overhead-mobility-complex",
+        "name": "KB Overhead Mobility Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2021254033797734405"
+      },
+      {
+        "workoutId": "kb-b-stance-flow",
+        "name": "KB B-Stance Flow (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2026011472489324584"
+      }
     ]
   },
   {
@@ -8522,6 +9230,26 @@
         "value": "https://x.com/asgooch/status/2020926315990483449",
         "source": "@asgooch",
         "caption": "Kettlebell Full Body Training Demo"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/asgooch/status/2020926315990483449",
+        "label": "@asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
       }
     ]
   },
@@ -8562,6 +9290,21 @@
         "source": "@Asgooch",
         "caption": "Single Kettlebell Overhead Mobility Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2021254033797734405",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-overhead-mobility-complex",
+        "name": "KB Overhead Mobility Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2021254033797734405"
+      }
     ]
   },
   {
@@ -8598,6 +9341,21 @@
         "source": "@Asgooch",
         "caption": "Single Kettlebell Overhead Mobility Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2021254033797734405",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-overhead-mobility-complex",
+        "name": "KB Overhead Mobility Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2021254033797734405"
+      }
     ]
   },
   {
@@ -8630,7 +9388,22 @@
       "url": "https://www.facebook.com/reel/2050762199178758",
       "creator": "Madeleine Conti Personal Training",
       "capturedAt": "2026-07-06"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2050762199178758",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-dead-cluster-flow",
+        "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2050762199178758"
+      }
+    ]
   },
   {
     "id": "kettlebell-reverse-lunge-swing",
@@ -8667,6 +9440,13 @@
         "value": "https://x.com/sculptherbody/status/2021395070084173978",
         "source": "@sculptherbody",
         "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2021395070084173978",
+        "label": "@sculptherbody",
+        "platform": "link"
       }
     ]
   },
@@ -8712,6 +9492,26 @@
         "value": "https://x.com/GymFiesta/status/2062207034108358802",
         "source": "@GymFiesta",
         "caption": "Full-body kettlebell workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/GymFiesta/status/2062207034108358802",
+        "label": "@GymFiesta",
+        "platform": "twitter"
+      },
+      {
+        "url": "https://x.com/gymvibe_/status/2060769199404851529",
+        "label": "@gymvibe_",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-gymvibe-9min-amrap",
+        "name": "GymVibe 9-Minute KB AMRAP — Ballistic Row / Thruster / Reverse Lunge + Knee Drive",
+        "source": "@gymvibe_",
+        "sourceUrl": "https://x.com/gymvibe_/status/2060769199404851529"
       }
     ]
   },
@@ -8794,6 +9594,53 @@
         "source": "@Asgooch",
         "caption": "Single Kettlebell Overhead Mobility Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymfiesta/status/2020867535785148583",
+        "label": "@gymfiesta",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2022366570052293012",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2019227198805459434",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2021254033797734405",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/gymvibe_/status/2060769199404851529",
+        "label": "@gymvibe_",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-overhead-mobility-complex",
+        "name": "KB Overhead Mobility Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2021254033797734405"
+      },
+      {
+        "workoutId": "kb-cardio-complex",
+        "name": "Single KB Cardio Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2022366570052293012"
+      },
+      {
+        "workoutId": "kb-gymvibe-9min-amrap",
+        "name": "GymVibe 9-Minute KB AMRAP — Ballistic Row / Thruster / Reverse Lunge + Knee Drive",
+        "source": "@gymvibe_",
+        "sourceUrl": "https://x.com/gymvibe_/status/2060769199404851529"
+      }
     ]
   },
   {
@@ -8826,6 +9673,13 @@
         "source": "@powerbrutehq",
         "caption": "Kettlebell Core Exercises Library"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2021223932536226019",
+        "label": "@powerbrutehq",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -8856,6 +9710,13 @@
         "value": "https://x.com/powerbrutehq/status/2021223932536226019",
         "source": "@powerbrutehq",
         "caption": "Kettlebell Core Exercises Library"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2021223932536226019",
+        "label": "@powerbrutehq",
+        "platform": "link"
       }
     ]
   },
@@ -8897,6 +9758,18 @@
         "value": "https://x.com/gymfiesta/status/2020867535785148583",
         "source": "@gymfiesta",
         "caption": "Daily 100 Reps Kettlebell Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/metabolicfactor/status/2023668997959348230",
+        "label": "@metabolicfactor",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/gymfiesta/status/2020867535785148583",
+        "label": "@gymfiesta",
+        "platform": "link"
       }
     ]
   },
@@ -8943,6 +9816,13 @@
         "source": "@GymFiesta",
         "caption": "Full-body kettlebell workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/GymFiesta/status/2062207034108358802",
+        "label": "@GymFiesta",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -8974,6 +9854,56 @@
     "difficulty": "intermediate",
     "duration": 60,
     "description": "Stand on one leg, knee soft, the other leg lifted slightly off the floor. Pass the kettlebell around the body — hand to hand behind the back and in front — keeping the torso quiet and the standing-leg hip locked in. The standing-leg glute and hip stabilizers fight the rotational pull of the bell. Do the prescribed reps in one direction, then reverse direction; switch legs and repeat. Burns fast — the off-balance load multiplies the work."
+  },
+  {
+    "id": "kettlebell-skier-swing",
+    "name": "Kettlebell Skier Swing",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "core",
+      "shoulders",
+      "grip"
+    ],
+    "tags": [
+      "kettlebell",
+      "swing",
+      "hinge",
+      "explosive",
+      "quad-dominant",
+      "conditioning",
+      "flow"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "A swing where the bell travels at your SIDE rather than between the legs — feet closer together, arm sweeping back past the hip and driving forward and up like a cross-country ski pole. Because the feet are close and the path is at the side, it loads the quads much harder than a standard hip-dominant swing (still hinge-and-drive, not a squat). Push the hips back to load the spring, then drive the ground away and snap tall to propel the bell forward. Single-arm here (single bell); a good option when swinging between the legs is awkward.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2467690073748507",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-09"
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      }
+    ]
   },
   {
     "id": "kettlebell-snatch",
@@ -9019,6 +9949,26 @@
         "source": "@GymFiesta",
         "caption": "Full-body kettlebell workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/GymFiesta/status/2062207034108358802",
+        "label": "@GymFiesta",
+        "platform": "twitter"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2050762199178758",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-dead-cluster-flow",
+        "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2050762199178758"
+      }
     ]
   },
   {
@@ -9054,6 +10004,13 @@
         "value": "https://x.com/sculptherbody/status/2021395070084173978",
         "source": "@sculptherbody",
         "caption": "4 Kettlebell Lunge Variations for Athletic Performance"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2021395070084173978",
+        "label": "@sculptherbody",
+        "platform": "link"
       }
     ]
   },
@@ -9149,6 +10106,13 @@
         "source": "@Asgooch",
         "caption": "Beginner One Kettlebell Full Body Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/Asgooch/status/2015520133985312910",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -9183,6 +10147,13 @@
         "value": "https://x.com/powerbrutehq/status/2021260667601277363",
         "source": "@powerbrutehq",
         "caption": "Two Kettlebell Exercises for Massive Quads"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2021260667601277363",
+        "label": "@powerbrutehq",
+        "platform": "link"
       }
     ]
   },
@@ -9251,6 +10222,46 @@
         "source": "@Asgooch",
         "caption": "Brutal Kettlebell Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/asgooch/status/2020926315990483449",
+        "label": "@asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/asgooch/status/2013313157498880127",
+        "label": "@asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/gymfiesta/status/2020867535785148583",
+        "label": "@gymfiesta",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2019227198805459434",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2021681074653311203",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2020611643718164517",
+        "label": "@Asgooch",
+        "platform": "link"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-brutal-complex",
+        "name": "Brutal KB Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2020611643718164517"
+      }
     ]
   },
   {
@@ -9293,6 +10304,37 @@
         "value": "https://x.com/Asgooch/status/2022366570052293012",
         "source": "@Asgooch",
         "caption": "Single Kettlebell Cardio Complex"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/asgooch/status/2013313157498880127",
+        "label": "@asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2022366570052293012",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2026011472489324584",
+        "label": "@Asgooch",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-cardio-complex",
+        "name": "Single KB Cardio Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2022366570052293012"
+      },
+      {
+        "workoutId": "kb-b-stance-flow",
+        "name": "KB B-Stance Flow (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2026011472489324584"
       }
     ]
   },
@@ -9346,6 +10388,48 @@
         "source": "@Asgooch",
         "caption": "Single Kettlebell Overhead Mobility Complex"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/asgooch/status/2020926315990483449",
+        "label": "@asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2022366570052293012",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2021254033797734405",
+        "label": "@Asgooch",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/Asgooch/status/2026011472489324584",
+        "label": "@Asgooch",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-overhead-mobility-complex",
+        "name": "KB Overhead Mobility Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2021254033797734405"
+      },
+      {
+        "workoutId": "kb-cardio-complex",
+        "name": "Single KB Cardio Complex (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2022366570052293012"
+      },
+      {
+        "workoutId": "kb-b-stance-flow",
+        "name": "KB B-Stance Flow (@Asgooch)",
+        "source": "@Asgooch",
+        "sourceUrl": "https://x.com/Asgooch/status/2026011472489324584"
+      }
     ]
   },
   {
@@ -9381,6 +10465,54 @@
         "source": "facebook",
         "caption": "Kettlebell Flow: Dead Clean, Squat, Lateral Lunge, Bent Press"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/1397870815215714",
+        "label": "Facebook Reel",
+        "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/1510541494200598",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2050762199178758",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-leggy-flow",
+        "name": "Leggy Flow — Dead Clean → Curtsy → Lateral Lunge → Lateral Squat Clean → Tactical Clean",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/1510541494200598"
+      },
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      },
+      {
+        "workoutId": "kb-flow-dead-clean-press",
+        "name": "Bent Press Flow — Dead Clean → Squat → Lateral Lunge → Bent Press → Tactical Clean",
+        "source": "Facebook Reel",
+        "sourceUrl": "https://www.facebook.com/reel/1397870815215714"
+      },
+      {
+        "workoutId": "kb-dead-cluster-flow",
+        "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2050762199178758"
+      }
     ]
   },
   {
@@ -9408,7 +10540,33 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Hold one or two kettlebells in the rack position at shoulders. Squat down to at least parallel, then explosively drive up and use the momentum to press the kettlebells overhead. Lock out at the top, then lower bells back to rack as you descend into the next squat in one fluid motion. Great metabolic conditioning exercise."
+    "description": "Hold one or two kettlebells in the rack position at shoulders. Squat down to at least parallel, then explosively drive up and use the momentum to press the kettlebells overhead. Lock out at the top, then lower bells back to rack as you descend into the next squat in one fluid motion. Great metabolic conditioning exercise.",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
+        "url": "https://x.com/gymvibe_/status/2060769199404851529",
+        "label": "@gymvibe_",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      },
+      {
+        "workoutId": "kb-gymvibe-9min-amrap",
+        "name": "GymVibe 9-Minute KB AMRAP — Ballistic Row / Thruster / Reverse Lunge + Knee Drive",
+        "source": "@gymvibe_",
+        "sourceUrl": "https://x.com/gymvibe_/status/2060769199404851529"
+      }
+    ]
   },
   {
     "id": "kettlebell-triceps-extension",
@@ -9440,6 +10598,13 @@
         "value": "https://x.com/gymfiesta/status/2020867535785148583",
         "source": "@gymfiesta",
         "caption": "Daily 100 Reps Kettlebell Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymfiesta/status/2020867535785148583",
+        "label": "@gymfiesta",
+        "platform": "link"
       }
     ]
   },
@@ -9502,6 +10667,59 @@
         "source": "@gymfiesta",
         "caption": "Daily 100 Reps Kettlebell Routine"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymfiesta/status/2020867535785148583",
+        "label": "@gymfiesta",
+        "platform": "link"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-walter-catch",
+    "name": "Kettlebell Walter Catch",
+    "category": "full-body",
+    "type": "weights",
+    "muscles": [
+      "shoulders",
+      "biceps",
+      "core",
+      "grip"
+    ],
+    "tags": [
+      "kettlebell",
+      "coordination",
+      "catch",
+      "hand-eye",
+      "flow",
+      "skill-work"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "description": "A soft two-handed catch that closes the flow, coming off the skier swing: as the bell floats up, receive it at chest height and cradle it with BOTH hands — one hand on the handle, the other cupping the ball (the round body) up near the sternum. Absorb the momentum with soft arms and a braced core rather than snatching it stiff-armed; the skill is quiet hands and a controlled deceleration, not the load. Go light — it's a hand-eye / coordination beat.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2467690073748507",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-07-09"
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      }
     ]
   },
   {
@@ -9539,6 +10757,26 @@
         "value": "https://x.com/powerbrutehq/status/2021223932536226019",
         "source": "@powerbrutehq",
         "caption": "Kettlebell Core Exercises Library"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2021223932536226019",
+        "label": "@powerbrutehq",
+        "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/2467690073748507",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-long-coordination-gauntlet",
+        "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
       }
     ]
   },
@@ -9582,6 +10820,13 @@
         "value": "https://x.com/sculptherbody/status/2025533634589917569",
         "source": "@sculptherbody",
         "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2025533634589917569",
+        "label": "@sculptherbody",
+        "platform": "twitter"
       }
     ]
   },
@@ -9724,6 +10969,13 @@
         "source": "@powerbrutehq",
         "caption": "Shoulders and Biceps Dumbbell Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "label": "@powerbrutehq",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -9763,6 +11015,13 @@
         "source": "@powerbrutehq",
         "caption": "Shoulders and Biceps Dumbbell Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "label": "@powerbrutehq",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -9801,6 +11060,13 @@
         "source": "@powerbrutehq",
         "caption": "Shoulders and Biceps Dumbbell Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "label": "@powerbrutehq",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -9836,6 +11102,13 @@
         "value": "https://x.com/powerbrutehq/status/2025089437202338284",
         "source": "@powerbrutehq",
         "caption": "Shoulders and Biceps Dumbbell Workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2025089437202338284",
+        "label": "@powerbrutehq",
+        "platform": "twitter"
       }
     ]
   },
@@ -9984,6 +11257,13 @@
         "value": "https://x.com/gymsociety/status/2025164844819779767",
         "source": "@gymsociety",
         "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymsociety/status/2025164844819779767",
+        "label": "@gymsociety",
+        "platform": "link"
       }
     ]
   },
@@ -10292,6 +11572,13 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -10357,6 +11644,13 @@
         "value": "https://x.com/_fitnesshub/status/2025131203527946637",
         "source": "@_fitnesshub",
         "caption": "Plank-Based Abs Builder Circuit"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "label": "@_fitnesshub",
+        "platform": "twitter"
       }
     ]
   },
@@ -10599,6 +11893,13 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -10659,6 +11960,13 @@
         "type": "link",
         "value": "https://www.youtube.com/watch?v=2_e4I-brfqs",
         "caption": "Dr. Stuart McGill demonstrating the McGill Crunch"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.youtube.com/watch?v=2_e4I-brfqs",
+        "label": "Dr. Stuart McGill demonstrating the McGill Crunch",
+        "platform": "link"
       }
     ]
   },
@@ -10724,6 +12032,13 @@
         "value": "https://x.com/biolifex/status/2026966403614478461",
         "source": "@biolifex",
         "caption": "30 Minute Mobility Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/biolifex/status/2026966403614478461",
+        "label": "@biolifex",
+        "platform": "twitter"
       }
     ]
   },
@@ -11084,6 +12399,13 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -11435,6 +12757,13 @@
         "source": "@_fitnesshub",
         "caption": "Plank-Based Abs Builder Circuit"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "label": "@_fitnesshub",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -11475,6 +12804,13 @@
         "value": "https://x.com/_fitnesshub/status/2025131203527946637",
         "source": "@_fitnesshub",
         "caption": "Plank-Based Abs Builder Circuit"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "label": "@_fitnesshub",
+        "platform": "twitter"
       }
     ]
   },
@@ -11629,6 +12965,13 @@
         "value": "https://x.com/_fitnesshub/status/2025131203527946637",
         "source": "@_fitnesshub",
         "caption": "Plank-Based Abs Builder Circuit"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2025131203527946637",
+        "label": "@_fitnesshub",
+        "platform": "link"
       }
     ]
   },
@@ -11912,6 +13255,13 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -11952,6 +13302,13 @@
         "value": "https://x.com/sculptherbody/status/2026983176472576368",
         "source": "@sculptherbody",
         "caption": "Quick but KILLER ABS & CORE"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2026983176472576368",
+        "label": "@sculptherbody",
+        "platform": "twitter"
       }
     ]
   },
@@ -12229,6 +13586,13 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -12295,6 +13659,13 @@
         "source": "@biolifex",
         "caption": "30 Minute Mobility Routine"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/biolifex/status/2026966403614478461",
+        "label": "@biolifex",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -12357,6 +13728,13 @@
         "value": "https://x.com/gymsociety/status/2025164844819779767",
         "source": "@gymsociety",
         "caption": "Dumbbell Only Upper Body Workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymsociety/status/2025164844819779767",
+        "label": "@gymsociety",
+        "platform": "link"
       }
     ]
   },
@@ -12787,6 +14165,13 @@
         "value": "https://x.com/sculptherbody/status/2026983176472576368",
         "source": "@sculptherbody",
         "caption": "Quick but KILLER ABS & CORE"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2026983176472576368",
+        "label": "@sculptherbody",
+        "platform": "twitter"
       }
     ]
   },
@@ -13238,7 +14623,14 @@
       "url": "https://x.com/sculptherbody/status/2048273465661120547",
       "creator": "@sculptherbody",
       "capturedAt": "2026-04-26"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2048273465661120547",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "seated-banded-chest-pull-apart",
@@ -13271,7 +14663,14 @@
       "url": "https://x.com/sculptherbody/status/2048273465661120547",
       "creator": "@sculptherbody",
       "capturedAt": "2026-04-26"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2048273465661120547",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "seated-banded-diagonal-reach",
@@ -13304,7 +14703,14 @@
       "url": "https://x.com/sculptherbody/status/2048273465661120547",
       "creator": "@sculptherbody",
       "capturedAt": "2026-04-26"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2048273465661120547",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "seated-banded-overhead-pull-apart",
@@ -13337,7 +14743,14 @@
       "url": "https://x.com/sculptherbody/status/2048273465661120547",
       "creator": "@sculptherbody",
       "capturedAt": "2026-04-26"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2048273465661120547",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "seated-banded-overhead-v-hold",
@@ -13370,7 +14783,14 @@
       "url": "https://x.com/sculptherbody/status/2048273465661120547",
       "creator": "@sculptherbody",
       "capturedAt": "2026-04-26"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2048273465661120547",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "seated-banded-reverse-fly",
@@ -13402,7 +14822,14 @@
       "url": "https://x.com/sculptherbody/status/2048273465661120547",
       "creator": "@sculptherbody",
       "capturedAt": "2026-04-26"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2048273465661120547",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "seated-banded-t-raise",
@@ -13435,7 +14862,14 @@
       "url": "https://x.com/sculptherbody/status/2048273465661120547",
       "creator": "@sculptherbody",
       "capturedAt": "2026-04-26"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2048273465661120547",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "seated-barbell-press",
@@ -13603,6 +15037,13 @@
         "value": "https://x.com/biolifex/status/2026966403614478461",
         "source": "@biolifex",
         "caption": "30 Minute Mobility Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/biolifex/status/2026966403614478461",
+        "label": "@biolifex",
+        "platform": "twitter"
       }
     ]
   },
@@ -14255,6 +15696,18 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/powerbrutehq/status/2023337870384062747",
+        "label": "@powerbrutehq",
+        "platform": "link"
+      },
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -14321,6 +15774,13 @@
         "value": "https://x.com/biolifex/status/2026966403614478461",
         "source": "@biolifex",
         "caption": "30 Minute Mobility Routine"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/biolifex/status/2026966403614478461",
+        "label": "@biolifex",
+        "platform": "twitter"
       }
     ]
   },
@@ -15096,7 +16556,14 @@
       "url": "https://x.com/selfdefencess/status/2025207177406013946",
       "creator": "@Selfdefencess",
       "capturedAt": "2026-02-22"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/selfdefencess/status/2025207177406013946",
+        "label": "@Selfdefencess",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "squat-jack",
@@ -15129,7 +16596,14 @@
       "url": "https://x.com/selfdefencess/status/2025207177406013946",
       "creator": "@Selfdefencess",
       "capturedAt": "2026-02-22"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/selfdefencess/status/2025207177406013946",
+        "label": "@Selfdefencess",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "squat-jump",
@@ -15464,7 +16938,14 @@
       "url": "https://x.com/selfdefencess/status/2025207177406013946",
       "creator": "@Selfdefencess",
       "capturedAt": "2026-02-22"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/selfdefencess/status/2025207177406013946",
+        "label": "@Selfdefencess",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "star-situps",
@@ -15751,6 +17232,13 @@
         "source": "@_fitnesshub",
         "caption": "Top 10 Stretches Your Body Needs"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/_fitnesshub/status/2026916958973608047",
+        "label": "@_fitnesshub",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -15949,6 +17437,13 @@
         "value": "https://x.com/whoisthismommy/status/2024684639382855931",
         "source": "@whoisthismommy",
         "caption": "Glute compound shred workout"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/whoisthismommy/status/2024684639382855931",
+        "label": "@whoisthismommy",
+        "platform": "link"
       }
     ]
   },
@@ -16618,6 +18113,13 @@
         "source": "@sculptherbody",
         "caption": "3 Martial Arts-Inspired Exercises for Strength, Mobility & Agility"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/sculptherbody/status/2025533634589917569",
+        "label": "@sculptherbody",
+        "platform": "twitter"
+      }
     ]
   },
   {
@@ -16862,6 +18364,13 @@
         "source": "@gymsociety",
         "caption": "Dumbbell Only Upper Body Workout"
       }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/gymsociety/status/2025164844819779767",
+        "label": "@gymsociety",
+        "platform": "link"
+      }
     ]
   },
   {
@@ -17068,7 +18577,14 @@
       "url": "https://x.com/selfdefencess/status/2025207177406013946",
       "creator": "@Selfdefencess",
       "capturedAt": "2026-02-22"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/selfdefencess/status/2025207177406013946",
+        "label": "@Selfdefencess",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "typewriter-pull-up",
@@ -17459,7 +18975,14 @@
       "url": "https://x.com/selfdefencess/status/2025207177406013946",
       "creator": "@Selfdefencess",
       "capturedAt": "2026-02-22"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/selfdefencess/status/2025207177406013946",
+        "label": "@Selfdefencess",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "weighted-crunch",
@@ -17694,7 +19217,14 @@
       "url": "https://x.com/selfdefencess/status/2025207177406013946",
       "creator": "@Selfdefencess",
       "capturedAt": "2026-02-22"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://x.com/selfdefencess/status/2025207177406013946",
+        "label": "@Selfdefencess",
+        "platform": "twitter"
+      }
+    ]
   },
   {
     "id": "worlds-greatest-stretch",
@@ -17750,6 +19280,13 @@
         "type": "youtube",
         "value": "https://www.youtube.com/watch?v=Vwn5hSf3WEg",
         "caption": "Yuri's Shoulder Band Warmup demonstration"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.youtube.com/watch?v=Vwn5hSf3WEg",
+        "label": "Yuri's Shoulder Band Warmup demonstration",
+        "platform": "youtube"
       }
     ]
   }

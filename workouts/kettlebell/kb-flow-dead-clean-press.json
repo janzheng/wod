@@ -9,6 +9,14 @@
   "difficulty": "intermediate",
   "source": "Facebook Reel",
   "sourceUrl": "https://www.facebook.com/reel/1397870815215714",
+  "isFlow": true,
+  "flowSequence": [
+    { "id": "kettlebell-dead-clean", "notes": "Dead stop on the floor, explosive pull to the rack." },
+    { "id": "kettlebell-front-squat", "notes": "Racked, full depth, chest up." },
+    { "id": "kettlebell-lateral-lunge", "notes": "Step wide, hips back, trailing leg straight." },
+    { "id": "kettlebell-bent-press", "notes": "Bend AWAY from the bell, lock out overhead — leverage, not a press." },
+    { "id": "kettlebell-tactical-clean", "notes": "Controlled descent back to start before switching sides." }
+  ],
   "sets": [
     {
       "id": "warmup",

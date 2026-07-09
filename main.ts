@@ -574,7 +574,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
             <div class="folder-tree">
               <template x-for="(program, progIdx) in programs" :key="'prog-' + progIdx + '-' + program.id">
                 <div class="folder-tree-folder" x-data="{ expanded: false }">
-                  <div class="folder-tree-folder-row" @click="expanded = !expanded; if (expanded) selectProgramOverview(program);">
+                  <div class="folder-tree-folder-row" @click="expanded = !expanded">
                     <button class="folder-tree-toggle" @click.stop="expanded = !expanded">
                       <svg class="folder-tree-chevron" :class="{ 'rotated': expanded }" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9 18 15 12 9 6"></polyline>
@@ -595,7 +595,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     </div>
                     <!-- Week-based programs -->
                     <template x-if="program.weeks && program.weeks.length > 0">
-                      <div>
+                      <div style="display: flex; flex-direction: column-reverse;">
                         <template x-for="(week, weekIdx) in program.weeks" :key="'prog-week-' + progIdx + '-' + weekIdx">
                           <div x-data="{ weekExpanded: false }">
                             <div class="folder-tree-item"
@@ -827,21 +827,37 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                           <span class="exercise-tag-pill" x-text="t"></span>
                         </template>
                       </div>
-                      <template x-if="ex.media && ex.media.length > 0">
+                      <template x-if="ex.media && ex.media.some(m => m.type === 'image')">
                         <div class="exercise-card-media">
-                          <template x-for="(media, mIdx) in ex.media" :key="'media-' + mIdx">
-                            <div>
-                              <template x-if="media.type === 'image'">
-                                <img class="exercise-media-img" :src="media.value.startsWith('/') ? '/static' + media.value : media.value" :alt="media.caption || ex.name" loading="lazy" />
-                              </template>
-                              <template x-if="media.type !== 'image'">
-                                <a :href="media.value" target="_blank" rel="noopener" class="exercise-media-link">
-                                  <span class="iconify" data-icon="lucide:external-link"></span>
-                                  <span x-text="media.caption || media.source || 'View'"></span>
-                                </a>
-                              </template>
-                            </div>
+                          <template x-for="(media, mIdx) in ex.media.filter(m => m.type === 'image')" :key="'media-' + mIdx">
+                            <img class="exercise-media-img" :src="media.value.startsWith('/') ? '/static' + media.value : media.value" :alt="media.caption || ex.name" loading="lazy" />
                           </template>
+                        </div>
+                      </template>
+                      <template x-if="ex.flows && ex.flows.length > 0">
+                        <div class="exercise-card-flows" style="margin-top: 0.6rem; font-size: 0.85rem;">
+                          <div style="opacity: 0.6; margin-bottom: 0.3rem;">Appears in:</div>
+                          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                            <template x-for="(f, fIdx) in ex.flows" :key="'lib-flow-' + fIdx">
+                              <a :href="'/' + f.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(f.workoutId); }" class="exercise-media-link">
+                                <span class="iconify" data-icon="lucide:git-branch"></span>
+                                <span x-text="f.name"></span>
+                              </a>
+                            </template>
+                          </div>
+                        </div>
+                      </template>
+                      <template x-if="ex.sources && ex.sources.length > 0">
+                        <div class="exercise-card-sources" style="margin-top: 0.5rem; font-size: 0.85rem;">
+                          <div style="opacity: 0.6; margin-bottom: 0.3rem;">Sources:</div>
+                          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                            <template x-for="(s, sIdx) in ex.sources" :key="'lib-src-' + sIdx">
+                              <a :href="s.url" target="_blank" rel="noopener" class="exercise-media-link">
+                                <span class="iconify" data-icon="lucide:external-link"></span>
+                                <span x-text="s.label || s.url"></span>
+                              </a>
+                            </template>
+                          </div>
                         </div>
                       </template>
                     </div>
@@ -1354,7 +1370,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <span class="workout-tag" x-text="tag"></span>
                 </template>
                 <!-- Source link -->
-                <template x-if="selectedWorkout.sourceUrl">
+                <template x-if="selectedWorkout.sourceUrl && !selectedWorkout.isFlow">
                   <a class="workout-tag workout-source-link" :href="selectedWorkout.sourceUrl" target="_blank" rel="noopener" @click.stop>
                     <span class="iconify" data-icon="lucide:external-link"></span>
                     <span x-text="selectedWorkout.source || 'Source'"></span>
@@ -1366,6 +1382,15 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   </span>
                 </template>
               </div>
+              <!-- Canonical flow source (blue pill) -->
+              <template x-if="selectedWorkout.isFlow && selectedWorkout.sourceUrl">
+                <div style="margin-bottom: 0.75rem;">
+                  <a class="flow-ref-pill" :href="selectedWorkout.sourceUrl" target="_blank" rel="noopener" :title="selectedWorkout.source || 'Source'">
+                    <span class="iconify" data-icon="lucide:external-link"></span>
+                    <span x-text="selectedWorkout.source || 'View source'"></span>
+                  </a>
+                </div>
+              </template>
               <template x-if="selectedWorkout.description">
                 <p class="workout-description" x-html="renderInline(selectedWorkout.description)"></p>
               </template>
@@ -1541,10 +1566,13 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                         </button>
                       </template>
                     </div>
+                    <template x-if="set.flowRef && set.notes">
+                      <div class="ex-notes" style="margin-bottom: 0.75rem;" x-html="renderNotes(set.notes)"></div>
+                    </template>
                     <template x-if="set.generatedExercises && set.generatedExercises.length > 0">
                       <div class="exercise-list">
                         <template x-for="(ex, exIdx) in set.generatedExercises" :key="'gen-ex-' + setIdx + '-' + exIdx">
-                          <div class="exercise-line" :class="{ 'expandable': ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl }" @click="(ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl) && toggleExerciseExpand(setIdx + '-' + exIdx)">
+                          <div class="exercise-line" :class="{ 'expandable': ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0) }" @click="(ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0)) && toggleExerciseExpand(setIdx + '-' + exIdx)">
                             <div class="ex-title-row">
                               <template x-if="ex.shuffleable">
                                 <button class="ex-shuffle" @click.stop="shuffleExercise(set.id, exIdx)" title="Shuffle">↻</button>
@@ -1554,7 +1582,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                               <template x-if="ex.media && ex.media.length > 0">
                                 <span class="ex-media-icon"><span class="iconify" data-icon="lucide:play-circle"></span></span>
                               </template>
-                              <template x-if="ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl">
+                              <template x-if="ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0)">
                                 <span class="ex-expand" :class="{ 'expanded': expandedExercises?.includes(setIdx + '-' + exIdx) }">
                                   <span class="iconify" data-icon="lucide:chevron-down"></span>
                                 </span>
@@ -1589,12 +1617,25 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                                     </template>
                                   </div>
                                 </template>
-                                <template x-if="generatedWorkout?.sourceUrl && !(ex.media && ex.media.length > 0)">
+                                <template x-if="ex.source?.url && !(ex.media && ex.media.length > 0)">
                                   <div class="ex-media-links">
-                                    <a :href="generatedWorkout.sourceUrl" target="_blank" rel="noopener" class="ex-media-link" @click.stop>
+                                    <a :href="ex.source.url" target="_blank" rel="noopener" class="ex-media-link" @click.stop>
                                       <span class="iconify" data-icon="lucide:external-link"></span>
-                                      <span x-text="generatedWorkout.source || 'Watch workout'"></span>
+                                      <span x-text="ex.source.creator || ex.source.platform || 'Source'"></span>
                                     </a>
+                                  </div>
+                                </template>
+                                <template x-if="ex.flows && ex.flows.filter(f => f.workoutId !== selectedWorkoutId).length > 0">
+                                  <div class="ex-flow-links" style="margin-top: 0.4rem; font-size: 0.8rem;">
+                                    <div style="opacity: 0.6; margin-bottom: 0.25rem;">Appears in:</div>
+                                    <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                                      <template x-for="(f, fIdx) in ex.flows.filter(f => f.workoutId !== selectedWorkoutId)" :key="'exflow-' + fIdx">
+                                        <a :href="'/' + f.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(f.workoutId); }" class="ex-media-link">
+                                          <span class="iconify" data-icon="lucide:git-branch"></span>
+                                          <span x-text="f.name"></span>
+                                        </a>
+                                      </template>
+                                    </div>
                                   </div>
                                 </template>
                               </div>
@@ -1603,18 +1644,12 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                         </template>
                       </div>
                     </template>
-                    <template x-if="set.flowRef">
+                    <template x-if="set.flowRef && set.flowRef.workoutId !== selectedWorkoutId">
                       <div style="margin-top: 0.5rem;">
-                        <template x-if="set.notes">
-                          <div class="ex-notes" x-html="renderNotes(set.notes)"></div>
-                        </template>
-                        <a x-show="set.flowRef.workoutId !== selectedWorkoutId" :href="'/' + set.flowRef.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(set.flowRef.workoutId); }" style="margin-top: 0.5rem; padding: 0.5rem 0.7rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; font-size: 0.78rem; text-decoration: none; color: inherit;">
-                          <span style="font-size: 0.95rem;">&#128279;</span>
-                          <div style="flex: 1 1 200px; min-width: 0;">
-                            <span style="font-weight: 600;" x-text="set.flowRef.name"></span>
-                            <template x-if="set.flowRef.source"><span style="opacity: 0.6; margin-left: 0.4rem;" x-text="set.flowRef.source"></span></template>
-                          </div>
-                          <span style="opacity: 0.55; flex-shrink: 0; margin-left: auto;">view full flow &rarr;</span>
+                        <a class="flow-ref-pill" :href="'/' + set.flowRef.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(set.flowRef.workoutId); }" :title="set.flowRef.name">
+                          <span class="iconify" data-icon="lucide:git-branch"></span>
+                          <span x-text="set.flowRef.name.split('—')[0].trim()"></span>
+                          <span style="opacity: 0.6;">&rarr;</span>
                         </a>
                       </div>
                     </template>

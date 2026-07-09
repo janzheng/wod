@@ -1,1 +1,111 @@
-[]
+[
+ {
+  "day": 3,
+  "workoutId": "fb-w20-pull",
+  "date": "2026-07-08",
+  "rawInput": "w20d3\n\npull ups\nwent pretty well; shoulder crackly for some reason but wasn't too painful; did slow ish all sets to 10! so definitely stronger and better; grip also better\n\nrows\ndid 10/10/8 on the progression grip is holding; left side got tired on last set but still held\n\nchest supported row\n45x2 12/15/12\nslow eccentric, did to 15 since that felt like breaking / the edge but felt good and supported; then actually died on 12 last set lol so good working weight \n\nreverse fly\n- really hard again lol\n- slowish eccentric did all sets but not more lol\n- second set struggling with eccentrics lol\n- third just did normal pacing \n\nface pulls \nwent fine no prob hard ish didn't do more\n\nlat pulldown \n150x12\n\ncable crunch is 65.5 not 66.5\n65.5x15\n70.5x15 pretty damn hard lol",
+  "notes": "W20 pull, again the day after KB Tuesday — but this week grip HELD and the pull-ups jumped. Back on the straight bar, pull-ups went to 10 across all sets with slow-ish eccentrics (up from W19's grip-limited 6/6/8/6): 'definitely stronger and better, grip also better' — a clear floor-rising session, with a mild non-painful shoulder crackle noted. Grip held on the heavy DB row too (10/10/8, left tired-but-held), which weakens the W19 'KB-Tuesday grip carryover' theory — yet reverse fly was 'really hard again' for the second week, so that difficulty reads more like a standing rear-delt weak point than KB fatigue. Chest-supported row 45 with a slow eccentric landed (12/15/12, last set to failure); face pull held 50; lat pulldown held 150 (only 150x12 narrated); cable crunch read 65.5 (not 66.5) then up to the 70.5 ceiling 'pretty damn hard.' The high-cable-curl spotlight and incline curl weren't narrated — no read recorded.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "pull-up",
+    "equipment": "straight bar",
+    "context": "Held the straight bar, slow-ish eccentrics. A big step from W19's grip-limited 6/6/8/6.",
+    "sets": [
+     { "weight": "bodyweight", "reps": 10, "equipment": "straight bar" },
+     { "weight": "bodyweight", "reps": 10, "equipment": "straight bar" },
+     { "weight": "bodyweight", "reps": 10, "equipment": "straight bar" },
+     { "weight": "bodyweight", "reps": 10, "equipment": "straight bar", "notes": "'Did slow-ish all sets to 10!'" }
+    ],
+    "notes": "All four sets to 10 with slow-ish eccentrics — 'definitely stronger and better, grip also better,' up from W19's 6/6/8/6. The floor rose: the grip limiter from last week eased (fuzzy progression, not a rep target to chase). One flag: 'shoulder crackly for some reason but wasn't too painful' — a mild, non-painful crackle (side not specified), the recurring right-shoulder crackle thread; watch it, no action while pain-free."
+   },
+   {
+    "id": "dumbbell-row",
+    "context": "'Rows' — the 70/80/90 ascending pyramid ('the progression'). No straps.",
+    "sets": [
+     { "weight": "70lb", "reps": 10 },
+     { "weight": "80lb", "reps": 10 },
+     { "weight": "90lb", "reps": 8, "notes": "'Left side got tired on last set but still held.'" }
+    ],
+    "notes": "10/10/8 up the 70/80/90 pyramid — more reps than the prescribed 10/8/6, and 'grip is holding' (left side tired on the last set but held). A grip win vs W19, when the left hand gave out at the end. Floor rising on the row; grip stayed the honest limiter but held. No straps."
+   },
+   {
+    "id": "chest-supported-dumbbell-row",
+    "context": "Held 45 (pair), slow eccentric — the W19 self-cue applied.",
+    "sets": [
+     { "weight": "45lb", "reps": 12 },
+     { "weight": "45lb", "reps": 15, "notes": "Pushed to 15 — 'felt like breaking / the edge but felt good and supported.'" },
+     { "weight": "45lb", "reps": 12, "notes": "'Actually died on 12 last set' — to failure." }
+    ],
+    "notes": "45 with a slow eccentric, 12/15/12 — the slower-eccentric progression from W19 landed. Rode set 2 to 15 (the edge, supported) and the last set to failure at 12: 'good working weight.' The 🔥 near-failure-on-a-safe-supported-lift, exactly as tagged."
+   },
+   {
+    "id": "incline-curl",
+    "context": "Prescribed in the DB block (25lb, left-first). Not narrated this session.",
+    "sets": [
+     { "reps": "not narrated" }
+    ],
+    "notes": "Not mentioned in the session report — no read recorded; unclear whether done or skipped. Left-first protocol stands whenever it runs."
+   },
+   {
+    "id": "dumbbell-reverse-fly",
+    "context": "Held 20. Hard again — second week running.",
+    "sets": [
+     { "weight": "20lb", "reps": 12, "notes": "Slow eccentric — 'really hard again.'" },
+     { "weight": "20lb", "reps": 12, "notes": "'Struggling with eccentrics.'" },
+     { "weight": "20lb", "reps": 12, "notes": "'Just did normal pacing.'" }
+    ],
+    "notes": "20 x3, all sets 'but not more' — 'really hard again,' the second week in a row it's felt hard (slow eccentric sets 1-2, normal pace set 3). But grip was fine/better this week, so the W19 'KB-Tuesday carryover' idea doesn't explain it — the reverse-fly difficulty reads more like a standing rear-delt weak point than day-after-KB fatigue. Watch, don't conclude; hold 20, tempo the lever."
+   },
+   {
+    "id": "lat-pulldown",
+    "equipment": "regular lat pulldown machine",
+    "context": "Held 150. Only one set narrated.",
+    "sets": [
+     { "weight": "150", "equipment": "regular lat pulldown machine", "reps": 12 }
+    ],
+    "notes": "'150x12' — held 150 as prescribed; only the one set was reported, so no set-3 cleanup read this session (W19 was 12/12/10-form-lost). Don't over-read one number; keep drilling the slow controlled return. No straps."
+   },
+   {
+    "id": "face-pull",
+    "equipment": "cable column",
+    "context": "Held the settled 50.",
+    "sets": [
+     { "weight": "50", "equipment": "cable column", "reps": 20 },
+     { "weight": "50", "equipment": "cable column", "reps": 20 },
+     { "weight": "50", "equipment": "cable column", "reps": 20, "notes": "'Went fine, hard-ish, didn't do more.'" }
+    ],
+    "notes": "50 stays settled — 'went fine, no prob, hard-ish, didn't do more.' Consistent with W19; the knuckles-up / elbows-high cue is holding. Held, not pushed — appropriate for the rear-delt health work."
+   },
+   {
+    "id": "high-cable-bicep-curl",
+    "context": "🔆 W20 spotlight (single pulley 62.5 / cable column ~180). NOT narrated this session.",
+    "sets": [
+     { "reps": "not narrated" }
+    ],
+    "notes": "The spotlight lift went unreported — no read recorded, and the fixed-upper-arm reflection (the whole point of the spotlight) wasn't captured. Unclear whether done or skipped. Surface it next pull day: did it run, at what station/number? (single pulley 62.5 was the W19 read)."
+   },
+   {
+    "id": "cable-crunch",
+    "equipment": "cable pulley (rope)",
+    "context": "🔆 W20 spotlight. Read the stack — 65.5, not 66.5. Hips locked.",
+    "sets": [
+     { "weight": "65.5", "equipment": "cable pulley (rope)", "reps": 15 },
+     { "weight": "70.5", "equipment": "cable pulley (rope)", "reps": 15, "notes": "Up to the ceiling — 'pretty damn hard.'" }
+    ],
+    "notes": "Read the stack again: the comfortable number is 65.5, not 66.5 (the magnetic add-ons make it wobble — W19 read 67.5). Did 65.5x15, then up to the 70.5 brutal ceiling x15 'pretty damn hard' — 🔥 last set to the ceiling, hips-locked spotlight. Only 2 sets narrated (of 3). Log 65.5 as the current comfortable read; the number drifts with the add-ons, so 'read the stack' stays the cue."
+   }
+  ],
+  "shoulderStatus": "A mild return of the crackle — 'shoulder crackly for some reason but wasn't too painful' on the pull-ups (side not specified; consistent with the long-running right-shoulder crackle). Not painful, and the pull-ups still went to 10 across with better grip, so it didn't limit the work. Watch for whether it recurs or escalates; no action while it stays non-painful. Otherwise the pulls cleared clean.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Pull-up floor rose — 10 across all four sets with slow eccentrics, grip 'also better.'** Up from W19's grip-limited 6/6/8/6 on the same straight bar. The grip limiter eased and the reps consolidated well past the 6-8 target. Frame as the floor rising (fuzzy progression), not a rep number to chase; hold bodyweight + straight bar, keep banking clean reps. Mild non-painful shoulder crackle noted — watch.",
+   "**Grip held the day after KB Tuesday — the W19 'KB→pull grip carryover' theory doesn't hold up.** W19 grip was shot the day after KB; W20 (same adjacency) grip was 'holding'/'better' on pull-ups AND the heavy row (10/10/8, left tired-but-held). So the W19 grip fatigue looks like a one-off, not a standing pattern — don't build spacing around it.",
+   "**Reverse fly 'really hard again' — second week, but grip was fine, so it's likely a standing rear-delt weak point, not day-after-KB fatigue.** Held 20 all sets 'but not more.' With the carryover explanation now weak (grip held this week), the cleaner read is that the reverse fly at 20 is simply his weakest link. Hold 20, keep the slow eccentric as the lever — honest hard work, not a problem to fix. Watch, don't conclude.",
+   "**Chest-supported row — the slow-eccentric progression landed at 45.** 12/15/12 with a slow eccentric, set 2 to the edge (15) and the last set to failure (12): 'good working weight.' Exactly the 🔥 near-failure-on-a-supported-lift the tag intended. Hold 45, keep the slow eccentric as the progression.",
+   "**Cable crunch reads 65.5 'not 66.5' this week (W19 read 67.5) — the magnetic add-ons make the number drift.** He's reading the stack each time (the lesson stuck). Treat ~65.5 as comfortable / 70.5 as the brutal ceiling, but keep 'read the actual stack' in the prescription since the add-ons move it 65-67.5. He rode to the 70.5 ceiling 'pretty damn hard' — the safe 🔥 spotlight doing its job.",
+   "**Lat pulldown — only '150x12' reported, no set-3 read.** Held 150; can't tell if it cleaned up (W19 broke at 10 on set 3). Don't infer either way; keep 150, keep drilling the controlled return.",
+   "**The high-cable-curl SPOTLIGHT and incline curl went un-narrated — no read.** Unclear if done or skipped. The spotlight reflection (fixed upper arm on the single-pulley 62.5 scale) is the point of the rotation, so surface it next pull day: did it run, at what station/number? If it's being dropped when the session runs long, note that in the rotation plan."
+  ]
+ }
+]
