@@ -1,5 +1,135 @@
 [
  {
+  "day": 1,
+  "workoutId": "fb-w20-push",
+  "date": "2026-07-06",
+  "rawInput": "w20d1\n\npush press\n45x10\n45x10 with strict 2 min break\n45x10 hard but did all sets without breaking form; did hit somewhere close to breaking \n\nincline press\n50x12\n50x12 breaks makes these feel easy \n\nlat raise\n15x18\n15x18\n15x22 slow eccentric felt fine pushed to fail\n\ndip\n12 deep singles\n12 deep 2s ecc hurting palm lol but shoulder ok\n12 deep singles did them all but took a minute ish break; this is a good working weight for now and good to work on slowing down still getting used to these\n\ncable fly went well did all stepped forward reasonably slow \n\nincline overhead did all sets last one stretched to 16\n\nstraight arm pull down really hard today lol\n120x12\n120x12\n120x12",
+  "notes": "W20 push. Push press held 45 for 10/10/10 on the strict 2 min rest — harder than W19's 'very easy,' and set 3 came 'close to breaking,' but the form held to the end. Incline DB (spotlight) hit the clean 12s the week asked for at 50 — 'breaks makes these feel easy' — though only 2 of 3 sets were narrated. Lateral raise 15 to a 22-rep failure set (🔥, exactly as tagged); dips 12 deep across all three sets with a 2s eccentric on set 2, palm sore from the bar but 'shoulder ok'; Kinesis fly stepped forward per the spotlight lever; incline tri ext last set stretched to 16; straight-arm pulldown 'really hard today' but held 120x12 across. Cable lateral raise and farmer carry weren't narrated.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "push-press",
+    "context": "Held 45 (the optional 47.5 wasn't taken). Strict 2 min rests.",
+    "sets": [
+     { "weight": "45lb each", "reps": 10 },
+     { "weight": "45lb each", "reps": 10, "notes": "'With strict 2 min break.'" },
+     { "weight": "45lb each", "reps": 10, "notes": "'Hard but did all sets without breaking form; did hit somewhere close to breaking.'" }
+    ],
+    "notes": "10/10/10 at 45 with the full 2 min rest — top of the 8-10 range across. Harder than W19 ('very easy with the break'), and set 3 got close to the edge, but the cue held: 'without breaking form.' That's the 🛑 cap working as intended on the overhead lift."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "context": "🔆 W20 spotlight — 50 pair, build reps toward a clean 12.",
+    "sets": [
+     { "weight": "50lb pair", "reps": 12 },
+     { "weight": "50lb pair", "reps": 12, "notes": "'Breaks makes these feel easy.'" }
+    ],
+    "notes": "12 and 12 at 50 — the rep-build the spotlight asked for, and it read easy on the long rests. Only two sets were narrated, so there's no set-3 read (the spotlight's reflection was whether the pack-down survives to set 3). No shrug-up flagged. Ask next push day whether set 3 also held 12 clean."
+   },
+   {
+    "id": "dip",
+    "context": "Bodyweight parallel bar, deep. Still new-ish — 'still getting used to these.'",
+    "sets": [
+     { "weight": "bodyweight", "reps": 12, "notes": "'12 deep singles.'" },
+     { "weight": "bodyweight", "reps": 12, "notes": "'12 deep 2s ecc hurting palm lol but shoulder ok.'" },
+     { "weight": "bodyweight", "reps": 12, "notes": "'12 deep singles did them all but took a minute ish break.'" }
+    ],
+    "notes": "12 deep reps across all three sets (set 2 on a 2s eccentric), needing a ~1 min break in the last set to finish. Shoulder was fine; the sore spot was the PALM against the bar. His read: 'good working weight for now and good to work on slowing down.' Bodyweight + depth + tempo is the lever here — nothing to add."
+   },
+   {
+    "id": "lateral-raise",
+    "context": "Held 15. Slow eccentric.",
+    "sets": [
+     { "weight": "15lb", "reps": 18 },
+     { "weight": "15lb", "reps": 18 },
+     { "weight": "15lb", "reps": 22, "notes": "'Slow eccentric felt fine pushed to fail.'" }
+    ],
+    "notes": "18/18/22, last set to failure with a slow eccentric that 'felt fine' — the 🔥 near-failure-on-a-safe-isolation tag used exactly as written (pushed the last set, didn't add a round). 15 still holds; the floor keeps rising."
+   },
+   {
+    "id": "kinesis-cable-fly",
+    "equipment": "Kinesis",
+    "context": "🔆 W20 spotlight — step forward to deepen the stretch. Load not restated (Kinesis 9 prescribed).",
+    "sets": [
+     { "weight": "Kinesis 9 (not restated)", "reps": "10-12", "notes": "'Went well did all stepped forward reasonably slow.'" }
+    ],
+    "notes": "All sets done, stepped forward, 'reasonably slow' — the ROM-as-progression lever landed. No number chased, which is the point of this spotlight."
+   },
+   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "context": "Kneeling. Equipment/number not restated (cable column 70 default).",
+    "sets": [
+     { "reps": "10-12" },
+     { "reps": "10-12" },
+     { "reps": 16, "notes": "'Last one stretched to 16.'" }
+    ],
+    "notes": "All sets done, last one ridden out to 16 — the 🔥 last-set license taken. Set-1-easy → set-3-brutal shape held."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "equipment": "cable column",
+    "context": "Held 120 (the cable column number).",
+    "sets": [
+     { "weight": "120", "equipment": "cable column", "reps": 12 },
+     { "weight": "120", "equipment": "cable column", "reps": 12 },
+     { "weight": "120", "equipment": "cable column", "reps": 12 }
+    ],
+    "notes": "120x12 across all three rounds — but 'really hard today lol,' unlike prior weeks. It runs last in the cable block, so a hard read here is honest fatigue, not a load problem. Held, all reps made."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "context": "In the cable block. Not narrated this session.",
+    "sets": [
+     { "reps": "not narrated" }
+    ],
+    "notes": "Not mentioned — no read recorded; unclear whether done or skipped."
+   },
+   {
+    "id": "farmer-carry",
+    "context": "Prescribed 50lb x3 walks. Not narrated this session.",
+    "sets": [
+     { "reps": "not narrated" }
+    ],
+    "notes": "Not mentioned — no read recorded; unclear whether done or skipped."
+   }
+  ],
+  "shoulderStatus": "Clean. Dips (the most front-shoulder-exposed lift of the day, done deep) came back 'shoulder ok' — the only sore spot was the palm against the bar. Push press got hard on set 3 but the pack-down held without breaking form, and the incline DB at 50 read easy. Continues the strong W18-W19 trend.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Incline DB spotlight delivered — a clean 12 at 50, 'breaks makes these feel easy.'** That was the green-light condition the spotlight named. Only 2 of 3 sets were narrated though, so confirm the set-3 read before nudging the load; the pack-down surviving to set 3 is the actual gate.",
+   "**Push press: same 45, same 2 min rest, but 10/10/10 and 'hard' this week** (W19 was 'very easy'). He took the reps to the top of the range rather than the load up — and the form held to the end. Nothing to fix; the 🛑 cue did its job. Hold 45.",
+   "**Dips are settling — 12 deep across all three sets, palm is the sore spot, not the shoulder.** His own read: 'good working weight for now and good to work on slowing down, still getting used to these.' Keep bodyweight, keep the depth, tempo is the lever. Watch whether palm discomfort keeps showing up.",
+   "**The 🔥/🛑 tags were used exactly as designed on their first week.** Lateral raise last set to failure (22), tri ext last one stretched to 16 — both 🔥, both pushed via the existing last set, no rounds added. The 🛑 lifts (push press, incline, dips, fly) all stayed cue-capped. The framing works; keep it.",
+   "**Straight-arm pulldown 'really hard today' at the same 120x12x3.** It runs last in the cable block, so read it as end-of-session fatigue, not a load ceiling. One data point — don't move the number.",
+   "**Cable lateral raise + farmer carry went un-narrated again** (the W19 session did the same for the carry). If the tail of the push day is being dropped when time runs short, that's worth knowing — surface it next push day."
+  ]
+ },
+ {
+  "day": 2,
+  "workoutId": "fb-w20-kb-full",
+  "date": "2026-07-07",
+  "rawInput": "w20d2\n\ninterface problem with a group flow workout the button looks weird and a flow on the interface needs to have a reference to the entire flow not after a click\n\ndead cluster flow is kind of wrong or confusing in a bunch of ways\n\ndead cluster exercise is right\nkettlebell snatch starts from the overhead and back into overhead which isn't obvious\noutside pendulum does two full pendulum before going back to an inside tactical clean; it's only marked as a regular tactical clean which seems confusing and wrong",
+  "notes": "KB full-body day — first run of the new Dead Cluster Flow. No load or feel reported; the whole session report was app feedback. He read the flow off the app and found three beats wrong/unclear: the snatch is overhead-to-overhead (not floor-to-overhead), the outside pendulum runs TWO full swings before the clean, and the clean is an INSIDE tactical clean, not a generic one. All three were already corrected in the flow bundle on 2026-07-09 — he was reading a stale cached copy (prod hadn't been redeployed, and the browser was caching the page + catalogue). The corrections were right; the app just never showed them to him.",
+  "cardio": "n/a — home KB day.",
+  "exercises": [
+   {
+    "id": "kb-dead-cluster-flow",
+    "context": "🌀 New this week — first run. Prescribed light-to-medium bell, 3 rounds each side.",
+    "sets": [
+     { "weight": "not reported", "reps": "not reported" }
+    ],
+    "notes": "Ran it, but no bell weight or feel was reported — the session report was entirely about the flow being described wrong in the app. He correctly identified the three beats that the (stale) copy got wrong. Ask for the load/feel read next KB day."
+   }
+  ],
+  "shoulderStatus": "Not reported.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**He reads the flows off the app mid-session and trusts them — so a stale app is a training bug, not a cosmetic one.** He caught all three wrong beats himself (snatch overhead-to-overhead, two pendulum swings, inside tactical clean) because the bell told him otherwise. The fix on disk was already right; the app was serving a cached pre-fix copy. Both cache layers are now closed (no-cache on the page + catalogue), but the standing rule holds: after a data fix, DEPLOY — a corrected JSON that isn't deployed is a corrected JSON he never sees.",
+   "**A flow block now shows its 'Full flow' link in the header, not as a pill buried under the moves.** His ask: a flow needs a reference to the whole flow up front, not behind a click.",
+   "**No load/feel data for this KB day** — the whole report was app feedback. Nothing to read on the bell."
+  ]
+ },
+ {
   "day": 3,
   "workoutId": "fb-w20-pull",
   "date": "2026-07-08",
@@ -106,6 +236,114 @@
    "**Cable crunch reads 65.5 'not 66.5' this week (W19 read 67.5) — the magnetic add-ons make the number drift.** He's reading the stack each time (the lesson stuck). Treat ~65.5 as comfortable / 70.5 as the brutal ceiling, but keep 'read the actual stack' in the prescription since the add-ons move it 65-67.5. He rode to the 70.5 ceiling 'pretty damn hard' — the safe 🔥 spotlight doing its job.",
    "**Lat pulldown — only '150x12' reported, no set-3 read.** Held 150; can't tell if it cleaned up (W19 broke at 10 on set 3). Don't infer either way; keep 150, keep drilling the controlled return.",
    "**The high-cable-curl SPOTLIGHT and incline curl went un-narrated — no read.** Unclear if done or skipped. The spotlight reflection (fixed upper arm on the single-pulley 62.5 scale) is the point of the rotation, so surface it next pull day: did it run, at what station/number? If it's being dropped when the session runs long, note that in the rotation plan."
+  ]
+ },
+ {
+  "day": 4,
+  "workoutId": "fb-w20-kb-cond",
+  "date": "2026-07-09",
+  "rawInput": "w20d4\n\nwhy didn't we just use the flow here, confused why you composed your own here?? https://x.com/gymfiesta/status/2062207034108358802?s=46&t=ka0qauCS0pU7I-McC6rPfw\n\nkettle bell press did 3 sets of 8! was kind of hard lol.",
+  "notes": "KB conditioning Thursday. The one load read: strict KB overhead press hit 8/8/8 at 50 — the 8s the week asked him to chase (W19 was 5/6/7 'felt easy') — and it was 'kind of hard.' He also flagged the Flow + Coordination block: the single-arm press-to-march is move #4 of the GymFiesta circuit (`kb-gymfiesta-full-body-circuit`), and he wants to know why a move was cherry-picked out of a canonical unit instead of running the circuit itself.",
+  "cardio": "n/a — home KB day.",
+  "exercises": [
+   {
+    "id": "kettlebell-overhead-press",
+    "context": "The heavy-upper-push slot. 50lb, strict single-arm, no push-press.",
+    "sets": [
+     { "weight": "50lb", "reps": "8 each side" },
+     { "weight": "50lb", "reps": "8 each side" },
+     { "weight": "50lb", "reps": "8 each side", "notes": "'Was kind of hard lol.'" }
+    ],
+    "notes": "8/8/8 at 50 — hit the full rep target the week set as the stretch goal (W19 ran 5/6/7 at the same load and it 'felt easy'). Hard, but strict and complete. The press floor rose."
+   },
+   {
+    "id": "kettlebell-single-arm-press-to-march",
+    "context": "🔆 W20 coordination spotlight. Light bell (~20-25lb).",
+    "sets": [
+     { "reps": "not narrated" }
+    ],
+    "notes": "Not narrated as work — instead he traced it back to its source and asked why the GymFiesta circuit wasn't used as a unit. No load/feel read recorded."
+   }
+  ],
+  "shoulderStatus": "Not reported. The strict 50 press to 8/8/8 cleared without a shoulder complaint.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**He traces moves back to their source video and notices when a canonical unit has been raided for parts.** The press-to-march is move #4 of `kb-gymfiesta-full-body-circuit`; the Thursday block used it standalone. His question: why not just run the flow? Real answer: the full circuit is explicitly flagged NOT-Thursday in its own file (snatch + lunge-drive would pre-fatigue Friday legs) — but the honest failure is that the circuit was penciled for W17 Tuesday in NOTES.md and has never actually been programmed into any week. Either run it on a Tuesday or stop harvesting moves out of it.",
+   "**KB overhead press: 8/8/8 at 50, 'kind of hard.'** Up from W19's 5/6/7 at the same load. The strict-press floor rose. Hold 50 and keep the reps honest — no push-press."
+  ]
+ },
+ {
+  "day": 5,
+  "workoutId": "fb-w20-legs",
+  "date": "2026-07-10",
+  "rawInput": "w20d5\n\n(Friend sheran joined up for a bit!)\n\nsquat\n45x8 x2\n70x8 x2\n80x8 x2 ramp is beautiful \n\nincline rdl went fine\n\ncurl ramp is also great\n\nleg press always feels easier later in the workout - both strong and full rom\n4 plates x12\n4p x12\n4p x12\n4px12\n\ncalf raises good too; slow ecc good\n\nBulgarian splits were brutal at end but proper weight\n\nEverything went pretty well; did longer and was a hard but strong workout!",
+  "notes": "W20 legs, with a friend (Sheran) joining for part of it. Everything landed: the 45→70→80 squat ramp ('ramp is beautiful'), the leg-curl pyramid ('curl ramp is also great'), leg press 4 plates x12 for all four sets 'both strong and full rom', calf raises with a good slow eccentric, incline RDL fine, and the double-50 Bulgarians 'brutal at end but proper weight.' His summary: 'did longer and was a hard but strong workout!' Both ramps — the squat's and the leg curl's — got called out unprompted as the thing that worked.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "squat",
+    "context": "The 45 → 70 → 80 ROM ramp, depth-gated.",
+    "sets": [
+     { "weight": "45lb", "reps": 8 },
+     { "weight": "45lb", "reps": 8 },
+     { "weight": "70lb", "reps": 8 },
+     { "weight": "70lb", "reps": 8 },
+     { "weight": "80lb", "reps": 8 },
+     { "weight": "80lb", "reps": 8, "notes": "'Ramp is beautiful.'" }
+    ],
+    "notes": "Two clean sets at each rung — 45x8, 70x8, 80x8 — and the ramp itself got the praise: 'ramp is beautiful.' Same 80x8 x2 working top as W19 ('the most solid I ever felt'), so the depth-gated 80 is holding. The ramp structure is doing real work; keep it."
+   },
+   {
+    "id": "leg-press",
+    "context": "🔆 W20 spotlight — depth is the lever, not plates. 4 plates/side.",
+    "sets": [
+     { "weight": "4 plates/side", "reps": 12 },
+     { "weight": "4 plates/side", "reps": 12 },
+     { "weight": "4 plates/side", "reps": 12 },
+     { "weight": "4 plates/side", "reps": 12, "notes": "'Both strong and full rom.'" }
+    ],
+    "notes": "All four sets at 4 plates x12, 'both strong and full rom' — the spotlight's ask (full ROM, knees toward chest) held across every set. He also observed that leg press 'always feels easier later in the workout.' Worth a question, not a conclusion: is that a warmup effect, or is the station landing later in the session than the sheet prescribes?"
+   },
+   {
+    "id": "leg-press-calf-raise",
+    "context": "Same machine, straight off leg press.",
+    "sets": [
+     { "weight": "4 plates/side", "reps": 15, "notes": "'Good too; slow ecc good.'" }
+    ],
+    "notes": "Good, with the slow eccentric landing. The station pairing (calf raise stays on the leg press) is working — no walk-off."
+   },
+   {
+    "id": "bulgarian-split-squat",
+    "context": "🔆 W20 spotlight — double 50lb DBs, stepped up W19.",
+    "sets": [
+     { "weight": "two 50lb DBs", "reps": "8-10 each leg", "notes": "'Brutal at end but proper weight.'" }
+    ],
+    "notes": "Double-50s held: 'brutal at end but proper weight.' Same read as W19 ('feels fine, hard at end'), now on a longer session. The load is right — it's supposed to be brutal at the end. Hold."
+   },
+   {
+    "id": "seated-leg-curl",
+    "context": "Pyramid to a tested top — 70 → 80 → 90 → 100.",
+    "sets": [
+     { "weight": "70 → 80 → 90 → 100 pyramid", "reps": 12, "notes": "'Curl ramp is also great.'" }
+    ],
+    "notes": "The pyramid landed — 'curl ramp is also great.' Top number not restated. Second unprompted vote for ramp structure this session."
+   },
+   {
+    "id": "incline-rdl",
+    "context": "45lb plate, dead slow with a 2s pause.",
+    "sets": [
+     { "weight": "45lb plate", "reps": 15, "notes": "'Went fine.'" }
+    ],
+    "notes": "'Went fine' — held, no complaint. Same as W19's clean 3 sets."
+   }
+  ],
+  "shoulderStatus": "Not reported — legs day, nothing shoulder-loaded.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Ramps got praised TWICE, unprompted — the squat's 45→70→80 ('ramp is beautiful') and the leg curl's 70→80→90→100 ('curl ramp is also great').** That's a strong signal about structure, not load: ramping into a working top is landing better than walking straight into it. Worth considering where else a ramp would help.",
+   "**Leg press: all four sets at 4 plates x12, 'both strong and full rom'** — the deep-ROM spotlight held across every set. He noted leg press 'always feels easier later in the workout.' Open question, not a finding: warmup effect, or is the station actually running later than the sheet prescribes? Ask before re-ordering anything.",
+   "**Double-50 Bulgarians confirmed at 'proper weight' — 'brutal at end.'** Second week at the stepped-up load, this time on a longer session. Hold.",
+   "**A friend (Sheran) trained along for part of it, and the session ran longer and harder — and still went well.** Not a data problem; just context for why the volume read heavier."
   ]
  }
 ]

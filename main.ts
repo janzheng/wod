@@ -92,6 +92,15 @@ async function readJson(path: string) {
 }
 
 // API Routes for JSON data
+
+// The catalogue is read fresh from disk per request, but the browser will
+// heuristically cache it without this — a data fix then stays invisible behind
+// a stale cache even after a deploy.
+app.use("/api/*", async (c, next) => {
+  await next();
+  c.header("Cache-Control", "no-cache");
+});
+
 app.get("/api/routines", async (c) => {
   // Load all routine files
   const routines = [];
@@ -469,6 +478,9 @@ app.get("/*", async (c) => {
   const chatJs = await Deno.readTextFile(new URL("./static/chat.js", import.meta.url)).catch(() => "");
   const linkifyJs = await Deno.readTextFile(new URL("./static/linkify.js", import.meta.url)).catch(() => "");
 
+  // The page inlines the CSS/JS it was built from, so a cached copy pins the
+  // whole app to an old version until someone hard-refreshes.
+  c.header("Cache-Control", "no-cache");
   return c.html(renderPage(css, generatorJs, timelineJs, timerJs, chatJs, linkifyJs));
 });
 
@@ -1565,6 +1577,15 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                           <span class="iconify" data-icon="lucide:refresh-cw"></span>
                         </button>
                       </template>
+                      <template x-if="set.flowRef && set.flowRef.workoutId !== selectedWorkoutId">
+                        <a class="flow-ref-pill" :href="'/' + set.flowRef.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(set.flowRef.workoutId); }" :title="'Full flow: ' + set.flowRef.name">
+                          <span class="iconify" data-icon="lucide:git-branch"></span>
+                          <span>Full flow</span>
+                          <template x-if="set.flowRef.source">
+                            <span class="flow-ref-source" x-text="set.flowRef.source.split('(')[0].trim()"></span>
+                          </template>
+                        </a>
+                      </template>
                     </div>
                     <template x-if="set.flowRef && set.notes">
                       <div class="ex-notes" style="margin-bottom: 0.75rem;" x-html="renderNotes(set.notes)"></div>
@@ -1642,15 +1663,6 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                             </template>
                           </div>
                         </template>
-                      </div>
-                    </template>
-                    <template x-if="set.flowRef && set.flowRef.workoutId !== selectedWorkoutId">
-                      <div style="margin-top: 0.5rem;">
-                        <a class="flow-ref-pill" :href="'/' + set.flowRef.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(set.flowRef.workoutId); }" :title="set.flowRef.name">
-                          <span class="iconify" data-icon="lucide:git-branch"></span>
-                          <span x-text="set.flowRef.name.split('—')[0].trim()"></span>
-                          <span style="opacity: 0.6;">&rarr;</span>
-                        </a>
                       </div>
                     </template>
                     <template x-if="set.type === 'rest'">

@@ -24189,6 +24189,1707 @@
     "category": "functional-bulk"
   },
   {
+    "id": "fb-w21-kb-cardio",
+    "name": "Week 21 KB Saturday Cardio — Conditioning (Spotlight: Front Squat; Hand-to-Hand Swing Finisher)",
+    "description": "Saturday KB OPTION — pure conditioning, distinct from Tue (GymFiesta circuit + Dead Cluster Flow) and Thu (lighter skill template). **Warmup reminder:** halo → easy two-handed swings → goblet squat → internal core fist rotation → bottoms-up press (18lb, 8/side, forward + T-plane), then the abbreviated 4-move banded prep.\n\nLight bell throughout (16-20lb) — breathing rate and sustainability are the targets, not load. Deliberately compact so it stays a clean skip when the week's been heavy: the Asgooch cardio complex carries over, and the finisher rotates to a **hand-to-hand swing ladder** — the hand-eye drill, run for reps. Spotlight rotates to the **front squat** inside the complex. Optional light push-press ladder if you want a strength touch. Choice-of-the-day on D6 alongside stairmaster, easy run, or rest.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "conditioning",
+      "cardio",
+      "circuit",
+      "form-first",
+      "saturday",
+      "lighter",
+      "spotlight-rotation"
+    ],
+    "estimatedDuration": 35,
+    "equipment": [
+      "kettlebell",
+      "mini-band"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Saturday conditioning — light bell, breathing-rate target. Kept compact: Asgooch cardio complex + a hand-to-hand swing ladder finisher — so it's a clean skip on a heavy week. Day after Friday legs — squatting stays LIGHT on purpose, which is exactly why the front squat is the spotlight (depth without load is the drill). Optional light push-press ladder available.",
+      "spotlights": [
+        {
+          "exerciseId": "kettlebell-front-squat",
+          "why": "Rotates in (W20 was the snatch). It's the day after Friday legs, so the front squat is going to be light no matter what — which makes it the perfect thing to drill. A light racked squat with nothing to prove is where you can actually chase depth and an upright torso without the load arguing back. It also feeds Friday's squat spotlight from the other direction: same bottom position, no barbell."
+        }
+      ],
+      "rotationPlan": "Finisher rotates: W19 round-the-clock chain · W20 clean-squat-press triplet · W21 hand-to-hand swing ladder (current) · W22 cycle forward — a fresh complex. Spotlight rotates: W19 high pull · W20 snatch · W21 front squat (current) · W22 swing clean or a fresh pick. The Asgooch cardio complex stays; the finisher + spotlight rotate so Saturday stays fresh.",
+      "watchpoints": [
+        "**Saturday is optional and deliberately compact** — keep it a clean skip when the week's been heavy. The point is to not over-train into a weak Monday; weekends stay light.",
+        "**Day after Friday legs.** Squatting stays LIGHT — 16-20lb. Skip the squat reps entirely if the QL/quads are talking. The front squat is the spotlight precisely BECAUSE it has to be light here — that's the ideal condition for drilling depth and posture.",
+        "**Light bell is the whole point** — 16-20lb working. Conditioning means breathing rate, not bell weight.",
+        "**Front squat spotlight (inside the Asgooch complex)** — racked bell, sit TALL, full depth, no bouncing out of the bottom. The racked bell wants to pull you forward; the drill is refusing to let it. Same bottom position as Friday's barbell squat, with nothing heavy arguing.",
+        "**Finisher rotated to a hand-to-hand swing ladder** — swing, release at the float point, catch in the other hand. It's the hand-eye drill from the pool, run as a ladder for reps. Light bell, keep the hips driving.",
+        "**OPTIONAL light push-press ladder** — 40/45/50 × 8/7/6 'worked great' in W17. If you want a strength touch, run it after the warm-up (clean to rack, dip-drive, pack the shoulder down). Keep it light and optional — Saturday's still a conditioning day.",
+        "**Choice-of-the-day on D6** — not mandatory. Skip if Friday legs cooked you; swap for stairmaster / easy run if cardio-only is the call. No pull-up greasing here — Saturday is the conditioning flank."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Quick Warmup (incl. Bottoms-Up Cuff Prep)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "**LOAD:** 16-20lb. Loosen the shoulders fast — the cardio complex is its own warmup."
+          },
+          {
+            "id": "kettlebell-swing",
+            "reps": 10,
+            "notes": "Easy two-handed swings. Prime the hinge — and preview the finisher."
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 5,
+            "notes": "Light, open the hips. Skip if Friday legs left the quads sore."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Standing, torso hinged slightly forward. Wakes the grip + forearm + posterior chain — and today the grip matters twice (the clean catch and the hand-to-hand release)."
+          },
+          {
+            "id": "kettlebell-bottoms-up-press",
+            "reps": "8 each side",
+            "notes": "**LOAD:** 18lb. Bell inverted over a vertical forearm, hard grip, shoulder packed. **8/side in two planes:** forward press + T-press. **Keep the T-plane lighter.** Fires the rotator cuff and primes the right shoulder before the overhead work."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "banded-prep",
+        "name": "Quick Banded Prep (~2 min — abbreviated)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "seated-banded-overhead-pull-apart",
+            "duration": 20,
+            "notes": "Mini-band overhead."
+          },
+          {
+            "id": "seated-banded-behind-neck-pulldown",
+            "duration": 20,
+            "notes": "Scaps depress."
+          },
+          {
+            "id": "seated-banded-t-raise",
+            "duration": 20,
+            "notes": "Rear delts fire."
+          },
+          {
+            "id": "seated-banded-chest-pull-apart",
+            "duration": 20,
+            "notes": "Sternum height, ribs down."
+          }
+        ],
+        "notes": "**Abbreviated prep** — 4 moves instead of the full 7. Saturday is conditioning; the full 7-move prep is overkill for a light-bell day. (If you run the optional push-press ladder, do the full 7 instead.)",
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "asgooch-cardio-complex-left",
+        "name": "🔆 Asgooch Cardio Complex — LEFT (Front Squat Spotlight)",
+        "type": "exercises",
+        "rounds": 5,
+        "exercises": [
+          {
+            "id": "kettlebell-row",
+            "reps": 6,
+            "notes": "**LOAD:** 16-20lb. Left hand. Hips back, back flat, pull the elbow past the ribs. 2s pull, 2s lower."
+          },
+          {
+            "id": "kettlebell-swing-clean",
+            "reps": 6,
+            "notes": "Left hand. Hip drive into the rack — the hinge throws the bell up, the arm guides it; soft catch, knees absorb, elbow tucks to the ribs, no forearm bang. Ribs down at the rack."
+          },
+          {
+            "id": "kettlebell-front-squat",
+            "reps": 6,
+            "notes": "**🔆 SPOTLIGHT — depth and posture, with nothing to prove:**\n- **LOAD:** 16-20lb, left rack. **LIGHT** — Friday legs is yesterday, and that's the point: a light racked squat is the one place you can chase the bottom position without the load arguing back\n- **Sit TALL** — the racked bell wants to pull the chest forward; refusing that is the whole drill\n- **Full depth, no bouncing** out of the bottom — sit INTO it, own it a beat, then drive up through the whole foot\n- **Ribs down, brace the core** before you descend\n- Same bottom position as Friday's barbell squat (which is spotlighting depth this week) — here you get to rehearse it unloaded\n- **Reduce depth before adding anything** if the quads are cooked from yesterday.\n\n**Reflection:** with a light bell and no fatigue, how deep does the bottom actually go — and can you stay tall the whole way? That's your true depth. Friday's barbell squat is trying to reach the same place."
+          },
+          {
+            "id": "kettlebell-swing-snatch",
+            "reps": 6,
+            "notes": "Left hand. Hips float the bell, punch the hand THROUGH at the top for a soft catch on the forearm — no bang. The hip does the work, not the arm. **Right shoulder watch** — sub high pulls if it crackles on the catch."
+          }
+        ],
+        "notes": "5 rounds LEFT. Continuous within a round — row → clean → squat → snatch with no rest. Rest 30-45s between rounds. **Weak side first.** The front squat is the spotlight — drill the depth.",
+        "restBetween": 30,
+        "restAfter": 45
+      },
+      {
+        "id": "asgooch-cardio-complex-right",
+        "name": "🔆 Asgooch Cardio Complex — RIGHT (Front Squat Spotlight)",
+        "type": "exercises",
+        "rounds": 5,
+        "exercises": [
+          {
+            "id": "kettlebell-row",
+            "reps": 6,
+            "notes": "Right hand. Same form — hips back, full extension."
+          },
+          {
+            "id": "kettlebell-swing-clean",
+            "reps": 6,
+            "notes": "Right hand. Hip drive, soft knees-absorb catch, no forearm bang."
+          },
+          {
+            "id": "kettlebell-front-squat",
+            "reps": 6,
+            "notes": "**🔆 SPOTLIGHT** — right rack. Same depth/posture discipline as the left: sit tall, full depth, own the bottom a beat. Light bell — this is a depth drill, not a leg workout."
+          },
+          {
+            "id": "kettlebell-swing-snatch",
+            "reps": 6,
+            "notes": "Right hand. Punch the hand THROUGH for a soft catch; hips do the work. Right shoulder watch on the catch — same modify-to-high-pull rule."
+          }
+        ],
+        "notes": "5 rounds RIGHT. Continuous within a round. **If the workout is running long after the left side, drop to 3-4 rounds right — don't grind a quality session into a sloppy one.**",
+        "restBetween": 30,
+        "restAfter": 60
+      },
+      {
+        "id": "hand-to-hand-swing-finisher",
+        "name": "🕐 Hand-to-Hand Swing Ladder (Rotated In for W21)",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "kettlebell-hand-to-hand-swing",
+            "reps": "10 / 12 / 14 / 16 switches",
+            "notes": "**LOAD:** 16-20lb. A ladder — climb the reps each round: 10 → 12 → 14 → 16 switches.\n- **Hike the bell back between the legs, snap the hips** to send it up to the float point\n- **At the float point (weightless, chest height), release and catch it in the OTHER hand** — the swap happens where the bell is briefly weightless, not where you're fighting it\n- **Hinge, swing it back down, repeat on the new side** — the bell never stops\n- **Hips drive it, arms guide it.** If you're muscling the swap, the bell isn't floating — snap the hips harder, don't grab harder\n- Light bell. This is a hand-eye drill run for reps, not a max-effort set. If the catches get scrappy, that's the honest end of the ladder — stop climbing."
+          }
+        ],
+        "notes": "**Hand-to-hand swing ladder — 4 rounds, climbing reps (10 → 12 → 14 → 16 switches).** Single light bell (16-20lb). ~30-45s between rounds. The hand-eye drill from the rotation pool, run as conditioning. Drop a rung if the catches get scrappy. (Rotated in from W20's clean-squat-press triplet.)",
+        "restBetween": 45,
+        "restAfter": 60
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "duration": 60,
+            "notes": "Slow spine wave. Decompress after the finisher."
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "60s each side. Hip flexor release — counters the cardio-complex squat reps."
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 60,
+            "notes": "60s. Adductors take a hit from the lateral shapes."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "**Saturday conditioning option — choice-of-the-day on D6.** Alternates with stairmaster, easy run, or rest. Skip if Friday legs cooked you; deliberately compact so skipping it costs nothing.",
+      "**LIGHT bell throughout: 16-20lb working.** This is the whole point. Conditioning = breathing rate, not load.",
+      "**Core block carries over:** the Asgooch CARDIO complex (row/clean/squat/snatch × 6 × 5 rounds per side).",
+      "**Front squat spotlight (inside the complex)** — sit tall, full depth, light bell. It's the day after legs so it HAS to be light, which makes it the ideal place to drill the bottom position. Friday's barbell squat is chasing the same depth.",
+      "**Finisher rotated to a hand-to-hand swing ladder** — 10 → 12 → 14 → 16 switches. Release at the float point; if you're muscling the swap, snap the hips harder rather than gripping harder.",
+      "**OPTIONAL light push-press ladder** — 40/45/50 × 8/7/6 'worked great' in W17. Add it after the warm-up if you want a strength touch; run the full banded prep if you do.",
+      "**Squatting stays LIGHT** — Friday legs is yesterday. Skip the squat reps if the quads are tight.",
+      "**Right shoulder watch on the snatch / clean** — light bell, hip-driven; switch to plain swings / high pulls if it crackles.",
+      "**Bottoms-up press standard in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light).",
+      "**No pull-up greasing here** — Saturday is the conditioning flank.",
+      "Cooldown mandatory — cat-cow + pigeon + butterfly.",
+      "Rotation plan: W22 rotates the finisher to a fresh complex + the spotlight to the swing clean or a fresh pick."
+    ],
+    "formPhilosophy": "Saturday is conditioning, distinct from the Tue and Thu KB days. Light bell, more reps. Kept deliberately compact — the Asgooch complex plus a rotating finisher (this week a hand-to-hand swing ladder) — so it's a genuine choice rather than an obligation: easy to skip on a heavy week, light enough it never bleeds into a weak Monday. The front squat takes the spotlight for a slightly contrarian reason: it's the day after legs, so it must be light, and a light lift with nothing to prove is the best possible place to drill a position. Friday's barbell squat is chasing depth this week; this is the same bottom, rehearsed without the barbell arguing. Building decades, not weeks.",
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w21-kb-cond",
+    "name": "Week 21 KB Conditioning — Thursday, Flow + Coordination Block (Spotlight: Figure-8 March)",
+    "description": "KB Thursday, full template, kept light on the legs so Friday legs stays strong — but it remains the right home for the heavier UPPER-BODY push (three days fresh off Monday, and it costs Friday nothing). **Warmup reminder:** halo → bottoms-up press (18lb, 8/side, forward + T-plane) → internal core fist rotation → protective behind-back shrug, then the 7-move banded shoulder prep.\n\nThe Flow + Coordination block rotates to the **figure-8 march** — the figure-8 weave you already own, now walked. The press-to-march moves off this day entirely; it belongs to the GymFiesta circuit, which now runs whole on Tuesday. Mobility maintenance rotates its cue focus to the **TGU checkpoints**. The rest holds: strict press 50 at the 8s you earned, rows at 40, the canonical Bent Press Flow kept light, a balance closer, cooldown.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "skill-work",
+      "coordination",
+      "mobility",
+      "form-first",
+      "conditioning",
+      "spotlight-rotation",
+      "thursday"
+    ],
+    "estimatedDuration": 50,
+    "equipment": [
+      "kettlebell",
+      "mini-band",
+      "rope-band"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Thursday KB day, full template, light on the LEGS so Friday legs stays fresh — but still the home for heavier UPPER push. Flow + Coordination rotates to the figure-8 march (the weave you own, now walked — coordination under load, no leg cost). Mobility maintenance rotates its cue focus to the TGU checkpoints. Strict press holds 50 at 8s, rows at 40. Conditioning + skill + balance — never a metabolic finisher.",
+      "spotlights": [
+        {
+          "exerciseId": "kettlebell-figure-8-march",
+          "why": "Rotates in from the pool. You already own the figure-8 weave — this adds locomotion to it, which is the hardest version of the same coordination problem: the bell has to keep its path through the legs while the legs are themselves moving. Pure coordination and core, essentially zero leg cost, which is the Thursday brief exactly. It also replaces the press-to-march, which has gone back to the GymFiesta circuit on Tuesday where it belongs."
+        }
+      ],
+      "rotationPlan": "Flow + Coordination block (permanent): W18 halo → reverse lunge · W19 split-stance pass-through · W20 single-arm press-to-march · W21 figure-8 march (current) · W22 halo → reverse lunge or a fresh weave. Mobility maintenance cue-focus rotates: W19 windmill → W20 bent press → W21 TGU checkpoints (current) → W22 windmill refresh.",
+      "watchpoints": [
+        "**The press-to-march is gone from this day.** It's move #4 of the GymFiesta circuit, which now runs whole on Tuesday — so it isn't running in two places, and this day gets a real coordination move of its own instead of a borrowed one.",
+        "**Thursday is still the home for heavier UPPER PUSH** — three days fresh off Monday's push and it doesn't tax Friday legs, so it's effectively a second weekly push exposure. Load the strict press / bent press freely here; keep the LEGS light (Bent-Press-Flow squat/lunge + the balance closer stay light).",
+        "**Figure-8 march spotlight — the weave, now walking.** Light bell. Weave the bell through the legs in a figure-8 while STEPPING forward — the pass happens under a moving leg, so the hand-off has to be exact or the bell hits a shin. Slow and deliberate beats fast and scrappy. Zero leg load; it's a coordination piece, not conditioning.",
+        "**Strict overhead press holds 50 at 8/8/8.** W20 hit the 8s and it was 'kind of hard' — that's the floor rising. Hold 50, hold the reps clean, don't chase further. Strict (no push-press), pack the shoulder down, ribs down, both sides to the same standard.",
+        "**Mobility maintenance = TGU checkpoint refresh this week** — the get-up gets the sharper cues (pause at EVERY checkpoint, eyes on the bell throughout, the arm stays locked vertical the whole way). Bent press + windmill drop back to light maintenance.",
+        "**Right shoulder watch on the overhead work** (press, bent press, TGU lockout) — if it talks, lighten and slow down; back off range before grinding.",
+        "**Bottoms-up press stays in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light). Rotator-cuff prep.",
+        "**Protective shrug greasing set in the warmup** — 1 light set, DBs or a bell behind the body. Cheap, easy to forget.",
+        "**Balance closer, not a metabolic finisher** — single-leg RDL → bird-dog → standing side-to-side twist, light bell. Thursday is conditioning + skills + balance, and Friday legs is tomorrow."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up (incl. Bottoms-Up Cuff Prep)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener — and the warm-up for the day's coordination work."
+          },
+          {
+            "id": "kettlebell-bottoms-up-press",
+            "reps": "8 each side",
+            "notes": "**LOAD:** 18lb. Bell inverted over a vertical forearm, grip HARD, shoulder packed. **8/side in two planes:** forward press + T-press. **Keep the T-plane lighter.** Rotator-cuff prep before the overhead work."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — wakes the grip and forearms for the figure-8 hand-offs."
+          },
+          {
+            "id": "behind-back-dumbbell-shrug",
+            "equipment": "light DB pair or a kettlebell held behind the body",
+            "reps": "12-15",
+            "notes": "**Protective shrug (greasing set).** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs nothing, easy to forget."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "banded-prep",
+        "name": "Banded Shoulder Prep (~3 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "seated-banded-overhead-pull-apart",
+            "duration": 20,
+            "notes": "Mini-band overhead OR blue rope band gripped in hands."
+          },
+          {
+            "id": "seated-banded-behind-neck-pulldown",
+            "duration": 20,
+            "notes": "Elbows drive to the ribs, scaps depress."
+          },
+          {
+            "id": "seated-banded-t-raise",
+            "duration": 20,
+            "notes": "Press out to a T — fires rear delts and mid-traps."
+          },
+          {
+            "id": "seated-banded-chest-pull-apart",
+            "duration": 20,
+            "notes": "Pull apart at the sternum, scaps retract, ribs down."
+          },
+          {
+            "id": "seated-banded-reverse-fly",
+            "duration": 20,
+            "notes": "Sweep the arms back. Don't overarch."
+          },
+          {
+            "id": "seated-banded-diagonal-reach",
+            "duration": 30,
+            "notes": "15s each side. Primes the lateral hinge for the bent press + windmill."
+          },
+          {
+            "id": "seated-banded-overhead-v-hold",
+            "duration": 20,
+            "notes": "Both arms in a V/Y overhead. Hold and breathe — lower traps fire, primes the strict press and the TGU lockout."
+          }
+        ],
+        "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "flow-coordination-block",
+        "name": "🔆🌀 Flow + Coordination (permanent block — Spotlight: Figure-8 March)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "5 each direction",
+            "notes": "**LOAD:** 15-20lb. Slow halos to groove the shoulders before the weave."
+          },
+          {
+            "id": "kettlebell-figure-8-march",
+            "reps": "8-10 passes",
+            "notes": "**LOAD:** ~20-30lb (LIGHT — coordination, not load). 3 rounds.\n\n**🔆 SPOTLIGHT — the weave you own, now walking:**\n- **Weave the bell through the legs in a figure-8 while STEPPING FORWARD** — the pass happens under a moving leg, which is what makes it hard\n- **The hand-off has to be exact** — a lazy pass hits a shin; that's the feedback\n- **Stay low and hinged, chest up** — don't stand tall between passes, the bell should never stop\n- **Slow and deliberate beats fast and scrappy** — the skill is the timing of the hand-off against the step, not the pace\n- **Ribs down, core braced** — the bell wants to pull the torso around; don't let it\n- Zero leg load — this is a coordination piece, not conditioning. Keep it light and clean.\n\n**Reflection:** does the bell keep a continuous path while the feet move, or do you find yourself pausing the walk to complete the pass? Continuous bell + continuous feet is the win."
+          }
+        ],
+        "notes": "**Permanent Flow + Coordination block.** Base KB skill-building — light bell, coordination and core, no leg cost. A familiar halo to warm up, then this week's chain (figure-8 march). 3 rounds, ~5 min, short rest. Keep it light and clean; it precedes the strength + flow work and shouldn't fatigue anything.",
+        "restBetween": 30,
+        "restAfter": 45
+      },
+      {
+        "id": "strength-block",
+        "name": "Strength Block (Rows + Strict Press — the Heavy-Upper Slot)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-row",
+            "reps": "8 each",
+            "notes": "**LOAD:** 40lb. 8 each side. Hips hinged, back flat, pull the elbow to the hip. Slow on the way down."
+          },
+          {
+            "id": "kettlebell-overhead-press",
+            "reps": "8 each",
+            "notes": "**LOAD:** 50 across all sets — strict single-arm press (clean to rack, press straight up, NO push-press). W20 hit 8/8/8 at 50 and it was 'kind of hard' — hold 50, hold the 8s clean. The floor rose; own it before climbing off it.\n- **Strict, not push-press** — the shoulder presses it\n- **Ribs DOWN** before the press — no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- Slow descent back to the rack; **both sides to the same standard** — press the left as clean as the right."
+          }
+        ],
+        "notes": "Strength block — single-arm row + strict press. Thursday is the fresh-upper-push slot, so load the press; the legs stay light elsewhere. 3 sets. ~5 min.",
+        "restBetween": 60,
+        "restAfter": 60
+      },
+      {
+        "id": "bent-press-flow-block",
+        "name": "Bent Press Flow (Light Groove — Skill Practice)",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-dead-clean",
+            "notes": "Bell starts on the floor between the feet, hips drive the lift, catch in the rack with the knees slightly bent."
+          },
+          {
+            "id": "kettlebell-front-squat",
+            "notes": "Goblet/rack position. **LIGHT** — Friday legs is tomorrow, keep depth without grinding. Sit tall, full depth, no bouncing."
+          },
+          {
+            "id": "kettlebell-lateral-lunge",
+            "notes": "Stride out wide, sit into the working leg, keep the other leg long. Mobility, not strength."
+          },
+          {
+            "id": "kettlebell-bent-press",
+            "notes": "The deliberate leverage move inside the flow — **the body goes DOWN, the bell barely moves.** From the rack, hinge and rotate AWAY from the bell side, eyes tracking the bell, until the arm locks out overhead. You lower your body under the bell; you don't press it up. Slow and smooth."
+          },
+          {
+            "id": "kettlebell-tactical-clean",
+            "notes": "Control on the way down — bell to the floor as cleanly as it came up. Closes the flow before switching sides."
+          }
+        ],
+        "notes": "**This is a continuous FLOW, not separate stations.** Move through the full chain on ONE side — dead clean → front squat → lateral lunge → bent press → tactical clean — letting each move feed the next, then repeat on the other side. About 2 reps' worth at each move. **~25-35lb throughout, 2 rounds. Light groove** — keep the leg components light (front squat + lateral lunge are leg work the day before Friday legs). (Canonical: kb-flow-dead-clean-press — the Bent Press Flow.)",
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "skill-mobility-block",
+        "name": "Skill + Mobility Maintenance — TGU Checkpoint Refresh + Bent Press + Windmill",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "kettlebell-turkish-getup",
+            "reps": "1 forward + 1 reverse per side",
+            "notes": "**LOAD:** 35lb. 2 rounds. **🔆 Cue-focus refresh this week — the get-up is a series of positions, not a movement:**\n- **PAUSE at every checkpoint** — roll to elbow → to hand → hip bridge → sweep the leg through → half-kneel → stand. Then reverse it through the same six, in order. Rushing a checkpoint is how the shoulder gets caught out of position\n- **Eyes ON the bell at every checkpoint** — the head follows the bell, not the floor\n- **The arm stays locked VERTICAL the whole way** — straight-arm overhead lockout, packed shoulder; the arm never bends and never drifts off vertical\n- **Ribs down on the hip bridge** — the most common leak is arching the low back to get height\n- **Slow is the standard.** If a checkpoint feels rushed, you're going too fast for the load — drop the bell before the bell drifts.\n\n**Reflection:** can you stop dead at all six checkpoints, both directions, with the bell still? A get-up you can pause anywhere is a get-up you own."
+          },
+          {
+            "id": "kettlebell-bent-press",
+            "reps": "3 each side",
+            "notes": "**LOAD:** 25-35lb. 2 rounds. Light maintenance this week.\n- **It's leverage, NOT a press** — the arm locks out by hinging your body DOWN under the bell\n- **Hinge and rotate AWAY from the bell side**, eyes tracking the bell\n- **The stretch lives in the bell-side hip + hamstring**, NOT the lower back — long spine\n- Right shoulder watch — keep it stacked."
+          },
+          {
+            "id": "kettlebell-windmill",
+            "reps": "5 each side",
+            "notes": "**LOAD:** 20-35lb. 2 rounds. Light maintenance this week.\n- **Bell locked overhead, eyes track the bell** — the overhead arm never bends\n- **Turn the feet ~45° away from the loaded side; hinge AWAY from the bell side** — lower the free hand toward the front foot\n- **The stretch lives in the back-leg hip flexor + obliques, NOT the lower back** — long spine\n- Slow descent, controlled return. Right shoulder watch."
+          }
+        ],
+        "notes": "Mobility maintenance — the TGU takes the cue-focus refresh this week (checkpoints, one at a time); bent press + windmill drop back to light maintenance. Sharp cues, light loads.",
+        "restBetween": 60,
+        "restAfter": 30
+      },
+      {
+        "id": "balance-closer",
+        "name": "Balance Closer — Single-Leg RDL + Bird-Dog + Standing Side-to-Side Twist",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "single-leg-rdl-kettlebell",
+            "reps": "5 each leg",
+            "notes": "**LOAD:** 20-25lb. Single-leg balance + hip hinge. **The point is balance and control, not load** — keep it light so the legs stay fresh for Friday. Standing-leg glute locked, hips square, slow reach to the floor and back. The wobble is the training."
+          },
+          {
+            "id": "bird-dog",
+            "reps": "8 each side",
+            "notes": "Bodyweight. Slow anti-rotation balance — opposite arm + leg extend, hold 2s, hips stay square (no rotation). Resets the spine after the single-leg work."
+          },
+          {
+            "id": "kettlebell-standing-side-to-side-twist",
+            "reps": "8 each direction",
+            "notes": "**LOAD:** 20-25lb (LIGHT — the straight-arm lever makes it feel heavy).\n- **Stand tall, one bell held by the horns in BOTH hands, arms straight out in front** at chest height\n- **Keep the arms straight and twist the bell side to side** — through center to one side, back through center to the other — bracing the core to control the rotation\n- **Ribs down, stand tall** — the twist comes from the core/obliques, NOT the lower back\n- Smooth and controlled, no momentum. No leg load — zero pre-fatigue for Friday."
+          }
+        ],
+        "notes": "Light balance + core close, 2 rounds, ~5 min. Move through the three back-to-back with short rest. Settles the system after the flow work before the cooldown.",
+        "restBetween": 30,
+        "restAfter": 30
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown (Hip + Adductor Release)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "60s each side. Hip flexor release — counters the TGU hip bridge and the lateral lunge work."
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 60,
+            "notes": "60s. Adductors get tight from the lateral lunges."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "**The press-to-march has left this day** — it's move #4 of the GymFiesta circuit, which now runs whole on Tuesday. Thursday gets its own coordination move instead of a borrowed one.",
+      "**Thursday carries heavy UPPER push** — fresh off Monday, doesn't tax Friday legs (a free second push exposure). Load the strict press / bent press; keep the LEGS light.",
+      "**Permanent Flow + Coordination block.** This week: figure-8 march — the weave you already own, now walked. The pass happens under a moving leg; exact hand-offs or the bell finds a shin.",
+      "**Skill novelty over intensity.** The win is the chain learned clean, not a cardio burn. Keep the bell light.",
+      "**Bent Press Flow is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. Light groove, 2 rounds, ~25-35lb (keep the leg components light before Friday legs).",
+      "**Strength block — strict press 50 at 8/8/8** (the reps you earned in W20) + rows 40. Strict, no push-press.",
+      "**Mobility maintenance = TGU checkpoint refresh** — pause at every one of the six checkpoints, both directions, eyes on the bell, arm locked vertical. Bent press + windmill drop to light maintenance.",
+      "**Bottoms-up press standard in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light).",
+      "**Balance closer, not a metabolic finisher** — single-leg RDL → bird-dog → standing side-to-side twist. Keeps the legs fresh for Friday.",
+      "**Right shoulder watch on the overhead work** — press, bent press, TGU. Lighten and slow down if it talks.",
+      "**Protective shrug greasing set in the warmup.**",
+      "Cooldown mandatory — pigeon + butterfly.",
+      "Rotation plan: the Flow + Coordination block rotates content (W22 a halo → reverse lunge or a fresh weave); mobility maintenance cue-focus returns to the windmill."
+    ],
+    "formPhilosophy": "Thursday keeps its permanent home for base KB skill + coordination, and this week it stops borrowing. The press-to-march goes back to the circuit it came from (now running whole on Tuesday) and the figure-8 march takes the slot on its own merits — the weave already owned, now made harder by adding locomotion rather than load. The mobility block turns its cue-focus to the get-up, which rewards patience more than any other move in the library: six checkpoints, each one a position you should be able to stop dead in. The strict press holds the 8s it earned. Thursday's identity holds: conditioning + skill + balance, legs kept light so Friday legs stays strong. Building decades, not weeks.",
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w21-kb-full",
+    "name": "Week 21 KB Full Body — GymFiesta Circuit (NEW) + Dead Cluster Flow (2nd Run) + Bottoms-Up Carry (Spotlight)",
+    "description": "KB Tuesday, carousel turns. **Warmup reminder:** halo → bottoms-up press (18lb, 8/side, forward + T-plane) → goblet squat → internal core fist rotation → protective behind-back shrug, then the 7-move banded shoulder prep.\n\nThe figure-8 complex steps off and the **GymFiesta full-body circuit** steps on — run as the whole four-move unit it actually is, not a move borrowed out of it. The **Dead Cluster Flow** gets its second run, so the beats you fought last week (the overhead-to-overhead snatch, the two pendulum swings, the inside tactical clean) become the thing you own. The **bottoms-up carry** takes the spotlight, folding the bottoms-up family forward from last week's clean.\n\nStrict overhead press holds 50 at the 8s you just earned. Leg-athletic work sits on Tuesday, three days clear of Friday legs.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "kettlebell",
+      "strength",
+      "full-body",
+      "flow",
+      "circuit",
+      "skill-work",
+      "form-first",
+      "spotlight-rotation"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "kettlebell",
+      "mini-band",
+      "rope-band"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "KB Tuesday, carousel turn. The GymFiesta circuit joins as a whole unit (pass-to-squat → lunge knee-drive → snatch → press-to-march) — leg-athletic and explosive, which is exactly why it belongs on Tuesday and not Thursday. The Dead Cluster Flow runs a second time to consolidate the three beats that read wrong last week. Bottoms-up carry is the spotlight. Strict press holds 50 at 8s. Figure-8 complex steps off the carousel.",
+      "spotlights": [
+        {
+          "exerciseId": "kettlebell-bottoms-up-carry",
+          "why": "Folds the bottoms-up family forward — the press is the warmup standard, the clean was last week's spotlight, and the carry is the loaded-time-under-tension version of the same stimulus. An inverted bell held over a vertical forearm while you WALK is the hardest packed-shoulder demand in the whole KB library: grip, shoulder stability, and anti-rotation core all at once, and the bell tips the moment any of the three lets go. That failure mode is the coaching. Rehab-friendly for the right shoulder, and it feeds the farmer carry on push day."
+        }
+      ],
+      "rotationPlan": "Tuesday content rotates: W19 Leggy Flow + loaded cossack + hand-to-hand swing · W20 figure-8 → tactical clean + bottoms-up clean + front squat · W21 GymFiesta circuit (new) + Dead Cluster Flow (2nd run) + bottoms-up carry (current) · W22 cycle forward — bring the Leggy Flow back; the Conti Outside Snatch Flow is banked for W23.",
+      "watchpoints": [
+        "**NEW — the GymFiesta circuit runs as a WHOLE UNIT.** Four moves: around-the-body pass to squat (×20) → reverse lunge to knee drive (×10/side) → snatch (×10/side) → single-arm press to march (×10/side), 3 rounds. **It's a CIRCUIT, not a flow** — each move runs for its own reps, then you move on; the beats don't feed each other. Light-to-moderate bell, minimal rest between moves, ~60s between rounds. (Canonical: kb-gymfiesta-full-body-circuit.)",
+        "**Why it's on Tuesday and not Thursday:** the snatches and lunge knee-drives are explosive and leg-athletic. Three days clear of Friday legs, that's free. The day before legs, it's a tax. This is also why the press-to-march no longer appears on Thursday — it lives here now, inside the circuit it came from.",
+        "**Dead Cluster Flow, 2nd run — the three beats to own.** Last week the app described these wrong and you caught it off the bell. Now run them right: the **snatch is overhead-to-overhead** (carry straight out of the dead cluster's lockout, don't reset to the floor); the **outside pendulum is TWO full swings** before the clean; the **tactical clean threads the INSIDE path** out of the second swing. 🛑 Overhead-heavy — LIGHT bell (18-30lb), pack the shoulder DOWN, regress or skip the iron cross if the right shoulder flares. (Canonical: kb-dead-cluster-flow.)",
+        "**Bottoms-up carry spotlight — LIGHT, and the wobble is the work.** 18-25lb. Bell inverted over a vertical forearm, walk. Grip HARD, shoulder packed DOWN, ribs down, walk slow and straight. If the bell tips, something let go — that's the feedback, not a failure. Set it down and reset rather than fighting a drifting bell.",
+        "**Strict overhead press holds 50 — the 8s are yours now.** W20 hit 8/8/8 at 50 ('kind of hard'), up from W19's 5/6/7. Hold 50 and hold the 8s clean; the floor rose, don't chase it further. Strict, no push-press, both sides to the same standard.",
+        "**Two big blocks + strength — same length as W20.** The GymFiesta circuit takes the figure-8 complex's slot; nothing was added on top. If the session runs long: circuit to 2 rounds, or the strength block to 2 rounds. Don't rush the Dead Cluster Flow — the whole point of the second run is quality.",
+        "**Bottoms-up press stays in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light). It also primes the bottoms-up rack for today's carry spotlight.",
+        "**Protective behind-back shrug greasing set stays in the warm-up** — 1 light set, easy to forget."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up (incl. Bottoms-Up Cuff Prep)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "kettlebell-halo",
+            "reps": "8 each direction",
+            "notes": "**LOAD:** 15-20lb. Big slow circles both directions — open the shoulders before the overhead work."
+          },
+          {
+            "id": "kettlebell-bottoms-up-press",
+            "reps": "8 each side",
+            "notes": "**LOAD:** 18lb. Bell inverted over a vertical forearm, grip HARD, shoulder packed. **8/side in two planes:** forward press + T-press. **Keep the T-plane lighter** — it's the angle the right shoulder likes least. Rotator-cuff prep, and it primes the bottoms-up rack for today's carry spotlight."
+          },
+          {
+            "id": "kettlebell-goblet-squat",
+            "reps": 5,
+            "notes": "**LOAD:** 25lb. Open the hips, sit in the bottom a beat — previews the circuit's pass-to-squat."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for the snatches and the bottoms-up carry."
+          },
+          {
+            "id": "behind-back-dumbbell-shrug",
+            "equipment": "light DB pair or a kettlebell held behind the body",
+            "reps": "12-15",
+            "notes": "**Protective shrug (greasing set).** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. Decompresses the right shoulder — costs nothing, easy to forget."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "banded-prep",
+        "name": "Banded Shoulder Prep (~3 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "seated-banded-overhead-pull-apart",
+            "duration": 20,
+            "notes": "Mini-band OR blue rope band held in hands."
+          },
+          {
+            "id": "seated-banded-behind-neck-pulldown",
+            "duration": 20,
+            "notes": "Elbows drive to the ribs, scaps depress."
+          },
+          {
+            "id": "seated-banded-t-raise",
+            "duration": 20
+          },
+          {
+            "id": "seated-banded-chest-pull-apart",
+            "duration": 20
+          },
+          {
+            "id": "seated-banded-reverse-fly",
+            "duration": 20,
+            "notes": "Don't overarch the lower back to chase range."
+          },
+          {
+            "id": "seated-banded-diagonal-reach",
+            "duration": 30,
+            "notes": "15s each side. Primes the overhead + rotation."
+          },
+          {
+            "id": "seated-banded-overhead-v-hold",
+            "duration": 20,
+            "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire — primes the snatch catch and the press-to-march lockout."
+          }
+        ],
+        "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "gymfiesta-circuit-block",
+        "name": "🌀 GymFiesta Full-Body Circuit (NEW — run as the whole unit)",
+        "type": "flow",
+        "flowId": "kb-gymfiesta-full-body-circuit",
+        "rounds": 3,
+        "notes": "**Single light-to-moderate bell (~20-30lb), 3 rounds.** New this week — and run as the complete four-move circuit it is, not a move pulled out of it.\n\n**This is a CIRCUIT, not a flow** — each move runs for its full rep count, then you move to the next. Minimal rest between moves, ~60s between rounds. Conditioning is the intent: pick a bell you can keep moving with for three rounds.\n\n**The snatch is the technical centerpiece** — hips drive it, punch the hand THROUGH at the top so the bell rolls onto the forearm instead of banging the wrist. 🛑 Right-shoulder watch on the catch; sub high pulls if it crackles and keep the round going.\n\n**The press-to-march is the coordination beat** — press to a packed-shoulder lockout, then drive alternate knees while the bell stays STILL overhead. A quiet lockout under a moving leg is the whole skill.\n\nThis is leg-athletic and explosive, which is exactly why it sits on Tuesday and not Thursday.",
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "dead-cluster-flow-block",
+        "name": "🌀 Dead Cluster Flow (2nd Run — Own the Three Beats)",
+        "type": "flow",
+        "flowId": "kb-dead-cluster-flow",
+        "rounds": 3,
+        "notes": "**Single LIGHT-to-MEDIUM bell (~18-30lb), 3 rounds each side** (2 each if the session's already long). Second run — last week you found three beats by feel that the sheet had wrong. Run them right this time:\n\n**1. The snatch is overhead-to-overhead.** Carry straight out of the dead cluster's overhead lockout — don't reset the bell to the floor. Lower it out of the lockout and snatch it right back up in one arc.\n\n**2. The outside pendulum is TWO full swings.** Not one. The second swing's inside arc is what feeds the clean.\n\n**3. The tactical clean threads the INSIDE path**, coming directly out of that second swing — no reset, no re-grip.\n\n🛑 **Overhead-heavy — keep it shy, the packed shoulder is the cap.** Pack the shoulder DOWN on the cluster press, snatch, and iron cross; the iron cross is a big straight-arm lateral load — go light, regress or skip it if the right shoulder flares. The cleans, snatch, and pendulum come from the legs and hips, not the arm.\n\n**Reflection:** now that the three beats are right, does the chain flow move-to-move, or are you still re-gripping between them? The seamless string is the skill.",
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "strength-spotlight-block",
+        "name": "🔆 Strength + Bottoms-Up Carry (Spotlight) + Front Squat",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kettlebell-overhead-press",
+            "reps": "8 each side",
+            "notes": "**LOAD:** 50 across all sets — strict single-arm press (clean to rack, press straight up, NO push-press). W20 hit 8/8/8 at 50 and it was 'kind of hard.' Hold 50 and hold the 8s clean — the floor rose, bank it rather than chasing it.\n- **Strict, not push-press** — the shoulder presses it\n- **Ribs DOWN** before the press — no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- Slow descent back to the rack; **both sides to the same standard** — press the left as clean as the right."
+          },
+          {
+            "id": "kettlebell-bottoms-up-carry",
+            "reps": "~30-40s each side",
+            "notes": "**🔆 SPOTLIGHT — the inverted bell, walking. LIGHT (the balance is the work):**\n- **LOAD:** 18-25lb (light — grip + stability, not load)\n- **Clean the bell into a bottoms-up rack** — balanced UPSIDE-DOWN over a vertical forearm — then WALK\n- **Grip HARD, shoulder packed DOWN, ribs down** — all three have to hold at once, and the bell tips the moment any one of them lets go\n- **Walk slow and straight**, torso tall, don't lean away from the bell to prop it up\n- **If the bell tips, set it down and reset** — fighting a drifting bell teaches nothing\n- Rehab-friendly for the right shoulder: a packed shoulder under a balanced load, held under time, is exactly the stability stimulus it likes. Feeds the farmer carry on push day.\n\n**Reflection:** does the bell stay quiet for the whole walk, or does it start hunting as the grip tires? A still bell for 30 seconds beats a wobbling one for 60."
+          },
+          {
+            "id": "kettlebell-front-squat",
+            "reps": "8 each",
+            "notes": "**LOAD:** 25-35lb racked. Covers the squat pattern.\n- **Sit tall, full depth, no bouncing** out of the bottom\n- **Ribs down, brace the core** — the racked bell wants to pull you forward; stay upright\n- Drive up through the whole foot. Leg-athletic on Tuesday is fine — far from Friday legs."
+          }
+        ],
+        "notes": "Strength + spotlight + squat, 3 rounds (2 if short on time). Strict press is the strength anchor; the bottoms-up carry is the spotlight; the front squat covers the squat pattern.",
+        "restBetween": 45,
+        "restAfter": 60
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "60s each side. Hip flexor release — counters the front squat, the lunge knee-drives, and the hike-position work."
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 60,
+            "notes": "60s. Adductors + inner hips."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "**The GymFiesta circuit runs as a WHOLE UNIT this week** — pass-to-squat → lunge knee-drive → snatch → press-to-march, 3 rounds. It's a circuit, not a flow: each move for its reps, then move on. It replaces the figure-8 complex in the slot; nothing was added on top.",
+      "**Why Tuesday:** the circuit is explosive and leg-athletic, so it's free three days clear of Friday legs and a tax the day before. That's also why the press-to-march is gone from Thursday — it lives here now, inside the circuit it came from.",
+      "**Dead Cluster Flow, 2nd run — own the three beats you found by feel:** the snatch is overhead-to-overhead, the outside pendulum is TWO full swings, the tactical clean threads the inside path out of the second swing.",
+      "**Spotlight: bottoms-up carry — LIGHT** (18-25lb). Inverted bell over a vertical forearm, walking. Grip, packed shoulder, braced core, all at once. If it tips, set it down and reset.",
+      "**Strict overhead press holds 50 at 8/8/8** — the reps you earned last week. Strict, no push-press. Bank the floor, don't chase it.",
+      "**Front squat 25-35lb** — racked, sit tall, full depth.",
+      "**Bottoms-up press in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light).",
+      "**Protective behind-back shrug greasing set in the warm-up.**",
+      "**If the session runs long:** circuit to 2 rounds, or the strength block to 2 rounds. Don't rush the Dead Cluster Flow — quality is the point of the second run.",
+      "Cooldown mandatory — pigeon + butterfly.",
+      "Rotation plan: W22 brings the Leggy Flow back; the Conti Outside Snatch Flow is banked for W23."
+    ],
+    "formPhilosophy": "KB Tuesday as the carousel. This week corrects a real drift: the GymFiesta circuit had been quietly harvested for parts (the press-to-march ran alone on Thursday) while the circuit itself was never programmed — so it runs here as the complete four-move unit, on the day its explosiveness is free rather than expensive. The Dead Cluster Flow takes its second run to consolidate the beats that were learned off the bell rather than the sheet. The bottoms-up carry folds the family forward from press to clean to loaded time-under-tension. The strict press holds the 8s it just earned — the floor rose, and the job now is to own the new floor, not immediately climb off it. Building decades, not weeks.",
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w21-legs",
+    "name": "Week 21 Legs — Steady State (Spotlight: Squat Depth + Incline RDL)",
+    "description": "Volume steady. **Warmup reminder:** bodyweight squat (depth check) → cross-leg lateral lean (QL/psoas) → hip circles → tibialis raise → cat-cow → internal core fist rotation → dead-bug core/QL primer → bodyweight lunge (QL check).\n\nBoth ramps stay, because you called them out unprompted — the squat's 45→70→80 ('ramp is beautiful') and the leg curl's 70→80→90→100 ('curl ramp is also great'). Two votes in one session for the same structure is a real signal, so nothing about them changes.\n\nSpotlights cycle to the **squat** (80 is stable and the ramp is landing — depth is the one thing still open) and the **incline RDL** (three weeks of 'went fine' with no read; it's the only lift on the day with no known ceiling). Leg press holds 4 plates with full ROM. Bulgarian holds the double-50s.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "legs",
+      "lower-body",
+      "quads",
+      "hamstrings",
+      "glutes",
+      "ppl",
+      "form-first",
+      "spotlight-rotation",
+      "station-focused"
+    ],
+    "estimatedDuration": 60,
+    "equipment": [
+      "barbell",
+      "dumbbell",
+      "machine",
+      "bench"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Steady state. Both ramps stay — you praised them both, unprompted, in the same session. Spotlights cycle to the squat (80 is stable; depth is the last open thread) + the incline RDL (three weeks of 'went fine' and no actual read). Leg press holds 4 plates, deep. Bulgarian holds double-50. Order is yours by availability — a few pairings are not.",
+      "spotlights": [
+        {
+          "exerciseId": "squat",
+          "why": "Cycles forward — W20 ran the full 45→70→80 ramp two sets a rung and you called it 'beautiful.' Stability at 80 is now a settled fact (W19: 'the most solid i ever felt'; W20: clean 8s). The one thing that has never actually closed is DEPTH — the catcher bar is set at your true bodyweight-bar depth and the loaded sets still don't reach it. Spotlight drills sitting into the bottom under load, which is the only unlock left here. Not more weight. Not more sets."
+        },
+        {
+          "exerciseId": "incline-rdl",
+          "why": "Cycles forward for the same reason the farmer carry got spotlighted on push day: it keeps coming back as 'went fine' and nothing else. Three weeks, no reps read, no tempo read, no idea where its ceiling is — and it's a hinge, so it's the one lift here where sloppiness is genuinely expensive. Spotlight drills the tempo (3s down, 2s pause) and asks where the stretch actually lands, because 'fine' is not a read."
+        }
+      ],
+      "rotationPlan": "W19 squat depth + leg curl · W20 leg press + Bulgarian · W21 squat depth + incline RDL (current) · W22 cycle forward — leg press + calf raise refresh.",
+      "watchpoints": [
+        "**🔥/🛑 intensity tags — decide before the set.** 🔥 near-failure / pyramid OK (safe machine/isolation): leg press (near-failure last set at 4 plates — depth is the load lever, not plates), calf raise, leg curl (pyramid the load to a tested top). 🛑 keep it shy, the cue/depth is the cap: squat, Bulgarian, incline RDL. **Order:** form lever first (tempo/ROM), load second, near-failure/pyramid only on 🔥.",
+        "**Order is YOURS — take stations as they free up.** You've been running this by availability and it's working (leg press 'always feels easier later in the workout' — likely just a warmup effect). Keep doing that. **Two pairings are NOT negotiable, though:** the calf raise stays ON the leg press (same machine — don't walk off and come back), and the leg curl stays BEFORE the incline RDL (reversed, the two hamstring lifts stack and the second one is wasted).",
+        "**Both ramps stay untouched.** You praised the squat ramp and the curl ramp in the same session, unprompted. That's the structure working — nothing changes.",
+        "**Squat spotlight — DEPTH, and only depth.** 80 is stable and the 8s are clean. Set the catcher bars at your max bodyweight-bar depth as the target, take the FULL 2-3 min rest on the working sets, and chase the bottom. 🛑 Never grind a loaded squat. Stop adding working sets the moment the depth shortens — a shallow rep at 80 is worth less than a deep one at 70.",
+        "**Incline RDL spotlight — 'fine' is not a read.** Hold the 45lb plate. 3s eccentric, 2s pause at the bottom, and tell me WHERE the stretch lands: hamstrings and glutes (correct) or lower back (too deep for current mobility). 🛑 tempo is the entire lever on a hinge — never chase load, never grind.",
+        "**Leg press holds 4 plates, deep.** W20: 12s across all four sets, 'both strong and full rom.' 🔥 A near-failure last set is fair game — but don't add plates, because heavier plates shorten the deep knees-to-chest ROM that's the whole point.",
+        "**Bulgarian holds double-50 — 'brutal at end but proper weight.'** That's the correct read; it's supposed to be brutal at the end. 🛑 form is the cap: front shin vertical, drive through the front heel. Pigeon on the bench between sets. If anything twitches, drop to bodyweight and finish.",
+        "**Leg curl keeps the pyramid — 70 primer → 80 → 90 → 100**, judged by FEEL (heels driving, no torso lift) on normal rest. Settings 5/m/0/-1 (verify before loading). 🔥",
+        "**Dead-bug core/QL primer stays in the warmup** — wakes the deep core before the leg press.",
+        "**QL/psoas watch** — cross-leg lateral lean in the warmup AND cool-down. QL's been clear for weeks. If anything talks in the warmup, modify the day."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (incl. Cross-Leg Lateral Lean — QL/Psoas Release + Dead-Bug Core/QL Primer)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "bodyweight-squat",
+            "reps": 15,
+            "notes": "Full depth, slow. Find where the hips are tight and breathe into it. Depth check before loading — and today depth IS the spotlight, so pay attention to what the bottom feels like unloaded."
+          },
+          {
+            "id": "standing-cross-leg-lateral-stretch",
+            "duration": 60,
+            "notes": "30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — the stretch runs down the side of the waist into the QL and lateral hip. Do this before loading the squat."
+          },
+          {
+            "id": "hip-circle",
+            "reps": "10 each direction",
+            "notes": "Big slow circles. Wake up the hip stabilizers."
+          },
+          {
+            "id": "tibialis-raise",
+            "reps": 20,
+            "notes": "Back to a wall, heels a step out, weight on the heels. Pull the toes UP toward the shins as high as they'll go, lower slow. Preps ankle dorsiflexion — which is often what actually caps squat depth."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Spine mobility — slow, full ROM each direction."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension. Quick posterior-chain + low-back opener before loading the squat."
+          },
+          {
+            "id": "dead-bug",
+            "reps": "8 each side",
+            "notes": "**Core/QL primer.** On your back, arms up, knees over hips. Press the lower back FLAT into the floor and HOLD it there as you slowly extend the opposite arm + leg, then switch. The brace is the work — wakes the deep core before the leg press."
+          },
+          {
+            "id": "lunge",
+            "reps": "5 each leg",
+            "notes": "Bodyweight. QL check — if anything talks here, modify the day. Also previews the Bulgarian pattern."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "squat-warmup",
+        "name": "Squat Warmup — the ROM Ramp (45 → 70) 🛑",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": "8 / 8",
+            "notes": "**The bottom half of the 45→70→80 ramp. Set the catcher bars at your max bodyweight-bar depth first** — that's the depth target AND the safety.\n\nW20 ran this exactly and you called it 'beautiful.' It stays.\n- **Set 1: 45/side x8** — drill max depth: sit all the way into the bottom, tap the catcher if you can, controlled reps, no bounce\n- **Set 2: 70/side x8** — the intermediary ROM-builder. Same depth as the working sets, heavier so the bottom's honest\n- **🛑 Move fast through these submaximal ramp sets** (short rest) — save the full rest for the 80 working sets."
+          }
+        ],
+        "restBetween": 60,
+        "restAfter": 90
+      },
+      {
+        "id": "squat-working",
+        "name": "🔆 Squat Working (80 — Spotlight: DEPTH, and only depth) 🛑",
+        "type": "exercises",
+        "rounds": 2,
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": "6-8",
+            "notes": "**LOAD:** 80/side. Working sets off the ramp. W20 was 80x8 x2, clean, off a ramp you loved. W19 was 'the most solid i ever felt, really stable.'\n\n**🔆 SPOTLIGHT — stability is banked; DEPTH is the last thing open here:**\n- **The load is not the question and neither are the reps.** 80 for clean 8s is a settled fact across two weeks. What has never closed is whether the loaded bottom reaches the depth your bodyweight bottom reaches\n- **Set the catcher bars at your true max depth** and chase the bar down toward them. That's the target, not a number on the plates\n- **Take the FULL rest here (2-3 min)** — the deeper, more solid sets have consistently come with more rest. The rest is part of the depth\n- Bar high on the upper traps, upper-back shelf squeezed\n- **Brace like prepping for a punch** — deep belly breath at the top, HOLD through the descent, exhale on the drive up\n- **Hips back AND down**, 'spread the floor' — screw the feet in, knees track over the toes\n- **Sit INTO the bottom** — you find depth more easily under load than without it; use that\n- **🛑 Never grind a loaded squat to failure.** Stop adding working sets the moment the depth shortens. A shallow rep at 80 is worth less than a deep one at 70.\n\n**Reflection:** does the bar get closer to the catcher this week than last? That's the only question. If depth caps out well short and won't budge, say so — that's an ankle/hip mobility problem, not a strength one, and it gets solved somewhere other than the squat rack."
+          }
+        ],
+        "restBetween": 180,
+        "restAfter": 120
+      },
+      {
+        "id": "legpress-station",
+        "name": "Leg Press + Calf Raise Station (Same Machine — Deep ROM) 🔥",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": 12,
+            "notes": "**LOAD:** 4 plates/side. 4 sets of 12. W20: all four sets 'both strong and full rom.'\n- **Full ROM — knees toward the chest.** The deep position trains the abs/QL/core as much as the quads — that's the intent\n- **Foot position:** shoulder-width, mid-foot on the platform, slight toe-out\n- **It feels harder cold** — the deep ROM opens once the hips are warm. You've noticed it feels easier later in the session; that's most likely just being warm, and since you're taking stations by availability anyway, it doesn't need solving\n- **Actively press to keep the lower back from lifting off the pad** at the bottom; if the hips roll off, back off a hair\n- **Press through the WHOLE foot; slow descent (3s), no bounce at the bottom**; don't lock out hard at the top\n- **🔥 A near-failure LAST set at 4 plates is fair game** — but DON'T add plates to chase it. Heavier plates shorten the deep ROM, and the deep ROM is the whole point."
+          },
+          {
+            "id": "leg-press-calf-raise",
+            "reps": 15,
+            "notes": "**LOAD:** 4 plates/side. 3 sets of 15. **Stay on the leg press — same machine, don't walk off and come back.** 🔥\n\nW20: 'good too; slow ecc good.' The slow eccentric is landing — keep it.\n- **Balls of both feet on the BOTTOM EDGE of the platform, heels hanging off**\n- **Full stretch at the bottom** — let the heels drop as far below the edge as they'll go\n- **Drive to FULL plantarflexion at the top**\n- **Slow eccentric, own the stretch at the bottom and the squeeze at the top** — no bouncing. 🔥 A hard last set is fine; it's a safe isolation."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 120
+      },
+      {
+        "id": "bulgarian-station",
+        "name": "Bulgarian Split Squat (Double-50 DBs; Smith @45 the Alternate; Pigeon Between Sets) 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "bulgarian-split-squat",
+            "equipment": "bench + DBs (regular default, double-50) — Smith machine if free (use smith-machine-bulgarian-split-squat)",
+            "reps": "8-10 each leg",
+            "notes": "**LOAD:** two 50lb DBs, one per hand. 3 sets of 8-10 each leg. **Regular DB version is the default; the Smith machine @45 is the QL-safe alternate when it's free.**\n\nW20: 'brutal at end but proper weight.' That's exactly the right read — this lift is supposed to be brutal at the end. Nothing to change.\n- **Rear foot up on the bench** behind you, laces down or toes tucked\n- **Step out far enough that the front shin stays roughly VERTICAL at the bottom** — too short a stance = the knee crashes past the toes\n- **Front knee tracks over the front foot** — not caving in\n- **Lower until the rear knee nearly touches the floor** — controlled, no dropping\n- **Drive up through the FRONT HEEL** — the front leg does the work, the rear leg is a kickstand\n- **Torso TALL** — a slight forward lean is fine, no folding over; 2s descent, own the bottom\n- **Pigeon on the bench between sets** — keeps the hip/QL loose under the load\n- **🛑 Form is the cap — don't grind double-50 to failure.** If the QL/knee twitches, drop to bodyweight for the remaining sets and finish."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "legcurl-station",
+        "name": "Seated Leg Curl (The Pyramid — 5/m/0/-1, Stays BEFORE Incline RDL) 🔥",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "seated-leg-curl",
+            "reps": 12,
+            "notes": "**LOAD — the pyramid:** 70 primer → 80 → 90 → 100. Slow tempo. **Settings: 5/m/0/-1** (verify before loading).\n\nYou called this ramp 'great' in W20, unprompted, the same session you praised the squat ramp. It stays exactly as it is.\n- **First set at 70 to groove the pattern** — it'll feel easy; that's the point\n- **Then climb 80 → 90 → 100**, testing the top on NORMAL rest (~60-90s)\n- **Ankles UNDER the pad** — the ankle bone is the contact point, NOT the mid-calf\n- **Lap pad locked DOWN firmly** — a loose pad lets the torso lift and turns it into lower-back work\n- **Curl the heels toward the glutes** — full ROM, full squeeze; **2s eccentric, 1s squeeze** — the slow eccentric is the whole stimulus\n- **🔥 Judge the top by the correct FEEL** — heels driving, hamstring working, torso anchored. If 100 keeps that feel, it's yours; if it drifts into torso-lift and momentum, that's the honest top — drop back. The feel is the cap, not the stack."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "incline-rdl-working",
+        "name": "🔆 Incline RDL (Spotlight — 'Fine' Is Not a Read) 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "incline-rdl",
+            "reps": 15,
+            "notes": "**LOAD:** 45lb plate. 3 sets of 15. **Tempo: 3s eccentric, 2s pause at the bottom, 1s drive up.**\n\n**🔆 SPOTLIGHT — this lift has come back as 'went fine' for three weeks and nothing else:**\n- **That's not a read.** No reps, no tempo, no sense of where its ceiling is — and it's a HINGE, which makes it the one lift on this day where a sloppy rep is genuinely expensive rather than just wasted\n- **Pad just below the hip crease** — NOT on the upper thigh, NOT on the stomach\n- **Hip hinge** — a Romanian deadlift on the 45° bench, NOT a lumbar extension. Lower back NEUTRAL throughout\n- **At the bottom, notice WHERE the stretch lands.** Hamstrings and glutes = correct. Lower back = you're going deeper than current mobility allows, and that's the QL asking for trouble\n- **Drive up by squeezing the glutes and hamstrings**; at the top, stop at neutral — past neutral = lumbar load\n- **🛑 The slow eccentric is the ENTIRE lever.** Hold the 45lb plate, keep slowing the tempo. Never chase load on a hinge, never grind one to failure.\n\n**Reflection:** with a genuine 3s down and a 2s pause, can you still get 15 — and where does the stretch actually land at the bottom? Those two answers are what this week is for."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "cooldown",
+        "name": "Cool-Down — 5 Min Recovery Block (Hip/QL-Biased for Legs Day)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "standing-cross-leg-lateral-stretch",
+            "duration": 60,
+            "notes": "30s each side. Scissor the legs, reach overhead, lean away from the back leg — bookend the session with the same QL/psoas release as the warmup."
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 90,
+            "notes": "45s each side. Deep hip-flexor and glute release — the long hold lets the QL and psoas let go."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 60,
+            "notes": "30s each side. Gentle twist for the QL — draw one knee across the body, opposite arm extended."
+          },
+          {
+            "id": "90-90-stretch",
+            "duration": 90,
+            "notes": "45s each side. Hip-rotator decompression."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift."
+          }
+        ],
+        "notes": "5-min recovery block, hip/QL-biased on legs day.",
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "**🔥/🛑 intensity tags.** 🔥 (near-failure/pyramid OK): leg press, calf raise, leg curl (pyramid to a tested top). 🛑 (cue/depth/form is the cap): squat, Bulgarian, incline RDL.",
+      "**Both ramps stay untouched** — the squat's 45→70→80 and the leg curl's 70→80→90→100. You praised both, unprompted, in the same session.",
+      "**Squat spotlight — DEPTH, and only depth.** 80 for clean 8s is settled. Set the catcher at your true max depth, take the full 2-3 min rest, chase the bottom. Stop adding sets when depth shortens. 🛑",
+      "**Incline RDL spotlight — 'fine' is not a read.** 45lb plate, 3s down, 2s pause. Tell me where the stretch lands: hamstrings/glutes (right) or lower back (too deep). 🛑",
+      "**Leg press holds 4 plates, deep** — 🔥 near-failure last set is fine, but don't add plates (that shortens the ROM).",
+      "**Bulgarian holds double-50** — 'brutal at end' is the correct read, not a problem. Pigeon between sets. 🛑",
+      "**Order is yours by availability** — but the calf raise stays ON the leg press, and the leg curl stays BEFORE the incline RDL.",
+      "**Dead-bug core/QL primer stays in the warmup.**",
+      "**Cross-leg lateral lean in the warmup AND cool-down** — QL/psoas release.",
+      "**Cool-down stays — 5-min block, hip/QL-biased on legs day.**",
+      "**Rest fast through the 45/70 ramp sets, full 2-3 min on the 80 working sets** — the rest is part of the depth."
+    ],
+    "formPhilosophy": "Steady-state legs week, and a week that mostly gets out of the way. Two things the last session said, it said clearly: the ramps work (praised twice, unprompted, on two different lifts), and the order doesn't matter much (stations get taken as they free up, and it's going fine). So neither gets touched. The spotlights instead go where the record is thin. The squat has banked its stability and its reps and has exactly one thing left to give — depth — and depth is a mobility question wearing a strength question's clothes, so it gets drilled rather than loaded. The incline RDL gets spotlighted because three weeks of 'went fine' is a lift nobody is actually watching, and a hinge is the wrong lift to stop watching. Form leads load. Building decades, not weeks.",
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w21-morning-flow",
+    "name": "W21 Morning Flow — Bodyweight Spine + Hip (All Days, Rotated Variety)",
+    "description": "15 min bodyweight floor flow — universal W21 morning flow, used every training day (Mon push / Tue KB / Wed pull / Thu KB / Fri legs). Same three-part shape with ~half the moves rotated: this week brings in the low-lunge thoracic rotation, the McGill crunch (a posture-check curl-up from McGill's Big 3), the inchworm walkout, and the frog stretch — and cycles back the couch stretch from the W12-era. Three-part: spine primer → bodyweight work → deep stretch arc. Day-specific therapeutic add-on at the end (push = pec-minor protocol; pull = dead hang + scap pull; legs = cross-leg lateral lean + pigeon + supine twist; KB days skip — banded prep covers it).",
+    "routineId": "functional-bulk",
+    "tags": [
+      "floor",
+      "mobility",
+      "thoracic",
+      "hips",
+      "morning",
+      "bodyweight",
+      "home",
+      "spine",
+      "variety"
+    ],
+    "estimatedDuration": 15,
+    "equipment": [
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "beginner",
+    "sets": [
+      {
+        "id": "primer",
+        "name": "Primer — Wake the Spine (~3 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "cat-cow",
+            "duration": 60,
+            "notes": "Slow, full ROM each direction. Spine wave wakes the segment-by-segment articulation."
+          },
+          {
+            "id": "low-lunge-thoracic-rotation",
+            "duration": 90,
+            "notes": "Rotates in for W21 — 45s each side. From a low lunge, plant the inside hand and rotate the outside arm up to the ceiling, following the hand with your eyes. Hip flexor stretch and thoracic rotation at the same time — it opens the two places that shut down from sitting."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — the wrist dials a stretch up the back chain. Stays in the primer."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 15
+      },
+      {
+        "id": "work-block",
+        "name": "Work Block — Bodyweight Activation (~5 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "push-up",
+            "reps": "max-ish (~2-3 in reserve)",
+            "notes": "**Greasing set — 1 quick set, NEVER to failure.** Daily frequency is the point (the floor rises over time). Elbows ~45° (not flared), ribs down, glutes tight, body one line, **pack down not up.** Stop 2-3 reps short. Back off / drop to knees if the right shoulder talks at the bottom."
+          },
+          {
+            "id": "inchworm-walkout",
+            "reps": 6,
+            "notes": "Rotates in for W21 — from standing, hinge and walk the hands out to a plank, hold a beat, then walk the feet toward the hands. Hamstring lengthener + a moving plank; it warms the whole posterior chain and the shoulders at once. Slow; don't let the hips sag in the plank."
+          },
+          {
+            "id": "mcgill-crunch",
+            "reps": "8 each side",
+            "notes": "Rotates in for W21 — the posture-check curl-up from McGill's Big 3. On your back, ONE knee bent (foot flat), the other leg straight; hands under the small of your back to preserve the natural lumbar curve. Lift head, neck and shoulders as ONE rigid unit — the neck doesn't crane, the low back does NOT flatten. Small range, hold ~10s, breathe. It trains the brace, not the crunch."
+          },
+          {
+            "id": "dead-bug",
+            "reps": "8 each side",
+            "notes": "Rotates in for W21 — on your back, arms up, knees over hips. Press the lower back FLAT into the floor and HOLD it there as you slowly extend the opposite arm + leg, then switch. The brace is the work, not the reach."
+          }
+        ],
+        "notes": "Opens with a pushup greasing set (1 quick set, never to failure — daily habit). Inchworm walkout, McGill crunch, and dead-bug rotate in for W21; the anti-rotation core theme carries over from the spiderman/shoulder-tap pair.",
+        "restBetween": 0,
+        "restAfter": 30
+      },
+      {
+        "id": "yoga-flow",
+        "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "scorpion-stretch",
+            "duration": 60,
+            "notes": "30s each side. Stays every week — signature spine move."
+          },
+          {
+            "id": "couch-stretch",
+            "duration": 90,
+            "notes": "Cycles back for W21 (a W12-era favorite) — 45s each side. Back foot up the wall or on a couch/bench, front foot planted, come up tall through the torso. The deepest quad + hip-flexor stretch in the flow, and the direct antagonist to a week of squats and lunges. Go slowly; this one bites."
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 60,
+            "notes": "30s each side. Hip flexor + adductor + back-leg quad. Drop to elbows if accessible. Stays — durable hip opener."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "Bodyweight, slow. Stays every week — keeps the loaded cossack pattern grooved."
+          },
+          {
+            "id": "leg-straddle-reaches",
+            "duration": 75,
+            "notes": "Stays — sit in a wide straddle, reach toward one foot, then center (chest toward the floor), then the other foot. Slow, breathe into each reach. The straddle + adductor + hamstring opener the flow design calls for."
+          },
+          {
+            "id": "frog-stretch",
+            "duration": 60,
+            "notes": "Rotates in for W21 — knees wide, shins parallel, hips sinking back toward the heels. A deep adductor and inner-hip opener; go in slowly and breathe, and back off the moment the knees complain rather than the hips."
+          }
+        ],
+        "notes": "Continuous arc — flow between shapes, breathe deeply. Anchors stay (scorpion, lizard, cossack BW, straddle reaches); couch stretch cycles back from the W12-era and the frog stretch rotates in for W21.",
+        "restBetween": 0,
+        "restAfter": 0
+      },
+      {
+        "id": "day-specific-addon",
+        "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 90,
+            "notes": "**📍 PUSH DAYS — KEY PROTOCOL MOVE.** 30s each at LOW / MID / HIGH elbow positions. Arm bent 90°, forearm on the door frame, step through and rotate the torso AWAY. Desk work continuously re-tightens pec minor — daily."
+          },
+          {
+            "id": "prone-y-raises",
+            "reps": 10,
+            "notes": "**📍 PUSH DAYS** — active side of the pec-minor fix. Lower trap + rotator cuff."
+          },
+          {
+            "id": "scapular-push-up",
+            "reps": 10,
+            "notes": "**📍 PUSH DAYS** — serratus activation, helps unstick a tight pec minor."
+          },
+          {
+            "id": "side-lying-external-rotation",
+            "reps": "10 each side",
+            "notes": "**📍 PUSH DAYS (optional)** — slow rotator cuff work. Add if the shoulder feels off."
+          },
+          {
+            "id": "wall-angel",
+            "reps": 12,
+            "notes": "**📍 PUSH DAYS (optional)** — pins the shoulder blades in the corrected position."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 25,
+            "notes": "**📍 PULL DAYS** — 25s. Decompress the shoulders, warm the grip."
+          },
+          {
+            "id": "scapular-pull",
+            "reps": 10,
+            "notes": "**📍 PULL DAYS** — scapulae retracting only, no elbow bend. Crisp scap engagement before loaded pulls."
+          },
+          {
+            "id": "standing-cross-leg-lateral-stretch",
+            "duration": 60,
+            "notes": "**📍 LEGS DAYS** — 30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — QL/psoas release. Also in the legs-workout warmup."
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 90,
+            "notes": "**📍 LEGS DAYS — QL-SPASM PROTOCOL.** 90s each side. Long hold lets the QL/psoas release. Non-negotiable on legs day."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 60,
+            "notes": "**📍 LEGS DAYS** — 60s each side. Gentle twist for the QL. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        ],
+        "notes": "**Pick today's day-specific protocol — push / pull / legs.** ~3-5 min total. KB days (Tue/Thu) skip this block — the in-workout banded prep covers the equivalent.",
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "Same shape as W11-W20, ~half the moves rotated. Morning flows stay low-fatigue; variety keeps them fresh.",
+      "**15 min main flow + 3-5 min day-specific add-on** — universal across W21 (Mon push / Tue KB / Wed pull / Thu KB / Fri legs).",
+      "**Scorpion + cossack BW + lizard pose + straddle reaches stay every week** — durable anchors.",
+      "**Rotated in for W21:** low-lunge thoracic rotation (primer), inchworm walkout, McGill crunch, dead-bug, frog stretch. **Cycled back (W12-era): couch stretch.**",
+      "**The McGill crunch is a brace, not a crunch** — hands under the low back to keep the lumbar curve, head/neck/shoulders lift as one rigid unit, small range, ~10s holds. If your low back flattens into the floor, you've turned it into the thing it's designed to replace.",
+      "**Day-specific add-on at the end** — push days do the pec-minor protocol, pull days do dead hang + scap pull, legs days do cross-leg lean + 90s pigeon + supine twist. KB days skip the add-on.",
+      "If short on time: low-lunge thoracic rotation + lizard + cossack BW + couch stretch, plus today's day-specific add-on."
+    ],
+    "formPhilosophy": "Same as W11-W20 — variety means different shapes hitting the same patterns. Scorpion-family spine work + hip openers + adductor/straddle stretches. W21 rotates roughly half: a low-lunge thoracic rotation opens the primer, the work block swaps the plank family for a bracing family (McGill crunch + dead-bug, both about NOT moving), and the stretch arc brings back the couch stretch from the W12-era alongside a frog stretch — the two deepest openers in the pool, aimed straight at what a week of squats and Bulgarians tightens. The rehab anchors and the day-specific PPL protocols stay. Building decades, not weeks.",
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w21-pull",
+    "name": "Week 21 Pull — Steady State (Spotlight: Chest-Supported Row + Incline Curl)",
+    "description": "Volume steady; the protective behind-back shrug stays front-loaded as activation. **Warmup reminder:** behind-back shrug FIRST (protective activation, 3 sets) → band-pull-apart → cat-cow → internal core fist rotation → active dead hang.\n\nSpotlights cycle to the **chest-supported row** (45 landed hard in W20 — set 2 rode to 15 at 'the edge' and set 3 died at 12; that's a working weight found, and now it needs a tempo) and the **incline curl** (getting done, never written down — so the left-arm lag, the whole reason for the left-first protocol, is running on a months-old number).\n\nPull-ups went to 10 across all four sets in W20 with the grip holding — a real jump. Hold bodyweight, hold the straight bar, keep banking clean reps. Lat pulldown holds 150. Reverse fly holds 20 and stays hard; that's honest.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "pull",
+      "upper-body",
+      "back",
+      "biceps",
+      "ppl",
+      "form-first",
+      "spotlight-rotation"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine",
+      "pull-up-bar",
+      "band"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Steady state. Shrug stays FIRST. Spotlights cycle to the chest-supported row (45 is dialed — now put a tempo on it) + the incline curl (the left-arm lag is running on a stale number — get a fresh one). Pull-ups jumped to 10 across — bank it, don't chase it. Lat pulldown holds 150. Grip is holding now, not failing.",
+      "spotlights": [
+        {
+          "exerciseId": "chest-supported-dumbbell-row",
+          "why": "Cycles forward — W20 confirmed 45 as the working weight in the most convincing way available: set 2 rode to 15 at 'the edge but felt good and supported,' and set 3 genuinely died at 12. That's a load found by feel, not by math. So the question moves from 'what weight' to 'what tempo' — spotlight drills the slow eccentric and the chest staying glued, because on a supported row the only way to cheat is to peel the chest off the pad."
+        },
+        {
+          "exerciseId": "incline-curl",
+          "why": "Cycles forward because it's the lift carrying the biggest open question and the least data. It's been getting done, but it sits in the back half of the session and never makes the write-up — so there's no current read on whether the LEFT arm is still falling apart on the last two sets. That lag is the entire reason the left-first protocol exists, and it's been running on a number that's months old. Spotlight drills the pinned upper arm (the elbow never lifts off the pad) and asks for the left's honest count."
+        }
+      ],
+      "rotationPlan": "W19 lat pulldown + face pull · W20 high cable curl + cable crunch · W21 chest-supported row + incline curl (current) · W22 cycle forward — pull-up + DB row refresh.",
+      "watchpoints": [
+        "**🔥/🛑 intensity tags — decide before the set.** 🔥 near-failure last set OK (safe isolation / supported): chest-supported row, incline curl, reverse fly, face pull, high cable curl, cable crunch. 🛑 keep it shy, grip/form is the cap: pull-up, DB row, lat pulldown (grip fails first — failure just means the hands quit, not that the back got worked; no straps). **Order:** form lever first (tempo/ROM), load second, near-failure last set only on 🔥 — by pushing the existing last set, not adding a round.",
+        "**Chest-supported row spotlight — 45 is dialed; the lever is now TEMPO.** W20: 12/15/12, set 2 to the edge, set 3 to failure. That's the right load. Put a 3s eccentric on it and keep the chest glued to the pad. 🔥 supported and safe — the last set can still ride hot.",
+        "**Incline curl spotlight — read the LEFT arm.** 25lb DBs on the incline bench (or the preacher bench if free). Left arm first, every set. The upper arm stays flat on the pad the entire rep. The left has historically fallen apart on the last two sets and we're running on a stale number — **the left's count on sets 2 and 3 is what this week wants.**",
+        "**Pull-ups jumped — 10 across all four sets in W20, grip 'also better.'** Up from W19's grip-limited 6/6/8/6. That's the floor rising, not a target to chase. Hold bodyweight, hold the straight bar, keep the slow eccentrics, bank clean reps. 🛑",
+        "**A mild shoulder crackle showed up on the pull-ups in W20** — 'not too painful,' didn't limit anything. Watch it; no action while it stays pain-free, but say something if it escalates.",
+        "**DB row: grip HELD in W20** (10/10/8 up the 70/80/90 pyramid; the left tired on the last set but held). Same pyramid, no straps. 🛑 set the DB down when grip gives, not when the back fails.",
+        "**Reverse fly holds 20 — and it's supposed to be hard.** 'Really hard again' two weeks running, but grip and everything else was fine, so this reads as an honest rear-delt weak point rather than fatigue carryover. Hold 20, keep the slow eccentric, don't chase reps. 🔥",
+        "**Lat pulldown holds 150 — 🛑 don't step up.** Only one set was reported in W20 (150x12), so there's still no clean set-3 read. Drill the slow controlled return; that's where 150 tidies up.",
+        "**Face pull holds the settled 50** — 'went fine, hard-ish, didn't do more.' Knuckles-up, elbows above the shoulders. 🔥 quality over number.",
+        "**Cable crunch reads ~65.5 comfortable / 70.5 brutal — READ THE STACK.** The magnetic add-ons drift the number (W19 read 67.5, W20 read 65.5). 🔥 hips locked is the real cap, not the number.",
+        "**Behind-back shrug stays FIRST (activation slot).** The protective counter to all the pulling can't be the piece a rushed session drops.",
+        "**Left bicep first, every set.**"
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (Pull-up Bar Station)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 15,
+            "notes": "Scap activation. Squeeze the shoulder blades together, soft elbow."
+          },
+          {
+            "id": "cat-cow",
+            "reps": 10,
+            "notes": "Spine warm — slow, full ROM each direction."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and the pulling chain before bar work."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 30,
+            "notes": "Active hang, not collapsed — engage the lats, pull the shoulders DOWN away from the ears even at full extension. Primes the pull-ups."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 60
+      },
+      {
+        "id": "shrug-activation",
+        "name": "Behind-Back DB Shrug — Protective Activation (DO THIS FIRST)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "behind-back-dumbbell-shrug",
+            "equipment": "DB pair, held behind the body",
+            "reps": "12-15",
+            "notes": "**LOAD:** 40-50lb pair. 3 sets — first in the session.\n\n**Why here, first:** the 'opposite movement' to all the pulling — a counter/decompression for the right shoulder. Front-loading it keeps pull day flare-free. Reads more like a stretch than a lift; that's the point.\n- **DBs held BEHIND the body** at the sides of the hips/glutes — palms facing back\n- **Shoulders pull DOWN and BACK** at the start — packed, not relaxed\n- **Shrug UP and slightly BACK** — pinch the shoulder blades at the top\n- **Hold 1s at the top**, slow descent; **pack DOWN, NOT up** as the resting position — the lower position IS the work\n- Chest open, not slouched."
+          }
+        ],
+        "notes": "Protective trap-chain activation, front of the session. ~4 min. Light-to-moderate, peak-squeeze — a decompression, not a max effort.",
+        "restBetween": 60,
+        "restAfter": 90
+      },
+      {
+        "id": "pullup-station",
+        "name": "Pull-Ups — Straight Bar (4 Sets — Bank the New Floor) 🛑",
+        "type": "exercises",
+        "rounds": 4,
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "8-10",
+            "notes": "**LOAD:** Bodyweight. 4 sets. W20 went 10/10/10/10 on the straight bar with slow-ish eccentrics and the grip holding — a big jump from W19's grip-limited 6/6/8/6.\n\n**The floor rose. Bank it, don't chase it** — the job now is clean reps at the new level, not a bigger number.\n\n**Straight bar** — the swivel grip rotates toward the bicep mid-pull and pulls work off the lats.\n- **Active hang start**, shoulders pulled down out of the ears — NOT a collapsed dead hang\n- **Pull elbows DOWN to ribs**, NOT chin to bar — 'drive the elbows into the back pockets'\n- **Chest leads to the bar at the top**, eyes ahead, head neutral\n- **Slow eccentric ~2-3s**, active hang at the bottom of every rep — no dropping, no kip\n- **🛑 Stop the set when the rep stops being clean.** Bank 8 clean over 10 sloppy. No straps.\n- **Shoulder watch:** a mild crackle showed up here last week ('not too painful'). If it's still there and still painless, carry on — but say so if it changes."
+          }
+        ],
+        "restBetween": 150,
+        "restAfter": 90
+      },
+      {
+        "id": "db-bench-block",
+        "name": "🔆 DB Rack / Bench Block — DB Row 🛑 + Chest-Supported Row (Spotlight) 🔥 + Incline Curl (Spotlight) 🔥 + Reverse Fly 🔥 (3 Rounds)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dumbbell-row",
+            "reps": "10/10/8",
+            "notes": "**LOAD:** 70/80/90 ascending pyramid — one set per round (70, then 80, then 90). No straps. 🛑\n\nW20 ran 10/10/8 and 'grip is holding' — the left tired on the last set but held. Same pyramid.\n- **Chest-supported on the incline bench** — chest glued to the pad, no twisting up for the last reps\n- **Pull the elbow toward the HIP, not the armpit** — keeps it in the lats\n- **Slow 2s descent, 1s squeeze on the 70 and 80**\n- **On the 90 set, let the strong side creep** — drive the elbow, chase clean reps before form breaks\n- **🛑 Grip is the limiter** (left hand taps first) — set the DB down when grip gives, not when the back fails. No straps — train the grip."
+          },
+          {
+            "id": "chest-supported-dumbbell-row",
+            "reps": "10-12",
+            "notes": "**LOAD:** 45. 3 sets. 🔥\n\n**🔆 SPOTLIGHT — the load is found; now put a tempo on it:**\n- **W20 confirmed 45 the honest way** — set 2 rode to 15 at 'the edge but felt good and supported,' set 3 genuinely died at 12. That's a working weight discovered by feel, and it's right\n- **The lever now is a slow 3s eccentric** — hold 45 and make the descent the hard part\n- **Chest stays GLUED to the incline bench** — on a supported row the ONLY way to cheat is to peel the chest off the pad to heave the DBs. If the chest lifts, the rep didn't count\n- **Pull the elbow toward the HIP, not the armpit**; don't rotate the torso\n- **Full stretch at the bottom** — let the shoulder blade protract, then re-pull from the stretch\n- **🔥 Safe supported row — the last set can ride close to failure at 45** (push the set you have, not an extra round).\n\n**Reflection:** with a genuine 3s eccentric, does 45 still give you 12 — or does the tempo cost you reps? Losing reps to a slower eccentric is the lift working, not a step back."
+          },
+          {
+            "id": "incline-curl",
+            "reps": "8-10",
+            "notes": "**LOAD:** incline bench 25lb DBs (default) — or the actual preacher bench (EZ bar ~2×10) when it's free. 3 sets. 🔥\n\n**🔆 SPOTLIGHT — the left arm needs a fresh number:**\n- **The left-first protocol is running on a stale read.** The left has historically fallen apart on the last two sets, and that lag is the entire reason the protocol exists — but there's no recent count to say whether it's closing, holding, or getting worse\n- **Left arm FIRST, every set** — no exceptions\n- **Incline bench ~45°, lean in chest-first** — the upper arm stays FLAT ON THE PAD the entire rep. If the elbow lifts to help, the bicep stopped being the thing doing the work\n- **Full stretch at the bottom — pause 2s**; curl smoothly to the peak squeeze, no swing; 2-3s eccentric\n- **🔥 Isolation — a near-failure last set is fine.**\n\n**Reflection:** how many does the LEFT actually get on sets 2 and 3, and does the elbow stay pinned to the pad when it starts to struggle? Two numbers is all this needs — and they decide whether the left-first protocol still earns its place."
+          },
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": 12,
+            "notes": "**LOAD:** 20lb. 3 sets of 12. 🔥\n\nIt's been 'really hard' two weeks running — but the grip and everything else were fine, so this reads as an honest rear-delt weak point, not fatigue carryover. **That's fine. Hold 20 and keep it hard.**\n- **30° reverse-incline** (chest-down on the incline bench), DBs hanging fully extended at the start\n- **Soft elbow ~10-15°, FIXED throughout** — a sweep, NOT a row\n- **Lead with the elbow, hand passive**; wings out and slightly UP to shoulder height — sweep wide, don't shrug\n- **Hold the top a beat, then 2s eccentric** — take the slow eccentric where you can get it; normal pace on the last set is fine\n- 🔥 quality over the number. Don't chase reps here."
+          }
+        ],
+        "notes": "One trip to the DB rack covers all 4 lifts. Incline bench at ~30° for the rows + reverse fly (30° reverse-incline), set to ~45° for the incline curl. Both spotlights live in this block. 3 rounds.",
+        "restBetween": 90,
+        "restAfter": 120
+      },
+      {
+        "id": "lat-pulldown-station",
+        "name": "Lat Pulldown (3 Sets at 150 — Drill the Return) 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "lat-pulldown",
+            "reps": "8-12",
+            "notes": "**LOAD (pick whichever station's free, log which + the number):** Regular machine **150** (the working number, back-left) · dual pulley **70** · cable column **52.5-57.5** · cable pulley **47.5**. 3 sets.\n\nOnly one set got reported in W20 (150x12), so there's still no clean read on set 3. Hold 150 — don't step up until it tidies.\n- **Wide grip near the bend** — more lat isolation, less bicep\n- **Slight backward lean ~15°, NO further** — more = it becomes a row\n- **Pull the bar to the UPPER CHEST — NEVER behind the neck**; 'lats squeezing oranges into the back pockets'\n- **1s pause at the contraction, 2s controlled return** — the slow return is the thing to drill; that's where 150 cleans up\n- **🛑 Grip is the end limiter** — bank clean reps over ugly ones, no straps, don't grind."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "face-pull-station",
+        "name": "Cable Column — Face Pull (3 Sets at the Settled 50) 🔥",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "face-pull",
+            "equipment": "cable column (mid/upper-chest height + rope)",
+            "reps": 20,
+            "notes": "**LOAD:** cable column **50** (settled — W20 'went fine, hard-ish, didn't do more'). 🔥\n- **Grip the rope ends in fists, knuckles up** — the change that made 50 feel right\n- **Pull the rope to face level** — not to the chest\n- **ELBOWS HIGH (above the shoulders)** — the make-or-break cue; this moves the work into the back\n- **External-rotate at the top** — knuckles point UP, like the top of a double-biceps pose\n- **1s peak hold, slow 2s return** — let the cable pull the arms back, don't drop\n- **🔥 Rear-delt safe — the last set can ride close to failure** as long as the elbows stay high; if they drop, that's the honest end."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 60
+      },
+      {
+        "id": "finisher",
+        "name": "Cable Column Finisher — High Cable Curl + Cable Crunch 🔥",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "high-cable-bicep-curl",
+            "equipment": "cable column or single pulley (single D-handle, one arm at a time)",
+            "reps": "10-12",
+            "notes": "**LOAD (single arm — the scales differ, LOG which station):**\n- **Single pulley: 62.5** — the harder scale (W19: brutal, 'barely finished set 2 but did all')\n- **Cable column (single D-handle): ~180**\n2-3 working sets per arm.\n- **Stand sideways, arm out at shoulder level, upper arm PARALLEL to the floor and FIXED** — the elbow doesn't drop\n- **Curl the hand toward the ear**, peak squeeze\n- **Left arm first**; slow eccentric, no bounce at the start\n- **🔥 Safe isolation — a near-failure last set is fair game.**\n\n**Note which station you used** — the single-pulley 62.5 and the column 180 are completely different scales, so a bare number is unreadable later."
+          },
+          {
+            "id": "cable-crunch",
+            "reps": "12-15",
+            "notes": "**LOAD (pick whichever station's free, log which — AND read the actual stack):** Cable pulley (rope) **~65.5** comfortable at x15 · **70.5** brutal ceiling. **The magnetic micro add-ons drift the number** — W19 read 67.5, W20 read 65.5. Read the stack before you start. 3 sets.\n\nW20 ran 65.5x15 then 70.5x15 'pretty damn hard' — the ceiling is real and reachable.\n- **HIPS LOCKED** — the most important cue; the hips do not move. Hips moving = hip-flexor work, not abs\n- **Crunch from the abs ONLY** — the spine flexes, the hips stay put\n- **Chest toward the thighs**, hold the crunch 1 second\n- **Slow eccentric, all the way**\n- **🔥 Core isolation — the last set can ride close to failure**, but hips locking is the real cap: if the hips start yanking to move more weight, that's the end."
+          }
+        ],
+        "notes": "Same cable column / single-pulley station. 3 sets each. Log the station on the curl — the single-pulley and column scales aren't comparable.",
+        "restBetween": 75,
+        "restAfter": 90
+      },
+      {
+        "id": "cooldown",
+        "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 60,
+            "notes": "30s each arm at MID elbow position. Pec minor lengthen."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 45,
+            "notes": "Passive hang. Don't engage — let the shoulders unpack and the spine decompress."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 60,
+            "notes": "30s each side. Draw one knee across the body, opposite arm extended."
+          },
+          {
+            "id": "90-90-stretch",
+            "duration": 90,
+            "notes": "45s each side. Hip-rotator decompression."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "60s slow breathing. Parasympathetic shift."
+          }
+        ],
+        "notes": "5 minutes of recovery work, non-negotiable closing block.",
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "**🔥/🛑 intensity tags.** 🔥 (near-failure last set OK): chest-supported row, incline curl, reverse fly, face pull, high cable curl, cable crunch. 🛑 (grip/form is the cap): pull-up, DB row, lat pulldown.",
+      "**Chest-supported row spotlight — 45 is dialed, TEMPO is the lever.** A genuine 3s eccentric, chest glued to the pad. Losing reps to the slower tempo is the lift working.",
+      "**Incline curl spotlight — the left arm needs a fresh number.** Left arm first, upper arm pinned to the pad. The left's count on sets 2 and 3 is what this week wants.",
+      "**Pull-ups jumped to 10 across all four sets** — bank the new floor, don't chase a bigger number. Straight bar, slow eccentrics, no straps. 🛑",
+      "**DB row holds 70/80/90 — grip held last week.** No straps; set the DB down when the grip gives.",
+      "**Reverse fly holds 20 and stays hard.** Two weeks of 'really hard' with everything else fine = an honest rear-delt weak point. That's not a problem to fix.",
+      "**Lat pulldown holds 150** — still no clean set-3 read. Drill the slow controlled return. 🛑",
+      "**Face pull holds the settled 50** — knuckles-up, elbows high. 🔥",
+      "**Cable crunch — READ THE STACK** (~65.5 comfortable, 70.5 brutal; the add-ons drift it). Hips locked is the cap.",
+      "**Behind-back shrug stays FIRST** — protective decompression that keeps pull day flare-free.",
+      "**Left bicep first, every set.**",
+      "**Cool-down stays — 5-min block, permanent every gym day.**",
+      "Rest: shrug 60s, 2.5 min pull-ups, 90s DB block, 2 min lat pulldown, 90s face pull, 75s finisher."
+    ],
+    "formPhilosophy": "Steady-state pull week with the protective shrug leading. Both spotlights this week come from what the last session did and didn't say. The chest-supported row got its load confirmed in the most honest way there is — one set ridden to the edge, one set that genuinely failed — so the load question is closed and the tempo question opens. The incline curl gets spotlighted precisely because it vanished from the report: the left-arm lag is a real thread, and a thread nobody pulls on is a thread that quietly rots. Meanwhile the pull-ups jumped from 6s to 10s with the grip holding, which is the whole program's thesis in one line — the floor rose because form and frequency were kept honest, not because anything got chased. Building decades, not weeks.",
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w21-push",
+    "name": "Week 21 Push — Steady State (Spotlight: Dips + Farmer Carry)",
+    "description": "Loads hold where they've settled. **Warmup reminder:** arm circles → Yuri's band shoulder warmup → bottoms-up press (18lb, 8/side, forward + T-plane, T-plane light) → light Kinesis-fly chest opener → internal core fist rotation → push-up → pull-up greasing set → protective behind-back shrug.\n\nSpotlights cycle to the **dips** (12 deep across all three sets in W20, and the sore spot was your palm, not your shoulder — so the lever now is tempo, not reps) and the **farmer carry** (which you've been doing every week without ever writing down — so it's the lift we know the least about, and grip is the whole point of it). Push press holds 45. Incline DB holds 50 at the clean 12s it just earned — the pack-down surviving to set 3 is the one thing still unconfirmed.",
+    "routineId": "functional-bulk",
+    "tags": [
+      "gym",
+      "strength",
+      "push",
+      "upper-body",
+      "chest",
+      "shoulders",
+      "triceps",
+      "ppl",
+      "form-first",
+      "spotlight-rotation"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine",
+      "band",
+      "pull-up-bar",
+      "bodyweight",
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Steady state — loads hold, the work is tempo. Spotlights cycle to the dips (bodyweight, depth held; slow it down) and the farmer carry (the lift with the least data on it — one hold-time number is all it needs). Push press holds 45. Incline DB holds 50 — confirm set 3.",
+      "spotlights": [
+        {
+          "exerciseId": "dip",
+          "why": "Cycles forward — W20 landed 12 deep reps on all three sets, and the only thing that hurt was the PALM against the bar. Shoulder was fine. That means depth and reps are no longer the frontier; tempo is. Spotlight drills the slow controlled descent and the packed-shoulder top, which is the progression you named yourself ('good to work on slowing down'). Bodyweight stays — nothing to add."
+        },
+        {
+          "exerciseId": "farmer-carry",
+          "why": "Cycles forward because it's the lift with the least data on it. It's been getting done every week, but it lands at the tail of the session and never makes it into the write-up — so there's no hold-time on record and no idea whether grip or posture gives out first. That matters here more than on most lifts: grip is the whole point, and the tall packed posture is doing double duty as right-shoulder decompression. Spotlight drills both and asks for one number."
+        }
+      ],
+      "rotationPlan": "W19 push press + lateral raise · W20 incline DB + Kinesis fly · W21 dips + farmer carry (current) · W22 cycle forward — push press + cable block refresh.",
+      "watchpoints": [
+        "**🔥/🛑 intensity tags — decide before the set.** 🔥 near-failure last set OK (safe isolation): lateral raise, cable lateral raise, cable tri ext, straight-arm pulldown. 🛑 keep it shy, the cue is the cap (shoulder/press-loaded): push press, incline DB, dips, Kinesis fly. Farmer carry: grip caps it — set the bells down when grip gives. **Order:** form lever first (tempo/ROM), load second, near-failure last set only on the 🔥 lifts — and by pushing the existing last set, not adding a round.",
+        "**Dips spotlight — the lever is TEMPO now, not reps.** W20 was 12 deep across all three sets. Depth is there, reps are there. Slow the descent to a genuine 3s and pause a beat at the bottom. 🛑 bodyweight stays — nothing to add, nothing to chase.",
+        "**Palm watch on the dips.** W20 the sore spot was the palm against the bar, not the shoulder. If it keeps showing up, say so — it's a bar/hand-position problem, not a strength one, and it's fixable.",
+        "**Farmer carry spotlight — the lift with no data on it.** 50lb, 3 walks, chase hold-time. Grip is the honest limiter: set the bells down when the grip gives, not before. No straps. **The read this week: roughly how long can you hold, and does grip or posture give first?**",
+        "**Incline DB holds 50 — confirm set 3.** W20 gave 12 and 12 at 50 ('breaks makes these feel easy'), but set 3 was never reported. A clean 12 across ALL THREE with the pack-down intact is the green light for the next nudge. 🛑 The pack-down is the stop sign — a shrug to finish means it's too heavy for the cue.",
+        "**Push press holds 45 on the FULL 2 min rest.** W20 ran 10/10/10 and it was hard — set 3 came close to the edge and the form still held. That's the cap working. 🛑 reps/quality, never a grind.",
+        "**Bottoms-up press stays in the warmup** — 18lb, 8/side, forward press + T-press, T-plane lighter. Bail to forward-only if the shoulder talks.",
+        "**Light Kinesis-fly opener stays in the warmup** — a few easy tree-hugger reps to open the chest; primes, doesn't fatigue.",
+        "**Run push press first when the rack's free** — fresh shoulders for the heavy overhead lift.",
+        "**Mini-dip warmup stays on the dip station** — lean on the bar, a few mini-dips warm the shoulder and 'crack' the same spot the protective shrug does.",
+        "**Pack DOWN, not up** — push press, lateral raise, incline DB, dips, farmer carry all carry the cue. A lockout that needs a shrug = the load's too heavy for the cue.",
+        "**Cable block lists per-equipment numbers (column / rope pulley / Kinesis)** — pick what's free, log the equipment + number. Straight-arm pulldown read 'really hard' at 120 in W20; it runs last, so that's fatigue, not a load problem. Hold 120.",
+        "**Day is at capacity — no adds.**"
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup + Shoulder Rehab (Non-Negotiable) + Bottoms-Up Cuff Prep + Chest Opener + Pull-Up Greasing + Protective Shrug",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "10 each direction",
+            "notes": "Slow, big circles. Wake up scap glide before loading."
+          },
+          {
+            "id": "yuris-shoulder-band-warmup",
+            "reps": 1,
+            "notes": "Full sequence with red band. Non-negotiable on push day."
+          },
+          {
+            "id": "kettlebell-bottoms-up-press",
+            "reps": "8 each side",
+            "notes": "**LOAD:** 18lb. Rotator-cuff prep before pressing — bell inverted over a vertical forearm, grip HARD, shoulder packed. **8/side in two planes:** forward press (straight overhead) + T-press (out toward a T at shoulder height). **Keep the T-plane lighter** — the abducted-and-loaded angle is the one the right shoulder likes least; bail to forward-only if it talks."
+          },
+          {
+            "id": "kinesis-cable-fly",
+            "reps": "12-15",
+            "notes": "**Light loosening opener — NOT a working set.** Light load: 'hug a tree' forward, then let the cables pull the arms open into the pec stretch. Primes the chest before pressing; quick and easy, doesn't fatigue."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension. Wakes the grip and shoulder line — and today the grip matters twice (dips, carry)."
+          },
+          {
+            "id": "push-up",
+            "reps": 12,
+            "notes": "Ribs down, glutes tight, body in one line. Slow eccentric, 1s pause with chest 1-2\" off the floor."
+          },
+          {
+            "id": "pull-up",
+            "reps": "6-8",
+            "notes": "**Pull-up greasing set.** 1 fresh set, slow tempo, NOT to failure. Active hang start, pull elbows down to ribs, chest leads. Frequency over max effort — drop to scapular-pulls if the shoulder talks, and finish the count."
+          },
+          {
+            "id": "behind-back-dumbbell-shrug",
+            "reps": "12-15",
+            "notes": "**Protective shrug (greasing set).** 1 light set, DBs held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs no time, easy to forget."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 90
+      },
+      {
+        "id": "push-press-station",
+        "name": "Push Press (3 Sets at 45, Run First, FULL 2 Min Rest) 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "push-press",
+            "reps": "8-10",
+            "notes": "**LOAD:** 45lb DBs per side. 3 sets of 8-10. Run first when the rack's open.\n\n**REST: a FULL 2 minutes between sets.** W20 ran 10/10/10 at 45 with the strict rest — hard by set 3, and the form held to the end. That's exactly where this lift should sit.\n\n**🛑 The cue is the cap — no grinding to failure on the overhead lift.**\n- **Ribs DOWN before the dip** — catch any rib flare on set 1\n- **Shallow dip ~3-4\"**, straight down through the heels — the drive comes from the legs\n- **Vertical DB path** — DBs travel up next to the ears, head pokes through at the top\n- **Pack DOWN, not up** at the lockout — if it needs a shrug, the load's too heavy for the cue\n- Explosive drive up, controlled descent."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "incline-db-station",
+        "name": "Incline DB Press (50 — Confirm the Clean 12 on Set 3) 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "incline-dumbbell-press",
+            "reps": 12,
+            "notes": "**LOAD:** 50 pair. 3 sets of 12. Fast-up / controlled-down, 1s pause at the bottom. **REST: a FULL ~2 min between sets.**\n\nW20 gave a clean 12 and 12 at 50 — 'breaks makes these feel easy.' Set 3 was never reported, and that's the one that matters: a clean 12 across ALL THREE with the pack-down intact is the green light for the next load nudge.\n- **Bench at 30°**, not 45° — steeper biases front delt over upper chest\n- **Shoulders packed back AND down** — pin the back of the shoulder into the bench, hold it the whole set\n- **Forearm stacked vertically over the elbow at the bottom** — keeps the load off the front of the shoulder\n- **Elbows ~45° from torso**, not flared to 90°\n- **1s pause at the bottom**, press to a fingerwidth apart at the top\n- **🛑 Pack-down is the stop sign** — if you shrug UP to finish a rep, it's too heavy for the cue; back to 45. Never grind this to failure.\n\n**Reflection:** does set 3 hold a clean 12 with the pack-down intact, or does it start needing a shrug? That's the whole question this week."
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 120
+      },
+      {
+        "id": "dips-station",
+        "name": "🔆 Dips — Chest-Bias / Lean-Forward (Spotlight — Slow It Down; Mini-Dip Warmup First) 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "dip",
+            "reps": "10-12",
+            "notes": "**LOAD:** Bodyweight, parallel bars. 3 sets of 10-12 deep reps. (Supported/assisted machine or band-assist if the front shoulder talks.)\n\n**Mini-dip warmup FIRST:** lean on the bar and do a few mini-dips — warms the shoulder and 'cracks' the same spot the protective shrug does.\n\n**🔆 SPOTLIGHT — depth is banked, tempo is the lever now:**\n- **W20 landed 12 deep reps on all three sets** and the only sore spot was the PALM, not the shoulder. So reps and depth aren't the frontier anymore\n- **Slow the descent to a genuine 3s** and **pause a beat at the bottom** — this is the progression you named yourself ('good to work on slowing down')\n- **Lean the torso forward ~15-30°, elbows flare slightly** — shifts load onto the chest; legs fold back behind you for the lean\n- **Pack the shoulders DOWN and BACK at the top** — never shrug up; pack-down is the whole game on dips\n- **Drive up to a soft lockout** — don't slam it\n- **🛑 Bodyweight stays. Nothing to add, nothing to chase** — a slower 10 beats a faster 12\n- **Front-pec watch:** pressure at the bottom stretch is expected; if it tips to PAIN, shorten the depth or move to the supported machine.\n\n**Reflection:** how does a 3s descent feel compared to last week's pace — does the bottom position get harder to own, or does it get easier because you're not falling into it? And is the palm still the sore spot?"
+          }
+        ],
+        "restBetween": 120,
+        "restAfter": 90
+      },
+      {
+        "id": "lateral-raise-station",
+        "name": "DB Lateral Raise (3 Sets at 15) 🔥",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "lateral-raise",
+            "reps": "15-18",
+            "notes": "**LOAD:** 15lb DBs. 3 sets of 15-18. W20 ran 18/18/22 with the last set to failure on a slow eccentric that 'felt fine.'\n- **Lead with the elbow, hand passive** — the wrist follows the elbow, the hand never lifts first\n- **Soft elbow ~10-15°, FIXED** through the whole rep\n- **Stop at shoulder height — never higher** (higher just shrugs the traps off the medial delt)\n- **2s eccentric** — the slow descent is the stimulus\n- **🔥 Fair game for a near-failure LAST set** — this is a safe isolation; push the set you have, don't add a round. Scap reset between sets keeps the right shoulder quiet."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "kinesis-fly-station",
+        "name": "Kinesis Cable Fly (Step Forward to Deepen) 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "kinesis-cable-fly",
+            "reps": "10-12",
+            "notes": "**LOAD:** Kinesis 9.\n- **STEP FORWARD to deepen the stretch** — that's the lever; a step forward makes it harder than more load ever would\n- **Slight forward hinge at the hips** — chest leads, not the head\n- **Soft elbow ~10-15°, FIXED throughout** — these are NOT presses; the elbow angle never changes\n- **'Hug a tree'** — the squeeze comes from the chest, not the arms pulling together\n- **Stop a fistwidth apart at the top** — don't crash the handles\n- **Slow eccentric (~3s)** — let the cables pull the arms into the deep pec stretch; the right shoulder/pec reads this loaded stretch as relief\n- **🛑 Control-capped, not failure** — protect the deep stretch, own the eccentric; never grind a loaded fly."
+          }
+        ],
+        "restBetween": 90,
+        "restAfter": 90
+      },
+      {
+        "id": "cable-column-block",
+        "name": "Cable Block — Lat Raise → Tri Ext → Straight-Arm Pulldown (Per-Equipment Numbers, 3 Rounds) 🔥",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "cable-lateral-raise",
+            "reps": 12,
+            "notes": "**LOAD (pick what's free, log which):** Cable column **30** (the pain-free home) · regular pulley D-handle at ankle height **10** · Kinesis **5-6**. 3 rounds, one arm at a time.\n- **Lead with the elbow as a DIRECTION** — the elbow points, doesn't bend\n- **Soft elbow ~10°, FIXED**; stand sideways, working arm farther from the stack\n- **Stop at shoulder height — higher = traps**; 2s eccentric, fight the cable down.\n- **🔥 Safe isolation — the last round can ride close to failure if it's easy.**"
+          },
+          {
+            "id": "incline-cable-overhead-tricep-extension",
+            "reps": "10-12",
+            "notes": "**LOAD (pick what's free, log which):** Cable column **70** (default) · rope pulley **~35** · Kinesis **5**. 3 rounds. **Always kneeling — no bench at this station; the forward torso lean IS the 'incline.'** W20 rode the last one out to 16.\n- **Kneel facing AWAY from the high pulley**, rope overhead; **elbows PINNED** — only the forearms move\n- **Full stretch at the bottom** — let the rope pull the hands behind the head; stop just shy of lockout, slow eccentric\n- Set 1 feels easy, set 3 is brutal — that shape is the lift working. **🔥 Ride set 3 close to failure if you want the extra stimulus.**"
+          },
+          {
+            "id": "straight-arm-pulldown",
+            "reps": 12,
+            "notes": "**LOAD (pick what's free, log which):** Cable column **120** · rope pulley **50** · Kinesis **6**. 3 rounds. W20 held 120x12 across all three and called it 'really hard today' — it runs last, so that's honest end-of-session fatigue. Hold 120.\n- **Stand a step back, hinge ~15° at the hips** — fixed hinge, torso doesn't pump; slight elbow bend (~5°), FIXED\n- **Pull the bar to the thighs, NOT past** — past = shoulders roll forward, lats switch off; squeeze the lats hard ('oranges into the back pockets')\n- **Slow controlled return to a full overhead stretch.** Runs last — reps may fall on later sets; that's honest. **🔥 Isolation-ish — a hard last set is fine.**"
+          }
+        ],
+        "notes": "Cable block — sharp cues, 3 rounds, one trip to the chosen station covers all three. Column is the default; the pulley numbers are the fallback when the column's taken. Pick what's free and log it.",
+        "restBetween": 75,
+        "restAfter": 90
+      },
+      {
+        "id": "farmer-carry-block",
+        "name": "🔆 Farmer Carry (Spotlight — 3 Walks, Grip Caps It)",
+        "type": "exercises",
+        "rounds": 3,
+        "exercises": [
+          {
+            "id": "farmer-carry",
+            "equipment": "DB rack",
+            "duration": 50,
+            "notes": "**LOAD:** 50lb DBs. 3 walks of ~45-60s each — chase hold-time.\n\n**🔆 SPOTLIGHT — the lift with the least data on it:**\n- **Stand TALL** — ribs down, crown reaching up, no leaning back\n- **Shoulders pulled DOWN and BACK** — into the back pockets, never shrugged; the tall packed posture doubles as right-shoulder decompression, which is half the reason this block exists\n- **Neck long, eyes forward** — no chin poke\n- **Grip firm but NOT death-clenched** — grip is the limiter and it taps before the shoulder does. Set the bells down when grip fails rather than white-knuckling. No straps — the grip IS the training\n- **Walk a straight line at a deliberate pace**, breathing steadily.\n\n**Reflection — one number is all this needs:** roughly how long can you hold the 50s with the shoulders staying packed, and does the **grip** give out before the **posture** does, or the other way round? That answer decides whether the carry is training grip or training posture right now."
+          }
+        ],
+        "notes": "Trap-chain + grip block. 3 walks at 50lb — packed-shoulder posture, grip as the honest edge. Set them down when grip gives, not before.",
+        "restBetween": 75,
+        "restAfter": 90
+      },
+      {
+        "id": "cooldown",
+        "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+        "type": "exercises",
+        "rounds": 1,
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 60,
+            "notes": "30s each arm at MID elbow position. Pec minor lengthen — the antagonist to the upper-trap chain loaded all session."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 45,
+            "notes": "Passive hang from the pull-up bar. **Don't engage** — let the shoulders unpack and the spine decompress."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 60,
+            "notes": "30s each side on the mat. Draw one knee across the body, opposite arm extended."
+          },
+          {
+            "id": "90-90-stretch",
+            "duration": 90,
+            "notes": "45s each side. Front leg + back leg at 90°. Sink the hips toward the floor — hip-rotator decompression."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift before leaving the gym."
+          }
+        ],
+        "notes": "5 minutes of recovery work, non-negotiable closing block.",
+        "restBetween": 0,
+        "restAfter": 0
+      }
+    ],
+    "tips": [
+      "**🔥/🛑 intensity tags.** 🔥 (near-failure last set OK): lateral raise, cable lateral raise, cable tri ext, straight-arm pulldown. 🛑 (the cue is the cap): push press, incline DB, dips, Kinesis fly. Farmer carry: grip caps it.",
+      "**Dips spotlight — depth is banked, TEMPO is the lever.** 12 deep across all three sets last week with only a sore palm. Slow the descent to 3s, pause at the bottom. Bodyweight stays.",
+      "**Farmer carry spotlight — the lift with no data on it.** 50lb, 3 walks, chase hold-time, no straps. One number: roughly how long, and does grip or posture give first?",
+      "**Incline DB holds 50 — confirm set 3.** 12 and 12 landed last week; the third set is the unconfirmed one, and a clean 12 across all three is the green light.",
+      "**Push press holds 45 on the FULL 2 min rest** — 10/10/10 last week, hard but the form held. That's the cap working.",
+      "**Lateral raise holds 15** — 🔥 near-failure last set is fair game (22 reps last week).",
+      "**Straight-arm pulldown holds 120** — 'really hard' last week, but it runs last; that's fatigue, not the load.",
+      "**Bottoms-up press in the warmup** — 18lb, 8/side, forward + T-plane, T-plane light.",
+      "**Mini-dip warmup stays on the dip station.**",
+      "**Run push press first when the rack's free** — fresh shoulders.",
+      "**Pack DOWN, not up** — every press + the carry carries the cue.",
+      "**Cool-down stays — 5-min block, permanent every gym day.**",
+      "Rest: 2 min push press + incline + dips, 90s lateral raise + Kinesis fly + farmer carry, 75s cable block."
+    ],
+    "formPhilosophy": "Steady-state push week. Both spotlights point at things the sessions surfaced rather than things the plan wanted. The dips have run out of road on reps and depth — 12 clean deep reps across three sets, and the only thing that hurt was a palm — so the one honest progression left is tempo. The farmer carry gets the light for the opposite reason: it's been getting done every week and yet it's the lift we know the least about, because it lands at the end of the session and never makes it into the write-up. Both of those are the same idea from different sides — a lift stops improving when nobody's looking at it closely, whether that's because the cue went stale or because the number never got taken. Everything else holds where it settled. The 🔥/🛑 tags did their job on their first two weeks out. Building decades, not weeks.",
+    "category": "functional-bulk"
+  },
+  {
     "id": "fb-w3-d2-morning-flow",
     "name": "W3 KB Day Morning Flow (Explore Prep)",
     "description": "15 min flow before KB Explore day. Core is harder this week (plank variations + hollow body), mobility targets the hips and thoracic spine you'll need for bent press and cossack squat. Doubles as a standalone flow if you're short on time.",
@@ -41460,8 +43161,8 @@
   },
   {
     "id": "kb-gymfiesta-full-body-circuit",
-    "name": "Full-Body Kettlebell Circuit — Pass / Lunge Drive / Snatch / Press-March",
-    "description": "A four-move full-body kettlebell circuit: around-the-body pass to squat, reverse lunge to knee drive, snatch, and single-arm press to march, run in sequence for 3 rounds. Low-and-explosive conditioning on a single bell — a close sibling to the Asgooch cardio complex (row/clean/squat/snatch), same full-body conditioning intent with a snatch as the centerpiece. Round count is not stated in the source; 3 is the conventional read.",
+    "name": "Full-Body Kettlebell Circuit — Pass-to-Squat → Lunge Knee-Drive → Snatch → Press-to-March",
+    "description": "A four-move full-body kettlebell circuit on a single bell: around-the-body pass to squat, reverse lunge to knee drive, snatch, and single-arm press to march.\n\n**This is a CIRCUIT, not a continuous flow.** Each move runs for its own rep count, then you move to the next — the beats don't feed into each other the way a Conti flow's do. Low-and-explosive conditioning; a close sibling to the Asgooch cardio complex (row/clean/squat/snatch), same intent with a snatch as the centerpiece.\n\nThe four moves are deliberately mixed: two are **leg-athletic and coordination-led** (the pass-to-squat, the lunge-to-knee-drive) and two are **overhead and core-led** (the snatch, the press-to-march). That balance is what makes it full-body conditioning rather than a leg burner or a shoulder burner.\n\nRound count is not stated in the source; 3 is the conventional read.",
     "routineId": "kettlebell",
     "tags": [
       "kettlebell",
@@ -41479,43 +43180,35 @@
     "difficulty": "intermediate",
     "source": "@GymFiesta",
     "sourceUrl": "https://x.com/GymFiesta/status/2062207034108358802",
-    "sets": [
+    "rounds": 3,
+    "flowNotes": "**A CIRCUIT, not a continuous flow** — run each move for its full rep count, then move to the next with minimal rest. Rest ~60s between rounds; 3 rounds total.\n\nSingle light-to-moderate bell: this is conditioning, so pick a load you can keep moving with for three rounds, not a bell you have to fight. The source overlays read x20 / x10 / x10 / x10; the unilateral moves are written per-side — scale to total reps if that's too much.\n\n**The snatch is the technical centerpiece** — hips drive it, punch the hand THROUGH at the top for a soft catch, no bang on the wrist. If the right shoulder crackles on the catch, swap snatches for high pulls and keep the round moving.",
+    "flowSequence": [
       {
-        "id": "full-body-circuit",
-        "name": "Full-Body KB Circuit",
-        "type": "circuit",
-        "rounds": 3,
-        "exercises": [
-          {
-            "id": "kettlebell-around-the-body-pass-to-squat",
-            "reps": 20,
-            "notes": "Pass around the body once → squat → next pass. Torso tall and still during the pass; full depth on the squat. Alternate pass direction."
-          },
-          {
-            "id": "kettlebell-reverse-lunge-to-knee-drive",
-            "reps": "10 each side",
-            "notes": "Step back to a reverse lunge → drive the back knee forward and up to a tall, balanced stand → repeat. Drive through the front heel; stay tall."
-          },
-          {
-            "id": "kettlebell-snatch",
-            "reps": "10 each side",
-            "notes": "Hips drive the bell, punch the hand THROUGH at the top for a soft catch — no bang on the wrist. Right shoulder watch on the catch; sub high pulls if it crackles."
-          },
-          {
-            "id": "kettlebell-single-arm-press-to-march",
-            "reps": "10 each side",
-            "notes": "Press with the shoulder packed DOWN, lock it out, then march alternate knees keeping the bell stacked overhead. Obliques fight to keep the torso square under the offset load."
-          }
-        ],
-        "restBetween": 0,
-        "restAfter": 60,
-        "notes": "Move through the four in order with minimal rest between moves. Rest ~60s between rounds, 3 rounds total. Light-to-moderate bell — this is conditioning, keep the breathing rate up. Source overlays read x20 / x10 / x10 / x10; the unilateral moves are written as per-side, scale to total if that's too much."
+        "id": "kettlebell-around-the-body-pass-to-squat",
+        "reps": 20,
+        "notes": "Pass the bell around the body once, then squat, then pass again. Torso tall and STILL during the pass — the bell orbits, you don't. Full depth on the squat. Alternate the pass direction."
+      },
+      {
+        "id": "kettlebell-reverse-lunge-to-knee-drive",
+        "reps": "10 each side",
+        "notes": "Step back into a reverse lunge, then drive the back knee forward and UP to a tall, balanced stand before stepping back again. Drive through the front heel. Stay tall through the knee drive — don't fold forward to meet the knee."
+      },
+      {
+        "id": "kettlebell-snatch",
+        "reps": "10 each side",
+        "notes": "The technical centerpiece. Hips drive the bell, the arm only guides. Punch the hand THROUGH at the top so the bell rolls onto the back of the forearm instead of banging the wrist. Right-shoulder watch on the catch — sub high pulls if it crackles."
+      },
+      {
+        "id": "kettlebell-single-arm-press-to-march",
+        "reps": "10 each side",
+        "notes": "Press the bell overhead with the shoulder packed DOWN, lock it out, then march alternate knees while keeping the bell stacked STILL overhead. The obliques fight to keep the torso square under the offset load — a quiet lockout under a moving leg is the whole skill."
       }
     ],
     "tips": [
       "Single bell throughout. Conditioning intent — pick a load you can keep moving with for 3 rounds, not a 1-rep-max bell.",
+      "**It's a circuit, not a flow** — each move runs for its own reps, then you move on. Minimal rest between moves, ~60s between rounds.",
       "The snatch is the technical centerpiece: hip drive, punch-through, soft catch. If the right shoulder complains, swap snatches for high pulls.",
-      "Sibling to the Asgooch cardio complex — same low-and-explosive full-body conditioning. Good fit for a Tuesday strength/conditioning rotation or a Saturday cardio choice; NOT for Thursday (no brutal/explosive finishing before Friday legs)."
+      "Sibling to the Asgooch cardio complex — same low-and-explosive full-body conditioning. Belongs on a **Tuesday** strength/conditioning rotation or a Saturday cardio choice; **NOT Thursday** — the snatches and lunge knee-drives would pre-fatigue Friday legs."
     ],
     "category": "kettlebell"
   },

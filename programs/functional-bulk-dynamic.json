@@ -7,8 +7,27 @@
   "frequency": 6,
   "phase": "hypertrophy",
   "difficulty": "intermediate",
-  "equipment": ["barbell", "dumbbell", "cable", "machine", "bench", "kettlebell", "pull-up-bar"],
-  "tags": ["6-day", "hybrid", "gym", "kettlebell", "conditioning", "ppl", "hypertrophy", "functional", "dynamic", "multi-week"],
+  "equipment": [
+    "barbell",
+    "dumbbell",
+    "cable",
+    "machine",
+    "bench",
+    "kettlebell",
+    "pull-up-bar"
+  ],
+  "tags": [
+    "6-day",
+    "hybrid",
+    "gym",
+    "kettlebell",
+    "conditioning",
+    "ppl",
+    "hypertrophy",
+    "functional",
+    "dynamic",
+    "multi-week"
+  ],
   "weeks": [
     {
       "week": 1,
@@ -1517,10 +1536,36 @@
           "label": "ZONE 2 / KB CARDIO / OPTIONAL",
           "type": "choice",
           "options": [
-            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w14-kb-cardio", "notes": "NEW W14 — cave-pull conditioning day. Asgooch cardio complex + flow combos + controlled-power finisher. LIGHT bell, ~40 min." },
-            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
-            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
-            { "label": "Rest", "type": "rest" }
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w14-kb-cardio",
+              "notes": "NEW W14 — cave-pull conditioning day. Asgooch cardio complex + flow combos + controlled-power finisher. LIGHT bell, ~40 min."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
           ]
         },
         {
@@ -1528,8 +1573,15 @@
           "label": "REST or LONG FLOW",
           "type": "choice",
           "options": [
-            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
-            { "label": "Full Rest", "type": "rest" }
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
           ]
         }
       ],
@@ -1617,10 +1669,36 @@
           "label": "ZONE 2 / KB CARDIO / OPTIONAL",
           "type": "choice",
           "options": [
-            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w15-kb-cardio", "notes": "Conditioning day — Asgooch cardio complex + flow combos + a rotated brutal-complex-variant finisher. LIGHT bell, ~40 min." },
-            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
-            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
-            { "label": "Rest", "type": "rest" }
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w15-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + flow combos + a rotated brutal-complex-variant finisher. LIGHT bell, ~40 min."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
           ]
         },
         {
@@ -1628,8 +1706,15 @@
           "label": "REST or LONG FLOW",
           "type": "choice",
           "options": [
-            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
-            { "label": "Full Rest", "type": "rest" }
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
           ]
         }
       ],
@@ -1717,10 +1802,36 @@
           "label": "ZONE 2 / KB CARDIO / OPTIONAL",
           "type": "choice",
           "options": [
-            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w16-kb-cardio", "notes": "Conditioning day — Asgooch cardio complex + rotated flow combos + a 100-rep block finisher. LIGHT bell, ~42 min." },
-            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
-            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
-            { "label": "Rest", "type": "rest" }
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w16-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + rotated flow combos + a 100-rep block finisher. LIGHT bell, ~42 min."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
           ]
         },
         {
@@ -1728,8 +1839,15 @@
           "label": "REST or LONG FLOW",
           "type": "choice",
           "options": [
-            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
-            { "label": "Full Rest", "type": "rest" }
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
           ]
         }
       ],
@@ -1816,10 +1934,36 @@
           "label": "ZONE 2 / KB CARDIO / OPTIONAL",
           "type": "choice",
           "options": [
-            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w17-kb-cardio", "notes": "Conditioning day — Asgooch cardio complex + a controlled-power finisher. LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week." },
-            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
-            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
-            { "label": "Rest", "type": "rest" }
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w17-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a controlled-power finisher. LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
           ]
         },
         {
@@ -1827,8 +1971,15 @@
           "label": "REST or LONG FLOW",
           "type": "choice",
           "options": [
-            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
-            { "label": "Full Rest", "type": "rest" }
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
           ]
         }
       ],
@@ -1917,10 +2068,36 @@
           "label": "ZONE 2 / KB CARDIO / OPTIONAL",
           "type": "choice",
           "options": [
-            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w18-kb-cardio", "notes": "Conditioning day — Asgooch cardio complex + a high-rep ladder finisher. LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch." },
-            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
-            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
-            { "label": "Rest", "type": "rest" }
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w18-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a high-rep ladder finisher. LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
           ]
         },
         {
@@ -1928,8 +2105,15 @@
           "label": "REST or LONG FLOW",
           "type": "choice",
           "options": [
-            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
-            { "label": "Full Rest", "type": "rest" }
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
           ]
         }
       ],
@@ -2021,10 +2205,36 @@
           "label": "ZONE 2 / KB CARDIO / OPTIONAL",
           "type": "choice",
           "options": [
-            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w19-kb-cardio", "notes": "Conditioning day — Asgooch cardio complex + a round-the-clock single-bell chain finisher (high-pull spotlight). LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch." },
-            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
-            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
-            { "label": "Rest", "type": "rest" }
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w19-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a round-the-clock single-bell chain finisher (high-pull spotlight). LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
           ]
         },
         {
@@ -2032,8 +2242,15 @@
           "label": "REST or LONG FLOW",
           "type": "choice",
           "options": [
-            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
-            { "label": "Full Rest", "type": "rest" }
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
           ]
         }
       ],
@@ -2123,10 +2340,36 @@
           "label": "ZONE 2 / KB CARDIO / OPTIONAL",
           "type": "choice",
           "options": [
-            { "label": "KB Cardio Conditioning", "type": "workout", "workoutId": "fb-w20-kb-cardio", "notes": "Conditioning day — Asgooch cardio complex + a clean-squat-press triplet finisher (snatch spotlight). LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch." },
-            { "label": "Stairmaster", "type": "activity", "activity": { "name": "Stairmaster Zone 2", "duration": 30, "intensity": "easy", "notes": "Steady climb, 120-140bpm. Conversational pace." } },
-            { "label": "Easy Run", "type": "activity", "activity": { "name": "Easy Run", "duration": 30, "intensity": "easy", "notes": "Conversational pace, 120-140bpm." } },
-            { "label": "Rest", "type": "rest" }
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w20-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a clean-squat-press triplet finisher (snatch spotlight). LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
           ]
         },
         {
@@ -2134,8 +2377,15 @@
           "label": "REST or LONG FLOW",
           "type": "choice",
           "options": [
-            { "label": "Sunday Long Flow", "type": "workout", "workoutId": "fb-sunday-long-flow" },
-            { "label": "Full Rest", "type": "rest" }
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
           ]
         }
       ],
@@ -2156,6 +2406,139 @@
         "Morning flow rotates ~half for W20 — thread-the-needle, spiderman plank, plank shoulder taps in; puppy pose + happy baby cycle back."
       ],
       "logFile": "logs/functional-bulk-dynamic-w20.json"
+    },
+    {
+      "week": 21,
+      "label": "Steady State — Spotlights Cycle Forward; the GymFiesta Circuit Runs Whole on Tuesday",
+      "description": "Steady-state week — loads hold where they've settled and the floor keeps rising on its own. **Warmups are baked into each day's description as a reminder.**\n\n**The correction this week:** the GymFiesta circuit had been quietly harvested for parts — its single-arm press-to-march ran alone on Thursday while the circuit itself, penciled in back at W17, was never actually programmed. It now runs WHOLE on Tuesday (pass-to-squat → lunge knee-drive → snatch → press-to-march, 3 rounds), where its explosiveness is free rather than expensive; and the press-to-march leaves Thursday, which gets the figure-8 march instead. The figure-8 complex steps off the Tuesday carousel to make room — nothing was added on top.\n\n**Spotlights cycle forward:** dips + farmer carry (push), chest-supported row + incline curl (pull), squat depth + incline RDL (legs). The farmer carry and the incline curl are in there because they're the two lifts with the **least data** on them — both get done every week, but they land late in the session and never make the write-up, so the carry has no hold-time on record and the incline curl's left-arm lag is running on a months-old number. Each one needs a single number this week, not more work.\n\n**W20's confirmations become the defaults:** KB strict press 50 at 8/8/8 (the reps were earned — hold them, don't chase), pull-ups 10 across all four sets with the grip HOLDING (up from 6/6/8/6 — bank the new floor), chest-supported row 45 confirmed by feel (set 2 to the edge at 15, set 3 to failure at 12), dips 12 deep across (tempo is the only lever left), incline DB 50 at clean 12s (set 3 still unconfirmed), leg press 4 plates full-ROM, Bulgarian double-50.\n\n**Both ramps stay untouched** — you praised the squat's 45→70→80 and the leg curl's 70→80→90→100 in the same session, unprompted. Two votes for the same structure is a signal, so nothing about them changes.\n\n**Dead Cluster Flow takes its second run** on Tuesday, so the three beats you found off the bell (overhead-to-overhead snatch, TWO pendulum swings, inside tactical clean) become the thing you own rather than the thing you had to correct.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (dips + farmer carry spotlight; 🔥/🛑 intensity tags)",
+          "type": "workout",
+          "workoutId": "fb-w21-push",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — GymFiesta Circuit (NEW, run whole) + Dead Cluster Flow (2nd run) + Bottoms-Up Carry (spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w21-kb-full",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (chest-supported row + incline curl spotlight; 🔥/🛑 intensity tags)",
+          "type": "workout",
+          "workoutId": "fb-w21-pull",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, Flow + Coordination Block (figure-8 march); heavy-upper-push slot",
+          "type": "workout",
+          "workoutId": "fb-w21-kb-cond",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State (squat depth + incline RDL spotlight; both ramps stay; 🔥/🛑 tags)",
+          "type": "workout",
+          "workoutId": "fb-w21-legs",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w21-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a hand-to-hand swing ladder finisher (front squat spotlight). LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**The GymFiesta circuit runs WHOLE on Tuesday** — pass-to-squat → lunge knee-drive → snatch → press-to-march, 3 rounds. It's a circuit, not a flow: each move for its own reps, then move on. It takes the figure-8 complex's slot; nothing was added on top.",
+        "**The press-to-march has left Thursday** — it belongs to the circuit, and the circuit now runs. Thursday gets the figure-8 march instead: the weave you already own, now walked.",
+        "**Why Tuesday and not Thursday:** the circuit's snatches and lunge knee-drives are explosive and leg-athletic. Three days clear of Friday legs that's free; the day before legs it's a tax.",
+        "**Two spotlights are aimed at getting a NUMBER, not more work** — the farmer carry and the incline curl both get done every week but never make the write-up. The carry has no hold-time on record; the incline curl's left-arm lag is running on a months-old read. One number each is all they need.",
+        "**Dips: depth is banked, TEMPO is the only lever left.** 12 deep reps across all three sets last week, and the sore spot was your PALM, not your shoulder. Slow the descent to a genuine 3s.",
+        "**Pull-ups jumped to 10 across all four sets with the grip HOLDING** (from 6/6/8/6). Bank the new floor — the job is clean reps at the new level, not a bigger number.",
+        "**KB strict press holds 50 at 8/8/8** — the reps were earned in W20. Own the new floor before climbing off it.",
+        "**Chest-supported row 45 is confirmed** — set 2 rode to the edge at 15, set 3 genuinely died at 12. The load question is closed; the tempo question opens (3s eccentric).",
+        "**Both ramps stay untouched** — the squat's 45→70→80 and the leg curl's 70→80→90→100. You praised both, unprompted, in one session.",
+        "**Squat spotlight is DEPTH and only depth.** 80 for clean 8s is settled across two weeks. Set the catcher at your true max depth and chase the bottom. Stop adding sets when depth shortens.",
+        "**Legs order is yours by availability** — but the calf raise stays ON the leg press, and the leg curl stays BEFORE the incline RDL.",
+        "**Dead Cluster Flow, 2nd run — own the three beats:** the snatch is overhead-to-overhead, the outside pendulum is TWO full swings, the tactical clean threads the inside path.",
+        "**Grip is the ceiling on pulling/carrying, not the shoulder** — DB row, lat pulldown, farmer carry all tap out at grip. No straps.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Morning flow rotates ~half for W21 — low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w21.json"
     }
   ],
   "tips": [
