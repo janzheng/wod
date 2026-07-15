@@ -1,0 +1,215 @@
+[
+ {
+  "day": 1,
+  "workoutId": "fb-w21-push",
+  "date": "2026-07-13",
+  "rawInput": "w21d1\n\npush press fine did all\n\nincline press fine did all\n\nlat raise fine\n\ndips went fine but still struggling! still hard! good working weight working on slowing down; hard to keep it slow mid of mid set and towards end\n\n\ncable lat raise fine\n\noverhead tri fine \n\nstraight arm pulldown insanely hard lol but did all sets\n\n\nEverything not mentioned went fine!\n\nGood working weight workout here; everything was less than failing but I think its fine",
+  "notes": "W21 push — a clean, everything-landed session at settled loads. **The incline DB gate closed:** 'fine did all' at 50, which answers the open W20 question (set 3 was never reported then) — a clean 12 across all three. Dips gave the spotlight exactly the read it wanted: 'still hard,' good working weight, and the slow tempo is genuinely hard to hold mid-set and toward the end — the tempo lever is biting, which is the point. Straight-arm pulldown was 'insanely hard' at 120, the second consecutive week it's read hard (W20: 'really hard today'). Farmer carry (the other spotlight) fell under 'everything not mentioned went fine' — done, but no hold-time number, which was the one thing the spotlight asked for. His close: 'everything was less than failing but I think its fine' — correct, that's the program working as designed.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "push-press",
+    "context": "45lb DBs, full 2 min rest.",
+    "sets": [
+     {
+      "weight": "45lb each",
+      "reps": "8-10",
+      "notes": "'Fine did all.'"
+     },
+     {
+      "weight": "45lb each",
+      "reps": "8-10"
+     },
+     {
+      "weight": "45lb each",
+      "reps": "8-10"
+     }
+    ],
+    "notes": "All sets at 45 on the full rest — 'fine.' Easier read than W20 (10/10/10, 'hard,' set 3 close to the edge). Nothing to change; 45 on 2 min rest is where this sits."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "context": "50 pair, 3 sets of 12. The W20 open question was whether set 3 holds a clean 12.",
+    "sets": [
+     {
+      "weight": "50lb pair",
+      "reps": 12
+     },
+     {
+      "weight": "50lb pair",
+      "reps": 12
+     },
+     {
+      "weight": "50lb pair",
+      "reps": 12,
+      "notes": "'Fine did all' — the set-3 read that was missing from W20."
+     }
+    ],
+    "notes": "A clean 12 across all three at 50, 'fine.' That's the gate the workout named: W20 gave 12 and 12 with set 3 unreported, and this closes it. No shrug-up flagged, though the pack-down wasn't explicitly narrated either. The reps runway at 50 is now complete — a load nudge is available if he wants it, but nothing forces one."
+   },
+   {
+    "id": "dip",
+    "context": "🔆 W21 spotlight — bodyweight, tempo (3s descent) is the lever, not reps.",
+    "sets": [
+     {
+      "weight": "bodyweight",
+      "reps": "10-12",
+      "notes": "'Still struggling! still hard!'"
+     },
+     {
+      "weight": "bodyweight",
+      "reps": "10-12",
+      "notes": "'Hard to keep it slow mid of mid set.'"
+     },
+     {
+      "weight": "bodyweight",
+      "reps": "10-12",
+      "notes": "'...and towards end.'"
+     }
+    ],
+    "notes": "The spotlight did its job. 'Went fine but still struggling, still hard — good working weight, working on slowing down; hard to keep it slow mid of mid set and towards end.' The slow eccentric is exactly where it breaks down — mid-set and at the end — which is the honest edge of the tempo progression. Bodyweight stays; the tempo IS the work. No palm complaint this week (W20's sore spot) and no shoulder complaint."
+   },
+   {
+    "id": "lateral-raise",
+    "context": "15lb DBs.",
+    "sets": [
+     {
+      "weight": "15lb",
+      "reps": "15-18",
+      "notes": "'Fine.'"
+     }
+    ],
+    "notes": "Held 15, 'fine.' No failure set narrated this week (W20 rode the last one to 22) — fine, the 🔥 near-failure option is a tool, not an obligation."
+   },
+   {
+    "id": "kinesis-cable-fly",
+    "equipment": "Kinesis",
+    "context": "Kinesis 9, step-forward ROM lever. Not separately narrated.",
+    "sets": [
+     {
+      "weight": "Kinesis 9 (not restated)",
+      "reps": "10-12",
+      "notes": "Covered by 'everything not mentioned went fine.'"
+     }
+    ],
+    "notes": "Folded into 'everything not mentioned went fine.' No separate read on whether the step-forward went deeper this week."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "context": "In the cable block. Station/number not restated.",
+    "sets": [
+     {
+      "reps": 12,
+      "notes": "'Fine.'"
+     }
+    ],
+    "notes": "'Fine.' Station and number not narrated — cable column 30 / pulley 10 / Kinesis 5-6 are the options."
+   },
+   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "context": "Kneeling. Station/number not restated (cable column 70 default).",
+    "sets": [
+     {
+      "reps": "10-12",
+      "notes": "'Fine.'"
+     }
+    ],
+    "notes": "'Fine' — no last-set stretch narrated this week (W20 rode it to 16). Station/number not restated."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "equipment": "cable column",
+    "context": "120 on the cable column. Runs last in the cable block.",
+    "sets": [
+     {
+      "weight": "120",
+      "equipment": "cable column",
+      "reps": 12
+     },
+     {
+      "weight": "120",
+      "equipment": "cable column",
+      "reps": 12
+     },
+     {
+      "weight": "120",
+      "equipment": "cable column",
+      "reps": 12,
+      "notes": "'Insanely hard lol but did all sets.'"
+     }
+    ],
+    "notes": "All three rounds made at 120, but 'insanely hard' — and this is now the SECOND consecutive week it's read hard (W20: 'really hard today'). One week was dismissible as end-of-block fatigue; two is a pattern worth watching. Open question for next week, not a conclusion: is 120 sitting above the honest ceiling now, or is running last in the cable block doing this? (Precedent: on the rope pulley, 57.5 was 'insanely hard' + a front-pec flag and got dropped to 50.)"
+   },
+   {
+    "id": "farmer-carry",
+    "context": "🔆 W21 spotlight — 50lb, 3 walks. The ask was ONE number: hold-time, and whether grip or posture gives first. Answered on follow-up.",
+    "sets": [
+     {
+      "weight": "50lb",
+      "duration": "45-60s"
+     },
+     {
+      "weight": "50lb",
+      "duration": "45-60s"
+     },
+     {
+      "weight": "50lb",
+      "duration": "45-60s",
+      "notes": "'Last set getting easier and easier on grip now.'"
+     }
+    ],
+    "notes": "**First hold-time on record: roughly 45-60s across all three walks at 50lb** — the top of the prescribed range. His read on follow-up: 'i havent been looking honestly; it's roughly 45-60s for three sets; last set getting easier and easier on grip now.' The grip is no longer the thing that ends the walk — it's getting easier by the last set, which is the opposite of how this lift used to end. No straps."
+   }
+  ],
+  "shoulderStatus": "Clean. No shoulder complaint anywhere — including the dips (the most front-shoulder-exposed lift of the day) and the push press. No palm complaint on the dips either this week, unlike W20.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Incline DB: the set-3 gate is closed — a clean 12 across all three at 50, 'fine.'** That was the explicit open question from W20 (12 and 12, set 3 unreported). The rep runway at 50 is now complete. A load nudge is available and earned; it is not required — 'the floor rose' is the win here, not a bigger number. Ask before stepping it, and confirm the pack-down held at 12 first.",
+   "**Dips spotlight landed exactly as designed — the tempo is biting.** 'Still hard, good working weight, working on slowing down; hard to keep it slow mid of mid set and towards end.' The slow eccentric breaks down mid-set and at the end, which IS the honest edge of the progression. Bodyweight stays, tempo stays the lever. No palm complaint this week — the W20 palm soreness may have been a one-off.",
+   "**Straight-arm pulldown 'insanely hard' at 120 — the SECOND straight week it reads hard** (W20: 'really hard today'). One week was fatigue; two is a pattern. Don't move the number on a hunch, but ask next push day: is it the load, or is it running last in the cable block? Precedent exists for a drop (the rope-pulley 57.5 → 50 after an 'insanely hard' + front-pec flag).",
+   "**Farmer carry spotlight ANSWERED — and it's the biggest signal of the week: 45-60s × 3 walks at 50lb, and 'last set getting easier and easier on grip now.'** Grip is no longer what ends the walk. Read alongside W20's pull-ups (10 across all 4 sets, 'grip also better,' up from a grip-limited 6/6/8/6) and the DB row (grip HELD at 10/10/8 up the 70/80/90 pyramid), that's **three independent lifts all reporting the grip limiter easing at once.** Grip has been the honest ceiling on every pull and carry in this program — no straps, ever — so a rising grip floor raises the ceiling on all of them simultaneously. Nothing to change; just note that the thing that used to cap these lifts is quietly getting out of the way.",
+   "**He wasn't tracking the carry because he wasn't looking, not because it was going badly** ('i havent been looking honestly'). The lift was fine the whole time. Same lesson as the un-narrated-≠-skipped correction: a missing number means nobody looked, not that something went wrong.",
+   "**'Everything was less than failing but I think its fine' — he's right, and this is worth confirming back to him.** The program is form-first; 🔥 near-failure is an available tool on the safe isolations, not an obligation. A session where nothing hit failure and every load was owned cleanly is the design working, not a soft week."
+  ]
+ },
+ {
+  "day": 2,
+  "workoutId": "fb-w21-kb-full",
+  "date": "2026-07-14",
+  "rawInput": "w21d2\n\nui with the inline workflow is messed up on mobile too wide beds on row\n\nthe circuit is great\n\nEverything went well did everything\n\nLooked short in the beginning but this is not short at all\n\nReally good to have circuit and flow combo; fantastic\nVery top heavy tho!!",
+  "notes": "KB Tuesday — the W21 redesign landed well. The GymFiesta circuit ran as the whole four-move unit for the first time ('the circuit is great') and the circuit + Dead Cluster Flow pairing was a hit ('really good to have circuit and flow combo; fantastic'). Did everything, everything went well. Two structural notes for W22: it 'looked short in the beginning but this is not short at all' (two multi-round blocks carry more volume than the block count reads), and it's 'very top heavy' — both big blocks sit back-to-back near the top, so the demanding work is front-loaded. Also reported a mobile UI bug: the inline flow header was too wide and bled off the row — fixed (header now wraps).",
+  "cardio": "n/a — home KB day.",
+  "exercises": [
+   {
+    "id": "kb-gymfiesta-full-body-circuit",
+    "context": "🌀 NEW — first whole run (pass-to-squat → lunge knee-drive → snatch → press-to-march, 3 rounds). Until now only its press-to-march had ever run, alone, on Thursdays.",
+    "sets": [
+     {
+      "weight": "not reported",
+      "reps": "3 rounds, did all"
+     }
+    ],
+    "notes": "'The circuit is great.' Ran whole and landed — running the harvested circuit as a unit was the right correction. No bell weight reported (prescribed 20-30lb). The circuit + flow combo is a keeper: 'really good to have circuit and flow combo; fantastic.'"
+   },
+   {
+    "id": "kettlebell-bottoms-up-carry",
+    "context": "🔆 W21 spotlight. Prescribed light 18-25lb, ~30-40s each side.",
+    "sets": [
+     {
+      "weight": "not reported",
+      "reps": "did all"
+     }
+    ],
+    "notes": "Folded under 'everything went well did everything' — done, no separate wobble / quiet-bell read. The spotlight reflection (does the bell stay quiet, or start hunting as grip tires?) is still open — worth a one-line ask next KB day, not a re-spotlight."
+   }
+  ],
+  "shoulderStatus": "Not separately reported. 'Everything went well' covers the overhead-heavy blocks (Dead Cluster Flow, strict press, snatches) with no flare called out.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**The GymFiesta harvest correction was right — run whole, the circuit is great.** First time the four-move circuit ran as a unit, and pairing it with the Dead Cluster Flow is a keeper ('circuit and flow combo; fantastic'). Keep a circuit + flow pairing on Tuesday going forward.",
+   "**W22 structural fix: rebalance the top-heavy Tuesday.** 'Very top heavy' + 'looked short but not short at all' — both big blocks (circuit + flow) sit back-to-back at the top, so volume is front-loaded and it runs longer than the block count reads. For W22: interleave the strength/spotlight block between the two big blocks, or drop a round, or move one big block later. Don't stack the demanding work at the front.",
+   "**Bottoms-up carry spotlight read is still open** — 'did everything' but no wobble / quiet-bell feedback. Ask one line next KB day rather than re-spotlighting to fish for a number.",
+   "**Mobile UI: the inline flow header overflowed on narrow screens** — the flow-ref pill in a non-wrapping flex row forced the row too wide. Fixed by letting the header wrap. Watch other flex rows that gain fixed/nowrap children."
+  ]
+ }
+]

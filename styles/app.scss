@@ -884,7 +884,8 @@ html, body {
 
 .generated-set-header {
   display: flex;
-  align-items: baseline;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 0.5rem;
   margin-bottom: 0.25rem;
   padding-bottom: 0.25rem;
@@ -892,6 +893,7 @@ html, body {
 }
 
 .generated-set-name {
+  min-width: 0;
   font-size: 0.8125rem;
   font-weight: 600;
   color: var(--color-text-primary, #111827);
