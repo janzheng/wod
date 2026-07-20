@@ -211,5 +211,370 @@
    "**Bottoms-up carry spotlight read is still open** — 'did everything' but no wobble / quiet-bell feedback. Ask one line next KB day rather than re-spotlighting to fish for a number.",
    "**Mobile UI: the inline flow header overflowed on narrow screens** — the flow-ref pill in a non-wrapping flex row forced the row too wide. Fixed by letting the header wrap. Watch other flex rows that gain fixed/nowrap children."
   ]
+ },
+ {
+  "day": 3,
+  "workoutId": "fb-w21-pull",
+  "date": "2026-07-15",
+  "rawInput": "w21d3\n\npull ups\nfirst three sets good slow ecc\nlast set fell apart half way lol - grip and back still not there but def stronger than when first starting - slow progress but progress either way lol\n\ndb rows\nwent great left side grip great too no problems with the sets will work on doing slower on last\n\n chest supported row\n- got really hard last set but did them; all slow ecc all sets all weights\n- \n\ncurl\nleft needed help on last of second set\nright fine lol\nstarting left\nweirdly enough left did all on last set so idk\n\nrev fly\nonly 25s available lol so doing my best\ndid singles for three sets died around 10 on last set - not slow ecc lol\n\nface pull\nkind of lost steam lmao tired not back - this wasn't really failing; did singles\n\nlat pulldown \n150x12 slowish again getting hungry oops\n150x12 still fine feels good on shoulders\n150x12 felt good but fizzled out at end \n\ncable curls fine no prob shoulder good\n\ncrunches at 67.5 all sets felt strong today",
+  "notes": "Pull day with the slow eccentric applied broadly — pull-ups, chest-supported row, and lat pulldown all run on tempo. Both spotlights delivered real reads: the chest-supported row got hard on the last set but held tempo at every weight, and the incline curl's left-arm lag behaved unexpectedly (help needed on set 2, then a clean set 3). Reverse fly ran at 25lb because 20s weren't available, at normal tempo. Late-session fade was fuel/energy, not back — 'tired not back... getting hungry oops.'",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default).",
+  "exercises": [
+   {
+    "id": "pull-up",
+    "equipment": "straight bar",
+    "context": "4 sets bodyweight, slow eccentric applied this week.",
+    "sets": [
+     {
+      "weight": "bodyweight",
+      "reps": "~10",
+      "notes": "'Good slow ecc.'"
+     },
+     {
+      "weight": "bodyweight",
+      "reps": "~10",
+      "notes": "'Good slow ecc.'"
+     },
+     {
+      "weight": "bodyweight",
+      "reps": "~10",
+      "notes": "'Good slow ecc.'"
+     },
+     {
+      "weight": "bodyweight",
+      "reps": "fell apart halfway",
+      "notes": "'Last set fell apart half way lol.'"
+     }
+    ],
+    "notes": "Three clean tempo sets then a set-4 breakdown. W20 was 10/10/10/10 WITHOUT the slow eccentric, so this isn't a step back — the tempo lever was added and set 4 is where it costs. His read: 'grip and back still not there but def stronger than when first starting - slow progress but progress either way lol.'"
+   },
+   {
+    "id": "dumbbell-row",
+    "context": "70/80/90 ascending pyramid, one set per round.",
+    "sets": [
+     {
+      "weight": "70",
+      "reps": 10
+     },
+     {
+      "weight": "80",
+      "reps": 10
+     },
+     {
+      "weight": "90",
+      "reps": 8
+     }
+    ],
+    "notes": "'Went great, left side grip great too, no problems with the sets.' Grip held clean up the whole pyramid again — consistent with the rising grip floor. His own next step: 'will work on doing slower on last.'"
+   },
+   {
+    "id": "chest-supported-dumbbell-row",
+    "context": "🔆 W21 spotlight — 45lb, tempo was the named lever now that the load is settled.",
+    "sets": [
+     {
+      "weight": "45",
+      "reps": "10-12"
+     },
+     {
+      "weight": "45",
+      "reps": "10-12"
+     },
+     {
+      "weight": "45",
+      "reps": "10-12",
+      "notes": "'Got really hard last set but did them.'"
+     }
+    ],
+    "notes": "Spotlight landed: 'all slow ecc all sets all weights,' hard on the last set but completed. The tempo lever is doing the work at 45 — no load change indicated."
+   },
+   {
+    "id": "incline-curl",
+    "context": "🔆 W21 spotlight — the left-arm lag. 25lb DBs, left-first protocol.",
+    "sets": [
+     {
+      "weight": "25",
+      "reps": "8-10",
+      "notes": "Left first."
+     },
+     {
+      "weight": "25",
+      "reps": "8-10",
+      "notes": "'Left needed help on last of second set. Right fine lol.'"
+     },
+     {
+      "weight": "25",
+      "reps": "8-10",
+      "notes": "'Weirdly enough left did all on last set so idk.'"
+     }
+    ],
+    "notes": "First real read on the left-arm lag: left needed help on set 2 but completed set 3 unassisted, right side fine throughout. His own reaction was puzzlement ('so idk') — not a clean pattern yet, so treat it as one data point, not a diagnosis."
+   },
+   {
+    "id": "dumbbell-reverse-fly",
+    "context": "Prescribed 20lb; only 25s were on the rack.",
+    "sets": [
+     {
+      "weight": "25",
+      "reps": "12",
+      "notes": "Normal tempo (1 up / 1 down)."
+     },
+     {
+      "weight": "25",
+      "reps": "12",
+      "notes": "Normal tempo."
+     },
+     {
+      "weight": "25",
+      "reps": "~10",
+      "notes": "'Died around 10 on last set - not slow ecc lol.'"
+     }
+    ],
+    "notes": "Equipment forced the load up: 'only 25s available lol so doing my best.' **'Did singles' means 1 up / 1 down — normal tempo, i.e. the slow eccentric was DROPPED because he was tired.** Not single-arm reps. So this is a tempo concession on a heavier-than-prescribed load, which is the sensible trade."
+   },
+   {
+    "id": "face-pull",
+    "equipment": "cable column",
+    "context": "Cable column at the settled 50.",
+    "sets": [
+     {
+      "weight": "50",
+      "equipment": "cable column",
+      "reps": 20,
+      "notes": "Normal tempo (1 up / 1 down) — slow eccentric dropped."
+     }
+    ],
+    "notes": "'Kind of lost steam lmao tired not back - this wasn't really failing.' He explicitly separated fatigue from back failure. 'Did singles' = 1 up / 1 down, i.e. dropped the slow eccentric once tired — not single-arm reps."
+   },
+   {
+    "id": "lat-pulldown",
+    "equipment": "regular lat pulldown machine",
+    "context": "3 sets at the established 150.",
+    "sets": [
+     {
+      "weight": "150",
+      "equipment": "regular lat pulldown machine",
+      "reps": 12,
+      "notes": "'Slowish again getting hungry oops.'"
+     },
+     {
+      "weight": "150",
+      "equipment": "regular lat pulldown machine",
+      "reps": 12,
+      "notes": "'Still fine feels good on shoulders.'"
+     },
+     {
+      "weight": "150",
+      "equipment": "regular lat pulldown machine",
+      "reps": 12,
+      "notes": "'Felt good but fizzled out at end.'"
+     }
+    ],
+    "notes": "3×12 clean at 150 — better than W20, where set 3 was 'getting struggley' and set 4 dropped to 10 with form loss. 'Feels good on shoulders' is the notable line: this is the lift that used to be a shoulder question."
+   },
+   {
+    "id": "high-cable-bicep-curl",
+    "context": "Cable column finisher.",
+    "sets": [
+     {
+      "reps": "10-12",
+      "notes": "'Fine no prob shoulder good.'"
+     }
+    ],
+    "notes": "'Fine no prob shoulder good.'"
+   },
+   {
+    "id": "cable-crunch",
+    "equipment": "cable column",
+    "context": "Cable column finisher.",
+    "sets": [
+     {
+      "weight": "67.5",
+      "equipment": "cable column",
+      "reps": "12-15"
+     },
+     {
+      "weight": "67.5",
+      "equipment": "cable column",
+      "reps": "12-15"
+     },
+     {
+      "weight": "67.5",
+      "equipment": "cable column",
+      "reps": "12-15"
+     }
+    ],
+    "notes": "67.5 across all sets, 'felt strong today.' W20 ran 65.5 then 70.5 ('pretty damn hard'); 67.5 sits between and held for every set."
+   }
+  ],
+  "shoulderStatus": "Good — explicitly twice. Lat pulldown 'feels good on shoulders' and cable curls 'shoulder good.' No crackle reported (W20D3 had a crackly shoulder on pull-ups).",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**The slow eccentric is now applied across the pull day, and set 4 is where it bills.** Pull-ups went 3 clean tempo sets then fell apart halfway through set 4 — versus W20's 10/10/10/10 without tempo. Not a regression: a lever was added. His framing is the right one — 'slow progress but progress either way.'",
+   "**Incline curl left-arm read is genuinely ambiguous — don't resolve it prematurely.** Left needed help on set 2, then completed set 3 clean; right fine throughout. He said 'so idk.' One session, no pattern. Keep left-first and let it run another week before drawing anything.",
+   "**Reverse fly ran at 25lb because 20s weren't available** — equipment-forced, not a progression. If 25 is now the de-facto load, next week's note should give both numbers rather than assume 20.",
+   "**Late-session fade was fuel, not back** — 'tired not back... getting hungry oops.' Don't respond by trimming pull volume; it's a pre-session eating question if it recurs.",
+   "**'Singles' = 1 up / 1 down — the slow eccentric gets dropped when he's tired, and that's the right call.** It showed up on reverse fly and face pull, both late in the session. The tempo lever is the progression on this program, so losing it late is the honest signal that the session's useful work is done — not something to cue harder against."
+  ]
+ },
+ {
+  "day": 4,
+  "workoutId": "fb-w21-kb-cond",
+  "date": "2026-07-16",
+  "rawInput": "W21d4\n\nWent pretty well; very QL focused lol (sore all weekend; that's fine tho - that's good!)\n\nReally wished we had more circuits / flows / rotations from new stuff; these are very old / like more rotations and for you to look over what's not used / new workouts and flows and whats been rotated in previously for d2 and d4 and make it more fresh / fun / interesting; also miss doing the figure 8 (not the walks but around the legs thing)",
+  "notes": "Thursday KB — went pretty well, but read as 'very QL focused,' sore all weekend and happy about it ('that's fine tho - that's good!'). The QL read is accurate and mostly unintentional: the day stacked bent press TWICE (once inside the Bent Press Flow, again 3/side in the mobility block) on top of windmill 5/side, standing side-to-side twist, and single-leg RDL — four lateral-chain / anti-lateral-flexion movements in one session. Main feedback was NOT about load: the D2/D4 rotation has gone stale ('these are very old'), he wants fresher circuits/flows pulled from unused material, and he specifically misses the around-the-legs figure-8 — explicitly NOT the figure-8 march, which is what W21D4's coordination spotlight actually was.",
+  "cardio": "n/a — home KB day.",
+  "exercises": [
+   {
+    "id": "kettlebell-bent-press",
+    "context": "Appeared TWICE this session — as move 4 of the Bent Press Flow (×2 rounds) and again at 3/side in the Skill + Mobility block (×2 rounds).",
+    "sets": [
+     {
+      "weight": "not reported",
+      "reps": "did all"
+     }
+    ],
+    "notes": "Double exposure in one day. Combined with windmill (5/side ×2) this is the likely driver of the QL soreness. Not a problem — he called the soreness good — but worth knowing it was accidental stacking, not a designed QL emphasis."
+   },
+   {
+    "id": "kettlebell-figure-8-march",
+    "context": "🔆 W21D4 coordination spotlight — the marching/walking figure-8 variant.",
+    "sets": [
+     {
+      "weight": "not reported",
+      "reps": "did all"
+     }
+    ],
+    "notes": "Done, but this is the variant he does NOT want: 'miss doing the figure 8 (not the walks but around the legs thing).' The march passes the bell around a lifted thigh while marching in place; what he misses is `kettlebell-figure-8` — the between-the-legs weave from a wide stance — and the figure-8 → tactical clean complex that stepped off the carousel in W21D2."
+   }
+  ],
+  "shoulderStatus": "Not reported. No flare called out across the overhead-heavy work (strict press at 50, bent press ×2 blocks, TGU, windmill).",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**ROTATION IS STALE ON D2/D4 — user-raised, and the files confirm it.** Thursday has run the SAME two blocks since W16 (six weeks): the 'Flow + Coordination' block and the Bent Press Flow, with only the coordination spotlight move changing inside. The Bent Press Flow itself has been on Thursday nearly every week since W5 — sixteen weeks. Tuesday rotates more but draws from a narrow set (Leggy Flow, Dead Cluster, figure-8 complex, GymFiesta). Meanwhile a large bank of flows/complexes has never been programmed at all. Fix in W22 — see NOTES 'D2/D4 Rotation Audit (W22)'.",
+   "**Bring the around-the-legs figure-8 back — the march is not a substitute.** He explicitly distinguished them: 'not the walks but around the legs thing.' W21 lost both around-the-legs variants at once (the figure-8 → tactical clean complex stepped off D2, and D4's spotlight was the march). Restore `kettlebell-figure-8` and/or the figure-8 → tactical clean complex on D2 or D4.",
+   "**The QL soreness came from accidental bent-press stacking, not a QL block.** Bent press ran twice in one session (flow + mobility block) alongside windmill, side-to-side twist, and single-leg RDL. He liked the result, so this is not something to eliminate — but if the lateral chain gets hit that hard again it should be a DECISION, not a by-product of two blocks each independently containing a bent press.",
+   "**'That's fine tho - that's good!' — soreness he chose is not a problem to solve.** Don't back off the lateral-chain work or add recovery framing; he read the soreness as productive."
+  ]
+ },
+ {
+  "day": 5,
+  "workoutId": "fb-w21-legs",
+  "date": "2026-07-17",
+  "rawInput": "w21d5\n\noof legs feel hard today even tho i didn't use them that much yesterday\n\nsquat \ndid every set but the 80s felt rough and not that deep this time; also very hot out; not to failure tho just legs felt tight \n\nleg curl pyramid somehow very easy today did slow eccentric\n\nincline rdl also felt kind of easy just squats were hard\n\npeople using the leg press like a couch lol ways taken\n\nleg press also really hard! way harder than any recent time; also the cossack squats were hard so legs probably just wiped out\n\nOtherwise all the other ones were good; VERY sore on QL this week (but didn't get knocked out like last time)",
+  "notes": "A split session — the squat/leg-press end was unusually hard while the hamstring work was unusually easy. Squats went every set but the 80s were 'rough and not that deep,' and leg press was 'way harder than any recent time,' both against a backdrop of heat and legs that already felt tight walking in. Leg curl and incline RDL, by contrast, felt easy with tempo. QL was VERY sore all week — his own callout, with the reassurance that it 'didn't get knocked out like last time.'",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default).",
+  "exercises": [
+   {
+    "id": "squat",
+    "context": "🔆 W21 spotlight — DEPTH, and only depth. Ramp 45→70, working sets at 80.",
+    "sets": [
+     {
+      "weight": "45",
+      "reps": 8
+     },
+     {
+      "weight": "70",
+      "reps": 8
+     },
+     {
+      "weight": "80",
+      "reps": "6-8",
+      "notes": "'Felt rough and not that deep this time.'"
+     },
+     {
+      "weight": "80",
+      "reps": "6-8",
+      "notes": "'Not to failure tho just legs felt tight.'"
+     }
+    ],
+    "notes": "Did every set, but the spotlight read is honest and negative: depth was DOWN at 80 this week. He named three contributors — legs already tight on arrival, 'very hot out,' and general leg fatigue. Explicitly not a failure issue ('not to failure'). W20 was 80×8 ×2 clean off the same ramp, so this is a one-week dip with stated causes, not a load problem."
+   },
+   {
+    "id": "seated-leg-curl",
+    "context": "The 70→80→90→100 pyramid, slow eccentric.",
+    "sets": [
+     {
+      "weight": "70",
+      "reps": 12
+     },
+     {
+      "weight": "80",
+      "reps": 12
+     },
+     {
+      "weight": "90",
+      "reps": 12
+     },
+     {
+      "weight": "100",
+      "reps": 12
+     }
+    ],
+    "notes": "'Somehow very easy today did slow eccentric.' Easy WITH tempo applied, on the same day squats felt rough — the hamstring chain was fresh even as the quad/squat pattern was cooked."
+   },
+   {
+    "id": "incline-rdl",
+    "context": "🔆 W21 spotlight — 45lb plate, 3s eccentric + 2s pause. The prior note said 'fine' is not a read.",
+    "sets": [
+     {
+      "weight": "45lb plate",
+      "reps": 15
+     },
+     {
+      "weight": "45lb plate",
+      "reps": 15
+     },
+     {
+      "weight": "45lb plate",
+      "reps": 15
+     }
+    ],
+    "notes": "'Also felt kind of easy just squats were hard.' That's a better read than 'fine' — the spotlight got its answer. Paired with the easy leg curl, the posterior chain has clear headroom right now."
+   },
+   {
+    "id": "leg-press",
+    "context": "4 plates/side, 4 sets of 12. Machine availability was a problem.",
+    "sets": [
+     {
+      "weight": "4 plates/side",
+      "reps": 12
+     },
+     {
+      "weight": "4 plates/side",
+      "reps": 12
+     },
+     {
+      "weight": "4 plates/side",
+      "reps": 12
+     },
+     {
+      "weight": "4 plates/side",
+      "reps": 12
+     }
+    ],
+    "notes": "'Really hard! way harder than any recent time.' Direct inversion of W20, where leg press felt easier late in the session ('both strong and full rom'). Also fought for the machine — 'people using the leg press like a couch lol ways taken.'"
+   },
+   {
+    "id": "cossack-squat",
+    "context": "From the MORNING FLOW, not the legs prescription — confirmed by the user.",
+    "sets": [
+     {
+      "weight": "bodyweight",
+      "reps": "morning flow",
+      "notes": "'Cossack squat was from morning flow and even that was tired.'"
+     }
+    ],
+    "notes": "Confirmed morning-flow carryover, not a legs-day substitution or addition — the W21 legs file correctly doesn't prescribe it. Notable that it felt tired too: the fatigue was present BEFORE the gym session started."
+   }
+  ],
+  "shoulderStatus": "n/a — legs day, no shoulder content reported.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Squat depth was down at 80 — spotlight answered, with stated causes.** 'Rough and not that deep this time,' legs already tight on arrival, and it was very hot. Not to failure. Hold 80 and hold the depth cue; a hot day with pre-tight legs is not a signal to change the load. Watch whether depth returns next time it's cool.",
+   "**The posterior chain has headroom while the squat/leg-press pattern is cooked.** Leg curl 'very easy' WITH slow eccentric and incline RDL 'kind of easy,' on the same day squats and leg press were the hardest they've been recently. If anything gets a nudge on this day it's the hamstring work — not the squat.",
+   "**Leg press inverted from W20** — 'way harder than any recent time' vs. W20's 'always feels easier later in the workout, both strong and full ROM.' Same load, same station order. One data point against the warmup-effect theory he floated in W20; don't conclude anything yet, just stop treating 'easier later' as established.",
+   "**QL was VERY sore all week — and Thursday is the likely source.** W21D4 stacked bent press twice (Bent Press Flow + mobility block) plus windmill, side-to-side twist, and single-leg RDL. He's happy about it ('that's good!') and it 'didn't get knocked out like last time' (the W9 QL spasm). Not a heal-week trigger — but the lateral-chain load should be a deliberate choice going forward, and legs day already carries a QL-biased cool-down.",
+   "**The whole day was just a tired day — and the tiredness predated the gym.** Cossacks in the MORNING FLOW already felt tired, before squats or leg press. His own read: 'maybe just a tired day idk.' That reframes the squat-depth dip and the hard leg press as one systemic thing, not two lift-specific problems. Nothing to change — hold the loads and let a fresh week answer it."
+  ]
  }
 ]

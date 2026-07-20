@@ -1,0 +1,142 @@
+{
+  "id": "fb-w22-kb-cond",
+  "name": "Week 22 KB Thursday — FLOW + CIRCUIT DAY (NEW: Outside Snatch Flow, the Figure-8 One) 🌀",
+  "description": "The fun day, rebuilt. Thursday is now the flow-and-circuit day and it's allowed to run long.\n\n**Warmup reminder:** halo → bottoms-up press (18lb, 8/side, forward + T-plane) → internal core fist rotation → protective behind-back shrug, then the 7-move banded shoulder prep.\n\nThe headline is the **Outside Snatch Flow** — a nine-move Conti chain that has never been run, and it opens on the **around-the-legs figure-8** you've been missing. It pairs with the **GymFiesta circuit**, because the circuit + flow combination was the thing that worked last week.\n\nThe Bent Press Flow steps off Thursday after a very long run. The bent press itself stays, once, in the skill block — the pattern is the anchor, not the slot.\n\nThis day is leg-inclusive on purpose and Friday legs will feel it. That's the trade you took.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "flow", "circuit", "conditioning", "skill-work", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 70,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Thursday becomes the flow + circuit day — the content you actually enjoy, with the length cap lifted. NEW: the Outside Snatch Flow (nine Conti moves, never run before, opening on the around-the-legs figure-8) runs alongside the GymFiesta circuit. The Bent Press Flow rotates off after sixteen weeks on this day; bent press stays once, in the skill block, so the pattern holds. Strict press keeps the heavy-upper slot at 50. Leg cost is accepted this week — Friday will read heavier and that's the deal.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-outside-snatch",
+        "why": "The genuinely new move of the week and the reason this flow is worth running. The bell travels on an OUTSIDE arc rather than the usual straight path up the midline, which means the shoulder has to accept the load slightly off-plane and the catch has to be earned rather than muscled. It's the beat most likely to feel wrong the first time. Go light, learn the arc, and let the flow teach it — this is skill acquisition, not load."
+      },
+      {
+        "exerciseId": "kettlebell-figure-8",
+        "why": "The move you said you missed — the between-the-legs weave from a wide stance, not the marching version. It opens the flow, which is the right place for it: it's a warm, low-risk coordination beat that sets the rhythm for everything after. Wide stance, stay low, keep the bell moving in one continuous figure rather than passing it hand-to-hand at a stop."
+      }
+    ],
+    "rotationPlan": "Thursday content rotates: W16-W21 ran the same two blocks (Flow + Coordination, Bent Press Flow) · W22 hard reset — Outside Snatch Flow (new) + GymFiesta circuit (current) · W23 the Long Coordination Gauntlet (14-move Conti, still never run) · W24 bring back the B-Stance Flow, unseen since W11. Every week from here pulls at least one thing off the bench.",
+    "watchpoints": [
+      "**🌀 NEW — the Outside Snatch Flow, nine moves, one continuous chain per side.** figure-8 → tactical clean → transverse lunge → outside snatch → windmill → snatch → thruster → deep squat press → hand-to-hand swing. **It's a FLOW, not stations** — run the whole chain on one side, then the other. Light bell. First run is a learning run: get the order and the transitions, don't chase speed. (Canonical: kb-outside-snatch-flow.)",
+      "**The figure-8 here is the around-the-legs one** — wide stance, slight squat, bell weaving between the legs in a continuous figure. Not the march. That's the one you missed and it's move #1.",
+      "**🛑 The outside snatch is the technical risk — go LIGHT and keep it shy.** The outside arc puts the shoulder in a less familiar position at the catch. Punch the hand through so the bell rolls onto the forearm, pack the shoulder DOWN at lockout, and if the right shoulder objects, sub a high pull and keep the chain moving. The cue is the cap; there is no rep target worth a flare.",
+      "**🌀 GymFiesta circuit — run whole again, 3 rounds.** around-the-body pass to squat (×20) → reverse lunge to knee drive (×10/side) → snatch (×10/side) → single-arm press to march (×10/side). **A CIRCUIT, not a flow** — each move for its own reps, then move on. Light-to-moderate bell, minimal rest between moves, ~60s between rounds.",
+      "**Bent press runs ONCE this week, and that's deliberate.** Last week it appeared twice (inside the Bent Press Flow and again in the mobility block) alongside windmill and side twists — four lateral-chain movements, and the QL was very sore all week. You liked that, so the lateral chain stays; it's just a choice now instead of an accident.",
+      "**Strict overhead press holds 50 at 8/8/8** 🛑 — the heavy-upper slot is still Thursday's job. Strict, no push-press, both sides to the same standard.",
+      "**This day is long and leg-inclusive by design.** Transverse lunge, thruster, deep squat press, and the circuit's lunge knee-drives all cost the legs the day before legs day. You took that trade knowingly. If it runs too long: circuit to 2 rounds before you cut anything out of the flow.",
+      "**Protective behind-back shrug greasing set stays in the warm-up** — 1 light set, easy to forget."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up (incl. Bottoms-Up Cuff Prep)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles both directions — open the shoulders before a heavily overhead day." },
+        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "**LOAD:** 18lb. Bell inverted over a vertical forearm, grip HARD, shoulder packed.\n- **8/side in two planes:** forward press + T-press\n- **Keep the T-plane lighter** — it's the angle the right shoulder likes least\n- Cuff prep for the snatches and the outside snatch that follow" },
+        { "id": "kettlebell-figure-8", "reps": "6 passes", "notes": "**LOAD:** 15-20lb, easy. A few slow passes now so the pattern is warm before it opens the flow.\n- **Feet wider than shoulders, slight squat, stay low**\n- Bell weaves between the legs in one continuous figure — **don't stand up between passes**" },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists, thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for a long single-bell day." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set).** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. Decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the overhead + rotation — directly relevant to the outside snatch arc." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire — primes every overhead catch today." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "outside-snatch-flow-block",
+      "name": "🌀🔆 Outside Snatch Flow (NEW — the Figure-8 One)",
+      "type": "flow",
+      "flowId": "kb-outside-snatch-flow",
+      "rounds": 2,
+      "notes": "**Single LIGHT bell (~18-26lb), 2 full rounds each side.** Brand new — nine moves, one continuous chain, run the whole thing on one side before switching.\n\n**This is a learning run.** The win today is knowing the order and hitting clean transitions, not moving fast or heavy. Expect to stall between beats the first round; that's what the second round is for.\n\n**Move #1 is the figure-8 you missed** — the around-the-legs weave, wide stance, stay low, one continuous figure.\n\n🛑 **The outside snatch is the beat to respect.** The bell travels an OUTSIDE arc rather than up the midline, so the shoulder receives it slightly off-plane:\n- **Drive from the hips**, not the arm — same as any snatch\n- **Punch the hand THROUGH** at the top so the bell rolls onto the forearm instead of banging the wrist\n- **Pack the shoulder DOWN** at lockout, ribs down\n- **If the right shoulder objects, sub a high pull** and keep the chain moving — no rep target here is worth a flare\n\n**Windmill and thruster both live in this chain**, so the lateral chain and the legs both get worked inside the flow. That's intentional this week.\n\n**Reflection:** which transition breaks the chain — where do you have to stop and re-grip? That seam is next week's skill.",
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "gymfiesta-circuit-block",
+      "name": "🌀 GymFiesta Full-Body Circuit (Run Whole — 3 Rounds)",
+      "type": "flow",
+      "flowId": "kb-gymfiesta-full-body-circuit",
+      "rounds": 3,
+      "notes": "**Single light-to-moderate bell (~20-30lb), 3 rounds.** Back because the circuit + flow pairing was the thing that worked last week.\n\n**This is a CIRCUIT, not a flow** — each move runs its full rep count, then you move on. Minimal rest between moves, ~60s between rounds. Conditioning is the intent: pick a bell you can keep moving with for three rounds.\n\n**The snatch is the technical centerpiece** — hips drive it, punch the hand THROUGH at the top. 🛑 Right-shoulder watch on the catch; sub high pulls if it crackles and keep the round going.\n\n**The press-to-march is the coordination beat** — press to a packed-shoulder lockout, then drive alternate knees while the bell stays STILL overhead. A quiet lockout under a moving leg is the whole skill.\n\n**If the session has run long, this is what drops to 2 rounds** — not the flow.",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "strength-block",
+      "name": "Strength — Row + Strict Press (the Heavy-Upper Slot) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each side", "notes": "**LOAD:** 40. Hinged, flat back, bell pulled to the hip.\n- **Pack the shoulder DOWN and BACK** before the elbow moves — no shrugging the bell up\n- **Elbow drives past the ribs**, don't flare it wide\n- Slow return, full stretch at the bottom" },
+        { "id": "kettlebell-overhead-press", "reps": "8 each side", "notes": "**LOAD:** 50 across all sets — strict single-arm press, clean to rack, press straight up, NO push-press. 8/8/8 at 50 is the standard you've held two weeks running.\n- **Strict, not push-press** — the shoulder presses it\n- **Ribs DOWN** before the press, no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- Slow descent back to the rack; **both sides to the same standard**" }
+      ],
+      "notes": "3 rounds. The heavy-upper anchor — this is the strength that keeps building while everything around it rotates.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "skill-block",
+      "name": "Skill — Bent Press + Turkish Get-Up 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "**LOAD:** 25-35lb. The bent press keeps its place in the program even though the Bent Press Flow rotated off this day.\n- **This is a HINGE and a side-bend, not a press** — the arm locks out and stays locked; the body moves underneath it\n- **Eyes on the bell** the whole way down\n- **Hips shift AWAY** from the loaded side as the torso descends\n- Stand up under control — no snatching yourself upright" },
+        { "id": "kettlebell-turkish-getup", "reps": "1 forward + 1 reverse per side", "notes": "**LOAD:** 25-35lb. Slow and deliberate — this is the checkpoint drill, not a rep.\n- **Pause at every checkpoint:** roll to elbow → to hand → hip bridge → sweep the leg → half kneel → stand, and reverse it\n- **Eyes on the bell** until standing\n- **Wrist stacked straight over the elbow over the shoulder** the whole time\n- If a checkpoint feels rushed, you're moving too fast" }
+      ],
+      "notes": "2 rounds, unhurried. Bent press appears exactly once today — the lateral-chain load is a decision this week, not an accident.",
+      "restBetween": 30,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the transverse lunges, thrusters, and the circuit's knee drives." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors + inner hips — the figure-8's wide stance and the lateral work both bill here." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. QL and lateral chain — you ran bent press and windmill today, give them the downshift." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**NEW: the Outside Snatch Flow** — nine Conti moves, one continuous chain per side, and it opens on the around-the-legs figure-8 you missed. First run is a learning run: order and transitions, not speed.",
+    "🛑 **The outside snatch travels an OUTSIDE arc** — light bell, punch the hand through, pack the shoulder down at lockout. Sub a high pull if the right shoulder objects.",
+    "**GymFiesta circuit runs whole, 3 rounds** — each move for its reps, then move on. It's a circuit, not a flow.",
+    "**The Bent Press Flow steps off Thursday** after a long run; bent press itself stays once, in the skill block.",
+    "**Strict overhead press holds 50 at 8/8/8** — strict, no push-press.",
+    "**KB row at 40**, 8 each side, elbow past the ribs.",
+    "**Bottoms-up press in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light).",
+    "**Protective behind-back shrug greasing set in the warm-up.**",
+    "**This day runs long on purpose and costs the legs before legs day** — that trade was made deliberately. If it overruns, cut the circuit to 2 rounds, not the flow.",
+    "Cooldown mandatory — pigeon, butterfly, cross-leg lateral.",
+    "Rotation ahead: W23 the Long Coordination Gauntlet (14-move Conti, never run); W24 the B-Stance Flow returns, unseen since W11."
+  ],
+  "formPhilosophy": "Thursday stopped being a template and became the day you look forward to. For six weeks it ran the same two blocks, and the flow at its center had been there since Week 5 — that isn't discipline, it's drift wearing discipline's clothes. So the bench gets emptied: a nine-move Conti flow that had been sitting unused since it was captured, opening on the exact move that went missing. The circuit stays because it earned its place last week. The bent press stays because the pattern is an anchor even when its flow isn't. And the legs get spent the day before legs day, because a session you're glad to start is worth more than a perfectly sequenced one you're bored by. Building decades, not weeks."
+}

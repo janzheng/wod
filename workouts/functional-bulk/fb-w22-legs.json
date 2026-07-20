@@ -1,0 +1,149 @@
+{
+  "id": "fb-w22-legs",
+  "name": "Week 22 Legs — Hold Everything (Spotlight: Leg Press ROM + Seated Leg Curl)",
+  "description": "Legs day, and every load holds.\n\nLast week read strange in both directions — squats lost depth at 80 and leg press was the hardest it's been in memory, while the leg curl pyramid and the incline RDL both felt easy. Then the missing piece turned up: the cossacks in that morning's flow already felt tired. The fatigue arrived before the gym did, which makes it one tired day rather than two broken lifts.\n\nSo nothing moves. Squat holds 80 and holds the depth cue. The spotlights go to the two lifts that have something to say: the leg press, which inverted on you, and the leg curl, which has visible headroom.\n\nThursday was a long flow-and-circuit day this week. Legs will feel it — that was the deal.",
+  "routineId": "functional-bulk",
+  "tags": ["legs", "strength", "hypertrophy", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 60,
+  "equipment": ["smith-machine", "leg-press", "dumbbells", "leg-curl-machine", "plate"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "A hold-everything week on purpose. Last week's odd session traced back to fatigue that predated the gym — cossacks in the morning flow were already tired — so the squat-depth dip and the brutal leg press read as one systemic day, not two problems. No load moves. Spotlights go to leg press ROM (it inverted from 'easier later' to 'hardest ever' at the same weight) and the seated leg curl pyramid (easy with tempo, the clearest headroom on the day). Expect Thursday's flow day to still be in the legs.",
+    "spotlights": [
+      {
+        "exerciseId": "leg-press",
+        "why": "This lift has now told two opposite stories at the same load and the same slot: 'always feels easier later in the workout, both strong and full ROM,' then 'way harder than any recent time.' Nothing about the prescription changed between them, which means the variable is you on the day — and that makes it a good place to stop chasing the sensation and hold onto the one thing that's actually measurable. Full depth, every rep, whatever it feels like. If ROM survives a hard day, the lift is fine and the feeling was weather."
+      },
+      {
+        "exerciseId": "seated-leg-curl",
+        "why": "The pyramid ran 70 → 80 → 90 → 100 with a slow eccentric and came back 'somehow very easy today' — on the same session where squats and leg press were brutal. That's a genuinely fresh chain sitting next to an exhausted one, and it's the clearest headroom anywhere in the program right now. This is the one place a step up is honestly earned, and it's low-risk: a machine isolation where form doesn't degrade dangerously at the limit."
+      }
+    ],
+    "rotationPlan": "Legs spotlights rotate: W20 leg curl + Bulgarian · W21 squat depth + incline RDL · W22 leg press ROM + seated leg curl (current) · W23 Bulgarian + calf raise · W24 back to squat depth.",
+    "watchpoints": [
+      "**Everything holds. No load moves this week** — the exception is the leg curl top step, which is genuinely earned.",
+      "**🔆 Squat holds 80 and holds the depth cue** 🛑. Depth was down last week on a hot day with legs that were already tight walking in. That's not a load signal. If depth is back at 80 on a normal day, the dip explained itself.",
+      "**🔆 Leg press: ROM is the only thing being judged today** 🛑. Full depth every rep regardless of how it feels. It's read both 'easier late' and 'hardest ever' at the same weight, so the sensation isn't telling you anything reliable — the depth is.",
+      "**🔆 Leg curl pyramid 70 → 80 → 90 → 100, and 110 is available on the top set** 🔥 if 100 still feels easy with the slow eccentric intact. This is the one honest step-up on the day.",
+      "**Thursday will still be in your legs.** It was a long flow-and-circuit day with transverse lunges, thrusters, deep squat presses and lunge knee-drives, one day before this. You took that trade deliberately — heavy legs today is the expected cost, not a new problem.",
+      "**Calf raise stays ON the leg press** — same machine, don't walk away and come back.",
+      "**Intensity tags:** 🔥 near-failure last set OK — leg press, calf raise, seated leg curl. 🛑 keep it shy, the cue is the cap — squat, Bulgarian split squat, incline RDL.",
+      "**Cool-down is QL-biased today** — the lateral chain has been sore all week and Thursday added more."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (incl. Cross-Leg Lateral Lean — QL/Psoas Release + Dead-Bug Core/QL Primer)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, easy pace. Find the range before anything is loaded." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. **QL release** — it's been very sore all week, give it the extra beat here." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Open the hips, both directions." },
+        { "id": "tibialis-raise", "reps": 20, "notes": "Shins — cheap insurance for the knees." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spinal warmup." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Hinged slightly forward, tight fists, thumbs tucked." },
+        { "id": "dead-bug", "reps": "8 each side", "notes": "**Core/QL primer.** Ribs DOWN, low back flat to the floor — that's the whole drill." },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight, controlled. Last thing before the ramp." }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "squat-ramp",
+      "name": "Squat Warmup — the ROM Ramp (45 → 70) 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "squat", "reps": "8 / 8", "notes": "**LOAD:** 45 for round 1, 70 for round 2, 8 reps each.\n- **The ramp is what makes 80 work** — don't skip it to save time\n- Sit between the feet, **full depth on every warmup rep**\n- Brace before the descent, not at the bottom" }
+      ],
+      "restBetween": 60,
+      "restAfter": 75
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat Working (80 — Depth, and Only Depth) 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "squat", "reps": "6-8", "notes": "**LOAD:** 80/side. 2 working sets off the ramp.\n- **DEPTH is the only measure today** — the number is settled, the range is the lift\n- **Sit BETWEEN the feet**, not back onto the heels\n- **Knees track over the toes**, no collapse inward\n- **Ribs down, brace before you descend**\n- **Not to failure.** The honest ceiling is the rep where depth shortens\n\nDepth was short last week on a hot day with pre-tight legs. Same load, normal conditions — see whether the range comes back on its own." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "leg-press-station",
+      "name": "🔆 Leg Press + Calf Raise Station (Same Machine — Deep ROM) 🔥",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "leg-press", "reps": 12, "notes": "**LOAD:** 4 plates/side. 4 sets of 12. 🔥\n\n**🔆 SPOTLIGHT — judge the ROM, ignore the feeling:**\n- **Full depth every rep** — knees toward the chest, no half-reps to protect the set\n- **Feet mid-platform**, knees tracking with the toes\n- **Don't lock out hard** at the top; keep tension\n- **Low back stays flat on the pad** — if the hips curl under at the bottom, you've gone past your range, not into it\n- Last set may go near failure once the ROM is holding\n\n**Reflection:** this has felt both 'easier later in the workout' and 'harder than any recent time' at the same weight. Ignore which one today is — did full depth survive all four sets? That's the only reliable read this lift gives." },
+        { "id": "leg-press-calf-raise", "reps": 15, "notes": "**LOAD:** 4 plates/side. 3 sets of 15. **Stay on the leg press — same machine.** 🔥\n- **Full stretch at the bottom**, hold a beat\n- **Slow eccentric** — that's been going well, keep it\n- Squeeze hard at the top" }
+      ],
+      "notes": "Both lifts live on the leg press. Do not walk away between them.",
+      "restBetween": 75,
+      "restAfter": 75
+    },
+    {
+      "id": "bulgarian",
+      "name": "Bulgarian Split Squat (Double-50 DBs; Smith @45 the Alternate; Pigeon Between Sets) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "bulgarian-split-squat", "reps": "8-10 each leg", "notes": "**LOAD:** two 50lb DBs, one per hand. 3 sets of 8-10 each leg. Smith @45 is the alternate if the DBs are taken.\n- **Front shin roughly vertical**, weight through the whole front foot\n- **Torso tall**, ribs down — don't fold forward to reach depth\n- **Slow down, drive up** — no bouncing off the back foot\n- **Pigeon stretch between sets** — hip flexors are already loaded from Thursday\n- Not to failure; the cue is the cap" }
+      ],
+      "restBetween": 90,
+      "restAfter": 75
+    },
+    {
+      "id": "leg-curl",
+      "name": "🔆 Seated Leg Curl (The Pyramid — Stays BEFORE Incline RDL) 🔥",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": 12, "notes": "**LOAD:** 70 → 80 → 90 → 100 ascending, one step per round.\n\n**🔆 SPOTLIGHT — the one earned step-up on the day:**\n- **Slow eccentric on every set** — that stays regardless of load\n- **Hips stay planted**, no lifting off the pad to move the stack\n- **Full squeeze at the bottom**, controlled all the way back\n- **110 is available on the top set** 🔥 — the condition is that 100 still feels easy WITH the slow eccentric intact. If the tempo has to go to make the number, keep 100\n\n**Reflection:** this came back 'somehow very easy' on a day when everything else was brutal. Does 110 change that, or is the whole chain still fresh?" }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "incline-rdl",
+      "name": "Incline RDL 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "incline-rdl", "reps": 15, "notes": "**LOAD:** 45lb plate. 3 sets of 15.\n- **Tempo: 3s eccentric, 2s pause at the bottom** — the pause is the lift\n- **Hinge at the hips**, soft knees, spine long\n- **Feel the hamstring stretch**, don't chase floor contact with the plate\n- Squeeze the glutes to stand up\n\nThis read 'kind of easy' last week alongside the leg curl — same fresh posterior chain. Hold 45 and put the effort into the pause." }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Recovery Block (Hip/QL-Biased for Legs Day)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. **QL** — sore all week, and Thursday's bent press added to it." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "45s each side. Hips and glutes." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing — parasympathetic shift." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Everything holds.** The only available step is the leg curl top set to 110, and only if the slow eccentric survives it.",
+    "**Squat 80, depth is the measure.** Last week's short depth had a hot day and pre-tight legs behind it — no load change.",
+    "**Leg press spotlight: judge ROM, not sensation.** It's read both ways at the same weight; depth is the only reliable signal.",
+    "**Calf raise stays on the leg press** — same machine, adjacent in the session.",
+    "**Bulgarian at double-50**, pigeon between sets.",
+    "**Incline RDL holds 45** — the 2s pause is the work, not the plate.",
+    "**Thursday's flow day will still be in your legs.** Expected cost of a deliberate trade, not a problem.",
+    "🔥 near-failure OK on leg press, calf raise, leg curl. 🛑 keep it shy on squat, Bulgarian, incline RDL.",
+    "Cool-down is QL-biased today — 5 min, mandatory."
+  ],
+  "formPhilosophy": "A session where two lifts crater and two lifts feel easy looks like a puzzle until you find the piece that was outside the gym — a morning flow that was already tired before any of it started. Then it stops being four facts and becomes one: a tired day. The right response to a tired day is to change nothing, because loads chosen in response to fatigue are loads chosen by noise. So the numbers all stay, the depth cue stays, and the only thing that moves is the one lift that came back easy while everything around it was hard. Meanwhile the legs walk in pre-taxed from a Thursday built for enjoyment rather than efficiency, and that's fine too — it was chosen on purpose. Building decades, not weeks."
+}
