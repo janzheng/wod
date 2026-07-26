@@ -1,0 +1,150 @@
+{
+  "id": "fb-w23-pull",
+  "name": "Week 23 Pull — Steady State (Spotlight: Cable Crunch + Reverse Fly)",
+  "description": "Pull day, spotlights cycle to the cable crunch and the reverse fly — the two that have quietly been running without a real cue pass.\n\nEquipment is corrected from last week's flags: face pull is on the **adjustable pulley + rope** (where it's always been), the high cable curl has its **load numbers back**, and the lat pulldown lists the **dual-pulley number (70/side)** you settled on.\n\nThe slow eccentric stays the organizing idea. Pull-ups and DB row hold their tempo work; the incline curl keeps left-first while the left side is still telling its story.",
+  "routineId": "functional-bulk",
+  "tags": ["pull", "strength", "hypertrophy", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbells", "cable-machine", "pull-up-bar", "bench", "resistance-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Spotlights rotate to the cable crunch and the reverse fly. Equipment corrected: face pull on the adjustable pulley + rope, high cable curl load restored, lat pulldown dual-pulley number listed. Slow eccentric stays across the day; pull-ups and DB row hold their tempo; incline curl keeps left-first.",
+    "spotlights": [
+      {
+        "exerciseId": "cable-crunch",
+        "why": "It's held 67.5 'felt strong today' and mostly gets logged as an afterthought, which is a shame because the cable crunch is one of the few direct-loaded ab movements you run and it rewards a real cue. The spotlight is the distinction that makes it work: the spine flexes, the hips don't. Most cable crunches quietly turn into a hip-hinge with the arms pulling the weight; the fix is to crunch the ribcage toward the pelvis and leave the hips out of it, which is where the abs actually earn the 67.5."
+      },
+      {
+        "exerciseId": "dumbbell-reverse-fly",
+        "why": "This one's been drifting on equipment — 20s, then 25s when the 20s were taken — and running on 'did ok,' which means it's overdue for a pass on what actually matters: the rear delt, not the weight. It's a small muscle in a position that's easy to cheat with momentum or by turning it into a row. The spotlight is soft fixed elbows, lead with the elbows, and a slow squeeze — pick a weight you can own that way and note which, so it stops floating."
+      }
+    ],
+    "rotationPlan": "Pull spotlights rotate: W21 chest-supported row + incline curl · W22 pull-up + DB row tempo · W23 cable crunch + reverse fly (current) · W24 back to lat pulldown + face pull.",
+    "watchpoints": [
+      "**🔆 Cable crunch: spine flexes, hips DON'T** 🔥. Crunch the ribs toward the pelvis; don't hip-hinge or arm-pull. 67.5 stays — the cue is the work.",
+      "**🔆 Reverse fly: soft fixed elbows, lead with the elbows, slow squeeze** 🔥. Pick a weight you can own that way (20 or 25) and NOTE which. Rear delt, not a row.",
+      "**Face pull is on the ADJUSTABLE PULLEY + ROPE at 50** 🔥 — corrected from the 'cable column' label. Elbows high, knuckles up. 'Best non-event one you've done' last week.",
+      "**High cable curl load is back** — single pulley 62.5 / dual ~60 / cable column ~180. Log which station. Left arm first.",
+      "**Lat pulldown: dual pulley 70/side (140) is the settled number** 🛑; 80/side (160) was over the top last week. Regular machine 150 if you're on it.",
+      "**Pull-ups hold the slow eccentric** 🛑 — 8/8/8/6 last week, set 4 ending clean not falling apart. 'No pain just weak' is the ideal — grip/back is the ceiling, shoulder's fine.",
+      "**DB row 70/80/90 pyramid** 🛑 — left grip slipped at 8 on the 90 last week; that's the honest number, no straps.",
+      "**Incline curl keeps left-first, no new cue** 🛑 — left's been the harder arm two weeks running but completing the reps. Still just watching.",
+      "**Intensity tags:** 🔥 near-failure last set OK — cable crunch, reverse fly, chest-supported row, face pull, high cable curl. 🛑 keep it shy — pull-up, DB row, lat pulldown, incline curl.",
+      "**Behind-back shrug goes FIRST. Cool-down is 5 min, not optional.**"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "**The pull-day shoulder anchor.** Slow, blades together, no momentum." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spinal warmup, full range." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Hinged slightly forward, tight fists, thumbs tucked — grip primer." },
+        { "id": "dead-hang", "duration": 30, "notes": "Passive hang. Decompress and wake the grip." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "protective-shrug",
+      "name": "Behind-Back DB Shrug — Protective Activation (DO THIS FIRST)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "behind-back-dumbbell-shrug", "equipment": "DB pair", "reps": "12-15", "notes": "**LOAD:** 40-50lb pair. 3 sets, first in the session.\n- Held behind the body, palms back\n- **Blades DOWN and BACK**, shrug UP and slightly back, 1s peak squeeze, slow down\n- Decompresses the right shoulder before anything loads it" }
+      ],
+      "restBetween": 45,
+      "restAfter": 45
+    },
+    {
+      "id": "pull-ups",
+      "name": "Pull-Ups — Straight Bar (4 Sets, Slow Eccentric) 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "8-10", "notes": "**LOAD:** bodyweight, straight bar, 4 sets.\n- **3s eccentric** on every rep of sets 1-3\n- **Pack DOWN before you pull** — blades into the back pockets, elbows drive to the ribs\n- **Chest to the bar**, full hang at the bottom\n- **No straps** — grip is part of the lift\n- Last week was 8/8/8/6 ending clean, 'no pain just weak' — the shoulder's a non-issue, grip/back is the honest ceiling. Hold the tempo; let set 4 be what it is" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "db-rack-bench-block",
+      "name": "🔆 DB Rack / Bench Block — DB Row 🛑 + Chest-Supported Row 🔥 + Incline Curl 🛑 + Reverse Fly (Spotlight) 🔥 (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-row", "reps": "10/10/8", "notes": "**LOAD:** 70 / 80 / 90 ascending pyramid — one set per round.\n- **Pack DOWN and BACK** before the elbow moves, elbow past the ribs\n- **The 90 set can go slow** if the grip holds — left slipped at 8 last week, right stopped at 8 to match\n- **No straps.** The left-grip-limited 8 at 90 IS the honest number" },
+        { "id": "chest-supported-dumbbell-row", "reps": "10-12", "notes": "**LOAD:** 45. 3 sets. 🔥\n- **All sets slow eccentric**, and add the pause you flagged ('could do slower with pause')\n- Chest stays on the pad, no heaving\n- Squeeze the blades, slow return to a full stretch" },
+        { "id": "incline-curl", "reps": "8-10", "notes": "**LOAD:** 25lb DBs, incline bench. **Start LEFT.**\n- **Elbow stays behind the torso** — that's the incline's job\n- **Full stretch at the bottom**, no swinging\n- Left's been harder two weeks running but completing the reps — keep left-first, no other change" },
+        { "id": "dumbbell-reverse-fly", "reps": 12, "notes": "**LOAD:** 20lb (or 25 if the 20s are taken — NOTE which). 3 sets. 🔥\n\n**🔆 SPOTLIGHT — rear delt, not a row:**\n- **Chest supported, soft FIXED elbows** — the angle doesn't change through the rep\n- **Lead with the elbows**, slow squeeze of the rear delts at the top\n- **Slow eccentric** while you have it; normal tempo once tired is fine\n- Pick the weight you can own with fixed elbows and **write down which**\n\n**Reflection:** is the rear delt doing it, or are you rowing/momentum-ing the weight up? Small muscle, clean line — that's the lift." }
+      ],
+      "notes": "3 rounds — all four lifts around the adjustable benches.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown (Dual Pulley 70/side, or Machine 150) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "equipment": "dual pulley or regular machine", "reps": "8-12", "notes": "**LOAD:**\n- **Dual pulley: 70/side (≈140 total)** — the settled number (80/side was over the top last week: 10/6)\n- Regular lat pulldown machine: **150**\n- Cable column: 52.5-57.5\n\n- **Pack DOWN first** — blades into the back pockets before the bar moves\n- **Bar to the upper chest**, elbows driving down and back, no leaning back\n- Slow return, full stretch at the top\n\nPick whichever's free; **note the station + number.** 'Feels good on shoulders' on this lift lately." }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "face-pull",
+      "name": "Face Pull — Adjustable Pulley + Rope (3 Sets at 50) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "face-pull", "equipment": "adjustable pulley + rope (upper-chest height)", "reps": 20, "notes": "**LOAD:** adjustable pulley + rope **50** (settled). 3 sets of 20. 🔥\n- **Rope to the forehead**, elbows HIGH and wide\n- **External rotation at the end** — thumbs back, knuckles up\n- **Pack down** — traps quiet\n- Slow eccentric — 'best non-event one you've done' last week. Light and high-rep on purpose; shoulder health" }
+      ],
+      "restBetween": 45,
+      "restAfter": 45
+    },
+    {
+      "id": "cable-finisher",
+      "name": "🔆 Cable Column Finisher — High Cable Curl + Cable Crunch (Spotlight) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "high-cable-bicep-curl", "equipment": "cable column OR single/dual pulley — whichever's free", "reps": "10-12", "notes": "**LOAD (single arm — scales differ, LOG which station):**\n- Single pulley: **62.5**\n- Dual pulley: **~60**\n- Cable column (D-handle): **~180**\n- **Stand sideways, upper arm PARALLEL to the floor and FIXED** — the elbow doesn't drop\n- **Curl the hand toward the ear**, peak squeeze\n- **Left arm first**, slow eccentric, no bounce. Shoulder-friendly, it's been clean" },
+        { "id": "cable-crunch", "equipment": "cable column", "reps": "12-15", "notes": "**LOAD:** cable column **67.5**. 3 sets. 🔥\n\n**🔆 SPOTLIGHT — spine flexes, hips stay put:**\n- **Crunch the ribcage toward the pelvis** — the spine flexes, the HIPS DON'T move\n- **Don't hip-hinge** and don't pull with the arms — the arms just hold the rope\n- Slow return, no yanking\n- 'Felt strong today' at 67.5 last week — the cue is what makes the load land on the abs\n\n**Reflection:** are the abs crunching, or are the hips folding and the arms pulling? Ribs-to-pelvis with still hips is the whole lift." }
+      ],
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow height." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive. Second hang of the day — let the grip release." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing — parasympathetic shift." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Cable crunch spotlight: spine flexes, hips don't.** Ribs to pelvis, arms just hold. 67.5 stays.",
+    "**Reverse fly spotlight: rear delt, not a row.** Soft fixed elbows, slow squeeze; note which weight (20 or 25).",
+    "**Face pull is on the adjustable pulley + rope at 50** — equipment corrected.",
+    "**High cable curl load is back** — single pulley 62.5 / dual ~60 / column ~180. Left first, log the station.",
+    "**Lat pulldown: dual pulley 70/side, or machine 150.** 80/side was over the top last week.",
+    "**Pull-ups hold the slow eccentric**; DB row 70/80/90 pyramid, no straps.",
+    "**Incline curl left-first, no new cue.**",
+    "🔥 near-failure OK on cable crunch, reverse fly, chest-supported row, face pull, high cable curl. 🛑 keep it shy on pull-up, DB row, lat pulldown, incline curl.",
+    "Cool-down permanent — 5 min."
+  ],
+  "formPhilosophy": "The two lifts under the spotlight this week are the two most likely to quietly turn into something they aren't — a cable crunch that's become a hip-hinge, a reverse fly that's become a row. Neither shows up as a problem in the log because both still 'work'; they just stop working the muscle they're for. That's the failure mode a form-first program has to actually look for, because it never announces itself as a missed rep. And the equipment corrections matter for the same reason the loads do: a number is only honest if you know which machine it's on. Fix the label, keep the weight, spotlight the cheat. Building decades, not weeks."
+}
