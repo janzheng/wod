@@ -423,6 +423,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 ### Face pull
 
 **Setup**
+- **Station: adjustable pulley + rope** (NOT the cable column — the "cable column" label was a long-running drift, corrected W22D3; the whole 42.5→47.5→50 climb was always on the adjustable pulley)
 - Rope at upper-chest / face height
 - Step back to set tension
 - Soft athletic stance
@@ -727,7 +728,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 
 ### Bulgarian split squat
 
-**Equipment priority:** **Smith machine preferred** (`smith-machine-bulgarian-split-squat`) — fixed bar path means the front-heel drive does all the work, no balance tax. Smith is "always taken" at this gym, so the realistic default is **flat bench + DBs at the sides** (`bulgarian-split-squat`). Replaces the walking lunge as the program's unilateral leg lift (W12D5 user request).
+**Equipment priority (UPDATED W22D5):** **Smith machine is the PREFERRED default** (`smith-machine-bulgarian-split-squat`) @45 + bench — the fixed bar path forces a deeper squat with no balance tax, and the user "like[s] the setup way better." **DBs are the alternate** (`bulgarian-split-squat`, double-50 at the sides) for when the Smith is busy — "dbs are almost always available." This REVERSES the earlier "Smith always taken → DBs realistic default" note (W15D5): the user actively prefers the Smith and reaches for DBs only as backup. Replaces the walking lunge as the program's unilateral leg lift (W12D5 user request).
 
 **Setup**
 - **Rear foot up on a bench** behind you, laces down (or toes tucked — taste)
