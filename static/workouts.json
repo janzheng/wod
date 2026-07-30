@@ -27060,8 +27060,8 @@
   },
   {
     "id": "fb-w23-kb-cond",
-    "name": "Week 23 KB Thursday — FLOW + CIRCUIT DAY 🌀 (Outside Snatch Flow 2nd Run + GymFiesta Circuit)",
-    "description": "The fun day continues. You asked for more of the Outside Snatch Flow — here it is on its second run, this time to refine rather than just learn. It pairs again with the GymFiesta circuit, the flow-plus-circuit combo that landed.\n\n**Warmup reminder:** halo → bottoms-up press (18lb) → figure-8 (a few slow passes) → internal core fist rotation → protective behind-back shrug, then the 7-move banded prep.\n\nStrength runs between the two big blocks so the day isn't front-loaded. Bent press keeps its once-a-week place in the skill block. Strict press holds 50.\n\nThis day is leg-inclusive and runs long — both on purpose, both the deal you took.",
+    "name": "Week 23 KB Thursday — FLOW + COMPLEX DAY 🌀 (Outside Snatch Flow 2nd Run + Brutal Complex)",
+    "description": "The fun day continues. You asked for more of the Outside Snatch Flow — here it is on its second run, this time to refine rather than just learn. It pairs with a fresh conditioning block: @Asgooch's **Brutal Complex**, here to add what the flow doesn't — a horizontal ROW and a PUSHUP.\n\n**Warmup reminder:** halo → bottoms-up press (18lb) → figure-8 (a few slow passes) → internal core fist rotation → protective behind-back shrug, then the 7-move banded prep.\n\nStrength runs between the two big blocks so the day isn't front-loaded. Bent press keeps its once-a-week place in the skill block. Strict press holds 50.\n\nThis day is leg-inclusive and runs long — both on purpose, both the deal you took.",
     "routineId": "functional-bulk",
     "tags": [
       "kettlebell",
@@ -27080,22 +27080,22 @@
     ],
     "difficulty": "intermediate",
     "dayOverview": {
-      "theme": "Thursday stays the flow + circuit day. Outside Snatch Flow returns on its second run — refine the outside-arc snatch now that the order's known — paired again with the GymFiesta circuit. Strength runs BETWEEN the two big blocks so it's not top-heavy. Bent press stays once in the skill block. Leg-inclusive and long, by design.",
+      "theme": "Thursday stays the flow + conditioning day. Outside Snatch Flow returns on its second run — refine the outside-arc snatch now that the order's known — paired with a different block, @Asgooch's Brutal Complex (row + pushup), chosen to fill the pull/push gap the flow leaves. Strength runs BETWEEN the two big blocks so it's not top-heavy. Bent press stays once in the skill block. Leg-inclusive and long, by design.",
       "spotlights": [
         {
           "exerciseId": "kettlebell-outside-snatch",
           "why": "You called the flow fun and want more of it, so the second run is about the one beat that's genuinely new to your body — the outside-arc snatch. The first time through it was enough to just get the bell overhead; now that the sequence is known, the attention goes to the arc itself: the bell traveling outside the midline and the shoulder accepting it off-plane. Punch the hand through so it rolls onto the forearm, pack the shoulder down at the catch, and make the arc smooth instead of muscled. This is the move that turns the flow from 'learned' into 'owned.'"
         }
       ],
-      "rotationPlan": "Thursday content rotates: W22 Outside Snatch Flow (new) + GymFiesta circuit · W23 Outside Snatch Flow (2nd run, refine) + GymFiesta circuit (current) · W24 rotate the circuit — bring in an upper-biased complex, keep a flow. The Outside Snatch Flow is a confirmed keeper; cycle the circuit around it.",
+      "rotationPlan": "Thursday content rotates: W22 Outside Snatch Flow + GymFiesta circuit · W23 Outside Snatch Flow (2nd run) + Brutal Complex (@Asgooch) · W24 keep the flow, rotate the conditioning block again (e.g. the cardio complex or the upper circuit). The Outside Snatch Flow is a confirmed keeper; cycle the second block around it every week.",
       "watchpoints": [
         "**🌀🔆 Outside Snatch Flow — 2nd run, REFINE now.** figure-8 → tactical clean → transverse lunge → outside snatch → windmill → snatch → thruster → deep squat press → hand-to-hand swing. One continuous chain per side, light bell. You know the order now — make the transitions seamless. (Canonical: kb-outside-snatch-flow.)",
         "**🛑 The outside snatch is the spotlight beat** — the bell travels an OUTSIDE arc, off the midline. Punch the hand through, pack the shoulder DOWN at the catch, make the arc smooth. Sub a high pull if the right shoulder objects.",
-        "**🌀 GymFiesta circuit — run whole, 3 rounds.** around-the-body pass to squat (×20) → reverse lunge to knee drive (×10/side) → snatch (×10/side) → single-arm press to march (×10/side). A CIRCUIT, not a flow — each move for its reps, then move on. Light-to-moderate bell, ~60s between rounds.",
-        "**Strength runs BETWEEN the two big blocks** — flow, then strength, then circuit — so the demanding volume isn't stacked at the top (the top-heavy lesson from W21).",
+        "**🌀 Brutal Complex (@Asgooch), run circuit-style, 3 rounds.** swing → ab-stance goblet squat (alternate wide/narrow) → alternating bent-over row → close-grip pushup (hands on the bell handles). Each move for its reps, then move on, ~60s between rounds. It's here because it ADDS a row and a pushup — the pull and push the Outside Snatch Flow has none of.",
+        "**Strength runs BETWEEN the two big blocks** — flow, then strength, then complex — so the demanding volume isn't stacked at the top (the top-heavy lesson from W21).",
         "**Bent press runs ONCE, in the skill block** 🛑 — the pattern is the anchor. Eyes on the bell, hips shift away, arm locked; it's a hinge, not a press.",
         "**Strict overhead press holds 50 at 8/8/8** 🛑 — strict, no push-press, both sides even. KB row at 40.",
-        "**Leg-inclusive and long, on purpose.** Transverse lunge, thruster, deep squat press, and the circuit's knee-drives cost the legs the day before legs day. You took that trade. If it overruns, cut the circuit to 2 rounds — not the flow.",
+        "**Leg-inclusive and long, on purpose.** The flow's transverse lunge, thruster, and deep squat press cost the legs the day before legs day (the complex is light on legs — it adds pull/push instead). You took the leg-cost trade. If it overruns, cut the complex to 2 rounds — not the flow.",
         "**Protective behind-back shrug greasing set stays in the warm-up.**"
       ]
     },
@@ -27212,12 +27212,12 @@
         "restAfter": 60
       },
       {
-        "id": "gymfiesta-circuit-block",
-        "name": "🌀 GymFiesta Full-Body Circuit (Run Whole — 3 Rounds)",
+        "id": "brutal-complex-block",
+        "name": "🌀 Brutal Complex (@Asgooch) — Adds a Row + a Pushup",
         "type": "flow",
-        "flowId": "kb-gymfiesta-full-body-circuit",
+        "flowId": "kb-brutal-complex",
         "rounds": 3,
-        "notes": "**Single light-to-moderate bell (~20-30lb), 3 rounds.** The circuit half of the combo you liked.\n\n**This is a CIRCUIT, not a flow** — each move runs its full rep count, then you move on. Minimal rest between moves, ~60s between rounds. Conditioning is the intent.\n\n**The snatch is the technical centerpiece** — hips drive it, punch the hand THROUGH at the top. 🛑 Right-shoulder watch on the catch; sub high pulls if it crackles.\n\n**The press-to-march is the coordination beat** — press to a packed-shoulder lockout, then drive alternate knees while the bell stays STILL overhead.\n\n**If the session has run long, this drops to 2 rounds** — not the flow.",
+        "notes": "**Single moderate bell (~20-30lb), 3 rounds, ~10-12 reps per move (each side where it alternates).** @Asgooch's Brutal Complex, chosen for what it ADDS.\n\n**Four moves, run circuit-style** — each move for its reps, then move on. Minimal rest between moves, ~60s between rounds.\n\n**Why this block:** the Outside Snatch Flow is all swing / snatch / clean / lunge — no real pull, no push. This block's **alternating bent-over row** and **close-grip pushup** fill both gaps, so Thursday covers the whole body instead of hammering the same patterns twice.\n\n**The moves:**\n- **Swing** — two-handed, explosive hip snap\n- **Ab-stance goblet squat** — alternate WIDE and NARROW stance each rep\n- **Alternating bent-over row** — hinge, flat back, row one side then the other; pack the shoulder DOWN, elbow past the ribs\n- **Close-grip pushup** — hands ON the bell handles, elbows tucked; a triceps-biased push and a novel one\n\n**If the session has run long, this drops to 2 rounds** — not the flow.",
         "restBetween": 0,
         "restAfter": 60
       },
@@ -27271,12 +27271,12 @@
     "tips": [
       "**Outside Snatch Flow, 2nd run — refine, don't just repeat.** You know the order; make the transitions seamless and smooth the outside-snatch arc.",
       "🛑 **The outside snatch travels an OUTSIDE arc** — punch the hand through, pack the shoulder down, sub a high pull if the shoulder objects.",
-      "**GymFiesta circuit runs whole, 3 rounds** — each move for its reps, then move on.",
-      "**Strength runs between the flow and the circuit** so the day isn't top-heavy.",
+      "**Brutal Complex (@Asgooch), 3 rounds circuit-style** — swing → ab-stance goblet squat → alternating bent-over row → close-grip pushup. Adds the row + pushup the flow lacks.",
+      "**Strength runs between the flow and the complex** so the day isn't top-heavy.",
       "**Bent press once, in the skill block**; windmill rotated in beside it.",
       "**Strict overhead press holds 50 at 8/8/8**; KB row at 40.",
       "**Bottoms-up press + figure-8 passes in the warmup.**",
-      "**Leg-inclusive and long on purpose** — if it overruns, cut the circuit to 2 rounds, not the flow.",
+      "**Leg-inclusive and long on purpose** — if it overruns, cut the complex to 2 rounds, not the flow.",
       "Cooldown mandatory — pigeon, butterfly, cross-leg lateral.",
       "Rotation ahead: W24 rotates the circuit around the Outside Snatch Flow; brings back B-Stance + Leggy on Tuesday."
     ],
@@ -27941,10 +27941,10 @@
       ],
       "rotationPlan": "Pull spotlights rotate: W21 chest-supported row + incline curl · W22 pull-up + DB row tempo · W23 cable crunch + reverse fly (current) · W24 back to lat pulldown + face pull.",
       "watchpoints": [
-        "**🔆 Cable crunch: spine flexes, hips DON'T** 🔥. Crunch the ribs toward the pelvis; don't hip-hinge or arm-pull. 67.5 stays — the cue is the work.",
+        "**🔆 Cable crunch: spine flexes, hips DON'T** 🔥. Crunch the ribs toward the pelvis; don't hip-hinge or arm-pull. Rope pulley 67.5-77.5 OR cable column ~270 — pick by availability, log which. The cue is the work.",
         "**🔆 Reverse fly: soft fixed elbows, lead with the elbows, slow squeeze** 🔥. Pick a weight you can own that way (20 or 25) and NOTE which. Rear delt, not a row.",
         "**Face pull is on the ADJUSTABLE PULLEY + ROPE at 50** 🔥 — corrected from the 'cable column' label. Elbows high, knuckles up. 'Best non-event one you've done' last week.",
-        "**High cable curl load is back** — single pulley 62.5 / dual ~60 / cable column ~180. Log which station. Left arm first.",
+        "**High cable curl** — cable column 170-180 OR single pulley 62.5 (pick by availability, log which). Left arm first.",
         "**Lat pulldown: dual pulley 70/side (140) is the settled number** 🛑; 80/side (160) was over the top last week. Regular machine 150 if you're on it.",
         "**Pull-ups hold the slow eccentric** 🛑 — 8/8/8/6 last week, set 4 ending clean not falling apart. 'No pain just weak' is the ideal — grip/back is the ceiling, shoulder's fine.",
         "**DB row 70/80/90 pyramid** 🛑 — left grip slipped at 8 on the 90 last week; that's the honest number, no straps.",
@@ -28086,15 +28086,15 @@
         "exercises": [
           {
             "id": "high-cable-bicep-curl",
-            "equipment": "cable column OR single/dual pulley — whichever's free",
+            "equipment": "cable column OR single pulley — whichever's free",
             "reps": "10-12",
-            "notes": "**LOAD (single arm — scales differ, LOG which station):**\n- Single pulley: **62.5**\n- Dual pulley: **~60**\n- Cable column (D-handle): **~180**\n- **Stand sideways, upper arm PARALLEL to the floor and FIXED** — the elbow doesn't drop\n- **Curl the hand toward the ear**, peak squeeze\n- **Left arm first**, slow eccentric, no bounce. Shoulder-friendly, it's been clean"
+            "notes": "**LOAD (single arm — scales differ, pick by availability, LOG which station):**\n- Cable column (D-handle): **170-180**\n- Single pulley: **62.5**\n- **Stand sideways, upper arm PARALLEL to the floor and FIXED** — the elbow doesn't drop\n- **Curl the hand toward the ear**, peak squeeze\n- **Left arm first**, slow eccentric, no bounce. Shoulder-friendly, it's been clean"
           },
           {
             "id": "cable-crunch",
-            "equipment": "cable column",
+            "equipment": "cable pulley (rope), or cable column",
             "reps": "12-15",
-            "notes": "**LOAD:** cable column **67.5**. 3 sets. 🔥\n\n**🔆 SPOTLIGHT — spine flexes, hips stay put:**\n- **Crunch the ribcage toward the pelvis** — the spine flexes, the HIPS DON'T move\n- **Don't hip-hinge** and don't pull with the arms — the arms just hold the rope\n- Slow return, no yanking\n- 'Felt strong today' at 67.5 last week — the cue is what makes the load land on the abs\n\n**Reflection:** are the abs crunching, or are the hips folding and the arms pulling? Ribs-to-pelvis with still hips is the whole lift."
+            "notes": "**LOAD (rope attachment; pick by availability, LOG which):**\n- Cable pulley (rope): **67.5-77.5** (77.5 is the strong reference)\n- Cable column: **~270** (the pulley's leverage makes these two match)\n\n3 sets. 🔥\n\n**🔆 SPOTLIGHT — spine flexes, hips stay put:**\n- **Crunch the ribcage toward the pelvis** — the spine flexes, the HIPS DON'T move\n- **Don't hip-hinge** and don't pull with the arms — the arms just hold the rope\n- Slow return, no yanking\n- Read the stack — magnetic micro add-ons can be on without noticing\n\n**Reflection:** are the abs crunching, or are the hips folding and the arms pulling? Ribs-to-pelvis with still hips is the whole lift."
           }
         ],
         "restBetween": 45,
@@ -28140,7 +28140,7 @@
       "**Cable crunch spotlight: spine flexes, hips don't.** Ribs to pelvis, arms just hold. 67.5 stays.",
       "**Reverse fly spotlight: rear delt, not a row.** Soft fixed elbows, slow squeeze; note which weight (20 or 25).",
       "**Face pull is on the adjustable pulley + rope at 50** — equipment corrected.",
-      "**High cable curl load is back** — single pulley 62.5 / dual ~60 / column ~180. Left first, log the station.",
+      "**High cable curl** — cable column 170-180 OR single pulley 62.5, pick by availability. Left first, log the station.",
       "**Lat pulldown: dual pulley 70/side, or machine 150.** 80/side was over the top last week.",
       "**Pull-ups hold the slow eccentric**; DB row 70/80/90 pyramid, no straps.",
       "**Incline curl left-first, no new cue.**",
@@ -46285,7 +46285,7 @@
       },
       {
         "id": "kettlebell-windmill",
-        "notes": "**Half-Kneeling Windmill:** drop to a half-kneeling stance (working-side knee down), bell overhead, and windmill from there — same eyes-on-bell hinge, now from the floor. This is where the flow lowers to the ground."
+        "notes": "**Half-Kneeling Windmill:** as you drop to half-kneeling, **turn ~90° toward the raised (overhead) arm** and set the **down knee out wide** — that open, sideways stance is what gives the windmill room from the floor. Bell locked overhead, eyes on it, same hinge as the standing windmill. This is where the flow lowers to the ground."
       },
       {
         "id": "kettlebell-tactical-clean",

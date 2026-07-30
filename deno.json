@@ -9,6 +9,7 @@
     "build:exercises": "deno run -A scripts/build-exercises.ts",
     "build:workouts": "deno run -A scripts/build-workouts.ts",
     "build:notes": "deno run -A scripts/build-notes.ts",
+    "audit": "deno run -A scripts/audit-loads.ts",
     "build": "deno task build:styles && deno task build:exercises && deno task build:workouts && deno task build:notes",
     "kill:8010": "sh -c 'PID=$(lsof -ti:8010 2>/dev/null); [ -n \"$PID\" ] && kill -9 $PID || true'",
     "wod": "deno run -A src/cli/mod.ts",

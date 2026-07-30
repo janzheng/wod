@@ -1,0 +1,279 @@
+[
+ {
+  "day": 1,
+  "workoutId": "fb-w23-push",
+  "date": "2026-07-27",
+  "rawInput": "w23d1\n\ncossacks went fine - a bit crackly but not too tiring - these used to feel impossible and i used to need support but no support now and working on depth\n\npush press\nwent great with rest in between, only did around 1 minute and did all sets no problem with 45s at good depth and speed; emphasis on slower eccentric next time i think\n\nincline press\nalso went great, last set went up to 55 and maintained slow eccentric!\n\ndips\ncontinues to be hard on palms; really hard!! doing slow 2s eccentric and still a struggle but getting better \ndid them all tho! last one took a 2 min break and did it fine 2s ecc lol\n\nlat raises really hard low up and slow down with a sec hold; struggled thru last rested closer to in last set to reset\n\ncable fly fine - felt great and pretty easy today \n\nfarmers carry fine did two one minute sets and a 30s set\n\ncable column is taken\nincline overhead kind of drifted again - but did this on a rope pulley on the ground at 37.5\non knees leaning back\nsecond set at 42.5\nthird set at 42.5 prob need to go up slightly \n\n\nstraight arm pulldown on knees facing rope pulley; slightly different mechanism than cable column \n57.5 x12\n62.5 x12\n62.5 x12\n\nlat raises on pulley with d handle 9lbs",
+  "notes": "Solid push day, two real wins: incline DB hit the 55 gate on the last set with the slow eccentric holding, and the lateral-raise spotlight (slow up, slow down, 1s hold) made 15lb genuinely hard — the tempo pass landed. Cable column was occupied so the whole cable block drifted onto rope/D-handle pulleys (tri ext + straight-arm on a floor rope pulley kneeling, cable lat raise on a D-handle pulley). Dips still hard on the palms.",
+  "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back.",
+  "exercises": [
+   {
+    "id": "cossack-squat",
+    "context": "Morning-flow carryover, not a push-day station. His early read on leg freshness.",
+    "sets": [
+     { "weight": "bodyweight", "reps": "5 each side", "notes": "'A bit crackly but not too tiring.'" }
+    ],
+    "notes": "Big floor-rising note in his own words: 'these used to feel impossible and i used to need support but no support now and working on depth.' The Cossack has gone from assisted-and-impossible to unassisted with depth as the project — exactly the 'hard is now easy' pattern. Crackly but not fatiguing."
+   },
+   {
+    "id": "push-press",
+    "context": "Ran first, 3 sets. Prescribed 45lb, full 2 min rest, hold.",
+    "sets": [
+     { "weight": "45lb pair", "reps": "8-10", "rest": "~60s", "notes": "Good depth and speed, all sets no problem." },
+     { "weight": "45lb pair", "reps": "8-10", "rest": "~60s" },
+     { "weight": "45lb pair", "reps": "8-10" }
+    ],
+    "notes": "Held 45 as prescribed. Took only ~1 min rest instead of the prescribed 2 — so all sets clean at good depth/speed on SHORTER rest, which is the floor rising. He wants to put the emphasis on a slower eccentric next time — that's the right lever (spend the headroom on tempo, not load, per the 🛑 tag)."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "context": "3 sets. Prescribed 50lb hold; 55 available when the pack-down survives all 12.",
+    "sets": [
+     { "weight": "50lb pair", "reps": 12, "notes": "2s eccentric held." },
+     { "weight": "50lb pair", "reps": 12 },
+     { "weight": "55lb pair", "reps": 12, "notes": "Went up to 55 on the last set, slow eccentric maintained." }
+    ],
+    "notes": "Hit the 55 gate — last set at 55 with the 2s eccentric intact. That's the pack-down surviving, which was the whole condition for the bump. 'Also went great.'"
+   },
+   {
+    "id": "dip",
+    "context": "Bodyweight, 3 sets, tempo is the lever. Palms flagged last week.",
+    "sets": [
+     { "weight": "bodyweight", "reps": "10-12", "notes": "2s eccentric." },
+     { "weight": "bodyweight", "reps": "10-12", "notes": "2s eccentric." },
+     { "weight": "bodyweight", "reps": "10-12", "notes": "2 min break before this set, then done clean at 2s eccentric." }
+    ],
+    "notes": "'Continues to be hard on palms; really hard!!' Doing a 2s eccentric (prescription said 3s) and still a struggle — but did all three, and 'getting better.' Palm pressure has now persisted two weeks; per the prescription note that points to a hand-position issue on the bars, not load or tempo."
+   },
+   {
+    "id": "lateral-raise",
+    "context": "🔆 Spotlight this week — the slow lift. DB, prescribed 15lb.",
+    "sets": [
+     { "weight": "15lb", "reps": "15-18", "notes": "Slow up, slow down, 1s hold at top." },
+     { "weight": "15lb", "reps": "15-18" },
+     { "weight": "15lb", "reps": "15-18", "notes": "Struggled through; rested mid-set to reset." }
+    ],
+    "notes": "The spotlight worked exactly as intended: same 15lb, but slowing it down (low up + slow down + a 1s hold) made it 'really hard' where it had been 'fine' at speed. He had to rest partway through the last set to reset. Tempo is the progression here, not load."
+   },
+   {
+    "id": "kinesis-cable-fly",
+    "context": "Kinesis, 3 sets, step forward to deepen.",
+    "sets": [
+     { "weight": "Kinesis 9", "reps": "10-12", "equipment": "Kinesis" }
+    ],
+    "notes": "'Felt great and pretty easy today' — a touch easier than last week's 'always pretty hard.' One data point; watch whether it holds before reading anything into it."
+   },
+   {
+    "id": "farmer-carry",
+    "context": "3 walks, grip caps it. Nothingburger.",
+    "sets": [
+     { "weight": "50lb per hand", "duration": 60 },
+     { "weight": "50lb per hand", "duration": 60 },
+     { "weight": "50lb per hand", "duration": 30 }
+    ],
+    "notes": "Fine — two 1-min walks + a 30s. As expected, a nothingburger."
+   },
+   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "context": "🔆 Spotlight. Prescribed cable column 70 — but the cable column was taken.",
+    "sets": [
+     { "weight": "37.5", "reps": "10-12", "equipment": "rope pulley (floor, kneeling, leaning back)" },
+     { "weight": "42.5", "reps": "10-12", "equipment": "rope pulley (floor, kneeling, leaning back)" },
+     { "weight": "42.5", "reps": "10-12", "equipment": "rope pulley (floor, kneeling, leaning back)", "notes": "'Prob need to go up slightly.'" }
+    ],
+    "notes": "Equipment drift — cable column occupied, so done on a floor rope pulley on the knees leaning back (same setup as W17's rope-pulley variant). 37.5 → 42.5 → 42.5; last set says it needs to go up slightly. This is the rope-pulley scale, NOT the cable column 70 — different machine, don't cross-quote. Ran first in the cable block this week but the fatigue read is muddied by the equipment change."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "context": "Cable block, middle slot. Prescribed cable column 120 — cable column taken.",
+    "sets": [
+     { "weight": "57.5", "reps": 12, "equipment": "rope pulley (kneeling, facing)" },
+     { "weight": "62.5", "reps": 12, "equipment": "rope pulley (kneeling, facing)" },
+     { "weight": "62.5", "reps": 12, "equipment": "rope pulley (kneeling, facing)" }
+    ],
+    "notes": "Also drifted off the cable column to a kneeling rope pulley — 'slightly different mechanism than cable column.' 57.5 → 62.5 → 62.5. Rope-pulley-kneeling scale, separate from the cable-column 120 number; log the machine, not just the number."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "context": "Cable block, last slot this week. Prescribed Kinesis 5-6 default.",
+    "sets": [
+     { "weight": "9lb", "reps": 12, "equipment": "pulley + D handle" }
+    ],
+    "notes": "Done on a pulley with a D handle at 9lb (not the Kinesis default) — again because the cable block moved off the occupied cable column. Distinct from the DB lateral-raise spotlight earlier in the session."
+   }
+  ],
+  "shoulderStatus": "No flare reported. Cossacks 'a bit crackly' (the usual low-grade right-side crackle), lateral raise 'shoulder not hurting' territory — spotlight tempo work done clean.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Incline DB reached 55 on the last set with the slow eccentric intact — the pack-down survived, so the gate opened honestly.** Next week can open at 50 and bring 55 in for the last set or two again; don't jump all three sets to 55 until the pack-down holds across the whole lift.",
+   "**The lateral-raise spotlight proved the point: slowing the SAME 15lb made it genuinely hard.** 'Fine' at speed became 'really hard' with a slow up/down + 1s hold — needed a mid-set reset on the last set. When it rotates off spotlight, keep the tempo cue; the load doesn't need to move.",
+   "**Cable-column occupancy pushed the entire cable block onto rope/D-handle pulleys — this recurs.** Tri ext + straight-arm on a floor/kneeling rope pulley, cable lat raise on a D-handle pulley. The rope-pulley numbers (tri ext 42.5, straight-arm 62.5) are a DIFFERENT scale from cable column (70 / 120) — the workout should pre-populate the rope-pulley fallback number so he's not guessing when the column's taken. (Equipment Calibration Table updated.)",
+   "**Push press held 45 on ~1 min rest (half the prescribed 2 min) and still ran clean** — the floor's risen. He wants the next lever to be a slower eccentric, which matches the 🛑 tag (tempo before load). Give push press an explicit eccentric/pause cue next week rather than a number.",
+   "**Dip palm pressure has persisted two weeks.** Not a load or tempo problem per the standing note — it's hand position on the bars. Worth an explicit setup cue next push day (neutral wrist, weight through the heel of the palm / try a parallel-grip station if available)."
+  ]
+ },
+ {
+  "day": 2,
+  "workoutId": "fb-w23-kb-full",
+  "date": "2026-07-28",
+  "rawInput": "w23d2\n\nthere's a half kneeling windmill and a half kneeling tactical clean while kneeling so this is a bit wrong I think?\n\nthe kneeling tactical clean changes the hand and you adjust the knee to facing while the half windmill has your knee pointed sideways - you move sideways before the half windmill\nduring the walter catch you turn back to original facing\n\notherwise really good workout today, super complex flow to learn really fun and nailed it at the end did it twice both sides on a 25 - actually pretty cardio heavy and wore me out; walter catch isn't the hard part it's the entire kneeling thing and getting into kneeling that's confusing\n\nthanks for giving me the rest of the workout to work on this one!\n\nActually I think I might be wrong on my corrections lmao this was an interesting one",
+  "notes": "Long Coordination Gauntlet debuted and landed — 'super complex flow to learn, really fun, nailed it at the end.' Did 2 full rounds both sides on a 25lb bell; 'pretty cardio heavy and wore me out.' Two useful signals: (1) the WALTER CATCH is NOT the crux — the half-kneeling sub-sequence (getting into and out of the half-kneel, beats 9-12) is the confusing/hard part; I'd spotlighted the wrong move. (2) He questioned whether the half-kneeling windmill / half-kneeling tactical clean were 'a bit wrong,' then realized he might be misremembering — and the flow is in fact ACCURATE: beats 9-11 already describe the half-kneeling windmill, half-kneeling tactical clean, and the stand-up. His instinct about the moves was right; the flow already contains them. Appreciated strength running before the flow ('thanks for giving me the rest of the workout to work on this one').",
+  "cardio": "n/a — home KB day.",
+  "exercises": [
+   {
+    "id": "kb-long-coordination-gauntlet",
+    "context": "🌀 Debut — 14-move Conti flow, main block. Prescribed light bell, 2 rounds each side.",
+    "sets": [
+     {
+      "weight": "25lb",
+      "reps": "2 rounds each side",
+      "notes": "'Nailed it at the end... pretty cardio heavy and wore me out.'"
+     }
+    ],
+    "notes": "Full 2 rounds both sides at 25lb — heavier than the 18-26 'light' framing but he owned it by the end. 'Super complex flow to learn, really fun.' It's genuinely cardio-heavy at 14 moves × 2 rounds × 2 sides. The learning-run framing worked: confusing at first, nailed by the end."
+   },
+   {
+    "id": "kettlebell-windmill",
+    "context": "Beat 9 = HALF-KNEELING windmill; beat 10 = half-kneeling tactical clean; beat 11 = stand up. The half-kneeling sub-sequence.",
+    "sets": [
+     {
+      "weight": "25lb",
+      "reps": "in-flow",
+      "notes": "'The entire kneeling thing and getting into kneeling that's confusing.'"
+     }
+    ],
+    "notes": "This is the actual crux of the gauntlet, NOT the walter catch. The drop-to-half-kneel, the windmill/clean from the floor, and the stand-up (beats 9-12) are where the coordination load is — matches the flow's own flowNotes ('the tricky part is the half-kneeling sub-sequence'). The base exercise IDs (windmill, tactical-clean) understate it — the half-kneeling variant lives in the per-move notes. Facing cue since ADDED to beat 9 (user-confirmed): turn ~90° toward the raised arm going in, down knee out wide."
+   },
+   {
+    "id": "kettlebell-walter-catch",
+    "context": "Beat 14, closes the gauntlet. I had spotlighted it as the crux.",
+    "sets": [
+     {
+      "weight": "25lb",
+      "reps": "in-flow",
+      "notes": "'Walter catch isn't the hard part.'"
+     }
+    ],
+    "notes": "Explicitly NOT the hard part — my spotlight was misplaced. The soft two-hand catch at chest height was fine; the difficulty is upstream in the kneeling transitions."
+   },
+   {
+    "id": "kettlebell-figure-8-tactical-clean",
+    "context": "🔆 Warmup brain-primer spotlight — the figure-8 switch-clean he missed.",
+    "sets": [
+     {
+      "weight": "light",
+      "reps": "not separately narrated"
+     }
+    ],
+    "notes": "Not separately called out in the report — folded into the session. It also appears twice inside the gauntlet (beats 2 and 12), so he got plenty of it either way."
+   }
+  ],
+  "shoulderStatus": "Not separately reported. No flare called out across the overhead-heavy gauntlet (windmills, press, snatch, catch).",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**The gauntlet's crux is the HALF-KNEELING sub-sequence (beats 9-12), not the walter catch.** User: 'walter catch isn't the hard part, it's the entire kneeling thing and getting into kneeling that's confusing.' The flow's own flowNotes already say this ('the tricky part is the half-kneeling sub-sequence'). If this flow spotlights again, spotlight the kneeling drop-and-stand — that's where the coordination lives.",
+   "**Flow accuracy CONFIRMED — the half-kneeling windmill + half-kneeling tactical clean are already in the flow (beats 9-11) and correct.** He questioned it, then realized he might be misremembering. His read of the MOVES was right; his worry that the flow was 'wrong' was not. Resolved by reading the canonical bundle rather than acting on the uncertain correction.",
+   "**Facing cue now ADDED to beat 9 (user-confirmed W23D2).** Going into the half-kneel you turn ~90° toward the raised (overhead) arm and set the down knee out wide — that open sideways stance gives the kneeling windmill room. The fuller model (turning back to original facing at the walter catch) he hedged on and did not re-confirm, so it's deliberately NOT baked in.",
+   "**25lb was his working bell and 2 full rounds both sides was genuinely cardio-heavy** — 'wore me out.' For a 14-move × 2-round × 2-side flow, that's a real conditioning dose, not just skill practice. If it's meant to stay light-skill, 1 round or a lighter bell; he chose to push it and it worked.",
+   "**Strength-before-flow structure was appreciated** — 'thanks for giving me the rest of the workout to work on this one.' Running the strength block before the big flow (the anti-top-heavy structure) left him energy to actually learn the gauntlet. Keep that ordering for debut/complex flows."
+  ]
+ },
+ {
+  "day": 3,
+  "workoutId": "fb-w23-pull",
+  "date": "2026-07-29",
+  "rawInput": "w23d3\n\npull ups\ntrying to do solid 3s down lmao; not trying to pyramid just weak\n10\n8\n6\n4\nagain this is to failure lmao\n3s eccentric or bust tho\n\nrows\nleft stopped out at 8 again as the grip let loose for 90; right went slightly slower but still hard enough i cant go too slow but 2s ecc\n\nchest db rows fine too slow ecc \n\nincline curls ok, left felt pretty strong today\n\nrev fly\nsurprisingly hard lol last set lost the slow eccentric lmao so tired today\n\nface pulls\npretty good tried a different stack at 52.5 did slow eccentric on these all sets \n\nlat pull downs\n70 dual\nso weirdly hard today struggled to even get full first set haha\n\nhigh cable column curl completely drifted \nnote: need to add that before generation load previous weeks / look up the original workout before writing descriptions they keep drifting every time \n\ncable crunch is completely wrong too needs to report weight from all the different workouts - basically we need a reset on how these are generated bc drift happening way too much - week 15 is right and then it gradually got drifted into fuckery - equivalent weight on the cable column is actually 270 bc of how the pulleys are set ",
+  "notes": "Solid but tired day — pull-ups to failure at 3s eccentric (10/8/6/4), DB row left grip capping the 90 at 8 again, and reverse fly + lat pulldown both reading harder than usual on a self-described tired day. Left side of the incline curl 'felt pretty strong today' — a positive turn on the harder arm. The bigger takeaway is a process flag, not a training one: he called out that the high cable curl and cable crunch DESCRIPTORS have drifted badly (wrong stations, wrong numbers carried forward week to week), that W15 is the correct reference, and that the true cable-column equivalent for the cable-pulley crunch is ~270. Those two lifts logged as drift-flagged, no invented numbers. Full drift analysis + the audit build in NOTES.md.",
+  "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back.",
+  "exercises": [
+   {
+    "id": "pull-up",
+    "context": "4 sets, 3s eccentric, to failure. Not a designed pyramid — reps just fall each set.",
+    "sets": [
+     { "weight": "bodyweight", "reps": 10, "notes": "3s eccentric." },
+     { "weight": "bodyweight", "reps": 8, "notes": "3s eccentric." },
+     { "weight": "bodyweight", "reps": 6, "notes": "3s eccentric." },
+     { "weight": "bodyweight", "reps": 4, "notes": "3s eccentric, to failure." }
+    ],
+    "notes": "'Not trying to pyramid just weak' — 10/8/6/4 is failure dropping each set, not a plan. '3s eccentric or bust.' No pain; grip/back is the honest ceiling."
+   },
+   {
+    "id": "dumbbell-row",
+    "context": "70/80/90 ascending pyramid, one per round. Grip-limited on the 90.",
+    "sets": [
+     { "weight": "70lb", "reps": 10 },
+     { "weight": "80lb", "reps": 10 },
+     { "weight": "90lb", "reps": 8, "notes": "Left grip let loose at 8 again; right slightly slower, still hard, 2s eccentric — 'can't go too slow.'" }
+    ],
+    "notes": "Left grip caps the 90 at 8 (same as last week) — the honest number, no straps. Right a touch slower but held a 2s eccentric; too slow isn't possible at 90."
+   },
+   {
+    "id": "chest-supported-dumbbell-row",
+    "context": "45lb, 3 sets, slow eccentric + pause.",
+    "sets": [
+     { "weight": "45lb", "reps": "10-12", "notes": "Slow eccentric all sets." }
+    ],
+    "notes": "'Fine, too slow ecc' — held the slow eccentric cleanly."
+   },
+   {
+    "id": "incline-curl",
+    "context": "25lb DBs, incline bench, left-first. Left's been the harder arm.",
+    "sets": [
+     { "weight": "25lb", "reps": "8-10", "notes": "'Left felt pretty strong today.'" }
+    ],
+    "notes": "Positive turn: left — the harder arm two weeks running — 'felt pretty strong today.' Keep left-first; the side may be catching up."
+   },
+   {
+    "id": "dumbbell-reverse-fly",
+    "context": "🔆 Spotlight. Prescribed 20 (or 25 if the 20s are taken) — asked to note which.",
+    "sets": [
+     { "weight": "not recorded (20 or 25)", "reps": 12, "notes": "'Surprisingly hard'; last set lost the slow eccentric." }
+    ],
+    "notes": "'Surprisingly hard lol, last set lost the slow eccentric, so tired today.' Weight not recorded — the spotlight asked which of 20/25; capture it next week so it stops floating. Tired day overall (pull-ups + rows already took a lot)."
+   },
+   {
+    "id": "face-pull",
+    "context": "Adjustable pulley + rope. Prescribed 50; tried a different stack this week.",
+    "sets": [
+     { "weight": "52.5", "equipment": "a different stack (not the usual adjustable pulley)", "reps": 20, "notes": "Slow eccentric all sets." },
+     { "weight": "52.5", "equipment": "a different stack", "reps": 20 },
+     { "weight": "52.5", "equipment": "a different stack", "reps": 20 }
+    ],
+    "notes": "'Pretty good' — tried a different stack at 52.5, slow eccentric on all sets. Station change from the usual adjustable-pulley 50; log which stack next time so face pull doesn't start drifting too."
+   },
+   {
+    "id": "lat-pulldown",
+    "context": "Dual pulley 70/side — the settled number. 🛑",
+    "sets": [
+     { "weight": "70/side (140 total)", "equipment": "dual pulley", "reps": "8-12", "notes": "'Weirdly hard today, struggled to even get a full first set.'" }
+    ],
+    "notes": "70/side dual pulley is the settled number, but read 'so weirdly hard today.' A tired-day signal, not a load problem — descriptor was correct here (this lift did NOT drift)."
+   },
+   {
+    "id": "high-cable-bicep-curl",
+    "context": "Cable finisher, left-first. ⚠️ User flagged the descriptor as drifted.",
+    "sets": [
+     { "weight": "not reliably recorded — descriptor drifted", "reps": "10-12" }
+    ],
+    "notes": "⚠️ 'Completely drifted.' The prescribed load/station numbers no longer match reality — did the work but the descriptor is untrustworthy. Flagged for the load audit; do NOT carry the current numbers forward. Log history: W16 170 col / ~120 pulley · W18 180 col · W19 62.5 single pulley — three stations, three scales, no reconciliation."
+   },
+   {
+    "id": "cable-crunch",
+    "context": "🔆 Spotlight, cable finisher. ⚠️ User flagged the descriptor as completely wrong.",
+    "sets": [
+     { "weight": "descriptor wrong — see audit", "reps": "12-15" }
+    ],
+    "notes": "⚠️ 'Completely wrong, needs to report weight from all the different workouts.' W15 (77.5 on the cable pulley) is the correct reference; number + station drifted after that (→ 67.5 'cable column' by W21). He says the true cable-column equivalent is ~270 'because of how the pulleys are set.' My read is the 270 applies to THIS lift — pending his confirm. Flagged for the audit."
+   }
+  ],
+  "shoulderStatus": "No shoulder flare reported. Pull-ups 'no pain just weak'; overall a tired day (pull-ups, rev fly, lat pulldown all harder than usual).",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**PROCESS FLAG (the big one): workout DESCRIPTOR DRIFT on the cable lifts is real and I own it.** High cable curl + cable crunch numbers/stations have drifted week-to-week because each week was built off the last instead of from log history. Fix = an audit before every generation + reset the cable-lift descriptors to W15-anchored truth. Audit tool built (`deno task audit`); full analysis in NOTES.md.",
+   "**Cable crunch: reset to the W15 reference — 77.5 on the CABLE PULLEY (rope), NOT 'cable column 67.5.'** The station label drifted. User says the true cable-column equivalent is ~270 due to the pulley setup (pending confirm on the exact mechanic/attribution). W23 descriptor said cable column 67.5 = wrong on both counts.",
+   "**High cable curl: the descriptor lists three incompatible stations as if interchangeable** (col 170-180 / pulley ~120 / single pulley 62.5). Pin the actual station he uses and stop cross-quoting. Needs his input on which station is now the real default.",
+   "**Reverse fly weight is still floating (20 vs 25) — the spotlight explicitly asked him to note it and it went unrecorded.** Ask directly next pull day so it stops being a guess.",
+   "**Tired-day pattern: pull-ups, reverse fly, and lat pulldown all read harder than usual at settled loads.** Don't read a single hard session as a load problem — the numbers are right; the day was heavy. Hold everything."
+  ]
+ }
+]

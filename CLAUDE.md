@@ -218,7 +218,14 @@ If two grouping constraints conflict (e.g., a spotlight lift wants to come early
 
 ## Equipment Variant Tracking (W14+)
 
-Many lifts can be done on multiple pieces of equipment at the user's gym — cable column vs. cable pulley vs. Kinesis vs. dedicated machine. The numbers **don't convert directly** — different stack scales, different leverage. The user moves between equipment based on availability, so the workout has to anticipate that and so do the logs.
+Many lifts can be done on multiple pieces of equipment at the user's gym — cable column vs. cable pulley vs. Kinesis vs. dedicated machine. The numbers **don't convert directly** — different stack scales, different leverage (e.g. the rope cable-crunch works at ~67.5-77.5, but the *same* movement on the cable column is ~270 — the pulley's mechanical advantage is huge).
+
+**The station a lift is done on genuinely MOVES week to week — because of availability. People camp on stations, so the user takes whatever's free.** This is expected reality, NOT drift. It has two consequences the agent must internalize:
+
+- **A lift having several station options is correct — never collapse it to one "default."** List EVERY real station with its own number and have the user log which he used. The multi-listing is the feature, not the bug.
+- **The drift to hunt is a *wrong or fabricated per-station number*, or a number labeled with the wrong station** (a rope-pulley 67.5 written as "cable column 67.5") — not the fact that the lift moves around. If a listed station has **no log datapoint**, it's probably fabricated — audit it (`deno task audit <lift>`) and drop it. See the W23D3 drift audit in NOTES.md.
+
+The workout has to anticipate this and so do the logs:
 
 **Three rules:**
 
