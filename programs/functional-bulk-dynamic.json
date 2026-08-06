@@ -2773,6 +2773,127 @@
     "**Morning flow rotates ~half** — rehab anchors + pushup greasing never rotate."
    ],
    "logFile": "logs/functional-bulk-dynamic-w23.json"
+  },
+  {
+   "week": 24,
+   "label": "The 55 Gate Opens (Push) + Two Flows Back From the Bench (Tue) — Brace First on Legs",
+   "description": "**Warmups are baked into each day's description as a reminder.**\n\n**Push:** incline DB earned its bump — 50, 50, then **55 on the last set**. The cable block finishes its rotation with the **lat raise leading**, and every cable lift now lists a rope-pulley number next to its column number, so an occupied station doesn't turn into guesswork mid-session.\n\n**Tuesday goes back to the bench** and pulls two flows off it: the **B-Stance Flow** (its longest absence in the program) and the **Leggy Flow**. Both are chains you already know, run for quality instead of order — and almost nothing goes overhead, which is the counterweight to gauntlet week. Cossacks return to the warmup.\n\n**Thursday** runs the Outside Snatch Flow's second pass plus the Brutal Complex.\n\n**Legs leads with the brace.** Last week the 45 felt awful and the 80s got better every set once the breathing and bracing came together — so the brace gets rehearsed in the warmup, drilled at 45, and expected at 80. Three working sets is standard now. Leg curl keeps the **back-seat-at-5** setup and runs 90 → 100 → 110. **Stations get taken as they come free** — the printed order is the ideal grouping, not a rule.",
+   "schedule": [
+    {
+     "day": 1,
+     "label": "PUSH — Incline DB to 55 on the last set (spotlight: incline DB + Kinesis fly; lat raise leads the cable block)",
+     "type": "workout",
+     "workoutId": "fb-w24-push",
+     "flow": {
+      "workoutId": "fb-w24-morning-flow",
+      "label": "Morning Flow",
+      "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Today: PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+     }
+    },
+    {
+     "day": 2,
+     "label": "KB TUESDAY — 🌀 B-Stance Flow returns + Leggy Flow (cossacks back in the warmup)",
+     "type": "workout",
+     "workoutId": "fb-w24-kb-full",
+     "flow": {
+      "workoutId": "fb-w24-morning-flow",
+      "label": "Morning Flow",
+      "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+     }
+    },
+    {
+     "day": 3,
+     "label": "PULL — Spotlight: lat pulldown + face pull (name the stack)",
+     "type": "workout",
+     "workoutId": "fb-w24-pull",
+     "flow": {
+      "workoutId": "fb-w24-morning-flow",
+      "label": "Morning Flow",
+      "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Today: PULL add-on** — dead hang 25s + scapular pulls ×10."
+     }
+    },
+    {
+     "day": 4,
+     "label": "KB THURSDAY — 🌀 FLOW + COMPLEX DAY (Outside Snatch Flow 2nd run + Brutal Complex; runs long)",
+     "type": "workout",
+     "workoutId": "fb-w24-kb-cond",
+     "flow": {
+      "workoutId": "fb-w24-morning-flow",
+      "label": "Morning Flow",
+      "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+     }
+    },
+    {
+     "day": 5,
+     "label": "LEGS — Brace First (spotlight: squat depth + incline RDL; leg curl at seat position 5)",
+     "type": "workout",
+     "workoutId": "fb-w24-legs",
+     "flow": {
+      "workoutId": "fb-w24-morning-flow",
+      "label": "Morning Flow",
+      "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Today: LEGS add-on** — cross-leg lateral lean + 90s pigeon each side + supine spinal twist."
+     }
+    },
+    {
+     "day": 6,
+     "label": "ZONE 2 / OPTIONAL",
+     "type": "choice",
+     "options": [
+      {
+       "label": "Stairmaster",
+       "type": "activity",
+       "activity": {
+        "name": "Stairmaster Zone 2",
+        "duration": 30,
+        "intensity": "easy",
+        "notes": "Steady climb, 120-140bpm. Conversational pace."
+       }
+      },
+      {
+       "label": "Easy Run",
+       "type": "activity",
+       "activity": {
+        "name": "Easy Run",
+        "duration": 30,
+        "intensity": "easy",
+        "notes": "Conversational pace, 120-140bpm."
+       }
+      },
+      {
+       "label": "Rest",
+       "type": "rest"
+      }
+     ]
+    },
+    {
+     "day": 7,
+     "label": "REST or LONG FLOW",
+     "type": "choice",
+     "options": [
+      {
+       "label": "Sunday Long Flow",
+       "type": "workout",
+       "workoutId": "fb-sunday-long-flow"
+      },
+      {
+       "label": "Full Rest",
+       "type": "rest"
+      }
+     ]
+    }
+   ],
+   "tips": [
+    "**Incline DB: 50, 50, then 55 on the last set** — the pack-down surviving all twelve is what opened the gate.",
+    "**Cable block order completes its rotation: lat raise first, tri ext middle, straight-arm last.** Both a column and a rope-pulley number are listed for each — log which you used.",
+    "**Tuesday brings back the B-Stance Flow and the Leggy Flow** — known chains, run for quality. Barely any overhead work, on purpose.",
+    "**Cossacks return to the KB warmup** — unassisted now, so depth is the project.",
+    "**Legs: brace from the ramp.** Three working sets at 80; the 45 feeling heavy predicts nothing.",
+    "**Leg curl keeps the back seat at position 5** — 90 → 100 → 110 in three sets.",
+    "**Take stations as they come free** — the printed order groups equipment, but availability wins. Only the calf raise is fixed to the leg press.",
+    "**Pull spotlights: lat pulldown + face pull — and NAME the stack** the face pull ran on.",
+    "**Morning flow rotates ~half** — rehab anchors + pushup greasing never rotate."
+   ],
+   "logFile": "logs/functional-bulk-dynamic-w24.json"
   }
  ],
  "tips": [

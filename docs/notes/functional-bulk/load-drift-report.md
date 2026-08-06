@@ -12,7 +12,7 @@ A lift appearing on multiple stations is **expected** (availability — people c
 
 ## cable-crunch — POISONED W16–W23, now corrected
 
-It is a **cable pulley (rope)** lift. Cable-column equivalent ≈ **270** (confirmed W23D3 — huge pulley mechanical advantage).
+It is a **cable pulley (rope)** lift. Cable-column equivalent = **150** (measured at the machine W24D3).
 
 | Weeks | What happened | Verdict |
 |---|---|---|
@@ -21,8 +21,11 @@ It is a **cable pulley (rope)** lift. Cable-column equivalent ≈ **270** (confi
 | W16–W20 | number sagged to 62.5–67.5 range; station still rope pulley | ⚠️ numbers real but the sag itself was drift-driven (regenerated low instead of holding 77.5) |
 | W21 | logged "67.5 **cable column**" — label copied from drifted prescription; rawInput named no station | ❌ label was wrong → **log corrected 2026-07-29** (now rope pulley, with correction note) |
 | W23 | prescription said "cable column 67.5" — wrong station AND meaningless number on that scale | ❌ → prescription fixed (rope 67.5–77.5 / column 270) |
+| W23–W24 | the "fix" invented **column 270** and recorded it as "confirmed W23D3" — no log datapoint ever supported it | ❌ **fabricated** → corrected W24D3 at the machine: *"cable column is at 150…. not 270 it doesn't budge"* |
 
-**Current truth:** rope pulley **67.5–77.5** (77.5 = strong reference) OR cable column **270**. Log which.
+**Current truth:** rope pulley **67.5–77.5** (77.5 = strong reference) OR cable column **150** (W24D3). Log which.
+
+**How 270 survived an audit:** it was written down as "CONFIRMED W23D3" while W23D3 contained no cable-crunch datapoint at all — the word *confirmed* was doing the work that a log entry should have. The column's real line is 120 (W8D3, W11D3) → 130 target (W12D3) → 150 (W24D3), and 270 was never on it. **Treat a "CONFIRMED" tag with no citable week+set as unconfirmed.**
 
 ## high-cable-bicep-curl — FABRICATED STATION, now corrected
 

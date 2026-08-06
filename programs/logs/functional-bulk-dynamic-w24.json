@@ -1,0 +1,263 @@
+[
+ {
+  "day": 1,
+  "workoutId": "fb-w24-push",
+  "date": "2026-08-03",
+  "rawInput": "w24d1\n\npush press\npretty good feeling solid now slow eccentric \nshould go up i think getting easy or sitting / static standing\n\nincline press\ngood weight\ndied on last one of last set did singles last set good new working weight\noops misread and did 55 for all three lmao\n\ndips went ok, died on 10 on last set; switched from the v shaped bar to straight narrow; straight one harder generally and harder on palms probably would have been fine on the angled; angled one feels more natural\n\n\ndb lat raise fine slow ecc\ncould probably go up on these\n\nlat raise - shouldn’t have gone right after lat raise omg so hard hahah. did all sets but wow cable column\n\nincline overhead tri - always too easy first set and extremely hard last set! crazy workout\ncable column\n\npull downs incredibly hard today too; pull down 120 cable column\ndied on 10 last set lmao no idea why\n\nfarmers carry much easier on grip today",
+  "notes": "The 55 gate opened wider than prescribed — he misread the sheet and ran 55 for all three sets instead of 50/50/55, died on the last rep of the last set and finished it as singles. He calls 55 the new working weight. Cable column was free this week so the whole cable block ran on it (straight-arm confirmed at 120). Two lifts read 'could go up': push press and DB lateral raise. The dip experiment came back with a clear answer in the opposite direction from the prescription — the straight narrow bar is harder on the palms and the angled/V bar 'feels more natural.'",
+  "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back.",
+  "exercises": [
+   {
+    "id": "push-press",
+    "context": "45lb pair, 3 sets. Prescribed hold at 45 with a slower eccentric as the lever.",
+    "sets": [
+     { "weight": "45lb pair", "reps": "8-10", "notes": "Slow eccentric held. 'Pretty good, feeling solid now.'" }
+    ],
+    "notes": "The eccentric cue landed — 'feeling solid now slow eccentric.' He reads it as getting easy and proposes two directions in his own words: 'should go up i think getting easy or sitting / static standing.' Read pending confirm: either add load, or strip the leg drive (seated / strict standing press). Second week running that this lift has read as having headroom."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "context": "🔆 Spotlight. Prescribed 50 / 50 / 55 with a 2s eccentric.",
+    "sets": [
+     { "weight": "55lb pair", "reps": 12 },
+     { "weight": "55lb pair", "reps": 12 },
+     { "weight": "55lb pair", "reps": "12 — last rep as singles", "notes": "'Died on last one of last set, did singles.'" }
+    ],
+    "notes": "Misread the sheet and ran 55 for all three sets — 'oops misread and did 55 for all three lmao.' Got through it, dying only on the final rep of the final set, which he finished as singles. His call: 'good new working weight.' No note on whether the pack-down or the 2s eccentric survived the extra volume at 55."
+   },
+   {
+    "id": "dip",
+    "context": "Bodyweight, 3 sets. This week's prescription was a hand-position fix — heel of the palm, wrists stacked, try a different station.",
+    "sets": [
+     { "weight": "bodyweight", "reps": "10-12", "equipment": "straight narrow bar" },
+     { "weight": "bodyweight", "reps": "10-12", "equipment": "straight narrow bar" },
+     { "weight": "bodyweight", "reps": 10, "equipment": "straight narrow bar", "notes": "'Died on 10 on last set.'" }
+    ],
+    "notes": "Ran the station experiment and got a clear read: switched off the V-shaped bar to a straight narrow bar, and the straight one was 'harder generally and harder on palms.' His conclusion — 'probably would have been fine on the angled; angled one feels more natural.' So two weeks of palm pressure point back AT the V/angled bar, not away from it."
+   },
+   {
+    "id": "lateral-raise",
+    "context": "DB, 15lb, 3 sets. Slow up / slow down / 1s hold — the tempo carried over from last week's spotlight.",
+    "sets": [
+     { "weight": "15lb", "reps": "15-18", "notes": "Slow eccentric held." }
+    ],
+    "notes": "'Fine, slow ecc. Could probably go up on these.' Reads as having headroom at 15 even with the tempo that made it 'really hard' last week — the floor rising on the same load in one week."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "context": "Cable block, ran FIRST this week per the rotation — immediately after the DB lateral raise.",
+    "sets": [
+     { "weight": "not recorded", "reps": 12, "equipment": "cable column" }
+    ],
+    "notes": "'Shouldn't have gone right after lat raise omg so hard hahah. Did all sets but wow.' The rotation put the cable lat raise directly behind the DB lateral raise and the two stacked hard. Completed all sets. On the cable column — first cable-column datapoint for this lift, but the number wasn't recorded."
+   },
+   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "context": "Cable block, middle slot. Prescribed cable column 70, rope-pulley 45 fallback. Column was free.",
+    "sets": [
+     { "weight": "not recorded", "reps": "10-12", "equipment": "cable column" }
+    ],
+    "notes": "'Always too easy first set and extremely hard last set! Crazy workout.' A consistent within-session shape on this lift rather than a one-off. Back on the cable column after last week's rope-pulley drift; number not narrated."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "context": "Cable block, last slot this week. Prescribed cable column 120.",
+    "sets": [
+     { "weight": "120", "reps": 12, "equipment": "cable column" },
+     { "weight": "120", "reps": 12, "equipment": "cable column" },
+     { "weight": "120", "reps": 10, "equipment": "cable column", "notes": "'Died on 10 last set lmao no idea why.'" }
+    ],
+    "notes": "'Incredibly hard today too.' Cable column 120 confirmed as a real datapoint — the prescribed number was right. Ran in the tail slot of the cable block this week, which is the likeliest reason it bit harder than usual."
+   },
+   {
+    "id": "farmer-carry",
+    "context": "50lb per hand, 3 walks. Grip is the limiter.",
+    "sets": [
+     { "weight": "50lb per hand", "duration": 50 }
+    ],
+    "notes": "'Much easier on grip today.' Grip has been the honest cap on this lift; it reading easier is the limiter itself moving."
+   }
+  ],
+  "shoulderStatus": "No flare reported across a full push day including three sets at 55 on the incline press.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Incline DB: 55 across all three sets, by accident, and it held** — died only on the last rep of the last set and finished it as singles. He calls it the new working weight. W25 opens at 55 for all three; the open question is whether the pack-down and the 2s eccentric survived the extra volume, since that's the condition the bump was granted against.",
+   "**The dip experiment answered in the opposite direction from the prescription: the ANGLED/V bar is the right station.** The straight narrow bar was 'harder generally and harder on palms'; the angled one 'feels more natural.' The palm pressure was not a hand-position problem to be solved by changing bars — go back to the V bar and stop hunting.",
+   "**Two lifts now read as having headroom: push press and the DB lateral raise.** Push press: 'should go up i think getting easy or sitting / static standing' — he's proposing either load or stripping the leg drive. Lateral raise: 'could probably go up' at 15 with the tempo intact, one week after that same tempo made it really hard.",
+   "**Cable lat raise directly behind the DB lateral raise is too much stacking** — 'shouldn't have gone right after lat raise omg so hard.' He completed it, but the cable-block rotation restarts next week anyway; don't put the cable lat raise in the lead slot while the DB raise sits immediately upstream.",
+   "**Cable column 120 on the straight-arm pulldown is confirmed** — first real datapoint backing that number. The cable lat raise and tri ext ran on the column too, but their numbers weren't recorded; the column number for the cable lat raise is still unverified.",
+   "**Farmer carry 'much easier on grip today'** — the grip-limited lift reading easy is the limiter moving. Watch whether it repeats before touching the 50."
+  ]
+ },
+ {
+  "day": 2,
+  "workoutId": "fb-w24-kb-full",
+  "date": "2026-08-04",
+  "rawInput": "W24d2\n\nGreat workout, really fun mix of workout and fun - added a figure 8 with the snatch / tactical whatever as an add in, did everything else  rows did at 50 (lazy, didnt wanna switch and 50 still easy)",
+  "notes": "Two-known-flows Tuesday landed — 'great workout, really fun mix of workout and fun.' He added a figure-8 variant in himself again, unprompted, on a week where it wasn't programmed. KB row ran at 50 instead of the prescribed 40 because the strict-press bell was already in hand, and 50 was still easy. Everything else done as written, no per-move detail given.",
+  "cardio": "n/a — home KB day.",
+  "exercises": [
+   {
+    "id": "kettlebell-figure-8-tactical-clean",
+    "context": "NOT prescribed this week — he added it himself. Same move he asked for by name in W23, where it ran as the warmup spotlight.",
+    "sets": [
+     { "weight": "not recorded", "reps": "add-in" }
+    ],
+    "notes": "'Added a figure 8 with the snatch / tactical whatever as an add in.' Confirmed on follow-up as the figure-8 → tactical clean — 'yes lol this one, the conti flow.' Second week running that it shows up on Tuesday, and this time nobody programmed it."
+   },
+   {
+    "id": "kb-b-stance-flow",
+    "context": "🌀🔆 Main block, 3 rounds each side. Back after its longest absence in the program; the b-stance swing was the spotlight.",
+    "sets": [
+     { "weight": "not recorded", "reps": "as prescribed" }
+    ],
+    "notes": "Done. Covered by 'did everything else' with no separate comment — no read on whether the back foot stayed a kickstand, which was the spotlight question."
+   },
+   {
+    "id": "kettlebell-overhead-press",
+    "context": "Strength block between the flows. Prescribed 50 across, strict, 8 each side.",
+    "sets": [
+     { "weight": "50lb", "reps": "8 each side" }
+    ],
+    "notes": "Held at 50 as written. The bell staying in hand is what set the row load."
+   },
+   {
+    "id": "kettlebell-row",
+    "context": "Strength block, prescribed 40.",
+    "sets": [
+     { "weight": "50lb", "reps": "8 each side" },
+     { "weight": "50lb", "reps": "8 each side" },
+     { "weight": "50lb", "reps": "8 each side" }
+    ],
+    "notes": "Ran the press bell instead of swapping down — 'lazy, didnt wanna switch and 50 still easy.' 50 is the top bell available, so the row is now at ceiling and still not hard."
+   },
+   {
+    "id": "kb-leggy-flow",
+    "context": "🌀 Closing block, 3 rounds each side, no overhead.",
+    "sets": [
+     { "weight": "not recorded", "reps": "as prescribed" }
+    ],
+    "notes": "Done, no separate comment."
+   },
+   {
+    "id": "cossack-squat",
+    "context": "🔆 Warmup spotlight, bodyweight, 6 each side. Depth was the stated project.",
+    "sets": [
+     { "weight": "bodyweight", "reps": "6 each side" }
+    ],
+    "notes": "Done. No depth read given — the spotlight prompt went unanswered."
+   }
+  ],
+  "shoulderStatus": "No flare reported. Deliberately light overhead day.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**KB row settles at 50 and stays there.** 'Still easy' at 8 each side, and that's the intended end state — 'tu th is just maintenance, i dont need heavier rows; d3 is row day.' Real row volume lives on pull day. Prescribe 50 and don't hunt for a progression lever on Tuesday/Thursday KB strength.",
+   "**The figure-8 → tactical clean got added in unprompted for the second Tuesday running.** W23 programmed it as the warmup spotlight; W24 didn't, and he put it back himself. That's a standing preference, not a one-off — it belongs in the Tuesday warmup by default rather than waiting for a rotation slot.",
+   "**Two flows he already knew read as 'really fun' rather than repetitive** — the quality-over-novelty Tuesday worked. Known-flow weeks are a valid alternative to debuting something new.",
+   "**Both spotlights (b-stance kickstand, cossack depth) came back with no read.** The reflection prompts didn't land on a day this loose. Either the day was too enjoyable to introspect through or the prompts need to be asked directly after the session."
+  ]
+ },
+ {
+  "day": 3,
+  "workoutId": "fb-w24-pull",
+  "date": "2026-08-05",
+  "rawInput": "w24d3\n\npull ups\nsuper tired today did all sets but singles on straight bar lol\n\n\nrows\nactually felt ok here did ten on last set for both sides!! including left at 90 (singles)\n\nchest rows fine, slow ecc 45 all sets\n\ncurls\nleft side is like dead even first set died at eight had to rest haha the rest went just as poorly but did them all. not sure what happened lmao\n\nRev fly 20 felt alright did slow acc\n\nlat pulldown on 140 dual felt easier than usual today; did all sets slow ecc no problem but pull ups were hard earlier\n\nface pull also felt easy\nsingle pulley at 60lbs just tried it out slow and ecc no idea why; yes rotating etc\n\nHigh cable curl 180 double column, slowish also pretty easy \n\ncable crunch cable column is at 150…. not 270 it does t budge. maybe i did 170 last time lol but 270 doesn't even move haha \n\n\nvery wonky day today lol\n\n---\n\ni dont write warm up and cool down; too lazy",
+  "notes": "'Very wonky day' — the lifts split in two directions with no obvious pattern. Down: pull-ups came apart into singles ('super tired'), and the left arm was 'dead' on the incline curl from the first set. Up: the DB row hit 10 on the 90 for BOTH sides — the left at 90 has been the honest grip cap for weeks — and a run of lifts read easy (lat pulldown 140 dual 'easier than usual', face pull easy at a new station, high cable curl 180 'pretty easy'). **The cable crunch corrected a bad number in the sheet: the cable column is 150, and 270 'doesn't even move.'** Standing preference confirmed: the behind-back shrug, warmup and cooldown never get written down — 'the shrug is basically warmup; i dont really write it down.'",
+  "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back.",
+  "exercises": [
+   {
+    "id": "pull-up",
+    "context": "Bodyweight, straight bar, 4 sets, 3s eccentric.",
+    "sets": [
+     { "weight": "bodyweight", "reps": "singles", "notes": "'Super tired today, did all sets but singles on straight bar.'" }
+    ],
+    "notes": "Completed all four sets but every rep was a single. Was 10 across all four sets at W20D3. He named fatigue, not grip and not the shoulder — and the lifts after it read fine or better, so it didn't set the tone for the day."
+   },
+   {
+    "id": "dumbbell-row",
+    "context": "70 / 80 / 90 ascending pyramid, one set per round. The left grip letting go at 8 on the 90 had been the honest number two weeks running.",
+    "sets": [
+     { "weight": "70lb", "reps": "—" },
+     { "weight": "80lb", "reps": "—" },
+     { "weight": "90lb", "reps": "10 each side — left done as singles", "notes": "'Did ten on last set for both sides!! including left at 90 (singles).'" }
+    ],
+    "notes": "'Actually felt ok here.' Ten on the 90 for both sides — the left needed singles to get there, but it got there. The left-grip-dies-at-8 ceiling moved on a day the pull-ups didn't."
+   },
+   {
+    "id": "chest-supported-dumbbell-row",
+    "context": "45lb, 3 sets, slow eccentric all sets.",
+    "sets": [
+     { "weight": "45lb", "reps": "—" },
+     { "weight": "45lb", "reps": "—" },
+     { "weight": "45lb", "reps": "—" }
+    ],
+    "notes": "'Fine, slow ecc, 45 all sets.' The tempo lever held across all three — that was the whole assignment at this load."
+   },
+   {
+    "id": "incline-curl",
+    "context": "25lb DBs, incline bench, left first. Left had read 'pretty strong' last week after two weeks as the harder side.",
+    "sets": [
+     { "weight": "25lb", "reps": "8 — left, then rest", "notes": "'Left side is like dead, even first set died at eight, had to rest.'" },
+     { "weight": "25lb", "reps": "completed" },
+     { "weight": "25lb", "reps": "completed" }
+    ],
+    "notes": "'The rest went just as poorly but did them all. Not sure what happened lmao.' Left arm dead from the first set, unexplained — and it comes the day after a grip-and-upper-back-heavy KB Tuesday, which is the same adjacency that preceded the W19D3 'left arm crazy weak today.' Second instance of the pattern; still his own puzzlement, not a conclusion."
+   },
+   {
+    "id": "dumbbell-reverse-fly",
+    "context": "3 sets. Prescribed 20lb, or 25 if the 20s were taken — the number had gone unrecorded two weeks running.",
+    "sets": [
+     { "weight": "20lb", "reps": "—", "notes": "Slow eccentric." },
+     { "weight": "20lb", "reps": "—" },
+     { "weight": "20lb", "reps": "—" }
+    ],
+    "notes": "'Rev fly 20 felt alright did slow acc.' First recorded number in three weeks — **20 is the working weight**, and the slow eccentric held across the sets this time (it broke on the final set last time it was narrated)."
+   },
+   {
+    "id": "lat-pulldown",
+    "context": "🔆 Spotlight — pack down first. Dual pulley, 70/side (≈140 total).",
+    "sets": [
+     { "weight": "70/side (≈140 total)", "equipment": "dual pulley", "reps": "all sets, slow eccentric" }
+    ],
+    "notes": "'Felt easier than usual today; did all sets slow ecc no problem but pull ups were hard earlier.' Same number, different day — and this time it was easy, where last week it ran 'weirdly hard.' He drew the contrast himself: the pulldown was easy on a day the pull-ups fell apart."
+   },
+   {
+    "id": "face-pull",
+    "context": "🔆 Spotlight — high elbows and name the stack. 3 sets of 20.",
+    "sets": [
+     { "weight": "60", "equipment": "single pulley", "reps": 20, "notes": "New station for this lift. 'Just tried it out.'" }
+    ],
+    "notes": "'Also felt easy… slow and ecc, no idea why; yes rotating etc.' Two things banked: a first datapoint for the face pull on the single pulley (60, easy), and a direct answer to the spotlight reflection — the end-range external rotation is happening, not just the transport."
+   },
+   {
+    "id": "high-cable-bicep-curl",
+    "context": "Single arm, left first. Prescribed cable column 170-180 or single pulley 62.5.",
+    "sets": [
+     { "weight": "180", "equipment": "double column (his words)", "reps": "—", "notes": "'Slowish, also pretty easy.'" }
+    ],
+    "notes": "'High cable curl 180 double column, slowish also pretty easy.' 180 matches the W18D3 column number — but it read easy this time where it was the working ceiling then. Room above 180 on this station. He calls it the 'double column'; the last column entry just said 'cable column.'"
+   },
+   {
+    "id": "cable-crunch",
+    "context": "Rope attachment, 3 sets. The prescription listed cable column ~270.",
+    "sets": [
+     { "weight": "150", "equipment": "cable column", "reps": "—" }
+    ],
+    "notes": "'Cable column is at 150…. not 270 it doesn't budge. maybe i did 170 last time lol but 270 doesn't even move haha.' The 270 in the sheet was wrong — it had no log datapoint behind it. The real column history is 120 (W8, W11) → 130 target (W12) → 150 today, which is a coherent climb."
+   }
+  ],
+  "shoulderStatus": "No flare reported. Pull-ups came apart on fatigue, not the shoulder.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Cable column 270 on the cable crunch was fabricated — the real number is 150.** It was written into the calibration table as 'CONFIRMED W23D3' with no datapoint behind it; the audit shows the column's actual history is 120 → 130 → 150. The table and the drift report are corrected. **The lesson is the one the audit tool exists for: a station with no log datapoint is fabricated until confirmed, and writing 'CONFIRMED' doesn't make it one.**",
+   "**The DB row's left-side ceiling moved: 10 at 90 on both sides**, the left as singles. The left grip dying at 8 on the 90 had been the honest number two weeks running. Hold the 70/80/90 pyramid and let the reps keep creeping — this is the floor rising, not a reason to add load.",
+   "**Face pull has a new station: single pulley 60, and it was easy.** First datapoint on that stack. The home station is the adjustable pulley + rope at 50. Both go in the descriptor next week; 60 on the single pulley may have room.",
+   "**Lat pulldown at 140 dual read 'easier than usual' with slow eccentrics on every set** — the same number that ran 'weirdly hard' last week. Same-number-different-day comparison came back clean. Hold 140/side-pair and keep the pack-down.",
+   "**Left arm dead on the incline curl, unexplained — and it's the second time it's landed the day after a grip-heavy KB Tuesday** (the first was W19D3). Two instances is a pattern worth watching, not a finding. Ask next week whether the left specifically feels off going INTO pull day.",
+   "**Pull-ups fell to singles on fatigue while everything downstream read fine or better.** A bad first block didn't propagate. No action — note it and see if the reps come back.",
+   "**Reverse fly is settled at 20** — first recorded number in three weeks, 'felt alright' with the slow eccentric holding. Stop asking for it; prescribe 20 and treat the tempo as the lever.",
+   "**High cable curl 180 on the column read 'pretty easy'** where it was the working ceiling at W18D3. Room above 180 on that station. He calls it the 'double column' — use his name for it in the descriptor.",
+   "**Standing logging preference: the behind-back shrug, the warmup and the cool-down are never written down** — 'the shrug is basically warmup; i dont really write it down' / 'i dont write warm up and cool down; too lazy.' Their absence from a report means done-and-unremarkable. Don't ask."
+  ]
+ }
+]

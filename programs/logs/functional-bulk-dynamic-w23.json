@@ -275,5 +275,78 @@
    "**Reverse fly weight is still floating (20 vs 25) — the spotlight explicitly asked him to note it and it went unrecorded.** Ask directly next pull day so it stops being a guess.",
    "**Tired-day pattern: pull-ups, reverse fly, and lat pulldown all read harder than usual at settled loads.** Don't read a single hard session as a load problem — the numbers are right; the day was heavy. Hold everything."
   ]
+ },
+ {
+  "day": 5,
+  "workoutId": "fb-w23-legs",
+  "date": "2026-07-31",
+  "rawInput": "w23d5\n\nskipped d4 had work \n\nbarbell squats\nomg at the start it felt so hard even the 45s i'm like crap i gotta do fewer\nthen on the second set of 80 it just felt way lighter and i got decent rom and speed; third set felt even better; breahh tbh jung and tightening core properly \n\npush press\nwent pretty good trying for deeper rom and its way harder\n\ncalf raise\nalso really hard this time doing slower\n\nincline curl hard as i'm going slow\n\nbulgarians felt absolutely brutal\n\nleg curl started at 90, trying a new setup - the back seat is at 5 this gives more leverage on ankle and feels more natural; second set at 110 felt hard but also easier / more natural",
+  "notes": "D4 (Thursday KB) skipped — work. Legs day itself ran the full sheet and the squat told the best story: the 45 ramp felt awful (\"crap i gotta do fewer\"), then the second 80 set went \"way lighter\" with decent ROM and speed and the third was better still — he credits breathing and tightening the core properly. So the optional third set happened and was the best of the three. Both tempo spotlights bit: calf raise \"really hard this time doing slower,\" and the leg press ROM push was \"way harder.\" Bulgarians on the Smith were \"absolutely brutal.\" Leg curl got a NEW SETUP — back seat at 5, which gives more leverage on the ankle and \"feels more natural\"; he opened at 90 and took 110 on the second set, hard but easier/more natural than before. Two entries used push/pull-day names for legs-day lifts (\"push press\" = leg press, \"incline curl\" = incline RDL) — confirmed by the user. Bulgarians confirmed to have run late in the session, which is the likely explanation for \"brutal.\" He also confirmed the warmup ramp still helps despite the 45 feeling awful.",
+  "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back.",
+  "exercises": [
+   {
+    "id": "squat",
+    "context": "🔆 Ramp 45 → 70, then 3 working sets at 80 with the third optional.",
+    "sets": [
+     { "weight": "45", "reps": 8, "notes": "Ramp — 'felt so hard even the 45s, i'm like crap i gotta do fewer.'" },
+     { "weight": "70", "reps": 8, "notes": "Ramp." },
+     { "weight": "80", "reps": "6-8" },
+     { "weight": "80", "reps": "6-8", "notes": "'Just felt way lighter and i got decent rom and speed.'" },
+     { "weight": "80", "reps": "6-8", "notes": "Optional third set — taken. 'Felt even better.'" }
+    ],
+    "notes": "The session inverted: the warmup was the worst part and it got better every set. He names the fix himself — 'breathing and tightening core properly.' Took the optional third set and it was the best one. Opposite shape from W22 (which was strong from the start off a fresh ramp); same 80, same depth standard."
+   },
+   {
+    "id": "leg-press",
+    "context": "4 plates/side, 4 sets. Written as 'push press' in the report; user confirmed it was the leg press.",
+    "sets": [
+     { "weight": "4 plates/side", "reps": 12, "notes": "'Trying for deeper rom and its way harder.'" }
+    ],
+    "notes": "'Went pretty good.' He pushed the ROM deliberately and it made the same 4 plates way harder — the ROM lever doing what load would. W22 was 'very deep all sets'; this week he went past that and felt it."
+   },
+   {
+    "id": "leg-press-calf-raise",
+    "context": "🔆 Spotlight — slow eccentric, hold the bottom stretch. Same machine, 3 sets.",
+    "sets": [
+     { "weight": "4 plates/side", "reps": 15, "notes": "'Really hard this time doing slower.'" }
+    ],
+    "notes": "Spotlight landed. W22 was 'fine, great doing these slowly'; this week slowing it further made it 'really hard' at the same 4 plates. Same pattern as the W23D1 lateral raise — tempo turning a settled load into a real set."
+   },
+   {
+    "id": "incline-rdl",
+    "context": "45lb plate, 3 sets, 3s eccentric + 2s pause. Written as 'incline curl' in the report; user confirmed it was the incline RDL.",
+    "sets": [
+     { "weight": "45lb plate", "reps": 15, "notes": "'Hard as i'm going slow.'" }
+    ],
+    "notes": "Still hard at 45 with the tempo — third week running that the pause is doing the work. Hold 45."
+   },
+   {
+    "id": "bulgarian-split-squat",
+    "context": "🔆 Spotlight — Smith machine @45 + bench, now the default setup.",
+    "sets": [
+     { "weight": "45 (Smith) + bench", "reps": "8-10 each leg", "notes": "'Felt absolutely brutal.'" }
+    ],
+    "notes": "'Absolutely brutal' — a step up from W22's 'felt great, good depth' on the same setup. **Confirmed: it ran LATE in the session, not in its programmed slot**, on legs already through squats and the leg-press station. That's the explanation, not the load. No depth or side-imbalance detail this week."
+   },
+   {
+    "id": "seated-leg-curl",
+    "context": "Prescribed 80 → 90 → 100 → 110 pyramid. New machine setup this session.",
+    "sets": [
+     { "weight": "90", "reps": 12, "equipment": "seated leg curl — back seat position 5", "notes": "Opened here rather than 80. New setup." },
+     { "weight": "110", "reps": 12, "equipment": "seated leg curl — back seat position 5", "notes": "'Felt hard but also easier / more natural.'" }
+    ],
+    "notes": "**Setup change worth keeping: back seat at position 5.** His words — 'this gives more leverage on ankle and feels more natural.' He opened at 90 and took 110 (the top rung he called for himself in W22) on the second set: hard, but easier and more natural than the old setup. Only two rungs narrated. Ankle/seat position has moved this lift's numbers before (W8-W11 'new machine settings' / 'corrected ankle placement' dropped it to 50), so pin position 5 in the prescription so it stops being rediscovered."
+   }
+  ],
+  "shoulderStatus": "Not reported — legs day, nothing shoulder-loaded.",
+  "skipped": [
+   "**D4 (Thursday KB — Outside Snatch Flow + Brutal Complex) — skipped, work.**"
+  ],
+  "lessonsForFutureWeeks": [
+   "**The squat warmed INTO the session — 45 felt awful, 80 got better every set, third set best.** He credits breathing + bracing properly, and confirmed **the ramp still helps** even when the 45 feels heavy — keep it, and cue the brace there. A heavy-feeling 45 doesn't predict the 80s. He took the optional third set and it was the best one, so three working sets is standard now.",
+   "**Leg curl: pin the back seat at position 5 in the prescription.** 'More leverage on ankle, feels more natural.' He opened at 90 (not 80) and took 110 on the second set — hard but 'easier / more natural.' Next week: pyramid from 90, keep 110 on top, and name the seat position so the setup isn't rediscovered each time.",
+   "**Both tempo/ROM spotlights bit at settled loads** — calf raise 'really hard doing slower,' leg press 'way harder' chasing deeper ROM. Same lesson as the W23D1 lateral raise: the form lever is the progression. Hold 4 plates on both.",
+   "**Bulgarian read 'absolutely brutal' because it RAN LATE, not because of the load** — confirmed. Same Smith @45 that 'felt great' in W22, but done on legs already through squats and the leg press. It's programmed third for a reason; if it keeps sliding to the end, either protect its slot or accept it as a finisher and stop reading its difficulty as a load signal. Still owed a depth + side read next legs day."
+  ]
  }
 ]
