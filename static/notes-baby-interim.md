@@ -23,7 +23,7 @@ Broken sleep cuts force output and — the part that matters more — blunts the
 | On a bad-sleep day | Do |
 |---|---|
 | **Overhead pressing, snatches, heavy bent press** 🛑 | Cut load hard or skip. This is where the right shoulder flares, and a flare now is much worse than a lost month of pressing. |
-| **Spinal-loaded work** — heavy swings, loaded carries beyond the daily bags, heavy hinging 🛑 | Halve it. The QL has spasmed before on far less provocation. |
+| **Spinal-loaded work** — heavy swings, heavy hinging, and the feed bags if they land on a bad day 🛑 | Halve it. The QL has spasmed before on far less provocation. |
 | **Machines, isolation, floor work** 🔥 | Fine. This is the safe half of the menu on no sleep. |
 | **Flows and mobility** | Always fine. Often the best thing available. |
 
@@ -38,11 +38,11 @@ This is the part worth planning around, because it's new load, not less load.
 - **Asymmetric carrying** — baby on one hip, car seat in one hand. Constant, one-sided, unplanned.
 - **Long one-armed holds** — rocking, bouncing, walking a baby to sleep. Shoulders forward, one side at a time, for far longer than you'd choose.
 - **Repeated bending at bad heights** — crib, changing table, car seat buckles. Short-range hinging, dozens of times a day, always slightly awkward.
-- **80lb feed bags in each hand, daily.** You're already doing farmer carries whether or not they're written down.
+- **80lb feed bags in each hand, about once a week.** One genuinely heavy loaded carry, already in your life, already heavier than the gym version.
 
 **Which means the highest-value training you can do is the stuff that undoes that:** rows, face pulls, chest openers, dead hangs, thoracic extension. That's convenient — it's all brief, all low-risk, and none of it needs fresh legs.
 
-**And it means: do NOT add carry volume.** The feed bags are your loaded carries. Grip and traps are getting daily work already. If anything, watch for grip fatigue showing up in your pulling.
+**And the carry pattern takes care of itself.** One heavy carry a week is exactly the coverage target, and the feed bags are heavier per hand than the gym farmer carry — so there's no need to schedule carries during this period. Once a week isn't a fatigue source either, so don't read grip problems into it.
 
 ---
 
@@ -52,7 +52,7 @@ This is the part worth planning around, because it's new load, not less load.
 |---|---|
 | **Pull-up bar** | The single most valuable thing in there. Vertical pulling survives. |
 | **Dumbbells to 100** | Heavier than you need for anything here. Bulgarians (double-50), rows, presses all fine. |
-| **Kettlebells to 200** | Absurd for an apartment gym, and genuinely useful — Arrillaga tops out at 50, so the flows can run heavier here if you want them to. |
+| **Kettlebells to 200** | Absurd, and useful in a narrow way. Arrillaga tops out at 50, so **60-80 is the range that actually helps** — two-hand swings, goblet squats, suitcase carries and deadlifts. **Flows stay at 25-35 regardless.** Anything near 200 is a deadlift implement, not a training bell. |
 | **Flat + incline benches** | Incline DB press, chest-supported row, incline curl all survive. |
 | **Cable machine** (probably) | Face pulls, if so. Confirm. |
 | **Upright leg press** | More upright than Arrillaga's 45°, so shorter effective ROM. Different lift, not the same numbers. |
@@ -109,7 +109,7 @@ Forget days. Over any rolling week, try to touch each of these **once**. That's 
 | **Push** | Incline DB press, dips, push-ups, KB press |
 | **Squat** | Goblet squat, KB front squat, Bulgarian, leg press |
 | **Hinge** | KB swings, RDL, Nordic, any flow with a clean or swing |
-| **Carry** | ✅ Already covered — feed bags, daily |
+| **Carry** | ✅ Already covered — feed bags, ~weekly, 80lb/hand |
 | **Core / anti-rotation** | Figure-8, windmill, bent press, dead bug, barre floor work |
 | **Shoulder health** | Face pull, band work, prone Y, dead hang — the non-negotiable one |
 
@@ -134,4 +134,6 @@ Some things that tend to hold up:
 
 The numbered weeks resume when the schedule does. Nothing here needs unwinding — you'll pick up at the loads you left, and the first week back will feel harder than the numbers suggest. That's normal and it passes in about two sessions.
 
-**Interim weeks are labelled B1, B2, …** so they're visibly outside the W-series and the progression picks up where it left off.
+**Interim weeks are labelled B1, B2, …** so they're visibly outside the W-series and the numbered progression picks up where it left off.
+
+**They get created as you go, not in advance** — and their job is to hold the *log*, not the prescription. This page is the prescription. There's nothing to pre-build: a B-week gets made when there's a session to put in it, which also means a week where nothing happens simply doesn't exist rather than sitting there as a gap.

@@ -130,7 +130,7 @@ Forget days. Touch each once over any rolling week.
 | Push | Incline DB press, push-ups, KB press |
 | Squat | Goblet, KB front squat, Bulgarian, leg press |
 | Hinge | Swings, RDL, Nordic, any flow with a clean |
-| **Carry** | ✅ **already done — feed bags, daily** |
+| **Carry** | ✅ **already done — feed bags ~weekly, 80lb/hand** |
 | Core / anti-rotation | Figure-8, windmill, bent press, barre floor work |
 | Shoulder health | Face pull, band work, prone Y, dead hang |
 
@@ -149,6 +149,6 @@ Forget days. Touch each once over any rolling week.
 
 **The test:** if you can't hold the cue — shoulders packed down, ribs down, spine neutral — the load is wrong *today*.
 
-**Don't add carry volume.** The feed bags are your carries.
+**No need to schedule carries.** The weekly feed bags cover the pattern, heavier than the gym version.
 
 </details>

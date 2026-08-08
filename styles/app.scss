@@ -3231,7 +3231,7 @@ html, body {
   li { margin-top: 0.15em; margin-bottom: 0.15em; }
   hr { margin-top: 1.2em; margin-bottom: 1.2em; }
   table { margin-top: 0.6em; margin-bottom: 0.6em; font-size: 0.9em; }
-  thead th, tbody td { padding-top: 0.35em; padding-bottom: 0.35em; }
+  thead th, tbody td { padding: 0.5em 0.7em; }
   blockquote { margin-top: 0.7em; margin-bottom: 0.7em; }
 }
 
@@ -3274,13 +3274,24 @@ html, body {
     &::before { transform: rotate(90deg); }
   }
 
-  > *:not(summary) {
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+  > *:not(summary):not(table) {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
   }
 
-  > *:last-child:not(summary) { padding-bottom: 0.6rem; }
+  > *:first-of-type:not(summary) { margin-top: 0.75rem; }
+  > *:last-child:not(summary) { margin-bottom: 0.75rem; }
 
-  // tables inside a collapsible scroll rather than blow out the page
-  table { display: block; overflow-x: auto; white-space: normal; }
+  // Tables scroll inside the box instead of blowing out the page. Use MARGIN,
+  // not padding: a horizontal scroll container ignores its own padding-right at
+  // the scroll end, so the table paints over the container's border.
+  > table {
+    display: block;
+    overflow-x: auto;
+    white-space: normal;
+    padding: 0;
+    margin: 0.75rem 0.9rem;
+    width: auto;
+    max-width: calc(100% - 1.8rem);
+  }
 }
