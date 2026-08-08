@@ -539,8 +539,8 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
               <div class="sidebar-menu-item">
                 <button
                   class="sidebar-menu-button"
-                  :class="{ 'active': currentView === 'notes' }"
-                  @click="currentView = currentView === 'notes' ? 'workout' : 'notes'; selectedWorkoutId = null; generatedWorkout = null; selectedActivity = null; selectedProgram = null; if(currentView === 'notes') loadNotes(); if(isMobile) sidebarOpen = false;"
+                  :class="{ 'active': currentView === 'notes' && !notesSlug }"
+                  @click="(currentView === 'notes' && !notesSlug) ? (currentView = 'workout', updateUrl(null)) : showNotes('')"
                 >
                   <span class="iconify sidebar-icon" data-icon="lucide:notebook-pen"></span>
                   <span class="sidebar-menu-label">Training Notes</span>
@@ -608,8 +608,8 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <!-- Program-level note pages -->
                     <template x-for="(page, pageIdx) in (program.pages || [])" :key="'prog-page-' + progIdx + '-' + pageIdx">
                       <div class="folder-tree-item"
-                        :class="{ 'active': currentView === 'notes' && notesPath === page.file }"
-                        @click="selectProgramPage(program, page)">
+                        :class="{ 'active': currentView === 'notes' && notesSlug === page.slug }"
+                        @click="showNotes(page.slug)">
                         <button class="folder-tree-item-btn">
                           <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;" x-text="pageIdx + 1"></span>
                           <span x-text="page.label"></span>
@@ -1862,6 +1862,7 @@ function routineStackApp() {
     notesHtml: '',
     notesPath: '',
     notesTitle: 'Training Notes',
+    notesSlug: '',
 
     // Timer state
     timerMode: false,
@@ -1982,6 +1983,7 @@ function routineStackApp() {
       if (slug.startsWith('program/')) return null;
       if (slug.startsWith('activity/')) return null;
       if (slug === 'exercise-library') return null;
+      if (slug === 'notes' || slug.startsWith('notes/')) return null;
       return slug;
     },
 
@@ -1989,6 +1991,14 @@ function routineStackApp() {
       const slug = this.getSlugFromUrl();
       if (!slug) return null;
       if (slug.startsWith('program/')) return slug.substring('program/'.length);
+      return null;
+    },
+
+    // returns null when the URL isn't a notes URL; '' means the default notes page
+    getNotesSlugFromUrl() {
+      const slug = this.getSlugFromUrl();
+      if (slug === 'notes') return '';
+      if (slug && slug.startsWith('notes/')) return slug.substring('notes/'.length);
       return null;
     },
 
@@ -2024,7 +2034,7 @@ function routineStackApp() {
         }
         return;
       }
-      const currentPath = type === 'program' ? '/program/' + id : type === 'activity' ? '/activity/' + id : '/' + id;
+      const currentPath = type === 'program' ? '/program/' + id : type === 'activity' ? '/activity/' + id : type === 'notes' ? '/notes/' + id : '/' + id;
       if (window.location.pathname !== currentPath) {
         window.history.pushState({ type, id }, '', currentPath);
       }
@@ -2051,8 +2061,14 @@ function routineStackApp() {
           this.generatedWorkout = null;
           return;
         }
-        if (this.currentView === 'exercises') {
+        const navNotesSlug = this.getNotesSlugFromUrl();
+        if (navNotesSlug !== null) {
+          this.showNotes(navNotesSlug, false);
+          return;
+        }
+        if (this.currentView === 'exercises' || this.currentView === 'notes') {
           this.currentView = 'workout';
+          this.notesSlug = '';
         }
         const activityKey = this.getActivityIdFromUrl();
         if (activityKey) {
@@ -2175,6 +2191,10 @@ function routineStackApp() {
         return;
       }
 
+      // Check URL for a notes page (/notes or /notes/<slug>)
+      const urlNotesSlug = this.getNotesSlugFromUrl();
+      if (urlNotesSlug !== null && this.showNotes(urlNotesSlug, false)) return;
+
       // Check URL for activity page (e.g., /activity/functional-bulk-dynamic-w3-d6)
       const urlActivityKey = this.getActivityIdFromUrl();
       if (urlActivityKey) {
@@ -2283,14 +2303,31 @@ function routineStackApp() {
       } catch (e) { console.warn('Could not load notes:', e); }
     },
 
-    selectProgramPage(program, page) {
+    allNotesPages() {
+      const out = [];
+      for (const p of this.programs || []) for (const pg of p.pages || []) out.push(pg);
+      return out;
+    },
+
+    // slug '' = the default Training Notes page; otherwise a program page slug
+    showNotes(slug = '', doUpdateUrl = true) {
+      const page = slug ? this.allNotesPages().find(p => p.slug === slug) : null;
+      if (slug && !page) return false;
       this.currentView = 'notes';
       this.selectedWorkoutId = null;
       this.generatedWorkout = null;
       this.selectedActivity = null;
       this.selectedProgram = null;
-      this.loadNotes(page.file, page.label);
+      this.notesSlug = slug;
+      this.loadNotes(page ? page.file : '/static/notes.md', page ? page.label : 'Training Notes');
+      if (doUpdateUrl) {
+        const path = slug ? '/notes/' + slug : '/notes';
+        if (window.location.pathname !== path) {
+          window.history.pushState({ type: 'notes', id: slug }, '', path);
+        }
+      }
       if (this.isMobile) this.sidebarOpen = false;
+      return true;
     },
 
     shuffleWorkout() {
