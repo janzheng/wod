@@ -285,7 +285,7 @@ The program is form-first, NOT failure-chasing — but the user asked (W19, conf
 
 When logging gym day sessions from conversation:
 
-- **Cardio default:** Unless noted otherwise, every Arrilaga gym session includes a 12 min zone 2 run to the gym + 12 min zone 2 run back. Always include this in the log `cardio` field.
+- **Cardio default:** Unless noted otherwise, every session includes a 12 min zone 2 run to the gym + 12 min zone 2 run back. Always include this in the log `cardio` field. **Every session is at Arrilaga (Stanford) unless he says otherwise — including KB Tuesday/Thursday.** Older logs label KB days "n/a — home KB day"; that label was always wrong (user-corrected 2026-08-08). Never write it again.
 - **KB days:** Light-touch logging — just note the KB weight used and general feel. No set-by-set tracking needed.
 - **Gym days (Push/Pull/Legs):** Track sets, reps, and working weights per exercise. Note any swaps and equipment used.
 
@@ -296,6 +296,12 @@ When logging gym day sessions from conversation:
 - **`NOTES.md`** — session observations, equipment swaps, shoulder status, planned progressions. The decisions that don't live in JSON.
 - **`docs/notes/functional-bulk/form-cues-2026.md`** — established equipment defaults and prior-session notes per exercise.
 - **Any other relevant `docs/notes/` files** if the session touches a topic covered there (e.g., a discussion note about a specific exercise or training principle).
+
+**Reconcile the report against the day's prescription — REQUIRED:** Open the day's workout JSON and walk its `sets[]` against what the user reported, before writing the log. Two things to catch:
+- **Omissions** — a prescribed working lift that the report never mentions. Log the rest, then **ask** about it (`feedback_silence_means_settled`). Never infer it was skipped, never infer it was done. **Exclude the warmup, the cool-down, and the behind-back shrug** — those are deliberately never reported and their absence means done-and-unremarkable (`feedback_never_ask_warmup_cooldown_shrug`).
+- **Mismatches** — what was done differs from what was written (W24D1: misread the sheet and ran 55 for all three sets instead of 50/50/55; W24D2: ran the press bell for rows instead of swapping down). Log what actually happened, name the mismatch plainly in the exercise `notes`, and say whether it changes the prescription going forward or was a one-off.
+
+**Then ask a few questions — REQUIRED:** After the log is written, ask the user 2-4 short questions drawn from the day's spotlights, watchpoints, reflection prompts, and anything the report left ambiguous. Ask about **decisions** (load, station, whether a cue held, an unmentioned lift), not about scaffolding. Answers get folded back into the log and NOTES. He'll say skip if he doesn't want to answer one — that's a fine outcome, so ask anyway rather than pre-filtering.
 
 **Save the user's raw input verbatim:** Every session log entry MUST include a `rawInput` field with the user's exact message text. The structured `exercises` array is derived from it; `rawInput` is the source of truth. This prevents my paraphrase from becoming the canonical record (and the source of next week's drift).
 

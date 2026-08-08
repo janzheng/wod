@@ -540,7 +540,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 <button
                   class="sidebar-menu-button"
                   :class="{ 'active': currentView === 'notes' }"
-                  @click="currentView = currentView === 'notes' ? 'workout' : 'notes'; selectedWorkoutId = null; generatedWorkout = null; selectedActivity = null; selectedProgram = null; if(currentView === 'notes' && !notesHtml) loadNotes(); if(isMobile) sidebarOpen = false;"
+                  @click="currentView = currentView === 'notes' ? 'workout' : 'notes'; selectedWorkoutId = null; generatedWorkout = null; selectedActivity = null; selectedProgram = null; if(currentView === 'notes') loadNotes(); if(isMobile) sidebarOpen = false;"
                 >
                   <span class="iconify sidebar-icon" data-icon="lucide:notebook-pen"></span>
                   <span class="sidebar-menu-label">Training Notes</span>
@@ -605,6 +605,17 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                         <span>Overview</span>
                       </button>
                     </div>
+                    <!-- Program-level note pages -->
+                    <template x-for="(page, pageIdx) in (program.pages || [])" :key="'prog-page-' + progIdx + '-' + pageIdx">
+                      <div class="folder-tree-item"
+                        :class="{ 'active': currentView === 'notes' && notesPath === page.file }"
+                        @click="selectProgramPage(program, page)">
+                        <button class="folder-tree-item-btn">
+                          <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;" x-text="pageIdx + 1"></span>
+                          <span x-text="page.label"></span>
+                        </button>
+                      </div>
+                    </template>
                     <!-- Week-based programs -->
                     <template x-if="program.weeks && program.weeks.length > 0">
                       <div style="display: flex; flex-direction: column-reverse;">
@@ -743,7 +754,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         <button class="sidebar-trigger" @click="sidebarOpen = !sidebarOpen">
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
-        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? 'Training Notes' : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
+        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? notesTitle : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
         <button class="chat-toggle-btn" @click="toggleChat()" :class="{ 'active': chatOpen }">
           <span class="iconify" data-icon="lucide:message-square"></span>
           <span class="chat-toggle-label">AI Coach</span>
@@ -902,7 +913,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
               </div>
             </template>
             <template x-if="notesHtml">
-              <div class="prose prose-full" x-html="notesHtml"></div>
+              <div class="prose prose-full prose-compact" x-html="notesHtml"></div>
             </template>
           </div>
         </template>
@@ -1849,6 +1860,8 @@ function routineStackApp() {
 
     // Training notes state
     notesHtml: '',
+    notesPath: '',
+    notesTitle: 'Training Notes',
 
     // Timer state
     timerMode: false,
@@ -2257,14 +2270,27 @@ function routineStackApp() {
       } catch (e) { console.warn('Could not load progressions:', e); }
     },
 
-    async loadNotes() {
+    async loadNotes(path = '/static/notes.md', title = 'Training Notes') {
+      this.notesTitle = title;
+      if (this.notesPath === path && this.notesHtml) return;
       try {
-        const res = await fetch('/static/notes.md');
+        const res = await fetch(path);
         if (res.ok) {
           const md = await res.text();
           this.notesHtml = marked.parse(md);
+          this.notesPath = path;
         }
       } catch (e) { console.warn('Could not load notes:', e); }
+    },
+
+    selectProgramPage(program, page) {
+      this.currentView = 'notes';
+      this.selectedWorkoutId = null;
+      this.generatedWorkout = null;
+      this.selectedActivity = null;
+      this.selectedProgram = null;
+      this.loadNotes(page.file, page.label);
+      if (this.isMobile) this.sidebarOpen = false;
     },
 
     shuffleWorkout() {
