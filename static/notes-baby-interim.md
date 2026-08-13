@@ -38,11 +38,11 @@ This is the part worth planning around, because it's new load, not less load.
 - **Asymmetric carrying** — baby on one hip, car seat in one hand. Constant, one-sided, unplanned.
 - **Long one-armed holds** — rocking, bouncing, walking a baby to sleep. Shoulders forward, one side at a time, for far longer than you'd choose.
 - **Repeated bending at bad heights** — crib, changing table, car seat buckles. Short-range hinging, dozens of times a day, always slightly awkward.
-- **80lb feed bags in each hand, about once a week.** One genuinely heavy loaded carry, already in your life, already heavier than the gym version.
+- **80lb feed bags in each hand, once a week or every other.** Genuinely heavy, but his own read is *"not really a workout"* — too infrequent to count as training.
 
 **Which means the highest-value training you can do is the stuff that undoes that:** rows, face pulls, chest openers, dead hangs, thoracic extension. That's convenient — it's all brief, all low-risk, and none of it needs fresh legs.
 
-**And the carry pattern takes care of itself.** One heavy carry a week is exactly the coverage target, and the feed bags are heavier per hand than the gym farmer carry — so there's no need to schedule carries during this period. Once a week isn't a fatigue source either, so don't read grip problems into it.
+**Carries still need programming.** The feed bags are heavy but too irregular to count — keep a loaded carry in the menu. They're also not a fatigue source at that frequency, so don't read grip problems into them.
 
 ---
 
@@ -109,7 +109,7 @@ Forget days. Over any rolling week, try to touch each of these **once**. That's 
 | **Push** | Incline DB press, dips, push-ups, KB press |
 | **Squat** | Goblet squat, KB front squat, Bulgarian, leg press |
 | **Hinge** | KB swings, RDL, Nordic, any flow with a clean or swing |
-| **Carry** | ✅ Already covered — feed bags, ~weekly, 80lb/hand |
+| **Carry** | Farmer carry or suitcase carry — the feed bags are too irregular to count |
 | **Core / anti-rotation** | Figure-8, windmill, bent press, dead bug, barre floor work |
 | **Shoulder health** | Face pull, band work, prone Y, dead hang — the non-negotiable one |
 

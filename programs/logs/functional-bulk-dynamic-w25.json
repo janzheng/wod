@@ -1,0 +1,133 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w25-push",
+    "date": "2026-08-10",
+    "rawInput": "w25d1\n\npush press\nsomehow did strict all sets on 45; three sets. waited two min between each. got hard at the end but powered through, great rom but did singles ; 10 reps each. probably best press so far\n\nincline press\ndid singles two minute rest in-between, also really good. probably best incline press so far\n\ndip\nway easier on hands and palms on the angled bar feeling it more on shoulders. with hands out of the way 2s eccentrics can be done with focus; last set still dissolved to singles and palms hurting but this is the best progress so far today\n\nlat raises went good on slow eccentric, should probably go up to 20 but those are very hard to get; did 15 this gym doesn't have 17.5 oops didn't read\n\ncable lat raise on single cable pulley, using carabiner and 10lbs; was good pretty easy on both sides felt good tho\n\nkinesis chest fly also felt good, stepped forward two more steps for more tension",
+    "notes": "Best pressing day of the program, on both presses, and the same method produced both: **two minutes of rest between sets and reps taken as singles.** The push press never needed its leg drive — all three sets went strict at 45 for 10 reps each, which is well past the ~4-5 strict reps the block was written around. The dip station question closed all the way: the angled bar was 'way easier on hands and palms,' and with the hands out of the way the 2s eccentric became possible. He read 'best progress so far' on the dips too.",
+    "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back.",
+    "exercises": [
+      {
+        "id": "push-press",
+        "context": "45lb pair, 3 sets. Prescribed as strict reps until the strict rep stops being strict (~4-5), then the leg drive finishes the set out to 8-10.",
+        "sets": [
+          {
+            "weight": "45lb pair",
+            "reps": "10 — all strict, as singles",
+            "notes": "2 min rest."
+          },
+          {
+            "weight": "45lb pair",
+            "reps": "10 — all strict, as singles",
+            "notes": "2 min rest."
+          },
+          {
+            "weight": "45lb pair",
+            "reps": "10 — all strict, as singles",
+            "notes": "'Got hard at the end but powered through.'"
+          }
+        ],
+        "notes": "**The leg drive was never needed — all three sets went fully strict at 45 for 10 reps.** 'Somehow did strict all sets on 45.' The block was written expecting the strict portion to break around 4-5 reps; it didn't break at all. Reps were taken as singles with 2 min between sets, and he calls it 'probably best press so far' with 'great rom.' **He pushed back on reading too much into it:** *\"the leg drives were definitely needed for a long time, so this is basically the first time.\"* One session, not a new baseline."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "context": "55lb pair, 3 sets of 10-12 — the deliberate run at 55 after last week's accidental one. Load confirmed on follow-up.",
+        "sets": [
+          {
+            "weight": "55lb pair",
+            "reps": "as singles",
+            "notes": "2 min rest between sets."
+          }
+        ],
+        "notes": "'Did singles two minute rest in-between, also really good. Probably best incline press so far.' Same method as the push press. No separate read on whether the pack-down and the 2s eccentric held, but 'really good' plus a best-ever call suggests the position stayed. Confirmed at 55 on follow-up, and *\"also felt more doable this time.\"* He proposed a top-set shape for next time: 60, then drop to 55."
+      },
+      {
+        "id": "dip",
+        "context": "🔆 Spotlight. Bodyweight, 3 sets of 10-12, on the ANGLED / V bar after two weeks of chasing palm pressure.",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "reps": "10-12",
+            "equipment": "angled / V bar",
+            "notes": "2s eccentrics held."
+          },
+          {
+            "weight": "bodyweight",
+            "reps": "10-12",
+            "equipment": "angled / V bar"
+          },
+          {
+            "weight": "bodyweight",
+            "reps": "dissolved to singles",
+            "equipment": "angled / V bar",
+            "notes": "Palms hurting by here."
+          }
+        ],
+        "notes": "**The station question is fully closed: 'way easier on hands and palms on the angled bar.'** And it unlocked the cue — 'with hands out of the way 2s eccentrics can be done with focus.' The palm pressure was never a hand-position problem; it was the wrong bar. Last set still dissolved to singles with the palms hurting, but his read on the day was 'this is the best progress so far.' One thing to follow up: he's 'feeling it more on shoulders,' where the block asks for a forward lean and a chest bias. Follow-up on the shoulder read: *\"was leaning forward as much as i can for dips with legs backward, but it kind of auto-uprights-you though.\"* So the setup is right — legs folded back is the canonical chest-bias cue and his own W18 discovery — but the position doesn't hold itself through the rep."
+      },
+      {
+        "id": "lateral-raise",
+        "context": "Prescribed 17.5 with the slow-up / slow-down / 1s hold tempo. **The gym doesn't stock 17.5** — he ran 15.",
+        "sets": [
+          {
+            "weight": "15lb",
+            "reps": "12-15",
+            "notes": "Slow eccentric held."
+          }
+        ],
+        "notes": "Prescription mismatch, and it's the sheet's fault not his: **there is no 17.5 at this gym.** 'Did 15, this gym doesn't have 17.5.' Tempo held and it 'went good.' His read: 'should probably go up to 20 but those are very hard to get' — the 20s are hard to get hold of, so availability is the constraint, not the load. **Decision: 20 next week.**"
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "context": "Kinesis 9, 3 sets of 10-12. The step forward is the prescribed lever rather than the stack.",
+        "sets": [
+          {
+            "weight": "9",
+            "equipment": "Kinesis",
+            "reps": "10-12"
+          }
+        ],
+        "notes": "'Also felt good, stepped forward two more steps for more tension.' The ROM lever used exactly as intended — the stack stayed at 9 and the step did the work."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "context": "Cable block, last slot this week after the rotation restart. Listed options were Kinesis 5-6, cable pulley + D-handle 9-10, cable column ~30.",
+        "sets": [
+          {
+            "weight": "10",
+            "equipment": "single cable pulley + carabiner",
+            "reps": 12
+          }
+        ],
+        "notes": "**New setup: single cable pulley with a carabiner instead of a D-handle, at 10lb.** 'Was good, pretty easy on both sides, felt good tho.' Reads as having room."
+      },
+      {
+        "id": "farmer-carry",
+        "context": "🔆 Spotlight. 50lb per hand, 3 walks. Not in the written report; confirmed on follow-up.",
+        "sets": [
+          {
+            "weight": "50lb per hand",
+            "duration": 50
+          }
+        ],
+        "notes": "'Farmers carry was fine, non event.' The spotlight asked whether last week's easier grip held and which fails first now — it produced no signal at all, which is its own answer: at 50 it's neither taxing the grip nor the posture enough to be interesting."
+      }
+    ],
+    "shoulderStatus": "No flare reported across a full push day that included three strict sets at 45 and a best-ever incline press.",
+    "skipped": [],
+    "lessonsForFutureWeeks": [
+      "**Two minutes of rest plus reps taken as singles produced his best-ever push press AND best-ever incline press in the same session.** That's a method, not a coincidence — the same change was applied to both lifts and both came back as personal bests. Worth deliberately repeating in W26 before treating it as settled.",
+      "**Dips: the palm pain was the BAR, not the hand position.** Two weeks of hand-position cues, and switching back to the angled bar solved it outright — 'way easier on hands and palms' — and unlocked the 2s eccentric he couldn't hold before. **The angled bar is the station. Stop revisiting it.** Palms still hurt by the last set, so the pain isn't gone, just much later.",
+      "**Dips read 'more on shoulders' where the block asks for chest.** The forward lean is what makes it chest-biased; feeling it in the shoulders suggests a more upright torso. Worth one direct check next week before adjusting anything.",
+      "**There is no 17.5 dumbbell at this gym — the prescription was unrunnable.** He ran 15 with the tempo intact. The jump from 15 is 20, which he says is hard to get hold of. **Stop writing 17.5.** Either hold 15 and use tempo/ROM as the lever, or write 20 with the caveat that availability decides.",
+      "**Cable lat raise has a new station: single cable pulley + carabiner at 10, and it read easy.** First datapoint for that setup. Add it to the calibration table alongside Kinesis 5-6 and the D-handle 9-10.",
+      "**Kinesis fly: he stepped forward two more steps rather than touching the stack.** Exactly the lever the block asked for, used without prompting. 9 holds.",
+      "**Don't over-read the strict push press — his words: 'the leg drives were definitely needed for a long time, so this is basically the first time.'** One session at 45 strict is a first, not a new baseline. **His call for W26: go up to 50** (conditional on the week happening at all).",
+      "**DB lateral raise → 20 next.** His call. Availability is the constraint, not the load.",
+      "**Farmer carry at 50 is a non-event** — 'fine, non event,' after reading 'much easier on grip' the week before. The spotlight produced no signal, which is the signal: at 50 it's no longer taxing either the grip or the posture. If it stays a non-event it's either a load question or a slot that could go to something else.",
+      "**Dips: the forward lean doesn't HOLD — 'it kind of auto-uprights-you.'** The setup is correct (legs folded back is the canonical chest-bias cue and his own W18 discovery), so this isn't a setup error. The lean is an actively maintained position, not something the stance guarantees, and it degrades as the rep gets hard. Needs cues for holding it mid-rep, not a different setup.",
+      "**His W26 proposal on both presses: a top set then a drop** — 60 → 55 on the incline, 50 on the push press. Worth running, with the program's framing rather than 'to failure': take the top load for as many reps as the cue holds, then drop and finish. The drop is a mechanical downshift, which is what makes it legal on a 🛑 lift; a grind at the top isn't."
+    ],
+    "followUpInput": "well idk about that, the leg drives were definitely needed for a long time, so this is basically the first time i've been doing this with the drive; not sure what to do with w26, maybe go up to 50? but also re: the baby stuff, but if it doesn't happen, go up to 50\n\nyeah 20 for lat raise next\n\noh yeah farmers carry was fine, non event\n\nwas leaning forward as much as i can for dips with legs backward, ut it kind of auto-uprights-you though\n\nincline- yes at 55. also felt more doable this time, potentially also a target for 60 until failure then drop to 55 (same for press)"
+  }
+]

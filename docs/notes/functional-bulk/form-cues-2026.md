@@ -255,6 +255,16 @@
 - **Pack the shoulders DOWN and BACK at the top** — never shrug up around the ears. Pack-down is the whole game on dips.
 - **Controlled descent ~2s, drive to a soft lockout** — don't drop into the bottom or snap the elbows.
 
+**Holding the lean (W25D1 — the setup is right, the position isn't self-sustaining)**
+- User, on the angled bar: *"was leaning forward as much as i can for dips with legs backward, but it kind of auto-uprights-you though."* **Legs-back is the correct setup and stays** — the problem is that the torso seeks vertical as the rep gets hard, because upright is the low-effort path.
+- **Treat the lean as an actively held position, not a starting stance.** Squeeze the glutes to keep the hips behind you, brace the abs, and hold it through the whole rep.
+- **Start the descent by moving the CHEST toward the bars**, not by bending the elbows. Leading with the torso keeps the angle; leading with the elbows lets the body swing upright underneath you.
+- **Eyes slightly down and forward, chin tucked.** Head position drags the torso with it.
+- The lean is easiest to hold in the top half and degrades near the bottom — so if it's going to be lost, it's lost late in the rep and late in the set.
+
+**Station (settled W25D1 — stop revisiting)**
+- **The ANGLED / V bar, not the straight narrow bar.** Two weeks of hand-position cueing didn't fix the palm pain; one station change did — *"way easier on hands and palms on the angled bar."* It also unlocked the tempo: *"with hands out of the way 2s eccentrics can be done with focus."* Palms still hurt by the last set, so the pain is delayed rather than gone.
+
 **The watch**
 - **Front-pec: pressure is fine, PAIN is not.** A little pressure on the front pec in the bottom stretch is expected (chest-bias dip). If it tips to pain, shorten the depth or move to the supported machine — that's the cue, not the rep count.
 
