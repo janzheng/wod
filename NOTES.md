@@ -901,6 +901,23 @@ User: *"Really wished we had more circuits / flows / rotations from new stuff; t
 
 ## W26 Observations
 
+### W26 back half — KB days skipped, and the son arrived (2026-08-22)
+
+In and out of the hospital from Thursday on; his son was born, Saturday night
+as of this note. No KB days, no morning flows for the back half.
+
+**This is the compressed-week rule passing its first real test.** The three gym
+days were banked Mon-Wed before induction, and the KB days were written as
+optional — "if a window opens," never as owed. So a week that turned
+unpredictable cost nothing that has to be made up, and there is no debt to
+carry into W27. Keep writing them that way; the rule earned it.
+
+**W27 builds from a newborn baseline, not from W26's loads.** Sleep, time, and
+the window itself are all unknown now. The sessions have to be abandonable
+mid-way without that counting as a failure, and the KB work stays optional by
+default rather than by exception. Ask him what the week actually looks like
+before building it — do not assume the gym slot survives at all.
+
 ### W26 — the week was restructured mid-flight (the compressed-week rule)
 
 **Real cadence run: D1 push (Mon) · D2 pull (Tue) · D3 legs (Wed) · D4-D5 KB (back half, anywhere).** The program file for W26 now reflects this rather than the standard push / KB / pull / KB / legs.
