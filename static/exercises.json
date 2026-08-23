@@ -6364,7 +6364,7 @@
   },
   {
     "id": "incline-cable-overhead-tricep-extension",
-    "name": "Incline Cable Overhead Tricep Extension",
+    "name": "Lean-Back Cable Tricep Extension",
     "category": "arms-triceps",
     "type": "weights",
     "muscles": [
@@ -6389,7 +6389,7 @@
     ],
     "difficulty": "intermediate",
     "duration": 60,
-    "description": "Set an adjustable bench to ~45° incline facing away from a HIGH cable pulley. Grip rope or bar, sit back on the bench. Start with hands near chest (elbows bent), then extend arms forward/overhead against the cable resistance. The high cable angle creates a deep stretch on both the lats and the triceps long head. Works primarily lats with significant tricep long head activation. Can also be replicated kneeling at a cable column (position 1) facing away. Note: different from a standard LOW cable overhead tricep extension, which isolates triceps more.",
+    "description": "Torso leaned back ~45° facing away from a HIGH cable pulley — either sitting back on an incline bench or kneeling on the floor with the hips sat back. Grip a rope or bar with the elbows bent and the hands near the chest, then extend the arms until they are straight, finishing down by the hips/thighs. Elbows stay put; only the forearms move. The arms NEVER travel behind the head — the path is bent-to-straight, chest-to-hip, and the backward lean is what puts the triceps long head on stretch. Hits the long head with lat involvement from the high cable angle. Also loosely called an \"incline cable overhead tricep extension\" (the borrowed name from the source video) — but \"overhead\" misdescribes the path and is what caused years of wrong cues; prefer the descriptive name.",
     "media": [
       {
         "type": "link",
@@ -8759,6 +8759,110 @@
     ]
   },
   {
+    "id": "kettlebell-kickstand-row",
+    "name": "Kickstand Kettlebell Row",
+    "category": "back-horizontal-pull",
+    "type": "weights",
+    "muscles": [
+      "back",
+      "lats",
+      "rear-delts",
+      "biceps",
+      "glutes",
+      "hamstrings",
+      "core",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "pull",
+      "horizontal-pull",
+      "unilateral",
+      "kickstand",
+      "hinge",
+      "anti-rotation",
+      "complex"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "A single-arm row from a kickstand stance — no bench, no hand on the knee. Stagger the working-arm-side foot back on its toe as a kickstand, hinge over the front leg with a flat back, and let the bell hang straight down from the shoulder. Row the bell to the hip, driving the elbow back past the ribs and squeezing the shoulder blade, then lower under control. The free arm reaches back for balance. The front leg carries the load and the trunk has to resist twisting open toward the bell, so it trains the hinge and anti-rotation as much as the pull. Start each rep from a dead stop on the floor if you want it stricter.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2267778667370113",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-08-20"
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2267778667370113",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-kickstand-5432-complex",
+        "name": "Kickstand 5-4-3-2 Complex — Kickstand Row → Step-Together Clean → Strict Press → Snatch",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2267778667370113"
+      }
+    ]
+  },
+  {
+    "id": "kettlebell-kickstand-step-together-clean",
+    "name": "Kickstand Step-Together Clean",
+    "category": "legs-hip-hinge",
+    "type": "weights",
+    "muscles": [
+      "hamstrings",
+      "glutes",
+      "core",
+      "shoulders",
+      "back",
+      "grip"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tags": [
+      "kettlebell",
+      "hinge",
+      "explosive",
+      "unilateral",
+      "kickstand",
+      "clean",
+      "coordination",
+      "complex"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "A dead clean that starts in a kickstand stance and finishes with the feet together. Set up exactly like a kickstand row — working-arm-side foot staggered back on its toe, hinged over the front leg, bell on the floor. Drive the front hip to clean the bell into the rack, and as it lands, step the back foot up to meet the front so you finish standing tall, feet together, bell racked. To reset, step the back foot out again and return the bell to the floor for the next dead-stop rep. The step-together turns a plain clean into a balance and timing drill: the foot has to arrive as the bell does, and the front leg does the pulling. Keep the elbow tight and let the bell land in the corner of the hand, not across the palm.",
+    "source": {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/reel/2267778667370113",
+      "creator": "Madeleine Conti Personal Training",
+      "capturedAt": "2026-08-20"
+    },
+    "sources": [
+      {
+        "url": "https://www.facebook.com/reel/2267778667370113",
+        "label": "Madeleine Conti Personal Training",
+        "platform": "facebook"
+      }
+    ],
+    "flows": [
+      {
+        "workoutId": "kb-kickstand-5432-complex",
+        "name": "Kickstand 5-4-3-2 Complex — Kickstand Row → Step-Together Clean → Strict Press → Snatch",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2267778667370113"
+      }
+    ]
+  },
+  {
     "id": "kettlebell-lateral-lunge",
     "name": "Kettlebell Lateral Lunge",
     "category": "legs-quads",
@@ -9375,12 +9479,23 @@
         "platform": "link"
       },
       {
+        "url": "https://www.facebook.com/reel/2267778667370113",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
         "url": "https://www.facebook.com/reel/2467690073748507",
         "label": "Madeleine Conti Personal Training (Facebook Reel)",
         "platform": "flow"
       }
     ],
     "flows": [
+      {
+        "workoutId": "kb-kickstand-5432-complex",
+        "name": "Kickstand 5-4-3-2 Complex — Kickstand Row → Step-Together Clean → Strict Press → Snatch",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2267778667370113"
+      },
       {
         "workoutId": "kb-long-coordination-gauntlet",
         "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
@@ -10107,6 +10222,11 @@
         "platform": "twitter"
       },
       {
+        "url": "https://www.facebook.com/reel/2267778667370113",
+        "label": "Madeleine Conti Personal Training (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
         "url": "https://www.facebook.com/reel/3961902170780372",
         "label": "Madeleine Conti Personal Training (Facebook Reel)",
         "platform": "flow"
@@ -10118,6 +10238,12 @@
       }
     ],
     "flows": [
+      {
+        "workoutId": "kb-kickstand-5432-complex",
+        "name": "Kickstand 5-4-3-2 Complex — Kickstand Row → Step-Together Clean → Strict Press → Snatch",
+        "source": "Madeleine Conti Personal Training (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/2267778667370113"
+      },
       {
         "workoutId": "kb-gymfiesta-full-body-circuit",
         "name": "Full-Body Kettlebell Circuit — Pass-to-Squat → Lunge Knee-Drive → Snatch → Press-to-March",

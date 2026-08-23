@@ -180,20 +180,27 @@
 
 ### Incline cable overhead tricep extension
 
-**Equipment note (Jan-specific):** Despite the "incline" name, Jan does this **kneeling on the cable column** facing away from a high pulley. The torso forward lean creates the "incline" angle without a bench. Don't write cues assuming a bench — they won't apply.
+**⚠️ Name warning — the "overhead" in the old name is wrong and it corrupted this entry for 15 weeks.** The arms never go behind the head. Canonical definition: `exercises/incline-cable-overhead-tricep-extension.json` (id unchanged for audit history; display name is now **Lean-Back Cable Tricep Extension**).
+
+**Equipment note (Jan-specific):** Jan does this **kneeling on the floor at the cable column / rope pulley**, facing away from a HIGH pulley, **torso leaned BACK ~45°** (not forward — an earlier version of this doc said forward, also wrong). No bench involved. Don't write cues assuming a bench or an overhead position — neither applies.
 
 **Kinesis fallback (cable column busy):** W11D1 → Kinesis 5 (4 was too easy).
 
+**Notes from real sessions**
+- W26D1: **RIGHT arm.** Nerve-like line from shoulder → arm → elbow → forearm, "when exerting."** He backed the load off rather than pushing through. **"Pinched / packed shoulders harder and it got better"** — packing the shoulder down was what changed it, so the sensation is positional, not a load problem. The cable lateral raise immediately afterwards read clean. Same family as W10D1's lateral-raise "line from scapula to elbow" and W12D1's "line from hand to shoulder" at 90°, both right-side. **Practical cue: pack down before the first rep rather than adding load.** No lingering tingling afterwards — 20 min post-session he reported stiffness and ordinary post-training grip fatigue, *"like after climbing,"* and nothing neural.
+- **W26D1 (follow-up) — RESOLVED, the doc was describing the wrong movement.** His words: *"it's never been overhead, it's me on the ground in a 45 degree angle backwards / leaning back, cable above me and going from bent arms to straight arms; straight arms is by the leg/hip, bent is close to the chest — it's always been this exercise!! it drifted over time."* Checked against the canonical exercise file and the W2 intro note (*"Hands near chest, extend out"*) — **he is right, and both of those have been correct the whole time.** The drift entered the weekly workout files at **W13** (*"let the rope pull the hands behind the head"*) and copied forward through W25, and this doc inherited it. Setup/Movement above rewritten to match. Nothing about his execution ever changed.
+
 **Setup**
-- Kneel facing away from the stack with rope attachment overhead
-- Grip the rope behind the head
-- Torso slightly forward — head between arms at the bottom (this is your "incline")
+- Kneel on the floor facing away from the stack, rope from the HIGH pulley
+- **Lean the torso BACK ~45°**, hips sat back — the lean is the whole lift; upright turns it into an ordinary pushdown
+- Hands shoulder-width on the rope, elbows bent, **hands starting near the chest**
 
 **Movement**
-- **Elbows pinned**, only forearms move
-- Hands shoulder-width on the rope — full long-head emphasis
-- **Full stretch at the bottom** — let the load pull the forearms back behind the head
-- Stop just shy of lockout at the top, slow eccentric
+- **Bent → straight is the entire movement.** Hands travel from the chest to down by the hips/thighs
+- **Elbows pinned**, only the forearms move — if the elbows drift, the long head offloads
+- **Nothing goes behind the head.** The stretch comes from the backward lean, not from an overhead reach
+- Stop just shy of lockout, slow eccentric
+- **Pack the shoulders DOWN before the first rep (W26D1)** — this is the most shoulder-flexed loaded position on push day, and packing down is what shut off the nerve line
 
 **Tempo + breath**
 - Controlled both directions, no swing
@@ -202,7 +209,8 @@
 **Common faults**
 - Elbows flaring outward → shoulders/lats take over
 - Locking out hard → joint stack
-- Standing too upright → loses the overhead stretch angle that makes this version work
+- Kneeling too upright → loses the backward lean, which is the only thing separating this from a plain pushdown
+- Letting the hands finish short of the hips → the long head never fully shortens
 
 **Notes from real sessions**
 - W10D1: "went great / felt great, hard at end" — kneeling cable column version is reliable. Keep this setup.
@@ -261,6 +269,12 @@
 - **Start the descent by moving the CHEST toward the bars**, not by bending the elbows. Leading with the torso keeps the angle; leading with the elbows lets the body swing upright underneath you.
 - **Eyes slightly down and forward, chin tucked.** Head position drags the torso with it.
 - The lean is easiest to hold in the top half and degrades near the bottom — so if it's going to be lost, it's lost late in the rep and late in the set.
+
+**Palm position (W26D1 — the fix, LEFT hand)**
+- Two months of palm digging on the left, and the last set of W26D1 finally landed it: **rotate the left forearm outward so the bar sits on the INSIDE edge of the palm** — his words, *"left arm more rotated outward so inside palm was on the bar, i think before that, the thumb part of the hand was on it."*
+- **The load was sitting on the thumb pad (thenar).** That's the wrong place to carry bodyweight — soft, nerve-dense, and it collapses under pressure. Rotating outward moves the load onto the firmer heel/inside edge of the hand, which is where a bar belongs.
+- **Set the rotation BEFORE the first rep, both hands.** He found it on set 3; the point is to start there.
+- Right hand has never been flagged — this is a left-side setup habit, not a bar problem.
 
 **Station (settled W25D1 — stop revisiting)**
 - **The ANGLED / V bar, not the straight narrow bar.** Two weeks of hand-position cueing didn't fix the palm pain; one station change did — *"way easier on hands and palms on the angled bar."* It also unlocked the tempo: *"with hands out of the way 2s eccentrics can be done with focus."* Palms still hurt by the last set, so the pain is delayed rather than gone.
@@ -964,6 +978,16 @@ KB Tuesday/Thursday is the **skill + mobility flank** (W10+ cycle reframe). Form
 - Pulling with the arm instead of driving with the hips → bell path gets long and loopy
 
 **Swap**: Strict press from rack (no clean) if the clean technique is the issue. Or single-arm DB press if KB rack is unavailable.
+
+**Rack + lockout grip — the forearm fix (W25D4)**
+
+The bell digging into the forearm at 50 is a **grip-orientation** problem, not a wrist-strength one. The tell: *"I'm trying to hold the wrist straight."* A correct lockout has a **passive, neutral** wrist — if holding it straight is an effort, the handle is in the wrong place.
+
+- **Diagonal, not square.** The handle runs from the **base of the index finger down to the heel of the hand** — aligned with the forearm's long axis. Square across the palm makes the bell hang off the end of the hand, so its corner lands on the wrist joint.
+- **Deep in the corner.** Hand jammed into the corner of the handle, not gripping the middle — shortest lever from hand to the bell's body.
+- The bell then **rests along the back of the forearm**, and the wrist neutralises without being forced.
+- **On the snatch, punch through.** At the float, punch the hand up *through* the handle so the bell rotates around it and settles — rather than flipping over and slapping the forearm.
+- **Some forearm pressure at 50 is the implement and always will be. Digging and bruising is position.**
 
 **Notes from real sessions**
 - W3 — 50lb began clicking; 3x6 each side fluid. Right ahead of left (normal).

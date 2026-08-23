@@ -29,7 +29,7 @@ mcp__deno-hub__coverflow_workflow_run with args: "xai-twitter-workout-extract --
 
 ### Other video platforms — use `wod-video-extract`
 
-Uses yt-dlp + Gemini vision. Supports Facebook, Instagram, TikTok, YouTube, etc. **LOCAL ONLY** — requires yt-dlp installed.
+Uses yt-dlp + NVIDIA Nemotron Nano Omni, self-hosted on the DGX Spark gateway at sparks.labspace.ai. Supports Facebook, Instagram, TikTok, YouTube, etc. **LOCAL ONLY** — requires yt-dlp installed.
 
 ```
 mcp__deno-hub__coverflow_workflow_run with args: "video-workout-extract --quiet --url=VIDEO_URL"
@@ -116,6 +116,30 @@ Day 7 (Sunday) is `REST or LONG FLOW` — a choice between full rest or the 25-3
 - End-of-session cool-down stays (permanent every-gym-day)
 
 When generating a heal week, write `dayOverview.theme` to call out that it's a heal week + the specific symptoms/signals that motivated it.
+
+## Compressed / Short Weeks (W26+) — EXPECT THESE OFTEN
+
+Life compresses the week — travel, a newborn, a week with one usable window. **These are normal, not failures, and they recur.** A compressed week is not a heal week: loads and intensity are unchanged, only the *calendar* and the *session length* change.
+
+**The order: `push → legs → pull`. Legs goes in the MIDDLE.**
+
+The instinct is to trail legs at the end because it's the biggest day. That's wrong, and W26 proved it. The real problem with `push → pull → legs` is that **push and pull are adjacent, and they're the two days that share shoulders and grip.** W26D2 ran pull the day after push: right shoulder "extra crispy and less power than usual," pull-ups fell from 10/8/7/5 to 8/7/6 with the last set collapsing to singles — on the lift that has improved most in the program. Meanwhile W26D3 ran legs on the *third* consecutive day and produced the best squat report of the program. **Legs is order-insensitive; pull is not.** So legs is the buffer that gives shoulders and grip a full 48h between the two upper days, at no cost to itself.
+
+**The third day is SHORT.** He's most tired and most likely to be time-crunched by then. Confirmed W26D3: *"the compressed days really do well from a shorter third day. the squat + leg press did most of the work here."*
+
+**The trim rule — cut by SORENESS PROFILE, not by "what's next in the rotation."**
+
+Keep the compound/machine movers that carry the day. Cut the **eccentric-heavy, lengthened-position, unilateral** work — that's what generates DOMS 24-48h later, which is exactly the window a compressed week can't afford. Also cut the tail-end accessory/cable blocks; they cost time and add least.
+
+- **LEGS short (validated W26D3, ~45 min):** KEEP squat working sets, leg press + calf raise, hip abduction/adduction, incline RDL at 2 sets. CUT Nordic curl, Bulgarian split squat, the heavy squat probe. *(Nordics and Bulgarians are the two biggest DOMS producers in the program.)*
+- **PULL short:** KEEP pull-up, incline curl, DB row, lat pulldown, face pull. CUT chest-supported row (one row is enough), reverse fly, high cable curl, cable crunch.
+- **PUSH short:** KEEP push press, incline DB press, dips or lateral raise, farmer carry. CUT the Kinesis fly and the cable block.
+
+Nothing goes near failure on the short day. The cool-down always stays.
+
+**KB days move to the back half and are written as optional** — labelled "if a window opens," never as owed. They relocate (a bell and a corner); the gym days don't. **The rule that decides the whole restructure: spend the scarce gym slot on the session that can't be done anywhere else.** If the gym days are banked, the week is complete whether the KB days happen or not.
+
+**Rotation still applies — do NOT let the trimmed session calcify.** If compressed weeks become frequent, the same five exercises surviving every time is exactly the conveyor-belt failure that `Rotation Discipline` exists to prevent. Rotate *which* accessories survive the cut, and rotate within the kept stations, the same way the KB series rotates. The keep-list above is a template, not a fixed set — the anchors (squat, leg press, pull-up, DB row, push press, incline press, farmer carry) hold; everything around them rotates.
 
 ## Form Cue: "Pack DOWN, Not UP"
 

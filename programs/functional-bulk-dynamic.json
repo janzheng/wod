@@ -3003,6 +3003,115 @@
           ]
         }
       ]
+    },
+    {
+      "week": 26,
+      "label": "Three Gym Days Front-Loaded (Mon–Wed), KB in the Back Half — Both Presses Move, the Clean Read on Pull, a Short Legs Day",
+      "description": "**The week is compressed on purpose — three gym days back to back Monday, Tuesday, Wednesday, then kettlebell work in the back half.** A baby is arriving Wednesday evening, so this week gets restructured around one question: **which sessions need the gym, and which ones don't.** Push, pull and legs need Arrilaga — the pull-up bar, the pulldown machine, the cable column, the leg press. The kettlebell days need a bell and a corner. So the gym days move to the front while the gym is still reachable, and the KB days move to the back half where they can run in whatever twenty-minute window opens up — at home, between things, as a break rather than an appointment. **That's the rule worth keeping for every compressed week from here: spend the scarce gym slot on the session that can't be done anywhere else.**\n\nTwo consequences worth naming. **Push and pull ran back to back for the first time**, which used to be too much and no longer is — the pull-ups took the visible hit and everything downstream ran fine or better. And **Wednesday's legs day is deliberately short**: the Nordic curl, the Bulgarians and the heavy squat probe come out, because peak soreness would land Thursday and Friday, on a lot of standing and stairs. The squat holds at 80 with depth as the whole job, the leg press carries the volume, nothing goes near failure.\n\n**Push moves three loads at once, which is unusual here** — the push press to **50**, a top set of **60** on the incline DB before dropping to 55, the DB lateral raise to **20**, and the farmer carry finally off 50 to **60 per hand**. They move because three separate ceilings went quiet at once. What holds constant is the method that unlocked them: **two-minute rests and reps taken as singles.** Don't change the method in the same week the numbers move. The bottoms-up carry replaces the bottoms-up press in the warmup.\n\n**Pull changes nothing structural, and that's the point.** Curls-first is permanent now. Three loads moved last week and all three stick — lat pulldown 150-160, cable crunch 82.5, face pull 60+. **This is also the first uncontaminated week for the left arm**, so whatever it does on the first curl is real information.\n\n**The KB days keep their full design, and they're there if a window opens — not owed.** Three gym days are already banked; the KB days are a break from the room, not a debt. Run one, run both, run neither — the week is complete either way. Nothing is trimmed just because they moved:** The Bent Press Flow keeps the anchor slot with your own ladder written in — **2 rounds per side at 25, 2 at 35, 2 at 45.** The **Overhead Mobility Complex comes back after six weeks off**, at a light bell, because the one real gap on this program is loaded overhead *stability*: plenty of pressing strength, nothing that trains the shoulder to stay stacked while the body moves underneath it. If the right shoulder talks, that complex is the first thing to cut. The conditioning day carries the press tempo structure — one lever per set at 50: pause up, pause down, slow eccentric, and **the last set is capped by the descent, not by failure.** The B-Stance Flow returns after the Outside Snatch Flow's four-week run.\n\n**Warmups are baked into each day's description as a reminder.**",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — push press 50, incline top set 60 (spotlight: push press + DB lateral raise)",
+          "type": "workout",
+          "workoutId": "fb-w26-push",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "PULL — moved up to Tuesday (spotlight: pull-up + DB row; curls-first is permanent)",
+          "type": "workout",
+          "workoutId": "fb-w26-pull",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: PULL add-on** — dead hang, scapular pulls, side-lying external rotation."
+          }
+        },
+        {
+          "day": 3,
+          "label": "LEGS — short session, machines and the familiar squat (spotlight: squat depth + calf raise)",
+          "type": "workout",
+          "workoutId": "fb-w26-legs",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: LEGS add-on** — cross-leg lateral lean + 90s pigeon each side + supine spinal twist."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB FULL (if a window opens) — 🌀 Bent Press Flow laddered 25/35/45 + Overhead Mobility Complex returns",
+          "type": "workout",
+          "workoutId": "fb-w26-kb-full",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: KB add-on** — wall angel, side-lying external rotation, dead hang."
+          }
+        },
+        {
+          "day": 5,
+          "label": "KB CONDITIONING (if a window opens) — 🌀 B-Stance Flow + the press tempo structure",
+          "type": "workout",
+          "workoutId": "fb-w26-kb-cond",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: KB add-on** — wall angel, side-lying external rotation, dead hang."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ]
     }
   ],
   "tips": [

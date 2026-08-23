@@ -3,9 +3,18 @@
   "name": "Week 25 KB Thursday — 🌀 Outside Snatch Flow + Brutal Complex at the Right Bell",
   "description": "**The Brutal Complex gets the run it never got.** Last week it opened at 50 against a 20-30 prescription, and that first round cost the block — rounds two and three ran at 35 on an empty tank. The bell is written as a number this week, not a range: **35, and rounds are the variable.**\n\n**Outside Snatch Flow stays** — it's a confirmed keeper and the outside-arc snatch turned out to be a core move rather than a shoulder one. The spotlight moves off it.\n\n**The KB curl joins Thursday too**, left arm first, same as Tuesday.",
   "routineId": "functional-bulk-dynamic",
-  "tags": ["kettlebell", "conditioning", "flow", "functional-bulk"],
+  "tags": [
+    "kettlebell",
+    "conditioning",
+    "flow",
+    "functional-bulk"
+  ],
   "estimatedDuration": 60,
-  "equipment": ["kettlebell", "resistance-band", "bodyweight"],
+  "equipment": [
+    "kettlebell",
+    "resistance-band",
+    "bodyweight"
+  ],
   "difficulty": "intermediate",
   "dayOverview": {
     "theme": "The conditioning block repeats instead of rotating, for one specific reason: it was never actually run at the right bell. Opening at 50 turned three rounds into one honest round and two on empty. At 35 with rounds as the variable, the block finally gets to do its job. The Outside Snatch Flow stays as the keeper it's proven to be. Rotation happens on Tuesday this week instead.",
@@ -23,7 +32,7 @@
       "**Pacing map (your read, and it's right): the squats and the pushups are the work. The swing and the row are the rest.** Spend your effort accordingly.",
       "**🌀 Outside Snatch Flow — light bell, 2-3 rounds each side.** The spotlight rotates off; it's a known chain now. The outside-arc snatch reads as core, not shoulder — 35 ran fine for two extra rounds.",
       "**KB curl, LEFT FIRST** 🔥, light bell. Same as Tuesday — this is the frequency, not the intensity.",
-      "**Strict overhead press holds 50 at 8/8/8** 🛑. KB row holds 50 — maintenance.",
+      "**Strict overhead press holds 50 — with a 2-3s PAUSE AT LOCKOUT every rep** 🛑. 50 is the Arrilaga ceiling and it read \"pretty easy\" Tuesday, so the pause is the progression, not the bell. KB row holds 50 — maintenance.",
       "**Bent press + windmill keep the skill slot** 🛑, unhurried, light.",
       "**Intensity tags:** 🔥 near-failure OK — KB curl, and the complex's round count. 🛑 keep it shy — snatch, overhead press, bent press, windmill, the close-grip pushup.",
       "**Banded shoulder prep + protective shrug stay in the warm-up.**"
@@ -37,11 +46,31 @@
       "rounds": 1,
       "notes": "Light bell throughout. The figure-8 passes here are the coordination primer — the heavy version lives on Tuesday.",
       "exercises": [
-        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "Slow, close to the head. Shoulders packed down." },
-        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "Light bell inverted. Cuff prep and grip." },
-        { "id": "kettlebell-figure-8", "reps": "10 each direction", "notes": "**Light bell** — this is the coordination primer, not the 50lb Tuesday finisher. Hinge, don't squat." },
-        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Hinged slightly forward, tight fists, thumbs tucked." },
-        { "id": "behind-back-dumbbell-shrug", "reps": "12-15", "notes": "Protective activation. Down and back at the top." }
+        {
+          "id": "kettlebell-halo",
+          "reps": "8 each direction",
+          "notes": "Slow, close to the head. Shoulders packed down."
+        },
+        {
+          "id": "kettlebell-bottoms-up-press",
+          "reps": "8 each side",
+          "notes": "Light bell inverted. Cuff prep and grip."
+        },
+        {
+          "id": "kettlebell-figure-8",
+          "reps": "10 each direction",
+          "notes": "**Light bell** — this is the coordination primer, not the 50lb Tuesday finisher. Hinge, don't squat."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Hinged slightly forward, tight fists, thumbs tucked."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "Protective activation. Down and back at the top."
+        }
       ],
       "restBetween": 15,
       "restAfter": 45
@@ -53,13 +82,34 @@
       "rounds": 1,
       "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
       "exercises": [
-        { "id": "seated-banded-overhead-pull-apart", "reps": 12 },
-        { "id": "seated-banded-behind-neck-pulldown", "reps": 12 },
-        { "id": "seated-banded-t-raise", "reps": 12 },
-        { "id": "seated-banded-chest-pull-apart", "reps": 12 },
-        { "id": "seated-banded-reverse-fly", "reps": 12 },
-        { "id": "seated-banded-diagonal-reach", "reps": "10 each side" },
-        { "id": "seated-banded-overhead-v-hold", "duration": 30 }
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 12
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 12
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 12
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 12
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 12
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "10 each side"
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 30
+        }
       ],
       "restBetween": 0,
       "restAfter": 45
@@ -87,7 +137,7 @@
         {
           "id": "kettlebell-overhead-press",
           "reps": "8 each side",
-          "notes": "**LOAD:** 50 across all sets — strict, clean to rack, press straight up, NO push-press.\n- **Strict, ribs DOWN**, no rib flare\n- **Bicep by the ear, full lockout, shoulder packed DOWN**\n- Both sides to the same standard"
+          "notes": "**LOAD:** 50 across all sets — strict, clean to rack, press straight up, NO push-press. **50 is the ceiling here, so the pause is the progression.**\n- **2-3s PAUSE AT LOCKOUT on every rep** — bicep by the ear, shoulder packed DOWN, ribs down, and hold it. Either the position survives three seconds or it doesn't; there's no way to fudge it\n- **Strict, ribs DOWN**, no rib flare\n- Full lockout before the pause starts — don't start counting from a soft elbow\n- Both sides to the same standard\n\nIt read *\"pretty easy\"* on Tuesday at this same 50. The pause is what makes it hard again without a heavier bell."
         },
         {
           "id": "kettlebell-curl",
@@ -134,9 +184,21 @@
       "rounds": 1,
       "notes": "Give the QL the full beat — the complex loaded the hinge hard.",
       "exercises": [
-        { "id": "pigeon-pose", "duration": 90, "notes": "45s each side." },
-        { "id": "butterfly-stretch", "duration": 60, "notes": "Adductors — the ab-stance squats worked them." },
-        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. QL downshift, and Friday is legs." }
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "butterfly-stretch",
+          "duration": 60,
+          "notes": "Adductors — the ab-stance squats worked them."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. QL downshift, and Friday is legs."
+        }
       ],
       "restBetween": 0,
       "restAfter": 0
