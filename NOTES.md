@@ -890,6 +890,20 @@ User: *"Really wished we had more circuits / flows / rotations from new stuff; t
   - **He wants to go.** *"I DO want to try to make it to the gym if i can."* Treat a full week as the live plan, not the optimistic case.
 
 
+## W27 Build Notes (built 2026-08-24)
+
+- **Week runs Tue 8/25 – Fri 8/28, four days.** He came home from post-partum Monday; the baby sleeps well and rarely cries, so he expects real sleep. Built as an ordinary week, not an interim one.
+- **He asked for `Tue/Wed/Thu = PPL` then revised to `push, pull, KB Thu, legs Fri`. Both put push and pull adjacent, so both were reordered to `push → legs → pull → KB`.** This is the compressed-week rule from W26 applied as written — legs is the buffer, and W26D2 is the evidence. Told him plainly rather than silently swapping.
+- **KB kept on FRIDAY rather than his revised Thursday slot**, for three reasons: it matches his own first framing, it is the session that relocates (a bell and a corner) so it belongs where the week is most likely to break, and putting pull on Friday would risk losing the session that can only happen at the gym.
+- **Thursday pull is the short day** — chest-supported row, reverse fly and cable crunch out. Kept the high cable curl against the short-pull template because he explicitly asked to bump it 10; rear-delt coverage holds via the face pull, row coverage via the DB row.
+- **Nordic curl restored on legs.** Knee flexion fell off when W26 legs was trimmed and the seated curl machine is still broken — a genuine coverage gap, not variety. **Bulgarian deliberately held back to W28**: squat + leg press + Nordic is already a lot of new soreness, and Friday's Leggy Flow is lunge-heavy. One DOMS producer, not two.
+- **Incline DB press is the only load with a door in it** — 60 for sets 1-2, 65 on set 3 only if set 2 is comfortable. W26 ran 60×12×3 with the 2s eccentric and never reached failure. Written as ascending/self-limiting rather than the "top set then drop" shape, which W26 proved wrong (the drop was never needed and the 55s never came off the rack).
+- **Overhead cable tricep extension rotated OUT, cable pushdown in.** That lift is where the W26D1 nerve line (shoulder → elbow → forearm, right arm) appeared, and the pushdown has no overhead position. Bonus: the pushdown last ran in **W1**, so it is also the longest-retired pool move in the program. **Its W1 number (37.5) is 26 weeks stale — written as a find-the-number session, not a prescription.**
+- **Pull-ups framed as a controlled test.** Same bar, same 3s eccentric, only the adjacency changed. If they come back toward 10/8/7/5, the push→legs→pull order is confirmed permanently.
+- **Face pull spotlighted on the newborn-posture rationale** — rocking, carrying, and low reaching all pull the shoulders forward; the interim-period notes already flag rows/face pulls/chest openers/dead hangs as the highest-value work for this period.
+- **Friday KB deploys `kb-kickstand-5432-complex` for the first time** (banked 2026-08-20 from the Conti reel) and brings the **Leggy Flow** back after W25/W26 absence. Both chosen to stay off the shoulders after Tue/Thu.
+- **Morning flow rotated ~half as required.** Fresh: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors held. **Side plank chosen deliberately** — anti-lateral-flexion is the direct counter to carrying a baby on one hip.
+
 ## W26 Build Notes (built 2026-08-15)
 
 - **All five days built as ordinary days** per the standing rule — nothing about the baby or skipping appears in any workout file.

@@ -3112,6 +3112,104 @@
           ]
         }
       ]
+    },
+    {
+      "week": 27,
+      "label": "Short Week, Tuesday Start — Push → Legs → Pull, KB Optional on Friday",
+      "description": "**The week starts Tuesday and runs four days.** Three gym days back to back, then a kettlebell session on Friday that is genuinely optional — take it if a window opens, and the week is complete either way.\n\n**Legs goes in the middle, and that is the whole structural decision.** The instinct is to trail legs at the end because it is the biggest day, but the real problem is that push and pull are the two days sharing shoulders and grip. Running them back to back last week cost the pull-ups — 8 / 7 / 6 and then singles, down from 10 / 8 / 7 / 5, on the lift that has improved most in the program. Legs is order-insensitive and pull is not, so legs becomes the buffer that gives the shoulders a full forty-eight hours at no cost to itself. **Thursday is the clean read on whether that explanation was right.**\n\n**Thursday is also the short day.** Chest-supported row, reverse fly and cable crunch come out — one row is enough, the face pull covers the rear delt, and the third day is where a week with a newborn is most likely to get compressed.\n\n**Two things come back this week.** The Nordic curl returns on legs day, because knee-flexion work fell off when the last legs day was trimmed and the seated curl machine is still broken. And the Leggy Flow returns on Friday after two weeks off, paired with the kickstand 5-4-3-2 complex getting its first run.\n\n**Loads mostly hold.** The incline DB press is the exception — it ran 60 for three sets without approaching failure, so it opens at 60 with a door at 65 on the last set. The high cable curl steps up 10 across the ladder, which was your call. Everything else is a clean honest run at known numbers after a fortnight interrupted.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "TUESDAY · PUSH — incline press opens at 60 with a door at 65 (spotlight: incline DB press + dips)",
+          "type": "workout",
+          "workoutId": "fb-w27-push",
+          "flow": {
+            "workoutId": "fb-w27-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W27 flow — rotated: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session, and that has been more reliable than sleep quality.** **Today: PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "WEDNESDAY · LEGS — the Nordic curl returns (spotlight: Nordic curl + incline RDL)",
+          "type": "workout",
+          "workoutId": "fb-w27-legs",
+          "flow": {
+            "workoutId": "fb-w27-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W27 flow — rotated: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session, and that has been more reliable than sleep quality.** **Today: LEGS add-on** — cross-leg lateral lean + 90s pigeon each side + supine spinal twist."
+          }
+        },
+        {
+          "day": 3,
+          "label": "THURSDAY · PULL — short day, and the pull-up question gets answered (spotlight: pull-ups + face pull)",
+          "type": "workout",
+          "workoutId": "fb-w27-pull",
+          "flow": {
+            "workoutId": "fb-w27-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W27 flow — rotated: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session, and that has been more reliable than sleep quality.** **Today: PULL add-on** — dead hang, scapular pulls, side-lying external rotation."
+          }
+        },
+        {
+          "day": 4,
+          "label": "FRIDAY · KB (if a window opens) — 🌀 Leggy Flow returns + the kickstand 5-4-3-2 complex",
+          "type": "workout",
+          "workoutId": "fb-w27-kb-full",
+          "flow": {
+            "workoutId": "fb-w27-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W27 flow — rotated: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session, and that has been more reliable than sleep quality.** **Today: KB add-on** — wall angel, side-lying external rotation, dead hang."
+          }
+        },
+        {
+          "day": 5,
+          "label": "SATURDAY · ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "SUNDAY · REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ]
     }
   ],
   "tips": [

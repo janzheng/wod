@@ -1,0 +1,170 @@
+{
+  "id": "fb-w27-pull",
+  "name": "Week 27 Pull — Short Day, and the Pull-Up Question Gets Answered (Spotlight: Pull-Ups + Face Pull)",
+  "description": "**Warmups are baked into each block's notes as a reminder.**\n\n**This is the short third day.** Chest-supported row, reverse fly and cable crunch come out — one row is enough, the face pull covers the rear delt, and the day needs to fit a window rather than fill one.\n\n**Pull-ups sit two days after push instead of one.** Last time they ran the day after a heavy press day and fell to 8 / 7 / 6 with the last set collapsing to singles. This is the clean read.\n\n**The DB row pyramid is written as 75 / 85 / 95** — the loads you actually ran by accident, which produced the best row datapoint of the block.\n\n**The high cable curl steps up 10 across the board**, which was your call.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": ["pull", "gym", "strength", "functional-bulk"],
+  "estimatedDuration": 45,
+  "equipment": ["dumbbell", "cable", "machine", "resistance-band", "bodyweight"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "A deliberately short day with one question in it. Last week pull ran twenty-four hours after a heavy push day for the first time, the right shoulder read 'extra crispy,' and the pull-ups dropped from 10 / 8 / 7 / 5 to 8 / 7 / 6 and then singles — on the lift that has improved most in the whole program. This week legs sits between push and pull and the shoulders get a full forty-eight hours. If the pull-ups come back, the adjacency explanation is confirmed and the push → legs → pull order stays permanent.\n\nThe face pull takes the second spotlight for a reason that has nothing to do with the gym. Rocking, carrying and long one-armed holds pull the shoulders forward all day now, and pulling work at the back of the shoulder is the highest-value thing in this session for the next few months — not the accessory it looks like on paper.",
+    "spotlights": [
+      {
+        "exerciseId": "pull-up",
+        "why": "The one clean test this week. Same lift, same tempo, same bar — the only variable changed is that push is two days back instead of one. Whatever number comes out is the answer."
+      },
+      {
+        "exerciseId": "face-pull",
+        "why": "The postural load has changed. Hours of rocking, carrying and forward-reaching at crib and car-seat height make rear-shoulder and upper-back pulling the highest-value work in the program right now."
+      }
+    ],
+    "rotationPlan": "W28 — lat pulldown + chest-supported row when it comes back in. W29 — DB row and incline curl. W30 — pull-ups again once the adjacency question is settled.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: pull-ups, DB row, lat pulldown, incline curl. Grip and position lifts where the honest ceiling is the rep the cue breaks, not the rep the muscle quits.",
+      "🔥 near-failure last set OK: face pull, high cable curl. Isolation work where form holds at the limit.",
+      "**Right shoulder read 'extra crispy' last week.** Watch it through the warmup and the first pull-up set. If it is still talking, drop to three sets and keep every rep clean rather than pushing the fourth.",
+      "**The left side fades before the right on the row.** At 95 the right held ten clean reps and the left lost grip and strength at eight. That is the expected shape — finish the left where it finishes, no straps.",
+      "**Band-pull-apart is the pull-day shoulder anchor.** Keep the warmup lean otherwise; this day is short on purpose."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Band-pull-apart is the pull-day shoulder anchor. Keep the block lean — everything here happens at or near the bar.",
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 20, "notes": "**The shoulder anchor for pull day.** Light band, slow, squeeze the shoulder blades together without shrugging." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine wake-up." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Deep core before anything loaded." },
+        { "id": "dead-hang", "duration": 30, "notes": "Passive hang. **Also your first read on the right shoulder today** — note whether it is quiet." }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "shrug",
+      "name": "Behind-Back DB Shrug — Protective Activation (DO THIS FIRST)",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "Before anything gets loaded. This is the block that keeps the shoulder quiet through pull day.",
+      "exercises": [
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "**LOAD:** 40-50lb pair, behind the back, 2 sets.\n- Straight up and down, no rolling\n- **Squeeze at the top**, slow release\n- Neck long throughout"
+        }
+      ],
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "pull-ups",
+      "name": "🔆 Pull-Ups — Straight Bar, 4 Sets, 3s Eccentric (Spotlight) 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "**Bodyweight, 4 sets to form failure, 3s eccentric on every rep.** Straight bar, not the swivel handles.\n\n**🔆 SPOTLIGHT — this is a controlled test, so run it clean:**\n- **Two weeks ago, rested: 10 / 8 / 7 / 5** with the tempo intact\n- **Last week, one day after push: 8 / 7 / 6, then singles.** Right shoulder crispy, less power than usual\n- **This week push is two days back.** Same bar, same tempo, nothing else changed\n- **3s eccentric on every rep** — the tempo is what makes the numbers comparable. A faster rep is not the same rep\n- **Form failure, not muscular failure.** The set ends when the eccentric stops being 3 seconds or the shoulders shrug up to start the rep\n- **Do not chase the old number.** Whatever comes out today is the data; forcing it wrecks the experiment and the shoulder\n- **If the right shoulder is still crispy, run three sets** and log that instead\n\n**Reflection:** did the reps come back toward 10 / 8 / 7 / 5? And how did the right shoulder feel on set 1 compared to last week?",
+      "exercises": [
+        {
+          "id": "pull-up",
+          "reps": "to form failure",
+          "notes": "Bodyweight, 4 sets, **3s eccentric every rep.** Straight bar.\n- Set ends when the tempo breaks or the shoulders shrug up\n- **Log all four numbers** — this is the week's one real test\n- Three sets is a fine answer if the shoulder is talking"
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 120
+    },
+    {
+      "id": "bench-block",
+      "name": "DB Rack / Bench Block — Incline Curl → DB Row (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**Both lifts live at the DB rack and the adjustable benches — take them as one station and do not walk away between them.**\n\nThe chest-supported row and the reverse fly come out this week. One row is enough on a short day, and the face pull covers the rear delt.",
+      "exercises": [
+        {
+          "id": "incline-curl",
+          "reps": "10 each side",
+          "notes": "**LOAD:** 25lb, 3 sets of 10 each side.\n\nBest left-arm result yet last time — all sets completed without failing, even with the left reading tired from the push day two days earlier.\n- **Bench at 45°, arms hanging fully behind the body** — the stretch at the bottom is the whole reason for the incline\n- **Do not swing the shoulder forward** to start the rep\n- Slow eccentric, full extension at the bottom"
+        },
+        {
+          "id": "dumbbell-row",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: pyramid 75 → 85 → 95.** One set at each, each side.\n\nThese are the loads you actually ran, and they produced the best row datapoint of the block: the right side held 10 clean at 95, the left lost grip and strength at 8.\n- **Expect the left to finish around 8 on the 95.** That is the honest number — no straps, and the grip is the point\n- **Chest supported on the bench**, spine long, no twisting to finish the rep\n- **Elbow drives back past the ribs**, not out to the side\n- Slow eccentric, full stretch at the bottom\n- **Let the reps creep rather than the load** — the left ceiling moved on its own last time"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:**\n- Regular lat pulldown machine: **160**\n- Cable pulley: **70/side (140 total)**\nPick whichever is free; **note which equipment + number you used in the log.**\n\n160 ran clean across all three sets last time and read notably easy after the pull-ups. It holds.",
+      "exercises": [
+        {
+          "id": "lat-pulldown",
+          "reps": "8-12",
+          "notes": "**LOAD:** regular machine **160** · cable pulley **70/side**. Log which.\n- **Pack the shoulders DOWN before the elbows move** — blades into the back pockets first\n- Bar to the collarbones, chest up\n- **Slow eccentric** — that is where 160 got difficult before\n- Ribs down, no leaning back to finish"
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 75
+    },
+    {
+      "id": "face-pull",
+      "name": "🔆 Face Pull — the Most Valuable Lift in This Session Right Now (Spotlight) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD: 62.5, and keep adding as it gets easy.** One station, one ladder — take whichever pulley is free and keep climbing the same line. 3 sets of 20.\n\n**🔆 SPOTLIGHT — why this one matters more than usual right now:**\n- **Your postural load changed this month.** Rocking a baby, carrying a car seat, long one-armed holds and repeated reaching at crib height all pull the shoulders forward and round the upper back\n- **This is the direct antidote**, and it is worth more to you over the next few months than any pressing lift in the program\n- **Pull to the face, not the chest.** Hands finish beside the ears, elbows high and wide\n- **External rotation at the end** — knuckles rotate back, like a double bicep pose. That rotation is the part most people skip and it is the part that matters\n- **Squeeze and hold for a beat** at the end position rather than snapping back\n- **Traps stay quiet.** If the shoulders ride up toward the ears, drop the pin\n- Last set can run near failure — this is safe isolation work\n\n**Reflection:** does the end-range external rotation still feel available on the right side, or does it run out earlier than the left?",
+      "exercises": [
+        {
+          "id": "face-pull",
+          "reps": 20,
+          "notes": "**LOAD: 62.5+.** One station, one ladder — keep adding as it gets easy. 3 sets of 20.\n- **Hands finish beside the ears**, elbows high\n- **Rotate the knuckles back** at the end of every rep\n- Hold a beat, slow return\n- Traps quiet"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cable-curl",
+      "name": "High Cable Curl — Ascending, Up 10 Across the Board 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:**\n- Cable column (your 'double column'): **190 → 200 → 210** ascending, one set each\n- Single pulley: **62.5**\nPick whichever is free; **note which equipment + number you used in the log.**\n\nThe whole ladder moves up 10 — your call after running 180 / 190 / 200 twice and finding it a good pyramid with room. **Single arm.** The top set is the near-failure one, which is what makes the ascending shape self-limiting.",
+      "exercises": [
+        {
+          "id": "high-cable-bicep-curl",
+          "reps": "10-12 each side",
+          "notes": "**LOAD:** cable column **190 / 200 / 210** ascending · single pulley **62.5**. Log which.\n- **Single arm**, cable high, elbow fixed in space\n- **Do not let the elbow drift forward** — the upper arm stays put\n- Squeeze at the top, slow return to full extension\n- Top set can run near failure"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout.",
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm, elbow at MID height. Directly undoes the forward-shoulder posture." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive. Let the shoulders decompress after the pulling." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing. End here." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "The pull-up numbers are the point of the day — log all four sets, whatever they say.",
+    "Nothing goes near failure except the face pull and the top curl. This is a short day, not a hard one.",
+    "The cool-down stays even when the session gets cut short."
+  ]
+}
