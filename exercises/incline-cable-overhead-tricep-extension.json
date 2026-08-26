@@ -1,6 +1,6 @@
 {
   "id": "incline-cable-overhead-tricep-extension",
-  "name": "Lean-Back Cable Tricep Extension",
+  "name": "Lean-Back Cable Tricep Pushdown",
   "category": "arms-triceps",
   "type": "weights",
   "muscles": [
@@ -21,11 +21,12 @@
     "triceps",
     "long-head",
     "stretch-focused",
-    "lats"
+    "lats",
+    "pushdown"
   ],
   "difficulty": "intermediate",
   "duration": 60,
-  "description": "Torso leaned back ~45° facing away from a HIGH cable pulley — either sitting back on an incline bench or kneeling on the floor with the hips sat back. Grip a rope or bar with the elbows bent and the hands near the chest, then extend the arms until they are straight, finishing down by the hips/thighs. Elbows stay put; only the forearms move. The arms NEVER travel behind the head — the path is bent-to-straight, chest-to-hip, and the backward lean is what puts the triceps long head on stretch. Hits the long head with lat involvement from the high cable angle. Also loosely called an \"incline cable overhead tricep extension\" (the borrowed name from the source video) — but \"overhead\" misdescribes the path and is what caused years of wrong cues; prefer the descriptive name.",
+  "description": "A cable tricep pushdown taken with the torso leaned slightly back, facing away from a high cable pulley — sat back on an incline bench or kneeling with the hips sat back. Grip a rope or bar with the elbows bent and the hands near the chest, then straighten the arms until they finish down by the hips. Everything stays fixed except the forearms; the elbows do not travel. The arms NEVER go behind the head — the path is bent-to-straight, chest-to-hip, and the backward lean is what puts the triceps long head on stretch. In the user's own words: \"slightly leaned back and straightening arms to hips keeping everything fixed, engaging back of the arms.\" Also called an \"incline cable overhead tricep extension\" (the borrowed name from the source video) — but \"overhead\" misdescribes the path and is what caused fifteen weeks of cue drift. Same movement as `cable-tricep-pushdown`, which carries a single W1 datapoint; this id holds the real history and is the one to log against.",
   "media": [
     {
       "type": "link",

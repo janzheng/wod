@@ -122,7 +122,7 @@
 - W10D1: 45x10/8/9/7 at 30° — really hard even at this load. Forearm stack is **automatic at 30°**, going wider toward T-shape feels awkward. Lower than I used to do it but it's the right angle. Lesson: **don't need 2-up-2-down tempo** at this load — the form alone makes 45 honest. Held at the bottom on set 3 instead.
 - W11D1: dropped to **40lb pair (from prescribed 45)** because right chest/shoulder connected muscle was tight going in — felt fairly easy at 40, smart deload to preserve the spotlight + end block. The warmup work is paying off (shoulder warmer/less painful than W10), but on a tight day 40 is the right call.
 
-- **W27D1 (spotlight) — the same load read completely differently one week later.** 60 × 12 × 3 again, all sets completed, but *"surprisingly hard!!"* and *"almost to failing form started slipping"* against W26's *"never stopped feeling easy."* The optional step to 65 was correctly declined. **A load that holds on a bad-sleep week after a training gap is still that load working** — read the ceiling off a normal week, not off this one. His own framing is the useful one: *"i remember we did 45 not too long ago, and so even doing these with decent form is actually not too bad."*
+- **W27D1 (spotlight) — the same load read completely differently one week later.** 60 × 12 × 3 again, all sets completed, but *"surprisingly hard!!"* and *"almost to failing form started slipping"* against W26's *"never stopped feeling easy."* The optional step to 65 was correctly declined. **A load that holds on a bad-sleep week after a training gap is still that load working.** His call on follow-up: *"i think 60 is good, i'm been fairly sleep deprived so i think this is expected"* — **so 60 is the working weight, written flat. Do not offer a step to 65 unprompted.** His own framing on the day is the useful one: *"i remember we did 45 not too long ago, and so even doing these with decent form is actually not too bad."*
 ---
 
 ### Kinesis / cable fly
@@ -179,7 +179,7 @@
 
 ---
 
-### Incline cable overhead tricep extension
+### Lean-back cable tricep pushdown (formerly "incline cable overhead tricep extension")
 
 **⚠️ Name warning — the "overhead" in the old name is wrong and it corrupted this entry for 15 weeks.** The arms never go behind the head. Canonical definition: `exercises/incline-cable-overhead-tricep-extension.json` (id unchanged for audit history; display name is now **Lean-Back Cable Tricep Extension**).
 
@@ -217,6 +217,7 @@
 - W10D1: "went great / felt great, hard at end" — kneeling cable column version is reliable. Keep this setup.
 - W11D1: Cable column busy → switched to Kinesis. **Kinesis 4 too easy, Kinesis 5x12 significantly harder.** Lock Kinesis 5 as the working number for the Kinesis fallback. Cable column kneeling remains preferred when free.
 
+- **W27D1 — it is a PUSHDOWN, and it always was.** *"Yeah its always been pushdown the generation has just been wrong."* His description, the one to write cues from: *"slightly leaned back and straightening arms to hips keeping everything fixed, engaging back of the arms."* Renamed accordingly. **The id stays `incline-cable-overhead-tricep-extension`** so the audit history survives — there is a separate `cable-tricep-pushdown` id with one W1 datapoint, which is the same movement; do not schedule it as a second lift. Cable column, W26 70 → W27 60/60/50 on a heavily fatigued day.
 ---
 
 ### Straight arm pulldown
@@ -289,7 +290,7 @@
 - W17D1 (debut): bodyweight 12/(6+6)/8, fuller-than-prescribed ROM, **no shoulder complaint** even deep. "Really hard to lead with chest, body bobs up" — new-pattern groove. Front pec got pressure, not pain.
 - W18D1 (spotlight): bodyweight 10/10/8, full ROM, lean grooving (legs folded back). **Mini-dip-on-the-bar warmup discovered** (see above). "Going past 10 is hard" — 10/set is the current per-set ceiling; it'll creep on its own. Shoulder quiet.
 
-- **W27D1 (spotlight) — ✅ THE PALM PROBLEM IS CLOSED.** The rotated forearm position (left hand, inside palm on the bar instead of the thumb pad) was set BEFORE rep 1 and held: *"rotated palms is way better to start!"* / *"palms fine nothing to blame this time haha."* Two months of digging, ended by a setup change. **Set the rotation before the first rep — do not go looking for it mid-set.** Tempo is now the only lever left, and it slipped to ~1s and 2s descents this week on fatigue (target is 3s).
+- **W27D1 (spotlight) — the palm fix reproduces on demand, but the lift is still hard.** The rotated forearm position (left hand, inside palm on the bar instead of the thumb pad) was set BEFORE rep 1 and held: *"rotated palms is way better to start!"* / *"palms fine nothing to blame this time haha."* **Set the rotation before the first rep — do not go looking for it mid-set.** But dips are not a solved lift: *"i'm still struggling on dips though."* Tempo ran 1s / 3s / 2s across the three sets, so the 3s target is reachable but not yet the default.
 ---
 
 ### Front raise — NOT programmed (rehab-only if at all)

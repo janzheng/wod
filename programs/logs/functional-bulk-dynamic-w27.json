@@ -49,19 +49,19 @@
       },
       {
         "id": "dip",
-        "notes": "**Spotlight answered: the rotated palm was set before rep 1 and it worked — 'rotated palms is way better to start!'** The palm is no longer the limiter: 'palms fine nothing to blame this time haha.' Tempo was the casualty instead, at ~1s / 2s against the prescribed 3s descent, which he put down to being tired.",
+        "notes": "**The rotated palm was set before rep 1 and it worked — 'rotated palms is way better to start!'** The palm is no longer what he blames: 'palms fine nothing to blame this time haha.' **But the lift is still a struggle — on follow-up: 'i'm still struggling on dips though.'** Solving the palm did not make dips easy. Tempo by set was 1s / 3s / 2s, so the prescribed 3s landed on set 2.",
         "sets": [
           {
             "weight": "bodyweight",
             "equipment": "angled / V bar",
             "reps": 12,
-            "notes": "'Rotated palms is way better to start! Did like 1s descent tho lol tired.'"
+            "notes": "'Rotated palms is way better to start! Did like 1s descent tho lol tired.' 1s descent."
           },
           {
             "weight": "bodyweight",
             "equipment": "angled / V bar",
             "reps": 10,
-            "notes": "'10 but 3 eccentric lol yikes, just tired, palms fine nothing to blame this time haha.'"
+            "notes": "**3s eccentric — the prescribed tempo, hit on this set.** 'Just tired, palms fine nothing to blame this time haha.'"
           },
           {
             "weight": "bodyweight",
@@ -93,55 +93,55 @@
       },
       {
         "id": "cable-lateral-raise",
-        "notes": "'Cable lat raises went surprisingly well.' Station and number not recorded — W26 ran cable column ~30.",
+        "notes": "'Cable lat raises went surprisingly well.' Cable column, following the written number — confirmed on follow-up.",
         "sets": [
           {
-            "weight": "not recorded",
-            "equipment": "not recorded",
+            "weight": "~30",
+            "equipment": "cable column",
             "reps": "12"
           }
         ]
       },
       {
         "id": "straight-arm-pulldown",
-        "notes": "All three sets at 12. 'Hard but did them all with proper breaks.' Station not recorded — the prescription called cable column 120.",
+        "notes": "All three sets at 12. 'Hard but did them all with proper breaks.' Cable column 120 as written — confirmed on follow-up.",
         "sets": [
           {
-            "weight": "not recorded",
-            "equipment": "not recorded",
+            "weight": "120",
+            "equipment": "cable column",
             "reps": 12
           },
           {
-            "weight": "not recorded",
-            "equipment": "not recorded",
+            "weight": "120",
+            "equipment": "cable column",
             "reps": 12
           },
           {
-            "weight": "not recorded",
-            "equipment": "not recorded",
+            "weight": "120",
+            "equipment": "cable column",
             "reps": 12
           }
         ]
       },
       {
-        "id": "cable-tricep-pushdown",
-        "notes": "**The find-the-number task is answered, under heavy fatigue: 60 x 12 for two sets, then 50 on the third.** He also pushed back on the framing — 'we've always been doing these!! the description confuses me - it's because we drifted into another workout here lol.' The lift he runs weekly is logged under `incline-cable-overhead-tricep-extension` (canonically the lean-back cable extension, which finishes at the thighs), so the two IDs are describing near-neighbours. Station and attachment not recorded.",
+        "id": "incline-cable-overhead-tricep-extension",
+        "notes": "**60 x 12, 60 x 12, then 50 — cable column, on the worst-feeling day of the block.** Prescribed as a find-the-number session under the id `cable-tricep-pushdown`, which was a build error: he flagged it in the report ('we've always been doing these!! the description confuses me') and confirmed on follow-up — **'it's always been pushdown, the generation has just been wrong.'** Logged against the id that carries the 26-week history. His description of the movement: 'slightly leaned back and straightening arms to hips keeping everything fixed, engaging back of the arms.' W26 ran 70 on the same station; 60 today is fatigue, not a new scale.",
         "sets": [
           {
             "weight": "60",
-            "equipment": "not recorded",
+            "equipment": "cable column",
             "reps": 12,
             "notes": "'Set 1 this is hard i'm tired lol.'"
           },
           {
             "weight": "60",
-            "equipment": "not recorded",
+            "equipment": "cable column",
             "reps": 12,
             "notes": "'Yep definitely hard.'"
           },
           {
             "weight": "50",
-            "equipment": "not recorded",
+            "equipment": "cable column",
             "reps": 12,
             "notes": "'Lmao.'"
           }
@@ -180,6 +180,14 @@
         ]
       }
     ],
-    "rawInput": "w27d2\n\nstrict press\n50x10 surprised i was able to do these after a small break! definitely feels harder than last time but did all of them properly!\n50x10 oof getting harder starting to lose form lol - interesting how fast these get lost\n50x5 then 4 more push presses and stopped out\nstill within range tho haha \n\nincline press\n60x12 surprisingly hard!! but then i remember we did 45 not too long ago and so even doing these with decent form is actually not too bad\n60x12\n60x12 hard at the end, did all sets!! didn't go up tho, almost to failing form started slipping\n\ndips\n12 on angle bar- rotated palms is way better to start! did like 1s descent tho lol tired \n10 but 3 eccentric lol yikes, just tired, palms fine nothing to blame this time haha\n10 at 2s\n\ndb lat raise\n15x15 oops prob too easy \n20x15\n20x15 doing well on slows, good working weight still, not comfy \n\nthe curl machine is a kneeling leg curl - probably useful to swap out curl machine which is still broken\n\nleft arm getting knocked out again!! even before the workout it felt weaker and more tired- not injured but like slow to recover from workouts; really really odd this has never been a thing until about three weeks ago\n\ncable lat raises went surprisingly well\n\nstraight arm pull down\n12 x3 sets hard but did them all with proper breaks\n\ntricep push down\nwe've always been doing these!! the description confuses me - it's because we drifted into another workout here lol \n60x12 set 1 this is hard i'm tired lol\n60x12 yep definitely hard\n50x12 lmao\n\nkinesis cable fly\n9x12 yeaaah definitely tired im hitting doms without the delay early today haha\n\nfarmers carries fine for first two down to 50 lbs and had to break around 30s\n\nprobably still a lack of sleep so everything is a complete slug"
+    "rawInput": "w27d2\n\nstrict press\n50x10 surprised i was able to do these after a small break! definitely feels harder than last time but did all of them properly!\n50x10 oof getting harder starting to lose form lol - interesting how fast these get lost\n50x5 then 4 more push presses and stopped out\nstill within range tho haha \n\nincline press\n60x12 surprisingly hard!! but then i remember we did 45 not too long ago and so even doing these with decent form is actually not too bad\n60x12\n60x12 hard at the end, did all sets!! didn't go up tho, almost to failing form started slipping\n\ndips\n12 on angle bar- rotated palms is way better to start! did like 1s descent tho lol tired \n10 but 3 eccentric lol yikes, just tired, palms fine nothing to blame this time haha\n10 at 2s\n\ndb lat raise\n15x15 oops prob too easy \n20x15\n20x15 doing well on slows, good working weight still, not comfy \n\nthe curl machine is a kneeling leg curl - probably useful to swap out curl machine which is still broken\n\nleft arm getting knocked out again!! even before the workout it felt weaker and more tired- not injured but like slow to recover from workouts; really really odd this has never been a thing until about three weeks ago\n\ncable lat raises went surprisingly well\n\nstraight arm pull down\n12 x3 sets hard but did them all with proper breaks\n\ntricep push down\nwe've always been doing these!! the description confuses me - it's because we drifted into another workout here lol \n60x12 set 1 this is hard i'm tired lol\n60x12 yep definitely hard\n50x12 lmao\n\nkinesis cable fly\n9x12 yeaaah definitely tired im hitting doms without the delay early today haha\n\nfarmers carries fine for first two down to 50 lbs and had to break around 30s\n\nprobably still a lack of sleep so everything is a complete slug",
+    "followUps": {
+      "askedOn": "2026-08-25",
+      "incline press": "'I think 60 is good, i'm been fairly sleep deprived so i think this is expected.' — his call: hold 60, the optional step to 65 comes off.",
+      "dips": "'Lol i'm still struggling on dips though.' The palm fix holds; the lift is still hard. Tempo 1s / 3s / 2s across the three sets.",
+      "tricep pushdown": "'Yeah its always been pushdown the generation has just been wrong.' On the movement itself: 'i actually don't know? it's always been slightly leaned back and straightening arms to hips keeping everything fixed, engaging back of the arms; no idea what it actually is called, on the cable column.'",
+      "cable stations": "'Was on cable column following spec' — all three cable lifts.",
+      "left arm": "**Not baby-related and not new to this period: 'not at all, it's been like this way before the baby lol; but last few weeks left has always been tired (not baby related; baby is like four days old).'** Rules out the carrying hypothesis the same way the two-week KB gap ruled out the KB-Tuesday one."
+    }
   }
 ]
