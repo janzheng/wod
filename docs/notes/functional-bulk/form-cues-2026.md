@@ -122,6 +122,7 @@
 - W10D1: 45x10/8/9/7 at 30° — really hard even at this load. Forearm stack is **automatic at 30°**, going wider toward T-shape feels awkward. Lower than I used to do it but it's the right angle. Lesson: **don't need 2-up-2-down tempo** at this load — the form alone makes 45 honest. Held at the bottom on set 3 instead.
 - W11D1: dropped to **40lb pair (from prescribed 45)** because right chest/shoulder connected muscle was tight going in — felt fairly easy at 40, smart deload to preserve the spotlight + end block. The warmup work is paying off (shoulder warmer/less painful than W10), but on a tight day 40 is the right call.
 
+- **W27D1 (spotlight) — the same load read completely differently one week later.** 60 × 12 × 3 again, all sets completed, but *"surprisingly hard!!"* and *"almost to failing form started slipping"* against W26's *"never stopped feeling easy."* The optional step to 65 was correctly declined. **A load that holds on a bad-sleep week after a training gap is still that load working** — read the ceiling off a normal week, not off this one. His own framing is the useful one: *"i remember we did 45 not too long ago, and so even doing these with decent form is actually not too bad."*
 ---
 
 ### Kinesis / cable fly
@@ -288,6 +289,7 @@
 - W17D1 (debut): bodyweight 12/(6+6)/8, fuller-than-prescribed ROM, **no shoulder complaint** even deep. "Really hard to lead with chest, body bobs up" — new-pattern groove. Front pec got pressure, not pain.
 - W18D1 (spotlight): bodyweight 10/10/8, full ROM, lean grooving (legs folded back). **Mini-dip-on-the-bar warmup discovered** (see above). "Going past 10 is hard" — 10/set is the current per-set ceiling; it'll creep on its own. Shoulder quiet.
 
+- **W27D1 (spotlight) — ✅ THE PALM PROBLEM IS CLOSED.** The rotated forearm position (left hand, inside palm on the bar instead of the thumb pad) was set BEFORE rep 1 and held: *"rotated palms is way better to start!"* / *"palms fine nothing to blame this time haha."* Two months of digging, ended by a setup change. **Set the rotation before the first rep — do not go looking for it mid-set.** Tempo is now the only lever left, and it slipped to ~1s and 2s descents this week on fatigue (target is 3s).
 ---
 
 ### Front raise — NOT programmed (rehab-only if at all)
@@ -718,6 +720,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W17D5: tried settings **5/m/0/-1** ("felt better" than 5/m/0/1) + a **70 primer set to center**, then 90 working ("really hard, feeling leg muscles"). The primer + corrected lever made the 90 productive.
 - W18D5: **dropped to 80 working (from 90) — form-first, not a regression.** The 70 primer "primes my brain to do it correctly," and 80 "feels pretty correct vs what it used to be." Quality execution at 80 beats grinding 90 with drift. Leg curl is the W19 spotlight — drill the correct feel at 80, let 90 return only once the pattern's grooved. Don't push back to 90.
 
+- **W27D1 — the machine has been broken since W24 and still is.** The station is now the **kneeling leg curl**, which is single-leg: find the load on the WEAKER side and use that number for both, weaker side first, match reps, log both sides. Same cues otherwise — slow eccentric is the stimulus, hips stay square and extended, and the rep ends when the hips move to help. The settings banked below (back seat position 5, pyramid 90 → 100 → 110) belong to the seated machine and do not transfer.
 ---
 
 ### Single-leg calf raise (leg press)

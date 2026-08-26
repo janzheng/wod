@@ -1,0 +1,185 @@
+[
+  {
+    "day": 1,
+    "date": "2026-08-25",
+    "workoutId": "fb-w27-push",
+    "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back. Arrilaga.",
+    "notes": "First gym day back after a fortnight interrupted, and it read like it: 'probably still a lack of sleep so everything is a complete slug.' The two spotlights split. Dips answered cleanly — the rotated palm works from rep 1 and the six-week palm limiter is gone ('palms fine nothing to blame this time'). The incline press did not get its ceiling probe: 60 x 12 x 3 held, but 'almost to failing form' at the same load and reps that 'never stopped feeling easy' last time, so the door at 65 stayed shut. New and unprompted: the left arm felt weaker and more tired BEFORE the session started, which he dates to about three weeks ago.",
+    "exercises": [
+      {
+        "id": "push-press",
+        "notes": "Strict at 50 for two full sets, then set 3 fell to 5 strict and he took 4 push presses rather than grinding. W26 ran 10/10/8 strict at the same load. His read: 'still within range tho haha' — and 'interesting how fast these get lost.'",
+        "sets": [
+          {
+            "weight": "50lb pair",
+            "reps": "10 — strict",
+            "notes": "'Surprised i was able to do these after a small break! Definitely feels harder than last time but did all of them properly.'"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": "10 — strict",
+            "notes": "'Oof getting harder starting to lose form lol.'"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": "5 strict + 4 push presses",
+            "notes": "'Stopped out.'"
+          }
+        ]
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "notes": "60 x 12 x 3, all sets completed, and the 65 door was not taken — 'didn't go up tho, almost to failing form started slipping.' Same load and reps as W26, opposite feel. He put it in perspective himself: 'i remember we did 45 not too long ago and so even doing these with decent form is actually not too bad.'",
+        "sets": [
+          {
+            "weight": "60lb pair",
+            "reps": 12,
+            "notes": "'Surprisingly hard!!'"
+          },
+          {
+            "weight": "60lb pair",
+            "reps": 12
+          },
+          {
+            "weight": "60lb pair",
+            "reps": 12,
+            "notes": "'Hard at the end, did all sets!! Didn't go up tho, almost to failing form started slipping.'"
+          }
+        ]
+      },
+      {
+        "id": "dip",
+        "notes": "**Spotlight answered: the rotated palm was set before rep 1 and it worked — 'rotated palms is way better to start!'** The palm is no longer the limiter: 'palms fine nothing to blame this time haha.' Tempo was the casualty instead, at ~1s / 2s against the prescribed 3s descent, which he put down to being tired.",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 12,
+            "notes": "'Rotated palms is way better to start! Did like 1s descent tho lol tired.'"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 10,
+            "notes": "'10 but 3 eccentric lol yikes, just tired, palms fine nothing to blame this time haha.'"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 10,
+            "notes": "2s descent."
+          }
+        ]
+      },
+      {
+        "id": "lateral-raise",
+        "notes": "Opened on the 15s ('oops prob too easy') then ran 20 x 15 twice. The slow tempo held — 'doing well on slows, good working weight still, not comfy.'",
+        "sets": [
+          {
+            "weight": "15lb",
+            "reps": 15,
+            "notes": "'Oops prob too easy.'"
+          },
+          {
+            "weight": "20lb",
+            "reps": 15
+          },
+          {
+            "weight": "20lb",
+            "reps": 15,
+            "notes": "'Doing well on slows, good working weight still, not comfy.'"
+          }
+        ]
+      },
+      {
+        "id": "cable-lateral-raise",
+        "notes": "'Cable lat raises went surprisingly well.' Station and number not recorded — W26 ran cable column ~30.",
+        "sets": [
+          {
+            "weight": "not recorded",
+            "equipment": "not recorded",
+            "reps": "12"
+          }
+        ]
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "notes": "All three sets at 12. 'Hard but did them all with proper breaks.' Station not recorded — the prescription called cable column 120.",
+        "sets": [
+          {
+            "weight": "not recorded",
+            "equipment": "not recorded",
+            "reps": 12
+          },
+          {
+            "weight": "not recorded",
+            "equipment": "not recorded",
+            "reps": 12
+          },
+          {
+            "weight": "not recorded",
+            "equipment": "not recorded",
+            "reps": 12
+          }
+        ]
+      },
+      {
+        "id": "cable-tricep-pushdown",
+        "notes": "**The find-the-number task is answered, under heavy fatigue: 60 x 12 for two sets, then 50 on the third.** He also pushed back on the framing — 'we've always been doing these!! the description confuses me - it's because we drifted into another workout here lol.' The lift he runs weekly is logged under `incline-cable-overhead-tricep-extension` (canonically the lean-back cable extension, which finishes at the thighs), so the two IDs are describing near-neighbours. Station and attachment not recorded.",
+        "sets": [
+          {
+            "weight": "60",
+            "equipment": "not recorded",
+            "reps": 12,
+            "notes": "'Set 1 this is hard i'm tired lol.'"
+          },
+          {
+            "weight": "60",
+            "equipment": "not recorded",
+            "reps": 12,
+            "notes": "'Yep definitely hard.'"
+          },
+          {
+            "weight": "50",
+            "equipment": "not recorded",
+            "reps": 12,
+            "notes": "'Lmao.'"
+          }
+        ]
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "notes": "Kinesis 9 x 12, run after the cable block rather than before it. 'Yeaaah definitely tired im hitting doms without the delay early today haha.' Set count not specified.",
+        "sets": [
+          {
+            "weight": "9",
+            "equipment": "Kinesis",
+            "reps": 12
+          }
+        ]
+      },
+      {
+        "id": "farmer-carry",
+        "notes": "Two clean walks at 60, then set 3 dropped to 50 and still broke around 30s. W26's set 3 held 60 for ~15s before the left hand went, so the 10lb drop roughly doubled the hold without fixing it.",
+        "sets": [
+          {
+            "weight": "60lb per hand",
+            "duration": 50,
+            "notes": "Fine."
+          },
+          {
+            "weight": "60lb per hand",
+            "duration": 50,
+            "notes": "Fine."
+          },
+          {
+            "weight": "50lb per hand",
+            "duration": 30,
+            "notes": "Dropped to 50 and broke at ~30s."
+          }
+        ]
+      }
+    ],
+    "rawInput": "w27d2\n\nstrict press\n50x10 surprised i was able to do these after a small break! definitely feels harder than last time but did all of them properly!\n50x10 oof getting harder starting to lose form lol - interesting how fast these get lost\n50x5 then 4 more push presses and stopped out\nstill within range tho haha \n\nincline press\n60x12 surprisingly hard!! but then i remember we did 45 not too long ago and so even doing these with decent form is actually not too bad\n60x12\n60x12 hard at the end, did all sets!! didn't go up tho, almost to failing form started slipping\n\ndips\n12 on angle bar- rotated palms is way better to start! did like 1s descent tho lol tired \n10 but 3 eccentric lol yikes, just tired, palms fine nothing to blame this time haha\n10 at 2s\n\ndb lat raise\n15x15 oops prob too easy \n20x15\n20x15 doing well on slows, good working weight still, not comfy \n\nthe curl machine is a kneeling leg curl - probably useful to swap out curl machine which is still broken\n\nleft arm getting knocked out again!! even before the workout it felt weaker and more tired- not injured but like slow to recover from workouts; really really odd this has never been a thing until about three weeks ago\n\ncable lat raises went surprisingly well\n\nstraight arm pull down\n12 x3 sets hard but did them all with proper breaks\n\ntricep push down\nwe've always been doing these!! the description confuses me - it's because we drifted into another workout here lol \n60x12 set 1 this is hard i'm tired lol\n60x12 yep definitely hard\n50x12 lmao\n\nkinesis cable fly\n9x12 yeaaah definitely tired im hitting doms without the delay early today haha\n\nfarmers carries fine for first two down to 50 lbs and had to break around 30s\n\nprobably still a lack of sleep so everything is a complete slug"
+  }
+]

@@ -1,7 +1,7 @@
 {
   "id": "fb-w27-legs",
   "name": "Week 27 Legs — Knee Flexion Comes Back (Spotlight: Leg Curl / Nordic + Incline RDL)",
-  "description": "**Warmups are baked into each block's notes as a reminder.**\n\n**The squat holds at 80 and depth is the entire assignment.** Stability arrived last time — the falling-over feeling is gone and attention moved to depth on its own. Let it stay there.\n\n**Knee-flexion work comes back.** It has been missing since the last legs day was trimmed. **Check the seated leg curl first — if it has been fixed, take it** (position 5, 90 → 100 → 110) and try it single-leg if it is free. The Nordic curl is the fallback, three sets of five, eccentric only.\n\n**The incline RDL changes lever, not load.** Last time it read 'stamina hard, not load hard' — so the reps come down and a 3s eccentric goes on, which turns it back into a tempo lift instead of an endurance one.\n\n**Hip machines hold at 210 and 290**, with a pin available on the abduction if it is still that controlled.",
+  "description": "**Warmups are baked into each block's notes as a reminder.**\n\n**The squat holds at 80 and depth is the entire assignment.** Stability arrived last time — the falling-over feeling is gone and attention moved to depth on its own. Let it stay there.\n\n**Knee-flexion work comes back, and it runs one leg at a time.** The seated machine is still broken; the kneeling leg curl is what the gym has, and being unilateral makes it the right lift this week anyway. Weaker side first, match reps on the stronger, log both. The Nordic curl is the fallback if the machine is taken — three sets of five, eccentric only.\n\n**The incline RDL changes lever, not load.** Last time it read 'stamina hard, not load hard' — so the reps come down and a 3s eccentric goes on, which turns it back into a tempo lift instead of an endurance one.\n\n**Hip machines hold at 210 and 290**, with a pin available on the abduction if it is still that controlled.",
   "routineId": "functional-bulk-dynamic",
   "tags": [
     "legs",
@@ -18,11 +18,11 @@
   ],
   "difficulty": "intermediate",
   "dayOverview": {
-    "theme": "Two things drive the day. The squat is settled — 80 is stable, powerful, and no longer frightening, so the only remaining thread is depth in the loaded bottom position, and that gets the whole warmup ramp plus three unhurried working sets. And the posterior chain gets its slot back: the last legs day was deliberately trimmed and knee-flexion work was what fell off, so knee flexion returns as the spotlight alongside a reworked incline RDL. Check the seated leg curl first — it has been broken since W24, and if it is fixed it is the better lift here. The Nordic is the fallback.\n\nThe Bulgarian stays out one more week. Squat, leg press and a knee-flexion lift are already a lot for a week with a five-day-old in the house, and Friday has a kettlebell flow with lunges in it. The Bulgarian comes back in W28.",
+    "theme": "Two things drive the day. The squat is settled — 80 is stable, powerful, and no longer frightening, so the only remaining thread is depth in the loaded bottom position, and that gets the whole warmup ramp plus three unhurried working sets. And the posterior chain gets its slot back: the last legs day was deliberately trimmed and knee-flexion work was what fell off, so knee flexion returns as the spotlight alongside a reworked incline RDL. The seated machine is still broken, so the slot goes to the kneeling leg curl — one leg at a time, which makes it a read on the left side as much as a hamstring lift. The Nordic is the fallback.\n\nThe Bulgarian stays out one more week. Squat, leg press and a knee-flexion lift are already a lot for a week with a five-day-old in the house, and Friday has a kettlebell flow with lunges in it. The Bulgarian comes back in W28.",
     "spotlights": [
       {
-        "exerciseId": "seated-leg-curl",
-        "why": "Knee-flexion work has been absent since this machine broke and the last legs day was trimmed — a coverage gap, not a variety choice. If the machine is fixed, it is the better lift here: it loads progressively, it is safe to push, and it does not leave you sore into Friday. The Nordic is the fallback and gets the same attention."
+        "exerciseId": "kneeling-leg-curl",
+        "why": "The seated machine is still broken and the kneeling curl is what the gym actually has — and it is unilateral, which makes it the right lift this week for a different reason. The left side has read weaker and slower to recover for three weeks and now feels that way before a session begins. This is the cleanest read on whether that reaches the hamstrings. Weaker side first, match reps on the stronger, log both."
       },
       {
         "exerciseId": "incline-rdl",
@@ -32,10 +32,10 @@
     "rotationPlan": "W28 — Bulgarian split squat returns as spotlight, plus leg press. W29 — squat depth and the hip machines. W30 — calf raise and the RDL again.",
     "watchpoints": [
       "🛑 keep it shy — the cue is the cap: back squat, incline RDL, Nordic curl (if used). Spinal-loaded and eccentric-heavy work where the honest ceiling is the rep where depth shortens or the spine rounds.",
-      "🔥 near-failure last set OK: seated leg curl, leg press, calf raise, hip abduction, hip adduction. Machine work where form does not degrade dangerously at the limit.",
+      "🔥 near-failure last set OK: kneeling leg curl, leg press, calf raise, hip abduction, hip adduction. Machine work where form does not degrade dangerously at the limit.",
       "**Depth is the squat's only open thread.** Stability and reps are settled. The loaded bottom still does not reach the depth you get at bodyweight — that is likely ankle and hip mobility rather than strength, so the warmup ramp matters more than the working sets.",
       "**The left calf read 'oddly hard' last time** with no obvious cause. Second look this week — if it repeats, it is worth naming as a pattern rather than a one-off.",
-      "**Check the seated leg curl before defaulting to the Nordic.** The Nordic has been the knee-flexion slot only because the machine broke in W24. If it is fixed, take it — progressive load, safe to push, and far less soreness heading into Friday. The Nordic stays as the fallback, and it is eccentric-only at five reps for a reason."
+      "**Take the kneeling leg curl, not the Nordic.** The Nordic held this slot only because the seated machine broke in W24, and it is still broken. The kneeling curl loads progressively, is safe to push, runs one leg at a time, and leaves far less soreness heading into Friday's lunge-heavy flow. The Nordic stays as the fallback if the machine is taken, eccentric-only at five reps for a reason."
     ]
   },
   "sets": [
@@ -145,20 +145,20 @@
     },
     {
       "id": "knee-flexion",
-      "name": "🔆 Knee Flexion — Seated Leg Curl if the Machine Is Fixed, Otherwise Nordic (Spotlight) 🔥",
+      "name": "🔆 Knee Flexion — Kneeling Leg Curl, One Leg at a Time (Spotlight) 🔥",
       "type": "exercises",
       "rounds": 3,
-      "notes": "**Check the seated leg curl first. If it is working, take it — it is the better lift for this week.**\n\nThe Nordic has been the knee-flexion slot only because the machine has been broken since W24. Given the choice, the machine wins right now: it loads progressively, it is safe to push near failure, and it does not leave you sore into Friday's lunge-heavy flow the way eccentric-only work does.\n\n**🔆 SPOTLIGHT — this is the slot that has been missing:**\n- **Back seat at position 5.** That setting was a hard-won find — more leverage on the ankle, feels more natural — and seat position moves the numbers on this machine a lot. Pin it before you judge the load\n- **Ankles UNDER the pad**, heels driving\n- **Slow eccentric is the stimulus.** Judge the top of the ladder by heels driving and no torso lift, not by the stack\n- **Pyramid 90 → 100 → 110**, one set each — where you left it before the machine broke\n- **Last set can run near failure.** This is a machine and form holds at the limit\n\n**On the single-leg version — worth a look if the machine is free.** You have a documented left-side lag on the upper body (grip on rows and carries, the left palm on dips) and the left calf read oddly hard last week. A single-leg curl is the cleanest read on whether that asymmetry reaches the hamstrings.\n- **Run the weaker side first and match reps on the stronger side** — that is the whole point of doing it single-leg\n- Roughly half the load, then adjust. **Do not compare the number to the two-leg pyramid** — different pelvis stability, different lift\n- **One week of data, not a new prescription.** Log both sides and we will decide whether it earns a permanent slot\n\n**Reflection:** if you ran it single-leg, how far apart were the two sides?",
+      "notes": "**The seated curl is still broken. Take the kneeling leg curl instead** — it is the machine that is actually there, and for this week it is the better one anyway.\n\nIt runs one leg at a time, which turns the knee-flexion slot into a read on something that has been building for three weeks: the left side has been weaker and slower to recover, and it now feels that way before a session starts rather than only at the end of one. Upstairs the left is the ceiling on grip, on the carry, and on the incline curl. Whether it reaches the hamstrings is unknown, and this is the cleanest way to find out.\n\n**🔆 SPOTLIGHT — run it as a measurement:**\n- **Weaker side first**, then match its rep count on the stronger side. Do not let the strong leg set the volume\n- **Find the load on the weaker side** — the number that gives a hard, clean 10-12 there is the number for both\n- **Hips stay square and extended.** Sitting back or rotating to finish a rep is the set ending, not a rep\n- **Slow eccentric** — that is the stimulus, same as it was on the seated machine\n- **Log both sides separately.** Reps and load, each leg\n\n**Reflection:** does the left leg feel like the left arm does — weaker and quicker to fade — or is it only the upper body?\n\nNordic curls stay as the fallback if the kneeling machine is taken.",
       "exercises": [
         {
-          "id": "seated-leg-curl",
-          "reps": "10-12",
-          "notes": "**FIRST CHOICE if the machine is fixed.** Back seat at **position 5**. Pyramid **90 → 100 → 110**, one set each.\n- **Ankles UNDER the pad**, heels driving\n- **Slow eccentric** — that is the stimulus\n- Judge the top set by no torso lift, not by the stack\n- Last set can run near failure\n\n**Single-leg option:** roughly half the load, **weaker side first, match reps on the stronger.** Log both sides separately — this is a read on asymmetry, not a new prescription."
+          "id": "kneeling-leg-curl",
+          "reps": "10-12 each side",
+          "notes": "**FIRST CHOICE.** One leg at a time, **weaker side first, match reps on the stronger.**\n- Find the load on the **weaker** side; use that number for both\n- **Hips square and extended** — no sitting back to help the rep\n- **Slow eccentric**, full squeeze at the top\n- Judge the set by the hips holding still, not by the stack\n- Last set can run near failure\n\nFirst run on this machine, so the number is unknown. Start light, add until 10-12 is a genuine effort on the weaker leg, and **log the load, the reps and the side.**"
         },
         {
           "id": "nordic-curl",
           "reps": 5,
-          "notes": "**FALLBACK if the machine is still broken.** Bodyweight, 3 sets of 5, eccentric only.\n- **Heels anchored**, hips extended, glutes squeezed\n- **Slowest controlled descent you can manage**\n- Catch with the hands, push back up\n- Stop the set when the hips start to pike\n- **Five reps is the volume** — eccentric-only work makes real soreness and more is not better here"
+          "notes": "**FALLBACK if the kneeling machine is taken.** Bodyweight, 3 sets of 5, eccentric only.\n- **Heels anchored**, hips extended, glutes squeezed\n- **Slowest controlled descent you can manage**\n- Catch with the hands, push back up\n- Stop the set when the hips start to pike\n- **Five reps is the volume** — eccentric-only work makes real soreness and more is not better here"
         }
       ],
       "restBetween": 90,
