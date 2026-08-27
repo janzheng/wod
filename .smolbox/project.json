@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "smolbox-project",
+  "name": "wod",
+  "runtime": "deno",
+  "commands": {
+    "build": ["deno","task","build"],
+    "test": ["deno","task","ai:test"],
+    "start": ["deno","task","dev"]
+  },
+  "port": 8010,
+  "optionalSecretNames": ["GEMINI_API_KEY","GROQ_API_KEY"]
+}
