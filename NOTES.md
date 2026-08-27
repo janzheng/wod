@@ -979,6 +979,39 @@ He came back on the depth note with opt-ins and one problem. All of this is deci
 - **He is starting deep squat holds at his desk.** *"I'll make sure to do more squats by my desk."* Frequent short holds, greasing-the-groove style. Zero program cost, direct feed into the squat's limiter.
 - **Self-diagnosis protocol given** (he said *"i probably don't have enough knowledge to even know what is actually limiting, so i'll look for these next time"*): heels on a plate → tests ankle; wider stance + more toe-out → tests hip range; plate held at the chest → tests brace. Whichever one improves depth names the limiter. Plus one filmed set from the side to see whether the pelvis tucks. **Ask for the result in the W28D-legs report.**
 
+### ⚠️ The ankle IS a limiter — old climbing injury, and his stance has been hiding it (2026-08-26)
+
+Given the heel-wedge test to try, he answered before running it: *"ankles are pretty crap (that's why those cossacks were hard; had a nasty climbing fall that sprained ankles)."* **New history, and it reframes two things.**
+
+- **This does not contradict his earlier *"don't really feel ankles"* — it explains it.** He squats with a **wide stance and toes turned out**, which is precisely the setup that *reduces* the dorsiflexion demand: the knee travels out over the toe diagonally instead of straight forward. He found the workaround years ago, so the ankle stopped announcing itself under the bar. It is still spending his depth, just silently.
+- **⚠️ IT ALSO PUTS AN ASTERISK ON THE COSSACK READINESS SCREEN.** Cossacks are ankle-expensive, and *"that's why those cossacks were hard"* means some of what the screen reports is a permanent structural restriction, not today's readiness. **Read the cossack as a delta against his own normal, never as an absolute.** Worth saying to him if he ever reads a bad cossack day as a bad session ahead.
+- **Sprains leave lasting dorsiflexion restriction** — that is well documented and it is the most common lingering deficit after an ankle sprain. It responds to loaded end-range work, not to passive calf stretching alone.
+- **Tools, banked:** the tibialis raise already in the legs warmup stays; add **knee-to-wall rocks** (also the measurement — toe-to-wall distance, left vs right, tracked monthly) and **heel-elevated squats** as the way to access depth while the ankle catches up. The bent-knee wall calf stretch targets soleus, which is the actual dorsiflexion limiter.
+- **He also confirmed the other two tests: *"wider stance / toes out does help."*** So all three limiters are live — ankle, hip range, and the brace. Not one answer; three, in a stack.
+
+### ✅ "The frogs" is solved — he was doing frog pose in place of saddle pose
+
+*"Damn it i've done saddle pose wrong lol did a frog pose, that's fine i'll do the saddle tomorrow ahha i kind of skimmed the warmup."*
+
+**Take the accident as a finding: frog pose was the move he singled out as helping, and it is a deep adductor opener — which is exactly the tissue that limits the bottom of a squat.** `frog-stretch` and `frog-pose-pulses` both exist in the catalogue and neither has been prescribed in a long time.
+
+- **W28 morning flow: put frog stretch in deliberately.** It serves the current depth assignment and it is a retired-pool move coming back, so it satisfies Rotation Discipline honestly rather than as filler.
+- Saddle pose stays too — different tissue (quads and hip flexors, the sitting antidote).
+- No correction needed on his end beyond doing the saddle; he already knows.
+
+### ✅ Daily Habits page shipped (2026-08-26) — he asked for it
+
+*"Can we maybe add a new section — or at least some text — for like a daily reminder area / routine for the daily exercises at the top… for now to do more squats maybe like 20 per hour or something to work on mobility? i can see this be useful going forward."*
+
+- **Built as `static/notes-daily-habits.md`, registered FIRST in `programs/functional-bulk-dynamic.json` → `pages`.** That array renders in the sidebar directly under Overview and above the weeks, so "at the top" came free — no code change, existing mechanism.
+- **Contents:** deep squat sit (the priority), knee-to-wall for the ankle, greasing-the-groove pushups, dead hang, desk resets, and a line on what the crackling is.
+- **On his 20-squats-per-hour idea:** written in honestly — reps are a fine movement break, but **time in the bottom is what buys depth**, so the page prescribes the sit and offers 10 reps + a 30-60s hold as the combined version.
+- **This page is meant to grow.** New daily-frequency habits go here rather than into weekly workouts.
+
+### 🔧 Correction I owe him: I described the dead bug wall-press as a standing exercise
+
+He caught it: *"wait what warmup is that? deadbug? it's a standing exercise?? am i doing it wrong lol."* **No — the dead bug is on your back, and my description was wrong.** The wall-press variant is: lie supine with the crown of the head near a wall, arms reaching back overhead with palms flat on the wall, push hard into it, then march the legs. The lat engagement locks the ribcage down and makes the anterior core obvious. Corrected to him directly; the doc says it properly.
+
 ### ⭐ W27D2 — he asked about rotating IMPLEMENTS (bar / DB / machine). Answer: yes, but sequence it.
 
 *"Am i at a point where for ex rdl i should experiment with rotating using db, machine and bar for various things; even for incline press go back to machine or even mess with bar again, just to get muscles familiar with different systems and various amounts of bracing."*

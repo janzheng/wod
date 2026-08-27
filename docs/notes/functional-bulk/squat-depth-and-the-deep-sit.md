@@ -119,7 +119,9 @@ Very common, and it's almost always one of three things:
 2. **No full exhale.** The brace comes from exhaling and pulling the ribs down. Inhaling into the belly and holding puffs the ribs up and lets the back arch.
 3. **Too much range, too fast.** Lower the limb only as far as the low back stays flat — for a desk-sitter that's much less range than expected.
 
-**The high-feel fix: press your hands hard into a wall** (arms straight, standing at the head of the mat) while the legs do the work. The isometric push through the lats switches the anterior core on immediately and the exercise stops being subtle.
+**The high-feel fix — and note this is all on your back, the dead bug is a floor exercise:** lie supine with the crown of your head near a wall, reach your arms back overhead with the palms flat on the wall, and **push hard into the wall** while the legs do the work. The isometric through the lats locks the ribcage down and the front of the core switches on immediately.
+
+No wall handy? Press your palms hard together over your chest, or hold a light plate straight up toward the ceiling. Same effect, less setup.
 
 **If it still doesn't land, swap it for a `hollow-body-hold`** — much harder to do wrong, and unmistakable.
 
@@ -134,3 +136,30 @@ Three separate things, and none of them is bones grinding:
 **Painless crackling is benign and extremely common**, and it decreases the more the tissue moves. The line worth watching: crackling **with pain, swelling, catching or locking** is a different conversation.
 
 **This is the same phenomenon as the leg press report** — *"first set very crackly and bad, last set completely opened up super nice."* Cold and still is crackly; warm and moving is smooth. It's an argument for frequent short deep-squat holds through the day rather than one long grim one.
+
+
+---
+
+## Follow-up 2 (2026-08-26) — all three limiters are live
+
+He ran the questions before the tests and answered two of them from what he already knows:
+
+- **Ankles: restricted, and there's a reason.** *"Ankles are pretty crap (that's why those cossacks were hard; had a nasty climbing fall that sprained ankles)."* Old sprains leave lasting dorsiflexion restriction — it's the most common lingering deficit after an ankle sprain.
+
+  **This doesn't contradict "I don't feel my ankles" under the bar — it explains it.** A wide stance with the toes turned out is exactly the setup that *reduces* how much dorsiflexion a squat needs, because the knee travels out over the toe diagonally instead of straight forward. He found the workaround years ago, so the ankle stopped announcing itself. It's still costing depth, quietly.
+
+  **It also puts an asterisk on the cossack squat as a readiness screen** — cossacks are ankle-expensive, so part of what that screen reports is permanent structure, not today's readiness. Read it as a delta against his own normal.
+
+  **Ankle tools:** tibialis raise (already in the legs warmup), **knee-to-wall rocks** — which double as the measurement, toe-to-wall distance left vs right — and **heel-elevated squats** to access depth while the ankle catches up. Bent-knee wall calf stretch for the soleus, which is the real dorsiflexion limiter.
+
+- **Hip range: wider stance and more toe-out helps.** Confirmed.
+
+- **Brace: already established** from W27D2.
+
+**So it isn't one limiter, it's three in a stack** — and that's the normal case, not a complication. The brace is the one that ends the set, the hip is the one that sets the shape, the ankle is the one quietly taxing both.
+
+### On the goblet / plate-at-the-chest squat
+
+It's not a different exercise — **it's the same squat with the load in front instead of on your back.** The KB front squats already in the program are this.
+
+His read was half right: *"with kb it's just lighter i guess and that helps, i get way more range with a lighter item lol."* Lighter does help, but the position is doing real work independent of the weight. **A load held in front acts as a counterweight** — it lets you sit straight down between the hips while staying upright, which needs *less* hip flexion and *less* bracing than the same depth with a bar on your back. That's why depth shows up immediately with a goblet. It's the most honest way to feel what your bottom position could be.
