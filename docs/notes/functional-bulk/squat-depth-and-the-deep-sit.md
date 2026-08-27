@@ -85,3 +85,52 @@ The resting deep squat is mostly a **passive** position — people who grew up w
 - `why-muscles-get-tight-after-prolonged-lifting.md` — why end-range work leaves that tight-and-sore feeling
 - `form-cues-2026.md` § Squat (back squat), § Leg press
 - `NOTES.md` — W15D5 deep-squat-hold milestone; W27D2 bracing finding
+
+---
+
+## Follow-up (2026-08-26) — butt wink, finding your own limiter, and the crackling
+
+### What "butt wink" is
+
+At the bottom of a squat the pelvis rotates **under** you — tucks — and the low back goes from its slight natural arch to rounded. The tailbone "winks." It happens because the hip has run out of flexion range, so the body borrows the missing range from the lumbar spine instead.
+
+Unloaded, it's harmless. **Under a loaded bar it is the thing to care about**, because a rounded low back under load is the actual injury mechanism people mean when they talk about squat depth.
+
+**How to see it:** film one set from the side, phone on the floor. Watch the low back. The frame where the arch flattens and starts to round is your honest depth — everything below it is borrowed from the spine.
+
+### The 2-minute protocol to find your own limiter
+
+Do these in the same session, same day, and see which one gives you depth:
+
+1. **Heels on a small plate or a wedge.** Depth suddenly improves → ankle dorsiflexion is involved.
+2. **Wider stance, more toe-out.** Depth improves → hip range / socket shape, and the fix is stance, which is free.
+3. **Hold a plate at your chest (goblet).** Depth improves → it was the torso angle and the brace, not range at all. Front loading lets you stay upright, which needs *less* hip flexion and *less* bracing at once.
+4. **Film one set from the side** for the wink.
+
+Whichever change buys depth names the limiter. This beats guessing, and it costs one warmup's worth of time.
+
+**Note:** desk-sitting genuinely produces both of the things he suspects — short, stiff hip flexors and a hip capsule that has spent years in ~90° flexion. That's a real mechanical limiter, not an excuse, and it's also the most trainable of the four.
+
+### Why the dead bug might not be felt
+
+Very common, and it's almost always one of three things:
+
+1. **The low back isn't actually pressed flat**, so the abs never have to resist anything. Put a hand under the lumbar spine and keep pressure on it for the whole rep.
+2. **No full exhale.** The brace comes from exhaling and pulling the ribs down. Inhaling into the belly and holding puffs the ribs up and lets the back arch.
+3. **Too much range, too fast.** Lower the limb only as far as the low back stays flat — for a desk-sitter that's much less range than expected.
+
+**The high-feel fix: press your hands hard into a wall** (arms straight, standing at the head of the mat) while the legs do the work. The isometric push through the lats switches the anterior core on immediately and the exercise stops being subtle.
+
+**If it still doesn't land, swap it for a `hollow-body-hold`** — much harder to do wrong, and unmistakable.
+
+### What the crackling is when you stand up from a long squat
+
+Three separate things, and none of them is bones grinding:
+
+- **Cavitation** — gas bubbles forming and collapsing in joint fluid when pressure changes suddenly. Exactly the same mechanism as cracking knuckles. This is most of it, and it's why it happens right at the moment you *change* position after being still.
+- **Tendon or ligament snapping over a bony ridge** — in the hip that's classically the iliopsoas tendon over the pelvic brim, or the IT band over the greater trochanter ("snapping hip"). Feels like a clunk in one specific spot.
+- **Crepitus** — surfaces gliding, a bit rough or a bit dry after being compressed and still.
+
+**Painless crackling is benign and extremely common**, and it decreases the more the tissue moves. The line worth watching: crackling **with pain, swelling, catching or locking** is a different conversation.
+
+**This is the same phenomenon as the leg press report** — *"first set very crackly and bad, last set completely opened up super nice."* Cold and still is crackly; warm and moving is smooth. It's an argument for frequent short deep-squat holds through the day rather than one long grim one.

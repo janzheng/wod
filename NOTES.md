@@ -966,6 +966,19 @@ Same fatigue as Tuesday, completely different session: *"super tired but did pre
 - **The W26 left-calf oddity did not repeat.** Calf raises *"went well, good rom all sets"*, no side flagged. One-off, not a pattern.
 - **Sequencing drift, normal:** ran squat → kneeling curl → incline RDL → leg press + calf → adductor → abductor. Station availability.
 
+### W28 build inputs — from the 2026-08-26 squat-depth conversation
+
+He came back on the depth note with opt-ins and one problem. All of this is decided, not proposed:
+
+- **✅ PAUSED SQUATS GO IN, ON THE 45 ROUND.** His words: *"paused squats on 45s are a good idea actually."* The squat ramp already runs 45 → 75; put a **2-3s pause in the bottom on the 45 round**, which costs nothing and rehearses the brace at depth before the working sets. Not on 80 — the point is holding position, not surviving it.
+- **✅ MORE FRONT-LOADED SQUAT WORK, AND HE OFFERED IT.** *"We've been doing front loaded squats on kb — we can work on doing more of those if you want."* Correct instinct: an anterior load forces an upright torso and a hard brace and self-limits safely. **Give the KB front squat / goblet squat a deliberate slot rather than leaving it as a beat inside a flow.**
+- **⚠️ THE DEAD BUG IS NOT LANDING — fix or replace it.** *"I don't feel like i'm doing them right; i don't seem to feel them at all?"* Standard causes, in order: the low back is not actually pressed flat (so nothing resists), no full exhale (ribs stay up, back arches), and too much range too fast. **W28 writes the wall-press variant** — hands pressing hard into a wall while the legs move, which lights up the anterior core immediately — with `hollow-body-hold` as the swap if it still does not land. Do not leave a warmup move in that he cannot feel; it is the brace rehearsal for the whole squat assignment.
+- **Stance: already wide with toe-out.** *"I have a slightly wide stance; my feet aren't parallel."* So that free variable is partly spent — testing **wider still** is the remaining cheap experiment, not "try turning your toes out."
+- **✅ WARMUPS ARE LANDING AND HE WANTS THEM DEVELOPED.** *"I'm doing your frogs and whatever for the warmup and that really helps! i like the warmups you gave this week; we should keep working on these."* First unprompted positive on the warmup design. **⚠️ Open: "frogs" does not match any move in the W27 warmup or morning flow** (no frog-stretch, frog-pose-pulses or frogger is prescribed this week) — the closest candidates are the lizard pose, the world's greatest stretch or the hip-flexor lunge. **Asked him which one.** This matters because the morning flow rotates ~half its moves every week — without knowing which move he means, the one that is working could get rotated out.
+- **Leg press depth is being actively worked** — *"leg presses are getting deep! i'm working on them actively."* Keep it framed as a depth/core lift; no plates.
+- **He is starting deep squat holds at his desk.** *"I'll make sure to do more squats by my desk."* Frequent short holds, greasing-the-groove style. Zero program cost, direct feed into the squat's limiter.
+- **Self-diagnosis protocol given** (he said *"i probably don't have enough knowledge to even know what is actually limiting, so i'll look for these next time"*): heels on a plate → tests ankle; wider stance + more toe-out → tests hip range; plate held at the chest → tests brace. Whichever one improves depth names the limiter. Plus one filmed set from the side to see whether the pelvis tucks. **Ask for the result in the W28D-legs report.**
+
 ### ⭐ W27D2 — he asked about rotating IMPLEMENTS (bar / DB / machine). Answer: yes, but sequence it.
 
 *"Am i at a point where for ex rdl i should experiment with rotating using db, machine and bar for various things; even for incline press go back to machine or even mess with bar again, just to get muscles familiar with different systems and various amounts of bracing."*
