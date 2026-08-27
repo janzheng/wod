@@ -219,24 +219,25 @@
       {
         "id": "kneeling-leg-curl",
         "equipment": "kneeling leg curl machine",
-        "notes": "**First run on this machine and it is a keeper** — *\"this is a cool machine, really feels like i'm getting leg isolation and practicing the real muscles, i think i'll keep doing these for a while; really feeling legs and side — these feel like preacher curls for legs.\"* The preacher-curl comparison is the supported-movement pattern the program already leans on. Ran **left side first** as prescribed. Load found by climbing: 50 → 60 → 65, with 60 already *\"a struggle.\"* Reps at 65 and the right-side rep counts were not reported.",
+        "notes": "**First run on this machine and it is a keeper** — *\"this is a cool machine, really feels like i'm getting leg isolation and practicing the real muscles, i think i'll keep doing these for a while; really feeling legs and side — these feel like preacher curls for legs.\"* The preacher-curl comparison is the supported-movement pattern the program already leans on. Ran **left side first** and **12 reps on every set, both sides.** Load found by climbing: 50 → 60 → 65, with 60 already *\"a struggle.\"* **The asymmetry showed up: *\"right side is way easier lol.\"*** Same load both sides by design — the number was found on the left, so the right doing it comfortably is the protocol working, and the first time the left-side lag has been measured in the lower body.",
         "sets": [
           {
             "weight": "50",
             "equipment": "kneeling leg curl machine",
-            "reps": 12,
+            "reps": "12 each side",
             "notes": "Left first."
           },
           {
             "weight": "60",
             "equipment": "kneeling leg curl machine",
-            "reps": 12,
-            "notes": "\"These were a struggle!\""
+            "reps": "12 each side",
+            "notes": "\"These were a struggle!\" — on the left."
           },
           {
             "weight": "65",
             "equipment": "kneeling leg curl machine",
-            "reps": "not reported"
+            "reps": "12 each side",
+            "notes": "\"Right side is way easier lol.\""
           }
         ]
       },
@@ -339,6 +340,13 @@
       }
     ],
     "rawInput": "w27d3 legs\n\nsquats\nsurprisingly well; super tired but did pretty good three sets with power left but decided to hold off\nfeeling like i’m getting a good feel of my power band as i go down lower and how much power i’m losing and i’m working on getting lower and lower and maintaining control and power band\n\nkneeling leg curl machine\nleft first\n50x12\n60x12 these were a struggle!\n65\nthis is a cool machine, really feels like i’m getting leg isolation and practicing the real muscles, i think i’ll keep doing these for a while; really feeling legs and side- these feel like preacher curls for legs\n\nincline rdl\nwhoa these feel easier yet harder at the same time; when i know there’s only 10 i pause at top for 2s and then go down slow maybe 3 or 4; first set went fine but later sets just take a whole lot more discipline to maintain\n\nleg press and calf raise went well good rom all sets; still hard; first set of leg press very crackly and bad last set completely opened up super nice \n\nadduction felt good too, doing 2s eccentric\n\nabduction first set 210 second and third set 230 ah crap did too many lol\n\ni’m thinking am i at a point where for ex rdl i should experiment with rotating using db, machine and bar for various things; even for incline press go back to machine or even mess with bar again, just to get muscles familiar with different systems and various amounts of bracing",
-    "openQuestion": "**He raised a program-direction question, unanswered here and carried to W28 planning:** *\"am i at a point where for ex rdl i should experiment with rotating using db, machine and bar for various things; even for incline press go back to machine or even mess with bar again, just to get muscles familiar with different systems and various amounts of bracing.\"* Discussion in NOTES.md under W27 Observations."
+    "openQuestion": "**He raised a program-direction question, unanswered here and carried to W28 planning:** *\"am i at a point where for ex rdl i should experiment with rotating using db, machine and bar for various things; even for incline press go back to machine or even mess with bar again, just to get muscles familiar with different systems and various amounts of bracing.\"* Discussion in NOTES.md under W27 Observations.",
+    "followUps": {
+      "askedOn": "2026-08-26",
+      "kneeling leg curl": "**12 reps on every set, both sides — and the asymmetry is real: 'oh i did 12 reps for each set; yes both sides; right side is way easier lol.'** Load was found on the left as prescribed, so the right clearing the same number easily is the protocol behaving. First measurement of the left-side lag below the waist.",
+      "squat depth": "**The limiter is bracing, not the ankles.** 'Hips, bracing runs out first; don't really feel ankles… i feel the bracing gets harder and legs and bracing gets harder and i can't go deeper, like the core is the limiter not legs or knees or whatever.' Corrects the workout's watchpoint, which guessed ankle and hip mobility.",
+      "hip abduction": "'Open at 230 for abduction!' — confirmed.",
+      "implement rotation": "'We can rotate slowly; we don't have to rotate everything at once lol.' The sequenced plan stands: small lifts now, hinge in W29, incline press holds DBs through W28."
+    }
   }
 ]
