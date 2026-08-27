@@ -3,11 +3,49 @@
   "name": "W27 Morning Flow — Bodyweight Spine + Hip (All Days, Rotated Variety)",
   "description": "The daily 15-minute opener. This week rotates roughly half the moves again: the primer goes to **world's greatest stretch, down-dog knee-to-head and the hip-flexor lunge**, the work block trades in **bird-dog, side plank and plié-relevé**, and the yoga arc closes on **saddle pose and a straddle sit**. Anchors stay put: scorpion, lizard, cossack, the push-up greasing set, and the rehab cluster in the day-specific add-on.\n\n**Two of this week's moves are chosen for what your days look like now.** The side plank is anti-lateral-flexion work — the exact thing that resists carrying a baby on one hip for an hour. The hip-flexor lunge and saddle pose undo the sitting and the low reaching.\n\n**This flow is also your readiness screen.** The cossacks have called the quality of a session before it started more reliably than sleep quality has. Pay attention to them, especially in a week where sleep is a new variable.\n\n**Order is deliberate.** Primer wakes the spine, work block warms the body, and the deep stretch arc goes last because warm muscle stretches further. Do not reorder it to get the stretching over with.",
   "routineId": "morning-flow",
-  "tags": ["morning", "mobility", "bodyweight", "functional-bulk"],
+  "tags": [
+    "morning",
+    "mobility",
+    "bodyweight",
+    "functional-bulk"
+  ],
   "estimatedDuration": 15,
-  "equipment": ["bodyweight"],
+  "equipment": [
+    "bodyweight"
+  ],
   "difficulty": "beginner",
   "sets": [
+    {
+      "id": "through-the-day",
+      "name": "☀️ Through the Day — Small and Often (Not Now)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "**Not part of the flow — these are crumbs for the rest of the day.** Whenever you get up from the desk. Nothing here should feel like a set.",
+      "exercises": [
+        {
+          "id": "asian-squat",
+          "duration": 60,
+          "notes": "**Once an hour.** Deeper each time rather than longer. Heels on a book if they won't reach the floor."
+        },
+        {
+          "id": "single-leg-balance",
+          "duration": 60,
+          "notes": "30s each foot, eyes closed once that's easy. Let the **ankle** do the correcting, not the hip."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10 each side",
+          "notes": "Heel glued down. Sink a little further each rep."
+        },
+        {
+          "id": "banded-ankle-eversion",
+          "reps": "15 each side",
+          "notes": "Sole turns **outward** against the band, shin still. The left one is the point."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
     {
       "id": "primer",
       "name": "Primer — Wake the Spine (~3 min)",
@@ -72,11 +110,31 @@
       "rounds": 1,
       "notes": "**One continuous arc, not five separate holds.** Move from shape to shape and let the body be warm by the time it gets to the deep hip work at the end. Breathe slowly throughout.",
       "exercises": [
-        { "id": "scorpion-stretch", "duration": 60, "notes": "30s each side. Prone, reach the foot across. Thoracic rotation and hip flexor together." },
-        { "id": "lizard-pose", "duration": 90, "notes": "45s each side. Deep lunge, both hands inside the front foot. Drop to the forearms if the hip allows." },
-        { "id": "cossack-squat", "duration": 60, "notes": "**Your readiness screen.** Slow, deep, heel down. How these feel today tells you what kind of session you are walking into." },
-        { "id": "saddle-pose", "duration": 90, "notes": "Kneeling, lean back as far as the quads allow — forearms, or all the way down. **Come out slowly.** Deep quad and hip flexor work, and a direct undo for the hours of sitting." },
-        { "id": "straddle-sit-stretch", "duration": 90, "notes": "Wide legs, **hinge from the hips with a long spine** rather than rounding to reach further. Walk the hands forward and centre, then to each side. Finish here." }
+        {
+          "id": "scorpion-stretch",
+          "duration": 60,
+          "notes": "30s each side. Prone, reach the foot across. Thoracic rotation and hip flexor together."
+        },
+        {
+          "id": "lizard-pose",
+          "duration": 90,
+          "notes": "45s each side. Deep lunge, both hands inside the front foot. Drop to the forearms if the hip allows."
+        },
+        {
+          "id": "cossack-squat",
+          "duration": 60,
+          "notes": "**Your readiness screen.** Slow, deep, heel down. How these feel today tells you what kind of session you are walking into."
+        },
+        {
+          "id": "saddle-pose",
+          "duration": 90,
+          "notes": "Kneeling, lean back as far as the quads allow — forearms, or all the way down. **Come out slowly.** Deep quad and hip flexor work, and a direct undo for the hours of sitting."
+        },
+        {
+          "id": "straddle-sit-stretch",
+          "duration": 90,
+          "notes": "Wide legs, **hinge from the hips with a long spine** rather than rounding to reach further. Walk the hands forward and centre, then to each side. Finish here."
+        }
       ],
       "restBetween": 0,
       "restAfter": 0
@@ -88,16 +146,56 @@
       "rounds": 1,
       "notes": "**The rehab cluster — these are anchors and they do not rotate.** Take the ones that fit today: shoulder work before push and pull, hip work before legs, and the dead hang whenever the shoulders feel compressed.",
       "exercises": [
-        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "**Push and pull days.** 30s each arm, elbow at MID height." },
-        { "id": "prone-y-raises", "reps": 12, "notes": "**Rehab anchor.** Thumbs up, arms in a Y. Lift from the mid-back, not the neck." },
-        { "id": "scapular-push-up", "reps": 12, "notes": "**Rehab anchor.** Plank position, only the shoulder blades move. Protract and retract." },
-        { "id": "side-lying-external-rotation", "reps": "12 each side", "notes": "**Rehab anchor.** Elbow pinned to the ribs, light or no weight. Slow." },
-        { "id": "wall-angel", "reps": 10, "notes": "**Rehab anchor.** Back flat to the wall, arms slide up and down. Keep the wrists in contact." },
-        { "id": "dead-hang", "duration": 45, "notes": "**Rehab anchor.** Passive. Highest value on pull days and after a night of holding a baby." },
-        { "id": "scapular-pull", "reps": 10, "notes": "**Rehab anchor.** Hanging, shoulders pull down without the elbows bending." },
-        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "**Legs days.** 30s each side. QL and psoas." },
-        { "id": "pigeon-pose", "duration": 90, "notes": "**Legs days.** 45s each side." },
-        { "id": "supine-spinal-twist", "duration": 60, "notes": "**Any day.** 30s each side. Good closer if the low back is tight." }
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "**Push and pull days.** 30s each arm, elbow at MID height."
+        },
+        {
+          "id": "prone-y-raises",
+          "reps": 12,
+          "notes": "**Rehab anchor.** Thumbs up, arms in a Y. Lift from the mid-back, not the neck."
+        },
+        {
+          "id": "scapular-push-up",
+          "reps": 12,
+          "notes": "**Rehab anchor.** Plank position, only the shoulder blades move. Protract and retract."
+        },
+        {
+          "id": "side-lying-external-rotation",
+          "reps": "12 each side",
+          "notes": "**Rehab anchor.** Elbow pinned to the ribs, light or no weight. Slow."
+        },
+        {
+          "id": "wall-angel",
+          "reps": 10,
+          "notes": "**Rehab anchor.** Back flat to the wall, arms slide up and down. Keep the wrists in contact."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "**Rehab anchor.** Passive. Highest value on pull days and after a night of holding a baby."
+        },
+        {
+          "id": "scapular-pull",
+          "reps": 10,
+          "notes": "**Rehab anchor.** Hanging, shoulders pull down without the elbows bending."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "**Legs days.** 30s each side. QL and psoas."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "**Legs days.** 45s each side."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "**Any day.** 30s each side. Good closer if the low back is tight."
+        }
       ],
       "restBetween": 0,
       "restAfter": 0

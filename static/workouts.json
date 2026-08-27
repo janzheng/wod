@@ -33084,6 +33084,37 @@
     "difficulty": "beginner",
     "sets": [
       {
+        "id": "through-the-day",
+        "name": "☀️ Through the Day — Small and Often (Not Now)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "**Not part of the flow — these are crumbs for the rest of the day.** Whenever you get up from the desk. Nothing here should feel like a set.",
+        "exercises": [
+          {
+            "id": "asian-squat",
+            "duration": 60,
+            "notes": "**Once an hour.** Deeper each time rather than longer. Heels on a book if they won't reach the floor."
+          },
+          {
+            "id": "single-leg-balance",
+            "duration": 60,
+            "notes": "30s each foot, eyes closed once that's easy. Let the **ankle** do the correcting, not the hip."
+          },
+          {
+            "id": "knee-to-wall-ankle-rock",
+            "reps": "10 each side",
+            "notes": "Heel glued down. Sink a little further each rep."
+          },
+          {
+            "id": "banded-ankle-eversion",
+            "reps": "15 each side",
+            "notes": "Sole turns **outward** against the band, shin still. The left one is the point."
+          }
+        ],
+        "restBetween": 0,
+        "restAfter": 0
+      },
+      {
         "id": "primer",
         "name": "Primer — Wake the Spine (~3 min)",
         "type": "exercises",

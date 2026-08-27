@@ -911,7 +911,7 @@ Everything decided in conversation during W27. He asked for this list explicitly
 *"The cossacks have been fantastic for my ankles; i'd also appreciate expanding that repertoire to repair and strengthen my ankles, especially my left one."* Background: a nasty climbing fall sprained both, left worse.
 
 - **`knee-to-wall-ankle-rock` is the one that goes into the workout** (legs warmup, see above).
-- **`single-leg-balance` and `banded-ankle-eversion` stay on the Daily Habits page.** They are daily-crumb work — frequency, not session volume. Do not pull them into a weekly workout.
+- **`single-leg-balance` and `banded-ankle-eversion` live in the `through-the-day` block at the top of the morning flow** — daily-crumb work, frequency not session volume. **Carry that block forward into W28 unchanged; it does not rotate.**
 - **Candidate for a later week:** banded eversion inside the KB-day banded prep block, since the band is already out. Not W28.
 - **✅ COSSACK STAYS — confirmed, anchor, does not rotate out.** *"Yeah cossack stays."*
 - **Read the cossack readiness screen as a delta against his own normal**, never as an absolute — it is ankle-expensive and part of what it reports is the old injury.
@@ -1075,14 +1075,16 @@ Given the heel-wedge test to try, he answered before running it: *"ankles are pr
 - Saddle pose stays too — different tissue (quads and hip flexors, the sitting antidote).
 - No correction needed on his end beyond doing the saddle; he already knows.
 
-### ✅ Daily Habits page shipped (2026-08-26) — he asked for it
+### ✅ Daily reminders — shipped SMALL, as a block on the morning flow (2026-08-26)
 
-*"Can we maybe add a new section — or at least some text — for like a daily reminder area / routine for the daily exercises at the top… for now to do more squats maybe like 20 per hour or something to work on mobility? i can see this be useful going forward."*
+*"Can we maybe add a new section — or at least some text — for like a daily reminder area / routine for the daily exercises at the top… i can see this be useful going forward."*
 
-- **Built as `static/notes-daily-habits.md`, registered FIRST in `programs/functional-bulk-dynamic.json` → `pages`.** That array renders in the sidebar directly under Overview and above the weeks, so "at the top" came free — no code change, existing mechanism.
-- **Contents:** deep squat sit (the priority), knee-to-wall for the ankle, greasing-the-groove pushups, dead hang, desk resets, and a line on what the crackling is.
-- **On his 20-squats-per-hour idea:** written in honestly — reps are a fine movement break, but **time in the bottom is what buys depth**, so the page prescribes the sit and offers 10 reps + a 30-60s hold as the combined version.
-- **This page is meant to grow.** New daily-frequency habits go here rather than into weekly workouts.
+**First attempt was a full program page (`static/notes-daily-habits.md`, registered in `pages`). He pushed back on the scope** — *"wait is daily habits a page, or just a part on the weekly/daily that is like a small callout? it doesn't have to really be that loud or complex."* Right call, and the lesson is the recurring one: **he asked for "at least some text" and got a document.** Match the ask, not the ambition.
+
+- **Now: a `through-the-day` block at the TOP of the morning flow**, which is the file he opens every day anyway. Four items, one line of cue each: `asian-squat` (once an hour, deeper each time), `single-leg-balance`, `knee-to-wall-ankle-rock`, `banded-ankle-eversion`.
+- **Named "Not Now"** in the block title and the notes say it plainly, so it does not read as the first thing in the morning routine.
+- **The how-to lives in the exercise JSON descriptions**, which the app already renders on tap — no separate document needed. The page and its registration were removed.
+- **Carry this block forward every week** — it does not rotate. Its contents change only when the daily focus changes.
 
 ### 🔧 Correction I owe him: I described the dead bug wall-press as a standing exercise
 
