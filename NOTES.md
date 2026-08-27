@@ -891,6 +891,66 @@ User: *"Really wished we had more circuits / flows / rotations from new stuff; t
   - **He wants to go.** *"I DO want to try to make it to the gym if i can."* Treat a full week as the live plan, not the optimistic case.
 
 
+## ⭐ W28 BUILD INPUTS — READ THIS FIRST WHEN GENERATING W28
+
+Everything decided in conversation during W27. He asked for this list explicitly: *"can u take these as notes for next week so we know what to generate!"* Details for each live in the W27 Observations section below and in `docs/notes/functional-bulk/squat-depth-and-the-deep-sit.md`.
+
+**⚠️ Still outstanding when this was written: W27D3 pull (Thu 8/27) and the optional Friday KB.** Read those logs before building.
+
+### The through-line: squat depth, and it is a BRACING + ANKLE problem, not a mobility-in-general problem
+
+- **Squat holds at 80.** Depth is the assignment; the number has nothing to prove.
+- **ADD paused squats to the 45 ramp round** — 2-3s sitting in the bottom. *"Paused squats on 45s are a good idea actually."* **NOT on 80** — his words: *"i won't be able to get up lol."*
+- **Warmup swap 1: `dead-bug` → `hollow-body-hold`.** *"We can swap hollow hold in warmups too."* Note for the record: **he has been doing the dead bug correctly all along** — the confusion was my wall-press variant, which he is not interested in (*"i could try this but probably not loll"*). Do not prescribe the wall variant.
+- **Warmup swap 2: `cat-cow` OUT, `knee-to-wall-ankle-rock` IN**, sequenced immediately after the tibialis raise (same purpose, same position). This is the ankle move he asked to rotate in — *"can we rotate one of these in next week plz."* Cat-cow is the redundant one: the morning flow already covers spine.
+- **Stance: ask him to test WIDER than current.** He already squats wide with toes out, so that free variable is partly spent — wider still is the remaining cheap experiment.
+- **Ask in the W28 legs report:** which of the three tests bought depth — heels on a plate (ankle), wider stance (hip range), or a plate held at the chest (brace) — and whether a filmed set from the side shows the pelvis tucking.
+
+### Ankle work — a new thread, and he requested it
+
+*"The cossacks have been fantastic for my ankles; i'd also appreciate expanding that repertoire to repair and strengthen my ankles, especially my left one."* Background: a nasty climbing fall sprained both, left worse.
+
+- **`knee-to-wall-ankle-rock` is the one that goes into the workout** (legs warmup, see above).
+- **`single-leg-balance` and `banded-ankle-eversion` stay on the Daily Habits page.** They are daily-crumb work — frequency, not session volume. Do not pull them into a weekly workout.
+- **Candidate for a later week:** banded eversion inside the KB-day banded prep block, since the band is already out. Not W28.
+- **✅ COSSACK STAYS — confirmed, anchor, does not rotate out.** *"Yeah cossack stays."*
+- **Read the cossack readiness screen as a delta against his own normal**, never as an absolute — it is ankle-expensive and part of what it reports is the old injury.
+
+### Morning flow
+
+- **`frog-stretch` goes in deliberately.** He did frog pose in place of saddle pose by accident, loved it (*"frog has been feeling great lol maybe my body subverted your workout"*), and it is a deep adductor opener — the exact tissue limiting the bottom of a squat. Also a long-retired pool move, so it satisfies Rotation Discipline honestly.
+- **Saddle pose stays** — different tissue (quads, hip flexors), and he is doing it properly now.
+- Rotate ~half the flow as always; rehab anchors hold.
+
+### KB / front-loaded squat
+
+- **Give the KB front squat / goblet squat a deliberate slot** rather than leaving it as a beat inside a flow. He offered it: *"we've been doing front loaded squats on kb — we can work on doing more of those if you want."* A front load forces an upright torso and a hard brace and self-limits safely, which is exactly the depth lever.
+
+### Implement rotation — slow, one anchor at a time
+
+- *"We can rotate slowly; we don't have to rotate everything at once lol."*
+- **W28:** rotate freely on the small lifts only (lateral raise, rows, curls, triceps). **Incline press keeps the DBs.**
+- **W29:** the hinge implement — DB RDL or the trap bar he already owns.
+- **Barbell stays off pressing** (fixed hand path, right shoulder). If bar work happens, it goes on the hinge.
+
+### Loads carried into W28 (from the W27 logs)
+
+| Lift | Number |
+|---|---|
+| Squat | **80/side**, 3 working sets, depth is the job |
+| Kneeling leg curl | **60-65**, 12 each side, **weaker side first and it sets the reps** |
+| Leg press / calf raise | **4 plates/side**, deep ROM — he is actively working depth |
+| Incline RDL | **one 45lb plate high**, 10 reps, 3s eccentric + his own 2s top pause |
+| Hip abduction | **OPEN AT 230** (confirmed) — written as 2 sets |
+| Hip adductor | **290**, top of stack, tempo only |
+| Push press | **50** strict, leg drive as the exit |
+| Incline DB press | **60 flat** — the optional 65 is off, his call |
+| Dip | bodyweight, **rotated palms set before rep 1** |
+| DB lateral raise | **20** (skip the 15s — too easy) |
+| Cable column | straight-arm pulldown **120** · lateral raise **~30** · lean-back tricep pushdown **60** |
+| Kinesis | cable fly **9** |
+| Farmer carry | **60/hand** |
+
 ## W27 Build Notes (built 2026-08-24)
 
 - **Week runs Tue 8/25 – Fri 8/28, four days.** He came home from post-partum Monday; the baby sleeps well and rarely cries, so he expects real sleep. Built as an ordinary week, not an interim one.
@@ -966,15 +1026,17 @@ Same fatigue as Tuesday, completely different session: *"super tired but did pre
 - **The W26 left-calf oddity did not repeat.** Calf raises *"went well, good rom all sets"*, no side flagged. One-off, not a pattern.
 - **Sequencing drift, normal:** ran squat → kneeling curl → incline RDL → leg press + calf → adductor → abductor. Station availability.
 
-### W28 build inputs — from the 2026-08-26 squat-depth conversation
+### The 2026-08-26 depth conversation — the discussion behind the W28 inputs
+
+*(The actionable checklist is the ⭐ W28 BUILD INPUTS section above. This is the reasoning.)*
 
 He came back on the depth note with opt-ins and one problem. All of this is decided, not proposed:
 
 - **✅ PAUSED SQUATS GO IN, ON THE 45 ROUND.** His words: *"paused squats on 45s are a good idea actually."* The squat ramp already runs 45 → 75; put a **2-3s pause in the bottom on the 45 round**, which costs nothing and rehearses the brace at depth before the working sets. Not on 80 — the point is holding position, not surviving it.
 - **✅ MORE FRONT-LOADED SQUAT WORK, AND HE OFFERED IT.** *"We've been doing front loaded squats on kb — we can work on doing more of those if you want."* Correct instinct: an anterior load forces an upright torso and a hard brace and self-limits safely. **Give the KB front squat / goblet squat a deliberate slot rather than leaving it as a beat inside a flow.**
-- **⚠️ THE DEAD BUG IS NOT LANDING — fix or replace it.** *"I don't feel like i'm doing them right; i don't seem to feel them at all?"* Standard causes, in order: the low back is not actually pressed flat (so nothing resists), no full exhale (ribs stay up, back arches), and too much range too fast. **W28 writes the wall-press variant** — hands pressing hard into a wall while the legs move, which lights up the anterior core immediately — with `hollow-body-hold` as the swap if it still does not land. Do not leave a warmup move in that he cannot feel; it is the brace rehearsal for the whole squat assignment.
+- **⚠️ THE DEAD BUG IS NOT LANDING — fix or replace it.** *"I don't feel like i'm doing them right; i don't seem to feel them at all?"* Standard causes, in order: the low back is not actually pressed flat (so nothing resists), no full exhale (ribs stay up, back arches), and too much range too fast. **✅ RESOLVED — swap in `hollow-body-hold`.** I offered a wall-press variant and described it badly enough that he thought the dead bug was a standing exercise. **He has been doing the plain dead bug correctly the whole time**; it just does not give him feedback. He declined the wall version (*"i could try this but probably not loll"*) and picked the swap himself: *"we can swap hollow hold in warmups too."* **Do not prescribe the wall-press variant.**
 - **Stance: already wide with toe-out.** *"I have a slightly wide stance; my feet aren't parallel."* So that free variable is partly spent — testing **wider still** is the remaining cheap experiment, not "try turning your toes out."
-- **✅ WARMUPS ARE LANDING AND HE WANTS THEM DEVELOPED.** *"I'm doing your frogs and whatever for the warmup and that really helps! i like the warmups you gave this week; we should keep working on these."* First unprompted positive on the warmup design. **⚠️ Open: "frogs" does not match any move in the W27 warmup or morning flow** (no frog-stretch, frog-pose-pulses or frogger is prescribed this week) — the closest candidates are the lizard pose, the world's greatest stretch or the hip-flexor lunge. **Asked him which one.** This matters because the morning flow rotates ~half its moves every week — without knowing which move he means, the one that is working could get rotated out.
+- **✅ WARMUPS ARE LANDING AND HE WANTS THEM DEVELOPED.** *"I'm doing your frogs and whatever for the warmup and that really helps! i like the warmups you gave this week; we should keep working on these."* First unprompted positive on the warmup design. **✅ SOLVED: "the frogs" was frog pose, done by accident in place of saddle pose.** See the section below. Worth noting the near-miss anyway — the morning flow rotates ~half its moves weekly, so a move that is working can silently vanish if nobody knows which one he means. **Ask when a report names a move that is not in the file.**
 - **Leg press depth is being actively worked** — *"leg presses are getting deep! i'm working on them actively."* Keep it framed as a depth/core lift; no plates.
 - **He is starting deep squat holds at his desk.** *"I'll make sure to do more squats by my desk."* Frequent short holds, greasing-the-groove style. Zero program cost, direct feed into the squat's limiter.
 - **Self-diagnosis protocol given** (he said *"i probably don't have enough knowledge to even know what is actually limiting, so i'll look for these next time"*): heels on a plate → tests ankle; wider stance + more toe-out → tests hip range; plate held at the chest → tests brace. Whichever one improves depth names the limiter. Plus one filmed set from the side to see whether the pelvis tucks. **Ask for the result in the W28D-legs report.**
