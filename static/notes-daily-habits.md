@@ -17,18 +17,39 @@ The rule for all of it: **short and often beats long and grim.**
 
 **Why it's the priority:** this is the unloaded version of the exact position the barbell squat is chasing. Every minute here is range the loaded squat gets to use.
 
-**On doing squat reps instead:** 20 bodyweight squats an hour is a fine movement break, but reps aren't what buys depth — **time in the bottom is.** If you're going to do both, 10 reps then a 30-60s sit.
+**Once an hour is the target.** Deeper each time rather than longer — the goal is the bottom position, not the clock.
 
 ---
 
-## 🦶 Knee-to-wall — the ankle test you can also train
+## 🦶 Ankles — the left one especially
 
-Face a wall in a half-kneeling lunge, front toes a few inches back from it. **Drive the front knee forward to touch the wall without the heel lifting.** Slide the foot back until you find the furthest distance where the knee still touches.
+The old sprain left restricted dorsiflexion and, more importantly, degraded position sense. Both are trainable, and both respond to daily crumbs rather than to a session. **Compare left against right every time — the gap is the thing you're closing.**
 
-- **Measure it once a month** — the distance from your big toe to the wall is the number. Compare left to right.
-- **Train it daily:** 10 slow knee-to-wall rocks each side, heel glued down.
+### Knee-to-wall rocks — range, and the measurement
 
-Old sprains leave lasting dorsiflexion restriction, and it's quietly the thing making cossacks hard and depth expensive.
+Half-kneel facing a wall, front toes a few inches back from it. **Drive the front knee forward to touch the wall without the heel lifting**, then rock back. 10 slow reps each side, sinking a little further each rep.
+
+**Measure it monthly:** slide the foot back until you find the furthest distance where the knee still touches with the heel down. Toe-to-wall distance, left vs right. That number is your dorsiflexion, and it's what's taxing your squat depth and making cossacks expensive.
+
+### Single-leg balance — the one that matters most
+
+**30-60s per foot. Then try it with your eyes closed.**
+
+Balance is position sense, and position sense is what a sprain actually damages — losing it is the strongest predictor of spraining the same ankle again. Let the **foot and ankle** do the correcting, not the hip. Progress: eyes open → eyes closed → standing on a folded towel.
+
+Free habit — do it while brushing your teeth, one foot per side of your mouth.
+
+### Banded ankle eversion — the muscle that failed
+
+Band around the ball of the foot, anchored to the side. **Turn the sole of the foot outward against the band**, shin still, slow return. 15 each side.
+
+This is the peroneals — the muscles down the outside of the lower leg that stop the ankle rolling in. They're what fails in a classic sprain and they stay weak for years afterward. **This is the highest-value strength piece for a previously sprained ankle.** Anchor the band on the other side and turn the sole inward for the pair.
+
+### Cossacks — keep them, they're working
+
+You already said it: they've been fantastic for the ankles. They stay the anchor of the ankle work, not a replacement for it.
+
+One thing worth knowing: **cossacks are ankle-expensive**, so on a day they feel bad, some of that is the old ankle rather than your readiness. Read them as a delta against your own normal.
 
 ---
 

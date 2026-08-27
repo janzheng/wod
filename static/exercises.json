@@ -763,6 +763,32 @@
     "description": "Hold a resistance band at shoulder width with arms straight in front. Pull the band apart by squeezing your shoulder blades together until the band touches your chest. Slowly return to start. Great for warming up the upper back and rear delts."
   },
   {
+    "id": "banded-ankle-eversion",
+    "name": "Banded Ankle Eversion",
+    "category": "calves",
+    "type": "warmup",
+    "muscles": [
+      "peroneals",
+      "ankles",
+      "lower-legs"
+    ],
+    "equipment": [
+      "resistance-band"
+    ],
+    "tags": [
+      "rehab",
+      "prehab",
+      "ankle",
+      "band",
+      "lower-leg",
+      "unilateral",
+      "single-leg",
+      "seated"
+    ],
+    "difficulty": "beginner",
+    "description": "Sit with the legs out in front, a band anchored to one side and looped around the ball of the foot. Keeping the shin still, turn the sole of the foot outward against the band, then return slowly. This trains the peroneals — the muscles running down the outside of the lower leg that stop the ankle rolling inward. They are the group that fails in a classic lateral ankle sprain and the group that stays weak for years afterward, so this is the highest-value strengthening move for a previously sprained ankle. Pair it with banded inversion (band anchored on the opposite side, turning the sole inward) to train the tibialis posterior on the other side of the joint."
+  },
+  {
     "id": "banded-bicep-curl",
     "name": "Banded Bicep Curl",
     "category": "arms-biceps",
@@ -11286,6 +11312,33 @@
     "description": "Lie on your back with both legs flat. Bring one knee up toward your chest and hug it in with both hands, interlocking your fingers just below the knee. Keep your opposite leg flat on the ground and your lower back pressed into the floor. Hold and breathe, feeling the stretch in your lower back and glute. Switch sides. Can also be done with both knees at once for a deeper lower back release."
   },
   {
+    "id": "knee-to-wall-ankle-rock",
+    "name": "Knee-to-Wall Ankle Rock",
+    "category": "calves",
+    "type": "warmup",
+    "muscles": [
+      "ankles",
+      "calves",
+      "soleus"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "warmup",
+      "rehab",
+      "prehab",
+      "ankle",
+      "mobility",
+      "lower-leg",
+      "unilateral",
+      "single-leg",
+      "test"
+    ],
+    "difficulty": "beginner",
+    "description": "Half-kneel facing a wall with the front foot a few inches back from it. Keeping the front heel glued to the floor, drive the knee forward over the toes until it touches the wall, then rock back. Repeat slowly, letting the ankle sink a little further each rep. This is the most direct way to train dorsiflexion — the range that lets the knee travel forward in a squat. It doubles as the standard ankle measurement: slide the foot back until you find the furthest distance where the knee still touches with the heel down, and compare the toe-to-wall distance left against right. Restricted dorsiflexion is the most common lasting deficit after an ankle sprain, and it quietly limits squat depth, cossack depth and the deep resting squat."
+  },
+  {
     "id": "kneeling-ab-wheel-rollout",
     "name": "Kneeling Ab Wheel Rollout",
     "category": "core",
@@ -15876,6 +15929,34 @@
     "difficulty": "intermediate",
     "duration": 60,
     "description": "Set a low cable near a preacher bench. Rest one arm over the preacher pad and grasp the cable handle with an underhand grip. Curl the weight up by flexing at the elbow, squeezing the bicep at the top. Lower with control to a full stretch at the bottom. The preacher pad prevents swinging and the cable provides constant tension throughout the range of motion."
+  },
+  {
+    "id": "single-leg-balance",
+    "name": "Single-Leg Balance",
+    "category": "core",
+    "type": "warmup",
+    "muscles": [
+      "ankles",
+      "calves",
+      "glutes",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "tags": [
+      "rehab",
+      "prehab",
+      "ankle",
+      "balance",
+      "proprioception",
+      "unilateral",
+      "single-leg",
+      "bodyweight",
+      "anywhere"
+    ],
+    "difficulty": "beginner",
+    "description": "Stand on one foot, other foot off the floor, and hold. Keep the standing knee soft and let the foot and ankle do the correcting rather than the hip. Progress by closing the eyes, which removes vision and forces the ankle's own position sense to do the work, then by standing on a folded towel or a cushion. Balance is proprioception, and proprioception is what an ankle sprain actually damages — the loss of it is the strongest predictor of spraining the same ankle again. Costs nothing and can be done while brushing teeth or waiting for coffee. Compare sides; the previously injured ankle is usually noticeably worse and that gap is the thing being closed."
   },
   {
     "id": "single-leg-deadlift",

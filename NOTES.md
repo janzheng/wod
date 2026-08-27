@@ -989,6 +989,20 @@ Given the heel-wedge test to try, he answered before running it: *"ankles are pr
 - **Tools, banked:** the tibialis raise already in the legs warmup stays; add **knee-to-wall rocks** (also the measurement — toe-to-wall distance, left vs right, tracked monthly) and **heel-elevated squats** as the way to access depth while the ankle catches up. The bent-knee wall calf stretch targets soleus, which is the actual dorsiflexion limiter.
 - **He also confirmed the other two tests: *"wider stance / toes out does help."*** So all three limiters are live — ankle, hip range, and the brace. Not one answer; three, in a stack.
 
+### ✅ Ankle repertoire built — he asked for it directly (2026-08-26)
+
+*"The cossacks have been fantastic for my ankles; i'd also appreciate expanding that repertoire to repair and strengthen my ankles, especially my left one."* First time he has asked for work on a specific joint.
+
+- **Three new exercises minted:** `knee-to-wall-ankle-rock` (dorsiflexion range, and it doubles as the monthly measurement — toe-to-wall distance, left vs right), `banded-ankle-eversion` (peroneals — the group that fails in a lateral sprain and stays weak for years, so the highest-value strength piece here), `single-leg-balance` (proprioception — what a sprain actually damages, and its loss is the strongest predictor of re-spraining the same ankle).
+- **Shipped on the Daily Habits page**, not into a weekly workout. All three are crumb-work: they respond to daily frequency, not to a session, and they cost nothing. The page tells him to compare left against right every time.
+- **Cossacks stay the anchor** — his own report is that they have been the thing that helped, and the new work is additive, not a replacement.
+- **Existing coverage already in the program:** tibialis raise (legs warmup), wall calf stretch, the leg-press calf raise. Nothing new needed there.
+- **W28 legs warmup: consider adding the knee-to-wall rock** next to the tibialis raise — same station, same purpose, and it makes the depth limiter addressable inside the session rather than only at home.
+
+### ✅ Daily squat dose settled: the deep sit, not reps
+
+*"Ohhhh yeah good lets just do deeper asian squats per hour, we'll do that instead."* His call, and it is the right one — the page now reads **once an hour, deeper each time rather than longer.** The 20-reps-per-hour idea is off.
+
 ### ✅ "The frogs" is solved — he was doing frog pose in place of saddle pose
 
 *"Damn it i've done saddle pose wrong lol did a frog pose, that's fine i'll do the saddle tomorrow ahha i kind of skimmed the warmup."*
