@@ -933,6 +933,15 @@ Everything decided in conversation during W27. He asked for this list explicitly
 - **W29:** the hinge implement — DB RDL or the trap bar he already owns.
 - **Barbell stays off pressing** (fixed hand path, right shoulder). If bar work happens, it goes on the hinge.
 
+### 🔧 The press block is misnamed — fix it in W28
+
+The push day's press slot has pointed at exercise id `push-press` since W3, and the app still renders it as "Push Press" with a leg-drive description sitting directly under a block titled "Strict DB Press — No Leg Drive." His own read, 2026-08-27: *"i think i've just been doing strict on push press but we kind of never updated it."* Correct — the leg drive stopped being needed at W25 and hasn't been the method since.
+
+- **W28 uses `standing-dumbbell-strict-press`** (new exercise file, standing / braced / no dip, with the dip named as the stall exit).
+- **Do NOT rename it in the W3-W27 workouts or logs.** He genuinely was push pressing then; the id was right. The break at W28 is where the movement actually changed.
+- **Consequence: the audit chain splits.** `deno task audit push-press` covers W3-W27, `deno task audit standing-dumbbell-strict-press` starts at W28. Run both when writing this slot's load. The lineage is 45 strict (W25) → 50 strict (W26-W27).
+- **Push press stays in the vocabulary as the exit**, which is exactly what W27 set 3 was — 5 strict then 4 push presses rather than grinding.
+
 ### Loads carried into W28 (from the W27 logs)
 
 | Lift | Number |
@@ -943,7 +952,7 @@ Everything decided in conversation during W27. He asked for this list explicitly
 | Incline RDL | **one 45lb plate high**, 10 reps, 3s eccentric + his own 2s top pause |
 | Hip abduction | **OPEN AT 230** (confirmed) — written as 2 sets |
 | Hip adductor | **290**, top of stack, tempo only |
-| Push press | **50** strict, leg drive as the exit |
+| Standing DB strict press | **50**, 3×8-10, 2 min rest, reps as singles — push press is the exit, not the plan |
 | Incline DB press | **60 flat** — the optional 65 is off, his call |
 | Dip | bodyweight, **rotated palms set before rep 1** |
 | DB lateral raise | **20** (skip the 15s — too easy) |

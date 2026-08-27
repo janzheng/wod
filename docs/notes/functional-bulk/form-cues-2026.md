@@ -14,9 +14,11 @@
 
 ## Push exercises
 
-### Push press
+### Standing DB press — strict
 
-**Setup** (Jan does DB version — 40/side. Cues note both BB and DB.)
+*Was a push press through W24; the leg drive stopped being needed at W25 and the block is a strict press now. Exercise id `standing-dumbbell-strict-press` from W28 on — log history through W27 sits under `push-press`, so audit both ids for this slot.*
+
+**Setup** (Jan does the DB version — 50/side, standing, strict. Dip cues below apply only to the push-press exit.)
 - **Feet parallel, hip-width** — NOT duck stance (W7 discovery). Duck stance = hips kick out under load.
 - DBs racked on front delts, elbows up *just enough* to keep them pinned (or barbell on front delts if doing BB version). Don't chase a clean front rack — that's a different lift.
 - **Ribs DOWN** before the dip — squeeze the front of the ribs toward the hips. No rib flare = no lower-back compensation.
@@ -39,6 +41,8 @@
 
 **Notes from real sessions**
 - W10D1: 40/side hard with proper form (40x8/12/8). **Set 1 rib flare** — chest pushed out immediately on the dip, controlled for it on subsequent sets. Slight forward bar drift but not full T-shape, less drift than KB presses. Slight crackle on right shoulder by set 3 — 40 is the right working weight for the form-first cycle, don't push to 45.
+- W25D1 → W27D1: **the lift went strict.** W25 ran 45×10×3 fully strict on 2 min rest and reps taken as singles (*"somehow did strict all sets on 45"*); W26 repeated it at 50 for 10/10/8; W27 held 50 for 10/10 then set 3 fell to 5 strict + 4 push presses (*"stopped out"*). **The dip is now the exit for a rep that has already stalled, not the method.** Rest is load-bearing here — 2 min, reps as singles.
+- **Cue order that keeps 50 strict:** ribs DOWN at lockout · shoulders packed DOWN, traps quiet · slow eccentric on every rep · set is over when the shoulders start climbing toward the ears.
 
 ---
 
