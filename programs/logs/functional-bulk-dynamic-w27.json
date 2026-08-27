@@ -189,5 +189,156 @@
       "cable stations": "'Was on cable column following spec' — all three cable lifts.",
       "left arm": "**Not baby-related and not new to this period: 'not at all, it's been like this way before the baby lol; but last few weeks left has always been tired (not baby related; baby is like four days old).'** Rules out the carrying hypothesis the same way the two-week KB gap ruled out the KB-Tuesday one."
     }
+  },
+  {
+    "day": 2,
+    "date": "2026-08-26",
+    "workoutId": "fb-w27-legs",
+    "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back. Arrilaga.",
+    "notes": "Legs went far better than push did on the same sleep debt — \"super tired but did pretty good.\" **The kneeling leg curl landed and he wants to keep it**: found 50 → 60 → 65 on the first run and described it as *\"preacher curls for legs.\"* The two spotlights both did their job — the curl gave the isolation the seated machine used to, and the reworked incline RDL turned from a stamina lift into a discipline lift exactly as intended. Both squat and leg press produced a good read on the same theme: control through the descent, and warmth deciding how the first set feels. He ran the day in his own order (curl and RDL before the leg press) and closed with a program-direction question about rotating implements. He labelled it `w27d3`; it was Wednesday, day 2, legs.",
+    "exercises": [
+      {
+        "id": "squat",
+        "notes": "Three working sets at 80, all clean, **and he left power on the table on purpose** — *\"three sets with power left but decided to hold off.\"* The depth assignment produced the sharpest self-report yet: *\"feeling like i'm getting a good feel of my power band as i go down lower and how much power i'm losing, and i'm working on getting lower and lower and maintaining control and power band.\"* That is the loaded bottom being mapped rather than avoided — W26 banked stability, this week banked awareness of where power falls off in the descent.",
+        "sets": [
+          {
+            "weight": "80/side",
+            "reps": "6-8"
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8"
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "\"Power left but decided to hold off.\""
+          }
+        ]
+      },
+      {
+        "id": "kneeling-leg-curl",
+        "equipment": "kneeling leg curl machine",
+        "notes": "**First run on this machine and it is a keeper** — *\"this is a cool machine, really feels like i'm getting leg isolation and practicing the real muscles, i think i'll keep doing these for a while; really feeling legs and side — these feel like preacher curls for legs.\"* The preacher-curl comparison is the supported-movement pattern the program already leans on. Ran **left side first** as prescribed. Load found by climbing: 50 → 60 → 65, with 60 already *\"a struggle.\"* Reps at 65 and the right-side rep counts were not reported.",
+        "sets": [
+          {
+            "weight": "50",
+            "equipment": "kneeling leg curl machine",
+            "reps": 12,
+            "notes": "Left first."
+          },
+          {
+            "weight": "60",
+            "equipment": "kneeling leg curl machine",
+            "reps": 12,
+            "notes": "\"These were a struggle!\""
+          },
+          {
+            "weight": "65",
+            "equipment": "kneeling leg curl machine",
+            "reps": "not reported"
+          }
+        ]
+      },
+      {
+        "id": "incline-rdl",
+        "notes": "**The rework did what it was written to do.** *\"Whoa these feel easier yet harder at the same time.\"* W26 read \"stamina hard, not load hard\"; cutting to 10 reps with a 3s eccentric moved the difficulty into the tempo — and he added a **2s pause at the top** himself because the set was short enough to afford one: *\"when i know there's only 10 i pause at top for 2s and then go down slow maybe 3 or 4.\"* His limiter now is attention, not endurance: *\"first set went fine but later sets just take a whole lot more discipline to maintain.\"*",
+        "sets": [
+          {
+            "weight": "one 45lb plate, held high",
+            "reps": 10,
+            "notes": "2s pause at the top, 3-4s eccentric. \"First set went fine.\""
+          },
+          {
+            "weight": "one 45lb plate, held high",
+            "reps": 10
+          },
+          {
+            "weight": "one 45lb plate, held high",
+            "reps": 10,
+            "notes": "\"Later sets just take a whole lot more discipline to maintain.\""
+          }
+        ]
+      },
+      {
+        "id": "leg-press",
+        "notes": "*\"Good rom all sets; still hard.\"* **Set 1 was *\"very crackly and bad\"* and the last set *\"completely opened up super nice\"*** — the cold-hips pattern again, and a strong one because the leg press ran late in the session this time rather than early. Judging this lift on set 1 stays the wrong read.",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 12,
+            "notes": "\"Very crackly and bad.\""
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12,
+            "notes": "\"Completely opened up super nice.\""
+          }
+        ]
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "notes": "*\"Went well, good rom all sets.\"* **The W26 left-calf oddity did not repeat** — no side flagged this time.",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          }
+        ]
+      },
+      {
+        "id": "hip-adductor-machine",
+        "notes": "*\"Felt good too, doing 2s eccentric.\"* Top of the stack, so tempo is the only lever and he is running it — the 2s eccentric is his own, unprescribed.",
+        "sets": [
+          {
+            "weight": "290",
+            "reps": "15-20",
+            "notes": "2s eccentric."
+          },
+          {
+            "weight": "290",
+            "reps": "15-20",
+            "notes": "2s eccentric."
+          }
+        ]
+      },
+      {
+        "id": "hip-abduction-machine",
+        "notes": "**210 held its headroom and the pin went up: 210, then 230 twice.** The workout invited the next pin on set 2 if the tempo was still controlled, and it was. Mismatch, minor: the block is written as **2 sets** and he ran **3** — *\"ah crap did too many lol.\"* 230 is the number to open on next time.",
+        "sets": [
+          {
+            "weight": "210",
+            "reps": "15-20"
+          },
+          {
+            "weight": "230",
+            "reps": "15-20"
+          },
+          {
+            "weight": "230",
+            "reps": "15-20",
+            "notes": "Third set — one more than written. \"Ah crap did too many lol.\""
+          }
+        ]
+      }
+    ],
+    "rawInput": "w27d3 legs\n\nsquats\nsurprisingly well; super tired but did pretty good three sets with power left but decided to hold off\nfeeling like i’m getting a good feel of my power band as i go down lower and how much power i’m losing and i’m working on getting lower and lower and maintaining control and power band\n\nkneeling leg curl machine\nleft first\n50x12\n60x12 these were a struggle!\n65\nthis is a cool machine, really feels like i’m getting leg isolation and practicing the real muscles, i think i’ll keep doing these for a while; really feeling legs and side- these feel like preacher curls for legs\n\nincline rdl\nwhoa these feel easier yet harder at the same time; when i know there’s only 10 i pause at top for 2s and then go down slow maybe 3 or 4; first set went fine but later sets just take a whole lot more discipline to maintain\n\nleg press and calf raise went well good rom all sets; still hard; first set of leg press very crackly and bad last set completely opened up super nice \n\nadduction felt good too, doing 2s eccentric\n\nabduction first set 210 second and third set 230 ah crap did too many lol\n\ni’m thinking am i at a point where for ex rdl i should experiment with rotating using db, machine and bar for various things; even for incline press go back to machine or even mess with bar again, just to get muscles familiar with different systems and various amounts of bracing",
+    "openQuestion": "**He raised a program-direction question, unanswered here and carried to W28 planning:** *\"am i at a point where for ex rdl i should experiment with rotating using db, machine and bar for various things; even for incline press go back to machine or even mess with bar again, just to get muscles familiar with different systems and various amounts of bracing.\"* Discussion in NOTES.md under W27 Observations."
   }
 ]
