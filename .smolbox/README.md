@@ -15,6 +15,14 @@ checkout. Each browser gets a persistent Pi session; clearing the chat starts a
 new one. Terminal `pi` sessions use the same account, model, and files, but not
 the browser conversation transcript.
 
+Each browser turn also sends the current WOD view's title, route, and
+project-relative source path. It does not copy the rendered page contents. When
+you ask about “this page,” Pi is instructed to inspect that source file with a
+project tool before answering. Notes map to their Markdown file; workout and
+exercise views map to the compiled JSON; program and activity views map to the
+program JSON. This is the normal WOD Builder path, not a separate smolbox-only
+chat implementation.
+
 This is deliberately a public, no-auth prototype. Anyone who reaches it can
 change WOD and consume the personal box's model quota. OpenRouter says free
 endpoint traffic may be logged, so do not send private or personal information.

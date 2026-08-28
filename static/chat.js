@@ -1,8 +1,72 @@
 /**
  * WOD Builder — Alpine.js mixin for routineStackApp().
  * Pi owns server-side conversation history; the browser sends only each prompt
- * and its opaque session ID.
+ * and its opaque session ID plus a small pointer to the visible project source.
  */
+function wodAgentPageContext(state, route) {
+  var browserRoute = (typeof route === 'string' && route.charAt(0) === '/') ? route : '/';
+
+  if (state.currentView === 'notes' && state.notesPath) {
+    return {
+      kind: 'notes',
+      title: state.notesTitle || 'Training Notes',
+      route: browserRoute,
+      sourcePath: String(state.notesPath).replace(/^\/+/, ''),
+    };
+  }
+
+  if (state.currentView === 'exercises') {
+    return {
+      kind: 'exercise-library',
+      title: 'Exercise Library',
+      route: browserRoute,
+      sourcePath: 'static/exercises.json',
+    };
+  }
+
+  if (state.selectedProgram) {
+    var program = state.selectedProgram;
+    var title = program.name || program.id || 'Program';
+    if (state.selectedWeekIdx !== null && state.selectedWeekIdx !== undefined && program.weeks && program.weeks[state.selectedWeekIdx]) {
+      title += ' — Week ' + program.weeks[state.selectedWeekIdx].week;
+    }
+    return {
+      kind: 'program',
+      title: title,
+      route: browserRoute,
+      sourcePath: 'programs/' + program.id + '.json',
+    };
+  }
+
+  if (state.selectedActivity) {
+    var activity = state.selectedActivity;
+    return {
+      kind: 'activity',
+      title: activity.label || (activity.activity && activity.activity.name) || 'Activity',
+      route: browserRoute,
+      sourcePath: 'programs/' + activity._programId + '.json',
+    };
+  }
+
+  if (state.selectedWorkout) {
+    return {
+      kind: 'workout',
+      title: state.selectedWorkout.name || state.selectedWorkout.id || 'Workout',
+      route: browserRoute,
+      sourcePath: 'static/workouts.json',
+    };
+  }
+
+  return {
+    kind: 'app',
+    title: 'WOD',
+    route: browserRoute,
+    sourcePath: 'main.ts',
+  };
+}
+
+globalThis.wodAgentPageContext = wodAgentPageContext;
+
 function chatPanel() {
   return {
     // Chat panel state
@@ -46,6 +110,10 @@ function chatPanel() {
       return base ? base + '/api/ai/chat' : '/api/ai/chat';
     },
 
+    getAgentPageContext() {
+      return globalThis.wodAgentPageContext(this, globalThis.location?.pathname || '/');
+    },
+
     async sendChatMessage() {
       var msg = this.chatInput.trim();
       if (!msg || this.chatLoading) return;
@@ -64,6 +132,7 @@ function chatPanel() {
           body: JSON.stringify({
             prompt: msg,
             sessionId: this.chatSessionId,
+            pageContext: this.getAgentPageContext(),
           }),
         });
 

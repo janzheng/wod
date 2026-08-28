@@ -45,7 +45,7 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v4';
+const CACHE_NAME = 'wod-v5';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
@@ -296,7 +296,11 @@ app.post("/api/ai/chat", async (c) => {
   }
   c.header("Cache-Control", "no-store");
 
-  const body = await c.req.json<{ prompt?: unknown; sessionId?: unknown }>()
+  const body = await c.req.json<{
+    prompt?: unknown;
+    sessionId?: unknown;
+    pageContext?: unknown;
+  }>()
     .catch(() => null);
   if (!body || typeof body.prompt !== "string" || !body.prompt.trim()) {
     return c.json({ error: "prompt is required" }, 400);
@@ -308,6 +312,7 @@ app.post("/api/ai/chat", async (c) => {
       sessionId: typeof body.sessionId === "string"
         ? body.sessionId
         : undefined,
+      pageContext: body.pageContext,
     });
     return c.json({
       message: result.message,
@@ -932,7 +937,7 @@ function renderPage(
         <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? notesTitle : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
         <button class="chat-toggle-btn" @click="toggleChat()" :class="{ 'active': chatOpen }">
           <span class="iconify" data-icon="lucide:message-square"></span>
-          <span class="chat-toggle-label">AI Coach</span>
+          <span class="chat-toggle-label">WOD Builder</span>
         </button>
       </header>
 

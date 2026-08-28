@@ -9,12 +9,28 @@ const DEFAULT_BINARY = "/usr/local/bin/pi";
 const DEFAULT_WORKDIR = "/workspace";
 const DEFAULT_SESSION_ROOT = "/root/.smolbox/wod-web-agent";
 const SESSION_ID = /^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$/;
+const PAGE_KINDS = new Set([
+  "app",
+  "notes",
+  "exercise-library",
+  "workout",
+  "program",
+  "activity",
+]);
 const SYSTEM_PROMPT = [
   "You are the WOD builder running inside its smolbox computer.",
   "Keep your work in /workspace, follow the project's CLAUDE.md, and use ordinary project tools.",
   "You may inspect and edit WOD and run its existing checks.",
+  "Never claim the contents of a project file without using a project tool to inspect that file during the current turn.",
   "Reply concisely with what changed and what you verified.",
 ].join(" ");
+
+export type PiPageContext = {
+  kind: string;
+  title: string;
+  route: string;
+  sourcePath: string;
+};
 
 export type PiCommandSpec = {
   binary: string;
@@ -42,6 +58,7 @@ export type PiAgentOptions = {
 export type PiAgentRequest = {
   prompt: string;
   sessionId?: string;
+  pageContext?: unknown;
 };
 
 export type PiAgentReply = {
@@ -71,6 +88,59 @@ function defaultSessionId(value?: string): string {
   return candidate && SESSION_ID.test(candidate)
     ? candidate
     : crypto.randomUUID();
+}
+
+export function normalizePiPageContext(
+  value: unknown,
+): PiPageContext | undefined {
+  if (!value || typeof value !== "object") return undefined;
+  const candidate = value as Record<string, unknown>;
+  const kind = typeof candidate.kind === "string" ? candidate.kind.trim() : "";
+  const title = typeof candidate.title === "string"
+    ? candidate.title.trim()
+    : "";
+  const route = typeof candidate.route === "string"
+    ? candidate.route.trim()
+    : "";
+  const sourcePath = typeof candidate.sourcePath === "string"
+    ? candidate.sourcePath.trim()
+    : "";
+
+  if (!PAGE_KINDS.has(kind)) return undefined;
+  if (!title || title.length > 160 || /[\r\n]/.test(title)) return undefined;
+  if (!route.startsWith("/") || route.length > 256 || /[\r\n]/.test(route)) {
+    return undefined;
+  }
+  if (
+    !sourcePath || sourcePath.length > 256 || sourcePath.startsWith("/") ||
+    sourcePath.includes("\\") || sourcePath.split("/").includes("..") ||
+    !/^[A-Za-z0-9._/-]+$/.test(sourcePath)
+  ) {
+    return undefined;
+  }
+
+  return { kind, title, route, sourcePath };
+}
+
+export function formatPiPrompt(
+  prompt: string,
+  pageContext?: PiPageContext,
+): string {
+  if (!pageContext) return prompt;
+
+  return [
+    "[WOD page context]",
+    `View: ${pageContext.kind}`,
+    `Title: ${JSON.stringify(pageContext.title)}`,
+    `Browser route: ${JSON.stringify(pageContext.route)}`,
+    `Project source: /workspace/${pageContext.sourcePath}`,
+    'When the user says "this page", they mean the source file above.',
+    "This pointer does not contain the file contents. Before making any claim about those contents, use a project tool to inspect that source file during this turn.",
+    "[/WOD page context]",
+    "",
+    "[User request]",
+    prompt,
+  ].join("\n");
 }
 
 async function defaultPrepareSessionRoot(path: string): Promise<void> {
@@ -146,9 +216,13 @@ export function createPiAgent(options: PiAgentOptions = {}) {
         let result: PiCommandResult;
 
         try {
+          const turnPrompt = formatPiPrompt(
+            prompt,
+            normalizePiPageContext(request.pageContext),
+          );
           result = await runCommand({
             binary,
-            args: piArguments(sessionPath, prompt),
+            args: piArguments(sessionPath, turnPrompt),
             cwd: workdir,
           });
         } catch (error) {
