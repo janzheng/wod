@@ -6,6 +6,26 @@ This is WOD's tiny integration seam for a Mac-local Smolbox. The actual project 
 * `smolbox status` — show the local machine, Git, app, and terminal state
 * `smolbox down` — stop the machine without deleting its workspace
 
+## Public WOD Builder
+
+The AI panel at `https://wod.janzheng.com` runs Pi inside `smolbox-wod`. It is
+pinned to OpenRouter's `nvidia/nemotron-3-super-120b-a12b:free` model and starts
+in `/workspace` with normal coding tools, so it can inspect and change this WOD
+checkout. Each browser gets a persistent Pi session; clearing the chat starts a
+new one. Terminal `pi` sessions use the same account, model, and files, but not
+the browser conversation transcript.
+
+This is deliberately a public, no-auth prototype. Anyone who reaches it can
+change WOD and consume the personal box's model quota. OpenRouter says free
+endpoint traffic may be logged, so do not send private or personal information.
+The free endpoint is rate-limited and a turn can take a while.
+
+OpenRouter login remains private guest state at `/root/.smolbox/pi/auth.json`.
+Do not put a key in `.env.example` or commit one to this repository.
+`WOD_AGENT_BASE_URL` is only a non-secret seam: blank means the chat calls the
+same WOD origin; a later separately served frontend can point it at an approved
+agent endpoint.
+
 **Commands**
 * **build** – `deno task build`
 * **test** – `deno task ai:test`
