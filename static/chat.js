@@ -1,6 +1,7 @@
 /**
- * AI Chat Panel — Alpine.js mixin for routineStackApp().
- * Manages chat conversation, API calls, context injection, and custom workouts.
+ * WOD Builder — Alpine.js mixin for routineStackApp().
+ * Pi owns server-side conversation history; the browser sends only each prompt
+ * and its opaque session ID.
  */
 function chatPanel() {
   return {
@@ -40,37 +41,16 @@ function chatPanel() {
       }
     },
 
-    getChatContext() {
-      const workout = this.generatedWorkout || this.selectedWorkout;
-      if (!workout) return null;
-      return {
-        id: workout.id,
-        name: workout.name,
-        description: workout.description,
-        difficulty: workout.difficulty,
-        estimatedDuration: workout.estimatedDuration,
-        equipment: workout.equipment,
-        tags: workout.tags,
-        sets: (workout.sets || []).map(function(s) {
-          return {
-            name: s.name,
-            type: s.type,
-            rounds: s.rounds,
-            exercises: (s.generatedExercises || s.exercises || []).map(function(e) {
-              return { name: e.name, reps: e.reps, duration: e.duration, notes: e.notes };
-            }),
-          };
-        }),
-      };
+    getAgentChatUrl() {
+      var base = String(globalThis.WOD_AGENT_BASE_URL || '').replace(/\/+$/, '');
+      return base ? base + '/api/ai/chat' : '/api/ai/chat';
     },
 
     async sendChatMessage() {
       var msg = this.chatInput.trim();
       if (!msg || this.chatLoading) return;
 
-      var ctx = this.getChatContext();
       var userMsg = { role: 'user', content: msg, timestamp: Date.now() };
-      if (ctx) userMsg.workoutContext = ctx;
       this.chatMessages.push(userMsg);
       this.chatInput = '';
       this.chatLoading = true;
@@ -78,22 +58,12 @@ function chatPanel() {
       this.focusChatInput();
 
       try {
-        // Build recent history for LLM context (last 20 messages, skip the one we just pushed)
-        var recentHistory = this.chatMessages.slice(-21, -1).map(function(m) {
-          var entry = { role: m.role, content: m.content };
-          if (m.workoutContext) entry.workoutContext = m.workoutContext;
-          return entry;
-        });
-
-        var res = await fetch('/api/ai/chat', {
+        var res = await fetch(this.getAgentChatUrl(), {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             prompt: msg,
             sessionId: this.chatSessionId,
-            workoutContext: this.getChatContext(),
-            history: recentHistory,
-            enableCritic: true,
           }),
         });
 

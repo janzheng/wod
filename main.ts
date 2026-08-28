@@ -3,8 +3,14 @@ import { Hono } from "hono";
 import { createWodAI, getConfig } from "./src/ai/mod.ts";
 import { complete } from "./src/ai/llm/provider.ts";
 import type { ConversationSession } from "./src/ai/types.ts";
+import {
+  createPiAgent,
+  PiAgentBusyError,
+  PiAgentProcessError,
+} from "./src/ai/pi-agent.ts";
 
 const app = new Hono();
+const piAgent = createPiAgent();
 
 // AI pipeline (lazy init on first request)
 let wodAI: Awaited<ReturnType<typeof createWodAI>> | null = null;
@@ -15,7 +21,9 @@ async function getWodAI() {
     const dataDir = new URL("./", import.meta.url).pathname;
     const config = getConfig();
     wodAI = await createWodAI(dataDir, config);
-    console.log(`AI loaded: ${wodAI.index.size} exercises, ${wodAI.data.workouts.size} templates`);
+    console.log(
+      `AI loaded: ${wodAI.index.size} exercises, ${wodAI.data.workouts.size} templates`,
+    );
   }
   return wodAI;
 }
@@ -31,13 +39,13 @@ const MANIFEST = {
   theme_color: "#374151",
   icons: [
     { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
-    { src: "/icon-512.png", sizes: "512x512", type: "image/png" }
-  ]
+    { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
+  ],
 };
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v3';
+const CACHE_NAME = 'wod-v4';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
@@ -98,13 +106,28 @@ async function readJson(path: string) {
 // a stale cache even after a deploy.
 app.use("/api/*", async (c, next) => {
   await next();
-  c.header("Cache-Control", "no-cache");
+  if (!c.res.headers.has("Cache-Control")) c.header("Cache-Control", "no-cache");
 });
 
 app.get("/api/routines", async (c) => {
   // Load all routine files
   const routines = [];
-  const routineFiles = ['barre', 'cardio', 'gym', 'calisthenics', 'morning', 'yoga', 'stretch', 'action-jacqueline', 'challenges', 'maternity', 'heavy-duty', 'jump-rope', 'kettlebell', 'snippets'];
+  const routineFiles = [
+    "barre",
+    "cardio",
+    "gym",
+    "calisthenics",
+    "morning",
+    "yoga",
+    "stretch",
+    "action-jacqueline",
+    "challenges",
+    "maternity",
+    "heavy-duty",
+    "jump-rope",
+    "kettlebell",
+    "snippets",
+  ];
   for (const id of routineFiles) {
     const data = await readJson(`./routines/${id}.json`);
     if (data) routines.push(data);
@@ -122,7 +145,24 @@ app.get("/api/routines/:id", async (c) => {
 app.get("/api/saved", async (c) => {
   // Load all saved workout files
   const savedWorkouts = [];
-  const savedFiles = ['aj-standing-barre', 'aj-floor-barre', 'aj-random-4', 'morning-wakeup', 'apartment-gym', '4x4x3-block', 'squat-rack', 'machine-circuit', 'gentle-yoga', 'hip-lower-back-flow', 'reddit-rrr', 'gym-classic-workouts', 'calisthenics-classic-workouts', 'kb-random-circuit', 'kb-controlled-power', 'kb-controlled-power-challenge'];
+  const savedFiles = [
+    "aj-standing-barre",
+    "aj-floor-barre",
+    "aj-random-4",
+    "morning-wakeup",
+    "apartment-gym",
+    "4x4x3-block",
+    "squat-rack",
+    "machine-circuit",
+    "gentle-yoga",
+    "hip-lower-back-flow",
+    "reddit-rrr",
+    "gym-classic-workouts",
+    "calisthenics-classic-workouts",
+    "kb-random-circuit",
+    "kb-controlled-power",
+    "kb-controlled-power-challenge",
+  ];
   for (const id of savedFiles) {
     const data = await readJson(`./saved/${id}.json`);
     if (data) savedWorkouts.push(data);
@@ -177,7 +217,9 @@ app.get("/api/progressions", async (c) => {
 app.get("/api/programs", async (c) => {
   const programs = [];
   try {
-    for await (const entry of Deno.readDir(new URL("./programs", import.meta.url))) {
+    for await (
+      const entry of Deno.readDir(new URL("./programs", import.meta.url))
+    ) {
       if (entry.name.endsWith(".json")) {
         const data = await readJson(`./programs/${entry.name}`);
         if (data) {
@@ -214,7 +256,6 @@ app.get("/api/programs/:id", async (c) => {
   return c.json(data);
 });
 
-
 // Exercise search endpoint
 app.get("/api/ai/search", async (c) => {
   const q = c.req.query("q") || "";
@@ -236,13 +277,71 @@ app.get("/api/ai/search", async (c) => {
   return c.json({ results, query: q.trim() });
 });
 
-// AI Chat endpoint — classifies message as Q&A vs workout generation
+const AGENT_CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "Content-Type",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+};
+
+app.options("/api/ai/chat", () =>
+  new Response(null, {
+    status: 204,
+    headers: AGENT_CORS_HEADERS,
+  }));
+
+// Public prototype: browser prompt -> Pi/OpenRouter/Nemotron in smolbox-wod.
 app.post("/api/ai/chat", async (c) => {
+  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
+    c.header(name, value);
+  }
+  c.header("Cache-Control", "no-store");
+
+  const body = await c.req.json<{ prompt?: unknown; sessionId?: unknown }>()
+    .catch(() => null);
+  if (!body || typeof body.prompt !== "string" || !body.prompt.trim()) {
+    return c.json({ error: "prompt is required" }, 400);
+  }
+
+  try {
+    const result = await piAgent.chat({
+      prompt: body.prompt,
+      sessionId: typeof body.sessionId === "string"
+        ? body.sessionId
+        : undefined,
+    });
+    return c.json({
+      message: result.message,
+      sessionId: result.sessionId,
+      workout: null,
+      intent: "builder",
+      critique: null,
+    });
+  } catch (error) {
+    if (error instanceof PiAgentBusyError) {
+      return c.json({ error: "This builder session is already working." }, 409);
+    }
+    if (error instanceof PiAgentProcessError) {
+      console.error("Pi web agent error:", error.message);
+      return c.json({ error: "Pi could not complete this request." }, 502);
+    }
+    console.error("Pi web agent error:", error);
+    return c.json({ error: "The WOD builder failed." }, 500);
+  }
+});
+
+// Legacy Groq-backed workout chat. The browser no longer calls this route.
+app.post("/api/ai/legacy-chat", async (c) => {
   const body = await c.req.json<{
     prompt: string;
     sessionId?: string;
     workoutContext?: Record<string, unknown>;
-    history?: Array<{ role: string; content: string; workoutContext?: Record<string, unknown> }>;
+    history?: Array<
+      {
+        role: string;
+        content: string;
+        workoutContext?: Record<string, unknown>;
+      }
+    >;
     enableCritic?: boolean;
   }>();
   if (!body.prompt) return c.json({ error: "prompt is required" }, 400);
@@ -257,7 +356,8 @@ app.post("/api/ai/chat", async (c) => {
     const classifyMessages = [
       {
         role: "system" as const,
-        content: `You are a classifier. Given a user message about fitness/workouts, respond with EXACTLY one word:
+        content:
+          `You are a classifier. Given a user message about fitness/workouts, respond with EXACTLY one word:
 - "search" if the user asks about a specific exercise by name, wants to find exercises, or asks "what is X" / "do we have X" / "tell me about X exercise" (e.g. "what about butterfly stretch", "do we have turkish getup", "find me hamstring exercises", "what is a plié squat")
 - "question" if the user asks a general question, seeks advice, or wants information about a workout they're viewing (e.g. "does this build muscle?", "is this good for beginners?", "how many calories?", "what should I eat?")
 - "generate" if the user wants to create, modify, or change a workout (e.g. "make a leg workout", "make it harder", "add more core", "create a 30 min routine")
@@ -267,9 +367,13 @@ Respond with ONLY one word, nothing else.`,
       { role: "user" as const, content: body.prompt },
     ];
 
-    const classification = (await complete(classifyMessages, { ...config, temperature: 0 })).toLowerCase().trim();
-    const intent = classification.startsWith("search") ? "search"
-      : classification.startsWith("question") ? "question"
+    const classification =
+      (await complete(classifyMessages, { ...config, temperature: 0 }))
+        .toLowerCase().trim();
+    const intent = classification.startsWith("search")
+      ? "search"
+      : classification.startsWith("question")
+      ? "question"
       : "generate";
 
     if (intent === "search" || intent === "question") {
@@ -280,44 +384,66 @@ Respond with ONLY one word, nothing else.`,
       if (intent === "search") {
         // Extract search terms (strip common prefixes)
         const searchQuery = body.prompt
-          .replace(/^(what about|do we have|find me|tell me about|what is|show me|search for|look up)\s*/i, "")
+          .replace(
+            /^(what about|do we have|find me|tell me about|what is|show me|search for|look up)\s*/i,
+            "",
+          )
           .replace(/\?+$/, "")
           .trim();
         const results = wod.index.search(searchQuery, 8);
         searchResults = results.map((ex) => ({
-          id: ex.id, name: ex.name, category: ex.category, type: ex.type,
-          muscles: ex.muscles, equipment: ex.equipment, tags: ex.tags,
-          difficulty: ex.difficulty, description: ex.description,
+          id: ex.id,
+          name: ex.name,
+          category: ex.category,
+          type: ex.type,
+          muscles: ex.muscles,
+          equipment: ex.equipment,
+          tags: ex.tags,
+          difficulty: ex.difficulty,
+          description: ex.description,
         }));
       }
 
       // Q&A path — answer using workout context + search results + history
-      let systemPrompt = `You are a knowledgeable, friendly fitness coach. Answer the user's question concisely and helpfully.`;
+      let systemPrompt =
+        `You are a knowledgeable, friendly fitness coach. Answer the user's question concisely and helpfully.`;
 
       if (searchResults.length > 0) {
-        systemPrompt += `\n\nSearch results from the exercise library:\n${JSON.stringify(searchResults, null, 2)}\n\nUse these results to answer the user's question. Mention which exercises were found and key details (muscles, difficulty, description). If the exact exercise wasn't found, mention the closest matches.`;
+        systemPrompt += `\n\nSearch results from the exercise library:\n${
+          JSON.stringify(searchResults, null, 2)
+        }\n\nUse these results to answer the user's question. Mention which exercises were found and key details (muscles, difficulty, description). If the exact exercise wasn't found, mention the closest matches.`;
       } else if (intent === "search") {
-        systemPrompt += `\n\nNo matching exercises were found in the library for this search. Let the user know and suggest what they might search for instead.`;
+        systemPrompt +=
+          `\n\nNo matching exercises were found in the library for this search. Let the user know and suggest what they might search for instead.`;
       }
 
       if (body.workoutContext) {
-        systemPrompt += `\n\nThe user is currently viewing this workout:\n${JSON.stringify(body.workoutContext, null, 2)}`;
+        systemPrompt += `\n\nThe user is currently viewing this workout:\n${
+          JSON.stringify(body.workoutContext, null, 2)
+        }`;
       }
 
-      systemPrompt += `\nKeep answers focused and practical. Use 2-4 sentences unless the question needs more detail. Don't generate a new workout unless explicitly asked.
+      systemPrompt +=
+        `\nKeep answers focused and practical. Use 2-4 sentences unless the question needs more detail. Don't generate a new workout unless explicitly asked.
 When the user references previous workouts from the conversation, use the context provided in earlier messages to answer accurately.`;
 
       // Build messages array with history
-      const chatMessages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [
+      const chatMessages: Array<
+        { role: "system" | "user" | "assistant"; content: string }
+      > = [
         { role: "system", content: systemPrompt },
       ];
 
       if (body.history?.length) {
         for (const h of body.history.slice(-16)) {
-          const role = h.role === "user" ? "user" as const : "assistant" as const;
+          const role = h.role === "user"
+            ? "user" as const
+            : "assistant" as const;
           let content = h.content;
           if (h.role === "user" && h.workoutContext) {
-            content = `[Viewing: ${(h.workoutContext as Record<string, unknown>).name}] ${content}`;
+            content = `[Viewing: ${
+              (h.workoutContext as Record<string, unknown>).name
+            }] ${content}`;
           }
           chatMessages.push({ role, content });
         }
@@ -355,12 +481,16 @@ When the user references previous workouts from the conversation, use the contex
         }
       }
       if (workoutMentions.length) {
-        enrichedPrompt += `[PREVIOUSLY DISCUSSED WORKOUTS]\n${workoutMentions.join("\n")}\n\n`;
+        enrichedPrompt += `[PREVIOUSLY DISCUSSED WORKOUTS]\n${
+          workoutMentions.join("\n")
+        }\n\n`;
       }
     }
 
     if (body.workoutContext) {
-      enrichedPrompt += `[CURRENT WORKOUT CONTEXT]\n${JSON.stringify(body.workoutContext)}\n\n`;
+      enrichedPrompt += `[CURRENT WORKOUT CONTEXT]\n${
+        JSON.stringify(body.workoutContext)
+      }\n\n`;
     }
     enrichedPrompt += `[USER MESSAGE]\n${body.prompt}`;
 
@@ -373,8 +503,12 @@ When the user references previous workouts from the conversation, use the contex
     aiSessions.set(result.session.id, result.session);
 
     const w = result.workout;
-    const exCount = w.sets.reduce((n: number, s: { exercises: unknown[] }) => n + s.exercises.length, 0);
-    let message = `Here's "${w.name}" — ${w.sets.length} sets, ${exCount} exercises`;
+    const exCount = w.sets.reduce(
+      (n: number, s: { exercises: unknown[] }) => n + s.exercises.length,
+      0,
+    );
+    let message =
+      `Here's "${w.name}" — ${w.sets.length} sets, ${exCount} exercises`;
     if (w.estimatedDuration) message += `, ~${w.estimatedDuration} min`;
     message += ".";
     if (w.tips?.length) message += ` Tip: ${w.tips[0]}`;
@@ -418,13 +552,16 @@ app.get("/static/*", async (c) => {
     // If it's an image request, try alternate extensions (png <-> jpg <-> jpeg)
     const ext = path.split(".").pop()?.toLowerCase();
     if (ext === "png" || ext === "jpg" || ext === "jpeg") {
-      const altExts = ["png", "jpg", "jpeg"].filter(e => e !== ext);
+      const altExts = ["png", "jpg", "jpeg"].filter((e) => e !== ext);
       for (const altExt of altExts) {
         const altPath = path.replace(/\.(png|jpg|jpeg)$/i, `.${altExt}`);
         try {
           const file = await Deno.readFile(new URL(altPath, import.meta.url));
-          const contentType = contentTypes[altExt] || "application/octet-stream";
-          return new Response(file, { headers: { "Content-Type": contentType } });
+          const contentType = contentTypes[altExt] ||
+            "application/octet-stream";
+          return new Response(file, {
+            headers: { "Content-Type": contentType },
+          });
         } catch {
           // Try next extension
         }
@@ -441,7 +578,7 @@ app.get("/manifest.json", (c) => {
 
 app.get("/sw.js", (c) => {
   return new Response(SERVICE_WORKER, {
-    headers: { "Content-Type": "application/javascript" }
+    headers: { "Content-Type": "application/javascript" },
   });
 });
 
@@ -453,7 +590,9 @@ app.get("/icon-192.png", async (c) => {
     return new Response(file, { headers: { "Content-Type": "image/png" } });
   } catch {
     // Fallback: return SVG as image
-    return new Response(ICON_SVG, { headers: { "Content-Type": "image/svg+xml" } });
+    return new Response(ICON_SVG, {
+      headers: { "Content-Type": "image/svg+xml" },
+    });
   }
 });
 
@@ -465,26 +604,62 @@ app.get("/icon-512.png", async (c) => {
     return new Response(file, { headers: { "Content-Type": "image/png" } });
   } catch {
     // Fallback: return SVG as image
-    return new Response(ICON_SVG, { headers: { "Content-Type": "image/svg+xml" } });
+    return new Response(ICON_SVG, {
+      headers: { "Content-Type": "image/svg+xml" },
+    });
   }
 });
 
 // Main page - also handle workout deep links
 app.get("/*", async (c) => {
-  const css = await Deno.readTextFile(new URL("./styles.css", import.meta.url)).catch(() => "");
-  const generatorJs = await Deno.readTextFile(new URL("./static/generator.js", import.meta.url)).catch(() => "");
-  const timelineJs = await Deno.readTextFile(new URL("./static/timeline.js", import.meta.url)).catch(() => "");
-  const timerJs = await Deno.readTextFile(new URL("./static/timer.js", import.meta.url)).catch(() => "");
-  const chatJs = await Deno.readTextFile(new URL("./static/chat.js", import.meta.url)).catch(() => "");
-  const linkifyJs = await Deno.readTextFile(new URL("./static/linkify.js", import.meta.url)).catch(() => "");
+  const css = await Deno.readTextFile(new URL("./styles.css", import.meta.url))
+    .catch(() => "");
+  const generatorJs = await Deno.readTextFile(
+    new URL("./static/generator.js", import.meta.url),
+  ).catch(() => "");
+  const timelineJs = await Deno.readTextFile(
+    new URL("./static/timeline.js", import.meta.url),
+  ).catch(() => "");
+  const timerJs = await Deno.readTextFile(
+    new URL("./static/timer.js", import.meta.url),
+  ).catch(() => "");
+  const chatJs = await Deno.readTextFile(
+    new URL("./static/chat.js", import.meta.url),
+  ).catch(() => "");
+  const linkifyJs = await Deno.readTextFile(
+    new URL("./static/linkify.js", import.meta.url),
+  ).catch(() => "");
+  const agentBaseUrl = Deno.env.get("WOD_AGENT_BASE_URL")?.trim() ?? "";
 
   // The page inlines the CSS/JS it was built from, so a cached copy pins the
   // whole app to an old version until someone hard-refreshes.
   c.header("Cache-Control", "no-cache");
-  return c.html(renderPage(css, generatorJs, timelineJs, timerJs, chatJs, linkifyJs));
+  return c.html(
+    renderPage(
+      css,
+      generatorJs,
+      timelineJs,
+      timerJs,
+      chatJs,
+      linkifyJs,
+      agentBaseUrl,
+    ),
+  );
 });
 
-function renderPage(css: string, generatorJs: string, timelineJs: string, timerJs: string, chatJs: string, linkifyJs: string) {
+function renderPage(
+  css: string,
+  generatorJs: string,
+  timelineJs: string,
+  timerJs: string,
+  chatJs: string,
+  linkifyJs: string,
+  agentBaseUrl: string,
+) {
+  const agentBaseUrlJson = JSON.stringify(agentBaseUrl).replaceAll(
+    "<",
+    "\\u003c",
+  );
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1723,7 +1898,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
       <div class="chat-panel-header">
         <div class="chat-panel-title">
           <span class="iconify" data-icon="lucide:bot"></span>
-          <span>AI Coach</span>
+          <span>WOD Builder</span>
         </div>
         <div class="chat-panel-actions">
           <button class="chat-action-btn" @click="clearChat()" title="Clear chat">
@@ -1735,22 +1910,20 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         </div>
       </div>
 
-      <template x-if="selectedWorkout">
-        <div class="chat-context-bar">
-          <span class="iconify" data-icon="lucide:eye"></span>
-          <span x-text="'Viewing: ' + selectedWorkout.name"></span>
-        </div>
-      </template>
+      <div class="chat-context-bar">
+        <span class="iconify" data-icon="lucide:globe-2"></span>
+        <span>Public prototype · free Nemotron · do not send private information</span>
+      </div>
 
       <div class="chat-messages">
         <template x-if="chatMessages.length === 0">
           <div class="chat-empty">
             <span class="iconify" data-icon="lucide:message-square" style="font-size: 2rem; opacity: 0.3;"></span>
-            <p>Ask me to modify your workout, generate a new one, or explain exercises.</p>
+            <p>Pi can inspect or change the WOD project running in this smolbox.</p>
             <div class="chat-suggestions">
-              <button class="chat-suggestion" @click="chatInput = 'Make this workout harder'; sendChatMessage()">Make it harder</button>
-              <button class="chat-suggestion" @click="chatInput = 'Add more core exercises'; sendChatMessage()">Add more core</button>
-              <button class="chat-suggestion" @click="chatInput = 'Generate a 20 min bodyweight workout'; sendChatMessage()">Quick bodyweight</button>
+              <button class="chat-suggestion" @click="chatInput = 'Summarize this WOD project and its current git status.'; sendChatMessage()">Inspect project</button>
+              <button class="chat-suggestion" @click="chatInput = 'Explain how the current page is assembled.'; sendChatMessage()">Explain this page</button>
+              <button class="chat-suggestion" @click="chatInput = 'Make one small visible improvement, run the relevant check, and summarize it.'; sendChatMessage()">Improve WOD</button>
             </div>
           </div>
         </template>
@@ -1782,7 +1955,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
           class="chat-input-field"
           x-model="chatInput"
           @keydown.enter="sendChatMessage()"
-          placeholder="Ask about this workout..."
+          placeholder="Ask Pi to inspect or change WOD..."
           :disabled="chatLoading"
         />
         <button class="chat-send-btn" @click="sendChatMessage()" :disabled="!chatInput.trim() || chatLoading">
@@ -1805,6 +1978,8 @@ ${generatorJs}
 ${timelineJs}
 
 ${timerJs}
+
+globalThis.WOD_AGENT_BASE_URL = ${agentBaseUrlJson};
 
 ${chatJs}
 
