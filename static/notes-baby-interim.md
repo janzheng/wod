@@ -1,4 +1,4 @@
-# Baby Interim — Home Gym Playbook
+# Home Apartment Gym Playbook
 
 **This is a menu, not a schedule.** The numbered weeks assume you control your calendar. For the next stretch you don't. So this page replaces "what day is it" with "how much time and how wrecked am I" — and you pick from the list.
 
