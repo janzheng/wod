@@ -20,7 +20,7 @@ function wodAgentPageContext(state, route) {
       kind: 'exercise-library',
       title: 'Exercise Library',
       route: browserRoute,
-      sourcePath: 'static/exercises.json',
+      sourcePath: 'exercises',
     };
   }
 
@@ -53,7 +53,7 @@ function wodAgentPageContext(state, route) {
       kind: 'workout',
       title: state.selectedWorkout.name || state.selectedWorkout.id || 'Workout',
       route: browserRoute,
-      sourcePath: 'static/workouts.json',
+      sourcePath: 'workouts',
     };
   }
 
@@ -76,6 +76,8 @@ function chatPanel() {
     chatMessages: [],
     chatSessionId: null,
     customWorkouts: [],
+    chatRequestController: null,
+    chatRequestSerial: 0,
 
     initChat() {
       try {
@@ -120,8 +122,12 @@ function chatPanel() {
 
       var userMsg = { role: 'user', content: msg, timestamp: Date.now() };
       this.chatMessages.push(userMsg);
+      this.persistChatMessages();
       this.chatInput = '';
       this.chatLoading = true;
+      var requestSerial = ++this.chatRequestSerial;
+      var controller = new AbortController();
+      this.chatRequestController = controller;
       this.scrollChatToBottom();
       this.focusChatInput();
 
@@ -134,7 +140,10 @@ function chatPanel() {
             sessionId: this.chatSessionId,
             pageContext: this.getAgentPageContext(),
           }),
+          signal: controller.signal,
         });
+
+        if (requestSerial !== this.chatRequestSerial) return;
 
         if (!res.ok) {
           var errData = await res.json().catch(function() { return {}; });
@@ -154,13 +163,17 @@ function chatPanel() {
 
         this.persistChatMessages();
       } catch (err) {
+        if (requestSerial !== this.chatRequestSerial || err.name === 'AbortError') return;
         this.chatMessages.push({
           role: 'assistant',
           content: 'Error: ' + err.message,
           error: true,
           timestamp: Date.now(),
         });
+        this.persistChatMessages();
       } finally {
+        if (requestSerial !== this.chatRequestSerial) return;
+        this.chatRequestController = null;
         this.chatLoading = false;
         this.scrollChatToBottom();
         this.focusChatInput();
@@ -223,10 +236,24 @@ function chatPanel() {
     },
 
     clearChat() {
+      var sessionId = this.chatSessionId;
+      this.chatRequestSerial += 1;
+      if (this.chatRequestController) this.chatRequestController.abort();
+      this.chatRequestController = null;
+      this.chatLoading = false;
       this.chatMessages = [];
       this.chatSessionId = null;
       localStorage.removeItem('wod-chat-messages');
       localStorage.removeItem('wod-chat-session-id');
+      if (sessionId) {
+        fetch(this.getAgentChatUrl().replace(/\/chat$/, '/session'), {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ sessionId: sessionId }),
+        }).catch(function(error) {
+          console.warn('Could not clear Pi session:', error);
+        });
+      }
     },
 
     renderMarkdown(text) {
@@ -253,3 +280,5 @@ function chatPanel() {
     },
   };
 }
+
+globalThis.wodChatPanel = chatPanel;

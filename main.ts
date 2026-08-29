@@ -6,8 +6,16 @@ import type { ConversationSession } from "./src/ai/types.ts";
 import {
   createPiAgent,
   PiAgentBusyError,
+  PiAgentCancelledError,
+  PiAgentCapacityError,
   PiAgentProcessError,
+  PiAgentSessionLimitError,
+  PiAgentTimeoutError,
 } from "./src/ai/pi-agent.ts";
+import {
+  readAgentJson,
+  RequestBodyTooLargeError,
+} from "./src/ai/http-boundary.ts";
 
 const app = new Hono();
 const piAgent = createPiAgent();
@@ -45,7 +53,7 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v5';
+const CACHE_NAME = 'wod-v6';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
@@ -66,6 +74,18 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request).then((response) => {
+        if (response.ok) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put('/', clone));
+        }
+        return response;
+      }).catch(() => caches.match('/').then((cached) => cached || Response.error()))
+    );
+    return;
+  }
   event.respondWith(
     caches.match(event.request).then((cached) => {
       const fetchPromise = fetch(event.request).then((response) => {
@@ -280,10 +300,16 @@ app.get("/api/ai/search", async (c) => {
 const AGENT_CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "Content-Type",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Methods": "POST, DELETE, OPTIONS",
 };
 
 app.options("/api/ai/chat", () =>
+  new Response(null, {
+    status: 204,
+    headers: AGENT_CORS_HEADERS,
+  }));
+
+app.options("/api/ai/session", () =>
   new Response(null, {
     status: 204,
     headers: AGENT_CORS_HEADERS,
@@ -296,12 +322,19 @@ app.post("/api/ai/chat", async (c) => {
   }
   c.header("Cache-Control", "no-store");
 
-  const body = await c.req.json<{
+  let body: {
     prompt?: unknown;
     sessionId?: unknown;
     pageContext?: unknown;
-  }>()
-    .catch(() => null);
+  } | null;
+  try {
+    body = await readAgentJson(c.req.raw) as typeof body;
+  } catch (error) {
+    if (error instanceof RequestBodyTooLargeError) {
+      return c.json({ error: error.message }, 413);
+    }
+    return c.json({ error: "invalid JSON body" }, 400);
+  }
   if (!body || typeof body.prompt !== "string" || !body.prompt.trim()) {
     return c.json({ error: "prompt is required" }, 400);
   }
@@ -313,6 +346,7 @@ app.post("/api/ai/chat", async (c) => {
         ? body.sessionId
         : undefined,
       pageContext: body.pageContext,
+      signal: c.req.raw.signal,
     });
     return c.json({
       message: result.message,
@@ -325,12 +359,59 @@ app.post("/api/ai/chat", async (c) => {
     if (error instanceof PiAgentBusyError) {
       return c.json({ error: "This builder session is already working." }, 409);
     }
+    if (
+      error instanceof PiAgentCapacityError ||
+      error instanceof PiAgentSessionLimitError
+    ) {
+      c.header("Retry-After", "5");
+      return c.json({ error: error.message }, 429);
+    }
+    if (error instanceof PiAgentTimeoutError) {
+      return c.json({ error: "Pi exceeded the ten-minute turn limit." }, 504);
+    }
+    if (error instanceof PiAgentCancelledError) {
+      return c.json({ error: "Pi request was cancelled." }, 408);
+    }
+    if (error instanceof TypeError) {
+      return c.json({ error: error.message }, 400);
+    }
     if (error instanceof PiAgentProcessError) {
       console.error("Pi web agent error:", error.message);
       return c.json({ error: "Pi could not complete this request." }, 502);
     }
     console.error("Pi web agent error:", error);
     return c.json({ error: "The WOD builder failed." }, 500);
+  }
+});
+
+app.delete("/api/ai/session", async (c) => {
+  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
+    c.header(name, value);
+  }
+  c.header("Cache-Control", "no-store");
+
+  let body: { sessionId?: unknown } | null;
+  try {
+    body = await readAgentJson(c.req.raw) as typeof body;
+  } catch (error) {
+    if (error instanceof RequestBodyTooLargeError) {
+      return c.json({ error: error.message }, 413);
+    }
+    return c.json({ error: "invalid JSON body" }, 400);
+  }
+  if (!body || typeof body.sessionId !== "string") {
+    return c.json({ error: "sessionId is required" }, 400);
+  }
+
+  try {
+    await piAgent.clearSession(body.sessionId);
+    return new Response(null, { status: 204, headers: AGENT_CORS_HEADERS });
+  } catch (error) {
+    if (error instanceof TypeError) {
+      return c.json({ error: error.message }, 400);
+    }
+    console.error("Could not clear Pi web session:", error);
+    return c.json({ error: "Pi session could not be cleared." }, 500);
   }
 });
 

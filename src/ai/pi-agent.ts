@@ -4,6 +4,10 @@ const decoder = new TextDecoder();
 export const PI_PROVIDER = "openrouter";
 export const PI_MODEL = "nvidia/nemotron-3-super-120b-a12b:free";
 export const PI_TOOLS = "read,bash,edit,write,grep,find,ls";
+export const PI_MAX_CONCURRENT_TURNS = 4;
+export const PI_MAX_PROMPT_BYTES = 16 * 1024;
+export const PI_MAX_SESSIONS = 256;
+export const PI_TURN_TIMEOUT_MS = 10 * 60 * 1000;
 
 const DEFAULT_BINARY = "/usr/local/bin/pi";
 const DEFAULT_WORKDIR = "/workspace";
@@ -36,6 +40,7 @@ export type PiCommandSpec = {
   binary: string;
   args: string[];
   cwd: string;
+  signal?: AbortSignal;
 };
 
 export type PiCommandResult = {
@@ -53,12 +58,18 @@ export type PiAgentOptions = {
   sessionRoot?: string;
   prepareSessionRoot?: (path: string) => Promise<void>;
   runCommand?: PiCommandRunner;
+  listSessionIds?: (path: string) => Promise<string[]>;
+  removeSession?: (path: string) => Promise<void>;
+  maxConcurrentTurns?: number;
+  maxSessions?: number;
+  timeoutMs?: number;
 };
 
 export type PiAgentRequest = {
   prompt: string;
   sessionId?: string;
   pageContext?: unknown;
+  signal?: AbortSignal;
 };
 
 export type PiAgentReply = {
@@ -70,6 +81,34 @@ export class PiAgentBusyError extends Error {
   constructor(sessionId: string) {
     super(`Pi session is already running: ${sessionId}`);
     this.name = "PiAgentBusyError";
+  }
+}
+
+export class PiAgentCapacityError extends Error {
+  constructor(message = "WOD Builder is at capacity") {
+    super(message);
+    this.name = "PiAgentCapacityError";
+  }
+}
+
+export class PiAgentSessionLimitError extends Error {
+  constructor() {
+    super("WOD Builder session limit reached; clear an old session first");
+    this.name = "PiAgentSessionLimitError";
+  }
+}
+
+export class PiAgentTimeoutError extends Error {
+  constructor() {
+    super("Pi turn exceeded its deadline");
+    this.name = "PiAgentTimeoutError";
+  }
+}
+
+export class PiAgentCancelledError extends Error {
+  constructor() {
+    super("Pi turn was cancelled");
+    this.name = "PiAgentCancelledError";
   }
 }
 
@@ -134,8 +173,8 @@ export function formatPiPrompt(
     `Title: ${JSON.stringify(pageContext.title)}`,
     `Browser route: ${JSON.stringify(pageContext.route)}`,
     `Project source: /workspace/${pageContext.sourcePath}`,
-    'When the user says "this page", they mean the source file above.',
-    "This pointer does not contain the file contents. Before making any claim about those contents, use a project tool to inspect that source file during this turn.",
+    'When the user says "this page", they mean the source path above.',
+    "This pointer does not contain the source contents. Before making any claim about those contents, use a project tool to inspect that source path during this turn.",
     "[/WOD page context]",
     "",
     "[User request]",
@@ -147,18 +186,79 @@ async function defaultPrepareSessionRoot(path: string): Promise<void> {
   await Deno.mkdir(path, { recursive: true, mode: 0o700 });
 }
 
+async function defaultListSessionIds(path: string): Promise<string[]> {
+  const ids: string[] = [];
+  try {
+    for await (const entry of Deno.readDir(path)) {
+      if (!entry.isFile || !entry.name.endsWith(".jsonl")) continue;
+      const id = entry.name.slice(0, -".jsonl".length);
+      if (SESSION_ID.test(id)) ids.push(id);
+    }
+  } catch (error) {
+    if (error instanceof Deno.errors.NotFound) return [];
+    throw error;
+  }
+  return ids;
+}
+
+async function defaultRemoveSession(path: string): Promise<void> {
+  try {
+    await Deno.remove(path);
+  } catch (error) {
+    if (!(error instanceof Deno.errors.NotFound)) throw error;
+  }
+}
+
+function abortReason(signal: AbortSignal): Error {
+  return signal.reason instanceof Error
+    ? signal.reason
+    : new PiAgentCancelledError();
+}
+
 async function defaultRunCommand(
   spec: PiCommandSpec,
 ): Promise<PiCommandResult> {
-  const output = await new Deno.Command(spec.binary, {
+  const child = new Deno.Command(spec.binary, {
     args: spec.args,
     cwd: spec.cwd,
     stdin: "null",
     stdout: "piped",
     stderr: "piped",
-  }).output();
+  }).spawn();
 
-  return output;
+  let forceKill: number | undefined;
+  let rejectAbort: ((error: Error) => void) | undefined;
+  const abortPromise = new Promise<never>((_resolve, reject) => {
+    rejectAbort = reject;
+  });
+  const stop = () => {
+    try {
+      child.kill("SIGTERM");
+    } catch {
+      // The child may have exited between the signal and this callback.
+    }
+    forceKill = setTimeout(() => {
+      try {
+        child.kill("SIGKILL");
+      } catch {
+        // Already reaped.
+      }
+    }, 2_000);
+    rejectAbort?.(abortReason(spec.signal!));
+  };
+
+  if (spec.signal?.aborted) stop();
+  else spec.signal?.addEventListener("abort", stop, { once: true });
+
+  try {
+    const output = await Promise.race([child.output(), abortPromise]);
+    return output;
+  } finally {
+    spec.signal?.removeEventListener("abort", stop);
+    if (forceKill !== undefined && !spec.signal?.aborted) {
+      clearTimeout(forceKill);
+    }
+  }
 }
 
 export function piArguments(sessionPath: string, prompt: string): string[] {
@@ -192,28 +292,71 @@ export function createPiAgent(options: PiAgentOptions = {}) {
   const prepareSessionRoot = options.prepareSessionRoot ??
     defaultPrepareSessionRoot;
   const runCommand = options.runCommand ?? defaultRunCommand;
+  const listSessionIds = options.listSessionIds ?? defaultListSessionIds;
+  const removeSession = options.removeSession ?? defaultRemoveSession;
+  const maxConcurrentTurns = options.maxConcurrentTurns ??
+    PI_MAX_CONCURRENT_TURNS;
+  const maxSessions = options.maxSessions ?? PI_MAX_SESSIONS;
+  const timeoutMs = options.timeoutMs ?? PI_TURN_TIMEOUT_MS;
   const activeSessions = new Set<string>();
+  const pendingDeletes = new Set<string>();
+  let sessionIdsPromise: Promise<Set<string>> | undefined;
+
+  async function knownSessionIds(): Promise<Set<string>> {
+    if (!sessionIdsPromise) {
+      sessionIdsPromise = (async () => {
+        await prepareSessionRoot(sessionRoot);
+        return new Set(await listSessionIds(sessionRoot));
+      })();
+    }
+    try {
+      return await sessionIdsPromise;
+    } catch (error) {
+      sessionIdsPromise = undefined;
+      const detail = error instanceof Error ? error.message : String(error);
+      throw new PiAgentProcessError(
+        `Pi session state is unavailable: ${detail}`,
+      );
+    }
+  }
 
   return {
     async chat(request: PiAgentRequest): Promise<PiAgentReply> {
       const prompt = request.prompt?.trim();
       if (!prompt) throw new TypeError("prompt is required");
+      if (encoder.encode(prompt).byteLength > PI_MAX_PROMPT_BYTES) {
+        throw new TypeError(
+          `prompt exceeds ${PI_MAX_PROMPT_BYTES} UTF-8 bytes`,
+        );
+      }
 
       const sessionId = defaultSessionId(request.sessionId);
       if (activeSessions.has(sessionId)) throw new PiAgentBusyError(sessionId);
+      if (activeSessions.size >= maxConcurrentTurns) {
+        throw new PiAgentCapacityError();
+      }
       activeSessions.add(sessionId);
 
       try {
-        try {
-          await prepareSessionRoot(sessionRoot);
-        } catch (error) {
-          const detail = error instanceof Error ? error.message : String(error);
-          throw new PiAgentProcessError(
-            `Pi session state is unavailable: ${detail}`,
-          );
+        const knownSessions = await knownSessionIds();
+        if (!knownSessions.has(sessionId)) {
+          if (knownSessions.size >= maxSessions) {
+            throw new PiAgentSessionLimitError();
+          }
+          knownSessions.add(sessionId);
         }
         const sessionPath = `${sessionRoot}/${sessionId}.jsonl`;
         let result: PiCommandResult;
+        const turnController = new AbortController();
+        const cancelTurn = () =>
+          turnController.abort(new PiAgentCancelledError());
+        if (request.signal?.aborted) cancelTurn();
+        else {
+          request.signal?.addEventListener("abort", cancelTurn, { once: true });
+        }
+        const timeout = setTimeout(() => {
+          turnController.abort(new PiAgentTimeoutError());
+        }, timeoutMs);
 
         try {
           const turnPrompt = formatPiPrompt(
@@ -224,10 +367,21 @@ export function createPiAgent(options: PiAgentOptions = {}) {
             binary,
             args: piArguments(sessionPath, turnPrompt),
             cwd: workdir,
+            signal: turnController.signal,
           });
         } catch (error) {
+          if (
+            error instanceof PiAgentTimeoutError ||
+            error instanceof PiAgentCancelledError ||
+            error instanceof PiAgentSessionLimitError
+          ) {
+            throw error;
+          }
           const detail = error instanceof Error ? error.message : String(error);
           throw new PiAgentProcessError(`Pi could not start: ${detail}`);
+        } finally {
+          clearTimeout(timeout);
+          request.signal?.removeEventListener("abort", cancelTurn);
         }
 
         if (!result.success) {
@@ -249,7 +403,28 @@ export function createPiAgent(options: PiAgentOptions = {}) {
         return { message, sessionId };
       } finally {
         activeSessions.delete(sessionId);
+        if (pendingDeletes.delete(sessionId)) {
+          const knownSessions = await knownSessionIds();
+          knownSessions.delete(sessionId);
+          await removeSession(`${sessionRoot}/${sessionId}.jsonl`).catch(
+            (error) => console.error("Could not clear Pi session:", error),
+          );
+        }
       }
+    },
+
+    async clearSession(value: string): Promise<void> {
+      const sessionId = value.trim();
+      if (!SESSION_ID.test(sessionId)) {
+        throw new TypeError("valid sessionId is required");
+      }
+      const knownSessions = await knownSessionIds();
+      knownSessions.delete(sessionId);
+      if (activeSessions.has(sessionId)) {
+        pendingDeletes.add(sessionId);
+        return;
+      }
+      await removeSession(`${sessionRoot}/${sessionId}.jsonl`);
     },
   };
 }

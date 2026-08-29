@@ -42,7 +42,7 @@ Deno.test("chat context: maps WOD's ordinary data views to canonical sources", (
         kind: "exercise-library",
         title: "Exercise Library",
         route: "/exercise-library",
-        sourcePath: "static/exercises.json",
+        sourcePath: "exercises",
       },
     ],
     [
@@ -55,7 +55,7 @@ Deno.test("chat context: maps WOD's ordinary data views to canonical sources", (
         kind: "workout",
         title: "Push A",
         route: "/push-a",
-        sourcePath: "static/workouts.json",
+        sourcePath: "workouts",
       },
     ],
     [
