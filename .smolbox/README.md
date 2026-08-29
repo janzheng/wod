@@ -19,7 +19,8 @@ Each browser turn also sends the current WOD view's title, route, and
 project-relative source path. It does not copy the rendered page contents. When
 you ask about “this page,” Pi is instructed to inspect that source file with a
 project tool before answering. Notes map to their Markdown file; workout and
-exercise views map to the compiled JSON; program and activity views map to the
+exercise views map to their canonical `workouts/` and `exercises/` source
+directories; program and activity views map to the
 program JSON. This is the normal WOD Builder path, not a separate smolbox-only
 chat implementation.
 
