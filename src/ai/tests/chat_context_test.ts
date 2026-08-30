@@ -21,7 +21,7 @@ const chatHelpers = globalThis as typeof globalThis & {
   wodAgentSessionLabel: (sessionId: string | null) => string;
   wodAgentTargetLabel: (context: Partial<PageContext> | null) => string;
   wodAgentPreviewUrl: (
-    messages: Array<{ role: string; content: string }>,
+    messages: Array<{ role: string; content: string; timestamp?: number }>,
   ) => string;
 };
 
@@ -130,9 +130,10 @@ Deno.test("chat ergonomics: exposes only safe static paths as previews", () => {
         role: "assistant",
         content:
           "Created `/workspace/static/collaboration-proof/swim.svg` and checked it.",
+        timestamp: 1788107000123,
       },
     ]),
-    "/static/collaboration-proof/swim.svg",
+    "/static/collaboration-proof/swim.svg?v=1788107000123",
   );
   assertEquals(
     chatHelpers.wodAgentPreviewUrl([

@@ -92,7 +92,12 @@ function wodAgentPreviewUrl(messages) {
 
     var relativePath = match[1].replace(/[.,;:!?`'"\)\]\}]+$/, '');
     if (!relativePath || relativePath.split('/').includes('..')) continue;
-    return '/static/' + relativePath.split('/').map(encodeURIComponent).join('/');
+    var previewUrl = '/static/' + relativePath.split('/').map(encodeURIComponent).join('/');
+    var messageTimestamp = Number(message.timestamp);
+    if (Number.isFinite(messageTimestamp) && messageTimestamp > 0) {
+      previewUrl += '?v=' + Math.trunc(messageTimestamp);
+    }
+    return previewUrl;
   }
 
   return '';

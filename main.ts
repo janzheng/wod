@@ -53,7 +53,7 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v7';
+const CACHE_NAME = 'wod-v8';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
