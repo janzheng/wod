@@ -9,5 +9,21 @@
     "start": ["deno","task","dev"]
   },
   "port": 8010,
+  "snapshot": {
+    "source": "static",
+    "exclude": [
+      "chat.js",
+      "collaboration-proof",
+      "data-room.js",
+      "generator.js",
+      "images",
+      "linkify.js",
+      "new-images",
+      "old-images",
+      "sounds",
+      "timeline.js",
+      "timer.js"
+    ]
+  },
   "optionalSecretNames": ["GEMINI_API_KEY","GROQ_API_KEY"]
 }
