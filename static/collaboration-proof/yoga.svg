@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <title>Yoga Session — Collaboration Proof</title>
+  <desc>A standalone SVG proof showing three concise yoga-session sections for collaboration demonstration.</desc>
+  <style>
+    .background { fill: #f9f9f9; }
+    .title { font: bold 24px sans-serif; fill: #2c3e50; }
+    .section-title { font: bold 18px sans-serif; fill: #34495e; }
+    .section-text { font: 14px sans-serif; fill: #555; }
+    .divider { stroke: #bdc3c7; stroke-width: 1; }
+  </style>
+  <rect class="background" width="800" height="600"/>
+  <text x="400" y="50" text-anchor="middle" class="title">Yoga Session — Collaboration Proof</text>
+  <line x1="100" y1="70" x2="700" y2="70" class="divider"/>
+  
+  <!-- Section 1: Centering -->
+  <g transform="translate(0, 90)">
+    <text x="50" y="0" class="section-title">1. Centering (5 min)</text>
+    <text x="50" y="25" class="section-text">Seated breath awareness, gentle neck rolls, and setting intention for practice.</text>
+  </g>
+  
+  <!-- Section 2: Flow -->
+  <g transform="translate(0, 180)">
+    <text x="50" y="0" class="section-title">2. Flow (15 min)</text>
+    <text x="50" y="25" class="section-text">Sun Salutation variations, standing poses, and balanced twists to build heat and focus.</text>
+  </g>
+  
+  <!-- Section 3: Restoration -->
+  <g transform="translate(0, 270)">
+    <text x="50" y="0" class="section-title">3. Restoration (10 min)</text>
+    <text x="50" y="25" class="section-text">Supported forward folds, supine twists, and Savasana to integrate and release tension.</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="400" y="560" text-anchor="middle" font="12px sans-serif" fill="#95a5a6">
+    Collaboration proof • WOD • Static SVG
+  </text>
+</svg>

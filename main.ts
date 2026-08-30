@@ -53,7 +53,7 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v6';
+const CACHE_NAME = 'wod-v7';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
@@ -1985,8 +1985,17 @@ function renderPage(
         <div class="chat-panel-title">
           <span class="iconify" data-icon="lucide:bot"></span>
           <span>WOD Builder</span>
+          <span
+            class="chat-status"
+            :class="'is-' + chatStatusLabel()"
+            x-text="chatStatusLabel()"
+            aria-live="polite"
+          ></span>
         </div>
         <div class="chat-panel-actions">
+          <button class="chat-action-btn" @click="refreshCurrentPage()" title="Refresh current page">
+            <span class="iconify" data-icon="lucide:refresh-cw"></span>
+          </button>
           <button class="chat-action-btn" @click="clearChat()" title="Clear chat">
             <span class="iconify" data-icon="lucide:trash-2"></span>
           </button>
@@ -1997,8 +2006,25 @@ function renderPage(
       </div>
 
       <div class="chat-context-bar">
-        <span class="iconify" data-icon="lucide:globe-2"></span>
-        <span>Public prototype · free Nemotron · do not send private information</span>
+        <div class="chat-context-row">
+          <span class="chat-context-key">target</span>
+          <span class="chat-context-value" x-text="chatTargetLabel()"></span>
+        </div>
+        <div class="chat-context-row">
+          <span class="chat-context-key">session</span>
+          <code class="chat-context-value" x-text="chatSessionLabel()"></code>
+          <a
+            class="chat-preview-link"
+            x-show="latestChatPreviewUrl()"
+            :href="latestChatPreviewUrl()"
+            target="_blank"
+            rel="noopener noreferrer"
+          >open preview</a>
+        </div>
+        <div class="chat-context-row chat-context-warning">
+          <span class="iconify" data-icon="lucide:globe-2"></span>
+          <span>Public prototype · free Nemotron · do not send private information</span>
+        </div>
       </div>
 
       <div class="chat-messages">
@@ -2030,7 +2056,10 @@ function renderPage(
 
         <template x-if="chatLoading">
           <div class="chat-message assistant">
-            <div class="chat-typing"><span></span><span></span><span></span></div>
+            <div class="chat-typing" aria-label="Agent working">
+              <span></span><span></span><span></span>
+              <strong>working</strong>
+            </div>
           </div>
         </template>
       </div>

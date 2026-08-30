@@ -17,6 +17,14 @@ const pageContext = (
   }
 ).wodAgentPageContext;
 
+const chatHelpers = globalThis as typeof globalThis & {
+  wodAgentSessionLabel: (sessionId: string | null) => string;
+  wodAgentTargetLabel: (context: Partial<PageContext> | null) => string;
+  wodAgentPreviewUrl: (
+    messages: Array<{ role: string; content: string }>,
+  ) => string;
+};
+
 Deno.test("chat context: maps the visible notes page to its Markdown source", () => {
   assertEquals(
     pageContext({
@@ -94,4 +102,51 @@ Deno.test("chat context: maps WOD's ordinary data views to canonical sources", (
   for (const [state, route, expected] of cases) {
     assertEquals(pageContext(state, route), expected);
   }
+});
+
+Deno.test("chat ergonomics: makes the active session and target legible", () => {
+  assertEquals(chatHelpers.wodAgentSessionLabel(null), "new");
+  assertEquals(
+    chatHelpers.wodAgentSessionLabel("3177c877-7767-4f28-8206-c642297be09d"),
+    "3177c877",
+  );
+  assertEquals(
+    chatHelpers.wodAgentSessionLabel("collab-swim-20260830"),
+    "collab-swim-20260830",
+  );
+  assertEquals(
+    chatHelpers.wodAgentTargetLabel({
+      title: "Hip & Lower Back Flow",
+      route: "/hip-lower-back-flow",
+    }),
+    "Hip & Lower Back Flow · /hip-lower-back-flow",
+  );
+});
+
+Deno.test("chat ergonomics: exposes only safe static paths as previews", () => {
+  assertEquals(
+    chatHelpers.wodAgentPreviewUrl([
+      {
+        role: "assistant",
+        content:
+          "Created `/workspace/static/collaboration-proof/swim.svg` and checked it.",
+      },
+    ]),
+    "/static/collaboration-proof/swim.svg",
+  );
+  assertEquals(
+    chatHelpers.wodAgentPreviewUrl([
+      {
+        role: "assistant",
+        content: "Read /workspace/static/../.env",
+      },
+    ]),
+    "",
+  );
+  assertEquals(
+    chatHelpers.wodAgentPreviewUrl([
+      { role: "user", content: "/workspace/static/private.txt" },
+    ]),
+    "",
+  );
 });

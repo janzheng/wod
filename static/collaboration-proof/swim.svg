@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+  <title>Swim Session — Collaboration Proof</title>
+  <desc>An accessible SVG proof page for swim training collaboration.</desc>
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#333">Swim Session — Collaboration Proof</text>
+  <!-- Section 1: Warm-up -->
+  <text x="100" y="100" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Warm-up</text>
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="14" fill="#34495e">Easy 200m freestyle, 4x50m kick on back, 4x50m drill choice</text>
+  <!-- Section 2: Main set -->
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Main set</text>
+  <text x="100" y="230" font-family="Arial, sans-serif" font-size="14" fill="#34495e">5x100m freestyle @ 1:30, 4x50m pull with paddles, 8x25m sprint @ :30</text>
+  <!-- Section 3: Cool-down -->
+  <text x="100" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Cool-down</text>
+  <text x="100" y="330" font-family="Arial, sans-serif" font-size="14" fill="#34495e">Easy 200m choice, 4x50m backstroke, 200m float/relax</text>
+  <!-- Simple lane lines at the bottom -->
+  <g stroke="#bdc3c7" stroke-width="2">
+    <line x1="50" y1="450" x2="750" y2="450"/>
+    <line x1="50" y1="500" x2="750" y2="500"/>
+    <line x1="50" y1="550" x2="750" y2="550"/>
+  </g>
+  <!-- Accessibility: ensure sufficient contrast -->
+  <style type="text/css"><![CDATA[
+    text { font-family: Arial, sans-serif; }
+  ]]></style>
+</svg>

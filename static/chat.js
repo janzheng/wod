@@ -67,6 +67,41 @@ function wodAgentPageContext(state, route) {
 
 globalThis.wodAgentPageContext = wodAgentPageContext;
 
+function wodAgentSessionLabel(sessionId) {
+  if (!sessionId) return 'new';
+  var value = String(sessionId);
+  if (/^[0-9a-f]{8}-[0-9a-f-]{27}$/i.test(value)) return value.slice(0, 8);
+  return value.length > 24 ? value.slice(0, 21) + '…' : value;
+}
+
+function wodAgentTargetLabel(context) {
+  var title = context && context.title ? String(context.title) : 'WOD';
+  var route = context && context.route ? String(context.route) : '/';
+  return title + ' · ' + route;
+}
+
+function wodAgentPreviewUrl(messages) {
+  if (!Array.isArray(messages)) return '';
+
+  for (var index = messages.length - 1; index >= 0; index -= 1) {
+    var message = messages[index];
+    if (!message || message.role !== 'assistant' || typeof message.content !== 'string') continue;
+
+    var match = message.content.match(/\/workspace\/static\/([A-Za-z0-9][A-Za-z0-9._\/-]*)/);
+    if (!match) continue;
+
+    var relativePath = match[1].replace(/[.,;:!?`'"\)\]\}]+$/, '');
+    if (!relativePath || relativePath.split('/').includes('..')) continue;
+    return '/static/' + relativePath.split('/').map(encodeURIComponent).join('/');
+  }
+
+  return '';
+}
+
+globalThis.wodAgentSessionLabel = wodAgentSessionLabel;
+globalThis.wodAgentTargetLabel = wodAgentTargetLabel;
+globalThis.wodAgentPreviewUrl = wodAgentPreviewUrl;
+
 function chatPanel() {
   return {
     // Chat panel state
@@ -114,6 +149,30 @@ function chatPanel() {
 
     getAgentPageContext() {
       return globalThis.wodAgentPageContext(this, globalThis.location?.pathname || '/');
+    },
+
+    chatSessionLabel() {
+      return globalThis.wodAgentSessionLabel(this.chatSessionId);
+    },
+
+    chatTargetLabel() {
+      return globalThis.wodAgentTargetLabel(this.getAgentPageContext());
+    },
+
+    chatStatusLabel() {
+      if (this.chatLoading) return 'working';
+      var lastMessage = this.chatMessages[this.chatMessages.length - 1];
+      if (lastMessage && lastMessage.error) return 'error';
+      if (lastMessage && lastMessage.role === 'assistant') return 'complete';
+      return 'ready';
+    },
+
+    latestChatPreviewUrl() {
+      return globalThis.wodAgentPreviewUrl(this.chatMessages);
+    },
+
+    refreshCurrentPage() {
+      globalThis.location.reload();
     },
 
     async sendChatMessage() {
