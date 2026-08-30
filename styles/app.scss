@@ -1978,6 +1978,9 @@ html, body {
   &.is-working { color: #92400e; background: #fef3c7; }
   &.is-complete { color: #166534; background: #dcfce7; }
   &.is-error { color: #991b1b; background: #fee2e2; }
+  &.is-checking { color: #075985; background: #e0f2fe; }
+  &.is-online { color: #166534; background: #dcfce7; }
+  &.is-offline { color: #991b1b; background: #fee2e2; }
 }
 
 .chat-panel-actions {
@@ -2258,11 +2261,17 @@ html, body {
   .iconify { width: 1rem; height: 1rem; }
 }
 
-.chat-toggle-btn {
+.assistant-toggle-group {
   display: flex;
   align-items: center;
   gap: 0.375rem;
   margin-left: auto;
+}
+
+.chat-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
   padding: 0.25rem 0.625rem;
   border: 1px solid var(--color-border, #e5e7eb);
   border-radius: 0.375rem;
@@ -2278,6 +2287,69 @@ html, body {
   }
 
   .iconify { width: 1rem; height: 1rem; }
+}
+
+.data-room-toggle-btn:hover,
+.data-room-toggle-btn.active {
+  border-color: #86efac;
+  background: #f0fdf4;
+  color: #166534;
+}
+
+.data-room-panel {
+  border-left-color: #86efac;
+  box-shadow: inset 3px 0 0 #22c55e;
+}
+
+.data-room-context-bar {
+  background: #f0fdf4;
+}
+
+.data-room-readonly-warning {
+  color: #166534;
+}
+
+.data-room-message-content {
+  white-space: pre-wrap;
+}
+
+.data-room-message.is-error .data-room-message-content {
+  border-color: #fecaca;
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.data-room-offline-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin: auto 0;
+  padding: 1rem;
+  border: 1px dashed #cbd5e1;
+  border-radius: 0.75rem;
+  background: var(--color-bg-primary, #fff);
+  color: var(--color-text-muted, #6b7280);
+  font-size: 0.8rem;
+
+  .iconify { width: 1.25rem; height: 1.25rem; }
+  strong { color: var(--color-text-primary, #111827); }
+  p { margin: 0; line-height: 1.5; }
+  button {
+    padding: 0.35rem 0.65rem;
+    border: 1px solid #86efac;
+    border-radius: 0.375rem;
+    background: #f0fdf4;
+    color: #166534;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 600;
+  }
+  button:disabled { cursor: wait; opacity: 0.55; }
+}
+
+.data-room-send-btn {
+  background: #15803d;
 }
 
 .custom-workout-delete {
@@ -2422,6 +2494,7 @@ html, body {
     transition: transform 250ms cubic-bezier(0.22, 0.61, 0.36, 1);
 
     &.open {
+      width: 100%;
       transform: translateY(0);
     }
 
@@ -2452,6 +2525,10 @@ html, body {
 
   .chat-toggle-label {
     display: none;
+  }
+
+  .assistant-toggle-group {
+    gap: 0.25rem;
   }
 }
 

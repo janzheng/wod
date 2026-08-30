@@ -53,8 +53,8 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v8';
-const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
+const CACHE_NAME = 'wod-v10';
+const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js', '/static/data-room.js'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -74,6 +74,7 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  if (new URL(event.request.url).origin !== self.location.origin) return;
   if (event.request.mode === 'navigate') {
     event.respondWith(
       fetch(event.request).then((response) => {
@@ -712,10 +713,14 @@ app.get("/*", async (c) => {
   const chatJs = await Deno.readTextFile(
     new URL("./static/chat.js", import.meta.url),
   ).catch(() => "");
+  const dataRoomJs = await Deno.readTextFile(
+    new URL("./static/data-room.js", import.meta.url),
+  ).catch(() => "");
   const linkifyJs = await Deno.readTextFile(
     new URL("./static/linkify.js", import.meta.url),
   ).catch(() => "");
   const agentBaseUrl = Deno.env.get("WOD_AGENT_BASE_URL")?.trim() ?? "";
+  const dataRoomBaseUrl = Deno.env.get("WOD_DATA_ROOM_BASE_URL")?.trim() ?? "";
 
   // The page inlines the CSS/JS it was built from, so a cached copy pins the
   // whole app to an old version until someone hard-refreshes.
@@ -727,8 +732,10 @@ app.get("/*", async (c) => {
       timelineJs,
       timerJs,
       chatJs,
+      dataRoomJs,
       linkifyJs,
       agentBaseUrl,
+      dataRoomBaseUrl,
     ),
   );
 });
@@ -739,10 +746,16 @@ function renderPage(
   timelineJs: string,
   timerJs: string,
   chatJs: string,
+  dataRoomJs: string,
   linkifyJs: string,
   agentBaseUrl: string,
+  dataRoomBaseUrl: string,
 ) {
   const agentBaseUrlJson = JSON.stringify(agentBaseUrl).replaceAll(
+    "<",
+    "\\u003c",
+  );
+  const dataRoomBaseUrlJson = JSON.stringify(dataRoomBaseUrl).replaceAll(
     "<",
     "\\u003c",
   );
@@ -1016,10 +1029,16 @@ function renderPage(
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
         <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? notesTitle : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
-        <button class="chat-toggle-btn" @click="toggleChat()" :class="{ 'active': chatOpen }">
-          <span class="iconify" data-icon="lucide:message-square"></span>
-          <span class="chat-toggle-label">WOD Builder</span>
-        </button>
+        <div class="assistant-toggle-group">
+          <button class="chat-toggle-btn data-room-toggle-btn" @click="toggleDataRoom()" :class="{ 'active': dataRoomOpen }">
+            <span class="iconify" data-icon="lucide:book-open-check"></span>
+            <span class="chat-toggle-label">Ask WOD</span>
+          </button>
+          <button class="chat-toggle-btn" @click="dataRoomOpen = false; toggleChat()" :class="{ 'active': chatOpen }">
+            <span class="iconify" data-icon="lucide:hammer"></span>
+            <span class="chat-toggle-label">WOD Builder</span>
+          </button>
+        </div>
       </header>
 
       <div class="sidebar-inset-content">
@@ -1978,6 +1997,114 @@ function renderPage(
       </div>
     </main>
 
+    <!-- Read-only data room (separate from the write-capable Builder) -->
+    <div class="chat-panel-wrapper data-room-panel-wrapper" :class="{ 'open': dataRoomOpen }">
+    <aside class="chat-panel data-room-panel">
+      <div class="chat-panel-header">
+        <div class="chat-panel-title">
+          <span class="iconify" data-icon="lucide:book-open-check"></span>
+          <span>Ask WOD</span>
+          <span
+            class="chat-status data-room-status"
+            :class="'is-' + dataRoomStatus"
+            x-text="dataRoomStatusLabel()"
+            aria-live="polite"
+          ></span>
+        </div>
+        <div class="chat-panel-actions">
+          <button class="chat-action-btn" @click="checkDataRoom()" :disabled="dataRoomLoading || dataRoomStatus === 'checking'" title="Check data room now">
+            <span class="iconify" data-icon="lucide:refresh-cw"></span>
+          </button>
+          <button class="chat-action-btn" @click="newDataRoomSession()" :disabled="dataRoomLoading" title="Start a new read-only conversation">
+            <span class="iconify" data-icon="lucide:message-square-plus"></span>
+          </button>
+          <button class="chat-action-btn" @click="dataRoomOpen = false" title="Close Ask WOD">
+            <span class="iconify" data-icon="lucide:x"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="chat-context-bar data-room-context-bar">
+        <template x-if="dataRoomManifest">
+          <div>
+            <div class="chat-context-row">
+              <span class="chat-context-key">source</span>
+              <code class="chat-context-value" x-text="dataRoomManifest.source"></code>
+            </div>
+            <div class="chat-context-row">
+              <span class="chat-context-key">snapshot</span>
+              <span class="chat-context-value" x-text="dataRoomManifest.createdAt"></span>
+            </div>
+            <div class="chat-context-row">
+              <span class="chat-context-key">scope</span>
+              <span class="chat-context-value" x-text="dataRoomProjectionLabel() + (dataRoomIncludedLabel() ? ' · ' + dataRoomIncludedLabel() : '')"></span>
+            </div>
+          </div>
+        </template>
+        <template x-if="!dataRoomManifest">
+          <div class="chat-context-row">
+            <span class="chat-context-key">snapshot</span>
+            <span class="chat-context-value">not loaded</span>
+          </div>
+        </template>
+        <div class="chat-context-row">
+          <span class="chat-context-key">session</span>
+          <code class="chat-context-value" x-text="dataRoomSessionLabel()"></code>
+        </div>
+        <div class="chat-context-row chat-context-warning data-room-readonly-warning">
+          <span class="iconify" data-icon="lucide:shield-check"></span>
+          <span><strong>Read only.</strong> This room can answer from its declared snapshot; it cannot change WOD.</span>
+        </div>
+      </div>
+
+      <div class="chat-messages data-room-messages">
+        <template x-if="dataRoomMessages.length === 0 && dataRoomStatus === 'online'">
+          <div class="chat-empty data-room-empty">
+            <span class="iconify" data-icon="lucide:library-big" style="font-size: 2rem; opacity: 0.35;"></span>
+            <p>Ask about the declared snapshot above. Builder actions live in the separate WOD Builder panel.</p>
+          </div>
+        </template>
+        <template x-if="dataRoomMessages.length === 0 && dataRoomStatus !== 'online'">
+          <div class="data-room-offline-card">
+            <span class="iconify" data-icon="lucide:cloud-off"></span>
+            <strong>Read-only room unavailable</strong>
+            <p x-text="dataRoomError || 'Open this panel to check the configured room.'"></p>
+            <button @click="checkDataRoom()" :disabled="dataRoomStatus === 'checking'">check now</button>
+          </div>
+        </template>
+
+        <template x-for="(msg, msgIdx) in dataRoomMessages" :key="'data-room-' + msgIdx">
+          <div class="chat-message data-room-message" :class="[msg.role, { 'is-error': msg.error }]">
+            <div class="chat-message-content data-room-message-content" x-text="msg.content"></div>
+          </div>
+        </template>
+
+        <template x-if="dataRoomLoading">
+          <div class="chat-message assistant">
+            <div class="chat-typing" aria-label="Read-only agent working">
+              <span></span><span></span><span></span>
+              <strong>reading snapshot</strong>
+            </div>
+          </div>
+        </template>
+      </div>
+
+      <div class="chat-input-area">
+        <input
+          type="text"
+          class="chat-input-field data-room-input-field"
+          x-model="dataRoomInput"
+          @keydown.enter.prevent="sendDataRoomMessage()"
+          placeholder="Ask about this snapshot..."
+          :disabled="dataRoomStatus !== 'online' || dataRoomLoading"
+        />
+        <button class="chat-send-btn data-room-send-btn" @click="sendDataRoomMessage()" :disabled="!dataRoomInput.trim() || dataRoomStatus !== 'online' || dataRoomLoading">
+          <span class="iconify" data-icon="lucide:send"></span>
+        </button>
+      </div>
+    </aside>
+    </div>
+
     <!-- AI Chat Panel (Right Sidebar) -->
     <div class="chat-panel-wrapper" :class="{ 'open': chatOpen }">
     <aside class="chat-panel">
@@ -2095,15 +2222,20 @@ ${timelineJs}
 ${timerJs}
 
 globalThis.WOD_AGENT_BASE_URL = ${agentBaseUrlJson};
+globalThis.WOD_DATA_ROOM_BASE_URL = ${dataRoomBaseUrlJson};
 
 ${chatJs}
+
+${dataRoomJs}
 
 ${linkifyJs}
 
 function routineStackApp() {
   const chatMixin = typeof chatPanel === 'function' ? chatPanel() : {};
+  const dataRoomMixin = typeof dataRoomPanel === 'function' ? dataRoomPanel() : {};
   return {
     ...chatMixin,
+    ...dataRoomMixin,
     linkify: _linkify,
     renderNotes(text) {
       if (!text) return '';
@@ -2390,6 +2522,7 @@ function routineStackApp() {
 
       // Initialize AI chat panel
       if (this.initChat) this.initChat();
+      if (this.initDataRoom) this.initDataRoom();
 
       // Update filtered exercises on any filter change
       this.updateFilteredExercises();
