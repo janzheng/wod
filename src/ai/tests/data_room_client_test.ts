@@ -1,4 +1,5 @@
 import { assert, assertEquals, assertMatch } from "@std/assert";
+import "../../../static/chat.js";
 import "../../../static/data-room.js";
 
 type DataRoomPanel = {
@@ -54,6 +55,7 @@ Deno.test("read-only Ask: loads metadata, resumes one tab session, and goes offl
     string,
     Array<{ role: string; text: string; timestamp: string }>
   >();
+  const postedPageContexts: unknown[] = [];
   let stopped = false;
 
   const server = Deno.serve({
@@ -93,7 +95,12 @@ Deno.test("read-only Ask: loads metadata, resumes one tab session, and goes offl
       });
     }
     if (request.method === "POST" && url.pathname === "/api/chat") {
-      const body = await request.json() as { message: string; session: string };
+      const body = await request.json() as {
+        message: string;
+        pageContext?: unknown;
+        session: string;
+      };
+      postedPageContexts.push(body.pageContext);
       const messages = transcripts.get(body.session) ?? [];
       messages.push({
         role: "user",
@@ -125,6 +132,11 @@ Deno.test("read-only Ask: loads metadata, resumes one tab session, and goes offl
     (globalThis as Record<string, unknown>).WOD_DATA_ROOM_BASE_URL = base;
     const firstStorage = installStorage();
     const first = readyPanel();
+    Object.assign(first, {
+      currentView: "notes",
+      notesPath: "/static/notes-baby-interim.md",
+      notesTitle: "Baby Interim — Playbook",
+    });
     first.initDataRoom();
     const firstSession = first.dataRoomSessionId;
 
@@ -149,6 +161,20 @@ Deno.test("read-only Ask: loads metadata, resumes one tab session, and goes offl
       "assistant",
     ]);
     assertMatch(first.dataRoomMessages.at(-1)?.content ?? "", /turn 2/);
+    assertEquals(postedPageContexts, [
+      {
+        kind: "notes",
+        title: "Baby Interim — Playbook",
+        route: "/",
+        sourcePath: "notes-baby-interim.md",
+      },
+      {
+        kind: "notes",
+        title: "Baby Interim — Playbook",
+        route: "/",
+        sourcePath: "notes-baby-interim.md",
+      },
+    ]);
 
     const resumed = readyPanel();
     resumed.initDataRoom();

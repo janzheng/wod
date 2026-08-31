@@ -53,7 +53,7 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v10';
+const CACHE_NAME = 'wod-v12';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js', '/static/data-room.js'];
 
 self.addEventListener('install', (event) => {
@@ -665,7 +665,10 @@ app.get("/manifest.json", (c) => {
 
 app.get("/sw.js", (c) => {
   return new Response(SERVICE_WORKER, {
-    headers: { "Content-Type": "application/javascript" },
+    headers: {
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/javascript",
+    },
   });
 });
 
@@ -2024,44 +2027,11 @@ function renderPage(
         </div>
       </div>
 
-      <div class="chat-context-bar data-room-context-bar">
-        <template x-if="dataRoomManifest">
-          <div>
-            <div class="chat-context-row">
-              <span class="chat-context-key">source</span>
-              <code class="chat-context-value" x-text="dataRoomManifest.source"></code>
-            </div>
-            <div class="chat-context-row">
-              <span class="chat-context-key">snapshot</span>
-              <span class="chat-context-value" x-text="dataRoomManifest.createdAt"></span>
-            </div>
-            <div class="chat-context-row">
-              <span class="chat-context-key">scope</span>
-              <span class="chat-context-value" x-text="dataRoomProjectionLabel() + (dataRoomIncludedLabel() ? ' · ' + dataRoomIncludedLabel() : '')"></span>
-            </div>
-          </div>
-        </template>
-        <template x-if="!dataRoomManifest">
-          <div class="chat-context-row">
-            <span class="chat-context-key">snapshot</span>
-            <span class="chat-context-value">not loaded</span>
-          </div>
-        </template>
-        <div class="chat-context-row">
-          <span class="chat-context-key">session</span>
-          <code class="chat-context-value" x-text="dataRoomSessionLabel()"></code>
-        </div>
-        <div class="chat-context-row chat-context-warning data-room-readonly-warning">
-          <span class="iconify" data-icon="lucide:shield-check"></span>
-          <span><strong>Read only.</strong> This room can answer from its declared snapshot; it cannot change WOD.</span>
-        </div>
-      </div>
-
       <div class="chat-messages data-room-messages">
         <template x-if="dataRoomMessages.length === 0 && dataRoomStatus === 'online'">
           <div class="chat-empty data-room-empty">
             <span class="iconify" data-icon="lucide:library-big" style="font-size: 2rem; opacity: 0.35;"></span>
-            <p>Ask about the declared snapshot above. Builder actions live in the separate WOD Builder panel.</p>
+            <p>Ask about this page or WOD.</p>
           </div>
         </template>
         <template x-if="dataRoomMessages.length === 0 && dataRoomStatus !== 'online'">
@@ -2095,7 +2065,7 @@ function renderPage(
           class="chat-input-field data-room-input-field"
           x-model="dataRoomInput"
           @keydown.enter.prevent="sendDataRoomMessage()"
-          placeholder="Ask about this snapshot..."
+          placeholder="Ask about this page or WOD..."
           :disabled="dataRoomStatus !== 'online' || dataRoomLoading"
         />
         <button class="chat-send-btn data-room-send-btn" @click="sendDataRoomMessage()" :disabled="!dataRoomInput.trim() || dataRoomStatus !== 'online' || dataRoomLoading">
@@ -3102,7 +3072,7 @@ function routineStackApp() {
 <!-- Service Worker Registration -->
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW registration failed:', err));
+  navigator.serviceWorker.register('/sw.js?v=wod-v12', { updateViaCache: 'none' }).catch(err => console.log('SW registration failed:', err));
 }
 </script>
 

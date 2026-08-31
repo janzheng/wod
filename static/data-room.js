@@ -32,6 +32,24 @@ function validDataRoomSessionId(value) {
     /^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/.test(value);
 }
 
+function wodDataRoomPageContext(state, route) {
+  if (typeof globalThis.wodAgentPageContext !== "function") return null;
+  var context = globalThis.wodAgentPageContext(state, route);
+  if (!context) return null;
+  var sourcePath = String(context.sourcePath || "");
+  if (sourcePath.indexOf("static/") === 0) sourcePath = sourcePath.slice(7);
+  else if (sourcePath === "exercises") sourcePath = "exercises.json";
+  else if (sourcePath === "workouts") sourcePath = "workouts.json";
+  return {
+    kind: context.kind,
+    title: context.title,
+    route: context.route,
+    sourcePath: sourcePath,
+  };
+}
+
+globalThis.wodDataRoomPageContext = wodDataRoomPageContext;
+
 function dataRoomPanel() {
   return {
     dataRoomOpen: false,
@@ -66,6 +84,13 @@ function dataRoomPanel() {
 
     getDataRoomBaseUrl() {
       return wodDataRoomBaseUrl(globalThis.WOD_DATA_ROOM_BASE_URL);
+    },
+
+    getDataRoomPageContext() {
+      return wodDataRoomPageContext(
+        this,
+        globalThis.location && globalThis.location.pathname || "/",
+      );
     },
 
     toggleDataRoom() {
@@ -162,6 +187,7 @@ function dataRoomPanel() {
           body: JSON.stringify({
             session: this.dataRoomSessionId,
             message: message,
+            pageContext: this.getDataRoomPageContext(),
           }),
         });
         var payload = await response.json().catch(function () {
