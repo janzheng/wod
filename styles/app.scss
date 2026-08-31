@@ -2110,6 +2110,7 @@ html, body {
 
 .chat-message {
   max-width: 90%;
+  min-width: 0;
 
   &.user {
     align-self: flex-end;
@@ -2133,6 +2134,9 @@ html, body {
 }
 
 .chat-message-content {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
   padding: 0.625rem 0.875rem;
   font-size: 0.85rem;
   line-height: 1.5;
@@ -2149,6 +2153,27 @@ html, body {
     padding: 0.1em 0.3em;
     border-radius: 0.2em;
     background: rgba(0, 0, 0, 0.06);
+  }
+  pre {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0.5em 0;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    border-radius: 0.375rem;
+    background: rgba(0, 0, 0, 0.06);
+    -webkit-overflow-scrolling: touch;
+
+    code {
+      display: block;
+      width: max-content;
+      min-width: 100%;
+      padding: 0.625rem;
+      background: transparent;
+      white-space: pre;
+      overflow-wrap: normal;
+      word-break: normal;
+    }
   }
   h1, h2, h3, h4 {
     font-size: 0.9em;
@@ -2217,7 +2242,9 @@ html, body {
 }
 
 .chat-input-area {
+  --chat-control-size: 2.25rem;
   display: flex;
+  align-items: center;
   gap: 0.5rem;
   padding: 0.625rem 0.75rem;
   border-top: 1px solid var(--color-border, #e5e7eb);
@@ -2227,6 +2254,7 @@ html, body {
 
 .chat-input-field {
   flex: 1;
+  height: var(--chat-control-size);
   min-width: 0;
   padding: 0.5rem 0.75rem;
   border: 1px solid var(--color-border, #e5e7eb);
@@ -2247,8 +2275,8 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: var(--chat-control-size);
+  height: var(--chat-control-size);
   flex-shrink: 0;
   border: none;
   border-radius: 50%;
@@ -2307,10 +2335,6 @@ html, body {
 
 .data-room-readonly-warning {
   color: #166534;
-}
-
-.data-room-message-content {
-  white-space: pre-wrap;
 }
 
 .data-room-message.is-error .data-room-message-content {
@@ -2511,6 +2535,7 @@ html, body {
 
   // Fix send button overflow on mobile
   .chat-input-area {
+    --chat-control-size: 2.625rem;
     padding: 0.625rem 0.75rem;
     padding-right: max(0.75rem, env(safe-area-inset-right));
     box-sizing: border-box;
@@ -2518,8 +2543,8 @@ html, body {
   }
 
   .chat-send-btn {
-    width: 2.25rem;
-    min-width: 2.25rem;
+    width: var(--chat-control-size);
+    min-width: var(--chat-control-size);
     flex-shrink: 0;
   }
 

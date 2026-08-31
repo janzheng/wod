@@ -23,6 +23,7 @@ const chatHelpers = globalThis as typeof globalThis & {
   wodAgentPreviewUrl: (
     messages: Array<{ role: string; content: string; timestamp?: number }>,
   ) => string;
+  wodRenderChatMarkdown: (text: string) => string;
 };
 
 Deno.test("chat context: maps the visible notes page to its Markdown source", () => {
@@ -149,5 +150,12 @@ Deno.test("chat ergonomics: exposes only safe static paths as previews", () => {
       { role: "user", content: "/workspace/static/private.txt" },
     ]),
     "",
+  );
+});
+
+Deno.test("chat markdown: fallback preserves Markdown text but escapes HTML", () => {
+  assertEquals(
+    chatHelpers.wodRenderChatMarkdown("**strong** <img src=x>\nnext"),
+    "**strong** &lt;img src=x&gt;<br>next",
   );
 });
