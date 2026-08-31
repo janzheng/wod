@@ -3002,7 +3002,8 @@
             }
           ]
         }
-      ]
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w25.json"
     },
     {
       "week": 26,
@@ -3111,7 +3112,8 @@
             }
           ]
         }
-      ]
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w26.json"
     },
     {
       "week": 27,
@@ -3209,7 +3211,118 @@
             }
           ]
         }
-      ]
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w27.json"
+    },
+    {
+      "week": 28,
+      "label": "Short, Flexible Week — Push → Pull → Legs, Two KB Sessions When a Window Opens",
+      "description": "**This week is deliberately short and flexible around sleep deprivation.** The three gym sessions stay in Push → Pull → Legs order. Run them Monday–Tuesday–Wednesday if three consecutive windows open, or Monday–Wednesday–Friday if recovery and the calendar need more room. Week 27 confirmed that Push → Pull back-to-back is workable; when the calendar allows, the preferred recovery day comes after Legs. The two kettlebell sessions are optional after the gym work whenever a short window opens. Missing either does not make the week incomplete.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — short presses, incline DB + dips",
+          "type": "workout",
+          "workoutId": "fb-w28-push",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: PUSH add-on** — doorframe chest stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · PULL — bodyweight pull-ups, short or regular by energy",
+          "type": "workout",
+          "workoutId": "fb-w28-pull",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: PULL add-on** — dead hang, scapular pulls, side-lying external rotation."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · LEGS — depth through bracing and paused squats",
+          "type": "workout",
+          "workoutId": "fb-w28-legs",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: LEGS add-on** — cross-leg lateral stretch and supine spinal twist."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Outside Snatch Flow + Brutal Complex",
+          "type": "workout",
+          "workoutId": "fb-w28-kb-cond",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Leggy Flow + Kickstand 5-4-3-2",
+          "type": "workout",
+          "workoutId": "fb-w28-kb-full",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w28.json"
     }
   ],
   "tips": [

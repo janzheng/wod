@@ -895,7 +895,7 @@ User: *"Really wished we had more circuits / flows / rotations from new stuff; t
 
 Everything decided in conversation during W27. He asked for this list explicitly: *"can u take these as notes for next week so we know what to generate!"* Details for each live in the W27 Observations section below and in `docs/notes/functional-bulk/squat-depth-and-the-deep-sit.md`.
 
-**⚠️ Still outstanding when this was written: W27D3 pull (Thu 8/27) and the optional Friday KB.** Read those logs before building.
+**Pull was logged Friday 8/28 (see W27D3 pull RESULT below) — its inputs are folded in here. The optional Friday KB did not happen.**
 
 ### The through-line: squat depth, and it is a BRACING + ANKLE problem, not a mobility-in-general problem
 
@@ -942,6 +942,16 @@ The push day's press slot has pointed at exercise id `push-press` since W3, and 
 - **Consequence: the audit chain splits.** `deno task audit push-press` covers W3-W27, `deno task audit standing-dumbbell-strict-press` starts at W28. Run both when writing this slot's load. The lineage is 45 strict (W25) → 50 strict (W26-W27).
 - **Push press stays in the vocabulary as the exit**, which is exactly what W27 set 3 was — 5 strict then 4 push presses rather than grinding.
 
+### Pull day — what W27D3 changed
+
+- **⭐ WEEK SHAPE CONFIRMED: `push → legs → OFF → pull`.** His words: *"yeah you can rewrite it as p, l, off pull."* Nothing loaded lands the day after legs.
+- **The weekend is likely off too, and KB is not owed.** *"I might take weekend off too, might go for a light jog/run or swim instead of kb since i'm sleep deprived a lot."* **Write the KB day as optional and offer the swim/jog as the equal alternative, not the consolation prize** — sleep debt has been the through-line of the whole week.
+- **The pull-up decline is BODYWEIGHT — ~25-30lb gained since W1, ~10lb of it recently, while looking leaner and not feeling fat.** The adjacency hypothesis is retired; so is fatigue. **Run pull-ups plain in W28 — not a spotlight, no "get back to 10" framing.** A falling rep count on a bodyweight lift during a bulk is the expected shape, not a regression.
+- **Incline curl goes to 25 right / 20 left, left first.** His call after the worst left-side set of the block. *"20 on left feel like 25 on right."*
+- **The left arm is an incline-curl-POSITION problem, not a left-arm problem** — his own words, and the 220 cable curl in the same session is the proof. Stop framing it as general left-side weakness in workout notes.
+- **Face pull holds 62.5** — it finally cost something on the third set.
+- **High cable curl ladder extends to 220** as the top rung; both sides clean there.
+
 ### Loads carried into W28 (from the W27 logs)
 
 | Lift | Number |
@@ -959,6 +969,12 @@ The push day's press slot has pointed at exercise id `push-press` since W3, and 
 | Cable column | straight-arm pulldown **120** · lateral raise **~30** · lean-back tricep pushdown **60** |
 | Kinesis | cable fly **9** |
 | Farmer carry | **60/hand** |
+| Pull-up | bodyweight, 3s eccentric, 4 sets to form failure — **not a spotlight in W28** |
+| Incline curl | **25 right / 20 left**, left first, 10 each side |
+| DB row | **75 → 85 → 95** pyramid; left ends around 8 on the 95, grip-limited |
+| Lat pulldown | **160**, regular machine |
+| Face pull | **62.5** |
+| High cable curl | **190 → 200 → 210 → 220** ascending, cable column, single arm |
 
 ## W27 Build Notes (built 2026-08-24)
 
@@ -1117,6 +1133,27 @@ The instinct is the Rotation Discipline rule applied one level deeper — not "w
 **Rule of thumb to keep: rotate the implement on ONE anchor at a time**, so there is always a stable reference elsewhere in the session.
 
 **✅ He confirmed the pacing (2026-08-26):** *"We can rotate slowly; we don't have to rotate everything at once lol."* So: small lifts rotate now, the hinge implement is the W29 move, the incline press holds DBs through W28.
+
+### W27D3 pull RESULT (2026-08-28, run Friday) — the pull-up test answered NO, and the left arm produced its cleanest signal yet
+
+Moved off Thursday because Thursday was a write-off: *"i also felt wrecked yesterday from legs on wednesday haha i think id rather have a day off after legs."* He labelled it `w27d4`; it was Friday, day 3, pull.
+
+- **⭐⭐ THE PULL-UP QUESTION IS ANSWERED — AND IT IS BODYWEIGHT, NOT ORDERING AND NOT FATIGUE.** He weighed himself at the hospital and reported it afterwards: ***"i just added 10lbs for some reason and since the start of this workout i've gained about 25lbs (somehow?? but i'm also looking leaner)"*** → ***"yeah thats why pull ups are getting harder :P."*** He is right, and it is the cleanest explanation the program has produced for anything.
+  - The numbers: **W25 rested 10 / 8 / 7 / 5 → W26 8 / 7 / 6 + singles → W27 8 / 6 / 6 / 5.** A ~10lb gain over that window is ~6% more load on a lift whose load *is* him.
+  - **It also explains the contrast he noticed in the same report, exactly.** *"I'm surprised how lat pull downs are getting easier while pull ups are hard — i haven't been gaining THAT much weight lol."* The lat pulldown's load is external, so getting stronger makes it easier. The pull-up's load is him, so gaining makes it harder **even while getting stronger**. He guessed the mechanism and only had the weight number wrong.
+  - **The right shoulder was clean this week, which removes the last competing explanation:** *"pull ups felt great actually, forgot about shoulder being in pain, just weakness this time."* W26's *"extra crispy"* did not repeat.
+  - **Consequences for how this gets written from W28 on:** (1) **the adjacency hypothesis is retired** — the ordering never had the pull-up number as evidence and does not need it; `push → legs → pull` stands on the W26 shoulder/grip argument alone. (2) **Stop treating a falling pull-up count as a problem to solve.** On a bulk it is the expected shape, and 8 reps at +10lb is not less work than 10 reps was. (3) **Do not spotlight pull-ups again in W28** and do not write "chase the old number" framing into the block.
+- **⭐ ~25-30LB GAINED SINCE W1, LOOKING LEANER — this is the program doing what it says on the tin.** (He revised it up the next day: *"i don't feel like i'm getting fat but i've gained like 30 lbs since we started haha"* — the number is fuzzy and that's fine, the direction isn't.) **The distribution check came back clean: clothes stopped fitting at the calves, quads, arms and chest — not the waist.** *"pants dont fit bc literally calves and quad and other areas are like... too big lol, but it's also not really fat, and yeah no shirts fit (arms, chest, all stretch shirt out too much)."* That is a growth pattern, not a fat pattern — the question is closed. *Functional bulk.* Record it as the headline it is, once. **Do not turn this into weight tracking, a graph, or a per-week number** — he does not want progress tracking and has said so. It matters here only because it retires a 3-week question about the pull-ups.
+- **⭐ HE ASKED FOR A REST DAY AFTER LEGS — take it as a W28 structural input.** *"i think id rather have a day off after legs."* He effectively built it himself this week (legs Wed, off Thu, pull Fri) and it is the first time he has named a rest-day preference. Legs is the DOMS producer; the day after it is the day he cannot use.
+- **⚠️ THE INCLINE CURL HAD ITS WORST LEFT-SIDE DAY, AND THE SAME SESSION PRODUCED THE CLEANEST COUNTER-EVIDENCE.** *"Left side absolutely wrecked! worst day ever even first set failed half way."* Progression across the four weeks: W24 died at 8 on set one → W25 died on set one, recovered → W26 completed everything → **W27 failed halfway through set one.** And in the same hour: **the high cable curl went UP to 220 and both sides cleared it without trouble**, the DB row ran 85 clean and reached 8 at 95 on the left, and the pull-ups held their tempo.
+  - **His own formulation, and it is the sharpest statement of the pattern anyone has made: *"left bicep only messes up on concentration never on any of these other exercises or pull ups."*** That converges exactly with the W25D2 KB-curl control (*"the left doesn't fail at elbow flexion — it fails at elbow flexion in the INCLINE CURL'S POSITION"*). **This is not a left-arm problem. It is an incline-curl-position problem on the left side** — chest-supported, upper arm pinned, bicep at its longest, every compensation removed.
+  - **He asked directly: *"did i tear something?? nothing ever hurt as pain or pinched or pulled."*** Answered in conversation: no acute event, no pain, no pinch, and full strength in every other position that loads the same muscle is the opposite of the shape a tear takes. **Not a diagnosis.** The clock is running — four weeks now; if it is still there in a couple more, it is a PT/sports-med question, not another training theory.
+  - **✅ HE CLOSED IT AGAIN, SECOND TIME (2026-08-28): *"it's never been painful it's just been weak, and only for a few weeks, and only for these exercises. i still think i slept on it wrong or whatever, that's fine."*** **Do not raise it unprompted.** Keep logging both sides; the 25/20 split is the whole response.
+  - **✅ HIS CALL, and it is the correct lever: drop the LEFT to 20lb to buy clean reps.** *"Going down to 20 on my left to get better form and reps; 20 on left feel like 25 on right lol."* That is training the limiter, not working around it — the same class of move as taking the grip-limited row number honestly. **W28 writes the incline curl as 25 right / 20 left, left first.** Calibration worth keeping: **20 on the left ≈ 25 on the right.**
+- **DB row: W26 repeated exactly — 75 / 85 clean, left stopped at 8 on the 95 — but the attribution got narrower.** *"Grip issue"* this time, where W26 read *"lost grip and strength."* Hold the 75/85/95 pyramid; the left ends where it ends, no straps.
+- **Lat pulldown 160 clean, and the contrast repeated for a second week.** *"I'm surprised how lat pull downs are getting easier while pull ups are hard — i haven't been gaining THAT much weight lol."* (W26: *"whoa this is so much easier than pull ups ahah."*) All three sets done (*"forgot to write down 3rd"*).
+- **Face pull 62.5 stopped being free.** *"Got tired half way thru third lol."* Third week at the number and the first time it cost something. The block invited adding load as it got easy; it did not get easy. **Hold 62.5.**
+- **High cable curl: he added a fourth rung at 220 and called it the working weight.** *"Did weirdly well added another 220 and both sides did without too much problem this is working weight."* The written ladder was 190 / 200 / 210 (his own W26 call to move everything up 10). **Both sides clean at 220**, four sets confirmed — W25 had the left as the harder side on the top set of this lift, and today it was not.
 
 ## W26 Build Notes (built 2026-08-15)
 

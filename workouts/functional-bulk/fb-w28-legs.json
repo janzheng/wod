@@ -1,0 +1,187 @@
+{
+  "id": "fb-w28-legs",
+  "name": "Week 28 Legs — Depth via Bracing, Pausing on 45",
+  "description": "**Depth and control are the assignment; the loads hold.**\n\nUse the 45/side squat warm-up for five paused reps before the three working sets at 80/side. The kneeling leg curl is now established at 65 with the left side first. Leg press and calf raise stay at 4 plates/side, the incline RDL stays at one 45lb plate with deliberate tempo, and the hip machines hold their W27 numbers.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": ["legs", "gym", "strength", "functional-bulk"],
+  "estimatedDuration": 60,
+  "equipment": ["dumbbell", "barbell", "machine", "plate", "resistance-band", "bodyweight"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Depth through bracing and controlled tempo. Pause the final 45/side warm-up reps, then hold 80/side for the working squat sets. Keep the kneeling leg curl at 65 with the left side first, let the leg press warm into its deepest clean range, and preserve the incline RDL tempo across all three sets.",
+    "spotlights": [
+      {
+        "exerciseId": "squat",
+        "why": "Depth is the assignment — paused squats on the 45 round train holding the brace deeper without changing the working weight."
+      },
+      {
+        "exerciseId": "kneeling-leg-curl",
+        "why": "W27 established 65 for 12 each side and showed the right side was easier. Start left, use 65 on both sides, and match the right to the left without reopening the load search."
+      }
+    ],
+    "rotationPlan": "W29 — hinge implement (DB RDL or trap bar) enters the legs day. W30 — return to the optional squat probe if depth at 80 stops improving.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: squat, leg press, kneeling leg curl, incline RDL, hip abduction, hip adduction. On these, effort means the cue holding at a hard load, and the ceiling is the rep the cue breaks.",
+      "🔥 near‑failure last set OK: leg‑press‑calf‑raise. Isolation work where form does not degrade dangerously at the limit.",
+      "**Squat depth limiter:** test heel‑elevated (ankle), wider stance (hip range), or plate held at chest (brace) — whichever improves depth names the limiter. Plus a filmed side view to see pelvis tuck.",
+      "**Paused squats on 45:** 2-3s in the bottom on the lighter load — the most direct way to train holding the brace deeper.",
+      "**Kneeling leg curl protocol:** 65, left side first, same load and matched reps on both sides; log both sides separately.",
+      "**Incline RDL add‑on:** a 2s pause at the top himself because a 10‑rep set can afford one — first set fine, later sets take discipline to maintain.",
+      "**Hip abduction open at 230** — confirmed. Hip adduction at 290, top of stack, tempo only.",
+      "**Leg press depth:** actively work deep ROM — the lift is getting deeper, not shorter."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Legs Warmup — Tibialis Raise → Knee‑to‑Wall Ankle Rock → Hip Activation",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Open the ankles and hips, then finish the warm-up with five paused squat reps at 45/side. The knee-to-wall rock is the monthly left-vs-right dorsiflexion measure; the tibialis raise is strength work, not the measurement.",
+      "exercises": [
+        { "id": "tibialis-raise", "reps": "15-20", "notes": "Slow up, slow down — feel the shin." },
+        { "id": "knee-to-wall-ankle-rock", "reps": "10-15 each side", "notes": "Toe to wall, knee bent, rock slowly — left vs right, track monthly." },
+        { "id": "banded-ankle-eversion", "reps": "15-20", "notes": "Light band, eversion only — slow and controlled." },
+        { "id": "single-leg-balance", "reps": "30s each side", "notes": "Eyes open, hands on hips — left vs right, track monthly." },
+        { "id": "bodyweight-squat", "reps": "15-20", "notes": "Assess depth — heels down, chest up, knees out." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Small to large, warm the joint." },
+        { "id": "squat", "reps": 5, "notes": "**LOAD:** 45/side. Pause 2-3s in the bottom of every rep, hold the brace, and stand without rushing. This is the final warm-up before 80/side." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat",
+      "name": "Squat — 80/side, Depth Is the Job 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 80/side, 3 working sets. Depth is the assignment — the number has nothing to prove.\n\n**Depth via bracing:** the load is held while you chase depth through paused squats on the 45 round and a belt‑tight brace.\n- **Pause squats on the 45 round** — 2-3s sitting in the bottom on the warmup set, not on the working sets.\n- **Belt‑tight brace** — ribs down, glutes and core braced, shoulders packed down.\n- **Depth is the descent** — feeling where power falls off in the hole, working on getting lower and lower while maintaining control and power band.\n\n**Reflection:** did the paused squats on 45 feel useful? Does the belt‑tight brace feel like the limiter?",
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "6-8",
+          "notes": "**LOAD:** 80/side.\n- **Depth via bracing** — hold the load while chasing depth\n- **Pause squats on the 45 round** — 2-3s in the bottom on the warmup set\n- **Belt‑tight brace** — ribs down, glutes and core braced, shoulders packed down\n- **Reps 6-8** — depth is the job, not the load"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "kneeling-leg-curl",
+      "name": "Kneeling Leg Curl — 65, Left Side First",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 65, 3 sets of 10-12 each side. Start left and match the right to the left's clean rep count. Log both sides separately. The machine earned its slot in W27; this week repeats the established setup instead of searching again.",
+      "exercises": [
+        {
+          "id": "kneeling-leg-curl",
+          "reps": "10-12 each side",
+          "notes": "**LOAD:** 65.\n- **Left side first**\n- Use the same load for both sides\n- Match the right to the left's clean reps\n- Log both sides separately"
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "leg-press",
+      "name": "Leg Press — 4 Plates/Side, Deep ROM",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "**LOAD:** 4 plates/side, deep ROM — actively work depth, not weight.\n\n**Depth is the job** — the lift is getting deeper, not shorter.\n- **Never judge this lift on set 1** — the cold‑hips pattern is real, but the last set shows the true depth.\n- **Ribs down, no leaning back** — keep the core engaged.\n\n**Reflection:** is the leg press getting deeper? Does the last set feel like the true depth?",
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": "12",
+          "notes": "**LOAD:** 4 plates/side.\n- **Deep ROM** — work depth, not weight\n- **Never judge on set 1**\n- **Ribs down, no leaning back**"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "leg-press-calf-raise",
+      "name": "Leg Press Calf Raise — 4 Plates/Side",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 4 plates/side, 3 sets of 15.\n- Let the heels sink into a full controlled stretch\n- Press through the forefoot to a full calf contraction\n- Keep the knees soft and still; do not turn it into another leg-press rep",
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": "15",
+          "notes": "**LOAD:** 4 plates/side.\n- Full controlled heel drop\n- Press through the forefoot\n- Knees stay soft and still"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 75
+    },
+    {
+      "id": "incline-rdl",
+      "name": "Incline RDL — 45lb Plate High, 10 Reps, 3s Eccentric + 2s Top Pause",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** one 45lb plate held high, 3 sets of 10. Use a 3s eccentric and 2s pause at the top on every rep. Keep the plate close to the chest so the lever does not change between sets; stop when the tempo can no longer stay honest.",
+      "exercises": [
+        {
+          "id": "incline-rdl",
+          "reps": "10",
+          "notes": "**LOAD:** one 45lb plate held high and close to the chest.\n- **3s eccentric**\n- **2s top pause**\n- Same lever and tempo on every rep"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "hip-abduction",
+      "name": "Hip Abduction Machine — Open at 230",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD:** open at 230 — confirmed. 2 sets of 15‑20 reps.\n\n**Tempo is the only lever** — the pin went up on set 2 as the workout invited and the tempo held.\n\n**Reflection:** did the tempo feel controlled on both sets? Did the pin go up as expected?",
+      "exercises": [
+        {
+          "id": "hip-abduction-machine",
+          "reps": "15-20",
+          "notes": "**LOAD:** 230.\n- **Tempo is the only lever**\n- **The pin went up on set 2 as the workout invited and the tempo held**"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "hip-adduction",
+      "name": "Hip Adduction Machine — 290, Tempo Only",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD:** 290, top of stack — tempo only.\n\n**2 sets of 15‑20 reps** — the adduction machine rides along as maintenance.\n\n**Reflection:** did the tempo feel controlled on both sets?",
+      "exercises": [
+        {
+          "id": "hip-adductor-machine",
+          "reps": "15-20",
+          "notes": "**LOAD:** 290.\n- **Tempo is the only lever**"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool‑Down — 5 Min Fascia/Recovery Block (Permanent Every‑Gym‑Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm, elbow at MID height." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive. Let the shoulders decompress." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing. End here." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Depth via bracing, not mobility — the squat load (80/side) is held while depth is chased through paused squats on the 45 round and a belt‑tight brace.",
+    "Never judge the leg press on set 1 — the cold‑hips pattern is real, but the last set shows the true depth.",
+    "Kneeling leg curl: 65, left side first, match the right to the left's clean reps, and log both sides separately."
+  ]
+}

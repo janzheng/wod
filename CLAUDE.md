@@ -70,6 +70,21 @@ After extracting from either skill:
 
 ## Build Commands
 
+### Longitudinal coaching loop
+
+WOD Builder is an ongoing coaching conversation, not a one-shot workout generator. During a week, turn each pasted workout report into the session log workflow below: preserve the raw report, reconcile it with the prescription, discuss what happened, ask the required follow-ups, and fold the answers into the log and `NOTES.md`. Before building the next week, review the prior week with the user and read its durable notes, logs, and recent workout files; shape the next week together, then build it only after the direction is clear. Pi's retained chat is working context, not canonical memory—anything needed next week must land in project files so another browser or agent can continue.
+
+### New program weeks
+
+A request to create or build a new week is incomplete until the week appears in its program, not merely as standalone workout files:
+
+1. Create or update the source workouts under `workouts/`. For `functional-bulk-dynamic`, every new week also requires one freshly rotated `fb-w{N}-morning-flow.json` and a `flow` reference on each scheduled workout unless the user explicitly opts out; follow **Morning Flow Design** and **Rotation Discipline** below.
+2. Append or update that week in the matching `programs/<program>.json`, with schedule entries referencing every intended workout ID. Standalone workout files do not appear in the program navigator.
+3. Run `deno task build:workouts`; if the program changed, also run `deno task build:data`.
+4. Verify the program contains the new week, every referenced workout ID exists in `static/workouts.json`, and every required weekly morning flow exists and is linked. Report the week as built only after these checks pass.
+
+Program manifests are large. Inspect the relevant tail or fields with `jq`/`grep`; do not load an entire multi-week program file into model context.
+
 - `deno task build` — Build everything (styles + exercises + workouts)
 - `deno task build:exercises` — Rebuild exercises catalogue
 - `deno task build:workouts` — Rebuild workouts catalogue

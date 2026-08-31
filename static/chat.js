@@ -67,6 +67,17 @@ function wodAgentPageContext(state, route) {
 
 globalThis.wodAgentPageContext = wodAgentPageContext;
 
+function wodAgentPause(milliseconds, signal) {
+  return new Promise(function(resolve, reject) {
+    var timeout = setTimeout(resolve, milliseconds);
+    if (!signal) return;
+    signal.addEventListener('abort', function() {
+      clearTimeout(timeout);
+      reject(new DOMException('aborted', 'AbortError'));
+    }, { once: true });
+  });
+}
+
 function chatPanel() {
   return {
     // Chat panel state
@@ -75,6 +86,7 @@ function chatPanel() {
     chatInput: '',
     chatMessages: [],
     chatSessionId: null,
+    chatJobId: null,
     customWorkouts: [],
     chatRequestController: null,
     chatRequestSerial: 0,
@@ -90,7 +102,9 @@ function chatPanel() {
         const storedMessages = localStorage.getItem('wod-chat-messages');
         if (storedMessages) this.chatMessages = JSON.parse(storedMessages);
         this.chatSessionId = localStorage.getItem('wod-chat-session-id');
+        this.chatJobId = localStorage.getItem('wod-chat-job-id');
       } catch (e) { /* ignore */ }
+      if (this.chatJobId) this.resumeChatJob();
     },
 
     toggleChat() {
@@ -110,6 +124,10 @@ function chatPanel() {
     getAgentChatUrl() {
       var base = String(globalThis.WOD_AGENT_BASE_URL || '').replace(/\/+$/, '');
       return base ? base + '/api/ai/chat' : '/api/ai/chat';
+    },
+
+    getAgentJobUrl(jobId) {
+      return this.getAgentChatUrl().replace(/\/chat$/, '/jobs/') + encodeURIComponent(jobId);
     },
 
     getAgentPageContext() {
@@ -150,18 +168,12 @@ function chatPanel() {
           throw new Error(errData.error || 'API error ' + res.status);
         }
         var data = await res.json();
-
+        if (!data.jobId || !data.sessionId) throw new Error('WOD Builder returned an invalid job');
         this.chatSessionId = data.sessionId;
+        this.chatJobId = data.jobId;
         localStorage.setItem('wod-chat-session-id', data.sessionId);
-
-        this.chatMessages.push({
-          role: 'assistant',
-          content: data.message,
-          workout: data.workout,
-          timestamp: Date.now(),
-        });
-
-        this.persistChatMessages();
+        localStorage.setItem('wod-chat-job-id', data.jobId);
+        await this.pollChatJob(data.jobId, requestSerial, controller);
       } catch (err) {
         if (requestSerial !== this.chatRequestSerial || err.name === 'AbortError') return;
         this.chatMessages.push({
@@ -178,6 +190,74 @@ function chatPanel() {
         this.scrollChatToBottom();
         this.focusChatInput();
       }
+    },
+
+    async pollChatJob(jobId, requestSerial, controller) {
+      while (requestSerial === this.chatRequestSerial) {
+        var res;
+        try {
+          res = await fetch(this.getAgentJobUrl(jobId), {
+            headers: { 'Accept': 'application/json' },
+            signal: controller.signal,
+          });
+        } catch (error) {
+          if (error.name === 'AbortError') throw error;
+          await wodAgentPause(2000, controller.signal);
+          continue;
+        }
+
+        if (!res.ok) {
+          var errData = await res.json().catch(function() { return {}; });
+          throw new Error(errData.error || 'Job status error ' + res.status);
+        }
+        var job = await res.json();
+        if (job.status === 'pending' || job.status === 'running') {
+          await wodAgentPause(1500, controller.signal);
+          continue;
+        }
+
+        this.chatJobId = null;
+        localStorage.removeItem('wod-chat-job-id');
+        if (job.status !== 'completed' || !job.result || typeof job.result.message !== 'string') {
+          throw new Error(job.error || 'WOD Builder job did not complete');
+        }
+
+        this.chatSessionId = job.result.sessionId || job.sessionId || this.chatSessionId;
+        if (this.chatSessionId) localStorage.setItem('wod-chat-session-id', this.chatSessionId);
+        this.chatMessages.push({
+          role: 'assistant',
+          content: job.result.message,
+          workout: job.result.workout,
+          timestamp: Date.now(),
+        });
+        this.persistChatMessages();
+        return;
+      }
+    },
+
+    resumeChatJob() {
+      if (!this.chatJobId || this.chatLoading) return;
+      this.chatLoading = true;
+      var requestSerial = ++this.chatRequestSerial;
+      var controller = new AbortController();
+      this.chatRequestController = controller;
+      var jobId = this.chatJobId;
+      this.pollChatJob(jobId, requestSerial, controller).catch((err) => {
+        if (requestSerial !== this.chatRequestSerial || err.name === 'AbortError') return;
+        this.chatMessages.push({
+          role: 'assistant',
+          content: 'Error: ' + err.message,
+          error: true,
+          timestamp: Date.now(),
+        });
+        this.persistChatMessages();
+      }).finally(() => {
+        if (requestSerial !== this.chatRequestSerial) return;
+        this.chatRequestController = null;
+        this.chatLoading = false;
+        this.scrollChatToBottom();
+        this.focusChatInput();
+      });
     },
 
     applyAIWorkout(workout) {
@@ -243,8 +323,10 @@ function chatPanel() {
       this.chatLoading = false;
       this.chatMessages = [];
       this.chatSessionId = null;
+      this.chatJobId = null;
       localStorage.removeItem('wod-chat-messages');
       localStorage.removeItem('wod-chat-session-id');
+      localStorage.removeItem('wod-chat-job-id');
       if (sessionId) {
         fetch(this.getAgentChatUrl().replace(/\/chat$/, '/session'), {
           method: 'DELETE',

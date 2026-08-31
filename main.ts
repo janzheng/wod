@@ -12,6 +12,7 @@ import {
   PiAgentSessionLimitError,
   PiAgentTimeoutError,
 } from "./src/ai/pi-agent.ts";
+import { createPiJobStore } from "./src/ai/pi-jobs.ts";
 import {
   readAgentJson,
   RequestBodyTooLargeError,
@@ -19,6 +20,41 @@ import {
 
 const app = new Hono();
 const piAgent = createPiAgent();
+
+const piJobErrorMessage = (error: unknown): string => {
+  if (error instanceof PiAgentBusyError) {
+    return "This builder session is already working.";
+  }
+  if (
+    error instanceof PiAgentCapacityError ||
+    error instanceof PiAgentSessionLimitError
+  ) return error.message;
+  if (error instanceof PiAgentTimeoutError) {
+    return "Pi exceeded the ten-minute turn limit.";
+  }
+  if (error instanceof PiAgentCancelledError) return "Pi request was cancelled.";
+  if (error instanceof TypeError) return error.message;
+  if (error instanceof PiAgentProcessError) {
+    console.error("Pi web agent error:", error.message);
+    return "Pi could not complete this request.";
+  }
+  console.error("Pi web agent error:", error);
+  return "The WOD builder failed.";
+};
+
+const piJobs = createPiJobStore({
+  run: async (request) => {
+    const result = await piAgent.chat(request);
+    return {
+      message: result.message,
+      sessionId: result.sessionId,
+      workout: null,
+      intent: "builder",
+      critique: null,
+    };
+  },
+  formatError: piJobErrorMessage,
+});
 
 // AI pipeline (lazy init on first request)
 let wodAI: Awaited<ReturnType<typeof createWodAI>> | null = null;
@@ -53,7 +89,7 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v6';
+const CACHE_NAME = 'wod-v8';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
@@ -74,6 +110,9 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  const requestUrl = new URL(event.request.url);
+  if (requestUrl.origin !== self.location.origin) return;
+  if (requestUrl.pathname.startsWith('/api/')) return;
   if (event.request.mode === 'navigate') {
     event.respondWith(
       fetch(event.request).then((response) => {
@@ -315,6 +354,12 @@ app.options("/api/ai/session", () =>
     headers: AGENT_CORS_HEADERS,
   }));
 
+app.options("/api/ai/jobs/:id", () =>
+  new Response(null, {
+    status: 204,
+    headers: AGENT_CORS_HEADERS,
+  }));
+
 // Public prototype: browser prompt -> Pi/OpenRouter/Nemotron in smolbox-wod.
 app.post("/api/ai/chat", async (c) => {
   for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
@@ -339,49 +384,38 @@ app.post("/api/ai/chat", async (c) => {
     return c.json({ error: "prompt is required" }, 400);
   }
 
+  const sessionId = typeof body.sessionId === "string" && body.sessionId.trim()
+    ? body.sessionId
+    : crypto.randomUUID();
   try {
-    const result = await piAgent.chat({
+    const job = piJobs.create({
       prompt: body.prompt,
-      sessionId: typeof body.sessionId === "string"
-        ? body.sessionId
-        : undefined,
+      sessionId,
       pageContext: body.pageContext,
-      signal: c.req.raw.signal,
     });
     return c.json({
-      message: result.message,
-      sessionId: result.sessionId,
-      workout: null,
-      intent: "builder",
-      critique: null,
-    });
+      jobId: job.id,
+      status: job.status,
+      sessionId: job.sessionId,
+    }, 202);
   } catch (error) {
-    if (error instanceof PiAgentBusyError) {
-      return c.json({ error: "This builder session is already working." }, 409);
-    }
-    if (
-      error instanceof PiAgentCapacityError ||
-      error instanceof PiAgentSessionLimitError
-    ) {
-      c.header("Retry-After", "5");
-      return c.json({ error: error.message }, 429);
-    }
-    if (error instanceof PiAgentTimeoutError) {
-      return c.json({ error: "Pi exceeded the ten-minute turn limit." }, 504);
-    }
-    if (error instanceof PiAgentCancelledError) {
-      return c.json({ error: "Pi request was cancelled." }, 408);
-    }
     if (error instanceof TypeError) {
       return c.json({ error: error.message }, 400);
     }
-    if (error instanceof PiAgentProcessError) {
-      console.error("Pi web agent error:", error.message);
-      return c.json({ error: "Pi could not complete this request." }, 502);
-    }
-    console.error("Pi web agent error:", error);
-    return c.json({ error: "The WOD builder failed." }, 500);
+    console.error("Could not create Pi web job:", error);
+    c.header("Retry-After", "5");
+    return c.json({ error: "WOD Builder job capacity reached." }, 429);
   }
+});
+
+app.get("/api/ai/jobs/:id", (c) => {
+  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
+    c.header(name, value);
+  }
+  c.header("Cache-Control", "no-store");
+  const job = piJobs.get(c.req.param("id"));
+  if (!job) return c.json({ error: "Agent job not found." }, 404);
+  return c.json(job);
 });
 
 app.delete("/api/ai/session", async (c) => {
@@ -404,6 +438,7 @@ app.delete("/api/ai/session", async (c) => {
   }
 
   try {
+    piJobs.cancelSession(body.sessionId);
     await piAgent.clearSession(body.sessionId);
     return new Response(null, { status: 204, headers: AGENT_CORS_HEADERS });
   } catch (error) {
@@ -1343,7 +1378,7 @@ function renderPage(
                 </div>
 
                 <template x-if="selectedProgram.weeks[selectedWeekIdx].description">
-                  <p style="line-height: 1.7; font-size: 0.95rem;" x-text="selectedProgram.weeks[selectedWeekIdx].description"></p>
+                  <p style="line-height: 1.7; font-size: 0.95rem;" x-html="renderInline(selectedProgram.weeks[selectedWeekIdx].description)"></p>
                 </template>
 
                 <!-- Week Schedule -->
@@ -2940,7 +2975,7 @@ function routineStackApp() {
 <!-- Service Worker Registration -->
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW registration failed:', err));
+  navigator.serviceWorker.register('/sw.js?v=wod-v8', { updateViaCache: 'none' }).catch(err => console.log('SW registration failed:', err));
 }
 </script>
 

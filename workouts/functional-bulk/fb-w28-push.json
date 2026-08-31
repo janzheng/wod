@@ -1,0 +1,176 @@
+{
+  "id": "fb-w28-push",
+  "name": "Week 28 Push — Short, Form-First Pressing",
+  "description": "**Short, form-first push day.** Keep the main presses and trim accessory volume.\n\n**Strict DB press stays at 50.** W27 held two sets of 10 before the third set lost strict form. This week is 3 sets of 6-8; the set ends when strict form ends.\n\n**Incline DB holds at 60.** W27 completed 12 × 3, but the last set approached form failure. There is no 65 test this week.\n\n**Dips use the solved setup:** angled / V bar, left forearm rotated outward before rep 1, controlled eccentric.\n\n**Lateral raise holds at 20, the lean-back cable tricep pushdown stays on its established ID, and farmer carry holds at 60 per hand for two clean walks.**",
+  "routineId": "functional-bulk-dynamic",
+  "tags": ["push", "gym", "strength", "functional-bulk"],
+  "estimatedDuration": 45,
+  "equipment": ["dumbbell", "cable", "kettlebell", "resistance-band", "bodyweight"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "A short day built from W27's actual report. The strict press and incline press both hold their loads while clean form sets the rep ceiling. The dip grip is solved; use it rather than investigating it again. Accessory volume is trimmed without dropping the shoulder anchors or cooldown.",
+    "spotlights": [
+      {
+        "exerciseId": "incline-dumbbell-press",
+        "why": "W27 completed 60 × 12 × 3, but form began to slip near the end. Hold 60 and make the 2s eccentric and packed shoulder position survive every rep."
+      },
+      {
+        "exerciseId": "push-press",
+        "why": "W27 held 50 strictly for 10 / 10 before strict reps fell to 5. Use a clean 6-8 rep range this week and end each set before leg drive or a shrug takes over."
+      }
+    ],
+    "rotationPlan": "W29 — consider the next slow implement rotation only after W28 confirms the current press and incline loads. W30 — return the accessory spotlight to the cable block.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: strict DB press, incline DB press, dips, Kinesis fly, straight-arm pulldown, farmer carry. On these, effort means the cue holding at a hard load, and the ceiling is the rep the cue breaks.",
+      "🔥 near-failure last set OK: DB lateral raise and the lean-back cable tricep pushdown. Isolation work where form does not degrade dangerously at the limit.",
+      "**Sleep deprivation watch:** if feeling unusually fatigued or shoulder flare, reduce volume on pressing lifts (e.g., drop a set) and prioritize form over reps.",
+      "**The lean-back tricep movement keeps its established ID and path:** hands near chest → arms straight by the hips, torso leaned back, nothing behind the head. If the right-arm nerve line returns and does not clear when the shoulder packs down, stop the set.",
+      "**The dip grip is solved.** Use the angled / V bar and rotate the left forearm outward before taking bodyweight. The left grip still sets the farmer-carry ceiling.",
+      "**Pack DOWN, not up** on every pressing lift. Shoulder blades into the back pockets, neck long, traps quiet. If a rep needs a shrug, that rep is over."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable) + Bottoms-Up Carry + Chest Opener + Pull-Up Greasing + Protective Shrug",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The whole block, every push day. Yuri's band work is the shoulder anchor — it is the reason the right shoulder has stayed quiet through a heavy pressing block, so it does not get skipped on a short morning.",
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Small to large. Just moving blood." },
+        { "id": "yuris-shoulder-band-warmup", "reps": 1, "notes": "**The shoulder anchor.** Full sequence, light band, no rushing. Cuff first, then scap." },
+        { "id": "kettlebell-bottoms-up-carry", "reps": "1 short walk each side", "notes": "Light bell, inverted. **Wrist stacked over elbow over shoulder** — the bell falling is the feedback. Shoulder stability primer before anything gets pressed." },
+        { "id": "kinesis-cable-fly", "reps": "12-15", "notes": "Light — this is the chest opener, not the working set. That comes later." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Tight fists, thumbs tucked, hinged slightly forward. Wakes the deep core." },
+        { "id": "push-up", "reps": 12, "notes": "Elbows ~45°, **pack down not up**. One easy set." },
+        { "id": "pull-up", "reps": "6-8", "notes": "Greasing set, nowhere near failure. Keeps the pattern alive on a push day." },
+        { "id": "behind-back-dumbbell-shrug", "reps": "12-15", "notes": "**Protective activation — do this before anything loaded.** 40-50lb pair, behind the back. This is the block that keeps the shoulder quiet." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "strict-press",
+      "name": "Strict DB Press — 50, No Leg Drive 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 50lb pair, 3 sets of 6-8. **2 minutes between sets, reps as singles.**\n\nW27 held 10 / 10 strictly, then strict reps fell to 5. Use the narrower range so all three sets stay strict.\n\n- **No dip, no knee bend.** The set ends when strict form ends\n- **Slow eccentric on every rep**\n- **Ribs DOWN at lockout.** No rib flare to get under the weight\n- **Pack DOWN, not up.** If the shoulders climb toward the ears, the set is over\n- **Take the full 2 minutes between sets**",
+      "exercises": [
+        {
+          "id": "push-press",
+          "reps": "6-8",
+          "notes": "**LOAD:** 50lb pair, 3 sets. 2 min rest, reps as singles.\n- **Strict — no leg drive**\n- **Slow eccentric every rep**\n- **Shoulders packed DOWN**, traps relaxed, ribs down"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "incline-db",
+      "name": "🔆 Incline DB Press — Hold 60 Cleanly (Spotlight) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 60lb pair, 3 sets of 8-12. **No 65 test this week.** Use a 2s eccentric and take 2 minutes between sets.\n\n**🔆 SPOTLIGHT — make 60 repeatable:**\n- **Bench at 30°, not 45°**\n- **2s eccentric on every rep**\n- **Shoulder blades DOWN and BACK into the bench**, chest tall\n- **Elbows around 45° from the torso**, not flared to 90\n- Stop the set when the eccentric shortens, the shoulders shrug, or the last clean rep is done\n\n**Reflection:** did 60 return to feeling stable, or is sleep debt still making the final set the honest ceiling?",
+      "exercises": [
+        {
+          "id": "incline-dumbbell-press",
+          "reps": "8-10",
+          "notes": "**LOAD:** 60lb pair for all 3 sets.\n- **30° bench**\n- **2s eccentric every rep**\n- **Blades down and back**, ribs down\n- 2 min rest, reps as singles\n- Stop before form slips"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "dips",
+      "name": "Dips — Use the Solved Rotated-Palm Setup 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** Bodyweight, 3 sets of 8-10. Use the **angled / V bar**.\n\n- **Rotate the left forearm outward before taking bodyweight** so pressure sits on the firmer inside edge of the hand instead of the thumb pad\n- Use mini-dips against the bar to set the forward lean\n- **Aim for a 3s descent**; shorten the set rather than rushing the eccentric\n- **Pack DOWN at the top** — no shrugging up to lock out",
+      "exercises": [
+        {
+          "id": "dip",
+          "reps": "8-10",
+          "notes": "Bodyweight, 3 sets. **Angled / V bar.**\n- **Set the rotated palm position BEFORE the first rep**\n- Mini-dips against the bar to find the lean\n- **3s descent**, hold the forward lean\n- Shoulders packed down at lockout"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "lateral-raise",
+      "name": "DB Lateral Raise — 20 Holds 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 20lb, 3 sets of 12-15. If the 20s are not free, run 15 with the tempo intact — the tempo is what earned the load.\n\n20 landed at the top of the rep range last time across three sets without failing, and the slow tempo came with it. The load question is closed; back to tempo and ROM as the levers.\n\n- **Slow up, slow down, 1s hold at the top**\n- **Lead with the elbows**, little fingers a touch high\n- **Traps quiet.** If the shoulders ride up to start the rep, the weight is winning\n- Last set may run to near-failure — this is a safe isolation lift for that",
+      "exercises": [
+        {
+          "id": "lateral-raise",
+          "reps": "12-15",
+          "notes": "**LOAD:** 20lb pair (15 if the 20s are taken).\n- Slow up / slow down / **1s hold**\n- Lead with the elbow\n- **Traps relaxed** — no shrug to start the rep"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 75
+    },
+    {
+      "id": "cable-block",
+      "name": "Cable Block — Straight-Arm Pulldown → Lean-Back Tricep Pushdown (2 Rounds)",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**Two rounds, circuit style, minimal rest between moves.** Both live on the cable stations — take whichever is free and stay there.\n\nThe tricep movement is the established lean-back pushdown under its historical ID. Do not schedule the duplicate W1 `cable-tricep-pushdown` entry.",
+      "exercises": [
+        {
+          "id": "straight-arm-pulldown",
+          "reps": 12,
+          "notes": "**LOAD:**\n- Cable column: **120**\n- Rope pulley: **62.5**\n- Kinesis: **6**\nPick whichever is free; **note which equipment + number you used in the log.**\n\n- **Arms stay straight** — soft elbow, fixed angle\n- Drive from the lats, finish at the thighs\n- Ribs down, no leaning back to add range"
+        },
+        {
+          "id": "incline-cable-overhead-tricep-extension",
+          "reps": "10-12",
+          "notes": "**LOAD:** cable column **60**, with **50** as the tired-day fallback.\n- Lean the torso back; hands travel from near the chest to straight arms by the hips\n- **Elbows stay fixed** — only the forearms move\n- Nothing goes behind the head\n- Pack the shoulders down before every set\n- If the right-arm nerve line returns and does not clear, stop the set"
+        }
+      ],
+      "restBetween": 15,
+      "restAfter": 90
+    },
+    {
+      "id": "farmer-carry",
+      "name": "Farmer Carry — 60 per Hand, Rebuild the Walks (Shortened) 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD:** 60lb per hand, 2 walks of ~50s. **No straps.**\n\nThe read is already answered: at 60 the grip fails first, and it is the left hand that goes. Two walks held and the third collapsed around 15s last time. So the job this week is not more weight — it is two walks that all hold. **Do not step to 70 while set 2 is still collapsing.**\n\n- **Shoulders packed down**, ribs stacked over hips, walk tall\n- **Crush the handles from the start** rather than letting the grip fade into it\n- If the left goes early, set them down, rest, and finish the time — a broken walk is still the work",
+      "exercises": [
+        {
+          "id": "farmer-carry",
+          "reps": "2 walks of ~50s",
+          "notes": "**LOAD:** 60lb per hand. No straps.\n- **Grip hard from the first step**\n- Shoulders down, ribs stacked, tall posture\n- Goal is two walks that hold, not a heavier bell"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm, elbow at MID height." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive. Let the shoulders decompress." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing. End here." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Two minutes between sets, reps as singles — the method does not change in a week where a load might.",
+    "Pack DOWN, not up, on every press. If the cue cannot hold at the load, the load is too heavy for the cue.",
+    "Use the established lean-back tricep pushdown path and log the cable-column load; do not treat it as a new lift.",
+    "Short day: accessory volume trimmed to fit a constrained window."
+  ]
+}

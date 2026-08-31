@@ -348,5 +348,162 @@
       "hip abduction": "'Open at 230 for abduction!' — confirmed.",
       "implement rotation": "'We can rotate slowly; we don't have to rotate everything at once lol.' The sequenced plan stands: small lifts now, hinge in W29, incline press holds DBs through W28."
     }
+  },
+  {
+    "day": 3,
+    "date": "2026-08-28",
+    "workoutId": "fb-w27-pull",
+    "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back. Arrilaga.",
+    "notes": "Moved from Thursday to Friday because Thursday was a write-off — \"i also felt wrecked yesterday from legs on wednesday haha i think id rather have a day off after legs.\" **The week's one designed test ran and came back negative: the pull-ups did not return.** 8 / 6 / 6 / 5 with the 3s eccentric held, against W25's rested 10 / 8 / 7 / 5 and W26's day-after-push 8 / 7 / 6 + singles. Push sat three days back and legs two, and the number landed on top of last week's anyway — with \"oof super tired\" as the frame again. **The other headline is the incline curl: the worst left-side result in the four weeks it has been showing up**, and in the same session the high cable curl went UP to 220 with both sides fine. He drew the line himself: \"left bicep only messes up on concentration never on any of these other exercises or pull ups.\" He labelled the report `w27d4`; it was Friday, day 3, pull.",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "notes": "**The adjacency test's answer: no.** 8 / 6 / 6 / 5 to form failure, 3s eccentric intact throughout — essentially W26's number (8/7/6 + singles) with a longer gap from push day. The one thing the week changed did not change the result. Confound worth naming rather than resolving: he reported himself \"super tired\" and wrecked the day before from Wednesday's legs, so the rested read the test wanted still has not happened. **Follow-up: the right shoulder was quiet — \"felt great actually, forgot about shoulder being in pain, just weakness this time.\"** The crispy shoulder that framed last week's drop was absent, so it is not what capped the reps.",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": "8 to failure",
+            "notes": "\"Slow 3s.\""
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": "6 to failure"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": "6 to failure"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": "5 to failure"
+          }
+        ]
+      },
+      {
+        "id": "incline-curl",
+        "notes": "**Worst left-side result of the four weeks.** \"Left side absolutely wrecked! worst day ever even first set failed half way.\" W24 died at 8 on set one, W25 died on set one then recovered, W26 completed everything; this failed halfway through the first set. **His own read rules out the baby again:** \"i don't think it's bc of baby handling it just feels like i've been working out on it a lot more and it's just always at doms — it's super weird??\" **His decision, and it is the right lever: drop the left to 20 and buy clean reps.** \"20 on left feel like 25 on right lol\" — a direct calibration of the gap. He asked plainly: \"did i tear something?? nothing ever hurt as pain or pinched or pulled.\" **His answer on the tear question: \"it's never been painful it's just been weak, and only for a few weeks, and only for these exercises. i still think i slept on it wrong or whatever, that's fine.\"** Closed again on his side.",
+        "sets": [
+          {
+            "weight": "25lb",
+            "reps": "left failed ~halfway",
+            "notes": "\"Worst day ever even first set failed half way.\""
+          },
+          {
+            "weight": "25lb right / 20lb left",
+            "reps": "10 each side",
+            "notes": "Dropped the left to 20 to get form and reps back."
+          },
+          {
+            "weight": "25lb right / 20lb left",
+            "reps": "10 each side"
+          }
+        ]
+      },
+      {
+        "id": "dumbbell-row",
+        "notes": "The pyramid repeated W26 exactly: 75 and 85 clean, and the left stopped at 8 on the 95. **This time he named the limiter narrowly — \"grip issue\"** — where W26 read \"lost grip and strength.\" Same ceiling, cleaner attribution. Note against the curl: the arm that failed halfway through set one on the incline curl rowed 85 for full reps and got to 8 at 95.",
+        "sets": [
+          {
+            "weight": "75lb",
+            "reps": "8-10 each side",
+            "notes": "Fine."
+          },
+          {
+            "weight": "85lb",
+            "reps": "8-10 each side",
+            "notes": "Fine."
+          },
+          {
+            "weight": "95lb",
+            "reps": "left 8",
+            "notes": "\"Left stopped at 8; grip issue.\""
+          }
+        ]
+      },
+      {
+        "id": "lat-pulldown",
+        "notes": "**All three sets at 160, clean** (the third was done and simply not written down). **The observation is the interesting part:** \"i'm surprised how lat pull downs are getting easier while pull ups are hard — i haven't been gaining THAT much weight lol.\" Second week running that the same contrast has shown up (W26: \"whoa this is so much easier than pull ups ahah\").",
+        "sets": [
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "Fine."
+          },
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "Fine."
+          },
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "Third set — done, not written down at the time."
+          }
+        ]
+      },
+      {
+        "id": "face-pull",
+        "notes": "62.5 held for a third week, and it stopped being free: \"got tired half way thru third lol.\" The block invited adding load as it got easy; it did not get easy. 62.5 is sitting at the right place rather than needing a step.",
+        "sets": [
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20,
+            "notes": "\"Got tired half way thru third lol.\""
+          }
+        ]
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "notes": "**Went up again and both sides cleared it: \"did weirdly well added another 220 and both sides did without too much problem this is working weight.\"** The ladder was written 190 / 200 / 210 after his own W26 call to move the whole thing up 10; he added a 220 on top of it. **This is the session's key contrast — the same left arm that failed halfway through the first incline curl set curled 220 on a cable without trouble.** W25 had the left as the harder side on the top set of this lift; today it was not. Confirmed four sets.",
+        "sets": [
+          {
+            "weight": "190",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "200",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "210",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "220",
+            "equipment": "cable column",
+            "reps": "10-12 each side",
+            "notes": "\"Both sides did without too much problem this is working weight.\""
+          }
+        ]
+      }
+    ],
+    "rawInput": "w27d4\n\noof super tired doing this friday instead \n\ni also felt wrecked yesterday from legs on wednesday haha i think id rather have a day off after legs\n\npull ups\n8 to failure slow 3s\n6 to failure\n6 to failure\n5 to failure\n\nsupported curls\nleft side absolutely wrecked! worst day ever even first set failed half way - i don’t think it’s bc of baby handling it just feels like i’ve been working out on it a lot more and it’s just always at doms - it’s super weird??\n- going down to 20 on my left to get better form and reps; 20 on left feel like 25 on right lol\n- did i tear something?? nothing ever hurt as pain or pinched or pulled j\n\nrows\n75 and 85 went fine\n95 left stopped at 8; grip issue\n\nlat pulldown\n160 fine\n160 fine\ni’m surprised how lat pull downs are getting easier while pull ups are hard- i haven’t been gaining THAT much weight lol\n\nface pulls at 62.5 got tired half way thru third lol\n\nhigh cable curl did weirdly well added another 220 and both sides did without too much problem this is working weight \n\nleft bicep only messes up on concentration never on any of these other exercises or pull ups",
+    "followUps": {
+      "askedOn": "2026-08-28",
+      "lat pulldown": "\"Did 3 sets, forgot to write down 3rd.\" All three at 160.",
+      "high cable curl": "\"Yeah four sets for cable curl\" — 190 / 200 / 210 / 220, cable column.",
+      "pull-ups / right shoulder": "**\"Pull ups felt great actually, forgot about shoulder being in pain, just weakness this time.\"** No shoulder symptom at all — the W26 'extra crispy' read did not repeat.",
+      "left arm": "\"It's never been painful it's just been weak, and only for a few weeks, and only for these exercises. i still think i slept on it wrong or whatever, that's fine.\"",
+      "⭐ bodyweight": "**The pull-up question is answered, and not by ordering or fatigue.** Weighed himself at the hospital: **up ~10lb recently and ~25lb since the program started**, while *\"also looking leaner.\"* His own conclusion: *\"yeah thats why pull ups are getting harder :P\"* — and it explains the contrast he flagged in the same report, since the lat pulldown's load is external and the pull-up's is him.",
+      "W28 shape": "\"Yeah you can rewrite it as p, l, off, pull.\" Plus: **weekend likely off too** — *\"might go for a light jog/run or swim instead of kb since i'm sleep deprived a lot.\"*"
+    }
   }
 ]
