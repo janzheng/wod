@@ -28,9 +28,10 @@ chat implementation.
 
 This is deliberately a public, no-auth prototype. Anyone who reaches it can
 change WOD and consume the personal box's model quota. The current `coding`
-route ends at OpenRouter's free endpoint, whose traffic may be logged, so do not
-send private or personal information. Free routes are rate-limited and a turn
-can take a while.
+route prefers OpenRouter's free endpoint, then NVIDIA Build, then the local
+Spark model. The remote free providers may log traffic, so do not send private
+or personal information. Free routes are rate-limited and a turn can take a
+while.
 
 The browser's fabric provider contains only its private endpoint and a
 meaningless local placeholder; Spark and OpenRouter credentials stay with the
