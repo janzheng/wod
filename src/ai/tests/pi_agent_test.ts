@@ -3,6 +3,7 @@ import {
   createPiAgent,
   formatPiPrompt,
   normalizePiPageContext,
+  PI_CONFIG_DIR,
   PI_MAX_PROMPT_BYTES,
   PI_MODEL,
   PI_PROVIDER,
@@ -79,6 +80,10 @@ Deno.test("pi agent: fixes provider, model, tools, workdir, and session path", a
   assertEquals(calls.length, 1);
   assertEquals(calls[0].binary, "/usr/local/bin/pi");
   assertEquals(calls[0].cwd, "/workspace");
+  assertEquals(
+    calls[0].env,
+    PI_CONFIG_DIR ? { PI_CODING_AGENT_DIR: PI_CONFIG_DIR } : undefined,
+  );
   assertEquals(calls[0].args.slice(0, 4), [
     "--provider",
     PI_PROVIDER,
@@ -88,6 +93,24 @@ Deno.test("pi agent: fixes provider, model, tools, workdir, and session path", a
   assert(calls[0].args.includes(PI_TOOLS));
   assert(calls[0].args.includes("/test/sessions/browser-a.jsonl"));
   assertEquals(calls[0].args.at(-1), "inspect WOD");
+});
+
+Deno.test("pi agent: can select a project-owned provider config directory", async () => {
+  let call: PiCommandSpec | undefined;
+  const agent = createPiAgent({
+    configDir: "/workspace/.smolbox/pi-test",
+    sessionRoot: "/test/sessions",
+    prepareSessionRoot: () => Promise.resolve(),
+    runCommand: (spec) => {
+      call = spec;
+      return Promise.resolve(piCommandResult("CONFIG_OK"));
+    },
+  });
+
+  await agent.chat({ prompt: "inspect WOD", sessionId: "config-a" });
+  assertEquals(call?.env, {
+    PI_CODING_AGENT_DIR: "/workspace/.smolbox/pi-test",
+  });
 });
 
 Deno.test("pi agent: includes validated page context in the Pi turn", async () => {

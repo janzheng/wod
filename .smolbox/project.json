@@ -4,9 +4,9 @@
   "name": "wod",
   "runtime": "deno",
   "commands": {
-    "build": ["deno","task","build"],
-    "test": ["deno","task","ai:test"],
-    "start": ["deno","task","dev"]
+    "build": ["deno", "task", "build"],
+    "test": ["deno", "task", "ai:test"],
+    "start": ["deno", "task", "dev"]
   },
   "port": 8010,
   "snapshot": {
@@ -25,6 +25,11 @@
       "timer.js"
     ]
   },
-  "optionalEnvironmentNames": ["WOD_DATA_ROOM_BASE_URL"],
-  "optionalSecretNames": ["GEMINI_API_KEY","GROQ_API_KEY"]
+  "optionalEnvironmentNames": [
+    "WOD_DATA_ROOM_BASE_URL",
+    "WOD_PI_CONFIG_DIR",
+    "WOD_PI_MODEL",
+    "WOD_PI_PROVIDER"
+  ],
+  "optionalSecretNames": ["GEMINI_API_KEY", "GROQ_API_KEY"]
 }

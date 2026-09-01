@@ -1,8 +1,15 @@
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
 
-export const PI_PROVIDER = "openrouter";
-export const PI_MODEL = "nvidia/nemotron-3-super-120b-a12b:free";
+function optionalEnvironment(name: string): string | undefined {
+  const value = Deno.env.get(name)?.trim();
+  return value || undefined;
+}
+
+export const PI_PROVIDER = optionalEnvironment("WOD_PI_PROVIDER") ?? "fabric";
+export const PI_MODEL = optionalEnvironment("WOD_PI_MODEL") ?? "coding";
+export const PI_CONFIG_DIR = optionalEnvironment("WOD_PI_CONFIG_DIR") ??
+  (PI_PROVIDER === "fabric" ? "/root/.smolbox/pi-fabric" : undefined);
 export const PI_TOOLS = "read,bash,edit,write,grep,find,ls";
 export const PI_MAX_CONCURRENT_TURNS = 4;
 export const PI_MAX_PROMPT_BYTES = 16 * 1024;
@@ -40,6 +47,7 @@ export type PiCommandSpec = {
   binary: string;
   args: string[];
   cwd: string;
+  env?: Record<string, string>;
   signal?: AbortSignal;
 };
 
@@ -63,6 +71,7 @@ export type PiAgentOptions = {
   maxConcurrentTurns?: number;
   maxSessions?: number;
   timeoutMs?: number;
+  configDir?: string;
 };
 
 export type PiAgentRequest = {
@@ -221,6 +230,7 @@ async function defaultRunCommand(
   const child = new Deno.Command(spec.binary, {
     args: spec.args,
     cwd: spec.cwd,
+    env: spec.env,
     stdin: "null",
     stdout: "piped",
     stderr: "piped",
@@ -298,6 +308,7 @@ export function createPiAgent(options: PiAgentOptions = {}) {
     PI_MAX_CONCURRENT_TURNS;
   const maxSessions = options.maxSessions ?? PI_MAX_SESSIONS;
   const timeoutMs = options.timeoutMs ?? PI_TURN_TIMEOUT_MS;
+  const configDir = options.configDir ?? PI_CONFIG_DIR;
   const activeSessions = new Set<string>();
   const pendingDeletes = new Set<string>();
   let sessionIdsPromise: Promise<Set<string>> | undefined;
@@ -367,6 +378,7 @@ export function createPiAgent(options: PiAgentOptions = {}) {
             binary,
             args: piArguments(sessionPath, turnPrompt),
             cwd: workdir,
+            ...(configDir ? { env: { PI_CODING_AGENT_DIR: configDir } } : {}),
             signal: turnController.signal,
           });
         } catch (error) {

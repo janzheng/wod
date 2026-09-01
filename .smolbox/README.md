@@ -8,12 +8,14 @@ This is WOD's tiny integration seam for a Mac-local Smolbox. The actual project 
 
 ## Public WOD Builder
 
-The AI panel at `https://wod.janzheng.com` runs Pi inside `smolbox-wod`. It is
-pinned to OpenRouter's `nvidia/nemotron-3-super-120b-a12b:free` model and starts
-in `/workspace` with normal coding tools, so it can inspect and change this WOD
+The AI panel at `https://wod.janzheng.com` runs Pi inside `smolbox-wod`. Its
+default is the separate inference fabric's `coding` route, configured through a
+private Pi provider file at `/root/.smolbox/pi-fabric/models.json`. The fabric,
+not WOD or smolbox core, chooses the exact Spark or OpenRouter leg. Pi starts in
+`/workspace` with normal coding tools, so it can inspect and change this WOD
 checkout. Each browser gets a persistent Pi session; clearing the chat starts a
-new one. Terminal `pi` sessions use the same account, model, and files, but not
-the browser conversation transcript.
+new one. Terminal `pi` remains the owner's direct OpenRouter/Ollama command and
+shares the files, but not the browser conversation transcript.
 
 Each browser turn also sends the current WOD view's title, route, and
 project-relative source path. It does not copy the rendered page contents. When
@@ -25,12 +27,19 @@ program JSON. This is the normal WOD Builder path, not a separate smolbox-only
 chat implementation.
 
 This is deliberately a public, no-auth prototype. Anyone who reaches it can
-change WOD and consume the personal box's model quota. OpenRouter says free
-endpoint traffic may be logged, so do not send private or personal information.
-The free endpoint is rate-limited and a turn can take a while.
+change WOD and consume the personal box's model quota. The current `coding`
+route ends at OpenRouter's free endpoint, whose traffic may be logged, so do not
+send private or personal information. Free routes are rate-limited and a turn
+can take a while.
 
-OpenRouter login remains private guest state at `/root/.smolbox/pi/auth.json`.
-Do not put a key in `.env.example` or commit one to this repository.
+The browser's fabric provider contains only its private endpoint and a
+meaningless local placeholder; Spark and OpenRouter credentials stay with the
+separate fabric process. Owner OpenRouter login remains private guest state at
+`/root/.smolbox/pi/auth.json` for terminal use and rollback. Do not put a key in
+`.env.example` or commit one to this repository. To roll the browser Builder
+back, start WOD with `WOD_PI_PROVIDER=openrouter`,
+`WOD_PI_MODEL=nvidia/nemotron-3-super-120b-a12b:free`, and
+`WOD_PI_CONFIG_DIR=/root/.smolbox/pi`.
 `WOD_AGENT_BASE_URL` is only a non-secret seam: blank means the chat calls the
 same WOD origin; a later separately served frontend can point it at an approved
 agent endpoint.

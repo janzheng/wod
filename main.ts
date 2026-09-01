@@ -360,7 +360,7 @@ app.options("/api/ai/jobs/:id", () =>
     headers: AGENT_CORS_HEADERS,
   }));
 
-// Public prototype: browser prompt -> Pi/OpenRouter/Nemotron in smolbox-wod.
+// Public prototype: browser prompt -> Pi -> configured model route in smolbox-wod.
 app.post("/api/ai/chat", async (c) => {
   for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
     c.header(name, value);
