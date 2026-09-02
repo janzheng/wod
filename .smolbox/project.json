@@ -3,12 +3,14 @@
   "kind": "smolbox-project",
   "name": "wod",
   "runtime": "deno",
+  "boxGeneration": 2,
   "commands": {
     "build": ["deno", "task", "build"],
     "test": ["deno", "task", "ai:test"],
     "start": ["deno", "task", "dev"]
   },
   "port": 8010,
+  "tools": ["deno"],
   "snapshot": {
     "source": "static",
     "exclude": [
