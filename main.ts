@@ -170,7 +170,7 @@ app.use("/api/*", async (c, next) => {
 
 app.get("/api/routines", async (c) => {
   // Load all routine files
-  const routines = [];
+  const routines: unknown[] = [];
   const routineFiles = [
     "barre",
     "cardio",
@@ -203,7 +203,7 @@ app.get("/api/routines/:id", async (c) => {
 
 app.get("/api/saved", async (c) => {
   // Load all saved workout files
-  const savedWorkouts = [];
+  const savedWorkouts: unknown[] = [];
   const savedFiles = [
     "aj-standing-barre",
     "aj-floor-barre",
@@ -257,7 +257,7 @@ app.get("/api/workouts/*", async (c) => {
 
 app.get("/api/progressions", async (c) => {
   // Load all progression files
-  const progressions = [];
+  const progressions: unknown[] = [];
   const progressionFiles = [
     "dip-progression",
     "hinge-progression",
@@ -274,7 +274,7 @@ app.get("/api/progressions", async (c) => {
 });
 
 app.get("/api/programs", async (c) => {
-  const programs = [];
+  const programs: unknown[] = [];
   try {
     for await (
       const entry of Deno.readDir(new URL("./programs", import.meta.url))

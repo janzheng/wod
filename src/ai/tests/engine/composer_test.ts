@@ -5,7 +5,7 @@ import { composeWorkout } from "../../engine/composer.ts";
 import { getPattern } from "../../engine/patterns.ts";
 import type { WorkoutIntent } from "../../types.ts";
 
-const DATA_DIR = new URL("../../../../", import.meta.url).pathname;
+const DATA_DIR = decodeURIComponent(new URL("../../../../", import.meta.url).pathname);
 
 async function setup() {
   const data = await loadData(DATA_DIR);

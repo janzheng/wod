@@ -13,7 +13,7 @@ import { PATTERNS } from "./engine/patterns.ts";
 import type { WorkoutIntent, ConversationSession } from "./types.ts";
 
 const PORT = parseInt(Deno.env.get("AI_PORT") ?? "8001");
-const dataDir = new URL("../../", import.meta.url).pathname;
+const dataDir = decodeURIComponent(new URL("../../", import.meta.url).pathname);
 const config = getConfig();
 
 console.log("Loading exercise database...");
