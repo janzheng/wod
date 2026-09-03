@@ -1,1 +1,131 @@
-[]
+[
+  {
+    "day": 1,
+    "date": "2026-08-31",
+    "workoutId": "fb-w28-push",
+    "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back. Arrilaga.",
+    "notes": "Short push day run on no sleep — 'super tired and sleep deprived lol' — and it held everywhere the cue mattered. The strict press took the new 6-8 prescription at the top of the range for all three sets with no leg drive, and dips came back better than they have in weeks ('shoulders felt great'). The line that matters for the program: 'this is the perfect length for these tired days.'",
+    "exercises": [
+      {
+        "id": "standing-dumbbell-strict-press",
+        "notes": "**50 x 8 x 3, all strict — 'static went great.'** First session under the renamed id. W27 ran 10 / 10 / 5-strict-plus-4-push-presses at the same load; the 6-8 range traded the rep count for three clean sets and it worked on a bad-sleep day.",
+        "sets": [
+          {
+            "weight": "50lb pair",
+            "reps": 8,
+            "notes": "Strict."
+          },
+          {
+            "weight": "50lb pair",
+            "reps": 8,
+            "notes": "Strict."
+          },
+          {
+            "weight": "50lb pair",
+            "reps": 8,
+            "notes": "Strict."
+          }
+        ]
+      },
+      {
+        "id": "dip",
+        "notes": "**12 x 3 — the best dip report of the block.** 'The long break helped did these slowly all sets shoulders felt great.' On follow-up the break was **2 min between sets, forced by the gym rather than planned** — 'really helps.' W27 ran 12 / 10 / 10 with the palm fix but he was 'still struggling'; with the longer rest the slow tempo held across all three sets and the shoulder was quiet.",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 12,
+            "notes": "Slow."
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 12,
+            "notes": "Slow."
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 12,
+            "notes": "Slow. 'Shoulders felt great.'"
+          }
+        ]
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "notes": "60 held for all sets — 'went great with all sets, slow and controlled, still working weight.' The 2s eccentric survived, which is what the spotlight asked for. Rep count not reported.",
+        "sets": [
+          {
+            "weight": "60lb pair",
+            "reps": "all 3 sets completed — count not specified",
+            "notes": "Slow and controlled."
+          }
+        ]
+      },
+      {
+        "id": "lateral-raise",
+        "notes": "'Kind of died half way through last set' — two sets clean, set 3 ran out partway. A 🔥 lift, so that is a fine place to end. **20lb pair confirmed on follow-up.**",
+        "sets": [
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "died about halfway"
+          }
+        ]
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "notes": "'Cable exercises went well.' **Double / standard cable column confirmed on follow-up**; number not restated, so read as the written 120.",
+        "sets": [
+          {
+            "weight": "120 (as written — station confirmed, number not restated)",
+            "equipment": "cable column",
+            "reps": 12
+          }
+        ]
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "notes": "'Cable exercises went well.' **Double / standard cable column confirmed on follow-up**; number not restated, so read as the written 60. W27 ran cable column 60 / 60 / 50 on a similarly tired day.",
+        "sets": [
+          {
+            "weight": "60 (as written — station confirmed, number not restated)",
+            "equipment": "cable column",
+            "reps": "10-12"
+          }
+        ]
+      },
+      {
+        "id": "farmer-carry",
+        "notes": "Two walks at 60, both banked — 'went well second set very hurried lol.' W27 needed a drop to 50 on its third walk; cutting to two walks kept both at 60.",
+        "sets": [
+          {
+            "weight": "60lb per hand",
+            "duration": 50,
+            "notes": "Fine."
+          },
+          {
+            "weight": "60lb per hand",
+            "duration": 50,
+            "notes": "'Very hurried lol.'"
+          }
+        ]
+      }
+    ],
+    "rawInput": "w28d1\n\nsuper tired and sleep deprived lol\n\npush press\n50x8 three times static went great\n\ndips\n12 x3 the long break helped did these slowly all sets shoulders felt great \n\nincline press went great with all sets, slow and controlled, still working weight \n\nlat raises kind of died half way through last set\n\ncable exercises went well\n\nfarmer carry went well second set very hurried lol\n\nthis is the perfect length for these tired days",
+    "followUps": {
+      "askedOn": "2026-09-02",
+      "cable stations": "'Double column / standard' — both cable lifts on the standard cable column. Numbers not restated.",
+      "lateral raise": "'20s!' — 20lb pair, and set 3 is where it ran out.",
+      "dip rest": "'2min break (forced haha) - break between sets - really helps.' The longer rest was imposed by the gym, not planned, and it is what let the slow tempo hold for all three sets.",
+      "date": "'This was monday' — 2026-08-31."
+    }
+  }
+]

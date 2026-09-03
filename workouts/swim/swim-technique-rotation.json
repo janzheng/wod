@@ -1,0 +1,91 @@
+{
+  "id": "swim-technique-rotation",
+  "name": "Swim: Rotation Block",
+  "description": "Freestyle technique session built around body rotation. Drills go first while you're fresh, then swim normally with one thing to think about. Distances are in LENGTHS (one way). Roughly 1200-1500 total.",
+  "routineId": "swim-technique",
+  "tags": ["swimming", "technique", "drills", "rotation", "freestyle"],
+  "estimatedDuration": 35,
+  "equipment": ["pool"],
+  "difficulty": "beginner",
+  "dayOverview": {
+    "theme": "Rotation is the whole session. Tired shoulders and legs that contribute nothing are the same problem — a flat body makes the arms do all the work and leaves the kick disconnected. Everything here is about getting the body to roll.",
+    "spotlights": [
+      {
+        "exerciseId": "swim-side-kick-drill",
+        "why": "The highest-yield drill for a self-taught swimmer who has never drilled. It forces rotation, forces the legs to work, and teaches breathing off the roll — all with the arms parked so they can't compensate."
+      }
+    ],
+    "watchpoints": [
+      "🛑 Nothing here is an effort session. If you're breathing hard on the drills, they're being swum instead of drilled — slow down.",
+      "🛑 Right shoulder: freestyle recovery is a big overhead arc. If it gets crabby, stop the swim, not just the drill.",
+      "Count strokes on one length near the start and one near the end. That's the only number worth having, and it should drift DOWN over weeks."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "swim-freestyle",
+          "distance": "4 lengths",
+          "notes": "Easy. No thinking, no fixing. Just get wet and let the shoulders open up."
+        }
+      ],
+      "restAfter": 30
+    },
+    {
+      "id": "rotation-drills",
+      "name": "Rotation Block",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "swim-side-kick-drill",
+          "distance": "6 lengths, alternating sides",
+          "notes": "🔆 **The session.** One length per side, switch every length.\n- **Bottom arm straight forward**, top arm resting along the hip — arms are parked, not helping.\n- **Eyes straight down** at the bottom of the pool. Lower goggle under, upper goggle out. Neck neutral — don't jam the chin, just don't look forward.\n- **Small fast kick from the HIPS**, not the knees. On your side there's nowhere to hide: no kick, no movement.\n- **To breathe, roll back toward your spine** until the face clears. Roll, don't crane the neck. Then roll back down.\n- **Expect this to be humbling.** If you're wobbling or sinking, that's the drill telling you the truth."
+        },
+        {
+          "id": "swim-6-3-6-drill",
+          "distance": "4 lengths",
+          "notes": "Same side position as above, now connected: **6 kicks on one side → 3 strokes → 6 kicks on the other side.** The 3 strokes are just the bridge between two side-kick positions. Stay long, let the hips lead the shoulders."
+        }
+      ],
+      "restBetween": 20,
+      "restAfter": 30
+    },
+    {
+      "id": "main",
+      "name": "Main Swim",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "swim-freestyle",
+          "distance": "as far as feels good — around 40 lengths",
+          "notes": "Normal swimming. **One thought only: roll the hips.** Breathe when the body rotates, not when the neck turns.\n- Keep alternating sides — left, right, left. The right side gets easier as the roll improves, not by forcing it.\n- **Count strokes on one length** early and one late. Same effort, fewer strokes = it's working.\n- Stop when it stops feeling good. The distance is not the point."
+        }
+      ],
+      "restAfter": 20
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "exercises": [
+        {
+          "id": "swim-backstroke",
+          "distance": "2-4 lengths",
+          "notes": "Easy backstroke — opens the chest and unloads the front of the shoulder after all that freestyle."
+        }
+      ],
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Drills go FIRST, while you're fresh. A drill done tired just grooves the bad version.",
+    "Slow is correct on the drills. They are not conditioning.",
+    "If the throat gums up partway through, ease off for a length and clear it rather than pushing through — outdoor pools and a steady nose-exhale both help.",
+    "Breathing on both sides is the right pattern. The weak side is a rotation problem, not a weak-side problem.",
+    "Stroke count is the only number worth tracking here. Not laps, not time."
+  ]
+}

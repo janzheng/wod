@@ -20,6 +20,15 @@ The actual goal: **build a solid form base + flexibility + athleticism**, then a
 - When in doubt between heavier-uglier and lighter-cleaner, go lighter-cleaner.
 - Mobility work (morning flows, butterfly/pigeon, hip openers) is not optional flavor — it's part of the base.
 
+## The Week Is a Sequence, Not a Calendar (W28+, his call — 2026-09-02)
+
+**Baby life means the week floats, and the loose structure is deliberate.** *"the looser ppl / 2d kb is separated from a strict daily bc baby life needs more flexibility — so that's all on purpose."*
+
+- **The three gym days are an ORDER, not weekdays.** `push → legs → pull`, run whenever three windows open — consecutive, or spread across the week. **Do not pin them to named days**, and do not "fix" the flexible framing back into a rigid 7-day calendar. The program week is a pool of sessions with a sequence, not a Mon-through-Sun grid.
+- **The two KB days are a separate, floating pool** — written as "if a window opens," never as owed. They are deliberately decoupled from the gym sequence rather than slotted into fixed weekdays. They relocate (a bell and a corner); the gym days don't.
+- **The order still binds even though the calendar doesn't.** Legs stays between push and pull so the two shoulder/grip days keep a full 48h apart; pull stays last because it is the short day. **Flexible *when*, fixed *in what order*.**
+- **The week is complete once the three gym sessions are banked.** Missing either KB day does not make it incomplete — spend the scarce slot on the session that can't be done anywhere else.
+
 ## Equipment Calibration Table (W14+) — cross-equipment loads per lift
 
 The Arrilaga gym has multiple machines for many cable lifts. The numbers **don't convert** — different stack scales, different leverage. This table is the source of truth for cross-equipment numbers. **Update on every session log** with the equipment used + the number; when a lift is logged on a NEW variant, add the new entry here. See CLAUDE.md "Equipment Variant Tracking" for the rules.
@@ -975,6 +984,39 @@ The push day's press slot has pointed at exercise id `push-press` since W3, and 
 | Lat pulldown | **160**, regular machine |
 | Face pull | **62.5** |
 | High cable curl | **190 → 200 → 210 → 220** ascending, cable column, single arm |
+
+## W28 Build Notes (built 2026-08-31 by a separate agent; audited + corrected 2026-09-02)
+
+- **Week shape corrected to `push → legs → pull`.** It was built `push → pull → legs` on the stated claim that *"Week 27 confirmed that Push → Pull back-to-back is workable."* **That claim is false** — W27 ran push 8/25, legs 8/26, pull 8/28, so push and pull were three days apart and adjacency was never tested. What the W27D3 note retired was the pull-up *number* as evidence for the ordering; the ordering itself still stands on the W26 shoulder/grip argument alone. Legs goes in the middle. Fixed in the program schedule (labels, workoutIds, per-day flow add-ons, week label + description) and in `fb-w28-pull.json` (description + warmup watchpoint).
+- **The press-block ID swap had not been applied.** `exercises/standing-dumbbell-strict-press.json` was created but nothing referenced it — `fb-w28-push.json` still used `push-press`. Both references swapped. The audit chain now splits at W28 as intended: `audit push-press` = W3-W27, `audit standing-dumbbell-strict-press` = W28+.
+- **Bulgarian's absence from legs is CORRECT, not a miss.** W27's build notes deferred it "to W28," but the short-week trim rule cuts Bulgarian by name — it is one of the two biggest DOMS producers. It stays out while the weeks are short.
+- **Day lengths: push 45, legs 60, pull 45.** Pull is the short third day, as the compressed-week rule wants. Legs in the middle matches the validated short-legs keep-list plus restored knee flexion.
+- **Everything else from the W28 build inputs landed** — through-the-day block carried forward unchanged, frog stretch in deliberately, incline curl 25 right / 20 left left-first, incline press flat at 60 with no 65 door, pull-ups plain and not a spotlight, cool-down on all three gym days, calf raise adjacent to leg press.
+- **`incline-cable-overhead-tricep-extension` was renamed to "Lean-Back Cable Tricep Pushdown"** with a description that names the fifteen-week cue drift and the true path (chest → hips, nothing behind the head). **Keep the id** — it holds the real log history; `cable-tricep-pushdown` has a single stale W1 datapoint.
+- **No W28 sessions logged yet** — `programs/logs/functional-bulk-dynamic-w28.json` is an empty array. Correct shape, nothing in it.
+
+## W28 Observations
+
+### W28D1 — Push (Mon 2026-08-31), run on no sleep
+
+- **The short push day is validated, and he said so unprompted: *"this is the perfect length for these tired days."*** This is the second independent confirmation of the compressed-week length rule (W26D3 was the first, on legs). The trim that produced it: Kinesis fly demoted to a warmup chest opener, the cable block cut 3→2 rounds with the cable lat raise dropped, farmer carry 3→2 walks. ~45 min. **Do not let the short push day creep back up.**
+- **First datapoint under `standing-dumbbell-strict-press`: 50 x 8 x 3, all strict** — *"static went great."* The 6-8 prescription did exactly what it was written to do. W27 ran 10 / 10 / 5-strict-plus-4-push-presses at the same load; capping the range traded rep count for three sets that all ended before leg drive showed up, on a worse-sleep day. **Keep the 6-8 range at 50.**
+- **Dips were the best report of the block** — 12 x 3, slow, *"shoulders felt great."* W27 had the palm fix working but he was still struggling; this time the tempo held across all three sets. His read: *"the long break helped."*
+- **Incline 60 held, slow and controlled, still the working weight.** No 65 probe this week and none was wanted. The 2s eccentric survived on zero sleep, which is the spotlight passing.
+- **Lat raise died partway through set 3** — a 🔥 lift, so that's a fine place to stop, not a miss.
+- **Dip rest: 2 min between sets, and it is what made the day.** Forced by the gym, not planned — *"2min break (forced haha) — break between sets — really helps."* **Write the 2 min rest into the dip prescription from W29 on, and move the written range to 10-12** (agreed 2026-09-02 — *"dips yes probably should go to 10-12"*). 12 clean slow reps with the longer rest is the honest number; 8 stopped being the target. It is the cheapest intervention in the program: same load, same reps, and it turned the block's hardest lift into its best report.
+- **Both cable lifts on the standard / double cable column**, numbers not restated (read as the written 120 and 60). Lat raise confirmed at the 20s.
+
+### Swimming (W28+) — moved to its own file
+
+Swimming entered the week during W28 (apartment pool, downstairs, the one thing that works with a newborn) and he then asked to coach it properly. **It now has its own thread: [`docs/notes/swimming/coaching-log.md`](docs/notes/swimming/coaching-log.md)** — the brief, the swimmer profile, the diagnosis, the current drill assignment and the backlog all live there. The poolside page is `workouts/swim/swim-technique-rotation.json` → `/swim-technique-rotation`.
+
+Only the part that touches the lifting program belongs here:
+
+- **Technique is coached; volume is NOT tracked.** Lap count is never the progression and never owed — same rule as the KB days (`feedback_fuzzy_progression_goal`).
+- **Sequence swims against pull, not legs.** Swimming is lat/shoulder work; it stacks with pull day and barely touches legs.
+- **A soft pull-up or a tired row the day after a big swim is context, not a finding.**
+- **The right shoulder is the watchpoint**, not the volume. Freestyle recovery is a big overhead arc.
 
 ## W27 Build Notes (built 2026-08-24)
 
