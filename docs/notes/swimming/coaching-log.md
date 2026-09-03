@@ -69,12 +69,19 @@ Chosen because it hits every symptom he named with a single drill: it forces rot
 
 ## Open questions
 
-- **Pool is OUTDOOR** (answered 2026-09-02) — see the phlegm read below.
-- Does the phlegm come with any **cough or wheeze that lingers after** getting out? Swimmers have the highest rate of exercise-induced bronchoconstriction of any athlete group — worth a doctor mention if it persists past the pool, not worth alarm otherwise.
-- **Does it happen on a longer run too?** The cheapest discriminator available, and it uses something already in his program. If a run past ~20 min produces the same throat, the cause is airway-and-effort, not the pool. His standing 12-min zone 2 run to the gym is probably too short to trigger it.
 - **Stroke count baseline** — asked for, not yet collected.
+- *(Pool is outdoor, answered 2026-09-02. Phlegm question closed by him — see below.)*
 
-### Phlegm read, revised for an outdoor pool (2026-09-02)
+### Phlegm — CLOSED BY HIM (2026-09-02). Do not raise again unprompted.
+
+> *"yeah idk or just my ear/nose does that from beathing too much dry air pobably, its fine, its common even when not exercising so whatever haha"*
+
+**It's baseline for him and happens outside exercise entirely, so it is not a swimming finding and not a limiter to solve.** He closed it himself; treat it the same as the left-arm thread — settled unless HE brings it back. The analysis below is kept only so it isn't re-derived from scratch if he ever does.
+
+<details>
+<summary>Prior analysis (superseded)</summary>
+
+#### Read at the time, revised for an outdoor pool
 
 The chloramine theory is mostly dead — outdoor pools gas off into open air, so the concentrated irritant layer that sits over an indoor pool doesn't build up. Remaining candidates, in rough order:
 
@@ -83,6 +90,8 @@ The chloramine theory is mostly dead — outdoor pools gas off into open air, so
 3. **Plain mucus mobilization** — horizontal position plus post-nasal drip. Benign, and the least interesting.
 
 **It also only shows up when he's swimming easy** (*"if i swim really lazily it's like phlegm"*) — when he's working, the shoulders give out first and he never gets there. So it may be a duration effect that hard swims simply end before reaching.
+
+</details>
 
 ## Notes on running this thread
 
