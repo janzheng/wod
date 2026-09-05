@@ -995,6 +995,35 @@ The push day's press slot has pointed at exercise id `push-press` since W3, and 
 - **`incline-cable-overhead-tricep-extension` was renamed to "Lean-Back Cable Tricep Pushdown"** with a description that names the fifteen-week cue drift and the true path (chest → hips, nothing behind the head). **Keep the id** — it holds the real log history; `cable-tricep-pushdown` has a single stale W1 datapoint.
 - **No W28 sessions logged yet** — `programs/logs/functional-bulk-dynamic-w28.json` is an empty array. Correct shape, nothing in it.
 
+## W29 Build Notes (built 2026-09-04)
+
+**His ask: *"lets do PLP then two KB — it'll be another crazy baby week (week 3 of baby! so little sleep!) but its getting better."*** So: `push → legs → pull`, legs in the middle, pull short and last, two optional KB days at the back.
+
+**What changed from W28, and why (every one of these came out of a W28 report):**
+
+| Change | Source |
+|---|---|
+| **Dips → 10-12 with a written 2 min rest** | The rest was accidental and produced the block's best dip report |
+| **Squat set 3 on 5lb plates under the heels** | The depth test: heels up opened depth "way open" |
+| **Barbell RDL 70/side, straight after the squat** | Ran it by accident when the bench was taken; he picked the slot himself |
+| **RDL is double-overhand** | Left grip failed and he flipped the hand — supinated under load is the bicep tendon he flagged |
+| **Incline curl 25 both arms, no split** | He ignored his own 25/20 drop and ran 25 both sides successfully |
+| **Light bicep set before the pull-up bar** | The tendon spot is at the elbow, and the day walks from a cold dead hang into loaded pull-ups |
+| **High cable curl 210 → 220 → 230 → 240** | *"Somehow felt easy… so maybe start at 210"* + *"climb!"* |
+| **Hip adduction 290 → 300** | 290 was never the top of the stack |
+| **"Never judge the squat on set 1" watchpoint** | Set 2 has been deeper and stronger two weeks running |
+| **Stance testing removed entirely** | Settled — his wide V beats both narrower and wider |
+
+**Rotation applied:**
+- **Morning flow — six moves swapped** (out: puppy/cat-cow, thread-the-needle, glute bridge, plank shoulder taps, saddle pose, happy baby; in: down-dog-knee-to-head, low-lunge thoracic rotation, side plank, plié-relevé, couch stretch, pigeon). **The bias is deliberate: plié-relevé and the knee-to-wall rock serve the newly-confirmed ankle limiter, side plank serves the one-hip carrying.** Anchors held — scorpion, lizard, cossack, the push-up greasing set, the rehab cluster.
+- **KB days rotated off W28's pairing entirely.** Out: Leggy Flow, kickstand 5-4-3-2, Outside Snatch Flow, Brutal Complex. In: **Bent Press Flow** (the program's oldest flow, back as the anchor), **B-stance flow** (long gap), **Dead Cluster Flow**, **overhead mobility complex**. All referenced by `flowId` — no re-typed sequences.
+- **Gym days rotated lightly and on purpose.** Push swapped the bottoms-up carry for the bottoms-up press in the warmup and otherwise holds a shape he called *"the perfect length for these tired days."* On a week-three-of-newborn week that restraint is the point — *"we can rotate slowly; we don't have to rotate everything at once lol."*
+
+**Also in this build:**
+- **Swim added as an option on day 6**, alongside walk / run / rest — it is real training now and shouldn't only exist in its own file.
+- **`hip-abduction` / `hip-adduction` were the wrong ids** on first write; corrected to `hip-abduction-machine` / `hip-adductor-machine`. Verified every exercise and flow id in all six W29 files resolves against the built catalogue.
+- **RDL logged under `barbell-romanian-deadlift`** (5 prior datapoints) rather than `romanian-deadlift` (1), so the audit chain stays intact.
+
 ## W28 Observations
 
 ### W28D1 — Push (Mon 2026-08-31), run on no sleep
@@ -1006,6 +1035,68 @@ The push day's press slot has pointed at exercise id `push-press` since W3, and 
 - **Lat raise died partway through set 3** — a 🔥 lift, so that's a fine place to stop, not a miss.
 - **Dip rest: 2 min between sets, and it is what made the day.** Forced by the gym, not planned — *"2min break (forced haha) — break between sets — really helps."* **Write the 2 min rest into the dip prescription from W29 on, and move the written range to 10-12** (agreed 2026-09-02 — *"dips yes probably should go to 10-12"*). 12 clean slow reps with the longer rest is the honest number; 8 stopped being the target. It is the cheapest intervention in the program: same load, same reps, and it turned the block's hardest lift into its best report.
 - **Both cable lifts on the standard / double cable column**, numbers not restated (read as the written 120 and 60). Lat raise confirmed at the 20s.
+
+### W28D3 — Pull (Thu 2026-09-03), and legs slid to Friday
+
+- **Legs slid rather than vanished.** *"too tired for leg day lol"* on its scheduled day, then — asked whether legs moves to next week — *"doing these today."* So W28 lands push / swim / pull / legs, with legs out of order at the back. **The three-day-old open question is finally running: the squat-limiter self-diagnosis** (heels on a plate → ankle, wider stance + more toe-out → hip range, plate held at the chest → brace), plus an optional filmed set from the side for pelvic tuck. Protocol handed to him 2026-09-04 with the refinement that **all three limiters are already known to be live** (see the 2026-08-26 ankle note) — so the test is which one is BIGGEST, run one per warmup round against his own normal, never on the working sets.
+- **Date resolved:** he numbers by day-of-week, so `w28d4` = Thu 2026-09-03 (pull) and `w28d5` = Fri 2026-09-04 (legs). The pull log's date was corrected from 09-04 to 09-03.
+- **⭐ The incline curl took 25 on BOTH arms — the best left-side result since the problem started.** He wrote the 25 right / 20 left split himself in W27 after the worst left set of the block; this week he ignored his own drop, ran 25 both sides for all sets, and the day read *"ok."* Right side added a spare set of 8. **W29 writes 25 both arms, no split.**
+- **He reopened the left arm himself — with a sequence theory, not an injury one:** *"it seems like there's a part on the left arm that gets used up or pulled at pull ups?? it just means my form sucks or my arm is doing stuff to counter but it tweaks a part of the bicep which i feel here."* First time he has raised it since closing it twice, so it is live again on his terms. **Hold it loosely:** the same pull-up-then-curl order produced the block's worst left set (W27) and its best (this one), so ordering alone does not explain the swing. **Location answered 2026-09-04: *"around tendon i think"* — the tendon region, not the muscle belly.** That fits the position story he already landed on rather than contradicting it: the incline curl is the one lift that loads the bicep at full length with the arm hanging behind the body, and tendon tissue is what takes the lengthened-position load. **Still never painful, only weak/tweaky** — that distinction is what keeps this a form question rather than a medical one, and it has held for five weeks. **Cheap lever for W29: don't let it go into a loaded stretch cold.** The pull day currently walks from a passive dead hang (elbows fully extended, bicep tendon on stretch, unwarmed) straight into pull-ups. Add a light bicep pre-load — one easy set of curls or a few active hangs — before the pull-up block.
+- **Pull-ups 8 / 6 / 6 / 4 — third straight week at the same number.** Exactly the shape the bulk-phase bodyweight read predicts. Keep them plain and unspotlit; no "get back to 10" framing.
+- **Lat pulldown 160 clean, and the same contrast for a third week** — *"surprisingly not bad after pull ups."* The pulldown keeps getting easier while the pull-up sits still.
+- **DB row holds at 75 → 85 → 95.** Left lost grip at 7 on the top set (8 in W26 and W27) on a tired day; right went full. Same ceiling, same attribution.
+- **Face pull 62.5 for a fourth week and the third set cost again** — second week running. It is sitting in the right place; no step.
+- **⭐ High cable curl — his call is to compress the ladder AND keep climbing:** *"somehow felt easy; 220 was hard ish so maybe start at 210 or something"*, then asked compress-or-climb: ***"climb!"*** 190 and 200 have stopped doing work. **W29 ladder is 210 → 220 → 230 → 240**, single arm, cable column. It is a 🔥 lift with the top set free to run near failure, so a short top rung is the design working, not a miss.
+
+### W28D2 — Legs (Fri 2026-09-04): the depth-limiter test answered, and two milestones
+
+**⭐ THE ANSWER IS ANKLE + BRACE. HIP RANGE IS NOT THE LEVER — AND WIDER IS WORSE.** Three weeks of open question, closed by a five-minute bodyweight test.
+
+| Test | Result | Verdict |
+|---|---|---|
+| 1. Baseline (his usual "toes in v") | *"heel flexibility in ankles and inner hips the limiter — definitely a hip tuck here"* | Ankle + adductors; **pelvic tuck confirmed** |
+| 2. Plate under each heel | *"depth way open on this, ankle not limiter at all"* | **ANKLE — major limiter** |
+| 3. Wider + more toe-out | *"almost like sumo squats these are actually harder — inner thighs are limiter"* | **NEGATIVE — widening trades the ankle for the adductors** |
+| 4. Hugging the 45 at the chest | *"hugging makes it way easier"* | **BRACE — confirmed** |
+
+His summary: *"so elevated ankles and hugging makes these easier."*
+
+- **✅ STANCE IS SETTLED — HE IS AT THE OPTIMUM, AND BOTH DIRECTIONS FROM HERE ARE WORSE.** He corrected the first read of the test himself: *"wider helps but too wide… is not helping lmao, if that makes sense; if my legs are mostly pointing forward that's not helpful; i dont really like those (fine for warmups but they get hard)."* So the wide V beats feet-forward **and** beats sumo-wide. The 2026-08-26 note *"wider stance / toes out does help"* was right about the direction and wrong about there being more of it to take. **Stop testing stance in either direction — it is not a free variable any more.** He offered a narrower warmup but declined loaded work there; dropped, because he has already answered it from years of experience.
+- **✅ Heel elevation is now an evidence-backed tool, not a banked idea.** The 2026-08-26 ankle note listed heel-elevated squats as a way to access depth while the ankle catches up; the test confirms it is the single biggest lever he has. **Decide with him whether W29 runs heel-elevated squats as the working variant or as an added round** — asked 2026-09-04.
+- **The brace result is consistent with everything since W15** — the front load braces for him, which is why goblet/KB front squats have always felt deeper. Keep front-loaded squat work in the program.
+
+**⭐ MILESTONE — 45/side now touches the pins with a pause:** *"i'm able to gently lay it on the support bars at 14 height; which i used to only be able to do without weight maybe a month back — was able to pause here at 3s and come up."* The paused-squat prescription (added W28 on his own opt-in) is doing exactly what it was written to do.
+
+**⭐ HIS OWN FLOOR-RISING LINE, unprompted:** *"incredible depth at the third set… feels similar to what 45/s felt when we first started this program (which felt very hard at the beginning!)."* This is `feedback_fuzzy_progression_goal` in his own words — quote it back when a session reads flat.
+
+- **Under load the limiter changes, and he named it precisely:** *"at 80/s the equation definitely changes… partly it's thigh and brace strength mixed with anxiety, tho the support bars are there — the extra weight definitely makes this harder than just a stretching exercise."* **Mobility caps the unloaded squat; strength + brace + confidence cap the loaded one.** They are two different problems and the program should stop treating a deep bodyweight squat as evidence about the 80.
+- **⭐ NEW RULE — never judge the squat on set 1 either.** *"second set this time and previously felt stronger and deeper — warmups help but strength somehow also gets better on second set."* He flags it as a repeated pattern, not a one-off. The leg press already carries this caveat; extend it to the squat from W29.
+- **Kneeling leg curl: 65 is the right load and he prefers the machine** — *"more isolating than the other curl machine."* **Consequence: stop treating the broken seated leg curl as the station to return to.** Ask before restoring it if it ever gets fixed.
+- **Leg press hit its best-ever depth, on every set including the first** — *"knees are touching chest,"* and the "never judge on set 1" caveat did not apply. He asked whether hips no longer being a limiter is normal (answered: yes — and the end-range stretch he feels is the pelvis tucking under at the bottom, harmless on a spine-unloaded machine, which is the same tuck that caps the squat).
+- **Not reported: calf raise, incline RDL, hip abduction, hip adduction.** Asked 2026-09-04 — do not infer.
+
+**Answered on follow-up (2026-09-04):**
+
+- **⭐ HIP ADDUCTION IS NOT AT THE TOP OF THE STACK — 300 went fine.** *"Adductors actually tried at 300 and it was fine lol."* The W28 prescription called 290 the top; it isn't. **Carry 300 forward, tempo still the only lever.** His own sanity check that the number is real: *"then saw someone else struggle at like 120 so i guess the machine is not broken."*
+- **Hip abduction ran as written at 230.**
+- **⭐ THE INCLINE RDL BECAME A BARBELL RDL AT 70/SIDE — bench occupied, and it settles W29's hinge slot.** *"That was 70/side with a bar"* — ~185 total. **W29's implement rotation was already scheduled to be the hinge, and this is the sanctioned place for bar work** (barbell stays off pressing; the hinge is where it belongs). It arrived early by accident and it worked. **Carry barbell RDL at 70/side into W29** and keep the incline RDL as the fallback when the bench is taken, not the other way round. **✅ CONFIRMED, AND HE PICKED THE RIGHT SLOT HIMSELF: *"will just use it after squats."* That is also correct on station grouping — the bar is loaded and he is already at the rack. **W29 legs order becomes squat → barbell RDL → kneeling leg curl → leg press → calf raise → hip machines**: rack work first, then machines, no walk back.
+- **⚠️ GRIP FINDING — the left hand gave out and he flipped to a mixed grip on the last set.** *"Actually ran into left hand grip issues so i flipped my left hand last set."* **Two reasons to write double-overhand into the prescription instead:** (1) the flipped hand is supinated under load, which puts the left distal bicep tendon under tension at length — the exact tissue he described two days earlier on the incline curl (*"around tendon"*); (2) a mixed grip is the same class of workaround as straps, which he rules out on principle ([[feedback_no_straps_do_it_correctly]]). **Grip caps the RDL and that cap is the honest number** — same logic as the DB row's left-side 7. **✅ ACCEPTED — *"will go back to double overhand."* Write double-overhand into the RDL prescription and treat the grip ceiling as the working number.**
+- **Calf raise still unreported.** Same station as the leg press, which went well.
+
+**⭐ PELVIC TUCK — he asked whether it can be trained. The answer given, and the program consequence:**
+
+- **The ankle share of it IS trainable and shrinking already.** When dorsiflexion runs out, the pelvis rotates to buy the last inch — so his heels-up result means a real chunk of the tuck is ankle-driven, and the knee-to-wall rocks / tibialis work already in the warmup attack it directly.
+- **The anatomical share is not eliminable.** Everyone tucks eventually where the femur meets the pelvis. **The goal is moving where it STARTS below his working depth, not removing it.**
+- **The main tool is already prescribed:** pausing just above where the tuck begins is what the paused 45s do. No new work needed.
+- **It only matters under a bar.** The same tuck on the leg press is harmless — no spinal load — which is why he can live at knees-to-chest there and should not read that depth as permission at 80.
+
+**⭐ HEEL-ELEVATED SQUATS — DECIDED FOR W29: the LAST of the three 80/side sets runs heel-elevated.**
+
+- **Why the 80 and not the 45:** flat 45 already reaches depth (he touches the pin-14 bars), so elevating there buys nothing. The gap is under load.
+- **Why the last set:** he reports set 2 and set 3 as his strongest and deepest, so the deep opportunity is at the end anyway. **Swapping the last set costs no session time — do NOT add a fourth round.**
+- **What it actually trains, since he asked:** deep-range strength and the brace at depth — the exact things capping the 80. Range he cannot reach is range he cannot strengthen; elevation removes the ankle constraint so he can get there under load.
+- **⚠️ Be honest with him that it is an accommodation, not a treatment.** Heel elevation buys depth today; it does not lengthen the ankle. The ankle work (knee-to-wall rocks, deep sits, loaded end range) is what changes the ankle. They are complementary — do not let the elevated squat quietly replace the mobility work.
+- **⭐ HE SET THE EXIT CONDITION HIMSELF — this is not allowed to become permanent.** *"Eventually i'd want to NOT lean on the heel elevation crutch."* **So tie the elevation to a number that is already being measured:** the knee-to-wall rock in the legs warmup is the monthly left-vs-right dorsiflexion measure. **✅ HE PICKED THE ELEVATION HIMSELF: a 5lb plate under each heel** — *"i'm just using the smallest (5lb plate) today to test, so i'll keep doing that."* ~1in, the smallest useful step. **Write 5lb plates into W29, take a knee-to-wall baseline, and step it down as that improves.** An accommodation with a measured exit is a tool; one without is the crutch he is describing.
 
 ### Swimming (W28+) — moved to its own file
 
@@ -1116,7 +1207,7 @@ Given the heel-wedge test to try, he answered before running it: *"ankles are pr
 - **⚠️ IT ALSO PUTS AN ASTERISK ON THE COSSACK READINESS SCREEN.** Cossacks are ankle-expensive, and *"that's why those cossacks were hard"* means some of what the screen reports is a permanent structural restriction, not today's readiness. **Read the cossack as a delta against his own normal, never as an absolute.** Worth saying to him if he ever reads a bad cossack day as a bad session ahead.
 - **Sprains leave lasting dorsiflexion restriction** — that is well documented and it is the most common lingering deficit after an ankle sprain. It responds to loaded end-range work, not to passive calf stretching alone.
 - **Tools, banked:** the tibialis raise already in the legs warmup stays; add **knee-to-wall rocks** (also the measurement — toe-to-wall distance, left vs right, tracked monthly) and **heel-elevated squats** as the way to access depth while the ankle catches up. The bent-knee wall calf stretch targets soleus, which is the actual dorsiflexion limiter.
-- **He also confirmed the other two tests: *"wider stance / toes out does help."*** So all three limiters are live — ankle, hip range, and the brace. Not one answer; three, in a stack.
+- **He also confirmed the other two tests: *"wider stance / toes out does help."*** So all three limiters are live — ankle, hip range, and the brace. Not one answer; three, in a stack. **⚠️ SUPERSEDED 2026-09-04 — this was said before the test was run, and the test falsified it. Going WIDER is worse, not better; see the W28D2 legs section.**
 
 ### ✅ Ankle repertoire built — he asked for it directly (2026-08-26)
 

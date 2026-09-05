@@ -127,5 +127,304 @@
       "dip rest": "'2min break (forced haha) - break between sets - really helps.' The longer rest was imposed by the gym, not planned, and it is what let the slow tempo hold for all three sets.",
       "date": "'This was monday' — 2026-08-31."
     }
+  },
+  {
+    "day": 3,
+    "date": "2026-09-03",
+    "workoutId": "fb-w28-pull",
+    "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back. Arrilaga.",
+    "notes": "Pull ran on its scheduled Friday, but **legs never happened — “too tired for leg day lol”** — so W28 is a two-gym-day week: push Monday, pull Friday, a 30-lap swim in between. He labelled the report `w28d4`; it is day 3, pull. The headline is the incline curl: **he ran 25 on BOTH arms**, above the 25/20 prescription he set himself last week, and it “was ok” — the best left-side result since the problem started. He also raised the left arm himself for the first time since closing it twice, this time with a sequence theory rather than an injury one. Everything else repeated: pull-ups 8/6/6/4, pulldown 160 clean, row left grip-capped at 7 on the 95, face pull 62.5 hard on a tired day, and his own call to compress the cable-curl ladder.",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "notes": "8 / 6 / 6 / 4 to form failure with the 3s eccentric held — W27's 8/6/6/5 within one rep, and W26's 8/7/6 before that. **Third straight week at the same number, which is what the bulk-phase bodyweight read predicts.** Written plain, not chased, per the W27 decision.",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": "8 to failure",
+            "notes": "3s eccentric."
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": "6 to failure"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": "6 to failure"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": "4 to failure"
+          }
+        ]
+      },
+      {
+        "id": "incline-curl",
+        "notes": "**25 on both arms, all sets — above the written 25 right / 20 left.** \"Did all sets at 25 both arms tho this time; right arm fine and did another 8 til tired lol.\" He dropped the left to 20 himself in W27 after failing halfway through set one at 25; four weeks on it took 25 again and the day read \"ok.\" **His new observation, in his own words: \"it seems like there's a part on the left arm that gets used up or pulled at pull ups?? it just means my form sucks or my arm is doing stuff to counter but it tweaks a part of the bicep which i feel here.\"** A sequence/form theory, not an injury one — and he raised it, after closing the thread twice. Worth recording that the same pull-up-then-curl order produced the block's worst left set (W27) and its best (today), so the order alone does not explain the swing. Right side ran an extra set of 8 on its own.",
+        "sets": [
+          {
+            "weight": "25lb",
+            "reps": "10 each side",
+            "notes": "Left first, as written."
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          },
+          {
+            "weight": "25lb",
+            "reps": "8 right only",
+            "notes": "\"Right arm fine and did another 8 til tired lol.\""
+          }
+        ]
+      },
+      {
+        "id": "dumbbell-row",
+        "notes": "The pyramid repeated a third time — \"went ok; left arm lost grip at 7 on last set; right did well went full.\" Left ceiling on the 95 was 8 in W26 and W27, 7 today on a tired day. **Same grip-limited ceiling, same attribution from him.** Loads not restated; read as the written 75 → 85 → 95.",
+        "sets": [
+          {
+            "weight": "75lb",
+            "reps": "8-10 each side",
+            "notes": "Fine."
+          },
+          {
+            "weight": "85lb",
+            "reps": "8-10 each side",
+            "notes": "Fine."
+          },
+          {
+            "weight": "95lb",
+            "reps": "right full / left 7",
+            "notes": "\"Left arm lost grip at 7 on last set; right did well went full.\""
+          }
+        ]
+      },
+      {
+        "id": "lat-pulldown",
+        "notes": "**All sets at 160, clean — \"surprisingly not bad after pull ups.\"** Third consecutive week at 160 and the third consecutive week he has remarked on the same contrast: the pulldown keeps getting easier while the pull-up does not move. Station not restated; read as the regular machine.",
+        "sets": [
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "\"Surprisingly not bad after pull ups.\""
+          },
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12"
+          },
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12"
+          }
+        ]
+      },
+      {
+        "id": "face-pull",
+        "notes": "\"Felt hard lol so tired today - hard on last set.\" Fourth week at 62.5 and the second in a row where the third set costs something — the spotlight's premise held. Tired-day frame named by him. Load not restated; read as the written 62.5.",
+        "sets": [
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20,
+            "notes": "\"Hard on last set.\""
+          }
+        ]
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "notes": "**\"Somehow felt easy; 220 was hard ish so maybe start at 210 or something.\"** The bottom of the 190 → 200 → 210 → 220 ladder has stopped doing work; 220 is the honest top and it still costs. **His call: start the ladder at 210.** The contrast with the incline curl held for a second week — the left arm that gets \"used up\" at pull-ups curls 220 on a cable without comment.",
+        "sets": [
+          {
+            "weight": "190",
+            "equipment": "cable column",
+            "reps": "10-12 each side",
+            "notes": "\"Felt easy.\""
+          },
+          {
+            "weight": "200",
+            "equipment": "cable column",
+            "reps": "10-12 each side",
+            "notes": "\"Felt easy.\""
+          },
+          {
+            "weight": "210",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "220",
+            "equipment": "cable column",
+            "reps": "10-12 each side",
+            "notes": "\"Hard ish\" — the working top."
+          }
+        ]
+      }
+    ],
+    "rawInput": "w28d4 pull day\n\ntoo tired for leg day lol\n\npull ups all 3s to failure\n8 \n6\n6\n4\n\nlat pull did all sets 160 surprisingly not bad after pull ups\n\nincline curl\nwas ok- it seems like there’s a part on the left arm that gets used up or pulled at pull ups?? it just means my form sucks or my arm is doing stuff to counter but it tweaks a part of the bicep which i feel here; did all sets at 25 both arms tho this time; right arm fine and did another 8 til tired lol\n\nrows\nwent ok; left arm lost grip at 7 on last set; right did well went full\n\nface pulls felt hard lol so tired today - hard on last set\n\ncable bicep curls somehow felt easy; 220 was hard ish so maybe start at 210 or something",
+    "followUps": {
+      "askedOn": "2026-09-04",
+      "left bicep location": "\"Around tendon i think\" — the tendon region rather than the muscle belly. Consistent with the lengthened-position story: the incline curl is the only lift loading the bicep at full length with the arm hanging behind the body. Still never painful, only weak/tweaky.",
+      "high cable curl ladder": "\"Climb!\" — W29 runs 210 → 220 → 230 → 240 rather than compressing to a flat top.",
+      "legs": "\"Doing these today\" — legs ran the next day, Fri 2026-09-04, out of order at the back of the week, with the squat-limiter self-diagnosis. Date reconciled: he numbers by day-of-week, so d4 = Thu 9/3 and d5 = Fri 9/4."
+    }
+  },
+  {
+    "day": 2,
+    "date": "2026-09-04",
+    "workoutId": "fb-w28-legs",
+    "cardio": "12 min zone 2 run to the gym + 12 min zone 2 run back. Arrilaga.",
+    "notes": "**The squat depth-limiter test ran and it answered decisively: ankle and brace, not hip range.** Heels elevated opened depth \"way open\"; hugging the plate made it \"way easier\"; and going wider was actively WORSE — \"almost like sumo squats these are actually harder,\" with the inner thighs becoming the limiter. That last one contradicts the untested 2026-08-26 assumption that wider helps. Baseline also showed the pelvic tuck he was asked to look for. Alongside the test, two milestones: **45/side now touches the pin-14 support bars with a 3s pause — a month ago that was bodyweight-only** — and his own read on 80/side, *\"feels similar to what 45/s felt when we first started this program.\"* Leg press hit knees-to-chest on every set including the first.",
+    "exercises": [
+      {
+        "id": "bodyweight-squat",
+        "notes": "**THE DEPTH-LIMITER TEST — result: ankle + brace.** Stance context in his words: *\"toes in v.\"*\n- **1. Baseline:** *\"heel flexibility in ankles and inner hips the limiter — definitely a hip tuck here.\"* Both the ankle and the adductors named, and the pelvic tuck confirmed.\n- **2. Plate under each heel:** *\"depth way open on this, ankle not limiter at all.\"* Removing the dorsiflexion demand removes the ceiling. **Ankle confirmed as a major limiter.**\n- **3. Wider + more toe-out:** *\"almost like sumo squats, these are actually harder — inner thighs are limiter.\"* **Negative result, and a useful one:** widening does not buy depth, it trades the ankle for the adductors.\n- **4. Hugging the 45 at the chest:** *\"hugging makes it way easier.\"* **Brace confirmed.**\n\nHis own summary: *\"so elevated ankles and hugging makes these easier.\"*",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "reps": "4 × 5",
+            "notes": "Four comparison sets."
+          }
+        ]
+      },
+      {
+        "id": "squat",
+        "notes": "**45/side milestone: *\"i'm able to gently lay it on the support bars at 14 height; which i used to only be able to do without weight maybe a month back — was able to pause here at 3s and come up.\"*** The paused-squat prescription is doing exactly its job.\n\n**80/side is a different problem and he named it precisely:** *\"the equation definitely changes, i'm not able to go all the way down to 45 — partly it's thigh and brace strength mixed with anxiety, tho the support bars are there — the extra weight definitely makes this harder than just a stretching exercise.\"* Under load the limiter stops being mobility and becomes strength + brace + confidence.\n\n**Set 2 > set 1, and he says it is a pattern:** *\"second set this time and previously felt stronger and deeper — warmups help but strength somehow also gets better on second set; also deeper / feels more open too.\"*\n\n**Set 3 is the floor-rising line of the block:** *\"incredible depth at the third set, not as deep as 45 but felt pretty controlled; feels similar to what 45/s felt when we first started this program (which felt very hard at the beginning!).\"*",
+        "sets": [
+          {
+            "weight": "45/side",
+            "reps": 5,
+            "equipment": "Smith / rack",
+            "notes": "Warmup round. Touched the pin-14 support bars, 3s pause, stood up."
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "Set 1 — shallowest. Load changes the limiter to thigh/brace strength plus anxiety."
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "Set 2 — \"stronger and deeper,\" \"more open.\" A repeated pattern, not a one-off."
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "Set 3 — \"incredible depth… pretty controlled.\""
+          }
+        ]
+      },
+      {
+        "id": "kneeling-leg-curl",
+        "notes": "*\"Went pretty good, good working weight, more isolating than the other curl machine.\"* 65 confirmed as the right load, left first as written. **Worth banking: he prefers this machine's isolation to the seated leg curl** — which has been broken since W24 and was being treated as the station to return to. Rep counts and side-by-side numbers not reported.",
+        "sets": [
+          {
+            "weight": "65",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side",
+            "notes": "Left first. \"Good working weight.\""
+          }
+        ]
+      },
+      {
+        "id": "leg-press",
+        "notes": "**Best depth report the lift has produced: *\"really good depth on all sets even the first one… knees are touching chest.\"*** The standing \"never judge this lift on set 1\" caveat did not apply today — set 1 was already deep. His question, verbatim: *\"i feel like my butthole is getting stretched lmao — hips aren't a problem right now anymore?? is that normal lol.\"* Load not restated; read as the written 4 plates/side.",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 12,
+            "notes": "Deep from set 1. Knees to chest."
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          }
+        ]
+      },
+      {
+        "id": "barbell-romanian-deadlift",
+        "notes": "**Station mismatch, and a useful one: the incline bench was occupied, so he ran a BARBELL RDL at 70/side.** *\"Did regular rdl on 70 per side since someone was squatting the incline thing\"* → confirmed on follow-up: *\"that was 70/side with a bar.\"* ~185 total with the bar. **This is W29's planned hinge implement rotation arriving early by accident, and it is the sanctioned place for bar work** (the barbell is kept off pressing; the hinge is where it belongs).\n\n**⚠️ GRIP FINDING: the left hand ran out and he flipped it to a mixed grip on the last set** — *\"actually ran into left hand grip issues so i flipped my left hand last set.\"* Two things stack here: the flipped hand is supinated under load, which puts the left distal bicep tendon under tension at length — the exact tissue he described two days earlier on the incline curl (*\"around tendon\"*). And a mixed grip is the same class of workaround as straps, which he has ruled out on principle. **Recommendation given: stay double-overhand and let grip cap the load.**",
+        "sets": [
+          {
+            "weight": "70/side",
+            "equipment": "barbell",
+            "reps": 10,
+            "notes": "Substituted for the incline RDL — bench occupied."
+          },
+          {
+            "weight": "70/side",
+            "equipment": "barbell",
+            "reps": 10
+          },
+          {
+            "weight": "70/side",
+            "equipment": "barbell",
+            "reps": 10,
+            "notes": "Left grip gave out; flipped the left hand to a mixed grip."
+          }
+        ]
+      },
+      {
+        "id": "hip-abduction",
+        "notes": "*\"Adductor and abductors followed instructions.\"* Ran as written at 230, tempo only.",
+        "sets": [
+          {
+            "weight": "230",
+            "equipment": "hip abduction machine",
+            "reps": "12-15"
+          }
+        ]
+      },
+      {
+        "id": "hip-adduction",
+        "notes": "**Went to 300 and it was fine — *\"adductors actually tried at 300 and it was fine lol.\"*** The prescription called 290 \"top of stack\"; it isn't. His own sanity check on whether the number is real: *\"then saw someone else struggle at like 120 so i guess the machine is not broken.\"* **Carry 300 forward, tempo still the only lever.**",
+        "sets": [
+          {
+            "weight": "300",
+            "equipment": "hip adduction machine",
+            "reps": "12-15",
+            "notes": "\"Was fine lol.\""
+          }
+        ]
+      }
+    ],
+    "rawInput": "w28d5 legs\n\nsquat test\n- toes in v \n- one\n    - heel flexibility in ankles and inner hips the limiter\n    - definitely a hip tuck here\n- two\n    - depth way open on this ankle not limiter at all\n- three\n    - almost like sumo squats these are actually harder\n    - inner thighs are limiter\n- four\n    - hugging makes it way easier\n\nso elevated ankles and hugging makes these easier\n\ndepth getting better on 45/s i’m able to gently lay it on the support bars at 14 height; which i used to only be able to do without weight maybe a month back - was able to pause here at 3s and come up\n\nat 80/s equation definitely changes im not able to go all the way down to 45- partly it’s thigh and brace strength mixed with anxiety tho the support bars are there - the extra weight definitely makes this harder than just a stretching exercise\n\nsecond set this time and previously felt stronger and deeper- warmups help but strength somehow also get better on second set; also deeper / feels more open too\n\nincredible depth at the third set, not as deep as 45 but felt pretty controlled; feels similar to what 45/s felt when we first started this program (which felt very hard at the beginning!)\n\nleg curls went pretty good, good working weight, more isolating than the other curl machine\n\nleg press really good depth on all sets even the first one - i feel like my buttholw ia getting stretched lmao hips aren’t a problem right now anymore?? is that normal lol knees are touching chest",
+    "openQuestions": "Leg press calf raise still unreported (same station as the leg press, which went well). Everything else answered 2026-09-04.",
+    "followUps": {
+      "askedOn": "2026-09-04",
+      "stance": "**Correction to the test read — there is an optimum and he is at it.** \"Wider helps but too wide is not helping lmao, if that makes sense; if my legs are mostly pointing forward that's not helpful; i dont really like those (fine for warmups but they get hard).\" So his current wide V is better than narrow AND better than wider-still. **Stance is settled — stop testing it in both directions.**",
+      "narrower stance": "Offered a narrower warmup but not loaded work — \"i dont know if i want to push a lot of weight / bar on narrower.\" Dropped: he has answered it from experience.",
+      "unreported lifts": "Incline RDL substituted (regular RDL 70/side, bench occupied); hip abduction and adduction both run as written, with adduction taken to 300.",
+      "45/side": "\"Feels genuinely warmup now so thats great.\"",
+      "80 = old 45": "\"I forget that sometimes, its kind of amazing.\"",
+      "pelvic tuck": "He asked whether it can be worked on. Answered: partly — the ankle component is trainable and directly reduces it, the anatomical component is not eliminated but the goal is moving where it starts below working depth, and the paused 45s he already runs are the main tool.",
+      "heel-elevated squats": "He asked whether they help depth/mobility and at which load. Decision for W29: **the last of the three 80/side sets runs heel-elevated** — no added time, and 45 already reaches depth flat so elevating there buys nothing. **He accepted it and set the exit condition himself: \"eventually i'd want to NOT lean on the heel elevation crutch.\"** So it is explicitly temporary — tie the elevation height to the knee-to-wall measurement already in the warmup and step it down as that improves.",
+      "RDL implement": "\"That was 70/side with a bar\" — barbell RDL, ~185 total. Left grip failed on the last set and he flipped to a mixed grip."
+    }
   }
 ]

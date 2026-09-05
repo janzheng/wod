@@ -3,9 +3,21 @@
   "name": "Week 28 Legs — Depth via Bracing, Pausing on 45",
   "description": "**Depth and control are the assignment; the loads hold.**\n\nUse the 45/side squat warm-up for five paused reps before the three working sets at 80/side. The kneeling leg curl is now established at 65 with the left side first. Leg press and calf raise stay at 4 plates/side, the incline RDL stays at one 45lb plate with deliberate tempo, and the hip machines hold their W27 numbers.",
   "routineId": "functional-bulk-dynamic",
-  "tags": ["legs", "gym", "strength", "functional-bulk"],
+  "tags": [
+    "legs",
+    "gym",
+    "strength",
+    "functional-bulk"
+  ],
   "estimatedDuration": 60,
-  "equipment": ["dumbbell", "barbell", "machine", "plate", "resistance-band", "bodyweight"],
+  "equipment": [
+    "dumbbell",
+    "barbell",
+    "machine",
+    "plate",
+    "resistance-band",
+    "bodyweight"
+  ],
   "difficulty": "intermediate",
   "dayOverview": {
     "theme": "Depth through bracing and controlled tempo. Pause the final 45/side warm-up reps, then hold 80/side for the working squat sets. Keep the kneeling leg curl at 65 with the left side first, let the leg press warm into its deepest clean range, and preserve the incline RDL tempo across all three sets.",
@@ -23,7 +35,7 @@
     "watchpoints": [
       "🛑 keep it shy — the cue is the cap: squat, leg press, kneeling leg curl, incline RDL, hip abduction, hip adduction. On these, effort means the cue holding at a hard load, and the ceiling is the rep the cue breaks.",
       "🔥 near‑failure last set OK: leg‑press‑calf‑raise. Isolation work where form does not degrade dangerously at the limit.",
-      "**Squat depth limiter:** test heel‑elevated (ankle), wider stance (hip range), or plate held at chest (brace) — whichever improves depth names the limiter. Plus a filmed side view to see pelvis tuck.",
+      "**Squat depth limiter — run it in the warmup, not under the bar.** Four bodyweight sets: baseline, then a plate under each heel (ankle), then wider stance + more toe-out (hip range), then hugging the 45 at the chest (brace). Whichever buys the most depth names the limiter. Optional filmed side view for pelvic tuck.",
       "**Paused squats on 45:** 2-3s in the bottom on the lighter load — the most direct way to train holding the brace deeper.",
       "**Kneeling leg curl protocol:** 65, left side first, same load and matched reps on both sides; log both sides separately.",
       "**Incline RDL add‑on:** a 2s pause at the top himself because a 10‑rep set can afford one — first set fine, later sets take discipline to maintain.",
@@ -39,13 +51,41 @@
       "rounds": 1,
       "notes": "Open the ankles and hips, then finish the warm-up with five paused squat reps at 45/side. The knee-to-wall rock is the monthly left-vs-right dorsiflexion measure; the tibialis raise is strength work, not the measurement.",
       "exercises": [
-        { "id": "tibialis-raise", "reps": "15-20", "notes": "Slow up, slow down — feel the shin." },
-        { "id": "knee-to-wall-ankle-rock", "reps": "10-15 each side", "notes": "Toe to wall, knee bent, rock slowly — left vs right, track monthly." },
-        { "id": "banded-ankle-eversion", "reps": "15-20", "notes": "Light band, eversion only — slow and controlled." },
-        { "id": "single-leg-balance", "reps": "30s each side", "notes": "Eyes open, hands on hips — left vs right, track monthly." },
-        { "id": "bodyweight-squat", "reps": "15-20", "notes": "Assess depth — heels down, chest up, knees out." },
-        { "id": "hip-circle", "reps": "10 each direction", "notes": "Small to large, warm the joint." },
-        { "id": "squat", "reps": 5, "notes": "**LOAD:** 45/side. Pause 2-3s in the bottom of every rep, hold the brace, and stand without rushing. This is the final warm-up before 80/side." }
+        {
+          "id": "tibialis-raise",
+          "reps": "15-20",
+          "notes": "Slow up, slow down — feel the shin."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10-15 each side",
+          "notes": "Toe to wall, knee bent, rock slowly — left vs right, track monthly."
+        },
+        {
+          "id": "banded-ankle-eversion",
+          "reps": "15-20",
+          "notes": "Light band, eversion only — slow and controlled."
+        },
+        {
+          "id": "single-leg-balance",
+          "reps": "30s each side",
+          "notes": "Eyes open, hands on hips — left vs right, track monthly."
+        },
+        {
+          "id": "bodyweight-squat",
+          "reps": "4 × 5",
+          "notes": "**DEPTH LIMITER TEST — four short sets, bodyweight, unloaded is the point.**\n- **1. Baseline** — your normal stance. Heels down, chest up, knees out. Note where depth stops.\n- **2. Plate under each heel** — small plate under both heels, everything else identical. *If depth opens up, the ankle is the limiter.*\n- **3. Wider + more toe-out** — wider than your already-wide stance. *If depth opens up, hip range is the limiter — it ends in a block that moves, not a stretch.*\n- **4. Hug the 45lb plate at the chest** — goblet position. *If you sit deeper, the brace is the limiter — the front load is bracing for you.*\n\n**Whichever one buys the most depth names it.** All three are already known to be live, so this is ranking them, not finding them. Optional: film set 1 from the side and watch whether the pelvis tucks under at the bottom."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Small to large, warm the joint."
+        },
+        {
+          "id": "squat",
+          "reps": 5,
+          "notes": "**LOAD:** 45/side. Pause 2-3s in the bottom of every rep, hold the brace, and stand without rushing. This is the final warm-up before 80/side."
+        }
       ],
       "restBetween": 0,
       "restAfter": 60
@@ -169,11 +209,31 @@
       "rounds": 1,
       "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
       "exercises": [
-        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm, elbow at MID height." },
-        { "id": "dead-hang", "duration": 45, "notes": "Passive. Let the shoulders decompress." },
-        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
-        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
-        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing. End here." }
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing. End here."
+        }
       ],
       "restBetween": 0,
       "restAfter": 0
