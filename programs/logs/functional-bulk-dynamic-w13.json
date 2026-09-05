@@ -1,0 +1,397 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w13-push",
+    "date": "2026-05-18",
+    "rawInput": "w13d1\n\nactually feel wrecked today\ni tried to sneak in 30 laps at the pool today; terrible idea, might only do them on kb days instead, really wrecked me all day plus it's a heat wave again\n\npush press\n- good form on both but appreciate having two sets lol\n- 45x10 x2\n\nlat raise\n- shoulder still acting up\n- 15x18 x2\n\nchest press first since available\n- 165x10\n- right side front pec a bit crackly\n- felt strong though first set didn't feel very hard\n- 165x10 second set felt strong too, good form\n\nfarmer carry\n- grip is the hardest part of this! clench definitely provokes shoulder\n- otherwise did the time; couldn't time it perfectly\n\ncable fly\n- 8x12\n- felt really good so went up to 9x12 and felt fine this time\n\ntricep extensions\n- 5 kinesis\n- felt pretty good\n- other machines occupied\n\n[followups] oh i did all the things didnt write them down though / stretches at end were good; also did the stretchy shoulder shrugs which felt good",
+    "notes": "Heal-week D1. User: 'today was surprisingly hard lol' / 'actually feel wrecked today' — attributes it to the 30-lap pool swim ('terrible idea... really wrecked me all day') plus an ongoing heat wave, not the lifting. User's own plan: limit pool swims to KB days only going forward. **Push press went UP to 45** (heal-week prescription was HOLD 40) — 45x10 x2, 'good form on both,' and 'appreciate having two sets lol' (the heal-week 2-set cut landed well). **Chest press done first** because the machine was available — 165x10 x2 (matches the 2-set prescription), 'felt strong, first set didn't feel very hard,' second set 'felt strong too, good form.' 'Right side front pec a bit crackly' — same crackle-then-fine pattern as W12D1's cable fly. **Lateral raise (DB) 15x18 x2 as prescribed; 'shoulder still acting up.'** **Cable fly went up to 9** (Kinesis; W12D1 + prescription were Kinesis 8) — 8x12 then 9x12, 'felt fine this time.' **Tricep extension on Kinesis 5** — cable column was occupied, so the user used the Kinesis fallback the workout lists (prescribed was cable column 70); 'felt pretty good.' **Farmer carry (NEW lift) — key finding: 'grip is the hardest part of this! clench definitely provokes shoulder.'** This lines up with the W12D1 grip-to-shoulder coupling ('squeezing right hand triggers weakness + pain'). The carry was otherwise completed ('did the time; couldn't time it perfectly') — the user flagged the grip clench specifically, not the packed-shoulder carry posture. **User added 'stretchy shoulder shrugs' at the end** — 'felt good' (consistent with the W12D1 'how come we don't do shrugs' ask). End-of-session cool-down stretches done, 'good.' Incline DB press, cable lateral raise, straight-arm pulldown, warmup, push-ups all done without specifics — user: 'oh i did all the things didnt write them down though.'",
+    "cardio": "Standard run to/from gym (zone 2, ~12 min each way). PLUS ~30 laps at the pool — user: 'terrible idea... really wrecked me all day' (heat wave on). User plans to limit pool swims to KB days only going forward.",
+    "exercises": [
+      {
+        "id": "push-press",
+        "sets": [
+          { "weight": "45lb each", "reps": 10, "notes": "Good form." },
+          { "weight": "45lb each", "reps": 10, "notes": "Good form on both." }
+        ],
+        "notes": "**Load went UP to 45** — heal-week prescription was HOLD at 40 (W12D1 ran 40x10/10/8). User did 45x10 x2 with 'good form on both.' User: 'appreciate having two sets lol' — the heal-week 2-set cut landed well. No rib-flare or form-break noted (vs W12D1's set-2 flare / set-3 break at 40)."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          { "weight": "15lb", "reps": 18, "notes": "Shoulder still acting up." },
+          { "weight": "15lb", "reps": 18 }
+        ],
+        "notes": "DB lateral raise at Station 1 — 15x18 x2, exactly as prescribed (heal-week trim from W12D1's 15x20). 'Shoulder still acting up.'"
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          { "weight": "(not recorded)", "reps": "—", "notes": "Done — user: 'i did all the things didnt write them down though.' No specifics; prescribed 45lb pair x2." }
+        ]
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": [
+          { "weight": "165", "reps": 10, "notes": "Done first because the machine was available. 'Right side front pec a bit crackly.' 'Felt strong though first set didn't feel very hard.'" },
+          { "weight": "165", "reps": 10, "notes": "'Felt strong too, good form.'" }
+        ],
+        "notes": "165 x10 x2 — matches the heal-week 2-set prescription. Done first (machine availability). 'First set didn't feel very hard' — consistent with the heal-week design (volume cut, load held). Right-pec crackle then fine = same pattern as W12D1's cable fly."
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": [
+          { "weight": "Kinesis 8", "reps": 12, "notes": "Felt really good." },
+          { "weight": "Kinesis 9", "reps": 12, "notes": "Went up to 9 — 'felt fine this time.'" }
+        ],
+        "notes": "**Went up to Kinesis 9** on set 2 (W12D1 + the W13 prescription were Kinesis 8). 8x12 felt 'really good,' so 9x12 — 'felt fine this time' (implies a prior 9 attempt didn't feel fine)."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "equipment": "(not recorded — cable column default, or Kinesis fallback)",
+        "sets": [
+          { "weight": "(not recorded)", "reps": "—", "notes": "Done — user: 'i did all the things didnt write them down though.' No specifics. This was a W13 spotlight lift; no reflection captured this session." }
+        ]
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "equipment": "Kinesis 5 (cable column occupied — used the workout's listed fallback)",
+        "sets": [
+          { "weight": "Kinesis 5", "reps": "—", "notes": "Cable column was occupied ('other machines occupied'), so the user used the Kinesis 5 fallback the workout lists. 'Felt pretty good.'" }
+        ],
+        "notes": "**Equipment: Kinesis 5, not cable column 70** — the column was occupied. Prescribed cable column 70 (W12D1's working number). The Kinesis 5 fallback is in the workout JSON, so this was the intended sub. Note for W14: don't assume cable column 70 was used."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "equipment": "(not recorded)",
+        "sets": [
+          { "weight": "(not recorded)", "reps": "—", "notes": "Done — user: 'i did all the things didnt write them down though.' No specifics. W13 spotlight lift; no reflection captured." }
+        ]
+      },
+      {
+        "id": "farmer-carry",
+        "equipment": "DB rack",
+        "sets": [
+          { "weight": "(not recorded)", "reps": "~2 walks of the prescribed time", "notes": "'Did the time; couldn't time it perfectly.' 'Grip is the hardest part of this! clench definitely provokes shoulder.'" }
+        ],
+        "notes": "**NEW lift, first session. Key finding: the GRIP is the limiter, and a hard clench provokes the right shoulder.** This matches the W12D1 grip-to-shoulder coupling ('squeezing right hand triggers weakness + pain'). The user flagged the grip clench specifically — not the packed-shoulder carry posture itself, which was completed. Open question for next carry: does a firm-but-not-clenched grip (per the workout cue) keep the shoulder quiet? The carry's relieve-vs-aggravate test isn't cleanly answered yet — grip clench aggravates, but that's a grip signal, not necessarily a carry-posture signal."
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w13-kb-full",
+    "date": "2026-05-19",
+    "rawInput": "did 30 for almost everything since 25 gone lol\n\nall the exercises were fine\nCOSSACK SQUATS CONTINUE TO BE THE DEVIL\ni'm getting way better at these tho i couldn't do these unassisted before but they just make me drenched, even the first set\n\nthe asgooch power thing is kind of long but i asked for a condition class / shred class so i did all of them on 30 - except the last block - there's a thing in claude.md to ask you to double check workouts so they dont become two-three hour workouts - are you not able to see that?? Otherwise zero shoulder problems but it's still fwcking hard",
+    "notes": "Heal-week D2 (KB Full Body). **The 25lb bell was gone, so the user defaulted to 30lb for almost everything** — Asgooch flow rounds, cossack, windmill, the 25-prescribed warmup pieces. Went UP on light skill weights (prescribed 20-25lb → 30lb) without issue. **Zero shoulder problems across all the overhead work** — important heal-week signal: 5 rounds × 2 sides of Asgooch overhead movements (row, swing-snatch, OH lunge, OH squat, push press) at 30lb in the right hand and the shoulder stayed quiet. **Cossack squats: 'continue to be the devil'** — drenched even on the first set — but the user noted real progression: 'I couldn't do these unassisted before' and now can. Cossack at 30 (up from prescribed 25). **User reframed the workout as 'condition class / shred class'** to motivate themselves through it; 'did all of them on 30 - except the last block.' Ambiguity: 'last block' could mean either the push press at the end of each Asgooch round (where overhead 30 is hardest) or the Brutal Complex finisher at the end of the workout. Either way, the user dropped weight on the very tail. **User flagged the workout was too long ('kind of long... two-three hour workouts')** — and called out the CLAUDE.md 'Exercise count discipline' rule, which I failed to apply this week. The heal-week plan in NOTES.md + the W13 program tips both said 'cut Asgooch to 3 rounds per side,' but the kb-full JSON kept 5 rounds AND added Brutal Complex (new) AND added figure-8 (moved from kb-cond) on top — during a heal week, when the design was supposed to CUT volume. The session ran long as a direct result. **Fixing forward:** workout JSON gets the heal-week cut applied retroactively for the historical record; W14 KB Full design starts from a 'count the blocks before finalizing' check.",
+    "cardio": "(not specified by user — KB days don't have a standard run prescription)",
+    "exercises": [
+      {
+        "id": "kettlebell-halo",
+        "sets": [
+          { "weight": "~30lb (25 unavailable)", "reps": "8 each direction", "notes": "Done as part of warmup; user: 'did 30 for almost everything since 25 gone.' Prescribed 15-20." }
+        ]
+      },
+      {
+        "id": "kettlebell-overhead-press",
+        "sets": [
+          { "weight": "(warmup, light)", "reps": "3 each side", "notes": "Warmup overhead press done. No issues flagged." }
+        ]
+      },
+      {
+        "id": "kettlebell-goblet-squat",
+        "sets": [
+          { "weight": "~30lb (25 unavailable)", "reps": 5, "notes": "Warmup goblet squat at 30lb default." }
+        ]
+      },
+      {
+        "id": "kettlebell-row",
+        "context": "Asgooch flow — 5 rounds each side",
+        "sets": [
+          { "weight": "30lb (25 unavailable)", "reps": "5 per round × 5 rounds × 2 sides", "notes": "Done at 30 across all Asgooch rounds. 'All the exercises were fine.'" }
+        ]
+      },
+      {
+        "id": "kettlebell-swing-snatch",
+        "context": "Asgooch flow — 5 rounds each side",
+        "sets": [
+          { "weight": "30lb", "reps": "5 per round × 5 rounds × 2 sides", "notes": "Snatch overhead in flow. User: 'zero shoulder problems' — heavier-than-prescribed weight, all rounds, both sides, no shoulder talk." }
+        ]
+      },
+      {
+        "id": "kettlebell-overhead-lunge",
+        "context": "Asgooch flow — 5 rounds each side",
+        "sets": [
+          { "weight": "30lb", "reps": "5 per round × 5 rounds × 2 sides", "notes": "Overhead lunge at 30 both sides, no modification to front-rack needed. Right shoulder stayed quiet." }
+        ]
+      },
+      {
+        "id": "kettlebell-overhead-squat",
+        "context": "Asgooch flow — 5 rounds each side",
+        "sets": [
+          { "weight": "30lb", "reps": "5 per round × 5 rounds × 2 sides", "notes": "The 'hardest move in the flow' per the prescription — held at 30 throughout." }
+        ]
+      },
+      {
+        "id": "kettlebell-push-press",
+        "context": "Asgooch flow — 5 rounds each side",
+        "sets": [
+          { "weight": "30lb (or lighter? — ambiguous)", "reps": "5 per round × 5 rounds × 2 sides", "notes": "User said 'did all of them on 30 - except the last block.' One interpretation: 'last block' = push press at the end of each Asgooch round, where 30 overhead is the toughest move. If so, push press dropped to a lighter bell. Other interpretation: 'last block' = Brutal Complex finisher. Ask next session for clarity." }
+        ]
+      },
+      {
+        "id": "cossack-squat",
+        "sets": [
+          { "weight": "~30lb goblet (25 unavailable)", "reps": "8 each side × 2 rounds", "notes": "**'COSSACK SQUATS CONTINUE TO BE THE DEVIL.'** Drenched 'even the first set.' BUT: 'i'm getting way better at these tho i couldn't do these unassisted before but they just make me drenched.' Real progression — unassisted full ROM now, even at heavier-than-prescribed 30. The cardio cost is the cost; the movement quality is up." }
+        ]
+      },
+      {
+        "id": "kettlebell-windmill",
+        "sets": [
+          { "weight": "~30lb (25 unavailable)", "reps": "5 each side × 2 rounds", "notes": "Maintenance block. 30 instead of prescribed 25. No issues flagged." }
+        ]
+      },
+      {
+        "id": "kettlebell-turkish-getup",
+        "sets": [
+          { "weight": "30lb (matches prescription)", "reps": "2 forward + 2 reverse per side × 2 rounds", "notes": "Spotlight refresh. Prescribed at 30 (TGU was already 30, user's '30 for everything' fit here). User: 'all the exercises were fine.'" }
+        ]
+      },
+      {
+        "id": "kettlebell-clean-and-press",
+        "sets": [
+          { "weight": "(unclear — prescribed 45)", "reps": "5 each × 2 rounds", "notes": "Spotlight refresh prescribed at 45 (the W11/W12 working weight). User said '30 for almost everything' — unclear if C&P actually dropped to 30 (would be a deload from the established 45) or stayed at 45. 'All the exercises were fine' suggests C&P got done. Ask next session to confirm load." }
+        ]
+      },
+      {
+        "id": "kettlebell-figure-8-tactical-clean",
+        "sets": [
+          { "weight": "~26lb (12kg, prescribed)", "reps": "60s × 2 rounds", "notes": "Figure-8 flow block. Assumed at prescription since no specific call-out and user implied 'all done.' Right shoulder quiet on the rack catch (no flag)." }
+        ]
+      },
+      {
+        "id": "kettlebell-swing",
+        "context": "Brutal Complex finisher — 3 rounds",
+        "sets": [
+          { "weight": "(different from 30 — see notes)", "reps": "10 per round × 3 rounds", "notes": "Brutal Complex finisher ('last block'). User: 'did all of them on 30 - except the last block' — if 'last block' = Brutal Complex, weight was different (probably heavier — swings benefit from a 35-40lb bell). 'Still fwcking hard.'" }
+        ]
+      },
+      {
+        "id": "kettlebell-ab-stance-goblet-squat",
+        "context": "Brutal Complex finisher — 3 rounds",
+        "sets": [
+          { "weight": "(brutal complex weight)", "reps": "10 per round × 3 rounds", "notes": "AB-stance goblet squat in the finisher. Done." }
+        ]
+      },
+      {
+        "id": "kettlebell-alternating-bent-over-row",
+        "context": "Brutal Complex finisher — 3 rounds",
+        "sets": [
+          { "weight": "(brutal complex weight)", "reps": "10 each × 3 rounds", "notes": "Alternating bent-over row in the finisher. Done." }
+        ]
+      },
+      {
+        "id": "kettlebell-close-grip-pushup",
+        "context": "Brutal Complex finisher — 3 rounds",
+        "sets": [
+          { "weight": "bodyweight", "reps": "10 × 3 rounds", "notes": "Close-grip pushup, bodyweight. Done." }
+        ]
+      }
+    ],
+    "shoulderStatus": "**ZERO shoulder problems across the full session** — important heal-week signal. The right shoulder cluster (W12D1 line-of-sensation + W13D1 farmer-carry grip-clench provocation) did NOT talk through 5 × 2 rounds of overhead Asgooch work (snatch + OH lunge + OH squat + push press), all at heavier-than-prescribed 30lb. Whether the heal-week shoulder rest is working, or the KB overhead position is easier on the shoulder than the gym lifts, is the open question. Watch tomorrow's W13D3 pull.",
+    "lessonsForFutureWeeks": [
+      "**Workout-length discipline failed on W13D2 — I added Brutal Complex (new) + figure-8 (moved from kb-cond) AND failed to cut Asgooch from 5 → 3 rounds despite the heal-week plan + program tips both saying to cut. This is the 'never stack blocks during a heal week' lesson.** Going forward, count blocks AND estimate realistic duration BEFORE finalizing a week's JSON. Especially during heal weeks where the explicit goal is volume cut.",
+      "**Cossack squat progression noted — unassisted full ROM at 30lb, drenched on the first set.** The cardio cost is structural to the lift, not a load issue. Keep prescribing at 25-30lb (mobility-first); don't chase higher load on this one.",
+      "**Heal-week shoulder signal is positive so far** — D1 push 45lb push press clean, D2 KB full Asgooch overhead at 30 with no talk. Maintain the heal-week pattern through D3 pull before judging.",
+      "**'Last block' ambiguity** — clarify next session whether push press in Asgooch flow OR Brutal Complex was the lighter block."
+    ]
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w13-pull",
+    "date": "2026-05-20",
+    "rawInput": "w13d3\n\npull ups continue to be the hardest thing ever; just feel weak plus shoulder is annoying; never been so bad at pull ups; did all sets but really struggled the third set lol. need to do these more, i guess\n\nchest db row on 35 is too easy; did these sets easily without a sweat; slow eccentric to 12 x2\n\nincline curls are always great even set two feels hard but eccentric and slow and completed both sets both arms\n\nreverse fly feels great, hits the shoulder in the right way at these weights even tho it feels easy; first set did 16 accidentally; slowed it down even more and set of 12 for second set was hard\n\nface pulls feel good on the weight and this many reps; the cues are great and feeling like PT than a hard work out\n\npull downs on a regular pulley this time since column is taken - 47.5 x2 - feels great; going 52.5 or 57.5 is working weight\n\ncable crunch at rope and 62.5 - pretty hard and yes focus on abs but also chest and other parts end up engaging\n\nIf not mentioned, it went great and I followed instructions\n\nwhenever i correct you it means you do not write shit like this you don't see this in a real report or a dining menu lol HOLD — 22.5 'doesn't exist at this gym,' confirmed",
+    "notes": "Heal-week D3 (Pull) — the last heal-week gym day. Pull-ups are the clear weak point: 'hardest thing ever,' 'just feel weak,' 'never been so bad at pull ups,' shoulder 'annoying' — all 3 sets done, set 3 a struggle, and the user wants more frequency. Everything else read as easy: chest-supported row 35 'too easy... without a sweat,' reverse fly drifted to 16 reps before being reined in, lat pulldown 'feels great' — the heal week working as designed (loads held, sets cut). Incline curl came in fresh and clean — 25lb, both arms both sets completed with no assist, vs W12D3's 8+2 assisted; the W12 weakness reads as fatigue-ordering. Reverse fly and face pull both felt good on the shoulder ('hits the shoulder in the right way,' 'like PT than a hard work out'). Equipment: the regular lat pulldown / cable column was occupied, so pulldown (47.5) and cable crunch (62.5) ran on cable pulleys at a different stack scale than the prescribed 140 / 130. Per the user, anything not mentioned was done as prescribed. Style correction from the user this session: workout-file notes should read like a real report or a menu, not carry program-management cruft (no 'HOLD', no parenthetical justifications like '22.5 doesn't exist at this gym, confirmed') — applied to this log and saved for W14 onward.",
+    "cardio": "Standard run to/from the gym — zone 2, ~12 min each way (gym-day default).",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": [
+          { "weight": "bodyweight", "reps": "all 3 sets completed", "notes": "Set 3 a real struggle." }
+        ],
+        "notes": "User: 'pull ups continue to be the hardest thing ever; just feel weak plus shoulder is annoying; never been so bad at pull ups.' Did all 3 heal-week sets; set 3 the hard one. User wants more pull-up frequency: 'need to do these more, i guess.'"
+      },
+      {
+        "id": "chest-supported-dumbbell-row",
+        "sets": [
+          { "weight": "35lb", "reps": 12, "notes": "Slow eccentric." },
+          { "weight": "35lb", "reps": 12, "notes": "Slow eccentric." }
+        ],
+        "notes": "35lb felt too easy — 'did these sets easily without a sweat.' Ran reps to 12 (prescribed 10). Clear headroom past 35 for W14."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": [
+          { "weight": "70lb", "reps": 10, "notes": "Not separately reported — per the user's catch-all, done as prescribed." }
+        ]
+      },
+      {
+        "id": "incline-curl",
+        "sets": [
+          { "weight": "25lb", "reps": "8-10", "notes": "Both arms completed." },
+          { "weight": "25lb", "reps": "8-10", "notes": "Set 2 felt hard; both arms still completed with a slow eccentric." }
+        ],
+        "notes": "Spotlight. 25lb, both sets both arms completed clean with no assist reported. W12D3 needed 8+2 assisted on set 3 with both sides weak; this week, on the heal week's cut volume, the curl came in fresh and the reps held. Answers the W13 reflection question — the W12 weakness reads as fatigue-ordering, not a true strength drop. No need to move the curl earlier in W14."
+      },
+      {
+        "id": "dumbbell-reverse-fly",
+        "sets": [
+          { "weight": "20lb", "reps": 16, "notes": "Accidentally ran to 16." },
+          { "weight": "20lb", "reps": 12, "notes": "Slowed the tempo further — a strict 12 was hard." }
+        ],
+        "notes": "20lb. 'Feels great, hits the shoulder in the right way' — the 30° reverse-incline form continuing to land. Light enough that set 1 drifted to 16; slowing the eccentric made set 2's 12 hard."
+      },
+      {
+        "id": "lat-pulldown",
+        "equipment": "cable pulley — the regular lat pulldown / cable column was occupied",
+        "sets": [
+          { "weight": "47.5", "reps": "8-10" },
+          { "weight": "47.5", "reps": "8-10" }
+        ],
+        "notes": "Done on a cable pulley because the usual machine/column was taken — a different stack scale than the prescribed 140 on the regular lat pulldown machine. 47.5 'feels great'; user pegs working weight at 52.5-57.5 on this setup. Confirm the exact machine with the user before writing W14 loads."
+      },
+      {
+        "id": "face-pull",
+        "equipment": "cable column (mid/upper-chest height + rope)",
+        "sets": [
+          { "weight": "42.5", "reps": 20 },
+          { "weight": "42.5", "reps": 20 }
+        ],
+        "notes": "42.5, 2 sets of 20. 'Feels good on the weight and this many reps; the cues are great' — 'feeling like PT than a hard work out.' The W12D3 cue protocol continuing to do its job."
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "sets": [
+          { "weight": "(not reported)", "reps": "10-12", "notes": "Not separately reported — per the user's catch-all, done as prescribed. Equipment may have shifted since the cable column was occupied this session." }
+        ]
+      },
+      {
+        "id": "cable-crunch",
+        "equipment": "cable, rope attachment",
+        "sets": [
+          { "weight": "62.5", "reps": "12-15" },
+          { "weight": "62.5", "reps": "12-15" }
+        ],
+        "notes": "Rope attachment, 62.5 — a different stack scale than the prescribed 130 (column was taken). 'Pretty hard.' On the hips-locked / abs-only cue: 'focus on abs but also chest and other parts end up engaging' — the abs-only isolation isn't fully clean yet."
+      },
+      {
+        "id": "trap-3-raise",
+        "sets": [
+          { "weight": "5-10lb", "reps": "10-12", "notes": "Not separately reported — per the user's catch-all, done as prescribed." }
+        ],
+        "notes": "First session for the trap-3 raise (replaced the behind-back shrug block). The user didn't call it out — no shoulder aggravation flagged, but no explicit relief reported either. Ask directly next pull day whether it helps the right-shoulder cluster."
+      }
+    ],
+    "shoulderStatus": "Shoulder 'annoying' during pull-ups specifically — paired with feeling 'weak' on the bar ('never been so bad at pull ups'). On the rest of the session the shoulder was fine to good: reverse fly 'hits the shoulder in the right way,' face pull felt 'like PT than a hard work out.' Cross-check vs W13D1 push (lateral raise 'shoulder still acting up,' right pec 'a bit crackly'): D3 is not clearly worse — the shoulder talks under loaded hanging/pulling but is quiet-to-good on rear-delt and PT-style work. Not the clear worsening that would flip the working hypothesis to structural; keep watching.",
+    "lessonsForFutureWeeks": [
+      "Pull-ups are the weak point and the user knows it — 'need to do these more.' W14 should consider adding pull-up frequency or volume (back to 4 sets, or a few easy sets on another day). Settle the exact change with the user — the heal week is the reason volume was cut to 3 this week.",
+      "Heal week did its job — chest-supported row, reverse fly, and lat pulldown all read as 'too easy' / 'without a sweat' with loads held and sets cut. That's the design. W14 resumes normal volume; chest-supported row has clear headroom past 35.",
+      "Incline curl came in fresh and clean at 25lb, both arms both sets — W12D3's assisted set 3 was a fatigue-ordering artifact. Keep the curl where it is in the day.",
+      "Equipment: the regular lat pulldown machine / cable column was occupied, so pulldown (47.5) and cable crunch (62.5) ran on cable pulleys at a different stack scale than the prescribed 140 / 130. Confirm the exact machine with the user before writing W14 loads.",
+      "Trap-3 raise's first session drew no comment — no aggravation, no explicit relief. Ask directly next pull day whether it helps the shoulder cluster."
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w13-legs",
+    "date": "2026-05-22",
+    "rawInput": "w13d5\n\n\nsquat on barbell feel good yes set three super super deep and felt very good; kind of wish it was a 6-7-8 pyramid instead\n\nquery wxpansion but on the guide docs side // docs expansion - have the agent query it to make sure the query agent got it right\n\nleg press feel great, al and psoas sore as hell\n\ncalf raise is in a bad position it needs to be with the equipment claude md needs this note\n\ncalf raises felt easy this time even with slow eccentrics, feel great tho\n\nbulgarians\ngood to do at this weight, felt fine no twitching or spawning; last time i loaded it way too heavily without easing in so i got the spasms lol\nHappy to go up after this \nleg curl\nfeel these deeply when doing it slowly\nstopped at two sets\n\nAll the other ones went fine; followed directions and no problems\n\nFelt pretty good at the end; usually I jog back slowly after leg day but pretty fine today so ran back normally",
+    "notes": "Heal-week D5 (Legs) — closes out W13. Squat pyramid 8/6/8 at 75/side felt good, set 3 'super super deep and felt very good'; user wishes the pyramid were 6/7/8 (ascending) instead, consistent with the W12D5 discovery that fewer reps per set deepens the form. Leg press 3 plates ran clean — 'feel great' with 'abs and psoas sore as hell,' the same core/QL pattern as W12D5's 'QL massage' framing. Calf raise felt easy even on slow eccentrics, 'feel great' — and the user flagged a station-sequencing issue: the calf raise is on the leg press machine but is sequenced after the Bulgarian station, so the user has to walk back to the leg press; user wants this rule in CLAUDE.md. Bulgarian split squat (W13 spotlight, new) ran clean at the prescribed light load — no twitching or spasming; user noted that prior unprogrammed attempts had been too heavy and led to spasms, so the light-introduction call landed correctly, and they're happy to go up next time. Seated leg curl 2 sets at 90 — 'feel these deeply when doing it slowly.' Everything else done as prescribed. Recovery signal at the end: ran the run-back at normal pace today instead of the usual slow shuffle after legs day.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back. User noted the run back went at normal pace ('pretty fine today so ran back normally'), rather than the usual slow shuffle after legs day — small recovery-positive signal at the end of a heal week.",
+    "exercises": [
+      {
+        "id": "internal-core-fist-rotation",
+        "context": "warmup (new exercise added today)",
+        "sets": [
+          { "weight": "bodyweight", "reps": "~45s hold", "notes": "First session for this lift, added to the legs warmup as part of the same edit. User's catch-all 'all the other ones went fine; followed directions' covers it." }
+        ]
+      },
+      {
+        "id": "squat",
+        "sets": [
+          { "weight": "75/side", "reps": 8, "notes": "Felt good." },
+          { "weight": "75/side", "reps": 6, "notes": "Middle set — felt good." },
+          { "weight": "75/side", "reps": 8, "notes": "Set 3 'super super deep and felt very good.'" }
+        ],
+        "notes": "Pyramid 8/6/8 at 75/side, as prescribed. Set 3 the deepest and cleanest of the day. **User preference for next time: a 6/7/8 ascending pyramid** instead of 8/6/8 — same logic as W12D5 (fewer reps per set lets the depth and form be better). Frame as a question for W14: does 6/7/8 deliver the same set-3 depth across all three sets?"
+      },
+      {
+        "id": "leg-press",
+        "sets": [
+          { "weight": "3 plates/side", "reps": 12, "notes": "Full ROM." },
+          { "weight": "3 plates/side", "reps": 12 },
+          { "weight": "3 plates/side", "reps": 12, "notes": "'Feel great, abs and psoas sore as hell.'" }
+        ],
+        "notes": "3 plates, 3 sets, full ROM as prescribed. 'Feel great' — and the soreness landed in abs + psoas, same core/QL pattern as W12D5's 'literally knee to chest like frogger / QL massage' framing. Confirms the lighter-load full-ROM approach is doing what it was designed to do."
+      },
+      {
+        "id": "bulgarian-split-squat",
+        "context": "🔆 W13 SPOTLIGHT — new lift, introduction session",
+        "sets": [
+          { "weight": "bodyweight or light DBs (prescribed)", "reps": "8-10 each leg", "notes": "Felt fine, no twitching or spasming." },
+          { "weight": "bodyweight or light DBs", "reps": "8-10 each leg", "notes": "Set 2 — also clean, ready to add load next time." }
+        ],
+        "notes": "Spotlight, first prescribed session. **'Good to do at this weight, felt fine no twitching or spawning [spasming].'** The light-introduction call landed correctly. User context: prior unprogrammed Bulgarian attempts ('last time i loaded it way too heavily without easing in') had led to spasms, so the bodyweight/light-DB start is what made this clean. **'Happy to go up after this'** — W14 can step up incrementally."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": [
+          { "weight": "3 plates", "reps": 15, "notes": "Slow eccentrics, 'felt easy this time.'" },
+          { "weight": "3 plates", "reps": 15, "notes": "'Feel great.'" }
+        ],
+        "notes": "**Station-sequencing flag from the user: 'calf raise is in a bad position it needs to be with the equipment, CLAUDE.md needs this note.'** The calf raise is done on the leg press machine but is currently sequenced after the Bulgarian split squat station — forcing a walk back to the leg press. Per the user's `feedback_station_focused_workouts` memory, station-shared exercises should be adjacent. CLAUDE.md updated this session with an explicit station-grouping rule; W14 legs sequence will run leg press → leg-press-calf-raise (same station) → Bulgarian → leg curl → incline RDL. The lift itself felt easy on slow eccentrics — 'feel great' — same pattern as W12D5 ('slow count incredibly hard') landing more comfortably now."
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": [
+          { "weight": "90 (assumed — prescribed working weight)", "reps": 12, "notes": "Slow tempo, deep feel." },
+          { "weight": "90", "reps": 12, "notes": "'Feel these deeply when doing it slowly. Stopped at two sets.'" }
+        ],
+        "notes": "2 sets at the prescribed heal-week volume. 'Feel these deeply when doing it slowly' — the slow tempo is the stimulus, same as W11D5 / W12D5."
+      },
+      {
+        "id": "incline-rdl",
+        "sets": [
+          { "weight": "45lb plate", "reps": 15, "notes": "Done as prescribed — per the user's catch-all ('all the other ones went fine; followed directions')." },
+          { "weight": "45lb plate", "reps": 15 }
+        ]
+      }
+    ],
+    "shoulderStatus": "Not flagged today (legs day). Heal week closes with no shoulder commentary on the lifts that touch it (squat bar position, leg press grip — neither raised). The shoulder cluster watch resumes W14D1 push.",
+    "lessonsForFutureWeeks": [
+      "**W14 squat: try 6/7/8 pyramid instead of 8/6/8.** User wishes today's pyramid had ascended — same logic as W12D5 (fewer reps per set → cleaner depth). Frame as a test: does 6/7/8 deliver the W13D5 set-3 depth on every set?",
+      "**Station-grouping rule applied:** calf raise (on the leg press machine) must be sequenced adjacent to leg press, not after the Bulgarian station. CLAUDE.md updated with the explicit rule this session. W14 legs sequence: leg press → leg-press-calf-raise → Bulgarian → leg curl → incline RDL.",
+      "**Bulgarian split squat introduction landed well at light load.** No twitching/spasms — the light-DB / bodyweight call was correct. Step up incrementally in W14 (light DBs at sides, maybe 15-20lb each), keep front-heel drive + vertical-torso the focus.",
+      "**Leg press full-ROM core/QL pattern confirmed** — abs + psoas soreness from 3 plates at deep ROM is the W12D5 'QL massage' pattern, repeated. Stay with full ROM at 3 plates until the core/QL chain is reliably quiet.",
+      "**Recovery signal:** ran the run-back at normal pace instead of the usual post-legs slow shuffle. Small but real heal-week-working sign at the end of W13."
+    ]
+  },
+  {
+    "day": 6,
+    "date": "2026-05-23",
+    "session": "fb-w13-kb-cond (Saturday-experiment, full template)",
+    "rawInput": "did all the d6 kb cond and it was fine and pretty easy - found out you can do one leg around the world - its super tiring super quick so like 5 each way x each leg x 2 is quite the burn - can you add that officially for next week",
+    "notes": "Ran the full W13 KB Saturday session prescribed. 'Fine and pretty easy' overall. Discovered single-leg around-the-world — added to library and slotted into both W14 KB days at the dose he specified.",
+    "newExerciseDiscovered": {
+      "id": "kettlebell-single-leg-around-the-world",
+      "userQuote": "found out you can do one leg around the world - its super tiring super quick so like 5 each way x each leg x 2 is quite the burn",
+      "doseForNextWeek": "5 each direction × each leg × 2 rounds",
+      "discoveredOn": "W13D6 Saturday KB cond",
+      "addedTo": ["fb-w14-kb-full mobility block", "fb-w14-kb-cond mobility block"]
+    },
+    "shoulderStatus": "Not flagged. Easy session.",
+    "lessonsForFutureWeeks": [
+      "**W13 Saturday-experiment closes: 'pretty easy.'** The W12-template KB ran clean on Saturday; the new W14 full template (which the user already designed against) is what runs going forward, Tue + Thu.",
+      "**New exercise: single-leg around-the-world.** Self-discovered. 'Super tiring super quick' — the off-balance pass burns the standing-leg hip stabilizers + obliques + grip in parallel. Lives in the mobility block alongside windmill/cossack/TGU on KB days. Dose to start: 5 each direction × each leg × 2 rounds."
+    ]
+  }
+]

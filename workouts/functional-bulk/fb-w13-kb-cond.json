@@ -1,0 +1,132 @@
+{
+  "id": "fb-w13-kb-cond",
+  "name": "Week 13 KB Conditioning — Heal Week (Spotlight: Bent Press)",
+  "description": "Heal week — this KB day is on Saturday. Skill and flow work, no load chasing. Bent press is the spotlight — a leverage-cue refresh. The figure-8 → tactical clean flow stays. Legs is the day before (Friday), so keep the loaded squatting in the flow light. TGU and windmill are maintenance.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "spotlight-rotation", "heal-week"],
+  "estimatedDuration": 45,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "beginner",
+  "dayOverview": {
+    "theme": "Heal week, KB day on Saturday. Bent press is the spotlight — a leverage refresh. Figure-8 flow stays. Legs was the day before — keep loaded squatting light. TGU and windmill are maintenance.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-bent-press",
+        "why": "Bent press is a skill lift built on leverage — the body goes down while the bell barely moves. A light load is a good window to re-groove that cue."
+      }
+    ],
+    "rotationPlan": "W11 windmill · W12 TGU · W13 bent press · W14 cycles forward — figure-8 flow stays in rotation, windmill/TGU rotate as needed.",
+    "watchpoints": [
+      "Heal week — this KB day is on Saturday. Skill, flow, and figure-8 work; no load chasing.",
+      "Keep the dose honest on the figure-8 flow — 2 rounds is the prescription. It's a fun flow, which is the trap; extra rounds tighten the QL the next day.",
+      "TGU is a STRAIGHT-ARM lift — straight-arm overhead lockout, no rack hold during the get-up. Maintenance — both sides feel fine.",
+      "Right shoulder watch on the figure-8 clean catch — if anything talks during the catch, drop to figure-8 passes only and finish the round.",
+      "Legs was the day before — keep the goblet squats and flow squats light and controlled."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band overhead OR blue rope band gripped in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Press out to a T — fires rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Pull apart at the sternum, scaps retract, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep the arms back. Don't overarch." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge — directly preps the bent press." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y overhead. Hold and breathe — lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "OTD Flow (Light Groove)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "notes": "Bell starts on the floor between the feet, hips drive the lift, catch in the rack with the knees slightly bent." },
+        { "id": "kettlebell-front-squat", "notes": "Goblet/rack position. Sit tall, full depth, no bouncing." },
+        { "id": "kettlebell-lateral-lunge", "notes": "Stride out wide, sit into the working leg, keep the other leg long. Mobility, not strength." },
+        { "id": "kettlebell-tactical-clean", "notes": "Control on the way down — bell to the floor as cleanly as it came up." }
+      ],
+      "notes": "**This is a continuous FLOW, not separate stations.** Move through the chain as one — dead clean → front squat → lateral lunge → tactical clean — letting each move feed the next, then switch sides and flow back. About 2 reps' worth at each move, but don't stop to count — let the rhythm carry it. 20lb throughout, 2 rounds. Light groove — it should feel effortless.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "🔆 Skill Drilling (Bent Press Spotlight + TGU + Windmill)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-bent-press",
+          "reps": "4 each side",
+          "notes": "**LOAD:** 25lb. 2 rounds, ~4 reps each side.\n\n**🔆 SPOTLIGHT — the leverage cue:**\n- **The body goes DOWN; the bell barely moves.** This is the whole lift. It is NOT a press — you don't push the bell up, you lower your body underneath a bell that stays roughly where it is.\n- **Bell locked overhead, eyes track the bell** the entire rep\n- **Hinge and rotate AWAY from the bell side** — the same lateral-hinge family as the windmill\n- **Reach the free hand down toward the inside of the front foot** as the torso lowers\n- **Long spine throughout** — the bend is at the hip, not a crunch of the spine\n- **Slow and deliberate** — fluidity over speed\n\n**Reflection:** does the 'body down, bell still' feeling click, or are you still pressing the bell? If it still feels like a press, slow down and lighten."
+        },
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "1 forward + 1 reverse per side",
+          "notes": "**LOAD:** 25lb. 2 rounds.\n- **Straight-arm overhead lockout** — punch the bell up, arm stays locked vertical the whole way; no rack hold during the get-up\n- Eyes ON the bell every checkpoint\n- Pause at every checkpoint — the reverse is half the lift\n- Hip bridge: glute squeeze, ribs down"
+        },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 18-20lb. 2 rounds.\n- Bell locked overhead, eyes track the bell\n- **Hip hinge AWAY from the bell side**\n- **Stretch lives in the back leg's hip flexor, NOT the lower back**\n- Slow descent, brief pause, controlled return"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 30
+    },
+    {
+      "id": "figure-8-tactical-clean-flow",
+      "name": "Skill Block: Figure-8 → Tactical Clean",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "duration": 60, "notes": "**LOAD:** 12kg (26lb). 2 rounds of 60s continuous flow.\n\n**The figure-8-tactical-clean is ONE compound move** — the figure-8 pass exits into a clean to rack, repeated alternating sides:\n- START in the hike position (bell between the legs, hinged at the hips)\n- **Figure-8 → exit into a tactical clean to rack** — pass between the legs, hand catches BEHIND, the pull becomes the clean\n- Lower the bell back through the hike position; the next pass switches sides\n- Continue alternating for the full 60s\n\n**Cues:**\n- **The figure-8 EXITS into the clean** — the bell does not return to a hand mid-pass; the catch becomes the clean\n- **Tactical clean = controlled, threaded into the rack** — no yank, no forearm slam\n- **Hike is home base** — every transition resets through hike\n- **Right shoulder watch on the rack catch** — if it talks, drop to figure-8 passes only and finish the round\n\n**Dose: 2 rounds, no more.** It's a fun flow — that's the trap. Extra rounds tighten the QL the next day, and legs was yesterday." }
+      ],
+      "notes": "2 rounds at 12kg, ~3 min work plus rest. Do the prescribed dose and stop.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the TGU hip bridge and the lateral lunge work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from the lateral lunges and figure-8 stance." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Heal week — this KB day is on Saturday. Skill, flow, and figure-8 work; no load chasing.",
+    "Spotlight: bent press — refresh the leverage cue: the body goes down, the bell barely moves.",
+    "Figure-8 flow — keep the dose honest. 2 rounds is the prescription; the fun is the trap.",
+    "TGU is a STRAIGHT-ARM lift — straight-arm overhead lockout, no rack hold during the get-up. Maintenance this week.",
+    "Right shoulder watch on the figure-8 rack catch — drop to passes only if it talks.",
+    "Legs was yesterday — go easy on loaded squatting in the flows.",
+    "Cooldown mandatory — pigeon and butterfly."
+  ],
+  "formPhilosophy": "Heal week, KB day on Saturday. Skill and flow work — bent press leverage, the OTD flow, the figure-8 flow. The heal is in held loads and managed overhead volume. The discipline is dosing the flows honestly — a fun flow is the easiest thing to overdo."
+}

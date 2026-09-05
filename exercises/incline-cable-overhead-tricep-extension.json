@@ -1,6 +1,6 @@
 {
   "id": "incline-cable-overhead-tricep-extension",
-  "name": "Incline Cable Overhead Tricep Extension",
+  "name": "Lean-Back Cable Tricep Pushdown",
   "category": "arms-triceps",
   "type": "weights",
   "muscles": [
@@ -21,11 +21,12 @@
     "triceps",
     "long-head",
     "stretch-focused",
-    "lats"
+    "lats",
+    "pushdown"
   ],
   "difficulty": "intermediate",
   "duration": 60,
-  "description": "Set an adjustable bench to ~45° incline facing away from a HIGH cable pulley. Grip rope or bar, sit back on the bench. Start with hands near chest (elbows bent), then extend arms forward/overhead against the cable resistance. The high cable angle creates a deep stretch on both the lats and the triceps long head. Works primarily lats with significant tricep long head activation. Can also be replicated kneeling at a cable column (position 1) facing away. Note: different from a standard LOW cable overhead tricep extension, which isolates triceps more.",
+  "description": "A cable tricep pushdown taken with the torso leaned slightly back, facing away from a high cable pulley — sat back on an incline bench or kneeling with the hips sat back. Grip a rope or bar with the elbows bent and the hands near the chest, then straighten the arms until they finish down by the hips. Everything stays fixed except the forearms; the elbows do not travel. The arms NEVER go behind the head — the path is bent-to-straight, chest-to-hip, and the backward lean is what puts the triceps long head on stretch. In the user's own words: \"slightly leaned back and straightening arms to hips keeping everything fixed, engaging back of the arms.\" Also called an \"incline cable overhead tricep extension\" (the borrowed name from the source video) — but \"overhead\" misdescribes the path and is what caused fifteen weeks of cue drift. Same movement as `cable-tricep-pushdown`, which carries a single W1 datapoint; this id holds the real history and is the one to log against.",
   "media": [
     {
       "type": "link",

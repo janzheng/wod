@@ -1,7 +1,7 @@
 import { assertEquals, assert } from "jsr:@std/assert";
 import { loadData } from "../../engine/loader.ts";
 
-const DATA_DIR = new URL("../../../../", import.meta.url).pathname;
+const DATA_DIR = decodeURIComponent(new URL("../../../../", import.meta.url).pathname);
 
 Deno.test("loader: loads all exercises without validation errors", async () => {
   const data = await loadData(DATA_DIR);

@@ -1,0 +1,228 @@
+{
+  "id": "fb-w14-pull",
+  "name": "Week 14 Pull — Volume Restored (Spotlight: Pull-Up + DB Row Refresh)",
+  "description": "Out of the heal week. Sets restored across the board; loads held at W13 levels. Spotlights cycle back to pull-up + DB row per the rotation tracker. Pull-up volume bumps to 4 sets on pull day; greasing-the-groove sets sit on push and KB Tuesday warmups (the user wants more pull-up frequency). Behind-back shrug returns this week — alternates with trap-3 raise across pull days. Cable lifts list loads per equipment variant (Kinesis / cable column / cable pulley) per the new W14+ equipment tracking rule.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Volume restored, loads held. Pull-ups go back to 4 sets + a scattered greasing set on push day and KB Tuesday. DB row returns to the full 60/70/80 pyramid. Cable lifts list per-equipment numbers so you can use whichever's free. Behind-back shrug returns (alternates with trap-3 raise).",
+    "spotlights": [
+      {
+        "exerciseId": "pull-up",
+        "why": "Cycles back to spotlight. W13D3 was the weak point ('never been so bad') — user wants more frequency, so volume goes to 4 sets here PLUS greasing sets on push + KB Tuesday. The spotlight question is whether the increased frequency (5-7 sets/week vs W13's 3) starts dragging the bar work back up. Drill all-slow tempo on the straight bar."
+      },
+      {
+        "exerciseId": "dumbbell-row",
+        "why": "Cycles back. W13 cut to 70-only (heal week skipped the 60 and 80); W14 returns to the full 60/70/80 pyramid. The spotlight question is whether 80 still holds form clean (W12D3 it did) at the restored pyramid load."
+      }
+    ],
+    "rotationPlan": "W11 chest-supported row + lat pulldown · W12 face pull + reverse fly · W13 bicep curl + high cable curl + cable crunch · W14 pull-up + DB row (current) · W15 cycle forward — face pull + reverse fly refresh or chest-supported row spotlight (where the W13 'too easy' signal would be addressed).",
+    "watchpoints": [
+      "**Loads HELD at W13** — chest-supported row stays at 35 even though it was 'too easy' W13D3 (W15 weight-up conversation, not W14). Pull-up bodyweight. DB row 60/70/80. Face pull 42.5. High cable curl 170. Cable crunch 130 column / 62.5 pulley. Reverse fly 20.",
+      "**Pull-up greasing scattered across the week** — 4 sets here, +1 set in push warmup, +1-2 sets in KB Tuesday strength block. Goal is frequency, not max effort. Greasing sets are bodyweight, slow, NOT to failure.",
+      "**Behind-back shrug returns** (alternates with trap-3 raise on the planned rotation — trap-3 was W13D3). Same report-back: relieve or aggravate the right-shoulder cluster?",
+      "**Right shoulder watch continues** — W13D3 the shoulder was 'annoying' on pull-ups specifically, fine on the rest. If the bar work still talks at increased frequency, that's a signal — track which sets across which days.",
+      "**Cable lifts have per-equipment numbers** — pick whichever station is free, log equipment + number used. Default for lat pulldown is the regular machine (140); cable column (52.5-57.5) and cable pulley (47.5) are the fallbacks."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "band-pull-apart",
+          "reps": 15,
+          "notes": "Scap activation. Squeeze shoulder blades together, soft elbow."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine warm — slow, full ROM each direction."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — the wrist dials a stretch up the back chain from forearm to lats to low back. Primes grip and the pulling chain before bar work."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "Active hang, not collapsed — engage lats, pull shoulders DOWN away from the ears even at full extension."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "🔆 Station 1: Pull-Ups (Spotlight — 4 Sets)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "pull-up",
+          "reps": "6-8",
+          "notes": "**LOAD:** Bodyweight. 4 sets of 6-8 (volume restored from W13's 3 sets).\n\n**🔆 SPOTLIGHT — drill all-slow on the straight bar (the W12D3 unlock):**\n- **Straight bar** — W12D3 'felt great for the first time in a long time' on straight bar; stay with what worked\n- **Active hang start**, not collapsed\n- **Pull elbows DOWN to ribs**, NOT chin to bar\n- **Chest leads to the bar at the top**\n- **Eyes ahead, head neutral** — no chin tucking\n- **Slow eccentric, ~2-3s** — the all-slow tempo IS the work\n- **Active hang at the bottom** of every rep — no dropping\n- **Stop the set when the rep stops being clean** — never kip\n\n**Greasing context:** there's also 1 fresh set in W14D1 push warmup and 1-2 sets in W14D2 KB Tuesday strength block. Total weekly pull-up volume: 6-7 sets across 3 days vs W13's 3 sets in 1 day.\n\n**Reflection:** at 4 sets here + scattered fresh sets earlier in the week, does set 4 still hit 6 clean, or does the increased weekly frequency drag it down? If the bar feels stronger by set 2-3 (warmed up) vs W13's 'never been so bad,' that's the frequency paying off."
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "db-bench-block",
+      "name": "🔆 Station 2: DB Rack / Bench Block — DB Row (Spotlight) + Chest-Supported Row + Incline Curl + Reverse Fly (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "dumbbell-row",
+          "reps": "10/10/8",
+          "notes": "**LOAD:** 60/70/80 ascending pyramid. 3 working sets (one per round): set 1 at 60, set 2 at 70, set 3 at 80.\n\n**🔆 SPOTLIGHT — drill the form-holds-at-80 cue:**\n- **Chest-supported on the incline bench** — same setup as the chest-supported row\n- **Pull the elbow toward the HIP, not the armpit**\n- **Don't rotate the torso** — chest stays glued to the bench, no twisting up\n- **Slow 2s descent, 1s squeeze**\n- **At 80 (set 3):** if the torso starts twisting or the elbow drifts toward the armpit, the form's tapping out — stop the set. W12D3 held clean at 80; that's the bar to hit.\n\n**Reflection:** does 80 still hold clean now that pyramids return after the heal-week 70-only week? If it grinds, the heal week didn't fully reset and we hold pyramid at 60/70/70 in W15."
+        },
+        {
+          "id": "chest-supported-dumbbell-row",
+          "reps": "10-12",
+          "notes": "**LOAD:** 35lb (HELD per W14 sets-up-weight-held policy). 3 sets of 10-12. W13D3 was 'too easy without a sweat' at 35 — W15 weight conversation, not W14. Use the volume restoration to confirm 35 is still clean form, then we'll talk about 40.\n- **Chest stays GLUED to the bench**\n- **Pull elbow to the HIP**, not the armpit\n- **2s eccentric, 1s squeeze**, no DB slam"
+        },
+        {
+          "id": "incline-curl",
+          "reps": "8-10",
+          "notes": "**LOAD:** 25lb. 3 sets of 8-10. Preacher-style chest-supported curl (substitute when the preacher bench is taken).\n- **Chest-supported on the 45° incline bench** — lean in chest-first, armpit and back of the upper arm flat on the pad\n- **Arm hangs down the face of the pad**, underhand grip; keep the upper arm flat on the pad the entire rep (no lifting the elbow off)\n- **Left arm first, every set** — W10D3/W11D3/W12D3 weak-left pattern\n- **Full stretch at the bottom — pause 2s**\n- **Curl smoothly to peak squeeze**, no swing\n- **2-3s eccentric**"
+        },
+        {
+          "id": "dumbbell-reverse-fly",
+          "reps": 12,
+          "notes": "**LOAD:** 20lb. 3 sets of 12. **Strict tempo — W13D3 set 1 drifted to 16; cap at 12 with slower eccentric instead.**\n- **30° reverse-incline** (chest-down on the incline bench)\n- DBs hanging fully extended at start, **soft elbow ~10-15°, FIXED throughout**\n- **Lead with elbow, hand passive**\n- **Wings out and slightly UP to shoulder height** — sweep, don't lift\n- **2s eccentric, 1s squeeze** — no swing"
+        }
+      ],
+      "notes": "One trip to the DB rack covers all 4 lifts. Incline bench stays at ~30° for rows + reverse fly (30° reverse-incline), set up at ~45-60° for the incline curl. 3 rounds.",
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "lat-pulldown-station",
+      "name": "Station 3: Lat Pulldown (3 Sets)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "lat-pulldown",
+          "reps": "8-10",
+          "notes": "**LOAD (pick whichever station is free):**\n- **Regular lat pulldown machine: 140** (default — W12D3 confirmed clean)\n- **Cable column: 52.5-57.5** (working range, W13D3 estimate)\n- **Cable pulley: 47.5** (W13D3 actual on this scale, 'feels great')\n\n3 sets. **Log which station + number you used.**\n- **Wide grip near the bend** — more lat isolation, less bicep\n- **Slight backward lean ~15°, NO further** — more = becomes a row\n- **Pull the bar to the UPPER CHEST — NEVER behind the neck**\n- 'Lats squeezing oranges into the back pockets' at the bottom\n- 1s pause at the contraction, 2s controlled return to a full overhead stretch\n- Knees pinned firmly under the pad"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "face-pull-station",
+      "name": "Station 4: Cable Column — Face Pull (3 Sets)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "face-pull",
+          "equipment": "cable column (mid/upper-chest height + rope)",
+          "reps": 20,
+          "notes": "**LOAD:** cable column 42.5. 3 sets of 20.\n- **Pull the rope to face level** — not to the chest\n- **ELBOWS HIGH (above the shoulders)** — the make-or-break cue\n- **External rotate at the top — knuckles point UP, like a double-biceps pose**\n- **1s peak hold** at the contracted position\n- **Slow controlled return, 2s** — let the cable pull the arms back\n\nSetup: pick the cable column you'll finish on (curl + crunch live at the same column)."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Station 5: Cable Column Finisher — High Cable Curl + Cable Crunch (2-3 Sets)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "high-cable-bicep-curl",
+          "equipment": "cable column (high attachment, single D-handle)",
+          "reps": "10-12",
+          "notes": "**LOAD (single arm, pick whichever's free — scales differ, log which one):**\n- Cable column (single D-handle): 170\n- Pulley / weight-stack station: ~120\n2 working sets per arm.\n- **Single arm at a time**\n- **Stand sideways, arm out at shoulder level**\n- **Upper arm parallel to the floor, FIXED** — the whole point of the high-cable variant\n- **Curl the hand to the ear**, peak squeeze\n- **Slow eccentric, no bounce at the start**"
+        },
+        {
+          "id": "cable-crunch",
+          "reps": "12-15",
+          "notes": "**LOAD (pick whichever station is free):**\n- **Cable column (high attachment + rope): 130** (default)\n- **Cable pulley (rope): 62.5** (W13D3 actual on this scale, 'pretty hard')\n\n3 sets. **Log which station + number you used.**\n- **Kneel under the high cable**\n- **HIPS LOCKED** — the most important cue. Hips do not move.\n- **Crunch from the abs ONLY** — spine flexes, hips stay put. Hips moving = hip-flexor work, not abs.\n- **Chest toward the thighs**, hold the crunch 1 second\n- **Slow eccentric**"
+        }
+      ],
+      "notes": "Same cable column as face pull. 2 rounds = 2 sets each lift; round to 3 on the cable crunch if there's time and the abs aren't fried.",
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "shrug-block",
+      "name": "Station 6: Behind-Back DB Shrug (Returns This Week — Alternates with Trap-3 Raise)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "equipment": "DB pair, held behind the body",
+          "reps": "12-15",
+          "notes": "**LOAD:** 40-50lb pair (W12D3 working). 3 sets.\n\n**Why this lift this week:** behind-back shrug + trap-3 raise alternate across pull days on the planned rotation. W13D3 was trap-3 (no aggravation, no explicit relief reported). W14 returns to behind-back shrug — same trap-chain target, different angle. Same hypothesis test: relieve or aggravate the right-shoulder cluster?\n\n**Cues:**\n- **DBs held BEHIND the body** at the sides of the hips/glutes — palms facing back\n- **Shoulders pull DOWN and BACK** at start position — not relaxed, packed\n- **Shrug UP and slightly BACK** — pinch the shoulder blades together at the top\n- **Hold 1s at the top**, slow descent\n- **Pack DOWN, NOT up** as the resting position — the lower position IS the work\n- Chest stays open, not slouched"
+        }
+      ],
+      "notes": "Trap-chain closing block. Light-to-moderate load, peak-squeeze the work. 3 sets, ~4 min including rest. Alternates with trap-3 raise — shrugs this week, trap-3 W15.",
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm at MID elbow position. Pec minor lengthen."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive hang. Don't engage — let the shoulders unpack and the spine decompress."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side. Draw one knee across the body, opposite arm extended."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side. Hip-rotator decompression."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "60s slow breathing. Parasympathetic shift."
+        }
+      ],
+      "notes": "5 minutes of recovery work, non-negotiable closing block.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Volume restored, loads held.** Pull-ups 4 sets (back from W13's 3), DB row 60/70/80 pyramid (back from 70-only), all other lifts +1 set.",
+    "**Spotlight: pull-up + DB row** — both refreshed at restored volume. Pull-up gets the frequency bump (greasing sets in push warmup + KB Tuesday on top of the 4 here).",
+    "**Pull-up greasing:** 4 here + 1 push warmup + 1-2 KB Tuesday = 6-7 weekly sets. Goal is frequency, NOT max effort. Greasing sets are slow, bodyweight, NOT to failure.",
+    "**Chest-supported row stays at 35** — W13D3 said 'too easy,' but W14 holds weight per the sets-up policy. Use the restored 3 sets to confirm 35 holds clean form; W15 is the weight-up conversation.",
+    "**Behind-back shrug returns** (alternates with trap-3 raise across pull days). Same trap-chain target, same shoulder-cluster watch.",
+    "**Cable lifts list per-equipment numbers** — lat pulldown (140 machine / 52.5-57.5 column / 47.5 pulley) and cable crunch (130 column / 62.5 pulley). Pick what's free, log equipment + number.",
+    "**Left bicep first, every set** — W10D3/W11D3 weak-left pattern; W13D3 came in clean, keep the protocol.",
+    "**Right shoulder watch continues** — W13D3 talked on pull-ups specifically; at restored 4 sets, log if it stays manageable or escalates.",
+    "**Cool-down stays — 5-min block, permanent every gym day.**",
+    "Rest: 2.5 min pull-ups, 90s DB block, 2 min lat pulldown, 90s face pull, 60s finisher + shrugs."
+  ],
+  "formPhilosophy": "Volume restored, loads held. Pull-up frequency goes up (4 sets here + scattered sets across other days) because the user flagged it as the weak point. The other lifts get their sets back but the numbers stay. The chest-supported row 'too easy' signal becomes a W15 weight conversation, not a W14 jump — clean reintroductions before cumulative jumps. Building decades, not weeks."
+}

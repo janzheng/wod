@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "smolbox-project",
+  "name": "wod",
+  "runtime": "deno",
+  "boxGeneration": 2,
+  "commands": {
+    "build": ["deno", "task", "build"],
+    "test": ["deno", "task", "ai:test"],
+    "start": ["deno", "task", "dev"]
+  },
+  "port": 8010,
+  "tools": ["deno"],
+  "snapshot": {
+    "source": "static",
+    "exclude": [
+      "chat.js",
+      "collaboration-proof",
+      "data-room.js",
+      "generator.js",
+      "images",
+      "linkify.js",
+      "new-images",
+      "old-images",
+      "sounds",
+      "timeline.js",
+      "timer.js"
+    ]
+  },
+  "optionalEnvironmentNames": [
+    "WOD_DATA_ROOM_BASE_URL",
+    "WOD_PI_CONFIG_DIR",
+    "WOD_PI_MODEL",
+    "WOD_PI_PROVIDER"
+  ],
+  "optionalSecretNames": ["GEMINI_API_KEY", "GROQ_API_KEY"]
+}

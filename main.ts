@@ -3,8 +3,58 @@ import { Hono } from "hono";
 import { createWodAI, getConfig } from "./src/ai/mod.ts";
 import { complete } from "./src/ai/llm/provider.ts";
 import type { ConversationSession } from "./src/ai/types.ts";
+import {
+  createPiAgent,
+  PiAgentBusyError,
+  PiAgentCancelledError,
+  PiAgentCapacityError,
+  PiAgentProcessError,
+  PiAgentSessionLimitError,
+  PiAgentTimeoutError,
+} from "./src/ai/pi-agent.ts";
+import { createPiJobStore } from "./src/ai/pi-jobs.ts";
+import {
+  readAgentJson,
+  RequestBodyTooLargeError,
+} from "./src/ai/http-boundary.ts";
 
 const app = new Hono();
+const piAgent = createPiAgent();
+
+const piJobErrorMessage = (error: unknown): string => {
+  if (error instanceof PiAgentBusyError) {
+    return "This builder session is already working.";
+  }
+  if (
+    error instanceof PiAgentCapacityError ||
+    error instanceof PiAgentSessionLimitError
+  ) return error.message;
+  if (error instanceof PiAgentTimeoutError) {
+    return "Pi exceeded the ten-minute turn limit.";
+  }
+  if (error instanceof PiAgentCancelledError) return "Pi request was cancelled.";
+  if (error instanceof TypeError) return error.message;
+  if (error instanceof PiAgentProcessError) {
+    console.error("Pi web agent error:", error.message);
+    return "Pi could not complete this request.";
+  }
+  console.error("Pi web agent error:", error);
+  return "The WOD builder failed.";
+};
+
+const piJobs = createPiJobStore({
+  run: async (request) => {
+    const result = await piAgent.chat(request);
+    return {
+      message: result.message,
+      sessionId: result.sessionId,
+      workout: null,
+      intent: "builder",
+      critique: null,
+    };
+  },
+  formatError: piJobErrorMessage,
+});
 
 // AI pipeline (lazy init on first request)
 let wodAI: Awaited<ReturnType<typeof createWodAI>> | null = null;
@@ -15,7 +65,9 @@ async function getWodAI() {
     const dataDir = new URL("./", import.meta.url).pathname;
     const config = getConfig();
     wodAI = await createWodAI(dataDir, config);
-    console.log(`AI loaded: ${wodAI.index.size} exercises, ${wodAI.data.workouts.size} templates`);
+    console.log(
+      `AI loaded: ${wodAI.index.size} exercises, ${wodAI.data.workouts.size} templates`,
+    );
   }
   return wodAI;
 }
@@ -31,13 +83,13 @@ const MANIFEST = {
   theme_color: "#374151",
   icons: [
     { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
-    { src: "/icon-512.png", sizes: "512x512", type: "image/png" }
-  ]
+    { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
+  ],
 };
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v3';
+const CACHE_NAME = 'wod-v8';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
@@ -58,6 +110,21 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  const requestUrl = new URL(event.request.url);
+  if (requestUrl.origin !== self.location.origin) return;
+  if (requestUrl.pathname.startsWith('/api/')) return;
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request).then((response) => {
+        if (response.ok) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put('/', clone));
+        }
+        return response;
+      }).catch(() => caches.match('/').then((cached) => cached || Response.error()))
+    );
+    return;
+  }
   event.respondWith(
     caches.match(event.request).then((cached) => {
       const fetchPromise = fetch(event.request).then((response) => {
@@ -92,14 +159,30 @@ async function readJson(path: string) {
 }
 
 // API Routes for JSON data
+
+// The catalogue is read fresh from disk per request, but the browser will
+// heuristically cache it without this — a data fix then stays invisible behind
+// a stale cache even after a deploy.
+app.use("/api/*", async (c, next) => {
+  await next();
+  if (!c.res.headers.has("Cache-Control")) c.header("Cache-Control", "no-cache");
+});
+
 app.get("/api/routines", async (c) => {
-  // Load all routine files
-  const routines = [];
-  const routineFiles = ['barre', 'cardio', 'gym', 'calisthenics', 'morning', 'yoga', 'stretch', 'action-jacqueline', 'challenges', 'maternity', 'heavy-duty', 'jump-rope', 'kettlebell', 'snippets'];
-  for (const id of routineFiles) {
-    const data = await readJson(`./routines/${id}.json`);
-    if (data) routines.push(data);
-  }
+  // Read the directory instead of a hardcoded list — a hardcoded list means a
+  // new routine file silently never reaches the sidebar.
+  const routines: unknown[] = [];
+  try {
+    for await (
+      const entry of Deno.readDir(new URL("./routines", import.meta.url))
+    ) {
+      if (entry.name.endsWith(".json")) {
+        const data = await readJson(`./routines/${entry.name}`);
+        if (data) routines.push(data);
+      }
+    }
+  } catch { /* routines directory may not exist */ }
+  routines.sort((x: any, y: any) => (x.sortOrder ?? 99) - (y.sortOrder ?? 99));
   return c.json(routines);
 });
 
@@ -112,8 +195,25 @@ app.get("/api/routines/:id", async (c) => {
 
 app.get("/api/saved", async (c) => {
   // Load all saved workout files
-  const savedWorkouts = [];
-  const savedFiles = ['aj-standing-barre', 'aj-floor-barre', 'aj-random-4', 'morning-wakeup', 'apartment-gym', '4x4x3-block', 'squat-rack', 'machine-circuit', 'gentle-yoga', 'hip-lower-back-flow', 'reddit-rrr', 'gym-classic-workouts', 'calisthenics-classic-workouts', 'kb-random-circuit', 'kb-controlled-power', 'kb-controlled-power-challenge'];
+  const savedWorkouts: unknown[] = [];
+  const savedFiles = [
+    "aj-standing-barre",
+    "aj-floor-barre",
+    "aj-random-4",
+    "morning-wakeup",
+    "apartment-gym",
+    "4x4x3-block",
+    "squat-rack",
+    "machine-circuit",
+    "gentle-yoga",
+    "hip-lower-back-flow",
+    "reddit-rrr",
+    "gym-classic-workouts",
+    "calisthenics-classic-workouts",
+    "kb-random-circuit",
+    "kb-controlled-power",
+    "kb-controlled-power-challenge",
+  ];
   for (const id of savedFiles) {
     const data = await readJson(`./saved/${id}.json`);
     if (data) savedWorkouts.push(data);
@@ -149,7 +249,7 @@ app.get("/api/workouts/*", async (c) => {
 
 app.get("/api/progressions", async (c) => {
   // Load all progression files
-  const progressions = [];
+  const progressions: unknown[] = [];
   const progressionFiles = [
     "dip-progression",
     "hinge-progression",
@@ -166,9 +266,11 @@ app.get("/api/progressions", async (c) => {
 });
 
 app.get("/api/programs", async (c) => {
-  const programs = [];
+  const programs: unknown[] = [];
   try {
-    for await (const entry of Deno.readDir(new URL("./programs", import.meta.url))) {
+    for await (
+      const entry of Deno.readDir(new URL("./programs", import.meta.url))
+    ) {
       if (entry.name.endsWith(".json")) {
         const data = await readJson(`./programs/${entry.name}`);
         if (data) {
@@ -205,7 +307,6 @@ app.get("/api/programs/:id", async (c) => {
   return c.json(data);
 });
 
-
 // Exercise search endpoint
 app.get("/api/ai/search", async (c) => {
   const q = c.req.query("q") || "";
@@ -227,13 +328,133 @@ app.get("/api/ai/search", async (c) => {
   return c.json({ results, query: q.trim() });
 });
 
-// AI Chat endpoint — classifies message as Q&A vs workout generation
+const AGENT_CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "Content-Type",
+  "Access-Control-Allow-Methods": "POST, DELETE, OPTIONS",
+};
+
+app.options("/api/ai/chat", () =>
+  new Response(null, {
+    status: 204,
+    headers: AGENT_CORS_HEADERS,
+  }));
+
+app.options("/api/ai/session", () =>
+  new Response(null, {
+    status: 204,
+    headers: AGENT_CORS_HEADERS,
+  }));
+
+app.options("/api/ai/jobs/:id", () =>
+  new Response(null, {
+    status: 204,
+    headers: AGENT_CORS_HEADERS,
+  }));
+
+// Public prototype: browser prompt -> Pi -> configured model route in smolbox-wod.
 app.post("/api/ai/chat", async (c) => {
+  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
+    c.header(name, value);
+  }
+  c.header("Cache-Control", "no-store");
+
+  let body: {
+    prompt?: unknown;
+    sessionId?: unknown;
+    pageContext?: unknown;
+  } | null;
+  try {
+    body = await readAgentJson(c.req.raw) as typeof body;
+  } catch (error) {
+    if (error instanceof RequestBodyTooLargeError) {
+      return c.json({ error: error.message }, 413);
+    }
+    return c.json({ error: "invalid JSON body" }, 400);
+  }
+  if (!body || typeof body.prompt !== "string" || !body.prompt.trim()) {
+    return c.json({ error: "prompt is required" }, 400);
+  }
+
+  const sessionId = typeof body.sessionId === "string" && body.sessionId.trim()
+    ? body.sessionId
+    : crypto.randomUUID();
+  try {
+    const job = piJobs.create({
+      prompt: body.prompt,
+      sessionId,
+      pageContext: body.pageContext,
+    });
+    return c.json({
+      jobId: job.id,
+      status: job.status,
+      sessionId: job.sessionId,
+    }, 202);
+  } catch (error) {
+    if (error instanceof TypeError) {
+      return c.json({ error: error.message }, 400);
+    }
+    console.error("Could not create Pi web job:", error);
+    c.header("Retry-After", "5");
+    return c.json({ error: "WOD Builder job capacity reached." }, 429);
+  }
+});
+
+app.get("/api/ai/jobs/:id", (c) => {
+  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
+    c.header(name, value);
+  }
+  c.header("Cache-Control", "no-store");
+  const job = piJobs.get(c.req.param("id"));
+  if (!job) return c.json({ error: "Agent job not found." }, 404);
+  return c.json(job);
+});
+
+app.delete("/api/ai/session", async (c) => {
+  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
+    c.header(name, value);
+  }
+  c.header("Cache-Control", "no-store");
+
+  let body: { sessionId?: unknown } | null;
+  try {
+    body = await readAgentJson(c.req.raw) as typeof body;
+  } catch (error) {
+    if (error instanceof RequestBodyTooLargeError) {
+      return c.json({ error: error.message }, 413);
+    }
+    return c.json({ error: "invalid JSON body" }, 400);
+  }
+  if (!body || typeof body.sessionId !== "string") {
+    return c.json({ error: "sessionId is required" }, 400);
+  }
+
+  try {
+    piJobs.cancelSession(body.sessionId);
+    await piAgent.clearSession(body.sessionId);
+    return new Response(null, { status: 204, headers: AGENT_CORS_HEADERS });
+  } catch (error) {
+    if (error instanceof TypeError) {
+      return c.json({ error: error.message }, 400);
+    }
+    console.error("Could not clear Pi web session:", error);
+    return c.json({ error: "Pi session could not be cleared." }, 500);
+  }
+});
+
+// Legacy Groq-backed workout chat. The browser no longer calls this route.
+app.post("/api/ai/legacy-chat", async (c) => {
   const body = await c.req.json<{
     prompt: string;
     sessionId?: string;
     workoutContext?: Record<string, unknown>;
-    history?: Array<{ role: string; content: string; workoutContext?: Record<string, unknown> }>;
+    history?: Array<
+      {
+        role: string;
+        content: string;
+        workoutContext?: Record<string, unknown>;
+      }
+    >;
     enableCritic?: boolean;
   }>();
   if (!body.prompt) return c.json({ error: "prompt is required" }, 400);
@@ -248,7 +469,8 @@ app.post("/api/ai/chat", async (c) => {
     const classifyMessages = [
       {
         role: "system" as const,
-        content: `You are a classifier. Given a user message about fitness/workouts, respond with EXACTLY one word:
+        content:
+          `You are a classifier. Given a user message about fitness/workouts, respond with EXACTLY one word:
 - "search" if the user asks about a specific exercise by name, wants to find exercises, or asks "what is X" / "do we have X" / "tell me about X exercise" (e.g. "what about butterfly stretch", "do we have turkish getup", "find me hamstring exercises", "what is a plié squat")
 - "question" if the user asks a general question, seeks advice, or wants information about a workout they're viewing (e.g. "does this build muscle?", "is this good for beginners?", "how many calories?", "what should I eat?")
 - "generate" if the user wants to create, modify, or change a workout (e.g. "make a leg workout", "make it harder", "add more core", "create a 30 min routine")
@@ -258,9 +480,13 @@ Respond with ONLY one word, nothing else.`,
       { role: "user" as const, content: body.prompt },
     ];
 
-    const classification = (await complete(classifyMessages, { ...config, temperature: 0 })).toLowerCase().trim();
-    const intent = classification.startsWith("search") ? "search"
-      : classification.startsWith("question") ? "question"
+    const classification =
+      (await complete(classifyMessages, { ...config, temperature: 0 }))
+        .toLowerCase().trim();
+    const intent = classification.startsWith("search")
+      ? "search"
+      : classification.startsWith("question")
+      ? "question"
       : "generate";
 
     if (intent === "search" || intent === "question") {
@@ -271,44 +497,66 @@ Respond with ONLY one word, nothing else.`,
       if (intent === "search") {
         // Extract search terms (strip common prefixes)
         const searchQuery = body.prompt
-          .replace(/^(what about|do we have|find me|tell me about|what is|show me|search for|look up)\s*/i, "")
+          .replace(
+            /^(what about|do we have|find me|tell me about|what is|show me|search for|look up)\s*/i,
+            "",
+          )
           .replace(/\?+$/, "")
           .trim();
         const results = wod.index.search(searchQuery, 8);
         searchResults = results.map((ex) => ({
-          id: ex.id, name: ex.name, category: ex.category, type: ex.type,
-          muscles: ex.muscles, equipment: ex.equipment, tags: ex.tags,
-          difficulty: ex.difficulty, description: ex.description,
+          id: ex.id,
+          name: ex.name,
+          category: ex.category,
+          type: ex.type,
+          muscles: ex.muscles,
+          equipment: ex.equipment,
+          tags: ex.tags,
+          difficulty: ex.difficulty,
+          description: ex.description,
         }));
       }
 
       // Q&A path — answer using workout context + search results + history
-      let systemPrompt = `You are a knowledgeable, friendly fitness coach. Answer the user's question concisely and helpfully.`;
+      let systemPrompt =
+        `You are a knowledgeable, friendly fitness coach. Answer the user's question concisely and helpfully.`;
 
       if (searchResults.length > 0) {
-        systemPrompt += `\n\nSearch results from the exercise library:\n${JSON.stringify(searchResults, null, 2)}\n\nUse these results to answer the user's question. Mention which exercises were found and key details (muscles, difficulty, description). If the exact exercise wasn't found, mention the closest matches.`;
+        systemPrompt += `\n\nSearch results from the exercise library:\n${
+          JSON.stringify(searchResults, null, 2)
+        }\n\nUse these results to answer the user's question. Mention which exercises were found and key details (muscles, difficulty, description). If the exact exercise wasn't found, mention the closest matches.`;
       } else if (intent === "search") {
-        systemPrompt += `\n\nNo matching exercises were found in the library for this search. Let the user know and suggest what they might search for instead.`;
+        systemPrompt +=
+          `\n\nNo matching exercises were found in the library for this search. Let the user know and suggest what they might search for instead.`;
       }
 
       if (body.workoutContext) {
-        systemPrompt += `\n\nThe user is currently viewing this workout:\n${JSON.stringify(body.workoutContext, null, 2)}`;
+        systemPrompt += `\n\nThe user is currently viewing this workout:\n${
+          JSON.stringify(body.workoutContext, null, 2)
+        }`;
       }
 
-      systemPrompt += `\nKeep answers focused and practical. Use 2-4 sentences unless the question needs more detail. Don't generate a new workout unless explicitly asked.
+      systemPrompt +=
+        `\nKeep answers focused and practical. Use 2-4 sentences unless the question needs more detail. Don't generate a new workout unless explicitly asked.
 When the user references previous workouts from the conversation, use the context provided in earlier messages to answer accurately.`;
 
       // Build messages array with history
-      const chatMessages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [
+      const chatMessages: Array<
+        { role: "system" | "user" | "assistant"; content: string }
+      > = [
         { role: "system", content: systemPrompt },
       ];
 
       if (body.history?.length) {
         for (const h of body.history.slice(-16)) {
-          const role = h.role === "user" ? "user" as const : "assistant" as const;
+          const role = h.role === "user"
+            ? "user" as const
+            : "assistant" as const;
           let content = h.content;
           if (h.role === "user" && h.workoutContext) {
-            content = `[Viewing: ${(h.workoutContext as Record<string, unknown>).name}] ${content}`;
+            content = `[Viewing: ${
+              (h.workoutContext as Record<string, unknown>).name
+            }] ${content}`;
           }
           chatMessages.push({ role, content });
         }
@@ -346,12 +594,16 @@ When the user references previous workouts from the conversation, use the contex
         }
       }
       if (workoutMentions.length) {
-        enrichedPrompt += `[PREVIOUSLY DISCUSSED WORKOUTS]\n${workoutMentions.join("\n")}\n\n`;
+        enrichedPrompt += `[PREVIOUSLY DISCUSSED WORKOUTS]\n${
+          workoutMentions.join("\n")
+        }\n\n`;
       }
     }
 
     if (body.workoutContext) {
-      enrichedPrompt += `[CURRENT WORKOUT CONTEXT]\n${JSON.stringify(body.workoutContext)}\n\n`;
+      enrichedPrompt += `[CURRENT WORKOUT CONTEXT]\n${
+        JSON.stringify(body.workoutContext)
+      }\n\n`;
     }
     enrichedPrompt += `[USER MESSAGE]\n${body.prompt}`;
 
@@ -364,8 +616,12 @@ When the user references previous workouts from the conversation, use the contex
     aiSessions.set(result.session.id, result.session);
 
     const w = result.workout;
-    const exCount = w.sets.reduce((n: number, s: { exercises: unknown[] }) => n + s.exercises.length, 0);
-    let message = `Here's "${w.name}" — ${w.sets.length} sets, ${exCount} exercises`;
+    const exCount = w.sets.reduce(
+      (n: number, s: { exercises: unknown[] }) => n + s.exercises.length,
+      0,
+    );
+    let message =
+      `Here's "${w.name}" — ${w.sets.length} sets, ${exCount} exercises`;
     if (w.estimatedDuration) message += `, ~${w.estimatedDuration} min`;
     message += ".";
     if (w.tips?.length) message += ` Tip: ${w.tips[0]}`;
@@ -409,13 +665,16 @@ app.get("/static/*", async (c) => {
     // If it's an image request, try alternate extensions (png <-> jpg <-> jpeg)
     const ext = path.split(".").pop()?.toLowerCase();
     if (ext === "png" || ext === "jpg" || ext === "jpeg") {
-      const altExts = ["png", "jpg", "jpeg"].filter(e => e !== ext);
+      const altExts = ["png", "jpg", "jpeg"].filter((e) => e !== ext);
       for (const altExt of altExts) {
         const altPath = path.replace(/\.(png|jpg|jpeg)$/i, `.${altExt}`);
         try {
           const file = await Deno.readFile(new URL(altPath, import.meta.url));
-          const contentType = contentTypes[altExt] || "application/octet-stream";
-          return new Response(file, { headers: { "Content-Type": contentType } });
+          const contentType = contentTypes[altExt] ||
+            "application/octet-stream";
+          return new Response(file, {
+            headers: { "Content-Type": contentType },
+          });
         } catch {
           // Try next extension
         }
@@ -432,7 +691,7 @@ app.get("/manifest.json", (c) => {
 
 app.get("/sw.js", (c) => {
   return new Response(SERVICE_WORKER, {
-    headers: { "Content-Type": "application/javascript" }
+    headers: { "Content-Type": "application/javascript" },
   });
 });
 
@@ -444,7 +703,9 @@ app.get("/icon-192.png", async (c) => {
     return new Response(file, { headers: { "Content-Type": "image/png" } });
   } catch {
     // Fallback: return SVG as image
-    return new Response(ICON_SVG, { headers: { "Content-Type": "image/svg+xml" } });
+    return new Response(ICON_SVG, {
+      headers: { "Content-Type": "image/svg+xml" },
+    });
   }
 });
 
@@ -456,23 +717,62 @@ app.get("/icon-512.png", async (c) => {
     return new Response(file, { headers: { "Content-Type": "image/png" } });
   } catch {
     // Fallback: return SVG as image
-    return new Response(ICON_SVG, { headers: { "Content-Type": "image/svg+xml" } });
+    return new Response(ICON_SVG, {
+      headers: { "Content-Type": "image/svg+xml" },
+    });
   }
 });
 
 // Main page - also handle workout deep links
 app.get("/*", async (c) => {
-  const css = await Deno.readTextFile(new URL("./styles.css", import.meta.url)).catch(() => "");
-  const generatorJs = await Deno.readTextFile(new URL("./static/generator.js", import.meta.url)).catch(() => "");
-  const timelineJs = await Deno.readTextFile(new URL("./static/timeline.js", import.meta.url)).catch(() => "");
-  const timerJs = await Deno.readTextFile(new URL("./static/timer.js", import.meta.url)).catch(() => "");
-  const chatJs = await Deno.readTextFile(new URL("./static/chat.js", import.meta.url)).catch(() => "");
-  const linkifyJs = await Deno.readTextFile(new URL("./static/linkify.js", import.meta.url)).catch(() => "");
+  const css = await Deno.readTextFile(new URL("./styles.css", import.meta.url))
+    .catch(() => "");
+  const generatorJs = await Deno.readTextFile(
+    new URL("./static/generator.js", import.meta.url),
+  ).catch(() => "");
+  const timelineJs = await Deno.readTextFile(
+    new URL("./static/timeline.js", import.meta.url),
+  ).catch(() => "");
+  const timerJs = await Deno.readTextFile(
+    new URL("./static/timer.js", import.meta.url),
+  ).catch(() => "");
+  const chatJs = await Deno.readTextFile(
+    new URL("./static/chat.js", import.meta.url),
+  ).catch(() => "");
+  const linkifyJs = await Deno.readTextFile(
+    new URL("./static/linkify.js", import.meta.url),
+  ).catch(() => "");
+  const agentBaseUrl = Deno.env.get("WOD_AGENT_BASE_URL")?.trim() ?? "";
 
-  return c.html(renderPage(css, generatorJs, timelineJs, timerJs, chatJs, linkifyJs));
+  // The page inlines the CSS/JS it was built from, so a cached copy pins the
+  // whole app to an old version until someone hard-refreshes.
+  c.header("Cache-Control", "no-cache");
+  return c.html(
+    renderPage(
+      css,
+      generatorJs,
+      timelineJs,
+      timerJs,
+      chatJs,
+      linkifyJs,
+      agentBaseUrl,
+    ),
+  );
 });
 
-function renderPage(css: string, generatorJs: string, timelineJs: string, timerJs: string, chatJs: string, linkifyJs: string) {
+function renderPage(
+  css: string,
+  generatorJs: string,
+  timelineJs: string,
+  timerJs: string,
+  chatJs: string,
+  linkifyJs: string,
+  agentBaseUrl: string,
+) {
+  const agentBaseUrlJson = JSON.stringify(agentBaseUrl).replaceAll(
+    "<",
+    "\\u003c",
+  );
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -527,8 +827,8 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
               <div class="sidebar-menu-item">
                 <button
                   class="sidebar-menu-button"
-                  :class="{ 'active': currentView === 'notes' }"
-                  @click="currentView = currentView === 'notes' ? 'workout' : 'notes'; selectedWorkoutId = null; generatedWorkout = null; selectedActivity = null; selectedProgram = null; if(currentView === 'notes' && !notesHtml) loadNotes(); if(isMobile) sidebarOpen = false;"
+                  :class="{ 'active': currentView === 'notes' && !notesSlug }"
+                  @click="(currentView === 'notes' && !notesSlug) ? (currentView = 'workout', updateUrl(null)) : showNotes('')"
                 >
                   <span class="iconify sidebar-icon" data-icon="lucide:notebook-pen"></span>
                   <span class="sidebar-menu-label">Training Notes</span>
@@ -574,7 +874,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
             <div class="folder-tree">
               <template x-for="(program, progIdx) in programs" :key="'prog-' + progIdx + '-' + program.id">
                 <div class="folder-tree-folder" x-data="{ expanded: false }">
-                  <div class="folder-tree-folder-row" @click="expanded = !expanded; if (expanded) selectProgramOverview(program);">
+                  <div class="folder-tree-folder-row" @click="expanded = !expanded">
                     <button class="folder-tree-toggle" @click.stop="expanded = !expanded">
                       <svg class="folder-tree-chevron" :class="{ 'rotated': expanded }" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9 18 15 12 9 6"></polyline>
@@ -593,9 +893,20 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                         <span>Overview</span>
                       </button>
                     </div>
+                    <!-- Program-level note pages -->
+                    <template x-for="(page, pageIdx) in (program.pages || [])" :key="'prog-page-' + progIdx + '-' + pageIdx">
+                      <div class="folder-tree-item"
+                        :class="{ 'active': currentView === 'notes' && notesSlug === page.slug }"
+                        @click="showNotes(page.slug)">
+                        <button class="folder-tree-item-btn">
+                          <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;" x-text="pageIdx + 1"></span>
+                          <span x-text="page.label"></span>
+                        </button>
+                      </div>
+                    </template>
                     <!-- Week-based programs -->
                     <template x-if="program.weeks && program.weeks.length > 0">
-                      <div>
+                      <div style="display: flex; flex-direction: column-reverse;">
                         <template x-for="(week, weekIdx) in program.weeks" :key="'prog-week-' + progIdx + '-' + weekIdx">
                           <div x-data="{ weekExpanded: false }">
                             <div class="folder-tree-item"
@@ -731,10 +1042,10 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         <button class="sidebar-trigger" @click="sidebarOpen = !sidebarOpen">
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
-        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? 'Training Notes' : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
+        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? notesTitle : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
         <button class="chat-toggle-btn" @click="toggleChat()" :class="{ 'active': chatOpen }">
           <span class="iconify" data-icon="lucide:message-square"></span>
-          <span class="chat-toggle-label">AI Coach</span>
+          <span class="chat-toggle-label">WOD Builder</span>
         </button>
       </header>
 
@@ -827,21 +1138,37 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                           <span class="exercise-tag-pill" x-text="t"></span>
                         </template>
                       </div>
-                      <template x-if="ex.media && ex.media.length > 0">
+                      <template x-if="ex.media && ex.media.some(m => m.type === 'image')">
                         <div class="exercise-card-media">
-                          <template x-for="(media, mIdx) in ex.media" :key="'media-' + mIdx">
-                            <div>
-                              <template x-if="media.type === 'image'">
-                                <img class="exercise-media-img" :src="media.value.startsWith('/') ? '/static' + media.value : media.value" :alt="media.caption || ex.name" loading="lazy" />
-                              </template>
-                              <template x-if="media.type !== 'image'">
-                                <a :href="media.value" target="_blank" rel="noopener" class="exercise-media-link">
-                                  <span class="iconify" data-icon="lucide:external-link"></span>
-                                  <span x-text="media.caption || media.source || 'View'"></span>
-                                </a>
-                              </template>
-                            </div>
+                          <template x-for="(media, mIdx) in ex.media.filter(m => m.type === 'image')" :key="'media-' + mIdx">
+                            <img class="exercise-media-img" :src="media.value.startsWith('/') ? '/static' + media.value : media.value" :alt="media.caption || ex.name" loading="lazy" />
                           </template>
+                        </div>
+                      </template>
+                      <template x-if="ex.flows && ex.flows.length > 0">
+                        <div class="exercise-card-flows" style="margin-top: 0.6rem; font-size: 0.85rem;">
+                          <div style="opacity: 0.6; margin-bottom: 0.3rem;">Appears in:</div>
+                          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                            <template x-for="(f, fIdx) in ex.flows" :key="'lib-flow-' + fIdx">
+                              <a :href="'/' + f.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(f.workoutId); }" class="exercise-media-link">
+                                <span class="iconify" data-icon="lucide:git-branch"></span>
+                                <span x-text="f.name"></span>
+                              </a>
+                            </template>
+                          </div>
+                        </div>
+                      </template>
+                      <template x-if="ex.sources && ex.sources.length > 0">
+                        <div class="exercise-card-sources" style="margin-top: 0.5rem; font-size: 0.85rem;">
+                          <div style="opacity: 0.6; margin-bottom: 0.3rem;">Sources:</div>
+                          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                            <template x-for="(s, sIdx) in ex.sources" :key="'lib-src-' + sIdx">
+                              <a :href="s.url" target="_blank" rel="noopener" class="exercise-media-link">
+                                <span class="iconify" data-icon="lucide:external-link"></span>
+                                <span x-text="s.label || s.url"></span>
+                              </a>
+                            </template>
+                          </div>
                         </div>
                       </template>
                     </div>
@@ -874,7 +1201,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
               </div>
             </template>
             <template x-if="notesHtml">
-              <div class="prose prose-full" x-html="notesHtml"></div>
+              <div class="prose prose-full prose-compact" x-html="notesHtml"></div>
             </template>
           </div>
         </template>
@@ -1028,7 +1355,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </template>
               </div>
               <template x-if="selectedProgram.description">
-                <p class="workout-description" x-html="linkify(selectedProgram.description)"></p>
+                <p class="workout-description" x-html="renderInline(selectedProgram.description)"></p>
               </template>
             </div>
 
@@ -1043,7 +1370,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </div>
 
                 <template x-if="selectedProgram.weeks[selectedWeekIdx].description">
-                  <p style="line-height: 1.7; font-size: 0.95rem;" x-text="selectedProgram.weeks[selectedWeekIdx].description"></p>
+                  <p style="line-height: 1.7; font-size: 0.95rem;" x-html="renderInline(selectedProgram.weeks[selectedWeekIdx].description)"></p>
                 </template>
 
                 <!-- Week Schedule -->
@@ -1075,7 +1402,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Week Tips</div>
                     <ul style="margin: 0; padding-left: 1.25rem; list-style: disc; display: flex; flex-direction: column; gap: 0.4rem;">
                       <template x-for="(tip, tipIdx) in selectedProgram.weeks[selectedWeekIdx].tips" :key="'wtip-' + tipIdx">
-                        <li style="line-height: 1.6; font-size: 0.9rem;" x-html="linkify(tip)"></li>
+                        <li style="line-height: 1.6; font-size: 0.9rem;" x-html="renderInline(tip)"></li>
                       </template>
                     </ul>
                   </div>
@@ -1222,7 +1549,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Tips</div>
                   <div class="workout-tips-inline" style="margin: 0;">
                     <template x-for="(tip, tipIdx) in selectedProgram.tips" :key="'ptip-' + tipIdx">
-                      <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
+                      <span><span x-html="renderInline(tip)"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
                     </template>
                   </div>
                 </div>
@@ -1354,7 +1681,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <span class="workout-tag" x-text="tag"></span>
                 </template>
                 <!-- Source link -->
-                <template x-if="selectedWorkout.sourceUrl">
+                <template x-if="selectedWorkout.sourceUrl && !selectedWorkout.isFlow">
                   <a class="workout-tag workout-source-link" :href="selectedWorkout.sourceUrl" target="_blank" rel="noopener" @click.stop>
                     <span class="iconify" data-icon="lucide:external-link"></span>
                     <span x-text="selectedWorkout.source || 'Source'"></span>
@@ -1366,15 +1693,39 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   </span>
                 </template>
               </div>
+              <!-- Canonical flow source (blue pill) -->
+              <template x-if="selectedWorkout.isFlow && selectedWorkout.sourceUrl">
+                <div style="margin-bottom: 0.75rem;">
+                  <a class="flow-ref-pill" :href="selectedWorkout.sourceUrl" target="_blank" rel="noopener" :title="selectedWorkout.source || 'Source'">
+                    <span class="iconify" data-icon="lucide:external-link"></span>
+                    <span x-text="selectedWorkout.source || 'View source'"></span>
+                  </a>
+                </div>
+              </template>
               <template x-if="selectedWorkout.description">
-                <p class="workout-description" x-html="linkify(selectedWorkout.description)"></p>
+                <p class="workout-description" x-html="renderInline(selectedWorkout.description)"></p>
               </template>
               <template x-if="selectedWorkout.tips && selectedWorkout.tips.length > 0">
                 <p class="workout-tips-inline">
                   <template x-for="(tip, tipIdx) in selectedWorkout.tips" :key="'tip-' + tipIdx">
-                    <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
+                    <span><span x-html="renderInline(tip)"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
                   </template>
                 </p>
+              </template>
+
+              <!-- Day Overview: theme, spotlights, watchpoints -->
+              <template x-if="selectedWorkout.dayOverview">
+                <div style="margin-top: 0.75rem; padding: 0.75rem 0.9rem; background: rgba(128,128,128,0.06); border-radius: 0.5rem; font-size: 0.85rem; line-height: 1.55;">
+                  <template x-if="selectedWorkout.dayOverview.theme">
+                    <p style="margin: 0 0 0.5rem 0; opacity: 0.85;" x-html="renderInline(selectedWorkout.dayOverview.theme)"></p>
+                  </template>
+                  <template x-for="(sp, spIdx) in (selectedWorkout.dayOverview.spotlights || [])" :key="'sp-' + spIdx">
+                    <p style="margin: 0 0 0.4rem 0; opacity: 0.8;">🔆 <strong x-text="(sp.exerciseId || '').replace(/-/g, ' ')"></strong> — <span x-html="renderInline(sp.why || '')"></span></p>
+                  </template>
+                  <template x-for="(wp, wpIdx) in (selectedWorkout.dayOverview.watchpoints || [])" :key="'wp-' + wpIdx">
+                    <p style="margin: 0 0 0.4rem 0; opacity: 0.8;" x-html="renderInline(wp)"></p>
+                  </template>
+                </div>
               </template>
 
               <!-- Home Gym Notes -->
@@ -1387,16 +1738,16 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
 
               <!-- Morning Flow -->
               <template x-if="workoutFlow">
-                <div @click="selectWorkout(workoutFlow.workoutId)" style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s;">
+                <a :href="'/' + workoutFlow.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(workoutFlow.workoutId); }" style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s; text-decoration: none; color: inherit;">
                   <span style="font-size: 1rem;">&#9728;</span>
                   <div style="flex: 1;">
                     <span style="font-weight: 600;" x-text="workoutFlow.label || 'Morning Flow'"></span>
                     <template x-if="workoutFlow.notes">
-                      <span style="opacity: 0.6; margin-left: 0.4rem;" x-text="workoutFlow.notes"></span>
+                      <span style="opacity: 0.6; margin-left: 0.4rem;" x-html="renderInline(workoutFlow.notes)"></span>
                     </template>
                   </div>
                   <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-                </div>
+                </a>
               </template>
 
               <!-- Session Log -->
@@ -1540,11 +1891,23 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                           <span class="iconify" data-icon="lucide:refresh-cw"></span>
                         </button>
                       </template>
+                      <template x-if="set.flowRef && set.flowRef.workoutId !== selectedWorkoutId">
+                        <a class="flow-ref-pill" :href="'/' + set.flowRef.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(set.flowRef.workoutId); }" :title="'Full flow: ' + set.flowRef.name">
+                          <span class="iconify" data-icon="lucide:git-branch"></span>
+                          <span>Full flow</span>
+                          <template x-if="set.flowRef.source">
+                            <span class="flow-ref-source" x-text="set.flowRef.source.split('(')[0].trim()"></span>
+                          </template>
+                        </a>
+                      </template>
                     </div>
+                    <template x-if="set.notes">
+                      <div class="ex-notes" style="margin-bottom: 0.75rem;" x-html="renderNotes(set.notes)"></div>
+                    </template>
                     <template x-if="set.generatedExercises && set.generatedExercises.length > 0">
                       <div class="exercise-list">
                         <template x-for="(ex, exIdx) in set.generatedExercises" :key="'gen-ex-' + setIdx + '-' + exIdx">
-                          <div class="exercise-line" :class="{ 'expandable': ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl }" @click="(ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl) && toggleExerciseExpand(setIdx + '-' + exIdx)">
+                          <div class="exercise-line" :class="{ 'expandable': ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0) }" @click="(ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0)) && toggleExerciseExpand(setIdx + '-' + exIdx)">
                             <div class="ex-title-row">
                               <template x-if="ex.shuffleable">
                                 <button class="ex-shuffle" @click.stop="shuffleExercise(set.id, exIdx)" title="Shuffle">↻</button>
@@ -1554,14 +1917,14 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                               <template x-if="ex.media && ex.media.length > 0">
                                 <span class="ex-media-icon"><span class="iconify" data-icon="lucide:play-circle"></span></span>
                               </template>
-                              <template x-if="ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl">
+                              <template x-if="ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0)">
                                 <span class="ex-expand" :class="{ 'expanded': expandedExercises?.includes(setIdx + '-' + exIdx) }">
                                   <span class="iconify" data-icon="lucide:chevron-down"></span>
                                 </span>
                               </template>
                             </div>
                             <template x-if="ex.notes">
-                              <div class="ex-notes" x-html="linkify(ex.notes)"></div>
+                              <div class="ex-notes" x-html="renderNotes(ex.notes)"></div>
                             </template>
                             <template x-if="expandedExercises?.includes(setIdx + '-' + exIdx)">
                               <div class="ex-expanded" @click.stop>
@@ -1589,12 +1952,25 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                                     </template>
                                   </div>
                                 </template>
-                                <template x-if="generatedWorkout?.sourceUrl && !(ex.media && ex.media.length > 0)">
+                                <template x-if="ex.source?.url && !(ex.media && ex.media.length > 0)">
                                   <div class="ex-media-links">
-                                    <a :href="generatedWorkout.sourceUrl" target="_blank" rel="noopener" class="ex-media-link" @click.stop>
+                                    <a :href="ex.source.url" target="_blank" rel="noopener" class="ex-media-link" @click.stop>
                                       <span class="iconify" data-icon="lucide:external-link"></span>
-                                      <span x-text="generatedWorkout.source || 'Watch workout'"></span>
+                                      <span x-text="ex.source.creator || ex.source.platform || 'Source'"></span>
                                     </a>
+                                  </div>
+                                </template>
+                                <template x-if="ex.flows && ex.flows.filter(f => f.workoutId !== selectedWorkoutId).length > 0">
+                                  <div class="ex-flow-links" style="margin-top: 0.4rem; font-size: 0.8rem;">
+                                    <div style="opacity: 0.6; margin-bottom: 0.25rem;">Appears in:</div>
+                                    <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                                      <template x-for="(f, fIdx) in ex.flows.filter(f => f.workoutId !== selectedWorkoutId)" :key="'exflow-' + fIdx">
+                                        <a :href="'/' + f.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(f.workoutId); }" class="ex-media-link">
+                                          <span class="iconify" data-icon="lucide:git-branch"></span>
+                                          <span x-text="f.name"></span>
+                                        </a>
+                                      </template>
+                                    </div>
                                   </div>
                                 </template>
                               </div>
@@ -1650,7 +2026,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
       <div class="chat-panel-header">
         <div class="chat-panel-title">
           <span class="iconify" data-icon="lucide:bot"></span>
-          <span>AI Coach</span>
+          <span>WOD Builder</span>
         </div>
         <div class="chat-panel-actions">
           <button class="chat-action-btn" @click="clearChat()" title="Clear chat">
@@ -1662,22 +2038,20 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         </div>
       </div>
 
-      <template x-if="selectedWorkout">
-        <div class="chat-context-bar">
-          <span class="iconify" data-icon="lucide:eye"></span>
-          <span x-text="'Viewing: ' + selectedWorkout.name"></span>
-        </div>
-      </template>
+      <div class="chat-context-bar">
+        <span class="iconify" data-icon="lucide:globe-2"></span>
+        <span>Public prototype · free Nemotron · do not send private information</span>
+      </div>
 
       <div class="chat-messages">
         <template x-if="chatMessages.length === 0">
           <div class="chat-empty">
             <span class="iconify" data-icon="lucide:message-square" style="font-size: 2rem; opacity: 0.3;"></span>
-            <p>Ask me to modify your workout, generate a new one, or explain exercises.</p>
+            <p>Pi can inspect or change the WOD project running in this smolbox.</p>
             <div class="chat-suggestions">
-              <button class="chat-suggestion" @click="chatInput = 'Make this workout harder'; sendChatMessage()">Make it harder</button>
-              <button class="chat-suggestion" @click="chatInput = 'Add more core exercises'; sendChatMessage()">Add more core</button>
-              <button class="chat-suggestion" @click="chatInput = 'Generate a 20 min bodyweight workout'; sendChatMessage()">Quick bodyweight</button>
+              <button class="chat-suggestion" @click="chatInput = 'Summarize this WOD project and its current git status.'; sendChatMessage()">Inspect project</button>
+              <button class="chat-suggestion" @click="chatInput = 'Explain how the current page is assembled.'; sendChatMessage()">Explain this page</button>
+              <button class="chat-suggestion" @click="chatInput = 'Make one small visible improvement, run the relevant check, and summarize it.'; sendChatMessage()">Improve WOD</button>
             </div>
           </div>
         </template>
@@ -1709,7 +2083,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
           class="chat-input-field"
           x-model="chatInput"
           @keydown.enter="sendChatMessage()"
-          placeholder="Ask about this workout..."
+          placeholder="Ask Pi to inspect or change WOD..."
           :disabled="chatLoading"
         />
         <button class="chat-send-btn" @click="sendChatMessage()" :disabled="!chatInput.trim() || chatLoading">
@@ -1733,6 +2107,8 @@ ${timelineJs}
 
 ${timerJs}
 
+globalThis.WOD_AGENT_BASE_URL = ${agentBaseUrlJson};
+
 ${chatJs}
 
 ${linkifyJs}
@@ -1742,6 +2118,20 @@ function routineStackApp() {
   return {
     ...chatMixin,
     linkify: _linkify,
+    renderNotes(text) {
+      if (!text) return '';
+      if (typeof marked !== 'undefined' && marked.parse) {
+        return marked.parse(text);
+      }
+      return _linkify(text);
+    },
+    renderInline(text) {
+      if (!text) return '';
+      if (typeof marked !== 'undefined' && marked.parseInline) {
+        return marked.parseInline(text);
+      }
+      return _linkify(text);
+    },
     sidebarOpen: true,
     loading: true,
     initialized: false,
@@ -1773,6 +2163,9 @@ function routineStackApp() {
 
     // Training notes state
     notesHtml: '',
+    notesPath: '',
+    notesTitle: 'Training Notes',
+    notesSlug: '',
 
     // Timer state
     timerMode: false,
@@ -1893,6 +2286,7 @@ function routineStackApp() {
       if (slug.startsWith('program/')) return null;
       if (slug.startsWith('activity/')) return null;
       if (slug === 'exercise-library') return null;
+      if (slug === 'notes' || slug.startsWith('notes/')) return null;
       return slug;
     },
 
@@ -1900,6 +2294,14 @@ function routineStackApp() {
       const slug = this.getSlugFromUrl();
       if (!slug) return null;
       if (slug.startsWith('program/')) return slug.substring('program/'.length);
+      return null;
+    },
+
+    // returns null when the URL isn't a notes URL; '' means the default notes page
+    getNotesSlugFromUrl() {
+      const slug = this.getSlugFromUrl();
+      if (slug === 'notes') return '';
+      if (slug && slug.startsWith('notes/')) return slug.substring('notes/'.length);
       return null;
     },
 
@@ -1935,7 +2337,7 @@ function routineStackApp() {
         }
         return;
       }
-      const currentPath = type === 'program' ? '/program/' + id : type === 'activity' ? '/activity/' + id : '/' + id;
+      const currentPath = type === 'program' ? '/program/' + id : type === 'activity' ? '/activity/' + id : type === 'notes' ? '/notes/' + id : '/' + id;
       if (window.location.pathname !== currentPath) {
         window.history.pushState({ type, id }, '', currentPath);
       }
@@ -1962,8 +2364,14 @@ function routineStackApp() {
           this.generatedWorkout = null;
           return;
         }
-        if (this.currentView === 'exercises') {
+        const navNotesSlug = this.getNotesSlugFromUrl();
+        if (navNotesSlug !== null) {
+          this.showNotes(navNotesSlug, false);
+          return;
+        }
+        if (this.currentView === 'exercises' || this.currentView === 'notes') {
           this.currentView = 'workout';
+          this.notesSlug = '';
         }
         const activityKey = this.getActivityIdFromUrl();
         if (activityKey) {
@@ -2086,6 +2494,10 @@ function routineStackApp() {
         return;
       }
 
+      // Check URL for a notes page (/notes or /notes/<slug>)
+      const urlNotesSlug = this.getNotesSlugFromUrl();
+      if (urlNotesSlug !== null && this.showNotes(urlNotesSlug, false)) return;
+
       // Check URL for activity page (e.g., /activity/functional-bulk-dynamic-w3-d6)
       const urlActivityKey = this.getActivityIdFromUrl();
       if (urlActivityKey) {
@@ -2181,14 +2593,44 @@ function routineStackApp() {
       } catch (e) { console.warn('Could not load progressions:', e); }
     },
 
-    async loadNotes() {
+    async loadNotes(path = '/static/notes.md', title = 'Training Notes') {
+      this.notesTitle = title;
+      if (this.notesPath === path && this.notesHtml) return;
       try {
-        const res = await fetch('/static/notes.md');
+        const res = await fetch(path);
         if (res.ok) {
           const md = await res.text();
           this.notesHtml = marked.parse(md);
+          this.notesPath = path;
         }
       } catch (e) { console.warn('Could not load notes:', e); }
+    },
+
+    allNotesPages() {
+      const out = [];
+      for (const p of this.programs || []) for (const pg of p.pages || []) out.push(pg);
+      return out;
+    },
+
+    // slug '' = the default Training Notes page; otherwise a program page slug
+    showNotes(slug = '', doUpdateUrl = true) {
+      const page = slug ? this.allNotesPages().find(p => p.slug === slug) : null;
+      if (slug && !page) return false;
+      this.currentView = 'notes';
+      this.selectedWorkoutId = null;
+      this.generatedWorkout = null;
+      this.selectedActivity = null;
+      this.selectedProgram = null;
+      this.notesSlug = slug;
+      this.loadNotes(page ? page.file : '/static/notes.md', page ? page.label : 'Training Notes');
+      if (doUpdateUrl) {
+        const path = slug ? '/notes/' + slug : '/notes';
+        if (window.location.pathname !== path) {
+          window.history.pushState({ type: 'notes', id: slug }, '', path);
+        }
+      }
+      if (this.isMobile) this.sidebarOpen = false;
+      return true;
     },
 
     shuffleWorkout() {
@@ -2540,7 +2982,7 @@ function routineStackApp() {
 <!-- Service Worker Registration -->
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW registration failed:', err));
+  navigator.serviceWorker.register('/sw.js?v=wod-v8', { updateViaCache: 'none' }).catch(err => console.log('SW registration failed:', err));
 }
 </script>
 

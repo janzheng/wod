@@ -1,7 +1,7 @@
 {
   "id": "fb-w8-legs",
   "name": "Week 8 Legs — Selective Push (Quads/Hamstrings/Glutes/Calves)",
-  "description": "Selective push week. Squat pyramids faster — W7 hit 80x8 clean, so open at 75 and get to 80 sooner. Back extensions stay at 25lb dead slow — hamstrings were torched, this is working. Leg press stays at 4 plates for full ROM (dropped from 6 in W7, way deeper, found hidden muscles). Lunges brutally hard at 40 with the deeper everything — hold steady.",
+  "description": "Selective push week. Squat pyramids faster — W7 hit 80x8 clean, so open at 75 and get to 80 sooner. Back extensions at 45lb dead slow — hamstrings were torched, this is working. Leg press stays at 4 plates for full ROM (dropped from 6 in W7, way deeper, found hidden muscles). Lunges brutally hard at 40 with the deeper everything — hold steady.",
   "routineId": "functional-bulk",
   "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "fixed", "selective-push"],
   "estimatedDuration": 55,
@@ -44,12 +44,12 @@
       "restAfter": 120
     },
     {
-      "id": "back-extension-working",
-      "name": "Back Extension (Dead Slow)",
+      "id": "incline-rdl-working",
+      "name": "Incline RDL (Dead Slow)",
       "type": "exercises",
       "rounds": 3,
       "exercises": [
-        { "id": "45-degree-back-extension", "reps": 15, "notes": "25lb plate, dead slow, 2s pause at bottom. W7 actuals: 25x15x3 torched the hamstrings. This feels nothing like RDL — it's working as its own thing. Stay at 25lb, don't rush heavier. Slow eccentric is the stimulus. If it stops feeling hard, go slower before going heavier." }
+        { "id": "incline-rdl", "reps": 15, "notes": "45lb plate, dead slow, 2s pause at bottom. W7 actuals: 45x15x3 torched the hamstrings. Slow eccentric is the stimulus. If it stops feeling hard, go slower before going heavier." }
       ],
       "restBetween": 90,
       "restAfter": 90
@@ -102,7 +102,7 @@
   "tips": [
     "SELECTIVE PUSH — squat pyramids faster (two sets at 80 instead of one). Everything else holds or refines.",
     "Squat: 75x8, 75x8, 80x8, 80x8. Two sets at 80 is the push this week.",
-    "Back extension: 25lb dead slow with 2s pause. Go slower before going heavier.",
+    "Back extension: 45lb dead slow with 2s pause. Go slower before going heavier.",
     "Leg press: 4 plates FULL ROM. Don't chase weight — depth is the stimulus now.",
     "Leg curl: 110x12 all 3 sets. Fight for every rep before dropping weight.",
     "Lunges: 40lb, survive. The deeper upstream work is making these harder already.",

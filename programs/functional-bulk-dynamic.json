@@ -7,8 +7,27 @@
   "frequency": 6,
   "phase": "hypertrophy",
   "difficulty": "intermediate",
-  "equipment": ["barbell", "dumbbell", "cable", "machine", "bench", "kettlebell", "pull-up-bar"],
-  "tags": ["6-day", "hybrid", "gym", "kettlebell", "conditioning", "ppl", "hypertrophy", "functional", "dynamic", "multi-week"],
+  "equipment": [
+    "barbell",
+    "dumbbell",
+    "cable",
+    "machine",
+    "bench",
+    "kettlebell",
+    "pull-up-bar"
+  ],
+  "tags": [
+    "6-day",
+    "hybrid",
+    "gym",
+    "kettlebell",
+    "conditioning",
+    "ppl",
+    "hypertrophy",
+    "functional",
+    "dynamic",
+    "multi-week"
+  ],
   "weeks": [
     {
       "week": 1,
@@ -996,6 +1015,2429 @@
         "W10 target: if recovery holds, ease back to W8 loads. Don't make up lost progression."
       ],
       "logFile": "logs/functional-bulk-dynamic-w9.json"
+    },
+    {
+      "week": 10,
+      "label": "Form-First Return",
+      "description": "Return from W9 deload, but NOT a 'pick up where W8 left off' week. This is a form-first cycle: weights pulled back ~10-15% from W8 highs across the board, modern 2026 form cues drilled on every lift, spotlight rotation kicks in (1-2 'spotlight' lifts per day get deep cue treatment, others get sharp cues only). Goal: build the base for years of clean, injury-free training. KBs return after W9 sick-week rest. Lunges way back (40 → 25) — QL respect. Spotlights this week: push press + incline DB (Mon), pull-up + DB row (Wed), squat + back extension (Fri). See `docs/notes/functional-bulk/form-cues-2026.md` for the full per-exercise cue reference.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (form-first)",
+          "type": "workout",
+          "workoutId": "fb-w10-push",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow** — 15 min bodyweight + 3-5 min day-specific add-on at the end. **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups. Doorframe stretch is the KEY W9 protocol move; desk work re-tightens pec minor daily."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL (return after W9 break)",
+          "type": "workout",
+          "workoutId": "fb-w10-kb-full",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow.** **Skip the day-specific add-on at the end** — the in-workout banded prep block on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (form-first)",
+          "type": "workout",
+          "workoutId": "fb-w10-pull",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow.** **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10. Do at the gym before pull-ups if no bar at home. Scap engagement before loaded pulls."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING (return after W9 break)",
+          "type": "workout",
+          "workoutId": "fb-w10-kb-cond",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow.** **Skip the day-specific add-on at the end** — the in-workout banded prep block on Thu covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS (form-first, QL watch)",
+          "type": "workout",
+          "workoutId": "fb-w10-legs",
+          "flow": {
+            "workoutId": "fb-w10-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W10 flow.** **Today: do the LEGS add-on** — 90s pigeon (each side) + supine spinal twist. The W8 QL-spasm protocol; non-negotiable on legs day. Lacrosse-ball QL roll above iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Long flat walk, conversational pace."
+              }
+            },
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 75,
+                "intensity": "easy",
+                "notes": "Flat or rolling trails. If QL is fully quiet, can add modest descent — but pull back if anything talks."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "FORM-FIRST WEEK — every weight intentionally below W8. Modern 2026 cues drilled on every lift.",
+        "Spotlight rotation is the new structure: 1-2 spotlight lifts per day get deep cue treatment, others get sharp cues only.",
+        "Push: push press + incline DB. Pull: pull-up + DB row. Legs: squat + back extension.",
+        "See `docs/notes/functional-bulk/form-cues-2026.md` for the full reusable per-exercise cue reference.",
+        "KBs return after W9 sick-week rest — treat first sessions back as re-acquaintance, no PRs.",
+        "Lunges deloaded to 25lb (way back from W8's 40) — they're the QL spasm origin lift, treated with respect.",
+        "If a cue can't be held, the cue wins — drop weight, slow tempo, or skip the rep. No grinding bad reps.",
+        "QL is still the watchpoint. Abort any lift that twinges. Recovery confirmation > load progression."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w10.json"
+    },
+    {
+      "week": 11,
+      "label": "Form-First Week 2 — Spotlights Rotate",
+      "description": "Second week of the form-first cycle. Spotlights rotate per the tracker: chest press machine (push), chest-supported DB row + lat pulldown (pull), leg press (legs), swing mechanics + bent press leverage (KB Tue), windmill mechanics (KB Thu). Big W10 takeaways baked in — squat brace pattern is locking in (hold 65), seated leg curl HARD RESET to 50 with corrected ankle placement (W10D5 form discovery — pad UNDER ankles, not on the calf), calf raise tempo strategy shift (double-leg slow OR single-leg faster, not both), C&P ramps 40 → 45 per W10D2 projection, lunges hold 25 (no QL spasm last week — earn the way back to 30 over multiple clean weeks), pull workout is now station-focused per the W10D3 meta-feedback (less machine-hopping). See `docs/notes/functional-bulk/form-cues-2026.md` for the full per-exercise cue reference.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (form-first, chest press spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w11-push",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow** (variety on W10's shape) — 15 min bodyweight + 3-5 min day-specific add-on. **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups. Pec-minor maintenance is daily, desk work re-tightens it."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL (swing + bent press spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w11-kb-full",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow.** **Skip the day-specific add-on** — the in-workout banded prep block on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (form-first, station-focused)",
+          "type": "workout",
+          "workoutId": "fb-w11-pull",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow.** **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10. Do at the gym before pull-ups if no bar at home."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING (windmill spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w11-kb-cond",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow.** **Skip the day-specific add-on** — the in-workout banded prep block on Thu covers the equivalent (and the diagonal-reach band move is today's direct windmill prime)."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS (form-first, leg press spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w11-legs",
+          "flow": {
+            "workoutId": "fb-w11-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W11 flow.** **Today: do the LEGS add-on** — 90s pigeon (each side) + supine spinal twist. The W8 QL-spasm protocol stays non-negotiable on legs day. Lacrosse-ball QL roll above iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Long flat walk, conversational pace."
+              }
+            },
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 75,
+                "intensity": "easy",
+                "notes": "Flat or rolling trails. QL has been quiet at light loads; modest descent ok if it stays quiet."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST",
+          "type": "rest"
+        }
+      ],
+      "tips": [
+        "FORM-FIRST WEEK 2 — spotlights rotate, loads HOLD where W10 found edge-of-form. The cue is the progression.",
+        "Push spotlight: chest press machine (drill seat alignment + scap pack + 3s eccentric at 165). Layout shifts to station-focused.",
+        "Pull spotlights: chest-supported DB row + lat pulldown (drill chest-glued-to-bench + lats-to-back-pockets). Station-focused per the W10D3 meta-feedback.",
+        "Legs spotlight: leg press (drill foot mechanics + medium-ROM discipline). Squat HOLDS at 65 — brace pattern is locking in.",
+        "**Seated leg curl HARD RESET to 50** — W10D5 found prescribed 100 was a wrong-lever weight. Pad UNDER ANKLES. Rebuild from 50.",
+        "**Calf raise tempo shift** — double-leg slow OR single-leg faster, not both (W10D5 discovery).",
+        "KB Tue spotlights: B-stance swing mechanics + bent press leverage. C&P ramps 40 → 45 per W10D2 projection.",
+        "KB Thu spotlight: windmill mechanics (the bent press's sibling lift — same lateral hinge family).",
+        "Lunges HOLD at 25 — W10D5 confirmed no QL spasm. Earn the way back to 30 over multiple clean weeks.",
+        "QL is still the watchpoint. Abort any lift that twinges."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w11.json"
+    },
+    {
+      "week": 12,
+      "label": "Form-First Week 3 — Spotlights Rotate Again",
+      "description": "Third week of the form-first cycle. Spotlights rotate per the tracker: lateral raise + Kinesis cable fly (push), face pull + reverse fly (pull), seated leg curl + calf raise (legs), windmill + cossack mobility (KB Tue — already exists in fb-w12-kb-full), TGU left-side checkpoints (KB Thu). **W11 takeaways baked in:** chest press fatigue protocol (3 sets vs 4, drop to 150 if form breaks); incline DB held at 40 unless right shoulder is warm + quiet; Kinesis fallback numbers locked from W11D1 (lat raise 3, tri ext 5, straight-arm pulldown 6); pull-ups stepped up to 6-8 after W11D3's clean 7/7/7/6; squat pushed to 75 after W11D5's 'QL caught up'; seated leg curl 90 at corrected ankle placement is the new baseline; calf raise plate-under-foot for deeper stretch; incline RDL holds 25 dead slow; lunges optional (second clean week before W13 spotlight). The naming correction from W11D5 (incline RDL not back extension) is permanent.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH (form-first, lat raise + cable fly spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-push",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow** (variety on W11). 15 min bodyweight + 3-5 min day-specific add-on. **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL (NEW Asgooch overhead flow + windmill/cossack spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-kb-full",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow.** **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL (form-first, face pull + reverse fly spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-pull",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow.** **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING (TGU left-side spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-kb-cond",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow.** **Skip the day-specific add-on** — the in-workout banded prep on Thu covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS (form-first, leg curl + calf raise spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w12-legs",
+          "flow": {
+            "workoutId": "fb-w12-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W12 flow.** **Today: do the LEGS add-on** — 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 45,
+                "intensity": "easy",
+                "notes": "Long flat walk, conversational pace."
+              }
+            },
+            {
+              "label": "Hike",
+              "type": "activity",
+              "activity": {
+                "name": "Bay Area Hike",
+                "duration": 75,
+                "intensity": "easy",
+                "notes": "Flat or rolling trails. QL has been quiet at light loads through W11; modest descent ok if it stays quiet."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "FORM-FIRST WEEK 3 — spotlights rotate again. Loads HOLD where W11 found edge-of-form, push only where W11 actuals showed clean headroom.",
+        "**NEW (W12D1 discussion):** end-of-session 5-min cool-down block added to gym days starting W12D3, Sunday long-flow added as a permanent option on Day 7. Behind-back DB shrugs added as a closing block on pull days (rotates with trap-3 raises). See `docs/notes/functional-bulk/shoulder-shrugs-discussion.md` for full reasoning.",
+        "Push spotlights: lateral raise (drill scap-reset + slow eccentric at 15) + Kinesis cable fly (drill stretch + hug-a-tree at Kinesis 8).",
+        "Push fatigue test: chest press 3 sets at 165 (NOT 4), permission to drop to 150 if form breaks. No grinding 3-rep sets.",
+        "Pull spotlights: face pull (drill elbows-high + external rotation at 42.5) + reverse fly (lighter + cleaner at 20-22.5).",
+        "Pull-ups bumped to 6-8 after W11's clean 7/7/7/6 — mix grips: rack handles → flat bar wide → flat bar close → wide slow.",
+        "Legs spotlights: seated leg curl 90 at corrected ankle placement (the new baseline) + calf raise plate-under-foot for deeper stretch.",
+        "Squat pushes to 75/side after W11D5's 'QL caught up' signal — permission to drop to 70 if warmup is off.",
+        "Leg press: drill DEPTH at 3 plates (W11D5 went past medium ROM cleanly), NOT load. W13 tests 4 plates if depth at 3 holds.",
+        "Incline RDL HOLDS at 25lb dead slow — naming correction is permanent (not 'back extension').",
+        "Lunges optional this week (second clean QL week before W13 spotlight).",
+        "KB Tue: NEW @Asgooch overhead mobility complex (Row → Snatch → OH Lunge → OH Squat → Push Press) replaces dead-clean-press as Block 1 — genuinely fresh from the library, never integrated before. Spotlights stay: windmill + cossack mobility. Bent press rested this week (overhead pressing already loaded 4 ways in the new flow).",
+        "KB Thu spotlight: TGU left-side checkpoints. 1+1 per side per round, 3 rounds — fewer reps, cleaner reps.",
+        "QL is still the watchpoint. Abort any lift that twinges."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w12.json"
+    },
+    {
+      "week": 13,
+      "label": "Heal Week — Symptom-Driven Lighter Week (Shoulder + Soft Tissue)",
+      "description": "**Heal week.** W13 is a deliberate lighter week — the latest of several across this program, since the right shoulder is a long-running issue — prompted by the W12D1 right-shoulder symptom cluster (line-of-sensation + grip-triggered pain) and the accumulated soft-tissue tightness of the first sustained training cycle. It is NOT a 'deload' (the form-first cycle held loads, never chased heavy progressive overload) and NOT a locked calendar cadence — lighter weeks here are symptom-driven, taken when the body signals. **HOLD all loads, CUT volume ~60-70%** — drop a set per exercise. Spotlights still rotate (the cue work IS heal-week-appropriate): cable column block — lat raise + tri ext + straight-arm pulldown (push), bicep curl + high cable curl + cable crunch (pull), the NEW Bulgarian split squat (legs), C&P + TGU (KB Tue), bent press (KB Thu). **Three NEW elements introduced at light volume:** farmer carry (push closing block), trap-3 raise (replaces the shrug block on pull this week), Bulgarian split squat (replaces the walking lunge permanently on legs). The connective tissue lags muscle adaptation 6-8 weeks — this week lets it catch up.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Heal Week (cable column block spotlight + NEW farmer carry)",
+          "type": "workout",
+          "workoutId": "fb-w13-push",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow** (rotated moves on W12; morning flows aren't cut back). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups, + side-lying external rotation (worth it this week with the shoulder cluster active)."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — Heal Week (C&P + TGU spotlight, Asgooch flow cut to 3 rounds)",
+          "type": "workout",
+          "workoutId": "fb-w13-kb-full",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow.** **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Heal Week (curl + crunch spotlight, trap-3 raise replaces shrugs)",
+          "type": "workout",
+          "workoutId": "fb-w13-pull",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow.** **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "REST / LIGHT MOBILITY (Thursday is now a rest day — KB moved to Saturday to protect legs day)",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Morning Flow / Mobility",
+              "type": "workout",
+              "workoutId": "fb-w13-morning-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Heal Week (NEW Bulgarian split squat spotlight, replaces walking lunge)",
+          "type": "workout",
+          "workoutId": "fb-w13-legs",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow.** **Today: do the LEGS add-on** — the NEW cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "KB CONDITIONING — Heal Week (moved from Thursday — bent press spotlight + figure-8 flow)",
+          "type": "workout",
+          "workoutId": "fb-w13-kb-cond",
+          "flow": {
+            "workoutId": "fb-w13-morning-flow",
+            "label": "Morning Flow",
+            "notes": "**Universal W13 flow.** **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Heal week — a lighter week for the long-running right shoulder + soft-tissue tightness (one of several this program, not a one-off). HOLD all loads, CUT volume ~60-70% (drop a set per exercise). The training effect is recovery + cue quality, not load. If a lift feels easy, that's the design.",
+        "**Lighter weeks are symptom-driven, not calendar-locked** — take the next one when the body signals it (a symptom cluster, accumulated tightness), not on a fixed schedule.",
+        "**Schedule change — KB conditioning moves Thursday → Saturday; Thursday becomes rest.** W12D4's Thursday KB wrecked Friday legs (the QL came in tight). A rest day before legs + the KB day landing before Sunday rest fixes the collision. Testing the slot during this light week.",
+        "**Right shoulder symptom cluster is the headline watchpoint.** Cross-check W13D1 push vs. W13D3 pull — if it's worse, the hypothesis flips from functional to structural and a PT eval becomes priority.",
+        "Push: 2 sets chest press at 165, 2 sets incline DB at 45, cable column block spotlight (2 rounds). NEW farmer carry closing block (2 walks, 40-50lb).",
+        "Pull: pull-ups 3 sets, DB row 2 sets at 70 only (skip 60 and 80), curl/crunch spotlight. Trap-3 raise replaces the behind-back shrug block this week (planned rotation).",
+        "Legs: squat holds 75/side as a 3-set pyramid (8/6/8), leg press holds 3 plates / full ROM. NEW Bulgarian split squat replaces the walking lunge permanently — introduced form-only at light volume.",
+        "KB Tue: Asgooch flow 5 rounds per side, C&P + TGU spotlight refresh, C&P holds 45 (no 50).",
+        "KB Sat: bent press spotlight refresh, figure-8 flow stays — but the PRESCRIBED 2 rounds only (W12D4's bonus rounds tightened the QL before legs day).",
+        "**NEW QL/psoas release move** — the standing cross-leg lateral lean (W12D5 user discovery) is now in the legs warmup, the legs cool-down, and the legs-day morning add-on.",
+        "Cool-down stays — 5-min block, permanent every gym day. On a heal week it's the connective-tissue catch-up window.",
+        "Sunday long flow encouraged this week — it fits the heal week's recovery intent."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w13.json"
+    },
+    {
+      "week": 14,
+      "label": "Volume Restored — Out of Heal Week (Sets up, Loads held; New KB Full-Template Launches)",
+      "description": "Out of the W13 heal week. **Sets restored to normal volume across the board; loads held at W13 calibrations.** Spotlights cycle back to the W10 foundation lifts (push press + incline DB on push, pull-up + DB row on pull, squat + incline RDL on legs). KB schedule returns to Tuesday + Thursday — Saturday experiment ends. **NEW KB full-template launches both days:** banded shoulder prep → strength block → flow block → cooldown. The strength block is the new component (C&P + rows + pull-up greasing). **Pull-up greasing across the week:** 4 sets on pull day + 1 fresh set in push warmup + 1-2 sets in KB Tuesday strength block (the user wanted more pull-up frequency after W13D3 weakness). **Bulgarian split squat steps up from W13's bodyweight intro to light DBs at the sides (15-20lb pair).** **Legs sequence re-grouped per the W13D5 station-grouping rule:** leg press → leg-press-calf-raise (same machine) → Bulgarian → leg curl → incline RDL. **Squat runs the user's requested 6/7/8/8 ascending pyramid.** New W14+ infrastructure: equipment-variant load notes — cable lifts list a number per machine (Kinesis / cable column / cable pulley) so the user can pick whichever's free.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Volume Restored (push press + incline DB spotlight refresh)",
+          "type": "workout",
+          "workoutId": "fb-w14-push",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow (rotated moves on W13). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — New Template Launch (bent press spotlight, Asgooch 4+1)",
+          "type": "workout",
+          "workoutId": "fb-w14-kb-full",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Volume Restored (pull-up + DB row spotlight refresh)",
+          "type": "workout",
+          "workoutId": "fb-w14-pull",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Back to Thursday, Full Template (figure-8 flow spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w14-kb-cond",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Volume Restored, Station-Grouped (squat 6/7/8/8 + incline RDL spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w14-legs",
+          "flow": {
+            "workoutId": "fb-w14-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W14 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w14-kb-cardio",
+              "notes": "NEW W14 — cave-pull conditioning day. Asgooch cardio complex + flow combos + controlled-power finisher. LIGHT bell, ~40 min."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Volume restored, loads held.** Heal-week cuts come off — back to 3-4 sets across the board. Loads stay at W13 calibrations.",
+        "**Spotlights cycle back to the W10 foundation lifts:** push press + incline DB (push), pull-up + DB row (pull), squat + incline RDL (legs). The deep cue refresh is on lifts with confirmed working weights.",
+        "**KB schedule back to Tuesday + Thursday.** The W13 Saturday experiment ends; KB Thursday returns. Tuesday biases leg-heavy flows; Thursday stays lighter on loaded squatting (Friday legs is the day after).",
+        "**NEW KB full-template launches both KB days:** banded prep → strength block → flow block → mobility → cooldown. The strength block (C&P + rows + pull-up greasing) is the new component.",
+        "**Pull-up frequency bumps via greasing-the-groove:** 4 sets on pull day + 1 fresh set in push warmup + 1-2 sets in KB Tuesday strength block. Greasing sets are slow, bodyweight, NOT to failure.",
+        "**Asgooch flow: 4 rounds per side mandatory, 5th round OPTIONAL.** Brutal Complex finisher kept but OPTIONAL/EXTRA on both KB days. (W13D2 lesson: 5 + extras stacked too long.)",
+        "**Bulgarian split squat steps up to light DBs at sides (15-20lb pair)** from W13D5's bodyweight intro. Drop back to bodyweight if anything twitches.",
+        "**Legs station-grouped (W13D5 rule):** warmup → squat → leg press → leg-press-calf-raise (same machine) → Bulgarian → leg curl → incline RDL → cool-down.",
+        "**Squat 6/7/8/8 ascending pyramid at 75/side** (the W13D5 user request, extended to 4 sets). Test: does set 1's depth carry to set 3?",
+        "**Cable lifts have per-equipment numbers** (W14+ equipment tracking infrastructure) — lat pulldown (140 machine / 52.5-57.5 column / 47.5 pulley), cable crunch (130 column / 62.5 pulley). Pick whatever's free, log equipment + number used.",
+        "**Right shoulder watch continues** — W13 closed clean; cross-check across W14D1 push and W14D3 pull. If the cluster returns, drop volume on day.",
+        "**Behind-back shrug returns** (alternates with trap-3 raise across pull days — trap-3 was W13D3).",
+        "**Saturday D6 NEW KB CARDIO option** — cave-pull conditioning day. Asgooch cardio complex + halo/figure-8 to reverse lunge combos + high-rep controlled-power finisher. LIGHT bell (16-20lb), ~40 min. Choice-of-the-day alongside stairmaster / easy run / rest.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Internal core fist rotation stays in morning flows + all gym-day warmup blocks."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w14.json"
+    },
+    {
+      "week": 15,
+      "label": "Steady State — Sets and Loads Hold; Spotlights Cycle Forward",
+      "description": "Steady-state week — sets and loads hold across the board; the gains come from sharper execution at the established numbers. **Spotlights cycle forward:** chest press + farmer carry (push), chest-supported row + face pull (pull), leg press + Bulgarian (legs), clean & press + the strength block (KB Tuesday), windmill (KB Thursday). **Structural changes:** the behind-back pull-day shrug moves to an early activation slot (it's protective 'opposite movement' work for the right shoulder — burying it as the closing station meant a rushed session dropped it and the shoulder flared). **Earned step-ups:** chest-supported row 35→40, cable crunch past pulley 72.5, Bulgarian load step-up, and the KB strength block goes to 3 rounds (volume, not bell weight). Order on gym days is availability-driven — take whichever station is free, but keep each station's work grouped. Cable lifts list a number per equipment option.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (chest press + farmer carry spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w15-push",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow (rotated moves on W14). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — Strength Block Step-Up (C&P spotlight, Asgooch flow 4+1)",
+          "type": "workout",
+          "workoutId": "fb-w15-kb-full",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (chest-supported row + face pull spotlight; shrug moves early)",
+          "type": "workout",
+          "workoutId": "fb-w15-pull",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, Full Template (windmill spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w15-kb-cond",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State, Station-Grouped (leg press + Bulgarian spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w15-legs",
+          "flow": {
+            "workoutId": "fb-w15-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W15 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w15-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + flow combos + a rotated brutal-complex-variant finisher. LIGHT bell, ~40 min."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Steady state — sets and loads hold.** The work is depth of execution at the established numbers, not new weight.",
+        "**Spotlights cycle forward:** chest press + farmer carry (push), chest-supported row + face pull (pull), leg press + Bulgarian (legs), clean & press + strength block (KB Tue), windmill (KB Thu).",
+        "**Behind-back pull-day shrug moves to an early activation slot — and a light greasing version is scattered into the push + KB-day warmups** — it's protective 'opposite movement' work that's cheap and easy to forget.",
+        "**Earned step-ups:** chest-supported row 35→40, cable crunch past pulley 72.5, Bulgarian load step-up. KB strength block goes to 3 rounds (volume is the lever, not the bell).",
+        "**Chest press gets the cross-body arm stretch between every set** — it cleared the right-pec referral last session.",
+        "**Cable lateral raise holds at cable column 30** — the pain-free shoulder streak is new, don't chase load.",
+        "**Order on gym days is availability-driven** — take whatever station is free, keep each station's work grouped. Push press going second costs a couple reps; that's the accepted trade-off.",
+        "**Leg curl stays BEFORE incline RDL** — don't reverse them, or the two hamstring lifts stack.",
+        "**Asgooch flow: 4 rounds per side mandatory, 5th optional.** Brutal Complex finisher stays OPTIONAL/EXTRA on Tuesday; Saturday's finisher rotates to a brutal-complex variant.",
+        "**OTD flow (Thursday) is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. Bent press is move #4, in the flow. KB flow loads in lb, not kg.",
+        "**Shoulder management:** last week's pull-day flare was VOLUME-driven, not weight. Ramp the tempo (don't make every set all-slow-eccentric at once), keep the early shrug, lean on cable fly + morning stretches + external rotations.",
+        "**Right shoulder watch continues** — push day's been the cleanest in 6 weeks; track whether the early shrug keeps the pull day clean too.",
+        "**Cable lifts have per-equipment numbers** — lat pulldown (140 machine / 70 dual pulley / 52.5-57.5 column / 47.5 pulley), cable crunch (135 column / 75-77.5 pulley). Pick what's free, log equipment + number.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Internal core fist rotation stays in morning flows + all gym-day warmup blocks."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w15.json"
+    },
+    {
+      "week": 16,
+      "label": "Steady State — New KB Tuesday Template + Permanent Thursday Flow Block",
+      "description": "Steady-state week — gym loads hold, with a few earned step-ups. **Two structural KB changes:** Tuesday swaps in a brand-new template (Full-Body Shred — single bell, every movement pattern) for variety off the long-running Asgooch flow; and Thursday gains a permanent Flow + Coordination block right after the banded prep — light-bell base KB skill-building, because the bell is still new and the goal is widening the movement vocabulary, not cardio burn. **Spotlights cycle forward:** lateral raise + Kinesis fly (push), lat pulldown + incline curl (pull), leg curl + calf raise (legs), Bulgarian split + windmill (KB Tuesday / Shred), figure-8 → reverse lunge (KB Thursday — the new flow block's first skill). **Earned step-ups:** DB row to 70/80/90 bare-hand (no straps; grip is the honest limiter), face pull to 45. The protective behind-back shrug stays front-loaded on pull day. Cable lifts list a number per equipment option.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (lateral raise + Kinesis fly spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w16-push",
+          "flow": {
+            "workoutId": "fb-w16-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W16 flow (world's greatest stretch + barre leg circles rotate in). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — Full-Body Shred Template (Bulgarian + windmill spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w16-kb-full",
+          "flow": {
+            "workoutId": "fb-w16-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W16 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (lat pulldown + incline curl spotlight; DB row 70/80/90, no straps)",
+          "type": "workout",
+          "workoutId": "fb-w16-pull",
+          "flow": {
+            "workoutId": "fb-w16-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W16 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, NEW Flow + Coordination Block (figure-8 → reverse lunge)",
+          "type": "workout",
+          "workoutId": "fb-w16-kb-cond",
+          "flow": {
+            "workoutId": "fb-w16-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W16 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State, Station-Grouped (leg curl + calf raise spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w16-legs",
+          "flow": {
+            "workoutId": "fb-w16-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W16 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w16-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + rotated flow combos + a 100-rep block finisher. LIGHT bell, ~42 min."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Steady state — gym loads hold**, with a few earned step-ups. The work is depth of execution at the established numbers.",
+        "**New KB Tuesday template — Full-Body Shred.** A one-week variety swap off the Asgooch overhead flow (returns W17). Single bell, every movement pattern; leg-leaning, which suits Tuesday.",
+        "**NEW permanent Thursday Flow + Coordination block** — right after the banded prep. Light-bell base KB skill-building (figure-8 → reverse lunge this week). Skill novelty over intensity; the block rotates content and won't get dropped again.",
+        "**Spotlights cycle forward:** lateral raise + Kinesis fly (push), lat pulldown + incline curl (pull), leg curl + calf raise (legs), Bulgarian split + windmill (KB Tue), figure-8 → reverse lunge (KB Thu).",
+        "**Earned step-ups:** DB row to 70/80/90 bare-hand — drop the 60 opener, add a heavier top set; no straps (grip is the honest limiter). Face pull to 45 now the cue is locked.",
+        "**Grip is the new ceiling on pulling/carrying, not the shoulder** — DB row, lat pulldown, farmer carry all tap out at grip now. Train it, don't bypass it.",
+        "**Behind-back shrug stays front-loaded on pull day — and a light greasing version stays in the push + KB-day warmups.** It's protective 'opposite movement' work; front-loading it kept the last pull day flare-free.",
+        "**Chest press: cross-body arm stretch between every set** — proactively. A quiet pec is the win, not the rep count.",
+        "**Leg curl stays BEFORE incline RDL** — don't reverse them, or the hamstring work stacks.",
+        "**OTD flow (Thursday) is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. KB flow loads in lb, not kg.",
+        "**Right shoulder watch continues** — push day's been the cleanest in weeks; the front-loaded shrug is keeping pull day clean too.",
+        "**Cable lifts have per-equipment numbers** — lat pulldown (70 dual pulley / 140 machine / 52.5-57.5 column / 47.5 pulley), cable crunch (~120 column / 77.5 pulley). Pick what's free, log equipment + number.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Internal core fist rotation stays in morning flows + all gym-day warmup blocks."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w16.json"
+    },
+    {
+      "week": 17,
+      "label": "Steady State — KB Tuesday Full-Body Circuit + Thursday Split-Stance Skill",
+      "description": "Steady-state week — gym loads hold, with spotlights cycling forward. **KB Tuesday is now a single-bell full-body circuit** (4 core moves: swing → squat → press → row, + an optional 5th skill move, the reverse-lunge-to-knee-drive; 2-3 rounds) — a deliberately more conventional shape than the Full-Body Shred, banked as a clean conditioning hit. The leg-athletic lunge-drive lives on Tuesday, far from Friday legs. **Thursday's permanent Flow + Coordination block rotates to the figure-8 weave** — an upper/grip/coordination move kept off the legs so Friday legs stays strong — and the mobility maintenance block refreshes the bent press. **Spotlights cycle forward:** push press + incline DB (push), chest-supported row + reverse fly (pull), squat depth + incline RDL (legs), reverse-lunge-to-knee-drive (KB Tuesday circuit), figure-8 weave (KB Thursday). Loads hold at the established numbers; the protective behind-back shrug stays front-loaded on pull day; DB row holds 70/80/90 bare-hand, no straps. Cable lifts list a number per equipment option.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (push press + incline DB spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w17-push",
+          "flow": {
+            "workoutId": "fb-w17-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W17 flow (low-lunge thoracic rotation + straddle reaches rotate in). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — Full-Body Circuit (reverse-lunge-to-knee-drive spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w17-kb-full",
+          "flow": {
+            "workoutId": "fb-w17-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W17 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (chest-supported row + reverse fly spotlight; DB row 70/80/90, no straps)",
+          "type": "workout",
+          "workoutId": "fb-w17-pull",
+          "flow": {
+            "workoutId": "fb-w17-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W17 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, Flow + Coordination Block (figure-8 weave)",
+          "type": "workout",
+          "workoutId": "fb-w17-kb-cond",
+          "flow": {
+            "workoutId": "fb-w17-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W17 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State, Station-Grouped (squat depth + incline RDL spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w17-legs",
+          "flow": {
+            "workoutId": "fb-w17-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W17 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w17-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a controlled-power finisher. LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Steady state — gym loads hold**, with spotlights cycling forward. The work is depth of execution at the established numbers.",
+        "**KB Tuesday is a single-bell full-body circuit** — swing → squat → press → row → reverse-lunge-to-knee-drive, 3 rounds, sized to the press (~30-35lb). A more conventional shape than the Shred, banked as a clean conditioning hit; the weird/flow KB returns as new material lands.",
+        "**KB Tuesday circuit is 4 core moves + an optional 5th skill move** (reverse-lunge-to-knee-drive); 2-3 rounds. The leg-athletic lunge-drive lives on Tuesday, far from Friday legs; drop it / drop a round if short on time.",
+        "**Thursday Flow + Coordination block rotates to the figure-8 weave** — an upper/grip/coordination move kept off the legs so Friday legs stays strong. The mobility block refreshes the bent press.",
+        "**Saturday is deliberately compact + optional** — Asgooch complex + a controlled-power finisher, no extra flow block. Keep weekends light so Monday's strong.",
+        "**Spotlights cycle forward:** push press + incline DB (push), chest-supported row + reverse fly (pull), squat depth + incline RDL (legs), reverse-lunge-to-knee-drive (KB Tue), figure-8 weave (KB Thu).",
+        "**DB row holds 70/80/90 bare-hand** — grip is the honest limiter, no straps. Face pull holds 45.",
+        "**Grip is the ceiling on pulling/carrying, not the shoulder** — DB row, lat pulldown, farmer carry all tap out at grip now. Train it, don't bypass it.",
+        "**Behind-back shrug stays front-loaded on pull day — and a light greasing version stays in the push + KB-day warmups.** Protective 'opposite movement' work that's kept the shoulder clean.",
+        "**Chest press: cross-body arm stretch between every set** — proactively. A quiet pec is the win, not the rep count.",
+        "**Leg curl stays BEFORE incline RDL** — don't reverse them, or the hamstring work stacks.",
+        "**OTD flow (Thursday) is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. KB flow loads in lb, not kg.",
+        "**Right shoulder watch continues** — the front-loaded shrug is keeping pull day clean; pack down, not up, on every press.",
+        "**Cable lifts have per-equipment numbers** — lat pulldown (70 dual pulley / 140 machine / 52.5-57.5 column / 47.5 pulley), cable crunch (~120 column / 77.5 pulley). Pick what's free, log equipment + number.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Internal core fist rotation stays in morning flows + all gym-day warmup blocks."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w17.json"
+    },
+    {
+      "week": 18,
+      "label": "Steady State — Resume Gradual Build; KB Tuesday Figure-8 Flow + GymVibe AMRAP",
+      "description": "Steady-state week, resuming the gradual build where there's headroom. Gym loads hold where the user is settling (squat 80, leg press 4 plates, the presses at 45), with spotlights cycling forward and a few gradual nudges the user pulls (Bulgarian up, optional face pull / cable crunch / high curl). **Bulgarian steps up to double-45 DBs** — regular DB is the default, the Smith machine the swap-in when free (it cleared the QL test W17). **Leg curl moves to the 5/m/0/-1 setting** with a 70 primer + 90 working. **Push lesson baked in: fuller rest, not lighter load, recovers the set-3 reps.** **KB Tuesday rotates** — the Leggy Flow rotates out; the figure-8 → tactical clean complex comes back (user request) as the skill flow, and the GymVibe 9-min AMRAP is introduced as the workout section. **KB Thursday Flow + Coordination rotates to the halo → reverse lunge**; mobility refreshes the TGU (left-side checkpoints). **KB Saturday finisher rotates** to a high-rep ladder. **Spotlights cycle forward:** dips + cable block (push), pull-up + DB row (pull), leg-press ROM + Bulgarian (legs), thruster (KB Tue), halo → reverse lunge (KB Thu). The protective behind-back shrug stays front-loaded; DB row holds 70/80/90 bare-hand, no straps. Cable lifts list per-equipment numbers including the W17 pulley numbers. Morning flow rotates ~half, cycling back W12-era favorites.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (dips + cable block spotlight; rest is the lever)",
+          "type": "workout",
+          "workoutId": "fb-w18-push",
+          "flow": {
+            "workoutId": "fb-w18-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W18 flow (thread-the-needle + happy baby + puppy pose cycle back). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — Figure-8 Flow (back) + GymVibe 9-Min AMRAP (thruster spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w18-kb-full",
+          "flow": {
+            "workoutId": "fb-w18-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W18 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (pull-up + DB row spotlight; DB row 70/80/90, no straps)",
+          "type": "workout",
+          "workoutId": "fb-w18-pull",
+          "flow": {
+            "workoutId": "fb-w18-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W18 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, Flow + Coordination Block (halo → reverse lunge)",
+          "type": "workout",
+          "workoutId": "fb-w18-kb-cond",
+          "flow": {
+            "workoutId": "fb-w18-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W18 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State, Station-Grouped (leg-press ROM + Bulgarian spotlight; Bulgarian → double-45)",
+          "type": "workout",
+          "workoutId": "fb-w18-legs",
+          "flow": {
+            "workoutId": "fb-w18-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W18 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w18-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a high-rep ladder finisher. LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Steady state, resume the gradual build** — gym loads hold where the user's settling, with spotlights cycling forward and a few gradual nudges the user pulls.",
+        "**Rest is the lever on push day** — take the full ~2 min on push press + incline DB; W17 showed the set-3 fades are under-rest, not load. Don't drop weight.",
+        "**Bulgarian → double-45 DBs** — regular DB is the default; the Smith machine is the swap-in when free (cleared the QL test at 45/side W17). Drop to bodyweight if anything twitches.",
+        "**Leg curl: 5/m/0/-1 setting, 70 primer then 90 working** — the setting that felt better W17.",
+        "**KB Tuesday: figure-8 → tactical clean flow (back by request) + GymVibe 9-min AMRAP** — skill flow + workout section. AMRAP load ladder 30 → 40 → 50lb; the thruster press is the limiter + shoulder risk, lighten before it gets ugly.",
+        "**KB Thursday Flow + Coordination → halo → reverse lunge** (core-led, leg-light); mobility refreshes the TGU (left-side checkpoints).",
+        "**KB Saturday finisher rotates to a high-rep descending ladder** — Asgooch complex stays. Optional push-press ladder (it worked great W17). Keep weekends light so Monday's strong.",
+        "**Spotlights cycle forward:** dips + cable block (push), pull-up + DB row (pull), leg-press ROM + Bulgarian (legs), thruster (KB Tue), halo → reverse lunge (KB Thu).",
+        "**DB row holds 70/80/90 bare-hand** — grip is the honest limiter, no straps. Optional gradual nudges on pull day: face pull 50, cable crunch climb-back, high curl 180 — pull them only where the current number feels easy.",
+        "**Grip is the ceiling on pulling/carrying, not the shoulder** — DB row, lat pulldown, farmer carry all tap out at grip now. Train it, don't bypass it.",
+        "**Behind-back shrug stays front-loaded on pull day — and a light greasing version stays in the push + KB-day warmups.** Protective 'opposite movement' work that's kept the shoulder clean.",
+        "**Dips spotlight — bodyweight, fuller ROM is fine now** (the shoulder tolerated full depth W17). Watch the front pec stays 'pressure,' not pain.",
+        "**Leg curl stays BEFORE incline RDL** — don't reverse them, or the hamstring work stacks.",
+        "**Bent Press Flow (Thursday) is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. KB flow loads in lb, not kg.",
+        "**Right shoulder watch continues** — the front-loaded shrug is keeping pull day clean; pack down, not up, on every press; lighten the thruster first if the overhead gets ugly.",
+        "**Cable lifts have per-equipment numbers** — column / rope pulley / Kinesis (W17 pulley numbers: tri ext ~35, straight-arm pulldown 50, lateral raise reg-pulley 10). Pick what's free, log equipment + number.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Internal core fist rotation stays in morning flows + all gym-day warmup blocks.",
+        "Morning flow rotates ~half for W18 — cycles back thread-the-needle / happy baby / puppy pose (W12-era), freshens the work block."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w18.json"
+    },
+    {
+      "week": 19,
+      "label": "Steady State — Spotlights Cycle Forward; KB Tuesday Leggy Flow + Loaded Cossack Returns",
+      "description": "Steady-state week — loads hold where the user's settling, the work is rest discipline + depth + clean execution, and the floor keeps rising on its own. **Warmups are baked into each day's description as a reminder.** Spotlights cycle forward: push press + lateral raise (push), lat pulldown + face pull (pull), squat depth + leg curl (legs). **Push press makes the rest the experiment** — run a FULL 2 min between sets this week (W18 ~1 min helped the feel but set 3 still hit 8; spelled out explicitly now). **W18's user-pulled steps are the new defaults:** chest-supported row 45, lat pulldown 150, face pull 50, high curl 180; KB strict press 40/45/50, working bell 40. **Squat formalizes the user's 45→70→80 ROM ramp** (depth the lever); **leg curl drills the correct feel at 80** (form-first, 90 returns when grooved). A **dead-bug core/QL primer** joins the legs warmup as a test (after W18's brutal leg press). **KB Tuesday rotates the carousel** — the Leggy Flow comes back, the loaded cossack returns (off the menu since W15) as the spotlight, and the hand-to-hand swing folds in. **KB Thursday Flow+Coord → split-stance pass-through**; mobility refreshes the windmill. **KB Saturday finisher → round-the-clock chain**; spotlight → high pull. **Bottoms-up press is now standard in the KB + push warmups.** Pull-up back to the straight bar. Morning flow rotates ~half (low-lunge thoracic rotation, dead-bug, inchworm, McGill crunch in; couch + frog stretch cycle back).",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (push press + lateral raise spotlight; run the FULL 2 min rest)",
+          "type": "workout",
+          "workoutId": "fb-w19-push",
+          "flow": {
+            "workoutId": "fb-w19-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W19 flow (low-lunge thoracic rotation + dead-bug + inchworm + McGill crunch in; couch + frog stretch cycle back). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — Leggy Flow (back) + Loaded Cossack (spotlight) + Hand-to-Hand Swing",
+          "type": "workout",
+          "workoutId": "fb-w19-kb-full",
+          "flow": {
+            "workoutId": "fb-w19-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W19 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (lat pulldown + face pull spotlight; new defaults 45/150/50/180)",
+          "type": "workout",
+          "workoutId": "fb-w19-pull",
+          "flow": {
+            "workoutId": "fb-w19-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W19 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, Flow + Coordination Block (split-stance pass-through)",
+          "type": "workout",
+          "workoutId": "fb-w19-kb-cond",
+          "flow": {
+            "workoutId": "fb-w19-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W19 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State, Station-Grouped (squat depth + leg curl spotlight; dead-bug core primer test)",
+          "type": "workout",
+          "workoutId": "fb-w19-legs",
+          "flow": {
+            "workoutId": "fb-w19-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W19 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w19-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a round-the-clock single-bell chain finisher (high-pull spotlight). LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Steady state — loads hold, the work is rest discipline + depth + clean execution.** The floor keeps rising on its own; don't chase heavier plates.",
+        "**Warmups are baked into each day's description** as a reminder of the sequence to run.",
+        "**Push press spotlight — run the FULL 2 min rest this week.** W18 ~1 min helped the feel but set 3 still hit 8. Take the real 2 min and see if set 3 recovers to 10. Hold 45 either way.",
+        "**New defaults from W18's user-pulled steps:** chest-supported row 45, lat pulldown 150, face pull 50, high cable curl 180; KB strict press 40/45/50, working bell 40.",
+        "**Squat formalizes the 45→70→80 ROM ramp** — depth is the lever, not load. **Leg curl drills the correct feel at 80** (form-first; 90 returns when grooved).",
+        "**Dead-bug core/QL primer joins the legs warmup — the W19 test** (after W18's brutal leg press). Watch whether the leg press normalizes with the QL not pre-fatigued from Thursday.",
+        "**Bulgarian double-45 DBs (Smith @45 the confirmed QL-safe alternate); pigeon on the bench between sets** (your W18 keeper).",
+        "**KB Tuesday carousel turn:** Leggy Flow back, loaded cossack back (spotlight), hand-to-hand swing folded in. Strict press 40/45/50.",
+        "**KB Thursday Flow + Coordination → split-stance pass-through** (core-led, light); mobility refreshes the windmill. **KB Saturday finisher → round-the-clock chain**; spotlight → high pull.",
+        "**Bottoms-up press now standard in the KB + push warmups** — 18lb, 8/side, forward + T-plane (T-plane light). Rotator-cuff prep.",
+        "**Pull-up back to the straight bar** — the swivel grip rotates to the bicep and pulls work off the lats.",
+        "**Grip is the ceiling on pulling/carrying, not the shoulder** — DB row, lat pulldown, farmer carry all tap out at grip. No straps.",
+        "**Protective behind-back shrug stays front-loaded on pull day** and in the push + KB-day warmups.",
+        "**Mini-dip warmup stays on the dip station; Kinesis fly — step forward to deepen the stretch** (free ROM progressions the user found).",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Internal core fist rotation stays in morning flows + all gym-day warmup blocks.",
+        "Morning flow rotates ~half for W19 — low-lunge thoracic rotation, dead-bug, inchworm, McGill crunch in; couch + frog stretch cycle back."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w19.json"
+    },
+    {
+      "week": 20,
+      "label": "Steady State — Spotlights Cycle Forward; Intensity Tags (🔥/🛑) + Pyramiding; KB Figure-8 Flow Returns",
+      "description": "Steady-state week — loads hold where they've settled, the work is rest discipline + depth + clean execution, and the floor keeps rising on its own. **Warmups are baked into each day's description as a reminder.** Spotlights cycle forward: incline DB + Kinesis fly (push), high cable curl + cable crunch (pull), leg press + Bulgarian (legs). **New this week: each gym lift is tagged 🔥 (near-failure last set OK) or 🛑 (the cue is the cap)** so you decide before the set — form lever first, load second, near-failure only on the 🔥 (safe isolation/machine) lifts, by pushing the existing last set not adding a round. **Pyramiding leans in where it belongs** — leg curl pyramids to a tested top (the W19 accidental 100 looked real on normal rest); leg press stays ROM-first (depth is the load lever, not plates). **W19's confirmations are the new defaults:** incline DB 50 (build reps toward 12), KB strict press 50 across (chase toward 8), chest-supported row 45 (slower eccentric), lat pulldown holds 150, face pull settled 50, high cable curl single-pulley 62.5, Bulgarian double-50. **KB Tuesday carousel:** figure-8 → tactical clean flow returns, bottoms-up clean is the spotlight, front squat covers the squat. **KB Thursday Flow+Coord → single-arm press-to-march** (and Thursday is confirmed a good home for heavier UPPER push — fresh off Monday, no cost to Friday legs); mobility refreshes the bent press. **KB Saturday → snatch spotlight + clean-squat-press finisher.** Morning flow rotates ~half (thread-the-needle, spiderman plank, plank shoulder taps in; puppy pose + happy baby cycle back).",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (incline DB + Kinesis fly spotlight; 🔥/🛑 intensity tags)",
+          "type": "workout",
+          "workoutId": "fb-w20-push",
+          "flow": {
+            "workoutId": "fb-w20-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W20 flow (thread-the-needle, spiderman plank, plank shoulder taps in; puppy pose + happy baby cycle back). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — Figure-8 → Tactical Clean (back) + Bottoms-Up Clean (spotlight) + Front Squat",
+          "type": "workout",
+          "workoutId": "fb-w20-kb-full",
+          "flow": {
+            "workoutId": "fb-w20-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W20 flow. **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (high cable curl + cable crunch spotlight; 🔥/🛑 intensity tags)",
+          "type": "workout",
+          "workoutId": "fb-w20-pull",
+          "flow": {
+            "workoutId": "fb-w20-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W20 flow. **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, Flow + Coordination Block (single-arm press-to-march); heavy-upper-push slot",
+          "type": "workout",
+          "workoutId": "fb-w20-kb-cond",
+          "flow": {
+            "workoutId": "fb-w20-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W20 flow. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State, Station-Grouped (leg press + Bulgarian spotlight; leg-curl pyramid; 🔥/🛑 tags)",
+          "type": "workout",
+          "workoutId": "fb-w20-legs",
+          "flow": {
+            "workoutId": "fb-w20-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W20 flow. **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w20-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a clean-squat-press triplet finisher (snatch spotlight). LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Steady state — loads hold, the work is rest discipline + depth + clean execution.** The floor keeps rising on its own; don't chase heavier plates.",
+        "**New this week: 🔥/🛑 intensity tags on every gym lift.** 🔥 = near-failure last set OK (safe isolation/machine); 🛑 = the cue is the cap (compound/overhead/spinal/grip-limited). Form lever first, load second, near-failure only on 🔥 — by pushing the existing last set, not adding a round.",
+        "**Pyramiding leans in where it belongs** — leg curl pyramids to a tested top (70→80→90→100, judged by feel); leg press stays ROM-first (depth is the load lever, not plates).",
+        "**Spotlights cycle forward:** incline DB + Kinesis fly (push), high cable curl + cable crunch (pull), leg press + Bulgarian (legs).",
+        "**New defaults from W19:** incline DB 50 (build reps toward 12), KB strict press 50 across (chase toward 8), chest-supported row 45 (slower eccentric), lat pulldown holds 150, face pull settled 50, high cable curl single-pulley 62.5, Bulgarian double-50.",
+        "**Push press holds 45 on the full 2 min rest** (W19 confirmed the rest was the unlock). Optional 47.5 if you pull it.",
+        "**Squat keeps the 45→70→80 ramp + the catcher-14 max-depth reference** — 80 held, depth the next unlock after last week's stability win.",
+        "**KB Tuesday carousel:** figure-8 → tactical clean flow back, bottoms-up clean the spotlight, front squat covers the squat.",
+        "**KB Thursday is a good home for heavier UPPER push** — fresh off Monday, no cost to Friday legs. Flow+Coord → single-arm press-to-march; mobility refreshes the bent press.",
+        "**KB Saturday → snatch spotlight + clean-squat-press finisher.** Light, optional, compact.",
+        "**Bottoms-up press standard in the KB + push warmups** — 18lb, 8/side, forward + T-plane (T-plane light).",
+        "**Grip is the ceiling on pulling/carrying, not the shoulder** — DB row, lat pulldown, farmer carry all tap out at grip. No straps.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Morning flow rotates ~half for W20 — thread-the-needle, spiderman plank, plank shoulder taps in; puppy pose + happy baby cycle back."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w20.json"
+    },
+    {
+      "week": 21,
+      "label": "Steady State — Spotlights Cycle Forward; the GymFiesta Circuit Runs Whole on Tuesday",
+      "description": "Steady-state week — loads hold where they've settled and the floor keeps rising on its own. **Warmups are baked into each day's description as a reminder.**\n\n**The correction this week:** the GymFiesta circuit had been quietly harvested for parts — its single-arm press-to-march ran alone on Thursday while the circuit itself, penciled in back at W17, was never actually programmed. It now runs WHOLE on Tuesday (pass-to-squat → lunge knee-drive → snatch → press-to-march, 3 rounds), where its explosiveness is free rather than expensive; and the press-to-march leaves Thursday, which gets the figure-8 march instead. The figure-8 complex steps off the Tuesday carousel to make room — nothing was added on top.\n\n**Spotlights cycle forward:** dips + farmer carry (push), chest-supported row + incline curl (pull), squat depth + incline RDL (legs). The farmer carry and the incline curl are in there because they're the two lifts with the **least data** on them — both get done every week, but they land late in the session and never make the write-up, so the carry has no hold-time on record and the incline curl's left-arm lag is running on a months-old number. Each one needs a single number this week, not more work.\n\n**W20's confirmations become the defaults:** KB strict press 50 at 8/8/8 (the reps were earned — hold them, don't chase), pull-ups 10 across all four sets with the grip HOLDING (up from 6/6/8/6 — bank the new floor), chest-supported row 45 confirmed by feel (set 2 to the edge at 15, set 3 to failure at 12), dips 12 deep across (tempo is the only lever left), incline DB 50 at clean 12s (set 3 still unconfirmed), leg press 4 plates full-ROM, Bulgarian double-50.\n\n**Both ramps stay untouched** — you praised the squat's 45→70→80 and the leg curl's 70→80→90→100 in the same session, unprompted. Two votes for the same structure is a signal, so nothing about them changes.\n\n**Dead Cluster Flow takes its second run** on Tuesday, so the three beats you found off the bell (overhead-to-overhead snatch, TWO pendulum swings, inside tactical clean) become the thing you own rather than the thing you had to correct.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (dips + farmer carry spotlight; 🔥/🛑 intensity tags)",
+          "type": "workout",
+          "workoutId": "fb-w21-push",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Today: do the PUSH add-on** — doorframe pec-minor stretch (LOW/MID/HIGH), prone Y raises, scap push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB FULL — GymFiesta Circuit (NEW, run whole) + Dead Cluster Flow (2nd run) + Bottoms-Up Carry (spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w21-kb-full",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Skip the day-specific add-on** — the in-workout banded prep on Tue covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (chest-supported row + incline curl spotlight; 🔥/🛑 intensity tags)",
+          "type": "workout",
+          "workoutId": "fb-w21-pull",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Today: do the PULL add-on** — dead hang 25s + scapular pulls x10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB CONDITIONING — Thursday, Flow + Coordination Block (figure-8 march); heavy-upper-push slot",
+          "type": "workout",
+          "workoutId": "fb-w21-kb-cond",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Steady State (squat depth + incline RDL spotlight; both ramps stay; 🔥/🛑 tags)",
+          "type": "workout",
+          "workoutId": "fb-w21-legs",
+          "flow": {
+            "workoutId": "fb-w21-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W21 flow (low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back). **Today: do the LEGS add-on** — cross-leg lateral lean + 90s pigeon (each side) + supine spinal twist. Lacrosse-ball QL roll above the iliac crest beforehand if available."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / KB CARDIO / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "KB Cardio Conditioning",
+              "type": "workout",
+              "workoutId": "fb-w21-kb-cardio",
+              "notes": "Conditioning day — Asgooch cardio complex + a hand-to-hand swing ladder finisher (front squat spotlight). LIGHT bell, deliberately compact (~35 min) so it's a clean skip on a heavy week. Optional light push-press ladder if you want a strength touch."
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**The GymFiesta circuit runs WHOLE on Tuesday** — pass-to-squat → lunge knee-drive → snatch → press-to-march, 3 rounds. It's a circuit, not a flow: each move for its own reps, then move on. It takes the figure-8 complex's slot; nothing was added on top.",
+        "**The press-to-march has left Thursday** — it belongs to the circuit, and the circuit now runs. Thursday gets the figure-8 march instead: the weave you already own, now walked.",
+        "**Why Tuesday and not Thursday:** the circuit's snatches and lunge knee-drives are explosive and leg-athletic. Three days clear of Friday legs that's free; the day before legs it's a tax.",
+        "**Two spotlights are aimed at getting a NUMBER, not more work** — the farmer carry and the incline curl both get done every week but never make the write-up. The carry has no hold-time on record; the incline curl's left-arm lag is running on a months-old read. One number each is all they need.",
+        "**Dips: depth is banked, TEMPO is the only lever left.** 12 deep reps across all three sets last week, and the sore spot was your PALM, not your shoulder. Slow the descent to a genuine 3s.",
+        "**Pull-ups jumped to 10 across all four sets with the grip HOLDING** (from 6/6/8/6). Bank the new floor — the job is clean reps at the new level, not a bigger number.",
+        "**KB strict press holds 50 at 8/8/8** — the reps were earned in W20. Own the new floor before climbing off it.",
+        "**Chest-supported row 45 is confirmed** — set 2 rode to the edge at 15, set 3 genuinely died at 12. The load question is closed; the tempo question opens (3s eccentric).",
+        "**Both ramps stay untouched** — the squat's 45→70→80 and the leg curl's 70→80→90→100. You praised both, unprompted, in one session.",
+        "**Squat spotlight is DEPTH and only depth.** 80 for clean 8s is settled across two weeks. Set the catcher at your true max depth and chase the bottom. Stop adding sets when depth shortens.",
+        "**Legs order is yours by availability** — but the calf raise stays ON the leg press, and the leg curl stays BEFORE the incline RDL.",
+        "**Dead Cluster Flow, 2nd run — own the three beats:** the snatch is overhead-to-overhead, the outside pendulum is TWO full swings, the tactical clean threads the inside path.",
+        "**Grip is the ceiling on pulling/carrying, not the shoulder** — DB row, lat pulldown, farmer carry all tap out at grip. No straps.",
+        "Cool-down stays — 5-min block, permanent every gym day.",
+        "Morning flow rotates ~half for W21 — low-lunge thoracic rotation, McGill crunch, inchworm walkout, dead-bug, frog stretch in; couch stretch cycles back."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w21.json"
+    },
+    {
+      "week": 22,
+      "label": "Thursday Becomes the Flow + Circuit Day — NEW Outside Snatch Flow; Tuesday Is a Rest Day",
+      "description": "**Tuesday is a rest day this week** — a 7am-10pm workday. The week runs Mon push · Tue REST · Wed pull · Thu KB · Fri legs.\n\n**Thursday is rebuilt from the ground up and the length cap is off.** It had been running the same two blocks since W16, and the flow at its centre had been there since Week 5 — the rotation had quietly stopped rotating. So the bench gets emptied: the **Outside Snatch Flow** runs for the first time ever, a nine-move Conti chain that opens on the **around-the-legs figure-8** that went missing in W21. It pairs with the GymFiesta circuit, because the circuit-plus-flow combination was what worked. The Bent Press Flow steps off Thursday after sixteen weeks; the bent press itself stays once, in the skill block, so the pattern holds.\n\nThursday is leg-inclusive and Friday will feel it. That trade was made deliberately.\n\n**Spotlights cycle forward:** push press + straight-arm pulldown (push), pull-up + DB row tempo (pull), leg press ROM + seated leg curl (legs).\n\n**One experiment on push day:** the straight-arm pulldown has read hard at 120 two weeks running, always running dead-last in the cable block. It moves to FIRST at the same weight — if it feels normal there, the load was never the problem.\n\n**Legs holds everything.** Last week's odd session traced to fatigue that predated the gym, so nothing moves except an earned step on the leg curl.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (push press + straight-arm pulldown spotlight; cable block re-ordered)",
+          "type": "workout",
+          "workoutId": "fb-w22-push",
+          "flow": {
+            "workoutId": "fb-w22-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W22 flow (thread-the-needle, spiderman plank, glute bridge, puppy pose, happy baby in; low-lunge thoracic rotation, inchworm, McGill crunch, couch stretch, frog stretch out). **Today: do the PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "REST — working 7am-10pm (no session)",
+          "type": "rest"
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (pull-up + DB row tempo spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w22-pull",
+          "flow": {
+            "workoutId": "fb-w22-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W22 flow (thread-the-needle, spiderman plank, glute bridge, puppy pose, happy baby in; low-lunge thoracic rotation, inchworm, McGill crunch, couch stretch, frog stretch out). **Today: do the PULL add-on** — dead hang 25s + scapular pulls ×10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB THURSDAY — FLOW + CIRCUIT DAY 🌀 (NEW Outside Snatch Flow + GymFiesta circuit; runs long on purpose)",
+          "type": "workout",
+          "workoutId": "fb-w22-kb-cond",
+          "flow": {
+            "workoutId": "fb-w22-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W22 flow (thread-the-needle, spiderman plank, glute bridge, puppy pose, happy baby in; low-lunge thoracic rotation, inchworm, McGill crunch, couch stretch, frog stretch out). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Hold Everything (leg press ROM + seated leg curl spotlight)",
+          "type": "workout",
+          "workoutId": "fb-w22-legs",
+          "flow": {
+            "workoutId": "fb-w22-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W22 flow (thread-the-needle, spiderman plank, glute bridge, puppy pose, happy baby in; low-lunge thoracic rotation, inchworm, McGill crunch, couch stretch, frog stretch out). **Today: do the LEGS add-on** — cross-leg lateral lean (QL has been sore all week) + 90s pigeon each side + supine spinal twist."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Tuesday is a rest day** — 7am-10pm workday. Four training days this week, not five.",
+        "**Thursday is the flow + circuit day and it runs long on purpose.** New Outside Snatch Flow (nine Conti moves, never run) + GymFiesta circuit. If it overruns, cut the circuit to 2 rounds — not the flow.",
+        "**The around-the-legs figure-8 is back**, as move #1 of the Outside Snatch Flow.",
+        "🛑 **The outside snatch is new and travels an outside arc** — light bell, punch the hand through, pack the shoulder down. Sub a high pull if the right shoulder objects.",
+        "**Push day experiment: straight-arm pulldown runs FIRST at 120** instead of last. Report how it feels — that read decides whether the number moves.",
+        "**Legs holds every load.** The only earned step is the leg curl top set to 110, and only if the slow eccentric survives.",
+        "**Friday legs will feel Thursday.** Expected cost of a deliberate trade.",
+        "**Morning flow rotates ~half the moves** — rehab anchors and the pushup greasing set never rotate."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w22.json"
+    },
+    {
+      "week": 23,
+      "label": "Rotation Carousel Turns — Long Coordination Gauntlet (Tue) + Figure-8 Switch-Clean Returns; Outside Snatch Flow 2nd Run (Thu)",
+      "description": "Back to a full five-day week. **Warmups are baked into each day's description as a reminder.**\n\n**The KB days keep emptying the bench.** Tuesday runs the **Long Coordination Gauntlet** — a 14-move Conti flow, new to the program — and brings back the **figure-8 → switch → tactical clean** as a warmup brain-primer (the move you missed and sneak in yourself). Thursday runs the **Outside Snatch Flow a second time** to refine the outside-arc snatch, paired with a fresh conditioning block — @Asgooch's **Brutal Complex**, which adds a row and a pushup, the pull/push the flow lacks.\n\n**Spotlights cycle forward:** lateral raise + incline overhead tri ext (push), cable crunch + reverse fly (pull), Bulgarian on the new Smith setup + calf raise (legs).\n\n**Legs tweaks (both yours):** squat gets an optional third working set at 80 (fine to end early), and the leg curl pyramid steps up to 80→110. Bulgarian is on the Smith @45 by default now.\n\n**Push cable-block order rotates again** (tri ext first) so no lift eats the tail two weeks running. **Equipment corrections from W22D3 are in:** face pull on the adjustable pulley + rope, high cable curl load restored, lat pulldown dual-pulley 70/side.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Steady State (lateral raise + tri ext spotlight; cable order rotated)",
+          "type": "workout",
+          "workoutId": "fb-w23-push",
+          "flow": {
+            "workoutId": "fb-w23-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W23 flow (hip-flexor lunge, plank shoulder-taps, inchworm, down-dog-knee-to-head, couch stretch, frog stretch in; thread-the-needle, spiderman plank, glute bridge, puppy, happy baby out). **Today: PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB TUESDAY — 🌀 NEW Long Coordination Gauntlet (14-move Conti) + figure-8 switch-clean warmup",
+          "type": "workout",
+          "workoutId": "fb-w23-kb-full",
+          "flow": {
+            "workoutId": "fb-w23-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W23 flow (hip-flexor lunge, plank shoulder-taps, inchworm, down-dog-knee-to-head, couch stretch, frog stretch in; thread-the-needle, spiderman plank, glute bridge, puppy, happy baby out). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Steady State (cable crunch + reverse fly spotlight; equipment corrected)",
+          "type": "workout",
+          "workoutId": "fb-w23-pull",
+          "flow": {
+            "workoutId": "fb-w23-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W23 flow (hip-flexor lunge, plank shoulder-taps, inchworm, down-dog-knee-to-head, couch stretch, frog stretch in; thread-the-needle, spiderman plank, glute bridge, puppy, happy baby out). **Today: PULL add-on** — dead hang 25s + scapular pulls ×10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB THURSDAY — 🌀 FLOW + COMPLEX DAY (Outside Snatch Flow 2nd run + Brutal Complex; runs long)",
+          "type": "workout",
+          "workoutId": "fb-w23-kb-cond",
+          "flow": {
+            "workoutId": "fb-w23-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W23 flow (hip-flexor lunge, plank shoulder-taps, inchworm, down-dog-knee-to-head, couch stretch, frog stretch in; thread-the-needle, spiderman plank, glute bridge, puppy, happy baby out). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Depth Bank Grows (squat 3rd set optional; leg curl 80→110; Bulgarian on Smith)",
+          "type": "workout",
+          "workoutId": "fb-w23-legs",
+          "flow": {
+            "workoutId": "fb-w23-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W23 flow (hip-flexor lunge, plank shoulder-taps, inchworm, down-dog-knee-to-head, couch stretch, frog stretch in; thread-the-needle, spiderman plank, glute bridge, puppy, happy baby out). **Today: LEGS add-on** — cross-leg lateral lean + 90s pigeon each side + supine spinal twist."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Tuesday runs the Long Coordination Gauntlet** — 14 Conti moves, one continuous chain per side. Learning run: order and transitions, not speed.",
+        "**The figure-8 switch-clean is back** as the Tuesday warmup brain-primer — the hand-switch figure-8 that cleans.",
+        "**Thursday: Outside Snatch Flow 2nd run** — refine the outside-arc snatch; paired with a fresh Brutal Complex (@Asgooch, row + pushup). Runs long on purpose.",
+        "**Legs: squat 3rd working set at 80 (optional, end-early OK); leg curl steps to 80→110.**",
+        "**Bulgarian is on the Smith @45 by default now** — the track forces the deeper squat.",
+        "**Push cable-block order rotated** (tri ext first) — no lift dead-last two weeks running.",
+        "**Equipment fixes live:** face pull = adjustable pulley + rope; high cable curl load restored; lat pulldown dual-pulley 70/side.",
+        "**Morning flow rotates ~half** — rehab anchors + pushup greasing never rotate."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w23.json"
+    },
+    {
+      "week": 24,
+      "label": "The 55 Gate Opens (Push) + Two Flows Back From the Bench (Tue) — Brace First on Legs",
+      "description": "**Warmups are baked into each day's description as a reminder.**\n\n**Push:** incline DB earned its bump — 50, 50, then **55 on the last set**. The cable block finishes its rotation with the **lat raise leading**, and every cable lift now lists a rope-pulley number next to its column number, so an occupied station doesn't turn into guesswork mid-session.\n\n**Tuesday goes back to the bench** and pulls two flows off it: the **B-Stance Flow** (its longest absence in the program) and the **Leggy Flow**. Both are chains you already know, run for quality instead of order — and almost nothing goes overhead, which is the counterweight to gauntlet week. Cossacks return to the warmup.\n\n**Thursday** runs the Outside Snatch Flow's second pass plus the Brutal Complex.\n\n**Legs leads with the brace.** Last week the 45 felt awful and the 80s got better every set once the breathing and bracing came together — so the brace gets rehearsed in the warmup, drilled at 45, and expected at 80. Three working sets is standard now. Leg curl keeps the **back-seat-at-5** setup and runs 90 → 100 → 110. **Stations get taken as they come free** — the printed order is the ideal grouping, not a rule.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — Incline DB to 55 on the last set (spotlight: incline DB + Kinesis fly; lat raise leads the cable block)",
+          "type": "workout",
+          "workoutId": "fb-w24-push",
+          "flow": {
+            "workoutId": "fb-w24-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Today: PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB TUESDAY — 🌀 B-Stance Flow returns + Leggy Flow (cossacks back in the warmup)",
+          "type": "workout",
+          "workoutId": "fb-w24-kb-full",
+          "flow": {
+            "workoutId": "fb-w24-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Spotlight: lat pulldown + face pull (name the stack)",
+          "type": "workout",
+          "workoutId": "fb-w24-pull",
+          "flow": {
+            "workoutId": "fb-w24-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Today: PULL add-on** — dead hang 25s + scapular pulls ×10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB THURSDAY — 🌀 FLOW + COMPLEX DAY (Outside Snatch Flow 2nd run + Brutal Complex; runs long)",
+          "type": "workout",
+          "workoutId": "fb-w24-kb-cond",
+          "flow": {
+            "workoutId": "fb-w24-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — Brace First (spotlight: squat depth + incline RDL; leg curl at seat position 5)",
+          "type": "workout",
+          "workoutId": "fb-w24-legs",
+          "flow": {
+            "workoutId": "fb-w24-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W24 flow (low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, straddle reaches, happy baby). **Today: LEGS add-on** — cross-leg lateral lean + 90s pigeon each side + supine spinal twist."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "**Incline DB: 50, 50, then 55 on the last set** — the pack-down surviving all twelve is what opened the gate.",
+        "**Cable block order completes its rotation: lat raise first, tri ext middle, straight-arm last.** Both a column and a rope-pulley number are listed for each — log which you used.",
+        "**Tuesday brings back the B-Stance Flow and the Leggy Flow** — known chains, run for quality. Barely any overhead work, on purpose.",
+        "**Cossacks return to the KB warmup** — unassisted now, so depth is the project.",
+        "**Legs: brace from the ramp.** Three working sets at 80; the 45 feeling heavy predicts nothing.",
+        "**Leg curl keeps the back seat at position 5** — 90 → 100 → 110 in three sets.",
+        "**Take stations as they come free** — the printed order groups equipment, but availability wins. Only the calf raise is fixed to the leg press.",
+        "**Pull spotlights: lat pulldown + face pull — and NAME the stack** the face pull ran on.",
+        "**Morning flow rotates ~half** — rehab anchors + pushup greasing never rotate."
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w24.json"
+    },
+    {
+      "week": 25,
+      "label": "55 On Purpose (Push) + Bent Press Flow Returns (Tue) — Curls Go First on Pull, RDL Plate Moves on Legs",
+      "description": "**Warmups are baked into each day's description as a reminder.**\n\n**Push:** incline DB opens at **55 across all three sets** — last week it got there by accident and held, so this is the deliberate run with nothing stacked on top. Push press changes shape instead of load: strict reps until the strict rep stops being strict, then the leg drive finishes the set. **Dips go back to the angled bar** — the straight-bar experiment answered clearly in the other direction. Cable block restarts its rotation with the tri ext leading.\n\n**Tuesday brings the Bent Press Flow back.** It's the program's oldest canonical chain and it had quietly drifted off Tuesday — exactly the kind of thing rotation is supposed to prevent. The Dead Cluster Flow closes the day. **New: the single-arm kettlebell curl** joins the strength block, left arm first, on both KB days. The figure-8 → tactical clean finisher gets written onto the sheet instead of being added in.\n\n**Pull runs one experiment: the incline curl goes FIRST**, before both rows, so the left arm gets tested fresh instead of after two rows have used up the biceps. One week only. The number that decides it is whether the left still gets 10 at 90 on the DB row. High cable curl builds 180 → 190 → 200.\n\n**Thursday repeats rather than rotates**, for one reason: the Brutal Complex was never actually run at the right bell. Opening at 50 turned three rounds into one honest one and two on empty. **35, written as a number, with rounds as the variable.**\n\n**Legs moves the incline RDL plate for the first time in months** — the tempo lever got pushed harder than prescribed last week and the lift still didn't respond. **Hip abduction + adduction join as maintenance**, paid for by cutting the leg press to three sets. Nordic curl is written in as the leg-curl fallback.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — 55 on purpose (spotlight: dips + farmer carry; cable rotation restarts)",
+          "type": "workout",
+          "workoutId": "fb-w25-push",
+          "flow": {
+            "workoutId": "fb-w25-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W25 flow — rotated: puppy pose + cat-cow, thread-the-needle, dead bug, spiderman plank, wide plié pulses, couch stretch, happy baby. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **Today: PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "KB TUESDAY — 🌀 Bent Press Flow returns + Dead Cluster Flow (NEW: KB curl, left first)",
+          "type": "workout",
+          "workoutId": "fb-w25-kb-full",
+          "flow": {
+            "workoutId": "fb-w25-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W25 flow — rotated: puppy pose + cat-cow, thread-the-needle, dead bug, spiderman plank, wide plié pulses, couch stretch, happy baby. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 3,
+          "label": "PULL — Curls go FIRST (spotlight: chest-supported row + incline curl)",
+          "type": "workout",
+          "workoutId": "fb-w25-pull",
+          "flow": {
+            "workoutId": "fb-w25-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W25 flow — rotated: puppy pose + cat-cow, thread-the-needle, dead bug, spiderman plank, wide plié pulses, couch stretch, happy baby. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **Today: PULL add-on** — dead hang 25s + scapular pulls ×10."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB THURSDAY — 🌀 Outside Snatch Flow + Brutal Complex at 35 (runs long)",
+          "type": "workout",
+          "workoutId": "fb-w25-kb-cond",
+          "flow": {
+            "workoutId": "fb-w25-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W25 flow — rotated: puppy pose + cat-cow, thread-the-needle, dead bug, spiderman plank, wide plié pulses, couch stretch, happy baby. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **Skip the day-specific add-on** — the in-workout banded prep covers the equivalent."
+          }
+        },
+        {
+          "day": 5,
+          "label": "LEGS — RDL plate moves to 55 (spotlight: Bulgarian + leg press; hip machines join)",
+          "type": "workout",
+          "workoutId": "fb-w25-legs",
+          "flow": {
+            "workoutId": "fb-w25-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W25 flow — rotated: puppy pose + cat-cow, thread-the-needle, dead bug, spiderman plank, wide plié pulses, couch stretch, happy baby. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **Today: LEGS add-on** — cross-leg lateral lean + 90s pigeon each side + supine spinal twist."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w25.json"
+    },
+    {
+      "week": 26,
+      "label": "Three Gym Days Front-Loaded (Mon–Wed), KB in the Back Half — Both Presses Move, the Clean Read on Pull, a Short Legs Day",
+      "description": "**The week is compressed on purpose — three gym days back to back Monday, Tuesday, Wednesday, then kettlebell work in the back half.** A baby is arriving Wednesday evening, so this week gets restructured around one question: **which sessions need the gym, and which ones don't.** Push, pull and legs need Arrilaga — the pull-up bar, the pulldown machine, the cable column, the leg press. The kettlebell days need a bell and a corner. So the gym days move to the front while the gym is still reachable, and the KB days move to the back half where they can run in whatever twenty-minute window opens up — at home, between things, as a break rather than an appointment. **That's the rule worth keeping for every compressed week from here: spend the scarce gym slot on the session that can't be done anywhere else.**\n\nTwo consequences worth naming. **Push and pull ran back to back for the first time**, which used to be too much and no longer is — the pull-ups took the visible hit and everything downstream ran fine or better. And **Wednesday's legs day is deliberately short**: the Nordic curl, the Bulgarians and the heavy squat probe come out, because peak soreness would land Thursday and Friday, on a lot of standing and stairs. The squat holds at 80 with depth as the whole job, the leg press carries the volume, nothing goes near failure.\n\n**Push moves three loads at once, which is unusual here** — the push press to **50**, a top set of **60** on the incline DB before dropping to 55, the DB lateral raise to **20**, and the farmer carry finally off 50 to **60 per hand**. They move because three separate ceilings went quiet at once. What holds constant is the method that unlocked them: **two-minute rests and reps taken as singles.** Don't change the method in the same week the numbers move. The bottoms-up carry replaces the bottoms-up press in the warmup.\n\n**Pull changes nothing structural, and that's the point.** Curls-first is permanent now. Three loads moved last week and all three stick — lat pulldown 150-160, cable crunch 82.5, face pull 60+. **This is also the first uncontaminated week for the left arm**, so whatever it does on the first curl is real information.\n\n**The KB days keep their full design, and they're there if a window opens — not owed.** Three gym days are already banked; the KB days are a break from the room, not a debt. Run one, run both, run neither — the week is complete either way. Nothing is trimmed just because they moved:** The Bent Press Flow keeps the anchor slot with your own ladder written in — **2 rounds per side at 25, 2 at 35, 2 at 45.** The **Overhead Mobility Complex comes back after six weeks off**, at a light bell, because the one real gap on this program is loaded overhead *stability*: plenty of pressing strength, nothing that trains the shoulder to stay stacked while the body moves underneath it. If the right shoulder talks, that complex is the first thing to cut. The conditioning day carries the press tempo structure — one lever per set at 50: pause up, pause down, slow eccentric, and **the last set is capped by the descent, not by failure.** The B-Stance Flow returns after the Outside Snatch Flow's four-week run.\n\n**Warmups are baked into each day's description as a reminder.**",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "PUSH — push press 50, incline top set 60 (spotlight: push press + DB lateral raise)",
+          "type": "workout",
+          "workoutId": "fb-w26-push",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "PULL — moved up to Tuesday (spotlight: pull-up + DB row; curls-first is permanent)",
+          "type": "workout",
+          "workoutId": "fb-w26-pull",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: PULL add-on** — dead hang, scapular pulls, side-lying external rotation."
+          }
+        },
+        {
+          "day": 3,
+          "label": "LEGS — short session, machines and the familiar squat (spotlight: squat depth + calf raise)",
+          "type": "workout",
+          "workoutId": "fb-w26-legs",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: LEGS add-on** — cross-leg lateral lean + 90s pigeon each side + supine spinal twist."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB FULL (if a window opens) — 🌀 Bent Press Flow laddered 25/35/45 + Overhead Mobility Complex returns",
+          "type": "workout",
+          "workoutId": "fb-w26-kb-full",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: KB add-on** — wall angel, side-lying external rotation, dead hang."
+          }
+        },
+        {
+          "day": 5,
+          "label": "KB CONDITIONING (if a window opens) — 🌀 B-Stance Flow + the press tempo structure",
+          "type": "workout",
+          "workoutId": "fb-w26-kb-cond",
+          "flow": {
+            "workoutId": "fb-w26-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W26 flow — rotated: low-lunge thoracic rotation, inchworm walkout, McGill crunch, plank shoulder taps, fire hydrants, frog stretch, straddle reaches. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session.** **Today: KB add-on** — wall angel, side-lying external rotation, dead hang."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w26.json"
+    },
+    {
+      "week": 27,
+      "label": "Short Week, Tuesday Start — Push → Legs → Pull, KB Optional on Friday",
+      "description": "**The week starts Tuesday and runs four days.** Three gym days back to back, then a kettlebell session on Friday that is genuinely optional — take it if a window opens, and the week is complete either way.\n\n**Legs goes in the middle, and that is the whole structural decision.** The instinct is to trail legs at the end because it is the biggest day, but the real problem is that push and pull are the two days sharing shoulders and grip. Running them back to back last week cost the pull-ups — 8 / 7 / 6 and then singles, down from 10 / 8 / 7 / 5, on the lift that has improved most in the program. Legs is order-insensitive and pull is not, so legs becomes the buffer that gives the shoulders a full forty-eight hours at no cost to itself. **Thursday is the clean read on whether that explanation was right.**\n\n**Thursday is also the short day.** Chest-supported row, reverse fly and cable crunch come out — one row is enough, the face pull covers the rear delt, and the third day is where a week with a newborn is most likely to get compressed.\n\n**Two things come back this week.** Knee-flexion work returns on legs day after falling off when the last legs day was trimmed — on the kneeling leg curl, one leg at a time, since the seated machine is still broken. And the Leggy Flow returns on Friday after two weeks off, paired with the kickstand 5-4-3-2 complex getting its first run.\n\n**Loads mostly hold.** The incline DB press is the exception — it ran 60 for three sets without approaching failure, so it opens at 60 with a door at 65 on the last set. The high cable curl steps up 10 across the ladder, which was your call. Everything else is a clean honest run at known numbers after a fortnight interrupted.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "TUESDAY · PUSH — incline press opens at 60 with a door at 65 (spotlight: incline DB press + dips)",
+          "type": "workout",
+          "workoutId": "fb-w27-push",
+          "flow": {
+            "workoutId": "fb-w27-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W27 flow — rotated: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session, and that has been more reliable than sleep quality.** **Today: PUSH add-on** — doorframe pec stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "WEDNESDAY · LEGS — knee flexion returns, one leg at a time (spotlight: kneeling leg curl + incline RDL)",
+          "type": "workout",
+          "workoutId": "fb-w27-legs",
+          "flow": {
+            "workoutId": "fb-w27-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W27 flow — rotated: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session, and that has been more reliable than sleep quality.** **Today: LEGS add-on** — cross-leg lateral lean + 90s pigeon each side + supine spinal twist."
+          }
+        },
+        {
+          "day": 3,
+          "label": "THURSDAY · PULL — short day, and the pull-up question gets answered (spotlight: pull-ups + face pull)",
+          "type": "workout",
+          "workoutId": "fb-w27-pull",
+          "flow": {
+            "workoutId": "fb-w27-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W27 flow — rotated: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session, and that has been more reliable than sleep quality.** **Today: PULL add-on** — dead hang, scapular pulls, side-lying external rotation."
+          }
+        },
+        {
+          "day": 4,
+          "label": "FRIDAY · KB (if a window opens) — 🌀 Leggy Flow returns + the kickstand 5-4-3-2 complex",
+          "type": "workout",
+          "workoutId": "fb-w27-kb-full",
+          "flow": {
+            "workoutId": "fb-w27-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W27 flow — rotated: world's greatest stretch, down-dog knee-to-head, hip-flexor lunge, bird-dog, side plank, plié-relevé, saddle pose, straddle sit. Anchors stay: scorpion, lizard, cossack, push-up greasing set. **The cossacks are the readiness read — how they feel predicts the session, and that has been more reliable than sleep quality.** **Today: KB add-on** — wall angel, side-lying external rotation, dead hang."
+          }
+        },
+        {
+          "day": 5,
+          "label": "SATURDAY · ZONE 2 / OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Stairmaster",
+              "type": "activity",
+              "activity": {
+                "name": "Stairmaster Zone 2",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Steady climb, 120-140bpm. Conversational pace."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "SUNDAY · REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w27.json"
+    },
+    {
+      "week": 28,
+      "label": "Short, Flexible Week — Push → Legs → Pull, Two KB Sessions When a Window Opens",
+      "description": "**This week is deliberately short and flexible around a newborn and broken sleep.** The three gym sessions run Push → Legs → Pull, with Legs in the middle so the two shoulder- and grip-heavy days sit a full 48h apart. Run them Monday–Tuesday–Wednesday if three consecutive windows open, or Monday–Wednesday–Friday if recovery and the calendar need more room. When the calendar allows, take the recovery day after Legs and run Pull on Friday. Pull is the short day and it comes last, when you are most likely to be tired or time-crunched. The two kettlebell sessions are optional after the gym work whenever a short window opens. Missing either does not make the week incomplete.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — short presses, incline DB + dips",
+          "type": "workout",
+          "workoutId": "fb-w28-push",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: PUSH add-on** — doorframe chest stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — depth through bracing and paused squats",
+          "type": "workout",
+          "workoutId": "fb-w28-legs",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: LEGS add-on** — cross-leg lateral stretch and supine spinal twist."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — bodyweight pull-ups, short or regular by energy",
+          "type": "workout",
+          "workoutId": "fb-w28-pull",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: PULL add-on** — dead hang, scapular pulls, side-lying external rotation."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Outside Snatch Flow + Brutal Complex",
+          "type": "workout",
+          "workoutId": "fb-w28-kb-cond",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Leggy Flow + Kickstand 5-4-3-2",
+          "type": "workout",
+          "workoutId": "fb-w28-kb-full",
+          "flow": {
+            "workoutId": "fb-w28-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W28 flow — hollow-body hold replaces the dead bug; frog stretch returns deliberately and saddle pose stays. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w28.json"
+    },
+    {
+      "week": 29,
+      "label": "Short Week, Week Three of the Newborn — Push → Legs → Pull, Two Optional KB Sessions",
+      "description": "**Short and flexible again — week three of a newborn, and the sleep is improving but not fixed.** The three gym sessions run Push → Legs → Pull, with Legs in the middle so the two shoulder- and grip-heavy days sit a full 48h apart. Run them on whichever three windows open; if the calendar allows, take the recovery day after Legs. Pull is the short day and it comes last, when you are most likely to be tired.\n\n**What is new this week:** dips get a written 2-minute rest and move to 10-12, the squat's third set goes on 5lb plates under the heels, the barbell RDL takes its slot right after the squat at the same rack, and the incline curl runs 25 on both arms.\n\nThe two kettlebell sessions are optional whenever a short window opens. Missing either does not make the week incomplete.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — short presses, dips get their rest",
+          "type": "workout",
+          "workoutId": "fb-w29-push",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: PUSH add-on** — doorframe chest stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — heel-elevated top set, barbell RDL at the rack",
+          "type": "workout",
+          "workoutId": "fb-w29-legs",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: LEGS add-on** — knee-to-wall measurement (both sides, write it down) and the cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — short day, incline curl at 25 both arms",
+          "type": "workout",
+          "workoutId": "fb-w29-pull",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: PULL add-on** — dead hang, scapular pulls, and the light bicep set before the bar."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Bent Press Flow + B-Stance Flow",
+          "type": "workout",
+          "workoutId": "fb-w29-kb-full",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Dead Cluster Flow + Overhead Mobility",
+          "type": "workout",
+          "workoutId": "fb-w29-kb-cond",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w29.json"
     }
   ],
   "tips": [
@@ -1023,5 +3465,17 @@
     ],
     "cycleNote": "This is a multi-week program. Each week has its own set of workouts. Complete all sessions in a week before moving to the next. New weeks are developed over time based on your progress and goals.",
     "weeklyStructure": "Mon: Push (Gym) → Tue: KB Full Body → Wed: Pull (Gym) → Thu: KB Conditioning → Fri: Legs (Gym) → Sat: Zone 2/Optional → Sun: Rest"
-  }
+  },
+  "pages": [
+    {
+      "label": "Baby Interim — Workout Lookup",
+      "slug": "baby-interim-lookup",
+      "file": "/static/notes-baby-interim-lookup.md"
+    },
+    {
+      "label": "Baby Interim — Playbook",
+      "slug": "baby-interim",
+      "file": "/static/notes-baby-interim.md"
+    }
+  ]
 }

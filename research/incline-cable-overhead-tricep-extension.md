@@ -3,6 +3,11 @@
 **Date:** 2026-03-02
 **Source:** [@CoachFHM (Francis Melia)](https://x.com/CoachFHM)
 
+
+> **⚠️ Correction (2026-08-18) — this note describes the SOURCE VIDEO's version, not the movement Jan actually does.**
+> This page says "low/mid pulley behind you, lie back, arms overhead." Jan's version has always been a **HIGH pulley, kneeling on the floor, torso leaned BACK ~45°, hands starting near the chest and extending straight down to the hips** — the arms never go behind the head. That's what `exercises/incline-cable-overhead-tricep-extension.json` (now displayed as **Lean-Back Cable Tricep Extension**) has said since W2.
+> This page is where the "overhead / behind the head" framing leaked from into the W13-W26 weekly cues. **Do not write weekly cues off this page** — use the exercise file and `form-cues-2026.md`.
+
 ## The Exercise
 
 Set up an adjustable bench at ~45° incline facing away from a cable machine. Rope or bar attached to a low/mid pulley behind you. Lie back, arms overhead, and do tricep extensions.

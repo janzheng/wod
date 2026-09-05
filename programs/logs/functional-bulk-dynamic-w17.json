@@ -1,0 +1,246 @@
+[
+ {
+  "day": 1,
+  "workoutId": "fb-w17-push",
+  "date": "2026-06-15",
+  "rawInput": "w17d1\n\npush press\n- 45x10\n- 45x10\n- 45x8 still losing it at 8 probably need to rest more actually i'm basically going after 30s\n\nincline press\n- 45x12\n- 45x12\n- resting more and writing this\n- 45x12 yeah rest helps apparently\n- these feel like a stamina push than a strength push at this point - is that correct?\n\nlat raises these are always hard but also getting used to them? form feels good and doing these slow did all sets\n\ndips\n- first set did one down one up most full ish rom to get feeling down, really hard to lead with chest body kind of bobs up trying to extend feet behind me folded; did 12 tho\n- slow up slow down had to break up into two 6 sets; went as far rom as i can down until can't go up anymore and then went up slowly; super hard but feels nothing like a weight chest press feels like i should add something like sternum presses or similar to round this one out with incline db?\n- did another 8 full rom 1:1 and got stopped out trying to do 9\n\nkinesis fly super hard today but did all\n\ncable rope pulley overhead tricep pull - cable column taken so going to this first\n- 30lb x 12\n- 30x12 ok prob too easy for me\n- went to 35 and died at 10\n- i'm leaning forward towards the rope pulley and keeping everything locked, on knees and heels, making sure there's little momentum and locking elbows as much as possible- third set really hard and kind of broke this form ha\n\nstraight arm on rope pulley at 57.5 tilted forward leaned also locked and straight arm at maybe 45 angle body - 57.5x 12 insanely hard lol - front pec acting up\n50 x12 way better working weight lol\n50 x12 still dying at end\n\nstraight arm lat raise at 10lb d handle regular pulley at ankle height 3x 12 went fine felt about the same as cable column\n\nAll in all everything went well; still feels like a fairly long workout so I dont think another chest press can be added to this; still very tired at the end lol\n\nI think I took notes on all of them? Might have forgotten",
+  "notes": "W17 push, steady-state — a clean session with one real through-line: **rest is the lever.** Push press 10/10/8 again (matches W16's best-to-date), but set 3 faded to 8 on only ~30s rest — user's own read: 'probably need to rest more.' Incline DB 45x12x3, and the last set completed once he rested longer ('yeah rest helps apparently'). **Dips debuted and landed well** — bodyweight 12 / (6+6) / 8 at fuller-than-prescribed ROM, 'super hard,' 'feels nothing like a weight chest press' (correct — stretch-position bodyweight push, different stimulus) and crucially NO front-shoulder complaint on the at-risk new move. Lateral raise 15lb all sets, 'getting used to them, form feels good.' Kinesis fly 9, 'super hard but did all.' **The whole cable block ran on the rope/regular PULLEY this week (cable column was taken)** — new equipment variants: overhead tri ext pulley 30(easy)→35(died at 10); straight-arm pulldown pulley 57.5 'insanely hard, front pec acting up' → 50 working; cable lateral raise on a regular pulley d-handle at ankle height, 10lb, 'felt about the same as cable column' (≈ column 30). Two questions answered in conversation (stamina-vs-strength; sternum-press add). User flags the day is at capacity — 'fairly long workout... very tired at the end.' Farmer carry + cool-down not separately narrated — not asserting either way.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "push-press",
+    "context": "Ran first; resting only ~30s between sets (well under the prescribed 2 min)",
+    "sets": [
+     { "weight": "45lb each", "reps": 10 },
+     { "weight": "45lb each", "reps": 10 },
+     { "weight": "45lb each", "reps": 8, "notes": "'Still losing it at 8 — probably need to rest more, actually i'm basically going after 30s.'" }
+    ],
+    "notes": "45/side, 10/10/8 — matches W16's best-to-date. Set 3 dropped to 8 again, but the user diagnosed it himself: resting only ~30s vs the prescribed 120s. So the set-3 fade reads as **under-rest, not a load ceiling.** Fuller rest (toward 2 min) is the lever to test — expect set 3 to hold 10. Hold 45."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "context": "Rested longer between sets (paused to write notes) and noticed it helped",
+    "sets": [
+     { "weight": "45lb pair", "reps": 12 },
+     { "weight": "45lb pair", "reps": 12 },
+     { "weight": "45lb pair", "reps": 12, "notes": "Completed after a longer rest — 'yeah rest helps apparently.'" }
+    ],
+    "notes": "45 pair, 12/12/12 — held all three, and fuller rest let the last set complete cleanly. Same 45/12 territory as W14-W16. **User asked: do 12 reps 'feel like a stamina push than a strength push'?** Answered in conversation — yes, 12 reps is the hypertrophy/endurance range by design (form-first program, not low-rep max strength); the short rest amplifies the stamina feel, and more rest is what makes each set express more strength."
+   },
+   {
+    "id": "lateral-raise",
+    "sets": [
+     { "weight": "15lb", "reps": "15-18" },
+     { "weight": "15lb", "reps": "15-18" },
+     { "weight": "15lb", "reps": "15-18" }
+    ],
+    "notes": "15lb, all sets, slow. 'Always hard but also getting used to them, form feels good.' The medial-delt target-muscle line added to the W17 cue (answering the W16 question) — the 'getting used to them / form feels good' read suggests the cue landed. Hold 15, slow eccentric."
+   },
+   {
+    "id": "dip",
+    "context": "**Debut in the program.** Bodyweight, full-ish ROM (deeper than the prescribed shallow ease-in)",
+    "sets": [
+     { "weight": "bodyweight", "reps": 12, "notes": "Set 1, one-down-one-up to find the groove, full-ish ROM. 'Really hard to lead with chest, body kind of bobs up trying to extend feet behind.'" },
+     { "weight": "bodyweight", "reps": "6+6 (broke up)", "notes": "Slow up / slow down, full ROM down until can't go up, then up slowly. 'Super hard but feels nothing like a weight chest press.'" },
+     { "weight": "bodyweight", "reps": 8, "notes": "Full ROM, 1:1 tempo; stopped out trying for a 9th." }
+    ],
+    "notes": "**Dips landed as a genuinely new, hard stimulus — 12 / (6+6) / 8 bodyweight, fuller ROM than the prescribed ease-in, and NO front-shoulder complaint flagged** (the at-risk move stayed quiet even deep — a good sign). 'Feels nothing like a weight chest press' is correct and expected: a stretch-position bodyweight push with stabilization demand vs a fixed-path machine — different stimulus by design. User mused about adding 'sternum presses or similar to round this out with incline db,' then concluded himself there's no room ('fairly long workout... don't think another chest press can be added'). No add — the day already covers chest three ways (incline DB, dips, Kinesis fly). Chest-lead / body-bob is the new-pattern groove and will settle. W18 dips earn spotlight cues; the fuller ROM can stay since the shoulder tolerated it. Follow-up: the dips put 'a little more pressure on the front pec but not the shoulder' — expected for a chest-bias dip (the front-pec insertion is loaded in the bottom stretch); pressure, not pain."
+   },
+   {
+    "id": "kinesis-cable-fly",
+    "equipment": "Kinesis",
+    "sets": [
+     { "weight": "Kinesis 9", "reps": "10-12" },
+     { "weight": "Kinesis 9", "reps": "10-12" },
+     { "weight": "Kinesis 9", "reps": "10-12" }
+    ],
+    "notes": "Working weight 9, 'super hard today but did all.' Same as W16. Hold 9. (The light warmup-opener fly that was added to W17 wasn't separately narrated — this is the working station.)"
+   },
+   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "equipment": "cable pulley (rope) — kneeling; cable column was taken, so the whole cable block ran on the pulley and this lift went FIRST",
+    "context": "New equipment variant this session — the usual is cable column 70",
+    "sets": [
+     { "weight": "30", "equipment": "cable pulley (rope)", "reps": 12 },
+     { "weight": "30", "equipment": "cable pulley (rope)", "reps": 12, "notes": "'Ok prob too easy for me.'" },
+     { "weight": "35", "equipment": "cable pulley (rope)", "reps": 10, "notes": "'Went to 35 and died at 10.'" }
+    ],
+    "notes": "**New equipment variant — cable rope PULLEY, not the usual cable column 70.** Column was taken, so the cable block moved to the pulley and this went first. 30 'too easy,' stepped to 35 and 'died at 10' — so the pulley working number is ~35 (a different stack scale from the column's 70). Kneeling, leaning toward the pulley, elbows locked, minimal momentum; set 3 'really hard and kind of broke this form.' Added to the calibration table in NOTES.md."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "equipment": "cable pulley (rope)",
+    "context": "New equipment variant this session — the usual is cable column 120",
+    "sets": [
+     { "weight": "57.5", "equipment": "cable pulley (rope)", "reps": 12, "notes": "'Insanely hard lol — front pec acting up.'" },
+     { "weight": "50", "equipment": "cable pulley (rope)", "reps": 12, "notes": "'Way better working weight.'" },
+     { "weight": "50", "equipment": "cable pulley (rope)", "reps": 12, "notes": "'Still dying at end.'" }
+    ],
+    "notes": "**New equipment variant — cable rope PULLEY, not the usual cable column 120.** Leaned/tilted forward ~45°, locked, straight-arm. 57.5 'insanely hard' and the **front pec acted up** — the user backed off (correctly) to 50, 'way better working weight,' still dying by the end. Pulley working number = 50 (vs column 120 — different scale). The front-pec flag was the load signal on the one set; resolved on the drop. Added to the calibration table."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "equipment": "regular pulley, d-handle, ankle height",
+    "context": "User's 'straight arm lat raise' — new equipment variant; the usual is cable column 30",
+    "sets": [
+     { "weight": "10lb", "equipment": "regular pulley, d-handle, ankle height", "reps": 12 },
+     { "weight": "10lb", "equipment": "regular pulley, d-handle, ankle height", "reps": 12 },
+     { "weight": "10lb", "equipment": "regular pulley, d-handle, ankle height", "reps": 12 }
+    ],
+    "notes": "**New equipment variant — regular pulley with a d-handle at ankle height, 10lb.** 'Went fine, felt about the same as cable column' — so regular-pulley 10lb ≈ cable column 30 (the established pain-free number). Equivalence logged to the calibration table. The pain-free lateral-raise streak continues."
+   }
+  ],
+  "shoulderStatus": "A good push-day report. Push press stable at 10/10/8 (no shoulder flag). **Dips — the at-risk new move — produced NO front-shoulder complaint even at fuller-than-prescribed ROM**, which is the headline good sign. One load-driven blip: the **front pec 'acting up' on the straight-arm pulldown at pulley 57.5**, which resolved immediately on the drop to 50 (the user self-corrected). Net: clean. The notable pattern this session: the structure giving feedback was the FRONT PEC, not the shoulder — extra front-pec pressure on the dips (expected for a chest-bias dip) plus the pec flag on the straight-arm pulldown at 57.5. The at-risk shoulder stayed quiet throughout. The sensitive structure right now is the front-pec muscle, not the joint — a manageable shift (load on muscle, not joint); watch that the dip front-pec stays 'pressure,' not pain.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Rest is the lever this week.** Push press set 3 fades to 8 on ~30s rest (user: 'probably need to rest more'); incline press completes when he rests longer ('rest helps apparently'). Encourage fuller rest toward the prescribed 2 min on the presses — expect the set-3 reps to recover. This is rest, not a load ceiling; don't drop weight.",
+   "**Dips debuted well — bodyweight 12/(6+6)/8, full ROM, NO shoulder complaint.** The at-risk move stayed quiet even deeper than the prescribed ease-in. 'Feels nothing like a chest press' is correct (different stimulus). W18: dips earn spotlight cues; keep bodyweight, the fuller ROM can stay since the shoulder tolerated it. No 'sternum press' add — the user himself said no room and the chest is already covered three ways (incline DB, dips, Kinesis fly).",
+   "**Incline press 'stamina vs strength' question** — 45x12x3 is the hypertrophy/endurance range by design (form-first, not max-strength). If it ever needs to feel 'stronger,' the lever is more rest (already discovered), not heavier load into the at-risk front shoulder. Fuzzy progression: the win is 45 getting easier, not chasing a low-rep max.",
+   "**New cable-PULLEY calibration (column was taken):** overhead tri ext pulley ~35 (vs column 70); straight-arm pulldown pulley 50, with 57.5 too hard + front-pec flag (vs column 120); cable lateral raise on a regular-pulley d-handle at ankle height = 10lb ≈ column 30. Added to the NOTES.md calibration table — the W18 cable block should list these pulley numbers alongside the column/Kinesis options.",
+   "**Push day is at capacity** — 'fairly long workout... don't think another chest press can be added... very tired at the end.' Don't add to push day; any new chest work is a swap, not an add."
+  ]
+ },
+ {
+  "day": 2,
+  "workoutId": "fb-w17-kb-full",
+  "date": "2026-06-16",
+  "rawInput": "w17d2\n\nkb leggy flow is really marked wrong and also not referencing the actual workout - the entire bundle needs to be referenced not just each exercise it's completely fugged - the flow is actually correct! but reference is messed up and the IA is fucked here\n\nit's a really hard one and confusing to boot makes me super tired but not actually hard?\n\nthis feels like a super short workout but i'll take it lol\n\ndid 50 around the world each side; 3 sets of rows on 50; 3 sets of 30 kb swings\n\nflows are great but we shouldn't cut all the other stuff - look back at the history and you'll see we've had a flow section and a workout section",
+  "notes": "Leggy Flow Tuesday, single bell. User found the flow 'confusing' and tiring 'but not actually hard' — coordination/novelty fatigue, not load. Flagged it ran too short as a flow-only day and that KB Tuesdays have historically carried both a flow section AND a workout section; self-supplemented with around-the-world (50lb, each side), 3× KB row @50, and 3×30 swings. Also flagged an IA problem: the weekly leggy block isn't linked to the canonical kb-leggy-flow bundle (the flow content itself is correct).",
+  "exercises": [
+   {
+    "id": "kb-leggy-flow",
+    "context": "The prescribed flow section — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean, single bell, unilateral",
+    "notes": "Done as prescribed. 'Really hard one and confusing to boot, makes me super tired but not actually hard' — light load; the fatigue is coordination/novelty from a new chained flow. Expected; smooths with reps."
+   },
+   {
+    "id": "kettlebell-around-body-pass",
+    "sets": [
+     { "weight": "50lb", "reps": "each side" }
+    ],
+    "notes": "User's 'around the world,' 50lb each side — logged as the around-the-body pass. (If it was the single-leg variant, 50lb is notably heavy; rawInput preserves the exact wording.)"
+   },
+   {
+    "id": "kettlebell-row",
+    "sets": [
+     { "weight": "50lb" },
+     { "weight": "50lb" },
+     { "weight": "50lb" }
+    ],
+    "notes": "3 sets at 50lb. Self-added pull work to round out the leggy flow."
+   },
+   {
+    "id": "kettlebell-swing",
+    "sets": [
+     { "reps": 30 },
+     { "reps": 30 },
+     { "reps": 30 }
+    ],
+    "notes": "3 × 30. Self-added posterior/conditioning finisher; bell weight not specified."
+   }
+  ],
+  "shoulderStatus": "Easy-shoulder day by design — the leggy flow keeps the bell at the rack and below (no overhead), and the supplemental rows / swings / around-the-world are all non-overhead. No shoulder flag.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Restore the two-section KB-day template.** KB Tuesday ran too short as flow-only. The user's standing point (echoing W15D2's 'swap in a brand new kb strength workout from our massive stash'): KB days carry a flow section AND a workout/strength section. The leggy Tuesday file was updated to add a complementary Strength + Conditioning block (row / suitcase DL / around-the-body pass / swing) from the wider KB library.",
+   "**The user's self-selected supplemental work is the template for the workout section** — around-the-world (core/coordination), rows (pull), swings (posterior). It deliberately covers what the leggy / lateral flow doesn't. Keep the workout section biased to pull + posterior + core, shoulder-easy.",
+   "**Leggy Flow read as 'confusing, tiring, but not actually hard'** — coordination novelty, not load. Per the rotation plan it rotates OUT for W18 (GymVibe AMRAP takes Tuesday); cycle it back later rather than dropping it for good.",
+   "**IA flag (open):** the weekly leggy block re-lists the six moves instead of referencing the canonical kb-leggy-flow bundle. Decide whether to wire a true bundle reference (link / inline-resolve) vs. continuing to copy the sequence."
+  ]
+ },
+ {
+  "day": 5,
+  "workoutId": "fb-w17-legs",
+  "date": "2026-06-16",
+  "rawInput": "w17d5\n\nback squat\n- heavier it is the deeper; even with 45 depth isn't 100% but using 45 to get as deep as possible\n- 80lbs is maybe max 85% but getting there rap toward later sets, good to approach with light and heavy weights this is good keep going working weight\n- use same weight and progression; did all of them, didn't hit breaking but also don't want to go more\n\nleg press \n- feels good, doing these earlier in workout has less rom i guess since still warming up\n- feel a lot more in ql and psoas and other muscles than legs for some reason? fesls like legs barely doing anything in deep squat\n- good working weight tho keep here\n- finished all sets at this weight super rom at end - even hit the catcher before hitting rom \n\nincline rdl\n- going great doing slowly getting better and slower and easier over time; could consider pyramiding but 45 plat highest have to see how to stack lighter on 45\n\nseated leg curl\n- tries 5 m 0 -1 which felt better\n- really hard!! feeling leg muscles! 90 definitely working weight; first set at 70 to get centered and was pretty easy; second set 90 struggled to finish but all the muscles were felt throughout and done slowly\n- did all sets\n\nsmith machine split squat\navailable so trying this again\n45 per side \ndoing six per set so i don't get messed up like last time lol\nthis was fine let's see if my ql spasms again :P",
+  "notes": "W17 legs, steady-state, station-grouped — a clean, confident session. **Squat held 80/side, all 4 sets (6/7/8/8), no failure** — '~85% max, getting there, don't want to go more.' User's read: 'heavier it is the deeper' (load helps him sink), and he used 45 in the warmup to drill max depth ('even with 45 depth isn't 100%'). Confirmed: hold 80, reps/depth the lever. **Leg press 4 plates, full deep ROM** — and the design read landed: he 'feels a lot more in QL and psoas and other muscles than legs' in the deep position ('legs barely doing anything in deep squat'), which IS the intended deep-ROM core stimulus. By the end his ROM was so deep it 'hit the catcher before hitting ROM' (depth exceeds the machine's catch range). Cold = less ROM, opens by the end. **Incline RDL 45lb plate, dead slow — 'getting better and slower and easier over time'** (tempo progression working); floated pyramiding but 45 is the heaviest plate. **Seated leg curl: 70 to center (easy) then 90 working** — 'struggled to finish but all the muscles felt throughout, done slowly'; tried settings 5/m/0/-1 and it 'felt better' than the prescribed 5/m/0/1. **Smith-machine Bulgarian re-introduced cautiously** (Smith was free) at 45/side × 6 reps/set, deliberately capped 'so i don't get messed up like last time' — 'this was fine,' watching for a QL flare. Calf raise not separately narrated — not asserting either way.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated).",
+  "exercises": [
+   {
+    "id": "squat",
+    "context": "🔆 spotlight; held 80/side; used 45 in the warmup to chase max depth",
+    "sets": [
+     { "weight": "80lb each", "reps": 6 },
+     { "weight": "80lb each", "reps": 7 },
+     { "weight": "80lb each", "reps": 8 },
+     { "weight": "80lb each", "reps": 8, "notes": "All 4 sets completed, no failure — 'didn't hit breaking but also don't want to go more.'" }
+    ],
+    "notes": "80/side, full 6/7/8/8, ~85% effort, building reps in the later sets. **User finds depth easier under load** ('heavier it is the deeper') and uses the 45 warmup to drill max depth (not 100% even at 45). Confirmed working weight — hold 80, reps/depth the lever, not heavier load (his own call)."
+   },
+   {
+    "id": "leg-press",
+    "context": "4 plates; ran earlier in the session (cold = less ROM, opens by the end)",
+    "sets": [
+     { "weight": "4 plates each", "reps": 12 },
+     { "weight": "4 plates each", "reps": 12 },
+     { "weight": "4 plates each", "reps": 12 },
+     { "weight": "4 plates each", "reps": 12, "notes": "Super deep ROM by the end — 'even hit the catcher before hitting ROM' (depth exceeds the machine's catch range)." }
+    ],
+    "notes": "4 plates, full sets, deep ROM. **The deep-ROM-trains-core design read landed:** user 'feels a lot more in QL and psoas and other muscles than legs' in the deep position ('legs barely doing anything in deep squat') — exactly the intended abs/QL/core-over-quad stimulus. ROM now so deep it hits the machine catcher at the bottom. Hold 4 plates; ROM-first holds."
+   },
+   {
+    "id": "incline-rdl",
+    "context": "🔆 spotlight — dead-slow hinge",
+    "sets": [
+     { "weight": "45lb plate", "reps": 15 },
+     { "weight": "45lb plate", "reps": 15 },
+     { "weight": "45lb plate", "reps": 15 }
+    ],
+    "notes": "45lb plate, dead slow — 'going great, getting better and slower and easier over time.' The tempo progression is working as designed. User floated pyramiding, but 45 is the heaviest plate available and stacking lighter on it is awkward — keep it the tempo lift (tempo is the progression, not load). Lighter back-off sets are the only easy volume lever if he wants more; the number stays."
+   },
+   {
+    "id": "seated-leg-curl",
+    "context": "Tried settings 5/m/0/-1 (vs the prescribed 5/m/0/1) — 'felt better'; 70 to center then 90 working",
+    "sets": [
+     { "weight": "70", "reps": 12, "notes": "First set to get centered — 'pretty easy.'" },
+     { "weight": "90", "reps": 12, "notes": "'Struggled to finish but all the muscles were felt throughout, done slowly.'" },
+     { "weight": "90", "reps": 12 }
+    ],
+    "notes": "**Settings 5/m/0/-1 felt better than the prescribed 5/m/0/1 — note for W18.** 70 first set to center (easy), then 90 working: 'really hard, feeling leg muscles!' 90 confirmed working weight. W16 it was 'super super hard'; this week the 70-centering primer + slow tempo made the 90 productive. Keep the 70 primer + 90 working."
+   },
+   {
+    "id": "bulgarian-split-squat",
+    "equipment": "Smith machine (smith-machine-bulgarian-split-squat) — Smith was free",
+    "context": "Re-introduced the Smith variant cautiously, run LAST (after leg curl/RDL) when the Smith opened up",
+    "sets": [
+     { "weight": "45/side", "equipment": "Smith machine", "reps": "6 each leg", "notes": "Deliberately capped at 6 'so i don't get messed up like last time.' 'This was fine.'" }
+    ],
+    "notes": "**Smith-machine Bulgarian re-introduced cautiously** at 45/side, capped at 6 reps/set to avoid a repeat of a prior tweak ('so i don't get messed up like last time'). No spasm during — 'this was fine, let's see if my QL spasms again.' Watching for a delayed QL reaction. The double-40 DB version remains the default; Smith is the available-alternate. If it stays QL-quiet, the reps can step back up."
+   }
+  ],
+  "qlStatus": "No QL spasm during the session. Notable: the user deliberately re-introduced the Smith Bulgarian cautiously (45/side, 6 reps/set) specifically watching for a QL flare ('let's see if my QL spasms again') — none reported during. He also felt QL/psoas engagement in the deep leg press, but that's the intended deep-ROM core stimulus, not pain. Watch for any delayed QL reaction from the Smith Bulgarian over the next day or two.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Squat: hold 80** — user confirms 'don't want to go more' (~85% effort, building reps). He finds depth easier under load ('heavier it is the deeper') and uses the 45 warmup to drill depth. Keep 80; reps/depth the lever, not heavier load.",
+   "**Leg press: the deep-ROM-trains-core intent is landing** — user feels QL/psoas/core more than quads in the deep position, exactly the design. Hold 4 plates; his ROM now hits the machine catcher (depth exceeds machine range) — that's the deep-ROM win, not a problem.",
+   "**Leg curl settings 5/m/0/-1 felt better than 5/m/0/1 — update the W18 prescription.** Keep the 70-centering primer set then 90 working; that combo made the 90 productive (vs W16's 'super super hard').",
+   "**Incline RDL tempo progression is working** ('easier over time'). User floated pyramiding but 45 is the heaviest plate — keep it the tempo lift, not a load pyramid; lighter back-off sets are the only easy volume add.",
+   "**Smith Bulgarian re-introduced cautiously (45/side × 6, no spasm during).** If it stays QL-quiet, step the reps back up next time. Double-40 DB stays the default; Smith is the available-alternate."
+  ]
+ },
+ {
+  "day": 6,
+  "workoutId": "fb-w17-kb-cardio",
+  "date": "2026-06-16",
+  "rawInput": "w17d6\n\npush press did 40 45 50 with 8/7/6 reps worked great\n\neverything else was fine; kind of miss some other drills like the figure eight to tactical clean one and maybe introduce others?",
+  "notes": "W17 KB Saturday cardio, light-touch. **KB push press stepped to a 40/45/50 ascending pyramid × 8/7/6 — 'worked great.'** Overhead floor keeps rising: W16D4 was a strict press at 35/40/45; the push press (leg drive) now moves 50 for 6. Everything else 'was fine.' **Rotation request:** user 'misses some drills like the figure-8 → tactical clean' and wants new ones introduced — the carousel signal. W18: cycle the figure-8 → tactical-clean complex back in + introduce new KB drills (ties to the awaited 'weird KB' extracts).",
+  "cardio": "KB Saturday — not separately narrated.",
+  "exercises": [
+   {
+    "id": "kettlebell-push-press",
+    "context": "Ascending pyramid, leg-drive push press",
+    "sets": [
+     { "weight": "40lb", "reps": 8 },
+     { "weight": "45lb", "reps": 7 },
+     { "weight": "50lb", "reps": 6, "notes": "'Worked great.'" }
+    ],
+    "notes": "40/45/50 × 8/7/6, 'worked great.' Overhead floor rising — the strict press was 35/40/45 (W16D4); the push press now moves 50. Carry the heavier push-press range on the KB days."
+   }
+  ],
+  "shoulderStatus": "Not flagged — KB push press to 50 overhead 'worked great,' consistent with the continued overhead improvement (strict press 45, TGU 35, now push press 50). Right shoulder a non-issue on the overhead work.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**KB push press → 40/45/50 × 8/7/6, 'worked great.'** Overhead floor keeps rising (strict 35/40/45 W16 → push press 50 now). Carry the heavier push-press range on KB days.",
+   "**Rotation request — user misses the figure-8 → tactical clean and wants new drills introduced.** The carousel signal: W18 cycle the figure-8 → tactical-clean complex back in (canonical: kb-figure-8-tactical-clean-complex.json) AND introduce new KB drills (the awaited 'weird KB' extracts). Variety is cheap on KB days — rotate freely."
+  ]
+ }
+]

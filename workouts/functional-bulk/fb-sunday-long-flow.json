@@ -1,0 +1,87 @@
+{
+  "id": "fb-sunday-long-flow",
+  "name": "Sunday Long Flow — Yin/Restorative (25-30 min)",
+  "description": "**Permanent addition to the functional-bulk weekly schedule (W12D1 discussion outcome).** Long-hold yin/restorative session for the connective tissue. Morning flows are activation-grade (30-60s holds). This is *release-grade* — 90s to 2min holds, where fascia and joint capsule actually start to lengthen. Goes on the Sunday rest day. Three blocks: opening / hips / spine + shoulders / closing. Goal is parasympathetic shift + connective tissue catch-up after a heavy gym week. No equipment, floor only, can do at home.",
+  "routineId": "functional-bulk",
+  "tags": ["yoga", "yin", "restorative", "long-hold", "fascia", "recovery", "sunday", "flow", "mobility", "home", "bodyweight", "floor"],
+  "estimatedDuration": 27,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "dayOverview": {
+    "theme": "Yin-style long-hold flow for connective-tissue recovery. Morning flows wake the body; this lengthens it. 90s-2min holds are what fascia responds to — anything shorter is mobility prep, not release.",
+    "watchpoints": [
+      "**Long holds, not stretches.** Don't push to end-range and bounce. Find ~70% of available range and STAY. The release happens in time, not in depth.",
+      "**Breathe long and slow.** 4-6 breaths per minute. The parasympathetic shift IS the intervention — recovery happens in parasympathetic state, not from the stretch itself.",
+      "**Skip anything that lights up.** If pigeon or 90/90 triggers the right-shoulder grip pattern or QL spasm, bail and switch to a milder shape.",
+      "**Pair with the post-gym cool-down**, don't substitute. End-of-session cool-down is activation-release after load; Sunday flow is dedicated recovery on a non-training day. Different jobs."
+    ]
+  },
+  "sets": [
+    {
+      "id": "opening",
+      "name": "Opening — Wake the System (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "duration": 90, "notes": "Slow, full ROM. Wake the spine segment-by-segment. Match the wave to slow breathing — inhale on cow, exhale on cat." },
+        { "id": "childs-pose", "duration": 90, "notes": "Knees wide, big toes touching. Arms forward, forehead on the floor. Breathe into the back ribs — that's where parasympathetic shift starts." },
+        { "id": "puppy-pose", "duration": 90, "notes": "Knees under hips, chest sinks toward the floor with arms extended forward. Long hold of the lat + shoulder opener. **Especially relevant** for the W12 shoulder pattern — opens the pec minor/lat fascial line." }
+      ],
+      "notes": "Get the system parasympathetic before going into the long holds. Don't rush.",
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "hips",
+      "name": "Hips — Long Holds for the QL/Glute/Hip-Rotator Pattern (~10 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "butterfly-stretch", "duration": 90, "notes": "Soles together, knees out. Hinge gently from the hips — don't round the spine. Inner thigh + groin lengthen." },
+        { "id": "90-90-stretch", "duration": 180, "notes": "**90s each side.** Front leg + back leg at 90°. Sink hips toward the floor. Long hold targets the hip-rotator capsule — what gets gripped during squats and KB work. Switch sides at 90s." },
+        { "id": "pigeon-pose", "duration": 240, "notes": "**120s each side** (vs. morning flow's 30-60s). The long hold is what releases the glute + QL chain. **W12 QL watchpoint:** if the QL spasm pattern fires, drop to figure-4 (supine, ankle on knee) instead. Switch sides at 120s." },
+        { "id": "happy-baby", "duration": 90, "notes": "On the back, knees toward armpits, hands grip outside of feet (or shins). Gentle rock side to side or stay still. Releases sacrum + lower back." }
+      ],
+      "notes": "Hip block is the longest because the lower body takes the heaviest loaded work. QL, glutes, hip flexors all get pinned in flexion patterns during squats and deadlifts.",
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "spine-shoulders",
+      "name": "Spine + Shoulders — Release the Upper-Trap/Pec/Neck Cluster (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "thread-the-needle", "duration": 180, "notes": "**90s each side.** Quadruped, thread one arm under the other, rest the shoulder on the floor. Thoracic rotation + posterior shoulder lengthen. Directly addresses the W12 neck-shoulder-pec cluster pattern." },
+        { "id": "supine-spinal-twist", "duration": 180, "notes": "**90s each side.** Lie back, draw one knee across the body, opposite arm extended. Long hold lets the spinal erectors and obliques actually lengthen. Breathe into the rib cage on the rotated side." },
+        { "id": "seated-forward-fold", "duration": 120, "notes": "Legs extended forward, hinge from the hips. Don't pull to depth — find a 70% range and stay. Posterior chain + low back decompression." },
+        { "id": "doorframe-chest-stretch", "duration": 180, "notes": "**60s each at LOW / MID / HIGH elbow positions.** All three positions to hit different fibers of pec minor + major. This is the direct intervention for the W12 right-shoulder pattern — pec minor lengthening decompresses the brachial plexus." }
+      ],
+      "notes": "Upper body block targets exactly the cluster from W12D1: neck + shoulder + right pec as one unit. Long holds, three angles on the pec via doorframe.",
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "closing",
+      "name": "Closing — Parasympathetic Reset (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "childs-pose", "duration": 90, "notes": "Final return to child's pose. Long slow breaths, forehead on the floor or a block." }
+      ],
+      "notes": "**Optional 2-5 min savasana after** — lie flat on the back, palms up, eyes closed. Not 'rest,' deliberate stillness. This is when the parasympathetic shift finishes consolidating. Worth the time.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Long holds (90s-2min), not stretches.** 70% of available range, stay. Release happens in time.",
+    "**Breathe slow.** 4-6 breaths per minute. The parasympathetic shift IS the intervention.",
+    "**Hip block is the longest** — pigeon 2 min/side is non-negotiable for the QL/glute pattern.",
+    "**Pec doorframe at 3 positions** addresses the W12 right-shoulder cluster directly.",
+    "**Pair with weekday morning flows + post-gym cool-down**, don't substitute. Three layers of recovery, different jobs.",
+    "**Skip anything that lights up symptoms** — pigeon/QL or doorframe/shoulder. Switch to a milder shape rather than push.",
+    "**Optional savasana 2-5 min after** is when the parasympathetic shift consolidates. Worth the time."
+  ],
+  "formPhilosophy": "Yin-style long-hold work for connective tissue recovery. Morning flows activate. Post-gym cool-down decompresses. Sunday long flow lengthens. Three layers, different timescales. Added W12 after the user surfaced the new-muscle + universal-tightness pattern + the right-shoulder cluster. The connective tissue lags muscle adaptation by 6-8 weeks; this is the input that lets it catch up."
+}
