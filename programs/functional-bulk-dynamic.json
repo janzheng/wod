@@ -3323,6 +3323,121 @@
         }
       ],
       "logFile": "logs/functional-bulk-dynamic-w28.json"
+    },
+    {
+      "week": 29,
+      "label": "Short Week, Week Three of the Newborn — Push → Legs → Pull, Two Optional KB Sessions",
+      "description": "**Short and flexible again — week three of a newborn, and the sleep is improving but not fixed.** The three gym sessions run Push → Legs → Pull, with Legs in the middle so the two shoulder- and grip-heavy days sit a full 48h apart. Run them on whichever three windows open; if the calendar allows, take the recovery day after Legs. Pull is the short day and it comes last, when you are most likely to be tired.\n\n**What is new this week:** dips get a written 2-minute rest and move to 10-12, the squat's third set goes on 5lb plates under the heels, the barbell RDL takes its slot right after the squat at the same rack, and the incline curl runs 25 on both arms.\n\nThe two kettlebell sessions are optional whenever a short window opens. Missing either does not make the week incomplete.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — short presses, dips get their rest",
+          "type": "workout",
+          "workoutId": "fb-w29-push",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: PUSH add-on** — doorframe chest stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — heel-elevated top set, barbell RDL at the rack",
+          "type": "workout",
+          "workoutId": "fb-w29-legs",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: LEGS add-on** — knee-to-wall measurement (both sides, write it down) and the cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — short day, incline curl at 25 both arms",
+          "type": "workout",
+          "workoutId": "fb-w29-pull",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Today: PULL add-on** — dead hang, scapular pulls, and the light bicep set before the bar."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Bent Press Flow + B-Stance Flow",
+          "type": "workout",
+          "workoutId": "fb-w29-kb-full",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Dead Cluster Flow + Overhead Mobility",
+          "type": "workout",
+          "workoutId": "fb-w29-kb-cond",
+          "flow": {
+            "workoutId": "fb-w29-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W29 flow — the ankle gets the bias this week: plié-relevé returns to the work block and the knee-to-wall rock becomes a measurement. Side plank is back for the one-hip carrying, couch stretch replaces saddle pose, pigeon closes. Anchors: scorpion, lizard, cossack and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w29.json"
     }
   ],
   "tips": [
