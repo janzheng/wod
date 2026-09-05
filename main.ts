@@ -169,28 +169,20 @@ app.use("/api/*", async (c, next) => {
 });
 
 app.get("/api/routines", async (c) => {
-  // Load all routine files
+  // Read the directory instead of a hardcoded list — a hardcoded list means a
+  // new routine file silently never reaches the sidebar.
   const routines: unknown[] = [];
-  const routineFiles = [
-    "barre",
-    "cardio",
-    "gym",
-    "calisthenics",
-    "morning",
-    "yoga",
-    "stretch",
-    "action-jacqueline",
-    "challenges",
-    "maternity",
-    "heavy-duty",
-    "jump-rope",
-    "kettlebell",
-    "snippets",
-  ];
-  for (const id of routineFiles) {
-    const data = await readJson(`./routines/${id}.json`);
-    if (data) routines.push(data);
-  }
+  try {
+    for await (
+      const entry of Deno.readDir(new URL("./routines", import.meta.url))
+    ) {
+      if (entry.name.endsWith(".json")) {
+        const data = await readJson(`./routines/${entry.name}`);
+        if (data) routines.push(data);
+      }
+    }
+  } catch { /* routines directory may not exist */ }
+  routines.sort((x: any, y: any) => (x.sortOrder ?? 99) - (y.sortOrder ?? 99));
   return c.json(routines);
 });
 
@@ -1721,6 +1713,21 @@ function renderPage(
                 </p>
               </template>
 
+              <!-- Day Overview: theme, spotlights, watchpoints -->
+              <template x-if="selectedWorkout.dayOverview">
+                <div style="margin-top: 0.75rem; padding: 0.75rem 0.9rem; background: rgba(128,128,128,0.06); border-radius: 0.5rem; font-size: 0.85rem; line-height: 1.55;">
+                  <template x-if="selectedWorkout.dayOverview.theme">
+                    <p style="margin: 0 0 0.5rem 0; opacity: 0.85;" x-html="renderInline(selectedWorkout.dayOverview.theme)"></p>
+                  </template>
+                  <template x-for="(sp, spIdx) in (selectedWorkout.dayOverview.spotlights || [])" :key="'sp-' + spIdx">
+                    <p style="margin: 0 0 0.4rem 0; opacity: 0.8;">🔆 <strong x-text="(sp.exerciseId || '').replace(/-/g, ' ')"></strong> — <span x-html="renderInline(sp.why || '')"></span></p>
+                  </template>
+                  <template x-for="(wp, wpIdx) in (selectedWorkout.dayOverview.watchpoints || [])" :key="'wp-' + wpIdx">
+                    <p style="margin: 0 0 0.4rem 0; opacity: 0.8;" x-html="renderInline(wp)"></p>
+                  </template>
+                </div>
+              </template>
+
               <!-- Home Gym Notes -->
               <template x-if="workoutHomeGym">
                 <div style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: rgba(128,128,128,0.06); border-radius: 0.5rem; display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.8rem;">
@@ -1894,7 +1901,7 @@ function renderPage(
                         </a>
                       </template>
                     </div>
-                    <template x-if="set.flowRef && set.notes">
+                    <template x-if="set.notes">
                       <div class="ex-notes" style="margin-bottom: 0.75rem;" x-html="renderNotes(set.notes)"></div>
                     </template>
                     <template x-if="set.generatedExercises && set.generatedExercises.length > 0">
