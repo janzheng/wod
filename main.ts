@@ -14,6 +14,9 @@ import {
 } from "./src/ai/pi-agent.ts";
 import { createPiJobStore } from "./src/ai/pi-jobs.ts";
 import {
+  builderAccessResponse,
+  builderLoginResponse,
+  isSameOriginAgentRequest,
   readAgentJson,
   RequestBodyTooLargeError,
 } from "./src/ai/http-boundary.ts";
@@ -89,7 +92,7 @@ const MANIFEST = {
 
 // Service Worker
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v8';
+const CACHE_NAME = 'wod-v9';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
 
 self.addEventListener('install', (event) => {
@@ -113,6 +116,7 @@ self.addEventListener('fetch', (event) => {
   const requestUrl = new URL(event.request.url);
   if (requestUrl.origin !== self.location.origin) return;
   if (requestUrl.pathname.startsWith('/api/')) return;
+  if (requestUrl.pathname.startsWith('/_smolbox/') || requestUrl.pathname.startsWith('/cdn-cgi/access/')) return;
   if (event.request.mode === 'navigate') {
     event.respondWith(
       fetch(event.request).then((response) => {
@@ -328,35 +332,22 @@ app.get("/api/ai/search", async (c) => {
   return c.json({ results, query: q.trim() });
 });
 
-const AGENT_CORS_HEADERS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers": "Content-Type",
-  "Access-Control-Allow-Methods": "POST, DELETE, OPTIONS",
-};
+app.get("/_smolbox/access", () => builderAccessResponse());
+app.get("/_smolbox/login", (c) => builderLoginResponse(c.req.raw));
 
-app.options("/api/ai/chat", () =>
-  new Response(null, {
-    status: 204,
-    headers: AGENT_CORS_HEADERS,
-  }));
-
-app.options("/api/ai/session", () =>
-  new Response(null, {
-    status: 204,
-    headers: AGENT_CORS_HEADERS,
-  }));
-
-app.options("/api/ai/jobs/:id", () =>
-  new Response(null, {
-    status: 204,
-    headers: AGENT_CORS_HEADERS,
-  }));
-
-// Public prototype: browser prompt -> Pi -> configured model route in smolbox-wod.
-app.post("/api/ai/chat", async (c) => {
-  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
-    c.header(name, value);
+// Authentication is the host's Access boundary, not guest-managed identity.
+// Reject browser cross-origin writes before reading a body or starting an agent.
+app.use("/api/ai/*", async (c, next) => {
+  c.header("Cache-Control", "no-store");
+  if (!["GET", "HEAD"].includes(c.req.method) && !isSameOriginAgentRequest(c.req.raw)) {
+    return c.json({ error: "Open Builder on this site." }, 403);
   }
+  if (c.req.method === "OPTIONS") return new Response(null, { status: 204 });
+  await next();
+});
+
+// Owner browser prompt -> Pi -> configured model route in the project computer.
+app.post("/api/ai/chat", async (c) => {
   c.header("Cache-Control", "no-store");
 
   let body: {
@@ -401,9 +392,6 @@ app.post("/api/ai/chat", async (c) => {
 });
 
 app.get("/api/ai/jobs/:id", (c) => {
-  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
-    c.header(name, value);
-  }
   c.header("Cache-Control", "no-store");
   const job = piJobs.get(c.req.param("id"));
   if (!job) return c.json({ error: "Agent job not found." }, 404);
@@ -411,9 +399,6 @@ app.get("/api/ai/jobs/:id", (c) => {
 });
 
 app.delete("/api/ai/session", async (c) => {
-  for (const [name, value] of Object.entries(AGENT_CORS_HEADERS)) {
-    c.header(name, value);
-  }
   c.header("Cache-Control", "no-store");
 
   let body: { sessionId?: unknown } | null;
@@ -432,7 +417,7 @@ app.delete("/api/ai/session", async (c) => {
   try {
     piJobs.cancelSession(body.sessionId);
     await piAgent.clearSession(body.sessionId);
-    return new Response(null, { status: 204, headers: AGENT_CORS_HEADERS });
+    return new Response(null, { status: 204, headers: { "Cache-Control": "no-store" } });
   } catch (error) {
     if (error instanceof TypeError) {
       return c.json({ error: error.message }, 400);
@@ -642,6 +627,24 @@ When the user references previous workouts from the conversation, use the contex
 // Serve static files (images, js, sounds)
 app.get("/static/*", async (c) => {
   const path = c.req.path.replace("/static/", "./static/");
+
+  // Confine reads to static/. Without this, `/static/../NOTES.md` serves any
+  // file in the repo. The percent-decode matters: Hono hands back the raw path,
+  // so `..%2f` looks clean here but Deno decodes it back to `../` at read time.
+  let decoded: string;
+  try {
+    decoded = decodeURIComponent(c.req.path);
+  } catch {
+    return c.notFound();
+  }
+  const staticRoot = new URL("./static/", import.meta.url);
+  if (
+    decoded.includes("..") ||
+    !new URL(path, import.meta.url).pathname.startsWith(staticRoot.pathname)
+  ) {
+    return c.notFound();
+  }
+
   const contentTypes: Record<string, string> = {
     "png": "image/png",
     "jpg": "image/jpeg",
@@ -2043,6 +2046,12 @@ function renderPage(
         <span>Public prototype · free Nemotron · do not send private information</span>
       </div>
 
+      <div class="chat-context-bar" x-show="chatAccessMessage" role="status">
+        <span x-text="chatAccessMessage"></span>
+        <button class="chat-action-btn" x-show="chatSignInRequired" @click="signInBuilder()">Sign in</button>
+        <button class="chat-action-btn" x-show="!chatSignInRequired" @click="checkChatAccess()">Try again</button>
+      </div>
+
       <div class="chat-messages">
         <template x-if="chatMessages.length === 0">
           <div class="chat-empty">
@@ -2082,11 +2091,12 @@ function renderPage(
           type="text"
           class="chat-input-field"
           x-model="chatInput"
+          @input="persistChatDraft()"
           @keydown.enter="sendChatMessage()"
           placeholder="Ask Pi to inspect or change WOD..."
           :disabled="chatLoading"
         />
-        <button class="chat-send-btn" @click="sendChatMessage()" :disabled="!chatInput.trim() || chatLoading">
+        <button class="chat-send-btn" @click="sendChatMessage()" :disabled="!chatInput.trim() || chatLoading || chatSignInRequired">
           <span class="iconify" data-icon="lucide:send"></span>
         </button>
       </div>
