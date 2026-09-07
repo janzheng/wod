@@ -28,7 +28,7 @@ Started 2026-09-02. Swimming entered the program during W28 (newborn period) unp
 | **Head** | Working on keeping the chin tucked-ish. Instinct is right; just needs to stay neutral rather than jammed. |
 | **Background** | Lifter. Former V5/V6 boulderer. Strong lats, strong shoulders, strong grip. |
 
-**Ramp so far (W28):** Sun 20 laps → Tue 30 → Wed 30 (held at 30 instead of the planned 40 after the soreness conversation — good call, and he made it himself). Soreness during this stretch was the ramp, not the swimming; it settles once volume stops climbing.
+**Sessions:** W28 Sun 20 laps → Tue 30 → Wed 30 (held at 30 instead of the planned 40 after the soreness conversation — good call, and he made it himself) → 2026-09-07 30 laps / 60 lengths, first session with the drill assignment. Soreness during the W28 ramp was the ramp, not the swimming; it settled once volume stopped climbing, and volume has been flat at 30 since.
 
 ## Failure profile
 
@@ -60,6 +60,56 @@ Chosen because it hits every symptom he named with a single drill: it forces rot
 
 **Drills go first, while fresh.** A drill done tired grooves the bad version.
 
+### 2026-09-07 — first run of the assignment, and he felt the payoff before being told to look for it
+
+> *"did another 30 laps (60 len) - super slow and practicing rolling and head down - definitely getting better at right side, still needs work; feels like i'm gliding forward more tho! thanks for the tip super helpful"*
+
+**"Gliding forward more" is the whole point of rotation, and he reported it unprompted.** Nobody told him to look for glide — the prescription talked about rolling the hips and about the right side. A rotating swimmer presents a narrower body to the water and each stroke carries further before it stalls, which is felt as gliding. That is a body-position change, not an effort change, and it is the single most convincing thing he could have said.
+
+**He has also described a lower stroke count without counting one.** More distance per stroke IS the number. Worth collecting now that there's something to measure.
+
+**The right side improving is the diagnosis confirming itself.** The read was that the right-side difficulty was never a right-side problem — it was the flat-swimming habit surfacing on the side that couldn't paper over it. It got better when rotation got better, without being worked directly. That is what the diagnosis predicted, so the prediction paid.
+
+**He swam it slow, self-selected.** *"super slow"* — no instruction to that effect beyond the watchpoint. Drilling at drill speed is the thing most people won't do.
+
+**Hold the assignment. Do NOT advance to catch/high elbow.** Rotation is improving but he said "still needs work," and the backlog rule stands: everything waits on rotation being automatic. Improving is not automatic.
+
+**One refinement, no new material — weight the side-kick drill 2:1 toward the LEFT-side-lying position** (left arm extended forward, right shoulder to the sky). That is the position that trains right-side breathing, and it's the side still catching up. Written into the workout file. This is an allocation change, not added volume.
+
+#### Follow-up same day — one root cause under both remaining symptoms
+
+> *"i feel like i'm going faster, but i'm actually spending way less energy on trying to go forward - a lot more energy is going into rotating and esp getting the right side rotated out of water; still get water in mouth when breathing sometimes (left side is fine / no problem at all)"*
+
+**Faster on less propulsive effort is the efficiency win, stated cleanly.** He moved energy out of pulling and into position, and got speed anyway. Do not congratulate the speed — congratulate the trade, since speed is explicitly not the brief.
+
+**The diagnosis to carry forward: he is rotating TO breathe, instead of breathing on a roll that was already happening.** Both remaining symptoms fall out of that one thing:
+
+- *"getting the right side rotated out of water"* costs energy because he arrives at the breath flat and then has to heave the shoulder up. If the body were already on its side, the face would be nearly clear and the breath would be almost free.
+- **Water in the mouth is a LATE roll, not a small one.** Arriving flat means the head turns after the window has passed, so the mouth comes up over the bow wave instead of sitting in the trough beside it.
+
+**Left being fine and right not is the same lag as before, not a second problem.** The left side gets the roll it needs because it is the grooved side; the right exposes that rotation isn't yet continuous.
+
+**Cues added to the workout file — no new drill, the assignment already contains the fix:**
+1. **Lower goggle stays in the water.** You breathe in the trough beside your head, below the flat surface — lifting for air leaves the trough and finds the wave.
+2. **6-3-6: breathe during the 6 kicks, not during the 3 strokes.** He is already fully on his side there, so that breath costs nothing — that's the sensation to steal for real swimming. The drill was always the answer to this; it just wasn't pointed at it.
+3. **Main swim: roll on EVERY stroke, not just breathing strokes.**
+4. **Lead arm long and patient** — on a right-side breath the LEFT arm is out front, and if it presses down early the shoulder drops and the mouth goes under.
+
+**Rotation costing energy right now is expected and temporary** — it's a new motor pattern being run consciously. It becomes cheap when it becomes continuous. Don't let him read the effort as a sign he's doing it wrong.
+
+**Stroke count still uncollected** — he forgot, deliberately deprioritized it in favour of getting comfortable rotating. That was the right call and it was his own; the number waits.
+
+#### Gap in the prescription he found himself — "how do you not sink with the arms parked?"
+
+The side-kick note said *"expect this to be humbling — if you're wobbling or sinking, that's the drill telling you the truth."* True, and useless: it named the problem and offered no remedy. **A drill that only fails informatively is a badly written drill.** Fixed in the workout file.
+
+The answer he needed: **arms were never what held him up.** Flotation comes from the chest — lungs high, dense legs low — so the fix is to **lean on the sternum** and let the body seesaw over the lungs. The extended bottom arm is a balance lever (long, and slightly DOWN, not reaching for the surface), not a paddle. Pointed toes, or the foot is a brake. And if it still sinks, **cut to half a length** — a wobbling full length grooves the wobble.
+
+**Worth knowing about this swimmer specifically: his legs really do sink more than average.** Muscular lifter, dense legs, low leg body fat. That is real and not a form failure; don't let him chase a positional fix for a density problem. It makes the chest-press cue more important for him than for most.
+
+**Ankle note, held honestly:** kicking needs *plantarflexion* (pointed toes); his squat limiter is *dorsiflexion*. Opposite directions of the same joint — **do not assume the squat finding transfers here**, and don't sell swimming as ankle work for the squat.
+
+
 ## Backlog — not yet, in rough order
 
 1. **Rotation must become automatic first.** Everything below waits on it.
@@ -69,7 +119,7 @@ Chosen because it hits every symptom he named with a single drill: it forces rot
 
 ## Open questions
 
-- **Stroke count baseline** — asked for, not yet collected.
+- **Stroke count baseline** — asked for, not yet collected. Deferred by him on 2026-09-07 in favour of getting comfortable with the roll, which was the right priority. Ask again once the breath stops taking effort.
 - *(Pool is outdoor, answered 2026-09-02. Phlegm question closed by him — see below.)*
 
 ### Phlegm — CLOSED BY HIM (2026-09-02). Do not raise again unprompted.
