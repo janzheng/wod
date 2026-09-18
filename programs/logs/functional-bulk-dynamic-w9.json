@@ -3,7 +3,7 @@
     "day": 1,
     "workoutId": "fb-w9-push",
     "date": "2026-04-20",
-    "notes": "W9D1 — first day of the QL-recovery deload. Felt really good, really needed it, better than staying at home. Deload is working as intended — showing up, moving, not re-angering anything. Key discoveries: (1) Seated DB press felt great — rotating the DBs from facing toward face at bottom → facing away at top really helps the shoulder, new cue to keep. (2) 'Shoulder in front' form on incline DB (the new forearm-stacked-over-elbow cue) made 40lb way harder than expected — form change IS the progression. (3) Chest press at 150 deload was actually hard with slow tempo + full ROM — noticed the nagging right shoulder blade is probably a muscle connecting the shoulder to the right front pec (feels it all at once when chest pressing slow). Second set harder than first, got 6 on third and dropped to 130x4 to finish — classic deload 'lighter weight feels real when form is honest.' Kinesis scale: lat raise 2, incline overhead tri 3, straight arm 4.",
+    "notes": "W9D1 — first day of the QL-recovery deload. Felt really good, really needed it, better than staying at home. Deload is working as intended — showing up, moving, not re-angering anything. Key discoveries: (1) Seated DB press felt great — rotating the DBs from facing toward face at bottom → facing away at top really helps the shoulder, new cue to keep. (2) 'Shoulder in front' form on incline DB (the new forearm-stacked-over-elbow cue) made 40lb way harder than expected — form change IS the progression. (3) Chest press at 150 deload was actually hard with slow tempo + full ROM — noticed the nagging right shoulder blade is probably a muscle connecting the shoulder to the right front pec (feels it all at once when chest pressing slow). Second set harder than first, got 6 on third and dropped to 130x4 to finish — classic deload 'lighter weight feels real when form is honest.' [CORRECTION 2026-04-29: this entry originally claimed Kinesis was used for cable lat raise, incline overhead tri, and straight-arm pulldown — that was an AI hallucination. All three have been on the cable column the whole program; deload weights for these were not cleanly captured in this entry.]",
     "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
     "exercises": [
       {
@@ -35,20 +35,72 @@
       },
       {
         "id": "cable-lateral-raise",
+        "equipment": "cable column",
         "sets": [
-          { "weight": "Kinesis 2", "reps": 12, "notes": "On Kinesis (not cable column). Scale is different from the regular cable column — 2 on Kinesis ≠ 35 on cables." }
+          { "weight": "cable column (deload weight not cleanly captured — likely ~30, well below W7-W8's 45-50)", "reps": 12, "notes": "[CORRECTED] Originally logged as 'Kinesis 2' — that was an AI labeling error. Cable column is the actual setup." }
         ]
       },
       {
         "id": "incline-cable-overhead-tricep-extension",
+        "equipment": "cable column kneeling",
         "sets": [
-          { "weight": "Kinesis 3", "reps": 12, "notes": "On Kinesis." }
+          { "weight": "cable column kneeling (deload weight not cleanly captured — likely ~40, below W7-W8's 54-75)", "reps": 12, "notes": "[CORRECTED] Originally logged as 'Kinesis 3' — that was an AI labeling error. Cable column kneeling is the actual setup." }
         ]
       },
       {
         "id": "straight-arm-pulldown",
+        "equipment": "cable column",
         "sets": [
-          { "weight": "Kinesis 4", "reps": 12, "notes": "On Kinesis." }
+          { "weight": "cable column (deload weight not cleanly captured — likely ~80-90, below W7-W8's 110-120)", "reps": 12, "notes": "[CORRECTED] Originally logged as 'Kinesis 4' — that was an AI labeling error. Cable column is the actual setup." }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w9-legs",
+    "date": "2026-04-25",
+    "notes": "W9D5 — recovery deload legs. ~1/3 the time of a normal legs day: 1pm slot, every machine open, no waiting. Two clear wins: (1) Squat 55/side felt completely different — full ROM, stable, can sit at the bottom no problem. Same weight that wrecked me when I started. Even 'light' got me sweaty. (2) Leg press at 3 plates/medium ROM was a stabilizer firestorm — felt adductors + a bunch of small muscles I don't have names for all firing at once. Not painful, just lit up everywhere. Confirms the W9 hypothesis that the deep 4-plate version was hammering hip stabilizers. Back stayed quiet all session — deload working.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": [
+          { "weight": "55/side (145 total)", "reps": 8, "notes": "Set 1: full ROM, stable, sat in the bottom comfortably. The same weight I struggled with on W1." },
+          { "weight": "55/side (145 total)", "reps": 8, "notes": "Set 2: same — clean and not painful." },
+          { "weight": "55/side (145 total)", "reps": 8, "notes": "Set 3: still solid. Got sweaty even though it's light. Body's adapted; the bottom position is now a place I can live in." }
+        ]
+      },
+      {
+        "id": "leg-press",
+        "sets": [
+          { "weight": "3 plates/side", "reps": 12, "notes": "Medium ROM as planned. Doable — but felt EVERY stabilizer fire: adductors, a bunch of small muscles I can't name, all going at once. 'Firestorm but not painful.'" },
+          { "weight": "3 plates/side", "reps": 12, "notes": "Same firestorm — not getting smaller as the set adds up." },
+          { "weight": "3 plates/side", "reps": 12, "notes": "Confirms the W9 deload theory: the deep 4-plate version was the hidden hip-stabilizer driver." }
+        ]
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": [
+          { "weight": "90 (new machine settings)", "reps": 12, "notes": "Per plan — held at 90, no push to 110 this week." }
+        ]
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": [
+          { "weight": "3 plates/side, single leg", "reps": 20, "notes": "Per plan — no plate under foot, regular ROM." }
+        ]
+      },
+      {
+        "id": "butterfly-stretch",
+        "sets": [
+          { "weight": "BW", "reps": "90s hold", "notes": "Per plan cooldown." }
+        ]
+      },
+      {
+        "id": "pigeon-pose",
+        "sets": [
+          { "weight": "BW", "reps": "60s each side", "notes": "Per plan cooldown." }
         ]
       }
     ]

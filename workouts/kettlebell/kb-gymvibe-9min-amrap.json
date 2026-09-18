@@ -1,0 +1,40 @@
+{
+  "id": "kb-gymvibe-9min-amrap",
+  "name": "GymVibe 9-Minute KB AMRAP — Ballistic Row / Thruster / Reverse Lunge + Knee Drive",
+  "description": "A brutal single-bell AMRAP complex from @gymvibe_: ballistic row, thruster (the source calls it a 'goblet cluster'), and reverse lunge + knee drive, run back-to-back with no rest for as many rounds as possible in 9 minutes. A strength/conditioning workout-set, NOT a flow. The source runs it at one weight (24kg/53lb); here it's a 30 → 40 → 50lb load ladder over the three thirds so you build into the top weight instead of opening on your max.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "full-body", "circuit", "amrap", "conditioning", "strength", "complex", "explosive"],
+  "estimatedDuration": 12,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "@gymvibe_",
+  "sourceUrl": "https://x.com/gymvibe_/status/2060769199404851529",
+  "flowSequence": [
+    { "id": "kettlebell-row", "notes": "Ballistic — explosive drive to the hip, control back." },
+    { "id": "kettlebell-thruster", "notes": "Goblet squat → drive up into an overhead press in one motion." },
+    { "id": "kettlebell-reverse-lunge-to-knee-drive", "notes": "Reverse lunge → drive the back knee up to a tall stand." }
+  ],
+  "sets": [
+    {
+      "id": "amrap-9min",
+      "name": "9-Minute AMRAP (Load Ladder: 30 → 40 → 50lb)",
+      "type": "circuit",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each side", "notes": "**Ballistic row — explosive, not a slow controlled row.** Hinge at the hips, back flat, and drive the bell to the hip with power, then control it back. 8 per side. Brace the core, no torso rotation." },
+        { "id": "kettlebell-thruster", "reps": 8, "notes": "**Goblet squat → press in one motion (the source's 'goblet cluster').** Bell at the chest/goblet, squat to at least parallel, then drive up and use the leg momentum to press it overhead. Lock out tall, ribs down, then back into the next squat. Right-shoulder watch on the overhead — pack it down; if it won't lock out clean, this is the move to lighten first." },
+        { "id": "kettlebell-reverse-lunge-to-knee-drive", "reps": "8 each side", "notes": "Step back to a reverse lunge → drive the back knee forward and up to a tall, balanced stand → repeat. Drive through the FRONT heel, stay tall. 8 per side." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0,
+      "notes": "**AMRAP — as many rounds of the three moves as possible in 9 minutes, NO rest between moves or rounds.** Single bell. **Load ladder over the three thirds:** 0:00-3:00 @ 30lb → 3:00-6:00 @ 40lb → 6:00-9:00 @ 50lb (swap the bell up at the 3- and 6-minute marks). Builds into the top weight instead of opening on your max. The thruster's overhead press is the limiter — if 50 won't press clean by the last third, hold 40 and chase rounds instead. Count total rounds + where you were when the bell got heavy."
+    }
+  ],
+  "tips": [
+    "**It's a workout-set / AMRAP, not a flow** — power and breathing rate are the point, not smooth transitions.",
+    "**Load ladder 30 → 40 → 50lb** over the three 3-minute thirds — groove the pattern light, climb to the top bell. 50 is the Arrillaga ceiling; don't open there on a 9-min grinder.",
+    "**The thruster press is the limiter and the shoulder risk** — pack the shoulder down on the lockout; lighten the bell before the press gets ugly.",
+    "**Single bell throughout each third** — pick what's free, swap up at 3:00 and 6:00.",
+    "Good fit for a Tuesday strength/conditioning slot; NOT a Thursday move (too brutal the day before Friday legs)."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "fb-w10-kb-full",
+  "name": "Week 10 KB Full Body — Skill + Mobility (Form-First, Light)",
+  "description": "First KB session back after W9 sick-week rest — and structurally lighter than past Tuesdays. **Five hard days a week is the road back to injury.** This week, KB Tuesday is reframed: skill + mobility + light grooving, NOT a fourth strength day. The heavy strength block from W8 is gone. C&P, rows, and goblet squats stay light (35lb max). Swings cut to half-volume. Spotlights: C&P (technique drilling) and TGU (left side weak link). Modern KB cues throughout. If anything feels heavy, you've gone too far — pull weight, slow down.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "return-week"],
+  "estimatedDuration": 33,
+  "equipment": ["kettlebell", "mini-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Tuesday is now a skill + mobility day, not a strength day. Mon/Wed/Fri are the strength days; Tue/Thu are the recovery/skill flank. Form is the only progression on KB days.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-clean-and-press",
+        "why": "C&P at 50lb was a W7-W8 breakthrough lift, but it's also a complex technique. W10 drops to 35lb and drills the technique — knee-bent clean catch, hip drive, ribs-down lockout. Build the pattern, not the load."
+      },
+      {
+        "exerciseId": "kettlebell-turkish-getup",
+        "why": "Left side has been the weak link for weeks. W10 spotlights TGU checkpoints — every position gets a pause, left side gets the freshest reps. Stay at 25lb, no chase."
+      }
+    ],
+    "rotationPlan": "W10 C&P + TGU · W11 swing mechanics + bent press leverage · W12 windmill + cossack mobility · W13 cycle back to C&P + TGU. ~3 weeks per cycle.",
+    "watchpoints": [
+      "**Re-acquaintance week — back to home base, not chasing PRs.** Bent press / cossack / windmill at 25 (W7 proven sweet spot). C&P starts at 35, caps at 40 today. **No 50 C&P** — going there cold after 3 weeks off is the same trap that triggered the W8 QL spasm. Climb the ladder 35→40→45→50 over the next 3-4 KB sessions.",
+      "QL/lower back on swings — even at 25lb, the hip-hinge-under-load pattern is the W8/W9 trigger. Cut the set if it talks.",
+      "5 hard days/week = injury territory. Tue/Thu should leave you fresher, not more cooked. The pushing days are Mon/Wed/Fri."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell (15-20lb), big slow circles. Loosen the shoulders before any overhead work." },
+        { "id": "kettlebell-goblet-squat", "reps": 8, "notes": "**LOAD:** 25lb. Find your depth — same depth focus as gym squats. Sit in the bottom for a beat. NOT a working set, just mobility." },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "**LOAD:** 25lb (light, just for the hinge groove).\n- **Hike pass** between the legs, NOT a squat-and-lift\n- Lats packed down, bell stays close to the body\n- Hips snap forward — bell floats to chest height on momentum\n- Watch the QL even at this weight" }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (Scap Activation, ~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Heels tucked, mini-band overhead, hands wider than shoulders. **Sustained tension** — primes scap upward rotation for bent press + windmill." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Pull band down behind head — **elbows drive to ribs**, scaps depress. Lat-pulldown pattern." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Band wraps the upper back. **Press out to T** — fires rear delts and mid-traps before C&P." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Band at sternum, **pull apart, scaps retract**, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep arms further back. **Don't overarch** the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Half-windmill with band — **lat + side-body opener**, primes the bent press lateral hinge." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in V/Y overhead. **Hold and breathe** — lower traps fire here. Closes the prep." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Scap + rear delt activation before the heavier KB skill work. Sustained tension throughout, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "Block 1: B-Stance Flow",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kettlebell-b-stance-swing",
+          "reps": "3 each side",
+          "notes": "**LOAD:** 25lb (W7-W8 sweet spot, hold).\n- B-stance: one foot back, **heel up** on the back foot — most weight on the front leg\n- Hike pass between legs, lats engaged\n- Hips snap forward, NOT lifted by the arms"
+        },
+        { "id": "kettlebell-swing-clean", "reps": "3 each side", "notes": "**Catch into rack on the swing.** Soft elbow into the body — no slam. Flow should feel smooth, not violent." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": "3 each side", "notes": "Stay in B-stance, squat from rack. Front-loaded squat — chest tall, back foot heel up." },
+        { "id": "kettlebell-swing-snatch", "reps": "3 each side", "notes": "Punch overhead from rack. Lock out hard at the top — bicep by the ear, ribs down (no rib flare)." },
+        { "id": "kettlebell-overhead-lunge", "reps": "3 each side", "notes": "Bell locked overhead, step into lunge. **Bicep stays glued to the ear** — if it drifts forward, the lockout is fake. Long stride, vertical front shin." }
+      ],
+      "notes": "25lb. 3 reps each side x 3 rounds. Same volume as W7-W8 — proven. Don't add load.",
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "skill-block",
+      "name": "Block 2: Skill Work (Bent Press / Cossack / Windmill)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-bent-press",
+          "reps": "3 each side",
+          "notes": "**LOAD:** 25lb (back to home base — W3/W7 proven sweet spot). Drop to 20 if anything feels off after 3 weeks away.\n- **Bell starts in rack, eye on bell throughout** — head turn is part of the lift\n- **Lateral hip hinge AWAY from bell side** — knee soft on bell side\n- **Spine stays long** — lateral hinge with overhead load, NOT a side bend\n- Press up by *moving body down*, not by pushing bell up — the press is leverage\n- Slow descent, controlled return to rack"
+        },
+        { "id": "cossack-squat", "reps": "8 each side", "notes": "**LOAD:** 25lb goblet (W7 sweet spot — best depth at this weight, don't chase heavier).\n- Sit DEEP, heels stay down\n- Working leg in full external rotation\n- **Mobility, not strength** — heel popping up = drop to 20 or shorten stance" },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 25lb (W7 home base). Drop to 20 if the hinge gets sketchy — long spine wins over load.\n- Bell locked overhead, eye tracks bell\n- **Hip hinge AWAY from bell side** (same as bent press)\n- Reach free hand toward inside of front foot\n- Long spine — stretch should be in the **hip flexor of the back leg**, NOT lower back"
+        }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "tgu-block",
+      "name": "Block 3: 🔆 TGU (Spotlight)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "2 each side",
+          "notes": "**LOAD:** 25lb (hold). Reps trimmed (2 not 3) — quality over quantity.\n\n**🔆 SPOTLIGHT — every checkpoint gets a deliberate pause:**\n- **Lying:** bell punched up, opposite leg straight, opposite arm 45° to body\n- **Roll to elbow:** drive through opposite heel, eyes ON the bell\n- **Roll to hand:** straight base arm, chest up\n- **Hip bridge:** glute squeeze, ribs down\n- **Sweep leg through to lunge:** plant the knee under the hip\n- **Stand up:** drive through the front heel, bell stays vertical\n- **Reverse:** same checkpoints in reverse, no rushing\n\n**Left side first** — give it the freshest reps. The weak side gets the priority, not the leftovers.\n\n**Reflection:** which checkpoint felt off on the left side? That's next week's drill."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "light-strength-block",
+      "name": "Block 4: 🔆 C&P Technique (Spotlight, Light)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-clean-and-press",
+          "reps": "5 each",
+          "notes": "**LOAD:** 35lb start, 40lb cap today. **No 50 today — that's the QL-spasm-territory weight after 3 weeks off, asking for the same injury back.** If 35×5 is invisible in round 1, jump to 40 for round 2 and stop there. The ramp 35 → 40 → 45 → 50 plays out over the next 3-4 KB sessions, not today.\n\n**🔆 SPOTLIGHT — drill these every rep:**\n- **Catch the clean with knees slightly bent** — absorbs impact, makes press seamless (W3 discovery, the cue that made 50 click)\n- **Hips drive the clean**, NOT the arm pulling — feel the hinge, then the snap\n- At rack: bell on the chest, **elbow tucked into ribs**, wrist neutral\n- Press: **ribs DOWN** (no rib flare), bicep finishes by the ear, full lockout\n- Lower with control to rack — no slam\n- **Both sides feel symmetric?** That's the goal. Right has been ahead of left — make left match right's quality, not chase right's speed.\n\n**Reflection:** does the knee-bent catch feel automatic? That cue should be invisible by now."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Mobility, NOT Conditioning)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "**LOAD:** 25lb. Light row, 2s pull / 2s lower. NOT a strength set — just enough to feel the back. Skip if shoulders are cooked from yesterday's push." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — same as legs day cooldown. Don't shortcut this." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight on KB days from B-stance and cossacks." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**RESTRUCTURED FROM W8** — Tuesday is a skill + mobility day now, NOT a strength day. The heavy strength block (50lb C&P/rows/goblet/swings) is gone.",
+    "**NEW W10:** Seated mini-band shoulder prep added after the warmup (@sculptherbody flow). 7 positions, ~3 min, sustained tension. Activates scaps + rear delts before bent press / TGU / C&P.",
+    "Heaviest bell touched today: 35lb (and that's the C&P spotlight — technique drilling at light load).",
+    "5 hard days/week = injury territory. Tue should leave you fresher than Mon, not more cooked.",
+    "Spotlights: TGU checkpoints (left side weak link) and C&P technique (knee-bent catch + ribs-down lockout).",
+    "Modern KB cues embedded — hike pass, B-stance heel up, lateral hinge bent press, checkpoint TGU, knee-bent C&P catch.",
+    "Cooldown is mandatory: pigeon + butterfly. Hips and adductors get tight on KB days — don't skip.",
+    "If anything feels heavy, the load is wrong for this day. Pull weight, slow down, or skip the block."
+  ],
+  "formPhilosophy": "KB Tuesday is skill + mobility, not strength. Modern KB cues drilled at light loads — hip drive on swings, leverage on bent press, checkpoint discipline on TGU, knee-bent catch on C&P. Form is the entire progression. The strength days are Mon/Wed/Fri; this is the recovery flank."
+}

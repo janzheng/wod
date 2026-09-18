@@ -1,0 +1,169 @@
+{
+  "id": "fb-w11-pull",
+  "name": "Week 11 Pull — Form-First (Spotlight: Chest-Supported Row + Lat Pulldown)",
+  "description": "Second week of the form-first cycle. Spotlights rotate to **chest-supported DB row + lat pulldown** (per the rotation tracker). **Equipment-consolidated layout** — direct response to the W10D3 meta-feedback that the workout was bouncing between cable column / Kinesis / single pulley / DBs / racks. W11 groups everything by zone so you finish all the work at one piece of equipment before walking to the next: pull-up bar → DB rack/bench (4 exercises, one trip) → lat pulldown machine → cable column (face pull + curl + crunch, one trip). Each cable lift now specifies WHICH machine (so weights stay comparable week-to-week, the other W10D3 callout).",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "form-first", "spotlight-rotation", "station-focused"],
+  "estimatedDuration": 50,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Spotlights move to chest-supported row (drill chest-glued-to-bench + elbow-to-hip) and lat pulldown (drill wide grip + bar to upper chest, NEVER behind neck). **Equipment-consolidated** — pull-up bar → DB rack/bench (all 4 DB lifts in one circuit) → lat pulldown → cable column (face pull + bicep curl + crunch). Bicep work and crunch live at the cable column, right next to the lat pulldown. No backtracking.",
+    "spotlights": [
+      {
+        "exerciseId": "chest-supported-dumbbell-row",
+        "why": "W10D3 held at 35lb cleanly — 'don't feel the need to go up.' That's the green light to drill the form, not the load. Chest-glued-to-bench + elbow-to-hip pull line at 35 is the work — when a rep feels easy at this weight with strict form, THAT'S the progression."
+      },
+      {
+        "exerciseId": "lat-pulldown",
+        "why": "W10D3 held 140 with 'rested more before last set, full 12 slow' — the slow controlled rep IS the progression. W11 drills wide-grip + bar-to-upper-chest + slow return at 140. No jump to 150 yet — the cue is the progression."
+      }
+    ],
+    "rotationPlan": "W10 pull-up + DB row · W11 chest-supported row + lat pulldown (current) · W12 face pull + reverse fly · W13 preacher curl + high cable curl + cable crunch · W14 cycle back to pull-up + DB row.",
+    "watchpoints": [
+      "**Recent ~15lb weight gain** — pull-ups are noticeably harder than W7's 32. Quality reps are the priority, NOT chasing W7 numbers.",
+      "**Left bicep weaker than right** (W10D3 incline curl: right 10 hard, left 7 strict + assist). Add to the asymmetry watchlist; left side gets the freshest reps.",
+      "**Equipment-specificity protocol** (W10D3 callout): every cable lift below names WHICH machine. High cable curl scales differently across single vs dual pulley, cable crunch scales differently across cable column vs single-pulley regular machine. Weights aren't comparable across setups.",
+      "Grip fatigue limiting lat pulldown more than back strength (W3+ pattern) — straps are an option."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "band-pull-apart",
+          "reps": 15,
+          "notes": "Scap activation. Squeeze shoulder blades together, soft elbow."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine warm — slow, full ROM each direction."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "**Active hang, not collapsed** — engage lats, pull shoulders DOWN away from ears even at full extension. This is the position the pull-up starts from."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Station 1: Pull-Ups",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "pull-up",
+          "reps": "5-7",
+          "notes": "**LOAD:** Bodyweight. **Reps adjusted DOWN from W10's 6-8** because the recent ~15lb gain is making pull-ups noticeably harder. 5-7 strict > chasing 8 with kip.\n\n**Mix grips across sets:**\n- Set 1: adjustable climber-style handles, **narrow** grip (W10D3 won here — felt natural)\n- Set 2: adjustable climber-style handles, **normal** grip\n- Set 3: adjustable climber-style handles, **wide** grip\n- Set 4: any grip — go for clean reps\n\n**Form cues (sharp — spotlight was W10):**\n- Active hang start (not collapsed)\n- Pull elbows DOWN to ribs, NOT chin to bar\n- Chest leads to bar at the top\n- Eyes ahead, head neutral — no chin tucking\n- Slow eccentric, ~2-3s, return to active hang\n- **No kipping.** Set ends if you can't get a clean rep."
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "db-bench-block",
+      "name": "🔆 Station 2: DB Rack / Bench Block (Chest-Supported Row Spotlight + DB Row + Concentration Curl + Reverse Fly)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "chest-supported-dumbbell-row",
+          "reps": 10,
+          "notes": "**LOAD:** 35lb (hold — W10D3 confirmed 'don't feel the need to go up' and 'feel the engagement well').\n\n**🔆 SPOTLIGHT — drill these every set:**\n- **Chest stays GLUED to the bench** — if it lifts off, the weight is too heavy. The bench eliminates torque cheating; that's the whole point.\n- **Pull elbow toward HIP, not toward armpit** — toward armpit = rear delt; toward hip = lat.\n- **Both elbows pull together, simultaneous** — asymmetric pulling = slow down.\n- **Head neutral** — don't drop or lift, changes the spinal line.\n- **2s eccentric, 1s squeeze at top** — slow tempo at 35 is the progression.\n- Don't slam DBs at the bottom — control the stretch.\n\n**Reflection:** does 35 feel different at the end of slow set 3 vs end of set 1? When 35 with strict form starts feeling 'too easy' across all 3 sets, THAT'S the green light for 40 — not before."
+        },
+        {
+          "id": "dumbbell-row",
+          "reps": "8-10",
+          "notes": "**LOAD:** Pyramid 60x10, 70x10, 80x8 (hold — W10D3 confirmed 'all sets per plan, hard but doable, don't feel need to go up'). Spotlight was W10; sharp cues only.\n- Chest-supported on incline bench — chest fully on the bench\n- Pull elbow toward HIP, not armpit\n- Don't rotate the torso — both shoulder blades parallel to floor\n- Slow 2s descent, 1s squeeze\n- No slam at the bottom"
+        },
+        {
+          "id": "incline-curl",
+          "reps": "8-10",
+          "notes": "**LOAD:** 25lb (hold — W7+ proven swap from preacher; 25 is honest). 3 sets.\n- Sit on incline bench (~45-60°), back against the bench, DBs hanging at sides\n- **Full stretch at the bottom — pause 2s** (W11D3 user cue)\n- Curl smoothly to peak squeeze\n- 2-3s eccentric — fight the long-head stretch\n\n**Left bicep watchlist (W10D3):** right 10 was hard, left got 7 strict + assist for last 3. Hit LEFT FIRST today, give it the freshest reps. If left dies at 7 strict, stop the set there — don't assist past the asymmetry. The weak side gets quality, not chase.\n\n**Swap:** preacher curl at 12.5/side if it's free — same full-stretch-at-bottom cue.",
+          "swappedFor": "preacher-curl"
+        },
+        {
+          "id": "dumbbell-reverse-fly",
+          "reps": "12-15",
+          "notes": "**LOAD:** 25lb (hold — W10D3 bumped from 22.5 to 25, 'felt good'). Spotlight is W12.\n- **Seated bent-over** — chest toward thighs (W3 default form)\n- Soft elbow ~10-15°, fixed throughout\n- Lead with elbow, hand passive\n- Wings out and slightly UP to shoulder height\n- Slow controlled both directions, no swing"
+        }
+      ],
+      "notes": "**One trip to the DB rack covers all 4 lifts.** Recommended flow: pyramid your DB row weights first (need to pick up 60s/70s/80s anyway), then chest-supported row at 35, incline curl at 25, reverse fly at 25. Either run as a circuit (A→B→C→D, rest, repeat 3x) or as straight sets (3 of A, then 3 of B, etc.) — both work since you're not moving equipment. The bench stays at incline ~30° for the rows; for the incline curl keep the bench inclined (back against it), then sit upright for the fly.",
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "lat-pulldown-station",
+      "name": "🔆 Station 3: Lat Pulldown (Spotlight)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "lat-pulldown",
+          "reps": "8-10",
+          "notes": "**LOAD:** 140 (hold — W10D3 confirmed 4 sets at 140 'solid', the slow rep IS the progression at this weight). 4 sets.\n\n**🔆 SPOTLIGHT — drill these every set:**\n- **Wide grip near the bend** — wider grip = more lat isolation, less bicep. Critical when biceps are torched from pull-ups.\n- **Slight backward lean ~15°, NO further** — more = becomes a row. The bar travel should feel like the bar comes to YOU, not you to the bar.\n- **Pull bar to UPPER CHEST — NEVER behind the neck.** Behind-the-neck pulldowns are a shoulder grinder with zero benefit.\n- **Elbows down and back, 'lats squeezing oranges into back pockets'** — the lat squeeze IS the rep, the bar is just along for the ride.\n- **1s pause at the bottom contraction** — count it.\n- **2s controlled return to full overhead stretch** — this is where the lat lengthens. Speeding up the return = losing the stimulus.\n- Knees pinned firmly under pad, feet flat.\n\n**Reflection:** does the 'lats to back pockets' cue feel different on the 4th set than the 1st? If form is holding 4 sets at 140 (W10D3 only had 3 + 1 rested), the cue is sticking. Arrilaga lat pulldown weight scales vary across machines."
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "face-pull-station",
+      "name": "Station 4: Cable Column — Face Pull",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "face-pull",
+          "equipment": "cable column (mid/upper-chest height + rope) — THE cable column for the whole finisher",
+          "reps": 20,
+          "notes": "**LOAD:** cable column **42.5** (hold — W10D3 confirmed 'machine doesn't have 45'). Slow tempo IS the stimulus. Spotlight is W12.\n\n**Setup — pick the cable column you'll use for the rest of the workout** (this is where the high cable curl and cable crunch live too — pick one that's not getting hogged):\n- **Cable column, rope at upper-chest / face height** — step back to set tension. After this exercise, you'll just slide the rope up to the high attachment for the curl + crunch finisher.\n\n**Form cues:**\n- **Pull rope to face, ELBOWS HIGH (above shoulders)** — this is the make-or-break cue\n- **External rotate at the top** — knuckles point UP, like a double-biceps pose\n- 1s pause at peak contraction\n- Slow controlled return\n- W10D3: hard at rep 17 set 2, hard at rep 19 set 3 — that's exactly the right load."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Station 5: Cable Column — Finisher (High Cable Curl + Cable Crunch, Same Cable As Face Pull)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "high-cable-bicep-curl",
+          "equipment": "cable column (high attachment) — same column you just used for face pull",
+          "reps": "10-12",
+          "notes": "**LOAD: FIND IT — first time on the cable column for this lift.** 2 sets only. Spotlight is W13.\n\n**Why no number:** historical data is on different machines and won't translate:\n- W7 dual pulley: ~60\n- W8 / W10D3 single high pulley (regular pulley): 100-120 ('120 a lot better/harder still slow')\n- **Cable column: NO history.** Pulleys, mechanical advantage, and increments vary — 120 from the regular pulley will NOT feel like 120 here.\n\n**How to find it (set 1 is the calibration):**\n- Start conservative (~50) and ramp up by 10-20 between reps if it feels light\n- Target the W10D3 quality cue: **'still slow' on the eccentric, peak squeeze at the top, upper arm parallel and fixed.** When that's the limiter, you've found the weight.\n\n**Setup — stay at the cable column:**\n- **High attachment, single D-handle** (one arm at a time) OR **rope** (both arms simultaneously, faster). Pick one.\n- Step back so the cable runs at a slight forward angle from the high anchor to your shoulder\n- Stand sideways (D-handle, one arm) or facing the column (rope, both arms), arm(s) out at shoulder level\n\n**Form cues:**\n- **Upper arm parallel to floor, FIXED** — if elbow drops, becomes a regular curl\n- Curl hand to ear, peak squeeze\n- Slow eccentric, no bounce at start\n\n**Bail-out:** if calibrating on the cable column eats both your sets and you didn't get any quality work, walk to the regular pulley next session and run 120 there — the consolidation isn't worth losing the stimulus."
+        },
+        {
+          "id": "cable-crunch",
+          "equipment": "cable column (high attachment + rope) — same column, just swap attachment",
+          "reps": "12-15",
+          "notes": "**LOAD:** cable column **110-120** (hold — W7-W8 baseline on the cable column). 2 sets only. Spotlight is W13.\n\n**Setup — stay at the cable column:**\n- **High attachment + rope** (swap from the D-handle / curl rope if needed — same column)\n- Kneel under the high cable\n\n**Form cues:**\n- Rope behind head, **HIPS LOCKED** (most important cue)\n- **Crunch from the abs only** — spine flexes, hips don't move\n- Hips moving = hip flexor work, not abs\n- Chest toward thighs, hold the crunch 1 second\n- Slow eccentric\n\n**If the cable column is taken** and you use a different cable machine (e.g., the W10D3 single-pulley regular machine where 57.5 was easy), the scale is different — 110-120 here won't translate."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Spotlights: chest-supported row + lat pulldown.** Drill the form-cues at last week's loads — 35 and 140 are the working numbers, not the targets to beat.",
+    "**Equipment-consolidated order** (W10D3 meta-feedback) — pull-up bar → DB rack/bench (4 lifts in one trip: chest-supported row + DB row + incline curl + reverse fly) → lat pulldown machine → cable column (face pull + high cable curl + cable crunch all stay at the same cable). One trip per zone, no backtracking.",
+    "**Bicep work lives at the cable column now (in spirit)** — incline curl is at the DB rack only because it shares the bench with rows; the high cable curl is right next to the lat pulldown at the cable column. After lat pulldown, you stay at the cable column for face pull → curl → crunch.",
+    "**Equipment-specificity protocol** (W10D3 callout) — every cable lift names WHICH machine. Weight scales differ across machines.",
+    "**Pull-up reps adjusted to 5-7** — recent ~15lb gain is making them harder, no point chasing W7's 32. Mix grips: narrow / normal / wide / clean.",
+    "**Concentration curl: LEFT FIRST today** — left bicep is the weak side (W10D3 asymmetry watchlist). Freshest reps to the weak side.",
+    "**DB reverse fly held at 25** (W10D3 bump confirmed). DB row pyramid held at 60/70/80.",
+    "Rotation plan: W12 face pull + reverse fly · W13 preacher curl + high cable curl + cable crunch · W14 cycle back.",
+    "Rest: 2.5 min pull-ups, 90s DB/bench block (4 lifts in circuit), 2 min lat pulldown, 90s face pull, 60s finisher."
+  ],
+  "formPhilosophy": "Form-first base-building, week 2 of the cycle. Same loads as W10D3, sharper layout. Station discipline (the W10D3 ask) lets the cues land — when you stop machine-hopping, the brain has more bandwidth for chest-glued-to-bench, lats-to-back-pockets, hips-locked. The cue IS the progression."
+}

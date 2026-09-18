@@ -1,0 +1,158 @@
+{
+  "id": "fb-w17-kb-cond",
+  "name": "Week 17 KB Conditioning — Thursday, Flow + Coordination Block (Spotlight: Figure-8 Weave)",
+  "description": "KB Thursday, full template — the permanent Flow + Coordination block sits right after the banded shoulder prep. This is base KB skill-building: light-bell, flowing coordination drills to widen the movement vocabulary while the bell is still new. The block rotates content week to week; this week it spotlights the figure-8 weave — an upper/grip/coordination move, deliberately kept off the legs so Friday legs stays strong. The mobility maintenance block rotates its cue focus to a bent-press refresh. The rest of the day holds — lighter strength block, the canonical OTD flow, a balance closer, cooldown. Kept light on the legs throughout (Friday legs is the day after).",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "coordination", "mobility", "form-first", "conditioning", "spotlight-rotation", "thursday"],
+  "estimatedDuration": 50,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Thursday KB day, full template, kept light on the legs so Friday legs stays strong. Permanent Flow + Coordination block right after the banded prep — base KB skill-building, rotating content. This week it spotlights the figure-8 weave (upper/grip/coordination, not a leg move). The mobility block rotates its cue focus to a bent-press refresh. Day closes on a light balance closer — conditioning + skill + balance, never a metabolic finisher.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-figure-8",
+        "why": "This week's content of the permanent Flow + Coordination block, and new to the program. You're still building base KB skills — this drills the figure-8 weave (hip rotation + grip + coordination) at a light bell. Chosen for Thursday because it's an upper/core/coordination move that keeps the legs out of it — Friday legs stays fresh. Skill novelty over intensity: the win is a new movement in the bank, learned clean."
+      }
+    ],
+    "rotationPlan": "Flow + Coordination block (permanent): W16 figure-8 → reverse lunge · W17 figure-8 weave · W18 halo → reverse lunge or split-stance pass-through · then the GymFiesta-trio + swing variants. Mobility maintenance rotates its cue focus: W16 TGU + windmill maintenance → W17 bent-press refresh → W18 TGU left-side checkpoints.",
+    "watchpoints": [
+      "**Permanent Flow + Coordination block — right after the banded prep.** Light-bell base-skill work: a familiar pass to warm up, then the week's new skill. It runs every Thursday. Skill + coordination is the point, NOT cardio burn — keep it light and clean.",
+      "**Thursday is kept LIGHT ON THE LEGS on purpose** — Friday legs is tomorrow, and leg day takes priority. The figure-8 is an upper/grip move; the OTD-flow front squat and balance-closer single-leg RDL stay light (~20lb, no PR attempts). The heavier leg-athletic KB work (reverse-lunge-to-knee-drive) lives on Tuesday, far from Friday.",
+      "**OTD flow is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. Bent press is move #4, in the flow, not a separate block. Light groove, 2 rounds.",
+      "**Mobility maintenance = bent-press refresh this week** — the bent press gets the sharper cues; windmill + TGU stay light maintenance.",
+      "**Right shoulder watch on the overhead work** (bent press leverage, windmill, TGU lockout) — if it talks, lighten and slow down; back off range before grinding.",
+      "**Protective shrug greasing set in the warmup** — 1 light set, DBs or a bell behind the body. Cheap, easy to forget.",
+      "**Balance closer, not a metabolic finisher** — single-leg RDL → bird-dog → standing side-to-side twist, light bell. Thursday is conditioning + skills + balance, and Friday legs is tomorrow."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — wakes the grip and forearms for the flow + clean catches." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set).** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band overhead OR blue rope band gripped in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Press out to a T — fires rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Pull apart at the sternum, scaps retract, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep the arms back. Don't overarch." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge for the OTD-flow bent press + windmill." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y overhead. Hold and breathe — lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-coordination-block",
+      "name": "🔆🌀 Flow + Coordination (permanent block — Spotlight: Figure-8 Weave)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Warm-up familiar — the base around-the-body pass.\n- Hold the bell at waist height, **pass it around the body in a smooth circle** — hand to hand behind the back and in front\n- **Core tight, torso quiet** — the bell tries to pull you into rotation; resist it\n- 8 passes one direction, then 8 the other. Smooth and continuous — primes the grip + coordination for the figure-8." },
+        { "id": "kettlebell-figure-8", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb (LIGHT — coordination, not load). 3 rounds, 8 each direction.\n\n**🔆 SPOTLIGHT — the smooth figure-8 weave:**\n- **Feet wider than shoulder-width, slight squat** — stay low and tall-chested, but this is NOT a leg burner; the bend just clears the path for the bell\n- **Pass the bell between the legs in a figure-8** — one hand hands it off to the other from front to back, weaving the 8 around the legs\n- **Bell stays close to the body** — a tight orbit, not a wide loop\n- **Core braced, torso quiet** — the weave tries to pull you into rotation; resist it\n- **Eyes forward, chest up** — don't round over the bell to chase the hand-off\n- **Smooth and continuous** — grip + coordination, not speed\n\n**Reflection:** does the hand-off stay smooth and the bell stay close (no fumble, no wide loop) for all 3 rounds — or does it get sloppy as the grip tires? The skill is one continuous clean weave. New move; clean reps over fast reps." }
+      ],
+      "notes": "**Permanent Flow + Coordination block.** Base KB skill-building — light bell, flowing coordination. A familiar pass to warm up, then this week's new skill. 3 rounds, ~5 min, short rest. Keep it light and clean; this precedes the strength + flow work and shouldn't fatigue you.",
+      "restBetween": 30,
+      "restAfter": 45
+    },
+    {
+      "id": "strength-block",
+      "name": "Strength Block (Lighter — Thursday Variant)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "**LOAD:** 30lb. 2 rounds, 8 each side. Hips hinged, back flat, pull the elbow to the hip." },
+        { "id": "kettlebell-overhead-press", "reps": "5 each", "notes": "**LOAD:** 35/40/45 ascending — strict single-arm press (clean to rack, press straight up, NO push-press). 5 each side, go up the rack across your sets.\n- **Strict, not push-press** — the legs don't help; the shoulder presses it\n- **Ribs DOWN** before the press — no rib flare\n- **Bicep finishes by the ear, full lockout**\n- Slow descent back to the rack\n- **Both sides to the same standard** — press the left as clean as the right" }
+      ],
+      "notes": "Lighter strength block — single-arm row + press. The bigger compound presses (C&P) are Tuesday's job. ~5 min.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "otd-flow-block",
+      "name": "OTD Flow (Light Groove — Skill Practice)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "notes": "Bell starts on the floor between the feet, hips drive the lift, catch in the rack with the knees slightly bent." },
+        { "id": "kettlebell-front-squat", "notes": "Goblet/rack position. **LIGHT** — Thursday before Friday legs, keep depth without grinding. Sit tall, full depth, no bouncing." },
+        { "id": "kettlebell-lateral-lunge", "notes": "Stride out wide, sit into the working leg, keep the other leg long. Mobility, not strength." },
+        { "id": "kettlebell-bent-press", "notes": "The deliberate leverage move inside the flow — **the body goes DOWN, the bell barely moves.** From the rack, hinge and rotate AWAY from the bell side, eyes tracking the bell, until the arm locks out overhead — you lower your body under the bell, you don't press it up. Slow and smooth; it's leverage, not a press." },
+        { "id": "kettlebell-tactical-clean", "notes": "Control on the way down — bell to the floor as cleanly as it came up. Closes the flow before switching sides." }
+      ],
+      "notes": "**This is a continuous FLOW, not separate stations.** Move through the full chain on ONE side — dead clean → front squat → lateral lunge → bent press → tactical clean — letting each move feed the next, then repeat the whole flow on the other side. About 2 reps' worth at each move, don't stop to count. **~20-25lb throughout, 2 rounds. Light groove** — it should feel effortless. If the 25lb bell is taken, the next bell up (35lb) is the fallback — but keep it light; Friday legs is tomorrow.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-mobility-block",
+      "name": "Skill + Mobility Maintenance — Bent-Press Refresh + Windmill + TGU",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "**LOAD:** 25lb. 2 rounds, 3 each side — slow and deliberate. **🔆 Cue-focus refresh this week:**\n- **It's leverage, NOT a press** — the arm locks out by you hinging your body DOWN under the bell, the bell stays nearly still in space\n- **Hinge and rotate AWAY from the bell side** — push the hip out toward the bell side, fold at the hip\n- **Eyes track the bell the WHOLE time** — the bell stays stacked over the shoulder\n- **The stretch lives in the hip/hamstring of the bell side**, NOT the lower back — long spine, don't round to reach\n- **Weak side gets the deliberate reps.** Slow up, slow down. Right shoulder watch — keep it stacked; drop the load before the bell drifts forward." },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "**LOAD:** 18-20lb. Maintenance.\n- Bell locked overhead, eye tracks the bell\n- **Hip hinge AWAY from the bell side**\n- **Stretch lives in the back leg's hip flexor, NOT the lower back**\n- Long spine throughout, slow descent and controlled return." },
+        { "id": "kettlebell-turkish-getup", "reps": "1 forward + 1 reverse per side", "notes": "**LOAD:** 35lb. Sharp cues — both sides are stable here now, so keep the standard high.\n- **Straight-arm overhead lockout** — the arm stays locked vertical the whole way\n- Eyes ON the bell at every checkpoint; pause at every checkpoint — the reverse is half the lift\n- Hip bridge: glute squeeze, ribs down\n- **Left side still gets the deliberate reps** — it's holding at 35, keep building the quality there." }
+      ],
+      "notes": "Mobility maintenance — bent press in cue-focus this week, windmill + TGU light maintenance. Sharp cues, light loads.",
+      "restBetween": 60,
+      "restAfter": 30
+    },
+    {
+      "id": "balance-closer",
+      "name": "Balance Closer — Single-Leg RDL + Bird-Dog + Standing Side-to-Side Twist",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "single-leg-rdl-kettlebell", "reps": "5 each leg", "notes": "**LOAD:** 15-20lb. Single-leg balance + hip hinge. **The point is balance and control, not load** — keep it light so the legs stay fresh for Friday. Standing-leg glute locked, hips square, slow reach to the floor and back. The wobble is the training." },
+        { "id": "bird-dog", "reps": "8 each side", "notes": "Bodyweight. Slow anti-rotation balance — opposite arm + leg extend, hold 2s, hips stay square (no rotation). Resets the spine after the single-leg work." },
+        { "id": "kettlebell-standing-side-to-side-twist", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb (LIGHT — the straight-arm lever makes it feel heavy).\n- **Stand tall, one bell held by the horns in BOTH hands, arms straight out in front** at chest height\n- **Keep the arms straight and twist the bell side to side** — through center to one side, back through center to the other — bracing the core to control the rotation\n- **Ribs down, stand tall** — the twist comes from the core/obliques, NOT the lower back\n- Smooth and controlled, no momentum. No leg load — zero pre-fatigue for Friday." }
+      ],
+      "notes": "Light balance + core close, 2 rounds, ~5 min. Move through the three back-to-back with short rest. Settles the system after the flow work before the cooldown.",
+      "restBetween": 30,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the TGU hip bridge and lateral lunge work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from the lateral lunges and the wide-stance figure-8 work." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Permanent Flow + Coordination block — right after the banded prep.** Base KB skill-building: light-bell flowing coordination, rotating content. This week's new skill: the figure-8 weave.",
+    "**Thursday is kept LIGHT ON THE LEGS** — Friday legs takes priority. The figure-8 is an upper/grip move; OTD-flow front squat + single-leg RDL stay light. The leg-athletic KB work (reverse-lunge-to-knee-drive) lives on Tuesday.",
+    "**Skill novelty over intensity.** The win is a new movement learned clean, not a cardio burn. Keep the bell light.",
+    "**OTD flow is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. Light groove, 2 rounds, ~20-25lb.",
+    "**Strength block stays lighter** — single-arm row + press only (no C&P, that's Tuesday).",
+    "**Mobility maintenance = bent-press refresh** — sharper cues on the bent press; windmill + TGU light maintenance.",
+    "**Balance closer, not a metabolic finisher** — single-leg RDL → bird-dog → standing side-to-side twist. Keeps the legs fresh for Friday.",
+    "**Right shoulder watch on the overhead work** — bent press, windmill, TGU lockout. Lighten and slow down if it talks.",
+    "**Protective shrug greasing set in the warmup.**",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: the Flow + Coordination block rotates content (W18 halo → reverse lunge or split-stance pass-through, then the GymFiesta trio); mobility maintenance rotates to TGU left-side checkpoints."
+  ],
+  "formPhilosophy": "Thursday keeps the permanent home for base KB skill + coordination work. Because the bell is still new, the goal of this block is breadth — widening the movement vocabulary one clean new skill at a time — not conditioning intensity, which is why it's light and flowing and sits early as a coordination warm-up. This week's skill (figure-8) is chosen to keep Thursday off the legs so Friday legs stays strong — the leg-athletic KB work lives on Tuesday. The mobility maintenance block rotates its cue focus week to week (this week the bent press). Thursday's identity holds: conditioning + skill + balance, light enough to leave Friday legs fresh. Building decades, not weeks."
+}

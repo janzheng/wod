@@ -1,0 +1,224 @@
+{
+  "id": "fb-w13-legs",
+  "name": "Week 13 Legs — Heal Week (Spotlight: Bulgarian Split Squat)",
+  "description": "Heal week — hold all loads, cut volume. Squat holds at 75/side, run as a 3-set pyramid for cleaner depth. The Bulgarian split squat is the spotlight and the program's unilateral leg lift, introduced at light, form-only volume. Leg press holds 3 plates with the focus on full-ROM depth. The cool-down is hip/QL-biased.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "form-first", "spotlight-rotation", "heal-week"],
+  "estimatedDuration": 50,
+  "equipment": ["barbell", "dumbbell", "machine", "bench"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Heal week — hold loads, cut a set off each exercise. Squat holds 75/side as a 3-set pyramid. The Bulgarian split squat is the spotlight, introduced form-only at light volume. Leg press holds 3 plates with the focus on full-ROM depth. Cool-down biases toward hip and QL.",
+    "spotlights": [
+      {
+        "exerciseId": "bulgarian-split-squat",
+        "why": "The Bulgarian split squat is the program's unilateral leg lift. The rear foot stays fixed — no travel — which makes it more controlled, a better single-leg builder, and gentler on the QL. As a new movement the spotlight is the pattern: front-heel drive, vertical front shin, tall torso, at bodyweight or light DBs."
+      }
+    ],
+    "rotationPlan": "W11 leg press · W12 seated leg curl + calf raise · W13 Bulgarian split squat · W14 squat + incline RDL.",
+    "watchpoints": [
+      "Heal week — hold loads, cut a set. Squat 3 sets, leg press 3, leg curl / incline RDL / calf raise 2 each. If a lift feels easy, that's the design — don't add reps or weight.",
+      "Squat holds at 75/side, run as a pyramid (8/6/8). The 6-rep middle set is the deepest, cleanest one — treat it as the quality set.",
+      "The Bulgarian split squat is new — introduce it, don't load it. Bodyweight or light DBs, 2 sets of 8-10 each leg, form-only. Smith machine if free; otherwise a bench and light DBs.",
+      "Leg press holds 3 plates — chase depth, not load. Full ROM is the work; the deep bottom position trains the core and QL.",
+      "QL/psoas watch. The cross-leg lateral lean is in the warmup for this. If anything in the QL talks during the warmup, modify the day — stop any lift that twinges.",
+      "Cool-down stays — 5-min block, hip/QL-biased on legs day."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (incl. Cross-Leg Lateral Lean — QL/Psoas Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "bodyweight-squat",
+          "reps": 15,
+          "notes": "Full depth, slow. Find where the hips are tight and breathe into it. Depth check before loading."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — the stretch runs down the side of the waist into the QL and lateral hip. Do this before loading the squat, especially if the QL feels tight."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Big slow circles. Wake up the hip stabilizers."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine mobility — slow, full ROM each direction."
+        },
+        {
+          "id": "lunge",
+          "reps": "5 each leg",
+          "notes": "Bodyweight. Use it as a QL check — if anything talks here, modify the day. Also previews the Bulgarian split squat pattern."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — the wrist dials a stretch up the back chain from forearm to lats to low back. A quick posterior-chain and low-back opener before loading the squat."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": 8,
+          "notes": "Set 1: 45/side x8. Set 2: 65/side x8. Same depth as the working sets."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat (3-Set Pyramid at 75)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "8 / 6 / 8",
+          "notes": "**LOAD:** 75/side. Run as a pyramid — 8, then 6, then 8.\n\nThe 6-rep middle set is the quality set — make it the deepest and cleanest. Sets 1 and 3 at 8 bookend it.\n\n**Cues:**\n- Bar high on the upper traps (NOT the neck), upper-back shelf squeezed\n- **Brace like prepping for a punch** — deep belly breath at the top, HOLD through the descent, exhale on the drive up\n- **Hips back AND down**, not just down\n- 'Spread the floor' — screw the feet into the ground\n- Knees track over the toes\n- Sit into the bottom\n- Drive through the WHOLE foot\n\n**Reflection:** does the 6-rep middle set feel like the cleanest, deepest one?"
+        }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press (3 Sets, 3 Plates, Full ROM)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 3 plates/side. 3 sets. Chase DEPTH, not load.\n\nFull ROM at 3 plates is the work — the deep knee-to-chest position trains the core and QL at the bottom, not the leg muscles.\n\n- **Foot position:** shoulder-width, mid-foot on the platform, slight toe-out — set before loading\n- **Press through the WHOLE foot** — heels grounded\n- **Full ROM** — knee toward the chest, actively pressing to keep the lower back from lifting off the pad\n- Slow descent (3s), no bounce at the bottom\n- Don't lock out hard at the top — leave a hair of bend\n- If the hips lift off the pad at depth, that's too deep — back off\n- **Breath:** in on the descent, out on the drive"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "bulgarian-station",
+      "name": "🔆 Bulgarian Split Squat (Spotlight)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "bulgarian-split-squat",
+          "equipment": "bench + light DBs — Smith machine if free (use smith-machine-bulgarian-split-squat)",
+          "reps": "8-10 each leg",
+          "notes": "**LOAD:** Bodyweight or light DBs (10-15lb at the sides max). 2 sets of 8-10 each leg. This is an introduction — the load is not the point.\n\nThe Bulgarian split squat is the program's unilateral leg lift. Rear foot fixed means no travel — more controlled, a better single-leg builder, gentler on the QL. Smith machine if it's free (`smith-machine-bulgarian-split-squat`); otherwise a flat bench for the rear foot and light DBs at the sides.\n\n**🔆 SPOTLIGHT — drill the pattern every rep:**\n- **Rear foot up on the bench** behind you, laces down or toes tucked\n- **Step out far enough that the front shin stays roughly VERTICAL at the bottom** — too short a stance and the knee crashes past the toes\n- **Front knee tracks over the front foot** — not caving in\n- **Lower until the rear knee nearly touches the floor** — controlled, no dropping\n- **Drive up through the FRONT HEEL** — the front leg does the work, the rear leg is a kickstand for balance\n- **Torso stays TALL** — slight forward lean is fine, no folding over\n- **2s descent**, own the bottom\n\n**Reflection:** which is the limiter today — balance or strength? If it's balance, stay at bodyweight and groove the pattern. If the pattern is stable, light DBs are fine. Note any side-to-side asymmetry.\n\n**QL watch:** still unilateral hip work — if anything in the QL/psoas talks, drop to bodyweight or cut to 1 set."
+        }
+      ],
+      "notes": "2 sets, bodyweight or light DBs, form-only. The spotlight is the movement pattern.",
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "calf-raise-station",
+      "name": "Calf Raise (2 Sets, Deep Heel-Drop + Slow Eccentric)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": 15,
+          "notes": "**LOAD:** 3 plates/side, double-leg, on the incline leg press machine. 2 sets.\n\n**Setup:**\n- **Balls of both feet on the BOTTOM EDGE of the platform, heels hanging off the edge.** No plate under the foot — the platform edge gives the heel drop. This is a bottom-half-ROM movement.\n- **Both feet on the platform** — double-leg\n\n**Cues:**\n- **Full stretch at the bottom** — let the heels drop as far below the edge as they'll go\n- **Drive to FULL plantarflexion at the top**\n- **3-4s eccentric** — the slow descent is the stimulus, not more weight\n- **1s squeeze at the peak**, no bouncing\n- **Breath:** continuous, don't hold"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Seated Leg Curl (2 Sets at 90)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "seated-leg-curl",
+          "reps": 12,
+          "notes": "**LOAD:** 90. 2 sets.\n\n**Cues:**\n- **Ankles UNDER the pad** — the ankle bone is the contact point, NOT the mid-calf\n- **Settings: 5/m/0/1** (verify before loading)\n- **Lap pad locked DOWN firmly** — a loose pad lets the torso lift and turns it into lower-back work\n- **Curl the heels toward the glutes** — full ROM, full squeeze\n- **2s eccentric, 1s squeeze**\n- Torso stays anchored to the seat, no lifting forward\n- No bouncing out of the bottom"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "incline-rdl-working",
+      "name": "Incline RDL (2 Sets, Dead Slow)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "incline-rdl",
+          "reps": 15,
+          "notes": "**LOAD:** 45lb plate. 2 sets. Dead slow with a 2s pause at the bottom.\n\n**Cues:**\n- Pad just below the hip crease (NOT the upper thigh, NOT the stomach)\n- **Hip hinge** — a Romanian deadlift on the 45° bench, NOT a lumbar extension\n- Lower back NEUTRAL throughout\n- At the bottom, feel the stretch in the **hamstrings and glutes**, NOT the lower back\n- Drive up by squeezing the glutes and hamstrings\n- At the top, stop at neutral — past neutral loads the lumbar\n- Tempo: 3s eccentric, 2s pause, 1s drive\n- Take extra rest between sets if you need it"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Recovery Block (Hip/QL-Biased for Legs Day)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. Scissor the legs, reach overhead, lean away from the back leg — bookend the session with the same QL/psoas release as the warmup."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "45s each side. Deep hip-flexor and glute release — the long hold is what lets the QL and psoas let go."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side. Gentle twist for the QL — draw one knee across the body, opposite arm extended."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side. Front leg + back leg at 90°. Sink the hips toward the floor — hip-rotator decompression."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift before leaving the gym."
+        }
+      ],
+      "notes": "5-min recovery block, hip/QL-biased on legs day — the chains that take the most load from squats, leg press, and the Bulgarian split squat. The cross-leg lateral lean opens it, child's pose closes it.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Heal week — hold every load, cut a set off each exercise. Squat 3 sets, leg press 3, leg curl / incline RDL / calf raise 2 each. If a lift feels easy, that's the design.",
+    "Bulgarian split squat is the spotlight and a new lift — introduce it form-only: bodyweight or light DBs, 2 sets of 8-10 each leg. Smith machine if free, otherwise bench + light DBs.",
+    "Squat holds 75/side as a 3-set pyramid (8/6/8). Make the 6-rep middle set the deepest, cleanest one.",
+    "Leg press: hold 3 plates, chase depth. Full ROM is the work.",
+    "Cross-leg lateral lean is in the warmup and the cool-down — a QL/psoas release.",
+    "QL/psoas watch — use the warmup cross-leg lean, and stop any lift that twinges.",
+    "Cool-down stays — 5-min block, hip/QL-biased on legs day.",
+    "Rest 3 min squats, 2 min leg press, 90s Bulgarian and isolations."
+  ],
+  "formPhilosophy": "Heal week — hold loads, cut sets. The squat pyramid and the leg-press depth focus are about quality at a held load. The Bulgarian split squat enters form first, load later — a heal week is a good week to learn a new movement with nothing heavy at stake. Building decades, not weeks."
+}

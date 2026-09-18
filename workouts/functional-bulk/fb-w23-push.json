@@ -1,0 +1,162 @@
+{
+  "id": "fb-w23-push",
+  "name": "Week 23 Push — Steady State (Spotlight: Lateral Raise + Incline Overhead Tri Ext)",
+  "description": "Push day, spotlights cycle to the two shoulder/arm isolations — lateral raise and the incline overhead triceps extension.\n\nThe cable block rotates its order again, per the standing rule: this week the **tri extension leads** and the straight-arm pulldown moves off the tail entirely. Last week proved the difficulty was position, not load — so no lift should sit dead-last two weeks running.\n\nPush press and incline DB hold. Dips keep their tempo. The floor's been rising; let it.",
+  "routineId": "functional-bulk",
+  "tags": ["push", "strength", "hypertrophy", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbells", "smith-machine", "cable-machine", "kinesis", "dip-bars", "resistance-band", "kettlebell"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Spotlights rotate to the lateral raise and the incline overhead triceps extension — the two isolations that have been running on autopilot and can take a real cue pass. Cable block order rotates again (tri ext leads, straight-arm off the tail). Push press and incline DB hold at settled loads; dips hold bodyweight with the tempo lever.",
+    "spotlights": [
+      {
+        "exerciseId": "lateral-raise",
+        "why": "It's been 'fine' at 15 for weeks with a near-failure option you rarely need, which is exactly the profile of a lift that's quietly ready for a form pass rather than a number. You said yourself you could go slower. The side delt is a small muscle that rewards a clean line and constant tension far more than load — so the spotlight is the slow lift, the lead-with-the-elbow cue, and keeping the traps quiet so the delt actually does the work instead of the shrug stealing it."
+      },
+      {
+        "exerciseId": "incline-cable-overhead-tricep-extension",
+        "why": "This one just told you something useful by accident — it 'got much harder' the moment it ran last in the cable block. That makes it a good spotlight now that it's back at the front: with the fatigue variable removed, you can actually judge the movement itself. The whole point of the incline-overhead position is the deep stretch on the long head of the triceps, and the cue that matters is a fixed elbow — only the forearm moves. Drill that while it's fresh."
+      }
+    ],
+    "rotationPlan": "Push spotlights rotate: W21 dips + farmer carry · W22 push press + straight-arm pulldown · W23 lateral raise + incline overhead tri ext (current) · W24 back to incline DB + Kinesis fly. Cable-block ORDER rotates weekly: W22 straight-arm first → W23 tri ext first → W24 cable lat raise first.",
+    "watchpoints": [
+      "**Cable block order ROTATES again: tri ext FIRST, then straight-arm, cable lat raise last.** No lift sits dead-last two weeks running — that's the standing rule. Straight-arm holds 120 in the middle slot.",
+      "**🔆 Lateral raise: the spotlight is the SLOW lift** 🔥. Lead with the elbow, traps quiet, constant tension. You said you could go slower — do. 15 stays; tempo is the lever.",
+      "**🔆 Incline overhead tri ext: fixed elbow, deep stretch** 🔥. Only the forearm moves. Now that it's back at the front, judge the movement, not the fatigue.",
+      "**Push press holds 45** 🛑 — 'could do more in the end' last week. Cash that through a slower eccentric or a pause, not more load. The pack-down is the cap.",
+      "**Incline DB holds 50** 🛑 — 55 is available whenever the pack-down survives all 12 reps. You put a 2s eccentric on it voluntarily last week; keep that.",
+      "**Dips hold bodyweight, tempo is the lever** 🛑. Watch the palms — pressure showed up last week; if it persists it's a hand-position thing on the bars, not load.",
+      "**Farmer carry holds 50lb, 3 walks** — it's a nothingburger now, which is the point. No number needed.",
+      "**Intensity tags:** 🔥 near-failure last set OK — lateral raise, cable lat raise, tri ext. 🛑 keep it shy — push press, incline DB, dips, Kinesis fly, straight-arm pulldown, farmer carry.",
+      "**Cool-down is not optional** — 5 min, every gym day."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable) + Bottoms-Up Cuff Prep + Chest Opener + Pull-Up Greasing + Protective Shrug",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Small to large, both directions." },
+        { "id": "yuris-shoulder-band-warmup", "reps": 1, "notes": "**The push-day shoulder anchor — never skipped.** Full band sequence, controlled." },
+        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "**LOAD:** 18lb. Inverted bell over a vertical forearm, grip hard, shoulder packed. Cuff prep." },
+        { "id": "kinesis-cable-fly", "equipment": "Kinesis", "reps": "12-15", "notes": "**Kinesis, light.** Chest opener — warmup pass, not the working set." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Hinged slightly forward, tight fists, thumbs tucked." },
+        { "id": "push-up", "reps": 12, "notes": "Elbows ~45°, pack down not up. One easy set." },
+        { "id": "pull-up", "reps": "6-8", "notes": "**Greasing set — not to failure.** Keeps the pattern warm." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "DB pair", "reps": "12-15", "notes": "**Protective shrug.** 40-50lb pair behind the body, palms back. Blades DOWN and BACK, shrug UP and slightly back, 1s squeeze." }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "push-press",
+      "name": "Push Press (3 Sets at 45, Run First, FULL 2 Min Rest) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "push-press", "reps": "8-10", "notes": "**LOAD:** 45lb DBs. 3 sets, full 2 min rest, runs first.\n- **Blades DOWN and BACK into the back pockets** before the bell moves, held through lockout — traps quiet\n- **Hips deliver the drive, the shoulder receives it**\n- **Ribs DOWN** at the start, no arching under the weight\n- 'Could do more in the end' last week — spend that on a **slower eccentric or a pause**, not more load. The pack-down is the honest ceiling" }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "incline-db",
+      "name": "Incline DB Press (50 — Pack-Down Is the Gate to 55) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "incline-dumbbell-press", "reps": 12, "notes": "**LOAD:** 50lb pair, 3 sets of 12. Keep the 2s eccentric you added last week.\n- **Pack DOWN and BACK** — blades set into the bench before the first rep\n- **Elbows ~45°**, full stretch at the bottom, no bounce\n- **55 is available** the week the pack-down survives all twelve reps — not before" }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "dips",
+      "name": "Dips — Chest-Bias / Lean-Forward (Tempo Is the Lever; Mini-Dip Warmup First) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dip", "reps": "10-12", "notes": "**LOAD:** bodyweight, 3 sets. Two or three mini-dips first.\n- **3s eccentric** — the slow descent is the progression\n- **Lean the torso forward** for the chest bias, elbows tracking back\n- **Shoulders packed DOWN** at the top\n- **Watch the palms** — pressure showed up last week. If it persists, adjust hand position on the bars; it's not a load or tempo problem" }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "lateral-raise",
+      "name": "🔆 DB Lateral Raise (Spotlight — Slow It Down) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lateral-raise", "reps": "15-18", "notes": "**LOAD:** 15lb. 3 sets. 🔥\n\n**🔆 SPOTLIGHT — the slow lift is the whole thing:**\n- **Lead with the elbows**, pinkies slightly high\n- **Slow up AND slow down** — you said you could go slower, so do; constant tension, no swinging\n- **Pack DOWN** — traps quiet, the side delt does the work, not a shrug\n- **Pause a beat at the top**, control back down — don't drop the weight\n- Last set may go near failure once the tempo is clean\n\n**Reflection:** can you keep the traps quiet for the whole set, or do they start doing the lifting once it burns? The delt-not-trap feeling is the win, not the rep count." }
+      ],
+      "restBetween": 60,
+      "restAfter": 45
+    },
+    {
+      "id": "kinesis-fly",
+      "name": "Kinesis Cable Fly (Step Forward to Deepen) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kinesis-cable-fly", "equipment": "Kinesis", "reps": "10-12", "notes": "**LOAD:** Kinesis 9. 3 sets.\n- **Step forward to deepen the stretch** — the ROM is the lever, and it's been working ('always pretty hard')\n- **Soft elbows, fixed angle** — a fly, not a press\n- **Squeeze at the midline**, slow return into the stretch" }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cable-block",
+      "name": "🔆 Cable Block — Tri Ext FIRST → Straight-Arm Pulldown → Lat Raise (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "incline-cable-overhead-tricep-extension", "equipment": "cable column", "reps": "10-12", "notes": "**LOAD:** cable column **70** (default), Kinesis 5 fallback. Kneeling. **Runs FIRST this week.** 🔥\n\n**🔆 SPOTLIGHT — fixed elbow, deep stretch:**\n- **Elbows stay put — only the forearms move.** This is the whole lift; if the elbows drift the long head stops stretching\n- **Full stretch overhead**, then lock out without flaring the ribs\n- Now that it's at the FRONT (it 'got much harder' running last), judge the movement itself, not the fatigue\n- Last set may go near failure\n\n**Reflection:** does the elbow actually stay fixed through the whole set, or drop to help at the end? Fixed elbow = the stretch is honest." },
+        { "id": "straight-arm-pulldown", "equipment": "cable column", "reps": 12, "notes": "**LOAD:** cable column **120** — holds, in the MIDDLE slot this week.\n- **Pack the shoulders DOWN**, soft elbows at a fixed angle\n- Drive the bar to the thighs with the lats, **ribs down** — no leaning back\n- Slow return, full stretch overhead\n- It was 'immensely easier' run first last week — the middle slot should sit fine too" },
+        { "id": "cable-lateral-raise", "equipment": "Kinesis", "reps": 12, "notes": "**LOAD:** Kinesis 5-6 (default). Cable column 30 / pulley 10 if taken. **Runs last this week.** 🔥\n- Lead with the elbow, **traps quiet**\n- Constant tension — light enough to eat the tail slot fine" }
+      ],
+      "notes": "3 rounds. Order rotated so no lift sits last two weeks running. Note which equipment you used for the lat raise.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "farmer-carry",
+      "name": "Farmer Carry (3 Walks — Grip Caps It)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "farmer-carry", "duration": 50, "notes": "**LOAD:** 50lb per hand, 3 walks, 45-60s each.\n- **Shoulders packed DOWN**, ribs down, tall spine\n- **Walk slow and even**, no leaning or rushing the turn\n- **No straps** — the grip-limited number is the honest one\n- It's a nothingburger now, and that's fine — no number needed. Just walk it clean" }
+      ],
+      "restBetween": 60,
+      "restAfter": 45
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow height." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive. Let the shoulders decompress." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing — the parasympathetic shift." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Cable block order rotates: tri ext first, straight-arm middle, cable lat raise last.** No lift dead-last two weeks running.",
+    "**Lateral raise spotlight: slow it down.** Lead with the elbow, traps quiet, delt-not-shrug.",
+    "**Tri ext spotlight: fixed elbow, deep stretch.** Only the forearm moves.",
+    "**Push press holds 45** — spend the headroom on tempo, not load.",
+    "**Incline DB holds 50** — 55 when the pack-down survives all 12.",
+    "**Dips: bodyweight, 3s eccentric.** Watch the palms.",
+    "**Farmer carry 50lb × 3 walks** — nothingburger, no number needed.",
+    "🔥 near-failure OK on lateral raise, cable lat raise, tri ext. 🛑 keep it shy on push press, incline DB, dips, fly, straight-arm, carry.",
+    "Cool-down permanent — 5 min."
+  ],
+  "formPhilosophy": "Two lifts that have coasted on 'fine' for weeks get the spotlight, because 'fine' is where quiet form debt hides — a lateral raise creeping into a shrug, a triceps extension whose elbow has started to drift. Neither needs more weight; both need attention, which is a different and cheaper thing. Meanwhile the cable block keeps rotating its order on principle: last week taught us the tail slot, not the load, was making a lift feel brutal, so the fix isn't to move a number, it's to make sure the tax lands on a different lift each week. Small corrections, held loads, the floor rising underneath. Building decades, not weeks."
+}

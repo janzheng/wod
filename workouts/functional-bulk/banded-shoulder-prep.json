@@ -1,0 +1,77 @@
+{
+  "id": "banded-shoulder-prep",
+  "name": "Banded Shoulder Prep — Seven Positions, ~2 Minutes",
+  "description": "**The shoulder anchor, detached from kettlebell day so it can happen anywhere.**\n\nIt has lived inside the KB sessions since the program started, which was fine while those ran weekly — but when the KB days get skipped, this goes with them, and this is the input that has kept the right shoulder quiet through a heavy pressing block.\n\n**Seven positions, one round, about two minutes.** No bell, no bench, just a light band. Run it on a rest day, after a swim, before a gym session, or on the floor of the apartment gym.\n\n**Push and pull days deliberately do NOT carry extra band volume** — those days already run long and have their own anchors (Yuri's on push, band-pull-apart on pull). This is for the days that have neither.",
+  "routineId": "functional-bulk-dynamic",
+  "anytime": {
+    "label": "Banded Shoulder Prep",
+    "note": "Seven positions, ~2 min, light band. Any day, before or after.",
+    "icon": "🎗️",
+    "order": 2
+  },
+  "tags": [
+    "shoulders",
+    "rehab",
+    "prehab",
+    "band",
+    "functional-bulk",
+    "anytime"
+  ],
+  "estimatedDuration": 5,
+  "equipment": [
+    "resistance-band"
+  ],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. **Sustained tension, no rest between positions.**\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range stays smooth — a small clean range beats a big ragged one.\n\n**Seated is the default** because it takes the legs and the low back out of it, but standing is fine if that is what is available.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Two minutes, one round, light band. Sustained tension beats heavy tension.",
+    "This is why the right shoulder has stayed quiet — it works because it is frequent, not because it is hard.",
+    "Tired-day version is 6 reps each. Do it badly rather than skip it.",
+    "Don't add this on top of push or pull day — those already have their own shoulder anchor."
+  ]
+}

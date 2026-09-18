@@ -1,0 +1,158 @@
+{
+  "id": "fb-w11-kb-full",
+  "name": "Week 11 KB Full Body — Skill + Mobility (Spotlight: Swing Mechanics + Bent Press Leverage)",
+  "description": "Second week back from W9 sick rest. Tuesday-as-skill/mobility-flank framing held in W10D2 — left fresher, no QL signal on swings, big TGU breakthrough at 40lb. **Spotlights this week:** swing mechanics (the B-stance flow opener — drill the hike pass + hip snap) and bent press leverage (the lateral hinge cue — drill it deeper now that 25lb feels home-base). **C&P projection from W10D2:** start at 40, work toward 45. **TGU:** can run 30 or 40 — W10D2 confirmed 40 felt weightless with the 'focus on the clean' cue.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "spotlight-rotation"],
+  "estimatedDuration": 35,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Tuesday is still the skill/mobility flank, NOT a strength day. Spotlights drill swing mechanics + bent press leverage. C&P ramps per the W10D2 projection (start at 40, toward 45). TGU stays in the 'clean is the work' groove.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-b-stance-swing",
+        "why": "The B-stance flow opens every Tuesday at 25lb x 3 each side x 3 rounds. W10D2 'felt great, light' — that's the green light to drill the mechanics deeper, NOT to add load. The hike pass + lats packed + hips snap forward pattern shows up in EVERY KB lift downstream (clean, snatch, swing). Make it bulletproof here, the rest of the day inherits it."
+      },
+      {
+        "exerciseId": "kettlebell-bent-press",
+        "why": "W10D2 'back to home-base 25, felt right' — the lateral hinge cue is durable. W11 drills it deeper now that the load isn't a question. The press-up-by-moving-body-DOWN cue is the unlock; this week make it automatic, not a thought."
+      }
+    ],
+    "rotationPlan": "W10 C&P + TGU · W11 swing mechanics + bent press leverage (current) · W12 windmill + cossack mobility · W13 cycle back to C&P + TGU. ~3 weeks per cycle.",
+    "watchpoints": [
+      "**C&P ramp from W10D2 projection:** 40 start, 45 if 40 feels grooved by round 2. **NO 50 yet** — that's the QL-spasm-territory weight from W8. The 35→40→45→50 ramp needs all 3 KB sessions.",
+      "**TGU at 30 or 40** — W10D2 'focus on the clean itself made each side feel weightless' even at 40. If the clean groove is there in the warmup, run 40. If the clean feels off, run 30. Not 25 anymore — that's behind you.",
+      "**Banded prep — blue rope band swap (W10D2 win)** is the reusable alternative to the mini-band. Both work. Pick what's around.",
+      "QL/lower back on swings — even at 25lb, the hip-hinge-under-load pattern is the W8/W9 trigger. W10D2 was clean. Keep watching."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "Light bell (15-20lb), big slow circles. Loosen the shoulders before any overhead work." },
+        { "id": "kettlebell-goblet-squat", "reps": 8, "notes": "**LOAD:** 25lb. Find your depth. Sit in the bottom for a beat. Mobility, NOT a working set." },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "**LOAD:** 25lb (light, just for the hinge groove).\n- Hike pass between the legs, NOT a squat-and-lift\n- Lats packed down, bell stays close\n- Hips snap forward — bell floats to chest height\n- **This is the spotlight cue preview** — make this 10-rep warmup the cleanest thing of the day." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Heels tucked, mini-band overhead, hands wider than shoulders. **Sustained tension.** **Or use the W10D2 alt: blue rope band gripped in hands** — produced 'massage-level' shoulder relaxation." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Pull band down behind head — **elbows drive to ribs**, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Band wraps the upper back. **Press out to T** — fires rear delts and mid-traps before C&P." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Band at sternum, **pull apart, scaps retract**, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep arms further back. **Don't overarch** the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Half-windmill with band — primes the bent press lateral hinge spotlight." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in V/Y overhead. **Hold and breathe** — lower traps fire here." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension throughout, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "🔆 Block 1: B-Stance Flow (Swing Mechanics Spotlight)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kettlebell-b-stance-swing",
+          "reps": "3 each side",
+          "notes": "**LOAD:** 25lb (HOLD — W10D2 confirmed sweet spot, 'felt great, light'). Same volume as W10D2 (3 each x 3 rounds).\n\n**🔆 SPOTLIGHT — drill these every rep:**\n- **B-stance: heel UP on the back foot** — most weight on the front leg (~70/30)\n- **Hike pass between the legs**, NOT a squat-and-lift. The bell goes BACK before it goes UP.\n- **Lats packed DOWN** — bell stays close to the body, doesn't drift away\n- **Hips snap FORWARD** — bell floats to chest height on momentum, NOT lifted by the arms. The arms are ropes; the hips are the engine.\n- **Glutes finish the snap** — at the top of the swing, glutes squeezed hard, ribs down (no flare)\n- Eye on the bell, stay tall, no looking down\n\n**Reflection:** does the hike pass feel like a hike, or like a lift? If the arms are doing more than guiding, slow down and re-find the hinge."
+        },
+        { "id": "kettlebell-swing-clean", "reps": "3 each side", "notes": "**Catch into rack on the swing.** Soft elbow into the body — no slam. The W3 'knee-bent catch' cue applies here too — absorb the impact." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": "3 each side", "notes": "Stay in B-stance, squat from rack. Front-loaded squat — chest tall, back foot heel up." },
+        { "id": "kettlebell-swing-snatch", "reps": "3 each side", "notes": "Punch overhead from rack. Lock out hard at the top — bicep by the ear, ribs down (no flare). The snatch INHERITS the swing mechanics drilled above — if the swing was clean, the snatch is clean." },
+        { "id": "kettlebell-overhead-lunge", "reps": "3 each side", "notes": "Bell locked overhead, step into lunge. Bicep stays glued to the ear. Long stride, vertical front shin." }
+      ],
+      "notes": "25lb. 3 reps each side x 3 rounds. Same volume as W10D2 — proven dose. Don't add load.",
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "skill-block",
+      "name": "🔆 Block 2: Skill Work (Bent Press Leverage Spotlight + Cossack + Windmill)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-bent-press",
+          "reps": "3 each side",
+          "notes": "**LOAD:** 25lb (HOLD — W10D2 confirmed home-base felt right). 2 rounds.\n\n**🔆 SPOTLIGHT — drill the leverage every rep:**\n- **Bell starts in rack, eye on bell throughout** — the head turn IS part of the lift\n- **Lateral hip hinge AWAY from bell side** — push the bell-side hip out sideways, knee soft on bell side. NOT a side bend.\n- **Spine stays LONG** — if the lower back compresses, you're side-bending. Hinge = hip + glute load. Side-bend = QL load.\n- **THE LEVERAGE CUE — 'press up by moving body DOWN, not by pushing bell UP.'** The bell barely moves; your body changes shape under it. This is the durable cue from W7 — make it automatic this week.\n- Free hand can drift toward inside of front foot for counterbalance — bell-side stays vertical\n- Slow descent back to rack, controlled — no slam\n\n**Reflection:** at rep 3, are you pressing the bell up, or moving your body down? They're not the same lift. The leverage version conserves shoulder energy; the press version torches it."
+        },
+        { "id": "cossack-squat", "reps": "8 each side", "notes": "**LOAD:** 25lb goblet (HOLD — W10D2 'slow-and-deep produces a hard stop at end-range, range is the work'). Spotlight is W12.\n- Sit DEEP, heels stay down\n- Working leg in full external rotation\n- Mobility, not strength — heel popping up = drop to 20 or shorten stance" },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 25lb (HOLD — W10D2 'felt good'). Spotlight is W13 (Thursday) and revisits via cycle.\n- Bell locked overhead, eye tracks bell\n- **Hip hinge AWAY from bell side** (same pattern as bent press — they share the family)\n- Reach free hand toward inside of front foot\n- Long spine — stretch in **hip flexor of the back leg**, NOT lower back"
+        }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "tgu-block",
+      "name": "Block 3: TGU (Maintenance — 30 or 40 per Feel)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "2 each side",
+          "notes": "**LOAD:** **30 or 40** (W10D2 confirmed 40 'feels weightless' with the clean-focus cue — pick based on how the clean grooves in the first round). NOT 25 — that's behind you. Spotlight was W10; sharp checkpoint discipline only this week.\n\n- Pause at every checkpoint: lying → elbow → hand → hip bridge → leg sweep → lunge → stand → reverse\n- **Eyes ON the bell** every checkpoint\n- **'Focus on the clean itself' cue** (W10D2 unlock) — the setup IS the work: punch the bell to a stable STRAIGHT-ARM overhead lockout before the get-up. The TGU is a straight-arm lift — the arm stays locked vertical throughout, no rack hold during the get-up. If the overhead lockout is wobbly, the rest of the lift inherits the wobble.\n- **Left side first** — give it the freshest reps. Weak side first, every time."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cp-block",
+      "name": "Block 4: C&P (Ramp 40 → 45 per W10D2 Projection)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-clean-and-press",
+          "reps": "5 each",
+          "notes": "**LOAD:** **40 start, 45 if 40 feels grooved** (W10D2 explicit projection: 'start at 40 next week, work toward 45'). Spotlight was W10; sharp cues only.\n\n- **Catch the clean with knees slightly bent** — the W3 cue, still durable\n- **Hips drive the clean**, NOT the arm\n- Rack: bell on chest, elbow tucked into ribs, wrist neutral\n- Press: **ribs DOWN** (no rib flare — the W8 trigger pattern), bicep finishes by the ear, full lockout\n- Lower with control — no slam\n\n**Both-sides symmetry check:** right has historically led; left should match right's *quality*, not chase right's speed. If left at 45 feels rougher than right at 40, drop left to 40 — quality wins.\n\n**NO 50 today.** That's W12 territory at earliest, not now."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "**LOAD:** 25lb. Light row, 2s pull / 2s lower. NOT a strength set — just enough to feel the back. Skip if shoulders are cooked." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight on KB days from B-stance and cossacks." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Spotlights: B-stance swing mechanics + bent press leverage.** Both at home-base 25lb. The cue is the progression, not the load.",
+    "**Swing mechanics drill:** hike pass (bell goes BACK before UP), lats packed down, hips snap forward. The arms are ropes; hips are the engine. This pattern shows up in every downstream lift.",
+    "**Bent press leverage drill:** 'press up by moving body DOWN, not pushing bell UP.' The body changes shape under the bell. Lateral HINGE, not side bend.",
+    "**C&P ramp 40 → 45 per W10D2 projection** — start at 40, jump to 45 if 40 grooves. NO 50 yet.",
+    "**TGU at 30 or 40** based on how the clean grooves — NOT 25 anymore. Left side first.",
+    "**Banded prep:** mini-band OR blue rope band held in hands (W10D2 alt). Both work.",
+    "Cooldown is mandatory — pigeon + butterfly. Hips and adductors get tight on KB days.",
+    "Rotation plan: W12 windmill + cossack mobility · W13 cycle back to C&P + TGU."
+  ],
+  "formPhilosophy": "KB Tuesday = skill + mobility. Spotlights drill the durable cues at home-base loads. The W10D2 lessons (swing was 'almost too light' = right dose, TGU 'clean is the work', C&P 35→40 ramp on track, bent press home-base felt right) ARE the program. Form is the entire progression."
+}

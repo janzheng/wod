@@ -1,0 +1,187 @@
+{
+  "id": "fb-w26-pull",
+  "name": "Week 26 Pull — The Clean Read (Spotlight: Pull-Up + DB Row)",
+  "description": "**Warmups are baked into each block's notes as a reminder.**\n\n**Curls-first is permanent now.** It ran as a one-week test, sets two and three came back clean, and the gating number held — full sets at 90 on both sides. It's the bench-block order, not an experiment.\n\n**This is the week the left arm gets an honest reading.** The last two weeks were contaminated by an unplanned dose of slow-eccentric kettlebell presses on a Tuesday. Nothing like that is in the way this week, so whatever the left does on the first curl is real information.\n\n**Three loads moved last week and all three stick:** lat pulldown 150-160, cable crunch 82.5, face pull 60+.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": ["pull", "gym", "strength", "functional-bulk"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "resistance-band", "bodyweight"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Nothing structural changes this week, which is the point — the bench order is settled, three loads just moved, and what the day needs now is a clean run to see what's actually true. The spotlight goes to the two lifts that carry the day's strength: pull-ups and the DB row. Both are grip-and-position lifts where the honest ceiling is the rep the cue breaks, not the rep the muscle quits.",
+    "spotlights": [
+      {
+        "exerciseId": "pull-up",
+        "why": "The most honest lift in the program and the one that has quietly improved most — grip used to end the set at six, and it now runs 10 / 8 / 7 / 5 to form failure with a 3s eccentric intact. That combination is unusual: reps went up while the tempo requirement went up too. So the spotlight isn't about getting more reps, it's about making sure the thing that got you here doesn't erode — the descent staying genuinely 3 seconds on the fourth set, and the rep starting from the shoulder blades rather than the elbows."
+      },
+      {
+        "exerciseId": "dumbbell-row",
+        "why": "The left side reached full sets at 90 for the first time last week, on both sides, which closed a gap that had been open since W20 — and it did it without straps, on a lift where the grip was the cap for months. That makes this a good moment to look at the top of the movement rather than the number. A row that ends when the elbow stops moving is not the same as a row that ends when the shoulder blade stops moving, and only one of those trains the mid-back."
+      }
+    ],
+    "rotationPlan": "Pull spotlights: W25 chest-supported row + incline curl · W26 pull-up + DB row (current) · W27 cable finisher block · W28 face pull + reverse fly. The bench-block order is now fixed — curls first, permanently.",
+    "watchpoints": [
+      "**🔆 Pull-ups: 4 sets to form failure, 3s eccentric.** Last week 10 / 8 / 7 / 5 🛑. **Reps falling across sets is fine; the tempo falling isn't** — that's the line.",
+      "**🔆 DB row 70 / 80 / 90 pyramid, LEFT FIRST** 🛑. Both sides got full sets at 90 last week. **Hold the pyramid, let the reps creep — don't add load.** No straps.",
+      "**Incline curl still runs FIRST — permanent.** 25lb, left first 🛑. **This is the first uncontaminated week**, so how the left feels on rep one is real data.",
+      "**Lat pulldown: 150-160 on the regular machine.** Take 160 if it's there, fade to 150 if not — both are honest 🛑. Dual pulley 70/side is the fallback.",
+      "**Face pull: 60+.** One number, one machine — take whichever station is free and add as it gets easy 🔥.",
+      "**Cable crunch: rope pulley 82.5** (new high last week) **or cable column 150** 🔥. Log which.",
+      "**High cable curl keeps the ascending pyramid — 180 / 190 / 200** 🔥. Left first. It landed well; don't change the shape.",
+      "**Chest-supported row holds 45, slow eccentric** 🔥. It read hard last week running fourth in the block — see whether that repeats before touching the number.",
+      "**Reverse fly 20, slow eccentric** 🔥. Settled; the tempo is the lever.",
+      "**Intensity tags:** 🔥 near-failure last set OK — chest-supported row, reverse fly, face pull, high cable curl, cable crunch. 🛑 keep it shy — pull-up, DB row, incline curl, lat pulldown.",
+      "**Behind-back shrug goes FIRST. Cool-down is 5 min, not optional.**"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Band-pull-apart is the pull-day shoulder anchor. Keep this block lean — the day runs long.",
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 20, "notes": "The pull-day shoulder anchor. Straight arms, squeeze the blades together." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spinal warmup." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Hinged slightly forward, tight fists, thumbs tucked." },
+        { "id": "dead-hang", "duration": 30, "notes": "Passive hang. Decompress before loading the pull." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "shrug",
+      "name": "Behind-Back DB Shrug — Protective Activation (DO THIS FIRST)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Before anything gets loaded. This is the block that keeps the shoulder quiet through pull day.",
+      "exercises": [
+        { "id": "behind-back-dumbbell-shrug", "reps": "12-15", "notes": "Behind the back, shoulders roll DOWN and back at the top. Never up toward the ears." }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "pull-ups",
+      "name": "🔆 Pull-Ups — Straight Bar, 4 Sets, 3s Eccentric (Spotlight) 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "**Bodyweight, 4 sets to form failure, 3s eccentric on every rep.** Last week: 10 / 8 / 7 / 5.\n\n**🔆 SPOTLIGHT — protect what got you here:**\n- **The rep starts with the shoulder blades, not the elbows.** Pack down first, then pull. A rep that starts at the elbow is a rep the arms are doing\n- **3s down, every rep, including the last one of the last set.** The descent is the half that built this — and it is the half that quietly disappears when the set gets hard\n- **Chest toward the bar**, not chin over it. Chin-over is how the range shortens without noticing\n- **Full hang at the bottom without dumping into the shoulders** — long arms, blades still engaged\n- **Singles are a legitimate way to finish a set** 🛑\n\n**Grip is no longer what ends these** — it used to end them at six. That's worth knowing when the fourth set gets ugly: it's your back deciding, not your hands.\n\n**Reflection:** on the fourth set, was the descent still honestly 3 seconds — or did it become 'down'? That's the only thing worth changing here.",
+      "exercises": [
+        {
+          "id": "pull-up",
+          "reps": "to form failure",
+          "notes": "**Straight bar, 4 sets, 3s eccentric.** Pack down before the pull. Take what the day gives on reps; hold the tempo absolutely."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "bench-block",
+      "name": "DB Rack / Bench Block — Incline Curl → 🔆 DB Row → Chest-Supported Row → Reverse Fly (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**Curls first is the order now.** All four lifts live at the DB rack and the adjustable benches — take them as one station.\n\n**This is the first clean week for the left arm.** No unplanned eccentric work in front of it, so a bad first curl means something and a good one does too.",
+      "exercises": [
+        {
+          "id": "incline-curl",
+          "reps": "10 each side",
+          "notes": "**LOAD:** 25lb. **LEFT ARM FIRST.** Incline bench ~45°, chest-supported, arm hanging down the face of the pad.\n\n- **Upper arm stays flat on the pad the whole rep** — if it lifts off, it's a standing curl\n- **Lower to a FULL stretch** — the bottom is the entire point of this variation\n- **Shoulder packed DOWN** — no shrugging the arm up to start the rep\n- **Slow the eccentric**, don't drop out of the stretch\n\n**Reflection:** how does the LEFT feel on the very first rep this week, with nothing in front of it?"
+        },
+        {
+          "id": "dumbbell-row",
+          "reps": "8-10 each side",
+          "notes": "**LOAD:** 70 → 80 → 90 pyramid across the three rounds. **LEFT ARM FIRST.**\n\n**🔆 SPOTLIGHT — where the rep ends is the whole lift:**\n- **Pack the shoulder DOWN and BACK before the elbow moves.** The blade initiates; the arm follows\n- **Finish by driving the elbow PAST the ribs** — a row that stops when the elbow stops is an arm lift. The last inch, where the blade pulls toward the spine, is the mid-back's inch\n- **Don't rotate the torso to get it.** If the shoulder has to twist up to finish, the range has run out — that's the honest end of the rep\n- **Slow return to a full stretch**, let the blade travel forward at the bottom\n- **Grip the cap, no straps** — the grip is part of the lift, and it stopped being the limiter here\n\n🛑 Both sides got full sets at 90 last week. **Hold the pyramid and let the reps creep; don't add load.**\n\n**Reflection:** can you feel the difference between the elbow finishing the rep and the shoulder blade finishing it? On which side is that easier to feel?"
+        },
+        {
+          "id": "chest-supported-dumbbell-row",
+          "reps": 12,
+          "notes": "**LOAD:** 45lb, slow eccentric.\n\n- **Chest stays glued to the pad** — the moment it peels off, the low back has joined in\n- **Start the rep with the shoulder blades**, then let the elbows follow\n- **Elbows drive past the ribs at ~45°**, not flared to 90\n- **Slow eccentric to a full stretch** — let the blades come apart at the bottom\n- **No shrug**\n\n🔥 Last set can go near failure — it's supported and the form doesn't fail dangerously. It read hard last week running fourth in the day; see whether that repeats."
+        },
+        {
+          "id": "dumbbell-reverse-fly",
+          "reps": "12-15",
+          "notes": "**LOAD:** 20lb, slow eccentric.\n\n- **Soft elbows at a fixed angle** — bending and straightening turns it into a row\n- **Lead with the pinkies**, thumbs down\n- **Shoulders packed DOWN** — the traps want this one badly, don't let them have it\n- Slow all the way back down\n\n🔥 Near-failure OK on the last set. The load is settled; the tempo is the lever."
+        }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown (150-160, Regular Machine) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** regular machine **150-160** · dual pulley **70/side (140)** as the fallback. Log which.\n\n160 went on last week for the first time, with the eccentric fading at the top of the set. Take 160 if the day has it and fade to 150 if it doesn't — both are honest.",
+      "exercises": [
+        {
+          "id": "lat-pulldown",
+          "reps": "8-12",
+          "notes": "**LOAD:** regular machine 150-160 · dual pulley 70/side.\n- **Pack the blades DOWN before the bar moves**\n- **Elbows drive down to the ribs**, not back\n- **Slow eccentric** — that's where 160 shows itself first\n- Full stretch at the top without letting the shoulders shrug up into it\n- Chest up, slight lean back, no swinging"
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 75
+    },
+    {
+      "id": "face-pull",
+      "name": "Face Pull (60+) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD: 60+.** One machine, one ladder — take whichever station is free and keep adding as it gets easy.\n\nIt ran 62.5 last week and got genuinely hard on the last set, which is the right read for the one lift on this day that exists purely for shoulder health.",
+      "exercises": [
+        {
+          "id": "face-pull",
+          "reps": 20,
+          "notes": "**LOAD:** 60+.\n- **High elbows** — above the level of the hands the whole way\n- **Knuckles up**, pull the rope apart toward the ears\n- **Rotate at the end** — the external rotation at the finish is the entire reason this lift is in the program\n- Slow return, no shrug\n\n🔥 Near-failure fine on the last set."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 75
+    },
+    {
+      "id": "cable-finisher",
+      "name": "Cable Finisher — High Cable Curl (Ascending) + Cable Crunch 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "Both on the cable column. The ascending curl landed well last week — same shape, same numbers.",
+      "exercises": [
+        {
+          "id": "high-cable-bicep-curl",
+          "reps": "10-12 each side",
+          "notes": "**LOAD: ASCENDING — 180 → 190 → 200** on the cable column (\"double column\"). Single pulley alternative: **62.5**.\n\n**LEFT ARM FIRST.**\n- **Elbow stays fixed and high** — the upper arm doesn't drift down or forward\n- **Squeeze at the top**, slow return to a full stretch\n- **Shoulder packed DOWN** — no shrugging into the rep\n\n🔥 200 lands on the last set, where near-failure is fine."
+        },
+        {
+          "id": "cable-crunch",
+          "reps": "12-15",
+          "notes": "**LOAD:**\n- Rope pulley: **82.5**\n- Cable column: **150**\n\nPick by availability and **log which**. The two scales don't convert.\n- **Curl the spine, don't hinge the hips** — the hips stay put and the ribs come toward the pelvis\n- **Slow return**, resist all the way back up\n- Arms are hooks, not levers\n\n🔥 Near-failure OK on the last set."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout.",
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow height." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive. Decompression after a full pull day." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Left arm first on every unilateral lift today** — incline curl, DB row, high cable curl. The weaker side sets the standard.",
+    "**No straps.** The grip is the honest working weight.",
+    "**Log which cable stack you used**, not just the number."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "kb-leggy-flow",
+  "name": "Leggy Flow — Dead Clean → Curtsy → Lateral Lunge → Lateral Squat Clean → Tactical Clean",
+  "description": "A leggy single-bell kettlebell flow from a Madeleine Conti reel — the lower-body cousin of the Bent Press Flow (kb-flow-dead-clean-press). Same dead-clean entry and tactical-clean exit, but the middle is all lunge / lateral-squat work instead of front squat + bent press. Dead clean from the floor, curtsy lunge in the rack, lateral lunge swinging the bell back, clean up into a lateral squat, lateral lunge again, then step the feet together for a tactical clean. Run the full sequence on one side, then the other. No overhead pressing — friendly on the right shoulder.",
+  "routineId": "kettlebell",
+  "tags": ["kettlebell", "flow", "full-body", "legs", "strength", "unilateral", "complex", "skill-work", "lateral"],
+  "estimatedDuration": 15,
+  "equipment": ["kettlebell"],
+  "difficulty": "intermediate",
+  "source": "Madeleine Conti Personal Training (Facebook Reel)",
+  "sourceUrl": "https://www.facebook.com/reel/1510541494200598",
+  "isFlow": true,
+  "rounds": 3,
+  "flowNotes": "**This is a continuous FLOW, not separate stations.** Move through the whole chain on ONE side — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean — letting each move feed the next, then repeat on the other side. Single MEDIUM bell (~25-35lb); quality and continuity over load. The cleans come from the legs and hips, not the arm. 3 rounds each side.",
+  "flowSequence": [
+    { "id": "kettlebell-dead-clean", "notes": "Dead stop on the floor, explosive pull to the rack — soft knees to catch, zero impact." },
+    { "id": "curtsy-lunge", "notes": "Bell stays racked. Step the trailing leg back and across, knee toward the floor, torso tall, front knee tracks the toes." },
+    { "id": "kettlebell-lateral-lunge", "notes": "Swing the bell DOWN between the legs as you step wide — hips back, trailing leg straight. The swing-back loads the next move." },
+    { "id": "kettlebell-lateral-squat-clean", "notes": "From the bottom, drive out of the lateral lunge and clean the bell to the rack as you come up into a lateral squat. Leg + hip power makes the clean — the arm just guides. Catch soft." },
+    { "id": "kettlebell-lateral-lunge", "notes": "Swing the bell back down between the legs again — second lateral lunge, controlled." },
+    { "id": "kettlebell-tactical-clean", "notes": "Smooth, controlled return to the rack — closes the flow before switching sides." }
+  ],
+  "tips": [
+    "This is a FLOW — the six moves connect seamlessly, no pausing between them. Smooth, controlled transitions are the point.",
+    "Single MEDIUM bell — movement quality and continuity over load. The cleans and the lateral squat clean are powered by the legs and hips, not the arm.",
+    "Run the full sequence on one side, then the other. 3 rounds each side is a solid dose; for a conditioning version, run 2-3 rounds/side as one set, rest 1 min, repeat for 4-5 sets.",
+    "Curtsy lunge stays racked; the lateral lunges swing the bell down between the legs to load the next clean.",
+    "No overhead pressing in this flow — friendly on the right shoulder. The highest the bell goes is the rack.",
+    "Great for hip mobility, adductor strength, lateral-plane power, and full-body coordination."
+  ]
+}

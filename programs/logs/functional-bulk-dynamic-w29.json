@@ -1,0 +1,451 @@
+[
+  {
+    "day": 1,
+    "date": "2026-09-07",
+    "workoutId": "fb-w29-push",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "Sleep deprived — 'sleep deprived!!!!!' — **~3 hours, because of the baby**: 'mostly bc of baby i got like 3h of sleep lol thats prob why tired.' Week four of the newborn. A free bench drove a full reorder: incline ran FIRST and the strict press ran LAST, which produced the best incline report of the block and collapsed the press at an unchanged load. He reached the conclusion himself: 'lmao should have started with push press.' Follow-ups: the swim was the day before (Sun 2026-09-06), not the same day; the dip third set was the session's best; the carry drop was tiredness, not a plan.",
+    "exercises": [
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          {
+            "weight": "60lb pair",
+            "reps": 12,
+            "notes": "'Felt like dying.'"
+          },
+          {
+            "weight": "60lb pair",
+            "reps": 12,
+            "notes": "'Second set feels better but yikes still hard.'"
+          },
+          {
+            "weight": "60lb pair",
+            "reps": 12,
+            "notes": "'Finished!! still hard.'"
+          }
+        ],
+        "notes": "Ran FIRST — 'scored a bench so did incline first.' 12 x 3 at 60, the top of the prescribed 8-12 range and the first session where the incline reps were actually counted. He experienced it as brutal throughout."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          }
+        ],
+        "notes": "'Less hard and did all sets; still working weight tho.' W28 lost set 3 about halfway, so all three completed is a step up at the same 20."
+      },
+      {
+        "id": "dip",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 12,
+            "notes": "'Felt ok but prob only bc i skipped strict press.'"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 12,
+            "notes": "'Whoa felt really good on this one adrenaline kicking in.'"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 12,
+            "notes": "'Went great actually / felt super strong.'"
+          }
+        ],
+        "notes": "12 x 3, and the THIRD set was the best of the three — 'went great actually / felt super strong.' He credited the quality to arriving fresh: dips came before the press this week instead of after it."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": [
+          {
+            "weight": "120",
+            "equipment": "cable column",
+            "reps": 12
+          }
+        ],
+        "notes": "'Both cable column ones went fine.' Station confirmed by him; number read as the written 120."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": [
+          {
+            "weight": "60",
+            "equipment": "cable column",
+            "reps": "10-12"
+          }
+        ],
+        "notes": "'Both cable column ones went fine.' Station confirmed by him; number read as the written 60, no tired-day drop to 50 needed."
+      },
+      {
+        "id": "standing-dumbbell-strict-press",
+        "sets": [
+          {
+            "weight": "50lb pair",
+            "reps": 7,
+            "notes": "Push press. 'Died at 7 on the first set.'"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": 6,
+            "notes": "Push press. 'Tried to strict and couldn't get first one up.'"
+          }
+        ],
+        "notes": "MISMATCH — prescribed strict, no leg drive, 6-8 x 3. Ran LAST instead of first and became a push press at an unchanged 50; two sets, not three. One week earlier the same 50 went 8 x 3 all strict, also on bad sleep, from the second slot. Answered: he meant the prescribed order — 'should have followed your thing and did strict press at beginning; i was dead when i moved it to the end.'"
+      },
+      {
+        "id": "farmer-carry",
+        "sets": [
+          {
+            "weight": "50lb per hand"
+          },
+          {
+            "weight": "50lb per hand"
+          }
+        ],
+        "notes": "MISMATCH — prescribed 60. Two walks at 50, 'ready for bed haha.' W28 banked two walks at 60. Asked whether the drop was a decision or what was left in the tank. Answered: not a decision — 'i was tired lol.'"
+      }
+    ],
+    "rawInput": "w29d1\n\nsleep deprived!!!!!\n\nscored a bench so did incline first\nholy moly this felt hard lmao\n60x12 felt like dying haha\n60x12 second set feels better but yikes still hard lol\n60x12 finished!! still hard lol\n\nlat raises were less hard and did all sets; still working weight tho\n\ndips\n12 felt ok but prob only bc i skipped strict press loolll\n12 whoa felt really good on this one adrenaline kicking in\n\n both cable column ones went fine \n\npress\n50lb pair\nhad to push press and died at 7 on the first set lol\n6 push press (tried to strict and couldn't get first one up lol)\n\ndid two walks with 50 lb ready for bed haha\n\n--\n\nlmao should have started with push press",
+    "followUps": [
+      "Dips — two sets reported; was there a third? → Yes, and it was the best one: 'went great actually / felt super strong.'",
+      "Farmer carry at 50 rather than 60 — deliberate, or what was left? → 'i was tired lol.' Not a decision.",
+      "'Should have started with push press' — press earlier, or push press from rep one? → Press earlier, as prescribed: 'should have followed your thing and did strict press at beginning; i was dead when i moved it to the end.'",
+      "Was the 30-lap swim the same day? → No, Sunday 2026-09-06, the day before.",
+      "Sleep quantified unprompted: ~3h, baby-driven. His own attribution for the session feeling hard.",
+      "Swim-as-a-factor left OPEN by him, leaning against: 'uhhh maybe the swim affected push day? i actually dont know but i suspect it didn't; i felt sleep deprived even before going to the gym.' Not recorded as ruled out."
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-09-10",
+    "workoutId": "fb-w29-legs",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "His count: push d1 (Mon), swim d2 (Tue), rest d3 (Wed), legs d4 (Thu) — the program slot is legs, the middle of the compressed PLP, so logged as day 2. **Slept well** — the first normal-sleep gym day of W29 (D1 ran on ~3h). All seven prescribed lifts reported; loads not restated except the hip machines, so logged as prescribed. One mismatch: abduction 250 against a written 230.",
+    "exercises": [
+      {
+        "id": "knee-to-wall-ankle-rock",
+        "notes": "**Baseline taken, as asked — toe-to-wall with the knee touching and the heel down: right 1.5 fists, left 1 fist.** The left is the tighter ankle, matching the climbing fall that hurt the left worse. This is the number the heel plates' exit hangs on. Keep the unit in fists.",
+        "sets": [
+          {
+            "notes": "Right ankle: 1.5 fists from the wall."
+          },
+          {
+            "notes": "Left ankle: 1 fist from the wall."
+          }
+        ]
+      },
+      {
+        "id": "squat",
+        "notes": "**The floor rising, second week running, in his words:** *\"good working weight; feels like what 45s were before, feels super confident here.\"* W28 named the limiter at 80 as *\"thigh and brace strength mixed with anxiety\"*; today the anxiety half reads as confidence.\n\n**The heel-elevated set didn't buy depth — it bought a different exercise.** *\"didn’t actually feel deeper or easier but like another exercise bc the plates under heel.\"* He asked whether it was different bracing muscles: answered yes — heels up lets the knees travel further forward, the torso stays more upright, so the work shifts toward the quads and the brace moves to the front. Flat sets 1-2 already reached depth. Fits the W28 split (mobility caps the unloaded squat; strength + brace + confidence cap the loaded one), but it's one set — it goes to the W30 review as a question, not a verdict.\n\nReps not stated; logged as the prescribed 6-8.",
+        "sets": [
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "Set 1, flat — \"pretty good first set; fairly deep.\""
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "Set 2, flat — \"got deep too feeling all the bracing muscles being used… feels super confident here.\""
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "equipment": "5lb plate under each heel",
+            "notes": "Set 3, heel-elevated — \"very different muscles engaging and it didn’t actually feel deeper or easier but like another exercise.\""
+          }
+        ]
+      },
+      {
+        "id": "barbell-romanian-deadlift",
+        "notes": "**Double-overhand as written, and grip is the cap exactly as designed:** 8 (grip lost), 10, 10 — *\"grip barely holding on in the last few exercises of set.\"* No flipped hand this week. Set 1 failing on grip while sets 2-3 made 10 runs backwards from fatigue — asked what changed. He asked for form pointers; given, and written into `form-cues-2026.md` as a new Barbell RDL section. Load not restated; logged as prescribed.\n\n**Follow-up:** no read on the set-1 grip — *\"I don't know it's just got less tired I don't have a good answer.\"* **Going to 45/side for W30, his call** — *\"I think I should go down lighter like forty five s instead\"* — and he asked for the pointers in next week's notes.",
+        "sets": [
+          {
+            "weight": "70/side",
+            "equipment": "barbell",
+            "reps": 8,
+            "notes": "Double-overhand. Grip gave out at 8."
+          },
+          {
+            "weight": "70/side",
+            "equipment": "barbell",
+            "reps": 10
+          },
+          {
+            "weight": "70/side",
+            "equipment": "barbell",
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "id": "kneeling-leg-curl",
+        "notes": "*\"good working weight last couple in each set got hard for both legs; feeling this in side not legs? this is a brace workout?\"* Both legs equally hard at the end, so no left/right gap to log. **Open: where \"side\" is.** Partly answered — a one-leg machine makes the trunk stop the hips twisting, so some side work is normal, but the hamstring should be what burns. If the side out-works the back of the thigh by the last reps, the hips are probably twisting or hiking to finish the curl, which is the \"hips quiet\" cue breaking. Asked where exactly; QL history makes it worth pinning down.\n\n**Follow-up:** the working leg's side, low — *\"when I get tired, so I guess my body is kind of twisting and trying to [accommodate] probably and it's low near the hip like psoas.\"* The hip joining in to finish the curl: the rep the cue breaks. W30 cue: only the lower leg moves.",
+        "sets": [
+          {
+            "weight": "65",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "65",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "65",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side"
+          }
+        ]
+      },
+      {
+        "id": "leg-press",
+        "notes": "*\"great! all sets good… last set hips very opened up felt great today.\"* The warm-hips pattern again — the last set opens up — with no bad first set this time.",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          }
+        ]
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "notes": "*\"went great.\"*",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          }
+        ]
+      },
+      {
+        "id": "hip-abduction-machine",
+        "notes": "**Mismatch: written as 230, he ran 250.** No comment in the report — asked whether it was on purpose and whether the slow tempo held. Doesn't move the prescription until he answers.\n\n**Follow-up: on purpose — *\"that felt kind of easy. So I guess I'm going up.\"* 250 is the W30 load.**",
+        "sets": [
+          {
+            "weight": "250",
+            "equipment": "hip abduction machine",
+            "reps": "12-15"
+          },
+          {
+            "weight": "250",
+            "equipment": "hip abduction machine",
+            "reps": "12-15"
+          }
+        ]
+      },
+      {
+        "id": "hip-adductor-machine",
+        "notes": "*\"went good doing slow all sets fine.\"* 300 holds; tempo is the lever and he's running it.",
+        "sets": [
+          {
+            "weight": "300",
+            "equipment": "hip adduction machine",
+            "reps": "12-15",
+            "notes": "Slow."
+          },
+          {
+            "weight": "300",
+            "equipment": "hip adduction machine",
+            "reps": "12-15",
+            "notes": "Slow."
+          }
+        ]
+      }
+    ],
+    "rawInput": "w29d4 legs\n\nrested on d3\ngood night sleep\n\nknee ankle rocks\nright ankle 1.5 fist away from wall \nleft ankle 1 fist away from wall\n\nbarbell squat\npretty good first set; fairly deep\nsecond set got deep too feeling all the bracing muscles being used good working weight; feels like what 45s were before, feels super confident here\nset three felt so different!!! different bracing muscles? went kind of deep but like very different muscles engaging and it didn’t actually feel deeper or easier but like another exercise bc the plates under heel\n\ni’m seeing some other ppl do really heavy weight and what seems to be squat but they use a lot of back? it’s like a good morning?? i’d probably blow my back out doing that \n\nbar rdl\n8 grip lost\n10\n10\npretty good, need some pointers on form i think; grip barely holding on in the last few exercises of set\n\nleg press\ngreat! all sets good\nlast set hips very opened up felt great today\n\ncalf raise\nwent great\n\nleg curls went great, good working weight last couple in each set got hard for both legs; feeling this in side not legs? this is a brace workout?\n\nadductor 300 went good doing slow all sets fine\n\nabduction 250",
+    "followUps": [
+      "RDL — set 1 lost grip at 8 but sets 2-3 made 10. What changed, and which hand went? Anything specific feel off on form? → \"I don't know it's just got less tired I don't have a good answer.\" Asked for the pointers in next week's notes; going lighter, 45/side.",
+      "Leg curl — 'feeling this in side': the working leg's side or the other, and low near the hip or up by the ribs? → Same side as the working leg, when tired: \"my body is kind of twisting … low near the hip like psoas.\"",
+      "Abduction — written as 230, ran 250. On purpose, and did the slow tempo hold? → On purpose: \"that felt kind of easy. So I guess I'm going up.\""
+    ]
+  },
+  {
+    "day": 3,
+    "date": "2026-09-11",
+    "workoutId": "fb-w29-pull",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "He labels by day-of-week, so d5 = Friday — the third gym day of the compressed PLP, logged as day 3. **W29's gym week is complete: push Mon, legs Thu, pull Fri.** Reported Sunday 9/13. Sleep deprived again, by his own note on the pulldown. Two things to read together: **pull-ups flattened to four sets of 6 on long rests** (W28 ran 8/6/6/4 — the same 24 total reps, differently distributed), and **the row's left-side grip gave out a set earlier than any prior week**, the day after the RDL took grip to failure. High cable curl was missing from the first report; confirmed on follow-up as done in full, and it went well.",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "notes": "**4 × 6 with the 3s eccentric held, long rests between sets** — *\"pull ups ok long breaks 4 sets of 6 slow ecc.\"* W28 and W27 both ran a big first set then fell away (8/6/6/4 and 8/6/6/5); this week is flat. **Total reps are identical to W28 at 24.** He started deliberately taking ~2 min off the wall clock the week before (*\"there's a clock in the wall so I just do that\"*), which is what a flat distribution usually looks like. Written plain, not chased, per the W27 decision.",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6,
+            "notes": "3s eccentric. Long rest."
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6
+          }
+        ]
+      },
+      {
+        "id": "incline-curl",
+        "notes": "**25 on both arms for a second week, all three sets to 10 as written** — *\"incline curls ok left something definitely feels pulled but did all sets to 10.\"* The load is holding; the left-side sensation is not gone. **This was the week the light bicep set went in before the pull-up bar specifically to warm that tendon** — asked whether it ran and whether \"pulled\" is the same spot he called *\"around tendon\"* in W28, during the curl or left over from the pull-ups.\n\n**Follow-up: the light bicep set before the bar helped — *\"light bicep warmup helped!!\"* — so it stays.** And the left sensation has broadened: *\"just noticing it all the time; if i'm not doing anything i dont feel it but if i'm even just moving boxes or baby i feel it but it doesnt 'hurt' like normal hurt - mostly during curl.\"* **Present with daily use, worst during the curl, never painful, and strength is intact** (25 both arms here, 240 on the cable the same day). Five weeks of the same spot. The incline curl is the one lift that loads it at full length, and carrying a newborn is hours of unlogged elbow flexion on top.",
+        "sets": [
+          {
+            "weight": "25lb",
+            "reps": "10 each side",
+            "notes": "Left first, as written."
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          }
+        ]
+      },
+      {
+        "id": "dumbbell-row",
+        "notes": "**The left grip ran out a set earlier than in any of the prior three weeks: 8 on the 85, then 6 on the 95. Right made 10 on all three.** W26-W28 the left only broke on the 95, at 7-8. **The RDL took grip to failure at 70/side 24 hours earlier** — that was the flagged watch item, so this reads as pre-fatigue rather than a step backwards; asked. Loads not restated; read as the written 75 → 85 → 95. No straps, as always.\n\n**Follow-up: it did not feel pre-cooked** — *\"left felt normal-tired (whatever that means w/ baby etc) but it didnt feel precooked.\"* **So the number moved a set early and the feel didn't.** The RDL confound stays on the record but is not confirmed; W30's row, after the RDL drops to 45, is the read that settles it. Nothing moves on this week's numbers.",
+        "sets": [
+          {
+            "weight": "75lb",
+            "reps": "8-10 each side",
+            "notes": "Right 10."
+          },
+          {
+            "weight": "85lb",
+            "reps": "right 10 / left 8",
+            "notes": "\"Left lost grip on set two at 8.\""
+          },
+          {
+            "weight": "95lb",
+            "reps": "right 10 / left 6",
+            "notes": "\"Left did 6 set 3.\""
+          }
+        ]
+      },
+      {
+        "id": "lat-pulldown",
+        "notes": "**All three sets at 160 with a slow eccentric, on a sleep-deprived day, and it did not cost anything** — *\"did all tired bc sleep deprived but did all didn't struggle tho slow ecc all sets 160.\"* Fourth consecutive week at 160, and the third report in a row where the pulldown reads easy while the pull-up does not move. Station not restated; read as the regular machine.",
+        "sets": [
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "Slow eccentric."
+          },
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "Slow eccentric."
+          },
+          {
+            "weight": "160",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "Slow eccentric."
+          }
+        ]
+      },
+      {
+        "id": "face-pull",
+        "notes": "*\"Face pulls went fine.\"* **First week in three where the third set did not cost anything** — W27 and W28 both had it biting, though both were tired days. Load not restated; read as the written 62.5.",
+        "sets": [
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          }
+        ]
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "notes": "Missing from the first report, confirmed on follow-up: *\"oops yeah did all sets and prog, went good.\"* **The full ladder ran — 210 → 220 → 230 → 240 — in its first week at the higher start he asked for.** 240 is now the top and it held. Whether it climbs another rung is a review question, not a default.",
+        "sets": [
+          {
+            "weight": "210",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "220",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "230",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "240",
+            "equipment": "cable column",
+            "reps": "10-12 each side",
+            "notes": "Top of the ladder, held."
+          }
+        ]
+      }
+    ],
+    "rawInput": "w29d5 pull\n\npull ups ok long breaks 4 sets of 6 slow ecc \n\nincline curls ok left something definitely feels pulled but did all sets to 10\n\nrows\nleft lost grip on set two at 8\nleft did 6 set 3\nright did 10 on all\n\nlat pulls did all tired bc sleep deprived but did all didn’t struggle tho slow ecc all sets 160\n\nface pulls went fine",
+    "followUps": [
+      "High cable curl — did the 210 → 220 → 230 → 240 ladder run? → \"Oops yeah did all sets and prog, went good.\" Full ladder, 240 held.",
+      "Incline curl left arm — same tendon spot, and during the curl or left over from the pull-ups? → \"Just noticing it all the time; if i'm not doing anything i dont feel it but if i'm even just moving boxes or baby i feel it but it doesnt 'hurt' like normal hurt - mostly during curl.\" Broadened from a lift sensation to an all-day-with-use one. Never painful.",
+      "Did the light bicep set before the bar happen? → \"Light bicep warmup helped!!\" Stays, and it is now an anchor on pull day.",
+      "Row grip — pre-cooked from Thursday's RDL, or normal-tired? → \"Left felt normal-tired (whatever that means w/ baby etc) but it didnt feel precooked.\" The pre-fatigue read is not confirmed by feel."
+    ]
+  }
+]

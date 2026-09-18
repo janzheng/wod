@@ -1,0 +1,93 @@
+{
+  "id": "kettlebell-complex-workout",
+  "name": "Kettlebell Complex Workout",
+  "type": "weights",
+  "source": {
+    "platform": "video",
+    "url": "unknown",
+    "creator": "unknown"
+  },
+  "tags": [
+    "kettlebell",
+    "complex",
+    "strength",
+    "fitness"
+  ],
+  "equipment": [
+    "kettlebell"
+  ],
+  "muscles": [
+    "shoulders",
+    "back",
+    "legs",
+    "core"
+  ],
+  "difficulty": "intermediate",
+  "estimatedDuration": 30,
+  "description": "A 30-minute kettlebell complex workout featuring a series of compound movements performed in sequence.",
+  "exercises": [
+    {
+      "name": "Kickstand rows",
+      "reps": 6,
+      "duration": null,
+      "description": "Bent-over row with one foot elevated behind for stability, pulling the kettlebell up towards the chest.",
+      "notes": "Maintain a flat back and engage the core; use the non-working leg for balance."
+    },
+    {
+      "name": "Kettlebell clean",
+      "reps": 4,
+      "duration": null,
+      "description": "Explosive lift from the ground to the rack position at the shoulder, keeping the elbow high.",
+      "notes": "Drive through the heels and keep the kettlebell close to the body during the pull."
+    },
+    {
+      "name": "Kettlebell press",
+      "reps": 1,
+      "duration": null,
+      "description": "Press the kettlebell from the rack position overhead until the arm is fully extended.",
+      "notes": "Keep the core tight and avoid arching the back; press straight up."
+    },
+    {
+      "name": "Kettlebell snatch",
+      "reps": 2,
+      "duration": null,
+      "description": "One-arm overhead lift from the ground to full extension in one fluid motion.",
+      "notes": "Use a hip hinge and explosive pull; keep the arm straight during the lockout."
+    }
+  ],
+  "circuit": {
+    "rounds": 1,
+    "repsPerExercise": [
+      6,
+      4,
+      1,
+      2
+    ],
+    "restBetweenExercises": 0,
+    "restBetweenRounds": 0,
+    "notes": "Perform all exercises in sequence without rest, then repeat the entire circuit once."
+  },
+  "sequence": {
+    "rounds": 1,
+    "restBetween": 0,
+    "flow": "Kickstand rows → Kettlebell clean → Kettlebell press → Kettlebell snatch",
+    "notes": "Complete the sequence continuously; maintain rhythm and proper form throughout."
+  },
+  "raw": {
+    "textOverlays": [
+      "Learn a Kettlebell Complex with me",
+      "6 kickstand rows",
+      "4 kettlebell clean",
+      "1 kettlebell press",
+      "2 snatches",
+      "You deserve to train like an athlete, get your workouts done at home in 30 minutes, and live the life you've been dreaming of.",
+      "Let me be your coach so we can make it happen.",
+      "Drop your email so I'm waitlist in (bit)"
+    ],
+    "visualSummary": "A woman in a maroon workout set performs a kettlebell complex in a gym setting, demonstrating each exercise with proper form while text overlays indicate the exercise name and rep count."
+  },
+  "confidence": {
+    "overall": "high",
+    "uncertainties": []
+  }
+}

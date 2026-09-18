@@ -1,0 +1,155 @@
+{
+  "id": "fb-w18-pull",
+  "name": "Week 18 Pull — Steady State (Spotlight: Pull-Up + DB Row)",
+  "description": "Volume steady; the protective behind-back shrug stays front-loaded as activation. Spotlights cycle forward to the pull-up and the DB row — the two heavy pulls, now that the shoulder's a non-issue and grip is the honest limiter, drilled for clean slow-eccentric reps and the grip-capped top set. Loads hold, with a couple of optional gradual nudges where there's headroom and the user isn't holding (face pull, cable crunch climb-back, high cable curl). DB row holds the 70/80/90 bare-hand pyramid — grip is the limiter, no straps. Cable lifts list a number per equipment option.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Steady state. Shrug stays FIRST (protective activation). Spotlights cycle to pull-up + DB row — the two heavy pulls, drilled now that the shoulder's clear and grip is the cap. DB row holds 70/80/90, no straps. Optional gradual nudges: face pull 50 (if elbows stay high), cable crunch climb-back, high curl 180. Cable lifts list per-equipment numbers.",
+    "spotlights": [
+      {
+        "exerciseId": "pull-up",
+        "why": "Cycles forward — the shoulder's a non-issue now (W16: 8/8/7/6, 'pretty much no shoulder pain'), so the pull-up earns the deep-cue treatment as the build-the-reps frequency lift. Spotlight drills the active-hang start, elbows-to-ribs pull, and slow eccentric so the floor keeps rising on clean reps, grip + strength the only limiter."
+      },
+      {
+        "exerciseId": "dumbbell-row",
+        "why": "Cycles forward — the heavy pull where grip is the honest cap. Spotlight drills the glued-chest setup on the 70/80 sets and the realistic single-count top set at 90, so the back does the work and the grip taps out before the form does — no straps."
+      }
+    ],
+    "rotationPlan": "W16 lat pulldown + incline curl · W17 chest-supported row + reverse fly · W18 pull-up + DB row (current) · W19 cycle forward — lat pulldown + face pull refresh.",
+    "watchpoints": [
+      "**Behind-back shrug stays FIRST (activation slot).** Front-loading it keeps pull day flare-free — the protective counter-movement to all the pulling can't be the piece a rushed session drops. Right after the warmup.",
+      "**DB row holds 70/80/90, no straps.** The top set is 90 for ~5-6 reps. Grip is the limiter (left hand taps first) — that's deliberate, train the grip rather than bypass it. Set the DB down when grip gives.",
+      "**Grip is the ceiling on the pulling lifts, not the shoulder** — DB row, lat pulldown, and the push-day farmer carry all tap out at grip now. No straps.",
+      "**Optional gradual nudges (you pull these, not me):** face pull 47.5 → **50 if the elbows stay high** with the knuckles-up grip; cable crunch 62.5 → **65-67.5 if the hips-locked form is locked in**; high cable curl 170 → **180 if it moves clean.** Only nudge what feels easy at the current number; otherwise hold. The floor rising is the win, not the number.",
+      "**Face pull — knuckles-up grip stays.** Grip the rope ends in fists, knuckles up; that's what unlocked 47.5 with the elbows still high. If a step to 50 drops the elbows, go back to 47.5.",
+      "**Cable crunch — form-first.** 62.5 won back true ab flexion (hips locked, slow eccentric). Earn the climb-back; if the hips start yanking, stay at 62.5.",
+      "**Loads otherwise hold** — chest-supported row 40, reverse fly 20, lat pulldown dual-pulley 70, incline curl 25 / preacher when free.",
+      "**Left bicep first, every set** — keep the protocol as insurance even though the weak-left cleared.",
+      "**Pull-up frequency holds** — 4 sets here + 1 push warmup + KB Tuesday. Slow tempo, not to failure.",
+      "**Cable lifts have per-equipment numbers** — pick what's free, log equipment + number."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Scap activation. Squeeze the shoulder blades together, soft elbow." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine warm — slow, full ROM each direction." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and the pulling chain before bar work." },
+        { "id": "dead-hang", "duration": 30, "notes": "Active hang, not collapsed — engage the lats, pull the shoulders DOWN away from the ears even at full extension. Primes the pull-up spotlight." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "shrug-activation",
+      "name": "Behind-Back DB Shrug — Protective Activation (DO THIS FIRST)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "behind-back-dumbbell-shrug", "equipment": "DB pair, held behind the body", "reps": "12-15", "notes": "**LOAD:** 40-50lb pair. 3 sets — first in the session.\n\n**Why it's here, first:** this is the 'opposite movement' to all the pulling — a counter/decompression for the right shoulder. Front-loading it keeps pull day flare-free. It reads more like a stretch than a lift; that's the point.\n- **DBs held BEHIND the body** at the sides of the hips/glutes — palms facing back\n- **Shoulders pull DOWN and BACK** at the start — packed, not relaxed\n- **Shrug UP and slightly BACK** — pinch the shoulder blades at the top\n- **Hold 1s at the top**, slow descent\n- **Pack DOWN, NOT up** as the resting position — the lower position IS the work\n- Chest open, not slouched." }
+      ],
+      "notes": "Protective trap-chain activation, front of the session. ~4 min. Light-to-moderate, peak-squeeze — a decompression, not a max effort.",
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "pullup-station",
+      "name": "🔆 Pull-Ups (Spotlight — 4 Sets)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "6-8", "notes": "**LOAD:** Bodyweight. 4 sets of 6-8 (W16 was 8/8/7/6 — keep building the clean-rep floor).\n\n**🔆 SPOTLIGHT — clean reps, grip + strength the only limiter now:**\n- **Straight bar** — the variant that's been feeling best\n- **Active hang start**, shoulders pulled down out of the ears — NOT a collapsed dead hang\n- **Pull elbows DOWN to ribs**, NOT chin to bar — think 'drive the elbows into the back pockets'\n- **Chest leads to the bar at the top**, eyes ahead, head neutral\n- **Slow eccentric ~2-3s**, active hang at the bottom of every rep — no dropping, no kip\n- **Stop the set when the rep stops being clean** — frequency over max effort; the floor rises on quality reps\n\n**Reflection:** the shoulder's a non-issue now — so does the set end on grip / honest strength, or does form get sloppy (kipping, half-ROM) to make the number? Clean reps are the whole point; bank 6 clean over 8 sloppy." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "db-bench-block",
+      "name": "🔆 DB Rack / Bench Block — DB Row (Spotlight) + Chest-Supported Row + Incline Curl + Reverse Fly (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-row", "reps": "10/8/5-6", "notes": "**LOAD:** 70/80/90 ascending pyramid — one set per round (70, then 80, then 90). No straps.\n\n**🔆 SPOTLIGHT — the grip-capped heavy pull, drilled:**\n- **Chest-supported on the incline bench** — chest glued to the pad, no twisting up for the last reps\n- **Pull the elbow toward the HIP, not the armpit** — keeps it in the lats\n- **Slow 2s descent, 1s squeeze on the 70 and 80** — those hold clean form\n- **On the 90 set, single-count tempo is honest** — grip won't hold a 2s eccentric there, so don't force it; drive the elbow, aim for ~5 clean reps before form breaks rather than grinding sloppy ones\n- **Grip is the limiter** (left hand taps first) — set the DB down when grip gives, not when the back fails. No straps — train the grip\n\n**Reflection:** does the grip tap out before the back form breaks (correct — that's the honest cap), or is the back rounding to muscle the 90? If the back goes first, the chest peeled off the pad — re-glue it and let the grip be the cap." },
+        { "id": "chest-supported-dumbbell-row", "reps": "10-12", "notes": "**LOAD:** 40. 3 sets of 10-12.\n- **Chest stays GLUED to the incline bench** the whole set — if the chest peels off to heave the DBs, the weight's ahead of the form\n- **Pull the elbow toward the HIP, not the armpit**\n- **Don't rotate the torso** — both sides stay on the pad\n- **Full stretch at the bottom** — let the shoulder blade protract, then re-pull from the stretch\n- **2s eccentric, 1s squeeze** at the top, no DB slam at the bottom." },
+        { "id": "incline-curl", "reps": "8-10", "notes": "**LOAD:**\n- **Actual preacher bench when it's open** — EZ bar, ~2×10 on the bar; take the real preacher station whenever it's free, it locks the upper arm better than the incline lean\n- **Incline bench, 25lb DBs** (fallback) — chest-supported curl, 3 sets of 8-10\n\n- **Incline bench ~45°, lean in chest-first** — armpit and the back of the upper arm flat on the pad; the upper arm stays flat the ENTIRE rep (don't lift the elbow)\n- **Left arm first, every set** (DB version) — keep the protocol as insurance\n- **Full stretch at the bottom — pause 2s**\n- **Curl smoothly to the peak squeeze**, no swing; 2-3s eccentric." },
+        { "id": "dumbbell-reverse-fly", "reps": 12, "notes": "**LOAD:** 20lb. 3 sets of 12 — cap at 12 with a slower eccentric rather than chasing reps.\n- **30° reverse-incline** (chest-down on the incline bench), DBs hanging fully extended at the start\n- **Soft elbow ~10-15°, FIXED throughout** — a sweep, NOT a row; the elbow angle never changes\n- **Lead with the elbow, hand passive** — the hand never lifts first\n- **Wings out and slightly UP to shoulder height** — sweep wide, don't lift, don't shrug\n- **Hold the top a beat, then 2s eccentric** — control the drop. Rear-delt / mid-trap shoulder-health work; quality over the number." }
+      ],
+      "notes": "One trip to the DB rack covers all 4 lifts. Incline bench at ~30° for the rows + reverse fly (30° reverse-incline), set to ~45° for the incline curl. DB row leads the block (spotlight, run while fresh). 3 rounds.",
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "lat-pulldown-station",
+      "name": "Lat Pulldown (3 Sets)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "reps": "8-10", "notes": "**LOAD (pick whichever station's free, log which one):**\n- **Dual pulley: 70** (the current home — 'very little pain' here)\n- **Regular lat pulldown machine: 140**\n- **Cable column: 52.5-57.5**\n- **Cable pulley: 47.5**\n\n3 sets.\n- **Wide grip near the bend** — more lat isolation, less bicep\n- **Slight backward lean ~15°, NO further** — more = it becomes a row\n- **Pull the bar to the UPPER CHEST — NEVER behind the neck**\n- **'Lats squeezing oranges into the back pockets'** at the bottom\n- **1s pause at the contraction, 2s controlled return** to a full overhead stretch\n- **Grip is the limiter at the end** — the honest cap, same as the DB row." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "face-pull-station",
+      "name": "Cable Column — Face Pull (3 Sets at 47.5, optional 50)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "face-pull", "equipment": "cable column (mid/upper-chest height + rope)", "reps": 20, "notes": "**LOAD:** cable column **47.5** — optional step to **50 if the elbows stay high** with the knuckles-up grip (you pull this; don't force it).\n- **Grip the rope ends in fists, knuckles up** — that's the change that made 47.5 feel easy with the elbows still high; keep it\n- **Pull the rope to face level** — not to the chest\n- **ELBOWS HIGH (above the shoulders)** — the make-or-break cue; this is what moves the work into the back\n- **External-rotate at the top** — knuckles point UP, like the top of a double-biceps pose\n- **1s peak hold**, then a slow 2s return — let the cable pull the arms back, don't drop\n- **If the front of the shoulder takes over, the elbows have dropped** — re-set them high. If 50 drops the elbows, go back to 47.5." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "Cable Column Finisher — High Cable Curl + Cable Crunch (2-3 Sets)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "high-cable-bicep-curl", "equipment": "cable column (low pulley, single D-handle, one arm at a time)", "reps": "10-12", "notes": "**LOAD (single arm — scales differ, log which station):**\n- Cable column (single D-handle): **170** — optional **180 if it moves clean** (you pull this)\n- Pulley / weight-stack station: ~120\n2 working sets per arm.\n- **Single arm at a time, one D-handle** — stand sideways, arm out at shoulder level\n- **Upper arm parallel to the floor, FIXED** — the whole point of the high-cable variant\n- **Curl the hand toward the ear**, peak squeeze\n- **Left arm first**; slow eccentric, no bounce at the start." },
+        { "id": "cable-crunch", "reps": "12-15", "notes": "**LOAD (pick whichever station's free, log which one):**\n- **Cable pulley (rope): 62.5** — the form-first number; optional **65-67.5 if the hips-locked form is locked in** (you pull this)\n- **Cable column (rope): scale similarly for form**\n\n3 sets.\n- **HIPS LOCKED** — the most important cue. The hips do not move.\n- **Crunch from the abs ONLY** — the spine flexes, the hips stay put. Hips moving = hip-flexor work, not abs.\n- **Chest toward the thighs**, hold the crunch 1 second\n- **Slow eccentric, all the way** — at 62.5 the controlled drop IS available; use it. Only climb the load if the form holds; if the hips start yanking, stay at 62.5." }
+      ],
+      "notes": "Same cable column as the face pull. 2 rounds = 2 sets each; round the cable crunch to 3 if there's time and the abs aren't fried.",
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow position. Pec minor lengthen." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive hang. Don't engage — let the shoulders unpack and the spine decompress." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side. Draw one knee across the body, opposite arm extended." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side. Hip-rotator decompression." },
+        { "id": "childs-pose", "duration": 60, "notes": "60s slow breathing. Parasympathetic shift." }
+      ],
+      "notes": "5 minutes of recovery work, non-negotiable closing block.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Behind-back shrug stays FIRST** — protective decompression that keeps pull day flare-free.",
+    "**Spotlight: pull-up + DB row.** Pull-up drills clean active-hang reps (shoulder's a non-issue, build the floor); DB row drills the glued-chest 70/80 + the honest single-count 90, grip as the cap.",
+    "**DB row holds 70/80/90, no straps.** Top set 90 for ~5-6 reps. Grip is the limiter (left hand) and that's deliberate — train it.",
+    "**Optional gradual nudges (you pull these):** face pull 50 if elbows stay high, cable crunch 65-67.5 if form's locked, high curl 180 if clean. Otherwise hold; the floor rising is the win.",
+    "**Face pull — knuckles-up grip stays.** Drop back if a step to 50 drops the elbows.",
+    "**Grip is the ceiling on pulling, not the shoulder** — DB row, lat pulldown, farmer carry all tap out at grip. No straps.",
+    "**Loads otherwise hold** — chest-supported row 40, reverse fly 20, lat pulldown dual-pulley 70, incline curl 25 / preacher when free.",
+    "**Left bicep first, every set** — keep the protocol as insurance.",
+    "**Cable lifts list per-equipment numbers** — lat pulldown (70 dual pulley / 140 machine / 52.5-57.5 column / 47.5 pulley). Pick what's free, log it.",
+    "**Cool-down stays — 5-min block, permanent every gym day.**",
+    "Rest: shrug 60s, 2.5 min pull-ups, 90s DB block, 2 min lat pulldown, 90s face pull, 60s finisher."
+  ],
+  "formPhilosophy": "Steady-state pull week with the protective shrug leading. The spotlights drill the two heavy pulls now that the shoulder's cleared — the pull-up as the build-the-floor frequency lift and the DB row as the grip-capped top set — because clean reps with grip as the honest limiter is how the floor rises here, no straps. Loads hold, with a few optional gradual nudges the user pulls where there's headroom. Building decades, not weeks."
+}

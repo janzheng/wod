@@ -1,0 +1,170 @@
+{
+  "id": "fb-w20-push",
+  "name": "Week 20 Push — Steady State (Spotlight: Incline DB Press + Kinesis Fly)",
+  "description": "Loads hold where they've settled; the work is rest discipline + depth of execution. **Warmup reminder:** arm circles → Yuri's band shoulder warmup → bottoms-up press (18lb, 8/side, forward + T-plane, T-plane light) → light Kinesis-fly chest opener → internal core fist rotation → push-up → pull-up greasing set → protective behind-back shrug. Spotlights cycle forward to the incline DB press (now 50, building reps toward a clean 12 across) and the Kinesis fly (the step-forward ROM progression is the lever). Push press holds 45 on the FULL 2 min rest that W19 confirmed unlocked it — an optional 47.5 nudge if you pull it. Lateral raise holds 15. New this week: each lift is tagged 🔥 (near-failure last set OK) or 🛑 (the cue is the cap) so you decide before the set, not mid-set.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "band", "pull-up-bar", "bodyweight", "kettlebell"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Steady state — loads hold, the work is rest discipline + depth. Spotlight cycles to the incline DB press (50 confirmed W19 with big headroom — build reps toward 12 across) + the Kinesis fly (step forward to deepen the stretch). Push press holds 45 on the full 2 min rest. Shoulder's the best it's been ('weakness, not pain') — bank the headroom, don't spend it.",
+    "spotlights": [
+      {
+        "exerciseId": "incline-dumbbell-press",
+        "why": "Cycles forward — W19 the step to 50 landed clean: rode 50 for all three sets (not the 50/45/45 fallback), reps reset to 10/10 as predicted, and the last set to failure was 17. Big headroom. Spotlight drills the pack-down + the vertical-forearm setup so the front shoulder stays protected while the reps build toward a clean 12 across — reps are the runway here, not more load."
+      },
+      {
+        "exerciseId": "kinesis-cable-fly",
+        "why": "Cycles forward — the loaded pec stretch the right shoulder reads as relief, and the free progression is ROM, not load. Spotlight drills the fixed-elbow 'hug a tree' + the STEP-FORWARD-to-deepen lever (W19 find) + the slow 3s eccentric, so the stretch gets deeper without ever chasing the stack."
+      }
+    ],
+    "rotationPlan": "W18 dips + cable block · W19 push press + lateral raise · W20 incline DB + Kinesis fly (current) · W21 cycle forward — dips + farmer carry refresh.",
+    "watchpoints": [
+      "**🔥/🛑 intensity tags — decide before the set.** 🔥 near-failure last set OK (safe isolation): lateral raise, cable lateral raise, cable tri ext, straight-arm pulldown. 🛑 keep it shy, the cue is the cap (shoulder/press-loaded): push press, incline DB, dips, Kinesis fly. Farmer carry: grip caps it — set the bells down when grip gives. **Order:** form lever first (tempo/ROM), load second, near-failure last set only on the 🔥 lifts — and by pushing the existing last set, not adding a round.",
+      "**Incline DB spotlight — 50 is the working pair now; build the reps.** W19 was 10/10/17-to-failure — the reps rebuild toward a clean 12 across all three sets, THEN the next nudge is earned. The pack-down cue is the stop sign: shrug-up-to-finish = too heavy for the cue, back to 45. 🛑 — don't chase failure here (the front delt + right shoulder); the 17 was a one-time headroom check, not the plan.",
+      "**Kinesis fly spotlight — step forward to deepen, don't add load.** Kinesis 9; the ROM-as-progression lever is stepping forward into a deeper stretch (W19 find). Slow 3s eccentric, fixed soft elbow — 🛑 the deep loaded stretch is the point, control not failure.",
+      "**Push press holds 45 on the FULL 2 min rest.** W19 confirmed the full rest made 45 'very easy, all sets' — the rest was the lever, not the load. An optional 47.5 is earned IF you pull it; otherwise hold 45 and keep the rest honest. 🛑 (overhead) — reps/quality, never a grind.",
+      "**Bottoms-up press stays in the warmup** — 18lb, 8/side, forward press + T-press, T-plane lighter. Rotator-cuff prep before pressing; bail to forward-only if the shoulder talks.",
+      "**Light Kinesis-fly opener stays in the warmup** — a few easy tree-hugger reps to open the chest; primes, doesn't fatigue. The working fly (spotlight) is later.",
+      "**Run push press first when the rack's free** — fresh shoulders for the heavy overhead lift.",
+      "**Mini-dip warmup stays on the dip station** — lean on the bar, a few mini-dips warm the shoulder and 'crack' the same spot the protective shrug does. Pre-dip ritual.",
+      "**Pack DOWN, not up** — push press, lateral raise, incline DB, dips, farmer carry all carry the cue. A lockout that needs a shrug = the load's too heavy for the cue.",
+      "**Cable block lists per-equipment numbers (column / rope pulley / Kinesis)** — pick what's free, log the equipment + number.",
+      "**Day is at capacity — no adds.** Anterior delt is covered three ways (push press + incline + dips). Shoulder's been the best report in a while — bank the headroom."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable) + Bottoms-Up Cuff Prep + Chest Opener + Pull-Up Greasing + Protective Shrug",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Slow, big circles. Wake up scap glide before loading." },
+        { "id": "yuris-shoulder-band-warmup", "reps": 1, "notes": "Full sequence with red band. Non-negotiable on push day." },
+        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "**LOAD:** 18lb. Rotator-cuff prep before pressing — bell inverted/balanced over a vertical forearm, grip HARD, shoulder packed. **8/side in two planes:** forward press (straight overhead) + T-press (out toward a T at shoulder height). **Keep the T-plane lighter** — the abducted-and-loaded angle is the one the right shoulder likes least; bail to forward-only if it talks." },
+        { "id": "kinesis-cable-fly", "reps": "12-15", "notes": "**Light loosening opener — NOT a working set** (the working fly is the spotlight later). Light load: 'hug a tree' forward, then let the cables pull the arms open into the pec stretch. Primes the chest before pressing; quick and easy, doesn't fatigue." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension. Wakes the grip and shoulder line before loading." },
+        { "id": "push-up", "reps": 12, "notes": "Ribs down, glutes tight, body in one line. Slow eccentric, 1s pause with chest 1-2\" off the floor." },
+        { "id": "pull-up", "reps": "6-8", "notes": "**Pull-up greasing set.** 1 fresh set, slow tempo, NOT to failure. Active hang start, pull elbows down to ribs, chest leads. Frequency over max effort — drop to scapular-pulls if the shoulder talks, and finish the count." },
+        { "id": "behind-back-dumbbell-shrug", "reps": "12-15", "notes": "**Protective shrug (greasing set).** 1 light set, DBs held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs no time, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "push-press-station",
+      "name": "Push Press (3 Sets at 45, Run First, FULL 2 Min Rest) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "push-press", "reps": "8-10", "notes": "**LOAD:** 45lb DBs per side (optional 47.5 if you pull it — earned, not required). 3 sets of 8-10. Run first when the rack's open.\n\n**REST: a FULL 2 minutes between sets** — W19 confirmed this made 45 'very easy, all sets.' The rest is the lever; keep it honest.\n\n**🛑 The cue is the cap — no grinding to failure on the overhead lift.**\n- **Ribs DOWN before the dip** — catch any rib flare on set 1\n- **Shallow dip ~3-4\"**, straight down through the heels — the drive comes from the legs\n- **Vertical DB path** — DBs travel up next to the ears, head pokes through at the top\n- **Pack DOWN, not up** at the lockout — if it needs a shrug, the load's too heavy for the cue\n- Explosive drive up, controlled descent." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "incline-db-station",
+      "name": "🔆 Incline DB Press (Spotlight — 50 Working, Build Reps Toward 12) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "incline-dumbbell-press", "reps": "10-12", "notes": "**LOAD:** 50 pair (the new working weight — W19 rode 50 all three sets, reps 10/10, last-set-to-failure 17). Fast-up / controlled-down, 1s pause at the bottom. **REST: a FULL ~2 min between sets.**\n\n**🔆 SPOTLIGHT — build the reps at 50, pack-down protected:**\n- **The rep-build IS the progression** — chase a clean 12 across all three sets before the next load nudge; the failure-set 17 was a one-time headroom check, not the weekly plan\n- **Bench at 30°**, not 45° — steeper biases front delt over upper chest\n- **Shoulders packed back AND down** — pin the back of the shoulder into the bench, hold it the whole set\n- **Forearm stacked vertically over the elbow at the bottom** — keeps the load off the front of the shoulder\n- **Elbows ~45° from torso**, not flared to 90°\n- **1s pause at the bottom**, press to a fingerwidth apart at the top\n- **🛑 Pack-down is the stop sign** — if you shrug UP to finish a rep, it's too heavy for the cue; back to 45. The front delt's loaded and the right shoulder's still 'weakness not pain,' so the cue wins over the number — never grind this to failure.\n\n**Reflection:** do all three sets hold a clean 12 with the pack-down intact, or does set 3 start needing a shrug? Clean 12 across is the green light for the next nudge; a shrug is the honest cap." }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "dips-station",
+      "name": "Dips — Chest-Bias / Lean-Forward (3 Sets, Mini-Dip Warmup First) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dip", "reps": "8-12", "notes": "**LOAD / EQUIPMENT (pick by how the shoulder feels, log which):**\n- **Bodyweight parallel-bar dips** (default) — 3 sets of 8-12 (W18 clean 10/10/8, full ROM, no shoulder complaint)\n- **Supported / assisted dip machine** if the front shoulder talks\n- **Band-assisted** if the machine's taken\n\n**Mini-dip warmup FIRST:** lean on the bar and do a few mini-dips — warms the shoulder and 'cracks' the same spot the protective shrug does. Pre-dip ritual.\n- **Lean the torso forward ~15-30°, elbows flare slightly** — shifts load onto the chest (legs fold back behind you for the lean)\n- **Pack the shoulders DOWN and BACK at the top** — never shrug up; pack-down is the whole game on dips\n- **Controlled descent ~2s, drive up to a soft lockout** — 🛑 going past ~10 clean reps is the honest ceiling; bodyweight reps creep on their own, no need to grind\n- **Front-pec watch:** pressure at the bottom stretch is expected; if it tips to PAIN, shorten the depth or move to the supported machine." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "lateral-raise-station",
+      "name": "DB Lateral Raise (3 Sets at 15) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lateral-raise", "reps": "15-18", "notes": "**LOAD:** 15lb DBs. 3 sets of 15-18. W19 'also easy, did all sets' — the floor's risen here.\n- **Lead with the elbow, hand passive** — the wrist follows the elbow, the hand never lifts first\n- **Soft elbow ~10-15°, FIXED** through the whole rep\n- **Stop at shoulder height — never higher** (higher just shrugs the traps off the medial delt)\n- **2s eccentric** — the slow descent is the stimulus\n- **🔥 Fair game for a near-failure LAST set** — this is a safe isolation, so take set 3 to ~0-1 in the tank if it still feels easy at 15; push the set you have, don't add a round. Scap reset between sets keeps the right shoulder quiet." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "kinesis-fly-station",
+      "name": "🔆 Kinesis Cable Fly (Spotlight — Step Forward to Deepen) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kinesis-cable-fly", "reps": "10-12", "notes": "**LOAD:** Kinesis 9.\n\n**🔆 SPOTLIGHT — ROM is the progression, not the stack:**\n- **STEP FORWARD to deepen the stretch** (W19 find) — that's the lever; a step forward makes it harder than more load ever would\n- **Slight forward hinge at the hips** — chest leads, not the head\n- **Soft elbow ~10-15°, FIXED throughout** — these are NOT presses; the elbow angle never changes\n- **'Hug a tree'** — the squeeze comes from the chest, not the arms pulling together\n- **Stop a fistwidth apart at the top** — don't crash the handles\n- **Slow eccentric (~3s)** — let the cables pull the arms into the deep pec stretch; the right shoulder/pec reads this loaded stretch as relief\n- **🛑 Control-capped, not failure** — protect the deep stretch, own the eccentric; never grind a loaded fly.\n\n**Reflection:** can you step a little further forward than last week and still own the slow eccentric? Deeper stretch with control is the win — the stack stays at 9." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-column-block",
+      "name": "Cable Block — Lat Raise → Tri Ext → Straight-Arm Pulldown (Per-Equipment Numbers, 3 Rounds) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "cable-lateral-raise", "reps": 12, "notes": "**LOAD (pick what's free, log which):** Cable column **30** (the pain-free home) · regular pulley D-handle at ankle height **10** · Kinesis **5-6**. 3 rounds, one arm at a time.\n- **Lead with the elbow as a DIRECTION** — the elbow points, doesn't bend\n- **Soft elbow ~10°, FIXED**; stand sideways, working arm farther from the stack\n- **Stop at shoulder height — higher = traps**; 2s eccentric, fight the cable down.\n- **🔥 Safe isolation — the last round can ride close to failure if it's easy.**" },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": "10-12", "notes": "**LOAD (pick what's free, log which):** Cable column **70** (default) · rope pulley **~35** · Kinesis **5**. 3 rounds. **Always kneeling — no bench at this station; the forward torso lean IS the 'incline.'**\n- **Kneel facing AWAY from the high pulley**, rope overhead; **elbows PINNED** — only the forearms move\n- **Full stretch at the bottom** — let the rope pull the hands behind the head; stop just shy of lockout, slow eccentric\n- Set 1 feels easy, set 3 is brutal — that shape is the lift working. **🔥 Ride set 3 close to failure if you want the extra stimulus.**" },
+        { "id": "straight-arm-pulldown", "reps": 12, "notes": "**LOAD (pick what's free, log which):** Cable column **120** · rope pulley **50** · Kinesis **6**. 3 rounds.\n- **Stand a step back, hinge ~15° at the hips** — fixed hinge, torso doesn't pump; slight elbow bend (~5°), FIXED\n- **Pull the bar to the thighs, NOT past** — past = shoulders roll forward, lats switch off; squeeze the lats hard ('oranges into the back pockets')\n- **Slow controlled return to a full overhead stretch.** Runs last — reps may fall on later sets; that's honest. **🔥 Isolation-ish — a hard last set is fine.**" }
+      ],
+      "notes": "Cable block — sharp cues, 3 rounds, one trip to the chosen station covers all three. Column is the default; the pulley numbers are the fallback when the column's taken. Pick what's free and log it.",
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "farmer-carry-block",
+      "name": "Farmer Carry (3 Walks — Grip Caps It)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "farmer-carry", "equipment": "DB rack", "duration": 50, "notes": "**LOAD:** 50lb DBs. 3 walks of ~45-60s each — chase hold-time.\n- **Stand TALL** — ribs down, crown reaching up, no leaning back\n- **Shoulders pulled DOWN and BACK** — into the back pockets, never shrugged; the tall packed posture doubles as right-shoulder decompression\n- **Neck long, eyes forward** — no chin poke\n- **Grip firm but NOT death-clenched** — grip is the limiter (it taps before the shoulder). Set the bells down when grip fails rather than white-knuckling. No straps — train the grip.\n- **Walk a straight line at a deliberate pace**, breathing steadily." }
+      ],
+      "notes": "Trap-chain + grip block. 3 walks at 50lb — packed-shoulder posture, grip as the honest edge. Set them down when grip gives, not before.",
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow position. Pec minor lengthen — the antagonist to the upper-trap chain loaded all session." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive hang from the pull-up bar. **Don't engage** — let the shoulders unpack and the spine decompress." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side on the mat. Draw one knee across the body, opposite arm extended." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side. Front leg + back leg at 90°. Sink the hips toward the floor — hip-rotator decompression." },
+        { "id": "childs-pose", "duration": 60, "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift before leaving the gym." }
+      ],
+      "notes": "5 minutes of recovery work, non-negotiable closing block.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**🔥/🛑 intensity tags this week — decide before the set.** 🔥 (near-failure last set OK): lateral raise, cable lateral raise, cable tri ext, straight-arm pulldown. 🛑 (the cue is the cap): push press, incline DB, dips, Kinesis fly. Farmer carry: grip caps it. Form lever → load → near-failure last set only on 🔥, by pushing the set you have.",
+    "**Incline DB spotlight — 50 is the working pair; build the reps toward a clean 12 across before the next nudge.** Pack-down is the stop sign. The W19 failure-set 17 was a headroom check, not the plan.",
+    "**Kinesis fly spotlight — step forward to deepen the stretch** (ROM is the progression, not the stack). Slow 3s eccentric, fixed elbow.",
+    "**Push press holds 45 on the FULL 2 min rest** (W19 confirmed the rest was the unlock). Optional 47.5 if you pull it.",
+    "**Bottoms-up press in the warmup** — 18lb, 8/side, forward + T-plane, T-plane light. Rotator-cuff prep.",
+    "**Lateral raise holds 15** — floor's risen ('also easy' W19); 🔥 a near-failure last set is fair game.",
+    "**Mini-dip warmup stays on the dip station** — warms + 'cracks' the shoulder/front-pec spot.",
+    "**Run push press first when the rack's free** — fresh shoulders.",
+    "**Pack DOWN, not up** — every press + the carry carries the cue.",
+    "**Cable block per-equipment numbers** — column 30/70/120; rope pulley 10/35/50; Kinesis 5-6. Pick what's free, log it.",
+    "**Farmer carry: 50lb, chase hold-time** — grip is the edge, no straps.",
+    "**Cool-down stays — 5-min block, permanent every gym day.**",
+    "**Day is at capacity — no adds.** Rest: 2 min push press + incline + dips, 90s lateral raise + Kinesis fly + farmer carry, 75s cable block."
+  ],
+  "formPhilosophy": "Steady-state push week — gains come from rest discipline and sharper execution at established loads, not heavier bells. The spotlights drill the incline DB press (building the reps at the confirmed 50) and the Kinesis fly (deepening the loaded stretch via ROM, not load). New this week: the 🔥/🛑 tags make the intensity intent explicit — near-failure is a tool for the safe isolations, while the shoulder-loaded presses stay governed by the pack-down cue. Both spotlights feed the same still-improving shoulder ('weakness, not pain' now). Building decades, not weeks."
+}

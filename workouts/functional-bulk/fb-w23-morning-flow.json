@@ -1,0 +1,85 @@
+{
+  "id": "fb-w23-morning-flow",
+  "name": "W23 Morning Flow — Bodyweight Spine + Hip (All Days, Rotated Variety)",
+  "description": "Fifteen minutes, three parts: primer, work, then the deep stretch arc. Work before stretches — warm muscle stretches further.\n\nThis week rotates roughly half the moves again. The hip-flexor lunge and inchworm return to the front, plank shoulder-taps join the work block, and two W12-era favorites — couch stretch and frog stretch — come back into the yoga arc. The rehab cluster and the pushup greasing set never rotate.",
+  "routineId": "functional-bulk",
+  "tags": ["mobility", "morning", "bodyweight", "yoga", "rehab"],
+  "estimatedDuration": 15,
+  "equipment": ["none", "pull-up-bar"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "primer",
+      "name": "Primer — Wake the Spine (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "duration": 60, "notes": "Full range both directions, breathing with the movement. Slow — the spine's first move of the day." },
+        { "id": "hip-flexor-lunge-stretch", "duration": 90, "notes": "**Back in the rotation.** 45s each side. Half-kneeling, tuck the pelvis and sink forward — feel the front of the back hip. Counters all the sitting; primes the hips before anything." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, hinged slightly forward. Tight fists, thumbs tucked, rotate the wrists internally and hold the tension." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Bodyweight Activation (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "push-up", "reps": "max-ish (~2-3 in reserve)", "notes": "**Greasing set — never to failure.** Leave 2-3 in the tank. Elbows ~45°, **pack down not up**. A daily habit, not a training set." },
+        { "id": "plank-shoulder-taps", "reps": "10 each side", "notes": "**New this week.** From a plank, tap the opposite shoulder without letting the hips rock. **Hips DEAD STILL** — the anti-rotation is the whole point; if they sway, slow down or widen the feet." },
+        { "id": "dead-bug", "reps": "8 each side", "notes": "**Ribs DOWN, low back flat to the floor.** That contact is the exercise — if the back arches off the floor, shorten the reach." },
+        { "id": "inchworm-walkout", "reps": 6, "notes": "**Back in the rotation.** From standing, hinge and walk the hands out to a plank, hold a beat, walk back. Hamstrings on the way out, full-body brace at the plank." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "scorpion-stretch", "duration": 60, "notes": "30s each side. Thoracic + hip flexor opener. Top leg crosses, chest stays down." },
+        { "id": "down-dog-knee-to-head", "duration": 60, "notes": "**Back in the rotation.** 30s each side. From down dog, drive the knee toward the same-side elbow/head, then reach it back to the sky. Core + hip mobility in one flowing move." },
+        { "id": "lizard-pose", "duration": 90, "notes": "45s each side. Deep hip opener. Forearms down if the hip allows, hands if not." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Bodyweight, slow. Sit into one hip, other leg straight, heel down. **Take note of how these feel** — an early read on how fresh the legs are before any training." },
+        { "id": "couch-stretch", "duration": 90, "notes": "**Back in the rotation — a W12-era favorite.** 45s each side. Back foot up on a wall/couch, tall torso. Deep hip-flexor and quad stretch — the strong counter to all the squatting and lunging this week." },
+        { "id": "frog-stretch", "duration": 60, "notes": "**Back in the rotation.** Knees wide, sink the hips back. Adductors — the figure-8 and Cossack work bill here." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "day-specific",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 90, "notes": "**PUSH DAY.** 45s each arm at MID elbow height." },
+        { "id": "prone-y-raises", "reps": 10, "notes": "**REHAB ANCHOR — every day.** Face down, arms in a Y, lift with the lower traps. Slow, small range." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "**REHAB ANCHOR — every day.** Plank, arms locked, only the blades move." },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "**REHAB ANCHOR — every day.** Elbow pinned to the ribs, small controlled range. Light or no weight." },
+        { "id": "wall-angel", "reps": 12, "notes": "**REHAB ANCHOR — every day.** Back flat to the wall, arms slide keeping contact. Where it leaves the wall is your real range." },
+        { "id": "dead-hang", "duration": 25, "notes": "**REHAB ANCHOR — every day.** Passive hang, shoulders relaxed." },
+        { "id": "scapular-pull", "reps": 10, "notes": "**REHAB ANCHOR — every day.** From a dead hang, pull the shoulders down without bending the arms." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "**LEGS DAY / QL.** 30s each side. QL's been busy — give it the full time." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "**LEGS + KB DAY.** 45s each side." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "**ANY DAY.** 30s each side." }
+      ],
+      "notes": "The six rehab anchors run every day. Add the day-specific pieces on top based on what you're training.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Order matters: work before stretches.** Warm muscle stretches deeper.",
+    "**Rotated in this week:** hip-flexor lunge, plank shoulder-taps, inchworm walkout, down-dog-knee-to-head, couch stretch, frog stretch.",
+    "**Rotated out this week:** thread-the-needle, spiderman plank, glute bridge, puppy pose, happy baby, straddle reaches.",
+    "**Never rotates:** the six rehab anchors (prone Y, scapular push-up, side-lying ER, wall angel, dead hang, scapular pull) and the pushup greasing set.",
+    "**Push-ups leave 2-3 in reserve** — a greasing habit, never a training set.",
+    "**Cossacks are an early warning system** — if they feel tired here, the legs are tired before the session starts.",
+    "Not too hard, not too long — this precedes training, it doesn't replace it."
+  ]
+}

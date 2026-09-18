@@ -1,0 +1,142 @@
+{
+  "id": "fb-w25-kb-full",
+  "name": "Week 25 KB Tuesday — 🌀 Bent Press Flow Returns + Dead Cluster Flow",
+  "description": "**Two flows, both pulled off the bench.** The Bent Press Flow — the program's oldest canonical chain — has quietly fallen off Tuesday and comes back as the opener. The Dead Cluster Flow, last run in W20, closes.\n\n**New this week: the single-arm kettlebell curl** joins the strength block. Left arm first. It's here because the left has died on the incline curl twice on pull day, and a bell loads the bottom of the curl where a dumbbell goes slack.\n\n**The figure-8 → tactical clean is written in as the finisher** at 50 — you've added it yourself two Tuesdays running, so it stops being an add-in.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": ["kettlebell", "flow", "strength", "functional-bulk"],
+  "estimatedDuration": 55,
+  "equipment": ["kettlebell", "resistance-band", "bodyweight"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Two flows off the bench. The Bent Press Flow is back after quietly disappearing from Tuesday — it's the program's oldest chain and it shouldn't be the one that drifts. The Dead Cluster Flow closes the day with the ballistic/overhead work. Strength runs between them and now carries a kettlebell curl. The figure-8 finisher gets written into the sheet instead of being added in.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-bent-press",
+        "why": "It's the hardest beat of the flow that just came back, and the one most likely to have decayed while the flow sat on the bench. The bent press is not a press — the arm locks out and stays locked, and the body moves underneath it. Everything that makes it work is below the shoulder: the hinge, the side bend, the eyes staying on the bell. When it goes wrong it becomes a shoulder press done sideways, which is exactly the position the right shoulder likes least. Getting it right is also what makes it safe."
+      },
+      {
+        "exerciseId": "kettlebell-curl",
+        "why": "New lift, and it's here for a specific reason rather than for arms. The left has gone dead on the incline curl twice on pull day, both times the day after a KB Tuesday — while the same left arm hit 10 at 90 on the DB row in one of those sessions. So the left pulls fine and only curls poorly, which points at elbow flexion in a stretched position rather than a weak arm. A bell hangs its mass below and behind the handle, so the bottom of the curl stays loaded exactly where a dumbbell goes slack. Left arm first, match the right to it, light bell."
+      }
+    ],
+    "rotationPlan": "Tuesday content rotates: W23 Long Coordination Gauntlet + figure-8 switch-clean · W24 B-Stance Flow + Leggy Flow · W25 Bent Press Flow (back) + Dead Cluster Flow (current) · W26 candidates — the overhead mobility complex, the GymFiesta circuit, or the Leggy Flow's return. Every week pulls at least one thing off the bench.",
+    "watchpoints": [
+      "**🌀 Bent Press Flow — back after drifting off Tuesday.** dead clean → front squat → lateral lunge → bent press → tactical clean. One continuous chain per side. (Canonical: kb-flow-dead-clean-press.)",
+      "**🔆 The bent press is a HINGE and a SIDE BEND, not a press** 🛑. The arm locks out and stays locked; the body moves underneath. Eyes on the bell the whole way down.",
+      "**🌀 Dead Cluster Flow — last run W20.** dead cluster → snatch → iron cross → outside pendulum → tactical clean → reverse lunge → offset rack squat. (Canonical: kb-dead-cluster-flow.)",
+      "**🔆 NEW: single-arm KB curl, LEFT FIRST** 🔥. Light bell. Upper arm pinned to the ribs, slow lower to a full stretch. Match the right arm to whatever the left does.",
+      "**Strict overhead press holds 50 at 8/8/8** 🛑 — strict, no push-press, both sides even. KB row holds 50; it's maintenance, not a progression.",
+      "**Figure-8 → tactical clean is the finisher: 50lb, ~4 loops.** Written in this week instead of added in.",
+      "**Cossacks stay in the warmup** — the down heel is flat now, keep banking the range.",
+      "**Strength runs BETWEEN the two flows** so the demanding volume isn't stacked at the top.",
+      "**Intensity tags:** 🔥 near-failure last set OK — KB curl. 🛑 keep it shy — bent press, overhead press, snatch, everything overhead in both flows.",
+      "**Banded shoulder prep + protective shrug stay in the warm-up.**"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Cossacks + Cuff Prep",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The cossacks double as an early-warning system — how they feel here tells you what the legs have got before the flows commit to anything.",
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": "10 each direction", "notes": "Light bell. Wake the hands and the grip." },
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "Slow, close to the head. Shoulders stay packed down." },
+        { "id": "cossack-squat", "reps": "6 each side", "notes": "**Down heel FLAT** — that's the change from a few weeks ago, don't give it back. Sit into one hip, other leg straight, get lower than comfortable." },
+        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "Light bell inverted. Cuff prep, grip, and hand-eye all at once." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Hinged slightly forward, tight fists, thumbs tucked." },
+        { "id": "behind-back-dumbbell-shrug", "reps": "12-15", "notes": "Protective activation. Shoulders roll DOWN and back at the top." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions. KB days only — the gym days already carry their own shoulder anchor.",
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "reps": 12 },
+        { "id": "seated-banded-behind-neck-pulldown", "reps": 12 },
+        { "id": "seated-banded-t-raise", "reps": 12 },
+        { "id": "seated-banded-chest-pull-apart", "reps": 12 },
+        { "id": "seated-banded-reverse-fly", "reps": 12 },
+        { "id": "seated-banded-diagonal-reach", "reps": "10 each side" },
+        { "id": "seated-banded-overhead-v-hold", "duration": 30 }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "bent-press-flow",
+      "name": "🌀🔆 Bent Press Flow — Back From the Bench",
+      "type": "flow",
+      "flowId": "kb-flow-dead-clean-press",
+      "rounds": 3,
+      "notes": "**Single bell (~25-35lb), 3 rounds each side.** The program's oldest chain, back on Tuesday after quietly drifting off it.\n\n**🔆 The bent press is the spotlight, and it's the beat that decays fastest when a flow sits unused:**\n- **It is a HINGE and a SIDE BEND, not a press.** The arm locks out at the top and stays locked — you never press the bell, you move your body down and away from it\n- **Eyes on the bell the whole way down.** Lose sight of it and the shoulder loses the pack\n- **Hinge the hips BACK and to the side**, not a straight sideways lean — the load should end up over the heel, not out past the toes\n- **Shoulder packed DOWN throughout.** The moment it shrugs up toward the ear, it's turned into a sideways shoulder press, which is the position the right shoulder likes least\n- **Come up by driving the hips**, not by pressing the arm\n\n**Everything else in the chain feeds it:** the dead clean sets the rack, the front squat and lateral lunge warm the hips that the bent press hinges from, and the tactical clean resets for the next round.\n\n**Reflection:** on the bent press, did the arm genuinely stay passive — or did it start pressing to help? That's the whole difference between the lift and a bad idea."
+    },
+    {
+      "id": "strength",
+      "name": "Strength — Strict Press + KB Row + 🔆 KB Curl (Between the Flows) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "3 rounds, run between the two flows so the demanding volume isn't stacked at the top.",
+      "exercises": [
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 50 across all sets — strict single-arm press, clean to rack, press straight up, NO push-press.\n- **Strict, ribs DOWN**, no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- Both sides to the same standard\n\nStill hard at the top bell and holding standard — that's the lift working, so nothing changes."
+        },
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 50. Hinged, flat back, bell to the hip.\n- **Pack the shoulder DOWN and BACK** before the elbow moves — no shrugging the bell up\n- **Elbow drives past the ribs**, not flared wide\n- Slow return, full stretch at the bottom"
+        },
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD:** Light bell (~20-30lb). **LEFT ARM FIRST — then match the right to whatever the left did.**\n\n**🔆 SPOTLIGHT — new lift, and the bottom of the rep is the point:**\n- **Upper arm pinned to the ribs**, elbow does not drift forward — the moment it swings, the front delt has taken over\n- **Shoulder packed DOWN**, no shrug to start the rep\n- **Lower slowly to a FULL stretch** — the bell's mass hangs below and behind the handle, so the bottom stays loaded where a dumbbell goes slack. That stretched position is exactly where the left has been failing on pull day\n- **If a bell is too heavy to curl cleanly**, assist the way up with a hip pop or the free hand and lower it slowly with the working arm alone. The lowering is the work\n\n🔥 Last set can go near failure — it's isolation and the form doesn't fail dangerously.\n\n**Reflection:** does the left feel different from the right here, the way it does on the incline curl — or is it fine with a bell?"
+        }
+      ],
+      "restBetween": 45,
+      "restAfter": 75
+    },
+    {
+      "id": "dead-cluster-flow",
+      "name": "🌀 Dead Cluster Flow — the Ballistic Chain",
+      "type": "flow",
+      "flowId": "kb-dead-cluster-flow",
+      "rounds": 3,
+      "notes": "**Single bell (~25-35lb), 3 rounds each side.** Last run in W20 — off the bench and back in.\n\ndead cluster → snatch → iron cross → outside pendulum → tactical clean → reverse lunge → offset rack squat.\n\n- **The cleans and the snatch come from the LEGS and hips** — the arm is a rope, not a lever\n- **Iron cross: straight arms, shoulders packed DOWN**, ribs down. It's a hold, so the temptation is to shrug into it — don't\n- **Outside pendulum is a LATERAL swing** — the leg drivers do the work, the arm just tracks the bell\n- **Offset rack squat is anti-lateral-flexion core work** — one bell racked, and the job is not leaning toward it\n- **Let each move feed the next** — the chain shouldn't have stops in it\n\n🛑 The snatch is the only real overhead beat after a flow that already had a bent press in it. Pack the shoulder DOWN at the catch, and sub a high pull if the right shoulder objects."
+    },
+    {
+      "id": "finisher",
+      "name": "🌀 Figure-8 → Tactical Clean (Finisher, 50)",
+      "type": "flow",
+      "flowId": "kb-figure-8-tactical-clean-complex",
+      "rounds": 4,
+      "notes": "**LOAD: 50lb, ~4 full loops.** You've added this in yourself two Tuesdays running and called it 'a great finisher for these tu flows' — so it's on the sheet now.\n\n- **The bell travels in a figure-8 around and between the legs**, then the tactical clean brings it up to the rack\n- **Hinge, don't squat** — the hips do the passing\n- **Ribs down.** At 50 this is a core and low-back load as much as a coordination drill; the QL has noticed it before\n- **Slow it down if it starts feeling heavy** rather than stopping — the tempo is the lever\n\nThis is the last thing you do. Earn the rest."
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Both flows were lunge- and hinge-heavy. Give the hips the full beat.",
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 90, "notes": "45s each side." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "Adductors — both flows loaded them laterally." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. QL downshift after the 50lb figure-8." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Flows are chains, not circuits.** Let each move feed the next — if you're resetting between beats, slow the whole thing down instead.",
+    "**Left arm first on the curl**, and match the right to it. The point is closing a gap, not adding volume.",
+    "**Tuesday KB strength is maintenance.** Nothing here needs to go up."
+  ]
+}

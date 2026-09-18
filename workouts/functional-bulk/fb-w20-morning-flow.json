@@ -1,0 +1,88 @@
+{
+  "id": "fb-w20-morning-flow",
+  "name": "W20 Morning Flow — Bodyweight Spine + Hip (All Days, Rotated Variety)",
+  "description": "15 min bodyweight floor flow — universal W20 morning flow, used every training day (Mon push / Tue KB / Wed pull / Thu KB / Fri legs). Same three-part shape as W11-W19 with ~half the moves rotated for variety: this week brings in thread-the-needle (thoracic), spiderman plank, plank shoulder taps, and cycles back the W12-era puppy pose + happy baby. Three-part: spine primer → bodyweight work → deep stretch arc. Day-specific therapeutic add-on at the end (push = pec-minor protocol; pull = dead hang + scap pull; legs = cross-leg lateral lean + pigeon + supine twist; KB days skip — banded prep covers it).",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "thoracic", "hips", "morning", "bodyweight", "home", "spine", "variety"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "primer",
+      "name": "Primer — Wake the Spine (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "duration": 60, "notes": "Slow, full ROM each direction. Spine wave wakes the segment-by-segment articulation." },
+        { "id": "thread-the-needle", "duration": 90, "notes": "Cycles back for W20 (a W12-era favorite) — 45s each side. From all fours, reach one arm UNDER the body and thread it through, shoulder and temple toward the mat, then unwind and reach it to the ceiling. Thoracic rotation + shoulder opener — wakes the mid-back before the day's work." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — the wrist dials a stretch up the back chain. Stays in the primer." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Bodyweight Activation (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "push-up", "reps": "max-ish (~2-3 in reserve)", "notes": "**Greasing set — 1 quick set, NEVER to failure.** Daily frequency is the point (the floor rises over time). Elbows ~45° (not flared), ribs down, glutes tight, body one line, **pack down not up.** Stop 2-3 reps short. Back off / drop to knees if the right shoulder talks at the bottom." },
+        { "id": "glute-bridge", "duration": 45, "notes": "Feet flat, drive through the heels, squeeze the glutes to a tall bridge, ribs down — no arching the lower back. Posterior-chain wake-up." },
+        { "id": "bird-dog", "duration": 60, "notes": "30s each side. Anti-rotation — opposite arm + leg extend, hold a beat, hips stay square (no swinging)." },
+        { "id": "spiderman-plank", "reps": 8, "notes": "Rotates in for W20 — from a plank, drive one knee up toward the same-side elbow, then switch. Dynamic hip-flexor opener + anti-rotation core; keep the hips level, don't let them pike or sag." },
+        { "id": "plank-shoulder-taps", "reps": "10 each side", "notes": "Rotates in for W20 — from a plank, tap the opposite shoulder with one hand while keeping the hips DEAD STILL (no rocking). Anti-rotation core + shoulder stability — the stillness is the work." }
+      ],
+      "notes": "Opens with a pushup greasing set (1 quick set, never to failure — daily habit). Spiderman plank + plank shoulder taps rotate in for W20; glute bridge + bird-dog (anti-rotation) stay.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "scorpion-stretch", "duration": 60, "notes": "30s each side. Stays every week — signature spine move." },
+        { "id": "puppy-pose", "duration": 90, "notes": "Cycles back for W20 (a W12-era favorite) — knees under hips, walk the hands forward and sink the chest toward the mat, arms long. Deep thoracic + lat + shoulder opener — counters the day's pressing/pulling." },
+        { "id": "lizard-pose", "duration": 60, "notes": "30s each side. Hip flexor + adductor + back-leg quad. Drop to elbows if accessible. Stays — durable hip opener." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Bodyweight, slow. Stays every week — keeps the loaded cossack pattern grooved." },
+        { "id": "leg-straddle-reaches", "duration": 75, "notes": "Stays — sit in a wide straddle, reach toward one foot, then center (chest toward the floor), then the other foot. Slow, breathe into each reach. The straddle + adductor + hamstring opener the flow design calls for." },
+        { "id": "happy-baby", "duration": 60, "notes": "Cycles back for W20 (a W12-era favorite) — on your back, knees to the armpits, hold the outsides of the feet, gently rock. Inner-hip + adductor + low-back release to close the arc." }
+      ],
+      "notes": "Continuous arc — flow between shapes, breathe deeply. Anchors stay (scorpion, lizard, cossack BW, straddle reaches); puppy pose + happy baby cycle back from the W12-era for W20.",
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "day-specific-addon",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 90, "notes": "**📍 PUSH DAYS — KEY PROTOCOL MOVE.** 30s each at LOW / MID / HIGH elbow positions. Arm bent 90°, forearm on the door frame, step through and rotate the torso AWAY. Desk work continuously re-tightens pec minor — daily." },
+        { "id": "prone-y-raises", "reps": 10, "notes": "**📍 PUSH DAYS** — active side of the pec-minor fix. Lower trap + rotator cuff." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "**📍 PUSH DAYS** — serratus activation, helps unstick a tight pec minor." },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "**📍 PUSH DAYS (optional)** — slow rotator cuff work. Add if the shoulder feels off." },
+        { "id": "wall-angel", "reps": 12, "notes": "**📍 PUSH DAYS (optional)** — pins the shoulder blades in the corrected position." },
+        { "id": "dead-hang", "duration": 25, "notes": "**📍 PULL DAYS** — 25s. Decompress the shoulders, warm the grip." },
+        { "id": "scapular-pull", "reps": 10, "notes": "**📍 PULL DAYS** — scapulae retracting only, no elbow bend. Crisp scap engagement before loaded pulls." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "**📍 LEGS DAYS** — 30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — QL/psoas release. Also in the legs-workout warmup." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "**📍 LEGS DAYS — QL-SPASM PROTOCOL.** 90s each side. Long hold lets the QL/psoas release. Non-negotiable on legs day." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "**📍 LEGS DAYS** — 60s each side. Gentle twist for the QL. Lacrosse-ball QL roll above the iliac crest beforehand if available." }
+      ],
+      "notes": "**Pick today's day-specific protocol — push / pull / legs.** ~3-5 min total. KB days (Tue/Thu) skip this block — the in-workout banded prep covers the equivalent.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Same shape as W11-W19, ~half the moves rotated. Morning flows stay low-fatigue; variety keeps them fresh.",
+    "**15 min main flow + 3-5 min day-specific add-on** — universal across W20 (Mon push / Tue KB / Wed pull / Thu KB / Fri legs).",
+    "**Scorpion + cossack BW + lizard pose + straddle reaches stay every week** — durable anchors.",
+    "**Rotated in for W20:** thread-the-needle (thoracic primer), spiderman plank, plank shoulder taps. **Cycled back (W12-era): puppy pose, happy baby.**",
+    "**Day-specific add-on at the end** — push days do the pec-minor protocol, pull days do dead hang + scap pull, legs days do cross-leg lean + 90s pigeon + supine twist. KB days skip the add-on.",
+    "If short on time: thread-the-needle + lizard + cossack BW + happy baby, plus today's day-specific add-on."
+  ],
+  "formPhilosophy": "Same as W11-W19 — variety means different shapes hitting the same patterns. Scorpion-family spine work + hip openers + adductor/straddle stretches. W20 rotates ~half: a thread-the-needle thoracic primer, fresh anti-rotation core work (spiderman plank, plank shoulder taps), and the W12-era puppy pose + happy baby cycled back so the flow doesn't calcify; the rehab anchors and the day-specific PPL protocols stay. Building decades, not weeks."
+}

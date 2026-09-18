@@ -1,0 +1,185 @@
+{
+  "id": "fb-w14-kb-full",
+  "name": "Week 14 KB Full Body — New Template Launch (Spotlight: Bent Press)",
+  "description": "W14 KB Full launches the new full-template KB day: **banded shoulder prep → strength block → flow block → cooldown**. The strength block is the new component (C&P + rows + pull-up greasing). Asgooch flow runs 4 rounds per side as the mandatory dose, with a 5th round marked OPTIONAL. The Brutal Complex finisher is kept but marked OPTIONAL/EXTRA — for days you have the energy and time. Spotlight cycles forward to bent press (per the W13 rotation plan: 'bent press / flow work returns').",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "strength", "spotlight-rotation", "overhead", "station-focused"],
+  "estimatedDuration": 65,
+  "equipment": ["kettlebell", "mini-band", "rope-band", "pull-up-bar"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "New KB full-template launches: banded prep → strength block (C&P + rows + pull-up greasing) → flow block (Asgooch alternating-sides flow, 4 sets) → mobility (cossack/windmill) → cooldown. Bent press is the spotlight (rotates forward from Thursday's W13 slot). Brutal Complex kept but optional. Leg-heavy flows bias to Tuesday (it's the day farther from Friday legs).",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-bent-press",
+        "why": "Cycles forward from W13's Thursday slot to Tuesday this week — W14 KB Thursday picks up figure-8 instead. Bent press is the leverage-and-skill drill: the body goes down while the bell barely moves. The right place for it in the new template is the skill/strength end of Tuesday."
+      }
+    ],
+    "rotationPlan": "W11 swing mechanics + bent press · W12 windmill + cossack · W13 C&P + TGU refresh · W14 bent press + flow work returns (current) · W15 cycle forward — C&P or strength-block-as-unit refresh.",
+    "watchpoints": [
+      "**NEW template launches this week** — banded prep → strength → flow → mobility → cooldown. The strength block (C&P + rows + pull-up greasing) is the new component. Both KB days now run the full template (Saturday-experiment ends, back to Tuesday + Thursday).",
+      "**Asgooch flow is a FLOW, not reps** — one pass = row→snatch→squat→lunge→push press on one arm, then alternate arms. 5 passes per side = 1 set. **4 sets mandatory, 5th optional.** W13D2 ran long because a 5th set + Brutal Complex + figure-8 all stacked; the mandatory dose is honest at 4 sets.",
+      "**Brutal Complex finisher kept but OPTIONAL/EXTRA** — do it on days you have energy and time, skip it on the others. The mandatory workout finishes at the mobility + cooldown.",
+      "**Pull-up greasing sets in the strength block** — 1-2 sets, light, NOT to failure. Part of the W14 pull-up frequency bump.",
+      "**Right shoulder watch through all overhead work** — the Asgooch stacks 4 overhead moves. If the shoulder talks during snatch/OH lunge, drop the load or modify (front-rack lunge instead of OH lunge).",
+      "**Leg-heavy flow bias = Tuesday** — Asgooch's OH lunge + OH squat is fine here. Thursday (day before legs Friday) keeps the loaded squatting work lighter."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles — open the shoulders before loading overhead." },
+        { "id": "kettlebell-overhead-press", "reps": "3 each side", "notes": "**LOAD:** 20lb. Light — test the overhead position. If anything cracks/twinges, do extra band warmup before the flow." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips. Sit in the bottom for a beat." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — the wrist dials a stretch up the back chain. Primes grip and forearms for KB rack work." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge — directly preps the bent press." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "strength-block",
+      "name": "Strength Block (NEW — C&P + Row + Pull-Up Greasing)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-clean-and-press",
+          "reps": "5 each",
+          "notes": "**LOAD:** 45 (HELD — W11/W12/W13 working). 2 rounds, 5 each side.\n- **Catch the clean with knees slightly bent** — absorb the bell, zero impact at the rack\n- **Hips drive the clean**, NOT the arm — arm just guides the bell into the rack\n- **Press: ribs DOWN** — no rib flare\n- **Bicep finishes by the ear, full lockout** at the top\n- **Lower with control — no slam** back to the rack\n- Left side first if asymmetry shows up"
+        },
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each",
+          "notes": "**LOAD:** 30-35lb (W13D2 confirmed 30 was the available bell when 25 was taken). 2 rounds, 8 each side.\n- Hips hinged, back flat\n- Pull the elbow toward the hip\n- 2s pull, 2s lower"
+        },
+        {
+          "id": "pull-up",
+          "reps": "5-6",
+          "notes": "**Pull-up greasing set** — part of the W14 frequency bump. 1-2 sets in the strength block, bodyweight, slow, NOT to failure. If shoulder talks, drop to scapular-pulls only. (Total weekly pull-up volume: 4 sets on Wed pull day + 1 set push warmup + 1-2 sets here = 6-7 sets across 3 days.)"
+        }
+      ],
+      "notes": "**NEW strength block** — the addition that defines the W14 full template. 2 rounds at this volume; if it feels easy and the workout has time, treat the strength block volume as the lever to step UP in W15, not the bell weight.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "flow-block",
+      "name": "Asgooch Overhead Flow — Alternating Sides (Flow, NOT Reps)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "1 per pass", "notes": "Single hand. Controlled pull, full extension, hips hinged, back flat." },
+        { "id": "kettlebell-swing-snatch", "reps": "1 per pass", "notes": "**Hips drive the bell**, not the arm. Straight overhead, punch through — smooth catch sets up the overhead moves." },
+        { "id": "kettlebell-overhead-squat", "reps": "1 per pass", "notes": "Bell locked overhead. **Hardest move in the flow.** Full depth IF mobility allows; reduce depth before load if it limits." },
+        { "id": "kettlebell-overhead-lunge", "reps": "1 per pass", "notes": "Bell overhead. **Lock elbow, bell over shoulder, torso TALL.** Drive through the front HEEL. **Right shoulder watchpoint** — most likely place for the crackle; modify to a front-rack lunge on this move only if it talks." },
+        { "id": "kettlebell-push-press", "reps": "1 per pass", "notes": "**Dip and drive** — legs do the work, arm guides. Smooth descent to the rack. End of one pass." }
+      ],
+      "notes": "**This is a FLOW, not a reps circuit.** One PASS = move through all five moves once — **row → snatch → squat → lunge → push press** — on ONE arm, continuous, no rest between moves. **Alternate arms every pass:** left pass, right pass, left pass... **5 passes per side = 1 set.** Do **4 sets (5th optional)**, resting 60-90s between sets. Weak side starts each set. (W13D2 lesson: don't stack a 5th set + Brutal Complex + figure-8 — that's what ran the session long.) Right shoulder watch on the overhead stack — modify rather than grind.",
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "bent-press-block",
+      "name": "🔆 Bent Press (Spotlight — Cycles Forward from Thursday)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-bent-press",
+          "reps": "4 each side",
+          "notes": "**LOAD:** 25lb (held — 30 if the bell at 25 isn't available, W13D2 lesson). 2 rounds, ~4 reps each side.\n\n**🔆 SPOTLIGHT — the leverage cue:**\n- **The body goes DOWN; the bell barely moves.** This is the whole lift. It is NOT a press — you don't push the bell up, you lower your body underneath a bell that stays roughly where it is.\n- **Bell locked overhead, eyes track the bell** the entire rep\n- **Hinge and rotate AWAY from the bell side** — the same lateral-hinge family as the windmill\n- **Reach the free hand down toward the inside of the front foot** as the torso lowers\n- **Long spine throughout** — the bend is at the hip, not a crunch of the spine\n- **Slow and deliberate** — fluidity over speed\n\n**Reflection:** does the 'body down, bell still' feeling click, or are you still pressing the bell? If it still feels like a press, slow down and lighten."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "mobility-block",
+      "name": "Mobility Block — Cossack + Windmill (Maintenance)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "cossack-squat",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 25-30lb goblet (W13D2 ran at 30 when 25 wasn't available, unassisted full ROM). Maintenance — spotlight was W12.\n- Sit DEEP, heels stay down\n- Working leg in full external rotation\n- Slow descent, hard stop at end-range\n- Range, not load\n- 'Continues to be the devil' but progression is real — the cardio cost is structural"
+        },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 25lb. Maintenance — spotlight was W12.\n- Bell locked overhead, eye tracks the bell\n- **Hip hinge AWAY from the bell side**\n- **Stretch lives in the back leg's hip flexor, NOT the lower back**\n- Long spine throughout"
+        },
+        {
+          "id": "kettlebell-single-leg-around-the-world",
+          "reps": "5 each direction, each leg",
+          "notes": "**LOAD:** 15-20lb. New from W13D6 — 'super tiring super quick.'\n- **Stand on one leg, knee soft, opposite leg lifted slightly**\n- Pass the bell around the body — hand to hand behind / in front\n- **Standing-leg glute LOCKED IN** — hip drives stability, not the spine\n- 5 reps clockwise, 5 reps counter-clockwise, then switch legs\n- **Torso quiet** — the bell tries to pull you into rotation; resist\n- Reflection: which leg is shakier? That's the asymmetry to watch"
+        }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "brutal-complex-optional",
+      "name": "🔻 OPTIONAL EXTRA: Brutal Complex Finisher",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-swing", "reps": 10, "notes": "**LOAD:** 35-40lb (heavier bell for the swing). Hip drive, not a squat." },
+        { "id": "kettlebell-ab-stance-goblet-squat", "reps": 10, "notes": "Same bell. Goblet position, ab-stance (asymmetric stance), full depth." },
+        { "id": "kettlebell-alternating-bent-over-row", "reps": "10 each", "notes": "Same bell. Alternating bent-over row — hips hinged, back flat." },
+        { "id": "kettlebell-close-grip-pushup", "reps": 10, "notes": "Bodyweight. Hands at the bell or close together — triceps emphasis." }
+      ],
+      "notes": "**🔻 OPTIONAL EXTRA — do this on days you have time and energy. Skip when the workout has already taken 60+ min or you're cooked.** 3 rounds, continuous within a round. The mandatory workout finishes at the cooldown without this block. (W13D2 lesson: this stacked on top of 5-round Asgooch made the session run long.)",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "**LOAD:** 25lb. Light row, 2s pull / 2s lower. Skip if the shoulders are cooked from the flow." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight on KB days from cossacks." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**NEW full-template KB Tuesday** — banded prep → strength → flow → bent press spotlight → mobility → cooldown. The strength block is the new component.",
+    "**Asgooch flow = a FLOW, not reps.** One pass through all 5 moves on one arm, then alternate arms. 5 passes/side = 1 set. 4 sets mandatory, 5th optional. Pace yourself — W13D2 ran long because a 5th set + extras stacked.",
+    "**Brutal Complex finisher kept but OPTIONAL/EXTRA** — skip it on packed days; the mandatory workout finishes at the cooldown.",
+    "**Pull-up greasing in the strength block** — 1-2 light bodyweight sets, NOT to failure. Part of the W14 frequency bump.",
+    "**Bent press spotlight** — body goes DOWN, bell barely moves. Cycles forward from W13 Thursday.",
+    "**C&P 45 held** — drilled in W13 already; this week C&P is in the strength block at the same load, just less spotlight attention.",
+    "**Right shoulder watch through the Asgooch overhead stack** — modify (front-rack lunge) rather than grind.",
+    "**Leg-heavy flow bias = Tuesday** — Asgooch's OH lunge + OH squat is fine here. Thursday will be lighter on the loaded squatting.",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W15 cycles forward — C&P or strength-block-as-unit refresh."
+  ],
+  "formPhilosophy": "The KB Tuesday template upgrade lands W14: strength block joins banded prep / flow / mobility / cooldown. Mandatory dose is honest (4 Asgooch flow sets, no Brutal Complex baseline); the 'extra' blocks are explicitly optional so the workout can't bloat by stacking without intention. Bent press as spotlight; cossack and windmill are durable mobility maintenance. The strength block is where W15+ can step up sets without changing the template."
+}

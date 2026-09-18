@@ -1,0 +1,143 @@
+{
+  "id": "fb-w14-kb-cardio",
+  "name": "Week 14 KB Saturday Cardio — Conditioning Cave Pull (Spotlight: Asgooch Cardio Complex)",
+  "description": "Saturday KB OPTION — pure conditioning. Distinct from Tue (strength template) and Thu (lighter strength template). The user's brief: 'harder Asgooch stuff but more reps / more variety / less weight is more or less conditioning.' Pulls in three pieces we haven't drilled before — the Asgooch CARDIO complex (row/clean/squat/snatch × 6 × 5 rounds, a different complex than the overhead Asgooch flow already on Tue), the halo-to-reverse-lunge + figure-8-to-reverse-lunge flow combos (from kb-conditioning-blast), and a high-rep controlled-power finisher (from kb-daily-controlled-power). Light bell throughout (16-20lb working) — sustainability and breathing rate are the targets, not load. Choice-of-the-day on D6; alternates with Stairmaster, easy run, or rest.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "conditioning", "cardio", "circuit", "form-first", "saturday", "lighter", "high-rep", "spotlight-rotation"],
+  "estimatedDuration": 40,
+  "equipment": ["kettlebell", "mini-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Saturday conditioning. Different intent from Tue/Thu — light bell, more reps, more variety, breathing-rate target. Cave pulls: Asgooch cardio complex, halo/figure-8 to reverse lunge flow combos, controlled-power high-rep finisher. Day after Friday legs — squatting stays LIGHT on purpose.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-swing-snatch",
+        "why": "The 4th move in the Asgooch cardio complex — 6 reps × 5 rounds per side at light bell is where conditioning actually lives. Spotlight the snatch cue (hips drive, punch through, smooth catch — don't bang the forearm) because this is where the load + speed combo gets sloppy first."
+      }
+    ],
+    "rotationPlan": "W14 Sat launches conditioning template (Asgooch cardio complex + flow combos + controlled-power finisher). W15+ rotate the finisher block — controlled-power one week, brutal complex variants the next, 100-rep blocks pulled from kb-100-rep-daily-challenge.",
+    "watchpoints": [
+      "**Day after Friday legs.** Squatting in the cardio complex (front squat × 6) stays LIGHT — 16-20lb. Don't chase load. Skip the front-squat reps if QL/quads are talking.",
+      "**Light bell is the whole point.** Asgooch ran his cardio complex at 24kg (53lb) — that's NOT the target here. 16-20lb is. Conditioning means breathing rate, not bell weight.",
+      "**Asgooch CARDIO complex is different from Tuesday's Asgooch OVERHEAD complex** — same author, different chain. Cardio = row/clean/squat/snatch (mostly low-and-explosive). Overhead = row/snatch/OH lunge/OH squat/push press (overhead-loaded).",
+      "**Pull-up greasing skipped here** — the Sat KB day is the conditioning flank, not part of the pull-up frequency push. (Pull frequency = Wed pull + Mon push warmup + Tue KB strength block.)",
+      "**Right shoulder watch on the snatch** — the punch-through at the top is where the catch can crash. Light bell + smooth catch; if it crackles, drop to high pulls instead.",
+      "**This is a CHOICE-OF-THE-DAY on D6**, not mandatory. Skip if Friday legs cooked you, swap for stairmaster or easy run if cardio-only is the right call. The KB option exists so cardio doesn't have to mean a treadmill."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Quick Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 16-20lb. Loosen shoulders fast — no slow warmup today, the cardio complex is its own warmup." },
+        { "id": "kettlebell-swing", "reps": 10, "notes": "Easy two-handed swings. Prime the hinge." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "Light, open the hips. Skip if Friday legs left the quads sore." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Wakes grip + forearm + posterior chain — primes the snatch catch." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "banded-prep",
+      "name": "Quick Banded Prep (~2 min — abbreviated)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band overhead." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Rear delts fire." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Sternum height, ribs down." }
+      ],
+      "notes": "**Abbreviated prep** — 4 moves instead of the full 7. Saturday is conditioning; the full template's 7-move prep is overkill for a light-bell day.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "asgooch-cardio-complex-left",
+      "name": "🔆 Asgooch Cardio Complex — LEFT (Spotlight Block)",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 6, "notes": "**LOAD:** 16-20lb. Left hand. Hips back, back flat, pull elbow past ribs. 2s pull, 2s lower." },
+        { "id": "kettlebell-swing-clean", "reps": 6, "notes": "Left hand. **Hip drive into the rack** — thumb to collarbone. Smooth catch — knees absorb." },
+        { "id": "kettlebell-front-squat", "reps": 6, "notes": "Left rack. **LIGHT** — Friday legs is yesterday. Sit tall, full depth IF the legs are fresh; reduce depth before load if they're cooked." },
+        { "id": "kettlebell-swing-snatch", "reps": 6, "notes": "🔆 Left hand. **Spotlight:**\n- **Hips drive the bell**, not the arm — arm just guides\n- **Punch THROUGH at the top** — don't pull the bell into a stop\n- **Smooth catch** — bell rotates around the forearm, no bang\n- Right shoulder watch on the catch — if it crackles, sub high pulls for the last 2 rounds" }
+      ],
+      "notes": "5 rounds LEFT. Continuous within a round — row→clean→squat→snatch with no rest. Rest 30-45s between rounds. **Weak side first.** Different from Tuesday's overhead Asgooch — same author, different chain.",
+      "restBetween": 30,
+      "restAfter": 45
+    },
+    {
+      "id": "asgooch-cardio-complex-right",
+      "name": "Asgooch Cardio Complex — RIGHT",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 6, "notes": "Right hand. Same form — hips back, full extension." },
+        { "id": "kettlebell-swing-clean", "reps": 6, "notes": "Right hand. Smooth clean to rack." },
+        { "id": "kettlebell-front-squat", "reps": 6, "notes": "Right rack. Same depth/load discipline as left." },
+        { "id": "kettlebell-swing-snatch", "reps": 6, "notes": "Right hand. **Right shoulder watchpoint on the catch** — same modify-to-high-pull rule." }
+      ],
+      "notes": "5 rounds RIGHT. Continuous within a round. **If the workout is running long after the left side, drop to 3-4 rounds right — don't grind a quality session into a sloppy one.**",
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "flow-combos",
+      "name": "Flow Combos — Halo/Figure-8 to Reverse Lunge (NEW from KB Conditioning Blast)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-halo-to-reverse-lunge", "reps": "5 each leg", "notes": "**LOAD:** 16-20lb. Halo one direction → reverse lunge → halo other direction → reverse lunge other leg. Continuous, fluid. The halo loosens the shoulder while the lunge keeps the legs honest." },
+        { "id": "kettlebell-figure-8-to-reverse-lunge", "reps": "5 each leg", "notes": "Figure-8 pass between the legs → step back into a reverse lunge → switch sides. The figure-8 cues hip rotation; the lunge anchors it. Coordination drill as much as conditioning." }
+      ],
+      "notes": "New flow shapes for W14. The halo-to-lunge and figure-8-to-lunge are coordination-conditioning hybrids — the upper-body skill challenge slows the leg work down enough that the lunges don't dump the quads. 3 rounds, 30-45s rest between rounds.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "controlled-power-finisher",
+      "name": "Controlled Power Finisher — High-Rep Block (NEW from @metabolicfactor)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": 40, "notes": "**LOAD:** 16-20lb. 20 each direction. Smooth circles, torso quiet. Different from the single-leg version — both feet down here." },
+        { "id": "kettlebell-side-swing", "reps": 30, "notes": "Side-to-side swings across the body. Drive from hips, core rotates. Controlled arc, no flailing." },
+        { "id": "kettlebell-high-pull", "reps": 30, "notes": "Explosive hip snap, pull the bell to chin height. Elbows high. Controlled lower." },
+        { "id": "kettlebell-goblet-squat", "reps": 20, "notes": "Light goblet. **SKIP if quads are toast from Friday legs** — the finisher works without it. Full depth, chest up." }
+      ],
+      "notes": "One straight set through, ~5-6 min. **Skip the goblet squat block if Friday legs is still in the legs** — this is the lever to dial back without losing the finisher. Conditioning lives in the around-body-pass + side-swing + high-pull stack; the squat is the optional cherry on top.",
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "duration": 60, "notes": "Slow spine wave. Decompress after the high-rep finisher." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the lunge flow + cardio complex squat reps." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors take a hit from the figure-8 + lateral shapes." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Saturday conditioning option — choice-of-the-day on D6.** Alternates with stairmaster, easy run, or rest. Skip if Friday legs cooked you.",
+    "**LIGHT bell throughout: 16-20lb working.** This is the whole point. Conditioning = breathing rate, not load.",
+    "**Three cave pulls:** (1) Asgooch CARDIO complex — row/clean/squat/snatch × 6 × 5 rounds per side. Different chain from Tuesday's overhead Asgooch. (2) Halo-to-reverse-lunge + figure-8-to-reverse-lunge flow combos. (3) Controlled-power high-rep finisher.",
+    "**Spotlight: kettlebell snatch cue** — hips drive, punch through, smooth catch. The catch is the failure mode at speed.",
+    "**Front squat in the cardio complex stays LIGHT** — Friday legs is yesterday. Reduce depth before load if quads are tight.",
+    "**Right shoulder watch on the snatch catch** — sub high pulls for the last rounds if it crackles.",
+    "**Skip the goblet-squat finisher block** if legs are toast — the around-body / side-swing / high-pull stack carries the conditioning work without it.",
+    "**No pull-up greasing here** — Sat is the conditioning flank, not part of the pull-up frequency stack.",
+    "Cooldown mandatory — cat-cow + pigeon + butterfly.",
+    "Rotation plan: W15+ swaps the finisher block (controlled-power one week, brutal-complex variant the next, 100-rep block pulls the week after) so Saturday stays fresh."
+  ],
+  "formPhilosophy": "Saturday is conditioning, distinct from the Tue (strength-template) and Thu (lighter strength-template) KB days. Light bell, more reps, more variety — the user's own framing of conditioning. Cave-pull strategy: rotate in unused material from the KB library (kb-cardio-complex, kb-conditioning-blast, kb-daily-controlled-power for W14) so the program builds breadth as well as depth. The day is explicitly optional — the program already gives D6 a stairmaster/run/rest choice; this is a fourth option for days when the KB feel is the right call."
+}
