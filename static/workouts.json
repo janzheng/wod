@@ -4958,6 +4958,12 @@
     "name": "Banded Shoulder Prep — Seven Positions, ~2 Minutes",
     "description": "**The shoulder anchor, detached from kettlebell day so it can happen anywhere.**\n\nIt has lived inside the KB sessions since the program started, which was fine while those ran weekly — but when the KB days get skipped, this goes with them, and this is the input that has kept the right shoulder quiet through a heavy pressing block.\n\n**Seven positions, one round, about two minutes.** No bell, no bench, just a light band. Run it on a rest day, after a swim, before a gym session, or on the floor of the apartment gym.\n\n**Push and pull days deliberately do NOT carry extra band volume** — those days already run long and have their own anchors (Yuri's on push, band-pull-apart on pull). This is for the days that have neither.",
     "routineId": "functional-bulk-dynamic",
+    "anytime": {
+      "label": "Banded Shoulder Prep",
+      "note": "Seven positions, ~2 min, light band. Any day, before or after.",
+      "icon": "🎗️",
+      "order": 2
+    },
     "tags": [
       "shoulders",
       "rehab",
@@ -5030,6 +5036,12 @@
     "name": "Daily Reminders — Small and Often",
     "description": "**Not a session.** These are the things that work because they happen five times a day for one minute, not once a day for five minutes.\n\nSprinkle them through the day — between meetings, waiting for water to boil, on the floor with the baby. **There is no set, no round, and no finishing.**\n\nThis block is linked at the top of every workout so it stays visible, but it is deliberately not part of any session.",
     "routineId": "functional-bulk-dynamic",
+    "anytime": {
+      "label": "Daily Reminders",
+      "note": "Small and often — squat, balance, ankle work. Not part of the session.",
+      "icon": "☀️",
+      "order": 1
+    },
     "tags": [
       "mobility",
       "daily",

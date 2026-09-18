@@ -2241,15 +2241,21 @@ function routineStackApp() {
       return null;
     },
 
-    // Two standing blocks surfaced at the top of every workout. They are
-    // deliberately NOT program-schedule driven (unlike workoutFlow) — the whole
-    // point is that they stay visible on days the program doesn't cover.
+    // Blocks that surface at the top of every workout. A workout opts in by
+    // declaring an "anytime" field ({ label, note, icon, order }) — so this is
+    // driven by the catalogue, not a hardcoded list here. Deliberately NOT
+    // program-schedule driven (unlike workoutFlow): the point is that they stay
+    // visible on days the program doesn't cover.
     get anytimeBlocks() {
-      const blocks = [
-        { workoutId: 'daily-reminders', icon: '☀️', label: 'Daily Reminders', notes: 'Small and often — squat, balance, ankle work. Not part of the session.' },
-        { workoutId: 'banded-shoulder-prep', icon: '\u{1FA78}', label: 'Banded Shoulder Prep', notes: 'Seven positions, ~2 min, light band. Any day, before or after.' },
-      ];
-      return blocks.filter(b => b.workoutId !== this.selectedWorkoutId);
+      return this.allWorkouts
+        .filter(w => w && w.anytime && w.id !== this.selectedWorkoutId)
+        .sort((a, b) => (a.anytime.order ?? 99) - (b.anytime.order ?? 99))
+        .map(w => ({
+          workoutId: w.id,
+          icon: w.anytime.icon || '',
+          label: w.anytime.label || w.name,
+          notes: w.anytime.note || '',
+        }));
     },
 
     get workoutHomeGym() {

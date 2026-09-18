@@ -3,6 +3,12 @@
   "name": "Daily Reminders — Small and Often",
   "description": "**Not a session.** These are the things that work because they happen five times a day for one minute, not once a day for five minutes.\n\nSprinkle them through the day — between meetings, waiting for water to boil, on the floor with the baby. **There is no set, no round, and no finishing.**\n\nThis block is linked at the top of every workout so it stays visible, but it is deliberately not part of any session.",
   "routineId": "functional-bulk-dynamic",
+  "anytime": {
+    "label": "Daily Reminders",
+    "note": "Small and often — squat, balance, ankle work. Not part of the session.",
+    "icon": "☀️",
+    "order": 1
+  },
   "tags": [
     "mobility",
     "daily",
