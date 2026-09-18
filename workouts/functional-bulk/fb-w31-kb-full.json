@@ -1,0 +1,201 @@
+{
+  "id": "fb-w31-kb-full",
+  "name": "Week 31 Optional KB — Bent Press Flow + Figure-8 Complex",
+  "description": "**Optional — take it whenever a window opens.** The three gym days complete the week; this is a bonus, not a debt.\n\n**The Bent Press Flow stays as the anchor.** **The figure-8 complex comes back after a long absence** — the bell passes between the legs in a figure-eight, and the hand that catches it behind the leg keeps going straight into a clean to the rack. The pass *is* the clean entry, which is the whole skill.\n\n**Nothing in the figure-8 goes overhead**, which matters this week: a new crackle showed up in the left shoulder on pull day. Keep the bell light and unhurried. One round of each is a complete session on a bad-sleep day.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "kettlebell",
+    "flow",
+    "conditioning",
+    "functional-bulk",
+    "optional",
+    "week-31"
+  ],
+  "estimatedDuration": 30,
+  "equipment": [
+    "kettlebell",
+    "resistance-band"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "One overhead skill flow, one hand-switching complex that never leaves the rack, and a short strength round between them. Written short and optional: two rounds of each when fresh, one when the night was bad, and either version counts as done.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-figure-8-tactical-clean",
+        "why": "It has been away for months and it is the best hand-eye drill in the library. The catch happens under load behind the leg and flows straight into the rack — there is no land-and-re-grip, which is exactly what makes it worth practising."
+      }
+    ],
+    "rotationPlan": "W32 — the Leggy Flow or the b-stance flow comes back around. W33 — overhead mobility complex returns as the closer.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: bent press, all the cleans, the KB strict press. Overhead and ballistic work where the cue breaking is the ceiling.",
+      "🔥 nothing here is a lift to chase this week — see the curl note below.",
+      "**Banded shoulder prep is a KB-day anchor.** It stays even on a twenty-minute version of this session.",
+      "**⚠️ A NEW CRACKLE SHOWED UP IN THE LEFT SHOULDER on the pull-up bar last week.** The figure-8 never goes overhead, so it is the shoulder-friendly half of this session. **If the left is talking, run one round of the bent press flow and two of the figure-8.**",
+      "**The bent press is a skill, not a load.** Light bell. If the eyes leave the bell or the hip stops driving, the set is over.",
+      "**The figure-8's hike position is home base.** Every transition resets through the hike — if you lose the bell, go back to the hike before restarting rather than chasing it.",
+      "**KB curl: left arm first, and no near-failure this week.** The left bicep tendon is still irritable. Stop short of a fully straight arm, same as the gym curls.",
+      "**Optional means optional.** Missing this day entirely does not make the week incomplete."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Cossacks + Around-the-Body (Light Bell)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The cossacks double as an early-warning system — how they feel tells you what kind of session this is, and that read has been more reliable than sleep quality.\n\n**Tired-day version:** 5 reps each.",
+      "exercises": [
+        {
+          "id": "kettlebell-around-body-pass",
+          "reps": "8 each direction",
+          "notes": "Light bell. Hand-eye primer — **and the direct rehearsal for the figure-8 later**, since both are about the hand that receives the bell."
+        },
+        {
+          "id": "kettlebell-halo",
+          "reps": "6 each direction",
+          "notes": "Close to the head, elbows leading. Opens the shoulders without loading them. **Go slow on the left side this week.**"
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal — the old ankle sprain means a stiff day here is not a forecast."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 30,
+          "notes": "Deep core before the bell gets heavy."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "10-12",
+          "notes": "**Protective activation.** A bell in each hand works if no DBs are around. Straight up, squeeze, slow release."
+        }
+      ]
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out** — and with a new complaint on the left, this week least of all.\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    },
+    {
+      "id": "bent-press-flow",
+      "name": "🌀 Bent Press Flow — The Anchor",
+      "type": "flow",
+      "flowId": "kb-flow-dead-clean-press",
+      "rounds": 2,
+      "notes": "**Light bell — 25-35.** Two rounds each side when fresh, one when tired.\n\nThis is the program's oldest flow and it is skill work first. **Run it as one continuous chain**, not five separate exercises: the transitions are the part worth practising. 🛑 The bent press caps the bell — if the hip stops driving or the eyes leave the bell, the flow drops a size.\n\n**If the left shoulder is noisy, one round here is enough** and the figure-8 takes the extra."
+    },
+    {
+      "id": "kb-strength",
+      "name": "Strength — KB Row + Strict Press + Curl 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "Run this between the two flows so the demanding work is not all stacked at the end.\n\n**Tired-day version:** one round.",
+      "exercises": [
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50.** Maintenance — the real row volume lives on pull day. 50 being easy is the correct end state; do not chase it.\n- Flat back, elbow past the ribs\n- Slow eccentric, full stretch at the bottom"
+        },
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50, strict — clean to rack, press straight up, no push-press.** 50 is the Arrilaga ceiling, so the pause is the progression.\n- **2-3s PAUSE AT LOCKOUT every rep** — bicep by the ear, shoulder packed **DOWN**, ribs down, and hold it\n- Full lockout before the count starts — no soft elbow\n- **Both sides to the same standard — and if the left will not hold a quiet lockout this week, stop that side there**"
+        },
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom** — the bell loads that end position harder than a dumbbell, and that is the position the left tendon dislikes\n- Shoulder packed down, no shrug to start\n\n**No near-failure sets.** The dose here is frequency for the left arm, not intensity."
+        }
+      ]
+    },
+    {
+      "id": "figure-8-complex",
+      "name": "🌀 Figure-8 → Tactical Clean — Back After Months Away",
+      "type": "flow",
+      "flowId": "kb-figure-8-tactical-clean-complex",
+      "rounds": 2,
+      "notes": "**Medium bell — 25-35.** Two rounds when fresh, one when tired. **Nothing here goes overhead.**\n\n🔆 **What the movement actually is:** the bell swings back between your legs, and the opposite hand reaches around the outside of that thigh to take it — a figure-eight traced around your legs. **The hand that catches it does not set it down and re-grip; the catch continues straight up into a clean to the rack.** Then a tactical clean brings it back down and through to the other side.\n\n- **The pass IS the clean entry.** If you land the bell, stop, and then clean it, the skill has been skipped\n- **The hike between the legs is home base** — every transition resets through it. Lose the bell, go back to the hike, restart from there\n- **Tactical clean means threaded into the rack, not yanked** — no momentum hack, no forearm bang\n- **Hinge, do not squat, to send the bell back.** The hips move, the knees mostly do not\n- **Chest stays proud through the pass** — rounding over to reach the bell is how the low back ends up doing it\n\n**Go light first.** Groove the pass and the clean separately for a few reps before chaining them."
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Shoulder Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The figure-8's wide stance and hike position tighten the adductors and hip flexors, and one flow finished overhead. Give both ends a beat.\n\n**Tired-day version:** 30s each.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 45,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "Passive decompression after the overhead work."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 60,
+          "notes": "45s each side. The lunges earned this."
+        },
+        {
+          "id": "butterfly-stretch",
+          "duration": 45,
+          "notes": "Adductors — the figure-8's wide stance earned this one specifically."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 45,
+          "notes": "30s each side. QL release."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Optional means optional. One round of each flow is a complete session.",
+    "The figure-8's pass IS the clean entry — no land-and-re-grip.",
+    "The hike position is home base. Lose the bell, reset through the hike.",
+    "Nothing in the figure-8 goes overhead — run more of it if the left shoulder is talking.",
+    "KB curl: left first, stop short of straight, no near-failure."
+  ]
+}

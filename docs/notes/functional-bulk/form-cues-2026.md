@@ -71,6 +71,8 @@
 **Notes from real sessions**
 - W10D1: Leading with the elbow on set 1 caused a shooting line (not super painful) from scapula down to elbow. **The fix that worked:** between sets, roll shoulders + actively engage/disengage scapula a few times. Sets 2 and 3 felt way better, set 3 was hard "in the right way." Make scapula reset between sets a default when shoulder is acting up — don't just push through it. (Stretches helping overall; the right-shoulder crackle is real but manageable.)
 - W16D1 (spotlight): 15lb x 15-18 x3 done deliberately slowly — "still hard at last set, especially the slower i go." Confirms the slow eccentric is biting the medial delt (that's the point). User asked "what muscle is this focusing on?" → added the **Targets** line above. Mild right-shoulder soreness *began* around this lift this session, but the farmer carry's tall, packed-down-and-back posture cleared it later — the carry reads as shoulder decompression.
+- W30D1 (follow-up) — **he has been progressing this lift himself, by lever, without naming it.** *"I've been doing lat raises slower, and also wider / farther away (i've been having a slight bend)."* **Holding the bells farther from the body lengthens the moment arm, so the same 20lb is a heavier lift than it was three weeks ago** — which is why "really hard towards the end" turned up at an unchanged load. The slight bend is correct: 10-15°, fixed. He asked outright *"these are shoulder exercises right? i dont even know if i'm doing these right"* — answer with the **Targets** line above, and **do not read a self-applied form lever as a reason to add load.** Hold 20; a load bump on top of a lever bump is two progressions in one week.
+- W30D1 (his call, 2026-09-15) — **width IS the progression on this lift now; the load stays at 20.** *"Yeah stay, but get wider and wider; 25 will collapse immediately lol."* He is reading it right: a weight jump at his current lever length would collapse the position, and the position is what has been earning the gains. **Write it as 20lb with "farther from the body than last week" as the progression line — no weight target until the lever stops giving.** Confirmed with him: the slight bend is always there and never a straight elbow, and he is already stopping at shoulder height.
 
 ---
 
@@ -194,6 +196,7 @@
 **Notes from real sessions**
 - W26D1: **RIGHT arm.** Nerve-like line from shoulder → arm → elbow → forearm, "when exerting."** He backed the load off rather than pushing through. **"Pinched / packed shoulders harder and it got better"** — packing the shoulder down was what changed it, so the sensation is positional, not a load problem. The cable lateral raise immediately afterwards read clean. Same family as W10D1's lateral-raise "line from scapula to elbow" and W12D1's "line from hand to shoulder" at 90°, both right-side. **Practical cue: pack down before the first rep rather than adding load.** No lingering tingling afterwards — 20 min post-session he reported stiffness and ordinary post-training grip fatigue, *"like after climbing,"* and nothing neural.
 - **W26D1 (follow-up) — RESOLVED, the doc was describing the wrong movement.** His words: *"it's never been overhead, it's me on the ground in a 45 degree angle backwards / leaning back, cable above me and going from bent arms to straight arms; straight arms is by the leg/hip, bent is close to the chest — it's always been this exercise!! it drifted over time."* Checked against the canonical exercise file and the W2 intro note (*"Hands near chest, extend out"*) — **he is right, and both of those have been correct the whole time.** The drift entered the weekly workout files at **W13** (*"let the rope pull the hands behind the head"*) and copied forward through W25, and this doc inherited it. Setup/Movement above rewritten to match. Nothing about his execution ever changed.
+- W30D1 (spotlight): cable column 60, all sets, cues followed — and **"never got hard."** He forgot to report it at all in the first pass, which is what four weeks of autopilot looks like. **60 has stopped being a load**; W26 ran 70 on this same station, so 70 is a return to a banked number rather than a new scale. He did not mention the right-arm nerve line either way — he has raised it unprompted before, so silence leans quiet without confirming it.
 
 **Setup**
 - Kneel on the floor facing away from the stack, rope from the HIGH pulley
@@ -253,6 +256,7 @@
 **Notes from real sessions**
 - W10D1: cable column 100, 12/12/10 stopped out. "Oof really hard today." — accumulated push-day fatigue showing up here. (W7=110, W8=120, W10 pulled back to ~100 for form-first.)
 - W11D1: Cable column busy → **Kinesis 6 ≈ cable column 100** (user calibration: "machine not linear, this feels like 100"). Lock Kinesis 6 as the Kinesis-fallback working number.
+- W30D1 (spotlight): cable column 120, both rounds, *"did all sets hard at end."* The load reads right — hard at the end of two rounds is where it should sit. **The spotlight's actual question (did the lats start the pull, or did it feel like triceps?) went unanswered** — ask it again next time this lift is run deliberately.
 
 ---
 
@@ -360,6 +364,8 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - Incline DB curl (`incline-curl`) at 25 is the proven backup when preacher is taken (W7+) — NOT `concentration-curl` (different catalogue exercise; user has never done that variation; W7-W10 entries originally mislabeled, corrected W11D3)
 - **W14D3 correction — `incline-curl` IS a preacher-style movement, not a back-against-bench incline curl.** User: "chest supported preacher style on 45 degree, armpit is on the pad and arm/hand is flat on the pad and curling." Set the incline bench to ~45°, lean in chest-first, armpit + back of upper arm flat on the pad, arm hangs down the face of the pad, curl keeping the upper arm flat. The exercise definition was rewritten to match; the earlier "back against the bench, DBs hanging at sides" cue (W11-W13 pull workouts) was wrong. Use the chest-supported cue going forward.
 - Drop set 15→10 to failure is good programming
+- **⚠️ W27-W29 DRIFT RE-ENTRY (caught 2026-09-14).** Those three pull files cue `incline-curl` as *"bench at 45°, arms hanging fully behind the body"* — the back-against-the-bench version retired by the W14D3 flag and closed by the W15 audit. W25-W26 had it right. **The cue is: armpit + back of the upper arm flat on the 45° pad, arm hanging down the FACE of the pad, upper arm never lifts off.** Write it from the exercise definition, not from last week's file — this is the second time this exact cue has drifted.
+- **Left distal bicep tendon — five weeks, and as of W29D5 it is noticeable in daily life.** *"Just noticing it all the time… if i'm even just moving boxes or baby i feel it but it doesnt 'hurt' like normal hurt - mostly during curl."* **Never painful, strength intact** — 25 both arms and 240 on the high cable the same session. **The bottom of a preacher-style curl is the most distal-tendon-loaded position in the program**: upper arm pinned, full extension, no cheat available. Levers in order — steeper (more upright) pad, stop a few degrees short of lockout, 30s isometric hold at ~90° in the warmup, and **a light bicep set before the pull-up bar (confirmed helping, W29D5 — now a pull-day anchor).** **Keep the load; tendons want load, not rest.** Escalate only on real pain or actual weakness.
 
 ---
 
@@ -624,6 +630,7 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W18D5: **self-restructured the block around ROM** — added a **70 intermediary set** (a "semi warm up" to work range) then ran only 2 working sets at 80 (80x6, 80x8). "ROM is more important to me than absolute weight right now"; near-term goal = **fix ROM + the mid-range of the lift; hips still super tight.** ROM "better than last week, ~85%, better than most times." The 45→70→80 ramp is his own ROM-building tool — keep it; depth is the lever, hold 80. (W19 squat is the depth-refresh spotlight — formalize the ramp.)
 - W27D2: **the best depth report of the program, and it is about the descent, not the load.** 80/side × 3, all clean, stopped with power in reserve on purpose. His own framing: *"getting a good feel of my power band as i go down lower and how much power i'm losing, and i'm working on getting lower and lower and maintaining control and power band."* W26 banked stability at 80 (*"moved past the feeling i'd fall over"*); W27 banked a map of where power falls off through the bottom. **Hold 80 — the number has nothing left to prove and the descent does.**
 - W27D2 follow-up: **the depth limiter is the BRACE, not the ankles.** Asked directly — *"hips, bracing runs out first; don't really feel ankles… i feel the bracing gets harder and legs and bracing gets harder and i can't go deeper, like the core is the limiter not legs or knees."* Consistent with years of deep-ROM leg press reading as core/QL work. **Warmup emphasis goes to the dead bug, the internal-core fist rotation and the bodyweight-squat depth benchmark; the tibialis raise stays but is no longer the depth lever.** The brace is the progression — don't add load to chase depth.
+- W29D4: **the heel-elevated top set (5lb plate under each heel, set 3 at 80) felt like a different exercise, not a deeper one** — *"very different muscles engaging and it didn’t actually feel deeper or easier."* Heels up = knees further forward = more upright torso = more quad, brace moves to the front. Flat sets 1-2 already reached depth, so at 80 the ankle accommodation had little to give. Same day, set 2: 80 *"feels like what 45s were before, feels super confident here."*
 
 ---
 
@@ -660,6 +667,37 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W15D5: ran 2nd / fresh (leg press was occupied) — "pretty easy as second exercise," but "third set still burned" with the slower eccentric. **User explicitly declined a load bump: "don't really want to go up just yet... i can just slow down more."** Tempo stays the progression; hold the 45lb plate, keep slowing the eccentric. Do NOT offer load here.
 - W18D5: **cut the last set** (legs smoked from an unusually brutal leg press) — "did all sets but last one." But the slow squeeze is dialing in: "squeezing the right places slowly — makes it hard to get off the machine." The form is landing (hamstrings/glutes), not a load problem; the cut set is the honest end given the session. Hold 45, tempo's the lever.
 - W27D2: **the rework landed — fewer reps + slower eccentric turned a stamina lift into a tempo lift.** 3 × 10 at the same 45lb plate with a 3s eccentric, after W26 read *"stamina hard not load hard."* His verdict: *"whoa these feel easier yet harder at the same time."* He **added a 2s pause at the top himself** — *"when i know there's only 10 i pause at top for 2s and then go down slow maybe 3 or 4."* New limiter is attention: *"first set went fine but later sets just take a whole lot more discipline to maintain."* **Keep 10 reps + 3s eccentric + the 2s top pause. Plate still 45.**
+
+---
+
+### Barbell RDL (at the rack)
+
+**Setup**
+- **Start standing, not from the floor.** Take the bar off hooks set around mid-thigh, step back, feet about hip-width.
+- **Double-overhand, thumbs wrapped.** No flipped hand — a supinated hand under load puts the left distal bicep tendon on stretch.
+- **Bar low in the hand** — in the crease where the fingers meet the palm, not mid-palm. Mid-palm, it rolls toward the fingers under load and the grip goes early.
+- **Squeeze the grip before the bar leaves the hooks.**
+
+**Movement**
+- **Soft knees, set once.** Unlock them at the top; after that they don't move — the hips do everything.
+- **Push the hips back**, like shutting a car door with your butt. It's a hip hinge — the same hinge the incline RDL trains.
+- **Bar brushes the thighs all the way down.** Shoulders packed DOWN (the program cue) so the lats keep it from drifting forward.
+- **Stop where the hamstrings stop you** — usually around the knee to mid-shin — with the back still flat. The floor isn't the target.
+- **Stand by driving the hips forward and squeezing the glutes. Stop at straight** — leaning back at the top is lumbar load (QL flag), same rule as the incline RDL.
+
+**Tempo + breath**
+- **3s down**, drive up. Breathe and brace at the top, hold it on the way down, exhale at the top.
+
+**Common faults**
+- Knees bending more as the bar goes down (turns it into a squat)
+- Bar drifting off the legs (lats off)
+- Chasing depth until the back rounds
+- Leaning back at lockout
+
+**Notes from real sessions**
+- W28D2: arrived by accident (incline bench occupied) at 70/side × 10/10/10; the left grip gave out and he flipped to a mixed grip on the last set → double-overhand written in from W29.
+- W29D4: first deliberate run, double-overhand at 70/side — 8 (grip lost) / 10 / 10, grip *"barely holding on"* at the end of every set. **Grip is the cap by design; that ceiling is the working number.** The 3s eccentric makes each set ~40-50s of holding ~185, which is a big part of why the grip goes. These pointers were written for him after this session.
+- **W30: dropping to 45/side, his call** — *"I think I should go down lighter like forty five s instead"* — to learn the hinge with these pointers. At 45 the set ends on form instead of grip.
 
 ---
 
@@ -729,8 +767,10 @@ The anterior delt is already covered three ways (push press, incline DB, dips), 
 - W17D5: tried settings **5/m/0/-1** ("felt better" than 5/m/0/1) + a **70 primer set to center**, then 90 working ("really hard, feeling leg muscles"). The primer + corrected lever made the 90 productive.
 - W18D5: **dropped to 80 working (from 90) — form-first, not a regression.** The 70 primer "primes my brain to do it correctly," and 80 "feels pretty correct vs what it used to be." Quality execution at 80 beats grinding 90 with drift. Leg curl is the W19 spotlight — drill the correct feel at 80, let 90 return only once the pattern's grooved. Don't push back to 90.
 
-- **W27D1 — the machine has been broken since W24 and still is.** The station is now the **kneeling leg curl**, which is single-leg: find the load on the WEAKER side and use that number for both, weaker side first, match reps, log both sides. Same cues otherwise — slow eccentric is the stimulus, hips stay square and extended, and the rep ends when the hips move to help. The settings banked below (back seat position 5, pyramid 90 → 100 → 110) belong to the seated machine and do not transfer.- **W27D2 — first run on the kneeling machine, and it is adopted.** *"This is a cool machine, really feels like i'm getting leg isolation and practicing the real muscles… these feel like preacher curls for legs."* The preacher-curl comparison is the supported-movement pattern this program already leans on, so it is a better fit than the seated machine was, not a substitute for it. **Load found: 50 × 12 → 60 × 12 (already "a struggle") → 65.** **12 reps every set, both sides, left first.** The asymmetry is real and measurable: *"right side is way easier lol"* — the load is found on the left and the right clears it comfortably, which is the protocol behaving. **Keep it: weaker side first, its load, its rep count, both sides logged.**
+- **W27D1 — the machine has been broken since W24 and still is.** The station is now the **kneeling leg curl**, which is single-leg: find the load on the WEAKER side and use that number for both, weaker side first, match reps, log both sides. Same cues otherwise — slow eccentric is the stimulus, hips stay square and extended, and the rep ends when the hips move to help. The settings banked below (back seat position 5, pyramid 90 → 100 → 110) belong to the seated machine and do not transfer.
+- **W27D2 — first run on the kneeling machine, and it is adopted.** *"This is a cool machine, really feels like i'm getting leg isolation and practicing the real muscles… these feel like preacher curls for legs."* The preacher-curl comparison is the supported-movement pattern this program already leans on, so it is a better fit than the seated machine was, not a substitute for it. **Load found: 50 × 12 → 60 × 12 (already "a struggle") → 65.** **12 reps every set, both sides, left first.** The asymmetry is real and measurable: *"right side is way easier lol"* — the load is found on the left and the right clears it comfortably, which is the protocol behaving. **Keep it: weaker side first, its load, its rep count, both sides logged.**
 
+- **W29D4 — he felt the hips start to help, and where.** Working-leg side, when tired: *"my body is kind of twisting … low near the hip like psoas."* The psoas is a hip flexor, so that sensation is the hip joining in to finish the curl — the "rep ends when the hips move to help" rule as something he can feel. **Cue from W30: only the lower leg moves.** 65 holds.
 ---
 
 ### Single-leg calf raise (leg press)

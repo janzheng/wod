@@ -1,0 +1,56 @@
+{
+  "id": "daily-reminders",
+  "name": "Daily Reminders — Small and Often",
+  "description": "**Not a session.** These are the things that work because they happen five times a day for one minute, not once a day for five minutes.\n\nSprinkle them through the day — between meetings, waiting for water to boil, on the floor with the baby. **There is no set, no round, and no finishing.**\n\nThis block is linked at the top of every workout so it stays visible, but it is deliberately not part of any session.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "mobility",
+    "daily",
+    "reminders",
+    "functional-bulk",
+    "anytime"
+  ],
+  "estimatedDuration": 5,
+  "equipment": [
+    "bodyweight",
+    "resistance-band"
+  ],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "through-the-day",
+      "name": "☀️ Through the Day — Small and Often",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Once an hour if you can, whatever you can. **Missing them is not a failure and doing one of them is not a half-effort** — frequency is the entire mechanism here.",
+      "exercises": [
+        {
+          "id": "asian-squat",
+          "duration": 60,
+          "notes": "Once an hour if you can. Heels down, easy breathing, a little deeper each time."
+        },
+        {
+          "id": "single-leg-balance",
+          "duration": 60,
+          "notes": "30s each foot. Let the **ankle** do the correcting, not the hip. Fingertip on a wall is fine on no sleep."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10 each side",
+          "notes": "Heel glued down, knee over the toes. **No measurement right now** — the baseline is banked (right 1.5 fists, left 1 fist) and the re-measure is a few weeks out. Just do the reps."
+        },
+        {
+          "id": "banded-ankle-eversion",
+          "reps": "15 each side",
+          "notes": "Sole turns **outward** against the band, shin still. The left one is the point."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Frequency is the mechanism. One minute five times beats five minutes once.",
+    "No sets, no rounds, no finishing.",
+    "The ankle work is for the left one specifically.",
+    "Missing a day costs nothing. Skipping a month costs the baseline."
+  ]
+}

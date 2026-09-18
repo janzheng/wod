@@ -3438,6 +3438,236 @@
         }
       ],
       "logFile": "logs/functional-bulk-dynamic-w29.json"
+    },
+    {
+      "week": 30,
+      "label": "Short Week Again — Push → Legs → Pull, Two Optional KB Sessions",
+      "description": "**Same shape as last week, because it worked.** Three gym sessions run Push → Legs → Pull with Legs in the middle, so the two shoulder- and grip-heavy days sit a full 48h apart. Run them on whichever three windows open. Pull is the short day and it comes last, when you are most likely to be tired.\n\n**What is new this week:** the strict press leads the push day and will from now on, the incline eccentric goes to 3 seconds, the squat's heel plates move down to the 45 ramp, the barbell RDL drops to 45/side with a full form walkthrough, the lat pulldown steps to 170, and the incline curl keeps 25 but softens its bottom position to settle the left bicep tendon.\n\n**The kettlebell days rotate hard:** the Leggy Flow, the Outside Snatch Flow and the kickstand complex all return after a long absence. Both sessions are optional whenever a short window opens. Missing either does not make the week incomplete.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — press first, cable block spotlight",
+          "type": "workout",
+          "workoutId": "fb-w30-push",
+          "flow": {
+            "workoutId": "fb-w30-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W30 flow — the work block becomes McGill's Big 3 (curl-up, side plank, bird dog) and the stretches rotate back to the straddle sit and the hip-flexor lunge after a month away. Inchworm and world's greatest stretch open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Today: PUSH add-on** — doorframe chest stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — heels up at 45, RDL resets to 45/side",
+          "type": "workout",
+          "workoutId": "fb-w30-legs",
+          "flow": {
+            "workoutId": "fb-w30-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W30 flow — the work block becomes McGill's Big 3 (curl-up, side plank, bird dog) and the stretches rotate back to the straddle sit and the hip-flexor lunge after a month away. Inchworm and world's greatest stretch open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Today: LEGS add-on** — knee-to-wall rocks (no measurement this week) and the cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — short day, pulldown to 170",
+          "type": "workout",
+          "workoutId": "fb-w30-pull",
+          "flow": {
+            "workoutId": "fb-w30-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W30 flow — the work block becomes McGill's Big 3 (curl-up, side plank, bird dog) and the stretches rotate back to the straddle sit and the hip-flexor lunge after a month away. Inchworm and world's greatest stretch open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Today: PULL add-on** — dead hang, scapular pulls, and the light bicep set plus its new 30s hold before the bar."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Bent Press Flow + Leggy Flow",
+          "type": "workout",
+          "workoutId": "fb-w30-kb-full",
+          "flow": {
+            "workoutId": "fb-w30-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W30 flow — the work block becomes McGill's Big 3 (curl-up, side plank, bird dog) and the stretches rotate back to the straddle sit and the hip-flexor lunge after a month away. Inchworm and world's greatest stretch open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Outside Snatch Flow + Kickstand Complex",
+          "type": "workout",
+          "workoutId": "fb-w30-kb-cond",
+          "flow": {
+            "workoutId": "fb-w30-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W30 flow — the work block becomes McGill's Big 3 (curl-up, side plank, bird dog) and the stretches rotate back to the straddle sit and the hip-flexor lunge after a month away. Inchworm and world's greatest stretch open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w30.json"
+    },
+    {
+      "week": 31,
+      "label": "Short Week Again — Push → Legs → Pull, Two Optional KB Sessions",
+      "description": "**Same shape, because it keeps working.** Three gym sessions run Push → Legs → Pull with Legs in the middle, so the two shoulder- and grip-heavy days sit a full 48h apart. Run them on whichever three windows open. Pull is the short day and it comes last.\n\n**What is new this week:** dips move to second on push day to find out whether their swing between best-of-the-block and struggle was ever about the lift, the tricep extension steps to 70, the barbell RDL runs 45 · 45 · 70 with the top set as a feel test rather than a load step, the kneeling leg curl gets 2-3s between reps on the left written in as method, the hip abduction slot gets a fallback because the machine was broken, and the behind-back shrug becomes an optional between-sets reset on the pull-up bar.\n\n**The morning flow turns toward the upper back** — thread-the-needle and puppy pose return after months, aimed at a new left-shoulder crackle and several weeks of sleeping on a couch.\n\n**The kettlebell days rotate again:** the figure-8 complex and the Dead Cluster Flow both come back. Both sessions are optional whenever a short window opens. Missing either does not make the week incomplete.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — press first, dips move to second",
+          "type": "workout",
+          "workoutId": "fb-w31-push",
+          "flow": {
+            "workoutId": "fb-w31-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W31 flow — **thread-the-needle and puppy pose return after months away**, both aimed at the upper back and shoulders. The work block rotates to dead bug and glute bridge, with the side plank staying. Cat-cow and the low-lunge thoracic rotation open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Today: PUSH add-on** — doorframe chest stretch, prone Y raises, scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — RDL probes 70, leg curl and hip machines spotlight",
+          "type": "workout",
+          "workoutId": "fb-w31-legs",
+          "flow": {
+            "workoutId": "fb-w31-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W31 flow — **thread-the-needle and puppy pose return after months away**, both aimed at the upper back and shoulders. The work block rotates to dead bug and glute bridge, with the side plank staying. Cat-cow and the low-lunge thoracic rotation open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Today: LEGS add-on** — knee-to-wall rocks (still no measurement) and the cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — short day, pulldown and face pull spotlight",
+          "type": "workout",
+          "workoutId": "fb-w31-pull",
+          "flow": {
+            "workoutId": "fb-w31-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W31 flow — **thread-the-needle and puppy pose return after months away**, both aimed at the upper back and shoulders. The work block rotates to dead bug and glute bridge, with the side plank staying. Cat-cow and the low-lunge thoracic rotation open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Today: PULL add-on** — dead hang, scapular pulls (note which shoulder is noisier), and the light bicep set plus its 30s hold before the bar."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Bent Press Flow + Figure-8 Complex",
+          "type": "workout",
+          "workoutId": "fb-w31-kb-full",
+          "flow": {
+            "workoutId": "fb-w31-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W31 flow — **thread-the-needle and puppy pose return after months away**, both aimed at the upper back and shoulders. The work block rotates to dead bug and glute bridge, with the side plank staying. Cat-cow and the low-lunge thoracic rotation open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Dead Cluster Flow",
+          "type": "workout",
+          "workoutId": "fb-w31-kb-cond",
+          "flow": {
+            "workoutId": "fb-w31-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W31 flow — **thread-the-needle and puppy pose return after months away**, both aimed at the upper back and shoulders. The work block rotates to dead bug and glute bridge, with the side plank staying. Cat-cow and the low-lunge thoracic rotation open. Anchors: scorpion, lizard, cossack, pigeon and the push-up greasing set. **Skip the day-specific add-on** — the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w31.json"
     }
   ],
   "tips": [
@@ -3476,11 +3706,6 @@
       "label": "Baby Interim — Playbook",
       "slug": "baby-interim",
       "file": "/static/notes-baby-interim.md"
-    },
-    {
-      "label": "Swimming — Technique Notes",
-      "slug": "swimming",
-      "file": "/static/notes-swimming.md"
     }
   ]
 }

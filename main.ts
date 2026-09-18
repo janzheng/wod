@@ -1753,6 +1753,18 @@ function renderPage(
                 </a>
               </template>
 
+              <!-- Anytime blocks: daily reminders + banded shoulder prep -->
+              <template x-for="blk in anytimeBlocks" :key="'anytime-' + blk.workoutId">
+                <a :href="'/' + blk.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(blk.workoutId); }" style="margin-top: 0.5rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s; text-decoration: none; color: inherit;">
+                  <span style="font-size: 1rem;" x-text="blk.icon"></span>
+                  <div style="flex: 1;">
+                    <span style="font-weight: 600;" x-text="blk.label"></span>
+                    <span style="opacity: 0.6; margin-left: 0.4rem;" x-text="blk.notes"></span>
+                  </div>
+                  <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </a>
+              </template>
+
               <!-- Session Log -->
               <template x-if="workoutLog">
                 <div x-data="{ logOpen: false }" style="margin-top: 0.75rem;">
@@ -2227,6 +2239,17 @@ function routineStackApp() {
         }
       }
       return null;
+    },
+
+    // Two standing blocks surfaced at the top of every workout. They are
+    // deliberately NOT program-schedule driven (unlike workoutFlow) — the whole
+    // point is that they stay visible on days the program doesn't cover.
+    get anytimeBlocks() {
+      const blocks = [
+        { workoutId: 'daily-reminders', icon: '☀️', label: 'Daily Reminders', notes: 'Small and often — squat, balance, ankle work. Not part of the session.' },
+        { workoutId: 'banded-shoulder-prep', icon: '\u{1FA78}', label: 'Banded Shoulder Prep', notes: 'Seven positions, ~2 min, light band. Any day, before or after.' },
+      ];
+      return blocks.filter(b => b.workoutId !== this.selectedWorkoutId);
     },
 
     get workoutHomeGym() {

@@ -18119,7 +18119,13 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "6 kicks on your side, 3 strokes, 6 kicks on the other side. Builds body rotation awareness and balance. Stay long and streamlined on each side."
+    "description": "6 kicks on your side, 3 strokes, 6 kicks on the other side. Builds body rotation awareness and balance. Stay long and streamlined on each side.",
+    "flows": [
+      {
+        "workoutId": "swim-rotation-block",
+        "name": "Swim: Rotation Drills"
+      }
+    ]
   },
   {
     "id": "swim-backstroke",
@@ -18311,7 +18317,13 @@
     ],
     "difficulty": "beginner",
     "duration": 60,
-    "description": "Flutter kick on your back — arms at sides or streamlined overhead. Face out of water, totally relaxed breathing. Great for when you want easy kick work without a board."
+    "description": "Flutter kick on your back — arms at sides or streamlined overhead. Face out of water, totally relaxed breathing. Great for when you want easy kick work without a board.",
+    "flows": [
+      {
+        "workoutId": "swim-kick-block",
+        "name": "Swim: Kick Drills"
+      }
+    ]
   },
   {
     "id": "swim-kickboard-breast-kick",
@@ -18484,7 +18496,13 @@
     ],
     "difficulty": "beginner",
     "duration": 45,
-    "description": "Kick a full length on your side: bottom arm extended forward, top arm resting on the hip, eyes down at the bottom of the pool with the lower goggle submerged. Small steady kick from the hips. To breathe, roll slightly back toward the spine until the face clears, then roll down again. Alternate sides each length. Teaches body rotation, side balance, and breathing off the roll instead of turning the neck — and because the arms are parked, the legs cannot hide."
+    "description": "Kick a full length on your side: bottom arm extended forward, top arm resting on the hip, eyes down at the bottom of the pool with the lower goggle submerged. Small steady kick from the hips. To breathe, roll slightly back toward the spine until the face clears, then roll down again. Alternate sides each length. Teaches body rotation, side balance, and breathing off the roll instead of turning the neck — and because the arms are parked, the legs cannot hide.",
+    "flows": [
+      {
+        "workoutId": "swim-rotation-block",
+        "name": "Swim: Rotation Drills"
+      }
+    ]
   },
   {
     "id": "swim-sidestroke",
@@ -18580,6 +18598,35 @@
     "difficulty": "intermediate",
     "duration": 30,
     "description": "Treading water with just kick — arms crossed on chest or out of the water. Flutter kick or egg-beater. Sneaky hard core and leg work. Keep head above water, stay tall."
+  },
+  {
+    "id": "swim-wall-kick",
+    "name": "Wall Kick",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "hips",
+      "glutes",
+      "core"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "drill",
+      "technique",
+      "kick"
+    ],
+    "difficulty": "beginner",
+    "duration": 20,
+    "description": "Hold the pool wall with both hands, arms straight, face in the water and body long behind you, and flutter kick in place. With no travel and no breathing to manage, all the attention goes to the kick itself: started at the hip, knees nearly straight, ankles loose, feet no more than about a foot apart. Turn the head to breathe whenever needed. The standard way to learn a hip-driven kick before asking it to move you.",
+    "flows": [
+      {
+        "workoutId": "swim-kick-block",
+        "name": "Swim: Kick Drills"
+      }
+    ]
   },
   {
     "id": "swim-water-treading",
