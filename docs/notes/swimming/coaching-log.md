@@ -213,19 +213,80 @@ He chatted through the session from the water. Ran in written order — back kic
 
 **Next-day report (2026-09-16): not sore, but tired and “doms-y.”** *“i'm not sore but i'm still tired / feel doms-y haha.”* The no-soreness half was predicted and held — freestyle has almost no eccentric loading, so it does not report back the way lifting does. The tired half is systemic fatigue, not muscle damage, and it stacked on a push day two days earlier. **The one place genuine local soreness could show up is the hip flexors from the kick** — next time, ask him to separate “tired all over” from “this specific spot is tender,” because only the second is the kick reporting back.
 
+#### 2026-09-18 — the kick cue landed, and he found a better version of it than the one I gave him
+
+> all the exercises are great getting way more confidence and finding that pocket you mentioned. last ten lengths of swim i noticed if i swim very chill - very little paddling and very little pulling of arms i get 19 strokes if i push regular hard it's about 17 - does that mean im dragging normally
+
+> focused on kicking back / feeling bottom of feet like i'm jumping off of something - no hip flexors here- catching myself if i feel myself pulling legs forward
+
+**⭐ THE HIP-FLEXOR BURN IS ANSWERED, AND IT IS GONE.** The 2026-09-15 read was right: the burn was him hauling the leg forward on the upbeat rather than letting it rebound. Given the cue as "the up half is free"; **he came back with the better cue — the bottom of the foot, like jumping off something.** That is a PUSH framing rather than a DON'T framing, and it anchors to a movement he already has, which is the thing swim cues keep failing on. **His words go on the sheet, not mine.** He is also self-correcting mid-length (*"catching myself if i feel myself pulling legs forward"*), which is what a cue that has actually landed looks like.
+
+**The trough landed too** — *"finding that pocket you mentioned."* Third piece of the breathing model in three sessions (float → half the face stays in → the trough).
+
+**Stroke count, first proper pair: 19 chill / 17 pushing.** He asked whether the 19 means he is dragging on the easy swim. **Answered: no, and the intuition is backwards.** Pushing harder lowers stroke count for every swimmer at every level — a harder pull travels further per stroke. Drag rises with speed (roughly v²), so the chill length has *less* drag, not more. The count is a power reading, not a drag reading.
+
+**The real signal is the SIZE of the gap: two strokes**, from a chill length he described as *"very little paddling and very little pulling of arms."* Near-zero arm propulsion to full effort bought two strokes. Two readings, indistinguishable on a stroke counter:
+1. Body position is good enough that he glides nearly as far without pulling (what the rotation block was for).
+2. The pull is not adding much — the catch slips, effort goes into the water instead of into him.
+
+**Deliberately did NOT put this on the sheet.** The separator is time, and he already uses the wall clock, so it was given as one question asked once — does the 17 arrive *obviously* sooner than the 19 — not as a metric to track. **The swim is practice; do not build a dashboard on it.**
+
+**Both 17 and 19 sit at or under the old 18-20 baseline, on a swim where he was not trying.** Framed as the floor moving, once, without ceremony.
+
+**⭐ THE PULL QUESTION IS ANSWERED SAME-DAY, AND THE CATCH IS NOT THE LEAK.** He went and timed it.
+
+> regular effort is 17 strokes and 53s for two lengths; lazy stroke is 60s for 19 strokes
+
+**Stroke RATE is identical in both swims — that is the whole finding.** 17 strokes / 26.5s = **0.64 strokes/sec**; 19 / 30s = **0.63 strokes/sec**. His arms turned over at the same tempo whether he was pushing or loafing, so **100% of the speed difference came from distance per stroke, none from cadence.** Robust to a second or two of hand-timing error — it would take a much larger error to move it.
+
+**That rules out a slipping catch.** A slipping catch churns: leaning harder would mostly spin the arms and he would have needed more tempo to gain speed. He held tempo, added force, and got distance back. **The catch block stays on the backlog as the eventual source of more distance per stroke, but it is NOT an urgent leak and should not be moved up.** Reading #1 from the morning was correct — body position is carrying him.
+
+**The second read is the one worth acting on: the hard swim is a bad deal.** 60 → 53s is ~13% faster. Drag goes with v² and the power to beat it with v³, so ~13% more speed costs roughly 40-45% more work. **That is physics, not a fault** — told him so explicitly, because "huge effort, barely faster" is exactly the observation that makes people conclude their technique is broken. **The 19 at 60s is the swim worth owning; if the count drops it should drop on the chill swim.** This also retro-validates three consecutive unprompted "feels lighter/faster on the quiet swims" reports — his instinct read the physics before the clock did.
+
+**Do not turn this into a tracked metric.** It was one question asked once and it is now answered. No SWOLF, no logging pace. The swim stays practice.
+
+**Watch that "jumping off something" does not grow the kick.** It is a press, not a range — the marker is the boil at the surface staying small, and the front of the thighs staying quiet (thigh burn = knee drive). Nothing to act on yet; he reported neither.
+
+**He ran the whole sheet and it cost him less than usual.** *"ok just finished the entire workout today; felt good less tired than usual for the number of laps done so i think im getting more efficient"* — **first session he has finished end to end** (2026-09-15 he bailed before the full main swim, by design and at no cost). His read, logged as his read: less tired per lap. **Plausible mechanism and nothing more** — the big kick was the oxygen-expensive part and it is gone, which is exactly what should show up as "same laps, less tired." One subjective session; do not promote it to a finding and do not build a fatigue metric to chase it.
+
+**⭐ THE RHYTHM GAP, IN HIS OWN WORDS — AND IT IS THE RIGHT DIAGNOSIS.**
+
+> lmao my kicks are like - that game where you pat your head and rub your tummy - nothing is in sync and i think during turning my kick slows or stops
+
+**He is running arms and legs as two independent supervised programs.** That is the normal self-taught state and it is not a coordination deficit — it is a model problem, and the answer is not "get better at multitasking." **Answered: freestyle does not sync arms to legs, it syncs both to the HIPS.** The roll he has spent weeks building is already a hip rotation, and the kick is a hip movement — same joint, same motion. Framed to him as collapsing two programs into one, which is *less* to hold, not more.
+
+**"My kick slows or stops during turning" is the same fact from the other side** — the kick dies exactly when attention goes to the roll, which is the proof that it is currently a separate task. Once the roll drives the kick it cannot die during the roll. **Read as the breathing roll, not the wall turn — he was not asked to disambiguate, so treat the wall reading as still possible.** Told him the wall version would be uninteresting if that is what he meant.
+
+**I reversed my own recommendation, in the same conversation, and said so.** An hour earlier I argued for one more settling session before adding rhythm, on the grounds that a fourth thought competes with three that just landed. **That argument was wrong once he described the pat-head/rub-tummy problem:** rhythm is not a fourth thought, it is the one that collapses two of the existing ones. He asked for the block.
+
+#### Rhythm block built 2026-09-18
+
+**`swim-rhythm-block`** — two moves, length-neutral, **swapped IN for the rotation block in the full session** (10 drill lengths either way). The rotation block stays on the à-la-carte menu; a watchpoint on the sheet points at it for any day the roll or the breathing needs isolating on its own.
+
+- **`swim-6-1-6-drill` (minted today, 6 lengths)** — six kicks on your side, ONE stroke to switch sides, six kicks there. **Deliberately the 6-3-6 he already knows with the three strokes cut to one**, so the switch has nowhere to hide: one roll, one kick. Spelled out in plain words at first mention per the standing rule. **The named fault is the kick going quiet during the switch** — and the instruction when it does is to slow the drill down, never to kick harder. **Side-kick is not lost from the session** — 6-1-6 contains the side-kick position.
+- **`swim-single-arm-freestyle` (already in the library, 4 lengths)** — reused rather than minted. Halves the arm information so the pairing is felt directly: one arm pulls, one kick lands. **Lead arm stays extended forward**, per the established balance-lever cue.
+
+**Main swim one-thought swapped** to "let the kick land ON the roll." The roll-on-every-stroke cue was NOT deleted — it moved to a supporting bullet, because it is the motion the kick now rides and it has to be present on the non-breathing strokes too.
+
+**Spotlight moved** from side-kick to 6-1-6. **Stroke-count watchpoint amended** to say count it on the EASY swim — the fast number is not the one to chase (see the timed pair above). **Catch stays where it is on the backlog.**
+
 ## Backlog — not yet, in rough order
 
 1. **Rotation must become automatic first.** Everything below waits on it.
-2. **Catch / high elbow** — `swim-catch-up-drill`, `swim-fingertip-drag`, `swim-fist-drill`, `swim-sculling` all already exist in the library. This is where the lifting strength finally becomes useful rather than a crutch.
-3. **Kick cadence** as its own topic — he flagged "leg cadence" in the original brief and it hasn't been addressed on its own terms yet, only via rotation. **OPENED W29D2, ahead of catch — the legs, not the pull, are the limiter now.**
+2. **Catch / high elbow** — `swim-catch-up-drill`, `swim-fingertip-drag`, `swim-fist-drill`, `swim-sculling` all already exist in the library. This is where the lifting strength finally becomes useful rather than a crutch. **Confirmed 2026-09-18 as a source of upside, NOT a leak** — the timed pair showed the catch already grips. Do not promote it on the theory that something is broken.
+3. **Kick cadence / 2-beat rhythm tied to the roll** — he flagged "leg cadence" in the original brief and it still hasn't been addressed on its own terms, only via rotation. **OPENED W29D2, ahead of catch — the legs, not the pull, are the limiter now.** **BUILT 2026-09-18 — `swim-rhythm-block`, in the full session, see the session note above.** Held behind "not until a small kick is easy"; the small kick became easy and self-correcting the same day, and his own pat-head/rub-tummy report made the case. **Now the live block — the open item is whether it lands, not whether to start it.**
 4. **Bilateral breathing rhythm** — confirm whether he's actually on every-3 or something else; worth pinning down once rotation settles, since the count is what makes it automatic.
 
 ## Open questions
 
+- **Does the kick actually stay alive through the roll?** OPENED 2026-09-18, the whole point of the rhythm block. The tell is on the 6-1-6 switch: if the kick goes quiet exactly when he rolls, the two programs are still separate. **Ask specifically about the switch, not about the drill overall.**
+- **Wall turn or breathing roll?** His *"during turning my kick slows or stops"* was read as the breathing roll and never disambiguated. Cheap to close next report.
+
 - **Does a Sunday swim cost him Monday's push day?** OPEN, deliberately kept small. One instance (swim Sun 2026-09-06 → push Mon 2026-09-07) and it was confounded by ~3h of sleep and a reordered session; the early lifts were the day's best, which leans against. **Made less likely still by intensity:** he swims at drill pace and never pushes, so the input is small by design. **Just watch for a repeat** — if push days after a swim keep reading heavy while push days without one don't, that's the signal. Don't run an experiment for it and don't re-litigate the single case.
 - **Stroke count baseline** — ANSWERED W29D2: **~18-20 per length, full stroke.** The drill-mode count (8-9, kicking through each breath pause) is not comparable and not the number.
 - **Where the kick tires** — ANSWERED W29D2: thighs + hip flexors, in both drill and full stroke, and mostly breathlessness rather than muscle. Mapping: front of thighs = kicking from the knee; hip flexors = kick too big; calves or feet cramping = forcing the point.
-- **Does a tiny kick calm the breathing?** **ANSWERED 2026-09-15 — yes, kick size was it.** With the kick shrunk, the breathlessness at a slow pace was gone and what remained was local hip-flexor fatigue, not air. **Breathing pattern stays untouched** — it is no longer needed as the next lever. **New sub-question: hip-flexor burn on a tiny kick**, read as actively pulling the leg forward on the upbeat rather than letting it rebound. Cue given in the pool 2026-09-15; put it on the sheet only if it repeats.
+- **Does a tiny kick calm the breathing?** **ANSWERED 2026-09-15 — yes, kick size was it.** With the kick shrunk, the breathlessness at a slow pace was gone and what remained was local hip-flexor fatigue, not air. **Breathing pattern stays untouched** — it is no longer needed as the next lever. **Sub-question: hip-flexor burn on a tiny kick — ANSWERED 2026-09-18, and resolved.** It was him pulling the leg forward on the upbeat. With the down-half framed as a push off the bottom of the foot and the up-half left free, the burn was gone. **On the sheet as of 2026-09-18, in his words.**
+- **Does the pull actually add anything, or is the catch slipping?** **ANSWERED AND CLOSED 2026-09-18 — the pull works, the catch is not slipping.** He timed it the same day: 17 strokes / 53s vs 19 / 60s for two lengths. **Stroke rate identical (0.64 vs 0.63 per sec), so all the speed came from distance per stroke, none from cadence** — which is the signature of a catch that grips, not one that slips. **The catch block does NOT move up.** Side finding: 13% faster costs ~40-45% more work (v³), so the chill swim is the efficient one and the fast number is not worth chasing.
 - *(Pool is outdoor, answered 2026-09-02. Phlegm question closed by him — see below.)*
 
 ### Phlegm — CLOSED BY HIM (2026-09-02). Do not raise again unprompted.

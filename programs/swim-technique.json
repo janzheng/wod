@@ -26,7 +26,7 @@
       "label": "Full Session",
       "type": "workout",
       "workoutId": "swim-technique-rotation",
-      "notes": "Kick drills, rotation drills, then swim. The default."
+      "notes": "Kick drills, rhythm drills, then swim. The default."
     },
     {
       "day": 2,
@@ -41,6 +41,13 @@
       "type": "workout",
       "workoutId": "swim-rotation-block",
       "notes": "Side-kick drill and 6-3-6. Grab these whenever the roll or the breathing is the thing."
+    },
+    {
+      "day": 4,
+      "label": "Rhythm Drills",
+      "type": "workout",
+      "workoutId": "swim-rhythm-block",
+      "notes": "6-1-6 and single-arm freestyle. Grab these whenever the kick and the arms feel like two separate jobs."
     }
   ],
   "tips": [
@@ -57,7 +64,7 @@
       "1. Rotation — roll your whole body side to side so you breathe off the roll instead of craning your neck.",
       "2. Kick — small and loose, swinging from the hip joint.",
       "3. Catch — how your hand grabs the water. Where lifting strength finally helps.",
-      "4. Rhythm — breathing pattern and kick timing."
+      "4. Rhythm — a kick timed to the roll rather than running on its own clock. Breathing pattern comes last."
     ]
   }
 }

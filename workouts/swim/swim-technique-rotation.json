@@ -1,7 +1,7 @@
 {
   "id": "swim-technique-rotation",
   "name": "Swim: Full Session",
-  "description": "Freestyle technique session: kick drills, rotation drills, then swim with one thing to think about. Drills go first while you're fresh. Distances are in LENGTHS (one way). Roughly 1200-1500 total.",
+  "description": "Freestyle technique session: kick drills, rhythm drills, then swim with one thing to think about. Drills go first while you're fresh. Distances are in LENGTHS (one way). Roughly 1200-1500 total.",
   "routineId": "swim-technique",
   "tags": [
     "swimming",
@@ -16,23 +16,25 @@
   ],
   "difficulty": "beginner",
   "dayOverview": {
-    "theme": "Two things, in order: a small, loose kick, then a body that rolls. The kick goes first while your legs are fresh, and it should feel like almost nothing — a big kick burns your air and barely moves you. Then rotation, still the heart of the session: a flat body makes the arms do all the work.",
+    "theme": "Two things, in order: a small, loose kick, then a kick that rides the roll instead of running as a separate motor. **Your arms are not meant to sync to your legs — both sync to your hips.** The kick block goes first while the legs are fresh; the rhythm block then puts the kick and the roll on the same motion.",
     "spotlights": [
       {
         "exerciseId": "swim-wall-kick",
-        "why": "The kick is what's wearing you out. The wall takes away travel and breathing so you can feel where the kick starts — the hip — before you ask it to move you."
+        "why": "The wall takes away travel and breathing so you can feel where the kick starts — the hip — and feel the down half as a push and the up half as free."
       },
       {
-        "exerciseId": "swim-side-kick-drill",
-        "why": "The highest-yield drill for a self-taught swimmer who has never drilled. It forces rotation, forces the legs to work, and teaches breathing off the roll — all with the arms parked so they can't compensate."
+        "exerciseId": "swim-6-1-6-drill",
+        "why": "One stroke between sides, so the roll and the kick have to happen together. This is the drill that stops the kick being a second thing you supervise."
       }
     ],
     "watchpoints": [
       "Water in the mouth on a breath is a LATE roll, not a small one. Arrive on your side before you ask for air, and keep the lower goggle wet.",
       "🛑 Nothing here is an effort session. Winded at a slow pace means the kick is too big — shrink the kick before anything else.",
+      "**The kick going quiet while you roll is the fault this session is aimed at.** If it dies during the switch, slow the drill down rather than kicking harder.",
       "🛑 The drills run on your legs — every pause on your side, the kick is the only engine. When the kick goes big and ragged, stop drilling and just swim. Drilling past that point grooves the ragged kick.",
       "🛑 Right shoulder: freestyle recovery is a big overhead arc. If it gets crabby, stop the swim, not just the drill.",
-      "Count strokes on one full-stroke length near the start, and one on the last length you swim — whenever you decide to stop. Not on drill lengths, where the kick carries you through the pauses. **Your baseline is ~18-20 per length.** It's the only number worth having, and it should drift DOWN over weeks."
+      "Count strokes on one full-stroke length near the start, and one on the last length you swim — whenever you decide to stop. Not on drill lengths, where the kick carries you through the pauses. **Your baseline is ~18-20 per length.** It's the only number worth having, and it should drift DOWN over weeks — on the easy swim, not the hard one.",
+      "**The rotation block (side-kick + 6-3-6) is still on the menu.** Grab it on its own any day the roll or the breathing feels like the thing that needs isolating."
     ]
   },
   "sets": [
@@ -57,10 +59,10 @@
       "restAfter": 30
     },
     {
-      "id": "rotation-drills",
-      "name": "Rotation Drills",
+      "id": "rhythm-drills",
+      "name": "Rhythm Drills",
       "type": "flow",
-      "flowId": "swim-rotation-block",
+      "flowId": "swim-rhythm-block",
       "restAfter": 30
     },
     {
@@ -71,7 +73,7 @@
         {
           "id": "swim-freestyle",
           "distance": "as far as feels good — around 40 lengths",
-          "notes": "Normal swimming. **One thought only: roll on EVERY stroke, not just the breathing ones.**\n- If you arrive at the breath already on your side, the breath is nearly free — the face is almost clear before you ask for air.\n- **Lead arm stays long and patient.** On a right-side breath that's the LEFT arm out front. If it presses down early the shoulder drops and the mouth goes under.\n- Keep alternating sides — left, right, left. The right side gets easier as the roll improves, not by forcing it.\n- **Once the roll feels natural, swap the one thought to: the smallest kick you can get away with.** Knees nearly straight, kick from the hip. If your breathing calms down and your legs don't sink, that's your kick. If they sink, lean harder on your chest before you kick harder.\n- **Count strokes on one length** early, and on whatever turns out to be your last one. Same effort, fewer strokes = it's working. Baseline is ~18-20.\n- **Stop when it stops feeling good, or when the day needs you.** The distance is not the point — **the drills ran first on purpose, so cutting the main swim short still leaves the session intact.**"
+          "notes": "Normal swimming. **One thought only: let the kick land ON the roll.** You are not timing your legs against your arms — you roll, and the kick comes off that roll. Stop kicking on a separate clock and the two stop competing.\n- If you arrive at the breath already on your side, the breath is nearly free — the face is almost clear before you ask for air.\n- **Lead arm stays long and patient.** On a right-side breath that's the LEFT arm out front. If it presses down early the shoulder drops and the mouth goes under.\n- Keep alternating sides — left, right, left. The right side gets easier as the roll improves, not by forcing it.\n- **Still roll on EVERY stroke, not just the breathing ones** — that's the motion the kick is now riding, so it has to be there on the non-breathing strokes too.\n- **Once the roll feels natural, swap the one thought to the kick: press off the bottom of your foot like you're jumping off something, then let the leg come back up on its own.** Small, knees nearly straight, from the hip. **The up half is free** — if the front of your hips burns, you're pulling the leg forward instead of letting it rebound. If your breathing calms down and your legs don't sink, that's your kick. If they sink, lean harder on your chest before you kick harder.\n- **Count strokes on one length** early, and on whatever turns out to be your last one. Same effort, fewer strokes = it's working. Baseline is ~18-20. **Count it on the easy swim — the fast number is not the one worth chasing.**\n- **Stop when it stops feeling good, or when the day needs you.** The distance is not the point — **the drills ran first on purpose, so cutting the main swim short still leaves the session intact.**"
         }
       ],
       "restAfter": 20
@@ -95,6 +97,6 @@
     "Slow is correct on the drills. They are not conditioning — rest at the wall until your breathing settles, however long that takes.",
     "If the throat gums up partway through, ease off for a length and clear it rather than pushing through — outdoor pools and a steady nose-exhale both help.",
     "Breathing on both sides is the right pattern. The weak side is a rotation problem, not a weak-side problem.",
-    "Stroke count is the only number worth tracking here. Not laps, not time."
+    "Stroke count on an easy length is the only number worth tracking here. Not laps, not time."
   ]
 }

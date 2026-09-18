@@ -18098,6 +18098,39 @@
     "description": "Support yourself at the top of the dip position on parallel bars or between two sturdy chairs. Keep arms straight, shoulders depressed (away from ears), and core tight. Hold this position with good posture. This builds the strength foundation for dips."
   },
   {
+    "id": "swim-6-1-6-drill",
+    "name": "6-1-6 Drill",
+    "category": "cardio",
+    "type": "swimming",
+    "muscles": [
+      "core",
+      "hips",
+      "shoulders",
+      "obliques"
+    ],
+    "equipment": [
+      "pool"
+    ],
+    "tags": [
+      "swimming",
+      "drill",
+      "technique",
+      "rotation",
+      "rhythm",
+      "kick",
+      "maternity-safe"
+    ],
+    "difficulty": "intermediate",
+    "duration": 45,
+    "description": "Six kicks on your side, then ONE stroke that rolls you onto the other side, then six kicks there. The harder sibling of the 6-3-6 drill: with only one stroke between sides, the roll and the kick have to happen together, which is what teaches a kick timed to the body instead of running on its own clock.",
+    "flows": [
+      {
+        "workoutId": "swim-rhythm-block",
+        "name": "Swim: Rhythm Drills"
+      }
+    ]
+  },
+  {
     "id": "swim-6-3-6-drill",
     "name": "6-3-6 Drill",
     "category": "cardio",
@@ -18550,7 +18583,13 @@
     ],
     "difficulty": "intermediate",
     "duration": 45,
-    "description": "Freestyle using one arm only — other arm extended in front or at side. Forces great rotation and catch awareness. 25 right / 25 left."
+    "description": "Freestyle using one arm only — other arm extended in front or at side. Forces great rotation and catch awareness. 25 right / 25 left.",
+    "flows": [
+      {
+        "workoutId": "swim-rhythm-block",
+        "name": "Swim: Rhythm Drills"
+      }
+    ]
   },
   {
     "id": "swim-underwater-dolphin-kick",
