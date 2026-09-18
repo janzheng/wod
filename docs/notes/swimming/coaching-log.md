@@ -2,7 +2,7 @@
 
 Started 2026-09-02. Swimming entered the program during W28 (newborn period) unprompted — the apartment pool is downstairs, which is the whole reason it works right now. He then asked to open it up to the same back-and-forth coaching loop as lifting: *"i've never actually taken swimming classes would be cool to use this opportunity to improve on my swim as well, through this kind of writing feedback / back and forth."*
 
-**Poolside page:** `workouts/swim/swim-technique-rotation.json` → `/swim-technique-rotation` in the app. That's the thing to pull up on a phone at the pool. This file is the coaching context behind it.
+**Poolside:** Programs → **Swim Technique** (`programs/swim-technique.json`), a flat pick-whenever menu: Full Session (`swim-technique-rotation`), Kick Drills (`swim-kick-block`), Rotation Drills (`swim-rotation-block`). The drill blocks are flow bundles and the full session references them by `flowId` — **each drill's cues live in exactly one file; edit the block, not the session.** The notes page (`static/notes-swimming.md`) hangs off this program. This file is the coaching context behind all of it.
 
 ---
 
@@ -16,6 +16,8 @@ Started 2026-09-02. Swimming entered the program during W28 (newborn period) unp
 - **Volume stays untracked**, same as the KB days and same as `feedback_fuzzy_progression_goal`. The lap count is not the progression and is never owed.
 - **Stroke count per length is the one allowed number** — it measures efficiency, not effort, and it goes DOWN as he improves. Ask for it; never ask for a split.
 - He has watched enough YouTube to know the concepts. **Don't explain theory at him — give drills.** *"i've seen enough youtube to know what i'm supposed to be doing; nothing is very automatic tho."*
+- **This is PRACTICE, not a training load. Stop modelling it as fatigue.** *"i just like the swim - i dont swim hard though, its only practice; i think about breathing and rolling, i dont try to push for speed at all, esp following your instructions."* **The right analogy is the morning flow** — it's in the week, it's low intensity, it's skill work, and nobody asks whether the morning flow interferes with push day. Don't build interference models around it, don't budget it against gym days, don't treat lengths as volume.
+- **Why he swims: *"no its just bc water feels nice."*** That's the whole reason and it doesn't need building out. I framed it as a retention insight and he flattened it — don't add strategy to it, don't turn it into a metric or a target or a thing he owes.
 
 ## The swimmer
 
@@ -27,8 +29,9 @@ Started 2026-09-02. Swimming entered the program during W28 (newborn period) unp
 | **"Lap"** | Means **down and back** to him (2 lengths). So 30 laps ≈ 60 lengths ≈ 1500. Volume is much higher than the word "laps" first suggested. |
 | **Head** | Working on keeping the chin tucked-ish. Instinct is right; just needs to stay neutral rather than jammed. |
 | **Background** | Lifter. Former V5/V6 boulderer. Strong lats, strong shoulders, strong grip. |
+| **Gear** | No kickboard. |
 
-**Sessions:** W28 Sun 20 laps → Tue 30 → Wed 30 (held at 30 instead of the planned 40 after the soreness conversation — good call, and he made it himself) → 2026-09-07 30 laps / 60 lengths, first session with the drill assignment. Soreness during the W28 ramp was the ramp, not the swimming; it settled once volume stopped climbing, and volume has been flat at 30 since.
+**Sessions:** W28 Sun 20 laps → Tue 30 → Wed 30 (held at 30 instead of the planned 40 after the soreness conversation — good call, and he made it himself) → 2026-09-07 30 laps / 60 lengths, first session with the drill assignment → W29D2 (reported 2026-09-10) 20 laps of side-breathing drill + 10 laps full stroke. Soreness during the W28 ramp was the ramp, not the swimming; it settled once volume stopped climbing, and volume has been flat at 30 since.
 
 ## Failure profile
 
@@ -109,17 +112,120 @@ The answer he needed: **arms were never what held him up.** Flotation comes from
 
 **Ankle note, held honestly:** kicking needs *plantarflexion* (pointed toes); his squat limiter is *dorsiflexion*. Opposite directions of the same joint — **do not assume the squat finding transfers here**, and don't sell swimming as ankle work for the squat.
 
+#### 2026-09-08 — what swim fatigue feels like, and why it won't warn him
+
+Swam Sun 2026-09-06, lifted push Mon 2026-09-07 on ~3h of sleep. He ruled the swim out as a cause himself, correctly, and then described the residue precisely:
+
+> *"i dont think the swim was a cause; did feel the burn from it today tho but not like muscle fatigue"*
+
+**That distinction is real and it has a mechanism: freestyle has almost no eccentric component.** The pull is concentric; the recovery arm is unloaded. DOMS comes overwhelmingly from eccentric loading, so swimming produces metabolic/pump fatigue with none of the next-day structural soreness lifting trains him to expect.
+
+**The consequence worth acting on: soreness is a broken gauge for swim volume.** Every other thing he does reports back the next morning. Swimming won't, so volume can climb without the usual feedback. **The signals that DO work here are the right shoulder and the quality of the roll** — not how he feels the following day.
+
+**Sunday is the one slot that puts 60 lengths of overhead arc right before push day.** Not implicated in this session — 3h of sleep and a reordered workout explain it completely — but if swims go weekly, mid-week next to legs remains the low-conflict pairing, as he originally guessed.
+
+
+### W29D2 (reported 2026-09-10) — first stroke counts, and the kick surfaces as the limiter
+
+> w29d2
+>
+> did 20 laps of side breathe practice and another 10 of just swimming both sides
+> - slow stroke without stroking while breathing is 8-9 one side to another
+> - if i stroke in the water between breathing it’s about 18-20 but faster
+> - rolling and breathing is really speeding me up!
+> - kicking and side breathing still wears me down / get tired from kicking
+
+**Stroke count baseline: ~18-20 per length, full stroke.** That's the number. The 8-9 is a different measurement — in his "side breathe practice" he strokes only between breaths and kicks through each breath on his side (reads as 6-3-6-style), so the kick covers part of the length. Told him to ignore the drill count. Don't grade the 18-20 — it only means something against itself.
+
+**The roll is speeding him up — second unprompted report in a row** (glide last time, speed this time). Same finding, nothing to act on, don't congratulate the speed.
+
+**The kick is the new limiter.** Two parts, held separately:
+
+- **Dose — explains it on its own.** The side-breathing drill is kick-powered: during every breath pause the kick is the only engine. He did ~40 drill lengths against ~10 on the sheet. Not a volume problem (volume stays untracked) — the problem is that drill quality goes when the kick tires, and drilling past that grooves the ragged kick. **Gave him a quality stop signal, not a length cap:** kick goes big and ragged → stop drilling, swim.
+- **Kick size — probable, not established.** Fits the 2026-09-02 caveat (legs never feel like they sink → maybe kicking hard enough to hold them up) and fits dense legs. Not a finding, since the dose already explains the fatigue. Sheet cue softened from "small fast kick" to "small, relaxed kick — knees nearly straight, ankles loose"; one-length kick-on-back check added to the cooldown (knees breaking the surface = knee-driven kick). Asked where the legs tire.
+
+**The original complaint was the opposite:** *"legs should be working more than they do."* The drill was chosen partly to make the legs work, and now they do. Tiring is the expected first result of that, not a second problem.
+
+**Hold the assignment.** No new drill — the fixes were already on the sheet (small kick from the hip, lean on the sternum). This round added a stop signal and a check.
+
+#### Follow-up — thighs + hip flexors, and it's breath, not muscle
+
+> I get tired on the thighs and hip flexors, and it's mostly just I just get out of breath like I've sprint in and out of breath it's less muscle tiredness and I get tired in all both full stroke and drill length right side I get a little bit of mouth water but it went so much better and the full stroke swim on the last ten laps it felt natural and I never got water in my mouth, which was something that's never happened before  She's fatigue, so I should probably keep working on legs right I'm not very good at this, so whatever
+
+**First session ever with no water in the mouth** — the last 10 laps of full stroke, which also "felt natural." Right side still takes a little water on the drill lengths but "went so much better." That's the late-roll diagnosis paying: arrive on your side on time and the trough is there. **Closest thing yet to automatic, but one session isn't automatic** — drills stay.
+
+**The dose explanation was incomplete.** He tires in full stroke too, not just drill lengths. Thighs + hip flexors is the too-big kick on the mapping (thighs = knee bend, hip flexors = amplitude), and the dominant sensation is breathlessness at a slow pace, *"less muscle tiredness."* Legs are the biggest muscle mass; a big kick is the most oxygen-expensive, least-propulsive part of freestyle. **Working read: kick too big. Still a read, not a finding** — the test is cheap and on the sheet.
+
+**His question — "keep working on legs?" Answer given: yes, but the work is kicking LESS, not kick fitness.** Kick conditioning would be the lats trap again: fitness that lets him keep the expensive version. Don't prescribe kick sets.
+
+**The test:** once the roll feels natural in the main swim, the one thought swaps to "smallest kick you can get away with." Breathing calms + legs stay up = that's his kick. Legs sink = lean harder on the chest before kicking harder. Effort watchpoint rewritten to name a big kick as the cause of being winded at a slow pace.
+
+**Deliberately not touched: breathing pattern.** Every-2 vs every-3 could also feed the breathlessness, but changing it now would confound the kick test. One variable at a time; revisit only if a small kick doesn't calm the breathing.
+
+**He already rests when winded:** *"But I notice you get slow Anthropic just take a longer break like for the lifting like two minute break there's a clock in the wall so I just do that."* ~2 min at the wall by the pace clock, like lifting rest. Right call for skill work — every length starts fresh. Sheet tip now says rest until breathing settles; the 20s rest numbers in the file are not owed. If the small kick works he'll want the wall less — don't count it.
+
+#### Kick opened properly — he asked for drills and the mechanics
+
+> This has been surprisingly helpful from only one session, so expert congratulating me, but I think you are the one that needs the congrats here. So with that said, can you give me some proper drills or do some kind of walkthrough on how I can get better at kicking I feel like my legs are just failing What part of the body is even supposed to exert and move
+
+**He asked for mechanics directly** (*"what part of the body is even supposed to exert and move"*), so the no-theory rule yields here. Walkthrough went to the notes page (Kicking section); drills went to the sheet.
+
+**Kick Block added to the sheet, first after the warmup while the legs are fresh:**
+- **Wall kick** (`swim-wall-kick`, minted today), 3 × 20s. Takes away travel and breathing so he can feel hip initiation, loose knees, floppy ankles.
+- **Kick on back, arms by sides** (`swim-kick-on-back`), 2 lengths. Face out, so the breath limiter is gone and it's just the kick; knees breaking the surface = knee drive. Moved up from the cooldown check, so the cooldown is plain backstroke again (swap, not add).
+
+**Deliberately not used:**
+- **Kickboard.** Head-up kicking drops the hips and arches the low back — bad with dense legs and his QL history. Also an aid.
+- **Vertical kick** (`swim-vertical-kick` exists). The best knee-drive teacher, but oxygen-expensive and needs a deep end, and breath is his limiter. Revisit once a small kick is easy.
+- **Fins.** Mentioned once on the notes page; not re-offered.
+
+**Where this goes next: kick RHYTHM.** A 2-beat kick tied to the roll is the eventual answer to his original "leg cadence" ask and to easy long swimming. Not until the small kick is easy.
+
+**"From the hip" didn't land:** *"Okay, I don't have a kickboard, but also I have heard this kick from your hip. What the heck is a hip? Like, is that the walking muscle? Like what is the hip like what muscle is there? Like is a tweeking muscle like what is it?"* Anchored it to walking (hip flexors swing the leg forward, glutes push it back), the couch stretch and the RDL, plus a standing straight-leg swing as the dry-land feel. Added to the notes page. **Swim cues don't land just because he knows the body part from lifting — anchor each new cue to a movement he already does.** Follow-up, hip vs pelvis: the sheet uses "hips" both ways (6-3-6's "let the hips lead the shoulders" = pelvis; "kick from the hip" = the joint). Clarified on the notes page.
+
+#### Swim becomes its own program — and "spell it out"
+
+> Okay, I'm sorry what is the six three six drill and could you spell that out for the next one also how is there a swim drill built up maybe it should be like a program like the other ones except maybe it's not time by the day and then give me these cake drills and six three six and whatever that is yeah just pot them up on me it'll probably just pick them up whenever I feel it but still kick from the hip from the joint I don't even know if it muscles though you know
+
+**He didn't know what 6-3-6 was** — the name had been in chat and on the sheet for a week without ever being spelled out in a reply. **Rule: the first mention of a drill says what you physically do.** Every drill note on the sheet now opens with a plain what-it-is line.
+
+**Restructured as a program, per his ask:** flat pick-whenever menu (same pattern as `maternity-swim-daily`), drill blocks as flow bundles so the cues aren't duplicated across sessions. Notes page moved from functional-bulk's `pages` to this program (same slug). The overview lists the build-up: rotation → kick → catch → rhythm.
+
+**Joint vs muscle** — answered: the joint is the pivot and the muscles around it move it; anchored to the RDL hip hinge.
+
+#### 2026-09-15 — reported live from the pool: the float landed, and a fundamental breathing gap surfaced
+
+He chatted through the session from the water. Ran in written order — back kick → side-kick → 6-3-6 → 20 lengths of main swim — then out to cook, which he had flagged in advance.
+
+**⭐ THE FLOAT LANDED, AND THE BACK-KICK DRILL IS WHAT TAUGHT IT.** *"the back kicks helped me understand i can just float and keeping some air in lungs help - i can just float on the side kicks without think ill sink so thats something new!"* The sinking gap was written up 2026-09-07 and answered in prose then; **it did not land until he felt it face-up with nothing to manage.** The order that worked — prove the float on your back, then carry it onto your side — is now a cue on the sheet and the notes page.
+
+**Back kick first read badly, and the fix was the head.** *"legs sink a lot to keep head up but also exhausted after both lengths?"* Chin tucked to look at his feet → hips drop → he kicks hard just to stay up, which is exhausting inside one length. Given: head back, ears under, water at the goggle line, shoulder blades pressed down, ribs down. **The sheet said "head back, eyes on the sky" and never named the thing that breaks it — the chin tuck is now written in as the fault to catch.**
+
+**⭐ THE REAL FINDING — HE DID NOT KNOW HALF THE FACE STAYS IN THE WATER ON A BREATH.** *"you're always supposed to put half your mouth in the water????"* Five weeks of "water in the mouth," and underneath it was a model in which a breath means getting the **whole** mouth clear — which requires lifting the head, which drops the hips, which is the sinking. **The trough cue was on the sheet and the notes page the entire time and could not land, because it was answering a question he did not know he was asking.** Same class of failure as 6-3-6 never being spelled out: a cue that assumes a model he does not have. Now stated plainly in both places — one goggle in, one out, sip from the top corner, blow all the air out underwater so the inhale is quick.
+
+**A cue on the sheet was actively wrong, and he found it by trying to follow it.** Side-kick said *"eyes straight down at the bottom of the pool"* AND *"lower goggle under, upper goggle out"* — mutually impossible on your side. He arrived from the other end: *"lower goggle in the water but still looking up towards the sky ish right? otherwise water gets in both sides."* **Corrected to: head in line with the spine, face at the side wall; water on both sides means the body is not all the way over, so roll the body rather than re-aim the face.**
+
+**The kick-size test is answered — see Open questions.** *"kicking even the tiniest amount makes me feel tired around hips and psoas... but it doesn't feel like a need to kick just to breathe."* The breathlessness is gone; what is left is local hip-flexor fatigue. Read as pulling the leg forward on the upbeat instead of letting it rebound. **Cue given in the pool, deliberately not yet on the sheet** — one change at a time, and put it in writing only if it repeats.
+
+**Main swim: 20 lengths, and a third consecutive unprompted glide/speed report.** *"feels lighter / faster on quieter swims... tried to swim a fast one and definitely felt less drag throughout."* He called the leftover tiredness normal himself. **Stroke count not collected** — he was tired and in the water; ask next time, do not chase it.
+
+**He bailed before the full main swim exactly as he predicted, and it cost nothing.** Drills ran first, which is the entire reason that order exists.
+
+**Next-day report (2026-09-16): not sore, but tired and “doms-y.”** *“i'm not sore but i'm still tired / feel doms-y haha.”* The no-soreness half was predicted and held — freestyle has almost no eccentric loading, so it does not report back the way lifting does. The tired half is systemic fatigue, not muscle damage, and it stacked on a push day two days earlier. **The one place genuine local soreness could show up is the hip flexors from the kick** — next time, ask him to separate “tired all over” from “this specific spot is tender,” because only the second is the kick reporting back.
 
 ## Backlog — not yet, in rough order
 
 1. **Rotation must become automatic first.** Everything below waits on it.
 2. **Catch / high elbow** — `swim-catch-up-drill`, `swim-fingertip-drag`, `swim-fist-drill`, `swim-sculling` all already exist in the library. This is where the lifting strength finally becomes useful rather than a crutch.
-3. **Kick cadence** as its own topic — he flagged "leg cadence" in the original brief and it hasn't been addressed on its own terms yet, only via rotation.
+3. **Kick cadence** as its own topic — he flagged "leg cadence" in the original brief and it hasn't been addressed on its own terms yet, only via rotation. **OPENED W29D2, ahead of catch — the legs, not the pull, are the limiter now.**
 4. **Bilateral breathing rhythm** — confirm whether he's actually on every-3 or something else; worth pinning down once rotation settles, since the count is what makes it automatic.
 
 ## Open questions
 
-- **Stroke count baseline** — asked for, not yet collected. Deferred by him on 2026-09-07 in favour of getting comfortable with the roll, which was the right priority. Ask again once the breath stops taking effort.
+- **Does a Sunday swim cost him Monday's push day?** OPEN, deliberately kept small. One instance (swim Sun 2026-09-06 → push Mon 2026-09-07) and it was confounded by ~3h of sleep and a reordered session; the early lifts were the day's best, which leans against. **Made less likely still by intensity:** he swims at drill pace and never pushes, so the input is small by design. **Just watch for a repeat** — if push days after a swim keep reading heavy while push days without one don't, that's the signal. Don't run an experiment for it and don't re-litigate the single case.
+- **Stroke count baseline** — ANSWERED W29D2: **~18-20 per length, full stroke.** The drill-mode count (8-9, kicking through each breath pause) is not comparable and not the number.
+- **Where the kick tires** — ANSWERED W29D2: thighs + hip flexors, in both drill and full stroke, and mostly breathlessness rather than muscle. Mapping: front of thighs = kicking from the knee; hip flexors = kick too big; calves or feet cramping = forcing the point.
+- **Does a tiny kick calm the breathing?** **ANSWERED 2026-09-15 — yes, kick size was it.** With the kick shrunk, the breathlessness at a slow pace was gone and what remained was local hip-flexor fatigue, not air. **Breathing pattern stays untouched** — it is no longer needed as the next lever. **New sub-question: hip-flexor burn on a tiny kick**, read as actively pulling the leg forward on the upbeat rather than letting it rebound. Cue given in the pool 2026-09-15; put it on the sheet only if it repeats.
 - *(Pool is outdoor, answered 2026-09-02. Phlegm question closed by him — see below.)*
 
 ### Phlegm — CLOSED BY HIM (2026-09-02). Do not raise again unprompted.
