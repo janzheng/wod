@@ -10,7 +10,7 @@
     "start": ["deno", "task", "dev"]
   },
   "port": 8010,
-  "tools": ["deno"],
+  "tools": ["claude", "codex", "deno"],
   "snapshot": {
     "source": "static",
     "exclude": [

@@ -12,7 +12,7 @@ type ChatPanel = {
   scrollChatToBottom: () => void;
   focusChatInput: () => void;
   sendChatMessage: () => Promise<void>;
-  clearChat: () => void;
+  clearChat: () => Promise<void>;
 };
 
 const createPanel = (
@@ -76,7 +76,7 @@ Deno.test("chat lifecycle: persists the user turn and aborts it on clear", async
     for (let index = 0; index < 5; index += 1) await Promise.resolve();
     assert(stored.get("wod-chat-messages")?.includes("change this page"));
 
-    panel.clearChat();
+    await panel.clearChat();
     await turn;
 
     assertEquals(panel.chatMessages, []);

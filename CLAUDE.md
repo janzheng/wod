@@ -2,6 +2,13 @@
 
 Fitness exercise library and workout generator. Deno-based app with JSON exercise/workout data.
 
+## Working in smolbox or checking sync
+
+For box setup, local/VM checkout comparison, bringing changes in either direction,
+or Ask snapshot freshness, read [docs/guides/smolbox-workflow.md](docs/guides/smolbox-workflow.md).
+Identify the checkout before acting; do not automatically sync, reset or deploy.
+The shared rules in this file also apply to agents entering through AGENTS.md.
+
 ## Project Structure
 
 - `exercises/*.json` — Individual exercise definitions (514+)

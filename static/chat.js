@@ -90,6 +90,8 @@ function chatPanel() {
     customWorkouts: [],
     chatRequestController: null,
     chatRequestSerial: 0,
+    chatSignInRequired: false,
+    chatAccessMessage: '',
 
     initChat() {
       try {
@@ -103,21 +105,83 @@ function chatPanel() {
         if (storedMessages) this.chatMessages = JSON.parse(storedMessages);
         this.chatSessionId = localStorage.getItem('wod-chat-session-id');
         this.chatJobId = localStorage.getItem('wod-chat-job-id');
+        this.chatInput = localStorage.getItem('wod-chat-draft') || '';
+        if (localStorage.getItem('wod-chat-reopen')) {
+          this.chatOpen = true;
+          localStorage.removeItem('wod-chat-reopen');
+        }
       } catch (e) { /* ignore */ }
       if (this.chatJobId) this.resumeChatJob();
     },
 
-    toggleChat() {
+    async toggleChat() {
       this.chatOpen = !this.chatOpen;
       if (this.chatOpen && this.isMobile) {
         this.sidebarOpen = false;
       }
       if (this.chatOpen) {
+        if (!(await this.checkChatAccess())) return;
         this.$nextTick(() => {
           const input = document.querySelector('.chat-input-field');
           if (input) input.focus();
           this.scrollChatToBottom();
         });
+      }
+    },
+
+    persistChatDraft() {
+      try {
+        if (this.chatInput) localStorage.setItem('wod-chat-draft', this.chatInput);
+        else localStorage.removeItem('wod-chat-draft');
+      } catch (e) { /* browser storage may be unavailable */ }
+    },
+
+    requireChatSignIn(response) {
+      if (response.type !== 'opaqueredirect' && response.status !== 0
+        && ![301, 302, 303, 307, 308, 401, 403].includes(response.status)) return;
+      this.chatSignInRequired = true;
+      this.chatAccessMessage = 'Sign in to continue.';
+      var error = new Error(this.chatAccessMessage);
+      error.name = 'WodSignInRequired';
+      throw error;
+    },
+
+    signInBuilder() {
+      this.persistChatDraft();
+      try { localStorage.setItem('wod-chat-reopen', '1'); } catch (e) { /* optional */ }
+      var here = globalThis.location;
+      var target = here.pathname + (here.search || '') + (here.hash || '');
+      here.assign('/_smolbox/login?returnTo=' + encodeURIComponent(target));
+    },
+
+    async checkChatAccess() {
+      try {
+        var response = await fetch('/_smolbox/access', {
+          headers: { 'Accept': 'application/json' },
+          credentials: 'same-origin', redirect: 'manual', cache: 'no-store',
+        });
+        this.requireChatSignIn(response);
+        // Mounted JS can update before the server restarts. Its optional probe
+        // may still be missing or hit WOD's old HTML catch-all; actual API
+        // requests still enforce Access and handle every sign-in challenge.
+        var legacy = response.status === 404;
+        if (response.status === 200 && /^text\/html\b/i.test(response.headers.get('content-type') || '')) {
+          legacy = (await response.text()).includes('<div id="app" x-data="routineStackApp()">');
+          if (!legacy) throw new Error('Builder is unavailable.');
+        }
+        if (!legacy) {
+          var value = await response.json();
+          if (!response.ok || value.surface !== 'wod-builder' || value.ok !== true) {
+            throw new Error('Builder is unavailable.');
+          }
+        }
+        this.chatSignInRequired = false;
+        this.chatAccessMessage = '';
+        return true;
+      } catch (error) {
+        if (error.name === 'WodSignInRequired') this.signInBuilder();
+        else this.chatAccessMessage = 'Builder is unavailable. Try again.';
+        return false;
       }
     },
 
@@ -137,6 +201,9 @@ function chatPanel() {
     async sendChatMessage() {
       var msg = this.chatInput.trim();
       if (!msg || this.chatLoading) return;
+      if (this.chatSignInRequired) return;
+      this.chatAccessMessage = '';
+      this.persistChatDraft();
 
       var userMsg = { role: 'user', content: msg, timestamp: Date.now() };
       this.chatMessages.push(userMsg);
@@ -149,9 +216,11 @@ function chatPanel() {
       this.scrollChatToBottom();
       this.focusChatInput();
 
+      var submitted = false;
       try {
         var res = await fetch(this.getAgentChatUrl(), {
           method: 'POST',
+          credentials: 'same-origin', redirect: 'manual',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             prompt: msg,
@@ -163,19 +232,34 @@ function chatPanel() {
 
         if (requestSerial !== this.chatRequestSerial) return;
 
+        this.requireChatSignIn(res);
+
         if (!res.ok) {
           var errData = await res.json().catch(function() { return {}; });
           throw new Error(errData.error || 'API error ' + res.status);
         }
         var data = await res.json();
         if (!data.jobId || !data.sessionId) throw new Error('WOD Builder returned an invalid job');
+        submitted = true;
         this.chatSessionId = data.sessionId;
         this.chatJobId = data.jobId;
         localStorage.setItem('wod-chat-session-id', data.sessionId);
         localStorage.setItem('wod-chat-job-id', data.jobId);
+        this.persistChatDraft();
         await this.pollChatJob(data.jobId, requestSerial, controller);
       } catch (err) {
         if (requestSerial !== this.chatRequestSerial || err.name === 'AbortError') return;
+        if (err.name === 'WodSignInRequired') {
+          // Access rejected this POST; keep the draft for an explicit send after
+          // login, never replay a tool-using turn automatically.
+          if (!submitted) {
+            this.chatInput = msg;
+            this.chatMessages = this.chatMessages.filter(function(entry) { return entry !== userMsg; });
+            this.persistChatDraft();
+            this.persistChatMessages();
+          }
+          return;
+        }
         this.chatMessages.push({
           role: 'assistant',
           content: 'Error: ' + err.message,
@@ -198,6 +282,7 @@ function chatPanel() {
         try {
           res = await fetch(this.getAgentJobUrl(jobId), {
             headers: { 'Accept': 'application/json' },
+            credentials: 'same-origin', redirect: 'manual', cache: 'no-store',
             signal: controller.signal,
           });
         } catch (error) {
@@ -206,6 +291,7 @@ function chatPanel() {
           continue;
         }
 
+        this.requireChatSignIn(res);
         if (!res.ok) {
           var errData = await res.json().catch(function() { return {}; });
           throw new Error(errData.error || 'Job status error ' + res.status);
@@ -244,6 +330,7 @@ function chatPanel() {
       var jobId = this.chatJobId;
       this.pollChatJob(jobId, requestSerial, controller).catch((err) => {
         if (requestSerial !== this.chatRequestSerial || err.name === 'AbortError') return;
+        if (err.name === 'WodSignInRequired') return;
         this.chatMessages.push({
           role: 'assistant',
           content: 'Error: ' + err.message,
@@ -315,27 +402,36 @@ function chatPanel() {
       } catch (e) { /* ignore */ }
     },
 
-    clearChat() {
+    async clearChat() {
       var sessionId = this.chatSessionId;
       this.chatRequestSerial += 1;
       if (this.chatRequestController) this.chatRequestController.abort();
       this.chatRequestController = null;
+      this.chatLoading = true;
+      if (sessionId) {
+        try {
+          var response = await fetch(this.getAgentChatUrl().replace(/\/chat$/, '/session'), {
+            method: 'DELETE', credentials: 'same-origin', redirect: 'manual',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ sessionId: sessionId }),
+          });
+          this.requireChatSignIn(response);
+          if (!response.ok) throw new Error('Could not clear this conversation. Try again.');
+        } catch (error) {
+          if (error.name !== 'WodSignInRequired') this.chatAccessMessage = 'Could not clear this conversation. Try again.';
+          this.chatLoading = false;
+          return;
+        }
+      }
       this.chatLoading = false;
+      this.chatAccessMessage = '';
+      this.chatSignInRequired = false;
       this.chatMessages = [];
       this.chatSessionId = null;
       this.chatJobId = null;
       localStorage.removeItem('wod-chat-messages');
       localStorage.removeItem('wod-chat-session-id');
       localStorage.removeItem('wod-chat-job-id');
-      if (sessionId) {
-        fetch(this.getAgentChatUrl().replace(/\/chat$/, '/session'), {
-          method: 'DELETE',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ sessionId: sessionId }),
-        }).catch(function(error) {
-          console.warn('Could not clear Pi session:', error);
-        });
-      }
     },
 
     renderMarkdown(text) {

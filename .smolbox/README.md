@@ -1,3 +1,7 @@
+For agents, owner email login, start/stop/restart, checking whether WOD is current
+and exchanging changes, start with
+[the WOD smolbox guide](../docs/guides/smolbox-workflow.md).
+
 This is WOD's tiny integration seam for a Mac-local Smolbox. The actual project remains a normal Git repository. From the WOD directory, run:
 
 * `smolbox up` — create or start the local prodbox and print its virtual CLI
@@ -6,9 +10,9 @@ This is WOD's tiny integration seam for a Mac-local Smolbox. The actual project 
 * `smolbox status` — show the local machine, Git, app, and terminal state
 * `smolbox down` — stop the machine without deleting its workspace
 
-## Public WOD Builder
+## Owner-only WOD Builder
 
-The AI panel at `https://wod.janzheng.com` runs Pi inside `smolbox-wod`. Its
+The AI panel at `https://wod.janzheng.com` runs Pi inside `smolbox-wod-g2`. Its
 default is the separate inference fabric's `coding` route, configured through a
 private Pi provider file at `/root/.smolbox/pi-fabric/models.json`. The fabric,
 not WOD or smolbox core, chooses the exact Spark or OpenRouter leg. Pi starts in
@@ -26,8 +30,10 @@ directories; program and activity views map to the
 program JSON. This is the normal WOD Builder path, not a separate smolbox-only
 chat implementation.
 
-This is deliberately a public, no-auth prototype. Anyone who reaches it can
-change WOD and consume the personal box's model quota. The current `coding`
+Cloudflare Access protects Builder and `wod-shell.janzheng.com` with the shared
+owner EmailAccess policy. Reading WOD remains public; Ask remains a separate
+public read-only room. Admitted Builder users can change WOD and use model
+quota; terminal users can exercise guest accounts. The current `coding`
 route prefers OpenRouter's free endpoint, then NVIDIA Build, then the local
 Spark model. The remote free providers may log traffic, so do not send private
 or personal information. Free routes are rate-limited and a turn can take a
