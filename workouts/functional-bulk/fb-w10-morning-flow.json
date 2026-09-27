@@ -1,0 +1,91 @@
+{
+  "id": "fb-w10-morning-flow",
+  "name": "W10 Morning Flow — Bodyweight Spine + Hip (All Days)",
+  "description": "15 min bodyweight floor flow — **universal W10 morning flow, used every training day** (Mon push / Tue KB / Wed pull / Thu KB / Fri legs). Three-part: spine primer → bodyweight work → deep stretch arc. All bodyweight, no equipment beyond a mat. Scorpion-family moves carry the spine work; cossack BW + 90-90 + active pigeon + lizard + frog carry the hips. Replaces the day-specific morning flows (push pec-minor protocol, pull dead-hang/scap-prep, legs QL release) with one consolidated bodyweight flow. **Day-specific therapeutic work to do separately when needed:** doorframe pec-minor stretch (push days, anytime desk work tightens it back up), 90s pigeon (legs day, if QL talks), dead hang + scap pull-ups (pull day, if grip needs warming).",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "thoracic", "hips", "morning", "bodyweight", "home", "spine", "scorpion-family"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "primer",
+      "name": "Primer — Wake the Spine (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "reps": 10, "notes": "Full spinal wave — ride the breath. Inhale on cow (chest open, gaze up), exhale on cat (round, tuck). 10 slow reps." },
+        { "id": "childs-pose-to-cobra", "duration": 60, "notes": "Slow flow back and forth. Hips back to heels in child's, then slide forward and press up into cobra. Spine wave, not a calisthenics rep." },
+        { "id": "thread-the-needle", "duration": 60, "notes": "30s each side. Deep thoracic rotation — sink the shoulder, breathe into the stretch. **This is the scorpion family's setup move.**" }
+      ],
+      "notes": "Get the spine moving before any load. Slow, breath-led, no rush.",
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Bodyweight Activation (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "inchworm-walkout", "reps": 5, "notes": "5 slow reps. Hinge to floor, walk hands out to plank, **brief chest-down stretch in plank**, walk back. Hamstrings + shoulders + core in one move." },
+        { "id": "spiderman-plank", "duration": 45, "notes": "45s. **Slow** — knee to elbow, hold a beat, switch. NOT a circuit rep speed. The hold opens the hip and challenges anti-rotation at the same time." },
+        { "id": "plank-to-down-dog", "duration": 45, "notes": "45s. Flow plank ↔ down-dog with intent. Calves stretch every time the heels press toward the floor." },
+        { "id": "bird-dog", "reps": "5 each side", "notes": "5 each side, slow. Opposite arm + leg, **pause at full extension** for 2 counts. Anti-rotation + glute activation." },
+        { "id": "side-plank-thread-needle", "duration": 60, "notes": "30s each side. Side plank, top arm threads under and back. **Lateral core + thoracic rotation** — the standing equivalent of a windmill, on the floor." }
+      ],
+      "notes": "Light bodyweight challenge — gets warm without fatiguing. If anything feels hard, slow down (don't drop reps).",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "scorpion-stretch", "duration": 60, "notes": "30s each side. **The signature move of this flow.** Lie face down, sweep one leg across to the opposite hand. Keep chest and arms flat. Breathe into the rotation — this opens hip flexors AND mobilizes the lumbar/thoracic spine simultaneously." },
+        { "id": "90-90-stretch", "duration": 60, "notes": "30s each side. Front leg 90°, back leg 90°. **Sit tall on the front-leg sit-bone** — hinge forward over the front shin for the deeper version." },
+        { "id": "lizard-pose", "duration": 60, "notes": "30s each side. Low lunge with hands inside the front foot. Hip flexor + adductor stretch — the back-leg quad lengthens at the same time. Drop to the elbows for deeper." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Bodyweight, slow. **Mirrors the Tuesday loaded cossack** — same depth focus, no load. Heel stays down on the working leg." },
+        { "id": "active-pigeon", "duration": 60, "notes": "30s each side. Press into the stretch — actively engage the front-leg glute, don't just sink. Hip flexor of the back leg stays long." },
+        { "id": "frog-stretch", "duration": 60, "notes": "60s. Knees wide, shins parallel, hips back over heels. **Adductor opener** — the move B-stance flow + cossacks won't reach. Stay only as long as the stretch feels productive." }
+      ],
+      "notes": "Continuous arc — flow between shapes, breathe deeply. Goes last because the spine and hips are now warm and stretch deeper.",
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "day-specific-addon",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 90, "notes": "**📍 PUSH DAYS — KEY W9 PROTOCOL MOVE.** 30s each at LOW / MID / HIGH elbow positions (each hits a different pec minor fiber angle). Arm bent 90°, forearm on door frame, step through and rotate torso AWAY. **Desk work continuously re-tightens pec minor — doing this daily is what keeps the right-shoulder-blade ache from returning.** Carried over from `fb-w9-push-morning-flow`." },
+        { "id": "prone-y-raises", "reps": 10, "notes": "**📍 PUSH DAYS** — Active side of the pec-minor fix. Face down, arms in Y overhead, hold at top 1 second. Lower trap + rotator cuff; pulls the shoulder blade down and back — direct antagonist to tight pec minor." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "**📍 PUSH DAYS** — Arms locked, only shoulder blades move (retract → protract). Serratus activation helps unstick a tight pec minor." },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "**📍 PUSH DAYS (optional)** — Lie on side, elbow at 90°, rotate forearm up. Gravity is the resistance. Slow, controlled. Adds to the rotator cuff prep if shoulder feels off." },
+        { "id": "wall-angel", "reps": 12, "notes": "**📍 PUSH DAYS (optional)** — Back flat against wall. Pins the shoulder blades in the corrected position — counteracts forward rolling from pec tightness." },
+        { "id": "dead-hang", "duration": 25, "notes": "**📍 PULL DAYS** — 25s. Decompress shoulders, warm grip. Do at the gym before pull-ups if no bar at home." },
+        { "id": "scapular-pull", "reps": 10, "notes": "**📍 PULL DAYS** — From dead hang, just the scapulae retracting (no elbow bend). Crisp scap engagement before loaded pulls. Carried over from `fb-w8-pull-morning-flow`." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "**📍 LEGS DAYS — W8 QL-SPASM PROTOCOL.** 90s each side (longer than the universal flow's 30s active pigeon). The QL/psoas share fascial connections — the *long* hold is what lets them release. **Non-negotiable on legs day.** Carried over from `fb-w9-legs-morning-flow`." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "**📍 LEGS DAYS** — 60s each side. Gentle twist for the QL — let gravity do it. If a lacrosse ball is around, roll the QL above the iliac crest 1-2 min before this." },
+        { "id": "hip-flexor-lunge-stretch", "duration": 60, "notes": "**📍 LEGS DAYS (optional)** — 60s each side. Deep hip flexor stretch — exactly the area that was seizing on W8D5. Add if hip flexors feel tight." },
+        { "id": "couch-stretch", "duration": 60, "notes": "**📍 LEGS DAYS (optional)** — 60s each side. Most direct quad + hip flexor stretch. Wall or couch — knee bent, opposite foot up behind." }
+      ],
+      "notes": "**Pick today's day-specific protocol from the list — push / pull / legs.** ~3-5 min total. KB days (Tue/Thu) skip this block — the in-workout banded prep covers the equivalent. **The universal flow above intentionally doesn't carry these moves; this block is the show-notes reminder so they don't get lost.**",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**15 min main flow + 3-5 min day-specific add-on** — universal across W10 (Mon push / Tue KB / Wed pull / Thu KB / Fri legs).",
+    "**Scorpion-family carries the spine work** — thread-the-needle, scorpion stretch, side-plank thread-needle, child's pose to cobra. Same intent as the seated banded flow, no equipment.",
+    "Work block before the yoga flow — warm body = deeper stretches.",
+    "Should feel restorative, not draining. The training session follows; this is prep, not a workout.",
+    "**Day-specific add-on block at the end** — push days do the pec-minor protocol (doorframe stretch + prone Y + scap push-ups), pull days do dead hang + scap pull, legs days do 90s pigeon + supine twist. KB days skip the add-on (banded prep in the workout itself covers it).",
+    "Variety comes from the W11 flow next week (same shape, rotated moves).",
+    "If short on time, the non-skippable moves are: scorpion, 90-90, cossack BW, active pigeon, plus today's day-specific add-on."
+  ],
+  "formPhilosophy": "Bodyweight floor mobility, scorpion-family spine work, hip-flexor/adductor stretches. Designed for home (no bands) and structured around the same logic as the in-workout banded prep: sustained shapes prep the KB hinge before any load."
+}

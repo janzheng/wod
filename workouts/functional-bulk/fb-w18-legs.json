@@ -1,0 +1,150 @@
+{
+  "id": "fb-w18-legs",
+  "name": "Week 18 Legs — Steady State, Station-Grouped (Spotlight: Leg Press ROM + Bulgarian)",
+  "description": "Volume steady, station-grouped. Squat holds 80/side with the 6/7/8/8 rep volume — reps are the lever, not heavier weight. Spotlights cycle forward to the leg press (the deep knees-to-chest ROM that trains the core more than the quads) and the Bulgarian — which steps UP to double-45 DBs this week. Regular DB Bulgarian is the default; the Smith machine is the swap-in when it's free (it cleared the QL test at 45/side W17). Leg curl moves to the 5/m/0/-1 setting that felt better, with a 70 primer set then 90 working. Incline RDL holds the dead-slow 45lb-plate hinge.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "form-first", "spotlight-rotation", "station-focused"],
+  "estimatedDuration": 60,
+  "equipment": ["barbell", "dumbbell", "machine", "bench"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Steady state, station-grouped. Squat holds 80 / 6-7-8-8 (build the reps, keep the depth). Spotlights cycle to leg-press ROM (deep knees-to-chest = core stimulus) + Bulgarian (stepping up to double-45 DBs). Regular DB Bulgarian is default, Smith is the swap-in. Leg curl on the 5/m/0/-1 setting, 70 primer + 90 working. Leg curl stays before incline RDL so the hamstring work doesn't stack.",
+    "spotlights": [
+      {
+        "exerciseId": "leg-press",
+        "why": "Cycles forward — W17 the deep knees-to-chest ROM was so deep it hit the machine catcher, and the user felt it 'a lot more in QL/psoas/core than legs.' That IS the intent. Spotlight drills the full ROM, the lower-back-stays-on-the-pad cue, and the warm-up-into-depth pattern so the deep position keeps training the core, ROM-first."
+      },
+      {
+        "exerciseId": "bulgarian-split-squat",
+        "why": "Cycles forward and steps up — double-40 held clean, the QL is quiet, and the user called for more load, so this week is double-45. Spotlight drills the vertical-front-shin stance, front-heel drive, and tall torso at the heavier load — and keeps the drop-to-bodyweight rule if anything twitches."
+      }
+    ],
+    "rotationPlan": "W16 leg curl + calf raise · W17 squat depth + incline RDL · W18 leg-press ROM + Bulgarian (current) · W19 cycle forward — squat depth + leg curl refresh.",
+    "watchpoints": [
+      "**Loads** — squat 80/side (6-7-8-8), leg press 4 plates (ROM first), calf raise 4 plates, leg curl 90 (5/m/0/-1, 70 primer), incline RDL 45lb plate, **Bulgarian two 45lb DBs (one per hand) — up from 40**.",
+      "**Squat holds 80 / 6-7-8-8.** Keep building the reps toward 8/8 at this load — reps are the lever, not heavier weight. The user finds depth easier under load and uses the 45 warmup to drill max depth; keep that.",
+      "**Bulgarian → double-45 DBs (regular DB is the DEFAULT).** The Smith machine is the SWAP-IN when it's free (it's hard to get) — it cleared the QL test at 45/side W17, so it's available, but the regular DB version is the home. If anything twitches, drop to bodyweight and finish.",
+      "**Leg curl: settings 5/m/0/-1** (felt better than /1 W17). First set 70 to center, then 90 working — slow tempo.",
+      "**Leg press ROM is the spotlight** — deep knees-to-chest, lower back stays on the pad. It feels harder cold and opens by the end; don't judge the load on set 1.",
+      "**Station-grouped sequence:** warmup → squat → leg press → leg-press-calf-raise (SAME machine, stay there) → Bulgarian (bench station) → leg curl → incline RDL → cool-down. No backtracking.",
+      "**Keep leg curl BEFORE incline RDL** — reversed, the two hamstring lifts stack and smoke the second.",
+      "**QL/psoas watch** — cross-leg lateral lean in the warmup AND cool-down. QL's been clear; the Smith Bulgarian cleared its test. If anything talks in the warmup, modify the day; mid-session, drop a set."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (incl. Cross-Leg Lateral Lean — QL/Psoas Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, slow. Find where the hips are tight and breathe into it. Depth check before loading." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — the stretch runs down the side of the waist into the QL and lateral hip. Do this before loading the squat." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Big slow circles. Wake up the hip stabilizers." },
+        { "id": "tibialis-raise", "reps": 20, "notes": "Back to a wall, heels a step out, weight on the heels. Pull the toes UP toward the shins as high as they'll go, lower slow. Wakes the shins (the calf's antagonist), preps ankle dorsiflexion for squat depth, and it's shin insurance for the run-in. ~30s, bodyweight." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine mobility — slow, full ROM each direction." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension. Quick posterior-chain and low-back opener before loading the squat." },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight. QL check — if anything talks here, modify the day. Also previews the Bulgarian pattern." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "squat", "reps": 8, "notes": "Set 1: 45/side x8 — used to drill max depth (the user finds depth isn't 100% even here, so chase it light). Set 2: 70/side x6 — heavy-ish primer before 80, same depth as the working sets." }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat (6/7/8/8 at 80)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "squat", "reps": "6 / 7 / 8 / 8", "notes": "**LOAD:** 80/side. 4 sets: **6 / 7 / 8 / 8** — keep building the reps toward 8/8 at this load; reps are the lever, not heavier weight (the user's settling here on purpose). **Drop the last set if it feels heavy or unsteady** — bank 6/7/8 clean rather than grind a shaky 8.\n- Bar high on the upper traps (NOT the neck), upper-back shelf squeezed\n- **Brace like prepping for a punch** — deep belly breath at the top, HOLD through the descent, exhale on the drive up\n- **Hips back AND down**, not just down\n- **'Spread the floor'** — screw the feet in, knees track over the toes\n- **Sit into the bottom** — keep chasing depth set by set; the user finds depth easier under load, so trust the 80 to help you sink\n- Drive through the WHOLE foot." }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "legpress-station",
+      "name": "🔆 Leg Press + Calf Raise Station (Same Machine — Spotlight: Leg Press ROM)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "leg-press", "reps": 12, "notes": "**LOAD:** 4 plates/side. 4 sets of 12.\n\n**🔆 SPOTLIGHT — the deep ROM that trains the core:**\n- **Full ROM — knees toward the chest.** W17 the depth got so deep it hit the machine catcher — that's the win, not a problem; the deep position trains the abs/QL/core more than the quads ('legs barely doing anything in the deep squat'), which is exactly the intent\n- **Foot position:** shoulder-width, mid-foot on the platform, slight toe-out\n- **It feels harder cold** — the deep ROM opens up once the hips are warm, so don't judge the load on set 1\n- **Actively press to keep the lower back from lifting off the pad** at the bottom; if the hips roll off, back off a hair (or stop just shy of the catcher)\n- **Press through the WHOLE foot** — heels grounded\n- **Slow descent (3s), no bounce at the bottom**; don't lock out hard at the top\n\n**Reflection:** does the bottom stay deep (knees to chest, back on the pad) for all 4 sets, or does the depth shorten as you tire? ROM is the work; if it shortens, that's the honest end of the set." },
+        { "id": "leg-press-calf-raise", "reps": 15, "notes": "**LOAD:** 4 plates/side. 3 sets of 15. Stay on the leg press — same machine, no walking off.\n- **Balls of both feet on the BOTTOM EDGE of the platform, heels hanging off**\n- **Full stretch at the bottom** — let the heels drop as far below the edge as they'll go\n- **Drive to FULL plantarflexion at the top**\n- **Tempo by feel** — own the stretch at the bottom and the squeeze at the top, no bouncing. (3 sets, after the 4 leg-press sets — same station.)" }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "bulgarian-station",
+      "name": "🔆 Bulgarian Split Squat (Spotlight — Double-45 DBs)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "bulgarian-split-squat", "equipment": "bench + DBs (regular default) — Smith machine if free (use smith-machine-bulgarian-split-squat)", "reps": "8-10 each leg", "notes": "**LOAD:** two 45lb DBs, one per hand (up from 40). 3 sets of 8-10 each leg. **Regular DB version is the default; the Smith machine is the swap-in when it's free.**\n\n**🔆 SPOTLIGHT — the heavier load, dialed in:**\n- **Rear foot up on the bench** behind you, laces down or toes tucked\n- **Step out far enough that the front shin stays roughly VERTICAL at the bottom** — too short a stance = the knee crashes past the toes\n- **Front knee tracks over the front foot** — not caving in\n- **Lower until the rear knee nearly touches the floor** — controlled, no dropping\n- **Drive up through the FRONT HEEL** — the front leg does the work, the rear leg is a kickstand\n- **Torso TALL** — a slight forward lean is fine, no folding over\n- **2s descent**, own the bottom\n\n**Watch:** at double-45 this is real load — if anything twitches/spasms, drop to bodyweight for the remaining sets and finish. The Smith version cleared the QL test at 45/side W17 (capped at 6 reps), so it's available when free.\n\n**Reflection:** does the front shin stay vertical and the torso stay tall at double-45, or does the stance shorten / the torso fold to move the heavier load? If form drifts, that's the honest cap at 45 — hold it, don't grind." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Seated Leg Curl (5/m/0/-1 — 70 Primer + 90 Working, Before Incline RDL)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": 12, "notes": "**LOAD:** 70 first set to center, then 90 working. Slow tempo.\n- **Settings: 5/m/0/-1** (the setting that felt better than /1 in W17 — verify before loading)\n- **Ankles UNDER the pad** — the ankle bone is the contact point, NOT the mid-calf\n- **Lap pad locked DOWN firmly** — a loose pad lets the torso lift and turns it into lower-back work\n- **First set at 70 to get centered** (it'll feel easy — that's the point), then 90 for the working sets\n- **Curl the heels toward the glutes** — full ROM, full squeeze\n- **2s eccentric, 1s squeeze** — the slow eccentric is the whole stimulus; you feel these deeply when you go slow\n- Torso anchored, no lifting forward. This comes BEFORE incline RDL on purpose — take the 90 with the legs still relatively fresh." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "incline-rdl-working",
+      "name": "Incline RDL (3 Sets Dead Slow)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "incline-rdl", "reps": 15, "notes": "**LOAD:** 45lb plate. 3 sets of 15, dead slow with a 2s pause at the bottom. (Tempo's getting 'easier over time' — that's the progression working; the number stays.)\n- **Pad just below the hip crease** — NOT on the upper thigh, NOT on the stomach\n- **Hip hinge** — a Romanian deadlift on the 45° bench, NOT a lumbar extension. Lower back NEUTRAL throughout\n- **At the bottom:** the stretch is in the **hamstrings and glutes**, NOT the lower back. If the lumbar rounds, you're going too deep for current mobility\n- **Drive up by squeezing the glutes and hamstrings**; at the top, stop at neutral — past neutral = lumbar load = QL irritation\n- **Tempo: 3s eccentric, 2s pause at the bottom, 1s drive up.** The slow eccentric is the entire reason this works — hold the 45lb plate, keep slowing the tempo; don't chase the load. (If you want more volume, add a lighter back-off set rather than loading the 45.)" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Recovery Block (Hip/QL-Biased for Legs Day)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. Scissor the legs, reach overhead, lean away from the back leg — bookend the session with the same QL/psoas release as the warmup." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "45s each side. Deep hip-flexor and glute release — the long hold lets the QL and psoas let go." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side. Gentle twist for the QL — draw one knee across the body, opposite arm extended." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side. Hip-rotator decompression." },
+        { "id": "childs-pose", "duration": 60, "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift." }
+      ],
+      "notes": "5-min recovery block, hip/QL-biased on legs day.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Steady state, station-grouped.** Squat 4 sets, leg press 4, calf raise 3, Bulgarian 3, leg curl 3, incline RDL 3.",
+    "**Squat holds 80 / 6-7-8-8** — keep building the reps; reps are the lever, not heavier weight.",
+    "**Spotlight: leg-press ROM + Bulgarian.** Leg press drills the deep knees-to-chest ROM (core stimulus); Bulgarian steps up to double-45 DBs.",
+    "**Bulgarian → double-45 DBs, regular version is the default.** Smith machine is the swap-in when free (cleared the QL test at 45/side W17). Drop to bodyweight if anything twitches.",
+    "**Leg curl: 5/m/0/-1 setting, 70 primer then 90 working** — slow tempo.",
+    "**Station-grouped:** warmup → squat → leg press → leg-press-calf-raise (same machine — stay there) → Bulgarian → leg curl → incline RDL → cool-down. No backtracking.",
+    "**Leg curl BEFORE incline RDL** — don't reverse them, or the hamstring work stacks.",
+    "**Incline RDL is a 45lb plate, dead slow** — tempo is the progression. Add a lighter back-off set if you want more volume; don't load the 45.",
+    "**Cross-leg lateral lean in the warmup AND cool-down** — QL/psoas release. QL's clear; keep bookending it.",
+    "**Cool-down stays — 5-min block, hip/QL-biased on legs day.**",
+    "Rest: 3 min squats, 2 min leg press, 90s calf raise + Bulgarian + isolations."
+  ],
+  "formPhilosophy": "Steady-state legs week. The leg press and Bulgarian get the deep-cue treatment: the leg press for the deep knees-to-chest ROM that trains the core as much as the quads (so deep it hits the machine catcher — that's the win), and the Bulgarian for the step up to double-45 with the form held. Squat settles at 80 with reps as the lever. The sequence keeps the two hamstring lifts from stacking and the station order from backtracking. Form leads load — building decades, not weeks."
+}

@@ -9,6 +9,14 @@
   "difficulty": "intermediate",
   "source": "@Asgooch",
   "sourceUrl": "https://x.com/Asgooch/status/2026011472489324584",
+  "isFlow": true,
+  "flowSequence": [
+    { "id": "kettlebell-b-stance-swing", "notes": "B-stance (one foot back, heel up), explosive hip drive to chest height." },
+    { "id": "kettlebell-swing-clean", "notes": "Catch the swing directly into the rack — ride the momentum." },
+    { "id": "kettlebell-ab-stance-goblet-squat", "notes": "Bell in rack, stay in B-stance, squat and stand." },
+    { "id": "kettlebell-swing-snatch", "notes": "Punch the bell straight overhead from the rack, lock out." },
+    { "id": "kettlebell-overhead-lunge", "notes": "Step forward into a lunge, arm still locked overhead, stand tall." }
+  ],
   "sets": [
     {
       "id": "flow",

@@ -1,0 +1,207 @@
+{
+  "id": "fb-w29-pull",
+  "name": "Week 29 Pull — Short, and the Curl Goes 25 Both Sides",
+  "description": "**The short third day.** Chest-supported row, reverse fly and cable crunch stay out so it keeps its length.\n\n**Incline curl runs 25 on both arms.** The split is gone — the left took 25 for every set last week, four weeks after failing halfway through the first set at that load. **A light bicep set goes in before the pull-ups** so the tendon is not walking into a loaded stretch cold.\n\n**Pull-ups are plain bodyweight**, 4 sets, 3s eccentric. Log the numbers and leave them alone. **The high cable curl ladder climbs to 210 → 220 → 230 → 240**, and **DB row holds the 75 → 85 → 95 pyramid** with the grip as the honest ceiling.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "pull",
+    "gym",
+    "strength",
+    "functional-bulk",
+    "week-29"
+  ],
+  "estimatedDuration": 45,
+  "equipment": [
+    "dumbbell",
+    "cable",
+    "machine",
+    "bodyweight",
+    "resistance-band"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Repeat a shape that works, with two changes: the incline curl runs 25 on both arms, and a light bicep set goes in front of the pull-ups so the elbow is warm before anything hangs off it. The cable curl ladder climbs; everything else holds.",
+    "spotlights": [
+      {
+        "exerciseId": "incline-curl",
+        "why": "The left took 25 for every set last week — the best result since the problem started — and it is also the only lift where the tendon spot shows up. Warm it first and find out whether 25 both sides repeats."
+      }
+    ],
+    "rotationPlan": "W30 — spotlight moves to the DB row and the left-side grip ceiling. W31 — lat pulldown and the chest-supported row return when the week stops being short.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: pull-ups, DB row, lat pulldown, incline curl. Grip and position lifts where the honest ceiling is the rep the cue breaks.",
+      "🔥 near-failure last set OK: face pull, high cable curl. Isolation work where form holds at the limit.",
+      "**New this week: one light bicep set before the pull-up bar.** The tendon spot on the left sits at the elbow, and the day currently walks from a passive dead hang — elbows locked out, tendon on stretch, cold — straight into loaded pull-ups. Warm it first.",
+      "**Incline curl is 25 both arms.** No split, left first. If the left cannot hold form at 25, drop that arm for the day rather than grinding it.",
+      "**Pull-ups are not a test.** Three weeks at 8 / 6 / 6 is the shape a bodyweight lift makes during a bulk. Write the numbers, do not chase them.",
+      "**Band-pull-apart is the pull-day shoulder anchor.** Keep the warmup lean — no extra band volume on a day that already runs long."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-Up Bar Station) + Bicep Pre-Load",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Lean by design — legs sat between this day and push, so the shoulders come in rested. The new piece is the bicep set at the end: it is there so the elbow is warm before it takes bodyweight.",
+      "exercises": [
+        {
+          "id": "band-pull-apart",
+          "reps": 20,
+          "notes": "**The shoulder anchor for pull day.** Light band, slow, squeeze the blades together without shrugging."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine wake-up."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Deep core before anything loaded."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "Passive hang. **Also your first read on the right shoulder today** — note whether it is quiet."
+        },
+        {
+          "id": "bicep-curl",
+          "reps": "12-15 each side",
+          "notes": "**New — light DBs, nowhere near failure.** The dead hang above puts the bicep tendon on stretch with the elbow locked out; this puts blood through it before the bar takes your bodyweight. **Left side first.**"
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "**Protective activation — do this before anything loaded.** 40-50lb pair, behind the back, straight up and down, squeeze at the top."
+        }
+      ]
+    },
+    {
+      "id": "pull-ups",
+      "name": "Pull-Ups — Straight Bar, 4 Sets, 3s Eccentric 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "Bodyweight, 4 sets to form failure, **3s eccentric on every rep.** Straight bar.\n\n- The set ends when the tempo breaks or the shoulders shrug up\n- **Log all four numbers without chasing them**\n- Three sets is a fine answer if the shoulder is talking",
+      "exercises": [
+        {
+          "id": "pull-up",
+          "reps": "to form failure",
+          "notes": "Bodyweight, 4 sets, **3s eccentric every rep.** Straight bar.\n- Pack down before the elbows bend\n- Set ends when the tempo breaks\n- Write the numbers, leave them alone"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "bench-block",
+      "name": "🔆 DB Rack / Bench Block — Incline Curl → DB Row (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "Both live at the adjustable benches — set up once and stay there.\n\n**🔆 SPOTLIGHT: incline curl at 25 both arms.**\n- **Bench at 45°, arms hanging fully behind the body** — the stretch at the bottom is the entire reason for the incline\n- **Left arm first**, and the left sets the rep count\n- **Do not swing the shoulder forward** to start the rep\n- Slow eccentric, full extension at the bottom, and arrive at the stretch rather than dropping into it\n- If the left cannot hold form at 25, stop that arm for the day — do not grind it back to 20 mid-set\n\n**Reflection:** did 25 hold on the left for all three sets, and did the tendon spot show up at all after warming it first?",
+      "exercises": [
+        {
+          "id": "incline-curl",
+          "reps": "10 each side",
+          "notes": "**LOAD:** 25lb both arms, 3 sets of 10 each side. **Left first.**\n- 45° bench, arms hanging **behind** the body\n- No shoulder swing to start\n- Slow eccentric, full extension\n- Arrive at the bottom stretch, do not drop into it"
+        },
+        {
+          "id": "dumbbell-row",
+          "reps": "8-10 each side",
+          "notes": "**LOAD:** pyramid **75 → 85 → 95**, one set each side.\n- **Chest supported on the bench**, spine long, no twisting to finish\n- **Elbow drives back past the ribs**, not out to the side\n- Slow eccentric, full stretch at the bottom\n- **The left will end around 7-8 on the 95 — that is the grip-limited number and it is the honest one.** No straps"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown — 160 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** regular machine **160** · cable pulley **70/side**. **Log which.**\n\n- **Pack the shoulders DOWN before the elbows move** — blades into the back pockets first\n- Bar to the collarbones, chest up\n- **Slow eccentric** — that is where 160 used to get difficult\n- Ribs down, no leaning back to finish",
+      "exercises": [
+        {
+          "id": "lat-pulldown",
+          "reps": "8-12",
+          "notes": "**LOAD:** regular machine **160** · cable pulley **70/side**. Log which.\n- Pack **down** before the elbows bend\n- Bar to the collarbones, chest up\n- Slow eccentric, ribs down"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "face-pull",
+      "name": "Face Pull — 62.5 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 62.5, 3 sets of 20.\n\nThe third set has cost something two weeks running — that is the load sitting in the right place, not a reason to move it.\n\n- **Hands finish beside the ears**, elbows high\n- **Rotate the knuckles back** at the end of every rep\n- Hold a beat, slow return\n- Traps quiet",
+      "exercises": [
+        {
+          "id": "face-pull",
+          "reps": 20,
+          "notes": "**LOAD:** 62.5.\n- Hands finish beside the ears, elbows high\n- **Knuckles rotate back** at the end of the rep\n- Hold a beat, slow return, traps quiet"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "high-cable-curl",
+      "name": "High Cable Curl — 210 → 220 → 230 → 240 🔥",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "**LOAD:** cable column **210 / 220 / 230 / 240** ascending · single pulley **62.5**. **Log which.**\n\n190 and 200 stopped doing work, so the ladder starts higher and keeps climbing. 220 read *hard-ish* last week — the rungs above it are meant to be short.\n\n- **Single arm**, cable high, elbow fixed in space\n- **Do not let the elbow drift forward** — the upper arm stays put\n- Squeeze at the top, slow return to full extension\n- **A short top set is the ladder working, not a miss**",
+      "exercises": [
+        {
+          "id": "high-cable-bicep-curl",
+          "reps": "10-12 each side",
+          "notes": "**LOAD:** cable column **210 / 220 / 230 / 240** ascending · single pulley **62.5**. Log which.\n- Single arm, elbow fixed in space\n- No elbow drift forward\n- Squeeze at the top, slow to full extension\n- Top set can run near failure"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress after the pulling."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing. End here."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "The light bicep set before the pull-ups is new — it is warmup, not work.",
+    "Incline curl is 25 both arms this week. Left first, and the left sets the reps.",
+    "No straps on the row. The left stopping around 7-8 at 95 is the honest number.",
+    "Cable curl starts at 210 now. A short top set is the point of a ladder.",
+    "Pull-up numbers get written down, not chased."
+  ]
+}

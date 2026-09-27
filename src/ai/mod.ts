@@ -11,6 +11,7 @@ import type {
   WorkoutIntent,
   ConversationGenerateOptions,
   ConversationGenerateResult,
+  CritiqueResult,
 } from "./types.ts";
 import { loadData } from "./engine/loader.ts";
 import { ExerciseIndex } from "./engine/index.ts";
@@ -96,7 +97,7 @@ export async function createWodAI(dataDir: string, config: LLMConfig): Promise<W
 
     let workout = await generateFromIntent(intent);
 
-    let critique = undefined;
+    let critique: CritiqueResult | undefined;
     if (enableCritic) {
       critique = await critiqueWorkout(options.prompt, intent, workout, config);
 
