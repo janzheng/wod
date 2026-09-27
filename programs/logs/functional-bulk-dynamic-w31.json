@@ -1,1 +1,450 @@
-[]
+[
+  {
+    "day": 1,
+    "date": "2026-09-23",
+    "workoutId": "fb-w31-push",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "Mon and Tue were swims; he counts this session d3, Wednesday. It was run before legs and reported after, so the week has run push → legs in order so far. From the second slot all three dip sets were easy. He credits the slot and a lighter fortnight, and this week can't separate the two. The incline press ran on a barbell because the DB area was full. That is off the program's no-barbell-pressing rule, and he wants it as a standing option with a baseline. Both shoulders were quiet on everything, the bar included, so the barbell incline is now the fallback when the DBs are taken.",
+    "exercises": [
+      {
+        "id": "standing-dumbbell-strict-press",
+        "sets": [
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          }
+        ],
+        "notes": "*\"Feel out of shape loll but did all sets ok.\"* First slot, all three sets. Load not stated; logged as written."
+      },
+      {
+        "id": "dip",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": 12,
+            "notes": "\"First set of 12 ecc felt easy.\""
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": "10-12",
+            "notes": "\"Set two also easy.\""
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": "10-12",
+            "notes": "\"Third set also finishes strong but maybe this is bc ive\" — finished on follow-up: \"bc i havent been very active (only swimming) and not going to the gym much maybe i'm more rested.\""
+          }
+        ],
+        "notes": "**Easy from the second slot, all three sets.** *\"Much easier going second on these.\"* W29 ran them early and got the best set of the block, and W30 ran them fifth and they were a struggle. **He offers a second reason too:** *\"i havent been very active (only swimming)… maybe i'm more rested.\"* Slot and rest both point the same way this week. W32 keeps dips early, and a normal week will tell them apart."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          {
+            "weight": "35/side + 45 bar = 115 total",
+            "equipment": "barbell, squat rack + bench",
+            "reps": "8-12"
+          },
+          {
+            "weight": "35/side + 45 bar = 115 total",
+            "equipment": "barbell, squat rack + bench",
+            "reps": "8-12"
+          },
+          {
+            "weight": "35/side + 45 bar = 115 total",
+            "equipment": "barbell, squat rack + bench",
+            "reps": "8-12"
+          }
+        ],
+        "notes": "**Mismatch: written as the 60lb DB pair, run on a barbell** because the DB area was full. He wrote \"3bs each side\", read as 35s since he wants 45 next. *\"Felt easy for three sets should prob start at 45 each side — interesting as this feels easier than 60 per side db even tho this is more weight.\"* **It was 5lb less in total** (115 vs 120). The bar feels easier anyway because it balances itself, where each DB has to be steadied alone. His proposal: *\"going forward i should probably get whatever is open but have base line.\"* That conflicts with the standing no-barbell-pressing rule (fixed hand path, right shoulder), so see NOTES. Reps not stated. **Follow-up: \"shoulders were fine on all of them!\"** With the shoulders quiet, the bar at 45/side becomes the fallback when the DBs are taken. The DBs stay first."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          }
+        ],
+        "notes": "*\"Weirdly hard today but did all of them.\"* The going-wider progression is a longer lever on the same 20s, so harder is the expected read. Load not stated; logged as written."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": [
+          {
+            "weight": "120",
+            "equipment": "cable column (his \"double column\")",
+            "reps": 12
+          },
+          {
+            "weight": "120",
+            "equipment": "cable column (his \"double column\")",
+            "reps": 12
+          }
+        ],
+        "notes": "*\"Pull downs are hard this time! did all but felt hard.\"* On follow-up: *\"straight arm on double column, followed\"*, so the written 120."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": [
+          {
+            "weight": "70",
+            "equipment": "cable column",
+            "reps": "10-12"
+          },
+          {
+            "weight": "70",
+            "equipment": "cable column",
+            "reps": "10-12"
+          }
+        ],
+        "notes": "*\"Finished the tricep.\"* Follow-up: ran as written at 70, and *\"these were really hard.\"* It was the first week at 70, up from 60 where it *\"never got hard\"* in W30."
+      },
+      {
+        "id": "farmer-carry",
+        "sets": [
+          {
+            "weight": "60lb per hand"
+          },
+          {
+            "weight": "60lb per hand"
+          }
+        ],
+        "notes": "*\"60lb carries no problem.\"* His own rule picked 60, the hands-feel-good number."
+      }
+    ],
+    "rawInput": "w31d3 push\n\nd1/2 did swimming\n\nstatic press\nfeel out of shape loll but did all sets ok\n\ndips\nmuch easier going second on these\nfirst set of 12 ecc felt easy \nset two also easy \nthird set also finishes strong but maybe this is bc ive\n\nincline press\ndone on a squat rack with a bench since db area full - used 3bs each side and a 45 bar felt easy for three sets should prob start at 45 each side - interesting as this feels easier than 60 per side db even tho this is more weight\n- going forward i should probably get whatever is open but have base line\n\nlat raises were weirdly hard today but did all of them\n\npull downs are hard this time! did all but felt hard\n\nfinished the tricep and 60lb carries no problem",
+    "followUps": [
+      "Did either shoulder say anything on the barbell incline, and was the left quiet on the press and dips? → \"shoulders were fine on all of them! forgot either shoulder had problems. i think the swim / 'rest' helped\"",
+      "Straight-arm pulldown station and number, and the tricep at 70? → \"straight arm on double column, followed, and did tricep - oh these were really hard\"",
+      "Dips third set, the sentence that cut off? → \"i'm saying bc i havent been very active (only swimming) and not going to the gym much maybe i'm more rested :P\""
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-09-24",
+    "workoutId": "fb-w31-legs",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "Hot gym and a covid shot the day before, both in his words. Every lift he described had the same shape: first set brutal, then better. The RDL probe came back clean: at 70 nothing gave out, neither the hands nor the hamstrings. The leg curl went to 70 for all three sets with no pause on the left. Adduction was skipped because the machine is broken. Logged at the program's schedule position (day 2); he counts this session d4, Thursday.",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": [
+          {
+            "weight": "45/side",
+            "reps": 5,
+            "notes": "Warmup round 1, flat."
+          },
+          {
+            "weight": "45/side",
+            "equipment": "5lb plate under each heel",
+            "reps": 5,
+            "notes": "Warmup round 2. \"Good deep and confident\" covers the warmup."
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "\"First squat set brutal.\""
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "\"Second and third went way better.\""
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8"
+          }
+        ],
+        "notes": "The \"never judge the squat on set 1\" watchpoint applied again, after W30's even week. All three at 80 as written. Reps not stated; logged as the prescribed 6-8."
+      },
+      {
+        "id": "barbell-romanian-deadlift",
+        "sets": [
+          {
+            "weight": "45/side",
+            "equipment": "barbell",
+            "reps": "8-10"
+          },
+          {
+            "weight": "45/side",
+            "equipment": "barbell",
+            "reps": "8-10"
+          },
+          {
+            "weight": "70/side",
+            "equipment": "barbell",
+            "reps": "8-10",
+            "notes": "The feel test. \"Nothing gave out.\""
+          }
+        ],
+        "notes": "**Run as written, 45 · 45 · 70, and nothing gave out on the 70.** *\"RDL went pretty great; i like 45 > 70 but kind of wanted more, you know? nothing gave out, but it felt good to guide myself to that form.\"* In W28-W29 the hands were the cap at 70. This time they never came up. **It is not the same test**, though: one set of 70 after two at 45, not three at 70. \"45 > 70\" could mean the ramp or a preference; settle it at the W32 build. Reps not stated; logged as the prescribed 8-10."
+      },
+      {
+        "id": "kneeling-leg-curl",
+        "sets": [
+          {
+            "weight": "70",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "70",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "70",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side"
+          }
+        ],
+        "notes": "**Mismatch, and it stays: written 65, ran 70 on all three sets.** *\"All three at 70 (someone else set it there, was lazy) no pause, way better!\"* **The left kept pace without the 2-3s between reps** that W30 needed at 65. It is the first number change since W28."
+      },
+      {
+        "id": "leg-press",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 12,
+            "notes": "\"First set brutal.\""
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          }
+        ],
+        "notes": "*\"First set brutal but later went well esp leg press - very sore and crackly.\"* The set-1 pattern already on record for this lift. Loads not restated; logged as written."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 15,
+            "notes": "\"First set brutal.\""
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          }
+        ],
+        "notes": "Same shape as the leg press, in his words."
+      },
+      {
+        "id": "hip-abduction-machine",
+        "sets": [
+          {
+            "weight": "250",
+            "equipment": "hip abduction machine",
+            "reps": "12-15"
+          },
+          {
+            "weight": "250",
+            "equipment": "hip abduction machine",
+            "reps": "12-15"
+          },
+          {
+            "weight": "250",
+            "equipment": "hip abduction machine",
+            "reps": "12-15",
+            "notes": "\"Third set did wear me out tho.\""
+          }
+        ],
+        "notes": "**The machine is working again.** *\"Felt too easy like a nap… im doing slow ecc with a pause in the middle.\"* **Mismatch: three sets against two written**, the second time on this lift (W28). **The pause was mid-lowering; the sheet puts it at end range**, which is the hardest point on this machine. Load not stated; logged as written, and whether the pin moved on set 2 is asked. The pin question went unanswered."
+      },
+      {
+        "id": "hip-adductor-machine",
+        "sets": [],
+        "notes": "**Skipped — the adduction machine is broken.** *\"abduction not adduction; machine is still broken, did abduction only.\"* W30's record has it the other way round (abduction broken, adduction mobbed); one of the two reports swapped the names. Both slots already carry a fallback, so nothing changes. The cossack fallback wasn't run."
+      }
+    ],
+    "rawInput": "w31d4 legs\n\nwarm up legs squat good deep and confident \n\nsweating like crazy super hot and had covid shot yesterday \n\nfirst squat set brutal \nsecond and third went way better and did all at 80\n\nleg press and calf press same - first set brutal but later went well esp leg press - very sore and crackly and i’m sweating like a mess\n\nabduction felt too easy like a nap lolll idk why these machines are so easy - im doing slow ecc with a pause in the middle\n- third set did wear me out tho\n\ncurl felt easy went up to 70 went pretty good, good working weight",
+    "followUps": [
+      "RDL: did it happen, and on the 70 set, did the hamstrings or the hands end it? → \"RDL went pretty great; i like 45 > 70 but kind of wanted more, you know? nothing gave out, but it felt good to guide myself to that form.\"",
+      "Leg curl at 70: all three sets, and did the left still need the pause? → \"All three at 70 (someone else set it there, was lazy) no pause, way better!\"",
+      "Adduction at 300, and did the abduction pin move? → \"abduction not adduction; machine is still broken, did abduction only.\" Pin not answered.",
+      "Push: nothing logged this week. Did it happen? → \"oops\". The report followed (W31 day 1, run Wednesday)."
+    ]
+  },
+  {
+    "day": 3,
+    "date": "2026-09-25",
+    "workoutId": "fb-w31-pull",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "He counts this session d5, Friday; logged at the program's schedule position (day 3). Push, legs and pull ran on three straight days, Wednesday to Friday, so W31's gym week is complete. The covid shot was two days earlier and he gives it as the reason for a tired day; it was in the left arm, but he says the left elbow was not affected by it. The left curl spot hurt on the first set, in plain words this time, and cleared with massage. The row's top set ended at 8 on both sides from general tiredness before grip, which he says is a first. The pulldown ran at 80 per side on the dual cable pulley for 12 on all three sets, and was pretty good, hard-ish at the end.",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6,
+            "notes": "3s eccentric, full 2 min rest."
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6
+          }
+        ],
+        "notes": "**4 × 6 with the slow eccentric and the full two minutes**: *\"hard but not painful.\"* Same shape as W29 (flat 4 × 6); W30 ran 6 / 6 / 7 over three sets. **Follow-up: no crackles, surprisingly, after taking a lot of breaks.** Whether he used the between-sets shrug was not stated."
+      },
+      {
+        "id": "incline-curl",
+        "sets": [
+          {
+            "weight": "25lb",
+            "reps": "10 each side",
+            "notes": "Left: \"the area that hurts really hurt the first set.\" Massaged it before the next set."
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side",
+            "notes": "\"Further sets much better.\""
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          }
+        ],
+        "notes": "*\"Curls were hard left arm felt wrecked - maybe covid vaccine.\"* The spot, in his words: *\"a bit above the inner elbow crease higher up on bicep\"*, and massage makes it *\"way better.\"* It hurt on set 1 *\"even after the warmups\"*, then sets 2-3 were much better, the same first-set-then-clears shape as W30. **The wording changed:** W29 was *\"doesn't hurt like normal hurt\"* and W30 *\"not a real pain\"*; this week it *\"really hurt.\"* Seventh week on this spot. Follow-up: the shot was in the left arm; he felt crummy but said the elbow *\"wasnt affected by the shot.\"* The explicit next-morning rating was not stated. Load and reps not restated; read as the written 25 × 10."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": [
+          {
+            "weight": "75lb",
+            "reps": "8-10 each side"
+          },
+          {
+            "weight": "85lb",
+            "reps": "8-10 each side"
+          },
+          {
+            "weight": "95lb",
+            "reps": "8 both sides",
+            "notes": "\"Tiredness gave out before grip this time which is a first.\""
+          }
+        ],
+        "notes": "**The 95 ended at 8 on both sides, from general tiredness rather than grip**: *\"i was just tired… tiredness gave out before grip this time which is a first. i blame covid shot lol.\"* Left on the 95: W29 6 · W30 9 · **W31 8**. This was the row the 45 / 45 / 70 RDL was meant to test. **Grip didn't fail first**, so the single set at 70 didn't tire the hands enough to be the limiter. But the set stopped before grip was tested, and the right also fell from 10 to 8, so it isn't a clean read. Sets 1-2 and loads not restated; read as the written 75 → 85 → 95. No straps."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": [
+          {
+            "weight": "80/side",
+            "equipment": "dual cable pulley (two-handle)",
+            "reps": 12,
+            "notes": "\"12 first set.\""
+          },
+          {
+            "weight": "80/side",
+            "equipment": "dual cable pulley (two-handle)",
+            "reps": 12
+          },
+          {
+            "weight": "80/side",
+            "equipment": "dual cable pulley (two-handle)",
+            "reps": 12,
+            "notes": "Hard-ish at the end."
+          }
+        ],
+        "notes": "*\"Tried 80 lol went well 12 first set.\"* Follow-up confirmed **80 per side on the two-handle cable pulley, all three sets of 12**; *\"was pretty good; got hard-ish at the end.\"* W22D3 had 80/side at 10 then 6 and too heavy; W31 updates that ceiling."
+      },
+      {
+        "id": "face-pull",
+        "sets": [
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          }
+        ],
+        "notes": "*\"Face pulls went fine.\"* Sixth week at 62.5. Load not restated; read as written. The knuckle-rotation reflection isn't in the report."
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "sets": [
+          {
+            "weight": "62.5",
+            "equipment": "regular pulley",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "62.5",
+            "equipment": "regular pulley",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "62.5",
+            "equipment": "regular pulley",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "62.5",
+            "equipment": "regular pulley",
+            "reps": "10-12 each side"
+          }
+        ],
+        "notes": "*\"High cable curl went ok did 62.5 on regular pulley.\"* Follow-up confirmed **62.5 on the regular pulley for all four sets**. The W31 sheet had 67.5 for the pulley without a past log behind it; the only prior pulley datapoint was 62.5 at W19D3, *\"really hard, barely finished set 2.\"* **The same number now reads \"ok.\"**"
+      }
+    ],
+    "rawInput": "w31d5 pull\n\npull ups were hard but not painful paused full two minutes and did four good sets of slow eccentric lowers; 6 each set\n\ncurls were hard left arm felt wrecked - maybe covid vaccine but also the area that hurts really hurt the first set but i massaged it and further sets much better - this is even after the warmups - it’s a bit above the inner elbow crease higher up on bicep if i massage it it gets way better \n\nrows i was just tired did 8 on last set both sides tiredness gave out before grip this time which is a first. i blame covid shot lol\n\nface pulls went fine\n\nhigh cable curl went ok did 62.5 on regular pulley\n\nlat pulldown tried 80 lol went well 12 first set",
+    "followUps": [
+      "Which arm got the shot, and how was the left elbow the next morning? → \"left arm got the shot; i feel pretty crummy lol\"; follow-up: \"left elbow wasnt affected by the shot.\" He says the elbow was not affected by the shot; no explicit worse/same/better rating was given.",
+      "Was the pulldown 80 per side on the two-handle cable pulley, and what happened on sets 2 and 3? → \"pulldown was 80 per side; was pretty good; got hard-ish at the end\"; follow-up: \"pulldown reps were all 12.\" Confirmed 80/side for 12 × 3.",
+      "Did either shoulder crackle on pull-ups, and did he use the between-sets shrug? → \"no crackles, surprisingly - took a lot of breaks\". No crackles; shrug use not stated.",
+      "Was the high cable curl 62.5 on all four sets? → \"yes high cable curl was 62.5 all four sets\". Confirmed."
+    ]
+  }
+]

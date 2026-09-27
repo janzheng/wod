@@ -1,0 +1,204 @@
+{
+  "id": "fb-w32-pull",
+  "name": "Week 32 Pull — 80/Side Holds, Left Curl Spot Gets a Stop Rule",
+  "description": "Same short pull day. W31 pull-ups were quiet at 6 × 4 with long rests, the dual-cable pulldown reached 12 × 3 at 80/side, and the regular-pulley high curl ran 62.5 for all four sets. Those numbers hold. The left incline-curl spot produced its first clear pain report; use 25 only if it is back to baseline, and stop the curl if that same pain returns.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "pull",
+    "strength",
+    "gym",
+    "functional-bulk",
+    "week-32"
+  ],
+  "estimatedDuration": 45,
+  "equipment": [
+    "dumbbell",
+    "cable",
+    "machine",
+    "bodyweight",
+    "resistance-band"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Repeat the short pull session at W31's actual pulley numbers. The only special instruction is the left incline-curl stop rule.",
+    "spotlights": [
+      {
+        "exerciseId": "lat-pulldown",
+        "why": "Four weeks at 160 reading easier every time, then 170 held all three sets with the last one costing something at the end. That is a correctly placed number and it deserves running deliberately rather than on autopilot."
+      },
+      {
+        "exerciseId": "face-pull",
+        "why": "It bit on the third set in W27 and W28, went easy in W29, and bit again last week — but last week you were rested, which removes the tired-day explanation the earlier reports had. The load is right; the cues are what is worth drilling."
+      }
+    ],
+    "rotationPlan": "W33 can restore a longer accessory if the week opens up; W32 stays familiar.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: pull-ups, DB row, lat pulldown, incline curl. Grip and position lifts where the honest ceiling is the rep the cue breaks.",
+      "🔥 near-failure last set OK: face pull, high cable curl. Isolation work where form holds at the limit.",
+      "**⭐ IF THE SHOULDERS CRACKLE, TAKE THE SHRUG AGAIN BETWEEN SETS.** It is the same behind-back shrug from the warmup, with a kettlebell or a DB pair, and it worked last week. **Optional, not a mandatory round** — use it when the bar is noisy.",
+      "W31 had no pull-up crackles. Keep the full rests; use the shrug reset only if either shoulder gets noisy.",
+      "**The incline curl is CHEST-SUPPORTED, PREACHER-STYLE.** Bench at a notch steeper than 45°, lean in chest-first, **armpit and the back of the upper arm flat on the pad**, arm hanging down the **face** of the pad. The upper arm never lifts off.",
+      "**The steeper pad and short-of-straight bottom stay, but the pain rule changes.** If the same clear pain returns on set 1, stop the incline curl and get it assessed rather than managing it another week.",
+      "Use the 25s only if the spot is back to its usual baseline before the working set.",
+      "Log both sides on the row. W31 stopped at 8/8 from general tiredness before grip was tested, so this is not framed as a grip test.",
+      "**Band-pull-apart is the pull-day shoulder anchor.** Keep the warmup lean — no extra band volume."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-Up Bar Station) + Bicep Pre-Load",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Lean by design. **The bicep pre-load stays** — a light set plus one still hold, before anything hangs off the elbow. **Note where the shrug is: you will want it again between pull-up sets.**",
+      "exercises": [
+        {
+          "id": "band-pull-apart",
+          "reps": 20,
+          "notes": "**The shoulder anchor for pull day.** Light band, slow, squeeze the blades together without shrugging."
+        },
+        {
+          "id": "low-lunge-thoracic-rotation",
+          "reps": "5 each side",
+          "notes": "Gentle upper-back rotation from a low lunge; do not force the range."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Deep core before anything loaded."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "Passive hang. **Your first read on both shoulders today** — note whether either one is noisy, and which."
+        },
+        {
+          "id": "bicep-curl",
+          "reps": "12-15 each side, then a 30s hold",
+          "notes": "**It helped, so it stays.**\n- **Light DBs, nowhere near failure, left side first**\n- **Then hold a light DB still at about 90° for 30 seconds on the left**, and the same on the right\n- The hold is the point: a still, moderate load is the calmest thing you can hand an irritable tendon, and it goes in before the bar takes your bodyweight"
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "**Protective activation — do this before anything loaded.** 40-50lb pair or a kettlebell, behind the back, straight up and down, squeeze at the top.\n\n**This is the same movement you will reach for between pull-up sets if the shoulders crackle.** Know where the weight is before you start."
+        }
+      ]
+    },
+    {
+      "id": "pull-ups",
+      "name": "Pull-Ups — 4 Sets, 3s Eccentric, Shrug Reset When Needed 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "Bodyweight, 4 sets to form failure, 3s eccentric on every rep, straight bar, full 2-minute rests. W31 was 6 × 4 with no crackles. Repeat the tempo without chasing reps.\n\n- Pack down before the elbows bend\n- Stop when the tempo breaks or the shoulders shrug up\n- Use the behind-back shrug between sets only if a shoulder gets noisy\n- Three sets is fine if a shoulder starts talking",
+      "exercises": [
+        {
+          "id": "pull-up",
+          "reps": "to form failure",
+          "notes": "Bodyweight, 4 sets, **3s eccentric every rep.** Straight bar, 2 min rest.\n- Pack down before the elbows bend\n- Set ends when the tempo breaks\n- **Shrug reset between sets if the shoulders crackle**\n- **Say which shoulder** — the left one is new\n- Write the numbers, leave them alone"
+        }
+      ]
+    },
+    {
+      "id": "bench-block",
+      "name": "DB Rack / Bench Block — Incline Curl → DB Row (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "Both movements stay at one adjustable bench. W31's left incline-curl spot above the inner elbow crease was described as real pain for the first time, then improved after set 1. The shot was in the left arm, but you said the elbow itself was not affected. **Use 25 only if the spot is back to its usual baseline. If the same clear pain returns on set 1, stop the curl and get it looked at by a physio rather than managing it another week.** The row pyramid stays unchanged; record what actually ends the 95 set.",
+      "exercises": [
+        {
+          "id": "incline-curl",
+          "reps": "10 each side",
+          "notes": "**LOAD:** 25lb both arms, 3 sets of 10 each side, plus one easy left-side warm-up set. Left first. **Only run the 25s if the left spot is back to baseline. Stop if the same clear pain returns.**\n\n- Bench a notch steeper than 45°, chest and upper arm supported\n- Stop a few degrees short of elbow lockout\n- Slow eccentric; never drop into the bottom\n- No shoulder swing"
+        },
+        {
+          "id": "dumbbell-row",
+          "reps": "8-10 each side",
+          "notes": "**LOAD:** pyramid **75 → 85 → 95**, one set each side.\n\n- **Chest supported on the bench**, spine long, no twisting to finish\n- **Elbow drives back past the ribs**, not out to the side\n- **Crush the handle from rep 1** rather than letting the grip fade in\n- Slow eccentric, full stretch at the bottom\n- **Log where the left ends on each of the three sets.** No straps"
+        }
+      ]
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "🔆 Dual Cable Pulldown — 80/Side Holds 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** dual cable pulley 80/side, 3 sets of 8-12. W31 completed 12 on all three sets and it got hard near the end, so hold the same number.\n\n- Pack the shoulders down before the elbows move\n- Start the pull from the armpits\n- Chest up, ribs down, no lean-back finish\n- Slow return to a full stretch",
+      "exercises": [
+        {
+          "id": "lat-pulldown",
+          "reps": "8-12",
+          "notes": "**LOAD:** dual cable pulley 80/side.\n- Pack down before the elbows bend\n- Start from the armpits\n- Chest up, ribs down\n- Slow eccentric to a full stretch\n- No leaning back"
+        }
+      ]
+    },
+    {
+      "id": "face-pull",
+      "name": "🔆 Face Pull — 62.5 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 62.5, 3 sets of 20.\n\n**🔆 SPOTLIGHT — the load is settled, the execution is the variable.** This bit on the third set in W27 and W28 and went easy in W29, all of which could be explained by how tired you were. Last week it bit again on a well-rested day, which means the number is simply right. **Five weeks at 62.5 and it stays.**\n\n🔆 **The cues:**\n- **Hands finish beside the ears, elbows HIGH** — at or above shoulder height the whole way\n- **Rotate the knuckles back at the end of every rep** so the thumbs point behind you. That rotation is the rear-delt-and-cuff part; without it this is just a high row\n- **Hold a beat at the end position**, then a slow return\n- **Traps quiet.** Shoulders climbing toward the ears means the stack is winning\n- **Elbows lead, hands follow.** Pulling with the hands turns it into a biceps movement\n- Last set can run near failure — safe isolation work\n\n**Reflection:** did the knuckle rotation survive to rep 20 on the third set, or was it gone by the back half?",
+      "exercises": [
+        {
+          "id": "face-pull",
+          "reps": 20,
+          "notes": "**LOAD:** 62.5.\n- Hands finish beside the ears, **elbows high**\n- **Knuckles rotate back** at the end of every rep\n- Hold a beat, slow return\n- Elbows lead, hands follow, traps quiet"
+        }
+      ]
+    },
+    {
+      "id": "high-cable-curl",
+      "name": "High Cable Curl — Regular Pulley 62.5 × 4 🔥",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "**LOAD:** regular pulley 62.5 for all four sets, 10-12 each side. W31 ran all four at this number and it felt okay; the old 67.5 pulley line had no log behind it. If you use the cable column instead, its separate ladder remains 220 / 230 / 240 / 250.\n\n- Single arm, cable high, elbow fixed\n- Squeeze at the top and return slowly\n- Do not mix the pulley and column scales",
+      "exercises": [
+        {
+          "id": "high-cable-bicep-curl",
+          "reps": "10-12 each side",
+          "notes": "**LOAD:** regular pulley 62.5 on all four sets; cable-column alternative 220 / 230 / 240 / 250. Log the station.\n- Single arm, elbow fixed\n- No elbow drift\n- Squeeze at the top, slow return"
+        }
+      ]
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress after the pulling."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing. End here."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "If the shoulders crackle on the bar, take the warmup shrug again between sets. It worked.",
+    "Say which shoulder is noisy — the left one is new.",
+    "Incline curl: one light left-side warm-up set first, then the three working sets. Setup unchanged.",
+    "Log where the left hand ends on all three row sets — legs day ran a heavy RDL top set.",
+    "Pulldown holds 170. Face pull holds 62.5. Both just earned their numbers."
+  ]
+}

@@ -3668,6 +3668,121 @@
         }
       ],
       "logFile": "logs/functional-bulk-dynamic-w31.json"
+    },
+    {
+      "week": 32,
+      "label": "Steady Week — Push → Legs → Pull, Warmups Rotate",
+      "description": "Keep W31's short push → legs → pull gym structure and its working loads. The only progression is the RDL moving from 45 · 45 · 70 to 45 · 70 · 70 after the clean W31 top set. Warmups rotate through familiar movements. The optional KB days rotate to the canonical Leggy Flow and Kickstand 5-4-3-2 Complex. The three gym days complete the week.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — press first, dips second",
+          "type": "workout",
+          "workoutId": "fb-w32-push",
+          "flow": {
+            "workoutId": "fb-w32-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W32 flow — inchworm and world's greatest stretch open; McGill curl-up, side plank and bird dog make the work block; straddle and hip-flexor lunge rotate back. **PUSH add-on:** doorframe stretch, prone Y raises and scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — RDL 45 · 70 · 70",
+          "type": "workout",
+          "workoutId": "fb-w32-legs",
+          "flow": {
+            "workoutId": "fb-w32-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W32 flow — inchworm and world's greatest stretch open; McGill curl-up, side plank and bird dog make the work block; straddle and hip-flexor lunge rotate back. **LEGS add-on:** knee-to-wall rocks and cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — 80/side pulley holds, curl stop rule",
+          "type": "workout",
+          "workoutId": "fb-w32-pull",
+          "flow": {
+            "workoutId": "fb-w32-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W32 flow — inchworm and world's greatest stretch open; McGill curl-up, side plank and bird dog make the work block; straddle and hip-flexor lunge rotate back. **PULL add-on:** dead hang and scapular pulls; the light curl and hold stay in the workout warmup."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Bent Press Flow + Leggy Flow",
+          "type": "workout",
+          "workoutId": "fb-w32-kb-full",
+          "flow": {
+            "workoutId": "fb-w32-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W32 flow. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Kickstand 5-4-3-2 Complex",
+          "type": "workout",
+          "workoutId": "fb-w32-kb-cond",
+          "flow": {
+            "workoutId": "fb-w32-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W32 flow. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w32.json"
     }
   ],
   "tips": [
