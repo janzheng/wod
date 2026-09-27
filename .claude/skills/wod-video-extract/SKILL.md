@@ -42,13 +42,13 @@ mcp__deno-hub__coverflow_workflow_run with args: "video-workout-extract --quiet 
 ### Save output to project
 
 ```
-mcp__deno-hub__coverflow_workflow_run with args: "video-workout-extract --quiet --url=VIDEO_URL --outputDir=/Users/janzheng/conductor/workspaces/wod/san-jose/workouts/extracted"
+mcp__deno-hub__coverflow_workflow_run with args: "video-workout-extract --quiet --url=VIDEO_URL --outputDir=/Users/janzheng/Desktop/Projects/__active/_deno/wod/workouts/extracted"
 ```
 
 ### Keep the downloaded video
 
 ```
-mcp__deno-hub__coverflow_workflow_run with args: "video-workout-extract --quiet --url=VIDEO_URL --outputDir=/Users/janzheng/conductor/workspaces/wod/san-jose/workouts/extracted --keepFiles=all"
+mcp__deno-hub__coverflow_workflow_run with args: "video-workout-extract --quiet --url=VIDEO_URL --outputDir=/Users/janzheng/Desktop/Projects/__active/_deno/wod/workouts/extracted --keepFiles=all"
 ```
 
 **Parameters:**
@@ -94,5 +94,5 @@ Any URL that yt-dlp supports: YouTube, Facebook, Instagram, TikTok, Twitter/X, V
 
 ```bash
 # Extract from a Facebook reel
-mcp__deno-hub__coverflow_workflow_run with args: "video-workout-extract --quiet --url=https://www.facebook.com/reel/1397870815215714 --outputDir=./workouts/extracted"
+mcp__deno-hub__coverflow_workflow_run with args: "video-workout-extract --quiet --url=https://www.facebook.com/reel/1397870815215714 --outputDir=/Users/janzheng/Desktop/Projects/__active/_deno/wod/workouts/extracted"
 ```

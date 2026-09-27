@@ -10,7 +10,7 @@ Freestyle, technique only. Not speed, not distance. The poolside pages are in th
 
 That single thing explains everything you reported: shoulders giving out (the arms were supplying all the propulsion), legs contributing nothing (a kick can't connect to a flat body, so "kick harder" never fixes it), and general early fatigue.
 
-**The tell was your breathing sides.** Left easy, right hard. In freestyle you breathe *by rolling the body*, not by turning the head — and a head-turner can crank the neck far enough on their good side to get away with it. The weak side is where the habit shows. So the right-side difficulty was never a right-side problem.
+**The tell was your breathing sides.** Left easy, right hard. In freestyle the roll does most of the work of the breath and the head turns the small amount that's left over — what fails is *craning the neck while the body stays flat*, and a head-turner can crank far enough on their good side to get away with it. The weak side is where the habit shows. So the right-side difficulty was never a right-side problem.
 
 **Heads up about your own strength:** strong lats let you muscle through bad position instead of fixing it. The stronger you pull, the longer you can paper over it. That's why we're not touching catch or pull work yet — it would just make the papering-over more effective.
 
@@ -42,13 +42,14 @@ What keeps you up is your chest. Your lungs are a balloon up front; your legs ar
 
 **Water in the mouth is a LATE roll, not a small one.**
 
-Your head drags a bow wave, and there's a trough beside it. **Your mouth breathes in that trough** — below the level of the flat surface. Arrive at the breath on time and there's an air pocket waiting. Arrive late and the window's gone; the mouth comes up over the wave instead of into the hole.
+Your head drags a bow wave, and there's a trough beside it. **Your mouth breathes in that trough** — below the level of the flat surface. Arrive at the breath on time and there's an air pocket waiting. Arrive late and the window's gone; the mouth comes up over the wave instead of into the hole. **The trough grows with speed — double the speed and the pile-up is roughly four times bigger — so at your pace it is shallow.** Treat it as a bonus, not the mechanism: at a slow, quiet pace the roll, a full exhale underwater, and arriving on time are what actually clear your mouth. **Do not swim faster to get a better wave** — you already priced that trade and it is a bad one.
 
 <details open>
 <summary><strong>The fixes</strong></summary>
 
 - **Half your mouth stays in the water, and you sip air from the top corner.** This is standard freestyle breathing, not a compromise or a beginner version: one goggle in and one out, one corner of your mouth in and one out. Trying to get your whole mouth clear means lifting your head — and your head going up is what drives your legs down. **Blow all your air out underwater so the inhale is a quick sip.** Most water in the mouth comes from trying to take a long, slow breath.
 - **Keep your lower goggle in the water.** If both eyes clear the surface you've left the trough. It feels like you can't possibly get air down there. You can — that's where the air is.
+- **You do turn your head — it just isn't the part doing the work.** Roll about halfway onto your side, then turn your head the rest of the way on the same axis, as if it were glued to your chest. Trying to roll far enough that your face clears without any head turn is over-rotation, and it costs a fortune.
 - **Roll on every stroke, not just the breathing ones.** If you arrive already on your side, the breath is nearly free. If you arrive flat and *then* heave the shoulder up, it's expensive and it's late.
 - **On 6-3-6, breathe during the 6 kicks, not the 3 strokes.** You're fully on your side there, so that breath costs nothing. That exact sensation is the thing to smuggle into real swimming.
 - **Lead arm long and patient.** On a right-side breath that's your **left** arm out front. Press it down early and the shoulder drops and your mouth goes under.

@@ -270,17 +270,110 @@ He chatted through the session from the water. Ran in written order — back kic
 
 **Spotlight moved** from side-kick to 6-1-6. **Stroke-count watchpoint amended** to say count it on the EASY swim — the fast number is not the one to chase (see the timed pair above). **Catch stays where it is on the backlog.**
 
+#### 2026-09-22 — the drill showed up inside the swim, on the side that has always lagged
+
+> got in! switch felt good! it's draggier than 636 but forcing me to think about roll and leg kick - still need practice tho. did twenty laps after. sometimes i find myself needing to slow down on regular laps and go into 636 mode on the right / just paddle on the left and breathe right
+
+**Second swim in two days** — Mon 2026-09-21 (gym skipped, too tired) and Tue 2026-09-22 (gym skipped, jury duty), both on the full sheet. Twenty laps after the drills. **Not a load question** — the swim is practice and stays uncounted.
+
+**"Draggier than 6-3-6" is correct, expected, and not a fault.** Six kicks to one stroke means he is travelling almost entirely on the kick, and the kick is a weak engine by design — the kick-on-back note already says moving slowly is normal. **It is less propulsion, not more drag**, which is the same distinction as the 19-vs-17 stroke-count conversation. Said so in one line rather than letting "draggy" sit there reading as "doing it wrong."
+
+**⭐ THE MID-SWIM RESET IS THE DRILL TRANSFERRING BY ITSELF, AND IT IS ON THE WORKING SIDE.**
+
+*"go into 636 mode on the right / just paddle on the left and breathe right"* — left arm out front, right shoulder to the sky, breathing right. **That is exactly the left-side-lying position the side-kick drill was deliberately weighted 2:1 toward on 2026-09-07**, precisely because it is the one that trains right-side breathing. He was never told to use it mid-swim; he fell into it when he needed air. **A position you can fall into and rest in is a position you have.** That is the drill leaving the drill lengths on its own, which is the only kind of transfer worth anything.
+
+**It happens on the right, which is the side that has lagged since day one** (bilateral, left comfortable, right the one being worked). Same lag, not a new problem — do not open a second thread for it.
+
+**Two readings of WHY, with different fixes — not disambiguated, so do not assume.** (a) He is out of air and buying time, which is about the breath not yet being free at full stroke rate; (b) the roll arrived late, the breath got awkward, and he drops to the side to re-find the position — which is the late-roll habit surfacing under fatigue rather than a breathing issue. **Asked him which.** Also unresolved and cheaper: whether "paddle on the left" is the lead arm sculling to hold position, or actual single-arm strokes. Either is fine; it just changes what to call it.
+
+#### Follow-up same day — the answer was neither option, and it is better than both
+
+> it's because i force myself in it - otherwise im not getting a roll in, im forcing myself to not take the shortcut ; left side is super easy and feels like rest; right side if i get in it it feels good but if im just swimming i feel myself taking shortcuts and not rolling
+
+**I offered two readings — out of air, or recovering a late roll — and he gave a third.** He is not resting and he is not recovering. **He is manually inserting a roll he would otherwise skip.** Record that the two-option framing was wrong; the reset is a self-correction, not a fallback.
+
+**The shortcut he catches himself at is the original diagnosis, still alive on the right only.** 2026-09-02: a head-turner gets away with it on the comfortable side and is exposed on the other. That is exactly what *"left side is super easy and feels like rest; right side... i feel myself taking shortcuts and not rolling"* describes. **Not a new thread — the same one, at a later stage.**
+
+**What has actually changed, and it is the part worth naming: the right-side roll is available but not yet default.** *"if i get in it it feels good"* — the position works, it is not hard, it is not a strength or mobility gap. What is missing is that it does not happen unless he decides. **Drills build a position; they do not make it the default.** Distinguish these two problems in everything going forward — the prescription for "can't" is not the prescription for "doesn't unless supervised."
+
+**He is also now catching it mid-stroke, which he could not do before.** Noticing the shortcut as it happens is the step before not taking it. Do not congratulate him for it; just do not mistake it for the old "right side is hard" report, because it is a different sentence.
+
+**⭐ WHY THE SHORTCUT EXISTS, AND WHY THE ANSWER IS ALREADY ON THE SHEET.** The shortcut is available because on the right, the roll's only job is to get air — and turning the head also gets air, more cheaply. **A roll that exists only to breathe will always compete with head-turning and will sometimes lose.** The rhythm block is the structural fix, not more forcing: when the kick rides the roll, every stroke has a roll in it, the roll stops being a breathing device, and there is no un-rolled stroke left to shortcut into. **This is the already-written "still roll on EVERY stroke, not just the breathing ones" cue, and his report is the first real evidence of why that bullet matters.** No new material — the live block is the answer.
+
+**Told him to keep forcing it.** A manual phase is how a default gets replaced; there is no route to automatic that skips it. **The marker given, deliberately not a number:** the tell is the first time he notices he rolled on the right without having decided to. That is the floor moving, and it fits how he wants progress framed.
+
+**Sheet bullet corrected same day.** Yesterday's version asked him to notice which of my two wrong reasons it was. Rewritten to what he is actually doing — force the roll in when he catches the shortcut — with the notice-you-rolled-without-deciding marker.
+
+#### Reported live from the pool, 2026-09-22 — "I've been mostly using arms"
+
+> ok so the kick is the thing and only thing driving ant rotation? i've been mostly using arms. tried 616 with no arms at all last lap and it worked surprisingly well with arms by my side?
+
+**Answered NO, and corrected the overcorrection immediately.** The kick does not drive the roll. **The hips and trunk drive the roll**; the kick is part of the same hip motion and lands on it. Letting "the kick drives rotation" stand would have traded one wrong model for another, and he would have started kicking harder to steer — the exact failure mode already flagged for "jumping off something."
+
+**⭐ THE DISCLOSURE IS THE FINDING: he has been rolling with his arms.** Unprompted, after weeks of rotation work. **Arm-led rotation turns the shoulders while the hips stay flat** — which is flat swimming wearing a roll. It explains the whole right-side pattern in one line: a shoulder-roll is enough to get air on the easy side and not enough on the other, so the right is where it fails and where he feels himself "taking shortcuts." **Same root as everything since 2026-09-02, now visible from the inside.**
+
+**His own experiment is the proof and he ran it himself: 6-1-6 with no arms at all, arms at his sides, and it worked.** That is the cleanest possible demonstration that **the roll does not need the arms** — with no arm available, the roll still happened, so the driver is in his middle. He found the answer to his own question one lap before asking it. Also worth noting: no lead arm means no balance lever, and it still worked — his float is good enough now that the lever is not load-bearing.
+
+**Cue given, anchored to throwing:** hips go first, the arm arrives last. Do not build a new anchor for this; throwing is universal and he did not need a lift analogy.
+
+**Possible sheet addition, deferred deliberately:** a no-arms length as a variant note on 6-1-6 — not a new exercise, not a new block. **He was mid-session; nothing built while he is standing at the wall.** Add it only if it is still useful on the next report.
+
+#### Same session — breathing pattern pinned down, and the roll is on the non-breathing strokes
+
+> uhhhh i don't know what that means. i breathe left, stroke three times then breathe right then stroke three times then left; the hip is rotating into the breathing but also when head down and stroking
+
+**BACKLOG ITEM 4 IS ANSWERED: he is on every-3 bilateral.** Alternating sides only works on an odd interval, and "three" matches, so every-3 it is. **It is the right pattern and it stays untouched** — asked only to write it down, told him explicitly nothing was changing.
+
+**The 3-against-2 explanation did not land and that is on me.** He used the word "polyrhythmic" and I answered inside it; the reply came back *"uhhhh i don't know what that means."* **A technical word he borrows is not permission to answer in that vocabulary.** Re-answered in plain words: his breath walks around the pattern instead of landing in the same place. Memory updated ([[feedback_spell_out_swim_drills]]).
+
+**⭐ *"the hip is rotating into the breathing but also when head down and stroking"* — that is the whole point, reported from the inside.** The roll on the NON-breathing strokes is what stops the roll being a breathing device, and it is the structural answer to the right-side shortcut from this morning: a stroke that already has a roll in it has no flat version to fall back on. **Same day as the "I've been mostly using arms" disclosure** — he went from rolling with his shoulders to reporting hip rotation on the head-down strokes within one session. Do not smooth this into a finding yet; it is one session and it was heavily supervised. **The test is whether it survives when he stops thinking about it.**
+
+**Roll SIZE came up and the sheet had no answer for it** — every cue said roll on every stroke, none said how far.
+
+> getting the rotations down is effortful tho i feel like when arms down heads down stroking its mini rotations not far enough my head can just come out - to conserve energy lol
+
+**His instinct is right and was confirmed, not corrected: a small roll is the correct roll.** The fault was never roll size, it is roll *consistency*. **The head clears because it turns, not because the body rolled far enough** — a roll big enough to free the face on its own is over-rotation. Told him the breathing stroke gets the same roll as the others plus a small head turn, and that needing MORE roll to breathe is the lurch being rebuilt under a new name.
+
+**Calibration given in a position he physically knows: about half the drill position.** No degrees, no jargon — the side-kick position is 90° and he has held it for weeks, so half of it is a felt target. **Folded into the existing every-stroke bullet rather than added as a ninth** — the main-swim note keeps its length.
+
+**"Effortful... to conserve energy" answered honestly:** it costs now because it is manual, and a settled roll is mostly falling side to side rather than a rep. **Also told him rolling narrows the body, so it pays for itself at the same speed** — same family as the v³ answer, and he already accepts that argument. **Do not let this become "rotate harder"** — that is the second time today a new concept has tried to promote itself to engine (kick first, then rotation).
+
+**⭐ A CUE OF MINE WAS BEING OVER-APPLIED, AND IT WAS THE SOURCE OF THE EFFORT.**
+
+> oh i've been avoiding turning my head bc you said to keep it level lol that would make it easier
+
+> so i think ive been turning way harder - i think the 6-1-6 forces that since theres so few strokes and kicks
+
+**The line that did it is on the notes page:** *"in freestyle you breathe by rolling the body, **not by turning the head**."* Correct as a diagnosis of a head-turner, read literally as a prohibition — so he stopped turning his head at all and **rolled further to compensate.** That is the whole explanation for "getting the rotations down is effortful" one message earlier: he was trying to roll far enough that his face cleared on its own, which is over-rotation, and it is expensive.
+
+**Fixed at the source, not just in chat** — the notes-page sentence now says the roll does most of the work and the head turns the small amount left over, with craning-while-flat named as the actual fault; a new bullet says outright that he does turn his head. The poolside sheet's breath bullet now says the turn is correct, names the marker (lower goggle wet, one eye in), and says never to roll further to free the face.
+
+**His second message is a real observation about the drill and it is right: 6-1-6's roll is oversized.** With one stroke per six kicks the switch is a full 90°-to-90° commitment, which is what makes the drill work and also what he has been importing into open swimming. **Drills exaggerate on purpose; the timing transfers, the size does not.** Added one line to the 6-1-6 note saying exactly that. **He found this himself, one message after being given "half the drill position."**
+
+**Pattern, second instance: a cue framed as a NEGATIVE gets over-applied.** First was "don't pull the leg forward," which he beat with his own "press like jumping off something." Now "not by turning the head." **Write cues as what to DO, with the fault named separately and specifically** — saved to memory ([[feedback_cues_as_do_not_dont]]).
+
+**He found the mechanism behind "keep the lower goggle wet" by himself, minutes after being given it as a marker.**
+
+> also ive noticed if eye and head are in the water it tends to pop the chin and jaw up? so it makes breathing easier?
+
+**Correct, and it is the same fact as the goggle cue seen from the inside.** The low eye and the mouth sit on opposite sides of the turning axis, so holding the eye down is what carries the mouth up; on top of that, a head that stays low stays in the bow-wave trough, where the surface is *below* flat and the air is already waiting. **Third time his own phrasing beats the written cue** (after "jumping off something" and the drill-roll-size observation), so the marker on the sheet was swapped for his version — *keep the lower eye in and it pops your chin and jaw clear* — a "do" with a payoff instead of a checkbox. See [[feedback_cues_as_do_not_dont]].
+
+**Nothing added to the sheet except one bullet legitimizing the reset** — he is already doing it, and the risk was that he reads it as cheating and stops. The bullet says to use it and to notice which of the two reasons it was. **No new drill, no new block. He said "still need practice," so the sheet repeats unchanged.**
+
 ## Backlog — not yet, in rough order
 
 1. **Rotation must become automatic first.** Everything below waits on it.
 2. **Catch / high elbow** — `swim-catch-up-drill`, `swim-fingertip-drag`, `swim-fist-drill`, `swim-sculling` all already exist in the library. This is where the lifting strength finally becomes useful rather than a crutch. **Confirmed 2026-09-18 as a source of upside, NOT a leak** — the timed pair showed the catch already grips. Do not promote it on the theory that something is broken.
 3. **Kick cadence / 2-beat rhythm tied to the roll** — he flagged "leg cadence" in the original brief and it still hasn't been addressed on its own terms, only via rotation. **OPENED W29D2, ahead of catch — the legs, not the pull, are the limiter now.** **BUILT 2026-09-18 — `swim-rhythm-block`, in the full session, see the session note above.** Held behind "not until a small kick is easy"; the small kick became easy and self-correcting the same day, and his own pat-head/rub-tummy report made the case. **Now the live block — the open item is whether it lands, not whether to start it.**
-4. **Bilateral breathing rhythm** — confirm whether he's actually on every-3 or something else; worth pinning down once rotation settles, since the count is what makes it automatic.
+4. **Bilateral breathing rhythm — ANSWERED 2026-09-22: every-3, alternating sides.** *"i breathe left, stroke three times then breathe right."* **Nothing to do with it** — it is the correct pattern, it is already automatic, and it was never the lever. Item closed; do not re-open it as a project.
 
 ## Open questions
 
-- **Does the kick actually stay alive through the roll?** OPENED 2026-09-18, the whole point of the rhythm block. The tell is on the 6-1-6 switch: if the kick goes quiet exactly when he rolls, the two programs are still separate. **Ask specifically about the switch, not about the drill overall.**
-- **Wall turn or breathing roll?** His *"during turning my kick slows or stops"* was read as the breathing roll and never disambiguated. Cheap to close next report.
+- **Does the kick actually stay alive through the roll?** OPENED 2026-09-18, the whole point of the rhythm block. The tell is on the 6-1-6 switch: if the kick goes quiet exactly when he rolls, the two programs are still separate. **Ask specifically about the switch, not about the drill overall.** **PARTIAL 2026-09-22:** *"switch felt good... forcing me to think about roll and leg kick - still need practice tho."* He did not report the kick dying, but he did not report it staying alive either, and the switch still costs him attention — which is the honest state after one session. **Not closed. Keep asking about the switch specifically, and keep the block as-is until he stops having to think about it.**
+
+- **Why does he drop into the side position mid-swim? — ANSWERED SAME DAY 2026-09-22, and neither offered option was right.** He forces himself into it to stop himself skipping the roll on the right. Not air, not recovery — a deliberate self-correction. **Right side only; the left is "super easy and feels like rest."** See the follow-up above; the open item this replaces it with is below.
+- **Does the right-side roll become default, or does it stay supervised?** OPENED 2026-09-22. The capacity is there — *"if i get in it it feels good"* — so the question is only whether it stops needing a decision. **The tell to ask for: has he caught himself rolling on the right without deciding to?** Do NOT turn this into a count or a drill of its own; the rhythm block is already the mechanism. Ask, and wait.
+- **Wall turn or breathing roll? — ANSWERED 2026-09-21: the breathing roll.** *"i'm not turning at the wall lol i'm jsut doing the lazy kind"* — open turns only, so there is no wall turn for the kick to die in. The kick going quiet is on the roll, which is exactly what the 6-1-6 switch isolates.
 
 - **Does a Sunday swim cost him Monday's push day?** OPEN, deliberately kept small. One instance (swim Sun 2026-09-06 → push Mon 2026-09-07) and it was confounded by ~3h of sleep and a reordered session; the early lifts were the day's best, which leans against. **Made less likely still by intensity:** he swims at drill pace and never pushes, so the input is small by design. **Just watch for a repeat** — if push days after a swim keep reading heavy while push days without one don't, that's the signal. Don't run an experiment for it and don't re-litigate the single case.
 - **Stroke count baseline** — ANSWERED W29D2: **~18-20 per length, full stroke.** The drill-mode count (8-9, kicking through each breath pause) is not comparable and not the number.
