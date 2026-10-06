@@ -3783,6 +3783,121 @@
         }
       ],
       "logFile": "logs/functional-bulk-dynamic-w32.json"
+    },
+    {
+      "week": 33,
+      "label": "Staged Return — Push and Pull Grow Back, Legs Holds, Two Optional KB",
+      "description": "Same week shape: push → legs → pull, then two optional KB sessions. The three gym days complete the week.\n\n**The staged return starts with push and pull.** Push gets the Kinesis fly back as working sets and the cable lateral raise at the end of the cable block. Pull gets the chest-supported row, reverse fly and cable crunch back. Each grows by about ten minutes. Legs holds its length, and its one step is the RDL returning to 45 · 70 · 70. The Bulgarian split squat is not back yet, and Nordic curls are out.\n\nLoads hold everywhere else. The morning flow rotates to puppy pose, spiderman plank, happy baby and the couch stretch, and the optional KB days rotate to the B-Stance Flow and the Overhead Mobility Complex.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — Kinesis fly and cable raise return, press first",
+          "type": "workout",
+          "workoutId": "fb-w33-push",
+          "flow": {
+            "workoutId": "fb-w33-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W33 flow — puppy pose and down-dog knee-to-head open; spiderman plank, a hollow hold and wide plié pulses make the work block; happy baby and the couch stretch rotate in. **PUSH add-on:** doorframe stretch, prone Y raises and scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — the 70s return on the RDL",
+          "type": "workout",
+          "workoutId": "fb-w33-legs",
+          "flow": {
+            "workoutId": "fb-w33-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W33 flow — puppy pose and down-dog knee-to-head open; spiderman plank, a hollow hold and wide plié pulses make the work block; happy baby and the couch stretch rotate in. **LEGS add-on:** knee-to-wall rocks and cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — rows, reverse fly and cable crunch return",
+          "type": "workout",
+          "workoutId": "fb-w33-pull",
+          "flow": {
+            "workoutId": "fb-w33-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W33 flow — puppy pose and down-dog knee-to-head open; spiderman plank, a hollow hold and wide plié pulses make the work block; happy baby and the couch stretch rotate in. **PULL add-on:** dead hang and scapular pulls; the light curl and hold stay in the workout warmup."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Bent Press Flow + B-Stance Flow",
+          "type": "workout",
+          "workoutId": "fb-w33-kb-full",
+          "flow": {
+            "workoutId": "fb-w33-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W33 flow. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Overhead Mobility Complex",
+          "type": "workout",
+          "workoutId": "fb-w33-kb-cond",
+          "flow": {
+            "workoutId": "fb-w33-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W33 flow. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w33.json"
     }
   ],
   "tips": [
@@ -3810,17 +3925,5 @@
     ],
     "cycleNote": "This is a multi-week program. Each week has its own set of workouts. Complete all sessions in a week before moving to the next. New weeks are developed over time based on your progress and goals.",
     "weeklyStructure": "Mon: Push (Gym) → Tue: KB Full Body → Wed: Pull (Gym) → Thu: KB Conditioning → Fri: Legs (Gym) → Sat: Zone 2/Optional → Sun: Rest"
-  },
-  "pages": [
-    {
-      "label": "Baby Interim — Workout Lookup",
-      "slug": "baby-interim-lookup",
-      "file": "/static/notes-baby-interim-lookup.md"
-    },
-    {
-      "label": "Baby Interim — Playbook",
-      "slug": "baby-interim",
-      "file": "/static/notes-baby-interim.md"
-    }
-  ]
+  }
 }

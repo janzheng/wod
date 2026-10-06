@@ -299,6 +299,9 @@
 - W18D1 (spotlight): bodyweight 10/10/8, full ROM, lean grooving (legs folded back). **Mini-dip-on-the-bar warmup discovered** (see above). "Going past 10 is hard" — 10/set is the current per-set ceiling; it'll creep on its own. Shoulder quiet.
 
 - **W27D1 (spotlight) — the palm fix reproduces on demand, but the lift is still hard.** The rotated forearm position (left hand, inside palm on the bar instead of the thumb pad) was set BEFORE rep 1 and held: *"rotated palms is way better to start!"* / *"palms fine nothing to blame this time haha."* **Set the rotation before the first rep — do not go looking for it mid-set.** But dips are not a solved lift: *"i'm still struggling on dips though."* Tempo ran 1s / 3s / 2s across the three sets, so the 3s target is reachable but not yet the default.
+
+- **W32D1 — the narrow straight bar, when the V bar was camped.** 12 × 3, slow, forward lean held, *"no palm pain or shoulder pain all three sets."* W24D1 found this bar worse on the palms, but that predates the rotated-palm fix (W26D1), and whether he rotated the left forearm this time wasn't stated. V bar stays the default.
+
 ---
 
 ### Front raise — NOT programmed (rehab-only if at all)
