@@ -1,1 +1,200 @@
-[]
+[
+  {
+    "day": 1,
+    "date": "2026-10-05",
+    "workoutId": "fb-w33-push",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "The incline benches and dumbbells were taken, so the old chest press machine stood in for the incline press. The 20lb dumbbells were taken too, so the lateral raise ran on the 15lb pair for 20 reps. He forgot the cable lateral raise. A tingle-and-zap line from below the elbow up the right arm to the shoulder came on the first tricep set and cleared by set 2. Session Mon 2026-10-05, reported 2026-10-06. He forgot Yuri's band warmup before this push.",
+    "exercises": [
+      {
+        "id": "standing-dumbbell-strict-press",
+        "sets": [
+          {
+            "weight": "50lb pair",
+            "equipment": null,
+            "reps": 10,
+            "notes": null
+          },
+          {
+            "weight": "50lb pair",
+            "equipment": null,
+            "reps": 8,
+            "notes": null
+          },
+          {
+            "weight": "50lb pair",
+            "equipment": null,
+            "reps": 9,
+            "notes": null
+          }
+        ],
+        "notes": "*\"Went good 10-8-9 stopped out, completely static.\"* Load not stated; logged as the written 50lb pair. Sets 1 and 3 ran above the written 6-8. \"Completely static\" answers the reflection prompt (no knee, no drive). What \"stopped out\" ended each set was not stated."
+      },
+      {
+        "id": "dip",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "V bar",
+            "reps": 12,
+            "notes": null
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "V bar",
+            "reps": 12,
+            "notes": null
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "V bar",
+            "reps": 12,
+            "notes": null
+          }
+        ],
+        "notes": "*\"Felt great on v bar 12 strong all three sets.\"* The written station. Whether the left forearm was rotated before rep 1, and the palm, were not mentioned."
+      },
+      {
+        "id": "chest-press-machine",
+        "sets": [
+          {
+            "weight": "150",
+            "equipment": "chest press machine (old)",
+            "reps": 10,
+            "notes": null
+          },
+          {
+            "weight": "170",
+            "equipment": "chest press machine (old)",
+            "reps": 10,
+            "notes": null
+          },
+          {
+            "weight": "170",
+            "equipment": "chest press machine (old)",
+            "reps": 9,
+            "notes": "*\"Stopped out felt good.\"*"
+          }
+        ],
+        "notes": "**Mismatch: written as the incline DB press (60lb pair, 3s lowering, the day's spotlight); run on the old chest press machine instead.** *\"Everything taken so did the old chest press machine was open somehow.\"* Last logged on this machine W16D1 (165 x10 / 10 / 7). One-off, availability. The incline spotlight and its 3s lowering did not run."
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": [
+          {
+            "weight": "9",
+            "equipment": "Kinesis",
+            "reps": 12,
+            "notes": null
+          },
+          {
+            "weight": "9",
+            "equipment": "Kinesis",
+            "reps": 12,
+            "notes": null
+          },
+          {
+            "weight": "9",
+            "equipment": "Kinesis",
+            "reps": 12,
+            "notes": null
+          }
+        ],
+        "notes": "*\"Did kinesis fly 12 at 9 for three sets.\"* 12 on every set, the top of the written 10-12. Follow-up on the spotlight reflection: *\"felt in the chest stretch, no pain or weird feeling.\"*"
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          {
+            "weight": "15lb pair",
+            "equipment": null,
+            "reps": 20,
+            "notes": null
+          },
+          {
+            "weight": "15lb pair",
+            "equipment": null,
+            "reps": 20,
+            "notes": null
+          },
+          {
+            "weight": "15lb pair",
+            "equipment": null,
+            "reps": 20,
+            "notes": null
+          }
+        ],
+        "notes": "**Mismatch: written as the 20lb pair, 3 sets of 12-15; ran the 15lb pair for 20 reps, three sets, slow, because the 20lb pair was not available.** *\"Lat raise on 15 (20 taken) did 20 for three sets slow; still burned hard at end!\"* Follow-up: *\"15lb pair for 20 reps yes; no 20lb pair available.\"* One-off, availability. The prescription stays at the 20s."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": [
+          {
+            "weight": "120",
+            "equipment": "cable column",
+            "reps": "not stated",
+            "notes": null
+          },
+          {
+            "weight": "120",
+            "equipment": "cable column",
+            "reps": "not stated",
+            "notes": null
+          }
+        ],
+        "notes": "*\"Cable block did cable column for both; straight arm 120.\"* Station and number stated. Reps and rounds not stated; logged as the written two rounds."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": [
+          {
+            "weight": "70",
+            "equipment": "cable column",
+            "reps": "not stated",
+            "notes": "Right arm: a \"line\" from the elbow up the arm to the shoulder, a tingle and a zap that reached below the elbow; it warmed up and was fine after."
+          },
+          {
+            "weight": "70",
+            "equipment": "cable column",
+            "reps": "not stated",
+            "notes": null
+          }
+        ],
+        "notes": "*\"Lean back tricep at 70… the tricep could feel right shoulder first set but then warmed up and was fine.\"* Station and number stated. Reps and rounds not stated; logged as the written two rounds. This lift ran a nerve-like line down the right arm in W26D1. Follow-up: *\"felt like a 'line' from elbow up the arm to the shoulder.\"* Second follow-up: *\"a tingle and zap i think, yes below elbow, ehhh i could probably have packed it more lol.\"* It came on set 1 and cleared by set 2, so the written stop rule (the line returns and does not clear) was not met."
+      },
+      {
+        "id": "farmer-carry",
+        "sets": [
+          {
+            "weight": "60lb",
+            "equipment": "dumbbell",
+            "reps": "walk 1",
+            "notes": null
+          },
+          {
+            "weight": "60lb",
+            "equipment": "dumbbell",
+            "reps": "walk 2",
+            "notes": null
+          }
+        ],
+        "notes": "*\"Did twice and felt fine; left hand not as tight.\"* Two walks at 60, as written. Follow-up: *\"farmer carry at 60; left hand slightly weaker than last time.\"*"
+      }
+    ],
+    "rawInput": "w33d1\n\nstrict press\nwent good 10-8-9 stopped out, completely static\n\ndips felt great on v bar 12 strong all three sets\n\neverything taken so did the old chest press machine was open somehow \n150 - 10\n170 10\n170 9 stopped out felt good\n\ndid kinesis fly 12 at 9 for three sets\n\nlat raise on 15 (20 taken) did 20 for three sets slow; still burned hard at end!\n\ncable block did cable column for both; straight arm 120 and lean back tricep at 70; went fine; the tricep could feel right shoulder first set but then warmed up and was fine\n\nforgot cable lat raise oops\n\nfarmers carry did twice and felt fine; left hand not as tight",
+    "followUps": [
+      "Which day was the session? → \"yesterday\" (Mon 2026-10-05)",
+      "Lateral raise: 15lb pair for 20 reps, or the 20s? → \"15lb pair for 20 reps yes; no 20lb pair available\"",
+      "Right shoulder on the tricep, set 1: what did it feel like, and where? → \"felt like a 'line' from elbow up the arm to the shoulder\"",
+      "Kinesis fly: chest in the stretch, or the front of the shoulder? → \"felt in the chest stretch, no pain or weird feeling\"",
+      "Farmer carry: 60 or 50, and what did \"not as tight\" mean? → \"farmer carry at 60; left hand slightly weaker than last time\"",
+      "Was the line an ache, a tingle or a zap, did it go below the elbow, and had you packed the shoulders down before set 1? → \"a tingle and zap i think, yes below elbow, ehhh i could probably have packed it more lol\"",
+      "Physio booked yet? → \"no not booked physio; i guess i can, havent felt this in a while but i've done less shoulder warmup stuff (eg cut out kb days with the band; do it once a week now - that really helped)\"",
+      "Which session is your \"once a week\" band work, push-day Yuri's or the full banded block? → \"oh i forgot to do yuris yesterday, meant full banded block is something i havent done much of\"",
+      "Would you take the pushdown swap on the tricep for W34? → \"happy to rotate pushdown i dont think we've done that much\" (agreed on a premise I got wrong: the lean-back lift is already a pushdown, run weekly since W26. Re-asked.)",
+      "Physio: → \"the lean back feels fine most of the time though but i'll still book it\"",
+      "W34 tricep, which option? → \"yeah i thought you meant like a standing up on a rope handle push down which is the more common one; we can keep at is\" (keep the lean-back tricep) Then: \"or we can use the rope, either way\" (he is fine with either; the lean-back stays the default, the standing rope pushdown is pre-approved as the swap)",
+      "Upright rope pushdown in W34, or the lean-back with the ramp? → \"i dont think weve ever done the overhead rope extension before but yeah i'll follow you; either way, happy to try new things, surprise me!\" (upright rope pushdown in W34)"
+    ]
+  }
+]
