@@ -1,5 +1,7 @@
 import "jsr:@std/dotenv/load";
 import { Hono } from "hono";
+import { compress } from "https://deno.land/x/hono@v3.11.7/middleware/compress/index.ts";
+import { etag } from "https://deno.land/x/hono@v3.11.7/middleware/etag/index.ts";
 import { createWodAI, getConfig } from "./src/ai/mod.ts";
 import { complete } from "./src/ai/llm/provider.ts";
 import type { ConversationSession } from "./src/ai/types.ts";
@@ -162,6 +164,34 @@ async function readJson(path: string) {
   }
 }
 
+// A page load pulls ~4 MB of JSON and inlined JS/CSS. Gzip the text, and give
+// every body an ETag so `no-cache` below means "revalidate" (a tiny 304) instead
+// of "download it all again" — a data fix is still visible right after a deploy.
+// Images are binary: no gzip, and a day of HTTP cache instead of a fetch per view.
+const gzipText = compress();
+const tagBody = etag({ weak: true });
+const BINARY_STATIC = /\.(png|jpe?g|gif|mp3|wav)$/i;
+app.use("*", async (c, next) => {
+  const p = c.req.path;
+  if (
+    c.req.method !== "GET" || p.startsWith("/api/ai/") ||
+    p.startsWith("/_smolbox/") || p.startsWith("/cdn-cgi/")
+  ) return next();
+  // Headers go on after the handler runs: a route that returns a bare Response
+  // (the static files do) would drop anything set before it.
+  if (BINARY_STATIC.test(p)) {
+    await tagBody(c, next);
+    if (c.res.status === 200 || c.res.status === 304) {
+      c.header("Cache-Control", "public, max-age=86400");
+    }
+    return;
+  }
+  await gzipText(c, async () => {
+    await tagBody(c, next);
+  });
+  c.header("Vary", "Accept-Encoding");
+});
+
 // API Routes for JSON data
 
 // The catalogue is read fresh from disk per request, but the browser will
@@ -277,18 +307,7 @@ app.get("/api/programs", async (c) => {
     ) {
       if (entry.name.endsWith(".json")) {
         const data = await readJson(`./programs/${entry.name}`);
-        if (data) {
-          // Resolve external log files into inline log arrays
-          if (data.weeks) {
-            for (const week of data.weeks) {
-              if (week.logFile) {
-                const logData = await readJson(`./programs/${week.logFile}`);
-                if (logData) week.log = logData;
-              }
-            }
-          }
-          programs.push(data);
-        }
+        if (data) programs.push(data);
       }
     }
   } catch { /* programs directory may not exist yet */ }
@@ -299,15 +318,6 @@ app.get("/api/programs/:id", async (c) => {
   const id = c.req.param("id");
   const data = await readJson(`./programs/${id}.json`);
   if (!data) return c.json({ error: "Not found" }, 404);
-  // Resolve external log files into inline log arrays
-  if (data.weeks) {
-    for (const week of data.weeks) {
-      if (week.logFile) {
-        const logData = await readJson(`./programs/${week.logFile}`);
-        if (logData) week.log = logData;
-      }
-    }
-  }
   return c.json(data);
 });
 
@@ -840,44 +850,13 @@ function renderPage(
             </div>
           </div>
 
-          <div class="sidebar-group">
-            <div class="sidebar-group-label">Saved Workouts</div>
-            <nav class="sidebar-menu">
-              <template x-if="loading">
-                <div class="sidebar-loading">
-                  <span class="iconify" data-icon="lucide:loader-2" style="animation: spin 1s linear infinite;"></span>
-                  <span>Loading...</span>
-                </div>
-              </template>
-              <template x-if="!loading && savedWorkouts.length === 0">
-                <div class="sidebar-empty">
-                  <span class="iconify" data-icon="lucide:inbox"></span>
-                  <span>No saved workouts</span>
-                </div>
-              </template>
-              <template x-for="(workout, idx) in savedWorkouts" :key="'saved-' + idx + '-' + workout.id">
-                <div class="sidebar-menu-item">
-                  <button
-                    class="sidebar-menu-button"
-                    :class="{ 'active': selectedWorkoutId === workout.id }"
-                    @click="selectWorkout(workout.id)"
-                  >
-                    <span class="iconify sidebar-icon" :data-icon="getWorkoutIcon(workout)"></span>
-                    <span class="sidebar-menu-label" x-text="workout.name"></span>
-                    <span class="sidebar-menu-badge" x-show="workout.estimatedDuration" x-text="workout.estimatedDuration + 'm'"></span>
-                  </button>
-                </div>
-              </template>
-            </nav>
-          </div>
-
           <template x-if="programs.length > 0">
           <div class="sidebar-group">
             <div class="sidebar-group-label">Programs</div>
             <div class="folder-tree">
               <template x-for="(program, progIdx) in programs" :key="'prog-' + progIdx + '-' + program.id">
                 <div class="folder-tree-folder" x-data="{ expanded: false }">
-                  <div class="folder-tree-folder-row" @click="expanded = !expanded">
+                  <div class="folder-tree-folder-row" @click="program.weeks && program.weeks.length ? (expanded = true, selectWeek(program, program.weeks.length - 1)) : (expanded = !expanded)">
                     <button class="folder-tree-toggle" @click.stop="expanded = !expanded">
                       <svg class="folder-tree-chevron" :class="{ 'rotated': expanded }" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9 18 15 12 9 6"></polyline>
@@ -911,7 +890,7 @@ function renderPage(
                     <template x-if="program.weeks && program.weeks.length > 0">
                       <div style="display: flex; flex-direction: column-reverse;">
                         <template x-for="(week, weekIdx) in program.weeks" :key="'prog-week-' + progIdx + '-' + weekIdx">
-                          <div x-data="{ weekExpanded: false }">
+                          <div x-data="{ weekExpanded: false }" x-effect="selectedProgram && selectedProgram.id === program.id && selectedWeekIdx === weekIdx && (weekExpanded = true)">
                             <div class="folder-tree-item"
                               style="cursor: pointer;"
                               @click="weekExpanded = !weekExpanded">
@@ -969,6 +948,37 @@ function renderPage(
             </div>
           </div>
           </template>
+
+          <div class="sidebar-group">
+            <div class="sidebar-group-label">Saved Workouts</div>
+            <nav class="sidebar-menu">
+              <template x-if="loading">
+                <div class="sidebar-loading">
+                  <span class="iconify" data-icon="lucide:loader-2" style="animation: spin 1s linear infinite;"></span>
+                  <span>Loading...</span>
+                </div>
+              </template>
+              <template x-if="!loading && savedWorkouts.length === 0">
+                <div class="sidebar-empty">
+                  <span class="iconify" data-icon="lucide:inbox"></span>
+                  <span>No saved workouts</span>
+                </div>
+              </template>
+              <template x-for="(workout, idx) in savedWorkouts" :key="'saved-' + idx + '-' + workout.id">
+                <div class="sidebar-menu-item">
+                  <button
+                    class="sidebar-menu-button"
+                    :class="{ 'active': selectedWorkoutId === workout.id }"
+                    @click="selectWorkout(workout.id)"
+                  >
+                    <span class="iconify sidebar-icon" :data-icon="getWorkoutIcon(workout)"></span>
+                    <span class="sidebar-menu-label" x-text="workout.name"></span>
+                    <span class="sidebar-menu-badge" x-show="workout.estimatedDuration" x-text="workout.estimatedDuration + 'm'"></span>
+                  </button>
+                </div>
+              </template>
+            </nav>
+          </div>
 
           <!-- AI Custom Workouts -->
           <template x-if="customWorkouts && customWorkouts.length > 0">
@@ -1764,44 +1774,6 @@ function renderPage(
                   <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
                 </a>
               </template>
-
-              <!-- Session Log -->
-              <template x-if="workoutLog">
-                <div x-data="{ logOpen: false }" style="margin-top: 0.75rem;">
-                  <div @click="logOpen = !logOpen" style="cursor: pointer; display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; opacity: 0.7;">
-                    <svg :style="logOpen ? 'transform: rotate(90deg)' : ''" width="12" height="12" style="min-width: 12px; max-width: 12px; min-height: 12px; max-height: 12px; flex-shrink: 0; transition: transform 0.15s;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-                    <span x-text="'Session Log (' + workoutLog.entries.length + ')'"></span>
-                  </div>
-                  <div x-show="logOpen" x-collapse style="margin-top: 0.5rem;">
-                    <template x-for="(entry, entryIdx) in workoutLog.entries" :key="'log-' + entryIdx">
-                      <div style="padding: 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; margin-bottom: 0.5rem; font-size: 0.8rem;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
-                          <span style="font-weight: 600;" x-text="entry.date"></span>
-                          <template x-if="entry.cardio">
-                            <span style="opacity: 0.6; font-size: 0.75rem;" x-text="entry.cardio"></span>
-                          </template>
-                        </div>
-                        <template x-if="entry.notes">
-                          <p style="margin: 0 0 0.5rem 0; opacity: 0.8; line-height: 1.4;" x-text="entry.notes"></p>
-                        </template>
-                        <template x-if="entry.exercises && entry.exercises.length > 0">
-                          <div style="display: flex; flex-direction: column; gap: 0.35rem;">
-                            <template x-for="(ex, exIdx) in entry.exercises" :key="'logex-' + exIdx">
-                              <div style="display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; align-items: baseline;">
-                                <span style="font-weight: 500; min-width: 140px;" x-text="ex.id + (ex.swappedFor ? ' (for ' + ex.swappedFor + ')' : '')"></span>
-                                <span style="opacity: 0.7; font-size: 0.75rem;" x-text="ex.sets.join(' / ')"></span>
-                                <template x-if="ex.workingWeight">
-                                  <span style="font-size: 0.7rem; background: var(--color-bg, #fff); border: 1px solid var(--color-border, #e5e7eb); border-radius: 3px; padding: 0 4px; white-space: nowrap;">Working: <span x-text="ex.workingWeight"></span> lbs</span>
-                                </template>
-                              </div>
-                            </template>
-                          </div>
-                        </template>
-                      </div>
-                    </template>
-                  </div>
-                </div>
-              </template>
             </div>
 
             <template x-if="!timerMode">
@@ -2213,19 +2185,6 @@ function routineStackApp() {
       return this.allWorkouts.find(w => w.id === this.selectedWorkoutId) || null;
     },
 
-    get workoutLog() {
-      if (!this.selectedWorkoutId) return null;
-      for (const program of this.programs) {
-        if (!program.weeks) continue;
-        for (const week of program.weeks) {
-          if (!week.log) continue;
-          const entries = week.log.filter(l => l.workoutId === this.selectedWorkoutId);
-          if (entries.length > 0) return { program, week, entries };
-        }
-      }
-      return null;
-    },
-
     get workoutFlow() {
       if (!this.selectedWorkoutId) return null;
       for (const program of this.programs) {
@@ -2435,9 +2394,11 @@ function routineStackApp() {
         }
       });
 
-      await this.loadData();
-      await this.loadExercisesCatalogue();
-      await this.loadProgressions();
+      await Promise.all([
+        this.loadData(),
+        this.loadExercisesCatalogue(),
+        this.loadProgressions(),
+      ]);
       this.autoLoadRandomWorkout();
 
       // Initialize AI chat panel
@@ -2458,65 +2419,53 @@ function routineStackApp() {
       this.routines = [];
       this.allWorkouts = [];
 
+      // All four requests go out together; each one fails on its own, so a bad
+      // response from one doesn't take the others down.
+      const getJson = (url, label) => fetch(url).then((res) => {
+        if (res.ok) return res.json();
+        console.warn('Failed to load ' + label + ' - Status: ' + res.status);
+        return null;
+      }).catch((e) => {
+        console.warn('Could not load ' + label + ':', e);
+        return null;
+      });
+
       try {
-        // Load all routines in one call
-        try {
-          const res = await fetch('/api/routines');
-          if (res.ok) {
-            this.routines = await res.json();
-            console.log('Loaded ' + this.routines.length + ' routines');
-          } else {
-            console.warn('Failed to load routines - Status: ' + res.status);
-          }
-        } catch (e) {
-          console.warn('Could not load routines:', e);
+        const [routines, workouts, saved, programs] = await Promise.all([
+          getJson('/api/routines', 'routines'),
+          getJson('/api/workouts', 'workouts'),
+          getJson('/api/saved', 'saved workouts'),
+          getJson('/api/programs', 'programs'),
+        ]);
+
+        if (routines) {
+          this.routines = routines;
+          console.log('Loaded ' + this.routines.length + ' routines');
         }
 
-        // Load all workouts in one call from compiled file
-        try {
-          const res = await fetch('/api/workouts');
-          if (res.ok) {
-            this.allWorkouts = await res.json();
-            console.log('Loaded ' + this.allWorkouts.length + ' workouts');
-          } else {
-            console.warn('Failed to load workouts - Status: ' + res.status);
-          }
-        } catch (e) {
-          console.warn('Could not load workouts:', e);
+        if (workouts) {
+          this.allWorkouts = workouts;
+          console.log('Loaded ' + this.allWorkouts.length + ' workouts');
         }
 
-        // Load all saved workouts in one call
-        try {
-          const res = await fetch('/api/saved');
-          if (res.ok) {
-            const savedDataList = await res.json();
-            for (const savedData of savedDataList) {
-              if (savedData.workoutRef) {
-                const actualWorkout = this.allWorkouts.find(w => w.id === savedData.workoutRef);
-                if (actualWorkout) {
-                  this.savedWorkouts.push({ ...actualWorkout, savedAt: savedData.savedAt, alias: savedData.alias });
-                }
-              } else if (savedData.id) {
-                this.savedWorkouts.push(savedData);
+        // Saved workouts point into the catalogue, so they resolve after it lands
+        if (saved) {
+          for (const savedData of saved) {
+            if (savedData.workoutRef) {
+              const actualWorkout = this.allWorkouts.find(w => w.id === savedData.workoutRef);
+              if (actualWorkout) {
+                this.savedWorkouts.push({ ...actualWorkout, savedAt: savedData.savedAt, alias: savedData.alias });
               }
+            } else if (savedData.id) {
+              this.savedWorkouts.push(savedData);
             }
-            console.log('Loaded ' + this.savedWorkouts.length + ' saved workouts');
-          } else {
-            console.warn('Failed to load saved workouts - Status: ' + res.status);
           }
-        } catch (e) {
-          console.warn('Could not load saved workouts:', e);
+          console.log('Loaded ' + this.savedWorkouts.length + ' saved workouts');
         }
 
-        // Load programs
-        try {
-          const res = await fetch('/api/programs');
-          if (res.ok) {
-            this.programs = (await res.json()).sort((a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99));
-            console.log('Loaded ' + this.programs.length + ' programs');
-          }
-        } catch (e) {
-          console.warn('Could not load programs:', e);
+        if (programs) {
+          this.programs = programs.sort((a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99));
+          console.log('Loaded ' + this.programs.length + ' programs');
         }
       } catch (e) {
         console.error('Error loading data:', e);
