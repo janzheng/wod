@@ -76,7 +76,7 @@ const RESET = "\x1b[0m";
 // ============================================================================
 
 // Data dir is the project root (exercises/, workouts/, routines/, progressions/)
-const dataDir = new URL("../../", import.meta.url).pathname;
+const dataDir = decodeURIComponent(new URL("../../", import.meta.url).pathname);
 const overrides: Record<string, string> = {};
 if (args.model) overrides.model = args.model;
 if (args["provider-url"]) overrides.baseUrl = args["provider-url"];

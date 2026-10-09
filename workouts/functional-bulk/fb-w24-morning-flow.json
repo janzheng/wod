@@ -1,0 +1,86 @@
+{
+  "id": "fb-w24-morning-flow",
+  "name": "W24 Morning Flow — Bodyweight Spine + Hip (All Days, Rotated Variety)",
+  "description": "Fifteen minutes, three parts: primer, work, then the deep stretch arc. Work before stretches — warm muscle stretches further.\n\nThis week's rotation swaps in the low-lunge thoracic rotation up front, the McGill crunch and glute bridge in the work block, and brings thread-the-needle, happy baby and the straddle reaches back into the yoga arc. The rehab cluster and the pushup greasing set never rotate.",
+  "routineId": "functional-bulk",
+  "tags": ["mobility", "morning", "bodyweight", "yoga", "rehab"],
+  "estimatedDuration": 15,
+  "equipment": ["none", "pull-up-bar"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "primer",
+      "name": "Primer — Wake the Spine (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "cat-cow", "duration": 60, "notes": "Full range both directions, breathing with the movement. Slow — the spine's first move of the day." },
+        { "id": "low-lunge-thoracic-rotation", "duration": 90, "notes": "**Rotated in this week.** 45s each side. From a low lunge, reach the inside hand down and rotate the opposite arm to the ceiling. Hip flexor and upper back in one move — follow the hand with your eyes." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, hinged slightly forward. Tight fists, thumbs tucked, rotate the wrists internally and hold the tension." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Bodyweight Activation (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "push-up", "reps": "max-ish (~2-3 in reserve)", "notes": "**Greasing set — never to failure.** Leave 2-3 in the tank. Elbows ~45°, **pack down not up**. A daily habit, not a training set." },
+        { "id": "mcgill-crunch", "reps": "8 each side", "notes": "**Rotated in this week.** Hands under the low back, one knee bent, curl just the head and shoulders up a couple of inches. **The low back never flattens or arches** — the hands are there so you can feel it stay put. Small range on purpose." },
+        { "id": "glute-bridge", "reps": 15, "notes": "**Back in the rotation.** Heels close, drive through them, squeeze the glutes at the top and hold a beat. **Ribs down** — don't arch the low back to get higher." },
+        { "id": "barre-fire-hydrant", "reps": "12 each side", "notes": "**Rotated in this week.** On all fours, lift the bent knee out to the side. **Hips stay square** — if the torso rolls open, the glute stopped doing it. Small controlled reps." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "scorpion-stretch", "duration": 60, "notes": "30s each side. Thoracic + hip flexor opener. Top leg crosses, chest stays down." },
+        { "id": "thread-the-needle", "duration": 60, "notes": "**Back in the rotation.** 30s each side. From all fours, thread one arm under the body and let the shoulder settle to the floor. Thoracic rotation — breathe into the twist." },
+        { "id": "lizard-pose", "duration": 90, "notes": "45s each side. Deep hip opener. Forearms down if the hip allows, hands if not." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Bodyweight, slow. Sit into one hip, other leg straight, heel down. **Take note of how these feel** — an early read on how fresh the legs are before any training." },
+        { "id": "leg-straddle-reaches", "duration": 90, "notes": "**Back in the rotation.** 45s. Wide straddle seated, reach to each foot then down the middle. Adductors and hamstrings — the lateral lunges and cossacks bill here." },
+        { "id": "happy-baby", "duration": 60, "notes": "**Back in the rotation — a W12-era favorite.** On the back, knees to the armpits, hold the feet. Inner hips and low back release. Rock gently side to side." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "day-specific",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 90, "notes": "**PUSH DAY.** 45s each arm at MID elbow height." },
+        { "id": "prone-y-raises", "reps": 10, "notes": "**REHAB ANCHOR — every day.** Face down, arms in a Y, lift with the lower traps. Slow, small range." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "**REHAB ANCHOR — every day.** Plank, arms locked, only the blades move." },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "**REHAB ANCHOR — every day.** Elbow pinned to the ribs, small controlled range. Light or no weight." },
+        { "id": "wall-angel", "reps": 12, "notes": "**REHAB ANCHOR — every day.** Back flat to the wall, arms slide keeping contact. Where it leaves the wall is your real range." },
+        { "id": "dead-hang", "duration": 25, "notes": "**REHAB ANCHOR — every day.** Passive hang, shoulders relaxed." },
+        { "id": "scapular-pull", "reps": 10, "notes": "**REHAB ANCHOR — every day.** From a dead hang, pull the shoulders down without bending the arms." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "**LEGS DAY / QL.** 30s each side." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "**LEGS + KB DAY.** 45s each side." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "**ANY DAY.** 30s each side." }
+      ],
+      "notes": "The six rehab anchors run every day. Add the day-specific pieces on top based on what you're training.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Order matters: work before stretches.** Warm muscle stretches deeper.",
+    "**Rotated in this week:** low-lunge thoracic rotation, McGill crunch, glute bridge, barre fire hydrant, thread-the-needle, leg straddle reaches, happy baby.",
+    "**Rotated out this week:** hip-flexor lunge, plank shoulder-taps, dead-bug, inchworm walkout, down-dog-knee-to-head, couch stretch, frog stretch.",
+    "**Never rotates:** the six rehab anchors (prone Y, scapular push-up, side-lying ER, wall angel, dead hang, scapular pull) and the pushup greasing set.",
+    "**Push-ups leave 2-3 in reserve** — a greasing habit, never a training set.",
+    "**McGill crunch is a small-range lift** — the low back stays exactly where it is; that's the whole exercise.",
+    "**Cossacks are an early warning system** — if they feel tired here, the legs are tired before the session starts.",
+    "Not too hard, not too long — this precedes training, it doesn't replace it."
+  ]
+}

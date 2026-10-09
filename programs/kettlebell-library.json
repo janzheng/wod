@@ -1,0 +1,244 @@
+{
+  "id": "kettlebell-library",
+  "name": "Kettlebell Library",
+  "description": "Every standalone kettlebell workout in one place, with no schedule. Grab whichever fits the time and the mood: the flows first, then the conditioning blocks, full-body sessions, and the split and short ones. The optional KB days in Functional Bulk stay where they are.",
+  "creator": "WOD",
+  "frequency": null,
+  "sortOrder": 3,
+  "difficulty": "intermediate",
+  "equipment": [
+    "kettlebell"
+  ],
+  "tags": [
+    "kettlebell",
+    "library"
+  ],
+  "overview": {
+    "duration": "Ongoing — no end date",
+    "goal": "A menu of kettlebell sessions to pull from, whatever the week looks like.",
+    "whatToExpect": "The list runs in four groups: flows and complexes (the bell stays in your hands), conditioning (short and hard), full-body sessions, and split or short work (legs, upper, core, finishers). The minutes in each name are the whole session.",
+    "keyPrinciples": [
+      "1. Flows and complexes: smooth beats fast. The bell stays in your hands and each move hands off to the next.",
+      "2. Conditioning: fifteen minutes or less, so pick it on a day when the legs and grip are fresh.",
+      "3. Full-body sessions: the ones to repeat. Add reps or weight a little each time you run one.",
+      "4. Split and short: legs, upper and core work to bolt onto another session."
+    ]
+  },
+  "tips": [
+    "No schedule — pick whatever you feel like.",
+    "Heavy Doubles needs two bells of equal weight.",
+    "Flows run one side, then the other."
+  ],
+  "schedule": [
+    {
+      "day": 1,
+      "label": "Bent Press Flow · 15m",
+      "type": "workout",
+      "workoutId": "kb-flow-dead-clean-press",
+      "notes": "Dead clean, squat, lateral lunge, bent press, tactical clean. One side, then the other."
+    },
+    {
+      "day": 2,
+      "label": "Leggy Flow · 15m",
+      "type": "workout",
+      "workoutId": "kb-leggy-flow",
+      "notes": "Bent Press Flow's lower-body cousin: dead clean, curtsy and lateral lunges, lateral squat clean, tactical clean."
+    },
+    {
+      "day": 3,
+      "label": "B-Stance Flow · 25m",
+      "type": "workout",
+      "workoutId": "kb-b-stance-flow",
+      "notes": "B-stance swing, swing clean, B-stance squat, split stance snatch, overhead lunge. 5 reps a side, 5 rounds."
+    },
+    {
+      "day": 4,
+      "label": "Outside Snatch Flow · 16m",
+      "type": "workout",
+      "workoutId": "kb-outside-snatch-flow",
+      "notes": "The most overhead-loaded flow here: figure 8 into a rack, transverse lunge, then the bell overhead four ways."
+    },
+    {
+      "day": 5,
+      "label": "Dead Cluster Flow · 14m",
+      "type": "workout",
+      "workoutId": "kb-dead-cluster-flow",
+      "notes": "Ballistic, overhead cousin of the Leggy Flow: dead cluster, snatch, iron cross, outside pendulum, tactical clean, reverse lunge, offset rack squat."
+    },
+    {
+      "day": 6,
+      "label": "Kickstand 5-4-3-2 · 15m",
+      "type": "workout",
+      "workoutId": "kb-kickstand-5432-complex",
+      "notes": "One arm, bell never down: 5 kickstand rows, 4 step-together cleans, 3 strict presses, 2 snatches. Switch sides."
+    },
+    {
+      "day": 7,
+      "label": "Figure-8 to Tactical Clean · 25m",
+      "type": "workout",
+      "workoutId": "kb-figure-8-tactical-clean-complex",
+      "notes": "Single-bell hand-switch complex: the figure-8 pass exits into a clean to rack, then a tactical clean back."
+    },
+    {
+      "day": 8,
+      "label": "Long Coordination Gauntlet · 15m",
+      "type": "workout",
+      "workoutId": "kb-long-coordination-gauntlet",
+      "notes": "Fourteen chained moves on one side, then the other. Swings, cleans, overhead work, lateral and curtsy lunges."
+    },
+    {
+      "day": 9,
+      "label": "Overhead Mobility Complex · 15m",
+      "type": "workout",
+      "workoutId": "kb-overhead-mobility-complex",
+      "notes": "Row, snatch, overhead lunge, overhead squat, push press. 5 rounds, 5 reps a side."
+    },
+    {
+      "day": 10,
+      "label": "Light Flow · 20m",
+      "type": "workout",
+      "workoutId": "kb-light-flow",
+      "notes": "Light bell, higher reps, short rest. Movement quality and active recovery."
+    },
+    {
+      "day": 11,
+      "label": "Brutal Complex · 15m",
+      "type": "workout",
+      "workoutId": "kb-brutal-complex",
+      "notes": "Swing, squat, row, push-up, 10 reps each, 4 rounds. Bell stays in your hands between moves."
+    },
+    {
+      "day": 12,
+      "label": "Cardio Complex · 20m",
+      "type": "workout",
+      "workoutId": "kb-cardio-complex",
+      "notes": "Row, clean, squat, snatch, 6 reps each side, 5 rounds. One lighter bell."
+    },
+    {
+      "day": 13,
+      "label": "Conditioning Blast · 15m",
+      "type": "workout",
+      "workoutId": "kb-conditioning-blast",
+      "notes": "Swings, cleans, snatches, thrusters, fast. Pairs with a rower or treadmill for a 30 min session."
+    },
+    {
+      "day": 14,
+      "label": "9-Minute AMRAP · 12m",
+      "type": "workout",
+      "workoutId": "kb-gymvibe-9min-amrap",
+      "notes": "Ballistic row, thruster, reverse lunge with knee drive, no rest. As many rounds as possible in 9 minutes."
+    },
+    {
+      "day": 15,
+      "label": "Four-Move Circuit · 15m",
+      "type": "workout",
+      "workoutId": "kb-gymfiesta-full-body-circuit",
+      "notes": "Pass to squat, reverse lunge to knee drive, snatch, press to march. A circuit, each move on its own clock."
+    },
+    {
+      "day": 16,
+      "label": "100 Rep Daily Challenge · 30m",
+      "type": "workout",
+      "workoutId": "kb-100-rep-daily-challenge",
+      "notes": "100 reps of each of 6 moves with a light bell. Each block has variants so it stays fresh."
+    },
+    {
+      "day": 17,
+      "label": "The Only KB Workout · 35m",
+      "type": "workout",
+      "workoutId": "kb-the-only-workout",
+      "notes": "Swings, clean-to-squats, chest press, Turkish get-ups. Repeatable; progress with weight or reps."
+    },
+    {
+      "day": 18,
+      "label": "Beginner Full Body · 20m",
+      "type": "workout",
+      "workoutId": "kb-beginner-full-body",
+      "notes": "One bell, four exercises, full body."
+    },
+    {
+      "day": 19,
+      "label": "Beginner Strength Builder · 35m",
+      "type": "workout",
+      "workoutId": "kb-beginner-strength",
+      "notes": "Swings, squats, presses, rows, 5 rounds."
+    },
+    {
+      "day": 20,
+      "label": "Athletic Alternating · 20m",
+      "type": "workout",
+      "workoutId": "kb-athletic-alternating",
+      "notes": "Everything alternates: cleans, squats, presses, plus core. Finishes with offset push-ups on the bell."
+    },
+    {
+      "day": 21,
+      "label": "Full Body Circuit · 40m",
+      "type": "workout",
+      "workoutId": "kb-full-body-circuit",
+      "notes": "All major muscle groups, single bell, moderate weight."
+    },
+    {
+      "day": 22,
+      "label": "Full Body Shred · 40m",
+      "type": "workout",
+      "workoutId": "kb-full-body-shred",
+      "notes": "Squat, hinge, push, pull, unilateral and core, heavier on lower body."
+    },
+    {
+      "day": 23,
+      "label": "Random Circuit · 30m",
+      "type": "workout",
+      "workoutId": "kb-random-circuit",
+      "notes": "Randomized exercises across all the movement patterns. Shuffle for a fresh one."
+    },
+    {
+      "day": 24,
+      "label": "Heavy Doubles · 35m",
+      "type": "workout",
+      "workoutId": "kb-heavy-doubles-circuit",
+      "notes": "Two bells of equal weight. Heavier loads, lower reps, longer rest."
+    },
+    {
+      "day": 25,
+      "label": "Legs Circuit · 25m",
+      "type": "workout",
+      "workoutId": "kb-legs-circuit",
+      "notes": "Quad and glute focused, with classic KB leg work."
+    },
+    {
+      "day": 26,
+      "label": "Athletic Lunge Variations · 15m",
+      "type": "workout",
+      "workoutId": "kb-athletic-lunge-variations",
+      "notes": "Lunge clean-to-press, split pass thrust, lunge snatch, step-back swings."
+    },
+    {
+      "day": 27,
+      "label": "Upper Body Circuit · 25m",
+      "type": "workout",
+      "workoutId": "kb-upper-circuit",
+      "notes": "Push, pull and press with a single bell. Shoulders, back, pressing strength."
+    },
+    {
+      "day": 28,
+      "label": "Overhead Halo Pyramid · 8m",
+      "type": "workout",
+      "workoutId": "kb-overhead-halo-pyramid",
+      "notes": "Light bell. Overhead tricep extension into a halo, one more rep each round. Warm-up or finisher."
+    },
+    {
+      "day": 29,
+      "label": "Core Library · 15m",
+      "type": "workout",
+      "workoutId": "kb-core-library",
+      "notes": "Russian twists, windmills, halos, side bends, swings. A core finisher, or pick your own circuit."
+    },
+    {
+      "day": 30,
+      "label": "Daily Controlled Power · 15m",
+      "type": "workout",
+      "workoutId": "kb-daily-controlled-power",
+      "notes": "50 circles plus 60 reps of swings, pulls and squats. No running, no jumping."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "fb-w21-legs",
+  "name": "Week 21 Legs — Steady State (Spotlight: Squat Depth + Incline RDL)",
+  "description": "Volume steady. **Warmup reminder:** bodyweight squat (depth check) → cross-leg lateral lean (QL/psoas) → hip circles → tibialis raise → cat-cow → internal core fist rotation → dead-bug core/QL primer → bodyweight lunge (QL check).\n\nBoth ramps stay, because you called them out unprompted — the squat's 45→70→80 ('ramp is beautiful') and the leg curl's 70→80→90→100 ('curl ramp is also great'). Two votes in one session for the same structure is a real signal, so nothing about them changes.\n\nSpotlights cycle to the **squat** (80 is stable and the ramp is landing — depth is the one thing still open) and the **incline RDL** (three weeks of 'went fine' with no read; it's the only lift on the day with no known ceiling). Leg press holds 4 plates with full ROM. Bulgarian holds the double-50s.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "form-first", "spotlight-rotation", "station-focused"],
+  "estimatedDuration": 60,
+  "equipment": ["barbell", "dumbbell", "machine", "bench"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Steady state. Both ramps stay — you praised them both, unprompted, in the same session. Spotlights cycle to the squat (80 is stable; depth is the last open thread) + the incline RDL (three weeks of 'went fine' and no actual read). Leg press holds 4 plates, deep. Bulgarian holds double-50. Order is yours by availability — a few pairings are not.",
+    "spotlights": [
+      {
+        "exerciseId": "squat",
+        "why": "Cycles forward — W20 ran the full 45→70→80 ramp two sets a rung and you called it 'beautiful.' Stability at 80 is now a settled fact (W19: 'the most solid i ever felt'; W20: clean 8s). The one thing that has never actually closed is DEPTH — the catcher bar is set at your true bodyweight-bar depth and the loaded sets still don't reach it. Spotlight drills sitting into the bottom under load, which is the only unlock left here. Not more weight. Not more sets."
+      },
+      {
+        "exerciseId": "incline-rdl",
+        "why": "Cycles forward for the same reason the farmer carry got spotlighted on push day: it keeps coming back as 'went fine' and nothing else. Three weeks, no reps read, no tempo read, no idea where its ceiling is — and it's a hinge, so it's the one lift here where sloppiness is genuinely expensive. Spotlight drills the tempo (3s down, 2s pause) and asks where the stretch actually lands, because 'fine' is not a read."
+      }
+    ],
+    "rotationPlan": "W19 squat depth + leg curl · W20 leg press + Bulgarian · W21 squat depth + incline RDL (current) · W22 cycle forward — leg press + calf raise refresh.",
+    "watchpoints": [
+      "**🔥/🛑 intensity tags — decide before the set.** 🔥 near-failure / pyramid OK (safe machine/isolation): leg press (near-failure last set at 4 plates — depth is the load lever, not plates), calf raise, leg curl (pyramid the load to a tested top). 🛑 keep it shy, the cue/depth is the cap: squat, Bulgarian, incline RDL. **Order:** form lever first (tempo/ROM), load second, near-failure/pyramid only on 🔥.",
+      "**Order is YOURS — take stations as they free up.** You've been running this by availability and it's working (leg press 'always feels easier later in the workout' — likely just a warmup effect). Keep doing that. **Two pairings are NOT negotiable, though:** the calf raise stays ON the leg press (same machine — don't walk off and come back), and the leg curl stays BEFORE the incline RDL (reversed, the two hamstring lifts stack and the second one is wasted).",
+      "**Both ramps stay untouched.** You praised the squat ramp and the curl ramp in the same session, unprompted. That's the structure working — nothing changes.",
+      "**Squat spotlight — DEPTH, and only depth.** 80 is stable and the 8s are clean. Set the catcher bars at your max bodyweight-bar depth as the target, take the FULL 2-3 min rest on the working sets, and chase the bottom. 🛑 Never grind a loaded squat. Stop adding working sets the moment the depth shortens — a shallow rep at 80 is worth less than a deep one at 70.",
+      "**Incline RDL spotlight — 'fine' is not a read.** Hold the 45lb plate. 3s eccentric, 2s pause at the bottom, and tell me WHERE the stretch lands: hamstrings and glutes (correct) or lower back (too deep for current mobility). 🛑 tempo is the entire lever on a hinge — never chase load, never grind.",
+      "**Leg press holds 4 plates, deep.** W20: 12s across all four sets, 'both strong and full rom.' 🔥 A near-failure last set is fair game — but don't add plates, because heavier plates shorten the deep knees-to-chest ROM that's the whole point.",
+      "**Bulgarian holds double-50 — 'brutal at end but proper weight.'** That's the correct read; it's supposed to be brutal at the end. 🛑 form is the cap: front shin vertical, drive through the front heel. Pigeon on the bench between sets. If anything twitches, drop to bodyweight and finish.",
+      "**Leg curl keeps the pyramid — 70 primer → 80 → 90 → 100**, judged by FEEL (heels driving, no torso lift) on normal rest. Settings 5/m/0/-1 (verify before loading). 🔥",
+      "**Dead-bug core/QL primer stays in the warmup** — wakes the deep core before the leg press.",
+      "**QL/psoas watch** — cross-leg lateral lean in the warmup AND cool-down. QL's been clear for weeks. If anything talks in the warmup, modify the day."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (incl. Cross-Leg Lateral Lean — QL/Psoas Release + Dead-Bug Core/QL Primer)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "bodyweight-squat", "reps": 15, "notes": "Full depth, slow. Find where the hips are tight and breathe into it. Depth check before loading — and today depth IS the spotlight, so pay attention to what the bottom feels like unloaded." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — the stretch runs down the side of the waist into the QL and lateral hip. Do this before loading the squat." },
+        { "id": "hip-circle", "reps": "10 each direction", "notes": "Big slow circles. Wake up the hip stabilizers." },
+        { "id": "tibialis-raise", "reps": 20, "notes": "Back to a wall, heels a step out, weight on the heels. Pull the toes UP toward the shins as high as they'll go, lower slow. Preps ankle dorsiflexion — which is often what actually caps squat depth." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine mobility — slow, full ROM each direction." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension. Quick posterior-chain + low-back opener before loading the squat." },
+        { "id": "dead-bug", "reps": "8 each side", "notes": "**Core/QL primer.** On your back, arms up, knees over hips. Press the lower back FLAT into the floor and HOLD it there as you slowly extend the opposite arm + leg, then switch. The brace is the work — wakes the deep core before the leg press." },
+        { "id": "lunge", "reps": "5 each leg", "notes": "Bodyweight. QL check — if anything talks here, modify the day. Also previews the Bulgarian pattern." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup — the ROM Ramp (45 → 70) 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "squat", "reps": "8 / 8", "notes": "**The bottom half of the 45→70→80 ramp. Set the catcher bars at your max bodyweight-bar depth first** — that's the depth target AND the safety.\n\nW20 ran this exactly and you called it 'beautiful.' It stays.\n- **Set 1: 45/side x8** — drill max depth: sit all the way into the bottom, tap the catcher if you can, controlled reps, no bounce\n- **Set 2: 70/side x8** — the intermediary ROM-builder. Same depth as the working sets, heavier so the bottom's honest\n- **🛑 Move fast through these submaximal ramp sets** (short rest) — save the full rest for the 80 working sets." }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "squat-working",
+      "name": "🔆 Squat Working (80 — Spotlight: DEPTH, and only depth) 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "squat", "reps": "6-8", "notes": "**LOAD:** 80/side. Working sets off the ramp. W20 was 80x8 x2, clean, off a ramp you loved. W19 was 'the most solid i ever felt, really stable.'\n\n**🔆 SPOTLIGHT — stability is banked; DEPTH is the last thing open here:**\n- **The load is not the question and neither are the reps.** 80 for clean 8s is a settled fact across two weeks. What has never closed is whether the loaded bottom reaches the depth your bodyweight bottom reaches\n- **Set the catcher bars at your true max depth** and chase the bar down toward them. That's the target, not a number on the plates\n- **Take the FULL rest here (2-3 min)** — the deeper, more solid sets have consistently come with more rest. The rest is part of the depth\n- Bar high on the upper traps, upper-back shelf squeezed\n- **Brace like prepping for a punch** — deep belly breath at the top, HOLD through the descent, exhale on the drive up\n- **Hips back AND down**, 'spread the floor' — screw the feet in, knees track over the toes\n- **Sit INTO the bottom** — you find depth more easily under load than without it; use that\n- **🛑 Never grind a loaded squat to failure.** Stop adding working sets the moment the depth shortens. A shallow rep at 80 is worth less than a deep one at 70.\n\n**Reflection:** does the bar get closer to the catcher this week than last? That's the only question. If depth caps out well short and won't budge, say so — that's an ankle/hip mobility problem, not a strength one, and it gets solved somewhere other than the squat rack." }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press + Calf Raise Station (Same Machine — Deep ROM) 🔥",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "leg-press", "reps": 12, "notes": "**LOAD:** 4 plates/side. 4 sets of 12. W20: all four sets 'both strong and full rom.'\n- **Full ROM — knees toward the chest.** The deep position trains the abs/QL/core as much as the quads — that's the intent\n- **Foot position:** shoulder-width, mid-foot on the platform, slight toe-out\n- **It feels harder cold** — the deep ROM opens once the hips are warm. You've noticed it feels easier later in the session; that's most likely just being warm, and since you're taking stations by availability anyway, it doesn't need solving\n- **Actively press to keep the lower back from lifting off the pad** at the bottom; if the hips roll off, back off a hair\n- **Press through the WHOLE foot; slow descent (3s), no bounce at the bottom**; don't lock out hard at the top\n- **🔥 A near-failure LAST set at 4 plates is fair game** — but DON'T add plates to chase it. Heavier plates shorten the deep ROM, and the deep ROM is the whole point." },
+        { "id": "leg-press-calf-raise", "reps": 15, "notes": "**LOAD:** 4 plates/side. 3 sets of 15. **Stay on the leg press — same machine, don't walk off and come back.** 🔥\n\nW20: 'good too; slow ecc good.' The slow eccentric is landing — keep it.\n- **Balls of both feet on the BOTTOM EDGE of the platform, heels hanging off**\n- **Full stretch at the bottom** — let the heels drop as far below the edge as they'll go\n- **Drive to FULL plantarflexion at the top**\n- **Slow eccentric, own the stretch at the bottom and the squeeze at the top** — no bouncing. 🔥 A hard last set is fine; it's a safe isolation." }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "bulgarian-station",
+      "name": "Bulgarian Split Squat (Double-50 DBs; Smith @45 the Alternate; Pigeon Between Sets) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "bulgarian-split-squat", "equipment": "bench + DBs (regular default, double-50) — Smith machine if free (use smith-machine-bulgarian-split-squat)", "reps": "8-10 each leg", "notes": "**LOAD:** two 50lb DBs, one per hand. 3 sets of 8-10 each leg. **Regular DB version is the default; the Smith machine @45 is the QL-safe alternate when it's free.**\n\nW20: 'brutal at end but proper weight.' That's exactly the right read — this lift is supposed to be brutal at the end. Nothing to change.\n- **Rear foot up on the bench** behind you, laces down or toes tucked\n- **Step out far enough that the front shin stays roughly VERTICAL at the bottom** — too short a stance = the knee crashes past the toes\n- **Front knee tracks over the front foot** — not caving in\n- **Lower until the rear knee nearly touches the floor** — controlled, no dropping\n- **Drive up through the FRONT HEEL** — the front leg does the work, the rear leg is a kickstand\n- **Torso TALL** — a slight forward lean is fine, no folding over; 2s descent, own the bottom\n- **Pigeon on the bench between sets** — keeps the hip/QL loose under the load\n- **🛑 Form is the cap — don't grind double-50 to failure.** If the QL/knee twitches, drop to bodyweight for the remaining sets and finish." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Seated Leg Curl (The Pyramid — 5/m/0/-1, Stays BEFORE Incline RDL) 🔥",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "seated-leg-curl", "reps": 12, "notes": "**LOAD — the pyramid:** 70 primer → 80 → 90 → 100. Slow tempo. **Settings: 5/m/0/-1** (verify before loading).\n\nYou called this ramp 'great' in W20, unprompted, the same session you praised the squat ramp. It stays exactly as it is.\n- **First set at 70 to groove the pattern** — it'll feel easy; that's the point\n- **Then climb 80 → 90 → 100**, testing the top on NORMAL rest (~60-90s)\n- **Ankles UNDER the pad** — the ankle bone is the contact point, NOT the mid-calf\n- **Lap pad locked DOWN firmly** — a loose pad lets the torso lift and turns it into lower-back work\n- **Curl the heels toward the glutes** — full ROM, full squeeze; **2s eccentric, 1s squeeze** — the slow eccentric is the whole stimulus\n- **🔥 Judge the top by the correct FEEL** — heels driving, hamstring working, torso anchored. If 100 keeps that feel, it's yours; if it drifts into torso-lift and momentum, that's the honest top — drop back. The feel is the cap, not the stack." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "incline-rdl-working",
+      "name": "🔆 Incline RDL (Spotlight — 'Fine' Is Not a Read) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "incline-rdl", "reps": 15, "notes": "**LOAD:** 45lb plate. 3 sets of 15. **Tempo: 3s eccentric, 2s pause at the bottom, 1s drive up.**\n\n**🔆 SPOTLIGHT — this lift has come back as 'went fine' for three weeks and nothing else:**\n- **That's not a read.** No reps, no tempo, no sense of where its ceiling is — and it's a HINGE, which makes it the one lift on this day where a sloppy rep is genuinely expensive rather than just wasted\n- **Pad just below the hip crease** — NOT on the upper thigh, NOT on the stomach\n- **Hip hinge** — a Romanian deadlift on the 45° bench, NOT a lumbar extension. Lower back NEUTRAL throughout\n- **At the bottom, notice WHERE the stretch lands.** Hamstrings and glutes = correct. Lower back = you're going deeper than current mobility allows, and that's the QL asking for trouble\n- **Drive up by squeezing the glutes and hamstrings**; at the top, stop at neutral — past neutral = lumbar load\n- **🛑 The slow eccentric is the ENTIRE lever.** Hold the 45lb plate, keep slowing the tempo. Never chase load on a hinge, never grind one to failure.\n\n**Reflection:** with a genuine 3s down and a 2s pause, can you still get 15 — and where does the stretch actually land at the bottom? Those two answers are what this week is for." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Recovery Block (Hip/QL-Biased for Legs Day)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. Scissor the legs, reach overhead, lean away from the back leg — bookend the session with the same QL/psoas release as the warmup." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "45s each side. Deep hip-flexor and glute release — the long hold lets the QL and psoas let go." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side. Gentle twist for the QL — draw one knee across the body, opposite arm extended." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side. Hip-rotator decompression." },
+        { "id": "childs-pose", "duration": 60, "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift." }
+      ],
+      "notes": "5-min recovery block, hip/QL-biased on legs day.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**🔥/🛑 intensity tags.** 🔥 (near-failure/pyramid OK): leg press, calf raise, leg curl (pyramid to a tested top). 🛑 (cue/depth/form is the cap): squat, Bulgarian, incline RDL.",
+    "**Both ramps stay untouched** — the squat's 45→70→80 and the leg curl's 70→80→90→100. You praised both, unprompted, in the same session.",
+    "**Squat spotlight — DEPTH, and only depth.** 80 for clean 8s is settled. Set the catcher at your true max depth, take the full 2-3 min rest, chase the bottom. Stop adding sets when depth shortens. 🛑",
+    "**Incline RDL spotlight — 'fine' is not a read.** 45lb plate, 3s down, 2s pause. Tell me where the stretch lands: hamstrings/glutes (right) or lower back (too deep). 🛑",
+    "**Leg press holds 4 plates, deep** — 🔥 near-failure last set is fine, but don't add plates (that shortens the ROM).",
+    "**Bulgarian holds double-50** — 'brutal at end' is the correct read, not a problem. Pigeon between sets. 🛑",
+    "**Order is yours by availability** — but the calf raise stays ON the leg press, and the leg curl stays BEFORE the incline RDL.",
+    "**Dead-bug core/QL primer stays in the warmup.**",
+    "**Cross-leg lateral lean in the warmup AND cool-down** — QL/psoas release.",
+    "**Cool-down stays — 5-min block, hip/QL-biased on legs day.**",
+    "**Rest fast through the 45/70 ramp sets, full 2-3 min on the 80 working sets** — the rest is part of the depth."
+  ],
+  "formPhilosophy": "Steady-state legs week, and a week that mostly gets out of the way. Two things the last session said, it said clearly: the ramps work (praised twice, unprompted, on two different lifts), and the order doesn't matter much (stations get taken as they free up, and it's going fine). So neither gets touched. The spotlights instead go where the record is thin. The squat has banked its stability and its reps and has exactly one thing left to give — depth — and depth is a mobility question wearing a strength question's clothes, so it gets drilled rather than loaded. The incline RDL gets spotlighted because three weeks of 'went fine' is a lift nobody is actually watching, and a hinge is the wrong lift to stop watching. Form leads load. Building decades, not weeks."
+}

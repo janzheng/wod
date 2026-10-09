@@ -36,7 +36,7 @@ mcp__deno-hub__coverflow_workflow_run with args: "xai-twitter-workout-extract --
 ### Save output to a file
 
 ```
-mcp__deno-hub__coverflow_workflow_run with args: "xai-twitter-workout-extract --quiet --url=TWEET_URL --handle=HANDLE --outputDir=/Users/janzheng/conductor/workspaces/wod/san-jose/workouts/extracted"
+mcp__deno-hub__coverflow_workflow_run with args: "xai-twitter-workout-extract --quiet --url=TWEET_URL --handle=HANDLE --outputDir=/Users/janzheng/Desktop/Projects/__active/_deno/wod/workouts/extracted"
 ```
 
 ## Output Schema

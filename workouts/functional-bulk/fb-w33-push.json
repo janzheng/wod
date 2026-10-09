@@ -1,0 +1,248 @@
+{
+  "id": "fb-w33-push",
+  "name": "Week 33 Push — Fly and Cable Raise Return, Press First",
+  "description": "Press first, dips second, and the same loads. The push day grows back toward its longer length: the Kinesis fly returns as working sets after the lateral raise, and the cable block ends with the cable lateral raise. If the dumbbells are taken, the incline-barbell fallback is 50/side. The warmup rotates cat-cow to thread-the-needle; Yuri's band work and the protective shrug stay.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "push",
+    "strength",
+    "gym",
+    "functional-bulk",
+    "week-33"
+  ],
+  "estimatedDuration": 55,
+  "equipment": [
+    "dumbbell",
+    "cable-machine",
+    "resistance-band",
+    "kettlebell",
+    "bodyweight"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "The push day grows back to about 55 minutes. Same press-first, dips-second order and the same loads. The Kinesis fly returns as working sets, and the cable lateral raise rejoins the end of the cable block.",
+    "spotlights": [
+      {
+        "exerciseId": "kinesis-cable-fly",
+        "why": "Back as working sets after weeks as a warmup opener. It is the one lift in the day that loads the chest in a long stretch, and the step forward is the progression, not the stack."
+      },
+      {
+        "exerciseId": "incline-dumbbell-press",
+        "why": "60 with a 3s lowering is the working standard. The tempo is the work: last time it ran 12 / 12 / 10 and got hard at the end."
+      }
+    ],
+    "rotationPlan": "Spotlights go back to the strict press and dips next.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: strict DB press, dips, incline DB press, Kinesis fly, straight-arm pulldown, farmer carry. Effort here means the cue holding at a hard load; the ceiling is the rep the cue breaks.",
+      "🔥 near-failure last set OK: DB lateral raise, incline cable tricep extension, cable lateral raise. Isolation work where form holds at the limit.",
+      "**⭐ THE STRICT PRESS GOES FIRST.** If a busy gym forces it late, run it as a push press and use leg drive rather than discovering mid-set that you cannot strict it.",
+      "**Dips stay second.** The V bar is the station; the narrow straight bar is a fine fallback if the V bar is taken. Set the rotated left palm before rep 1.",
+      "**Take the full 2 minutes on the press, the dips and the incline.** It is what lets the slow tempo survive all three sets.",
+      "**Pack DOWN, not up** on every pressing lift. Blades into the back pockets, neck long, traps quiet. A rep that needs a shrug is over.",
+      "**The lateral raise load is NOT moving.** Go wider, not heavier: a longer lever makes the same 20 a heavier lift.",
+      "**The cable block is three moves now.** Straight-arm pulldown, tricep extension, cable lateral raise, two rounds, minimal rest between them.",
+      "**Carry: 60 if the hands feel good, 50 if you are ready to go home.** No straps either way.",
+      "Mention any change in either shoulder."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable) + Chest Opener + Protective Shrug",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The whole block, every push day. Yuri's band work is the shoulder anchor — it is why the right shoulder has stayed quiet through a heavy pressing block, so it does not get skipped on a short morning.",
+      "exercises": [
+        {
+          "id": "thread-the-needle",
+          "reps": "5 each side",
+          "notes": "Slow rotation, reach long. Opens the upper back before the shoulder work."
+        },
+        {
+          "id": "yuris-shoulder-band-warmup",
+          "reps": 1,
+          "notes": "**The shoulder anchor.** Full sequence, light band, no rushing. Cuff first, then scap."
+        },
+        {
+          "id": "kettlebell-bottoms-up-press",
+          "reps": "8 each side",
+          "notes": "Light bell, inverted. **Wrist stacked over elbow over shoulder** — the bell tipping is the feedback. It rehearses the exact packed-down lockout the press is about to ask for, and the press is the very next thing you do."
+        },
+        {
+          "id": "kinesis-cable-fly",
+          "reps": "12-15",
+          "notes": "Light. Chest opener only; the load waits for the working sets later in the day."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Tight fists, thumbs tucked, hinged slightly forward. Wakes the deep core — the press needs the trunk before it needs the shoulders."
+        },
+        {
+          "id": "push-up",
+          "reps": 12,
+          "notes": "Elbows ~45°, **pack down not up.** One easy set."
+        },
+        {
+          "id": "pull-up",
+          "reps": "6-8",
+          "notes": "Greasing set, nowhere near failure. Keeps the pattern alive on a push day."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "**Protective activation — before anything loaded.** 40-50lb pair, behind the back, straight up and down."
+        }
+      ]
+    },
+    {
+      "id": "strict-press",
+      "name": "Strict DB Press — 50, First Lift of the Day 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 50lb pair, 3 sets of 6-8. **2 minutes between sets, reps as singles.**\n\n- **Bells to the shoulders, elbows slightly in front of the ribs**, not flared\n- **No dip, no knee bend, no hip drive.** The set ends when strict form ends, not when the rep fails\n- **Ribs DOWN** before the first rep, and they stay down\n- **Press slightly around the head**, finishing with the bells stacked over the shoulders\n- **Pack DOWN, not up.** If the shoulders climb to finish a rep, that rep was the last one\n- **Slow eccentric on every rep**\n\n**Reflection:** was set 3 as strict as set 1?",
+      "exercises": [
+        {
+          "id": "standing-dumbbell-strict-press",
+          "reps": "6-8",
+          "notes": "**LOAD:** 50lb pair, 3 sets. 2 min rest, reps as singles.\n- **Strict — no leg drive, no knee dip**\n- **Slow eccentric every rep**\n- Press slightly around the head; biceps near the ears at lockout\n- Shoulders packed **DOWN**, ribs down\n- If the rack forces this late in the day, run it as a push press instead"
+        }
+      ]
+    },
+    {
+      "id": "dips",
+      "name": "Dips — Second, 1s Pause at the Bottom 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** bodyweight, 3 sets of 10-12. **V bar first; the narrow straight bar if the V bar is taken.** **2 minutes between sets — take all of it.**\n\n- **Rotate the left forearm outward before taking bodyweight** so the pressure sits on the firm inside edge of the hand, not the thumb pad. Set it before rep 1\n- Mini-dips against the bar to set the forward lean before the first full rep\n- **3s descent, then 1s still at the bottom** — shorten the set rather than rush either\n- **Hold the forward lean** the whole set; start the descent by moving the chest toward the bars\n- **Pack DOWN at lockout.** Shoulders climbing at the top is the set ending\n\n**Reflection:** which bar did you use, and did the palm stay quiet?",
+      "exercises": [
+        {
+          "id": "dip",
+          "reps": "10-12",
+          "notes": "Bodyweight, 3 sets. **V bar, or the narrow straight bar if it is taken. 2 min rest.**\n- Set the rotated left palm **before** the first rep\n- **3s descent, 1s pause at the bottom**\n- Hold the forward lean\n- Shoulders packed down at lockout"
+        }
+      ]
+    },
+    {
+      "id": "incline-press",
+      "name": "🔆 Incline DB Press — 60, 3s Eccentric 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 60lb pair, 3 sets of 8-12, 3s lowering, 2 minutes between sets. **If the DBs are taken: barbell 50/side (145 total), same reps and tempo.** Log which version.\n\n**🔆 SPOTLIGHT — the tempo is the work, not the number.**\n\n- **Bench at 30°**, feet planted, glutes on the pad\n- **Blades DOWN and BACK into the bench** before the bells leave the thighs, and they stay there\n- **Elbows around 45° from the torso**, wrists stacked over the elbows\n- **Lower for a full 3 seconds** to a real stretch across the chest — no bounce out of the bottom\n- **Ribs down.** An arched back turns it into a flat press\n- Stop when the lowering speeds up or the shoulders shrug\n\n**Reflection:** did the 3s lowering survive the last rep of the last set, or did the descent speed up?",
+      "exercises": [
+        {
+          "id": "incline-dumbbell-press",
+          "reps": "8-12",
+          "notes": "**LOAD:** 60lb pair; barbell fallback 50/side if DBs are taken. 3 sets.\n- 30° bench\n- 3s lowering every rep\n- Blades down and back, ribs down\n- 2 min rest"
+        }
+      ]
+    },
+    {
+      "id": "lateral-raise",
+      "name": "DB Lateral Raise — 20, Wider Is the Progression 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 20lb pair, 3 sets of 12-15.\n\n- **A little wider than last time** is the progression. Not heavier\n- **Slow up, slow down, 1s hold at the top**\n- **Lead with the elbows**, a fixed slight bend, little fingers a touch high\n- **Traps quiet.** If the shoulders ride up to start the rep, the weight is winning\n- Last set may run near failure — safe isolation work",
+      "exercises": [
+        {
+          "id": "lateral-raise",
+          "reps": "12-15",
+          "notes": "**LOAD:** 20lb pair (15 if the 20s are taken — keep the width and tempo intact).\n- **Wider than last week** is the progression\n- Slow up / slow down / **1s hold**\n- Lead with the elbow, fixed slight bend\n- **Traps relaxed** — no shrug to start the rep"
+        }
+      ]
+    },
+    {
+      "id": "kinesis-fly",
+      "name": "🔆 Kinesis Cable Fly — 9, Step Forward 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** Kinesis 9, 3 sets of 10-12.\n\n**🔆 SPOTLIGHT — the stretch is the lift.**\n\n- **Step further forward than feels necessary.** The step creates the stretch, and it is the first thing that shrinks when a fly gets easy\n- **Soft elbows at a FIXED angle** — arms bending and straightening turns it into a press\n- **Blades down and back, ribs down** before the first rep\n- **Squeeze at the midline**, then a slow return all the way into the stretch\n- Let the bottom of the rep be the part you feel\n\n**Reflection:** where do you feel it — the chest in the stretch, or the front of the shoulder?",
+      "exercises": [
+        {
+          "id": "kinesis-cable-fly",
+          "reps": "10-12",
+          "notes": "**LOAD:** Kinesis 9, 3 sets.\n- **Step forward** into the stretch\n- Soft elbows at a fixed angle\n- Squeeze at the midline, slow return\n- Blades down and back"
+        }
+      ]
+    },
+    {
+      "id": "cable-block",
+      "name": "Cable Block — Straight-Arm Pulldown → Tricep Extension → Cable Lateral Raise (2 Rounds)",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**Two rounds, circuit style, minimal rest between the three moves.** All three live on the cable stations — take whichever is free and stay there. Log the equipment and number for each.\n\nThe pulldown and the extension hold at 120 and 70. The cable lateral raise is the new last move, kept away from the DB raise earlier in the day.",
+      "exercises": [
+        {
+          "id": "straight-arm-pulldown",
+          "reps": 12,
+          "notes": "**LOAD:**\n- Cable column: **120**\n- Rope pulley: **62.5**\n- Kinesis: **6**\nPick whichever is free; **note the equipment and number in the log.**\n\n- **Set a soft elbow bend and never change it** — if the elbow opens and closes, it has quietly become a triceps pushdown\n- **Start the rep by pulling the upper arm down from the armpit**, not by pushing the hands\n- Finish with the hands at the thighs, **lats squeezed, ribs down**\n- **No leaning back to add range** — the torso angle is fixed too\n- Slow return to a real stretch"
+        },
+        {
+          "id": "incline-cable-overhead-tricep-extension",
+          "reps": "10-12",
+          "notes": "**LOAD:** cable column **70**. **60 is the fallback if the cues start slipping.**\n\n- Torso leans back; hands travel from near the chest to straight arms **by the hips**\n- **Elbows stay pinned in space — only the forearms move.** If the elbows drift forward on the way up, the lift has become a pushdown, and a heavier stack is exactly when that happens\n- **Nothing goes behind the head** — that position is what the right arm dislikes\n- **Pack the shoulders down before every set**, and keep them down as the arms straighten\n- **Squeeze at full extension**, slow back\n- If the right-arm nerve line returns and does not clear, stop the set"
+        },
+        {
+          "id": "cable-lateral-raise",
+          "reps": "12 each side",
+          "notes": "**LOAD:**\n- Cable column: **~30**\n- Cable pulley + D-handle (ankle height): **10**\n- Kinesis: **3**\nPick whichever is free; **note the equipment and number in the log.**\n\n- **Cable behind the body**, arm crossing in front at the bottom — that is the reason to do it on a cable\n- **Lead with the elbow**, stop at shoulder height\n- **No shrug**\n- Last set may run near failure — 🔥 safe isolation work"
+        }
+      ]
+    },
+    {
+      "id": "farmer-carry",
+      "name": "Farmer Carry — 60 or 50, Your Call at the Handles 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD: 60lb per hand if the hands feel good, 50 if you are ready to go home.** 2 walks of ~50s. **No straps.**\n\n- **Crush the handles from the first step**\n- **Shoulders packed down**, ribs stacked over hips, walk tall\n- The job is two walks that both hold, not a heavier bell\n- If the left goes early, set them down, rest, and finish the time",
+      "exercises": [
+        {
+          "id": "farmer-carry",
+          "duration": 50,
+          "notes": "**LOAD:** 60 per hand, or 50. No straps. **Log which.**\n- **Grip hard from the first step**\n- Shoulders down, ribs stacked, tall posture\n- Two walks that hold beats a heavier bell"
+        }
+      ]
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing. End here."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Press first, dips second. Take the full 2 minutes on the press, the dips and the incline.",
+    "Kinesis fly is back: step forward, soft elbows at a fixed angle, feel the stretch.",
+    "Lateral raise: wider, not heavier.",
+    "The cable block is three moves: straight-arm pulldown, tricep extension at 70, cable lateral raise.",
+    "Carry is 60 or 50 by how the hands feel. Log which one you took."
+  ]
+}

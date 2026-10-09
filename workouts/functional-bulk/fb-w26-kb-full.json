@@ -1,0 +1,144 @@
+{
+  "id": "fb-w26-kb-full",
+  "name": "Week 26 KB Tuesday — 🌀 Bent Press Flow, Laddered + the Overhead Mobility Complex Returns",
+  "description": "**The ladder gets written in.** You built the Bent Press Flow up to 45 on your own last week and called it a strength workout — so that's the prescription now: two rounds per side at 25, two at 35, two at 45. Light rounds groove the chain, the heavy round tests it.\n\n**The Overhead Mobility Complex is back after six weeks off the bench** — row → snatch → overhead lunge → overhead squat → push press. Light bell. It's the longest-retired chain in the pool, and it happens to train the one thing nothing else here does: holding a locked-out overhead position while the body moves underneath it.\n\n**The figure-8 → tactical clean closes at 50.** Permanent.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": ["kettlebell", "flow", "strength", "functional-bulk"],
+  "estimatedDuration": 58,
+  "equipment": ["kettlebell", "resistance-band", "bodyweight"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Tuesday is deliberately overhead-heavy this week, and that's the design rather than an accident. The Overhead Mobility Complex comes back after six weeks specifically because the program's one real gap is loaded overhead stability — plenty of pressing strength, nothing that trains the shoulder to stay stacked while the rest of the body moves. It runs at a light bell for exactly that reason. The Bent Press Flow keeps the anchor slot with your own ladder written into it.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-overhead-squat",
+        "why": "The hardest position in the returning complex and the one that exposes everything at once — a locked-out arm overhead while the hips go to full depth means the thoracic spine, the lats, the shoulder and the ankles all have to give at the same time or the bell drifts forward. It's also the least forgiving beat to fake: there's no way to shrug or rib-flare your way through an overhead squat, because either the bell stays stacked over the shoulder and the shoulder over the hip, or it doesn't. Light bell, and the depth you can hold with the bell genuinely stacked is the depth you have."
+      },
+      {
+        "exerciseId": "kettlebell-bent-press",
+        "why": "It's the beat the whole opening flow is built around, and the ladder now takes it to 45 — heavy enough that the difference between a real bent press and a sideways shoulder press stops being academic. At the light rounds the arm can cheat and still complete the rep. At 45 it can't: if the arm starts pressing, the shoulder shrugs up and you'll feel exactly which position the right shoulder objects to. The heavy round is the honesty check on the light ones."
+      }
+    ],
+    "rotationPlan": "Tuesday content rotates: W24 B-Stance + Leggy · W25 Bent Press Flow (back) + Dead Cluster · W26 Bent Press Flow laddered + Overhead Mobility Complex (current) · W27 candidates — Leggy Flow's return, the Long Coordination Gauntlet, or the GymFiesta circuit. The Bent Press Flow is the anchor and stays; the second block cycles around it.",
+    "watchpoints": [
+      "**🌀 Bent Press Flow — LADDERED: 2 rounds per side at 25, 2 at 35, 2 at 45.** Your shape from last week, written in. dead clean → front squat → lateral lunge → bent press → tactical clean.",
+      "**🔆 At 45 the bent press stops forgiving you** 🛑. Arm locks out and STAYS locked; the body moves underneath. Eyes on the bell the whole way down.",
+      "**🌀 Overhead Mobility Complex (@Asgooch) — back after six weeks. LIGHT bell (25), 2-3 rounds, 5 reps each side.** row → snatch → overhead lunge → overhead squat → push press.",
+      "**⚠️ This day is overhead-heavy on purpose — and the complex is the first thing to cut** if the right shoulder starts talking. Light bell is not a suggestion 🛑.",
+      "**🔆 Overhead squat: bell stacked over the shoulder, shoulder over the hip.** Take the depth you can hold stacked, not the depth you have unloaded 🛑.",
+      "**Strict press holds 50, plain strict, no tempo work** 🛑 — the pause and eccentric work lives on Thursday, so it lands before legs day rather than before pull day.",
+      "**KB row holds 50** — maintenance, not a progression. **KB curl, LEFT FIRST**, light bell 🔥.",
+      "**Figure-8 → tactical clean finisher: 50lb, ~4 loops.** Permanent.",
+      "**Cossacks stay in the warmup** — down heel flat, keep banking the range.",
+      "**Intensity tags:** 🔥 near-failure last set OK — KB curl. 🛑 keep it shy — bent press, overhead press, snatch, overhead lunge, overhead squat, push press.",
+      "**Banded shoulder prep + protective shrug stay in the warm-up.**"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Cossacks + Bottoms-Up Clean",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The cossacks double as an early-warning system — how they feel here tells you what the legs have got before anything commits.",
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": "10 each direction", "notes": "Light bell. Wake the hands and the grip." },
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "Slow, close to the head. Shoulders stay packed down." },
+        { "id": "cossack-squat", "reps": "6 each side", "notes": "**Down heel FLAT.** Sit into one hip, other leg straight, get lower than comfortable." },
+        { "id": "kettlebell-bottoms-up-clean", "reps": "6 each side", "notes": "**Rotated in this week** in place of the bottoms-up press. Same inverted-bell job, but catching it bottoms-up is a harder ask than pressing one — the grip and the cuff have to arrive at the same instant. Light bell, reset when it tips." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Hinged slightly forward, tight fists, thumbs tucked." },
+        { "id": "behind-back-dumbbell-shrug", "reps": "12-15", "notes": "Protective activation. Shoulders roll DOWN and back at the top." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions. KB days only — the gym days carry their own shoulder anchor. **Give this one its full beat today; the whole session is overhead.**",
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "reps": 12 },
+        { "id": "seated-banded-behind-neck-pulldown", "reps": 12 },
+        { "id": "seated-banded-t-raise", "reps": 12 },
+        { "id": "seated-banded-chest-pull-apart", "reps": 12 },
+        { "id": "seated-banded-reverse-fly", "reps": 12 },
+        { "id": "seated-banded-diagonal-reach", "reps": "10 each side" },
+        { "id": "seated-banded-overhead-v-hold", "duration": 30 }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "bent-press-flow",
+      "name": "🌀🔆 Bent Press Flow — Laddered 25 / 35 / 45",
+      "type": "flow",
+      "flowId": "kb-flow-dead-clean-press",
+      "rounds": 6,
+      "notes": "**LADDER: 2 rounds per side at 25, 2 at 35, 2 at 45.** Six rounds per side in total.\n\nThis is your own shape from last week, written in. **The light rounds groove the chain and the heavy round tests it** — which is the right way to run a flow you know cold. At 45 it stops being a flow and becomes a strength set, and that's the intended effect, not a sign you've gone too heavy.\n\n**🔆 The bent press is the spotlight, and 45 is where it stops forgiving you:**\n- **It is a HINGE and a SIDE BEND, not a press.** The arm locks out at the top and stays locked — you never press the bell, you move your body down and away from it\n- **Eyes on the bell the whole way down.** Lose sight of it and the shoulder loses the pack\n- **Hinge the hips BACK and to the side**, not a straight sideways lean — the load ends up over the heel, not out past the toes\n- **Shoulder packed DOWN throughout.** At the light bells the arm can cheat and still finish the rep; at 45 it can't, and the shrug will announce itself\n- **Come up by driving the hips**, not by pressing the arm\n\n**If the 45 round can't hold the position, run it at 35 and stop there.** The ladder self-limits — that's the feature.\n\n**Reflection:** at 45, did the arm genuinely stay passive? And was the 25 round afterwards easier to feel than it was before you'd been heavy?"
+    },
+    {
+      "id": "strength",
+      "name": "Strength — Strict Press + KB Row + KB Curl (Between the Flows) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "3 rounds, run between the two flows so the demanding volume isn't stacked at the top.\n\n**Plain strict press today.** The pause and eccentric work is Thursday's job — that way the overflow lands on Friday's legs day instead of Wednesday's pull day.",
+      "exercises": [
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 50 across all sets — strict single-arm press, clean to rack, press straight up, NO push-press.\n- **Strict, ribs DOWN**, no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- **Handle DIAGONAL in the hand** — from the base of the index finger to the heel of the hand, and the hand jammed deep into the corner. That's what keeps the bell resting along the back of the forearm instead of digging into the wrist\n- Both sides to the same standard"
+        },
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 50. Hinged, flat back, bell to the hip.\n- **Pack the shoulder DOWN and BACK** before the elbow moves — no shrugging the bell up\n- **Elbow drives past the ribs**, not flared wide\n- Slow return, full stretch at the bottom\n\nMaintenance — the real row volume lives on pull day."
+        },
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD:** Light bell (~20-30lb). **LEFT ARM FIRST — then match the right to whatever the left did.**\n- **Upper arm pinned to the ribs**, elbow doesn't drift forward\n- **Shoulder packed DOWN**, no shrug to start the rep\n- **Lower slowly to a FULL stretch** — the bell loads the bottom where a dumbbell goes slack\n- **If you want it to bite more:** assist the way up with the free hand and lower it with the working arm alone. The lowering is the work\n\n🔥 Near-failure fine on the last set. This is frequency for the left arm, not intensity."
+        }
+      ],
+      "restBetween": 45,
+      "restAfter": 75
+    },
+    {
+      "id": "overhead-mobility-complex",
+      "name": "🌀🔆 Overhead Mobility Complex (@Asgooch) — Back After Six Weeks",
+      "type": "flow",
+      "flowId": "kb-overhead-mobility-complex",
+      "rounds": 3,
+      "notes": "**LIGHT bell — 25. 2-3 rounds, 5 reps each side per move.**\n\nrow → snatch → overhead lunge → overhead squat → push press.\n\n**Why it's back:** the one real gap on this program is loaded overhead *stability* — there's plenty of pressing strength, but nothing that trains the shoulder to stay stacked while the rest of the body moves underneath it. That's the entire content of this chain.\n\n**⚠️ This is a light-bell block and the day is already overhead-heavy. If the right shoulder starts talking, this is the first thing to cut — not the last.**\n\n- **Snatch: punch the hand THROUGH** at the float so the bell rotates around it and settles. Pack the shoulder DOWN at the catch 🛑\n- **Overhead lunge: arm locked, torso TALL, ribs down.** The rib flare is the cheat — it substitutes lumbar extension for the thoracic extension you actually need\n- **🔆 Overhead squat: bell stacked over the shoulder, shoulder over the hip.** Take the depth you can hold stacked, not the depth you have unloaded. The bell drifting forward is the signal to stop descending\n- **Push press: dip and drive from the LEGS**, then finish with the shoulder packed down\n- **Row is the rest beat** — use it\n\n**Reflection:** on the overhead squat, what gives first — the shoulder, the thoracic spine, or the ankles? That answer tells you what to work on."
+    },
+    {
+      "id": "finisher",
+      "name": "🌀 Figure-8 → Tactical Clean (Finisher, 50)",
+      "type": "flow",
+      "flowId": "kb-figure-8-tactical-clean-complex",
+      "rounds": 4,
+      "notes": "**LOAD: 50lb, ~4 full loops.** The permanent Tuesday closer.\n\n- **The bell travels in a figure-8 around and between the legs**, then the tactical clean brings it up to the rack\n- **Hinge, don't squat** — the hips do the passing\n- **Ribs down.** At 50 this is a core and low-back load as much as a coordination drill; the QL has noticed it before\n- **Slow it down if it starts feeling heavy** rather than stopping — the tempo is the lever\n\nThis is the last thing you do. Earn the rest."
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Shoulder + Hip Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Overhead-heavy day — give the chest and the lats the full beat before the hips.",
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow height. Undo a session's worth of overhead work." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive. Decompression after the overhead volume." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "45s each side." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. QL downshift after the 50lb figure-8." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Flows are chains, not circuits.** Let each move feed the next — if you're resetting between beats, slow the whole thing down instead.",
+    "**The ladder self-limits.** If 45 won't hold the position on the bent press, run that round at 35 and stop. Nothing is lost.",
+    "**Left arm first on the curl**, and match the right to it. The point is closing a gap, not adding volume."
+  ]
+}

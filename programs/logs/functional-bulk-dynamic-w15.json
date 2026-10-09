@@ -1,0 +1,322 @@
+[
+  {
+    "day": 1,
+    "workoutId": "fb-w15-push",
+    "date": "2026-06-01",
+    "rawInput": "w15d1\n\npush press\n- tried to ease off and do 8 first to get warmed up for later on\n- 45x8 fast drive controlled down but not slow eccentrics\n- 45x10 same as above; way easier than slow eccentrics lol\n- 45x8 kind of stopped out but shouldn’t; did another two but shouldn’t count\n\nincline db press\n- 45x12 oops did too many- hard press controlled down not slow ecc\n- 45x10\n- 45x10\n- hard at the end but did all sets with pause at end and controlled down! probably the best set in a long time or basically ever \n- \n\ndb lat raise\n- hard when done correctly!\n- did all sets at 15 but last few of last set definitely breaking and struggling to finish\n\nkinesis fly went up to 9 second set felt like working weight did all three\n\nchest press\n- slow eccentrics and i died at 6 on first set lmao\n- 165x6 to failure\n- 145x6 to failure\n- hahaha total failure on this \n- 145x7 after some rest\n- pec and shoulder were fairly quiet tho i’m just weak lol\n\ncable lat raise\n- did all sets and no pain! this is a good weight for me i think without wrecking the shoulder\n\nincline overhead tri\n- 70x12\n- still working weight; first set always feels ridiculously easy and last set is always a massive struggle. such an interesting exercise \n\nlat pulldown\n- really really hard today lmao; have never been so hard before\n- 120x12 so hard like omg\n- 120x8 dying hahah\n- 120x6 absolutely can’t anymore haha no matter how hard i try\n\n\nEverything else went well, felt super strong today, in al the stretches etc and pull up grease section also went surprisingly strong; didn’t feel like a noodle like on most Wednesdays. Maybe its bc I took a nap beforehand :P\n\n[follow-up] oh yeah Farmers carry went well, no shoulder worries at all, hardest part was grip - I did 3 x 1 minute ish on two 50lb and had to put it down last set",
+    "notes": "W15 push, steady-state. Clean, strong day — no shoulder pain anywhere ('felt super strong'). Push press ran FIRST this week and the user switched to a fast-drive tempo (not slow eccentric): 45x8/10/8, back in the 8-10 range vs W14's second-slot 7/6/6 — but order AND tempo both changed, so it's not a clean single-variable read. Incline DB 45x12/10/10 with a pause + controlled descent, 'probably the best set in a long time or basically ever.' Chest press (spotlight) cratered on genuine slow eccentrics — 165x6 to failure, then 145x6/145x7 — well below W14's 165x10/9; user's own read is 'i'm just weak lol,' and crucially 'pec and shoulder were fairly quiet' (the management goal held). Cable lateral raise column 30 again pain-free ('no pain! good weight without wrecking the shoulder') — second straight clean week. The 'lat pulldown 120x12/8/6' is the straight-arm pulldown (cable column 120, the push cable-block lift — there is no lat pulldown on push day); 'really really hard today... never been so hard,' down from W14's 120x10x3. Pull-up greasing set 'surprisingly strong.' Farmer carry (spotlight) done at 50lb pair x ~60s x3 — 'no shoulder worries at all, hardest part was grip,' set it down on the last walk when grip failed: the shoulder stays neutral even with grip maxed.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session; user noted a nap beforehand and feeling strong).",
+    "exercises": [
+      {
+        "id": "push-press",
+        "context": "Ran FIRST this week (user did set 1 as a warm-up opener); fast-drive tempo, not slow eccentric",
+        "sets": [
+          { "weight": "45lb each", "reps": 8, "notes": "'Fast drive controlled down but not slow eccentrics.' Opening set, eased in to warm up." },
+          { "weight": "45lb each", "reps": 10, "notes": "'Way easier than slow eccentrics lol.'" },
+          { "weight": "45lb each", "reps": 8, "notes": "'Kind of stopped out but shouldn’t; did another two but shouldn’t count.'" }
+        ],
+        "notes": "45/side, 8/10/8 — back in the prescribed 8-10 range, vs W14's 7/6/6 when push press ran second. **Two things changed at once: it ran FIRST this week, AND the user used a fast-drive tempo instead of slow eccentrics ('way easier').** Can't attribute the rep recovery to order alone. The user dropped slow eccentrics here deliberately to bank energy 'for later on.'"
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          { "weight": "45lb pair", "reps": 12, "notes": "'Oops did too many — hard press controlled down not slow ecc.'" },
+          { "weight": "45lb pair", "reps": 10 },
+          { "weight": "45lb pair", "reps": 10, "notes": "Pause at the bottom + controlled down. 'Probably the best set in a long time or basically ever.'" }
+        ],
+        "notes": "45lb pair, 12/10/10, controlled descent (not full slow-eccentric) with a pause at the bottom. Same 12/10 territory as W14 (45x12/12/10). User flagged set 3 as one of the best-executed sets in a long time — the bottom pause landed."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          { "weight": "15lb", "reps": 15 },
+          { "weight": "15lb", "reps": 15 },
+          { "weight": "15lb", "reps": 15, "notes": "Last few reps breaking down / struggling to finish." }
+        ],
+        "notes": "DB lateral raise, 15lb x 15 x3 (held as prescribed). 'Hard when done correctly!' Last set's final few reps broke form. Distinct from the cable-column lateral raise (the push day has both)."
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": [
+          { "weight": "Kinesis 8", "reps": "10-12", "notes": "Set 1." },
+          { "weight": "Kinesis 9", "reps": "10-12", "notes": "Bumped to 9; 'felt like working weight.'" },
+          { "weight": "Kinesis 9", "reps": "10-12" }
+        ],
+        "notes": "Kinesis 8 → 9 from set 2 (exactly as the workout prescribed — 'bump to 9 if set 1 feels light'). All three done; 9 'felt like working weight.'"
+      },
+      {
+        "id": "chest-press-machine",
+        "context": "🔆 W15 spotlight — genuine slow eccentrics this session",
+        "sets": [
+          { "weight": "165", "reps": 6, "notes": "Slow eccentrics. 'Died at 6 on first set lmao' — to failure." },
+          { "weight": "145", "reps": 6, "notes": "Dropped to 145, to failure. 'Total failure on this.'" },
+          { "weight": "145", "reps": 7, "notes": "After some rest." }
+        ],
+        "notes": "**165 cratered to 6 on genuine slow eccentrics — well below W14's 165x10/9.** User dropped to 145 (6, then 7 after rest). User's own read: 'i'm just weak lol.' **The shoulder-management win held: 'pec and shoulder were fairly quiet'** — no right-pec referral flagged this session (vs the W12-W14 set-1 referral). Whether the crater was the slow-eccentric tempo, pre-fatigue (both presses ran before chest press), or just a low-output day for this lift isn't separable from one session — open question for W16. The spotlight's between-set cross-body stretch wasn't separately confirmed, but the pec stayed quiet, which is what it's for."
+      },
+      {
+        "id": "cable-lateral-raise",
+        "equipment": "cable column",
+        "sets": [
+          { "weight": "30", "reps": 12 },
+          { "weight": "30", "reps": 12 },
+          { "weight": "30", "reps": 12, "notes": "'No pain!'" }
+        ],
+        "notes": "Cable column 30, all sets, **pain-free for the second straight week** (W14D1 was the first pain-free lateral raise in ~6 weeks). User: 'this is a good weight for me i think without wrecking the shoulder.' Holding 30 is working — don't chase load."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "equipment": "cable column (kneeling — no bench at this station)",
+        "sets": [
+          { "weight": "70", "reps": 12 },
+          { "weight": "70", "reps": 12 },
+          { "weight": "70", "reps": 12, "notes": "Last set a massive struggle." }
+        ],
+        "notes": "Cable column 70 x 12 x3, kneeling. Same ramp-feel as every week — 'first set always feels ridiculously easy and last set is always a massive struggle.' Working weight holds."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "equipment": "cable column 120",
+        "context": "User wrote 'lat pulldown' — this is the straight-arm pulldown in the push cable block (cable column 120). There is no lat pulldown prescribed on push day; 120 is the straight-arm working number.",
+        "sets": [
+          { "weight": "120", "reps": 12, "notes": "'So hard like omg.'" },
+          { "weight": "120", "reps": 8, "notes": "'Dying hahah.'" },
+          { "weight": "120", "reps": 6, "notes": "'Absolutely can’t anymore... no matter how hard i try.'" }
+        ],
+        "notes": "Cable column 120, reps fell 12/8/6 — **'really really hard today... have never been so hard before,'** down from W14's 120x10x3. Harder than usual this session; pairs with the chest press crater (both came after the two presses ran first). Hold 120, watch next week. **Naming: confirm with the user this is the straight-arm pulldown, not the pull-day lat pulldown** — 120 on the cable column matches the straight-arm working number exactly."
+      },
+      {
+        "id": "farmer-carry",
+        "context": "🔆 W15 spotlight",
+        "equipment": "DB rack — 50lb pair",
+        "sets": [
+          { "weight": "50lb pair", "duration": "~60s", "notes": "Walk 1." },
+          { "weight": "50lb pair", "duration": "~60s", "notes": "Walk 2." },
+          { "weight": "50lb pair", "duration": "~60s", "notes": "Had to put it down before the end — grip gave out, not the shoulder." }
+        ],
+        "notes": "**Spotlight reflection answered: grip was the limiter, the shoulder a non-issue.** 50lb pair (top of the prescribed 40-50), 3 walks of ~1 min (longer than the prescribed 30-45s). User: 'no shoulder worries at all, hardest part was grip' — had to set it down on the last walk when grip failed. So at 50lb / ~60s the right shoulder stays neutral even with the grip maxed out — grip pressure is NOT touching the shoulder here, the cleanest answer to the spotlight question."
+      }
+    ],
+    "shoulderStatus": "**Clean push day — no pain reported anywhere.** Cable lateral raise explicitly pain-free for the second straight week ('no pain! good weight without wrecking the shoulder'). Chest press 'pec and shoulder were fairly quiet' — no right-pec set-1 referral this session, unlike W12-W14. Pull-up greasing set 'surprisingly strong... didn't feel like a noodle.' This continues the pattern that push days have stayed clean; the W14D3 flare was pull-day-volume-specific. The protective behind-back shrug was added to the push warmup this week (newly scattered here) — not separately confirmed done, but the push-day shoulder report is clean either way. Farmer carry (spotlight) confirmed zero shoulder issue at 50lb even with the grip maxed — grip was the limiter, not the shoulder.",
+    "skipped": [],
+    "lessonsForFutureWeeks": [
+      "**Push press recovered to 8/10/8 at 45 — but two variables changed.** It ran FIRST this week AND the user used a fast-drive tempo instead of slow eccentrics ('way easier'). Vs W14's second-slot, slow-eccentric 7/6/6. Can't pin the recovery on order alone. For W16: support running push press early, and treat tempo (fast-drive vs slow-eccentric) as the user's explicit energy lever, not a fixed prescription.",
+      "**Chest press 165 cratered to 6 on genuine slow eccentrics** (vs W14's 165x10/9), then 145x6/7. User: 'i'm just weak lol.' Pec/shoulder stayed quiet (the win). Don't draw a conclusion from one session — re-check W16. If 165 craters again on slow eccentrics, talk through whether the slow tempo at 165 is the right call or whether to drop the load slightly to keep the tempo honest.",
+      "**Straight-arm pulldown (user's 'lat pulldown') fell to 120x12/8/6, 'never been so hard'** (W14 was 120x10x3). Harder this week, likely compounded by both presses running first. Hold 120; watch W16. Confirm the naming with the user so the log doesn't read as a pull-day lat pulldown.",
+      "**Cable lateral raise column 30 — second consecutive pain-free week.** Hold 30; the shoulder-up-to-strength call is landing.",
+      "**Push day stays shoulder-clean.** The flare pattern remains pull-day-volume-specific. Protective shrug now in the push warmup — keep confirming it's actually getting done since the whole point is it's easy to forget.",
+      "**Farmer carry reflection answered: grip is the limiter, shoulder stays neutral.** 50lb pair, ~60s walks, put it down on the last set when grip failed — 'no shoulder worries at all.' At 50lb the grip is the trainable edge with no shoulder risk. W16: hold 50lb and chase hold-time, or treat grip directly as the progression."
+    ]
+  },
+  {
+    "day": 2,
+    "workoutId": "fb-w15-kb-full",
+    "date": "2026-06-02",
+    "rawInput": "W15d2\n\nWent fine; this one is (happily) shorter than the previous murdery d2 kb days, including the brutal complex (which remains brutal) \nFor next d2 can we swap out a brand new kb strength workout from our massive stash",
+    "notes": "KB Tuesday (full template; strength block stepped to 3 rounds this week). Light-touch logging — loads not separately narrated, held per prescription. 'Went fine.' Ran shorter / less murdery than prior D2 weeks even though the optional Brutal Complex finisher was done ('remains brutal'). User asked to swap a brand-new KB strength workout from the stash into next D2 (W16) — carried into NOTES.md.",
+    "cardio": "Not narrated — home KB Tuesday, not an Arrilaga run-commute day.",
+    "exercises": [],
+    "shoulderStatus": "Not separately reported. 'Went fine' overall — nothing flagged through the overhead Asgooch stack or the C&P strength block, but the user didn't call out the shoulder specifically this session.",
+    "skipped": [],
+    "lessonsForFutureWeeks": [
+      "**W16 D2 directive: swap the settled kb-full template for a brand-new strength workout from the stash.** The user wants variety — the D2 template has held the same shape for weeks. Shortlisted from workouts/kettlebell/: kb-full-body-shred (most complete single-bell strength template, leg-leaning — fits the Tuesday-far-from-Friday-legs bias) and kb-the-only-workout (@Asgooch, ~35 min, swings / clean-to-squat / chest press / TGU). Heavy-doubles is gated on having two equal bells."
+    ]
+  },
+  {
+    "day": 3,
+    "workoutId": "fb-w15-pull",
+    "date": "2026-06-03",
+    "rawInput": "w15d3\n\nslow eccentric pull ups continue to be hard; shoulder not much of a problem anymore, but doing these correctly with strength still hard, with the posted form\n- 8\n- 6\n- 5\n- 6 with a longer break\n\nchest supported db row\n- 40s felt fine did all sets, harder but didn’t break\n\ndb row\n- all sets good; 80 set felt good; shoulder no pain and strong here; hardest part was left hand grip \n- could probably start at 70 next time\n\nchest supported curls\n- did all sets both arms no supports, slow eccentric and pause at bottom! both arms! definitely a new record\n\nrev fly\n- trying to hold up as much as i can before dropping slowly\n- did all sets, feels good; idk if should go higher or not but these feel good at the squeeze, working to get slower\n\nface pulls\n- did all sets, feel good, hard at the end but could go more; the elbows up form feels super different from what i used to do\n- slow eccentrics all sets\n\nlat pull down dual pulley 70\n- did all sets! very little pain!\n- harder at the end; grip was the hard part! which means that shoulder isn’t the main problem anymore tho i still feel like it’s hitting the end of its ability to hold on lol\n\ncable crunch\n- did all sets, really hard at 77.5 lol\n- definitely working weight and can’t do slow eccentrics\n\n\n\nAll in all pretty good set; super tiring and nothing hurt",
+    "notes": "Pull day. **Headline: the W14D3 flare did NOT repeat — 'nothing hurt,' the cleanest full pull session since the shoulder cluster began. This is the week the protective behind-back shrug moved to the FRONT of the session and the user ramped volume.** Shoulder is no longer the limiter on the pulling lifts — GRIP is, on both DB row (left hand) and lat pulldown ('shoulder isn't the main problem anymore'), echoing W15D1's farmer-carry finding. Chest-supported row spotlight answered cleanly: 40 held ('felt fine, did all sets, harder but didn't break') — the 35→40 step-up landed. Pull-ups slow-eccentric 8/6/5/6 (the 6 on a longer break) — higher first-set rep than W14D3's '6x4'; user's read: shoulder fine now, the limiter is strength + clean form. **New record on the chest-supported curls: both arms, no support, slow eccentric + bottom pause — the weak-left pattern (since W10) finally cleared.** Reverse fly 20, working a slower eccentric ('hold up before dropping slowly'); user unsure whether to go heavier — held 20. Face pull (spotlight) 42.5, elbows-up cue landing ('super different from what i used to do'), all slow eccentric, 'could go more' (room to bump). Lat pulldown dual pulley 70, 'very little pain,' grip the hard part. Cable crunch stepped to 77.5, 'really hard,' genuine working weight ('can't do slow eccentrics'). Warmup + the front-loaded behind-back shrug were done and 'felt fine' (user confirmed — done as warmup, not written up). Not separately narrated: high cable curl, cooldown.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (default — not separately narrated; 'super tiring' overall).",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "context": "Slow eccentric, straight bar, posted form",
+        "sets": [
+          { "weight": "bodyweight", "reps": 8 },
+          { "weight": "bodyweight", "reps": 6 },
+          { "weight": "bodyweight", "reps": 5 },
+          { "weight": "bodyweight", "reps": 6, "notes": "Taken after a longer break." }
+        ],
+        "notes": "8/6/5/6 slow eccentric (last set after a longer rest). 'Continue to be hard' — but the limiter has shifted: **'shoulder not much of a problem anymore, but doing these correctly with strength still hard.'** First-set 8 is up from W14D3's submaximal '6x4.' The work is now strength + clean form, not shoulder protection."
+      },
+      {
+        "id": "chest-supported-dumbbell-row",
+        "context": "🔆 W15 spotlight — the 35→40 step-up",
+        "sets": [
+          { "weight": "40lb", "reps": "10-12" },
+          { "weight": "40lb", "reps": "10-12" },
+          { "weight": "40lb", "reps": "10-12", "notes": "'Harder but didn’t break.'" }
+        ],
+        "notes": "**Spotlight reflection answered: 40 held the form for all 3 sets — 'felt fine did all sets, harder but didn't break.'** The weight-up earned over two 'too easy' weeks at 35 landed clean. 40 is the new working weight; chest-glued / elbow-to-hip form held through the jump."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": [
+          { "weight": "60lb", "reps": 10 },
+          { "weight": "70lb", "reps": 10 },
+          { "weight": "80lb", "reps": 8, "notes": "'80 set felt good; shoulder no pain and strong here.'" }
+        ],
+        "notes": "Full 60/70/80 pyramid, all sets good, 80 strong and pain-free. **Hardest part was LEFT-HAND GRIP, not the back or shoulder** — same grip-is-the-limiter signal as the lat pulldown and W15D1's farmer carry. User suggested 'could probably start at 70 next time' (drop the 60 opener) — a forward question, not actioned."
+      },
+      {
+        "id": "incline-curl",
+        "context": "User's term: 'chest supported curls' — re-confirms the W14D3 drift flag (this is the incline/chest-SUPPORTED preacher-replacement curl, not a back-against-bench curl)",
+        "sets": [
+          { "weight": "25lb", "reps": "8-10", "notes": "Both arms, no support, slow eccentric + 2s bottom pause." },
+          { "weight": "25lb", "reps": "8-10", "notes": "Both arms, no support." },
+          { "weight": "25lb", "reps": "8-10", "notes": "Both arms, no support — 'definitely a new record.'" }
+        ],
+        "notes": "**NEW RECORD: all sets, both arms, NO support, with a slow eccentric + pause at the bottom.** The weak-left pattern (left needed support W10/W11/W12/W14D3, every time the curl ran late) finally cleared — both arms held the full sets unassisted. Floor rising. The user's own naming 'chest supported curls' again matches the W14D3 drift flag — confirms this lift is the chest/incline-SUPPORTED (preacher-replacement) curl; the stale exercise definition is now safe to correct."
+      },
+      {
+        "id": "dumbbell-reverse-fly",
+        "sets": [
+          { "weight": "20lb", "reps": 12, "notes": "'Trying to hold up as much as i can before dropping slowly.'" },
+          { "weight": "20lb", "reps": 12 },
+          { "weight": "20lb", "reps": 12, "notes": "'Feels good at the squeeze, working to get slower.'" }
+        ],
+        "notes": "20lb x3, working a slower eccentric (hold at the top, then a slow drop). 'Feels good at the squeeze.' **User asked whether to go heavier — open question.** They're still building the slow tempo at 20, so holding 20 to drill the eccentric reads as the right call before adding load; revisit in W16 if the tempo's locked."
+      },
+      {
+        "id": "face-pull",
+        "equipment": "cable column 42.5 + rope",
+        "context": "🔆 W15 spotlight",
+        "sets": [
+          { "weight": "42.5", "reps": 20, "notes": "Slow eccentric. Elbows-up form." },
+          { "weight": "42.5", "reps": 20 },
+          { "weight": "42.5", "reps": 20, "notes": "'Hard at the end but could go more.'" }
+        ],
+        "notes": "**Spotlight reflection answered: the elbows-high / external-rotate cue is locked — 'the elbows up form feels super different from what i used to do,' feeling it in the back, all sets slow eccentric.** 'Could go more' — room to bump off 42.5 now that the cue's grooved. W16: small step up (45) is on the table since the form is reliable."
+      },
+      {
+        "id": "lat-pulldown",
+        "equipment": "dual pulley 70",
+        "sets": [
+          { "weight": "70", "equipment": "dual pulley", "reps": "8-10", "notes": "'Very little pain!'" },
+          { "weight": "70", "equipment": "dual pulley", "reps": "8-10" },
+          { "weight": "70", "equipment": "dual pulley", "reps": "8-10", "notes": "Grip the hard part at the end." }
+        ],
+        "notes": "Dual pulley 70 again (the W14D3 variant), all sets, **'very little pain.'** Grip was the limiter at the end — **'shoulder isn't the main problem anymore tho i still feel like it's hitting the end of its ability to hold on.'** The shoulder is no longer the ceiling on the pulldown; grip is, same as DB row + farmer carry. Hold dual-pulley 70."
+      },
+      {
+        "id": "cable-crunch",
+        "equipment": "cable pulley 77.5 (rope)",
+        "sets": [
+          { "weight": "77.5", "equipment": "cable pulley", "reps": "12-15", "notes": "'Really hard.'" },
+          { "weight": "77.5", "equipment": "cable pulley", "reps": "12-15" },
+          { "weight": "77.5", "equipment": "cable pulley", "reps": "12-15", "notes": "Can't do slow eccentrics at this load." }
+        ],
+        "notes": "**Stepped up to pulley 77.5 (top of the prescribed 75-77.5) — found genuine working weight: 'really hard... definitely working weight and can't do slow eccentrics.'** After 62.5/72.5 both came in 'fairly easy,' 77.5 finally bites. Hold 77.5 — don't chase another bump; the slow eccentric isn't available here yet, which means it's the right load."
+      }
+    ],
+    "shoulderStatus": "**Cleanest full pull day of the whole cluster — 'nothing hurt.' The W14D3 end-of-session flare did NOT repeat.** This is the week the protective behind-back shrug moved to the FRONT (activation slot) and the user ramped volume rather than going all-slow-eccentric at once — exactly the two W14D3 corrective levers. The shrug WAS done and 'felt fine' (user confirmed — done as warmup, so not written up). So this is a clean data point: shrug front-loaded + done + volume ramped → no flare, the cleanest pull day of the cluster. The bigger signal: **the shoulder is no longer the limiter on the pulling lifts — grip is.** DB row 80 'shoulder no pain and strong,' lat pulldown 'very little pain... shoulder isn't the main problem anymore,' pull-ups 'shoulder not much of a problem anymore.' Grip taps out first on DB row (left hand), lat pulldown, and (W15D1) the farmer carry.",
+    "skipped": [],
+    "lessonsForFutureWeeks": [
+      "**The W14D3 flare did not repeat — clean data point.** Shrug front-loaded AND confirmed done ('felt fine'), volume ramped — both W14D3 corrective levers in place, cleanest pull day of the cluster ('nothing hurt'). The front activation slot is working: it got done without a second thought, treated as part of the warmup. Keep it there.",
+      "**Grip is the new ceiling on pulling/carrying, not the shoulder.** Left-hand grip limited DB row 80; grip limited lat pulldown; grip limited the W15D1 farmer carry — three lifts now where grip taps out before the shoulder. The shoulder has recovered enough that grip is the honest limiter. Observation, not a mandate — if the user wants, grip could be treated as the trainable edge, but don't push a grip-training program unasked.",
+      "**Chest-supported row 40 landed — new working weight.** The 35→40 step-up held form across all 3 sets ('harder but didn't break'). W16: hold 40, confirm it's still honest before any further step.",
+      "**Chest-supported curl: weak-left finally cleared — both arms unsupported, new record.** The left-needs-support pattern (W10-W14) didn't appear even with the curl late in the session. Keep the left-first protocol as insurance, but the floor has risen.",
+      "**Drift flag RESOLVED — no edit needed.** User confirmed the movement is the chest/incline-SUPPORTED preacher-replacement curl ('yeah incline curl, that's what i did, my mess up' = a naming slip, not a movement change). The `incline-curl` definition ALREADY describes exactly this ('Incline Chest-Supported Curl (Preacher-Style)', chest-first, upper-arm-flat-on-pad) and the W15 workout note matches. Definition + prescription + movement all agree — close the W14D3 drift audit on this lift.",
+      "**Face pull cue locked — room to bump.** 42.5 'could go more,' elbows-up form 'super different,' all slow eccentric. W16: small step to 45 is on the table now that the cue is reliable.",
+      "**Cable crunch 77.5 is the ceiling for now** — 'really hard, can't do slow eccentrics.' After 62.5/72.5 both 'fairly easy,' 77.5 bites. Hold 77.5; don't bump until the slow eccentric becomes available again.",
+      "**DB row W16 — settled: 70/80/90 bare-hand, no straps.** Drop the 60 opener; new top set is 90 for ~5-6 reps (a deliberate heavier top-end set). User declined straps — wants grip trainable, not bypassed. Grip stays the honest limiter across DB row + lat pulldown + farmer carry; user is fine letting pull-ups pre-fatigue it and treating slower / higher-rep work on the 70/80 sets as grip-building. So the back gets a heavier top-end stimulus AND grip gets trained as the cap, by design."
+    ]
+  },
+  {
+    "day": 4,
+    "workoutId": "fb-w15-kb-cond",
+    "date": "2026-06-04",
+    "rawInput": "W15d4\n\nWent pretty great, was a bit light but I didn’t mind it, the skills stuff were great; would love to see another variation for the middle workout block with some other more flow like one, if we have it - something similar to last week’s around the leg pass thing - that’s super flowy but very cardio",
+    "notes": "Thursday KB conditioning (full template). Light-touch logging — loads not narrated, held per prescription. 'Went pretty great, was a bit light but I didn't mind it' (matches the intentionally-lighter pre-Friday-legs Thursday design), 'the skills stuff were great' (windmill spotlight / TGU / OTD flow). User asked for a flowy, cardio-style variation to rotate into the middle of the session — reference is the single-leg around-the-world ('the around the leg pass thing'). Candidates already exist in the library; carried to NOTES.md.",
+    "cardio": "KB day — no run logged (home Thursday, not an Arrilaga run-commute day).",
+    "exercises": [],
+    "shoulderStatus": "Not flagged — 'went pretty great.' Nothing called out through the windmill lockout / OTD-flow bent press / TGU overhead work.",
+    "skipped": [],
+    "lessonsForFutureWeeks": [
+      "**Session ran light by design and the user was happy with it** — 'a bit light but I didn't mind it,' skills work (windmill spotlight / TGU / OTD flow) landed. Thursday's lighter pre-Friday-legs dose is doing its job; no loads to step.",
+      "**User wants a flowy-cardio variation rotated into the middle block.** Reference = single-leg around-the-world ('super flowy but very cardio'). No new extraction needed — candidates already in the library: kettlebell-figure-8-to-reverse-lunge (figure-8 weave → reverse lunge, the most cardio of the set), kettlebell-around-the-body-pass-to-squat (GymFiesta — around-body pass → squat), kettlebell-figure-8 (low wide-stance weave between the legs). W16 D4: swap one into the cardio-balance circuit / flow slot — swap, don't stack (Thursday is already full template)."
+    ]
+  },
+  {
+    "day": 5,
+    "workoutId": "fb-w15-legs",
+    "date": "2026-06-05",
+    "rawInput": "w15d5\n\nleg press\n- used 45 and 70 for warmup since easier to stack weights\n- thought it would be too many sets but the bump up in weight plus reduction in reps really helped\n- did all sets great rom at 75; \n- happy to do fewer reps or sets next week and bump up to 80\n\n\nincline rdl\n- other equipment busy\n- pretty easy as second exercise\n- felt good burn, just going slower on eccentric to make it harder and third set still burned; feels good, don't really want to go up just yet on this since i can just slow down more \n\n\nleg curl still working weight did all sets with effort\n\nsplit squat at 50 suitcase did all; easy ish bc haven't been able to do leg press yet\n\none weird side effect of all these squats is that i can squat in a deep squat for a really long time and not hurt which i could never do as an adult - it always hurt inner thigh and other mysterious places \n\nended up stretching. a bit before finally scoring the leg press\n\nleg press rom turned out really good even on first set; not hard since chasing depth not rom, felt super super good on these; i think doing these instead of chasing weight is the best move; range improving a ton \n\nmostly feeling these in ql and papas and other core muscles; leg muscles barely feel anything so it feels like core is still catching up to legs? feels like stabilizers getting a workout\n\nthis is also literally legs to chest i my legs are literally digging into my chest so i think this is max rom lol - the psoas are the sorest - lower back still on the pad - this has been very good PT\n\ni think we should go up a bit next but keeping this rom\n\ncalf raises still pretty hard but i can do all sets at this pace nice",
+    "notes": "Legs day, station order shuffled by equipment availability — the leg press was occupied, so the user ran squat → incline RDL → leg curl → Bulgarian first, then got the leg press + calf raise last. **Naming flag: the user's top 'leg press' block is actually the barbell SQUAT** — warmup 45/70 + working 75 + 'bump to 80' match the squat prescription exactly (warmup 45→65, working 75), and the leg press is plate-loaded (3 plates), never '75.' The leg press proper is the bottom 'legs to chest / lower back on the pad' block, chased for depth with no load cited. **Squat 75 / 6-7-8-8 ran clean with great ROM** — 'the bump up in weight plus reduction in reps really helped' (worried it'd be too many sets, but the lower reps made it manageable); user wants 80 next week with fewer reps/sets. **The W15 leg-press spotlight is answered about as cleanly as it gets:** the work lands in the QL/psoas/core, not the legs ('leg muscles barely feel anything... core still catching up to legs... stabilizers getting a workout'), full knees-to-chest depth ('legs literally digging into my chest... max rom,' lower back stays on the pad), 'range improving a ton,' 'this has been very good PT,' 'doing these instead of chasing weight is the best move.' User wants to nudge the load up a bit next week WHILE keeping the deep ROM. **Bulgarian spotlight answered:** 50lb single-DB suitcase (top of the 45-50 step-up), all sets, 'easy-ish' — with the user's own caveat that it felt easy partly because the legs were fresh (the leg press hadn't been done yet, so the Bulgarian ran before it instead of after). Leg curl 90 held, 'all sets with effort.' Incline RDL 45lb plate ran 2nd/fresh ('pretty easy as second exercise'); user deliberately slowing the eccentric to make it harder, 'third set still burned' — explicitly doesn't want to add load, happy to keep progressing via tempo. Calf raise 3 plates, slow tempo 'still pretty hard' but all sets done. **Standout — a functional PT win: the user can now hold a deep squat pain-free for a long time, 'which i could never do as an adult — it always hurt inner thigh and other mysterious places.'** No QL spasm despite the deep loaded squatting (the W9 QL issue did not recur); the QL/psoas are training-sore from the deep leg press, not spasming.",
+    "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (Arrilaga gym-day default — not separately narrated this session).",
+    "exercises": [
+      {
+        "id": "squat",
+        "context": "User wrote 'leg press' for this top block — it's the barbell SQUAT. Warmup 45/70 + working 75 + 'bump to 80' match the squat prescription (warmup 45→65, working 75) exactly; the leg press is plate-loaded (3 plates) and is described separately below.",
+        "sets": [
+          { "weight": "45lb each", "reps": 8, "notes": "Warmup set 1." },
+          { "weight": "70lb each", "reps": 8, "notes": "Warmup set 2 (≈the prescribed 65)." },
+          { "weight": "75lb each", "reps": "6 / 7 / 8 / 8", "notes": "4 working sets, great ROM. 'The bump up in weight plus reduction in reps really helped.'" }
+        ],
+        "notes": "75/side, 6/7/8/8, great depth. **User wants 80 next week with fewer reps/sets** — 'happy to do fewer reps or sets next week and bump up to 80.' The settled squat pattern is earning its step-up. (W16 legs updated to 80 / 5-6 reps.)"
+      },
+      {
+        "id": "leg-press",
+        "context": "🔆 W15 spotlight. The real leg press — the bottom 'legs to chest / lower back on the pad' block, done LAST (machine was occupied earlier). Load not cited — chased for depth, held at the prescribed 3 plates.",
+        "sets": [
+          { "weight": "3 plates each (per prescription — not separately cited)", "reps": 12, "notes": "Full knees-to-chest depth from the first set." },
+          { "weight": "3 plates each", "reps": 12 },
+          { "weight": "3 plates each", "reps": 12 },
+          { "weight": "3 plates each", "reps": 12 }
+        ],
+        "notes": "**Spotlight reflection answered cleanly: the work lands in the QL/psoas/core, not the legs.** 'Leg muscles barely feel anything... core still catching up to legs... stabilizers getting a workout.' Full ROM ('legs literally digging into my chest... max rom'), lower back stays on the pad, 'range improving a ton,' 'very good PT,' 'doing these instead of chasing weight is the best move.' **User wants to nudge the load up a bit next week while keeping the deep ROM** — 'go up a bit next but keeping this rom.' (W16 legs updated: small load nudge, ROM stays primary.)"
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": [
+          { "weight": "3 plates each", "reps": 15 },
+          { "weight": "3 plates each", "reps": 15 },
+          { "weight": "3 plates each", "reps": 15 }
+        ],
+        "notes": "3 plates, slow tempo — 'still pretty hard but i can do all sets at this pace.' Held; the slow eccentric is still the stimulus. Same machine as the leg press, done right after."
+      },
+      {
+        "id": "bulgarian-split-squat",
+        "context": "🔆 W15 spotlight — the load step-up. 50lb single-DB suitcase (top of the prescribed 45-50).",
+        "sets": [
+          { "weight": "50lb (single DB, suitcase)", "reps": "8-10 each leg" },
+          { "weight": "50lb (single DB, suitcase)", "reps": "8-10 each leg" },
+          { "weight": "50lb (single DB, suitcase)", "reps": "8-10 each leg" }
+        ],
+        "notes": "**Spotlight step-up answered: 50lb suitcase held all sets, 'easy-ish' — with the user's own caveat that it felt easy partly because the legs were fresh** (the leg press was occupied, so the Bulgarian ran before it this week instead of after). So 50 landed clean, but the 'easy' read is confounded by fresh legs. Hold 50; re-check when it runs in its normal post-leg-press slot before stepping further."
+      },
+      {
+        "id": "seated-leg-curl",
+        "sets": [
+          { "weight": "90", "reps": 12 },
+          { "weight": "90", "reps": 12 },
+          { "weight": "90", "reps": 12 }
+        ],
+        "notes": "90, 'still working weight, did all sets with effort.' Held — genuine working weight."
+      },
+      {
+        "id": "incline-rdl",
+        "context": "Ran 2nd this session (out of the prescribed order) because the leg press was occupied — taken fresh.",
+        "sets": [
+          { "weight": "45lb plate", "reps": 15, "notes": "'Pretty easy as second exercise' — taken fresh." },
+          { "weight": "45lb plate", "reps": 15 },
+          { "weight": "45lb plate", "reps": 15, "notes": "'Third set still burned' even with the slower eccentric." }
+        ],
+        "notes": "45lb plate, ran early/fresh ('pretty easy as second exercise'). User deliberately slowing the eccentric to make it harder; 'third set still burned, feels good.' **Explicitly doesn't want to add load — happy to keep progressing via tempo** ('don't really want to go up just yet... i can just slow down more'). Tempo-as-progression working as intended. Ran BEFORE leg curl this week (reversed from the prescribed order) due to the equipment shuffle, but no hamstring-stacking problem reported — the shuffle happened to space the two hamstring lifts out."
+      }
+    ],
+    "shoulderStatus": "Not flagged — legs day. No QL spasm despite the deep loaded squat + leg-press volume (the W9 QL issue did not recur); the QL/psoas are training-sore from the full-ROM leg press, not spasming — 'the psoas are the sorest.' That's the muscle being trained through full ROM, the intended PT effect.",
+    "skipped": [],
+    "lessonsForFutureWeeks": [
+      "**Squat → 80 next week with fewer reps/sets** (user's explicit ask). W16 legs updated to 80 / 5-6 reps. Let depth keep building across the ramp at the higher load; don't trade the bottom for the number.",
+      "**Leg press → small load nudge while keeping the deep knees-to-chest ROM** (user's explicit ask). W16 legs updated: nudge up slightly, ROM stays primary — if the added load shortens the ROM or lifts the lower back off the pad, drop back to 3 plates.",
+      "**The leg-press-as-PT/core-depth lift is now a multi-week confirmed pattern AND the user loves it** — 'very good PT,' 'range improving a ton,' 'doing these instead of chasing weight is the best move.' Keep it framed as a depth/core/QL lift, NOT a load-chase; the small nudge is a feel-good bonus, the ROM is the product.",
+      "**Bulgarian 50 landed but the 'easy' read is confounded by fresh legs** (it ran before the leg press this week, not after). Hold 50; re-check it in its normal post-leg-press slot before considering a further step.",
+      "**Incline RDL stays at 45lb plate — tempo is the progression.** User explicitly declined a load bump ('i can just slow down more'). Don't offer one; keep drilling the slow eccentric + bottom pause.",
+      "**Functional PT win: pain-free deep-squat hold the user 'could never do as an adult.'** The deep-ROM, form-first, depth-over-load approach is producing a real functional gain — strong validation of the program philosophy. Captured in NOTES.md.",
+      "**Naming slip logged: user's top 'leg press' = the squat.** Cross-referenced against the prescription so it doesn't drift into next week's notes. Equipment-availability reordering is normal for this user — the prescribed station order is the ideal, not a hard constraint; just keep an eye on the leg-curl-before-incline-RDL stacking rule when machines are free."
+    ]
+  }
+]

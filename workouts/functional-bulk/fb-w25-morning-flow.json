@@ -1,0 +1,171 @@
+{
+  "id": "fb-w25-morning-flow",
+  "name": "W25 Morning Flow — Bodyweight Spine + Hip (All Days, Rotated Variety)",
+  "description": "The daily 15-minute opener. This week rotates roughly half the moves: the W12-era favourites come back — **puppy pose, thread-the-needle, couch stretch, happy baby** — and the work block swaps to spiderman plank + dead bug + wide plié pulses. Anchors stay put: scorpion, lizard, cossack, the push-up greasing set, and the rehab cluster in the day-specific add-on.\n\n**Order is deliberate.** Primer wakes the spine, work block warms the body, and the deep stretch arc goes last because warm muscle stretches further. Don't reorder it to get the stretching over with.",
+  "routineId": "morning-flow",
+  "tags": ["morning", "mobility", "bodyweight", "functional-bulk"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "primer",
+      "name": "Primer — Wake the Spine (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Slow and unhurried. You just got out of bed — this is about getting the spine and hips to agree to move, not about a stimulus.",
+      "exercises": [
+        {
+          "id": "puppy-pose-cat-cow",
+          "duration": 60,
+          "notes": "Back this week after a long absence. Knees under hips, walk the hands forward and let the chest sink — then flow into cat-cow from there. **Thoracic extension is the target**, so let the low back stay quiet and the mid-back do the moving."
+        },
+        {
+          "id": "thread-the-needle",
+          "duration": 90,
+          "notes": "45s each side. **Rotate from the mid-back, not the neck.** The bottom shoulder reaches through and the ribcage follows — chase the rotation, not the depth."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Tight fists, thumbs tucked, hinged slightly forward. Wakes the deep core before anything loaded."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Bodyweight Activation (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Warm the body. **Activate, don't fatigue** — this precedes a gym session most days.",
+      "exercises": [
+        {
+          "id": "push-up",
+          "reps": "max-ish (~2-3 in reserve)",
+          "notes": "The greasing set. **Never to failure** — leave 2-3 in the tank, every single day. Elbows ~45°, shoulders packed DOWN not shrugged up."
+        },
+        {
+          "id": "dead-bug",
+          "reps": "8 each side",
+          "notes": "**Ribs down, low back flat to the floor** — that contact is the whole exercise. Slow, opposite arm and leg, no rush."
+        },
+        {
+          "id": "spiderman-plank",
+          "reps": "10 each side",
+          "notes": "Plank, drive the knee to the outside of the same elbow. Hips stay level — no piking, no sagging."
+        },
+        {
+          "id": "barre-wide-plie-pulse",
+          "reps": "20",
+          "notes": "Wide stance, toes out, sink to depth and pulse. **Knees track the toes.** The Action Jacqueline beat — light, high-rep, wakes the adductors and glutes without loading anything."
+        }
+      ],
+      "restBetween": 15,
+      "restAfter": 15
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One continuous arc — flow between shapes rather than stopping and setting up each one. Body is warm now, so these go deeper than they would cold.",
+      "exercises": [
+        {
+          "id": "scorpion-stretch",
+          "duration": 60,
+          "notes": "30s each side. Prone, reach the foot across to the opposite hand. Front-of-hip and chest open together."
+        },
+        {
+          "id": "lizard-pose",
+          "duration": 90,
+          "notes": "45s each side. Deep hip opener. Drop to the forearms if the hip allows — **and it does more often than it used to.**"
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Depth is the project and it's working** — the down heel is flat now where it used to be on the ball of the foot. Sit into one hip, other leg straight, heel down, get lower than comfortable."
+        },
+        {
+          "id": "couch-stretch",
+          "duration": 90,
+          "notes": "45s each side. Back this week after a long absence. Rear foot up on a wall or couch, **squeeze the glute of the back leg** and tuck the pelvis — that's what turns it from a knee stretch into a hip flexor stretch."
+        },
+        {
+          "id": "happy-baby",
+          "duration": 60,
+          "notes": "Back this week. Grab the outsides of the feet, knees toward the armpits, and let the low back release into the floor. The parasympathetic downshift to finish on."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "day-specific",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Not all of these every day — pick the cluster that matches what you're about to train.\n\n**Push day:** doorframe chest stretch · prone Y-raise · scapular push-up\n**Pull day:** dead hang · scapular pull · side-lying external rotation\n**KB days:** wall angel · side-lying ER · dead hang\n**Legs day:** standing cross-leg lateral · pigeon · supine twist",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 90,
+          "notes": "45s each arm at MID elbow height. Push day opener."
+        },
+        {
+          "id": "prone-y-raises",
+          "reps": 10,
+          "notes": "Rehab anchor. Thumbs up, lift from the mid-back, **no shrug.**"
+        },
+        {
+          "id": "scapular-push-up",
+          "reps": 10,
+          "notes": "Rehab anchor. Arms locked, move only the shoulder blades — protract and retract."
+        },
+        {
+          "id": "side-lying-external-rotation",
+          "reps": "10 each side",
+          "notes": "Rehab anchor, and the direct one for the right shoulder. Elbow pinned to the ribs, rotate from the shoulder."
+        },
+        {
+          "id": "wall-angel",
+          "reps": 12,
+          "notes": "Rehab anchor. Low back and forearms stay on the wall the whole way — **if the back arches, you've gone too high.**"
+        },
+        {
+          "id": "dead-hang",
+          "duration": 25,
+          "notes": "Rehab anchor. Passive hang, shoulders relaxed up around the ears. Decompression."
+        },
+        {
+          "id": "scapular-pull",
+          "reps": 10,
+          "notes": "Rehab anchor. From the hang, pull the shoulder blades DOWN without bending the elbows."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. QL release — legs day opener."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "45s each side. Legs day."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side. Legs day, or any day the low back is talking."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Work before stretches, always.** Warm muscle stretches deeper — that's why the yoga arc is last.",
+    "**The push-up set is a greasing set, not a workout.** Leave 2-3 reps in the tank every day.",
+    "**Short beats skipped.** Ten minutes counts. Five counts."
+  ]
+}

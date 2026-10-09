@@ -1,0 +1,99 @@
+{
+  "id": "sculptherbody-seated-band-shoulder-flow",
+  "name": "Seated Mini-Band Shoulder + Upper-Back Flow",
+  "description": "53-second seated flow with one mini-band (looped, light-medium tension). Heels-tucked seiza/half-lotus base. Continuous flow through ~7 banded shoulder positions — overhead pull-aparts, behind-neck pulldowns, lateral T-reaches, chest pull-aparts, diagonal reaches. No reps counted in the video — appears to be ~5-8s sustained tension at each position. Excellent banded scap/upper-back mobility primer; very 'old-school yoga teacher with a band' energy. Could slot into the W11+ morning flow rotation, especially before pull or push days.",
+  "routineId": "morning-flow",
+  "tags": ["mobility", "shoulders", "upper-back", "scapular", "mini-band", "seated", "morning-flow-candidate"],
+  "estimatedDuration": 6,
+  "equipment": ["mini-band"],
+  "difficulty": "beginner",
+  "source": "@sculptherbody",
+  "sourceUrl": "https://x.com/sculptherbody/status/2048273465661120547",
+  "extractionStatus": "draft — review before integrating",
+  "extractionNotes": [
+    "Video is silent flow (no spoken cues, no rep counts) — exercise breakdown is reconstructed from frames at 1fps over 53s.",
+    "Mini-band (loop band) used throughout, never swapped. Looks like medium-resistance.",
+    "Athlete is in heels-tucked kneeling/seiza posture the entire video — no standing.",
+    "Each position held ~5-8s with sustained tension. No counted reps.",
+    "Exercises 4-5 are the most useful 'stretches' the user flagged — the lateral T-reach and chest-level pull-apart open up a lot of upper back.",
+    "All exercises here are CANDIDATES — none yet exist in exercises/. Would need new exercise files before this workout can be built into the catalogue."
+  ],
+  "sets": [
+    {
+      "id": "flow",
+      "name": "Continuous Flow (~5-8s per position, no rest)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "name": "Seated banded overhead pull-apart",
+          "candidateId": "seated-banded-overhead-pull-apart",
+          "duration": 8,
+          "videoTimestamp": "0:00-0:08",
+          "notes": "Sit heels-tucked. Band looped between hands, arms straight overhead, hands wider than shoulders. Pull band apart to create tension, ribs down, shoulders away from ears. Sustained tension, slow micro-pulses."
+        },
+        {
+          "name": "Seated banded behind-neck pulldown",
+          "candidateId": "seated-banded-behind-neck-pulldown",
+          "duration": 6,
+          "videoTimestamp": "0:09-0:14",
+          "notes": "From overhead position, pull the band down behind the head/neck — elbows drive down toward the ribs, shoulder blades retract. Like a band lat-pulldown without the cable."
+        },
+        {
+          "name": "Seated banded T-raise (lateral reach)",
+          "candidateId": "seated-banded-t-raise",
+          "duration": 8,
+          "videoTimestamp": "0:15-0:23",
+          "notes": "Band wraps around the upper back/shoulder blades, hands hold the band ends in front. Press arms straight out to the sides into a T — band creates resistance against the rear delts and mid-traps. Palms can rotate forward."
+        },
+        {
+          "name": "Seated banded chest pull-apart",
+          "candidateId": "seated-banded-chest-pull-apart",
+          "duration": 8,
+          "videoTimestamp": "0:24-0:31",
+          "notes": "Band held in front at sternum height, arms straight. Pull band apart, scaps retract, chest opens. Slower than the overhead version — feels like the 'core' opener of the sequence."
+        },
+        {
+          "name": "Seated banded reverse fly",
+          "candidateId": "seated-banded-reverse-fly",
+          "duration": 6,
+          "videoTimestamp": "0:32-0:38",
+          "notes": "From the chest pull-apart position, sweep arms back further behind the body line. Rear delts and rhomboids drive it. Subtle — easy to overrotate the lower back here."
+        },
+        {
+          "name": "Seated banded diagonal reach (high-low triangle)",
+          "candidateId": "seated-banded-diagonal-reach",
+          "duration": 8,
+          "videoTimestamp": "0:38-0:46",
+          "notes": "One arm reaches high overhead, other reaches diagonal-out — band makes a slanted line/triangle. Like a half-windmill with band. Switches sides in the video. Lat + side-body opener."
+        },
+        {
+          "name": "Seated banded overhead V-hold",
+          "candidateId": "seated-banded-overhead-v-hold",
+          "duration": 7,
+          "videoTimestamp": "0:46-0:53",
+          "notes": "Closer to a Y-hold — both arms reach high and wide, band stretched between hands in a V/diamond. Hold the tension at end-range, breathe. Closes the flow."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "All seven moves use one mini-band, looped — no equipment swap.",
+    "Seated heels-tucked posture forces upper-back work without lower-body cheat.",
+    "Sustained tension, NOT reps. Hold each position ~5-8s with steady pull, breathe.",
+    "Best slot: morning flow primer before push or pull day. Hits the same scap-prep work as wall slides + face pulls but with less setup.",
+    "If shoulder/neck tight, drop band tension before reducing range of motion."
+  ],
+  "media": [
+    {
+      "type": "video",
+      "url": "https://x.com/sculptherbody/status/2048273465661120547",
+      "platform": "x",
+      "creator": "@sculptherbody",
+      "duration": 53,
+      "capturedAt": "2026-04-26"
+    }
+  ]
+}

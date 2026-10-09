@@ -1,0 +1,112 @@
+{
+  "id": "fb-w11-kb-cond",
+  "name": "Week 11 KB Conditioning — Skill Drill (Spotlight: Windmill Mechanics)",
+  "description": "Thursday is the lightest day of the program. Recovery flank between Wed pull and Fri legs. **Spotlight rotates to windmill mechanics** — the bent press's sibling lift, same lateral-hinge family. Drill the long-spine + hip-flexor-of-back-leg cue at 18-20lb. Tuesday's bent press leverage cue should now feel automatic; the windmill borrows the same hinge and adds the deeper hamstring-and-back-leg-quad reach. 20 min, zero leg loading, no swings, no C&P, no goblet squats.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "spotlight-rotation"],
+  "estimatedDuration": 23,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "beginner",
+  "dayOverview": {
+    "theme": "Thursday recovery + skill drilling. Spotlight: windmill — the bent press's sibling. Same lateral-hinge family, deeper reach into the back leg.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-windmill",
+        "why": "Windmill and bent press share the lateral-hinge family. Bent press got the spotlight in W10 Thursday; W11 Thursday hands the spotlight to windmill so the family completes. The windmill goes deeper into the back leg's hip flexor and the hamstrings — drill that reach at light load (18-20lb), spine-long, eye-on-bell."
+      }
+    ],
+    "rotationPlan": "W10 bent press · W11 windmill mechanics (current) · W12 TGU left-side checkpoints · W13 cycle back to bent press. Thursday is always lighter than Tuesday's spotlight.",
+    "watchpoints": [
+      "**Zero leg loading.** No swings, no C&P, no goblet squats, no lunges. Legs day is tomorrow.",
+      "If anything feels heavy, the load is wrong. Pull weight or skip the block.",
+      "Windmill stretch should land in the **hip flexor of the back leg + hamstrings**, NOT the lower back. Lower-back stretch = side-bending, not hinging."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Heels tucked, mini-band overhead, hands wider than shoulders. **Sustained tension.** Or use the W10D2 alt: blue rope band gripped in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Pull band down behind head — **elbows drive to ribs**, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Band wraps the upper back. **Press out to T** — fires rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Band at sternum, **pull apart, scaps retract**, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep arms further back. **Don't overarch** the lower back." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Half-windmill with band — **primes today's windmill spotlight directly.**" },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in V/Y overhead. **Hold and breathe** — lower traps fire here." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions. Diagonal reach is today's direct prime for the windmill spotlight.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "OTD Flow (Light Groove)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "reps": "2 each side", "notes": "**LOAD:** 20lb. Light and smooth.\n- Bell starts on the floor between feet\n- Hips drive the lift, not the arm\n- Catch in rack with knees slightly bent" },
+        { "id": "kettlebell-front-squat", "reps": "2 each side", "notes": "Goblet/rack position. Sit tall, full depth, no bouncing." },
+        { "id": "kettlebell-lateral-lunge", "reps": "2 each side", "notes": "Stride out wide, sit into the working leg, keep the other leg long. Mobility, not strength." },
+        { "id": "kettlebell-bent-press", "reps": "2 each side", "notes": "Tuesday's spotlight cue (leverage — body goes down, bell barely moves). Light groove here." },
+        { "id": "kettlebell-tactical-clean", "reps": "2 each side", "notes": "**Control on the way down** — bell to floor with the same cleanness as up." }
+      ],
+      "notes": "20lb, 2 reps each side x 2 rounds. Should feel effortless throughout.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "🔆 Skill Drilling (Windmill Spotlight)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 18-20lb (light to keep cues clean — NOT 25). 2 rounds.\n\n**🔆 SPOTLIGHT — drill these every rep:**\n- **Bell locked overhead, EYES TRACK THE BELL** — same as bent press. Lose the eyes, lose the path.\n- **Hip hinge AWAY from bell side** — this is the windmill's bent-press inheritance. Push the bell-side hip OUT.\n- **LONG SPINE** — the stretch should land in the **hip flexor of the back leg + hamstrings**, NOT the lower back. If you feel it in the lumbar, you're side-bending — re-set, hinge instead.\n- **Reach the free hand toward the INSIDE of the front foot** — that's the line of pull. Outside foot = wrong angle.\n- **Bell stays vertical** the entire time — if it drifts inward, the arm is collapsing\n- **Slow descent, brief pause at the bottom, controlled return** — speed kills the groove\n\n**Reflection:** does the stretch land in the back leg's hip flexor (correct), or the lower back (wrong)? The windmill is a hip-and-back-leg lift; the lower back should feel NEUTRAL throughout. If it doesn't, drop to 15lb or shorten the descent."
+        },
+        { "id": "kettlebell-bent-press", "reps": "3 each side", "notes": "**LOAD:** 18-20lb. Light groove of last week's spotlight — the leverage cue should now feel automatic.\n- Lateral hinge AWAY from bell side\n- Press up by moving body DOWN — bell barely moves\n- Eye on bell, slow descent, controlled" },
+        { "id": "kettlebell-turkish-getup", "reps": "2 each side", "notes": "**LOAD:** 25lb (max bell of the day). Light intent — drill the **left side** transitions (still the weak link).\n- Pause every checkpoint: lying → elbow → hand → hip bridge → leg sweep → lunge → stand → reverse\n- Reverse with the same discipline\n- Left side first" }
+      ],
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — KB flow + cossack + lateral lunge fries the hip flexors. This counters." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from B-stance, cossack squats, and lateral lunges." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**THURSDAY = SKILL + MOBILITY, NOT WORKOUT.** ~23 min, light. Recovery flank between Wed pull and Fri legs.",
+    "**Spotlight: windmill mechanics.** Drill the long-spine + back-leg hip-flexor reach at 18-20lb. The bent press's sibling lift — same hinge family.",
+    "**Zero leg loading.** No swings, no C&P, no goblet squats, no lunges.",
+    "Heaviest bell: 25lb (TGU only). Most of the session at 18-20lb.",
+    "**Banded prep diagonal reach is today's direct prime** — half-windmill with band sets up the windmill spotlight.",
+    "Cooldown is mandatory — pigeon + butterfly.",
+    "Should feel effortless. If anything feels like work, you've gone too hard.",
+    "Rotation plan: W12 TGU left-side checkpoints · W13 cycle back to bent press."
+  ],
+  "formPhilosophy": "Thursday = skill becomes default movement. Windmill at light load drills the lateral hinge family deeper now that the bent press version is automatic. No load chase, no rep chase — the cue is the whole point. Hips and adductors get the cooldown they need."
+}

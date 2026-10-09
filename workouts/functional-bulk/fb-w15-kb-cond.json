@@ -1,0 +1,196 @@
+{
+  "id": "fb-w15-kb-cond",
+  "name": "Week 15 KB Conditioning — Thursday, Full Template (Spotlight: Windmill)",
+  "description": "KB Thursday, full template — banded prep → strength block (lighter) → OTD flow → windmill spotlight → skill/mobility → cardio + balance circuit → flow + balance closer → cooldown. Lighter on the loaded squatting (Friday legs is the day after). Spotlight cycles forward to the windmill (the lateral-hinge mobility move, due for a deeper cue drill). The OTD flow runs light with the bent press in its canonical slot. Thursday closes on a light cardio + balance circuit (single-leg around-the-world → figure-8 march → standing side-to-side twist), never a metabolic finisher.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "conditioning", "spotlight-rotation", "thursday"],
+  "estimatedDuration": 54,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Thursday KB day, full template, lighter on loaded squatting. Spotlight = windmill (lateral-hinge mobility). OTD flow runs light with the bent press in its canonical slot. TGU is maintenance; the day closes on a light cardio + balance circuit (around-the-world → figure-8 march → standing side-to-side twist) — conditioning + balance without pre-fatiguing Friday legs.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-windmill",
+        "why": "Cycles forward — last spotlighted W11. The lateral hinge is the shared root of the windmill, bent press, and cossack family; drilling the windmill keeps the 'stretch in the back-leg hip flexor, not the lower back' cue sharp and feeds the bent press in the OTD flow. Light bell on Thursday — it's mobility, not load."
+      }
+    ],
+    "rotationPlan": "W12 TGU · W13 bent press refresh · W14 figure-8 flow · W15 windmill (current) · W16 cycle forward — TGU or bent-press refresh.",
+    "watchpoints": [
+      "**Thursday = day before Friday legs.** Loaded squatting (OTD-flow front squat, goblet) stays LIGHT — no PR attempts, nothing that pre-fatigues legs.",
+      "**Full template** — banded prep → strength → OTD flow → windmill spotlight → skill/mobility (TGU) → cardio + balance circuit → flow + balance closer → cooldown.",
+      "**Windmill spotlight** — 3 rounds, light bell. Hip hinge AWAY from the bell side; the stretch is in the back-leg hip flexor, NOT the lower back.",
+      "**OTD flow is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. Bent press is move #4, in the flow, not a separate block. Light groove, 2 rounds.",
+      "**Right shoulder watch on the overhead work** (windmill lockout, bent press) — if it talks, lighten and slow down; back off range before grinding.",
+      "**Protective shrug greasing set in the warmup (NEW)** — the pull-day behind-back shrug, scattered here because it's cheap and easy to forget. 1 light set, DBs or a bell behind the body.",
+      "**Finisher is a light Cardio + Balance circuit, not a metabolic complex** — single-leg around-the-world → figure-8 march → standing side-to-side twist, light bell, back-to-back with short rest. Thursday is conditioning + skills + balance — and Friday legs is tomorrow.",
+      "**Standing side-to-side twist** (one bell, both hands, arms straight out front, twist side to side), light bell — the straight-arm lever makes it feel heavy; the core/obliques own the twist, not the lower back. No leg load, so zero pre-fatigue for Friday."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — wakes the grip and forearms for the flow + clean catches." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set) — the pull-day shrug, scattered to KB days.** 1 light set held behind the body (DBs or a bell), palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band overhead OR blue rope band gripped in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Press out to a T — fires rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Pull apart at the sternum, scaps retract, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep the arms back. Don't overarch." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge — directly preps the windmill + bent press." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y overhead. Hold and breathe — lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "strength-block",
+      "name": "Strength Block (Lighter — Thursday Variant)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each",
+          "notes": "**LOAD:** 30lb. 2 rounds, 8 each side. Hips hinged, back flat, pull the elbow to the hip."
+        },
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "5 each",
+          "notes": "**LOAD:** 25-30lb. 2 rounds, 5 each side. Single-arm strict press — clean to rack, press straight up.\n- **Ribs DOWN** before the press — no rib flare\n- **Bicep finishes by the ear, full lockout**\n- Slow descent back to the rack"
+        }
+      ],
+      "notes": "Lighter strength block — single-arm row + press. The bigger compound presses (C&P) are Tuesday's job. ~5 min.",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "otd-flow-block",
+      "name": "OTD Flow (Light Groove — Skill Practice)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "notes": "Bell starts on the floor between the feet, hips drive the lift, catch in the rack with the knees slightly bent." },
+        { "id": "kettlebell-front-squat", "notes": "Goblet/rack position. **LIGHT** — Thursday before Friday legs, keep depth without grinding. Sit tall, full depth, no bouncing." },
+        { "id": "kettlebell-lateral-lunge", "notes": "Stride out wide, sit into the working leg, keep the other leg long. Mobility, not strength." },
+        { "id": "kettlebell-bent-press", "notes": "The deliberate leverage move inside the flow — **the body goes DOWN, the bell barely moves.** From the rack, hinge and rotate AWAY from the bell side, eyes tracking the bell, until the arm locks out overhead — you lower your body under the bell, you don't press it up. Slow and smooth; it's leverage, not a press." },
+        { "id": "kettlebell-tactical-clean", "notes": "Control on the way down — bell to the floor as cleanly as it came up. Closes the flow before switching sides." }
+      ],
+      "notes": "**This is a continuous FLOW, not separate stations.** Move through the full chain on ONE side — dead clean → front squat → lateral lunge → bent press → tactical clean — letting each move feed the next, then repeat the whole flow on the other side. About 2 reps' worth at each move, don't stop to count. **~20-25lb throughout, 2 rounds. Light groove** — it should feel effortless. If the 25lb bell is taken, the next bell up (35lb) is the fallback — but keep it light; Friday legs is tomorrow.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "windmill-spotlight",
+      "name": "🔆 Windmill (Spotlight — Lateral-Hinge Mobility)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 18-20lb. 3 rounds, 5 each side. Light — this is mobility under load, not a strength lift.\n\n**🔆 SPOTLIGHT — the lateral hinge, clean:**\n- **Bell locked overhead, arm vertical, eyes track the bell** the entire rep — the bell never leaves your sight\n- **Hip hinge AWAY from the bell side** — push the hip out toward the bell-arm side, fold over the front leg\n- **The stretch lives in the back leg's hip flexor / hamstring and the side of the waist — NOT the lower back.** If you feel it in the lumbar, you're bending the spine instead of hinging the hip\n- **Long spine throughout** — the bend is at the hip, the spine stays long (no crunching down)\n- **Free hand reaches down the inside of the front leg** toward the floor as the torso lowers\n- **Slow descent, brief pause at the bottom, controlled return** — own every inch\n\n**Reflection:** can you keep the stretch in the hip/waist and OUT of the lower back for all 3 rounds? This is the same lateral-hinge pattern as the bent press in the OTD flow — drilling it clean here should make the bent press feel more like leverage and less like a press."
+        }
+      ],
+      "notes": "Spotlight mobility flow. 3 rounds at 18-20lb, ~5 min including rest. Light bell — range and clean hinge mechanics are the work.",
+      "restBetween": 45,
+      "restAfter": 45
+    },
+    {
+      "id": "skill-mobility-block",
+      "name": "Skill + Mobility (Maintenance) — TGU + Overhead Flow",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "1 forward + 1 reverse per side",
+          "notes": "**LOAD:** 25-30lb. 2 rounds. Maintenance.\n- **Straight-arm overhead lockout** — the arm stays locked vertical the whole way\n- Eyes ON the bell at every checkpoint\n- Pause at every checkpoint — the reverse is half the lift\n- Hip bridge: glute squeeze, ribs down"
+        },
+        { "id": "kettlebell-overhead-extension-to-halo", "reps": "5", "notes": "**LOAD:** 15-20lb. Flowing overhead tricep extension into a halo — one continuous shape, a thoracic + shoulder opener under light load. **Flow, don't grind** — smooth circles, ribs down. Right shoulder watch: keep it light and loosening; back off range if it pinches." }
+      ],
+      "restBetween": 60,
+      "restAfter": 30
+    },
+    {
+      "id": "cardio-balance-circuit",
+      "name": "🌀 Cardio + Balance Circuit (around-the-world → figure-8 march → standing side-to-side twist)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-single-leg-around-the-world",
+          "reps": "5 each direction, each leg",
+          "notes": "**LOAD:** 15-20lb.\n- **Stand on one leg, knee soft, opposite leg lifted slightly**\n- Pass the bell around the body — hand to hand behind / in front\n- **Standing-leg glute LOCKED IN** — the hip drives stability, not the spine\n- 5 reps clockwise, 5 counter-clockwise, then switch legs\n- **Torso quiet** — the bell tries to pull you into rotation; resist"
+        },
+        {
+          "id": "kettlebell-figure-8-march",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 15-20lb (light).\n- **March in place, one knee up at a time** — pass the bell around the outside of the lifted thigh, weaving a figure-8 as you march\n- **Balanced on one foot at a time** — standing-leg hip locked, core quiet, resist the bell's pull to rotate\n- **Chest up, eyes forward, ribs down**, march rhythmic\n- Coordination + balance + cardio — keep it flowing, don't stop to count"
+        },
+        {
+          "id": "kettlebell-standing-side-to-side-twist",
+          "reps": "8 each direction",
+          "notes": "**LOAD:** 15-20lb (LIGHT — the straight-arm lever makes it feel heavy).\n- **Stand tall, one bell held by the horns in BOTH hands, arms straight out in front** at chest height\n- **Keep the arms straight and twist the bell side to side** — through center to one side, back through center to the other — bracing the core to control the rotation\n- **Ribs down, stand tall** — the twist comes from the core/obliques, NOT the lower back\n- Smooth and controlled, no momentum — shoulders, grip, and obliques do the work"
+        }
+      ],
+      "notes": "Light cardio + balance circuit, 2 rounds, ~6 min. Thursday's conditioning + balance close — move through the three back-to-back, short rest. Light bell throughout; nothing here should pre-fatigue the legs for Friday. High-energy day? Add a 3rd round.",
+      "restBetween": 15,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-balance-closer",
+      "name": "Flow + Balance (Closer) — Single-Leg RDL + Bird-Dog",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "single-leg-rdl-kettlebell", "reps": "5 each leg", "notes": "**LOAD:** 15-20lb. Single-leg balance + hip hinge. **The point is balance and control, not load** — keep it light so the legs stay fresh for Friday. Standing-leg glute locked, hips square, slow reach to the floor and back. The wobble is the training." },
+        { "id": "bird-dog", "reps": "8 each side", "notes": "Bodyweight. Slow anti-rotation balance — opposite arm + leg extend, hold 2s, hips stay square (no rotation). Resets the spine after the single-leg work." }
+      ],
+      "notes": "Balance closer, 2 rounds, ~4 min. Light and controlled — settles the system after the cardio circuit before the cooldown.",
+      "restBetween": 30,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the TGU hip bridge and lateral lunge work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from lateral lunges and the wide-stance work." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Thursday** — day before Friday legs. Keep loaded squatting LIGHT (OTD-flow front squat / goblet at ~20lb, no PR attempts).",
+    "**Full template** — banded prep → strength → OTD flow → windmill spotlight → skill/mobility (TGU) → cardio + balance circuit → flow + balance closer → cooldown.",
+    "**Spotlight: windmill** (3 rounds, light bell). Hip hinge away from the bell side; stretch in the hip/waist, not the lower back.",
+    "**OTD flow is the canonical 5-move flow** — dead clean → front squat → lateral lunge → bent press → tactical clean. Light groove, 2 rounds, ~20-25lb (35lb fallback if 25 is taken).",
+    "**Strength block stays lighter** — single-arm row + press only (no C&P, that's Tuesday).",
+    "**Finisher = light Cardio + Balance circuit** (single-leg around-the-world → figure-8 march → standing side-to-side twist) → flow + balance closer (single-leg RDL + bird-dog) — conditioning + balance, not a metabolic complex. Light bell, back-to-back, short rest. Keeps the legs fresh for Friday; the standing side-to-side twist has no leg load.",
+    "**TGU is maintenance** — sharp cues, light load.",
+    "**Right shoulder watch on the windmill lockout + bent press** — lighten and slow down if it talks.",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W16 cycles forward — TGU or bent-press refresh."
+  ],
+  "formPhilosophy": "Thursday KB day, full template, lighter on the loaded squatting because Friday legs is the day after. The windmill spotlight drills the lateral hinge — the shared root of the windmill, bent press, and cossack — so the cue feeds straight back into the OTD flow's bent press. Thursday's identity is conditioning + skill + balance, so the session closes on a light cardio + balance circuit (single-leg around-the-world → figure-8 march → standing side-to-side twist) rather than a metabolic finisher — denser conditioning than a gentle flow block, but still light enough to leave Friday legs fresh. Building decades, not weeks."
+}

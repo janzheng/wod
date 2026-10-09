@@ -2,7 +2,7 @@ import { assertEquals, assert } from "jsr:@std/assert";
 import { loadData } from "../../engine/loader.ts";
 import { ExerciseIndex } from "../../engine/index.ts";
 
-const DATA_DIR = new URL("../../../../", import.meta.url).pathname;
+const DATA_DIR = decodeURIComponent(new URL("../../../../", import.meta.url).pathname);
 
 async function getIndex(): Promise<ExerciseIndex> {
   const data = await loadData(DATA_DIR);

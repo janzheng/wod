@@ -1,0 +1,148 @@
+{
+  "id": "fb-w16-kb-full",
+  "name": "Week 16 KB Full Body — Full-Body Shred Core (Spotlight: Bulgarian Split + Windmill)",
+  "description": "KB Tuesday, new strength core: the Full-Body Shred block drops in as the main work — every movement pattern in one session (quad squat, posterior hinge, upper push/pull, core). Kept inside the settled Tuesday scaffolding: banded shoulder prep before, pigeon/butterfly cooldown after. Leg-leaning by design (Bulgarian splits + RDLs), which suits Tuesday — farthest from Friday legs. Shorter, simpler shape than the prior flow-stacked template. Spotlight rotates to the Bulgarian split squat (new headline lower-body move) and the windmill refresh.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "strength", "full-body", "form-first", "spotlight-rotation", "legs", "station-focused"],
+  "estimatedDuration": 48,
+  "equipment": ["kettlebell", "mini-band", "rope-band", "bench"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "New D2 strength core — the Full-Body Shred block is the main work: squat → hinge → push/pull → core, single bell. Wrapped in the Tuesday shoulder scaffolding (banded prep in, pigeon/butterfly out). Leg-leaning, which is the point on Tuesday (far from Friday legs). Spotlight rotates to the Bulgarian split squat + a windmill refresh.",
+    "spotlights": [
+      {
+        "exerciseId": "bulgarian-split-squat",
+        "why": "New headline lower-body strength move on KB Tuesday. The skill is the front-heel drive + honest depth under a goblet hold — get it grooved here unilaterally and it carries straight to Friday legs."
+      },
+      {
+        "exerciseId": "kettlebell-windmill",
+        "why": "Rotation refresh (cycles forward from W15's C&P spotlight). Overhead core stability + hip mobility — the loaded anti-rotation / QL work that protects the low back. Stack the bell, hinge from the hip not the spine."
+      }
+    ],
+    "rotationPlan": "W15 C&P + strength block · W16 Bulgarian split + windmill (new shred core) · W17 cycle forward — RDL hinge or goblet-squat depth refresh.",
+    "watchpoints": [
+      "**Leg-leaning by design** — Bulgarian splits + RDLs put real load on the lower body. That's deliberate on Tuesday (farthest from Friday legs). If Friday squats feel pre-fatigued, dial the Bulgarian/RDL load back rather than adding rounds.",
+      "**C&P + KB row stay at 45** — established working weight, both run clean there.",
+      "**Right shoulder watch on the windmill overhead hold** — keep the bell stacked over the shoulder; drop the load before the spine starts rounding to reach the floor.",
+      "**No pull-up greasing in this block** — if you want to keep Tuesday in the weekly pull-up count, add 1-2 slow bodyweight sets after the upper block (NOT to failure).",
+      "**Protective shrug greasing set stays in the warmup** — the behind-back shrug, 1 light set, easy to forget.",
+      "**Brutal Complex isn't in this build** — body-shred ends with its own swing finisher and the day stays short on purpose. Add the optional Brutal Complex back only on a high-energy/time day."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles — open the shoulders before loading overhead." },
+        { "id": "kettlebell-overhead-press", "reps": "3 each side", "notes": "**LOAD:** 20lb. Light — test the overhead position. If anything cracks/twinges, do extra band warmup before the main block." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips. Sit in the bottom for a beat." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for KB rack work." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set) — the pull-day shrug, scattered to KB days.** 1 light set held behind the body (DBs or a bell), palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "block-1-quad",
+      "name": "🔆 Block 1: Legs — Quad Dominant (Spotlight: Bulgarian Split)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-goblet-squat", "reps": 12, "notes": "**LOAD:** 25-30lb goblet.\n- Full depth, chest up, elbows inside the knees at the bottom\n- Sit in the hole for a beat — own the bottom\n- Drive evenly through the whole foot" },
+        {
+          "id": "bulgarian-split-squat",
+          "reps": "8 each",
+          "notes": "**LOAD:** 25-30lb goblet hold at the chest. Rear foot on a bench/chair/couch.\n\n**🔆 SPOTLIGHT — front-heel drive + honest depth:**\n- **Weight through the FRONT heel** — drive up through the heel, not the toes\n- **Front leg does ~80% of the work** — the rear leg is a kickstand for balance, not a power source\n- **Torso slightly forward, long spine** — hip-dominant split, not a knee-grind\n- **Slow descent**, sink until the back knee is just off the floor\n- **Knee tracks over the mid-foot** — don't let it cave inward\n\n**Reflection:** on the last 2 reps of round 3, does the front-heel drive hold — or does the foot roll to the toes and the knee start to cave? The depth + control is the work here, not the bell weight."
+        }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-2-hinge",
+      "name": "Block 2: Legs — Posterior Chain",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-romanian-deadlift", "reps": 10, "notes": "**LOAD:** 35-45lb.\n- Soft knees, hinge from the hips — push the hips BACK, not a squat\n- Slow on the way down, feel the hamstrings load\n- Squeeze the glutes hard at the top, ribs down" },
+        { "id": "kettlebell-swing", "reps": 15, "notes": "**LOAD:** 35-40lb (heavier bell for the swing).\n- Explosive hips — this is the power complement to the slow RDL\n- NOT a squat — the hinge snaps the bell, arms just guide\n- Pack the lats, control the descent into the next rep" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-3-upper",
+      "name": "Block 3: Upper — Push & Pull",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-clean-and-press", "reps": "6 each", "notes": "**LOAD:** 45 (established working weight — runs clean both sides).\n- Catch the clean with soft knees — zero impact at the rack\n- Hips drive the clean, the arm just guides the bell to the rack\n- Press with ribs DOWN — brace before each rep, full lockout, bicep by the ear\n- Lower with control, no slam back to the rack" },
+        { "id": "kettlebell-row", "reps": "10 each", "notes": "**LOAD:** 45.\n- Hips hinged, back flat\n- Pull the elbow toward the hip\n- 2s pull, 2s lower — full extension at the bottom, full squeeze at the top" }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "block-4-core",
+      "name": "🔆 Block 4: Core & Finish (Spotlight: Windmill)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each",
+          "notes": "**LOAD:** 25lb.\n\n**🔆 SPOTLIGHT — stack the bell, hinge from the hip:**\n- **Bell locked overhead, eye tracks the bell** the whole time\n- **Hip hinges AWAY from the bell side** — push the hip out\n- **The stretch lives in the back leg's hip flexor / hamstring, NOT the lower back**\n- **Long spine throughout** — don't round to reach the floor\n- **Slow and controlled** — core stability + hip mobility, not a rep-chase\n\n**Reflection:** can you keep the overhead arm stacked over the shoulder and still hinge a little deeper than last time — or does the shoulder pull you off-stack first? Range comes from the hip, not the spine. Right-shoulder watchpoint — drop the load before the bell drifts forward."
+        },
+        { "id": "kettlebell-swing", "reps": 20, "notes": "**LOAD:** 35-40lb. Last push — full power, empty the tank. Hips snap, control the descent." }
+      ],
+      "restBetween": 15,
+      "restAfter": 45
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "**LOAD:** 25lb. Light row, 2s pull / 2s lower. Skip if the shoulders are cooked." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight on KB days." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**New strength core: the Full-Body Shred block** — squat → hinge → push/pull → core, all single bell, every pattern in one session.",
+    "**Kept inside the Tuesday scaffolding** — banded shoulder prep before, pigeon/butterfly cooldown after.",
+    "**Spotlights: Bulgarian split squat + windmill.** Front-heel drive on the split; stacked-bell hip hinge on the windmill.",
+    "**Leg-leaning on purpose** — Bulgarian splits + RDLs. Tuesday is the right day for it (far from Friday legs). Dial the load back if Friday feels pre-fatigued.",
+    "**C&P + KB row at 45** — both run clean there.",
+    "**No pull-ups in this block** — add 1-2 slow greasing sets after the upper block if you want to keep Tuesday pull-up frequency.",
+    "**Brutal Complex isn't built in** — the day stays short. Add it back only on a high-energy day.",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W17 cycles forward — RDL hinge or goblet-squat depth refresh."
+  ],
+  "formPhilosophy": "The KB Tuesday strength core gets refreshed this week — the Full-Body Shred block swaps in for the long-running flow-stacked template, hitting every movement pattern with one bell in a shorter, simpler shape. The shoulder scaffolding (banded prep, protective shrug, cooldown) stays because that's the part that protects the right shoulder, not the part that needs variety. Loads hold at known working weights; the Bulgarian split + windmill spotlights drill the skill, not the number. Building decades, not weeks."
+}
