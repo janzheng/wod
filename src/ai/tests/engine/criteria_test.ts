@@ -3,7 +3,7 @@ import { loadData } from "../../engine/loader.ts";
 import { ExerciseIndex } from "../../engine/index.ts";
 import { matchesCriteria, selectExercise } from "../../engine/criteria.ts";
 
-const DATA_DIR = new URL("../../../../", import.meta.url).pathname;
+const DATA_DIR = decodeURIComponent(new URL("../../../../", import.meta.url).pathname);
 
 async function setup() {
   const data = await loadData(DATA_DIR);

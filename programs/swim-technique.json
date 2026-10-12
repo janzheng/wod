@@ -1,0 +1,70 @@
+{
+  "id": "swim-technique",
+  "name": "Swim Technique",
+  "description": "Freestyle technique with no schedule. Pick whatever you feel like when you get to the pool: the full session is the default, and the drill blocks are there to grab on their own.",
+  "creator": "WOD",
+  "frequency": null,
+  "sortOrder": 2,
+  "difficulty": "beginner",
+  "equipment": [
+    "pool"
+  ],
+  "tags": [
+    "swimming",
+    "technique"
+  ],
+  "pages": [
+    {
+      "label": "Technique Notes",
+      "slug": "swimming",
+      "file": "/static/notes-swimming.md"
+    }
+  ],
+  "schedule": [
+    {
+      "day": 1,
+      "label": "Full Session",
+      "type": "workout",
+      "workoutId": "swim-technique-rotation",
+      "notes": "Kick drills, rhythm drills, then swim. The default."
+    },
+    {
+      "day": 2,
+      "label": "Kick Drills",
+      "type": "workout",
+      "workoutId": "swim-kick-block",
+      "notes": "Wall kick and kick on your back. Grab these whenever the legs are the thing."
+    },
+    {
+      "day": 3,
+      "label": "Rotation Drills",
+      "type": "workout",
+      "workoutId": "swim-rotation-block",
+      "notes": "Side-kick drill and 6-3-6. Grab these whenever the roll or the breathing is the thing."
+    },
+    {
+      "day": 4,
+      "label": "Rhythm Drills",
+      "type": "workout",
+      "workoutId": "swim-rhythm-block",
+      "notes": "6-1-6 and single-arm freestyle. Grab these whenever the kick and the arms feel like two separate jobs."
+    }
+  ],
+  "tips": [
+    "No schedule — pick whatever you feel like.",
+    "Drills go first, while you're fresh. A drill done tired grooves the bad version.",
+    "Rest at the wall until your breathing settles, however long that takes.",
+    "Stroke count on a full-stroke length is the only number worth having. Not laps, not time."
+  ],
+  "overview": {
+    "duration": "Ongoing — no end date",
+    "goal": "Better freestyle: breathing, rotation, kick. Not speed, not distance.",
+    "whatToExpect": "One problem at a time, in order. Each stage gets its own drill block, and the next starts once the last one feels natural. The full session always runs the same shape: warm up, drills while you're fresh, then swim with one thing to think about.",
+    "keyPrinciples": [
+      "1. Rotation — roll your whole body side to side so you breathe off the roll instead of craning your neck.",
+      "2. Kick — small and loose, swinging from the hip joint.",
+      "3. Catch — how your hand grabs the water. Where lifting strength finally helps.",
+      "4. Rhythm — a kick timed to the roll rather than running on its own clock. Breathing pattern comes last."
+    ]
+  }
+}

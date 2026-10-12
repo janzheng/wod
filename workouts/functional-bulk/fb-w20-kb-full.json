@@ -1,0 +1,130 @@
+{
+  "id": "fb-w20-kb-full",
+  "name": "Week 20 KB Full Body — Figure-8 → Tactical Clean + NEW Dead Cluster Flow (Conti) + Bottoms-Up Clean (Spotlight)",
+  "description": "KB Tuesday, carousel turns. **Warmup reminder:** halo → bottoms-up press (18lb, 8/side, forward + T-plane) → goblet squat → internal core fist rotation → protective behind-back shrug, then the 7-move banded shoulder prep. This week the figure-8 → tactical clean complex comes BACK as the skill flow (a W12-W14 favorite — the pass exits INTO the clean, hand switches at the pass-through), the loaded bottoms-up clean returns as the spotlight (the inverted-bell clean — grip + shoulder-stability, shoulder-rehab-friendly, new as loaded work), and a front squat covers the squat pattern. Strict overhead press runs 50 across all sets, chasing reps toward 8 (W19 hit 50 × 5/6/7 'felt easy'). Leg-athletic work sits on Tuesday, three days clear of Friday legs. NEW this week: Madeleine Conti's full-body 'Dead Cluster Flow' joins as a second skill flow — the overhead cousin to the Leggy Flow (dead cluster → snatch → iron cross → outside pendulum → tactical clean → reverse lunge → offset rack squat). Keep it light and mind the right shoulder on the overhead beats.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "strength", "full-body", "flow", "skill-work", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "KB Tuesday, carousel turn. Figure-8 → tactical clean BACK as the skill flow (the pass exits into the clean — a W12-W14 favorite). Bottoms-up clean returns as the spotlight (inverted-bell clean — grip + shoulder-stability, new as loaded work). Front squat covers the squat pattern. Strict overhead press 50 across, chasing reps toward 8. Bottoms-up press standard in the warmup. Leg-athletic, and that's fine — Tuesday is far from Friday legs. NEW: Madeleine Conti's 'Dead Cluster Flow' joins as a second full-body skill flow (overhead cousin to the Leggy Flow) — light bell, mind the right shoulder on the overhead beats.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-bottoms-up-clean",
+        "why": "The inverted-bell clean, new as loaded work (the bottoms-up PRESS is already the warmup standard). It's grip + shoulder-stability + focus — the bell balanced upside-down over a vertical forearm forces a packed shoulder and a hard grip, which is exactly the rehab-friendly stimulus for the right shoulder. Spotlight drills the clean path into a stable bottoms-up rack at a light load; it also folds the bottoms-up family from the rotation pool into loaded practice."
+      }
+    ],
+    "rotationPlan": "Tuesday content rotates: W18 figure-8 → tactical clean + GymVibe AMRAP · W19 Leggy Flow (back) + loaded cossack + hand-to-hand swing · W20 figure-8 → tactical clean (back) + bottoms-up clean (spotlight) + front squat (current) · W21 cycle forward — bring the Leggy Flow or a windmill/TGU complex back; fold bottoms-up carry in.",
+    "watchpoints": [
+      "**NEW — Dead Cluster Flow (Madeleine Conti).** A full-body skill flow, the overhead cousin to the Leggy Flow: dead cluster → snatch → iron cross → outside pendulum → inside tactical clean → reverse lunge → offset rack squat, one side then the other, 3 rounds/side. **🛑 Overhead-heavy — keep it shy.** LIGHT bell (18-30lb); pack the shoulder DOWN on the cluster press, snatch, and iron cross; the iron cross is a big straight-arm lateral load — go light and skip/regress it if the right shoulder flares. Legs and hips drive the cleans/snatch/pendulum, not the arm. (Canonical: kb-dead-cluster-flow.)",
+      "**Two skill flows this week (figure-8 + dead cluster) — that's the point (D2 was thin).** If the session runs long, do ONE flow at full rounds and the other at 2 rounds, or drop the strength block to 2 rounds. Don't rush either flow — quality over volume.",
+      "**Figure-8 → tactical clean is a continuous skill complex, not stations** — the figure-8 pass between the legs exits INTO the clean to rack; hand switches happen at the pass-through. Practice slow before adding load. The catch under load is the skill. (Canonical: kb-figure-8-tactical-clean-complex.)",
+      "**Bottoms-up clean spotlight — LIGHT, the balance IS the work.** 18-25lb. Clean the inverted bell into a stable bottoms-up rack (bell balanced upside-down over a vertical forearm), grip HARD, shoulder packed. If the bell tips, the grip/shoulder wasn't locked — that feedback is the point. Rehab-friendly for the right shoulder.",
+      "**Front squat covers the squat pattern** — racked, medium bell (25-35lb). Sit tall, full depth, no bouncing. Leg-athletic on Tuesday is fine, far from Friday legs.",
+      "**Strict overhead press — 50 across all sets, chase reps toward 8.** W19 ran 50 × 5/6/7 each side 'felt easy' with a break. Strict (no push-press), pack the shoulder down, ribs down, both sides to the same standard. Chase the reps up (toward 8/8/8) only if you pull it — don't force it.",
+      "**Bottoms-up press is now standard in the warmup** — 18lb, 8/side, forward + T-plane; keep the T-plane light (the angle the right shoulder likes least). Rotator-cuff prep before the overhead work.",
+      "**Heavy figure-8 @50 is a keeper here if you want it** — Tuesday is the right day for the heavy one (three days clear of Friday legs, so the core/lumbar load has no pre-legs carryover). Fold it into the flow warmup or as a fun-layer set.",
+      "**Protective behind-back shrug greasing set stays in the warm-up** — 1 light set, easy to forget.",
+      "**Trim for time:** the figure-8 complex can drop to 3 rounds and the strength block to 2 rounds if the session's long."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up (incl. Bottoms-Up Cuff Prep)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles both directions — open the shoulders before the work." },
+        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "**LOAD:** 18lb. Standard in the KB warmup — bell inverted/balanced over a vertical forearm, grip HARD, shoulder packed. **8/side in two planes:** forward press + T-press. **Keep the T-plane lighter.** Rotator-cuff prep — and it primes the bottoms-up rack for today's bottoms-up clean spotlight." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips, sit in the bottom for a beat — previews the front squat + the clean catches." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for the figure-8 pass + the clean catches." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set) — the pull-day shrug, scattered to KB days.** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. Decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the overhead + rotation." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire — primes the strict press lockout." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "figure-8-flow-block",
+      "name": "🌀 Figure-8 → Tactical Clean (Returning Flow — Skill Section)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "reps": "6-8 passes each side", "notes": "**LOAD:** single medium bell (~25-35lb). 4 rounds (3 if short on time). Back in the rotation — a W12-W14 favorite.\n\n**The complex — the pass exits INTO the clean:**\n- START in the hike position (bell between the legs, hinged)\n- **Figure-8 pass between the legs exits INTO a tactical clean to rack** on one side — the pass IS the clean entry, no 'land and re-grip'\n- Lower the bell back through hike\n- The next figure-8 pass switches hands → clean to rack on the other side\n- Continue alternating, hike is home base\n\n**Tactical clean = controlled threading into the rack, no momentum yank, no forearm bang.** The hand catches under load are the skill — practice slow before adding load. Reflection: does the figure-8 flow seamlessly INTO the clean, or are you pausing to re-grip? The seamless pass-to-clean is the whole skill." }
+      ],
+      "notes": "Continuous skill complex — figure-8 pass exits into the tactical clean, hand switches at the pass-through, hike is home base. Medium bell, 4 rounds. (Canonical: kb-figure-8-tactical-clean-complex.)",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "dead-cluster-flow-block",
+      "name": "🌀 Dead Cluster Flow (NEW — Madeleine Conti, Full-Body Skill Flow)",
+      "type": "flow",
+      "flowId": "kb-dead-cluster-flow",
+      "rounds": 3,
+      "notes": "**Single LIGHT-to-MEDIUM bell (~18-30lb), 3 rounds each side** (2 each if the session's already long). New this week — Madeleine Conti's full-body ballistic flow, the overhead cousin to the Leggy Flow. Continuous chain: dead cluster → snatch → iron cross → outside pendulum → inside tactical clean → reverse lunge → offset rack squat, one side then the other. **🛑 Overhead-heavy — keep it shy, the packed shoulder is the cap:** pack the shoulder DOWN on the cluster press, snatch, and iron cross; the iron cross is a big straight-arm lateral load, so go light and regress or skip it if the right shoulder flares. The cleans, snatch, and pendulum come from the legs and hips, not the arm. Reflection: does the chain flow move-to-move, or are you re-gripping between beats? The seamless string is the skill.",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "strength-spotlight-block",
+      "name": "🔆 Strength + Bottoms-Up Clean + Front Squat (Spotlight: Bottoms-Up Clean)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-overhead-press", "reps": "6-8 each side", "notes": "**LOAD:** 50 across all sets — strict single-arm press (clean to rack, press straight up, NO push-press). W19 ran 50 × 5/6/7 each side 'felt easy' with a break — chase the reps up toward 8/8/8 IF you pull it.\n- **Strict, not push-press** — the shoulder presses it\n- **Ribs DOWN** before the press — no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- Slow descent back to the rack; **both sides to the same standard** — press the left as clean as the right." },
+        { "id": "kettlebell-bottoms-up-clean", "reps": "6 each side", "notes": "**🔆 SPOTLIGHT — the inverted-bell clean, LIGHT (the balance is the work):**\n- **LOAD:** 18-25lb (light — grip + stability, not load)\n- **Clean the bell from the hang into a bottoms-up rack** — bell balanced UPSIDE-DOWN over a vertical forearm at the rack\n- **Grip HARD, shoulder packed DOWN** — a loose grip or a soft shoulder = the bell tips; that feedback IS the coaching\n- **Smooth clean path** — pull the elbow in, thread to the rack, catch soft; no banging the forearm\n- **Pause 1s in the stable bottoms-up rack** before lowering — own the balance\n- Rehab-friendly for the right shoulder: the packed-shoulder-under-a-balanced-load is exactly the stability stimulus it likes.\n\n**Reflection:** does the bell settle STILL in the bottoms-up rack (grip locked, shoulder packed), or does it wobble/tip? A quiet, balanced rack is the win — light bell, clean catches over fast reps." },
+        { "id": "kettlebell-front-squat", "reps": "8 each", "notes": "**LOAD:** 25-35lb racked/goblet. Covers the squat pattern.\n- **Sit tall, full depth, no bouncing** out of the bottom\n- **Ribs down, brace the core** — the racked bell wants to pull you forward; stay upright\n- Leg-athletic on Tuesday is fine — far from Friday legs. Drive up through the whole foot." }
+      ],
+      "notes": "Strength + spotlight + squat, 3 rounds (2 if short on time). Strict press is the strength anchor; the bottoms-up clean is the returning spotlight; the front squat covers the squat pattern. Rest as needed between the press sets; keep the bottoms-up clean light and clean.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the front squat + hike-position work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors + inner hips from the wide figure-8 stance." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Carousel turn:** figure-8 → tactical clean back (skill flow), bottoms-up clean back as the spotlight (new loaded work), front squat covers the squat pattern.",
+    "**NEW — Dead Cluster Flow (Madeleine Conti):** a second full-body skill flow, the overhead cousin to the Leggy Flow — dead cluster → snatch → iron cross → outside pendulum → tactical clean → reverse lunge → offset rack squat, 3 rounds/side. LIGHT bell (18-30lb), overhead-heavy — pack the shoulder down and mind the right shoulder; skip/regress the iron cross if it flares.",
+    "**Two skill flows now — if short on time, do one at full rounds + the other at 2, or drop the strength block to 2 rounds.** Don't rush either flow.",
+    "**Figure-8 → tactical clean is a continuous complex** — the pass exits INTO the clean, hand switches at the pass-through. Medium bell (~25-35lb), 4 rounds. Practice slow before load.",
+    "**Spotlight: bottoms-up clean — LIGHT** (18-25lb). The bell balanced inverted forces a hard grip + packed shoulder; the wobble is the feedback. Rehab-friendly for the right shoulder.",
+    "**Strict overhead press 50 across, chase reps toward 8** — strict, no push-press; W19 was 50 × 5/6/7 'felt easy.' Pull it, don't force it.",
+    "**Front squat 25-35lb** — racked, sit tall, full depth. Leg-athletic Tuesday is fine, far from Friday legs.",
+    "**Bottoms-up press standard in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light). Also primes the bottoms-up rack for the spotlight.",
+    "**Heavy figure-8 @50 fits here** if you want the fun-layer — Tuesday's the right day for the heavy one.",
+    "**Protective behind-back shrug greasing set in the warm-up.**",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W21 bring the Leggy Flow or a windmill/TGU complex back; fold bottoms-up carry in. Trim the figure-8 complex to 3 rounds if short on time."
+  ],
+  "formPhilosophy": "KB Tuesday as the carousel, working as designed: the figure-8 → tactical clean complex returns (a W12-W14 favorite, off the menu since the Leggy weeks), the bottoms-up clean comes off the rotation pool into loaded practice as the spotlight, and the front squat covers the squat pattern — variety is cheap on KB days, so rotate freely while keeping the strict-press strength anchor and the shoulder scaffolding (bottoms-up prep, banded prep, protective shrug). The skill flow + front squat are leg-athletic, which is exactly why they sit on Tuesday, three days clear of Friday legs. Building decades, not weeks."
+}

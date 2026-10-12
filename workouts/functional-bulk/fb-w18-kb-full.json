@@ -1,0 +1,115 @@
+{
+  "id": "fb-w18-kb-full",
+  "name": "Week 18 KB Full Body — Figure-8 Flow (Back) + GymVibe 9-Min AMRAP (New) (Spotlight: Thruster)",
+  "description": "KB Tuesday, two sections — a flow and a workout. The Leggy Flow rotates OUT; this week brings back the figure-8 → tactical clean complex (the user missed it) as the skill flow section, then introduces the GymVibe 9-minute AMRAP as the strength/conditioning workout section — ballistic row → thruster → reverse-lunge-to-knee-drive, run back-to-back on a 30 → 40 → 50lb load ladder for as many rounds as possible in 9 minutes. The leg-athletic + overhead-pressing work sits on Tuesday, three days clear of Friday legs. Spotlight is the thruster — the new move and the day's overhead shoulder-relevant lift. Wrapped in the settled Tuesday scaffolding (warm-up + banded prep in, pigeon/butterfly cooldown out).",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "strength", "full-body", "flow", "amrap", "conditioning", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 45,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Two sections on KB Tuesday — flow + workout. The figure-8 → tactical clean complex comes BACK as the skill flow (the user missed it), then the GymVibe 9-min AMRAP is the workout section: ballistic row → thruster → reverse-lunge-to-knee-drive, 30→40→50lb load ladder, AMRAP. Leg-athletic + overhead work lives Tuesday, far from Friday legs. Spotlight: the thruster (new, overhead — the shoulder-relevant move).",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-thruster",
+        "why": "The new move in the GymVibe AMRAP and the day's only overhead press, so it's the most right-shoulder-relevant lift. Spotlight drills the squat-into-press timing (leg drive powers the press) and the pack-down lockout, and flags it as the move to lighten first if 50 won't press clean on the last third."
+      }
+    ],
+    "rotationPlan": "W16 Bulgarian split + windmill · W17 Leggy Flow · W18 figure-8 → tactical clean (returning favorite) + GymVibe AMRAP (new) · W19 cycle forward — bring a retired KB favorite back (loaded cossack fell off after W15) + a fresh complex.",
+    "watchpoints": [
+      "**Two sections: skill flow + workout.** The figure-8 complex is the light-bell skill flow (returning by request); the GymVibe AMRAP is the strength/conditioning workout. Don't skip the workout section — KB Tuesday carries both.",
+      "**Figure-8 → tactical clean is a FLOW** — the pass exits INTO the clean (the bell doesn't return to a hand mid-pass). Practice slow before adding load; keep it light/medium, it's the skill warm-up to the AMRAP.",
+      "**GymVibe AMRAP load ladder: 30 → 40 → 50lb** over the three 3-minute thirds — groove the pattern light, climb to the top bell. Swap up at the 3- and 6-minute marks. Single bell.",
+      "**The thruster press is the limiter AND the shoulder risk** — pack the shoulder DOWN on the lockout; if 50 won't press clean by the last third, hold 40 and chase rounds instead. Lighten the bell before the press gets ugly.",
+      "**Leg-athletic + overhead, and that's fine** — it's Tuesday, three days clear of Friday legs. The reverse-lunge-to-knee-drive is the leggy piece; it lives here on purpose.",
+      "**Protective behind-back shrug greasing set stays in the warm-up** — 1 light set, easy to forget.",
+      "**Trim for time:** the figure-8 flow can drop to 2 rounds and the AMRAP can run 6 min instead of 9 if the session's long — count rounds + where the bell got heavy."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles both directions — open the shoulders before the work." },
+        { "id": "kettlebell-overhead-press", "reps": "3 each side", "notes": "**LOAD:** 20lb. Light — test the overhead position before the thruster work. If anything cracks/twinges, add band work before starting." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips, sit in the bottom for a beat — previews the thruster squat." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for the figure-8 catches + the AMRAP." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set) — the pull-day shrug, scattered to KB days.** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the overhead + rotation." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire — primes the thruster lockout." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "figure-8-flow-block",
+      "name": "🌀 Figure-8 → Tactical Clean Flow (Returning Favorite — Skill Section)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Warm-up pass — get the hand-switch grooved before the figure-8. Core tight, torso quiet, smooth and continuous." },
+        { "id": "kettlebell-figure-8-tactical-clean", "reps": "~6-8 per side", "notes": "**LOAD:** medium bell (~26-35lb). 3 rounds, ~30-45s of the complex each.\n\n**The returning favorite — the pass exits INTO the clean:**\n- **START in hike position** (bell between the legs, hinged)\n- **Figure-8 pass between the legs exits INTO a tactical clean to the rack** on one side — the catch behind becomes the clean, no 'land and re-grip'\n- **Lower the bell back through hike**\n- **Next figure-8 pass switches hands → clean to rack on the other side**\n- **Continue alternating** — hike is home base; if you lose the bell, get back to hike before re-starting\n- **Tactical clean = controlled, threaded into the rack** — no banging the forearm, no momentum hack\n\n**This is the skill flow, not a grinder** — keep it light/medium and smooth; it warms the pattern + grip for the AMRAP. Reflection: does the figure-8 exit cleanly into the rack catch, or are you re-gripping mid-pass?" }
+      ],
+      "notes": "**Skill flow section — the figure-8 → tactical clean complex, back by request.** Light/medium bell, 3 rounds, smooth and continuous. The pass-through is where the hands switch; the clean is where the skill builds. Canonical source: kb-figure-8-tactical-clean-complex (@kettleclubfam). Keep it light — it's the warm-up to the workout section, not the workout.",
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "gymvibe-amrap-block",
+      "name": "🔆💪 GymVibe 9-Min AMRAP (Workout Section — Spotlight: Thruster)",
+      "type": "circuit",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each side", "notes": "**Ballistic row — explosive, not a slow controlled row.** Hinge at the hips, back flat, drive the bell to the hip with power, then control it back. 8 per side. Brace the core, no torso rotation." },
+        { "id": "kettlebell-thruster", "reps": 8, "notes": "**🔆 SPOTLIGHT — goblet squat → press in one motion (the source's 'goblet cluster'):**\n- **Bell at the chest/goblet**, squat to at least parallel\n- **Drive up and let the leg momentum power the press overhead** — the legs press it, not just the shoulders; that timing is the skill\n- **Lock out tall, ribs down, pack the shoulder DOWN** — then back into the next squat\n- **Right-shoulder watch on the overhead** — if it won't lock out clean, this is the move to lighten first; hold 40 and chase rounds rather than grind an ugly 50 press\n\n**Reflection:** does the leg drive carry the press (clean lockout), or are the shoulders grinding it up once the bell gets heavy? The leg-driven press is the win." },
+        { "id": "kettlebell-reverse-lunge-to-knee-drive", "reps": "8 each side", "notes": "Step back to a reverse lunge → drive the back knee forward and up to a tall, balanced stand → repeat. Drive through the FRONT heel, stay tall. 8 per side. The leg-athletic piece — lives on Tuesday, far from Friday legs." }
+      ],
+      "notes": "**AMRAP — as many rounds of the three moves as possible in 9 minutes, NO rest between moves or rounds.** Single bell. **Load ladder over the three thirds:** 0:00-3:00 @ 30lb → 3:00-6:00 @ 40lb → 6:00-9:00 @ 50lb (swap the bell up at the 3- and 6-min marks). Builds into the top weight instead of opening on your max. The thruster's overhead press is the limiter — if 50 won't press clean by the last third, hold 40 and chase rounds. Count total rounds + where you were when the bell got heavy. (Source: @gymvibe_. Trim to 6 min if the session's running long.)",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the lunge + hike work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from the wide-stance figure-8 + the lunges." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Two sections: skill flow + workout.** Figure-8 → tactical clean (returning favorite) is the light-bell skill flow; the GymVibe 9-min AMRAP is the strength/conditioning workout. KB Tuesday carries both.",
+    "**Figure-8 → tactical clean is a FLOW** — the pass exits INTO the clean. Practice slow, keep it light/medium; it warms the pattern + grip for the AMRAP.",
+    "**Spotlight: the thruster** — the new move + the day's overhead lift. Leg drive powers the press; pack the shoulder down on the lockout.",
+    "**GymVibe AMRAP load ladder: 30 → 40 → 50lb** over the three thirds, single bell, swap up at 3:00 and 6:00. Groove light, climb to the top bell.",
+    "**The thruster press is the limiter + the shoulder risk** — if 50 won't press clean by the last third, hold 40 and chase rounds. Lighten before the press gets ugly.",
+    "**Leg-athletic + overhead on Tuesday, far from Friday legs** — the reverse-lunge-to-knee-drive lives here on purpose.",
+    "**Protective behind-back shrug greasing set in the warm-up.**",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W19 brings a retired KB favorite back (loaded cossack fell off after W15) + a fresh complex. Trim the figure-8 flow to 2 rounds / the AMRAP to 6 min if short on time."
+  ],
+  "formPhilosophy": "Two sections on KB Tuesday — a flow and a workout. The flow brings back the figure-8 → tactical clean complex the user missed, run light as skill work (the pass-into-clean transition is the whole point). The workout section is the GymVibe 9-min AMRAP — a genuine strength/conditioning hit with a load ladder so you build into the top bell instead of opening on your max. The shoulder scaffolding (banded prep, protective shrug, cooldown) stays; the thruster is the one overhead move, spotlighted and watched. Leg-athletic + overhead work sits on Tuesday, three days clear of Friday legs. Building decades, not weeks."
+}

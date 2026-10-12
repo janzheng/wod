@@ -9,6 +9,14 @@
   "difficulty": "intermediate",
   "source": "@Asgooch",
   "sourceUrl": "https://x.com/Asgooch/status/2021254033797734405",
+  "isFlow": true,
+  "flowSequence": [
+    { "id": "kettlebell-row", "notes": "Controlled pull, full extension each rep." },
+    { "id": "kettlebell-swing-snatch", "notes": "Explosive — bell goes straight overhead." },
+    { "id": "kettlebell-overhead-lunge", "notes": "Arm locked overhead, torso tall." },
+    { "id": "kettlebell-overhead-squat", "notes": "Bell stacked over the shoulder, full depth." },
+    { "id": "kettlebell-push-press", "notes": "Dip and drive — legs power the press." }
+  ],
   "sets": [
     {
       "id": "warmup",

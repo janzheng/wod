@@ -1,0 +1,113 @@
+{
+  "id": "fb-w17-kb-full",
+  "name": "Week 17 KB Full Body — Leggy Clean + Lunge Flow (Spotlight: Lateral Squat Clean)",
+  "description": "KB Tuesday, flow shape: a single-bell leggy flow is the major block — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean, run unilaterally for 3 rounds each side, right after the banded shoulder prep. The lower-body cousin of the OTD flow: same dead-clean entry and tactical-clean exit, but the middle is all lunge / lateral-squat power instead of front squat + bent press. Chained for continuity even though it's strength work. No overhead pressing — friendly on the right shoulder. After the flow, a Strength + Conditioning block restores the workout section a flow-only day was missing — the pulling and posterior-chain work the lateral flow doesn't cover (row → suitcase deadlift → around-the-body pass → swing), all kept off the overhead. Wrapped in the settled Tuesday scaffolding (warm-up + banded prep in, pigeon/butterfly cooldown out). Spotlight is the lateral squat clean — the new lateral-plane power move.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "strength", "full-body", "flow", "legs", "form-first", "spotlight-rotation", "lateral"],
+  "estimatedDuration": 45,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "A leggy single-bell flow is the major block — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean, 3 rounds each side, right after the banded prep. Chained for continuity even though it's strength work — the flow-for-strength shape, finally on a Tuesday. The lower-body cousin of the OTD flow (same dead-clean in, tactical-clean out; lunges/lateral-squats in the middle). No overhead pressing — the highest the bell goes is the rack, so it's easy on the right shoulder. Then a Strength + Conditioning block (row → suitcase DL → around-the-body pass → swing) — the workout section the flow alone was missing, biased to the pulling and posterior work the lateral flow skips — and the pigeon/butterfly cooldown. The leg-heavy work sits on Tuesday, far from Friday legs.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-lateral-squat-clean",
+        "why": "The new lateral-plane power move and the hinge of the flow — out of the bottom of the lateral lunge, drive up and clean the bell to the rack into a lateral squat. The skill is making the clean come from leg + hip power, not the arm, and catching it soft at the rack. Get it grooved in the flow and the whole sequence connects."
+      }
+    ],
+    "rotationPlan": "W16 Bulgarian split + windmill (shred core) · W17 Leggy Flow (flow-for-strength) · W18 GymVibe 9-min AMRAP (strength/conditioning, not a flow — `kb-gymvibe-9min-amrap`) — Leggy Flow rotates OUT to the pool, do NOT carry it forward · W19+ cycle a retired KB favorite back in (cossack fell off after W15).",
+    "watchpoints": [
+      "**One MEDIUM bell for the whole flow** — movement quality and continuity over load. The cleans and the lateral squat clean are powered by the legs and hips, not the arm. ~25-35lb keeps it flowing.",
+      "**Flow, don't grind** — the six moves connect seamlessly, no pausing between them. If the chain breaks down, the bell's too heavy or you're rushing; slow the transitions.",
+      "**Leggy on purpose, and that's fine** — lots of lunge / lateral-squat work, but it's Tuesday, three days clear of Friday legs. Curtsy lunge stays racked; the lateral lunges swing the bell down to load the next clean.",
+      "**Right shoulder is easy this week** — no overhead anywhere: the flow tops out at the rack, and the strength block is all pulls, hinges, and swings. A genuinely easy-shoulder day.",
+      "**The strength block complements the flow** — the leggy flow is all legs / lateral, so the workout section goes pull + posterior + core (row, suitcase DL, around-the-body pass, swing). Don't turn it into more leg work.",
+      "**Protective behind-back shrug greasing set stays in the warm-up** — 1 light set, easy to forget.",
+      "**Trim for time:** the flow can drop to 2 rounds each side and the strength block to 2 rounds if the session runs long — don't grind it out."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles both directions — open the shoulders before the circuit." },
+        { "id": "kettlebell-overhead-press", "reps": "3 each side", "notes": "**LOAD:** 20lb. Light — test the overhead position before the press work in the circuit. If anything cracks/twinges, add band work before starting." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips, sit in the bottom for a beat." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for the circuit." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set) — the pull-day shrug, scattered to KB days.** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "leggy-flow-block",
+      "name": "🔆🦵 Leggy Flow (continuous flow — Spotlight: Lateral Squat Clean)",
+      "type": "flow",
+      "flowId": "kb-leggy-flow",
+      "rounds": 3,
+      "notes": "**Single MEDIUM bell (~25-35lb), 3 rounds each side** (or 2 each if short on time). Quality and continuity over load — the cleans come from the legs and hips, not the arm. **🔆 Spotlight: the lateral squat clean** — drive out of the bottom of the lateral lunge and clean to the rack into a lateral squat, leg + hip driven, soft catch. Reflection: does the clean feel like it comes from the floor/legs, or are you muscling it up with the arm?",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "strength-conditioning-block",
+      "name": "💪 Strength + Conditioning (workout section)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8-10 each side", "notes": "**LOAD:** 45-50lb.\n- Hips hinged, back flat, bell hanging straight down\n- **Pull the elbow to the hip** and drive it back — don't shrug the shoulder up toward the ear\n- Squeeze the mid-back at the top, slow lower\n- The flow has no pulling; this is the day's back work." },
+        { "id": "kettlebell-suitcase-deadlift", "reps": "8 each side", "notes": "**LOAD:** 50-60lb.\n- Bell on the floor at ONE side like a suitcase — hinge and deadlift it straight up\n- **Don't let the torso tip toward the bell** — brace the opposite side hard; this is anti-lateral-flexion core as much as a hinge\n- Stand tall, ribs down, slow lower. Grip is the limiter — hold the load, no straps." },
+        { "id": "kettlebell-around-body-pass", "reps": "8 each direction", "notes": "**LOAD:** 35-50lb. Active recovery between the heavy lifts.\n- Pass the bell around the body in a smooth circle, hand to hand, front to back\n- **Core tight, torso quiet** — resist the bell pulling you into rotation\n- 8 one way, 8 the other." },
+        { "id": "kettlebell-swing", "reps": 20, "notes": "**LOAD:** 35-40lb. Posterior-chain power finisher.\n- Hike the bell back, **snap the hips** to float it to chest height — arms are ropes\n- Glutes finish the rep, ribs down at the top, control the descent\n- Empty the tank on the last round." }
+      ],
+      "notes": "**The workout section — what a flow-only day was missing.** Single bell, 3 rounds: pull (row) + posterior / anti-rotation (suitcase DL) + core / coordination (around-the-body pass) + posterior power (swing). Deliberately covers what the leggy / lateral flow doesn't — pulling and posterior chain — and stays off the overhead so the shoulder keeps its easy day. Rest ~45-60s between rounds.",
+      "restBetween": 30,
+      "restAfter": 45
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight on KB days." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**The major block is a single-bell leggy flow** — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean, run unilaterally. Six moves chained seamlessly, 3 rounds each side.",
+    "**One MEDIUM bell, sized to the flow** — ~25-35lb. Quality and continuity over load; the cleans come from the legs and hips, not the arm.",
+    "**Spotlight: lateral squat clean.** The lateral-plane power move — drive out of the lateral lunge and clean to the rack into a lateral squat, leg + hip driven, soft catch.",
+    "**Flow, don't grind** — if the chain breaks down, the bell's too heavy or you're rushing. Slow the transitions before adding load.",
+    "**Leggy on purpose** — three days clear of Friday legs. Curtsy lunge stays racked; lateral lunges swing the bell down to load the next clean.",
+    "**No overhead all day** — the flow tops out at the rack and the strength block is pulls / hinges / swings. Easy-shoulder week.",
+    "**Strength + Conditioning block after the flow** — row → suitcase deadlift → around-the-body pass → swing, 3 rounds. The pull / posterior / core work the leggy flow doesn't cover, all off the overhead.",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W18 rotates the flow content / cycles a retired KB favorite back in (cossack fell off after W15)."
+  ],
+  "formPhilosophy": "Two sections on KB Tuesday — a flow and a workout. The flow is a single-bell leggy complex chained for continuity, the lower-body cousin of the OTD flow; skill comes from connecting the moves smoothly, not from a max load. The Strength + Conditioning block that follows is the workout section — pull, posterior, and core work the lateral flow doesn't cover, so the day lands as genuinely full-body, not flow-only. The shoulder scaffolding (banded prep, protective shrug, cooldown) stays because that's the part that protects the joint; the flow tops out at the rack and the strength block is all pulls / hinges / swings, so the whole day stays off the overhead — a genuinely easy-shoulder day. Loads stay moderate; the lateral squat clean spotlight drills leg-driven power, not the number. Building decades, not weeks."
+}
