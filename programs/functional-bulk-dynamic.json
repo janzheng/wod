@@ -3898,6 +3898,121 @@
         }
       ],
       "logFile": "logs/functional-bulk-dynamic-w33.json"
+    },
+    {
+      "week": 34,
+      "label": "Staged Return, Step Two — The Bulgarian Returns, Lengths Hold, Two Optional KB",
+      "description": "Same week shape: push → legs → pull, then two optional KB sessions. The three gym days complete the week, and no day grows.\n\n**The Bulgarian split squat returns** in the second slot of legs, straight after the squat. The leg press runs two sets and the glute bridge leaves the warmup to make room, so legs holds its length. The RDL is 70 for all three sets, the leg curl is 80, and both hip machines run three sets, as they have in practice.\n\n**Push's tricep slot becomes the upright rope pushdown,** found fresh with a light first round; the incline press is the spotlight. Pull holds its loads and the pulldown and face pull take the spotlight.\n\nThe morning flow rotates to thread-the-needle, dead-bug, shoulder taps, fire hydrants, the frog stretch and the straddle reaches, and the optional KB days rotate to the Outside Snatch Flow and a new single-bell swing-squat-press-thruster complex.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — upright rope pushdown arrives, incline press spotlight",
+          "type": "workout",
+          "workoutId": "fb-w34-push",
+          "flow": {
+            "workoutId": "fb-w34-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W34 flow — thread-the-needle and low-lunge rotations open; dead-bug, shoulder taps and fire hydrants make the work block; the frog stretch and straddle reaches rotate in. **PUSH add-on:** doorframe stretch, prone Y raises and scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — the Bulgarian split squat returns",
+          "type": "workout",
+          "workoutId": "fb-w34-legs",
+          "flow": {
+            "workoutId": "fb-w34-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W34 flow — thread-the-needle and low-lunge rotations open; dead-bug, shoulder taps and fire hydrants make the work block; the frog stretch and straddle reaches rotate in. **LEGS add-on:** knee-to-wall rocks and cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — pulldown and face pull spotlight",
+          "type": "workout",
+          "workoutId": "fb-w34-pull",
+          "flow": {
+            "workoutId": "fb-w34-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W34 flow — thread-the-needle and low-lunge rotations open; dead-bug, shoulder taps and fire hydrants make the work block; the frog stretch and straddle reaches rotate in. **PULL add-on:** dead hang and scapular pulls; the light curl and hold stay in the workout warmup."
+          }
+        },
+        {
+          "day": 4,
+          "label": "OPTIONAL KB · Bent Press Flow + Outside Snatch Flow",
+          "type": "workout",
+          "workoutId": "fb-w34-kb-full",
+          "flow": {
+            "workoutId": "fb-w34-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W34 flow. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "OPTIONAL KB · Swing-Squat-Press-Thruster Complex",
+          "type": "workout",
+          "workoutId": "fb-w34-kb-cond",
+          "flow": {
+            "workoutId": "fb-w34-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W34 flow. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w33.json"
     }
   ],
   "tips": [

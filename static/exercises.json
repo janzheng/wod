@@ -2846,6 +2846,32 @@
     "description": "Stand facing away from a high cable with a straight bar or rope attachment. With a slight bend in your elbows, pull the cable in an arc from overhead down to your hips. Keep your core braced and focus on squeezing your lats throughout the movement. The cable provides constant tension unlike the dumbbell variant."
   },
   {
+    "id": "cable-rope-tricep-pushdown",
+    "name": "Upright Rope Tricep Pushdown",
+    "category": "arms-triceps",
+    "type": "weights",
+    "muscles": [
+      "triceps"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "tags": [
+      "isolation",
+      "push",
+      "upper-body",
+      "arms",
+      "gym",
+      "machine",
+      "triceps",
+      "pushdown",
+      "rope"
+    ],
+    "difficulty": "beginner",
+    "duration": 45,
+    "description": "Stand upright facing a high cable with a rope attachment, feet hip width, torso tall and still. Pin the elbows to your ribs with the hands near the chest, then straighten the arms down toward the thighs, splitting the rope apart at the bottom and squeezing the triceps. Let the hands rise slowly back to just below the chest without the elbows drifting forward. No lean, nothing behind the head: only the forearms move. This is the upright version; the lean-back pushdown (`incline-cable-overhead-tricep-extension`) carries the torso backward to put the long head on stretch, and it is a different lift with its own loads."
+  },
+  {
     "id": "cable-row-machine",
     "name": "Cable Row Machine",
     "category": "back-horizontal-pull",
@@ -9247,9 +9273,20 @@
         "url": "https://www.facebook.com/reel/2050762199178758",
         "label": "Madeleine Conti Personal Training",
         "platform": "facebook"
+      },
+      {
+        "url": "https://www.facebook.com/reel/4504346709852920",
+        "label": "Train with Florence (Facebook Reel)",
+        "platform": "flow"
       }
     ],
     "flows": [
+      {
+        "workoutId": "kb-swing-squat-press-thruster-complex",
+        "name": "Swing-Squat-Press-Thruster Complex — 5-4-3-2, One Round Every 3 Minutes",
+        "source": "Train with Florence (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/4504346709852920"
+      },
       {
         "workoutId": "kb-dead-cluster-flow",
         "name": "Dead Cluster Flow — Dead Cluster → Snatch → Iron Cross → Outside Pendulum → Tactical Clean → Reverse Lunge → Offset Rack Squat",
@@ -9514,6 +9551,11 @@
         "url": "https://www.facebook.com/reel/2467690073748507",
         "label": "Madeleine Conti Personal Training (Facebook Reel)",
         "platform": "flow"
+      },
+      {
+        "url": "https://www.facebook.com/reel/4504346709852920",
+        "label": "Train with Florence (Facebook Reel)",
+        "platform": "flow"
       }
     ],
     "flows": [
@@ -9528,6 +9570,12 @@
         "name": "Long Coordination Gauntlet — 14-Move Single-Bell Conti Flow",
         "source": "Madeleine Conti Personal Training (Facebook Reel)",
         "sourceUrl": "https://www.facebook.com/reel/2467690073748507"
+      },
+      {
+        "workoutId": "kb-swing-squat-press-thruster-complex",
+        "name": "Swing-Squat-Press-Thruster Complex — 5-4-3-2, One Round Every 3 Minutes",
+        "source": "Train with Florence (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/4504346709852920"
       }
     ]
   },
@@ -10573,6 +10621,11 @@
         "url": "https://x.com/Asgooch/status/2020611643718164517",
         "label": "@Asgooch",
         "platform": "link"
+      },
+      {
+        "url": "https://www.facebook.com/reel/4504346709852920",
+        "label": "Train with Florence (Facebook Reel)",
+        "platform": "flow"
       }
     ],
     "flows": [
@@ -10581,6 +10634,12 @@
         "name": "Brutal KB Complex (@Asgooch)",
         "source": "@Asgooch",
         "sourceUrl": "https://x.com/Asgooch/status/2020611643718164517"
+      },
+      {
+        "workoutId": "kb-swing-squat-press-thruster-complex",
+        "name": "Swing-Squat-Press-Thruster Complex — 5-4-3-2, One Round Every 3 Minutes",
+        "source": "Train with Florence (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/4504346709852920"
       }
     ]
   },
@@ -10884,6 +10943,11 @@
         "platform": "flow"
       },
       {
+        "url": "https://www.facebook.com/reel/4504346709852920",
+        "label": "Train with Florence (Facebook Reel)",
+        "platform": "flow"
+      },
+      {
         "url": "https://x.com/gymvibe_/status/2060769199404851529",
         "label": "@gymvibe_",
         "platform": "flow"
@@ -10901,6 +10965,12 @@
         "name": "Outside Snatch Flow — Figure 8 → Tactical Clean → Transverse Lunge → Outside Snatch → Windmill → Snatch → Thruster → Deep Squat Press → Switch Swing",
         "source": "Madeleine Conti Personal Training (Facebook Reel)",
         "sourceUrl": "https://www.facebook.com/reel/3961902170780372"
+      },
+      {
+        "workoutId": "kb-swing-squat-press-thruster-complex",
+        "name": "Swing-Squat-Press-Thruster Complex — 5-4-3-2, One Round Every 3 Minutes",
+        "source": "Train with Florence (Facebook Reel)",
+        "sourceUrl": "https://www.facebook.com/reel/4504346709852920"
       },
       {
         "workoutId": "kb-gymvibe-9min-amrap",

@@ -43066,6 +43066,1350 @@
     "category": "functional-bulk"
   },
   {
+    "id": "fb-w34-kb-cond",
+    "name": "Week 34 Optional KB — Swing, Squat, Press, Thruster Complex",
+    "description": "Optional and short. One bell, one arm: 5 swings, 4 rack squats, 3 presses, 2 thrusters, then switch sides. One round every 3 minutes, five rounds. A single easy curl round closes it. One round is a complete session if it is the only window.",
+    "routineId": "functional-bulk-dynamic",
+    "tags": [
+      "kettlebell",
+      "conditioning",
+      "flow",
+      "functional-bulk",
+      "optional",
+      "week-34"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "kettlebell",
+      "resistance-band",
+      "bodyweight"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "One simple single-bell complex carries the day, followed by an optional easy curl dose. The clock sets the pace; rounds are the variable, never the bell.",
+      "spotlights": [
+        {
+          "exerciseId": "kettlebell-offset-rack-squat",
+          "why": "The bell racked on one side pulls the torso toward it. Keeping the chest tall through four reps is the whole job of the squat beat."
+        }
+      ],
+      "rotationPlan": "The Overhead Mobility Complex rotates back in next.",
+      "watchpoints": [
+        "🛑 keep it shy — the cue is the cap: the rack squat, the press and the thruster. If the shoulder shrugs up to finish the third press, the bell is too heavy for the day.",
+        "**25lb bell.** Five rounds, one every 3 minutes. The time left in each 3 minutes is rest, so work smooth, not fast.",
+        "**One arm, switch sides, the same ladder on the other.** The bell stays in the hand until the switch.",
+        "**Right shoulder: pack DOWN on every lockout.** If it gets noisy, stop at three rounds.",
+        "**KB curl: left arm first, stop short of straight, no near-failure.**",
+        "**Banded shoulder prep + protective shrug stay in the warm-up**, even on the twenty-minute version."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up — Halos + Bottoms-Up Cuff Prep + Cossacks",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Light bell throughout. The bottoms-up work is cuff prep, and the complex is about to ask for a lot of overhead lockouts.",
+        "exercises": [
+          {
+            "id": "kettlebell-around-body-pass",
+            "reps": "8 each direction",
+            "notes": "Light bell, smooth hand-to-hand passes with the torso quiet."
+          },
+          {
+            "id": "kettlebell-bottoms-up-press",
+            "reps": "8 each side",
+            "notes": "Light bell inverted. Cuff prep and grip, and it rehearses the packed-down lockout. **If the left will not hold the bell quiet and stacked, go lighter for the whole session.**"
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Hinged slightly forward, tight fists, thumbs tucked."
+          },
+          {
+            "id": "behind-back-dumbbell-shrug",
+            "reps": "12-15",
+            "notes": "Protective activation. Down and back at the top."
+          }
+        ]
+      },
+      {
+        "id": "banded-prep",
+        "name": "Banded Shoulder Prep (~2 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out.**\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+        "exercises": [
+          {
+            "id": "seated-banded-overhead-pull-apart",
+            "reps": 8,
+            "notes": "Arms overhead, pull apart without letting the ribs flare."
+          },
+          {
+            "id": "seated-banded-behind-neck-pulldown",
+            "reps": 8,
+            "notes": "Slow and controlled. Blades down and together."
+          },
+          {
+            "id": "seated-banded-t-raise",
+            "reps": 8,
+            "notes": "Thumbs up, arms to a T. Traps stay quiet."
+          },
+          {
+            "id": "seated-banded-chest-pull-apart",
+            "reps": 8,
+            "notes": "Chest height, squeeze the blades."
+          },
+          {
+            "id": "seated-banded-reverse-fly",
+            "reps": 8,
+            "notes": "Rear delts. Lead with the elbows."
+          },
+          {
+            "id": "seated-banded-diagonal-reach",
+            "reps": "8 each side",
+            "notes": "Diagonal pattern, full reach."
+          },
+          {
+            "id": "seated-banded-overhead-v-hold",
+            "duration": 20,
+            "notes": "Hold the V overhead. Ribs down, shoulders packed."
+          }
+        ]
+      },
+      {
+        "id": "swing-squat-press-thruster",
+        "name": "🌀 Swing-Squat-Press-Thruster Complex — One Round Every 3 Minutes",
+        "type": "flow",
+        "flowId": "kb-swing-squat-press-thruster-complex",
+        "rounds": 5,
+        "notes": "**25lb bell.** Five rounds, one starting every 3 minutes (15 minutes). Each round is 5 swings, 4 rack squats, 3 presses, 2 thrusters on one arm, then the same on the other.\n\n🛑 If the shoulder shrugs up on the third press, the bell is too heavy for the day."
+      },
+      {
+        "id": "kb-curl",
+        "name": "Left-Arm Curl Dose 🛑",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "One round, and the only loaded arm work here. This stays because the left arm wants **frequency**, not intensity.",
+        "exercises": [
+          {
+            "id": "kettlebell-curl",
+            "reps": "8-10 each side",
+            "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom** — the bell loads that end position harder than a dumbbell does, and that end position is what the left tendon dislikes\n- Shoulder packed down, no shrug to start\n\n**No near-failure.** Calm load, full control."
+          }
+        ]
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown (Shoulder + Hip + QL Release)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Overhead-heavy day — the shoulders come first.\n\n**Tired-day version:** 30s each.",
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 60,
+            "notes": "30s each arm, elbow at MID height."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 45,
+            "notes": "Passive. Let the shoulders decompress after all that lockout work."
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "30s each side."
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 45,
+            "notes": "Adductors — the overhead lunges earned this."
+          },
+          {
+            "id": "standing-cross-leg-lateral-stretch",
+            "duration": 45,
+            "notes": "30s each side. Let the QL downshift."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Five rounds, one every 3 minutes. The leftover time is rest.",
+      "25lb bell: the swing hips, the rack squat chest tall, the press packed down.",
+      "Thruster is one motion: the legs hand the bell to the arm.",
+      "KB curl: left first, stop short of straight, no near-failure.",
+      "Missing this day entirely does not make the week incomplete."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w34-kb-full",
+    "name": "Week 34 Optional KB — Bent Press Flow + Outside Snatch Flow",
+    "description": "Optional whenever a window opens. The Bent Press Flow stays as the anchor and the Outside Snatch Flow rotates in: a figure-8 into the rack, a transverse lunge, then the bell goes overhead four ways. Two rounds per side when fresh; one round is a complete short session.",
+    "routineId": "functional-bulk-dynamic",
+    "tags": [
+      "kettlebell",
+      "flow",
+      "conditioning",
+      "functional-bulk",
+      "optional",
+      "week-34"
+    ],
+    "estimatedDuration": 30,
+    "equipment": [
+      "kettlebell",
+      "resistance-band"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Bent Press Flow plus the Outside Snatch Flow, with the short strength block between them.",
+      "spotlights": [
+        {
+          "exerciseId": "kettlebell-outside-snatch",
+          "why": "The bell comes up on an outside arc and the path is the lesson. The hips send it; the arm only guides."
+        }
+      ],
+      "rotationPlan": "The B-Stance Flow and the overhead mobility complex rotate back in next.",
+      "watchpoints": [
+        "🛑 keep it shy — the cue is the cap: bent press, the snatches, the windmill, the presses, all the cleans, the KB strict press. Overhead and ballistic work where the cue breaking is the ceiling.",
+        "🔥 nothing here is a lift to chase — see the curl note below.",
+        "**Banded shoulder prep is a KB-day anchor.** It stays even on a twenty-minute version of this session.",
+        "**The bent press is a skill, not a load.** Light bell. If the eyes leave the bell or the hip stops driving, the set is over.",
+        "**The Outside Snatch Flow runs one side all the way through, and the bell does not go down until you switch sides.** The bell goes overhead on five of the nine beats, so the weakest overhead position sets the load. Pack the right shoulder DOWN on every lockout and bail on the windmill or a press before grinding it.",
+        "**KB curl: left arm first, and no near-failure.** Stop short of a fully straight arm, same as the gym curls.",
+        "**Optional means optional.** Missing this day entirely does not make the week incomplete."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warm-Up — Halos + Cossacks + Around-the-Body (Light Bell)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Light bell throughout. The cossacks double as a readiness screen: how they feel tells you what kind of session this is.\n\n**Tired-day version:** 5 reps each.",
+        "exercises": [
+          {
+            "id": "kettlebell-dead-clean",
+            "reps": "5 each side",
+            "notes": "Light bell, dead stop each rep and a soft rack catch. This rehearses both flows' entry."
+          },
+          {
+            "id": "kettlebell-halo",
+            "reps": "6 each direction",
+            "notes": "Close to the head, elbows leading. Opens the shoulders without loading them. **Go slow on the left side.**"
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal — the old ankle sprain means a stiff day here is not a forecast."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 30,
+            "notes": "Deep core before the bell gets heavy."
+          },
+          {
+            "id": "behind-back-dumbbell-shrug",
+            "reps": "10-12",
+            "notes": "**Protective activation.** A bell in each hand works if no DBs are around. Straight up, squeeze, slow release."
+          }
+        ]
+      },
+      {
+        "id": "banded-prep",
+        "name": "Banded Shoulder Prep (~2 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out.**\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+        "exercises": [
+          {
+            "id": "seated-banded-overhead-pull-apart",
+            "reps": 8,
+            "notes": "Arms overhead, pull apart without letting the ribs flare."
+          },
+          {
+            "id": "seated-banded-behind-neck-pulldown",
+            "reps": 8,
+            "notes": "Slow and controlled. Blades down and together."
+          },
+          {
+            "id": "seated-banded-t-raise",
+            "reps": 8,
+            "notes": "Thumbs up, arms to a T. Traps stay quiet."
+          },
+          {
+            "id": "seated-banded-chest-pull-apart",
+            "reps": 8,
+            "notes": "Chest height, squeeze the blades."
+          },
+          {
+            "id": "seated-banded-reverse-fly",
+            "reps": 8,
+            "notes": "Rear delts. Lead with the elbows."
+          },
+          {
+            "id": "seated-banded-diagonal-reach",
+            "reps": "8 each side",
+            "notes": "Diagonal pattern, full reach."
+          },
+          {
+            "id": "seated-banded-overhead-v-hold",
+            "duration": 20,
+            "notes": "Hold the V overhead. Ribs down, shoulders packed."
+          }
+        ]
+      },
+      {
+        "id": "bent-press-flow",
+        "name": "🌀 Bent Press Flow — The Anchor",
+        "type": "flow",
+        "flowId": "kb-flow-dead-clean-press",
+        "rounds": 2,
+        "notes": "**Light bell — 25-35.** Two rounds each side when fresh, one when tired.\n\nThis is the program's oldest flow and it is skill work first. Run it as one continuous chain. The bent press caps the bell — if the hip stops driving or the eyes leave the bell, the flow drops a size."
+      },
+      {
+        "id": "kb-strength",
+        "name": "Strength — KB Row + Strict Press + Curl 🛑",
+        "type": "exercises",
+        "rounds": 2,
+        "notes": "Run this between the two flows so the demanding work is not all stacked at the end.\n\n**Tired-day version:** one round.",
+        "exercises": [
+          {
+            "id": "kettlebell-row",
+            "reps": "8 each side",
+            "notes": "**LOAD: 50.** Maintenance — the real row volume lives on pull day. 50 being easy is the correct end state; do not chase it.\n- Flat back, elbow past the ribs\n- Slow eccentric, full stretch at the bottom"
+          },
+          {
+            "id": "kettlebell-overhead-press",
+            "reps": "8 each side",
+            "notes": "**LOAD: 50, strict — clean to rack, press straight up, no push-press.** 50 is the Arrilaga ceiling, so the pause is the progression.\n- **2-3s PAUSE AT LOCKOUT every rep** — bicep by the ear, shoulder packed **DOWN**, ribs down, and hold it\n- Full lockout before the count starts — no soft elbow\n- **Both sides to the same standard — and if the left will not hold a quiet lockout this week, stop that side there**"
+          },
+          {
+            "id": "kettlebell-curl",
+            "reps": "8-10 each side",
+            "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom** — the bell loads that end position harder than a dumbbell, and that is the position the left tendon dislikes\n- Shoulder packed down, no shrug to start\n\n**No near-failure sets.** The dose here is frequency for the left arm, not intensity."
+          }
+        ]
+      },
+      {
+        "id": "outside-snatch-flow",
+        "name": "🌀 Outside Snatch Flow — Outside Path, One Side at a Time",
+        "type": "flow",
+        "flowId": "kb-outside-snatch-flow",
+        "rounds": 2,
+        "notes": "**Light to moderate bell — 25-35.** Two rounds each side when fresh, one when tired.\n\nThe bell goes overhead four different ways inside one chain. Run it one side all the way through, park the bell in the hike, then repeat on the other. 🛑 The weakest overhead position sets the bell; if the lockout stops being quiet, the flow is over rather than the bell getting heavier."
+      },
+      {
+        "id": "cooldown",
+        "name": "Cooldown (Hip + Shoulder Release)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "The bent press lockout and the B-stance overhead lunge earn an easy hip-and-shoulder release.\n\n**Tired-day version:** 30s each.",
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 45,
+            "notes": "30s each arm, elbow at MID height."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 30,
+            "notes": "Passive decompression after the overhead work."
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 60,
+            "notes": "45s each side. Finish here."
+          },
+          {
+            "id": "butterfly-stretch",
+            "duration": 45,
+            "notes": "Adductors — the lunges earned this one."
+          },
+          {
+            "id": "standing-cross-leg-lateral-stretch",
+            "duration": 45,
+            "notes": "30s each side. QL release."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Optional means optional. One round of each flow is a complete session.",
+      "Outside Snatch Flow: one side all the way through, the bell stays up until you switch sides.",
+      "Bent press is skill work: light bell, eyes on the bell, hip drives.",
+      "KB curl: left first, stop short of straight, no near-failure."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w34-legs",
+    "name": "Week 34 Legs — The Bulgarian Split Squat Returns",
+    "description": "The Bulgarian split squat is back, in the second slot straight after the squat. The leg press runs two sets to make room and the glute bridge leaves the warmup. RDL is 70 for all three sets, the leg curl is 80, and both hip machines run three sets. The knee-to-wall rock is a measurement day; the heel plates stay at 45 in the warmup.",
+    "routineId": "functional-bulk-dynamic",
+    "tags": [
+      "legs",
+      "strength",
+      "gym",
+      "functional-bulk",
+      "week-34"
+    ],
+    "estimatedDuration": 62,
+    "equipment": [
+      "barbell",
+      "machine",
+      "resistance-band",
+      "bodyweight",
+      "mat"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Familiar legs day with the Bulgarian split squat back right after the squat. The leg press steps down to two sets and one warmup move leaves, so the day holds its length. RDL is 70 across, the curl 80.",
+      "spotlights": [
+        {
+          "exerciseId": "bulgarian-split-squat",
+          "why": "Back after weeks away, in the second slot so it is not the last hard thing in the day. The front leg does the work and the pelvis stays level; the trunk is the lesson, not the quad."
+        },
+        {
+          "exerciseId": "kneeling-leg-curl",
+          "why": "80 is the new load. The left side goes first and sets the clean count; the right matches it."
+        }
+      ],
+      "rotationPlan": "Spotlights go back to the squat and the RDL next.",
+      "watchpoints": [
+        "🛑 keep it shy — the cue is the cap: squat, Bulgarian split squat, barbell RDL, leg press, kneeling leg curl, hip abduction, hip adduction. Effort means the cue holding at a hard load; the ceiling is the rep the cue breaks.",
+        "🔥 near-failure last set OK: leg press calf raise. Isolation work where form holds at the limit.",
+        "**Bulgarian second, straight after the squat.** Smith at 45 with the bench, or double-50 DBs; log which. Stretch the pigeon between sets.",
+        "**RDL: 70 · 70 · 70, no light set.** Set the grip and the bar low in the fingers before the bar leaves the floor. Stop a set when grip or hinge form becomes the limiter.",
+        "**Measurement day:** the knee-to-wall rock, both sides, in fists. Last time: right 1.5, left 1.",
+        "**Leg curl 80, left first.** 70 if the left is more than two reps behind by set 2.",
+        "**Both hip machines run three sets.** Hold 2 seconds fully open on the abduction; tempo is the lever on the adduction.",
+        "**Set 1 of the squat is information, not a verdict.**",
+        "**The heel plates stay at 45 in the warmup.** Not under the working sets.",
+        "**If a hip machine is dead or mobbed, the fallback is written into the block.** Take the fallback, do not skip the slot.",
+        "**No straps on the RDL, and no flipped hand.** Double-overhand at every weight."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Legs Warmup — Ankle First, Then the Heel-Elevated Ramp",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "The ankle work leads, because ankle range is the first limiter on depth. **The heel plates live here, at 45**, in the second ramp round.",
+        "exercises": [
+          {
+            "id": "tibialis-raise",
+            "reps": "15-20",
+            "notes": "Slow up, slow down — feel the shin."
+          },
+          {
+            "id": "knee-to-wall-ankle-rock",
+            "reps": "10-15 each side",
+            "notes": "**Measurement day.** Toe to wall, knee bent, heel glued down. Slide the foot back to the furthest distance where the knee still touches the wall with the heel down, and write both numbers in fists. Last time: right 1.5, left 1."
+          },
+          {
+            "id": "banded-ankle-eversion",
+            "reps": "15-20",
+            "notes": "Light band, eversion only — slow and controlled. The left one is the point."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "Slow, deep, heel down on the bent side. Opens the adductors and hips before the bar; the straight leg's inner thigh is the target."
+          },
+          {
+            "id": "bodyweight-squat",
+            "reps": "10-15",
+            "notes": "Your usual stance — the wide V, no experiments. Heels down, chest up, knees out. Note where depth stops today."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "**The brace, woken deliberately.** It is half the answer to the depth question — bring it online before the bar."
+          },
+          {
+            "id": "squat",
+            "reps": "5, then 5",
+            "notes": "**LOAD:** 45/side, two rounds.\n\n**Round 1 — flat, 5 reps, 2-3s pause in the bottom.** The usual standard.\n\n**Round 2 — 5lb plate under each heel, 5 reps, 2-3s pause.**\n- **Use the extra room** — with the heels up there is more of it, and the point is to go there\n- **Stay upright and let the knees travel forward** — that is what the elevation buys\n- **Hold the brace through the pause**, ribs down\n- Note whether the extra room shows up as real depth at the bottom."
+          }
+        ]
+      },
+      {
+        "id": "squat",
+        "name": "Squat — 80/Side, All Three Flat 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 80/side, 3 working sets of 6-8. **All flat — the plates stay in the warmup.**\n\n- **Belt-tight brace** — ribs down, glutes and core braced\n- Usual wide V stance\n- Depth is the job, not the load: stop just above where the pelvis starts to tuck\n- **Set 1 is information, not a verdict**",
+        "exercises": [
+          {
+            "id": "squat",
+            "reps": "6-8",
+            "notes": "**LOAD:** 80/side, 3 sets, all flat.\n- Usual wide V stance\n- Belt-tight brace, ribs down, shoulders packed down\n- Depth is the job, not the load\n- Stop just above where the pelvis starts to tuck"
+          }
+        ]
+      },
+      {
+        "id": "bulgarian",
+        "name": "🔆 Bulgarian Split Squat — Level Pelvis 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** Smith machine at 45 with the bench behind you, 3 sets of 8-10 each leg. **Double-50 DBs when the Smith is busy.** Log which.\nSame rack area as the squat, so no walking. **Pigeon stretch between sets.**\n\n**🔆 SPOTLIGHT — the trunk, not the quad:**\n- **Keep the pelvis LEVEL.** The hip on the rear-leg side wants to drop; holding it up is glute medius, QL and obliques, and that is the 'core, not just legs' feeling\n- **The front leg does the work.** The rear foot is balance only\n- **Front shin honest** — the knee travels forward over the foot\n- **Ribs down**, stacked over the front leg rather than leaning into it\n- Lower until the back knee nearly touches the floor\n\n**Reflection:** does either leg fade from the first rep, and does the pelvis stay level or do you compensate with a lean?",
+        "exercises": [
+          {
+            "id": "bulgarian-split-squat",
+            "reps": "8-10 each leg",
+            "notes": "**LOAD:** Smith at 45 + bench · double-50 DBs when the Smith is busy. Log which you used. Pigeon stretch between sets."
+          }
+        ]
+      },
+      {
+        "id": "rdl",
+        "name": "Barbell RDL — 70 · 70 · 70 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 70/side for all three sets, 8-10 reps, straight after the Bulgarian.\n\n- **Double-overhand, no straps, no flipped hand** — the hands are the weakest link, and that is the point\n- **Set 1 is a cold 70:** set the grip and put the bar low in the fingers, squeeze it, then lift\n- **Soft knees, hips back, bar brushing the thighs**\n- 3s eccentric; the set ends when the hamstrings, the grip or the position ends it",
+        "exercises": [
+          {
+            "id": "barbell-romanian-deadlift",
+            "reps": "8-10",
+            "notes": "**LOAD:** 70/side · 70/side · 70/side.\n- Double-overhand; no straps or flipped hand\n- Bar low in the fingers, squeeze before you lift\n- Soft knees, hips back, bar brushing the thighs\n- 3s eccentric; stop when hamstrings, grip or position ends the set"
+          }
+        ]
+      },
+      {
+        "id": "leg-curl",
+        "name": "Kneeling Leg Curl — 80, Left Side First 🔆 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 80, 3 sets of 10-12 each side. Left first; match the right to the left's clean count.\n\n- Only the lower leg moves\n- Hips stay flat and square\n- Slow eccentric\n- On the weaker side, 2-3 seconds down\n- **70 if the left is more than two reps behind by set 2**",
+        "exercises": [
+          {
+            "id": "kneeling-leg-curl",
+            "reps": "10-12 each side",
+            "notes": "**LOAD:** 80.\n- Left side first and it sets the count\n- Only the lower leg moves; hips flat and square\n- Slow eccentric\n- When the front of the hip joins in, the set is done\n- Log both sides separately"
+          }
+        ]
+      },
+      {
+        "id": "leg-press",
+        "name": "Leg Press — 4 Plates/Side, Two Sets, Knees to Chest 🛑",
+        "type": "exercises",
+        "rounds": 2,
+        "notes": "**LOAD:** 4 plates/side, 2 sets of 12. The calf raise follows on the same machine.\n\n- **Deep ROM — work depth, not weight**\n- **Ribs down, no leaning back**\n- Knees to chest is the standard",
+        "exercises": [
+          {
+            "id": "leg-press",
+            "reps": 12,
+            "notes": "**LOAD:** 4 plates/side, 2 sets.\n- **Deep ROM** — depth, not weight\n- Ribs down, no leaning back\n- Knees to chest is the standard\n- Slow into the bottom, no bouncing out of it"
+          }
+        ]
+      },
+      {
+        "id": "calf-raise",
+        "name": "Leg Press Calf Raise — 4 Plates/Side 🔥",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 4 plates/side, 3 sets of 15. **Same machine — stay where you are.**\n\n- Balls of the feet on the bottom platform edge, heels off\n- **Full controlled heel drop** — the slow stretch is the stimulus\n- Press through the forefoot to a full contraction\n- Knees stay soft and still\n- Last set can run near failure",
+        "exercises": [
+          {
+            "id": "leg-press-calf-raise",
+            "reps": 15,
+            "notes": "**LOAD:** 4 plates/side.\n- Full controlled heel drop\n- Press through the forefoot\n- Knees soft and still"
+          }
+        ]
+      },
+      {
+        "id": "hip-abduction",
+        "name": "Hip Abduction — 290, Three Sets, 2s Fully Open 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 290, 3 sets of 12-15. Hold 2 seconds with the legs fully open — the hard end of the range.\n\n- Slow out, hold 2s fully open, slow back\n- Torso quiet; no rocking",
+        "exercises": [
+          {
+            "id": "hip-abduction-machine",
+            "reps": "12-15",
+            "notes": "**LOAD:** 290. Three sets.\n- Slow out\n- **Hold 2 seconds with the legs fully open**\n- Slow back; torso quiet, no rocking"
+          },
+          {
+            "id": "barre-clamshell",
+            "reps": "15-20 each side",
+            "notes": "**FALLBACK — only if the machine is dead.** Side-lying, knees bent and stacked, feet together.\n- **Open the top knee slowly and hold a beat at the top**\n- **The top hip must not roll backwards** — that roll is how the work escapes to the front of the hip\n- Add a light band above the knees if one is around"
+          },
+          {
+            "id": "barre-side-lying-leg-lift",
+            "reps": "12-15 each side",
+            "notes": "**FALLBACK — pairs with the clamshell.** Same side-lying setup, top leg straight.\n- **Lift from the side of the hip, not the front** — lead with the heel a touch, toes pointing forward, not up\n- Slow up, **slower down**\n- Hips stacked and still; if the torso rocks back, the range is too big"
+          }
+        ]
+      },
+      {
+        "id": "hip-adduction",
+        "name": "Hip Adduction Machine — 300, Three Sets 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 300, 3 sets of 12-15.\n\n- **Tempo is the only lever** — slow release out to a full stretch, a beat at the halfway point and another at the stretch\n- Torso still",
+        "exercises": [
+          {
+            "id": "hip-adductor-machine",
+            "reps": "12-15",
+            "notes": "**LOAD:** 300. Three sets.\n- **Tempo is the only lever**\n- Slow release to a full stretch, a beat at the halfway point and at the stretch\n- Torso still"
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "8 each side",
+            "notes": "**FALLBACK — only if the machine is occupied.** Slow, deep, heel down on the bent side.\n- **Sit into one hip and let the other leg straighten fully** — the straight leg's inner thigh is the target\n- Toes of the straight leg can turn up; keep the chest tall\n- Hold a beat at the bottom of each rep"
+          }
+        ]
+      },
+      {
+        "id": "cooldown",
+        "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 60,
+            "notes": "30s each arm, elbow at MID height."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 45,
+            "notes": "Passive. Let the shoulders decompress."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 60,
+            "notes": "30s each side."
+          },
+          {
+            "id": "90-90-stretch",
+            "duration": 90,
+            "notes": "45s each side."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "Slow breathing. End here."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Bulgarian split squat is back in the second slot: pelvis level, the front leg works, pigeon between sets.",
+      "RDL is 70 · 70 · 70. Set the grip before the bar leaves the floor.",
+      "Leg curl is 80. Left first, hip square, slow eccentric. Log both sides separately.",
+      "Leg press is two sets this week; the calf raise stays at three on the same machine.",
+      "Both hip machines are three sets. Abduction 290 with 2s fully open; adduction 300.",
+      "Measure the knee-to-wall rock, both sides, in the warmup."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w34-morning-flow",
+    "name": "W34 Morning Flow — Rotation, Dead-Bug, Shoulder Taps, Frog and Straddle",
+    "description": "The daily 15-minute opener. **The primer opens with thread-the-needle and low-lunge thoracic rotations** instead of puppy pose and down-dog. **The work block swaps spiderman plank, hollow hold and plié pulses for dead-bug, shoulder taps and fire hydrants**, with the push-up greasing set as the anchor.\n\n**The stretches rotate to the frog stretch and the straddle reaches** in place of happy baby and the couch stretch. Scorpion, lizard, cossack and pigeon stay.\n\n**Use the readiness screen, not the calendar.** If cossacks and lizard feel open, run the whole thing. If they feel sticky, keep the anchors and drop one work-block move. Five honest minutes still counts.",
+    "estimatedDuration": 15,
+    "difficulty": "beginner",
+    "equipment": [
+      "bodyweight",
+      "mat",
+      "resistance-band"
+    ],
+    "tags": [
+      "morning",
+      "mobility",
+      "bodyweight",
+      "functional-bulk",
+      "week-34"
+    ],
+    "sets": [
+      {
+        "id": "through-the-day",
+        "name": "☀️ Through the Day — Small and Often (Not Now)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Not part of the morning sequence — these are the reminders that get sprinkled through the day.",
+        "exercises": [
+          {
+            "id": "asian-squat",
+            "duration": 60,
+            "notes": "Once an hour if you can. Heels down, easy breathing, a little deeper each time."
+          },
+          {
+            "id": "single-leg-balance",
+            "duration": 60,
+            "notes": "30s each foot. Let the **ankle** do the correcting, not the hip. Fingertip on a wall is fine on no sleep."
+          },
+          {
+            "id": "knee-to-wall-ankle-rock",
+            "reps": "10 each side",
+            "notes": "Heel glued down, knee over the toes. The measurement lives in the legs-day warmup; here it is just the reps."
+          },
+          {
+            "id": "banded-ankle-eversion",
+            "reps": "15 each side",
+            "notes": "Sole turns **outward** against the band, shin still. The left one is the point."
+          }
+        ]
+      },
+      {
+        "id": "primer",
+        "name": "Primer — Rotation and Brace (~3 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Keep moving between shapes rather than settling into holds. The long holds come at the end, when you are warm.",
+        "exercises": [
+          {
+            "id": "thread-the-needle",
+            "reps": "5 each side",
+            "notes": "From hands and knees, thread one arm under and rotate. **Reach long and let the ribs follow** — thoracic rotation, and the front of the shoulder opens at the same time."
+          },
+          {
+            "id": "low-lunge-thoracic-rotation",
+            "reps": "5 each side",
+            "notes": "Low lunge, back knee down, hand inside the front foot, then open the chest to the ceiling. **Hips and upper back in one shape.**"
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Tight fists, thumbs tucked, hinged slightly forward. **This is the brace the squat is asking for** — wake it here so it is available later."
+          }
+        ]
+      },
+      {
+        "id": "work-block",
+        "name": "Work Block — Dead-Bug, Shoulder Taps and Fire Hydrants (~5 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Activate, do not fatigue. One shoulder-stability move, one anti-extension hold, one barre leg block for variety.",
+        "exercises": [
+          {
+            "id": "push-up",
+            "reps": "one easy set, 2-3 in reserve",
+            "notes": "**The greasing set — one quick set, never to failure.** Elbows ~45°, **pack down not up.** A daily habit, not a training stimulus."
+          },
+          {
+            "id": "dead-bug",
+            "reps": "8 each side",
+            "notes": "Opposite arm and leg reach away slowly. **The low back stays pressed flat the entire time** — the moment it lifts off the floor, that rep was the last one. Slow beats far."
+          },
+          {
+            "id": "plank-shoulder-taps",
+            "reps": "8 each side",
+            "notes": "In plank, tap the opposite shoulder without the hips rotating. **Feet wide if the hips want to rock.** Anti-rotation, so slow."
+          },
+          {
+            "id": "barre-fire-hydrant",
+            "reps": "15 each side",
+            "notes": "**On all fours, lift one bent knee out to the side.** Hips stay square to the floor — the moment the torso rolls away to get height, the range is too big. Slow up, slower down."
+          }
+        ]
+      },
+      {
+        "id": "yoga-flow",
+        "name": "Yoga Flow — Hip + Back Arc (~7 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Goes last because warm muscle stretches deeper. One continuous arc, not a list of holds.",
+        "exercises": [
+          {
+            "id": "scorpion-stretch",
+            "duration": 60,
+            "notes": "30s each side. Thoracic rotation and hip flexor in one shape."
+          },
+          {
+            "id": "lizard-pose",
+            "duration": 90,
+            "notes": "45s each side. Deep lunge, both hands inside the front foot. Forearms if the hip allows."
+          },
+          {
+            "id": "cossack-squat",
+            "reps": "5 each side",
+            "notes": "**Your readiness screen.** Slow, deep, heel down. Read it as a delta against your own normal — the old ankle sprain means a stiff day here is not a bad-session forecast."
+          },
+          {
+            "id": "frog-stretch",
+            "duration": 45,
+            "notes": "Hands and knees, knees wide, sink the hips back. **Intense inner-thigh opener** — breathe through it, ease off if the groin pinches."
+          },
+          {
+            "id": "leg-straddle-reaches",
+            "duration": 90,
+            "notes": "Seated wide straddle — reach to each foot, then centre. **Hinge from the hips, don't round to reach further.**"
+          },
+          {
+            "id": "pigeon-pose",
+            "duration": 90,
+            "notes": "45s each side. Finish here. Let the hips settle before the day starts."
+          }
+        ]
+      },
+      {
+        "id": "day-addon",
+        "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Pick only the block that matches today. Two or three moves, not the whole list.",
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 60,
+            "notes": "**Push day.** 30s each arm, elbow at MID height."
+          },
+          {
+            "id": "prone-y-raises",
+            "reps": 10,
+            "notes": "**Push day. Rehab anchor.** Thumbs up, lift from the mid-back — the neck stays out of it."
+          },
+          {
+            "id": "scapular-push-up",
+            "reps": 10,
+            "notes": "**Push day. Rehab anchor.** Arms stay straight; only the blades move."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 30,
+            "notes": "**Pull day. Rehab anchor.** Easy decompression before loaded pulling."
+          },
+          {
+            "id": "scapular-pull",
+            "reps": 10,
+            "notes": "**Pull day. Rehab anchor.** Pack down first — the elbows do not bend."
+          },
+          {
+            "id": "bicep-curl",
+            "reps": "10, then one 30s hold",
+            "notes": "**Pull day — it worked, so it stays.** One light set before the pull-up bar, then **hold a light DB still at about 90° for 30 seconds.** The hold is the new part: a still, moderate load is the calmest thing you can give an irritable tendon, and it goes in before anything hangs off the elbow."
+          },
+          {
+            "id": "side-lying-external-rotation",
+            "reps": "10 each side",
+            "notes": "**Pull or KB day. Rehab anchor.** Elbow pinned to the ribs, light or no weight."
+          },
+          {
+            "id": "wall-angel",
+            "reps": 10,
+            "notes": "**KB day. Rehab anchor.** Ribs down; only the range that stays smooth."
+          },
+          {
+            "id": "knee-to-wall-ankle-rock",
+            "reps": "10 each side",
+            "notes": "**Legs day.** Toe to wall, heel glued down — the measurement is in the workout warmup, so here it is just the reps before the heels go up on the plates."
+          },
+          {
+            "id": "standing-cross-leg-lateral-stretch",
+            "duration": 60,
+            "notes": "**Legs day.** 30s each side for the lateral chain."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Five honest minutes beats a skipped fifteen. Anchors first: cossack, lizard, the push-up set.",
+      "Thread-the-needle: reach long, let the ribs rotate.",
+      "Dead-bug: the low back stays flat; slow beats far.",
+      "If the cossacks read sticky, keep the flow and drop a work-block move rather than rushing the stretches."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w34-pull",
+    "name": "Week 34 Pull — Pulldown and Face Pull Take the Spotlight",
+    "description": "Same pull day, same loads. The pulldown and the face pull take the spotlight; the chest-supported row, reverse fly and cable crunch keep their places. The warmup rotates cat-cow to thread-the-needle; the band pull-apart, the bicep pre-load and the shrug stay.",
+    "routineId": "functional-bulk-dynamic",
+    "tags": [
+      "pull",
+      "strength",
+      "gym",
+      "functional-bulk",
+      "week-34"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable",
+      "machine",
+      "bodyweight",
+      "resistance-band"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Same pull day at the same length. The pulldown and the face pull take the spotlight, and the row pyramid, the bench block and the cable block hold their loads.",
+      "spotlights": [
+        {
+          "exerciseId": "lat-pulldown",
+          "why": "180 on the regular machine is the working number, and the set gets hard in the back half of the last set. The stretch at the top and the slow lowering are where it is won."
+        },
+        {
+          "exerciseId": "face-pull",
+          "why": "62.5 for 20 with the elbows high. The traps want this lift badly; the cue is to keep them out of it."
+        }
+      ],
+      "rotationPlan": "Spotlights go to the pull-up and the incline curl next.",
+      "watchpoints": [
+        "🛑 keep it shy — the cue is the cap: pull-ups, DB row, chest-supported row, lat pulldown, incline curl. Grip and position lifts where the honest ceiling is the rep the cue breaks.",
+        "🔥 near-failure last set OK: reverse fly, face pull, high cable curl, cable crunch. Isolation work where form holds at the limit.",
+        "**⭐ IF THE SHOULDERS CRACKLE, TAKE THE SHRUG AGAIN BETWEEN PULL-UP SETS.** It is the same behind-back shrug from the warmup, with a kettlebell or a DB pair. Optional, not a mandatory round.",
+        "**Say which shoulder** if either gets noisy. Mention any tiredness that ends a set.",
+        "**The incline curl is CHEST-SUPPORTED, PREACHER-STYLE.** Bench a notch steeper than 45°, armpit and the back of the upper arm flat on the pad, arm hanging down the face of the pad.",
+        "**The left curl spot:** a twinge on set 1 that clears by set 2 is the pattern you know. Stop the curl if it does not clear by set 2, if it is sharper than before, or if it is still there the next morning, and say so.",
+        "Log both sides on the DB row: where the left and right end on the 95.",
+        "**Band-pull-apart is the pull-day shoulder anchor.** Keep the warmup lean — no extra band volume.",
+        "**Two rows, so the shoulders and grip get a second round of work.** Do the DB row pyramid first; the chest-supported row is the lighter, supported one, and the first thing to cut if the shoulder talks."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup (Pull-Up Bar Station) + Bicep Pre-Load",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Lean by design. **The bicep pre-load stays** — a light set plus one still hold, before anything hangs off the elbow. **Note where the shrug is: you will want it again between pull-up sets.**",
+        "exercises": [
+          {
+            "id": "band-pull-apart",
+            "reps": 20,
+            "notes": "**The shoulder anchor for pull day.** Light band, slow, squeeze the blades together without shrugging."
+          },
+          {
+            "id": "thread-the-needle",
+            "reps": "5 each side",
+            "notes": "Slow rotation, reach long. Opens the upper back before the bar."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Deep core before anything loaded."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 30,
+            "notes": "Passive hang. **Your first read on both shoulders today** — note whether either one is noisy, and which."
+          },
+          {
+            "id": "bicep-curl",
+            "reps": "12-15 each side, then a 30s hold",
+            "notes": "**It helped, so it stays.**\n- **Light DBs, nowhere near failure, left side first**\n- **Then hold a light DB still at about 90° for 30 seconds on the left**, and the same on the right\n- The hold is the point: a still, moderate load is the calmest thing you can hand an irritable tendon, and it goes in before the bar takes your bodyweight"
+          },
+          {
+            "id": "behind-back-dumbbell-shrug",
+            "reps": "12-15",
+            "notes": "**Protective activation — do this before anything loaded.** 40-50lb pair or a kettlebell, behind the back, straight up and down, squeeze at the top.\n\n**This is the same movement you will reach for between pull-up sets if the shoulders crackle.** Know where the weight is before you start."
+          }
+        ]
+      },
+      {
+        "id": "pull-ups",
+        "name": "Pull-Ups — 4 Sets, 3s Eccentric, Shrug Reset When Needed 🛑",
+        "type": "exercises",
+        "rounds": 4,
+        "notes": "Bodyweight, 4 sets to form failure, 3s eccentric on every rep, straight bar, full 2-minute rests. Repeat the tempo without chasing reps.\n\n- Pack down before the elbows bend\n- Stop when the tempo breaks or the shoulders shrug up\n- Use the behind-back shrug between sets only if a shoulder gets noisy\n- Three sets is fine if a shoulder starts talking",
+        "exercises": [
+          {
+            "id": "pull-up",
+            "reps": "to form failure",
+            "notes": "Bodyweight, 4 sets, **3s eccentric every rep.** Straight bar, 2 min rest.\n- Pack down before the elbows bend\n- Set ends when the tempo breaks\n- **Shrug reset between sets if the shoulders crackle**\n- **Say which shoulder**\n- Write the numbers, leave them alone"
+          }
+        ]
+      },
+      {
+        "id": "bench-block",
+        "name": "DB Rack / Bench Block — Incline Curl → DB Row (3 Rounds)",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "Both movements stay at one adjustable bench. **Left first on the curl.** The row pyramid stays at 75 → 85 → 95, one set each side per round; record where each side ends on the 95.\n\n**The left curl spot:** the 25s are the load. A twinge on set 1 that clears by set 2 is the pattern you know. **Stop the curl** if it does not clear by set 2, if it is sharper than before, or if it is still there the next morning, and say so.",
+        "exercises": [
+          {
+            "id": "incline-curl",
+            "reps": "10 each side",
+            "notes": "**LOAD:** 25lb both arms, 3 sets of 10 each side, plus one easy left-side warm-up set. Left first.\n\n- Bench a notch steeper than 45°, chest and upper arm supported\n- Upper arm flat on the pad the whole rep\n- Stop a few degrees short of elbow lockout\n- Slow eccentric; never drop into the bottom\n- No shoulder swing\n- **Stop if the set-1 twinge does not clear by set 2 or is sharper than before**"
+          },
+          {
+            "id": "dumbbell-row",
+            "reps": "8-10 each side",
+            "notes": "**LOAD:** pyramid **75 → 85 → 95**, one set each side per round.\n\n- **Chest supported on the bench**, spine long, no twisting to finish\n- **Elbow drives back past the ribs**, not out to the side\n- **Crush the handle from rep 1** rather than letting the grip fade in\n- Slow eccentric, full stretch at the bottom\n- **Log where the left and the right end on the 95.** No straps"
+          }
+        ]
+      },
+      {
+        "id": "bench-block-2",
+        "name": "Bench Block, Second Half — Chest-Supported Row → Reverse Fly (2 Rounds)",
+        "type": "exercises",
+        "rounds": 2,
+        "notes": "Same adjustable bench, no walking. Both are supported, so they are the lighter half of the bench work.",
+        "exercises": [
+          {
+            "id": "chest-supported-dumbbell-row",
+            "reps": 12,
+            "notes": "**LOAD:** 45lb pair, 2 sets of 12, slow eccentric.\n- **Chest stays glued to the pad.** The moment it peels off, the low back has joined in and the mid-back has stopped working\n- **Start the rep with the shoulder blades**, not the arms\n- **Elbows drive past the ribs at ~45°**, not flared to 90\n- **Slow eccentric to a full stretch**, letting the blades come apart at the bottom\n- **No shrug.** If the traps take over, the load is beating the position"
+          },
+          {
+            "id": "dumbbell-reverse-fly",
+            "reps": "12-15",
+            "notes": "**LOAD:** 20lb pair, 2 sets of 12-15, slow eccentric.\n- **Soft elbows at a fixed angle** — bending and straightening turns it into a row\n- **Lead with the pinkies**, thumbs down\n- **Shoulders packed DOWN** — the traps want this one badly\n- Slow all the way back down\n- Last set may run near failure 🔥"
+          }
+        ]
+      },
+      {
+        "id": "lat-pulldown",
+        "name": "🔆 Lat Pulldown — Regular Machine 180 or Dual Pulley 80/Side 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 3 sets of 8-12, slow eccentric. Take whichever station is free and **log which**:\n- Regular machine: **180**\n- Dual cable pulley: **80 per side**\n\n**🔆 SPOTLIGHT — the stretch at the top and the slow lowering:**\n- Pack the shoulders down before the elbows move\n- Start the pull from the armpits\n- Chest up, ribs down, no lean-back finish\n- **Let the bar pull you up into a real stretch** before every rep, then slow down\n- **If it reads easy, make the lift harder before adding load:** a 3s lowering, then a 1s pause at the stretch\n\n**Reflection:** where does the last set get hard — the pull, or the lowering?",
+        "exercises": [
+          {
+            "id": "lat-pulldown",
+            "reps": "8-12",
+            "notes": "**LOAD:** regular machine 180, or dual pulley 80/side.\n- Pack down before the elbows bend\n- Start from the armpits\n- Chest up, ribs down\n- Slow eccentric to a full stretch\n- No leaning back"
+          }
+        ]
+      },
+      {
+        "id": "face-pull",
+        "name": "🔆 Face Pull — 62.5 🔥",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 62.5, 3 sets of 20.\n\n**🔆 SPOTLIGHT — the traps want this lift badly:**\n- **Hands finish beside the ears, elbows HIGH** — at or above shoulder height the whole way\n- **Rotate the knuckles back at the end of every rep** so the thumbs point behind you\n- **Hold a beat at the end position**, then a slow return\n- **Traps quiet.** Elbows lead, hands follow\n- Last set can run near failure\n\n**Reflection:** where do you feel it — the back of the shoulders and upper back, or the top of the shoulders?",
+        "exercises": [
+          {
+            "id": "face-pull",
+            "reps": 20,
+            "notes": "**LOAD:** 62.5.\n- Hands finish beside the ears, **elbows high**\n- **Knuckles rotate back** at the end of every rep\n- Hold a beat, slow return\n- Elbows lead, hands follow, traps quiet"
+          }
+        ]
+      },
+      {
+        "id": "high-cable-curl",
+        "name": "High Cable Curl — Regular Pulley 62.5 × 4 🔥",
+        "type": "exercises",
+        "rounds": 4,
+        "notes": "**LOAD:** regular pulley 62.5 for all four sets, 10-12 each side. If you use the cable column instead, its separate ladder is 220 / 230 / 240 / 250.\n\n- Single arm, cable high, elbow fixed\n- Squeeze at the top and return slowly\n- Do not mix the pulley and column scales",
+        "exercises": [
+          {
+            "id": "high-cable-bicep-curl",
+            "reps": "10-12 each side",
+            "notes": "**LOAD:** regular pulley 62.5 on all four sets; cable-column alternative 220 / 230 / 240 / 250. Log the station.\n- Single arm, elbow fixed\n- No elbow drift\n- Squeeze at the top, slow return"
+          }
+        ]
+      },
+      {
+        "id": "cable-crunch",
+        "name": "Cable Crunch 🔥",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "Same cable stations as the curl. Pick by availability and log which; the two scales do not convert.",
+        "exercises": [
+          {
+            "id": "cable-crunch",
+            "reps": "12-15",
+            "notes": "**LOAD:**\n- Rope pulley: **77.5** (82.5 is the ceiling)\n- Cable column: **150**\nPick by availability and **log which**.\n\n- **Curl the spine, don't hinge the hips** — the hips stay put and the ribs come toward the pelvis\n- **Slow return**, resist all the way back up\n- Arms are hooks, not levers\n- Last set may run near failure 🔥"
+          }
+        ]
+      },
+      {
+        "id": "cooldown",
+        "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 60,
+            "notes": "30s each arm, elbow at MID height."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 45,
+            "notes": "Passive. Let the shoulders decompress after the pulling."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 60,
+            "notes": "30s each side."
+          },
+          {
+            "id": "90-90-stretch",
+            "duration": 90,
+            "notes": "45s each side."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "Slow breathing. End here."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Pulldown: regular machine 180 or dual pulley 80/side. Log which.",
+      "Face pull: elbows high, knuckles rotate back, traps quiet.",
+      "Left curl spot: stop if the set-1 twinge does not clear by set 2, is sharper than before, or is still there the next morning.",
+      "If the shoulders crackle on the bar, take the warmup shrug again between sets.",
+      "Log where the left and the right end on the 95 row."
+    ],
+    "category": "functional-bulk"
+  },
+  {
+    "id": "fb-w34-push",
+    "name": "Week 34 Push — Upright Rope Pushdown Arrives, Incline Press Is the Spotlight",
+    "description": "Press first, dips second, and the same loads. The tricep slot in the cable block becomes the upright rope pushdown, found fresh: a light first round, then the number. The incline press runs its 3-second lowering as the day's spotlight. If the dumbbells are taken, the incline-barbell fallback is 50/side, then the chest press machine at 170. The warmup rotates thread-the-needle to arm circles; Yuri's band work and the protective shrug stay.",
+    "routineId": "functional-bulk-dynamic",
+    "tags": [
+      "push",
+      "strength",
+      "gym",
+      "functional-bulk",
+      "week-34"
+    ],
+    "estimatedDuration": 55,
+    "equipment": [
+      "dumbbell",
+      "cable-machine",
+      "resistance-band",
+      "kettlebell",
+      "bodyweight"
+    ],
+    "difficulty": "intermediate",
+    "dayOverview": {
+      "theme": "Same press-first, dips-second order and the same loads. The tricep slot becomes the upright rope pushdown, and the incline press gets its 3-second lowering as the spotlight.",
+      "spotlights": [
+        {
+          "exerciseId": "incline-dumbbell-press",
+          "why": "60 with a 3s lowering is the working standard, and the tempo is the work. The slow lowering is what turns 60 into a chest lift instead of a shoulder lift."
+        },
+        {
+          "exerciseId": "cable-rope-tricep-pushdown",
+          "why": "New to the program. Upright, elbows pinned, nothing behind the head and no lean. The number is found this week: a light first round, then a weight you could do a few more reps with."
+        }
+      ],
+      "rotationPlan": "Spotlights go to the Kinesis fly and the strict press next.",
+      "watchpoints": [
+        "🛑 keep it shy — the cue is the cap: strict DB press, dips, incline DB press, Kinesis fly, straight-arm pulldown, farmer carry. Effort here means the cue holding at a hard load; the ceiling is the rep the cue breaks.",
+        "🔥 near-failure last set OK: DB lateral raise, rope pushdown, cable lateral raise. Isolation work where form holds at the limit.",
+        "**⭐ THE STRICT PRESS GOES FIRST.** If a busy gym forces it late, run it as a push press and use leg drive rather than discovering mid-set that you cannot strict it.",
+        "**Do Yuri's band warmup in full before the first press.** It is the push-day shoulder anchor.",
+        "**Rope pushdown: pack the shoulders down before every set. A tingle or a zap means stop that set.** The lean-back tricep at 70 is the fallback and comes back whenever you want it.",
+        "**Dips stay second.** The V bar is the station; the narrow straight bar is a fine fallback if the V bar is taken. Set the rotated left palm before rep 1.",
+        "**Take the full 2 minutes on the press, the dips and the incline.** It is what lets the slow tempo survive all three sets.",
+        "**Pack DOWN, not up** on every pressing lift. Blades into the back pockets, neck long, traps quiet. A rep that needs a shrug is over.",
+        "**The cable block is three moves.** Straight-arm pulldown, rope pushdown, cable lateral raise, two rounds, minimal rest between them.",
+        "**Carry: 60 if the hands feel good, 50 if you are ready to go home.** No straps either way.",
+        "Mention any change in either shoulder."
+      ]
+    },
+    "sets": [
+      {
+        "id": "warmup",
+        "name": "Warmup + Shoulder Rehab (Non-Negotiable) + Chest Opener + Protective Shrug",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "The whole block, every push day. Yuri's band work is the shoulder anchor — it is why the right shoulder has stayed quiet through a heavy pressing block, so it does not get skipped on a short morning.",
+        "exercises": [
+          {
+            "id": "arm-circle",
+            "reps": "15 each direction",
+            "notes": "Small to big, slow. Opens the shoulder joint before the band work."
+          },
+          {
+            "id": "yuris-shoulder-band-warmup",
+            "reps": 1,
+            "notes": "**The shoulder anchor.** Full sequence, light band, no rushing. Cuff first, then scap."
+          },
+          {
+            "id": "kettlebell-bottoms-up-press",
+            "reps": "8 each side",
+            "notes": "Light bell, inverted. **Wrist stacked over elbow over shoulder** — the bell tipping is the feedback. It rehearses the exact packed-down lockout the press is about to ask for, and the press is the very next thing you do."
+          },
+          {
+            "id": "kinesis-cable-fly",
+            "reps": "12-15",
+            "notes": "Light. Chest opener only; the load waits for the working sets later in the day."
+          },
+          {
+            "id": "internal-core-fist-rotation",
+            "duration": 45,
+            "notes": "Tight fists, thumbs tucked, hinged slightly forward. Wakes the deep core — the press needs the trunk before it needs the shoulders."
+          },
+          {
+            "id": "push-up",
+            "reps": 12,
+            "notes": "Elbows ~45°, **pack down not up.** One easy set."
+          },
+          {
+            "id": "pull-up",
+            "reps": "6-8",
+            "notes": "Greasing set, nowhere near failure. Keeps the pattern alive on a push day."
+          },
+          {
+            "id": "behind-back-dumbbell-shrug",
+            "reps": "12-15",
+            "notes": "**Protective activation — before anything loaded.** 40-50lb pair, behind the back, straight up and down."
+          }
+        ]
+      },
+      {
+        "id": "strict-press",
+        "name": "Strict DB Press — 50, First Lift of the Day 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 50lb pair, 3 sets of 6-8. **2 minutes between sets, reps as singles.**\n\n- **Bells to the shoulders, elbows slightly in front of the ribs**, not flared\n- **No dip, no knee bend, no hip drive.** The set ends when strict form ends, not when the rep fails\n- **Ribs DOWN** before the first rep, and they stay down\n- **Press slightly around the head**, finishing with the bells stacked over the shoulders\n- **Pack DOWN, not up.** If the shoulders climb to finish a rep, that rep was the last one\n- **Slow eccentric on every rep**\n\n**Reflection:** was set 3 as strict as set 1?",
+        "exercises": [
+          {
+            "id": "standing-dumbbell-strict-press",
+            "reps": "8-10",
+            "notes": "**LOAD:** 50lb pair, 3 sets of 8-10. 2 min rest, reps as singles.\n- **Strict — no leg drive, no knee dip**\n- **Slow eccentric every rep**\n- Press slightly around the head; biceps near the ears at lockout\n- Shoulders packed **DOWN**, ribs down\n- If the rack forces this late in the day, run it as a push press instead"
+          }
+        ]
+      },
+      {
+        "id": "dips",
+        "name": "Dips — Second, 1s Pause at the Bottom 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** bodyweight, 3 sets of 10-12. **V bar first; the narrow straight bar if the V bar is taken.** **2 minutes between sets — take all of it.**\n\n- **Rotate the left forearm outward before taking bodyweight** so the pressure sits on the firm inside edge of the hand, not the thumb pad. Set it before rep 1\n- Mini-dips against the bar to set the forward lean before the first full rep\n- **3s descent, then 1s still at the bottom** — shorten the set rather than rush either\n- **Hold the forward lean** the whole set; start the descent by moving the chest toward the bars\n- **Pack DOWN at lockout.** Shoulders climbing at the top is the set ending\n\n**Reflection:** which bar did you use, and did the palm stay quiet?",
+        "exercises": [
+          {
+            "id": "dip",
+            "reps": "10-12",
+            "notes": "Bodyweight, 3 sets. **V bar, or the narrow straight bar if it is taken. 2 min rest.**\n- Set the rotated left palm **before** the first rep\n- **3s descent, 1s pause at the bottom**\n- Hold the forward lean\n- Shoulders packed down at lockout"
+          }
+        ]
+      },
+      {
+        "id": "incline-press",
+        "name": "🔆 Incline DB Press — 60, 3s Eccentric 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 60lb pair, 3 sets of 8-12, 3s lowering, 2 minutes between sets. **If the DBs are taken: barbell 50/side (145 total), same reps and tempo.** Log which version.\n\n**🔆 SPOTLIGHT — the tempo is the work, not the number.**\n\n- **Bench at 30°**, feet planted, glutes on the pad\n- **Blades DOWN and BACK into the bench** before the bells leave the thighs, and they stay there\n- **Elbows around 45° from the torso**, wrists stacked over the elbows\n- **Lower for a full 3 seconds** to a real stretch across the chest — no bounce out of the bottom\n- **Ribs down.** An arched back turns it into a flat press\n- Stop when the lowering speeds up or the shoulders shrug\n\n**Reflection:** did the 3s lowering survive the last rep of the last set, or did the descent speed up?",
+        "exercises": [
+          {
+            "id": "incline-dumbbell-press",
+            "reps": "8-12",
+            "notes": "**LOAD:** 60lb pair, 3 sets. **If the dumbbells are taken:** barbell 50/side. **If both are taken:** the chest press machine, 150 then 170, 10 reps.\n- 30° bench\n- **3s lowering every rep** — count it out loud if the bell wants to drop\n- Blades down and back, ribs down\n- 2 min rest\n\n**Reflection:** where does the set end — the chest, the front of the shoulder, or the triceps?"
+          }
+        ]
+      },
+      {
+        "id": "lateral-raise",
+        "name": "DB Lateral Raise — 20, Wider Is the Progression 🔥",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** 20lb pair, 3 sets of 12-15.\n\n- **A little wider than last time** is the progression. Not heavier\n- **Slow up, slow down, 1s hold at the top**\n- **Lead with the elbows**, a fixed slight bend, little fingers a touch high\n- **Traps quiet.** If the shoulders ride up to start the rep, the weight is winning\n- Last set may run near failure — safe isolation work",
+        "exercises": [
+          {
+            "id": "lateral-raise",
+            "reps": "12-15",
+            "notes": "**LOAD:** 20lb pair; if the 20s are taken, the 15s for 20 reps — same width, same tempo.\n- **Wider than last week** is the progression\n- Slow up / slow down / **1s hold**\n- Lead with the elbow, fixed slight bend\n- **Traps relaxed** — no shrug to start the rep"
+          }
+        ]
+      },
+      {
+        "id": "kinesis-fly",
+        "name": "Kinesis Cable Fly — 9, Step Forward 🛑",
+        "type": "exercises",
+        "rounds": 3,
+        "notes": "**LOAD:** Kinesis 9, 3 sets of 10-12.\n\n**🔆 SPOTLIGHT — the stretch is the lift.**\n\n- **Step further forward than feels necessary.** The step creates the stretch, and it is the first thing that shrinks when a fly gets easy\n- **Soft elbows at a FIXED angle** — arms bending and straightening turns it into a press\n- **Blades down and back, ribs down** before the first rep\n- **Squeeze at the midline**, then a slow return all the way into the stretch\n- Let the bottom of the rep be the part you feel\n\n**Reflection:** where do you feel it — the chest in the stretch, or the front of the shoulder?",
+        "exercises": [
+          {
+            "id": "kinesis-cable-fly",
+            "reps": "10-12",
+            "notes": "**LOAD:** Kinesis 9, 3 sets.\n- **Step forward** into the stretch\n- Soft elbows at a fixed angle\n- Squeeze at the midline, slow return\n- Blades down and back"
+          }
+        ]
+      },
+      {
+        "id": "cable-block",
+        "name": "Cable Block — Straight-Arm Pulldown → Rope Pushdown → Cable Lateral Raise (2 Rounds)",
+        "type": "exercises",
+        "rounds": 2,
+        "notes": "**Two rounds, circuit style, minimal rest between the three moves.** All three live on the cable stations — take whichever is free and stay there. Log the equipment and number for each.\n\nThe pulldown and the extension hold at 120 and 70. The cable lateral raise is the new last move, kept away from the DB raise earlier in the day.",
+        "exercises": [
+          {
+            "id": "straight-arm-pulldown",
+            "reps": 12,
+            "notes": "**LOAD:**\n- Cable column: **120**\n- Rope pulley: **62.5**\n- Kinesis: **6**\nPick whichever is free; **note the equipment and number in the log.**\n\n- **Set a soft elbow bend and never change it** — if the elbow opens and closes, it has quietly become a triceps pushdown\n- **Start the rep by pulling the upper arm down from the armpit**, not by pushing the hands\n- Finish with the hands at the thighs, **lats squeezed, ribs down**\n- **No leaning back to add range** — the torso angle is fixed too\n- Slow return to a real stretch"
+          },
+          {
+            "id": "cable-rope-tricep-pushdown",
+            "reps": "10-12",
+            "notes": "**🔆 SPOTLIGHT — new this week, and the number is found fresh.** Cable column, rope attachment on the high pulley.\n**LOAD: round 1 is light and is the find.** Start near 40 and pick a weight you could do about 15 with. Round 2 is the working round: step up until 10-12 reps leave two in the tank. **Log the station and the number.**\n\n- **Upright, facing the stack.** No lean either way\n- **Elbows pinned to the ribs the whole rep** — only the forearms move\n- **Pack the shoulders down before every set**, and keep them down as the arms straighten\n- Split the rope at the bottom and **squeeze at the hips**, slow back up to just below the chest\n- **A tingle or a zap means stop that set.** The lean-back tricep at 70 is the fallback\n\n**Reflection:** does the front of the shoulder stay quiet, and what did the arm feel at the bottom?"
+          },
+          {
+            "id": "cable-lateral-raise",
+            "reps": "12 each side",
+            "notes": "**LOAD:**\n- Cable column: **~30**\n- Cable pulley + D-handle (ankle height): **10**\n- Kinesis: **3**\nPick whichever is free; **note the equipment and number in the log.**\n\n- **Cable behind the body**, arm crossing in front at the bottom — that is the reason to do it on a cable\n- **Lead with the elbow**, stop at shoulder height\n- **No shrug**\n- Last set may run near failure — 🔥 safe isolation work"
+          }
+        ]
+      },
+      {
+        "id": "farmer-carry",
+        "name": "Farmer Carry — 60 or 50, Your Call at the Handles 🛑",
+        "type": "exercises",
+        "rounds": 2,
+        "notes": "**LOAD: 60lb per hand if the hands feel good, 50 if you are ready to go home.** 2 walks of ~50s. **No straps.**\n\n- **Crush the handles from the first step**\n- **Shoulders packed down**, ribs stacked over hips, walk tall\n- The job is two walks that both hold, not a heavier bell\n- If the left goes early, set them down, rest, and finish the time",
+        "exercises": [
+          {
+            "id": "farmer-carry",
+            "duration": 50,
+            "notes": "**LOAD:** 60 per hand, or 50. No straps. **Log which.**\n- **Grip hard from the first step**\n- Shoulders down, ribs stacked, tall posture\n- Two walks that hold beats a heavier bell"
+          }
+        ]
+      },
+      {
+        "id": "cooldown",
+        "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+        "type": "exercises",
+        "rounds": 1,
+        "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+        "exercises": [
+          {
+            "id": "doorframe-chest-stretch",
+            "duration": 60,
+            "notes": "30s each arm, elbow at MID height."
+          },
+          {
+            "id": "dead-hang",
+            "duration": 45,
+            "notes": "Passive. Let the shoulders decompress."
+          },
+          {
+            "id": "supine-spinal-twist",
+            "duration": 60,
+            "notes": "30s each side."
+          },
+          {
+            "id": "90-90-stretch",
+            "duration": 90,
+            "notes": "45s each side."
+          },
+          {
+            "id": "childs-pose",
+            "duration": 60,
+            "notes": "Slow breathing. End here."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Press first, dips second. Take the full 2 minutes on the press, the dips and the incline.",
+      "Incline press: 3 seconds down every rep. The slow lowering is the lift.",
+      "Rope pushdown: elbows pinned, upright, first round light. A tingle or a zap means stop that set.",
+      "Lateral raise: wider, not heavier.",
+      "Carry is 60 or 50 by how the hands feel. Log which one you took."
+    ],
+    "category": "functional-bulk"
+  },
+  {
     "id": "fb-w4-kb-cond",
     "name": "Week 4 KB Conditioning (Refine & Drill)",
     "description": "Saturday = drill Tuesday's progressions. Bent press at 30lb if Tuesday went well. TGU cleaning up left side. Overhead lunges and Simba lift heavier. Finisher circuit is earned — legs just went yesterday so keep it controlled.",
@@ -60188,6 +61532,61 @@
       "Shuffle for a completely new workout each time",
       "Switch hands every set or as noted",
       "Great for home gym or park workouts"
+    ],
+    "category": "kettlebell"
+  },
+  {
+    "id": "kb-swing-squat-press-thruster-complex",
+    "name": "Swing-Squat-Press-Thruster Complex — 5-4-3-2, One Round Every 3 Minutes",
+    "description": "One bell, one arm, four beats on a descending ladder: **5 swings → 4 rack squats → 3 presses → 2 thrusters**, then switch sides and run the same ladder on the other arm. That is one round. Start a new round every 3 minutes for 8 rounds — about 25 minutes, and the minute or so left over in each round is your rest.\n\nA hinge, a squat, a press, and a squat-plus-press to finish — the bell travels from hip to rack to overhead and never leaves your hand until the switch. It fits in a corner with one bell.",
+    "routineId": "kettlebell",
+    "tags": [
+      "kettlebell",
+      "complex",
+      "single-bell",
+      "full-body",
+      "unilateral",
+      "ladder",
+      "interval",
+      "conditioning",
+      "intermediate"
+    ],
+    "estimatedDuration": 25,
+    "equipment": [
+      "kettlebell"
+    ],
+    "difficulty": "intermediate",
+    "source": "Train with Florence (Facebook Reel)",
+    "sourceUrl": "https://www.facebook.com/reel/4504346709852920",
+    "isFlow": true,
+    "rounds": 8,
+    "flowSequence": [
+      {
+        "id": "kettlebell-swing",
+        "reps": 5,
+        "notes": "One arm, free arm out for balance. The hips send the bell to chest height. After the fifth, let it fall back and clean it into the rack in one motion."
+      },
+      {
+        "id": "kettlebell-offset-rack-squat",
+        "reps": 4,
+        "notes": "Bell racked on the working side, elbow tucked to the ribs, free arm out for balance. Sit between the heels with the chest tall, drive up through the whole foot."
+      },
+      {
+        "id": "kettlebell-overhead-press",
+        "reps": 3,
+        "notes": "From the rack, feet about hip width. Press straight up, ribs down, shoulder packed down and back at lockout."
+      },
+      {
+        "id": "kettlebell-thruster",
+        "reps": 2,
+        "notes": "One arm. Squat from the rack, then let the legs drive the bell overhead in one continuous motion. Lower to the rack and set the bell down to switch sides."
+      }
+    ],
+    "flowNotes": "**One round = 5-4-3-2 on one arm, switch, 5-4-3-2 on the other: 28 reps.** Start a new round every 3 minutes, 8 rounds total (24 minutes). The time left in each 3 minutes is rest — the clock sets the pace, so work smooth, not fast.\n\n**LOAD: 25lb.** Run all 8 rounds at 25. Move to 35 only once the press and the thruster both stay packed through round 8.\n\n- **Swing: the hips do the work.** The arm is a rope; the bell floats to chest height and the free arm balances\n- **Rack squat 🛑: the cue is the cap.** The bell pulls the torso toward the loaded side — keep the chest tall and the ribs stacked over the hips\n- **Press 🛑: the cue is the cap.** If the shoulder shrugs up to finish the third rep, the bell is too heavy for the press today\n- **Thruster: one motion, not a squat then a press.** The legs hand the bell to the arm\n\n**Reflection:** by round 5, which beat slips first — the swing, the squat, or the press?",
+    "tips": [
+      "The bell stays in your hand from the first swing to the last thruster; set it down only at the switch",
+      "If a round takes longer than about 2 minutes, the bell is too heavy for the clock",
+      "Warm up with halos, a few swings, and 2-3 rack squats a side"
     ],
     "category": "kettlebell"
   },

@@ -157,6 +157,15 @@ Tracks where exercises, workouts, and programs come from.
 - **Exercises used (existing):** kettlebell-figure-8, kettlebell-tactical-clean, kettlebell-halo, kettlebell-around-body-pass, kettlebell-swing
 - **Notes:** Source workout video extraction pipeline (video-workout-extract) was broken (python/runCode registry issue) — workout file was built manually from user-provided description. May want to re-run extraction later for media metadata + confidence scores when the pipeline is fixed.
 
+### Train with Florence (Facebook)
+- **URL:** https://www.facebook.com/reel/4504346709852920
+- **What:** "One kettlebell = an entire gym" — single-bell, one-arm 5-4-3-2 ladder (swing → rack squat → press → thruster), switch sides, one round every 3 minutes for 8 rounds. Promo for her free 30-day one-kettlebell challenge guide.
+- **Import status:** COMPLETE (user request, "good kb complex (simple!) can we add")
+- **Captured:** 2026-10-11
+- **Workouts:** kb-swing-squat-press-thruster-complex (in the Kettlebell Library program)
+- **Exercises used (existing):** kettlebell-swing, kettlebell-offset-rack-squat, kettlebell-overhead-press, kettlebell-thruster. None minted.
+- **Notes:** `video-workout-extract` failed at the SPARKS inference step (gateway 503, "local runtime requires operator attention"), so the beats were read from the burned-in overlays and frames of the yt-dlp download. The reel bell is 12 kg.
+
 ### @gymvibe_ (X/Twitter)
 - **URL:** https://x.com/gymvibe_/status/2060769199404851529
 - **What:** 9-minute single-bell KB AMRAP complex — ballistic row (8/side) → goblet squat-to-press / "goblet cluster" (8) → reverse lunge + knee drive (8/side), AMRAP in 9 min, no rest. Brutal strength/conditioning, NOT a flow.
