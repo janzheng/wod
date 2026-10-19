@@ -1,23 +1,37 @@
-import "jsr:@std/dotenv/load";
 import { Hono } from "hono";
-import { createWodAI, getConfig } from "./src/ai/mod.ts";
-import { complete } from "./src/ai/llm/provider.ts";
-import type { ConversationSession } from "./src/ai/types.ts";
+import { compress } from "https://deno.land/x/hono@v3.11.7/middleware/compress/index.ts";
+import { etag } from "https://deno.land/x/hono@v3.11.7/middleware/etag/index.ts";
 
-const app = new Hono();
+export const app = new Hono();
 
-// AI pipeline (lazy init on first request)
-let wodAI: Awaited<ReturnType<typeof createWodAI>> | null = null;
-const aiSessions = new Map<string, ConversationSession>();
-
-async function getWodAI() {
-  if (!wodAI) {
-    const dataDir = new URL("./", import.meta.url).pathname;
-    const config = getConfig();
-    wodAI = await createWodAI(dataDir, config);
-    console.log(`AI loaded: ${wodAI.index.size} exercises, ${wodAI.data.workouts.size} templates`);
-  }
-  return wodAI;
+// Deno Deploy is shutting down and the site lives on surge. If this app is
+// still running on Deno Deploy it is only a signpost: every route redirects to
+// the same path on surge. /sw.js is the exception (a worker script cannot sit
+// behind a redirect), so it is a worker that empties the old cache and moves
+// open tabs and the installed PWA to the new address. Locally and in the
+// static export DENO_DEPLOYMENT_ID is unset, so none of this runs.
+const SURGE_ORIGIN = "https://wod-yawnxyz.surge.sh";
+const LEGACY_SERVICE_WORKER = `
+const NEW_ORIGIN = '${SURGE_ORIGIN}';
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    for (const key of await caches.keys()) await caches.delete(key);
+    const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    for (const client of clients) {
+      const old = new URL(client.url);
+      client.navigate(NEW_ORIGIN + old.pathname + old.search).catch(() => {});
+    }
+    await self.registration.unregister();
+  })());
+});
+`;
+if (Deno.env.get("DENO_DEPLOYMENT_ID")) {
+  app.get("/sw.js", () =>
+    new Response(LEGACY_SERVICE_WORKER, {
+      headers: { "Content-Type": "application/javascript", "Cache-Control": "no-cache" },
+    }));
+  app.all("*", (c) => c.redirect(SURGE_ORIGIN + c.req.path + new URL(c.req.url).search, 302));
 }
 
 // PWA Manifest
@@ -31,18 +45,31 @@ const MANIFEST = {
   theme_color: "#374151",
   icons: [
     { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
-    { src: "/icon-512.png", sizes: "512x512", type: "image/png" }
-  ]
+    { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
+  ],
 };
 
 // Service Worker
+//
+// Opening the app must never wait on the network. The page shell and the
+// catalogue it loads (workouts, programs, routines, exercises) are served from
+// the cache straight away and refreshed behind it; only a first visit waits.
+// When a refreshed copy differs from the cached one, the worker tells the page
+// so it can swap the new data in without a reload (see refreshData in the app).
+// The two CDN hosts the page cannot render without are cached the same way.
+// No template-literal syntax in here: this whole block is a JS template string.
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v3';
-const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
+const CACHE_NAME = 'wod-v10';
+const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js'];
+const DATA_URLS = ['/api/routines', '/api/workouts', '/api/saved', '/api/programs', '/api/exercises', '/api/progressions'];
+const DATA_PREFIXES = DATA_URLS.concat(['/static/exercises.json', '/static/workouts.json', '/static/programs/']);
+const CDN_HOSTS = ['cdn.jsdelivr.net', 'code.iconify.design'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS))
+    caches.open(CACHE_NAME).then((cache) =>
+      Promise.all([cache.addAll(STATIC_ASSETS)].concat(DATA_URLS.map((u) => cache.add(u).catch(() => {}))))
+    )
   );
   self.skipWaiting();
 });
@@ -56,20 +83,65 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
+function announce(url) {
+  return self.clients.matchAll().then((clients) => {
+    clients.forEach((client) => client.postMessage({ type: 'data-updated', url: url }));
+  });
+}
+
+// Third-party scripts: cached on first fetch, then served from the cache.
+function cacheFirst(event) {
+  event.respondWith(
+    caches.open(CACHE_NAME).then((cache) =>
+      cache.match(event.request).then((cached) =>
+        cached || fetch(event.request).then((response) => {
+          if (response.ok || response.type === 'opaque') cache.put(event.request, response.clone()).catch(() => {});
+          return response;
+        })
+      )
+    )
+  );
+}
+
+// Serve the cached copy at once and refresh it behind the response.
+function staleWhileRevalidate(event, key, notify) {
+  event.respondWith(
+    caches.open(CACHE_NAME).then((cache) =>
+      cache.match(key).then((cached) => {
+        const network = fetch(event.request).then((response) => {
+          if (response.status !== 200) return response;
+          const oldTag = cached && cached.headers.get('etag');
+          const newTag = response.headers.get('etag');
+          return cache.put(key, response.clone()).catch(() => {}).then(() => {
+            if (notify && oldTag && newTag && oldTag !== newTag) announce(event.request.url);
+            return response;
+          });
+        });
+        if (cached) {
+          event.waitUntil(network.catch(() => {}));
+          return cached;
+        }
+        return network;
+      })
+    )
+  );
+}
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      const fetchPromise = fetch(event.request).then((response) => {
-        if (response.ok) {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-        }
-        return response;
-      }).catch(() => cached);
-      return cached || fetchPromise;
-    })
-  );
+  const url = new URL(event.request.url);
+  const path = url.pathname;
+  if (url.origin !== self.location.origin) {
+    if (CDN_HOSTS.indexOf(url.hostname) !== -1) cacheFirst(event);
+    return;
+  }
+  if (event.request.mode === 'navigate') {
+    staleWhileRevalidate(event, '/', false);
+    return;
+  }
+  const isData = DATA_PREFIXES.some((p) => path.startsWith(p));
+  if (path.startsWith('/api/') && !isData) return;
+  staleWhileRevalidate(event, event.request, isData);
 });
 `;
 
@@ -91,15 +163,56 @@ async function readJson(path: string) {
   }
 }
 
-// API Routes for JSON data
-app.get("/api/routines", async (c) => {
-  // Load all routine files
-  const routines = [];
-  const routineFiles = ['barre', 'cardio', 'gym', 'calisthenics', 'morning', 'yoga', 'stretch', 'action-jacqueline', 'challenges', 'maternity', 'heavy-duty', 'jump-rope', 'kettlebell', 'snippets'];
-  for (const id of routineFiles) {
-    const data = await readJson(`./routines/${id}.json`);
-    if (data) routines.push(data);
+// A page load pulls ~4 MB of JSON and inlined JS/CSS. Gzip the text, and give
+// every body an ETag so `no-cache` below means "revalidate" (a tiny 304) instead
+// of "download it all again" — a data fix is still visible right after a deploy.
+// Images are binary: no gzip, and a day of HTTP cache instead of a fetch per view.
+const gzipText = compress();
+const tagBody = etag({ weak: true });
+const BINARY_STATIC = /\.(png|jpe?g|gif|mp3|wav)$/i;
+app.use("*", async (c, next) => {
+  const p = c.req.path;
+  if (c.req.method !== "GET") return next();
+  // Headers go on after the handler runs: a route that returns a bare Response
+  // (the static files do) would drop anything set before it.
+  if (BINARY_STATIC.test(p)) {
+    await tagBody(c, next);
+    if (c.res.status === 200 || c.res.status === 304) {
+      c.header("Cache-Control", "public, max-age=86400");
+    }
+    return;
   }
+  await gzipText(c, async () => {
+    await tagBody(c, next);
+  });
+  c.header("Vary", "Accept-Encoding");
+});
+
+// API Routes for JSON data
+
+// The catalogue is read fresh from disk per request, but the browser will
+// heuristically cache it without this — a data fix then stays invisible behind
+// a stale cache even after a deploy.
+app.use("/api/*", async (c, next) => {
+  await next();
+  if (!c.res.headers.has("Cache-Control")) c.header("Cache-Control", "no-cache");
+});
+
+app.get("/api/routines", async (c) => {
+  // Read the directory instead of a hardcoded list — a hardcoded list means a
+  // new routine file silently never reaches the sidebar.
+  const routines: unknown[] = [];
+  try {
+    for await (
+      const entry of Deno.readDir(new URL("./routines", import.meta.url))
+    ) {
+      if (entry.name.endsWith(".json")) {
+        const data = await readJson(`./routines/${entry.name}`);
+        if (data) routines.push(data);
+      }
+    }
+  } catch { /* routines directory may not exist */ }
+  routines.sort((x: any, y: any) => (x.sortOrder ?? 99) - (y.sortOrder ?? 99));
   return c.json(routines);
 });
 
@@ -112,8 +225,25 @@ app.get("/api/routines/:id", async (c) => {
 
 app.get("/api/saved", async (c) => {
   // Load all saved workout files
-  const savedWorkouts = [];
-  const savedFiles = ['aj-standing-barre', 'aj-floor-barre', 'aj-random-4', 'morning-wakeup', 'apartment-gym', '4x4x3-block', 'squat-rack', 'machine-circuit', 'gentle-yoga', 'hip-lower-back-flow', 'reddit-rrr', 'gym-classic-workouts', 'calisthenics-classic-workouts', 'kb-random-circuit', 'kb-controlled-power', 'kb-controlled-power-challenge'];
+  const savedWorkouts: unknown[] = [];
+  const savedFiles = [
+    "aj-standing-barre",
+    "aj-floor-barre",
+    "aj-random-4",
+    "morning-wakeup",
+    "apartment-gym",
+    "4x4x3-block",
+    "squat-rack",
+    "machine-circuit",
+    "gentle-yoga",
+    "hip-lower-back-flow",
+    "reddit-rrr",
+    "gym-classic-workouts",
+    "calisthenics-classic-workouts",
+    "kb-random-circuit",
+    "kb-controlled-power",
+    "kb-controlled-power-challenge",
+  ];
   for (const id of savedFiles) {
     const data = await readJson(`./saved/${id}.json`);
     if (data) savedWorkouts.push(data);
@@ -149,7 +279,7 @@ app.get("/api/workouts/*", async (c) => {
 
 app.get("/api/progressions", async (c) => {
   // Load all progression files
-  const progressions = [];
+  const progressions: unknown[] = [];
   const progressionFiles = [
     "dip-progression",
     "hinge-progression",
@@ -166,23 +296,14 @@ app.get("/api/progressions", async (c) => {
 });
 
 app.get("/api/programs", async (c) => {
-  const programs = [];
+  const programs: unknown[] = [];
   try {
-    for await (const entry of Deno.readDir(new URL("./programs", import.meta.url))) {
+    for await (
+      const entry of Deno.readDir(new URL("./programs", import.meta.url))
+    ) {
       if (entry.name.endsWith(".json")) {
         const data = await readJson(`./programs/${entry.name}`);
-        if (data) {
-          // Resolve external log files into inline log arrays
-          if (data.weeks) {
-            for (const week of data.weeks) {
-              if (week.logFile) {
-                const logData = await readJson(`./programs/${week.logFile}`);
-                if (logData) week.log = logData;
-              }
-            }
-          }
-          programs.push(data);
-        }
+        if (data) programs.push(data);
       }
     }
   } catch { /* programs directory may not exist yet */ }
@@ -193,199 +314,30 @@ app.get("/api/programs/:id", async (c) => {
   const id = c.req.param("id");
   const data = await readJson(`./programs/${id}.json`);
   if (!data) return c.json({ error: "Not found" }, 404);
-  // Resolve external log files into inline log arrays
-  if (data.weeks) {
-    for (const week of data.weeks) {
-      if (week.logFile) {
-        const logData = await readJson(`./programs/${week.logFile}`);
-        if (logData) week.log = logData;
-      }
-    }
-  }
   return c.json(data);
-});
-
-
-// Exercise search endpoint
-app.get("/api/ai/search", async (c) => {
-  const q = c.req.query("q") || "";
-  const limit = parseInt(c.req.query("limit") || "10");
-  if (!q.trim()) return c.json({ results: [] });
-
-  const wod = await getWodAI();
-  const results = wod.index.search(q.trim(), limit).map((ex) => ({
-    id: ex.id,
-    name: ex.name,
-    category: ex.category,
-    type: ex.type,
-    muscles: ex.muscles,
-    equipment: ex.equipment,
-    tags: ex.tags,
-    difficulty: ex.difficulty,
-    description: ex.description,
-  }));
-  return c.json({ results, query: q.trim() });
-});
-
-// AI Chat endpoint — classifies message as Q&A vs workout generation
-app.post("/api/ai/chat", async (c) => {
-  const body = await c.req.json<{
-    prompt: string;
-    sessionId?: string;
-    workoutContext?: Record<string, unknown>;
-    history?: Array<{ role: string; content: string; workoutContext?: Record<string, unknown> }>;
-    enableCritic?: boolean;
-  }>();
-  if (!body.prompt) return c.json({ error: "prompt is required" }, 400);
-
-  const apiKey = Deno.env.get("GROQ_API_KEY");
-  if (!apiKey) return c.json({ error: "GROQ_API_KEY not configured" }, 503);
-
-  try {
-    const config = getConfig();
-
-    // Step 1: Classify — question, search, or generate?
-    const classifyMessages = [
-      {
-        role: "system" as const,
-        content: `You are a classifier. Given a user message about fitness/workouts, respond with EXACTLY one word:
-- "search" if the user asks about a specific exercise by name, wants to find exercises, or asks "what is X" / "do we have X" / "tell me about X exercise" (e.g. "what about butterfly stretch", "do we have turkish getup", "find me hamstring exercises", "what is a plié squat")
-- "question" if the user asks a general question, seeks advice, or wants information about a workout they're viewing (e.g. "does this build muscle?", "is this good for beginners?", "how many calories?", "what should I eat?")
-- "generate" if the user wants to create, modify, or change a workout (e.g. "make a leg workout", "make it harder", "add more core", "create a 30 min routine")
-
-Respond with ONLY one word, nothing else.`,
-      },
-      { role: "user" as const, content: body.prompt },
-    ];
-
-    const classification = (await complete(classifyMessages, { ...config, temperature: 0 })).toLowerCase().trim();
-    const intent = classification.startsWith("search") ? "search"
-      : classification.startsWith("question") ? "question"
-      : "generate";
-
-    if (intent === "search" || intent === "question") {
-      // Search the exercise library when relevant
-      const wod = await getWodAI();
-      let searchResults: Array<Record<string, unknown>> = [];
-
-      if (intent === "search") {
-        // Extract search terms (strip common prefixes)
-        const searchQuery = body.prompt
-          .replace(/^(what about|do we have|find me|tell me about|what is|show me|search for|look up)\s*/i, "")
-          .replace(/\?+$/, "")
-          .trim();
-        const results = wod.index.search(searchQuery, 8);
-        searchResults = results.map((ex) => ({
-          id: ex.id, name: ex.name, category: ex.category, type: ex.type,
-          muscles: ex.muscles, equipment: ex.equipment, tags: ex.tags,
-          difficulty: ex.difficulty, description: ex.description,
-        }));
-      }
-
-      // Q&A path — answer using workout context + search results + history
-      let systemPrompt = `You are a knowledgeable, friendly fitness coach. Answer the user's question concisely and helpfully.`;
-
-      if (searchResults.length > 0) {
-        systemPrompt += `\n\nSearch results from the exercise library:\n${JSON.stringify(searchResults, null, 2)}\n\nUse these results to answer the user's question. Mention which exercises were found and key details (muscles, difficulty, description). If the exact exercise wasn't found, mention the closest matches.`;
-      } else if (intent === "search") {
-        systemPrompt += `\n\nNo matching exercises were found in the library for this search. Let the user know and suggest what they might search for instead.`;
-      }
-
-      if (body.workoutContext) {
-        systemPrompt += `\n\nThe user is currently viewing this workout:\n${JSON.stringify(body.workoutContext, null, 2)}`;
-      }
-
-      systemPrompt += `\nKeep answers focused and practical. Use 2-4 sentences unless the question needs more detail. Don't generate a new workout unless explicitly asked.
-When the user references previous workouts from the conversation, use the context provided in earlier messages to answer accurately.`;
-
-      // Build messages array with history
-      const chatMessages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [
-        { role: "system", content: systemPrompt },
-      ];
-
-      if (body.history?.length) {
-        for (const h of body.history.slice(-16)) {
-          const role = h.role === "user" ? "user" as const : "assistant" as const;
-          let content = h.content;
-          if (h.role === "user" && h.workoutContext) {
-            content = `[Viewing: ${(h.workoutContext as Record<string, unknown>).name}] ${content}`;
-          }
-          chatMessages.push({ role, content });
-        }
-      }
-
-      chatMessages.push({ role: "user", content: body.prompt });
-
-      const answer = await complete(chatMessages, config);
-      const sessionId = body.sessionId || crypto.randomUUID();
-
-      return c.json({
-        workout: null,
-        intent: intent,
-        critique: null,
-        sessionId,
-        message: answer,
-        searchResults: searchResults.length > 0 ? searchResults : undefined,
-      });
-    }
-
-    // Workout generation path — use full pipeline
-    const wod = await getWodAI();
-    const session = body.sessionId ? aiSessions.get(body.sessionId) : undefined;
-
-    // Build enriched prompt with conversation history + current context
-    let enrichedPrompt = "";
-
-    // Add conversation history summary so generation knows about previously discussed workouts
-    if (body.history?.length) {
-      const workoutMentions: string[] = [];
-      for (const h of body.history.slice(-16)) {
-        if (h.role === "user" && h.workoutContext) {
-          const wc = h.workoutContext as Record<string, unknown>;
-          workoutMentions.push(`- "${wc.name}": ${h.content}`);
-        }
-      }
-      if (workoutMentions.length) {
-        enrichedPrompt += `[PREVIOUSLY DISCUSSED WORKOUTS]\n${workoutMentions.join("\n")}\n\n`;
-      }
-    }
-
-    if (body.workoutContext) {
-      enrichedPrompt += `[CURRENT WORKOUT CONTEXT]\n${JSON.stringify(body.workoutContext)}\n\n`;
-    }
-    enrichedPrompt += `[USER MESSAGE]\n${body.prompt}`;
-
-    const result = await wod.chat({
-      prompt: enrichedPrompt,
-      session,
-      enableCritic: body.enableCritic ?? true,
-    });
-
-    aiSessions.set(result.session.id, result.session);
-
-    const w = result.workout;
-    const exCount = w.sets.reduce((n: number, s: { exercises: unknown[] }) => n + s.exercises.length, 0);
-    let message = `Here's "${w.name}" — ${w.sets.length} sets, ${exCount} exercises`;
-    if (w.estimatedDuration) message += `, ~${w.estimatedDuration} min`;
-    message += ".";
-    if (w.tips?.length) message += ` Tip: ${w.tips[0]}`;
-
-    return c.json({
-      workout: result.workout,
-      intent: result.intent,
-      critique: result.critique,
-      sessionId: result.session.id,
-      message,
-    });
-  } catch (err) {
-    console.error("AI chat error:", err);
-    return c.json({ error: String(err) }, 500);
-  }
 });
 
 // Serve static files (images, js, sounds)
 app.get("/static/*", async (c) => {
   const path = c.req.path.replace("/static/", "./static/");
+
+  // Confine reads to static/. Without this, `/static/../NOTES.md` serves any
+  // file in the repo. The percent-decode matters: Hono hands back the raw path,
+  // so `..%2f` looks clean here but Deno decodes it back to `../` at read time.
+  let decoded: string;
+  try {
+    decoded = decodeURIComponent(c.req.path);
+  } catch {
+    return c.notFound();
+  }
+  const staticRoot = new URL("./static/", import.meta.url);
+  if (
+    decoded.includes("..") ||
+    !new URL(path, import.meta.url).pathname.startsWith(staticRoot.pathname)
+  ) {
+    return c.notFound();
+  }
+
   const contentTypes: Record<string, string> = {
     "png": "image/png",
     "jpg": "image/jpeg",
@@ -409,13 +361,16 @@ app.get("/static/*", async (c) => {
     // If it's an image request, try alternate extensions (png <-> jpg <-> jpeg)
     const ext = path.split(".").pop()?.toLowerCase();
     if (ext === "png" || ext === "jpg" || ext === "jpeg") {
-      const altExts = ["png", "jpg", "jpeg"].filter(e => e !== ext);
+      const altExts = ["png", "jpg", "jpeg"].filter((e) => e !== ext);
       for (const altExt of altExts) {
         const altPath = path.replace(/\.(png|jpg|jpeg)$/i, `.${altExt}`);
         try {
           const file = await Deno.readFile(new URL(altPath, import.meta.url));
-          const contentType = contentTypes[altExt] || "application/octet-stream";
-          return new Response(file, { headers: { "Content-Type": contentType } });
+          const contentType = contentTypes[altExt] ||
+            "application/octet-stream";
+          return new Response(file, {
+            headers: { "Content-Type": contentType },
+          });
         } catch {
           // Try next extension
         }
@@ -432,7 +387,7 @@ app.get("/manifest.json", (c) => {
 
 app.get("/sw.js", (c) => {
   return new Response(SERVICE_WORKER, {
-    headers: { "Content-Type": "application/javascript" }
+    headers: { "Content-Type": "application/javascript" },
   });
 });
 
@@ -444,7 +399,9 @@ app.get("/icon-192.png", async (c) => {
     return new Response(file, { headers: { "Content-Type": "image/png" } });
   } catch {
     // Fallback: return SVG as image
-    return new Response(ICON_SVG, { headers: { "Content-Type": "image/svg+xml" } });
+    return new Response(ICON_SVG, {
+      headers: { "Content-Type": "image/svg+xml" },
+    });
   }
 });
 
@@ -456,23 +413,50 @@ app.get("/icon-512.png", async (c) => {
     return new Response(file, { headers: { "Content-Type": "image/png" } });
   } catch {
     // Fallback: return SVG as image
-    return new Response(ICON_SVG, { headers: { "Content-Type": "image/svg+xml" } });
+    return new Response(ICON_SVG, {
+      headers: { "Content-Type": "image/svg+xml" },
+    });
   }
 });
 
 // Main page - also handle workout deep links
 app.get("/*", async (c) => {
-  const css = await Deno.readTextFile(new URL("./styles.css", import.meta.url)).catch(() => "");
-  const generatorJs = await Deno.readTextFile(new URL("./static/generator.js", import.meta.url)).catch(() => "");
-  const timelineJs = await Deno.readTextFile(new URL("./static/timeline.js", import.meta.url)).catch(() => "");
-  const timerJs = await Deno.readTextFile(new URL("./static/timer.js", import.meta.url)).catch(() => "");
-  const chatJs = await Deno.readTextFile(new URL("./static/chat.js", import.meta.url)).catch(() => "");
-  const linkifyJs = await Deno.readTextFile(new URL("./static/linkify.js", import.meta.url)).catch(() => "");
+  const css = await Deno.readTextFile(new URL("./styles.css", import.meta.url))
+    .catch(() => "");
+  const generatorJs = await Deno.readTextFile(
+    new URL("./static/generator.js", import.meta.url),
+  ).catch(() => "");
+  const timelineJs = await Deno.readTextFile(
+    new URL("./static/timeline.js", import.meta.url),
+  ).catch(() => "");
+  const timerJs = await Deno.readTextFile(
+    new URL("./static/timer.js", import.meta.url),
+  ).catch(() => "");
+  const linkifyJs = await Deno.readTextFile(
+    new URL("./static/linkify.js", import.meta.url),
+  ).catch(() => "");
 
-  return c.html(renderPage(css, generatorJs, timelineJs, timerJs, chatJs, linkifyJs));
+  // The page inlines the CSS/JS it was built from, so a cached copy pins the
+  // whole app to an old version until someone hard-refreshes.
+  c.header("Cache-Control", "no-cache");
+  return c.html(
+    renderPage(
+      css,
+      generatorJs,
+      timelineJs,
+      timerJs,
+      linkifyJs,
+    ),
+  );
 });
 
-function renderPage(css: string, generatorJs: string, timelineJs: string, timerJs: string, chatJs: string, linkifyJs: string) {
+function renderPage(
+  css: string,
+  generatorJs: string,
+  timelineJs: string,
+  timerJs: string,
+  linkifyJs: string,
+) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -527,8 +511,8 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
               <div class="sidebar-menu-item">
                 <button
                   class="sidebar-menu-button"
-                  :class="{ 'active': currentView === 'notes' }"
-                  @click="currentView = currentView === 'notes' ? 'workout' : 'notes'; selectedWorkoutId = null; generatedWorkout = null; selectedActivity = null; selectedProgram = null; if(currentView === 'notes' && !notesHtml) loadNotes(); if(isMobile) sidebarOpen = false;"
+                  :class="{ 'active': currentView === 'notes' && !notesSlug }"
+                  @click="(currentView === 'notes' && !notesSlug) ? (currentView = 'workout', updateUrl(null)) : showNotes('')"
                 >
                   <span class="iconify sidebar-icon" data-icon="lucide:notebook-pen"></span>
                   <span class="sidebar-menu-label">Training Notes</span>
@@ -537,44 +521,13 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
             </div>
           </div>
 
-          <div class="sidebar-group">
-            <div class="sidebar-group-label">Saved Workouts</div>
-            <nav class="sidebar-menu">
-              <template x-if="loading">
-                <div class="sidebar-loading">
-                  <span class="iconify" data-icon="lucide:loader-2" style="animation: spin 1s linear infinite;"></span>
-                  <span>Loading...</span>
-                </div>
-              </template>
-              <template x-if="!loading && savedWorkouts.length === 0">
-                <div class="sidebar-empty">
-                  <span class="iconify" data-icon="lucide:inbox"></span>
-                  <span>No saved workouts</span>
-                </div>
-              </template>
-              <template x-for="(workout, idx) in savedWorkouts" :key="'saved-' + idx + '-' + workout.id">
-                <div class="sidebar-menu-item">
-                  <button
-                    class="sidebar-menu-button"
-                    :class="{ 'active': selectedWorkoutId === workout.id }"
-                    @click="selectWorkout(workout.id)"
-                  >
-                    <span class="iconify sidebar-icon" :data-icon="getWorkoutIcon(workout)"></span>
-                    <span class="sidebar-menu-label" x-text="workout.name"></span>
-                    <span class="sidebar-menu-badge" x-show="workout.estimatedDuration" x-text="workout.estimatedDuration + 'm'"></span>
-                  </button>
-                </div>
-              </template>
-            </nav>
-          </div>
-
           <template x-if="programs.length > 0">
           <div class="sidebar-group">
             <div class="sidebar-group-label">Programs</div>
             <div class="folder-tree">
               <template x-for="(program, progIdx) in programs" :key="'prog-' + progIdx + '-' + program.id">
                 <div class="folder-tree-folder" x-data="{ expanded: false }">
-                  <div class="folder-tree-folder-row" @click="expanded = !expanded; if (expanded) selectProgramOverview(program);">
+                  <div class="folder-tree-folder-row" @click="program.weeks && program.weeks.length ? (expanded = true, selectWeek(program, program.weeks.length - 1)) : (expanded = !expanded)">
                     <button class="folder-tree-toggle" @click.stop="expanded = !expanded">
                       <svg class="folder-tree-chevron" :class="{ 'rotated': expanded }" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9 18 15 12 9 6"></polyline>
@@ -593,11 +546,22 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                         <span>Overview</span>
                       </button>
                     </div>
+                    <!-- Program-level note pages -->
+                    <template x-for="(page, pageIdx) in (program.pages || [])" :key="'prog-page-' + progIdx + '-' + pageIdx">
+                      <div class="folder-tree-item"
+                        :class="{ 'active': currentView === 'notes' && notesSlug === page.slug }"
+                        @click="showNotes(page.slug)">
+                        <button class="folder-tree-item-btn">
+                          <span style="font-size: 0.7rem; opacity: 0.6; min-width: 1rem;" x-text="pageIdx + 1"></span>
+                          <span x-text="page.label"></span>
+                        </button>
+                      </div>
+                    </template>
                     <!-- Week-based programs -->
                     <template x-if="program.weeks && program.weeks.length > 0">
-                      <div>
+                      <div style="display: flex; flex-direction: column-reverse;">
                         <template x-for="(week, weekIdx) in program.weeks" :key="'prog-week-' + progIdx + '-' + weekIdx">
-                          <div x-data="{ weekExpanded: false }">
+                          <div x-data="{ weekExpanded: false }" x-effect="selectedProgram && selectedProgram.id === program.id && selectedWeekIdx === weekIdx && (weekExpanded = true)">
                             <div class="folder-tree-item"
                               style="cursor: pointer;"
                               @click="weekExpanded = !weekExpanded">
@@ -656,30 +620,36 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
           </div>
           </template>
 
-          <!-- AI Custom Workouts -->
-          <template x-if="customWorkouts && customWorkouts.length > 0">
           <div class="sidebar-group">
-            <div class="sidebar-group-label">AI Custom</div>
+            <div class="sidebar-group-label">Saved Workouts</div>
             <nav class="sidebar-menu">
-              <template x-for="(cw, cwIdx) in customWorkouts" :key="'custom-' + cwIdx">
-                <div class="sidebar-menu-item" style="position: relative;">
+              <template x-if="loading">
+                <div class="sidebar-loading">
+                  <span class="iconify" data-icon="lucide:loader-2" style="animation: spin 1s linear infinite;"></span>
+                  <span>Loading...</span>
+                </div>
+              </template>
+              <template x-if="!loading && savedWorkouts.length === 0">
+                <div class="sidebar-empty">
+                  <span class="iconify" data-icon="lucide:inbox"></span>
+                  <span>No saved workouts</span>
+                </div>
+              </template>
+              <template x-for="(workout, idx) in savedWorkouts" :key="'saved-' + idx + '-' + workout.id">
+                <div class="sidebar-menu-item">
                   <button
                     class="sidebar-menu-button"
-                    :class="{ 'active': selectedWorkoutId === cw.id }"
-                    @click="applyAIWorkout(cw)"
+                    :class="{ 'active': selectedWorkoutId === workout.id }"
+                    @click="selectWorkout(workout.id)"
                   >
-                    <span class="iconify sidebar-icon" data-icon="lucide:sparkles"></span>
-                    <span class="sidebar-menu-label" x-text="cw.name"></span>
-                    <span class="sidebar-menu-badge" x-show="cw.estimatedDuration" x-text="cw.estimatedDuration + 'm'"></span>
-                  </button>
-                  <button class="custom-workout-delete" @click.stop="removeCustomWorkout(cw.id)" title="Remove">
-                    <span class="iconify" data-icon="lucide:x" style="width: 0.75rem; height: 0.75rem;"></span>
+                    <span class="iconify sidebar-icon" :data-icon="getWorkoutIcon(workout)"></span>
+                    <span class="sidebar-menu-label" x-text="workout.name"></span>
+                    <span class="sidebar-menu-badge" x-show="workout.estimatedDuration" x-text="workout.estimatedDuration + 'm'"></span>
                   </button>
                 </div>
               </template>
             </nav>
           </div>
-          </template>
 
           <div class="sidebar-group">
             <div class="sidebar-group-label">Categories</div>
@@ -731,11 +701,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
         <button class="sidebar-trigger" @click="sidebarOpen = !sidebarOpen">
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
-        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? 'Training Notes' : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
-        <button class="chat-toggle-btn" @click="toggleChat()" :class="{ 'active': chatOpen }">
-          <span class="iconify" data-icon="lucide:message-square"></span>
-          <span class="chat-toggle-label">AI Coach</span>
-        </button>
+        <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? notesTitle : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
       </header>
 
       <div class="sidebar-inset-content">
@@ -827,21 +793,37 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                           <span class="exercise-tag-pill" x-text="t"></span>
                         </template>
                       </div>
-                      <template x-if="ex.media && ex.media.length > 0">
+                      <template x-if="ex.media && ex.media.some(m => m.type === 'image')">
                         <div class="exercise-card-media">
-                          <template x-for="(media, mIdx) in ex.media" :key="'media-' + mIdx">
-                            <div>
-                              <template x-if="media.type === 'image'">
-                                <img class="exercise-media-img" :src="media.value.startsWith('/') ? '/static' + media.value : media.value" :alt="media.caption || ex.name" loading="lazy" />
-                              </template>
-                              <template x-if="media.type !== 'image'">
-                                <a :href="media.value" target="_blank" rel="noopener" class="exercise-media-link">
-                                  <span class="iconify" data-icon="lucide:external-link"></span>
-                                  <span x-text="media.caption || media.source || 'View'"></span>
-                                </a>
-                              </template>
-                            </div>
+                          <template x-for="(media, mIdx) in ex.media.filter(m => m.type === 'image')" :key="'media-' + mIdx">
+                            <img class="exercise-media-img" :src="media.value.startsWith('/') ? '/static' + media.value : media.value" :alt="media.caption || ex.name" loading="lazy" />
                           </template>
+                        </div>
+                      </template>
+                      <template x-if="ex.flows && ex.flows.length > 0">
+                        <div class="exercise-card-flows" style="margin-top: 0.6rem; font-size: 0.85rem;">
+                          <div style="opacity: 0.6; margin-bottom: 0.3rem;">Appears in:</div>
+                          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                            <template x-for="(f, fIdx) in ex.flows" :key="'lib-flow-' + fIdx">
+                              <a :href="'/' + f.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(f.workoutId); }" class="exercise-media-link">
+                                <span class="iconify" data-icon="lucide:git-branch"></span>
+                                <span x-text="f.name"></span>
+                              </a>
+                            </template>
+                          </div>
+                        </div>
+                      </template>
+                      <template x-if="ex.sources && ex.sources.length > 0">
+                        <div class="exercise-card-sources" style="margin-top: 0.5rem; font-size: 0.85rem;">
+                          <div style="opacity: 0.6; margin-bottom: 0.3rem;">Sources:</div>
+                          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                            <template x-for="(s, sIdx) in ex.sources" :key="'lib-src-' + sIdx">
+                              <a :href="s.url" target="_blank" rel="noopener" class="exercise-media-link">
+                                <span class="iconify" data-icon="lucide:external-link"></span>
+                                <span x-text="s.label || s.url"></span>
+                              </a>
+                            </template>
+                          </div>
                         </div>
                       </template>
                     </div>
@@ -874,7 +856,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
               </div>
             </template>
             <template x-if="notesHtml">
-              <div class="prose prose-full" x-html="notesHtml"></div>
+              <div class="prose prose-full prose-compact" x-html="notesHtml"></div>
             </template>
           </div>
         </template>
@@ -1028,7 +1010,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </template>
               </div>
               <template x-if="selectedProgram.description">
-                <p class="workout-description" x-html="linkify(selectedProgram.description)"></p>
+                <p class="workout-description" x-html="renderInline(selectedProgram.description)"></p>
               </template>
             </div>
 
@@ -1043,7 +1025,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                 </div>
 
                 <template x-if="selectedProgram.weeks[selectedWeekIdx].description">
-                  <p style="line-height: 1.7; font-size: 0.95rem;" x-text="selectedProgram.weeks[selectedWeekIdx].description"></p>
+                  <p style="line-height: 1.7; font-size: 0.95rem;" x-html="renderInline(selectedProgram.weeks[selectedWeekIdx].description)"></p>
                 </template>
 
                 <!-- Week Schedule -->
@@ -1075,7 +1057,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                     <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Week Tips</div>
                     <ul style="margin: 0; padding-left: 1.25rem; list-style: disc; display: flex; flex-direction: column; gap: 0.4rem;">
                       <template x-for="(tip, tipIdx) in selectedProgram.weeks[selectedWeekIdx].tips" :key="'wtip-' + tipIdx">
-                        <li style="line-height: 1.6; font-size: 0.9rem;" x-html="linkify(tip)"></li>
+                        <li style="line-height: 1.6; font-size: 0.9rem;" x-html="renderInline(tip)"></li>
                       </template>
                     </ul>
                   </div>
@@ -1222,7 +1204,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <div style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; margin-bottom: 0.5rem;">Tips</div>
                   <div class="workout-tips-inline" style="margin: 0;">
                     <template x-for="(tip, tipIdx) in selectedProgram.tips" :key="'ptip-' + tipIdx">
-                      <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
+                      <span><span x-html="renderInline(tip)"></span><span x-show="tipIdx < selectedProgram.tips.length - 1"> · </span></span>
                     </template>
                   </div>
                 </div>
@@ -1354,7 +1336,7 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   <span class="workout-tag" x-text="tag"></span>
                 </template>
                 <!-- Source link -->
-                <template x-if="selectedWorkout.sourceUrl">
+                <template x-if="selectedWorkout.sourceUrl && !selectedWorkout.isFlow">
                   <a class="workout-tag workout-source-link" :href="selectedWorkout.sourceUrl" target="_blank" rel="noopener" @click.stop>
                     <span class="iconify" data-icon="lucide:external-link"></span>
                     <span x-text="selectedWorkout.source || 'Source'"></span>
@@ -1366,15 +1348,39 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                   </span>
                 </template>
               </div>
+              <!-- Canonical flow source (blue pill) -->
+              <template x-if="selectedWorkout.isFlow && selectedWorkout.sourceUrl">
+                <div style="margin-bottom: 0.75rem;">
+                  <a class="flow-ref-pill" :href="selectedWorkout.sourceUrl" target="_blank" rel="noopener" :title="selectedWorkout.source || 'Source'">
+                    <span class="iconify" data-icon="lucide:external-link"></span>
+                    <span x-text="selectedWorkout.source || 'View source'"></span>
+                  </a>
+                </div>
+              </template>
               <template x-if="selectedWorkout.description">
-                <p class="workout-description" x-html="linkify(selectedWorkout.description)"></p>
+                <p class="workout-description" x-html="renderInline(selectedWorkout.description)"></p>
               </template>
               <template x-if="selectedWorkout.tips && selectedWorkout.tips.length > 0">
                 <p class="workout-tips-inline">
                   <template x-for="(tip, tipIdx) in selectedWorkout.tips" :key="'tip-' + tipIdx">
-                    <span><span x-html="linkify(tip)"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
+                    <span><span x-html="renderInline(tip)"></span><span x-show="tipIdx < selectedWorkout.tips.length - 1"> · </span></span>
                   </template>
                 </p>
+              </template>
+
+              <!-- Day Overview: theme, spotlights, watchpoints -->
+              <template x-if="selectedWorkout.dayOverview">
+                <div style="margin-top: 0.75rem; padding: 0.75rem 0.9rem; background: rgba(128,128,128,0.06); border-radius: 0.5rem; font-size: 0.85rem; line-height: 1.55;">
+                  <template x-if="selectedWorkout.dayOverview.theme">
+                    <p style="margin: 0 0 0.5rem 0; opacity: 0.85;" x-html="renderInline(selectedWorkout.dayOverview.theme)"></p>
+                  </template>
+                  <template x-for="(sp, spIdx) in (selectedWorkout.dayOverview.spotlights || [])" :key="'sp-' + spIdx">
+                    <p style="margin: 0 0 0.4rem 0; opacity: 0.8;">🔆 <strong x-text="(sp.exerciseId || '').replace(/-/g, ' ')"></strong> — <span x-html="renderInline(sp.why || '')"></span></p>
+                  </template>
+                  <template x-for="(wp, wpIdx) in (selectedWorkout.dayOverview.watchpoints || [])" :key="'wp-' + wpIdx">
+                    <p style="margin: 0 0 0.4rem 0; opacity: 0.8;" x-html="renderInline(wp)"></p>
+                  </template>
+                </div>
               </template>
 
               <!-- Home Gym Notes -->
@@ -1387,54 +1393,28 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
 
               <!-- Morning Flow -->
               <template x-if="workoutFlow">
-                <div @click="selectWorkout(workoutFlow.workoutId)" style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s;">
+                <a :href="'/' + workoutFlow.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(workoutFlow.workoutId); }" style="margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s; text-decoration: none; color: inherit;">
                   <span style="font-size: 1rem;">&#9728;</span>
                   <div style="flex: 1;">
                     <span style="font-weight: 600;" x-text="workoutFlow.label || 'Morning Flow'"></span>
                     <template x-if="workoutFlow.notes">
-                      <span style="opacity: 0.6; margin-left: 0.4rem;" x-text="workoutFlow.notes"></span>
+                      <span style="opacity: 0.6; margin-left: 0.4rem;" x-html="renderInline(workoutFlow.notes)"></span>
                     </template>
                   </div>
                   <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-                </div>
+                </a>
               </template>
 
-              <!-- Session Log -->
-              <template x-if="workoutLog">
-                <div x-data="{ logOpen: false }" style="margin-top: 0.75rem;">
-                  <div @click="logOpen = !logOpen" style="cursor: pointer; display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; opacity: 0.7;">
-                    <svg :style="logOpen ? 'transform: rotate(90deg)' : ''" width="12" height="12" style="min-width: 12px; max-width: 12px; min-height: 12px; max-height: 12px; flex-shrink: 0; transition: transform 0.15s;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-                    <span x-text="'Session Log (' + workoutLog.entries.length + ')'"></span>
+              <!-- Anytime blocks: daily reminders + banded shoulder prep -->
+              <template x-for="blk in anytimeBlocks" :key="'anytime-' + blk.workoutId">
+                <a :href="'/' + blk.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(blk.workoutId); }" style="margin-top: 0.5rem; padding: 0.6rem 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; transition: border-color 0.15s; text-decoration: none; color: inherit;">
+                  <span style="font-size: 1rem;" x-text="blk.icon"></span>
+                  <div style="flex: 1;">
+                    <span style="font-weight: 600;" x-text="blk.label"></span>
+                    <span style="opacity: 0.6; margin-left: 0.4rem;" x-text="blk.notes"></span>
                   </div>
-                  <div x-show="logOpen" x-collapse style="margin-top: 0.5rem;">
-                    <template x-for="(entry, entryIdx) in workoutLog.entries" :key="'log-' + entryIdx">
-                      <div style="padding: 0.75rem; background: var(--color-bg-secondary, #f9fafb); border: 1px solid var(--color-border, #e5e7eb); border-radius: 0.5rem; margin-bottom: 0.5rem; font-size: 0.8rem;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
-                          <span style="font-weight: 600;" x-text="entry.date"></span>
-                          <template x-if="entry.cardio">
-                            <span style="opacity: 0.6; font-size: 0.75rem;" x-text="entry.cardio"></span>
-                          </template>
-                        </div>
-                        <template x-if="entry.notes">
-                          <p style="margin: 0 0 0.5rem 0; opacity: 0.8; line-height: 1.4;" x-text="entry.notes"></p>
-                        </template>
-                        <template x-if="entry.exercises && entry.exercises.length > 0">
-                          <div style="display: flex; flex-direction: column; gap: 0.35rem;">
-                            <template x-for="(ex, exIdx) in entry.exercises" :key="'logex-' + exIdx">
-                              <div style="display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; align-items: baseline;">
-                                <span style="font-weight: 500; min-width: 140px;" x-text="ex.id + (ex.swappedFor ? ' (for ' + ex.swappedFor + ')' : '')"></span>
-                                <span style="opacity: 0.7; font-size: 0.75rem;" x-text="ex.sets.join(' / ')"></span>
-                                <template x-if="ex.workingWeight">
-                                  <span style="font-size: 0.7rem; background: var(--color-bg, #fff); border: 1px solid var(--color-border, #e5e7eb); border-radius: 3px; padding: 0 4px; white-space: nowrap;">Working: <span x-text="ex.workingWeight"></span> lbs</span>
-                                </template>
-                              </div>
-                            </template>
-                          </div>
-                        </template>
-                      </div>
-                    </template>
-                  </div>
-                </div>
+                  <svg width="14" height="14" style="opacity: 0.4; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </a>
               </template>
             </div>
 
@@ -1540,11 +1520,23 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                           <span class="iconify" data-icon="lucide:refresh-cw"></span>
                         </button>
                       </template>
+                      <template x-if="set.flowRef && set.flowRef.workoutId !== selectedWorkoutId">
+                        <a class="flow-ref-pill" :href="'/' + set.flowRef.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(set.flowRef.workoutId); }" :title="'Full flow: ' + set.flowRef.name">
+                          <span class="iconify" data-icon="lucide:git-branch"></span>
+                          <span>Full flow</span>
+                          <template x-if="set.flowRef.source">
+                            <span class="flow-ref-source" x-text="set.flowRef.source.split('(')[0].trim()"></span>
+                          </template>
+                        </a>
+                      </template>
                     </div>
+                    <template x-if="set.notes">
+                      <div class="ex-notes" style="margin-bottom: 0.75rem;" x-html="renderNotes(set.notes)"></div>
+                    </template>
                     <template x-if="set.generatedExercises && set.generatedExercises.length > 0">
                       <div class="exercise-list">
                         <template x-for="(ex, exIdx) in set.generatedExercises" :key="'gen-ex-' + setIdx + '-' + exIdx">
-                          <div class="exercise-line" :class="{ 'expandable': ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl }" @click="(ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl) && toggleExerciseExpand(setIdx + '-' + exIdx)">
+                          <div class="exercise-line" :class="{ 'expandable': ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0) }" @click="(ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0)) && toggleExerciseExpand(setIdx + '-' + exIdx)">
                             <div class="ex-title-row">
                               <template x-if="ex.shuffleable">
                                 <button class="ex-shuffle" @click.stop="shuffleExercise(set.id, exIdx)" title="Shuffle">↻</button>
@@ -1554,14 +1546,14 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                               <template x-if="ex.media && ex.media.length > 0">
                                 <span class="ex-media-icon"><span class="iconify" data-icon="lucide:play-circle"></span></span>
                               </template>
-                              <template x-if="ex.description || (ex.media && ex.media.length > 0) || generatedWorkout?.sourceUrl">
+                              <template x-if="ex.description || (ex.media && ex.media.length > 0) || ex.source?.url || (ex.flows && ex.flows.length > 0)">
                                 <span class="ex-expand" :class="{ 'expanded': expandedExercises?.includes(setIdx + '-' + exIdx) }">
                                   <span class="iconify" data-icon="lucide:chevron-down"></span>
                                 </span>
                               </template>
                             </div>
                             <template x-if="ex.notes">
-                              <div class="ex-notes" x-html="linkify(ex.notes)"></div>
+                              <div class="ex-notes" x-html="renderNotes(ex.notes)"></div>
                             </template>
                             <template x-if="expandedExercises?.includes(setIdx + '-' + exIdx)">
                               <div class="ex-expanded" @click.stop>
@@ -1589,12 +1581,25 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
                                     </template>
                                   </div>
                                 </template>
-                                <template x-if="generatedWorkout?.sourceUrl && !(ex.media && ex.media.length > 0)">
+                                <template x-if="ex.source?.url && !(ex.media && ex.media.length > 0)">
                                   <div class="ex-media-links">
-                                    <a :href="generatedWorkout.sourceUrl" target="_blank" rel="noopener" class="ex-media-link" @click.stop>
+                                    <a :href="ex.source.url" target="_blank" rel="noopener" class="ex-media-link" @click.stop>
                                       <span class="iconify" data-icon="lucide:external-link"></span>
-                                      <span x-text="generatedWorkout.source || 'Watch workout'"></span>
+                                      <span x-text="ex.source.creator || ex.source.platform || 'Source'"></span>
                                     </a>
+                                  </div>
+                                </template>
+                                <template x-if="ex.flows && ex.flows.filter(f => f.workoutId !== selectedWorkoutId).length > 0">
+                                  <div class="ex-flow-links" style="margin-top: 0.4rem; font-size: 0.8rem;">
+                                    <div style="opacity: 0.6; margin-bottom: 0.25rem;">Appears in:</div>
+                                    <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                                      <template x-for="(f, fIdx) in ex.flows.filter(f => f.workoutId !== selectedWorkoutId)" :key="'exflow-' + fIdx">
+                                        <a :href="'/' + f.workoutId" @click="if (!$event.metaKey && !$event.ctrlKey && !$event.shiftKey && !$event.altKey) { $event.preventDefault(); selectWorkout(f.workoutId); }" class="ex-media-link">
+                                          <span class="iconify" data-icon="lucide:git-branch"></span>
+                                          <span x-text="f.name"></span>
+                                        </a>
+                                      </template>
+                                    </div>
                                   </div>
                                 </template>
                               </div>
@@ -1644,80 +1649,6 @@ function renderPage(css: string, generatorJs: string, timelineJs: string, timerJ
       </div>
     </main>
 
-    <!-- AI Chat Panel (Right Sidebar) -->
-    <div class="chat-panel-wrapper" :class="{ 'open': chatOpen }">
-    <aside class="chat-panel">
-      <div class="chat-panel-header">
-        <div class="chat-panel-title">
-          <span class="iconify" data-icon="lucide:bot"></span>
-          <span>AI Coach</span>
-        </div>
-        <div class="chat-panel-actions">
-          <button class="chat-action-btn" @click="clearChat()" title="Clear chat">
-            <span class="iconify" data-icon="lucide:trash-2"></span>
-          </button>
-          <button class="chat-action-btn" @click="chatOpen = false">
-            <span class="iconify" data-icon="lucide:x"></span>
-          </button>
-        </div>
-      </div>
-
-      <template x-if="selectedWorkout">
-        <div class="chat-context-bar">
-          <span class="iconify" data-icon="lucide:eye"></span>
-          <span x-text="'Viewing: ' + selectedWorkout.name"></span>
-        </div>
-      </template>
-
-      <div class="chat-messages">
-        <template x-if="chatMessages.length === 0">
-          <div class="chat-empty">
-            <span class="iconify" data-icon="lucide:message-square" style="font-size: 2rem; opacity: 0.3;"></span>
-            <p>Ask me to modify your workout, generate a new one, or explain exercises.</p>
-            <div class="chat-suggestions">
-              <button class="chat-suggestion" @click="chatInput = 'Make this workout harder'; sendChatMessage()">Make it harder</button>
-              <button class="chat-suggestion" @click="chatInput = 'Add more core exercises'; sendChatMessage()">Add more core</button>
-              <button class="chat-suggestion" @click="chatInput = 'Generate a 20 min bodyweight workout'; sendChatMessage()">Quick bodyweight</button>
-            </div>
-          </div>
-        </template>
-
-        <template x-for="(msg, msgIdx) in chatMessages" :key="'chat-' + msgIdx">
-          <div class="chat-message" :class="msg.role">
-            <div class="chat-message-content" x-html="renderMarkdown(msg.content)"></div>
-            <template x-if="msg.role === 'assistant' && msg.workout">
-              <div class="chat-message-actions">
-                <button class="chat-apply-btn" @click="applyAIWorkout(msg.workout)">
-                  <span class="iconify" data-icon="lucide:download"></span>
-                  Save &amp; Apply
-                </button>
-              </div>
-            </template>
-          </div>
-        </template>
-
-        <template x-if="chatLoading">
-          <div class="chat-message assistant">
-            <div class="chat-typing"><span></span><span></span><span></span></div>
-          </div>
-        </template>
-      </div>
-
-      <div class="chat-input-area">
-        <input
-          type="text"
-          class="chat-input-field"
-          x-model="chatInput"
-          @keydown.enter="sendChatMessage()"
-          placeholder="Ask about this workout..."
-          :disabled="chatLoading"
-        />
-        <button class="chat-send-btn" @click="sendChatMessage()" :disabled="!chatInput.trim() || chatLoading">
-          <span class="iconify" data-icon="lucide:send"></span>
-        </button>
-      </div>
-    </aside>
-    </div>
   </div>
 
 </div>
@@ -1733,15 +1664,25 @@ ${timelineJs}
 
 ${timerJs}
 
-${chatJs}
-
 ${linkifyJs}
 
 function routineStackApp() {
-  const chatMixin = typeof chatPanel === 'function' ? chatPanel() : {};
   return {
-    ...chatMixin,
     linkify: _linkify,
+    renderNotes(text) {
+      if (!text) return '';
+      if (typeof marked !== 'undefined' && marked.parse) {
+        return marked.parse(text);
+      }
+      return _linkify(text);
+    },
+    renderInline(text) {
+      if (!text) return '';
+      if (typeof marked !== 'undefined' && marked.parseInline) {
+        return marked.parseInline(text);
+      }
+      return _linkify(text);
+    },
     sidebarOpen: true,
     loading: true,
     initialized: false,
@@ -1773,6 +1714,9 @@ function routineStackApp() {
 
     // Training notes state
     notesHtml: '',
+    notesPath: '',
+    notesTitle: 'Training Notes',
+    notesSlug: '',
 
     // Timer state
     timerMode: false,
@@ -1798,19 +1742,6 @@ function routineStackApp() {
       return this.allWorkouts.find(w => w.id === this.selectedWorkoutId) || null;
     },
 
-    get workoutLog() {
-      if (!this.selectedWorkoutId) return null;
-      for (const program of this.programs) {
-        if (!program.weeks) continue;
-        for (const week of program.weeks) {
-          if (!week.log) continue;
-          const entries = week.log.filter(l => l.workoutId === this.selectedWorkoutId);
-          if (entries.length > 0) return { program, week, entries };
-        }
-      }
-      return null;
-    },
-
     get workoutFlow() {
       if (!this.selectedWorkoutId) return null;
       for (const program of this.programs) {
@@ -1824,6 +1755,23 @@ function routineStackApp() {
         }
       }
       return null;
+    },
+
+    // Blocks that surface at the top of every workout. A workout opts in by
+    // declaring an "anytime" field ({ label, note, icon, order }) — so this is
+    // driven by the catalogue, not a hardcoded list here. Deliberately NOT
+    // program-schedule driven (unlike workoutFlow): the point is that they stay
+    // visible on days the program doesn't cover.
+    get anytimeBlocks() {
+      return this.allWorkouts
+        .filter(w => w && w.anytime && w.id !== this.selectedWorkoutId)
+        .sort((a, b) => (a.anytime.order ?? 99) - (b.anytime.order ?? 99))
+        .map(w => ({
+          workoutId: w.id,
+          icon: w.anytime.icon || '',
+          label: w.anytime.label || w.name,
+          notes: w.anytime.note || '',
+        }));
     },
 
     get workoutHomeGym() {
@@ -1893,6 +1841,7 @@ function routineStackApp() {
       if (slug.startsWith('program/')) return null;
       if (slug.startsWith('activity/')) return null;
       if (slug === 'exercise-library') return null;
+      if (slug === 'notes' || slug.startsWith('notes/')) return null;
       return slug;
     },
 
@@ -1900,6 +1849,14 @@ function routineStackApp() {
       const slug = this.getSlugFromUrl();
       if (!slug) return null;
       if (slug.startsWith('program/')) return slug.substring('program/'.length);
+      return null;
+    },
+
+    // returns null when the URL isn't a notes URL; '' means the default notes page
+    getNotesSlugFromUrl() {
+      const slug = this.getSlugFromUrl();
+      if (slug === 'notes') return '';
+      if (slug && slug.startsWith('notes/')) return slug.substring('notes/'.length);
       return null;
     },
 
@@ -1935,7 +1892,7 @@ function routineStackApp() {
         }
         return;
       }
-      const currentPath = type === 'program' ? '/program/' + id : type === 'activity' ? '/activity/' + id : '/' + id;
+      const currentPath = type === 'program' ? '/program/' + id : type === 'activity' ? '/activity/' + id : type === 'notes' ? '/notes/' + id : '/' + id;
       if (window.location.pathname !== currentPath) {
         window.history.pushState({ type, id }, '', currentPath);
       }
@@ -1962,8 +1919,14 @@ function routineStackApp() {
           this.generatedWorkout = null;
           return;
         }
-        if (this.currentView === 'exercises') {
+        const navNotesSlug = this.getNotesSlugFromUrl();
+        if (navNotesSlug !== null) {
+          this.showNotes(navNotesSlug, false);
+          return;
+        }
+        if (this.currentView === 'exercises' || this.currentView === 'notes') {
           this.currentView = 'workout';
+          this.notesSlug = '';
         }
         const activityKey = this.getActivityIdFromUrl();
         if (activityKey) {
@@ -1988,13 +1951,12 @@ function routineStackApp() {
         }
       });
 
-      await this.loadData();
-      await this.loadExercisesCatalogue();
-      await this.loadProgressions();
+      await Promise.all([
+        this.loadData(),
+        this.loadExercisesCatalogue(),
+        this.loadProgressions(),
+      ]);
       this.autoLoadRandomWorkout();
-
-      // Initialize AI chat panel
-      if (this.initChat) this.initChat();
 
       // Update filtered exercises on any filter change
       this.updateFilteredExercises();
@@ -2005,71 +1967,84 @@ function routineStackApp() {
       this.$watch('exerciseTypeFilter', () => this.updateFilteredExercises());
     },
 
+    // Swap in a newer catalogue the service worker just fetched, without the
+    // loading state or a reset: the open workout stays as it is until you
+    // navigate. Several files change together, so wait for the burst to end.
+    refreshData() {
+      clearTimeout(this._refreshTimer);
+      this._refreshTimer = setTimeout(async () => {
+        const getJson = (url) => fetch(url).then((res) => res.ok ? res.json() : null).catch(() => null);
+        const [routines, workouts, programs] = await Promise.all([
+          getJson('/api/routines'),
+          getJson('/api/workouts'),
+          getJson('/api/programs'),
+        ]);
+        if (routines) this.routines = routines;
+        if (workouts) this.allWorkouts = workouts;
+        if (programs) {
+          this.programs = programs.sort((a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99));
+          if (this.selectedProgram) {
+            this.selectedProgram = this.programs.find(p => p.id === this.selectedProgram.id) || this.selectedProgram;
+          }
+        }
+        await this.loadExercisesCatalogue();
+        if (this.updateFilteredExercises) this.updateFilteredExercises();
+      }, 400);
+    },
+
     async loadData() {
       this.loading = true;
       this.savedWorkouts = [];
       this.routines = [];
       this.allWorkouts = [];
 
+      // All four requests go out together; each one fails on its own, so a bad
+      // response from one doesn't take the others down.
+      const getJson = (url, label) => fetch(url).then((res) => {
+        if (res.ok) return res.json();
+        console.warn('Failed to load ' + label + ' - Status: ' + res.status);
+        return null;
+      }).catch((e) => {
+        console.warn('Could not load ' + label + ':', e);
+        return null;
+      });
+
       try {
-        // Load all routines in one call
-        try {
-          const res = await fetch('/api/routines');
-          if (res.ok) {
-            this.routines = await res.json();
-            console.log('Loaded ' + this.routines.length + ' routines');
-          } else {
-            console.warn('Failed to load routines - Status: ' + res.status);
-          }
-        } catch (e) {
-          console.warn('Could not load routines:', e);
+        const [routines, workouts, saved, programs] = await Promise.all([
+          getJson('/api/routines', 'routines'),
+          getJson('/api/workouts', 'workouts'),
+          getJson('/api/saved', 'saved workouts'),
+          getJson('/api/programs', 'programs'),
+        ]);
+
+        if (routines) {
+          this.routines = routines;
+          console.log('Loaded ' + this.routines.length + ' routines');
         }
 
-        // Load all workouts in one call from compiled file
-        try {
-          const res = await fetch('/api/workouts');
-          if (res.ok) {
-            this.allWorkouts = await res.json();
-            console.log('Loaded ' + this.allWorkouts.length + ' workouts');
-          } else {
-            console.warn('Failed to load workouts - Status: ' + res.status);
-          }
-        } catch (e) {
-          console.warn('Could not load workouts:', e);
+        if (workouts) {
+          this.allWorkouts = workouts;
+          console.log('Loaded ' + this.allWorkouts.length + ' workouts');
         }
 
-        // Load all saved workouts in one call
-        try {
-          const res = await fetch('/api/saved');
-          if (res.ok) {
-            const savedDataList = await res.json();
-            for (const savedData of savedDataList) {
-              if (savedData.workoutRef) {
-                const actualWorkout = this.allWorkouts.find(w => w.id === savedData.workoutRef);
-                if (actualWorkout) {
-                  this.savedWorkouts.push({ ...actualWorkout, savedAt: savedData.savedAt, alias: savedData.alias });
-                }
-              } else if (savedData.id) {
-                this.savedWorkouts.push(savedData);
+        // Saved workouts point into the catalogue, so they resolve after it lands
+        if (saved) {
+          for (const savedData of saved) {
+            if (savedData.workoutRef) {
+              const actualWorkout = this.allWorkouts.find(w => w.id === savedData.workoutRef);
+              if (actualWorkout) {
+                this.savedWorkouts.push({ ...actualWorkout, savedAt: savedData.savedAt, alias: savedData.alias });
               }
+            } else if (savedData.id) {
+              this.savedWorkouts.push(savedData);
             }
-            console.log('Loaded ' + this.savedWorkouts.length + ' saved workouts');
-          } else {
-            console.warn('Failed to load saved workouts - Status: ' + res.status);
           }
-        } catch (e) {
-          console.warn('Could not load saved workouts:', e);
+          console.log('Loaded ' + this.savedWorkouts.length + ' saved workouts');
         }
 
-        // Load programs
-        try {
-          const res = await fetch('/api/programs');
-          if (res.ok) {
-            this.programs = (await res.json()).sort((a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99));
-            console.log('Loaded ' + this.programs.length + ' programs');
-          }
-        } catch (e) {
-          console.warn('Could not load programs:', e);
+        if (programs) {
+          this.programs = programs.sort((a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99));
+          console.log('Loaded ' + this.programs.length + ' programs');
         }
       } catch (e) {
         console.error('Error loading data:', e);
@@ -2085,6 +2060,10 @@ function routineStackApp() {
         this.currentView = 'exercises';
         return;
       }
+
+      // Check URL for a notes page (/notes or /notes/<slug>)
+      const urlNotesSlug = this.getNotesSlugFromUrl();
+      if (urlNotesSlug !== null && this.showNotes(urlNotesSlug, false)) return;
 
       // Check URL for activity page (e.g., /activity/functional-bulk-dynamic-w3-d6)
       const urlActivityKey = this.getActivityIdFromUrl();
@@ -2181,14 +2160,44 @@ function routineStackApp() {
       } catch (e) { console.warn('Could not load progressions:', e); }
     },
 
-    async loadNotes() {
+    async loadNotes(path = '/static/notes.md', title = 'Training Notes') {
+      this.notesTitle = title;
+      if (this.notesPath === path && this.notesHtml) return;
       try {
-        const res = await fetch('/static/notes.md');
+        const res = await fetch(path);
         if (res.ok) {
           const md = await res.text();
           this.notesHtml = marked.parse(md);
+          this.notesPath = path;
         }
       } catch (e) { console.warn('Could not load notes:', e); }
+    },
+
+    allNotesPages() {
+      const out = [];
+      for (const p of this.programs || []) for (const pg of p.pages || []) out.push(pg);
+      return out;
+    },
+
+    // slug '' = the default Training Notes page; otherwise a program page slug
+    showNotes(slug = '', doUpdateUrl = true) {
+      const page = slug ? this.allNotesPages().find(p => p.slug === slug) : null;
+      if (slug && !page) return false;
+      this.currentView = 'notes';
+      this.selectedWorkoutId = null;
+      this.generatedWorkout = null;
+      this.selectedActivity = null;
+      this.selectedProgram = null;
+      this.notesSlug = slug;
+      this.loadNotes(page ? page.file : '/static/notes.md', page ? page.label : 'Training Notes');
+      if (doUpdateUrl) {
+        const path = slug ? '/notes/' + slug : '/notes';
+        if (window.location.pathname !== path) {
+          window.history.pushState({ type: 'notes', id: slug }, '', path);
+        }
+      }
+      if (this.isMobile) this.sidebarOpen = false;
+      return true;
     },
 
     shuffleWorkout() {
@@ -2540,7 +2549,15 @@ function routineStackApp() {
 <!-- Service Worker Registration -->
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW registration failed:', err));
+  navigator.serviceWorker.register('/sw.js?v=wod-v10', { updateViaCache: 'none' }).catch(err => console.log('SW registration failed:', err));
+  // The worker serves the catalogue from its cache and refreshes it behind the
+  // page. When the fresh copy differs, it says so and the app swaps the data in.
+  navigator.serviceWorker.addEventListener('message', (event) => {
+    if (!event.data || event.data.type !== 'data-updated') return;
+    const root = document.getElementById('app');
+    const app = root && window.Alpine && window.Alpine.$data(root);
+    if (app && app.refreshData) app.refreshData();
+  });
 }
 </script>
 
@@ -2548,8 +2565,8 @@ if ('serviceWorker' in navigator) {
 </html>`;
 }
 
-// Start server for local dev, skip for Deno Deploy/Val Town
-if (!Deno.env?.get?.("DENO_DEPLOYMENT_ID") && !Deno.env?.get?.("valtown")) {
+// Start server for local dev; skip when imported (static export) or on Val Town
+if (import.meta.main && !Deno.env?.get?.("DENO_DEPLOYMENT_ID") && !Deno.env?.get?.("valtown")) {
   const port = parseInt(Deno.env?.get?.("PORT") || "8000");
   console.log(`🏋️ Workouts of the Day running at http://localhost:${port}`);
   Deno.serve({ port }, app.fetch);

@@ -1,0 +1,189 @@
+{
+  "id": "fb-w29-kb-cond",
+  "name": "Week 29 Optional KB — Dead Cluster Flow + Overhead Mobility Complex",
+  "description": "**Optional and deliberately short.** Run it whenever a window opens after the gym work; it is not tied to a weekday and missing it does not make the week incomplete.\n\n**The Dead Cluster Flow is the conditioning piece this week** — the overhead cousin of the Leggy Flow, and it has been away long enough to feel new again. **The overhead mobility complex closes**, light, as shoulder work rather than conditioning.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "kettlebell",
+    "conditioning",
+    "flow",
+    "functional-bulk",
+    "optional",
+    "week-29"
+  ],
+  "estimatedDuration": 30,
+  "equipment": [
+    "kettlebell",
+    "resistance-band",
+    "bodyweight"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "A short conditioning day with sleep debt assumed. The Dead Cluster Flow carries the session, the strength round keeps the press and row alive, and the mobility complex closes it out light. Rounds are the variable, never the bell.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-dead-cluster",
+        "why": "Clean → squat → press from the floor every rep, which makes the first beat of the flow the most expensive one. Getting the dead clean efficient is what makes the rest of the chain survivable."
+      }
+    ],
+    "rotationPlan": "W30 — the Outside Snatch Flow and Brutal Complex come back around. W31 — figure-8 → tactical clean, or the kickstand complex.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: snatch, iron cross, overhead squat, push press, KB strict press, all the cleans. Overhead and ballistic work where the cue breaking is the ceiling.",
+      "🔥 near-failure last set OK: KB curl, last set only.",
+      "**Rounds are the variable, not the bell.** Two rounds is the target on a short day; a third only if it genuinely feels strong.",
+      "**Stop a round when the hinge stops holding.** There is a lot of floor-to-overhead work here and a broken hinge under fatigue is where this day would hurt you.",
+      "**The overhead mobility complex is mobility.** Light bell, slow, and it is allowed to be the thing you drop if time runs out.",
+      "**Banded shoulder prep + protective shrug stay in the warm-up**, even on the twenty-minute version."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up (incl. Bottoms-Up Cuff Prep + Figure-8 Passes)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The figure-8 passes are the coordination primer, not a finisher.",
+      "exercises": [
+        {
+          "id": "kettlebell-halo",
+          "reps": "8 each direction",
+          "notes": "Slow, close to the head. Shoulders packed down."
+        },
+        {
+          "id": "kettlebell-bottoms-up-press",
+          "reps": "8 each side",
+          "notes": "Light bell inverted. Cuff prep and grip — and it rehearses the packed-down lockout the press block is about to ask for."
+        },
+        {
+          "id": "kettlebell-figure-8",
+          "reps": "10 each direction",
+          "notes": "**Light bell.** Hinge, do not squat."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Hinged slightly forward, tight fists, thumbs tucked."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "Protective activation. Down and back at the top."
+        }
+      ]
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out** — it is a large part of why the right shoulder has stayed quiet through a heavy block.\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    },
+    {
+      "id": "dead-cluster-flow",
+      "name": "🌀 Dead Cluster Flow — the Conditioning Piece",
+      "type": "flow",
+      "flowId": "kb-dead-cluster-flow",
+      "rounds": 2,
+      "notes": "**Moderate bell — 35.** Two rounds each side on a short day, ~45s between rounds.\n\n**The dead cluster is the expensive beat** — every rep starts from the floor, so an efficient dead clean is what makes the rest of the chain survivable. 🛑 Stop a round when the hinge stops holding, not when the arms tire."
+    },
+    {
+      "id": "kb-strength",
+      "name": "Strength — KB Row + Strict Press + Curl 🛑",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One maintenance round between the flow and the complex. This keeps the known strength work alive without turning an optional session into another gym day.\n\n**Tired-day version:** press and curl only.",
+      "exercises": [
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50.** Maintenance — the real row volume lives on pull day. 50 being easy is the correct end state; do not chase it.\n- Flat back, elbow past the ribs\n- Slow eccentric, full stretch at the bottom"
+        },
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50, strict — clean to rack, press straight up, no push-press.** 50 is the Arrilaga ceiling, so the pause is the progression.\n- **2-3s PAUSE AT LOCKOUT every rep** — bicep by the ear, shoulder packed **DOWN**, ribs down, and hold it\n- Full lockout before the count starts — no soft elbow\n- Both sides to the same standard"
+        },
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Slow lower to a full stretch** — the bell loads the bottom where a dumbbell goes slack\n- Shoulder packed down, no shrug to start\n\n🔥 Near-failure fine on the last set. Twice a week is the dose — this is frequency for the left arm, not intensity."
+        }
+      ]
+    },
+    {
+      "id": "overhead-mobility",
+      "name": "🌀 Overhead Mobility Complex — Light, as the Closer",
+      "type": "flow",
+      "flowId": "kb-overhead-mobility-complex",
+      "rounds": 2,
+      "notes": "**Light bell — 20-25. This is mobility, not conditioning.** Two rounds each side, slow.\n\n🛑 The overhead squat sets the bell for the whole complex — if the arm cannot stay stacked overhead at depth, the bell is too heavy. **This is the block to drop if time runs out.**"
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor + QL Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Give the QL the full beat — the flow loaded the hinge hard.\n\n**Tired-day version:** 30s each.",
+      "exercises": [
+        {
+          "id": "pigeon-pose",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "butterfly-stretch",
+          "duration": 45,
+          "notes": "Adductors — and they are a live topic after the squat test."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 45,
+          "notes": "30s each side. Let the QL downshift after the hinge work."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Rounds are the variable, never the bell.",
+    "The mobility complex is the block to cut if the window closes early.",
+    "Stop a flow round when the hinge goes, not when the arms tire.",
+    "Missing this day entirely does not make the week incomplete."
+  ]
+}

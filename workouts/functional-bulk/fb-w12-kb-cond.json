@@ -1,0 +1,135 @@
+{
+  "id": "fb-w12-kb-cond",
+  "name": "Week 12 KB Conditioning — TGU Spotlight + 🆕 Figure-8 → Tactical Clean Flow",
+  "description": "Thursday — lightest day, recovery flank between Wed pull and Fri legs. **Spotlight rotates to TGU left-side checkpoints** per the W11 plan. The W10D2 TGU breakthrough ('focus on the clean itself makes load disappear') and the W11D2 pattern ('2 forward + 2 reverse per side') stack into the W12 spotlight: drill the LEFT side specifically — every checkpoint deliberate, the to-standing transition (the historical weak link) gets the slowest, cleanest reps. **NEW (W12D3 request — dance/passing flow):** added the @kettleclubfam **Figure-8 → Tactical Clean** complex (hike → figure-8 exits into clean → tactical clean → hike → switch sides). Full workout source file lives at `workouts/kettlebell/kb-figure-8-tactical-clean-complex.json` for future use; W12D4 runs a LIGHT 2-set version (12kg only) as a skill block, not the full ascending pyramid. Bent press dropped this week — already 'light groove / rested' on Tuesday. **W11D4 was skipped** — re-acquaint at light loads.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "spotlight-rotation"],
+  "estimatedDuration": 25,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "beginner",
+  "dayOverview": {
+    "theme": "Thursday recovery + TGU left-side spotlight + 🆕 figure-8 → tactical clean flow as the dance/passing skill block. Two skill streams: vertical (TGU checkpoints) and horizontal (figure-8 pass → clean catch). Bent press rests.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-turkish-getup",
+        "why": "W2 first TGU at 15lb — left clunky. W3 25lb workable, left still unstable. W7 25lb x 3 each side controlled. W10D2 BREAKTHROUGH — 'focus on the clean itself' made load disappear, bumped to 40 mid-session. W11D2 added the '2 forward + 2 reverse' pattern. W12 Thursday spotlights the LEFT SIDE specifically — same load as the right, but every checkpoint deliberate. The to-standing transition is where the left has historically been hardest; this is the work."
+      },
+      {
+        "exerciseId": "kettlebell-figure-8",
+        "why": "🆕 W12D3 user request — wanted a 'traditional KB flow, dance-like, passing through legs.' The @kettleclubfam Figure-8 → Tactical Clean complex matches exactly: the pass-through IS the entry to the clean (hand catches behind, pull becomes the clean to rack). Today's slot is the LIGHT version — 2 sets at 12kg (26lb) only, focus on the pass-to-clean transition. Full ascending pyramid (12→16→20→24kg) lives in the standalone workout file for future use."
+      }
+    ],
+    "rotationPlan": "W10 bent press · W11 windmill mechanics · W12 TGU left-side + figure-8 → tactical clean (current) · W13 cycle back to bent press, figure-8 flow stays in rotation if W12D4 lands well.",
+    "watchpoints": [
+      "**W11D4 skipped** — no recent Thursday data. Loads stay light to re-acquaint, not push.",
+      "**Minimal leg loading** — figure-8 holds a wide low stance for the pass-through, but no reps of squatting. Legs day is tomorrow.",
+      "**TGU left side gets the freshest reps.** Weak-side-first protocol — left first, right second. Every set.",
+      "**The setup IS the work** (W10D2 unlock) — punch the bell to a stable STRAIGHT-ARM overhead lockout before starting the get-up. The TGU is a straight-arm lift: the arm stays locked vertical the whole way up and down — no rack hold during the get-up. Wobble at the overhead lockout = wobble through the whole lift.",
+      "**Figure-8 → clean transition is the new skill** — pass between legs, hand catches behind, the catch becomes the clean to rack. Practice the pass-through first slowly before chaining the clean.",
+      "**Right shoulder watch on the clean** — same crackly pattern as push days. If anything talks during the catch, drop to just figure-8 passes (no clean) and finish the round."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "5 each direction", "notes": "**LOAD:** 15-20lb. Slow circles, both directions. Shoulder loosener." }
+      ],
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band overhead OR blue rope band gripped in hands (W10D2 alt)." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20, "notes": "Press out to T — fires rear delts and mid-traps." },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20, "notes": "Pull apart at sternum, scaps retract, ribs down." },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Sweep arms back. Don't overarch." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge — supports the TGU's hand-down + leg-sweep transitions." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in V/Y overhead. Hold and breathe — lower traps fire here, supports the TGU overhead lockout." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block",
+      "name": "OTD Flow (Light Groove — Re-Acquaint After W11D4 Skip)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-dead-clean", "notes": "**LOAD:** 20lb. Light and smooth.\n- Bell starts on the floor between feet\n- Hips drive the lift, not the arm\n- Catch in rack with knees slightly bent (the W3 cue that made everything click)" },
+        { "id": "kettlebell-front-squat", "notes": "Goblet/rack position. Sit tall, full depth, no bouncing." },
+        { "id": "kettlebell-lateral-lunge", "notes": "Stride out wide, sit into the working leg, keep the other leg long. Mobility, not strength." },
+        { "id": "kettlebell-bent-press", "notes": "Light groove of W10's spotlight — leverage cue (body goes down, bell barely moves). Should feel automatic now." },
+        { "id": "kettlebell-tactical-clean", "notes": "Control on the way down — bell to floor with the same cleanness as up." }
+      ],
+      "notes": "**This is a continuous FLOW, not 5 separate stations.** Move through the sequence as one chain — dead clean → front squat → lateral lunge → bent press → tactical clean — letting each move feed the next, then switch sides and flow back. About 2 reps' worth at each move, but don't stop to count — let the rhythm carry it. 20lb throughout, 2 rounds. Should feel effortless — re-acquaint after the W11D4 skip.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "skill-block",
+      "name": "🔆 Skill Drilling (TGU Left-Side Spotlight)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "1 forward + 1 reverse, LEFT SIDE FIRST then right",
+          "notes": "**LOAD:** 25lb (light — W11D4 was skipped, so re-acquaint at the home-base weight). 3 rounds.\n\n**🔆 SPOTLIGHT — drill the LEFT SIDE every rep:**\n- **Left first, every round** — the weak side gets the freshest reps every time\n- **The setup IS the work** (W10D2 unlock) — punch the bell to a stable STRAIGHT-ARM overhead lockout before starting the get-up. The TGU is a straight-arm lift: the arm stays locked vertical the whole way up and down — there is NO rack hold during the get-up itself (the clean-to-rack is only the brief entry before you press overhead). If the overhead lockout is wobbly, the rest of the lift inherits the wobble. Re-set until it's stable.\n- **Eyes ON the bell** every checkpoint — eyes leaving the bell = bell drift\n- **Pause at every checkpoint** — lying → elbow → hand → hip bridge → leg sweep → lunge → stand → reverse. No rushing. The descent (reverse) is half the lift.\n- **The to-standing transition is the LEFT-SIDE WEAK LINK** (historical pattern from W2 onwards). Slow down here specifically. Plant the back knee directly under the hip; drive through the FRONT HEEL; bell stays vertical.\n- **Hip bridge: glute squeeze, ribs down (no flare)** — rib flare on the bridge = lower back load = next week's QL flag.\n- **Reverse with the same discipline as forward** — slow, deliberate, every checkpoint paused. The reverse is where most people rush.\n\n**Pattern (W11D2 carry-forward):** **1 forward + 1 reverse per side per round, 3 rounds = 3 forward + 3 reverse per side total.** Cut from W11D2's 2+2 because the focus is left-side quality — fewer reps, cleaner reps.\n\n**Reflection:** does the left-side to-standing transition feel different by round 3? If the deliberate-checkpoint approach is sticking, round 3 left should feel as solid as round 1 right. If it's still shakier on left, that's confirmation that the left needs more deliberate volume — drill it again next Thursday at 25 before pushing the load.\n\n**Swap option:** if the to-standing transition still wobbles at 25 left, drop to a half get-up (lying → hand, then reverse) for left only. Get the lower checkpoints clean before adding the upper-half load."
+        },
+        { "id": "kettlebell-windmill", "reps": "5 each side", "notes": "**LOAD:** 18-20lb (light — keep cues clean). 2 rounds, 5 reps each side (cut from 3 to make room for the figure-8 flow block).\n- Light groove of W11's spotlight — long-spine + back-leg hip flexor reach\n- Bell locked overhead, eyes track bell\n- Hip hinge AWAY from bell side\n- Stretch in **back leg's hip flexor + hamstrings**, NOT lower back\n- Slow descent, brief pause, controlled return" }
+      ],
+      "restBetween": 60,
+      "restAfter": 30
+    },
+    {
+      "id": "figure-8-tactical-clean-flow",
+      "name": "🆕 Skill Block: Figure-8 → Tactical Clean (LIGHT version of @kettleclubfam complex)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        { "id": "kettlebell-figure-8-tactical-clean", "duration": 60, "notes": "**LIGHT version of the @kettleclubfam pyramid — 12kg (26lb) only this week.** Full pyramid (12→16→20→24kg) lives in `workouts/kettlebell/kb-figure-8-tactical-clean-complex.json` for future weeks; today's slot is skill-only.\n\n**Per round: 60s continuous flow at 12kg (26lb).** The figure-8-tactical-clean is ONE compound move (figure-8 pass exits into a clean to rack), repeated alternating sides.\n\n**Pattern (alternates sides as the pass-through switches hands):**\n- START hike position (bell between legs, hinged at hips)\n- **Figure-8 → exit into Tactical Clean to rack** — pass between legs, hand catches BEHIND, the catch pulls the bell up into a clean to rack on one side\n- Lower bell back through hike position\n- Next figure-8 pass switches sides → clean to rack on the other side\n- Continue alternating for the full 60s\n\n**Cues:**\n- **The figure-8 EXITS into the clean** — bell does NOT return to a hand mid-pass. Hand catches behind the body, the pull becomes the clean.\n- **Tactical clean = controlled, threaded into rack.** No yank, no forearm slam. The 'tactical' is the deliberate wrist-rotation into the rack position.\n- **Hike is home base** — every transition resets through hike. If you lose the bell, get back to hike before re-starting.\n- **Right shoulder watch on the rack catch** — same crackly pattern as push days. If anything talks during the catch, drop to JUST figure-8 passes (no clean) and finish the round.\n- **Pace yourself** — 60s feels long mid-flow. Find a sustainable rhythm.\n\n**Reflection:** does the figure-8 → clean transition feel like one movement by round 2, or is the pass-through still a separate beat from the catch? If it's still beat-1-then-beat-2, that's the skill — practice slow before adding load. **DO NOT progress to heavier bell this week** — 12kg only. The ascending pyramid version is for full sessions, not pre-legs Thursday." }
+      ],
+      "notes": "**🆕 First time this complex is in the program.** Light skill version — 2 rounds at 12kg, 60s of continuous flow each. Total ~3 min work + rest. The full @kettleclubfam workout (ascending 12→24kg pyramid) is a 25-min session — that's a Tuesday slot eventually, not Thursday.\n\nSource: @kettleclubfam Facebook reel — https://www.facebook.com/reel/2784846568518362",
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — TGU hip bridge + lateral lunge fries hip flexors. This counters." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight from cossacks + lateral lunges." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**THURSDAY = SKILL + MOBILITY, NOT WORKOUT.** ~25 min, light. Recovery flank between Wed pull and Fri legs.",
+    "**Spotlight: TGU left-side checkpoints.** Drill the to-standing transition specifically. Weak-side-first, every round.",
+    "**🆕 NEW skill block: figure-8 → tactical clean flow** (@kettleclubfam, light version). 12kg (26lb) only, 2 rounds of 60s continuous flow. The pass exits INTO the clean — that's the new skill. Hike is home base.",
+    "**The setup IS the work** (W10D2 unlock) — punch the bell to a stable straight-arm overhead lockout before any get-up movement. The arm stays locked vertical throughout — no rack hold during the get-up. Wobble at the lockout = wobble through the lift.",
+    "**Minimal leg loading** — figure-8 holds a wide low stance but no squat reps. Save legs for tomorrow.",
+    "**Heaviest bell: 25lb (TGU only).** Figure-8 at 12kg (26lb). Most of the session at 18-20lb.",
+    "**W11D4 was skipped** — re-acquaint at light loads. No load chase.",
+    "**Bent press rests this week** — got its spotlight W10 + light groove W11 + Tuesday already loaded overhead 4 ways. Returns W13.",
+    "**Right shoulder watch on the clean catch** — same crackly pattern as push days. If it talks during the catch, drop to figure-8 passes only and finish the round.",
+    "Cooldown mandatory — pigeon + butterfly. Hips and adductors get tight on KB days.",
+    "**The full @kettleclubfam ascending pyramid** (12→16→20→24kg, 4 sets descending time) lives in `workouts/kettlebell/kb-figure-8-tactical-clean-complex.json` — that's a full Tuesday session eventually, not Thursday.",
+    "Should feel effortless. If anything feels like work, it's too hard.",
+    "Rotation plan: W13 cycle back to bent press, figure-8 flow stays in rotation if W12D4 lands well."
+  ],
+  "formPhilosophy": "Thursday = skill becomes default movement. Two skill streams today: vertical (TGU checkpoint discipline at left-side) and horizontal (figure-8 → tactical clean transition at light load). The cue is the whole point — quantity is not."
+}
