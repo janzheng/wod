@@ -93,13 +93,26 @@ const MANIFEST = {
 };
 
 // Service Worker
+//
+// Opening the app must never wait on the network. The page shell and the
+// catalogue it loads (workouts, programs, routines, exercises) are served from
+// the cache straight away and refreshed behind it; only a first visit waits.
+// When a refreshed copy differs from the cached one, the worker tells the page
+// so it can swap the new data in without a reload (see refreshData in the app).
+// The two CDN hosts the page cannot render without are cached the same way.
+// No template-literal syntax in here: this whole block is a JS template string.
 const SERVICE_WORKER = `
-const CACHE_NAME = 'wod-v9';
+const CACHE_NAME = 'wod-v10';
 const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
+const DATA_URLS = ['/api/routines', '/api/workouts', '/api/saved', '/api/programs', '/api/exercises', '/api/progressions'];
+const DATA_PREFIXES = DATA_URLS.concat(['/static/exercises.json', '/static/workouts.json', '/static/programs/']);
+const CDN_HOSTS = ['cdn.jsdelivr.net', 'code.iconify.design'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS))
+    caches.open(CACHE_NAME).then((cache) =>
+      Promise.all([cache.addAll(STATIC_ASSETS)].concat(DATA_URLS.map((u) => cache.add(u).catch(() => {}))))
+    )
   );
   self.skipWaiting();
 });
@@ -113,36 +126,66 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
+function announce(url) {
+  return self.clients.matchAll().then((clients) => {
+    clients.forEach((client) => client.postMessage({ type: 'data-updated', url: url }));
+  });
+}
+
+// Third-party scripts: cached on first fetch, then served from the cache.
+function cacheFirst(event) {
+  event.respondWith(
+    caches.open(CACHE_NAME).then((cache) =>
+      cache.match(event.request).then((cached) =>
+        cached || fetch(event.request).then((response) => {
+          if (response.ok || response.type === 'opaque') cache.put(event.request, response.clone()).catch(() => {});
+          return response;
+        })
+      )
+    )
+  );
+}
+
+// Serve the cached copy at once and refresh it behind the response.
+function staleWhileRevalidate(event, key, notify) {
+  event.respondWith(
+    caches.open(CACHE_NAME).then((cache) =>
+      cache.match(key).then((cached) => {
+        const network = fetch(event.request).then((response) => {
+          if (response.status !== 200) return response;
+          const oldTag = cached && cached.headers.get('etag');
+          const newTag = response.headers.get('etag');
+          return cache.put(key, response.clone()).catch(() => {}).then(() => {
+            if (notify && oldTag && newTag && oldTag !== newTag) announce(event.request.url);
+            return response;
+          });
+        });
+        if (cached) {
+          event.waitUntil(network.catch(() => {}));
+          return cached;
+        }
+        return network;
+      })
+    )
+  );
+}
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
-  const requestUrl = new URL(event.request.url);
-  if (requestUrl.origin !== self.location.origin) return;
-  if (requestUrl.pathname.startsWith('/api/')) return;
-  if (requestUrl.pathname.startsWith('/_smolbox/') || requestUrl.pathname.startsWith('/cdn-cgi/access/')) return;
-  if (event.request.mode === 'navigate') {
-    event.respondWith(
-      fetch(event.request).then((response) => {
-        if (response.ok) {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put('/', clone));
-        }
-        return response;
-      }).catch(() => caches.match('/').then((cached) => cached || Response.error()))
-    );
+  const url = new URL(event.request.url);
+  const path = url.pathname;
+  if (url.origin !== self.location.origin) {
+    if (CDN_HOSTS.indexOf(url.hostname) !== -1) cacheFirst(event);
     return;
   }
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      const fetchPromise = fetch(event.request).then((response) => {
-        if (response.ok) {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-        }
-        return response;
-      }).catch(() => cached);
-      return cached || fetchPromise;
-    })
-  );
+  if (path.startsWith('/_smolbox/') || path.startsWith('/cdn-cgi/access/')) return;
+  if (event.request.mode === 'navigate') {
+    staleWhileRevalidate(event, '/', false);
+    return;
+  }
+  const isData = DATA_PREFIXES.some((p) => path.startsWith(p));
+  if (path.startsWith('/api/') && !isData) return;
+  staleWhileRevalidate(event, event.request, isData);
 });
 `;
 
@@ -2413,6 +2456,31 @@ function routineStackApp() {
       this.$watch('exerciseTypeFilter', () => this.updateFilteredExercises());
     },
 
+    // Swap in a newer catalogue the service worker just fetched, without the
+    // loading state or a reset: the open workout stays as it is until you
+    // navigate. Several files change together, so wait for the burst to end.
+    refreshData() {
+      clearTimeout(this._refreshTimer);
+      this._refreshTimer = setTimeout(async () => {
+        const getJson = (url) => fetch(url).then((res) => res.ok ? res.json() : null).catch(() => null);
+        const [routines, workouts, programs] = await Promise.all([
+          getJson('/api/routines'),
+          getJson('/api/workouts'),
+          getJson('/api/programs'),
+        ]);
+        if (routines) this.routines = routines;
+        if (workouts) this.allWorkouts = workouts;
+        if (programs) {
+          this.programs = programs.sort((a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99));
+          if (this.selectedProgram) {
+            this.selectedProgram = this.programs.find(p => p.id === this.selectedProgram.id) || this.selectedProgram;
+          }
+        }
+        await this.loadExercisesCatalogue();
+        if (this.updateFilteredExercises) this.updateFilteredExercises();
+      }, 400);
+    },
+
     async loadData() {
       this.loading = true;
       this.savedWorkouts = [];
@@ -2970,7 +3038,15 @@ function routineStackApp() {
 <!-- Service Worker Registration -->
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?v=wod-v8', { updateViaCache: 'none' }).catch(err => console.log('SW registration failed:', err));
+  navigator.serviceWorker.register('/sw.js?v=wod-v10', { updateViaCache: 'none' }).catch(err => console.log('SW registration failed:', err));
+  // The worker serves the catalogue from its cache and refreshes it behind the
+  // page. When the fresh copy differs, it says so and the app swaps the data in.
+  navigator.serviceWorker.addEventListener('message', (event) => {
+    if (!event.data || event.data.type !== 'data-updated') return;
+    const root = document.getElementById('app');
+    const app = root && window.Alpine && window.Alpine.$data(root);
+    if (app && app.refreshData) app.refreshData();
+  });
 }
 </script>
 
