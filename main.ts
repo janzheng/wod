@@ -4,6 +4,36 @@ import { etag } from "https://deno.land/x/hono@v3.11.7/middleware/etag/index.ts"
 
 export const app = new Hono();
 
+// Deno Deploy is shutting down and the site lives on surge. If this app is
+// still running on Deno Deploy it is only a signpost: every route redirects to
+// the same path on surge. /sw.js is the exception (a worker script cannot sit
+// behind a redirect), so it is a worker that empties the old cache and moves
+// open tabs and the installed PWA to the new address. Locally and in the
+// static export DENO_DEPLOYMENT_ID is unset, so none of this runs.
+const SURGE_ORIGIN = "https://wod-yawnxyz.surge.sh";
+const LEGACY_SERVICE_WORKER = `
+const NEW_ORIGIN = '${SURGE_ORIGIN}';
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    for (const key of await caches.keys()) await caches.delete(key);
+    const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    for (const client of clients) {
+      const old = new URL(client.url);
+      client.navigate(NEW_ORIGIN + old.pathname + old.search).catch(() => {});
+    }
+    await self.registration.unregister();
+  })());
+});
+`;
+if (Deno.env.get("DENO_DEPLOYMENT_ID")) {
+  app.get("/sw.js", () =>
+    new Response(LEGACY_SERVICE_WORKER, {
+      headers: { "Content-Type": "application/javascript", "Cache-Control": "no-cache" },
+    }));
+  app.all("*", (c) => c.redirect(SURGE_ORIGIN + c.req.path + new URL(c.req.url).search, 302));
+}
+
 // PWA Manifest
 const MANIFEST = {
   name: "Workouts of the Day",

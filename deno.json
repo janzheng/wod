@@ -35,7 +35,8 @@
     "wod:aj": "deno run -A src/cli/mod.ts generate --routine=action-jacqueline",
     "wod:random": "deno run -A src/cli/mod.ts generate --routine=gym --random",
     "build:static": "deno run -A scripts/build-static.ts",
-    "deploy": "deno task build:static && surge dist wod-yawnxyz.surge.sh"
+    "deploy": "deno task build:static && surge dist wod-yawnxyz.surge.sh",
+    "deploy:deno-redirect": "deno deploy --org yawnxyz --app wod --prod"
   },
   "imports": {
     "hono": "https://deno.land/x/hono@v3.11.7/mod.ts",
