@@ -130,7 +130,7 @@ Preserve box-only Ask/collaboration changes. Do not reset either checkout,
 mirror folders with deletion, blanket-overwrite source, or reapply the old
 readiness checkpoint just because it has a different hash. Stop and surface
 conflicts or ambiguous ownership. Build/test the destination after an update.
-Publishing to Deno Deploy is a separate action requested by the owner.
+Publishing the public site (`deno task deploy`, surge) is a separate action requested by the owner.
 
 ## Distinguish current files from Ask WOD's snapshot
 

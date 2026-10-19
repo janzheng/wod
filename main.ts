@@ -1,81 +1,8 @@
-import "jsr:@std/dotenv/load";
 import { Hono } from "hono";
 import { compress } from "https://deno.land/x/hono@v3.11.7/middleware/compress/index.ts";
 import { etag } from "https://deno.land/x/hono@v3.11.7/middleware/etag/index.ts";
-import { createWodAI, getConfig } from "./src/ai/mod.ts";
-import { complete } from "./src/ai/llm/provider.ts";
-import type { ConversationSession } from "./src/ai/types.ts";
-import {
-  createPiAgent,
-  PiAgentBusyError,
-  PiAgentCancelledError,
-  PiAgentCapacityError,
-  PiAgentProcessError,
-  PiAgentSessionLimitError,
-  PiAgentTimeoutError,
-} from "./src/ai/pi-agent.ts";
-import { createPiJobStore } from "./src/ai/pi-jobs.ts";
-import {
-  builderAccessResponse,
-  builderLoginResponse,
-  isSameOriginAgentRequest,
-  readAgentJson,
-  RequestBodyTooLargeError,
-} from "./src/ai/http-boundary.ts";
 
-const app = new Hono();
-const piAgent = createPiAgent();
-
-const piJobErrorMessage = (error: unknown): string => {
-  if (error instanceof PiAgentBusyError) {
-    return "This builder session is already working.";
-  }
-  if (
-    error instanceof PiAgentCapacityError ||
-    error instanceof PiAgentSessionLimitError
-  ) return error.message;
-  if (error instanceof PiAgentTimeoutError) {
-    return "Pi exceeded the ten-minute turn limit.";
-  }
-  if (error instanceof PiAgentCancelledError) return "Pi request was cancelled.";
-  if (error instanceof TypeError) return error.message;
-  if (error instanceof PiAgentProcessError) {
-    console.error("Pi web agent error:", error.message);
-    return "Pi could not complete this request.";
-  }
-  console.error("Pi web agent error:", error);
-  return "The WOD builder failed.";
-};
-
-const piJobs = createPiJobStore({
-  run: async (request) => {
-    const result = await piAgent.chat(request);
-    return {
-      message: result.message,
-      sessionId: result.sessionId,
-      workout: null,
-      intent: "builder",
-      critique: null,
-    };
-  },
-  formatError: piJobErrorMessage,
-});
-
-// AI pipeline (lazy init on first request)
-let wodAI: Awaited<ReturnType<typeof createWodAI>> | null = null;
-const aiSessions = new Map<string, ConversationSession>();
-
-async function getWodAI() {
-  if (!wodAI) {
-    const dataDir = new URL("./", import.meta.url).pathname;
-    const config = getConfig();
-    wodAI = await createWodAI(dataDir, config);
-    console.log(
-      `AI loaded: ${wodAI.index.size} exercises, ${wodAI.data.workouts.size} templates`,
-    );
-  }
-  return wodAI;
-}
+export const app = new Hono();
 
 // PWA Manifest
 const MANIFEST = {
@@ -103,7 +30,7 @@ const MANIFEST = {
 // No template-literal syntax in here: this whole block is a JS template string.
 const SERVICE_WORKER = `
 const CACHE_NAME = 'wod-v10';
-const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js', '/static/chat.js'];
+const STATIC_ASSETS = ['/', '/static/generator.js', '/static/timeline.js', '/static/timer.js'];
 const DATA_URLS = ['/api/routines', '/api/workouts', '/api/saved', '/api/programs', '/api/exercises', '/api/progressions'];
 const DATA_PREFIXES = DATA_URLS.concat(['/static/exercises.json', '/static/workouts.json', '/static/programs/']);
 const CDN_HOSTS = ['cdn.jsdelivr.net', 'code.iconify.design'];
@@ -178,7 +105,6 @@ self.addEventListener('fetch', (event) => {
     if (CDN_HOSTS.indexOf(url.hostname) !== -1) cacheFirst(event);
     return;
   }
-  if (path.startsWith('/_smolbox/') || path.startsWith('/cdn-cgi/access/')) return;
   if (event.request.mode === 'navigate') {
     staleWhileRevalidate(event, '/', false);
     return;
@@ -216,10 +142,7 @@ const tagBody = etag({ weak: true });
 const BINARY_STATIC = /\.(png|jpe?g|gif|mp3|wav)$/i;
 app.use("*", async (c, next) => {
   const p = c.req.path;
-  if (
-    c.req.method !== "GET" || p.startsWith("/api/ai/") ||
-    p.startsWith("/_smolbox/") || p.startsWith("/cdn-cgi/")
-  ) return next();
+  if (c.req.method !== "GET") return next();
   // Headers go on after the handler runs: a route that returns a bare Response
   // (the static files do) would drop anything set before it.
   if (BINARY_STATIC.test(p)) {
@@ -364,319 +287,6 @@ app.get("/api/programs/:id", async (c) => {
   return c.json(data);
 });
 
-// Exercise search endpoint
-app.get("/api/ai/search", async (c) => {
-  const q = c.req.query("q") || "";
-  const limit = parseInt(c.req.query("limit") || "10");
-  if (!q.trim()) return c.json({ results: [] });
-
-  const wod = await getWodAI();
-  const results = wod.index.search(q.trim(), limit).map((ex) => ({
-    id: ex.id,
-    name: ex.name,
-    category: ex.category,
-    type: ex.type,
-    muscles: ex.muscles,
-    equipment: ex.equipment,
-    tags: ex.tags,
-    difficulty: ex.difficulty,
-    description: ex.description,
-  }));
-  return c.json({ results, query: q.trim() });
-});
-
-app.get("/_smolbox/access", () => builderAccessResponse());
-app.get("/_smolbox/login", (c) => builderLoginResponse(c.req.raw));
-
-// Authentication is the host's Access boundary, not guest-managed identity.
-// Reject browser cross-origin writes before reading a body or starting an agent.
-app.use("/api/ai/*", async (c, next) => {
-  c.header("Cache-Control", "no-store");
-  if (!["GET", "HEAD"].includes(c.req.method) && !isSameOriginAgentRequest(c.req.raw)) {
-    return c.json({ error: "Open Builder on this site." }, 403);
-  }
-  if (c.req.method === "OPTIONS") return new Response(null, { status: 204 });
-  await next();
-});
-
-// Owner browser prompt -> Pi -> configured model route in the project computer.
-app.post("/api/ai/chat", async (c) => {
-  c.header("Cache-Control", "no-store");
-
-  let body: {
-    prompt?: unknown;
-    sessionId?: unknown;
-    pageContext?: unknown;
-  } | null;
-  try {
-    body = await readAgentJson(c.req.raw) as typeof body;
-  } catch (error) {
-    if (error instanceof RequestBodyTooLargeError) {
-      return c.json({ error: error.message }, 413);
-    }
-    return c.json({ error: "invalid JSON body" }, 400);
-  }
-  if (!body || typeof body.prompt !== "string" || !body.prompt.trim()) {
-    return c.json({ error: "prompt is required" }, 400);
-  }
-
-  const sessionId = typeof body.sessionId === "string" && body.sessionId.trim()
-    ? body.sessionId
-    : crypto.randomUUID();
-  try {
-    const job = piJobs.create({
-      prompt: body.prompt,
-      sessionId,
-      pageContext: body.pageContext,
-    });
-    return c.json({
-      jobId: job.id,
-      status: job.status,
-      sessionId: job.sessionId,
-    }, 202);
-  } catch (error) {
-    if (error instanceof TypeError) {
-      return c.json({ error: error.message }, 400);
-    }
-    console.error("Could not create Pi web job:", error);
-    c.header("Retry-After", "5");
-    return c.json({ error: "WOD Builder job capacity reached." }, 429);
-  }
-});
-
-app.get("/api/ai/jobs/:id", (c) => {
-  c.header("Cache-Control", "no-store");
-  const job = piJobs.get(c.req.param("id"));
-  if (!job) return c.json({ error: "Agent job not found." }, 404);
-  return c.json(job);
-});
-
-app.delete("/api/ai/session", async (c) => {
-  c.header("Cache-Control", "no-store");
-
-  let body: { sessionId?: unknown } | null;
-  try {
-    body = await readAgentJson(c.req.raw) as typeof body;
-  } catch (error) {
-    if (error instanceof RequestBodyTooLargeError) {
-      return c.json({ error: error.message }, 413);
-    }
-    return c.json({ error: "invalid JSON body" }, 400);
-  }
-  if (!body || typeof body.sessionId !== "string") {
-    return c.json({ error: "sessionId is required" }, 400);
-  }
-
-  try {
-    piJobs.cancelSession(body.sessionId);
-    await piAgent.clearSession(body.sessionId);
-    return new Response(null, { status: 204, headers: { "Cache-Control": "no-store" } });
-  } catch (error) {
-    if (error instanceof TypeError) {
-      return c.json({ error: error.message }, 400);
-    }
-    console.error("Could not clear Pi web session:", error);
-    return c.json({ error: "Pi session could not be cleared." }, 500);
-  }
-});
-
-// Legacy Groq-backed workout chat. The browser no longer calls this route.
-app.post("/api/ai/legacy-chat", async (c) => {
-  const body = await c.req.json<{
-    prompt: string;
-    sessionId?: string;
-    workoutContext?: Record<string, unknown>;
-    history?: Array<
-      {
-        role: string;
-        content: string;
-        workoutContext?: Record<string, unknown>;
-      }
-    >;
-    enableCritic?: boolean;
-  }>();
-  if (!body.prompt) return c.json({ error: "prompt is required" }, 400);
-
-  const apiKey = Deno.env.get("GROQ_API_KEY");
-  if (!apiKey) return c.json({ error: "GROQ_API_KEY not configured" }, 503);
-
-  try {
-    const config = getConfig();
-
-    // Step 1: Classify — question, search, or generate?
-    const classifyMessages = [
-      {
-        role: "system" as const,
-        content:
-          `You are a classifier. Given a user message about fitness/workouts, respond with EXACTLY one word:
-- "search" if the user asks about a specific exercise by name, wants to find exercises, or asks "what is X" / "do we have X" / "tell me about X exercise" (e.g. "what about butterfly stretch", "do we have turkish getup", "find me hamstring exercises", "what is a plié squat")
-- "question" if the user asks a general question, seeks advice, or wants information about a workout they're viewing (e.g. "does this build muscle?", "is this good for beginners?", "how many calories?", "what should I eat?")
-- "generate" if the user wants to create, modify, or change a workout (e.g. "make a leg workout", "make it harder", "add more core", "create a 30 min routine")
-
-Respond with ONLY one word, nothing else.`,
-      },
-      { role: "user" as const, content: body.prompt },
-    ];
-
-    const classification =
-      (await complete(classifyMessages, { ...config, temperature: 0 }))
-        .toLowerCase().trim();
-    const intent = classification.startsWith("search")
-      ? "search"
-      : classification.startsWith("question")
-      ? "question"
-      : "generate";
-
-    if (intent === "search" || intent === "question") {
-      // Search the exercise library when relevant
-      const wod = await getWodAI();
-      let searchResults: Array<Record<string, unknown>> = [];
-
-      if (intent === "search") {
-        // Extract search terms (strip common prefixes)
-        const searchQuery = body.prompt
-          .replace(
-            /^(what about|do we have|find me|tell me about|what is|show me|search for|look up)\s*/i,
-            "",
-          )
-          .replace(/\?+$/, "")
-          .trim();
-        const results = wod.index.search(searchQuery, 8);
-        searchResults = results.map((ex) => ({
-          id: ex.id,
-          name: ex.name,
-          category: ex.category,
-          type: ex.type,
-          muscles: ex.muscles,
-          equipment: ex.equipment,
-          tags: ex.tags,
-          difficulty: ex.difficulty,
-          description: ex.description,
-        }));
-      }
-
-      // Q&A path — answer using workout context + search results + history
-      let systemPrompt =
-        `You are a knowledgeable, friendly fitness coach. Answer the user's question concisely and helpfully.`;
-
-      if (searchResults.length > 0) {
-        systemPrompt += `\n\nSearch results from the exercise library:\n${
-          JSON.stringify(searchResults, null, 2)
-        }\n\nUse these results to answer the user's question. Mention which exercises were found and key details (muscles, difficulty, description). If the exact exercise wasn't found, mention the closest matches.`;
-      } else if (intent === "search") {
-        systemPrompt +=
-          `\n\nNo matching exercises were found in the library for this search. Let the user know and suggest what they might search for instead.`;
-      }
-
-      if (body.workoutContext) {
-        systemPrompt += `\n\nThe user is currently viewing this workout:\n${
-          JSON.stringify(body.workoutContext, null, 2)
-        }`;
-      }
-
-      systemPrompt +=
-        `\nKeep answers focused and practical. Use 2-4 sentences unless the question needs more detail. Don't generate a new workout unless explicitly asked.
-When the user references previous workouts from the conversation, use the context provided in earlier messages to answer accurately.`;
-
-      // Build messages array with history
-      const chatMessages: Array<
-        { role: "system" | "user" | "assistant"; content: string }
-      > = [
-        { role: "system", content: systemPrompt },
-      ];
-
-      if (body.history?.length) {
-        for (const h of body.history.slice(-16)) {
-          const role = h.role === "user"
-            ? "user" as const
-            : "assistant" as const;
-          let content = h.content;
-          if (h.role === "user" && h.workoutContext) {
-            content = `[Viewing: ${
-              (h.workoutContext as Record<string, unknown>).name
-            }] ${content}`;
-          }
-          chatMessages.push({ role, content });
-        }
-      }
-
-      chatMessages.push({ role: "user", content: body.prompt });
-
-      const answer = await complete(chatMessages, config);
-      const sessionId = body.sessionId || crypto.randomUUID();
-
-      return c.json({
-        workout: null,
-        intent: intent,
-        critique: null,
-        sessionId,
-        message: answer,
-        searchResults: searchResults.length > 0 ? searchResults : undefined,
-      });
-    }
-
-    // Workout generation path — use full pipeline
-    const wod = await getWodAI();
-    const session = body.sessionId ? aiSessions.get(body.sessionId) : undefined;
-
-    // Build enriched prompt with conversation history + current context
-    let enrichedPrompt = "";
-
-    // Add conversation history summary so generation knows about previously discussed workouts
-    if (body.history?.length) {
-      const workoutMentions: string[] = [];
-      for (const h of body.history.slice(-16)) {
-        if (h.role === "user" && h.workoutContext) {
-          const wc = h.workoutContext as Record<string, unknown>;
-          workoutMentions.push(`- "${wc.name}": ${h.content}`);
-        }
-      }
-      if (workoutMentions.length) {
-        enrichedPrompt += `[PREVIOUSLY DISCUSSED WORKOUTS]\n${
-          workoutMentions.join("\n")
-        }\n\n`;
-      }
-    }
-
-    if (body.workoutContext) {
-      enrichedPrompt += `[CURRENT WORKOUT CONTEXT]\n${
-        JSON.stringify(body.workoutContext)
-      }\n\n`;
-    }
-    enrichedPrompt += `[USER MESSAGE]\n${body.prompt}`;
-
-    const result = await wod.chat({
-      prompt: enrichedPrompt,
-      session,
-      enableCritic: body.enableCritic ?? true,
-    });
-
-    aiSessions.set(result.session.id, result.session);
-
-    const w = result.workout;
-    const exCount = w.sets.reduce(
-      (n: number, s: { exercises: unknown[] }) => n + s.exercises.length,
-      0,
-    );
-    let message =
-      `Here's "${w.name}" — ${w.sets.length} sets, ${exCount} exercises`;
-    if (w.estimatedDuration) message += `, ~${w.estimatedDuration} min`;
-    message += ".";
-    if (w.tips?.length) message += ` Tip: ${w.tips[0]}`;
-
-    return c.json({
-      workout: result.workout,
-      intent: result.intent,
-      critique: result.critique,
-      sessionId: result.session.id,
-      message,
-    });
-  } catch (err) {
-    console.error("AI chat error:", err);
-    return c.json({ error: String(err) }, 500);
-  }
-});
-
 // Serve static files (images, js, sounds)
 app.get("/static/*", async (c) => {
   const path = c.req.path.replace("/static/", "./static/");
@@ -792,13 +402,9 @@ app.get("/*", async (c) => {
   const timerJs = await Deno.readTextFile(
     new URL("./static/timer.js", import.meta.url),
   ).catch(() => "");
-  const chatJs = await Deno.readTextFile(
-    new URL("./static/chat.js", import.meta.url),
-  ).catch(() => "");
   const linkifyJs = await Deno.readTextFile(
     new URL("./static/linkify.js", import.meta.url),
   ).catch(() => "");
-  const agentBaseUrl = Deno.env.get("WOD_AGENT_BASE_URL")?.trim() ?? "";
 
   // The page inlines the CSS/JS it was built from, so a cached copy pins the
   // whole app to an old version until someone hard-refreshes.
@@ -809,9 +415,7 @@ app.get("/*", async (c) => {
       generatorJs,
       timelineJs,
       timerJs,
-      chatJs,
       linkifyJs,
-      agentBaseUrl,
     ),
   );
 });
@@ -821,14 +425,8 @@ function renderPage(
   generatorJs: string,
   timelineJs: string,
   timerJs: string,
-  chatJs: string,
   linkifyJs: string,
-  agentBaseUrl: string,
 ) {
-  const agentBaseUrlJson = JSON.stringify(agentBaseUrl).replaceAll(
-    "<",
-    "\\u003c",
-  );
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1023,31 +621,6 @@ function renderPage(
             </nav>
           </div>
 
-          <!-- AI Custom Workouts -->
-          <template x-if="customWorkouts && customWorkouts.length > 0">
-          <div class="sidebar-group">
-            <div class="sidebar-group-label">AI Custom</div>
-            <nav class="sidebar-menu">
-              <template x-for="(cw, cwIdx) in customWorkouts" :key="'custom-' + cwIdx">
-                <div class="sidebar-menu-item" style="position: relative;">
-                  <button
-                    class="sidebar-menu-button"
-                    :class="{ 'active': selectedWorkoutId === cw.id }"
-                    @click="applyAIWorkout(cw)"
-                  >
-                    <span class="iconify sidebar-icon" data-icon="lucide:sparkles"></span>
-                    <span class="sidebar-menu-label" x-text="cw.name"></span>
-                    <span class="sidebar-menu-badge" x-show="cw.estimatedDuration" x-text="cw.estimatedDuration + 'm'"></span>
-                  </button>
-                  <button class="custom-workout-delete" @click.stop="removeCustomWorkout(cw.id)" title="Remove">
-                    <span class="iconify" data-icon="lucide:x" style="width: 0.75rem; height: 0.75rem;"></span>
-                  </button>
-                </div>
-              </template>
-            </nav>
-          </div>
-          </template>
-
           <div class="sidebar-group">
             <div class="sidebar-group-label">Categories</div>
             <div class="folder-tree">
@@ -1099,10 +672,6 @@ function renderPage(
           <span class="iconify sidebar-trigger-icon" :class="{ 'rotated': !sidebarOpen }" data-icon="lucide:panel-left"></span>
         </button>
         <h1 class="sidebar-inset-title" x-text="currentView === 'exercises' ? 'Exercise Library' : currentView === 'notes' ? notesTitle : (selectedProgram ? (selectedWeekIdx !== null && selectedProgram.weeks ? selectedProgram.name + ' — Week ' + selectedProgram.weeks[selectedWeekIdx].week : selectedProgram.name) : (selectedWorkout ? selectedWorkout.name : (selectedActivity ? (selectedActivity.label || selectedActivity.activity?.name || 'Activity') : 'Select a Workout')))"></h1>
-        <button class="chat-toggle-btn" @click="toggleChat()" :class="{ 'active': chatOpen }">
-          <span class="iconify" data-icon="lucide:message-square"></span>
-          <span class="chat-toggle-label">WOD Builder</span>
-        </button>
       </header>
 
       <div class="sidebar-inset-content">
@@ -2050,85 +1619,6 @@ function renderPage(
       </div>
     </main>
 
-    <!-- AI Chat Panel (Right Sidebar) -->
-    <div class="chat-panel-wrapper" :class="{ 'open': chatOpen }">
-    <aside class="chat-panel">
-      <div class="chat-panel-header">
-        <div class="chat-panel-title">
-          <span class="iconify" data-icon="lucide:bot"></span>
-          <span>WOD Builder</span>
-        </div>
-        <div class="chat-panel-actions">
-          <button class="chat-action-btn" @click="clearChat()" title="Clear chat">
-            <span class="iconify" data-icon="lucide:trash-2"></span>
-          </button>
-          <button class="chat-action-btn" @click="chatOpen = false">
-            <span class="iconify" data-icon="lucide:x"></span>
-          </button>
-        </div>
-      </div>
-
-      <div class="chat-context-bar">
-        <span class="iconify" data-icon="lucide:globe-2"></span>
-        <span>Public prototype · free Nemotron · do not send private information</span>
-      </div>
-
-      <div class="chat-context-bar" x-show="chatAccessMessage" role="status">
-        <span x-text="chatAccessMessage"></span>
-        <button class="chat-action-btn" x-show="chatSignInRequired" @click="signInBuilder()">Sign in</button>
-        <button class="chat-action-btn" x-show="!chatSignInRequired" @click="checkChatAccess()">Try again</button>
-      </div>
-
-      <div class="chat-messages">
-        <template x-if="chatMessages.length === 0">
-          <div class="chat-empty">
-            <span class="iconify" data-icon="lucide:message-square" style="font-size: 2rem; opacity: 0.3;"></span>
-            <p>Pi can inspect or change the WOD project running in this smolbox.</p>
-            <div class="chat-suggestions">
-              <button class="chat-suggestion" @click="chatInput = 'Summarize this WOD project and its current git status.'; sendChatMessage()">Inspect project</button>
-              <button class="chat-suggestion" @click="chatInput = 'Explain how the current page is assembled.'; sendChatMessage()">Explain this page</button>
-              <button class="chat-suggestion" @click="chatInput = 'Make one small visible improvement, run the relevant check, and summarize it.'; sendChatMessage()">Improve WOD</button>
-            </div>
-          </div>
-        </template>
-
-        <template x-for="(msg, msgIdx) in chatMessages" :key="'chat-' + msgIdx">
-          <div class="chat-message" :class="msg.role">
-            <div class="chat-message-content" x-html="renderMarkdown(msg.content)"></div>
-            <template x-if="msg.role === 'assistant' && msg.workout">
-              <div class="chat-message-actions">
-                <button class="chat-apply-btn" @click="applyAIWorkout(msg.workout)">
-                  <span class="iconify" data-icon="lucide:download"></span>
-                  Save &amp; Apply
-                </button>
-              </div>
-            </template>
-          </div>
-        </template>
-
-        <template x-if="chatLoading">
-          <div class="chat-message assistant">
-            <div class="chat-typing"><span></span><span></span><span></span></div>
-          </div>
-        </template>
-      </div>
-
-      <div class="chat-input-area">
-        <input
-          type="text"
-          class="chat-input-field"
-          x-model="chatInput"
-          @input="persistChatDraft()"
-          @keydown.enter="sendChatMessage()"
-          placeholder="Ask Pi to inspect or change WOD..."
-          :disabled="chatLoading"
-        />
-        <button class="chat-send-btn" @click="sendChatMessage()" :disabled="!chatInput.trim() || chatLoading || chatSignInRequired">
-          <span class="iconify" data-icon="lucide:send"></span>
-        </button>
-      </div>
-    </aside>
-    </div>
   </div>
 
 </div>
@@ -2144,16 +1634,10 @@ ${timelineJs}
 
 ${timerJs}
 
-globalThis.WOD_AGENT_BASE_URL = ${agentBaseUrlJson};
-
-${chatJs}
-
 ${linkifyJs}
 
 function routineStackApp() {
-  const chatMixin = typeof chatPanel === 'function' ? chatPanel() : {};
   return {
-    ...chatMixin,
     linkify: _linkify,
     renderNotes(text) {
       if (!text) return '';
@@ -2443,9 +1927,6 @@ function routineStackApp() {
         this.loadProgressions(),
       ]);
       this.autoLoadRandomWorkout();
-
-      // Initialize AI chat panel
-      if (this.initChat) this.initChat();
 
       // Update filtered exercises on any filter change
       this.updateFilteredExercises();
@@ -3054,8 +2535,8 @@ if ('serviceWorker' in navigator) {
 </html>`;
 }
 
-// Start server for local dev, skip for Deno Deploy/Val Town
-if (!Deno.env?.get?.("DENO_DEPLOYMENT_ID") && !Deno.env?.get?.("valtown")) {
+// Start server for local dev; skip when imported (static export) or on Val Town
+if (import.meta.main && !Deno.env?.get?.("DENO_DEPLOYMENT_ID") && !Deno.env?.get?.("valtown")) {
   const port = parseInt(Deno.env?.get?.("PORT") || "8000");
   console.log(`🏋️ Workouts of the Day running at http://localhost:${port}`);
   Deno.serve({ port }, app.fetch);

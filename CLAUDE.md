@@ -96,9 +96,9 @@ Program manifests are large. Inspect the relevant tail or fields with `jq`/`grep
 - `deno task build:exercises` — Rebuild exercises catalogue
 - `deno task build:workouts` — Rebuild workouts catalogue
 - `deno task dev` — Dev server on port 8010
-- `deno task deploy` — Deploy the app to Deno Deploy production (org `yawnxyz`, app `wod`)
+- `deno task deploy` — Export the site to `dist/` (`deno task build:static`) and publish it to surge at https://wod-yawnxyz.surge.sh. Run the data builds first if data changed.
 
-**"Publish" = deploy.** When the user says "publish" (e.g. "publish W13"), run `deno task deploy` — the Deno Deploy production deploy. It does NOT mean `deno publish` (JSR) and does NOT mean a git commit/PR.
+**"Publish" = deploy.** When the user says "publish" (e.g. "publish W13"), run `deno task deploy` — the surge production deploy. It does NOT mean `deno publish` (JSR) and does NOT mean a git commit/PR.
 
 ## Docs
 

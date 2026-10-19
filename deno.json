@@ -34,15 +34,8 @@
     "wod:cardio:rowing": "deno run -A src/cli/mod.ts generate --workout=erg-intervals",
     "wod:aj": "deno run -A src/cli/mod.ts generate --routine=action-jacqueline",
     "wod:random": "deno run -A src/cli/mod.ts generate --routine=gym --random",
-    "deploy": "deno deploy --app 'wod' --prod",
-    "deploy:prod": "deno deploy --app 'wod' --prod",
-    "ai:chat": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/cli.ts",
-    "ai:chat:local": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/cli.ts --preset local",
-    "ai:serve": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/server.ts",
-    "ai:test": "deno test --allow-read --allow-import src/ai/tests/engine/",
-    "ai:test:session": "deno test --allow-read --allow-import src/ai/tests/session_test.ts",
-    "ai:test:all": "deno test --allow-read --allow-net --allow-env --allow-import src/ai/",
-    "ai:smoke": "deno run --allow-net --allow-env --allow-read --allow-write --allow-import src/ai/cli.ts --once --prompt 'make a barre workout'"
+    "build:static": "deno run -A scripts/build-static.ts",
+    "deploy": "deno task build:static && surge dist wod-yawnxyz.surge.sh"
   },
   "imports": {
     "hono": "https://deno.land/x/hono@v3.11.7/mod.ts",
@@ -80,9 +73,5 @@
     "unstable-temporal": true,
     "unstable-worker-options": true,
     "unstable-sloppy-imports": true
-  },
-  "deploy": {
-    "org": "yawnxyz",
-    "app": "wod"
   }
 }
