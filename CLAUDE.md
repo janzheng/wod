@@ -257,6 +257,7 @@ When designing a weekly workout, **sequence consecutive exercises so they share 
 - **Kinesis cable** lifts cluster together — and are kept separate from cable column lifts (different machines, different stack scales).
 - **Bench-based lifts** (incline DB press, chest-supported row, incline curl, incline RDL) cluster around the adjustable benches.
 - **Smith machine / squat rack** lifts (squat, push press, Bulgarian on Smith, behind-back shrugs) cluster around the rack.
+- **The barbell is one block.** Squat and barbell RDL (any bar work) run back to back. **Never put a Smith, DB or machine lift between two barbell lifts:** the moment he leaves the rack he gives the station up, and the sheet can no longer be done as written. A "same rack area, no walking" line only counts if the next lift is also at that rack. (W34D3 flag: squat → Bulgarian → RDL.)
 
 **The check before finalizing a weekly workout JSON:** read down the `sets[]` order and ask "if I'm at the previous exercise's station, is the next exercise at the same station or right next to it?" If the user has to walk back and forth across the gym mid-session, re-order. **Spotlight rotation does NOT override station grouping** — put the spotlight in the right station slot, then make the slot the spotlight.
 

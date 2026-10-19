@@ -4012,7 +4012,132 @@
           ]
         }
       ],
-      "logFile": "logs/functional-bulk-dynamic-w33.json"
+      "logFile": "logs/functional-bulk-dynamic-w34.json"
+    },
+    {
+      "week": 35,
+      "label": "Staged Return, Step Three — The KB Days Come Back, the Barbell Block Together",
+      "description": "Push → legs → pull stays the spine, at the same lengths. **The three gym days complete the week.**\n\n**The KB days come back at their old length** (about 55 minutes each), as a floating pool: a strength day (Bent Press Flow, a short strength block, the Leggy Flow) and a flow-and-skill day (the figure-8 → tactical clean flow, the Dead Cluster Flow, the Outside Snatch Flow). Both carry the banded shoulder prep. The short options stay on the optional day: a Brutal Complex for a short apartment-gym session, or the 5-4-3-2 complex.\n\n**Legs runs the barbell work as one block:** the squat, then the RDL stepping to 70 · 80 · 80, then the Bulgarian on the double-60s, then the machines. **Push** gives the incline press a bench with a tilting seat and shares the spotlight with the strict press; the tricep slot stays on the rope pushdown at 62.5. **Pull** puts the spotlight on the pull-up and the incline curl.\n\nThe morning flow rotates to puppy pose, the inchworm walkout, the glute bridge and the couch stretch.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — incline press and strict press spotlight",
+          "type": "workout",
+          "workoutId": "fb-w35-push",
+          "flow": {
+            "workoutId": "fb-w35-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W35 flow — puppy pose and thread-the-needle open; the inchworm walkout, dead-bug and glute bridge make the work block; the couch stretch and straddle reaches rotate in. **PUSH add-on:** doorframe stretch, prone Y raises and scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — squat and RDL together, the Bulgarian third",
+          "type": "workout",
+          "workoutId": "fb-w35-legs",
+          "flow": {
+            "workoutId": "fb-w35-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W35 flow — puppy pose and thread-the-needle open; the inchworm walkout, dead-bug and glute bridge make the work block; the couch stretch and straddle reaches rotate in. **LEGS add-on:** knee-to-wall rocks and cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — pull-up and incline curl spotlight",
+          "type": "workout",
+          "workoutId": "fb-w35-pull",
+          "flow": {
+            "workoutId": "fb-w35-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W35 flow — puppy pose and thread-the-needle open; the inchworm walkout, dead-bug and glute bridge make the work block; the couch stretch and straddle reaches rotate in. **PULL add-on:** dead hang and scapular pulls; the light curl and hold stay in the workout warmup."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB STRENGTH DAY (pool, ~55 min) · Bent Press Flow + Leggy Flow",
+          "type": "workout",
+          "workoutId": "fb-w35-kb-full",
+          "flow": {
+            "workoutId": "fb-w35-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W35 flow. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "KB FLOW + SKILL DAY (pool, ~55 min) · Figure-8, Dead Cluster, Outside Snatch",
+          "type": "workout",
+          "workoutId": "fb-w35-kb-cond",
+          "flow": {
+            "workoutId": "fb-w35-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W35 flow. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / SHORT KB / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Short KB — Brutal Complex (apartment gym)",
+              "type": "workout",
+              "workoutId": "kb-brutal-complex"
+            },
+            {
+              "label": "Short KB — 5-4-3-2 Every 3 Min",
+              "type": "workout",
+              "workoutId": "kb-swing-squat-press-thruster-complex"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w35.json"
     }
   ],
   "tips": [
