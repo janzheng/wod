@@ -1,0 +1,226 @@
+{
+  "id": "fb-w36-kb-cond",
+  "name": "Week 36 KB Flow and Skill Day — Figure-8, Long Coordination Gauntlet, Outside Snatch",
+  "description": "The flow and skill day: the figure-8 → tactical clean flow opens with nothing overhead, then the Long Coordination Gauntlet and the Outside Snatch Flow, with the left-arm curl dose between them and a light balance closer at the end. About 55 minutes. A pool session; one round of each flow is a complete short version.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "kettlebell",
+    "flow",
+    "conditioning",
+    "functional-bulk",
+    "week-36"
+  ],
+  "estimatedDuration": 55,
+  "equipment": [
+    "kettlebell",
+    "resistance-band",
+    "bodyweight"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Three flows in one session: the figure-8 → tactical clean flow to open, then the Long Coordination Gauntlet and the Outside Snatch Flow, with the curl dose between them and a balance closer to finish.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-figure-8-tactical-clean",
+        "why": "The pass is the clean entry. The hand that catches the bell does not set it down and re-grip."
+      }
+    ],
+    "rotationPlan": "The GymFiesta circuit and the Dead Cluster Flow rotate back in on this day next.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: the snatches, the windmills, the presses, the cleans, the walter catch. Overhead and ballistic work where the cue breaking is the ceiling.",
+      "**Banded shoulder prep is a KB-day anchor.** It stays even on a shortened version of this session.",
+      "**Two overhead flows in one day: keep the bell at 20-25 for the Gauntlet and 25 for the Outside Snatch.** Pack the right shoulder DOWN on every lockout. The weakest overhead position sets the bell; if the lockout stops being quiet, that flow is over.",
+      "**The Gauntlet is fourteen moves: keep the flow card open for round 1.** Stalling to check the next move is part of learning it.",
+      "**The Outside Snatch Flow runs one side all the way through, and the bell does not go down until you switch sides.**",
+      "**KB curl: left arm first, and no near-failure.** Stop short of a fully straight arm, same as the gym curls.",
+      "**Tired-day version:** one round of each flow, and skip the balance closer.",
+      "**A pool session.** Missing it does not make the week incomplete."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Bottoms-Up Cuff Prep + Cossacks",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The bottoms-up work is cuff prep, and the complex is about to ask for a lot of overhead lockouts.",
+      "exercises": [
+        {
+          "id": "kettlebell-around-body-pass",
+          "reps": "8 each direction",
+          "notes": "Light bell, smooth hand-to-hand passes with the torso quiet."
+        },
+        {
+          "id": "kettlebell-bottoms-up-press",
+          "reps": "8 each side",
+          "notes": "Light bell inverted. Cuff prep and grip, and it rehearses the packed-down lockout. **If the left will not hold the bell quiet and stacked, go lighter for the whole session.**"
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Hinged slightly forward, tight fists, thumbs tucked."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "Protective activation. Down and back at the top."
+        }
+      ]
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out.**\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    },
+    {
+      "id": "figure-8-complex",
+      "name": "🌀🔆 Figure-8 → Tactical Clean — Nothing Overhead",
+      "type": "flow",
+      "flowId": "kb-figure-8-tactical-clean-complex",
+      "rounds": 2,
+      "notes": "**Medium bell — 25-35.** Two rounds when fresh, one when tired. **Nothing here goes overhead.**\n\n🔆 **What the movement actually is:** the bell swings back between your legs, and the opposite hand reaches around the outside of that thigh to take it — a figure-eight traced around your legs. **The hand that catches it does not set it down and re-grip; the catch continues straight up into a clean to the rack.** Then a tactical clean brings it back down and through to the other side.\n\n- **The pass IS the clean entry.** If you land the bell, stop, and then clean it, the skill has been skipped\n- **The hike between the legs is home base** — every transition resets through it. Lose the bell, go back to the hike, restart from there\n- **Tactical clean means threaded into the rack, not yanked** — no momentum hack, no forearm bang\n- **Hinge, do not squat, to send the bell back.** The hips move, the knees mostly do not\n- **Chest stays proud through the pass** — rounding over to reach the bell is how the low back ends up doing it\n\n**Go light first.** Groove the pass and the clean separately for a few reps before chaining them."
+    },
+    {
+      "id": "long-coordination-gauntlet",
+      "name": "🌀 Long Coordination Gauntlet — Fourteen Moves, One Side at a Time",
+      "type": "flow",
+      "flowId": "kb-long-coordination-gauntlet",
+      "rounds": 2,
+      "notes": "**LIGHT bell — 20-25. Two rounds per side when fresh, one when tired**, ~60s between rounds. Run the whole chain on one side, then the other.\n\nThe longest chain in the program. Most of the vocabulary is from flows you already run — swings, cleans, the figure-8 switch-clean, lateral and curtsy lunges, a press and a snatch — so the work is the order and the transitions, not the moves.\n\n- **Keep the flow card open for round 1.** Stalling to check the next move is part of it\n- **Pack DOWN on every press and snatch.** The windmills come from the hips, not the arm\n- **The walter catch closes it** and arrives when you are most tired; slow the whole chain going into it\n- 🛑 The weakest overhead position sets the bell. If a lockout stops being quiet, the round is over\n\n**Reflection:** which transition broke the chain — where did you stop and re-grip?",
+      "restBetween": 0
+    },
+    {
+      "id": "kb-curl",
+      "name": "Left-Arm Curl Dose 🛑",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round, and the only loaded arm work here. This stays because the left arm wants **frequency**, not intensity.",
+      "exercises": [
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom** — the bell loads that end position harder than a dumbbell does, and that end position is what the left tendon dislikes\n- Shoulder packed down, no shrug to start\n\n**No near-failure.** Calm load, full control."
+        }
+      ]
+    },
+    {
+      "id": "outside-snatch-flow",
+      "name": "🌀 Outside Snatch Flow — Outside Path, One Side at a Time",
+      "type": "flow",
+      "flowId": "kb-outside-snatch-flow",
+      "rounds": 2,
+      "notes": "**Light to moderate bell — 25-35.** Two rounds each side when fresh, one when tired.\n\nThe bell goes overhead four different ways inside one chain. Run it one side all the way through, park the bell in the hike, then repeat on the other. 🛑 The weakest overhead position sets the bell; if the lockout stops being quiet, the flow is over rather than the bell getting heavier."
+    },
+    {
+      "id": "balance-closer",
+      "name": "Balance Closer — Single-Leg RDL + Bird-Dog + Standing Side-to-Side Twist",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "single-leg-rdl-kettlebell",
+          "reps": "5 each leg",
+          "notes": "**LOAD:** 20-25lb. Single-leg balance + hip hinge. **The point is balance and control, not load** — keep it light so the legs stay fresh. Standing-leg glute locked, hips square, slow reach to the floor and back. The wobble is the training."
+        },
+        {
+          "id": "bird-dog",
+          "reps": "8 each side",
+          "notes": "Bodyweight. Slow anti-rotation balance — opposite arm + leg extend, hold 2s, hips stay square (no rotation). Resets the spine after the single-leg work."
+        },
+        {
+          "id": "kettlebell-standing-side-to-side-twist",
+          "reps": "8 each direction",
+          "notes": "**LOAD:** 20-25lb (LIGHT — the straight-arm lever makes it feel heavy).\n- **Stand tall, one bell held by the horns in BOTH hands, arms straight out in front** at chest height\n- **Keep the arms straight and twist the bell side to side** — through center to one side, back through center to the other — bracing the core to control the rotation\n- **Ribs down, stand tall** — the twist comes from the core/obliques, NOT the lower back\n- Smooth and controlled, no momentum. No leg load — zero pre-fatigue for the next legs day."
+        }
+      ],
+      "notes": "Light balance + core close, 2 rounds, ~5 min. Move through the three back-to-back with short rest. Settles the system after the flow work before the cooldown.",
+      "restBetween": 30,
+      "restAfter": 30
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Shoulder + Hip + QL Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Overhead-heavy day — the shoulders come first.\n\n**Tired-day version:** 30s each.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress after all that lockout work."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "butterfly-stretch",
+          "duration": 45,
+          "notes": "Adductors — the overhead lunges earned this."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 45,
+          "notes": "30s each side. Let the QL downshift."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "A pool session: take it when a window opens. One round of each flow is a complete short version.",
+    "Figure-8 → tactical clean: the pass IS the clean entry; hinge, do not squat, to send the bell back.",
+    "Gauntlet: fourteen moves on one side, then the other. Slow down going into the walter catch.",
+    "Outside Snatch Flow: one side all the way through, the bell stays up until you switch sides.",
+    "KB curl: left first, stop short of straight, no near-failure."
+  ]
+}

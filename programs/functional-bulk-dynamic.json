@@ -4138,6 +4138,131 @@
         }
       ],
       "logFile": "logs/functional-bulk-dynamic-w35.json"
+    },
+    {
+      "week": 36,
+      "label": "Same Shape — Dips and the Kinesis Fly Slow Down, the Bulgarian Back on the 60s",
+      "description": "Push → legs → pull stays the spine, at the same lengths. **The three gym days complete the week.** The two KB days stay a floating pool at about 55 minutes each, with the short options on the optional day.\n\n**Push** puts the spotlight on the dips (a 2-second pause at the bottom) and the Kinesis fly, and the rope pushdown runs at 37.5 on the rope pulley. **Legs** keeps the barbell block together, puts the Bulgarian back on the double-60s and spotlights it with the leg curl, and moves the adduction slot to a goblet cossack. **Pull** runs pull-ups at normal tempo and spotlights the DB row and the high cable curl. **The KB flow day** swaps the Dead Cluster Flow for the Long Coordination Gauntlet.\n\nThe morning flow rotates to the low-lunge rotation, down-dog knee-to-head, the spiderman plank, plié pulses and happy baby.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — dips and Kinesis fly spotlight",
+          "type": "workout",
+          "workoutId": "fb-w36-push",
+          "flow": {
+            "workoutId": "fb-w36-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W36 flow — the low-lunge rotation and down-dog knee-to-head open; dead-bug, the spiderman plank and plié pulses make the work block; happy baby and the straddle reaches rotate in. **PUSH add-on:** doorframe stretch, prone Y raises and scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — barbell block, then the Bulgarian and leg curl spotlight",
+          "type": "workout",
+          "workoutId": "fb-w36-legs",
+          "flow": {
+            "workoutId": "fb-w36-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W36 flow — the low-lunge rotation and down-dog knee-to-head open; dead-bug, the spiderman plank and plié pulses make the work block; happy baby and the straddle reaches rotate in. **LEGS add-on:** knee-to-wall rocks and cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — DB row and high cable curl spotlight",
+          "type": "workout",
+          "workoutId": "fb-w36-pull",
+          "flow": {
+            "workoutId": "fb-w36-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W36 flow — the low-lunge rotation and down-dog knee-to-head open; dead-bug, the spiderman plank and plié pulses make the work block; happy baby and the straddle reaches rotate in. **PULL add-on:** dead hang and scapular pulls; the light curl and hold stay in the workout warmup."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB STRENGTH DAY (pool, ~55 min) · Bent Press Flow + Leggy Flow",
+          "type": "workout",
+          "workoutId": "fb-w36-kb-full",
+          "flow": {
+            "workoutId": "fb-w36-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W36 flow — the low-lunge rotation and down-dog knee-to-head open; dead-bug, the spiderman plank and plié pulses make the work block; happy baby and the straddle reaches rotate in. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 5,
+          "label": "KB FLOW + SKILL DAY (pool, ~55 min) · Figure-8, Long Coordination Gauntlet, Outside Snatch",
+          "type": "workout",
+          "workoutId": "fb-w36-kb-cond",
+          "flow": {
+            "workoutId": "fb-w36-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W36 flow — the low-lunge rotation and down-dog knee-to-head open; dead-bug, the spiderman plank and plié pulses make the work block; happy baby and the straddle reaches rotate in. Skip the day-specific add-on; the in-workout KB shoulder prep covers it."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / SHORT KB / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Short KB — Brutal Complex (apartment gym)",
+              "type": "workout",
+              "workoutId": "kb-brutal-complex"
+            },
+            {
+              "label": "Short KB — 5-4-3-2 Every 3 Min",
+              "type": "workout",
+              "workoutId": "kb-swing-squat-press-thruster-complex"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w36.json"
     }
   ],
   "tips": [
