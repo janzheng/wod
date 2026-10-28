@@ -530,10 +530,19 @@ Nothing to log beyond that: the last swim reported is the W34d2 chill swim. Not 
 - **W36d1: 28 laps in the same time as before, with fewer breaks, and less tired.** He reported this as an effect, not as a target. It is distance per stroke and less wasted work (09-18), not effort. **Do not turn it into a pace number.**
 - **Sheet unchanged.** Backlog item 1 (rotation automatic first) is nearly met. **The catch block (item 2) is the next thing to raise, as a question, when he reports the roll as automatic again.**
 
+### Catch opened, and breath (discussed 2026-10-28)
+
+> for swimming- i'll still practice this obvs but how do we start practicing the catch? or is it too early / i shouldnt think about it yet?
+> also i'm still running out of cardio / breath but idk if theres much we can do about that
+
+**He raised the catch himself, after reporting the roll as automatic.** That is the trigger the backlog was waiting on. **Opened as a drill only:** fist drill, 4 lengths (fist, open, fist, open), placed after the rhythm block and before the main swim. Anchored to the start of the straight-arm pulldown (pull from the armpit with the lats). The main-swim thought stays the roll and kick; the catch does not go into open swimming yet.
+
+**Breath:** no re-coaching of the exhale. Two levers given: breathe every 2 for a length or two when winded, then go back to every 3, switching sides each length; and check whether the kick has grown, since the 09-15 fix was a smaller kick. The rest is aerobic base, which builds with the swimming. Written into the main-swim notes.
+
 ## Backlog — not yet, in rough order
 
 1. **Rotation must become automatic first.** Everything below waits on it.
-2. **Catch / high elbow** — `swim-catch-up-drill`, `swim-fingertip-drag`, `swim-fist-drill`, `swim-sculling` all already exist in the library. This is where the lifting strength finally becomes useful rather than a crutch. **Confirmed 2026-09-18 as a source of upside, NOT a leak** — the timed pair showed the catch already grips. Do not promote it on the theory that something is broken.
+2. **Catch / high elbow** — **OPENED 2026-10-28 as `catch-drill` (fist drill) in the full session.** Next options when it lands: `swim-sculling`, `swim-fingertip-drag`, `swim-catch-up-drill`. `swim-catch-up-drill`, `swim-fingertip-drag`, `swim-fist-drill`, `swim-sculling` all already exist in the library. This is where the lifting strength finally becomes useful rather than a crutch. **Confirmed 2026-09-18 as a source of upside, NOT a leak** — the timed pair showed the catch already grips. Do not promote it on the theory that something is broken.
 3. **Kick cadence / 2-beat rhythm tied to the roll** — he flagged "leg cadence" in the original brief and it still hasn't been addressed on its own terms, only via rotation. **OPENED W29D2, ahead of catch — the legs, not the pull, are the limiter now.** **BUILT 2026-09-18 — `swim-rhythm-block`, in the full session, see the session note above.** Held behind "not until a small kick is easy"; the small kick became easy and self-correcting the same day, and his own pat-head/rub-tummy report made the case. **Now the live block — the open item is whether it lands, not whether to start it.**
 4. **Bilateral breathing rhythm — ANSWERED 2026-09-22: every-3, alternating sides.** *"i breathe left, stroke three times then breathe right."* **Nothing to do with it** — it is the correct pattern, it is already automatic, and it was never the lever. Item closed; do not re-open it as a project.
 
