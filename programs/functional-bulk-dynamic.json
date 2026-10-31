@@ -4263,6 +4263,131 @@
         }
       ],
       "logFile": "logs/functional-bulk-dynamic-w36.json"
+    },
+    {
+      "week": 37,
+      "label": "Same Shape — Lateral Raise, Pushdown, Leg Press, Abduction, Chest-Supported Row and Face Pull in the Spotlight",
+      "description": "Push → legs → pull stays the spine, at the same lengths. **The three gym days complete the week.** The two KB days stay a floating pool at about 55 minutes each, with the short options on the optional day.\n\n**Push** spotlights the DB lateral raise and the rope pushdown, now 42.5 on the rope pulley; the dips keep their pause. **Legs** keeps the barbell block together with an optional fourth squat set, and spotlights the leg press and the hip abduction. **Pull** spotlights the chest-supported row and the face pull. **The KB strength day** puts thrusters in the strength block; **the KB flow day** runs the GymFiesta circuit between the figure-8 flow and the Outside Snatch.\n\nThe morning flow rotates to the hip-flexor lunge, the McGill crunch, plank shoulder taps, fire hydrants and the frog stretch.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — lateral raise and rope pushdown spotlight",
+          "type": "workout",
+          "workoutId": "fb-w37-push",
+          "flow": {
+            "workoutId": "fb-w37-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W37 flow — the hip-flexor lunge and down-dog knee-to-head open; the McGill crunch, plank shoulder taps and fire hydrants make the work block; the frog stretch and the straddle reaches rotate in. **PUSH add-on:** doorframe stretch, prone Y raises and scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — barbell block, then the leg press and hip abduction spotlight",
+          "type": "workout",
+          "workoutId": "fb-w37-legs",
+          "flow": {
+            "workoutId": "fb-w37-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W37 flow — the hip-flexor lunge and down-dog knee-to-head open; the McGill crunch, plank shoulder taps and fire hydrants make the work block; the frog stretch and the straddle reaches rotate in. **LEGS add-on:** knee-to-wall rocks and cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — chest-supported row and face pull spotlight",
+          "type": "workout",
+          "workoutId": "fb-w37-pull",
+          "flow": {
+            "workoutId": "fb-w37-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W37 flow — the hip-flexor lunge and down-dog knee-to-head open; the McGill crunch, plank shoulder taps and fire hydrants make the work block; the frog stretch and the straddle reaches rotate in. **PULL add-on:** dead hang and scapular pulls; the light curl and hold stay in the workout warmup."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB STRENGTH DAY (pool, ~55 min) · Bent Press Flow, Thrusters, Leggy Flow",
+          "type": "workout",
+          "workoutId": "fb-w37-kb-full",
+          "flow": {
+            "workoutId": "fb-w37-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W37 flow — the hip-flexor lunge and down-dog knee-to-head open; the McGill crunch, plank shoulder taps and fire hydrants make the work block; the frog stretch and the straddle reaches rotate in."
+          }
+        },
+        {
+          "day": 5,
+          "label": "KB FLOW + SKILL DAY (pool, ~55 min) · Figure-8, GymFiesta circuit, Outside Snatch",
+          "type": "workout",
+          "workoutId": "fb-w37-kb-cond",
+          "flow": {
+            "workoutId": "fb-w37-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W37 flow — the hip-flexor lunge and down-dog knee-to-head open; the McGill crunch, plank shoulder taps and fire hydrants make the work block; the frog stretch and the straddle reaches rotate in."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / SHORT KB / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Short KB — Brutal Complex (apartment gym)",
+              "type": "workout",
+              "workoutId": "kb-brutal-complex"
+            },
+            {
+              "label": "Short KB — 5-4-3-2 Every 3 Min",
+              "type": "workout",
+              "workoutId": "kb-swing-squat-press-thruster-complex"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w37.json"
     }
   ],
   "tips": [

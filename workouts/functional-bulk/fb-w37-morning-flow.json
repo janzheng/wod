@@ -1,0 +1,209 @@
+{
+  "id": "fb-w37-morning-flow",
+  "name": "W37 Morning Flow — Hip-Flexor Lunge, McGill Crunch, Shoulder Taps, Fire Hydrants and Frog",
+  "description": "Fifteen minutes before training: a primer, a light work block, then one continuous yoga arc. This week the hip-flexor lunge stretch opens; the McGill crunch, plank shoulder taps and fire hydrants make the work block; the frog stretch rotates into the yoga arc. The rehab anchors stay in the day add-on.",
+  "estimatedDuration": 15,
+  "difficulty": "beginner",
+  "equipment": [
+    "bodyweight",
+    "mat",
+    "resistance-band"
+  ],
+  "tags": [
+    "morning",
+    "mobility",
+    "bodyweight",
+    "functional-bulk",
+    "week-37"
+  ],
+  "sets": [
+    {
+      "id": "through-the-day",
+      "name": "☀️ Through the Day — Small and Often (Not Now)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Not part of the morning sequence — these are the reminders that get sprinkled through the day.",
+      "exercises": [
+        {
+          "id": "asian-squat",
+          "duration": 60,
+          "notes": "Once an hour if you can. Heels down, easy breathing, a little deeper each time."
+        },
+        {
+          "id": "single-leg-balance",
+          "duration": 60,
+          "notes": "30s each foot. Let the **ankle** do the correcting, not the hip. Fingertip on a wall is fine on no sleep."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10 each side",
+          "notes": "Heel glued down, knee over the toes."
+        },
+        {
+          "id": "banded-ankle-eversion",
+          "reps": "15 each side",
+          "notes": "Sole turns **outward** against the band, shin still. The left one is the point."
+        }
+      ]
+    },
+    {
+      "id": "primer",
+      "name": "Primer — Hip-Flexor Lunge, Down-Dog Knee-to-Head and Brace (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Keep moving between shapes rather than settling into holds. The long holds come at the end, when you are warm.",
+      "exercises": [
+        {
+          "id": "hip-flexor-lunge-stretch",
+          "duration": 30,
+          "reps": "30s each side",
+          "notes": "Half-kneeling. **Tuck the pelvis under first, then shift forward** — the stretch is in the front of the back hip. Ribs down."
+        },
+        {
+          "id": "down-dog-knee-to-head",
+          "reps": "6 each side",
+          "notes": "From down dog, drive one knee toward the nose and round the back, then return long. **Hamstrings and upper back wake up together.**"
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Tight fists, thumbs tucked, hinged slightly forward. **This is the brace the squat is asking for** — wake it here so it is available later."
+        }
+      ]
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — McGill Crunch, Plank Shoulder Taps and Fire Hydrants (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Activate, do not fatigue. One shoulder-stability move, one anti-extension hold, one barre leg block for variety.",
+      "exercises": [
+        {
+          "id": "push-up",
+          "reps": "one easy set, 2-3 in reserve",
+          "notes": "**The greasing set — one quick set, never to failure.** Elbows ~45°, **pack down not up.** A daily habit, not a training stimulus."
+        },
+        {
+          "id": "mcgill-crunch",
+          "reps": "5 each side, 8s holds",
+          "notes": "On your back, one knee bent, hands under the low back. **Lift only the head and shoulders an inch** and hold — the low back stays exactly where it is. Switch the bent leg halfway."
+        },
+        {
+          "id": "plank-shoulder-taps",
+          "reps": "8 each side",
+          "notes": "High plank, feet a little wide. **Tap the opposite shoulder without the hips rocking** — slow is the point."
+        },
+        {
+          "id": "barre-fire-hydrant",
+          "reps": "10 each side",
+          "notes": "Hands and knees. **Lift the bent knee out to the side** without tipping the hips. Slow up, slow down."
+        }
+      ]
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Hip + Back Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Goes last because warm muscle stretches deeper. One continuous arc, not a list of holds.",
+      "exercises": [
+        {
+          "id": "scorpion-stretch",
+          "duration": 60,
+          "notes": "30s each side. Thoracic rotation and hip flexor in one shape."
+        },
+        {
+          "id": "lizard-pose",
+          "duration": 90,
+          "notes": "45s each side. Deep lunge, both hands inside the front foot. Forearms if the hip allows."
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Slow, deep, heel down. Read it as a delta against your own normal — the old ankle sprain means a stiff day here is not a bad-session forecast."
+        },
+        {
+          "id": "frog-stretch",
+          "duration": 60,
+          "reps": "60s",
+          "notes": "Knees wide, shins parallel, ankles in line with the knees. **Rock slowly back and forth** rather than holding still; the inner thighs open as you go."
+        },
+        {
+          "id": "leg-straddle-reaches",
+          "duration": 90,
+          "notes": "Seated wide straddle — reach to each foot, then centre. **Hinge from the hips, don't round to reach further.**"
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "45s each side. Finish here. Let the hips settle before the day starts."
+        }
+      ]
+    },
+    {
+      "id": "day-addon",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Pick only the block that matches today. Two or three moves, not the whole list.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "**Push day.** 30s each arm, elbow at MID height."
+        },
+        {
+          "id": "prone-y-raises",
+          "reps": 10,
+          "notes": "**Push day. Rehab anchor.** Thumbs up, lift from the mid-back — the neck stays out of it."
+        },
+        {
+          "id": "scapular-push-up",
+          "reps": 10,
+          "notes": "**Push day. Rehab anchor.** Arms stay straight; only the blades move."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "**Pull day. Rehab anchor.** Easy decompression before loaded pulling."
+        },
+        {
+          "id": "scapular-pull",
+          "reps": 10,
+          "notes": "**Pull day. Rehab anchor.** Pack down first — the elbows do not bend."
+        },
+        {
+          "id": "bicep-curl",
+          "reps": "10, then one 30s hold",
+          "notes": "**Pull day — it worked, so it stays.** One light set before the pull-up bar, then **hold a light DB still at about 90° for 30 seconds.** The hold is the new part: a still, moderate load is the calmest thing you can give an irritable tendon, and it goes in before anything hangs off the elbow."
+        },
+        {
+          "id": "side-lying-external-rotation",
+          "reps": "10 each side",
+          "notes": "**Pull or KB day. Rehab anchor.** Elbow pinned to the ribs, light or no weight."
+        },
+        {
+          "id": "wall-angel",
+          "reps": 10,
+          "notes": "**KB day. Rehab anchor.** Ribs down; only the range that stays smooth."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10 each side",
+          "notes": "**Legs day.** Toe to wall, heel glued down, knee over the toes — easy reps before the heels go up on the plates."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "**Legs day.** 30s each side for the lateral chain."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Five honest minutes beats a skipped fifteen. Anchors first: cossack, lizard, the push-up set.",
+    "Low-lunge rotation: follow the hand with the eyes.",
+    "Spiderman plank: hips level, slow.",
+    "If the cossacks read sticky, keep the flow and drop a work-block move rather than rushing the stretches."
+  ]
+}

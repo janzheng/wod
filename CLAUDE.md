@@ -194,7 +194,7 @@ Weeks are built off the last, so movements silently fall off the bottom and neve
 
 ## Personalized Program Context
 
-When building or modifying workouts for the functional-bulk-dynamic program (or any personalized workout), **always check `NOTES.md`** for session observations, planned progressions, exercise ideas, and equipment notes from prior weeks. These notes capture decisions and context that don't live in the workout JSON files.
+When building or modifying workouts for the functional-bulk-dynamic program (or any personalized workout), **always check `NOTES.md`** (standing sections + recent weeks; older weeks are archived in `NOTES-YYYY-MM-to-MM.md`, so search `NOTES*.md` when looking up history) for session observations, planned progressions, exercise ideas, and equipment notes from prior weeks. These notes capture decisions and context that don't live in the workout JSON files.
 
 ## Look Up the Canonical Source Before You Guess — REQUIRED
 
