@@ -1,0 +1,18 @@
+{
+  "id": "swim-technique",
+  "name": "Swim Technique",
+  "description": "Freestyle technique work — rotation, catch, breathing, and drill-to-swim blocks",
+  "icon": "🏊",
+  "color": "#0288D1",
+  "defaults": {
+    "duration": 30,
+    "difficulty": "intermediate",
+    "equipment": ["pool"],
+    "tags": ["swimming", "technique", "drills"],
+    "criteria": {
+      "tags": ["swimming", "technique"],
+      "equipment": ["pool"]
+    }
+  },
+  "sortOrder": 9
+}

@@ -1,0 +1,455 @@
+[
+  {
+    "day": 1,
+    "date": "2026-09-28",
+    "workoutId": "fb-w32-push",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "Poor sleep again, and the gym was full even at 7pm (undergrads back). The V bar was camped, so the dips ran on the narrow straight bar and he had no palm or shoulder pain. He added two Kinesis sets he reads as \"per previous notes\" and ran a third carry walk without planning it. Reported 2026-10-04.",
+    "exercises": [
+      {
+        "id": "standing-dumbbell-strict-press",
+        "sets": [
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          }
+        ],
+        "notes": "*\"Weirdly good all sets super solid.\"* First slot, third week. Load and strictness not stated; logged as written."
+      },
+      {
+        "id": "dip",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "reps": 12,
+            "equipment": "narrow straight bar"
+          },
+          {
+            "weight": "bodyweight",
+            "reps": 12,
+            "equipment": "narrow straight bar"
+          },
+          {
+            "weight": "bodyweight",
+            "reps": 12,
+            "equipment": "narrow straight bar"
+          }
+        ],
+        "notes": "**Mismatch: written for the angled / V bar, run on the narrow straight bar** because people were camping the V bar. *\"Went suuuuper well super slow… no palm or shoulder pain all three sets slow eccentric back arch felt like floating. no idea what's going on maybe red bull does make you fly lmaooo.\"* Follow-up: *\"narrow straight bc ppl were camping v, but it felt good this time; 12 reps, forward lean.\"* So 12 per set, and \"back arch\" was the forward lean. Whether the left forearm was rotated before rep 1 was not stated."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          }
+        ],
+        "notes": "*\"Good and slow, last part of last set got hard.\"* Load and width not stated; logged as written."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": [
+          {
+            "weight": "120",
+            "reps": 12
+          },
+          {
+            "weight": "120",
+            "reps": 12
+          }
+        ],
+        "notes": "*\"Straight arm and tricep both good working weight tho both accomplishable.\"* Station, number and rounds not stated; logged as the written 120, two rounds. Follow-up on the pace: *\"the boot camp thing refers to the notes, basically did it fast\"*, so he ran the block as the written fast circuit."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": [
+          {
+            "weight": "70",
+            "reps": "10-12"
+          },
+          {
+            "weight": "70",
+            "reps": "10-12"
+          }
+        ],
+        "notes": "Same sentence as the straight-arm. Station, number and rounds not stated; logged as the written 70, two rounds."
+      },
+      {
+        "id": "kinesis-cable-fly",
+        "sets": [
+          {
+            "weight": "9",
+            "reps": "not stated"
+          },
+          {
+            "weight": "9",
+            "reps": "not stated"
+          }
+        ],
+        "notes": "**Not on the sheet as a working lift.** *\"Added two bear hug things on kinesis back.\"* Follow-up: *\"kinesis is per previous notes i cant remember what its called but used to be on rotation.\"* Read as the Kinesis cable fly, which ran as a working lift until W28 and is now the light warmup opener. Two sets, reps not stated. Later follow-up on the weight: *\"i've been doing kinesis at 9.\"*"
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          {
+            "weight": "60lb per side",
+            "reps": 12,
+            "equipment": "dumbbell"
+          },
+          {
+            "weight": "60lb per side",
+            "reps": 12,
+            "equipment": "dumbbell"
+          },
+          {
+            "weight": "60lb per side",
+            "reps": 10,
+            "equipment": "dumbbell",
+            "notes": "\"cut out at 10\" (typed \"10’om\")."
+          }
+        ],
+        "notes": "*\"Were hard!! especially at end but powered through.\"* 12 / 12 / 10 at 60 per side on the DBs, not the barbell fallback. The 3s eccentric was not mentioned."
+      },
+      {
+        "id": "farmer-carry",
+        "sets": [
+          {
+            "weight": "60lb per hand",
+            "equipment": "dumbbell"
+          },
+          {
+            "weight": "60lb per hand",
+            "equipment": "dumbbell"
+          },
+          {
+            "weight": "60lb per hand",
+            "equipment": "dumbbell"
+          }
+        ],
+        "notes": "**Three walks against two written.** *\"Did strong db farmer carries three sets at end with 60.\"* The short push day has been two walks since W28. Follow-up: *\"oops i guess i just kept going for carry.\"* Not planned; the prescription stays at two."
+      }
+    ],
+    "rawInput": "w32d1 push\n\nanother night of less than stellar sleep but a crate of red bull just arrive yeaboiii\n\nstrict press\nweirdly good all sets super solid\n\n\ndips \nwent suuuuper well super slow and even got on parallel dip bar thing and went well - no palm pain or shoulder pain all three sets slow eccentric back arch felt like floating. no idea what’s going on maybe red bull does make you fly lmaooo - got on these bc someone took the v bar set up :(\n\nundergrads back so gym is slammed even at 7pm\n\nlat raises were good and slow last part of last set got hard\n\nstraight arm and tricep both good working weight tho both accomplishable doing these fast and boot camp is actually pretty hard added two bear hug things on kinesis back \n\nincline press \nwere hard!! especially at end but powered through and cut out at 10’om last but did 12 other two; at 60lb per side db incline \n\ndid strong db farmer carries three sets at end with 60",
+    "followUps": [
+      "Was set 3 of the press still a pure strict press? → \"yes strict no knee\"",
+      "Which parallel bar, what did \"back arch\" mean, and how many reps? → \"narrow straight bc ppl were camping v, but it felt good this time; 12 reps, forward lean\". The left-forearm rotation question was not answered.",
+      "What are the Kinesis bear hug things, and what did \"boot camp\" mean? → \"the boot camp thing refers to the notes, basically did it fast; kinesis is per previous notes i cant remember what its called but used to be on rotation\"",
+      "Was the third carry walk planned? → \"oops i guess i just kept going for carry\"",
+      "Date of the session → \"this was sep 28\"",
+      "Kinesis fly weight, 2026-10-04 (after W33 was built with it at 9) → \"i've been doing kinesis at 9\""
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-10-01",
+    "workoutId": "fb-w32-legs",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "Logged at the program's schedule position (day 2); he counts this session d4. Sleep is improving, which he gives as the reason to bring the pre-baby workouts back (see NOTES, W33 inputs). Two lifts ran off the sheet: the RDL went 45 · 45 · 90 instead of 45 · 70 · 70, and the abduction pin went to 290 from the written 250. He also added a 90/side squat set. Leg press and calf raise ran as written (follow-up). Reported 2026-10-04.",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": [
+          {
+            "weight": "80/side",
+            "reps": 6
+          },
+          {
+            "weight": "80/side",
+            "reps": 6
+          },
+          {
+            "weight": "80/side",
+            "reps": 8
+          },
+          {
+            "weight": "90/side",
+            "reps": 4,
+            "notes": "\"saved four for a 90 both sides x4 felt strong and stable here.\" Not on the sheet."
+          }
+        ],
+        "notes": "*\"Squat went well… 45s and warm up cossacks felt good.\"* Three flat sets at 80, 6 / 6 / 8, *\"went fairly deep this time.\"* Set 1 was not called out. **Then an unscripted fourth set at 90 per side for 4** (read as 90 per side, 225 total), which matches W25D5, the program's heaviest. Depth at 90 was not mentioned. **Follow-up: depth held at 90** (\"yes depth hold\"), where W25D5's 90 had shortened."
+      },
+      {
+        "id": "barbell-romanian-deadlift",
+        "sets": [
+          {
+            "weight": "45/side",
+            "reps": "8-10",
+            "equipment": "barbell"
+          },
+          {
+            "weight": "45/side",
+            "reps": "8-10",
+            "equipment": "barbell"
+          },
+          {
+            "weight": "90/side",
+            "reps": "8-10",
+            "equipment": "barbell"
+          }
+        ],
+        "notes": "**Mismatch: written 45 · 70 · 70, ran 45 · 45 · 90.** The 70 was skipped on both sets. *\"RDL went good 45s first two then 90 for last set felt stable but probably too much didn't feel form take well on this but 90s easier to put on lmao.\"* By his own read 90 was too much for the form. Reps not stated, and what ended the set (hands or hamstrings) was not stated, so the reflection prompt is unanswered. **Follow-up: hands ended it, \"a little bit\"**, and *\"yeah should probably get 70s back.\"*"
+      },
+      {
+        "id": "kneeling-leg-curl",
+        "sets": [
+          {
+            "weight": "70",
+            "reps": "10-12 each side",
+            "equipment": "kneeling leg curl machine"
+          },
+          {
+            "weight": "70",
+            "reps": "10-12 each side",
+            "equipment": "kneeling leg curl machine"
+          },
+          {
+            "weight": "70",
+            "reps": "10-12 each side",
+            "equipment": "kneeling leg curl machine"
+          }
+        ],
+        "notes": "*\"Curls at 70 felt strong and fine did all sets no struggle either side!\"* Second week at 70. Counts not stated; logged as written."
+      },
+      {
+        "id": "leg-press",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          }
+        ],
+        "notes": "Follow-up: *\"leg press + calf raise per written.\"* Not in the first report; logged as written."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          }
+        ],
+        "notes": "Follow-up: as written, same sentence as the leg press."
+      },
+      {
+        "id": "hip-abduction-machine",
+        "sets": [
+          {
+            "weight": "290",
+            "reps": "12-15",
+            "equipment": "hip abduction machine"
+          },
+          {
+            "weight": "290",
+            "reps": "12-15",
+            "equipment": "hip abduction machine"
+          }
+        ],
+        "notes": "**Mismatch: written 250, ran 290.** *\"Abduction at 290 - these feel so good even though it doesn't feel as tough as a squat and really leads the rest of the body to relax and crackle - feels super good with these two back to back.\"* Sets, reps and where the pause fell (the sheet says 2s with the legs fully open) were not stated; logged as the written two sets. **Follow-up: the pause landed halfway and at the ends, so the fully open hold was in; two sets as prescribed.**"
+      },
+      {
+        "id": "hip-adductor-machine",
+        "sets": [
+          {
+            "weight": "300",
+            "reps": 15,
+            "equipment": "hip adductor machine"
+          },
+          {
+            "weight": "300",
+            "reps": 15,
+            "equipment": "hip adductor machine"
+          }
+        ],
+        "notes": "*\"Adduction machine is back! 300x15 felt easy did them slow with a pause half way - felt them at end of second set - definitely feel the thighs here.\"* The machine was broken in W31. The pause halfway is his own addition; the sheet has slow tempo only. Set count not stated; two written, and he mentions the second. **Follow-up: pauses halfway and at the ends, two sets as prescribed.**"
+      }
+    ],
+    "rawInput": "yea i'm getting more sleep now that things are better so we can bring in the pre-baby workouts i think; i might choose to skip but my notes will be in there\n\n---\n\nw32d4 legs\n\nsquat went well\n\n45s and warm up cossacks felt good\n\nsquats did x80 set of 6, 6, 8 went fairly deep this time; saved four for a 90 both sides x4 felt strong and stable here\n\nrdl went good 45s first two then 90 for last set felt stable but probably too much didn’t feel form take well on this but 90s easier to put on lmao\n\ncurls at 70 felt strong and fine did all sets no struggle either side!\n\nadduction machine is back! 300x15 felt easy did them slow with a pause half way - felt them at end of second set - definitely feel the thighs here\n\nabduction at 290 - these feel so good even though it doesn’t feel as tough as a squat and really leads the rest of the body to relax and crackle - feels super good with these two back to back \n\n\n(october 1)",
+    "followUps": [
+      "Leg press and calf raise: done or skipped? → \"leg press + calf raise per written\"",
+      "Did depth hold on the 90 squat? → \"yes depth hold\"",
+      "What ended the 90 RDL, and are the 70s coming back? → \"hands, a little bit; yeah should probably get 70s back\"",
+      "Where did the abduction and adduction pauses land, and how many sets? → \"pause lands half way, and at ends - did as prescribed\""
+    ]
+  },
+  {
+    "day": 3,
+    "date": "2026-10-02",
+    "workoutId": "fb-w32-pull",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "Logged at the program's schedule position (day 3); he counts this session d5. Reported 2026-10-04. The day after legs, which included the 90/side squat and the 90/side RDL. The pulldown ran on the regular machine at 180 instead of the written dual-cable 80/side. The written stop rule for the left incline curl (stop if the same clear pain returns on set 1) was met and he ran all three sets; sets 2-3 were much better. The row's top set ended at 8 left and 10 right with grip fine and the shoulder tired.",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "reps": 8,
+            "equipment": "straight bar"
+          },
+          {
+            "weight": "bodyweight",
+            "reps": 7,
+            "equipment": "straight bar"
+          },
+          {
+            "weight": "bodyweight",
+            "reps": 8,
+            "equipment": "straight bar"
+          },
+          {
+            "weight": "bodyweight",
+            "reps": 8,
+            "equipment": "straight bar"
+          }
+        ],
+        "notes": "*\"Slow ish kind of out or practice today loll felt harder than last time oof feel like a sack of potatoes today.\"* 8 / 7 / 8 in the first report. Follow-up: *\"oh yeah a fourth set at 8 oops\"*, so **8 / 7 / 8 / 8**. Crackles and the between-sets shrug were not answered."
+      },
+      {
+        "id": "incline-curl",
+        "sets": [
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          }
+        ],
+        "notes": "*\"Did the other ones fine and according to whats written.\"* Load read as written. **Follow-up: \"yeah it hurt again the first set but got way better on 2nd and 3rd; so its a pattern for sure but it doesnt flare up normally which is weird.\"** **Mismatch with the sheet:** the stop rule said to stop the curl and get it assessed if the same clear pain returned on set 1. It did, and he ran all three sets. Eighth week on this spot."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": [
+          {
+            "weight": "75lb",
+            "reps": "8-10 each side"
+          },
+          {
+            "weight": "85lb",
+            "reps": "8-10 each side"
+          },
+          {
+            "weight": "95lb",
+            "reps": "left 8, right 10"
+          }
+        ],
+        "notes": "Same sentence for the load; sets 1-2 read as written. **Follow-up: \"left ended at 8 on 95, right at 10, forgot to write it down; grip was ok, shoulder was tired!\"** Which shoulder was tired was not stated. This is the row the day after the 90/side RDL: the grip was not the limiter."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": [
+          {
+            "weight": "180",
+            "reps": "8-12",
+            "equipment": "regular machine"
+          },
+          {
+            "weight": "180",
+            "reps": "8-12",
+            "equipment": "regular machine"
+          },
+          {
+            "weight": "180",
+            "reps": "8-12",
+            "equipment": "regular machine"
+          }
+        ],
+        "notes": "**Mismatch: written dual cable pulley 80/side, ran the regular machine at 180.** *\"Lat pull on 180, 3 sets slow and eccentric felt easy which probably means i AM becoming potato hahah oof.\"* Follow-up on the station: *\"regular machine.\"* The first 180 on any station; W30D3's 170 was hard at the end of set 3. Reps not stated."
+      },
+      {
+        "id": "face-pull",
+        "sets": [
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          }
+        ],
+        "notes": "Same sentence. Not restated; read as written."
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "sets": [
+          {
+            "weight": "62.5",
+            "reps": "10-12 each side",
+            "equipment": "regular pulley"
+          },
+          {
+            "weight": "62.5",
+            "reps": "10-12 each side",
+            "equipment": "regular pulley"
+          },
+          {
+            "weight": "62.5",
+            "reps": "10-12 each side",
+            "equipment": "regular pulley"
+          },
+          {
+            "weight": "62.5",
+            "reps": "10-12 each side",
+            "equipment": "regular pulley"
+          }
+        ],
+        "notes": "Same sentence. Not restated; read as written."
+      }
+    ],
+    "rawInput": "w32d5 pull\n\npull ups\n8 \n7\nslow ish kind of out or practice today loll felt harder than last time oof feel like a sack of potatoes today \n8\n\nlat pull on 180\n3 sets slow and eccentric felt easy which probably means i AM becoming potato hahah oof. \n\ndid the other ones fine and according to whats written\n\n\noct 2",
+    "followUps": [
+      "Lat pulldown \"180\": regular machine, or 90/side on the dual pulley? → \"regular machine\"",
+      "Pull-ups 8 / 7 / 8: did a fourth set run, and did either shoulder crackle? → \"oh yeah a fourth set at 8 oops\". The crackle question was not answered.",
+      "Left curl, set 1: back to baseline, or did the clear pain return? → \"yeah it hurt again the first set but got way better on 2nd and 3rd; so its a pattern for sure but it doesnt flare up normally which is weird\"",
+      "Row: where did the left end on the 95, and what ended it? → \"oh left ended at 8 on 95, right at 10, forgot to write it down; grip was ok, shoulder was tired!\""
+    ]
+  }
+]

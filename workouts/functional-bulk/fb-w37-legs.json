@@ -1,0 +1,265 @@
+{
+  "id": "fb-w37-legs",
+  "name": "Week 37 Legs — Leg Press and Hip Abduction Take the Spotlight",
+  "description": "The barbell block first: the squat at 80, with a fourth set when it feels strong, then the RDL at 70 · 80 · 80. The leg press and the hip abduction share the spotlight. The Bulgarian holds on the double-60s. The adduction slot is the machine at 305 if it is working, the goblet cossack if not. The warmup rotates hip circles to the hip-flexor lunge stretch.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "legs",
+    "strength",
+    "gym",
+    "functional-bulk",
+    "week-37"
+  ],
+  "estimatedDuration": 60,
+  "equipment": [
+    "barbell",
+    "machine",
+    "resistance-band",
+    "bodyweight",
+    "mat"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Barbell first and together. The leg press and the hip abduction are the spotlights: depth on one, width on the other.",
+    "spotlights": [
+      {
+        "exerciseId": "leg-press",
+        "why": "4 plates/side for 2 sets of 12, knees to chest. Depth is the lift; the plates stay."
+      },
+      {
+        "exerciseId": "hip-abduction-machine",
+        "why": "250-270 for range. Out as wide as the hips go, held there, slow back."
+      }
+    ],
+    "rotationPlan": "Spotlights go to the squat and the RDL next.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: squat, Bulgarian split squat, barbell RDL, leg press, kneeling leg curl, hip abduction, goblet cossack. Effort means the cue holding at a hard load; the ceiling is the rep the cue breaks.",
+      "🔥 near-failure last set OK: leg press calf raise. Isolation work where form holds at the limit.",
+      "**Barbell first, then the Bulgarian.** Double-60 DBs; the Smith at 45 with the bench if it is free, or the double-50s for 12. Stretch the pigeon between sets.",
+      "**RDL: 70 · 80 · 80, straight after the squat.** Set the grip and the bar low in the fingers before the bar leaves the floor. If the hands end an 80 set early, the last set goes back to 70.",
+      "**Leg curl 80, left first.** 70 if the left is more than two reps behind by set 2.",
+      "**Abduction at 250-270, whichever lets the legs open widest.** Width with a 2-second hold is the work.",
+      "**Adduction slot: the machine at 305 with a 3-second hold in the stretch if it is working; the goblet cossack at 35lb if it is broken.**",
+      "**Set 1 of the squat is information, not a verdict.**",
+      "**The heel plates stay at 45 in the warmup.** Not under the working sets.",
+      "**If a hip machine is down or mobbed, take the loaded fallback written into the block.** Do not skip the slot.",
+      "**No straps on the RDL, and no flipped hand.** Double-overhand at every weight.",
+      "**When the stations push the Bulgarian to the end, it will run heavier than its number.** Take the double-50s for 8-10 there and call it done."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Legs Warmup — Ankle First, Then the Heel-Elevated Ramp",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The ankle work leads, because ankle range is the first limiter on depth. **The heel plates live here, at 45**, in the second ramp round.",
+      "exercises": [
+        {
+          "id": "tibialis-raise",
+          "reps": "15-20",
+          "notes": "Slow up, slow down — feel the shin."
+        },
+        {
+          "id": "glute-bridge",
+          "reps": "12-15",
+          "notes": "Feet flat, **2s squeeze at the top**, ribs down so the low back stays out of it. Wakes the glutes before the bar."
+        },
+        {
+          "id": "banded-ankle-eversion",
+          "reps": "15-20",
+          "notes": "Light band, eversion only — slow and controlled. The left one is the point."
+        },
+        {
+          "id": "hip-flexor-lunge-stretch",
+          "reps": "30s each side",
+          "notes": "Half-kneeling, back knee on a pad. **Tuck the pelvis under first, then shift forward** until the front of the back hip opens. Ribs down; no arching to get there."
+        },
+        {
+          "id": "bodyweight-squat",
+          "reps": "10-15",
+          "notes": "Your usual stance — the wide V, no experiments. Heels down, chest up, knees out. Note where depth stops today."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "**The brace, woken deliberately.** It is half the answer to the depth question — bring it online before the bar."
+        },
+        {
+          "id": "squat",
+          "reps": "5, then 5",
+          "notes": "**LOAD:** 45/side, two rounds.\n\n**Round 1 — flat, 5 reps, 2-3s pause in the bottom.** The usual standard.\n\n**Round 2 — 5lb plate under each heel, 5 reps, 2-3s pause.**\n- **Use the extra room** — with the heels up there is more of it, and the point is to go there\n- **Stay upright and let the knees travel forward** — that is what the elevation buys\n- **Hold the brace through the pause**, ribs down\n- Note whether the extra room shows up as real depth at the bottom."
+        }
+      ]
+    },
+    {
+      "id": "squat",
+      "name": "Squat — 80/Side, Three Flat Sets (+ an Optional Fourth) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 80/side, 3 working sets of 6-8, all flat. **A fourth set of 5-6 if the first three felt strong.**\n\n- **Belt-tight brace**, ribs down, shoulders packed down\n- **Usual wide V stance**, heels glued down, knees over the toes\n- **Stop just above where the pelvis starts to tuck**",
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "6-8",
+          "notes": "**LOAD:** 80/side, 3 sets, all flat, plus an optional fourth of 5-6.\n- Usual wide V stance\n- Belt-tight brace, ribs down, shoulders packed down\n- Depth is the job, not the load\n- Stop just above where the pelvis starts to tuck"
+        }
+      ]
+    },
+    {
+      "id": "rdl",
+      "name": "Barbell RDL — 70 · 80 · 80 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 70/side · 80/side · 80/side, 3 sets of 8-10, straight after the squat.\n\n- **Double-overhand, no straps, no flipped hand.** Set 1 is a cold 70: bar low in the fingers, squeeze before you lift\n- **Soft knees, hips back, bar brushing the thighs**, 3s down\n- **If the hands end an 80 set early, the last set goes back to 70**",
+      "exercises": [
+        {
+          "id": "barbell-romanian-deadlift",
+          "reps": "8-10",
+          "notes": "**LOAD:** 70/side · 80/side · 80/side.\n- Double-overhand; no straps or flipped hand\n- Bar low in the fingers, squeeze before you lift\n- Soft knees, hips back, bar brushing the thighs\n- 3s eccentric; stop when hamstrings, grip or position ends the set"
+        }
+      ]
+    },
+    {
+      "id": "bulgarian",
+      "name": "Bulgarian Split Squat — Double-60s, Level Pelvis 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** double-60 DBs, 3 sets of 8-10 each leg. **The Smith at 45 with the bench when it is free, or double-50 DBs for 10-12.** Log which. **Pigeon stretch between sets.**\n\n- **Pelvis level** — the rear-leg hip wants to drop\n- **The front leg does the work**; the rear foot is balance only\n- Slow down, a beat just off the floor, drive up through the front heel",
+      "exercises": [
+        {
+          "id": "bulgarian-split-squat",
+          "reps": "8-10 each leg",
+          "notes": "**LOAD:** double-60 DBs, 8-10 each leg · Smith at 45 + bench, or double-50 DBs for 10-12 each leg. Log which you used. Pigeon stretch between sets."
+        }
+      ]
+    },
+    {
+      "id": "leg-curl",
+      "name": "Kneeling Leg Curl — 80, Left Side First 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 80, 3 sets of 10-12 each side. Left first; match the right to the left's count.\n\n- **Hips flat and square on the pad**\n- **Only the lower leg moves**, squeeze at the top\n- **3 seconds down** on both sides",
+      "exercises": [
+        {
+          "id": "kneeling-leg-curl",
+          "reps": "10-12 each side",
+          "notes": "**LOAD:** 80.\n- Left side first and it sets the count\n- Only the lower leg moves; hips flat and square\n- **3s down** on both sides\n- When the front of the hip joins in, the set is done\n- Log both sides separately"
+        }
+      ]
+    },
+    {
+      "id": "leg-press",
+      "name": "🔆 Leg Press — 4 Plates/Side, Two Sets, Knees to Chest 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD:** 4 plates/side, 2 sets of 12. Calf raise on the same machine straight after.\n\n**🔆 SPOTLIGHT — depth is the lift.**\n\n- **Feet hip-width, mid-platform**, the whole foot flat\n- **Low back glued to the pad.** The bottom ends where the tailbone would start to curl off it\n- **Slow into the bottom, 2-3 seconds**, knees travelling toward the chest\n- **No bounce out of the bottom** — a beat, then press through the whole foot\n- **Knees track over the toes** the whole way\n- Stop just short of locking the knees at the top\n\n**Reflection:** where did depth stop — knees at the chest, or the low back starting to lift?",
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 4 plates/side, 2 sets.\n- **Deep ROM** — depth, not weight\n- Ribs down, no leaning back\n- Knees to chest is the standard\n- Slow into the bottom, no bouncing out of it"
+        }
+      ]
+    },
+    {
+      "id": "calf-raise",
+      "name": "Leg Press Calf Raise — 4 Plates/Side 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 4 plates/side, 2 sets of 15-18, straight after the leg press.\n\n- Full controlled heel drop, a beat at the bottom\n- Press through the forefoot, knees soft and still",
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": "15-18",
+          "notes": "**LOAD:** 4 plates/side.\n- Full controlled heel drop\n- Press through the forefoot\n- Knees soft and still"
+        }
+      ]
+    },
+    {
+      "id": "hip-abduction",
+      "name": "🔆 Hip Abduction — 250-270, Width Is the Work 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 250-270, 3 sets of 12-16 — whichever pin lets the legs open widest.\n\n**🔆 SPOTLIGHT — range, not the pin.**\n\n- **Sit tall, back on the pad**, hands light on the handles\n- **Slow out, as wide as the hips go**\n- **Hold 2 seconds fully open** — that end of the range is where the work is\n- **Slow back**, don't let the stack slam\n- **Torso quiet** — no rocking or leaning forward to finish a rep\n- A heavier pin that shortens the range is a step back, not forward\n\n**Reflection:** was the last rep of set 3 as wide as the first rep of set 1?",
+      "exercises": [
+        {
+          "id": "hip-abduction-machine",
+          "reps": "12-15",
+          "notes": "**LOAD:** 250-270. Three sets.\n- Slow out, **as wide as the hips go**\n- **Hold 2 seconds fully open**\n- Slow back; torso quiet, no rocking"
+        },
+        {
+          "id": "barre-clamshell",
+          "reps": "12-15 each side",
+          "notes": "**FALLBACK — only if the machine is down.** Side-lying, knees bent and stacked, feet together, **the heaviest band you have above the knees.**\n- **Open the top knee slowly and hold a beat at the top**\n- **The top hip must not roll backwards** — that roll is how the work escapes to the front of the hip"
+        },
+        {
+          "id": "barre-side-lying-leg-lift",
+          "reps": "12-15 each side",
+          "notes": "**FALLBACK — pairs with the clamshell.** Same side-lying setup, top leg straight, **band above the knees.**\n- **Lift from the side of the hip, not the front** — lead with the heel a touch, toes pointing forward, not up\n- Slow up, **slower down**\n- Hips stacked and still; if the torso rocks back, the range is too big"
+        }
+      ]
+    },
+    {
+      "id": "hip-adduction",
+      "name": "Adduction Machine — 305, or Goblet Cossack 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** the adduction machine at 305, 3 sets of 12-15, with a 3-second hold in the stretch. **If the machine is broken: a 35lb bell at the chest, goblet cossack, 3 sets of 8 each side.** Log which.\n\n- Machine: slow release out to a full stretch, hold 3 seconds there, torso still\n- Cossack: sit into one hip, the other leg straight, heel down on the bent side, chest tall",
+      "exercises": [
+        {
+          "id": "hip-adductor-machine",
+          "reps": "12-15",
+          "notes": "**LOAD:** 305, three sets of 12-15.\n- **Slow release out to a full stretch, then hold 3 seconds there**\n- Torso still"
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "8 each side",
+          "notes": "**IF THE MACHINE IS BROKEN:** 35lb bell at the chest, 8 each side.\n- **Sit into one hip, the other leg straight**\n- Heel down on the bent side, chest tall\n- Slow down, a beat at the bottom"
+        }
+      ]
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing. End here."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Barbell block first: squat, then RDL 70 · 80 · 80.",
+    "Squat: a fourth set of 5-6 at 80 if the first three felt strong.",
+    "Leg press: knees to chest, slow into the bottom, 2 sets.",
+    "Abduction: 250-270, as wide as the hips go, 2 seconds there.",
+    "Adduction machine if it works; goblet cossack at 35lb if not.",
+    "Log which station you used on the Bulgarian."
+  ]
+}

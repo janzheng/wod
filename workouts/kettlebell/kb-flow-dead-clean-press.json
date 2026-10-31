@@ -1,7 +1,7 @@
 {
   "id": "kb-flow-dead-clean-press",
-  "name": "KB Flow: Dead Clean → Squat → Lateral Lunge → Bent Press",
-  "description": "A beautiful 5-move kettlebell flow from a Facebook reel. Dead clean from the floor, squat, lateral lunge, bent press overhead, then tactical clean back to start. Perform the full flow on one side, then repeat on the other. Smooth, controlled, and deceptively challenging.",
+  "name": "Bent Press Flow — Dead Clean → Squat → Lateral Lunge → Bent Press → Tactical Clean",
+  "description": "A beautiful 5-move kettlebell flow from a Facebook reel. Dead clean from the floor, squat, lateral lunge, bent press overhead, then tactical clean back to start. Perform the full flow on one side, then repeat on the other. Smooth, controlled, and deceptively challenging. (Formerly called the 'OTD flow' in earlier weeks — same flow, renamed for clarity. Every 'OTD flow' reference in older workouts, logs, and program notes points here.)",
   "routineId": "kettlebell",
   "tags": ["kettlebell", "flow", "full-body", "strength", "unilateral", "complex", "skill-work", "mobility"],
   "estimatedDuration": 15,
@@ -9,6 +9,14 @@
   "difficulty": "intermediate",
   "source": "Facebook Reel",
   "sourceUrl": "https://www.facebook.com/reel/1397870815215714",
+  "isFlow": true,
+  "flowSequence": [
+    { "id": "kettlebell-dead-clean", "notes": "Dead stop on the floor, explosive pull to the rack." },
+    { "id": "kettlebell-front-squat", "notes": "Racked, full depth, chest up." },
+    { "id": "kettlebell-lateral-lunge", "notes": "Step wide, hips back, trailing leg straight." },
+    { "id": "kettlebell-bent-press", "notes": "Bend AWAY from the bell, lock out overhead — leverage, not a press." },
+    { "id": "kettlebell-tactical-clean", "notes": "Controlled descent back to start before switching sides." }
+  ],
   "sets": [
     {
       "id": "warmup",

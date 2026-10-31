@@ -1,0 +1,678 @@
+[
+ {
+  "day": 1,
+  "date": null,
+  "workoutId": "fb-w36-push",
+  "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+  "notes": "Date not given. **Order mismatch:** the sheet runs press → dips → incline → lateral raise → fly → cable block → carry; he ran the incline LAST, after the carry, because the bench only opened then (*\"finally bench opened so grabbed it lol\"*). Station availability, a one-off, not a prescription change. The rope pushdown went up to 42.5 on the rope stack.",
+  "exercises": [
+   {
+    "id": "standing-dumbbell-strict-press",
+    "sets": [
+     {
+      "weight": "50lb pair",
+      "equipment": "dumbbell",
+      "reps": 10,
+      "notes": null
+     },
+     {
+      "weight": "50lb pair",
+      "equipment": "dumbbell",
+      "reps": 10,
+      "notes": null
+     },
+     {
+      "weight": "50lb pair",
+      "equipment": "dumbbell",
+      "reps": 10,
+      "notes": "*\"hard at the end and losing form.\"*"
+     }
+    ],
+    "notes": "*\"Strict press went well 50x10 x3 hard at the end and losing form but doing all sets!\"* 10 / 10 / 10, up from W35's 10 / 10 / 8, the top of the written 8-10. Form was slipping at the end; where it went is asked."
+   },
+   {
+    "id": "dip",
+    "sets": [
+     {
+      "weight": "bodyweight",
+      "equipment": "V bar",
+      "reps": 12,
+      "notes": "3s down, 2s pause"
+     },
+     {
+      "weight": "bodyweight",
+      "equipment": "V bar",
+      "reps": 12,
+      "notes": "3s down, 2s pause"
+     },
+     {
+      "weight": "bodyweight",
+      "equipment": "V bar",
+      "reps": 12,
+      "notes": "3s down, 2s pause; *\"got slightly hard at end.\"*"
+     }
+    ],
+    "notes": "*\"Dips went pretty ok did all sets got slightly hard at end so not as easy as last few times.\"* Follow-up: V bar, 12 x 3, with the new 3s down and 2s pause. *\"Was more tired today? not sure why i feel better some days and not others tbh.\"* The pause was new this week.",
+    "equipment": "V bar"
+   },
+   {
+    "id": "lateral-raise",
+    "sets": [
+     {
+      "weight": "20lb pair",
+      "equipment": "dumbbell",
+      "reps": 15,
+      "notes": null
+     },
+     {
+      "weight": "20lb pair",
+      "equipment": "dumbbell",
+      "reps": 15,
+      "notes": null
+     },
+     {
+      "weight": "20lb pair",
+      "equipment": "dumbbell",
+      "reps": 15,
+      "notes": "*\"last set hurts around middle of set.\"*"
+     }
+    ],
+    "notes": "*\"Slow on 20lb 15 for 3 sets, slow ish and wide until last set hurts around middle of set.\"* Same 15 x 3 on the 20s as W35, with the width and slow tempo written. Follow-up: *\"burns middle of last set, not a problem.\"* Muscle burn, not pain."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "sets": [
+     {
+      "weight": "not stated",
+      "equipment": "not stated",
+      "reps": "not stated",
+      "notes": null
+     },
+     {
+      "weight": "not stated",
+      "equipment": "not stated",
+      "reps": "not stated",
+      "notes": null
+     }
+    ],
+    "notes": "*\"Cable lat raise pretty good no problems.\"* Station and number not given."
+   },
+   {
+    "id": "cable-rope-tricep-pushdown",
+    "equipment": "rope pulley",
+    "sets": [
+     {
+      "weight": "36.5",
+      "equipment": "rope pulley",
+      "reps": "not stated",
+      "notes": "*\"too easy.\"*"
+     },
+     {
+      "weight": "42.5",
+      "equipment": "rope pulley",
+      "reps": 12,
+      "notes": "*\"harder and feels like working set.\"*"
+     },
+     {
+      "weight": "42.5",
+      "equipment": "rope pulley",
+      "reps": 12,
+      "notes": "*\"hard at end but finished all.\"*"
+     }
+    ],
+    "notes": "Written as rope pulley 37.5 or cable column 62.5. *\"First set 36.5 too easy ; 42.5 harder and feels like working set; another 42.5 - 12 each set hard at end but finished all.\"* Follow-up: rope pulley, confirmed. 42.5 x 12 x 2 is the working number there now (W35: 37.5)."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "equipment": "not stated (62.5 is the rope pulley number)",
+    "sets": [
+     {
+      "weight": "62.5",
+      "equipment": "not stated",
+      "reps": 12,
+      "notes": "*\"super hard.\"*"
+     },
+     {
+      "weight": "62.5",
+      "equipment": "not stated",
+      "reps": 12,
+      "notes": "*\"also hard but easier lol.\"*"
+     }
+    ],
+    "notes": "Two rounds of 12 at 62.5, as written. *\"Super hard but 12; second set 12 also hard but easier.\"* W35 at the same number was \"pretty good working weight.\""
+   },
+   {
+    "id": "kinesis-cable-fly",
+    "sets": [
+     {
+      "weight": "9",
+      "equipment": "Kinesis",
+      "reps": "not stated",
+      "notes": null
+     },
+     {
+      "weight": "9",
+      "equipment": "Kinesis",
+      "reps": "not stated",
+      "notes": null
+     },
+     {
+      "weight": "9",
+      "equipment": "Kinesis",
+      "reps": "not stated",
+      "notes": null
+     }
+    ],
+    "notes": "*\"Kinesis fly at 9 went great three sets.\"* W35 at 9 with the big step was \"surprisingly hard\" and finished 12 / 12 / 10."
+   },
+   {
+    "id": "farmer-carry",
+    "sets": [
+     {
+      "weight": "60lb per hand",
+      "equipment": "dumbbell",
+      "reps": "walk 1",
+      "notes": null
+     },
+     {
+      "weight": "60lb per hand",
+      "equipment": "dumbbell",
+      "reps": "walk 2",
+      "notes": "After the incline, carrying the DBs back the long way."
+     }
+    ],
+    "notes": "*\"First carry went pretty good.\"* Follow-up: 60s, and *\"did another walk at end of incline - walked farther to put it back haha.\"* Two walks at 60."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "equipment": "incline bench (seat tilt not stated)",
+    "sets": [
+     {
+      "weight": "60lb pair",
+      "equipment": "incline bench",
+      "reps": 9,
+      "notes": "*\"got tired so dropped.\"*"
+     },
+     {
+      "weight": "60lb pair",
+      "equipment": "incline bench",
+      "reps": 12,
+      "notes": "*\"rested a bit more did 60x12 oops.\"*"
+     },
+     {
+      "weight": "60lb pair",
+      "equipment": "incline bench",
+      "reps": 12,
+      "notes": "*\"single and not without a lot of struggle.\"*"
+     }
+    ],
+    "notes": "Run LAST, after the carry, when the bench opened. *\"These are very hard last lol.\"* Three sets, 9 / 12 / 12, confirmed. Last sets as singles. W35 in its normal slot: 12 / 12 / 10."
+   }
+  ],
+  "rawInput": "w36d1 push\n\nstrict press went well 50x10 x3 hard at the end and losing form but doing all sets!\n\ndips went pretty ok did all sets got slightly hard at end so not as easy as last few times\n\ndb lat raise went ok slow on 20lb 15 for 3 sets, slow ish and wide until last set hurts around middle of set\n\ncable lat raise pretty good no problems \n\nupright rope push down tri first set 36.5 too easy ; 42.5 harder and feels like working set; another 42.5 - 12 each set hard at end but finished all\n\nstraight arm pulldown 62.5 super hard but 12\n; second set 12 also hard but easier lol; \n\nkinesis fly at 9 went great three sets \n  \nfirst carry went pretty good finally bench opened so grabbed it lol\n\nincline press\nthese are very hard last lol\n60x9 got tired so dropped\nrested a bit more did 60x12 oops\nlast two were 12 but single and not without a lot of struggle lol",
+  "followUps": [
+   "Lateral raise \"hurts\"? → \"oh yeah burns middle of last set, not a problem\"",
+   "Pushdown station? → \"rope pulley yes\"",
+   "Dips tempo, bar, reps? → \"yep 3s down with pause; v bar, was more tired today? not sure why i feel better some days and not others tbh; 12 reps each set\"",
+   "Incline set count, carry? → \"9 12 12 (three sets) and carry was 60s; did another walk at end of incline - walked farther to put it back haha\""
+  ]
+ },
+ {
+  "day": 2,
+  "date": null,
+  "workoutId": "fb-w36-legs",
+  "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+  "notes": "Date not given. Adduction machine broken; the cossack slot became a 50lb kettlebell squat. Leg press and calf raise ran four sets each against the written two and one (*\"oops didn't read\"*). The Bulgarian ran double-50s at 8 / 8 / 10, the hardest lift of the day.",
+  "exercises": [
+   {
+    "id": "squat",
+    "sets": [
+     {
+      "weight": "80/side",
+      "equipment": "barbell",
+      "reps": 8,
+      "notes": null
+     },
+     {
+      "weight": "80/side",
+      "equipment": "barbell",
+      "reps": 8,
+      "notes": null
+     },
+     {
+      "weight": "80/side",
+      "equipment": "barbell",
+      "reps": 8,
+      "notes": null
+     },
+     {
+      "weight": "80/side",
+      "equipment": "barbell",
+      "reps": 6,
+      "notes": "*\"felt strong here.\"*"
+     }
+    ],
+    "notes": "*\"Went well 3x80 at 8 then a fourth set of 6 felt strong here.\"* Written as 3 sets of 6-8; he added a fourth set again, as in W35 (8 / 8 / 8 / 5)."
+   },
+   {
+    "id": "barbell-romanian-deadlift",
+    "sets": [
+     {
+      "weight": "70/side",
+      "equipment": "barbell",
+      "reps": 10,
+      "notes": null
+     },
+     {
+      "weight": "80/side",
+      "equipment": "barbell",
+      "reps": 10,
+      "notes": null
+     },
+     {
+      "weight": "80/side",
+      "equipment": "barbell",
+      "reps": 10,
+      "notes": null
+     },
+     {
+      "weight": "80/side",
+      "equipment": "barbell",
+      "reps": 6,
+      "notes": "*\"hand grip dropped.\"*"
+     }
+    ],
+    "notes": "Written as 70 · 80 · 80; he ran 70 · 80 · 80 · 80, four sets: 10 / 10 / 10 / 6, the last ending on grip."
+   },
+   {
+    "id": "hip-abduction-machine",
+    "sets": [
+     {
+      "weight": "250",
+      "equipment": "hip abduction machine",
+      "reps": 16,
+      "notes": null
+     },
+     {
+      "weight": "250",
+      "equipment": "hip abduction machine",
+      "reps": 16,
+      "notes": null
+     },
+     {
+      "weight": "250",
+      "equipment": "hip abduction machine",
+      "reps": 16,
+      "notes": null
+     }
+    ],
+    "notes": "*\"Trying to go as wide as i can slowly; to get better range.\"* Written at 270 for 12-15 with a 2s hold fully open; he ran 250 for 16 x 3, going for width."
+   },
+   {
+    "id": "kneeling-leg-curl",
+    "sets": [
+     {
+      "weight": "80",
+      "equipment": "kneeling leg curl",
+      "reps": 12,
+      "notes": null
+     },
+     {
+      "weight": "80",
+      "equipment": "kneeling leg curl",
+      "reps": 12,
+      "notes": null
+     },
+     {
+      "weight": "80",
+      "equipment": "kneeling leg curl",
+      "reps": 12,
+      "notes": null
+     }
+    ],
+    "notes": "*\"Went well 80x12 three sets left side feeling pretty good now.\"* Sides not split; both read as 12."
+   },
+   {
+    "id": "cossack-squat",
+    "sets": [],
+    "notes": "Not done: *\"didn't do cossack.\"* The adductor machine (the written alternative) was broken."
+   },
+   {
+    "id": "kettlebell-thruster",
+    "sets": [
+     {
+      "weight": "50lb kettlebell",
+      "equipment": "kettlebell",
+      "reps": 10,
+      "notes": null
+     },
+     {
+      "weight": "50lb kettlebell",
+      "equipment": "kettlebell",
+      "reps": 10,
+      "notes": null
+     }
+    ],
+    "notes": "In the cossack slot: *\"used a 50 to do two sets of 10 to get really low and explode up to arms raised - really helping with deeper squat i feel? idk.\"* Follow-up: a thruster, 50lb bell. *\"These really help / was doing it for deep stretching and really liked it actually.\"*"
+   },
+   {
+    "id": "leg-press",
+    "sets": [
+     {
+      "weight": "not stated",
+      "equipment": "leg press",
+      "reps": 12,
+      "notes": null
+     },
+     {
+      "weight": "not stated",
+      "equipment": "leg press",
+      "reps": 12,
+      "notes": null
+     },
+     {
+      "weight": "not stated",
+      "equipment": "leg press",
+      "reps": 12,
+      "notes": null
+     },
+     {
+      "weight": "not stated",
+      "equipment": "leg press",
+      "reps": 12,
+      "notes": null
+     }
+    ],
+    "notes": "Written as 4 plates/side, 2 sets; he ran 4 x 12 (*\"oops didn't read\"*). Load not given."
+   },
+   {
+    "id": "leg-press-calf-raise",
+    "sets": [
+     {
+      "weight": "not stated",
+      "equipment": "leg press",
+      "reps": 18,
+      "notes": "slow, steady"
+     },
+     {
+      "weight": "not stated",
+      "equipment": "leg press",
+      "reps": 18,
+      "notes": "slow, steady"
+     },
+     {
+      "weight": "not stated",
+      "equipment": "leg press",
+      "reps": 18,
+      "notes": "slow, steady"
+     },
+     {
+      "weight": "not stated",
+      "equipment": "leg press",
+      "reps": 18,
+      "notes": "slow, steady"
+     }
+    ],
+    "notes": "*\"Four sets of 18 slow steady also didn't read.\"* Written for 15."
+   },
+   {
+    "id": "bulgarian-split-squat",
+    "sets": [
+     {
+      "weight": "double-50 DBs",
+      "equipment": "dumbbell",
+      "reps": "8 each leg",
+      "notes": null
+     },
+     {
+      "weight": "double-50 DBs",
+      "equipment": "dumbbell",
+      "reps": "8 each leg",
+      "notes": null
+     },
+     {
+      "weight": "double-50 DBs",
+      "equipment": "dumbbell",
+      "reps": "10 each leg",
+      "notes": "*\"so friggin hard.\"*"
+     }
+    ],
+    "notes": "Written as double-60s for 8-10, or double-50s for 12. He ran double-50s for 8 / 8 / 10. *\"So friggin hard as the last one... was still able to jog back tho.\"* W35 on double-50s: 12 x 3. Follow-up: it ran last, picked by what was free; *\"it was barfy haha.\"*"
+   }
+  ],
+  "rawInput": "w36d3 legs\n\nsquats\nwent well 3x80 at 8 then a fourth set of 6 felt strong here \n\nrdl 70 80 80 80 last set did six and hand grip dropped \n\nhip abduction \n250x 16 16 16 trying to go as wide as i can slowly; to get better range \nadduction machine broken \n\nleg curl went well 80x12 three sets left side feeling pretty good now\n\nkettlebell squat didn’t do cossack but used a 50 to do two sets of 10 to get really low and explode up to arms raised - really helping with deeper squat i feel? idk\n\nleg press\nfour sets of 12 oops didn’t read\ncalf raise four sets of 18 slow steady also didn’t read\n\nbulgarian\ndouble 50s\n8\n8\n10 \nso friggin hard as the last one \nso hard! was still\nable to\njog back tho",
+  "followUps": [
+   "Bulgarian ran last? → \"bulgarians came last yes, i do these based on whats free so it came last and it was barfy haha\"",
+   "KB squat move? → \"yes thruster; these really help / was doing it for deep stretching and really liked it actually\"",
+   "RDL reps? → \"oh i did 10 each\""
+  ]
+ },
+ {
+  "day": 3,
+  "date": null,
+  "workoutId": "fb-w36-pull",
+  "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+  "notes": "Date not given. The chest-supported row ran three sets against the written two (*\"oops\"*). The face pull ran at 65 against the written 62.5. The high cable curl ran on the cable column, as written for that station. The cable crunch ran as written (follow-up).",
+  "exercises": [
+   {
+    "id": "pull-up",
+    "sets": [
+     {
+      "weight": "bodyweight",
+      "equipment": "pull-up bar",
+      "reps": 8,
+      "notes": "packed down, singles"
+     },
+     {
+      "weight": "bodyweight",
+      "equipment": "pull-up bar",
+      "reps": 8,
+      "notes": "packed down, singles"
+     },
+     {
+      "weight": "bodyweight",
+      "equipment": "pull-up bar",
+      "reps": 8,
+      "notes": "packed down, singles"
+     },
+     {
+      "weight": "bodyweight",
+      "equipment": "pull-up bar",
+      "reps": 8,
+      "notes": "packed down, singles"
+     }
+    ],
+    "notes": "*\"Packed and singles felt good for four sets; tried to slow down and felt like i'm losing all strength haha; did these pretty fast and explosive tho in the other rounds and felt decent, don't feel like i have control over these like i used to.\"* Reps not given. A slow-tempo attempt lost strength; the fast rounds felt decent. Follow-up: 8 x 4. *\"Ehh just get tired easier; not being able to pull up or ecc slowly.\"* So both the slow pull and the slow lowering went."
+   },
+   {
+    "id": "incline-curl",
+    "sets": [
+     {
+      "weight": "25lb",
+      "equipment": "dumbbell",
+      "reps": "10 each side",
+      "notes": null
+     },
+     {
+      "weight": "25lb",
+      "equipment": "dumbbell",
+      "reps": "10 each side",
+      "notes": null
+     },
+     {
+      "weight": "25lb",
+      "equipment": "dumbbell",
+      "reps": "10 each side",
+      "notes": null
+     }
+    ],
+    "notes": "*\"Went about the same as others- first one hardest on left but gets way better on third; warmed up this time too.\"* Load and reps read as written (25, 10 each side)."
+   },
+   {
+    "id": "dumbbell-row",
+    "sets": [
+     {
+      "weight": "75lb",
+      "equipment": "dumbbell",
+      "reps": "10 each side",
+      "notes": null
+     },
+     {
+      "weight": "85lb",
+      "equipment": "dumbbell",
+      "reps": "10 each side",
+      "notes": null
+     },
+     {
+      "weight": "95lb",
+      "equipment": "dumbbell",
+      "reps": "left 8, right 10",
+      "notes": null
+     }
+    ],
+    "notes": "*\"10 10 8 left went first; right side did 10 on last set tho.\"* Pyramid read as written. W35: 10 / 10 / 8 both sides."
+   },
+   {
+    "id": "chest-supported-dumbbell-row",
+    "sets": [
+     {
+      "weight": "45lb pair",
+      "equipment": "dumbbell",
+      "reps": "not stated",
+      "notes": null
+     },
+     {
+      "weight": "45lb pair",
+      "equipment": "dumbbell",
+      "reps": "not stated",
+      "notes": "eccentric difficult"
+     },
+     {
+      "weight": "45lb pair",
+      "equipment": "dumbbell",
+      "reps": "not stated",
+      "notes": "eccentric *\"nigh impossible.\"*"
+     }
+    ],
+    "notes": "Written as 2 sets of 12; he ran 3 (*\"3 sets oops\"*). *\"Eccentrics are difficult on second and nigh impossible on third.\"* Skipped in W35."
+   },
+   {
+    "id": "dumbbell-reverse-fly",
+    "sets": [
+     {
+      "weight": "20lb pair",
+      "equipment": "dumbbell",
+      "reps": 15,
+      "notes": "*\"hard.\"*"
+     },
+     {
+      "weight": "20lb pair",
+      "equipment": "dumbbell",
+      "reps": 15,
+      "notes": "*\"struggling thru single.\"*"
+     }
+    ],
+    "notes": "2 x 15 on the 20s, as written. The second set went to singles."
+   },
+   {
+    "id": "face-pull",
+    "sets": [
+     {
+      "weight": "65",
+      "equipment": "rope pulley",
+      "reps": 20,
+      "notes": "*\"went ok.\"*"
+     },
+     {
+      "weight": "65",
+      "equipment": "rope pulley",
+      "reps": "not stated",
+      "notes": null
+     },
+     {
+      "weight": "65",
+      "equipment": "rope pulley",
+      "reps": "not stated",
+      "notes": "*\"surprisingly easy today.\"*"
+     }
+    ],
+    "notes": "Written at 62.5; he ran 65 on the rope pulley. *\"Surprisingly easy today compared to other days.\"* Follow-up: stacks at the gym step in different increments (some land on 62.5, others on 65), even across pulleys on the same machine, so 62.5 vs 65 is the stack, not a load change.",
+    "equipment": "rope pulley"
+   },
+   {
+    "id": "lat-pulldown",
+    "sets": [
+     {
+      "weight": "180",
+      "equipment": "regular machine",
+      "reps": 12,
+      "notes": "*\"a bit spent.\"*"
+     },
+     {
+      "weight": "180",
+      "equipment": "regular machine",
+      "reps": 10,
+      "notes": "*\"whoa so dead now.\"*"
+     },
+     {
+      "weight": "180",
+      "equipment": "regular machine",
+      "reps": 10,
+      "notes": null
+     }
+    ],
+    "notes": "180 x 12 / 10 / 10 on the regular machine. *\"Whoa so dead now\"* after set 2. W35 opened the same 12 / 10."
+   },
+   {
+    "id": "high-cable-bicep-curl",
+    "equipment": "cable column",
+    "sets": [
+     {
+      "weight": "220",
+      "equipment": "cable column",
+      "reps": "10-12 each side",
+      "notes": null
+     },
+     {
+      "weight": "230",
+      "equipment": "cable column",
+      "reps": "10-12 each side",
+      "notes": null
+     },
+     {
+      "weight": "240",
+      "equipment": "cable column",
+      "reps": "10-12 each side",
+      "notes": null
+     },
+     {
+      "weight": "250",
+      "equipment": "cable column",
+      "reps": "10-12 each side",
+      "notes": "*\"last set was hard lol getting worn.\"*"
+     }
+    ],
+    "notes": "*\"Did as written on cable column.\"* Logged as the written column ladder 220 / 230 / 240 / 250."
+   },
+   {
+    "id": "cable-crunch",
+    "sets": [
+     {
+      "weight": "77.5 or 150 as written",
+      "equipment": "not stated",
+      "reps": "12-15 as written",
+      "notes": null
+     }
+    ],
+    "notes": "Not in the first report. Follow-up: *\"did cable crunch as written.\"* Station not given."
+   }
+  ],
+  "rawInput": "w36d4 pull\n\npull ups\npacked and singles felt good for four sets; tried to slow down and felt like i’m losing all strength haha; did these pretty fast and explosive tho in the other rounds and felt decent, don’t feel like i have control over these like i used to\n\nincline curl \nwent about the same as others- first one hardest on left but gets way better on third; warmed up this time too\n\ndb rows\n10 10 8 left went first; right side did 10 on last set tho \n\nincline rows 45lb\n3 sets oops; these have got regard lol eccentrics are difficult on second and nigh impossible on third \n\nincline rev fly 20lb\n15 hard loll\n15 struggling thru single oof\n\nface pull\n65 20 went ok\n65\n65 surprisingly easy today compared to other days\n\nlat pulldown\n180 12 was ok a bit spent \n180 10 whoa so dead now\n\nhigh cable went ok did as written on cable column last set was hard lol getting worn",
+  "followUps": [
+   "Pull-up reps, what control felt like? → \"8 per set; ehh just get tired easier; not being able to pull up or ecc slowly\"",
+   "Lat pulldown third set? → \"oh yeah third happened at 10 reps\"",
+   "Cable crunch? → \"did cable crunch as written\"",
+   "Face pull station? → \"rope like previous; some machines / stacks are weirdly 62.5 others are 65 and go up in different intervals (even on the same \\\"machine\\\" / stack where there are multiple single pulley things, so who knows, seems like the ppl making this are all crazy\""
+  ]
+ }
+]

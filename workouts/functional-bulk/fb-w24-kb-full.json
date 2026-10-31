@@ -1,0 +1,128 @@
+{
+  "id": "fb-w24-kb-full",
+  "name": "Week 24 KB Tuesday — Two Flows Back From the Bench 🌀 (B-Stance Flow + Leggy Flow)",
+  "description": "After the fourteen-move gauntlet, this Tuesday goes the other way: two flows you already know, run for quality instead of learning.\n\nThe **B-Stance Flow** comes back after a long absence — five moves built on the offset stance, where one leg takes most of the load and the other just keeps you honest. Then the **Leggy Flow**, the lower-body chain, with no overhead work in it at all.\n\n**Warmup reminder:** around-the-body passes → halo → bottoms-up press (18lb) → cossack squats → internal core fist rotation → protective behind-back shrug, then the 7-move banded prep.\n\nStrict press and KB row run between the two flows. Cossacks come back into the warmup after a long time away.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "flow", "coordination", "full-body", "skill-work", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Two known flows instead of one new one — the B-Stance Flow returns after its longest absence in the program, paired with the Leggy Flow. Both are single-bell chains you can run for quality rather than order. Cossack squats come back into the warmup. Strength (strict press + row) runs between the flows so nothing stacks at the top. Almost no overhead volume today, which is a deliberate break after the gauntlet week.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-b-stance-swing",
+        "why": "The B-stance is the whole reason this flow is worth bringing back, and it's the beat most likely to get sloppy through neglect. The back foot is a kickstand, not a second leg — it's there for balance and takes almost none of the load, which means the front hip has to do a job it never has to do in a normal two-legged swing. Done right it's most of a single-leg hinge without the balance tax. The spotlight is keeping the weight honestly on the front leg: if you can feel the back foot pushing, the load has quietly redistributed and the whole point is gone."
+      },
+      {
+        "exerciseId": "cossack-squat",
+        "why": "You said it yourself last time these showed up — they used to feel impossible and need support, and now they don't. That's a genuine floor rise, and the reason to spotlight them isn't to load them but to bank the range while the pattern is honest. Depth is the project now: sit into one hip with the heel down, the other leg straight, and get lower than feels comfortable without letting the down heel lift. They also work as an early-warning system — how they feel in the warmup tells you what the legs have got before the session commits to anything."
+      }
+    ],
+    "rotationPlan": "Tuesday content rotates: W21 GymFiesta circuit + Dead Cluster Flow · W23 Long Coordination Gauntlet + figure-8 switch-clean · W24 B-Stance Flow + Leggy Flow, cossacks back in the warmup (current) · W25 candidates — the Dead Cluster Flow, the overhead mobility complex, or the gauntlet's return now the order's known. Every week pulls at least one thing off the bench.",
+    "watchpoints": [
+      "**🌀🔆 B-Stance Flow (@Asgooch) — back after its longest absence.** b-stance swing → swing clean → ab-stance goblet squat → swing snatch → overhead lunge. One continuous chain per side. (Canonical: kb-b-stance-flow.)",
+      "**🔆 The B-stance is the point: the back foot is a KICKSTAND** 🛑. Balance only — the front leg takes the load. If you feel the back foot pushing, reset the stance.",
+      "**🌀 Leggy Flow — the lower-body chain, no overhead.** dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean. Medium bell, quality over load. (Canonical: kb-leggy-flow.)",
+      "**🔆 Cossacks are back in the warmup** — depth is the project now that they run unassisted. Heel down, sit low, both sides.",
+      "**Light on overhead today, on purpose** — one snatch and one lunge in the B-stance flow and nothing else. The gauntlet week was overhead-heavy; this is the counterweight.",
+      "**Strict overhead press holds 50 at 8/8/8** 🛑 — strict, no push-press, both sides even. KB row at 40.",
+      "**Strength runs BETWEEN the two flows** so the demanding volume isn't stacked at the top.",
+      "**Leg-athletic on Tuesday is free** — both flows are lunge-heavy and Friday is three days out.",
+      "**Protective behind-back shrug greasing set stays in the warm-up.**"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "🔆 Warm-Up — Around-the-Body Passes + Cossacks + Cuff Prep",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": "8 each direction", "notes": "**LOAD:** 25lb, light and fun. Bell passes hand to hand around the waist, hips still.\n- **Stay tall, no leaning** — the bell orbits you, you don't orbit it\n- Hand-eye primer; both directions" },
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles both directions — open the shoulders." },
+        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "**LOAD:** 18lb. Inverted bell over a vertical forearm, grip hard, shoulder packed. Cuff prep." },
+        { "id": "cossack-squat", "reps": "6 each side", "notes": "**🔆 SPOTLIGHT (warmup slot) — bodyweight, slow. Back in the rotation after a long absence.**\n- **Sit into one hip, other leg straight, DOWN heel stays planted** — if the heel lifts, you've gone past your range\n- **Chest up** through the bottom, don't fold forward to fake depth\n- **Depth is the project** — these run unassisted now, so the range is what's left to build. Go lower than comfortable and hold a beat\n- Take note of how they feel: it's the earliest read you get on what the legs have today" },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, hinged slightly forward. Tight fists, thumbs tucked — grip + forearm primer." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a KB held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set).** 1 light set held behind the body, palms back. Pack DOWN and BACK, shrug UP and slightly back, 1s squeeze, slow down." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "b-stance-flow-block",
+      "name": "🌀🔆 B-Stance Flow (@Asgooch) — Back From the Bench",
+      "type": "flow",
+      "flowId": "kb-b-stance-flow",
+      "rounds": 3,
+      "notes": "**Single bell (~25-35lb), 3 rounds each side.** The offset-stance chain, back after its longest absence in the program.\n\n**🔆 The B-stance is the whole lift** — and it's the thing that decays when a flow sits on the bench:\n- **The back foot is a KICKSTAND.** Toe lightly down, heel up, balance only. It takes almost none of the load\n- **The front leg does the work** — this is most of a single-leg hinge without the balance tax\n- **If you can feel the back foot pushing, reset.** That's the load redistributing and the point of the flow leaking away\n- **Hips drive the swing and the snatch**, arm stays a rope\n\n**The ab-stance goblet squat** alternates wide and narrow — let the stance change be deliberate, not incidental.\n\n🛑 **One snatch and one overhead lunge is all the overhead today** — pack the shoulder DOWN on both, ribs down on the lunge.\n\n**Reflection:** on the b-stance swing, can you honestly say the front leg is carrying it — or has the back foot turned into a second leg? That's the difference between this flow and a regular swing.",
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "strength-block",
+      "name": "Strength — Strict Press + KB Row (Between the Flows) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-overhead-press", "reps": "8 each side", "notes": "**LOAD:** 50 across all sets — strict single-arm press, clean to rack, press straight up, NO push-press.\n- **Strict, ribs DOWN**, no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- Both sides to the same standard" },
+        { "id": "kettlebell-row", "reps": "8 each side", "notes": "**LOAD:** 40. Hinged, flat back, bell to the hip.\n- **Pack the shoulder DOWN and BACK** before the elbow moves — no shrugging the bell up\n- **Elbow drives past the ribs**, not flared wide\n- Slow return, full stretch at the bottom" }
+      ],
+      "notes": "3 rounds, run between the two flows so the demanding volume isn't stacked at the top.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "leggy-flow-block",
+      "name": "🌀 Leggy Flow — the Lower-Body Chain (No Overhead)",
+      "type": "flow",
+      "flowId": "kb-leggy-flow",
+      "rounds": 3,
+      "notes": "**Single MEDIUM bell (~25-35lb), 3 rounds each side.** The lower-body chain — dead clean → curtsy lunge → lateral lunge → lateral squat clean → lateral lunge → tactical clean, all on one side before switching.\n\n**Nothing goes overhead here**, which is why it closes a day that already ran a snatch and an overhead lunge. The shoulder gets the back half of the session off.\n\n- **The cleans come from the LEGS and hips**, not the arm — the arm is a hook\n- **Curtsy and lateral lunges: knee tracks the toes**, chest up, don't collapse inward\n- **Let each move feed the next** — the chain shouldn't have stops in it\n\n**Reflection:** the two lateral lunges bracket the lateral squat clean — does that middle section flow as one movement now, or are you resetting between them?",
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Adductor Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the lunges and the b-stance work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors + inner hips — the cossacks and lateral lunges bill here." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**B-Stance Flow is back** — b-stance swing → swing clean → ab-stance goblet squat → swing snatch → overhead lunge, one chain per side.",
+    "🔆 **The back foot is a kickstand, not a second leg.** If it's pushing, reset the stance.",
+    "**Leggy Flow closes the day** — six moves, no overhead, medium bell, quality over load.",
+    "🔆 **Cossacks are back in the warmup** — unassisted now, so depth is the project. Heel down.",
+    "**Strict overhead press holds 50 at 8/8/8**; KB row at 40.",
+    "**Strength runs between the two flows** so nothing stacks at the top.",
+    "**Light on overhead today on purpose** — the counterweight to gauntlet week.",
+    "**Protective behind-back shrug greasing set in the warm-up.**",
+    "Cooldown mandatory — pigeon + butterfly."
+  ],
+  "formPhilosophy": "Last Tuesday asked you to hold fourteen moves in your head at once. This one asks for the opposite: two chains you already know, where nothing is new and the only thing left to work on is how well you do them. That's not a lighter week, it's a different kind of hard — a flow you half-remember will run fine and quietly teach your body the sloppy version, which is exactly what happens when something sits on the bench for a dozen weeks. The B-stance is the clearest case. Nobody misses the reps; they just stop being b-stance reps, and the back foot creeps in to help until it's a regular swing with a funny setup. Bringing a movement back is only worth it if you bring back the standard too. Building decades, not weeks."
+}

@@ -1,0 +1,157 @@
+{
+  "id": "fb-w20-pull",
+  "name": "Week 20 Pull — Steady State (Spotlight: High Cable Curl + Cable Crunch)",
+  "description": "Volume steady; the protective behind-back shrug stays front-loaded as activation. **Warmup reminder:** behind-back shrug FIRST (protective activation, 3 sets) → band-pull-apart → cat-cow → internal core fist rotation → active dead hang. Spotlights cycle forward to the high cable curl (the single-pulley reads 62.5 and it's brutal — a different scale than the cable-column 180) and the cable crunch (read the stack — magnetic add-ons hide). Lat pulldown holds 150 (W19 didn't clean up — keep drilling the controlled return, don't step up); face pull holds the settled 50; chest-supported row holds 45 with a slower eccentric; DB row holds the 70/80/90 bare-hand pyramid. Pull-up stays on the straight bar. New this week: each lift is tagged 🔥 (near-failure last set OK) or 🛑 (grip/form is the cap) so you decide before the set.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Steady state. Shrug stays FIRST (protective activation). Spotlights cycle to the high cable curl (single-pulley 62.5, the NEW scale) + the cable crunch (read the stack). Lat pulldown holds 150 (didn't clean up W19 — drill the return, don't step up); face pull holds the settled 50. DB row holds 70/80/90, no straps. Both shoulders pain-free — grip is the cap, not the shoulder.",
+    "spotlights": [
+      {
+        "exerciseId": "high-cable-bicep-curl",
+        "why": "Cycles forward — W19 the single-pulley station read 62.5 and was brutal ('barely finished set 2 but did all'), a different, harder scale than the cable-column 180 est. Spotlight drills the fixed upper-arm (parallel to the floor) high-cable variant so the number gets honest on the scale you actually used — and it's a safe isolation, so this is a lift where a near-failure last set (or a clean pyramid up) is fair game."
+      },
+      {
+        "exerciseId": "cable-crunch",
+        "why": "Cycles forward — W19 you read the stack correctly (67.5, not 66.5 — the magnetic-add-on lesson landed) and it was 'super hard at the end.' Spotlight drills the hips-LOCKED, abs-only crunch so the load is honest ab work, not a hip-flexor pull — a safe core isolation where the last set can ride close to failure."
+      }
+    ],
+    "rotationPlan": "W18 pull-up + DB row · W19 lat pulldown + face pull · W20 high cable curl + cable crunch (current) · W21 cycle forward — chest-supported row + incline curl refresh.",
+    "watchpoints": [
+      "**🔥/🛑 intensity tags — decide before the set.** 🔥 near-failure last set OK (safe isolation / supported): chest-supported row, incline curl, reverse fly, face pull, high cable curl, cable crunch. 🛑 keep it shy, grip/form is the cap: pull-up, DB row, lat pulldown (grip fails first — failure just means the hands quit, not that the back got worked; no straps). **Order:** form lever first (tempo/ROM), load second, near-failure last set only on 🔥 — by pushing the existing last set, not adding a round.",
+      "**High cable curl spotlight — the single-pulley reads 62.5 (the harder scale).** W19 62.5 was brutal on the single pulley; the cable column runs ~180. Log which station + number. 🔥 — a near-failure last set or a clean pyramid up is fair game here (isolation); if 62.5 keeps the correct feel, let it climb.",
+      "**Cable crunch spotlight — hips LOCKED, read the stack.** 62.5 clean base / 66.5 comfortable / 70.5 brutal ceiling — and the magnetic micro add-ons can be on unnoticed (W19: a '67.5' read). Read the actual stack. 🔥 — the last set can ride close to failure as long as the hips stay locked (hips moving = hip-flexor work, that's the real cap).",
+      "**Behind-back shrug stays FIRST (activation slot).** Front-loading it keeps pull day flare-free — the protective counter to all the pulling can't be the piece a rushed session drops.",
+      "**Lat pulldown holds 150 — 🛑 don't step up.** W19 was 12/12/10-with-form-lost — the same honest ceiling as W18, 150 hasn't cleaned up yet. Drill the wide-grip pull + the slow controlled return; the reps tidy over more weeks. Grip's the end limiter, no straps.",
+      "**Face pull holds the settled 50.** W19 'felt good, did all sets' — the knuckles-up / elbows-above-the-shoulders cue is holding. 🔥 quality over number; keep the elbows high.",
+      "**Chest-supported row holds 45 — cue the slower eccentric.** W19 'could go slower, good working weight' — so the progression this week is a slower 2-3s eccentric at 45, not a load step. 🔥 supported and safe.",
+      "**Pull-up stays on the STRAIGHT BAR.** The swivel grip rotates to the bicep and pulls work off the lats. 🛑 grip was the limiter W19 (6/6/8/6, 'grip not holding') — frequency over max, bank clean reps, no straps.",
+      "**DB row holds 70/80/90, no straps.** W19 the right hand topped ~99 with grip to spare, left tapped first — let the strong-side top set creep as grip allows; 🛑 set the DB down when grip gives, not when the back fails.",
+      "**Left bicep first, every set** — the left still struggles to hit 9-10 on the last incline-curl sets. Keep the protocol as insurance.",
+      "**Cable lifts have per-equipment numbers** — pick what's free, log equipment + number."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "Scap activation. Squeeze the shoulder blades together, soft elbow." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spine warm — slow, full ROM each direction." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and the pulling chain before bar work." },
+        { "id": "dead-hang", "duration": 30, "notes": "Active hang, not collapsed — engage the lats, pull the shoulders DOWN away from the ears even at full extension. Primes the pull-ups." }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "shrug-activation",
+      "name": "Behind-Back DB Shrug — Protective Activation (DO THIS FIRST)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "behind-back-dumbbell-shrug", "equipment": "DB pair, held behind the body", "reps": "12-15", "notes": "**LOAD:** 40-50lb pair. 3 sets — first in the session.\n\n**Why here, first:** the 'opposite movement' to all the pulling — a counter/decompression for the right shoulder. Front-loading it keeps pull day flare-free. Reads more like a stretch than a lift; that's the point.\n- **DBs held BEHIND the body** at the sides of the hips/glutes — palms facing back\n- **Shoulders pull DOWN and BACK** at the start — packed, not relaxed\n- **Shrug UP and slightly BACK** — pinch the shoulder blades at the top\n- **Hold 1s at the top**, slow descent; **pack DOWN, NOT up** as the resting position — the lower position IS the work\n- Chest open, not slouched." }
+      ],
+      "notes": "Protective trap-chain activation, front of the session. ~4 min. Light-to-moderate, peak-squeeze — a decompression, not a max effort.",
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "pullup-station",
+      "name": "Pull-Ups — Straight Bar (4 Sets) 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "6-8", "notes": "**LOAD:** Bodyweight. 4 sets of 6-8 (W19 was 6/6/8/6 on the straight bar with slow eccentrics — grip was the limiter, not the shoulder).\n\n**Straight bar** — the swivel grip rotates toward the bicep mid-pull and pulls work off the lats. Straight bar keeps the work in the back.\n- **Active hang start**, shoulders pulled down out of the ears — NOT a collapsed dead hang\n- **Pull elbows DOWN to ribs**, NOT chin to bar — 'drive the elbows into the back pockets'\n- **Chest leads to the bar at the top**, eyes ahead, head neutral\n- **Slow eccentric ~2-3s**, active hang at the bottom of every rep — no dropping, no kip\n- **🛑 Stop the set when the rep stops being clean** — grip + honest strength are the limiter now (both shoulders pain-free, 'only regular weakness'), so bank 6 clean over 8 sloppy. Frequency over max effort; no straps." }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "db-bench-block",
+      "name": "DB Rack / Bench Block — DB Row 🛑 + Chest-Supported Row 🔥 + Incline Curl 🔥 + Reverse Fly 🔥 (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-row", "reps": "10/8/6", "notes": "**LOAD:** 70/80/90 ascending pyramid — one set per round (70, then 80, then 90). No straps. 🛑\n- **Chest-supported on the incline bench** — chest glued to the pad, no twisting up for the last reps\n- **Pull the elbow toward the HIP, not the armpit** — keeps it in the lats\n- **Slow 2s descent, 1s squeeze on the 70 and 80** — those hold clean form\n- **On the 90 set, let the strong side creep** — W19 the right hand topped ~99 with grip to spare; drive the elbow, chase clean reps before form breaks\n- **🛑 Grip is the limiter** (left hand taps first) — set the DB down when grip gives, not when the back fails. No straps — train the grip." },
+        { "id": "chest-supported-dumbbell-row", "reps": "10-12", "notes": "**LOAD:** 45 (dialed W19 — 'could go slower, good working weight'). 3 sets of 10-12. 🔥\n- **The progression this week is a SLOWER eccentric at 45** — 2-3s down, not a load step (your own W19 cue)\n- **Chest stays GLUED to the incline bench** — if the chest peels off to heave the DBs, the weight's ahead of the form\n- **Pull the elbow toward the HIP, not the armpit**; don't rotate the torso\n- **Full stretch at the bottom** — let the shoulder blade protract, then re-pull from the stretch\n- **🔥 Safe supported row — the last set can ride close to failure at 45** (push the set you have)." },
+        { "id": "incline-curl", "reps": "8-10", "notes": "**LOAD:** incline bench 25lb DBs (default) — or the actual preacher bench (EZ bar ~2×10) when it's free. 3 sets of 8-10. 🔥\n- **Incline bench ~45°, lean in chest-first** — the upper arm stays flat on the pad the ENTIRE rep (don't lift the elbow)\n- **Left arm first, every set** — the left still struggles on the last two sets (W19 'left arm crazy weak'), so keep the left-first protocol as insurance\n- **Full stretch at the bottom — pause 2s**; curl smoothly to the peak squeeze, no swing; 2-3s eccentric\n- **🔥 Isolation — a near-failure last set is fine** (mind the left keeping up)." },
+        { "id": "dumbbell-reverse-fly", "reps": 12, "notes": "**LOAD:** 20lb. 3 sets of 12 — cap at 12 with a slower eccentric rather than chasing reps ('so so hard today' W19, back was sore). 🔥\n- **30° reverse-incline** (chest-down on the incline bench), DBs hanging fully extended at the start\n- **Soft elbow ~10-15°, FIXED throughout** — a sweep, NOT a row\n- **Lead with the elbow, hand passive**; wings out and slightly UP to shoulder height — sweep wide, don't shrug\n- **Hold the top a beat, then 2s eccentric** — rear-delt / mid-trap shoulder-health work; 🔥 quality over the number." }
+      ],
+      "notes": "One trip to the DB rack covers all 4 lifts. Incline bench at ~30° for the rows + reverse fly (30° reverse-incline), set to ~45° for the incline curl. 3 rounds.",
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "lat-pulldown-station",
+      "name": "Lat Pulldown (3 Sets at 150 — Drill the Return, Don't Step Up) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "reps": "8-12", "notes": "**LOAD (pick whichever station's free, log which + the number):** Regular machine **150** (the working number, back-left) · dual pulley **70** · cable column **52.5-57.5** · cable pulley **47.5**. 3 sets.\n- **Hold 150 — don't step up** (W19 was 12/12/10-with-form-lost, same as W18; 150 hasn't cleaned up yet). The reps tidy as it settles.\n- **Wide grip near the bend** — more lat isolation, less bicep\n- **Slight backward lean ~15°, NO further** — more = it becomes a row\n- **Pull the bar to the UPPER CHEST — NEVER behind the neck**; 'lats squeezing oranges into the back pockets'\n- **1s pause at the contraction, 2s controlled return** — the slow return is the thing to drill; that's where 150 cleans up\n- **🛑 Grip is the end limiter, and set 3 breaking around 10 is the honest cap** — bank clean reps over ugly ones, no straps, don't grind." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "face-pull-station",
+      "name": "Cable Column — Face Pull (3 Sets at the Settled 50) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "face-pull", "equipment": "cable column (mid/upper-chest height + rope)", "reps": 20, "notes": "**LOAD:** cable column **50** (settled W19 — 'felt good at this weight, did all sets'). 🔥\n- **Grip the rope ends in fists, knuckles up** — the change that made 50 feel right\n- **Pull the rope to face level** — not to the chest\n- **ELBOWS HIGH (above the shoulders)** — the make-or-break cue; this moves the work into the back\n- **External-rotate at the top** — knuckles point UP, like the top of a double-biceps pose\n- **1s peak hold, slow 2s return** — let the cable pull the arms back, don't drop\n- **🔥 Rear-delt safe — the last set can ride close to failure** as long as the elbows stay high; if they drop, that's the honest end, re-set them or stop." }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "finisher",
+      "name": "🔆 Cable Column Finisher — High Cable Curl (Spotlight) + Cable Crunch (Spotlight) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "high-cable-bicep-curl", "equipment": "cable column or single pulley (low pulley, single D-handle, one arm at a time)", "reps": "10-12", "notes": "**LOAD (single arm — scales differ, LOG which station):**\n- **Single pulley: 62.5** — the NEW scale from W19, and it's brutal ('barely finished set 2 but did all')\n- **Cable column (single D-handle): ~180**\n2-3 working sets per arm.\n\n**🔆 SPOTLIGHT — the fixed upper-arm high-cable curl:**\n- **Stand sideways, arm out at shoulder level, upper arm PARALLEL to the floor and FIXED** — the whole point of the high-cable variant; the elbow doesn't drop\n- **Curl the hand toward the ear**, peak squeeze\n- **Left arm first**; slow eccentric, no bounce at the start\n- **🔥 Safe isolation — a near-failure last set is fair game, and a clean pyramid up on the single pulley is fine** if 62.5 keeps the correct feel (fixed upper arm, no swing). Judge by the feel, not the number — the single-pulley scale is different from the column.\n\n**Reflection:** does the upper arm stay pinned parallel through the whole set, or does the elbow drop to help? Fixed upper arm = the isolation's honest. If 62.5 holds the feel on a normal-rested set, it's real." },
+        { "id": "cable-crunch", "reps": "12-15", "notes": "**LOAD (pick whichever station's free, log which — AND read the actual stack):** Cable pulley (rope) **62.5** clean base · **66.5** comfortable at x15 · **70.5** brutal ceiling. **Watch the magnetic micro add-ons** — they can be on without you noticing (W19: a '67.5' read). Read the stack before you start. 3 sets.\n\n**🔆 SPOTLIGHT — abs only, hips locked:**\n- **HIPS LOCKED** — the most important cue; the hips do not move. Hips moving = hip-flexor work, not abs\n- **Crunch from the abs ONLY** — the spine flexes, the hips stay put\n- **Chest toward the thighs**, hold the crunch 1 second\n- **Slow eccentric, all the way** — at 62.5-67.5 the controlled drop IS available; use it\n- **🔥 Core isolation — the last set can ride close to failure**, but the hips locking is the real cap: if the hips start yanking to move more weight, that's the end, not a rep to grind.\n\n**Reflection:** do the hips stay dead-still for all three sets, or do they start pulling in to move the stack? Hips locked = honest ab work. That's the cap, not the number on the stack." }
+      ],
+      "notes": "Same cable column / single-pulley station. Both spotlights here — the high cable curl (log which scale) and the cable crunch (read the stack). 3 sets each.",
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow position. Pec minor lengthen." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive hang. Don't engage — let the shoulders unpack and the spine decompress." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side. Draw one knee across the body, opposite arm extended." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side. Hip-rotator decompression." },
+        { "id": "childs-pose", "duration": 60, "notes": "60s slow breathing. Parasympathetic shift." }
+      ],
+      "notes": "5 minutes of recovery work, non-negotiable closing block.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**🔥/🛑 intensity tags this week.** 🔥 (near-failure last set OK): chest-supported row, incline curl, reverse fly, face pull, high cable curl, cable crunch. 🛑 (grip/form is the cap): pull-up, DB row, lat pulldown. Form lever → load → near-failure last set only on 🔥, by pushing the set you have.",
+    "**High cable curl spotlight — single pulley reads 62.5 (the harder scale), cable column ~180.** Log which. Fixed upper arm parallel to the floor. 🔥 near-failure or clean pyramid up is fair game.",
+    "**Cable crunch spotlight — hips LOCKED, read the stack** (magnetic add-ons hide). 62.5 base / 66.5 comfortable / 70.5 ceiling. 🔥 last set close to failure, hips-locked is the real cap.",
+    "**Behind-back shrug stays FIRST** — protective decompression that keeps pull day flare-free.",
+    "**Lat pulldown holds 150 — don't step up.** Drill the slow controlled return; the reps clean up over weeks. 🛑",
+    "**Face pull holds the settled 50** — knuckles-up, elbows high. 🔥",
+    "**Chest-supported row holds 45 — slower eccentric is the progression**, not a load step.",
+    "**Pull-up on the straight bar** — grip's the limiter, frequency over max, no straps. 🛑",
+    "**DB row holds 70/80/90, no straps** — the strong side can creep toward ~99; grip is the cap. 🛑",
+    "**Left bicep first, every set** — the left lags on the last incline-curl sets.",
+    "**Cool-down stays — 5-min block, permanent every gym day.**",
+    "Rest: shrug 60s, 2.5 min pull-ups, 90s DB block, 2 min lat pulldown, 90s face pull, 75s finisher."
+  ],
+  "formPhilosophy": "Steady-state pull week with the protective shrug leading. The spotlights drill the two isolations that get to run hot — the high cable curl (honest on the single-pulley scale you actually use) and the cable crunch (hips locked, load honest) — because those are exactly the safe lifts where a near-failure last set or a clean pyramid up belongs. The heavy pulls (pull-up, DB row, lat pulldown) stay grip- and form-capped, no straps, because on those 'failure' just means the hands quit. Both shoulders pain-free; grip is the honest ceiling. Building decades, not weeks."
+}

@@ -1,0 +1,267 @@
+{
+  "id": "fb-w26-push",
+  "name": "Week 26 Push — Both Presses Move (Spotlight: Push Press + DB Lateral Raise)",
+  "description": "**Warmups are baked into each block's notes as a reminder.**\n\n**Two minutes between sets, reps taken as singles.** That's the method that produced the best press day of the program, and it comes with you to the heavier loads — it's the one thing that doesn't change this week.\n\n**Push press steps to 50.** The strict half never broke at 45; at 50 it will, and that's the point — strict until the strict rep stops being strict, then the leg drive finishes it.\n\n**Incline DB gets a top set at 60, then drops to 55.** Take 60 for as many reps as the cue holds, then downshift and finish. The drop is the mechanism — a grind at the top is not.\n\n**DB lateral raise steps to 20**, and the farmer carry finally loads: **60 per hand.**",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "push",
+    "gym",
+    "strength",
+    "functional-bulk"
+  ],
+  "estimatedDuration": 57,
+  "equipment": [
+    "dumbbell",
+    "cable",
+    "kettlebell",
+    "resistance-band",
+    "bodyweight"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Three loads move on the same day, which is unusual here — and they move because three separate ceilings went quiet at once. The push press ran fully strict at 45 for the first time ever, the incline 55 held twice, and the farmer carry read 'non event' after ten weeks at 50. What holds constant is the method that unlocked all of it: two-minute rests and reps taken as singles. Don't change the method in the same week the numbers move.",
+    "spotlights": [
+      {
+        "exerciseId": "push-press",
+        "why": "Something genuinely new happened here: three sets of ten, fully strict, no leg drive — on a lift that needed the leg drive to move at all for months. That's a first, not a new baseline, so the spotlight's job is to find out what 50 actually looks like. The number worth watching isn't the total; it's how many honest strict reps come out before the first one that wants a knee bend. At 50 that number should be small, and small is correct."
+      },
+      {
+        "exerciseId": "lateral-raise",
+        "why": "This lift has been progressed entirely by tempo for a month — slow up, slow down, one second at the top — and the tempo turned 15 from 'really hard' into 'fine, could probably go up' in a single week. So the load follows, and the spotlight is on whether the tempo survives the jump. A lateral raise is the easiest lift in the program to cheat, and the cheat is always the same one: the shoulder shrugs up to finish the rep. If 20 can only move by shrugging, 20 is too heavy for the cue."
+      }
+    ],
+    "rotationPlan": "Push spotlights: W25 dips + farmer carry · W26 push press + DB lateral raise (current) · W27 cable block · W28 incline DB returns. Cable-block order shifts one slot per week — this week straight-arm → lat raise → tri ext.",
+    "watchpoints": [
+      "**🔆 Push press steps to 50.** Strict until the strict rep stops being strict, then the leg drive finishes the set 🛑. **Count the strict reps — that's the number.**",
+      "**🔆 DB lateral raise steps to 20** 🔥. **If the 20s aren't free, run 15 with the tempo** — the tempo is not negotiable, the number is.",
+      "**Incline DB: top set at 60, then drop to 55 and finish.** Take 60 for as many reps as the cue holds — **not to failure** 🛑. The drop is a mechanical downshift, which is what makes it legal here.",
+      "**KEEP THE 2-MIN RESTS AND THE SINGLES** on both presses. That is the variable that produced two PRs; it doesn't move in the same week the loads do.",
+      "**Farmer carry loads to 60 per hand.** 70 only if 60 is still a non-event 🛑. No straps.",
+      "**Dips: ANGLED / V bar, and the lean is an actively held position** — squeeze the glutes, brace, start the descent with the CHEST 🛑.",
+      "**Warmup swap: bottoms-up CARRY replaces the bottoms-up press.** Same beat, strictly harder — carrying demands the packed shoulder continuously.",
+      "**Kinesis fly holds 9 — keep the deeper step forward** you found last week 🛑.",
+      "**Cable block runs straight-arm → lat raise → tri ext.** Every lift lists a number per station — log which one you used.",
+      "**Intensity tags:** 🔥 near-failure last set OK — DB lateral raise, cable lat raise, tri ext. 🛑 keep it shy, the cue is the cap — push press, incline DB, dips, Kinesis fly, straight-arm pulldown, farmer carry.",
+      "**Behind-back shrug goes in the warmup. Cool-down is 5 min, not optional.**"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable) + Bottoms-Up Carry + Chest Opener + Pull-Up Greasing + Protective Shrug",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The whole block, every push day. Yuri's band work is the shoulder anchor — don't skip it because the shoulder feels fine.",
+      "exercises": [
+        {
+          "id": "arm-circle",
+          "reps": "10 each direction",
+          "notes": "Small to large. Wake the joint."
+        },
+        {
+          "id": "yuris-shoulder-band-warmup",
+          "reps": 1,
+          "notes": "The push-day shoulder anchor. Full sequence, unhurried."
+        },
+        {
+          "id": "kettlebell-bottoms-up-carry",
+          "reps": "1 short walk each side",
+          "notes": "Light bell inverted, one short walk per side. **Harder than the bottoms-up press it replaces** — a press demands the packed shoulder for the rep; a carry demands it the whole way. Reset when it tips."
+        },
+        {
+          "id": "kinesis-cable-fly",
+          "reps": "12-15",
+          "notes": "Light opener set. Chest opener, not a working set — save the load for the fly block."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Hinged slightly forward, tight fists, thumbs tucked."
+        },
+        {
+          "id": "push-up",
+          "reps": 12,
+          "notes": "Primer. Shoulders packed down."
+        },
+        {
+          "id": "pull-up",
+          "reps": "6-8",
+          "notes": "Greasing set — never to failure. Keeps the pull pattern alive on push day."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "Protective activation. Behind the back, shoulders roll DOWN and back at the top."
+        }
+      ],
+      "restBetween": 20,
+      "restAfter": 60
+    },
+    {
+      "id": "push-press",
+      "name": "🔆 Push Press — 50, Strict Until It Isn't (Spotlight) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 50lb pair, 3 sets. **2 minutes between sets, reps as singles.**\n\n**🔆 SPOTLIGHT — the strict half is the lift:**\n- **Start strict** — no dip, no knee bend. Press it with the shoulders alone\n- **Stay strict until the strict rep stops being strict.** At 45 that never happened; at 50 it should, and early\n- **Then the leg drive finishes the set** out to 8-10 total\n- **Slow eccentric on every rep**, strict or not — that's the part that's been working\n- **Ribs DOWN at lockout** — no rib flare to get under the weight\n- **Pack DOWN, not up.** If the shoulders shrug toward the ears to finish a rep, that rep is over\n\n**Dropping to the leg drive mid-set is a mechanical downshift, not a grind.** That's what keeps this legal on a 🛑 lift — the strict half gets harder without the set ever turning into a fight.\n\n**Reflection:** how many honest strict reps came out at 50 before the first one that wanted a dip? That number is the whole point of the week.",
+      "exercises": [
+        {
+          "id": "push-press",
+          "reps": "8-10",
+          "notes": "**LOAD:** 50lb pair, 3 sets. 2 min rest, reps as singles.\n- **Count the strict reps** before the leg drive comes in\n- **Slow eccentric every rep**\n- **Shoulders packed DOWN**, traps relaxed, ribs down"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "incline-db",
+      "name": "Incline DB Press — Top Set at 60, Drop to 55 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** Set 1 at **60**, sets 2-3 at **55**. **2 minutes between sets, reps as singles.**\n\n**Take 60 for as many reps as the cue holds — then stop and drop.** Not to failure. The moment the shoulder blades unpin or the eccentric stops being slow, that set is finished; rack it, take the 55s, and run the last two sets clean.\n\n**The drop is the mechanism.** A mechanical downshift to a weight you own is what makes a heavy top set safe on a 🛑 lift. Grinding out the last rep at 60 is not the same thing and is not what this is.",
+      "exercises": [
+        {
+          "id": "incline-dumbbell-press",
+          "reps": "as many as the cue holds at 60, then 10-12 at 55",
+          "notes": "**LOAD:** 60 for set 1, 55 for sets 2-3.\n- **Shoulder blades pinned DOWN and BACK into the bench** before the first rep — set it, then don't lose it\n- **2s eccentric**, full stretch at the bottom\n- **Drive with the chest**, elbows ~45° from the ribs, not flared to 90\n- Bench at 30°, not 45°\n\n**Reflection:** how many reps did 60 give you before the pack-down went? And did the 55s afterwards feel like the working weight they've been, or heavier?"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "dips",
+      "name": "Dips — Angled Bar, Hold the Lean 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** Bodyweight, 3 sets of 10-12. **The ANGLED / V bar.**\n\n**Mini-dips leaning against the bar first** — a few shallow supported reps before the real ones. That's the pre-dip ritual and it warms the exact spot the protective shrug serves.\n\n**Holding the lean — the position is not self-sustaining:**\n- **Treat the lean as an actively held position, not a starting stance.** Legs folded back is the correct setup and it stays, but the torso will seek vertical as the rep gets hard because upright is the low-effort path\n- **Squeeze the glutes to keep the hips behind you, and brace the abs.** That's what holds the angle\n- **Start the descent by moving the CHEST toward the bars**, not by bending the elbows — leading with the elbows lets the body swing upright underneath you\n- **Eyes slightly down and forward, chin tucked.** The head drags the torso with it\n- **Shoulders packed DOWN at the bottom**\n- The lean degrades in the bottom half and late in the set — that's where the shoulder read comes from\n\n**Front pec: pressure is fine, PAIN is not.** Shorten the depth before it tips over.",
+      "exercises": [
+        {
+          "id": "dip",
+          "reps": "10-12",
+          "equipment": "angled / V bar",
+          "notes": "**Bodyweight, 3 sets.** Angled bar, 2s descent. Chest leads the descent, glutes squeezed, hips behind you."
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 75
+    },
+    {
+      "id": "lateral-raise",
+      "name": "🔆 DB Lateral Raise — 20 (Spotlight: Does the Tempo Survive?) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 20lb, 3 sets of 12-15. **If the 20s aren't free, run 15 with the tempo intact** — the tempo is the lift, the number is negotiable.\n\n**🔆 SPOTLIGHT — the tempo is what earned the load, so it comes with:**\n- **Slow up, slow down, 1s hold at the top.** All three parts, every rep\n- **Lead with the elbows**, not the hands — the hand should trail slightly\n- **Shoulders packed DOWN.** The shrug is the only cheat this lift has, and it shows up on the last three reps\n- **Stop at shoulder height**, not above\n- **Thumbs level or a touch low**, not tipped up\n\n**The test:** if 20 can only move by shrugging, 20 is too heavy for the cue — go back to 15 and keep the tempo. The cue is the progression, not the number.\n\n**Reflection:** did the 1s hold at the top survive all three sets at 20, or did it quietly disappear?",
+      "exercises": [
+        {
+          "id": "lateral-raise",
+          "reps": "12-15",
+          "notes": "**LOAD:** 20lb (15 if the 20s are taken).\n- Slow up, slow down, 1s hold\n- Lead with the elbows, no shrug\n\n🔥 Last set can go to near failure — but the moment it turns into a shrug, it's over."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "kinesis-fly",
+      "name": "Kinesis Cable Fly (9 — Keep the Deeper Step) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** Kinesis 9, 3 sets of 10-12.\n\nStack holds. You found two extra steps forward last week — start there this week rather than rediscovering it mid-block.",
+      "exercises": [
+        {
+          "id": "kinesis-cable-fly",
+          "equipment": "Kinesis",
+          "reps": "10-12",
+          "notes": "**LOAD:** Kinesis 9.\n- **Set up at the deeper step from the start** — the step creates the stretch, and it's the first thing that shrinks when a fly gets easy\n- **Soft elbows at a FIXED angle** — arms bending and straightening makes it a press\n- **Squeeze at the midline**, slow return all the way into the stretch\n- Let the bottom of the rep be the part you feel"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cable-block",
+      "name": "Cable Block — Straight-Arm Pulldown → Lat Raise → Tri Ext (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**Rotation shifts one slot.** Straight-arm leads this week, tri ext moves to the tail — which is where it reads brutal, and that's fine.\n\n**Every lift lists a number per station. Take whichever is free and log which one you used.**",
+      "exercises": [
+        {
+          "id": "straight-arm-pulldown",
+          "reps": 12,
+          "notes": "**LOAD:**\n- Cable column: **120**\n- Rope pulley (kneeling, facing the stack): **62.5**\n\n- **Arms straight the whole rep** — the moment the elbow bends it's a pulldown\n- **Hinge slightly at the hips**, drive the bar to the thighs with the lats\n- **Shoulders packed DOWN** before the first rep\n\n🛑 Leading the block this week, so it should read easier than usual. Hold the number."
+        },
+        {
+          "id": "cable-lateral-raise",
+          "reps": 12,
+          "notes": "**LOAD:**\n- Single cable pulley + carabiner (ankle height): **10-12.5** — 10 read easy last week, so nudge it\n- Kinesis: **5-6**\n- Cable column: **~30**\n\n- **Cable behind the body**, arm crossing in front at the bottom — that's the whole reason to do it on a cable\n- **Lead with the elbow**, stop at shoulder height\n- **No shrug**\n\n🔥 Near-failure OK on the last set."
+        },
+        {
+          "id": "incline-cable-overhead-tricep-extension",
+          "reps": "10-12",
+          "notes": "**LOAD:**\n- Cable column: **70**\n- Rope pulley (floor, kneeling, leaning back): **42.5**\n- Kinesis: **5**\n\n- **Kneel and lean BACK ~45°** — the lean is the lift; upright makes it a plain pushdown\n- **Hands start near the chest, finish straight down by the hips.** Bent → straight is the whole path — nothing goes behind the head\n- **Elbows pinned**, only the forearms move; stop just shy of lockout, slow eccentric\n- **Pack the shoulders DOWN before the first rep**\n\n🔥 Running last in the block this week, so expect it to bite earlier than usual."
+        }
+      ],
+      "restBetween": 45,
+      "restAfter": 75
+    },
+    {
+      "id": "farmer-carry",
+      "name": "Farmer Carry — the Load Finally Moves (60 per Hand) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 60lb per hand, 3 walks of ~50s. **70 only if 60 is still a non-event.** No straps.\n\nTen weeks at 50 with the grip as the honest cap, then two clean weeks in a row — 'much easier on grip,' then 'fine, non event.' Two signals, so the number moves.\n\n- **Stand TALL** — top of the head reaching up, not the shoulders pulling back\n- **Shoulders packed DOWN and BACK, ribs down.** The load wants to round you forward\n- **Close the hand deliberately.** A grip that slowly rolls open is the honest end of the walk\n- **Walk normally.** Short shuffling steps mean the load is winning\n- **Breathe** — holding your breath for 50 seconds is why carries feel harder than they are\n\n**Which fails first at 60 — the grip or the posture?** That answer sets the next step.",
+      "exercises": [
+        {
+          "id": "farmer-carry",
+          "duration": 50,
+          "notes": "**LOAD:** 60lb per hand, 3 walks. No straps — the grip is the lift."
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the point is the downshift as much as the tissue.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm at MID elbow height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders come up around the ears."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Two minutes between sets, reps as singles.** It produced two personal bests in one session — keep it while the loads move.",
+    "**Pack DOWN, not up.** On every press, raise and carry here — blades into the back pockets, neck long, traps quiet.",
+    "**The cue is the progression.** If a load can only move by breaking the cue, it's too heavy for the cue — that's the ceiling, not the number.",
+    "**Log which cable station you used**, not just the number. The scales don't convert."
+  ]
+}
