@@ -539,6 +539,12 @@ Nothing to log beyond that: the last swim reported is the W34d2 chill swim. Not 
 
 **Breath:** no re-coaching of the exhale. Two levers given: breathe every 2 for a length or two when winded, then go back to every 3, switching sides each length; and check whether the kick has grown, since the 09-15 fix was a smaller kick. The rest is aerobic base, which builds with the swimming. Written into the main-swim notes.
 
+### W37d5 swim (2026-10-30) — first fist drill
+
+> ok did the fist drills it's interesting! definitely feel it in the arms; is there anything to practice on?
+
+**First run of the catch drill.** He felt the forearm working (*"definitely feel it in the arms"*). Given three things to practise inside the same drill, no new drill: elbow stays higher than the hand at the start of the pull; forearm points at the floor early; push all the way back past the hip. Asked whether the open-hand lengths felt like a paddle.
+
 ## Backlog — not yet, in rough order
 
 1. **Rotation must become automatic first.** Everything below waits on it.
@@ -568,6 +574,8 @@ Nothing to log beyond that: the last swim reported is the W34d2 chill swim. Not 
 
 ### Phlegm — CLOSED BY HIM (2026-09-02). Do not raise again unprompted.
 
+**Reopened by him, 2026-10-30, narrower:** *"the phlegm isnt really a problem outside of when i get winded when swimming tho, and it'll gunk up when i'm turning and breathing... i'll be breathing into a bunch of phlegm instead of an open airway."* Only when winded, mid-swim. Given: clear it at the wall instead of swimming through it; a sharp blow out through the nose underwater before the turn to breathe; breathe every 2 so he stays less winded. Not a breathing-technique fault; don't re-coach the exhale.
+
 > *"yeah idk or just my ear/nose does that from beathing too much dry air pobably, its fine, its common even when not exercising so whatever haha"*
 
 **It's baseline for him and happens outside exercise entirely, so it is not a swimming finding and not a limiter to solve.** He closed it himself; treat it the same as the left-arm thread — settled unless HE brings it back. The analysis below is kept only so it isn't re-derived from scratch if he ever does.
@@ -592,3 +600,12 @@ The chloramine theory is mostly dead — outdoor pools gas off into open air, so
 - **Video is optional and modest, not a multiplier.** Still frames are readable; motion is not. A still mid-breath and a still mid-stroke with the lead arm extended will show head position, hip roll, and whether the legs trail low. Rhythm, timing and catch can't be judged from stills. *(I originally overclaimed this AND wrongly described filming as an established habit — he corrected me: "i'm not filming squats??" The filmed squat set is a proposed step in the W28 legs self-diagnosis, never something he does. Don't describe proposed protocol as established practice.)*
 - **Sequence swims against pull day, not legs.** Swimming is lat/shoulder work — it stacks with pull and barely touches legs. His own instinct was right: swim then legs is the low-conflict pairing.
 - **The right shoulder is the thing to watch, not the volume.** Freestyle recovery is a big overhead arc and that shoulder has a long history. Volume is cheap; a crabby right shoulder is the signal.
+
+## W37d5–d6 swims (2026-10-30, 2026-10-31)
+
+- Fist drill: open-hand lengths felt like a paddle, so the catch is registering.
+- Main swim structure he settled on: 24 lengths as 3 × (4 fast + 4 slow). He likes it because it's easy to keep track of.
+- Arms take a lot of conscious thought on top of the roll; not automatic yet.
+- Asked about hand entry (some swimmers slap the water, some slide in). Answer: slide in fingertips first, in line with the shoulder.
+- Tried reaching far forward and pulling with a straight arm: stamina went fast. Answer: reach comes from the roll, then bend the elbow for the catch. A straight-arm pull is a long lever, so it costs more and loads the shoulder.
+- 2026-11-01 (rest day, no swim or gym): turning, kicking and breathing becoming more automatic. Fast 4 = his best form (faster, more tiring); slow 4 = roll/kick/breath on autopilot, "swim like a potato". Asked whether a straight arm gives the most leverage and reach per stroke. Answer: no. The forearm only drives you forward while it faces backward, which the bent elbow does for most of the stroke. Distance per stroke comes from the reach and the finish past the hip.
