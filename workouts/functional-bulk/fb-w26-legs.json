@@ -1,0 +1,226 @@
+{
+  "id": "fb-w26-legs",
+  "name": "Week 26 Legs — Depth First, Probe Last (Spotlight: Nordic Curl + Calf Raise)",
+  "description": "**Warmups are baked into each block's notes as a reminder.**\n\n**The squat gets a shape, not a number.** Working sets at 80 where full depth holds, then **one** heavy probe at the end if the day is good. Depth at 80 is still improving week to week, which means the range lever is still paying — so it stays the working weight and the heavy set stays a probe.\n\n**The Nordic curl is promoted from fallback to the knee-flexion slot.** The machine has been broken two weeks and the Nordic did the job better than the machine ever asked for. If the single-leg curl machine you spotted is free, try it — but the Nordic is the prescription.\n\n**The incline RDL goes back to one 45 held HIGH.** Hold height is the progression on this lift now; the plate isn't.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "legs",
+    "gym",
+    "strength",
+    "functional-bulk"
+  ],
+  "estimatedDuration": 45,
+  "equipment": [
+    "barbell",
+    "dumbbell",
+    "machine",
+    "bodyweight"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "A short legs day built around the machines and the familiar squat, done in a window before the evening. The squat holds at 80 for three working sets with depth as the whole assignment, the leg press station carries the volume, and the hip machines close out the maintenance work. The hinge stays in at two sets with the plate at the chest. Everything here is a load the body has seen many times, which is the point — full effort, minimal wreckage.",
+    "spotlights": [
+      {
+        "exerciseId": "squat",
+        "why": "The only barbell lift today and the one with the most to give. 80 for three sets, and depth is the entire job — the same depth on set three as on set one. Nothing here is about the number."
+      },
+      {
+        "exerciseId": "leg-press-calf-raise",
+        "why": "Stays on the leg press right after it — same machine, no walking. Full stretch at the bottom, pause at the top, and let the calves do the work rather than bouncing out of the bottom."
+      }
+    ],
+    "rotationPlan": "Legs spotlights: W25 Bulgarian + leg press · W26 Nordic curl + calf raise (current) · W27 squat depth · W28 incline RDL hold-height ladder + hip machines. The squat's depth project runs continuously underneath the rotation.",
+    "watchpoints": [
+      "**Squat holds at 80 for three sets.** Depth is the assignment; the same depth on set three as on set one 🛑.",
+      "**Leg press + calf raise are the volume today** — 4 plates/side, stay on the machine for both 🔥.",
+      "**Hip abduction 210 / adduction 290, slow eccentric** — the adductor stack is topped out, so tempo is the only lever 🔥.",
+      "**Incline RDL: one 45 at the chest, 2 sets.** The hinge pattern, not a hamstring hammering 🛑.",
+      "**Nothing goes near failure today.** Stop each set with clear reps left — the point is to train, not to be wrecked tomorrow.",
+      "**Cool-down is the most important block on the page.** Full 5 minutes, hip and QL biased."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (incl. Cross-Leg Lateral Lean — QL/Psoas Release + Dead-Bug Core/QL Primer)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The dead bug is the brace rehearsal for the squat — same ribs-down, low-back-flat position, unloaded. It's also the thing that raises leg-press depth, since depth there is a bracing limit rather than a mobility one.",
+      "exercises": [
+        {
+          "id": "bodyweight-squat",
+          "reps": 15,
+          "notes": "Full depth, easy pace — find the range before it's loaded."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. QL release — give it the full beat."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Open the hips, both directions."
+        },
+        {
+          "id": "tibialis-raise",
+          "reps": 20,
+          "notes": "Shins — knee insurance."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spinal warmup."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Hinged slightly forward, tight fists, thumbs tucked."
+        },
+        {
+          "id": "dead-bug",
+          "reps": "8 each side",
+          "notes": "**Core/QL primer and the brace rehearsal for today.** Ribs DOWN, low back flat to the floor — that contact is the same brace the squat and the deep leg press both want."
+        },
+        {
+          "id": "lunge",
+          "reps": "5 each leg",
+          "notes": "Bodyweight, controlled — last thing before the ramp."
+        }
+      ],
+      "restBetween": 15,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-ramp",
+      "name": "Squat Warmup — the ROM Ramp (45 → 75), Brace Rehearsal 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD:** 45 for round 1, 75 for round 2, 8 reps each.\n\n**This is where the brace gets set, not where you find out how the day is going.** The 45 feeling heavy predicts nothing — it has felt awful on days that turned into the best squats of the program.",
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "8 / 8",
+          "notes": "**LOAD:** 45 then 75.\n- **Big breath into the belly, ribs DOWN**, brace before the descent\n- **Hold the brace through the bottom** — don't let it go at the turnaround\n- Full depth on every warmup rep — this is where the range gets set for the working sets"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 90
+    },
+    {
+      "id": "squat-working",
+      "name": "Squat Working (80 × 3 — Depth Is the Job) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 80/side, 3 working sets of 6-8, **full depth every rep**.\n\nDepth here is still improving week to week, which is why the working weight doesn't move. Full-range work is what builds strength in the stretched position, and that's the part that transfers. **Earn the depth sets first — the heavy set comes after.**",
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "6-8",
+          "notes": "**LOAD:** 80/side, 3 sets.\n- **Breathe IN and brace before every descent**, hold it through the bottom\n- **Depth over speed** — slow and controlled is what has been producing the range\n- **Knees track the toes**, chest stays up out of the hole\n- Catcher bars at 14 as the depth reference and the safety 🛑\n\n**Reflection:** is the bottom deeper than last week, or the same? That's the number that governs when 85 becomes the working weight."
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 120
+    },
+    {
+      "id": "leg-press-station",
+      "name": "Leg Press + 🔆 Calf Raise Station (Same Machine) 🔥",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "**Both lifts on the same machine — don't leave the station between them.**\n\nLeg press runs 4 sets, calf raise runs 3 on the same machine. Finish the leg press sets before switching.",
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 4 plates/side, 4 sets of 12.\n- **Knees toward the chest on every rep** — judge the range, not the burn\n- **Low back stays on the pad.** The rep where it peels off is your honest depth limit — and that's a bracing limit, not a mobility one\n- **Feet mid-platform**, knees tracking the toes\n- **Slow eccentric**, don't drop into the bottom\n- Don't lock the knees out at the top\n\n🔥 Last set can go near failure.\n\nAll four sets held their depth last week and the last two got *deeper*. Same standard."
+        },
+        {
+          "id": "leg-press-calf-raise",
+          "reps": 15,
+          "notes": "**LOAD:** 4 plates/side, 3 sets of 15 (after the leg press's 4). **Stay on the leg press — same machine.**\n\n**🔆 SPOTLIGHT — the tempo is already the progression here, so protect it:**\n- **Full stretch at the bottom and HOLD a beat.** The stretched position is where the calf actually gets loaded, and a bounce steals it entirely\n- **Slow eccentric all the way down** — you've been making this slower on your own for weeks; keep going\n- **Push through the balls of the feet**, full extension at the top, don't cut the range short at either end\n- **Knees stay soft and quiet** — if the knee is bending and straightening to help, it's become a tiny leg press\n\n🔥 Near-failure OK on the last set.\n\n**Reflection:** how slow is the descent now, honestly — two seconds, three? And does the bottom hold survive to the third set?"
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 75
+    },
+    {
+      "id": "hip-machines",
+      "name": "Hip Abduction + Adduction (Maintenance Pair) 🔥",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**2 sets each, run as one station pair — they usually sit next to each other.**\n\nBoth found their numbers last week and both are staying in rotation. **Maintenance, not a progression surface** — abduction is the one carrying the reason, since it trains the muscle that levels the pelvis in single-leg stance and nothing else in the program loads it directly.",
+      "exercises": [
+        {
+          "id": "hip-abduction-machine",
+          "reps": "15-20",
+          "notes": "**LOAD: 210, with a deliberate slow eccentric.**\n- **Push the legs apart slowly**, pause at the widest point\n- **Control the return** — that's the part you identified as the hard part, and it's where the value is\n- **Sit tall, don't lean back** to get more range\n- Feel it on the outside of the hip, not the low back\n\n🔥 Near-failure fine on the last set."
+        },
+        {
+          "id": "hip-adductor-machine",
+          "reps": "15-20",
+          "notes": "**LOAD: 290 — the top of the stack.** There's no load left on this machine, so **tempo is the only lever**: slow the closing, and slow the opening more.\n- **Squeeze the legs together slowly**, pause at the top\n- **Control the opening** — the stretch at the bottom is the useful part\n- Sit tall, don't round the low back into it\n\n🔥 Near-failure fine on the last set."
+        }
+      ],
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "incline-rdl",
+      "name": "Incline RDL — One 45, Held at the Chest 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD: ONE 45lb plate, held HIGH.** 3 sets of 12-15.\n\n**Hold height is the progression on this lift now.** The ladder is **chest → collarbones → behind the head** — start where you can keep the plate genuinely still and step up when it stops biting.\n\n**Why height and not weight:** hip torque is the load times its *horizontal* distance from your hips, so hanging the plate lower does nothing at all — but moving it further up your torso lengthens the lever directly. One 45 at the collarbones outworks two plates you can't keep in place, and it stops the load depending on how tired your arms are.\n\n**Keep the 3s eccentric and the 2s bottom pause.**",
+      "exercises": [
+        {
+          "id": "incline-rdl",
+          "reps": "12-15",
+          "notes": "**LOAD:** one 45lb plate, hugged at the chest. 2 sets.\n- **Hinge from the hips**, ribs down, neutral spine\n- **Plate stays clamped to the chest** the whole set — if it drifts down, the hip torque drops with it\n- Controlled down, drive through the hips to stand\n- Stop the rep where the hamstrings run out of length, not where the back rounds"
+        }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Recovery Block (Hip/QL-Biased for Legs Day)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, mandatory. Hip and QL biased after a full legs day.",
+      "exercises": [
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. QL downshift."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "45s each side. Hips and glutes."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing — parasympathetic shift."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Depth sets first, probe last, and the probe stays a probe.** That's the squat rule for the foreseeable future.",
+    "**Take the stations as they come free.** The order here is the ideal grouping — the leg press and Smith get camped on.",
+    "**Log which Bulgarian setup you used** — double-50 DBs or Smith @45. They aren't the same lift."
+  ]
+}

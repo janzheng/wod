@@ -1,0 +1,201 @@
+{
+  "id": "fb-w32-kb-full",
+  "name": "Week 32 Optional KB — Bent Press Flow + Leggy Flow",
+  "description": "Optional whenever a window opens. The Bent Press Flow stays as the anchor and the familiar Leggy Flow rotates in: dead clean, curtsy and lateral work, all without an overhead press. Two rounds per side when fresh; one round is a complete short session.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "kettlebell",
+    "flow",
+    "conditioning",
+    "functional-bulk",
+    "optional",
+    "week-32"
+  ],
+  "estimatedDuration": 30,
+  "equipment": [
+    "kettlebell",
+    "resistance-band"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Bent Press Flow plus the lower-body Leggy Flow, with the familiar short strength block between them.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-lateral-squat-clean",
+        "why": "The Leggy Flow is the familiar lower-body rotation this week; the lateral clean links the two lunges without adding overhead work."
+      }
+    ],
+    "rotationPlan": "W33 can rotate to the b-stance or overhead-mobility flow.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: bent press, all the cleans, the KB strict press. Overhead and ballistic work where the cue breaking is the ceiling.",
+      "🔥 nothing here is a lift to chase this week — see the curl note below.",
+      "**Banded shoulder prep is a KB-day anchor.** It stays even on a twenty-minute version of this session.",
+      "The Leggy Flow has no overhead press. Keep the bent-press portion light and technically clean.",
+      "**The bent press is a skill, not a load.** Light bell. If the eyes leave the bell or the hip stops driving, the set is over.",
+      "**Keep the Leggy Flow connected.** Let the lunge load the next clean instead of pausing between beats.",
+      "**KB curl: left arm first, and no near-failure this week.** The left bicep tendon is still irritable. Stop short of a fully straight arm, same as the gym curls.",
+      "**Optional means optional.** Missing this day entirely does not make the week incomplete."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Cossacks + Around-the-Body (Light Bell)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The cossacks double as an early-warning system — how they feel tells you what kind of session this is, and that read has been more reliable than sleep quality.\n\n**Tired-day version:** 5 reps each.",
+      "exercises": [
+        {
+          "id": "kettlebell-dead-clean",
+          "reps": "5 each side",
+          "notes": "Light bell, dead stop each rep and a soft rack catch. This rehearses both flows' entry."
+        },
+        {
+          "id": "kettlebell-halo",
+          "reps": "6 each direction",
+          "notes": "Close to the head, elbows leading. Opens the shoulders without loading them. **Go slow on the left side this week.**"
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal — the old ankle sprain means a stiff day here is not a forecast."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 30,
+          "notes": "Deep core before the bell gets heavy."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "10-12",
+          "notes": "**Protective activation.** A bell in each hand works if no DBs are around. Straight up, squeeze, slow release."
+        }
+      ]
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out** — and with a new complaint on the left, this week least of all.\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    },
+    {
+      "id": "bent-press-flow",
+      "name": "🌀 Bent Press Flow — The Anchor",
+      "type": "flow",
+      "flowId": "kb-flow-dead-clean-press",
+      "rounds": 2,
+      "notes": "**Light bell — 25-35.** Two rounds each side when fresh, one when tired.\n\nThis is the program's oldest flow and it is skill work first. Run it as one continuous chain. The bent press caps the bell — if the hip stops driving or the eyes leave the bell, the flow drops a size."
+    },
+    {
+      "id": "kb-strength",
+      "name": "Strength — KB Row + Strict Press + Curl 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "Run this between the two flows so the demanding work is not all stacked at the end.\n\n**Tired-day version:** one round.",
+      "exercises": [
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50.** Maintenance — the real row volume lives on pull day. 50 being easy is the correct end state; do not chase it.\n- Flat back, elbow past the ribs\n- Slow eccentric, full stretch at the bottom"
+        },
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50, strict — clean to rack, press straight up, no push-press.** 50 is the Arrilaga ceiling, so the pause is the progression.\n- **2-3s PAUSE AT LOCKOUT every rep** — bicep by the ear, shoulder packed **DOWN**, ribs down, and hold it\n- Full lockout before the count starts — no soft elbow\n- **Both sides to the same standard — and if the left will not hold a quiet lockout this week, stop that side there**"
+        },
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom** — the bell loads that end position harder than a dumbbell, and that is the position the left tendon dislikes\n- Shoulder packed down, no shrug to start\n\n**No near-failure sets.** The dose here is frequency for the left arm, not intensity."
+        }
+      ]
+    },
+    {
+      "id": "leggy-flow",
+      "name": "🌀 Leggy Flow — Dead Clean to Curtsy and Lateral Work",
+      "type": "flow",
+      "flowId": "kb-leggy-flow",
+      "rounds": 2,
+      "notes": "**Medium bell — 25-35.** Two rounds per side when fresh, one when tired. Reference the canonical Leggy Flow and keep it continuous: legs and hips move the bell, the rack stays quiet, and nothing presses overhead."
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Shoulder Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The Leggy Flow's lateral work and the Bent Press Flow's lockout earn an easy hip-and-shoulder release.\n\n**Tired-day version:** 30s each.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 45,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "Passive decompression after the overhead work."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 60,
+          "notes": "45s each side. The lunges earned this."
+        },
+        {
+          "id": "butterfly-stretch",
+          "duration": 45,
+          "notes": "Adductors — the Leggy Flow's lateral stance earned this one."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 45,
+          "notes": "30s each side. QL release."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Optional means optional. One round of each flow is a complete session.",
+    "Run the Leggy Flow as one connected chain rather than six separate exercises.",
+    "The legs and hips power both flows; keep the cleans soft at the rack.",
+    "Nothing in the Leggy Flow presses overhead.",
+    "KB curl: left first, stop short of straight, no near-failure."
+  ]
+}

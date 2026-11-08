@@ -1,0 +1,151 @@
+{
+  "id": "fb-w24-pull",
+  "name": "Week 24 Pull — Two Stations Under the Light (Spotlight: Lat Pulldown + Face Pull)",
+  "description": "Spotlights land on the two lifts that both had a station question last week: the lat pulldown read 'weirdly hard' at a settled number, and the face pull got done on a stack neither of us can name.\n\nSo this week both get a real cue pass, and both ask you to **write down which machine you were on**. Every cable lift here lists a number per station — the ones that actually have history behind them, and nothing invented to fill a gap.\n\nPull-ups keep the 3s eccentric. DB row keeps the pyramid and the honest grip-limited 8.",
+  "routineId": "functional-bulk",
+  "tags": ["pull", "strength", "hypertrophy", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbells", "cable-machine", "pull-up-bar", "bench", "resistance-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Lat pulldown and face pull take the spotlights — both had a station question last week and both are worth a cue pass rather than a number change. Every cable lift lists a per-station number drawn from actual log history. Pull-ups hold the 3s eccentric on a to-failure ladder; DB row keeps the 70/80/90 pyramid with the grip-limited 8 at the top. Reverse fly still owes a recorded weight.",
+    "spotlights": [
+      {
+        "exerciseId": "lat-pulldown",
+        "why": "It read 'so weirdly hard today, struggled to even get a full first set' at a number that had settled — and that happened on a day where the reverse fly and the pull-ups also ran heavy, so the honest read is fatigue, not the lift. Which makes it a good spotlight: nothing needs fixing, so the attention can go to the thing that makes a pulldown actually work. Pack the blades down before the bar moves, drive the elbows down and back rather than pulling with the hands, and keep the torso from turning it into a row. If the first set is hard again with the pack-down clean, that's information worth having."
+      },
+      {
+        "exerciseId": "face-pull",
+        "why": "This is the most reliable shoulder-health lift in the program and it just quietly changed stations — 'a different stack at 52.5' — which means the number and the machine have come apart. The spotlight is half cue, half bookkeeping: high elbows, knuckles up, and the external rotation at the end that's the whole reason it's here, plus naming the stack you're on so the number means something next week. It's light and high-rep on purpose; the shoulder is the point, not the stack."
+      }
+    ],
+    "rotationPlan": "Pull spotlights rotate: W22 pull-up + DB row tempo · W23 cable crunch + reverse fly · W24 lat pulldown + face pull (current) · W25 back to chest-supported row + incline curl.",
+    "watchpoints": [
+      "**🔆 Lat pulldown: pack DOWN before the bar moves** 🛑. Dual pulley **70/side (140)** is the settled number; regular machine **150**. It ran 'weirdly hard' last week on a tired day — hold the number and judge the pack-down, not the sensation.",
+      "**🔆 Face pull: high elbows, knuckles up, rotate at the end** 🔥. Adjustable pulley + rope **50** is the home station; you ran **52.5 on a different stack** last week — **name the stack this time** so the number stays attached to a machine.",
+      "**Reverse fly still owes a number** 🔥 — 20 or 25, it went unrecorded twice. Write it down this week even if nothing else gets logged.",
+      "**Cable crunch: rope pulley 67.5-77.5 OR cable column ~270** 🔥 — the same movement on two very different scales. Pick by availability, log which.",
+      "**High cable curl: cable column 170-180 OR single pulley 62.5** 🔥. Pick by availability, log which. Left arm first.",
+      "**Pull-ups hold the 3s eccentric** 🛑 — 10/8/6/4 to failure last week. The reps falling each set is what happens; the tempo not falling is the standard.",
+      "**DB row 70/80/90 pyramid** 🛑 — left grip lets go at 8 on the 90. That IS the number. No straps.",
+      "**Incline curl keeps left-first** 🛑 — left read 'pretty strong' last week after two weeks as the harder arm. Nothing changes; keep watching.",
+      "**Intensity tags:** 🔥 near-failure last set OK — face pull, cable crunch, reverse fly, chest-supported row, high cable curl. 🛑 keep it shy — pull-up, DB row, lat pulldown, incline curl.",
+      "**Behind-back shrug goes FIRST. Cool-down is 5 min, not optional.**"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (Pull-up Bar Station)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "band-pull-apart", "reps": 15, "notes": "**The pull-day shoulder anchor.** Slow, blades together, no momentum." },
+        { "id": "cat-cow", "reps": 10, "notes": "Spinal warmup, full range." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Hinged slightly forward, tight fists, thumbs tucked — grip primer." },
+        { "id": "dead-hang", "duration": 30, "notes": "Passive hang. Decompress and wake the grip." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "protective-shrug",
+      "name": "Behind-Back DB Shrug — Protective Activation (DO THIS FIRST)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "behind-back-dumbbell-shrug", "equipment": "DB pair", "reps": "12-15", "notes": "**LOAD:** 40-50lb pair. 3 sets, first in the session.\n- Held behind the body, palms back\n- **Blades DOWN and BACK**, shrug UP and slightly back, 1s peak squeeze, slow down\n- Decompresses the right shoulder before anything loads it" }
+      ],
+      "restBetween": 45,
+      "restAfter": 45
+    },
+    {
+      "id": "pull-ups",
+      "name": "Pull-Ups — Straight Bar (4 Sets, 3s Eccentric) 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        { "id": "pull-up", "reps": "as they come", "notes": "**LOAD:** bodyweight, straight bar, 4 sets.\n- **3s eccentric on every rep** — that's the standard, and it's the thing that doesn't get to fall\n- **Pack DOWN before you pull** — blades into the back pockets, elbows drive to the ribs\n- **Chest to the bar**, full hang at the bottom\n- **No straps** — grip is part of the lift\n- The reps drop each set and that's fine; it's a ladder because you're going to failure, not because it's designed as one. End a set when the 3s breaks, not when the arms do" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "db-rack-bench-block",
+      "name": "DB Rack / Bench Block — DB Row 🛑 + Chest-Supported Row 🔥 + Incline Curl 🛑 + Reverse Fly 🔥 (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dumbbell-row", "reps": "10/10/8", "notes": "**LOAD:** 70 / 80 / 90 ascending pyramid — one set per round.\n- **Pack DOWN and BACK** before the elbow moves, elbow past the ribs\n- **2s eccentric where the load allows** — at 90 you can't go slower than that, and shouldn't try\n- **No straps.** The left grip letting go at 8 on the 90 IS the honest number — it's been the same two weeks running" },
+        { "id": "chest-supported-dumbbell-row", "reps": "10-12", "notes": "**LOAD:** 45. 3 sets. 🔥\n- **Slow eccentric all sets** — it's been holding clean\n- Chest stays on the pad, no heaving\n- Squeeze the blades, slow return to a full stretch" },
+        { "id": "incline-curl", "reps": "8-10", "notes": "**LOAD:** 25lb DBs, incline bench. **Start LEFT.**\n- **Elbow stays behind the torso** — that's the incline's job\n- **Full stretch at the bottom**, no swinging\n- Left read 'pretty strong' last week after two weeks as the harder side. Keep left-first and keep watching — nothing else changes" },
+        { "id": "dumbbell-reverse-fly", "reps": 12, "notes": "**LOAD:** 20lb, or 25 if the 20s are taken. 3 sets. 🔥\n\n**Write down which one you used.** It's gone unrecorded two weeks running, and it's the only thing standing between this lift and a settled number.\n- **Chest supported, soft FIXED elbows** — the angle doesn't change through the rep\n- **Lead with the elbows**, slow squeeze of the rear delts at the top\n- **Slow eccentric while you have it** — it went 'surprisingly hard' last week and the tempo broke on the final set; normal tempo once tired is fine" }
+      ],
+      "notes": "3 rounds — all four lifts around the adjustable benches.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "🔆 Lat Pulldown (Spotlight — Pack Down First) 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lat-pulldown", "equipment": "dual pulley or regular machine", "reps": "8-12", "notes": "**LOAD — pick whichever's free, log which:**\n- Dual pulley: **70/side (≈140 total)** — the settled number\n- Regular lat pulldown machine: **150**\n\n**🔆 SPOTLIGHT — the pack-down is the lift:**\n- **Blades into the back pockets BEFORE the bar moves.** If the pull starts at the hands, the lats never get the job\n- **Drive the ELBOWS down and back**, bar to the upper chest — think of the hands as hooks\n- **No leaning back** to finish the rep; the torso stays close to upright\n- **Slow return, full stretch at the top** — let the shoulders travel up at the very end, then re-pack for the next rep\n\n**Reflection:** it ran 'weirdly hard' last week at this same number, on a day when everything else was heavy too. With the pack-down clean today, is the first set still hard? Same-number-different-day is the most useful comparison you can make." }
+      ],
+      "restBetween": 75,
+      "restAfter": 60
+    },
+    {
+      "id": "face-pull",
+      "name": "🔆 Face Pull (Spotlight — High Elbows, and NAME the Stack) 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "face-pull", "equipment": "adjustable pulley + rope (upper-chest height)", "reps": 20, "notes": "**LOAD — pick whichever's free, log which:**\n- Adjustable pulley + rope (upper-chest height): **50** — the home station, where the whole 42.5 → 50 climb happened\n- The other stack you used last week: **52.5** — **name it this time** (which machine, where in the gym) so the number stays attached to something\n\n3 sets of 20. 🔥\n\n**🔆 SPOTLIGHT — this is a rotation exercise wearing a row's clothes:**\n- **Rope to the FOREHEAD**, not the chest — the height is what keeps it in the rear delt and cuff\n- **Elbows HIGH and WIDE**, above the wrists the whole way\n- **External rotation at the end** — thumbs back, knuckles up, pull the rope apart at the finish. That last inch is the actual reason this lift is in the program\n- **Pack down, traps quiet.** Slow eccentric — you've had this one running clean for weeks\n\n**Reflection:** at the end of each rep, are the knuckles genuinely turning up and back, or is the rope just arriving at your face? The rotation is the shoulder-health part; everything before it is transport." }
+      ],
+      "restBetween": 45,
+      "restAfter": 45
+    },
+    {
+      "id": "cable-finisher",
+      "name": "Cable Finisher — High Cable Curl + Cable Crunch 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "high-cable-bicep-curl", "equipment": "cable column OR single pulley — whichever's free", "reps": "10-12", "notes": "**LOAD (single arm — the scales are wildly different, pick by availability and LOG which):**\n- Cable column (D-handle): **170-180**\n- Single pulley: **62.5**\n\n- **Stand sideways, upper arm PARALLEL to the floor and FIXED** — the elbow doesn't drop\n- **Curl the hand toward the ear**, peak squeeze\n- **Left arm first**, slow eccentric, no bounce" },
+        { "id": "cable-crunch", "equipment": "cable pulley (rope), or cable column", "reps": "12-15", "notes": "**LOAD (rope attachment; pick by availability, LOG which):**\n- Cable pulley (rope): **67.5-77.5** — 77.5 is the strong reference\n- Cable column: **~270** — the pulley's leverage is what makes these two match\n\n3 sets. 🔥\n- **Crunch the ribcage toward the pelvis** — the spine flexes, the HIPS DON'T move\n- **Don't hip-hinge** and don't pull with the arms — the arms just hold the rope\n- Slow return, no yanking\n- Read the stack — magnetic micro add-ons can be on without noticing" }
+      ],
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow height." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive. Second hang of the day — let the grip release." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side." },
+        { "id": "childs-pose", "duration": 60, "notes": "Slow breathing — parasympathetic shift." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Lat pulldown spotlight: pack down before the bar moves.** Dual pulley 70/side or machine 150 — log which.",
+    "**Face pull spotlight: high elbows, knuckles up at the end — and NAME the stack.** Home station is the adjustable pulley + rope at 50; you used something else at 52.5.",
+    "**Reverse fly still owes a number** — 20 or 25. Write it down.",
+    "**Cable crunch: rope pulley 67.5-77.5 or cable column ~270**, pick by availability.",
+    "**High cable curl: cable column 170-180 or single pulley 62.5.** Left first.",
+    "**Pull-ups hold the 3s eccentric** — end the set when the tempo breaks.",
+    "**DB row 70/80/90; the grip-limited 8 at 90 is the honest number.** No straps.",
+    "**Incline curl left-first, no change.**",
+    "🔥 near-failure OK on face pull, cable crunch, reverse fly, chest-supported row, high cable curl. 🛑 keep it shy on pull-up, DB row, lat pulldown, incline curl.",
+    "Cool-down permanent — 5 min."
+  ],
+  "formPhilosophy": "Both spotlights this week are about knowing what you actually did. The lat pulldown felt hard at a number that hasn't moved, which is only useful information if the form was the same — otherwise 'harder' could mean a tired day, a sloppier pack-down, or a different machine, and there's no way to tell them apart afterward. The face pull has the same problem in a cleaner form: a good number on an unnamed stack is a number you can't use next week. So the cues get drilled and the stations get written down, and between those two things a session stops being a feeling and starts being evidence. The loads, meanwhile, hold — because nothing here has asked to move. Building decades, not weeks."
+}

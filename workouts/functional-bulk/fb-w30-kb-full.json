@@ -1,0 +1,195 @@
+{
+  "id": "fb-w30-kb-full",
+  "name": "Week 30 Optional KB — Bent Press Flow + Leggy Flow",
+  "description": "**Optional — take it whenever a window opens.** The three gym days complete the week; this is a bonus, not a debt.\n\n**The Bent Press Flow stays as the anchor.** **The Leggy Flow comes back after months away** — the lower-body cousin of the bent press chain, all curtsy and lateral work, and **no overhead pressing anywhere in it**, which makes it a kind day to pair with a bent press.\n\nBoth are skill work — keep the bell light and unhurried. One round of each is a complete session on a bad-sleep day.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "kettlebell",
+    "flow",
+    "conditioning",
+    "functional-bulk",
+    "optional",
+    "week-30"
+  ],
+  "estimatedDuration": 30,
+  "equipment": [
+    "kettlebell",
+    "resistance-band"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Two canonical flows that sit at opposite ends of the body — one overhead and skill-heavy, one entirely below the rack — with a short strength round between them. Written short and optional: two rounds of each when fresh, one when the night was bad, and either version counts as done.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-lateral-squat-clean",
+        "why": "The Leggy Flow's hardest beat and the reason it is back. Driving out of a lateral lunge and cleaning on the way up is pure leg-and-hip power — if the arm is doing the work, the bell is too heavy."
+      }
+    ],
+    "rotationPlan": "W31 — figure-8 → tactical clean returns, or the Dead Cluster Flow. W32 — b-stance flow comes back around.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: bent press, all the cleans, the KB strict press. Overhead and ballistic work where the cue breaking is the ceiling.",
+      "🔥 nothing here is a lift to chase this week — see the curl note below.",
+      "**Banded shoulder prep is a KB-day anchor.** It stays even on a twenty-minute version of this session.",
+      "**The bent press is a skill, not a load.** Light bell. If the eyes leave the bell or the hip stops driving, the set is over.",
+      "**The Leggy Flow never goes overhead** — the rack is the highest the bell travels. It is the shoulder-friendly half of this session, so if the right shoulder is crabby, run one round of the bent press flow and two of this.",
+      "**KB curl: left arm first, and no near-failure this week.** The left bicep tendon is irritable, and the bell loads the bottom stretch harder than a dumbbell does. Stop short of a fully straight arm, same as the gym curls.",
+      "**Optional means optional.** Missing this day entirely does not make the week incomplete."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Cossacks + Around-the-Body (Light Bell)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The cossacks double as an early-warning system — how they feel tells you what kind of session this is, and that read has been more reliable than sleep quality.\n\n**Tired-day version:** 5 reps each.",
+      "exercises": [
+        {
+          "id": "kettlebell-around-body-pass",
+          "reps": "8 each direction",
+          "notes": "Light bell. Hand-eye primer — and a favourite, so enjoy it."
+        },
+        {
+          "id": "kettlebell-halo",
+          "reps": "6 each direction",
+          "notes": "Close to the head, elbows leading. Opens the shoulders without loading them."
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal — the old ankle sprain means a stiff day here is not a forecast."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 30,
+          "notes": "Deep core before the bell gets heavy."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "10-12",
+          "notes": "**Protective activation.** A bell in each hand works if no DBs are around. Straight up, squeeze, slow release."
+        }
+      ]
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out** — it is a large part of why the right shoulder has stayed quiet through a heavy block.\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    },
+    {
+      "id": "bent-press-flow",
+      "name": "🌀 Bent Press Flow — The Anchor",
+      "type": "flow",
+      "flowId": "kb-flow-dead-clean-press",
+      "rounds": 2,
+      "notes": "**Light bell — 25-35.** Two rounds each side when fresh, one when tired.\n\nThis is the program's oldest flow and it is skill work first. **Run it as one continuous chain**, not five separate exercises: the transitions are the part worth practising. 🛑 The bent press caps the bell — if the hip stops driving or the eyes leave the bell, the flow drops a size."
+    },
+    {
+      "id": "kb-strength",
+      "name": "Strength — KB Row + Strict Press + Curl 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "Run this between the two flows so the demanding work is not all stacked at the end.\n\n**Tired-day version:** one round.",
+      "exercises": [
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50.** Maintenance — the real row volume lives on pull day. 50 being easy is the correct end state; do not chase it.\n- Flat back, elbow past the ribs\n- Slow eccentric, full stretch at the bottom"
+        },
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50, strict — clean to rack, press straight up, no push-press.** 50 is the Arrilaga ceiling, so the pause is the progression.\n- **2-3s PAUSE AT LOCKOUT every rep** — bicep by the ear, shoulder packed **DOWN**, ribs down, and hold it\n- Full lockout before the count starts — no soft elbow\n- Both sides to the same standard"
+        },
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom this week** — the bell loads that end position harder than a dumbbell, and the left tendon is the reason the gym curls are doing the same thing\n- Shoulder packed down, no shrug to start\n\n**No near-failure sets this week.** The dose here is frequency for the left arm, not intensity — and right now it is frequency at a calm load."
+        }
+      ]
+    },
+    {
+      "id": "leggy-flow",
+      "name": "🌀 Leggy Flow — Back After Months Away",
+      "type": "flow",
+      "flowId": "kb-leggy-flow",
+      "rounds": 2,
+      "notes": "**Medium bell — 25-35.** Two rounds each side on a short day, three when fresh.\n\n**The lower-body cousin of the flow you just did** — same dead-clean entry and tactical-clean exit, but the middle is curtsy and lateral lunge work. **Nothing goes overhead**, so the shoulder gets a rest while the hips do the work.\n\n🔆 **The lateral squat clean is the beat to watch:** drive out of the bottom of the lateral lunge and let the legs throw the bell into the rack — the arm only guides it. If you are muscling it up with the arm, go lighter."
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Shoulder Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The flows were lunge-heavy and one of them finished overhead. Give both the hips and the shoulders a beat.\n\n**Tired-day version:** 30s each.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 45,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "Passive decompression after the overhead work."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 60,
+          "notes": "45s each side. The lunges earned this."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 45,
+          "notes": "30s each side. QL release."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Optional means optional. One round of each flow is a complete session.",
+    "Light bell on the bent press — it is a skill lift, not a strength lift.",
+    "The Leggy Flow never goes overhead. Run more of it on a crabby-shoulder day.",
+    "KB curl: left first, stop short of straight, and no near-failure this week.",
+    "Banded prep stays even on the short version."
+  ]
+}

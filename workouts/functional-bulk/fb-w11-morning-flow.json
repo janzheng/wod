@@ -1,0 +1,91 @@
+{
+  "id": "fb-w11-morning-flow",
+  "name": "W11 Morning Flow — Bodyweight Spine + Hip (All Days, Variety Week)",
+  "description": "15 min bodyweight floor flow — **universal W11 morning flow, used every training day** (Mon push / Tue KB / Wed pull / Thu KB / Fri legs). **Same shape as W10, rotated moves for variety.** Three-part: spine primer → bodyweight work → deep stretch arc. All bodyweight, no equipment beyond a mat. W11 swaps in puppy-pose cat-cow, plank bird-dog, down-dog knee-to-head, hip-circle, and mountain-to-pigeon flow. Scorpion stays — signature move, still working. Day-specific therapeutic work (doorframe pec-minor stretch, 90s pigeon for QL, dead hang + scap pull-ups) lives outside this flow — do separately when needed.",
+  "routineId": "functional-bulk",
+  "tags": ["floor", "mobility", "thoracic", "hips", "morning", "bodyweight", "home", "spine", "scorpion-family", "variety"],
+  "estimatedDuration": 15,
+  "equipment": ["bodyweight", "mat"],
+  "difficulty": "beginner",
+  "sets": [
+    {
+      "id": "primer",
+      "name": "Primer — Wake the Spine (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "puppy-pose-cat-cow", "duration": 60, "notes": "Knees under hips, chest sinks toward the floor with arms extended forward, hold 2-3 breaths. Then walk back into cat-cow. **Variety on W10's cat-cow** — adds the shoulder/lat opener to the spine wave." },
+        { "id": "childs-pose-to-cobra", "duration": 60, "notes": "Slow flow. **W10 had this too — keep it, the spine wave is the bridge into the rest of the flow.**" },
+        { "id": "thread-the-needle", "duration": 60, "notes": "30s each side. Deeper than W10 — by W11 the rotation should reach further." }
+      ],
+      "notes": "Slightly different opener than W10 — puppy-pose cat-cow adds the lat opener that the seated banded flow does on Tuesday.",
+      "restBetween": 0,
+      "restAfter": 15
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Bodyweight Activation (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "inchworm-walkout", "reps": 5, "notes": "5 slow reps. Same as W10 — keep it, this move covers a lot of ground per rep." },
+        { "id": "down-dog-knee-to-head", "duration": 45, "notes": "45s alternating. From down-dog, draw one knee toward the forehead, hold a beat, switch. **Core + hip + shoulder integration** — replaces W10's plank-to-down-dog." },
+        { "id": "plank-bird-dog", "duration": 45, "notes": "45s alternating. Plank with opposite-arm-and-leg lift — harder version of W10's kneeling bird-dog. Anti-rotation under more load." },
+        { "id": "spiderman-plank", "duration": 45, "notes": "45s slow. Same as W10 — too good to skip, the slow-hold version stays in." },
+        { "id": "side-plank-thread-needle", "duration": 60, "notes": "30s each side. Same as W10 — windmill on the floor. Should feel cleaner than W10 if the lateral hinge cue is sticking." }
+      ],
+      "notes": "Slightly more demanding than W10 (plank bird-dog + down-dog knee-to-head are both more challenging than their W10 equivalents). If anything feels heavy, slow the tempo or drop the reps — don't push.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Deep Stretch Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "scorpion-stretch", "duration": 60, "notes": "30s each side. **Stays — the signature move and the named winner from W10D2.** Should feel deeper this week." },
+        { "id": "hip-circle", "duration": 60, "notes": "30s each direction. Quadruped hip circles — slow, full ROM, draw big circles with the knee. **Replaces W10's 90-90** — different hip pattern, same goal of getting the hip joint moving in all planes before deep static stretches." },
+        { "id": "lizard-pose", "duration": 60, "notes": "30s each side. Same as W10 — hip flexor + adductor + back-leg quad. Drop to elbows if accessible." },
+        { "id": "cossack-squat", "reps": "5 each side", "notes": "Bodyweight, slow. **Stays every week** — mirrors the Tuesday loaded cossack." },
+        { "id": "mountain-to-pigeon-pose", "duration": 60, "notes": "30s each side. **Replaces W10's active pigeon** — flowing entry from down-dog/mountain into pigeon. Adds the transition practice that static pigeon doesn't have." },
+        { "id": "frog-pose-pulses", "duration": 45, "notes": "45s, slow pulses. **Replaces W10's frog-stretch** with the gentle pulse version — more dynamic, easier to bail if it's not opening up that day. Adductors get the same treatment." }
+      ],
+      "notes": "Continuous arc — flow between shapes, breathe deeply. Same logic as W10 but the moves rotated for variety.",
+      "restBetween": 0,
+      "restAfter": 0
+    },
+    {
+      "id": "day-specific-addon",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 90, "notes": "**📍 PUSH DAYS — KEY W9 PROTOCOL MOVE.** 30s each at LOW / MID / HIGH elbow positions. Arm bent 90°, forearm on door frame, step through and rotate torso AWAY. **Desk work continuously re-tightens pec minor — daily.**" },
+        { "id": "prone-y-raises", "reps": 10, "notes": "**📍 PUSH DAYS** — Active side of the pec-minor fix. Lower trap + rotator cuff; pulls shoulder blade down and back." },
+        { "id": "scapular-push-up", "reps": 10, "notes": "**📍 PUSH DAYS** — Serratus activation, helps unstick a tight pec minor." },
+        { "id": "side-lying-external-rotation", "reps": "10 each side", "notes": "**📍 PUSH DAYS (optional)** — Slow rotator cuff work. Add if shoulder feels off." },
+        { "id": "wall-angel", "reps": 12, "notes": "**📍 PUSH DAYS (optional)** — Pins shoulder blades in corrected position; counteracts forward roll from pec tightness." },
+        { "id": "dead-hang", "duration": 25, "notes": "**📍 PULL DAYS** — 25s. Decompress shoulders, warm grip." },
+        { "id": "scapular-pull", "reps": 10, "notes": "**📍 PULL DAYS** — Scapulae retracting only, no elbow bend. Crisp scap engagement before loaded pulls." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "**📍 LEGS DAYS — W8 QL-SPASM PROTOCOL.** 90s each side (longer than the universal flow's mountain-to-pigeon). The long hold is what lets QL/psoas release. **Non-negotiable on legs day.**" },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "**📍 LEGS DAYS** — 60s each side. Gentle twist for the QL. Lacrosse-ball QL roll above iliac crest beforehand if available." },
+        { "id": "hip-flexor-lunge-stretch", "duration": 60, "notes": "**📍 LEGS DAYS (optional)** — Deep hip flexor stretch. Add if hip flexors feel tight." },
+        { "id": "couch-stretch", "duration": 60, "notes": "**📍 LEGS DAYS (optional)** — Most direct quad + hip flexor stretch. Wall or couch." }
+      ],
+      "notes": "**Pick today's day-specific protocol — push / pull / legs.** ~3-5 min total. KB days (Tue/Thu) skip this block — the in-workout banded prep covers the equivalent.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Same shape as W10, rotated moves.** Variety keeps the flow interesting — same intent, different shapes.",
+    "**15 min main flow + 3-5 min day-specific add-on** — universal across W11 (Mon push / Tue KB / Wed pull / Thu KB / Fri legs).",
+    "**Scorpion + cossack BW + lizard pose stay every week** — those are the durable spine + hip + adductor anchors.",
+    "Plank bird-dog and down-dog knee-to-head are slightly harder than W10's equivalents. Slow the tempo if needed.",
+    "All bodyweight, all floor — home-friendly.",
+    "**Day-specific add-on block at the end** — push days do the pec-minor protocol, pull days do dead hang + scap pull, legs days do 90s pigeon + supine twist. KB days skip the add-on.",
+    "If short on time: scorpion + lizard + cossack BW + mountain-to-pigeon, plus today's day-specific add-on."
+  ],
+  "formPhilosophy": "Same as W10. Variety = different shapes hitting the same patterns. Scorpion-family spine work + hip openers + adductor stretches. Designed for home, structured around the in-workout banded prep's logic."
+}

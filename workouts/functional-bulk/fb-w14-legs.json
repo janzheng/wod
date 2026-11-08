@@ -1,0 +1,226 @@
+{
+  "id": "fb-w14-legs",
+  "name": "Week 14 Legs — Volume Restored, Station-Grouped (Spotlight: Squat + Incline RDL Refresh)",
+  "description": "Out of the heal week. Sets restored; squat runs the user's W13D5-requested 6/7/8/8 ascending pyramid; sequence re-grouped per the new station-grouping rule (leg press → calf raise on the same machine → Bulgarian → leg curl → incline RDL). Bulgarian split squat steps up from W13 bodyweight intro to light DBs at the sides. Loads held everywhere else.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "legs", "lower-body", "quads", "hamstrings", "glutes", "ppl", "form-first", "spotlight-rotation", "station-focused"],
+  "estimatedDuration": 60,
+  "equipment": ["barbell", "dumbbell", "machine", "bench"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Volume restored. Squat runs 6/7/8/8 ascending (user's W13D5 wish, 4-set extended). Leg press → calf raise grouped at the same machine (W13D5 station-grouping rule). Bulgarian steps up to light DBs. Spotlights cycle back to squat + incline RDL.",
+    "spotlights": [
+      {
+        "exerciseId": "squat",
+        "why": "Cycles back to spotlight. W13D5 set 3 went 'super super deep and felt very good,' and the user explicitly wished the pyramid were ascending (6/7/8) instead of bookended (8/6/8). W14 tests it: 6/7/8/8 (3 ascending + a finisher 8 to restore volume). The spotlight question is whether the depth carries across all sets, not just the last one."
+      },
+      {
+        "exerciseId": "incline-rdl",
+        "why": "Cycles back to spotlight per the tracker. The hip-hinge cue + dead-slow tempo at 45lb is the durable form drill. After a heal-week sets-cut, the W14 refresh is restored 3-set volume at held load — the cue is the tempo, not the number."
+      }
+    ],
+    "rotationPlan": "W10 squat + incline RDL · W11 leg press · W12 seated leg curl + calf raise · W13 Bulgarian split squat (NEW) · W14 squat + incline RDL (current, refresh) · W15 cycle forward — leg press depth or Bulgarian DB step-up.",
+    "watchpoints": [
+      "**Loads HELD at W13** — squat 75/side, leg press 3 plates, calf raise 3 plates, leg curl 90, incline RDL 45. Bulgarian steps from bodyweight/light intro to light DBs at the sides (15-20lb pair) per the W13D5 'happy to go up after this' signal.",
+      "**6/7/8/8 squat pyramid test (W13D5 user request)** — 3 ascending sets + 1 finisher set at 8. Watch whether set 3's depth (W13D5 'super super deep') holds across sets 1-2 at the lighter rep counts.",
+      "**Station-grouped sequence (W13D5 rule):** leg press → leg-press-calf-raise (same machine) → Bulgarian (bench station) → leg curl → incline RDL. No backtracking to the leg press.",
+      "**Bulgarian step-up** — light DBs 15-20lb pair at the sides. W13D5 was clean at bodyweight, user 'happy to go up.' If anything twitches/spasms, drop back to bodyweight and finish — that's the W13D5 prior-attempt lesson.",
+      "**QL/psoas watch continues** — cross-leg lateral lean stays in the warmup AND cool-down. If anything talks during warmup, modify the day; if it talks mid-session, drop a set."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup (incl. Cross-Leg Lateral Lean — QL/Psoas Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "bodyweight-squat",
+          "reps": 15,
+          "notes": "Full depth, slow. Find where the hips are tight and breathe into it. Depth check before loading."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. Scissor one foot over the other, reach the same-side arm overhead, lean away from the back leg — the stretch runs down the side of the waist into the QL and lateral hip. Do this before loading the squat."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Big slow circles. Wake up the hip stabilizers."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine mobility — slow, full ROM each direction."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension. Quick posterior-chain and low-back opener before loading the squat."
+        },
+        {
+          "id": "lunge",
+          "reps": "5 each leg",
+          "notes": "Bodyweight. QL check — if anything talks here, modify the day. Also previews the Bulgarian pattern."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "squat-warmup",
+      "name": "Squat Warmup",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": 8,
+          "notes": "Set 1: 45/side x8. Set 2: 65/side x8. Same depth as the working sets."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "squat-working",
+      "name": "🔆 Squat (Spotlight — 6/7/8/8 Ascending Pyramid at 75)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "6 / 7 / 8 / 8",
+          "notes": "**LOAD:** 75/side (HELD). 4 sets: **6 / 7 / 8 / 8** — ascending pyramid + finisher.\n\n**🔆 SPOTLIGHT — testing the W13D5 ascending-pyramid wish:**\n- Set 1 at 6: full ROM, super deep. Fewer reps lets you go deeper without fear of overshooting. **This is where the deepest rep should live.**\n- Set 2 at 7: same depth, one more rep. The 'build courage' step.\n- Set 3 at 8: same depth as set 1, full count. The match-the-depth-from-the-fresh-set test.\n- Set 4 at 8: restored volume — finishing 8 (W13D5's 'felt strong' set, repeated).\n\n**Cues:**\n- Bar high on the upper traps (NOT the neck), upper-back shelf squeezed\n- **Brace like prepping for a punch** — deep belly breath at the top, HOLD through the descent, exhale on the drive up\n- **Hips back AND down**, not just down\n- 'Spread the floor' — screw the feet into the ground\n- Knees track over the toes\n- Sit into the bottom\n- Drive through the WHOLE foot\n\n**Reflection (the W14 question):** does set 1's depth at 6 reps carry to set 3 at 8 reps, or does fatigue from the ascending ramp shorten depth by set 3? If yes (depth holds), 6/7/8/8 stays the W15 pattern. If set 3 shallows, revert to 8/6/8 or try 6/6/7/8."
+        }
+      ],
+      "restBetween": 180,
+      "restAfter": 120
+    },
+    {
+      "id": "legpress-station",
+      "name": "Leg Press + Calf Raise Station (Same Machine — W13D5 Station-Grouping Rule)",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 3 plates/side (HELD). 4 sets of 12. Chase DEPTH, not load.\n\nFull ROM at 3 plates is the work — the deep knee-to-chest position trains the abs/QL (W12D5 + W13D5 confirmed the soreness pattern).\n\n- **Foot position:** shoulder-width, mid-foot on the platform, slight toe-out — set before loading\n- **Press through the WHOLE foot** — heels grounded\n- **Full ROM** — knee toward the chest, actively pressing to keep the lower back from lifting off the pad\n- Slow descent (3s), no bounce at the bottom\n- Don't lock out hard at the top — leave a hair of bend\n- If the hips lift off the pad at depth, that's too deep — back off\n- **Breath:** in on the descent, out on the drive"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 60
+    },
+    {
+      "id": "calf-raise-station",
+      "name": "Leg-Press Calf Raise (Same Machine — Stays Right Here)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": 15,
+          "notes": "**LOAD:** 3 plates/side (HELD). 3 sets of 15. Stay on the leg press — this is why station-grouping matters.\n\n**Setup:**\n- **Balls of both feet on the BOTTOM EDGE of the platform, heels hanging off the edge.** No plate under the foot — the platform edge gives the heel drop on its own.\n- **Both feet on the platform** — double-leg\n\n**Cues:**\n- **Full stretch at the bottom** — let the heels drop as far below the edge as they'll go\n- **Drive to FULL plantarflexion at the top**\n- **3-4s eccentric** — the slow descent is the stimulus, not added load\n- **1s squeeze at the peak**, no bouncing\n- **Breath:** continuous, don't hold\n\nW13D5 'felt easy this time even with slow eccentrics, feel great.' If it still feels easy at slow tempo, the W15 conversation is moving to single-leg + slow (W10D5 trap caveat — only when the eccentric is dialed in)."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 120
+    },
+    {
+      "id": "bulgarian-station",
+      "name": "Bulgarian Split Squat (Bench Station — Step Up to Light DBs)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "bulgarian-split-squat",
+          "equipment": "bench + light DBs at the sides — Smith machine if free (use smith-machine-bulgarian-split-squat)",
+          "reps": "8-10 each leg",
+          "notes": "**LOAD:** Light DBs **15-20lb pair at the sides**, step up from W13D5's bodyweight intro. 3 sets of 8-10 each leg (volume restored from W13's 2 sets). W13D5: 'felt fine no twitching or spawning... happy to go up after this.'\n\n**Cues (carry from W13D5 intro):**\n- **Rear foot up on the bench** behind you, laces down or toes tucked\n- **Step out far enough that the front shin stays roughly VERTICAL at the bottom** — too short a stance = knee crashes past the toes\n- **Front knee tracks over the front foot** — not caving in\n- **Lower until the rear knee nearly touches the floor** — controlled, no dropping\n- **Drive up through the FRONT HEEL** — the front leg does the work, the rear leg is a kickstand for balance\n- **Torso stays TALL** — slight forward lean is fine, no folding over\n- **2s descent**, own the bottom\n\n**Watch:** if anything twitches/spasms (W13D5 prior-attempt lesson — going too heavy too fast triggered spasms before), drop to bodyweight for the remaining sets and finish. The DB step-up is conservative for a reason."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "legcurl-station",
+      "name": "Seated Leg Curl (3 Sets at 90)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "seated-leg-curl",
+          "reps": 12,
+          "notes": "**LOAD:** 90 (HELD). 3 sets of 12. Slow tempo — W13D5 'feel these deeply when doing it slowly' is the cue.\n\n**Cues:**\n- **Ankles UNDER the pad** — the ankle bone is the contact point, NOT the mid-calf\n- **Settings: 5/m/0/1** (verify before loading)\n- **Lap pad locked DOWN firmly** — loose pad lets the torso lift and turns it into lower-back work\n- **Curl the heels toward the glutes** — full ROM, full squeeze\n- **2s eccentric, 1s squeeze**\n- Torso stays anchored to the seat, no lifting forward\n- No bouncing out of the bottom"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "incline-rdl-working",
+      "name": "🔆 Incline RDL (Spotlight — 3 Sets Dead Slow)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "incline-rdl",
+          "reps": 15,
+          "notes": "**LOAD:** 45lb plate (HELD). 3 sets of 15. Dead slow with a 2s pause at the bottom.\n\n**🔆 SPOTLIGHT — drill the hip-hinge cues, the tempo is the progression:**\n- **Pad just below the hip crease** — NOT on the upper thigh, NOT on the stomach\n- **Hip hinge** — Romanian deadlift on the 45° bench, NOT a lumbar extension\n- Lower back NEUTRAL throughout\n- **At the bottom:** stretch in the **hamstrings and glutes**, NOT the lower back. If the lumbar rounds, you're going too deep for current mobility.\n- Drive up by squeezing the glutes and hamstrings\n- **At the top:** stop at neutral. Past neutral = lumbar load = QL irritation.\n- **Tempo: 3s eccentric, 2s pause at the bottom, 1s drive up.** The slow eccentric is the entire reason this lift works.\n- Take extra rest between sets if you need it\n\n**Reflection:** at 45lb dead slow for 3 sets restored, where is the stretch landing — hamstrings/glutes (correct) or lower back (too deep / pad placement off)? If lower back, slow down further and check pad position before set 2."
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Recovery Block (Hip/QL-Biased for Legs Day)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "30s each side. Scissor the legs, reach overhead, lean away from the back leg — bookend the session with the same QL/psoas release as the warmup."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "45s each side. Deep hip-flexor and glute release — the long hold lets the QL and psoas let go."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side. Gentle twist for the QL — draw one knee across the body, opposite arm extended."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side. Hip-rotator decompression."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift."
+        }
+      ],
+      "notes": "5-min recovery block, hip/QL-biased on legs day.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Volume restored, loads held.** Squat 4 sets, leg press 4, calf raise 3, Bulgarian 3, leg curl 3, incline RDL 3.",
+    "**Squat: 6/7/8/8 ascending pyramid at 75** (the W13D5 user request, extended to 4 sets). Set 1 at 6 should be the deepest — see if the depth carries.",
+    "**Spotlight: squat + incline RDL** — the W14 refresh of the form-first foundation lifts.",
+    "**Station-grouped sequence (W13D5 rule):** warmup → squat → leg press → leg-press-calf-raise (same machine — stay there) → Bulgarian (bench station) → leg curl → incline RDL → cool-down. No backtracking.",
+    "**Bulgarian steps up to light DBs at the sides** (15-20lb pair) from W13D5's bodyweight intro. Drop back to bodyweight if anything twitches.",
+    "**Cross-leg lateral lean in the warmup AND cool-down** — QL/psoas release.",
+    "**Cool-down stays — 5-min block, hip/QL-biased on legs day.**",
+    "Rest: 3 min squats, 2 min leg press, 90s calf raise + Bulgarian + isolations."
+  ],
+  "formPhilosophy": "Out of the heal week. Volume restored, loads held. The squat pyramid tests the user's W13D5 ascending preference; the station-grouped sequence implements the W13D5 calf-raise rule; the Bulgarian step-up is the planned next move from W13's clean introduction. Spotlights cycle back to squat + incline RDL — the foundation lifts where form is the long-game progression."
+}

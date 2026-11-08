@@ -1,0 +1,183 @@
+{
+  "id": "fb-w31-kb-cond",
+  "name": "Week 31 Optional KB — Dead Cluster Flow",
+  "description": "**Optional and deliberately short.** Run it whenever a window opens after the gym work; it is not tied to a weekday and missing it does not make the week incomplete.\n\n**The Dead Cluster Flow returns — seven beats, one bell, one side at a time.** A dead cluster is a clean off the floor into a front squat into a press overhead, with the bell set back down dead between reps. From there the chain runs through a snatch, a straight-arm lateral hold, a swing that arcs out around the hip, a clean back to the rack, a reverse lunge and a squat with the bell racked on one side only.\n\n**It is overhead-heavy, and a new crackle showed up in the left shoulder last week.** Go light, and treat the lateral hold as the first thing to drop.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "kettlebell",
+    "conditioning",
+    "flow",
+    "functional-bulk",
+    "optional",
+    "week-31"
+  ],
+  "estimatedDuration": 30,
+  "equipment": [
+    "kettlebell",
+    "resistance-band",
+    "bodyweight"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "One long flow carries the whole day, with the left-arm curl dose after it. Short on purpose — the three gym days are the week, and this is whatever is left over. Rounds are the variable, never the bell.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-dead-cluster",
+        "why": "The opening beat and the one that sets the tone: the bell starts dead on the floor every rep, so there is no momentum to borrow. Legs clean it, legs squat it, legs start the press — if the arm is doing the work, the bell is too heavy."
+      }
+    ],
+    "rotationPlan": "W32 — kickstand complex or the overhead mobility complex returns. W33 — outside snatch flow comes back around.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: the dead cluster press, the snatch, the lateral hold, both cleans. This is the most overhead work in the week.",
+      "🔥 near-failure last set OK: KB curl — **except this week**, see below.",
+      "**⚠️ THE LEFT SHOULDER IS NEW AND THE RIGHT ONE HAS A HISTORY. GO LIGHT — 20-25.** Three of the seven beats put the bell overhead or on a long lever. **Pack the shoulder DOWN on every lockout, and drop the straight-arm lateral hold first** if either side complains. Bailing on a beat is the correct move, not a failed round.",
+      "**Rounds are the variable, not the bell.** Two rounds per side is the prescription. A third only if it genuinely feels strong.",
+      "**The bell goes dead on the floor between cluster reps.** That is the point of the name — no bouncing one rep off the last.",
+      "**KB curl: left arm first, stop short of straight, no near-failure this week.** The left bicep tendon is still irritable and the bell loads the bottom hard.",
+      "**Banded shoulder prep + protective shrug stay in the warm-up**, even on the twenty-minute version — and on this of all days."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Bottoms-Up Cuff Prep + Cossacks",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The bottoms-up work matters more than usual today — it is cuff prep, and the flow is about to ask for a lot of overhead lockouts.",
+      "exercises": [
+        {
+          "id": "kettlebell-halo",
+          "reps": "8 each direction",
+          "notes": "Slow, close to the head. Shoulders packed down. **Take the left side slower.**"
+        },
+        {
+          "id": "kettlebell-bottoms-up-press",
+          "reps": "8 each side",
+          "notes": "Light bell inverted. Cuff prep and grip — and it rehearses the packed-down lockout that everything else today is about to ask for. **If the left will not hold the bell quiet and stacked, that is your signal to go lighter for the whole session.**"
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Hinged slightly forward, tight fists, thumbs tucked."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "Protective activation. Down and back at the top."
+        }
+      ]
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out** — and today is the day it earns its place.\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    },
+    {
+      "id": "dead-cluster-flow",
+      "name": "🌀 Dead Cluster Flow — Seven Beats, One Side at a Time",
+      "type": "flow",
+      "flowId": "kb-dead-cluster-flow",
+      "rounds": 2,
+      "notes": "**LIGHT bell — 20-25. Two rounds per side**, ~60s between rounds. Run the whole chain on one side, then the other.\n\n🔆 **The opening beat sets the tone.** A dead cluster is a clean off the floor → front squat → press overhead, and **the bell goes back down dead on the floor between reps.** There is no momentum carried from one rep to the next, which is the whole reason it is called dead — the legs have to start every single one.\n\n**The other six, in plain words:**\n- **Snatch** — here it runs overhead-to-overhead out of the cluster's lockout, not up from the floor\n- **Straight-arm lateral hold** — the bell raised out to the side to shoulder height on a straight arm, held briefly. **This is the first thing to drop today**\n- **Outside pendulum swing** — two single-arm swings that arc out around the working hip rather than between the legs; brace so the torso does not twist toward the bell\n- **Tactical clean** — threaded back into the rack out of the second swing, no reset and no yank\n- **Reverse lunge** — bell stays racked, step back, both knees to about 90°, drive through the front heel\n- **Offset rack squat** — bell racked on one side only; the job is resisting the pull toward the loaded side\n\n🛑 **The shoulder rules:** light bell, **pack it DOWN on every lockout**, ribs down. **If either shoulder talks, drop the lateral hold and keep going** — the flow survives losing a beat. Bailing is the designed exit, not a failed round."
+    },
+    {
+      "id": "kb-curl",
+      "name": "Left-Arm Curl Dose 🛑",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round, and the only loaded arm work here. This stays because the left arm wants **frequency**, not intensity.",
+      "exercises": [
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom** — the bell loads that end position harder than a dumbbell does, and that end position is what the left tendon dislikes\n- Shoulder packed down, no shrug to start\n\n**No near-failure this week.** Calm load, full control."
+        }
+      ]
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Shoulder + Hip + QL Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Overhead-heavy day — the shoulders come first for once.\n\n**Tired-day version:** 30s each.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height. Earned today."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress after all that lockout work."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "butterfly-stretch",
+          "duration": 45,
+          "notes": "Adductors — the lunges and lateral work earned this."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 45,
+          "notes": "30s each side. Let the QL downshift after the hinge work."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Rounds are the variable, never the bell. Light — 20-25.",
+    "The bell goes dead on the floor between cluster reps. No bouncing one rep off the last.",
+    "Drop the straight-arm lateral hold first if either shoulder talks. That's the designed exit.",
+    "Legs clean it, legs squat it, legs start the press. If the arm is working, go lighter.",
+    "Missing this day entirely does not make the week incomplete."
+  ]
+}

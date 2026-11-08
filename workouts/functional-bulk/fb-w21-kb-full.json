@@ -1,0 +1,125 @@
+{
+  "id": "fb-w21-kb-full",
+  "name": "Week 21 KB Full Body — GymFiesta Circuit (NEW) + Dead Cluster Flow (2nd Run) + Bottoms-Up Carry (Spotlight)",
+  "description": "KB Tuesday, carousel turns. **Warmup reminder:** halo → bottoms-up press (18lb, 8/side, forward + T-plane) → goblet squat → internal core fist rotation → protective behind-back shrug, then the 7-move banded shoulder prep.\n\nThe figure-8 complex steps off and the **GymFiesta full-body circuit** steps on — run as the whole four-move unit it actually is, not a move borrowed out of it. The **Dead Cluster Flow** gets its second run, so the beats you fought last week (the overhead-to-overhead snatch, the two pendulum swings, the inside tactical clean) become the thing you own. The **bottoms-up carry** takes the spotlight, folding the bottoms-up family forward from last week's clean.\n\nStrict overhead press holds 50 at the 8s you just earned. Leg-athletic work sits on Tuesday, three days clear of Friday legs.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "strength", "full-body", "flow", "circuit", "skill-work", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "KB Tuesday, carousel turn. The GymFiesta circuit joins as a whole unit (pass-to-squat → lunge knee-drive → snatch → press-to-march) — leg-athletic and explosive, which is exactly why it belongs on Tuesday and not Thursday. The Dead Cluster Flow runs a second time to consolidate the three beats that read wrong last week. Bottoms-up carry is the spotlight. Strict press holds 50 at 8s. Figure-8 complex steps off the carousel.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-bottoms-up-carry",
+        "why": "Folds the bottoms-up family forward — the press is the warmup standard, the clean was last week's spotlight, and the carry is the loaded-time-under-tension version of the same stimulus. An inverted bell held over a vertical forearm while you WALK is the hardest packed-shoulder demand in the whole KB library: grip, shoulder stability, and anti-rotation core all at once, and the bell tips the moment any of the three lets go. That failure mode is the coaching. Rehab-friendly for the right shoulder, and it feeds the farmer carry on push day."
+      }
+    ],
+    "rotationPlan": "Tuesday content rotates: W19 Leggy Flow + loaded cossack + hand-to-hand swing · W20 figure-8 → tactical clean + bottoms-up clean + front squat · W21 GymFiesta circuit (new) + Dead Cluster Flow (2nd run) + bottoms-up carry (current) · W22 cycle forward — bring the Leggy Flow back; the Conti Outside Snatch Flow is banked for W23.",
+    "watchpoints": [
+      "**NEW — the GymFiesta circuit runs as a WHOLE UNIT.** Four moves: around-the-body pass to squat (×20) → reverse lunge to knee drive (×10/side) → snatch (×10/side) → single-arm press to march (×10/side), 3 rounds. **It's a CIRCUIT, not a flow** — each move runs for its own reps, then you move on; the beats don't feed each other. Light-to-moderate bell, minimal rest between moves, ~60s between rounds. (Canonical: kb-gymfiesta-full-body-circuit.)",
+      "**Why it's on Tuesday and not Thursday:** the snatches and lunge knee-drives are explosive and leg-athletic. Three days clear of Friday legs, that's free. The day before legs, it's a tax. This is also why the press-to-march no longer appears on Thursday — it lives here now, inside the circuit it came from.",
+      "**Dead Cluster Flow, 2nd run — the three beats to own.** Last week the app described these wrong and you caught it off the bell. Now run them right: the **snatch is overhead-to-overhead** (carry straight out of the dead cluster's lockout, don't reset to the floor); the **outside pendulum is TWO full swings** before the clean; the **tactical clean threads the INSIDE path** out of the second swing. 🛑 Overhead-heavy — LIGHT bell (18-30lb), pack the shoulder DOWN, regress or skip the iron cross if the right shoulder flares. (Canonical: kb-dead-cluster-flow.)",
+      "**Bottoms-up carry spotlight — LIGHT, and the wobble is the work.** 18-25lb. Bell inverted over a vertical forearm, walk. Grip HARD, shoulder packed DOWN, ribs down, walk slow and straight. If the bell tips, something let go — that's the feedback, not a failure. Set it down and reset rather than fighting a drifting bell.",
+      "**Strict overhead press holds 50 — the 8s are yours now.** W20 hit 8/8/8 at 50 ('kind of hard'), up from W19's 5/6/7. Hold 50 and hold the 8s clean; the floor rose, don't chase it further. Strict, no push-press, both sides to the same standard.",
+      "**Two big blocks + strength — same length as W20.** The GymFiesta circuit takes the figure-8 complex's slot; nothing was added on top. If the session runs long: circuit to 2 rounds, or the strength block to 2 rounds. Don't rush the Dead Cluster Flow — the whole point of the second run is quality.",
+      "**Bottoms-up press stays in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light). It also primes the bottoms-up rack for today's carry spotlight.",
+      "**Protective behind-back shrug greasing set stays in the warm-up** — 1 light set, easy to forget."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up (incl. Bottoms-Up Cuff Prep)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles both directions — open the shoulders before the overhead work." },
+        { "id": "kettlebell-bottoms-up-press", "reps": "8 each side", "notes": "**LOAD:** 18lb. Bell inverted over a vertical forearm, grip HARD, shoulder packed. **8/side in two planes:** forward press + T-press. **Keep the T-plane lighter** — it's the angle the right shoulder likes least. Rotator-cuff prep, and it primes the bottoms-up rack for today's carry spotlight." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open the hips, sit in the bottom a beat — previews the circuit's pass-to-squat." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — primes grip and forearms for the snatches and the bottoms-up carry." },
+        { "id": "behind-back-dumbbell-shrug", "equipment": "light DB pair or a kettlebell held behind the body", "reps": "12-15", "notes": "**Protective shrug (greasing set).** 1 light set held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. Decompresses the right shoulder — costs nothing, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to the ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the overhead + rotation." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in a V/Y, hold and breathe. Lower traps fire — primes the snatch catch and the press-to-march lockout." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension, no rest between positions.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "gymfiesta-circuit-block",
+      "name": "🌀 GymFiesta Full-Body Circuit (NEW — run as the whole unit)",
+      "type": "flow",
+      "flowId": "kb-gymfiesta-full-body-circuit",
+      "rounds": 3,
+      "notes": "**Single light-to-moderate bell (~20-30lb), 3 rounds.** New this week — and run as the complete four-move circuit it is, not a move pulled out of it.\n\n**This is a CIRCUIT, not a flow** — each move runs for its full rep count, then you move to the next. Minimal rest between moves, ~60s between rounds. Conditioning is the intent: pick a bell you can keep moving with for three rounds.\n\n**The snatch is the technical centerpiece** — hips drive it, punch the hand THROUGH at the top so the bell rolls onto the forearm instead of banging the wrist. 🛑 Right-shoulder watch on the catch; sub high pulls if it crackles and keep the round going.\n\n**The press-to-march is the coordination beat** — press to a packed-shoulder lockout, then drive alternate knees while the bell stays STILL overhead. A quiet lockout under a moving leg is the whole skill.\n\nThis is leg-athletic and explosive, which is exactly why it sits on Tuesday and not Thursday.",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "dead-cluster-flow-block",
+      "name": "🌀 Dead Cluster Flow (2nd Run — Own the Three Beats)",
+      "type": "flow",
+      "flowId": "kb-dead-cluster-flow",
+      "rounds": 3,
+      "notes": "**Single LIGHT-to-MEDIUM bell (~18-30lb), 3 rounds each side** (2 each if the session's already long). Second run — last week you found three beats by feel that the sheet had wrong. Run them right this time:\n\n**1. The snatch is overhead-to-overhead.** Carry straight out of the dead cluster's overhead lockout — don't reset the bell to the floor. Lower it out of the lockout and snatch it right back up in one arc.\n\n**2. The outside pendulum is TWO full swings.** Not one. The second swing's inside arc is what feeds the clean.\n\n**3. The tactical clean threads the INSIDE path**, coming directly out of that second swing — no reset, no re-grip.\n\n🛑 **Overhead-heavy — keep it shy, the packed shoulder is the cap.** Pack the shoulder DOWN on the cluster press, snatch, and iron cross; the iron cross is a big straight-arm lateral load — go light, regress or skip it if the right shoulder flares. The cleans, snatch, and pendulum come from the legs and hips, not the arm.\n\n**Reflection:** now that the three beats are right, does the chain flow move-to-move, or are you still re-gripping between them? The seamless string is the skill.",
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "strength-spotlight-block",
+      "name": "🔆 Strength + Bottoms-Up Carry (Spotlight) + Front Squat",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kettlebell-overhead-press", "reps": "8 each side", "notes": "**LOAD:** 50 across all sets — strict single-arm press (clean to rack, press straight up, NO push-press). W20 hit 8/8/8 at 50 and it was 'kind of hard.' Hold 50 and hold the 8s clean — the floor rose, bank it rather than chasing it.\n- **Strict, not push-press** — the shoulder presses it\n- **Ribs DOWN** before the press — no rib flare\n- **Bicep finishes by the ear, full lockout, pack the shoulder DOWN**\n- Slow descent back to the rack; **both sides to the same standard** — press the left as clean as the right." },
+        { "id": "kettlebell-bottoms-up-carry", "reps": "~30-40s each side", "notes": "**🔆 SPOTLIGHT — the inverted bell, walking. LIGHT (the balance is the work):**\n- **LOAD:** 18-25lb (light — grip + stability, not load)\n- **Clean the bell into a bottoms-up rack** — balanced UPSIDE-DOWN over a vertical forearm — then WALK\n- **Grip HARD, shoulder packed DOWN, ribs down** — all three have to hold at once, and the bell tips the moment any one of them lets go\n- **Walk slow and straight**, torso tall, don't lean away from the bell to prop it up\n- **If the bell tips, set it down and reset** — fighting a drifting bell teaches nothing\n- Rehab-friendly for the right shoulder: a packed shoulder under a balanced load, held under time, is exactly the stability stimulus it likes. Feeds the farmer carry on push day.\n\n**Reflection:** does the bell stay quiet for the whole walk, or does it start hunting as the grip tires? A still bell for 30 seconds beats a wobbling one for 60." },
+        { "id": "kettlebell-front-squat", "reps": "8 each", "notes": "**LOAD:** 25-35lb racked. Covers the squat pattern.\n- **Sit tall, full depth, no bouncing** out of the bottom\n- **Ribs down, brace the core** — the racked bell wants to pull you forward; stay upright\n- Drive up through the whole foot. Leg-athletic on Tuesday is fine — far from Friday legs." }
+      ],
+      "notes": "Strength + spotlight + squat, 3 rounds (2 if short on time). Strict press is the strength anchor; the bottoms-up carry is the spotlight; the front squat covers the squat pattern.",
+      "restBetween": 45,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release — counters the front squat, the lunge knee-drives, and the hike-position work." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors + inner hips." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**The GymFiesta circuit runs as a WHOLE UNIT this week** — pass-to-squat → lunge knee-drive → snatch → press-to-march, 3 rounds. It's a circuit, not a flow: each move for its reps, then move on. It replaces the figure-8 complex in the slot; nothing was added on top.",
+    "**Why Tuesday:** the circuit is explosive and leg-athletic, so it's free three days clear of Friday legs and a tax the day before. That's also why the press-to-march is gone from Thursday — it lives here now, inside the circuit it came from.",
+    "**Dead Cluster Flow, 2nd run — own the three beats you found by feel:** the snatch is overhead-to-overhead, the outside pendulum is TWO full swings, the tactical clean threads the inside path out of the second swing.",
+    "**Spotlight: bottoms-up carry — LIGHT** (18-25lb). Inverted bell over a vertical forearm, walking. Grip, packed shoulder, braced core, all at once. If it tips, set it down and reset.",
+    "**Strict overhead press holds 50 at 8/8/8** — the reps you earned last week. Strict, no push-press. Bank the floor, don't chase it.",
+    "**Front squat 25-35lb** — racked, sit tall, full depth.",
+    "**Bottoms-up press in the warmup** — 18lb, 8/side, forward + T-plane (T-plane light).",
+    "**Protective behind-back shrug greasing set in the warm-up.**",
+    "**If the session runs long:** circuit to 2 rounds, or the strength block to 2 rounds. Don't rush the Dead Cluster Flow — quality is the point of the second run.",
+    "Cooldown mandatory — pigeon + butterfly.",
+    "Rotation plan: W22 brings the Leggy Flow back; the Conti Outside Snatch Flow is banked for W23."
+  ],
+  "formPhilosophy": "KB Tuesday as the carousel. This week corrects a real drift: the GymFiesta circuit had been quietly harvested for parts (the press-to-march ran alone on Thursday) while the circuit itself was never programmed — so it runs here as the complete four-move unit, on the day its explosiveness is free rather than expensive. The Dead Cluster Flow takes its second run to consolidate the beats that were learned off the bell rather than the sheet. The bottoms-up carry folds the family forward from press to clean to loaded time-under-tension. The strict press holds the 8s it just earned — the floor rose, and the job now is to own the new floor, not immediately climb off it. Building decades, not weeks."
+}

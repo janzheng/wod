@@ -1,0 +1,417 @@
+[
+  {
+    "day": 1,
+    "date": "2026-09-14",
+    "workoutId": "fb-w30-push",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "First well-rested gym session in weeks, named unprompted — 'got good rest yesterday and today; good sleep.' The press ran first as prescribed and was confirmed on follow-up as a pure strict press, three sets at 50 — the reorder working exactly as designed, and he agreed: 'yeah pressing first is probably the most useful thing lmao.' Dips were 'a struggle after all those other exercises,' the mirror image of W29 when they ran early and produced the best set of the block. The tricep extension ran in full and never got hard. Carry ran at 50 against a written 60.",
+    "exercises": [
+      {
+        "id": "standing-dumbbell-strict-press",
+        "sets": [
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          },
+          {
+            "weight": "50lb pair",
+            "reps": "6-8"
+          }
+        ],
+        "notes": "Ran FIRST as prescribed and confirmed on follow-up as a PURE STRICT PRESS, no leg drive — 'strict presses, no pushing at all... this time was a pure strict press.' Three sets at 50 from the front, against two sets last week from the back that became a push press and then could not strict rep one. Same load, same lift; only the slot changed."
+      },
+      {
+        "id": "incline-dumbbell-press",
+        "sets": [
+          {
+            "weight": "60lb pair",
+            "reps": "8-12"
+          },
+          {
+            "weight": "60lb pair",
+            "reps": "8-12"
+          },
+          {
+            "weight": "60lb pair",
+            "reps": "8-12",
+            "notes": "'Tough at last set definitely working weight.'"
+          }
+        ],
+        "notes": "First week at the 3s eccentric and he confirmed it ran — 'went well with eccentric and 60.' Tempo bump absorbed at an unchanged 60, still working weight by his own read."
+      },
+      {
+        "id": "dip",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": "10-12"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": "10-12"
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "angled / V bar",
+            "reps": "10-12"
+          }
+        ],
+        "notes": "All sets done — 'a struggle after all those other exercises.' Exact reverse of W29, where dips came before the press and the third set was the best of the block. Position in the queue changed, not the lift."
+      },
+      {
+        "id": "lateral-raise",
+        "sets": [
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15"
+          },
+          {
+            "weight": "20lb pair",
+            "reps": "12-15",
+            "notes": "'Really hard towards the end.'"
+          }
+        ],
+        "notes": "Third week at 20, and harder than W29 — explained on follow-up: he has been running them slower and with the bells held WIDER / farther from the body, with a slight fixed elbow bend. A longer moment arm makes the same 20 a heavier lift, so the form lever has already been taken. 20 holds; the 25s do not come in."
+      },
+      {
+        "id": "straight-arm-pulldown",
+        "sets": [
+          {
+            "weight": "120",
+            "equipment": "cable column",
+            "reps": 12
+          },
+          {
+            "weight": "120",
+            "equipment": "cable column",
+            "reps": 12
+          }
+        ],
+        "notes": "Both rounds ran, 'hard at end.' Station not restated this week; logged as the written cable column 120, which is what he confirmed in W29."
+      },
+      {
+        "id": "incline-cable-overhead-tricep-extension",
+        "sets": [
+          {
+            "weight": "60",
+            "equipment": "cable column",
+            "reps": "10-12"
+          },
+          {
+            "weight": "60",
+            "equipment": "cable column",
+            "reps": "10-12"
+          }
+        ],
+        "notes": "Not mentioned in the first report, confirmed on follow-up as run in full — 'triceps went! i kind of forgot; they werent very hard this time, followed instructions all sets, never got hard.' Cues followed and the load never bit. Fourth week at 60 on the cable column."
+      },
+      {
+        "id": "farmer-carry",
+        "sets": [
+          {
+            "weight": "50lb per hand"
+          },
+          {
+            "weight": "50lb per hand"
+          }
+        ],
+        "notes": "MISMATCH — prescribed 60, ran two walks at 50. Answered: 'i was just lazy for farmers carry; my hands kind of fell apart this time around' and '50 was what was left before i pooped out.' His own rule going forward: '60 for when my hands feel good 50 for when i'm ready to go home.'"
+      }
+    ],
+    "rawInput": "w30d1\n\npush press\nwent well! did all sets, got good rest yesterday and today; good sleep\n\nincline also went well with eccentric and 60 - tough at last set definitely working weight \n\ndips did all but a struggle after all those other exercises\n\nlat raises also really hard towards the end lol yikes haha\n\nstraight arm pulldown did all sets hard at end\n\ndid farmer carry on 50 pair haha tired twice",
+    "followUps": [
+      "Press — strict or push press? → PURE STRICT PRESS, no leg drive: 'oops \"push press\" was last time (i think? when i struggled) this time was a pure strict press.' He also endorsed the change: 'yeah pressing first is probably the most useful thing lmao.'",
+      "Tricep extension — done or skipped? → Done, all sets, cues followed, and 'never got hard.' He had simply forgotten to report it. The right-arm nerve line was not mentioned either way.",
+      "Lateral raise — did the sets reach 15? → Not answered directly; instead he reported a form change that supersedes the question: slower, and held wider / farther from the body with a slight bend. He also asked what the lift trains and whether he is doing it right. 20 holds.",
+      "Farmer carry 50 vs a written 60 → 'i was just lazy... my hands kind of fell apart this time around'; '50 was what was left before i pooped out.' His rule: '60 for when my hands feel good 50 for when i'm ready to go home.'"
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-09-16",
+    "workoutId": "fb-w30-legs",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "Best-controlled squat report of the block — three flat sets at 80 with 'fully in control and fairly deep and controlled every set,' not just the later ones. The heel-elevated ramp at 45 finally read as depth rather than as a different exercise, which is exactly what dropping it from 80 was for. The RDL reset to 45 did its job: the squeeze arrived and grip never entered the report, and he wants +25/side on set 2 next time. Both hip machines lost to equipment — one broken, one with a long line. Logged at the program's schedule position (day 2); he counts this session d3. Follow-ups resolved the RDL station (barbell, one 45/side, chasing the incline-bench feel), the bump (all three sets, his call), which machine is dead (abduction), and how the left leg curl finished its reps (2-3s between reps rather than forcing).",
+    "exercises": [
+      {
+        "id": "squat",
+        "sets": [
+          {
+            "weight": "45/side",
+            "equipment": "Smith / rack",
+            "reps": 5,
+            "notes": "Warmup round 1 — flat, 2-3s pause."
+          },
+          {
+            "weight": "45/side",
+            "equipment": "Smith / rack",
+            "reps": 5,
+            "notes": "Warmup round 2 — 5lb plate under each heel. \"Good depth, interesting with heels, definitely different feeling and getting used to it still.\""
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8",
+            "notes": "\"Fully in control and fairly deep and controlled every set.\""
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8"
+          },
+          {
+            "weight": "80/side",
+            "reps": "6-8"
+          }
+        ],
+        "notes": "**The heel elevation at 45 bought depth, where at 80 it had not.** W29 verdict on heels-up at 80: *\"didn't actually feel deeper or easier but like another exercise bc the plates under heel.\"* At 45 it reads as *\"good depth… definitely different feeling and getting used to it still\"* — still novel, but now producing the position instead of just changing the exercise. That is the whole reason the plates moved down to the warmup.\n\n**Three flat sets at 80 and no set-1 caveat.** *\"80s went really well felt fully in control and fairly deep and controlled every set.\"* The standing \"never judge the squat on set 1\" watchpoint did not apply — W28 had set 1 as the shallowest, W29 had it merely \"pretty good,\" and this week all three read the same."
+      },
+      {
+        "id": "barbell-romanian-deadlift",
+        "sets": [
+          {
+            "weight": "45/side",
+            "equipment": "barbell",
+            "reps": "8-10"
+          },
+          {
+            "weight": "45/side",
+            "equipment": "barbell",
+            "reps": "8-10"
+          },
+          {
+            "weight": "45/side",
+            "equipment": "barbell",
+            "reps": "8-10"
+          }
+        ],
+        "notes": "**The reset worked on its own terms: the squeeze showed up and grip never came up.** *\"Felt for the same feel on the incline at 45; still working on getting the feel right but got the squeeze.\"* At 70/side the previous two weeks, grip was the cap — W29 set 1 ended at 8 reps with the hands, not the hamstrings. At 45, nothing about the hands appears in the report.\n\n**Resolved on follow-up: the BARBELL, one 45 plate per side — 135 total with the bar.** *\"On the bar with one 45 on each side — this felt about the same / similar to incline bench weirdly; trying to get the same feeling as the incline bench.\"* He was chasing the incline-bench feel on the bar, not running the incline variant.\n\n**The \"weirdly\" is his own W25D5 finding arriving from the other direction.** The incline RDL is a 45lb plate held HIGH at the collarbones; the barbell hangs at arm's length and the cue actively keeps it brushing the thighs. Hip torque is load × HORIZONTAL distance from the hip, so 135 on a short moment arm lands in the same place as 45 on a long one. **Two different numbers, one hinge demand — that is the calibration, not a coincidence.**\n\n**His call on the bump, confirmed: +25/side on ALL THREE sets, not just set 2.** That is 70/side, the exact load grip capped in W28 and W29. Named for him: on the bar, load is the only torque lever available (the cue minimises the moment arm on purpose), so the increase is the right lever — but 70 is where the hands have twice ended the set first. **The signal to report is whether the hamstrings or the hands end the set**; 55/side is the fallback that raises the load without landing on the known ceiling."
+      },
+      {
+        "id": "kneeling-leg-curl",
+        "sets": [
+          {
+            "weight": "65",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side",
+            "notes": "Left first. Left fatigued earlier; paused and slowed to finish the reps."
+          },
+          {
+            "weight": "65",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "65",
+            "equipment": "kneeling leg curl machine",
+            "reps": "10-12 each side"
+          }
+        ],
+        "notes": "**First clean left/right split on this machine.** *\"Left side pooped out faster but i paused and slowed down a bit to finish — i want the left to finish all the reps.\"* W29 reported both legs equally hard at the end with no gap; this week the left is named. Third week at 65.\n\n**⭐ AND HE SOLVED W29'S OPEN QUESTION WHILE DOING IT.** *\"Left finished all reps, and instead of trying to force it (causing twisting and using side) i waited like 2-3s between each [rep] to hold it back a bit to match right, definitely weaker side.\"* W29's unanswered question was why the lift was showing up in the side rather than the hamstring. **The answer is that the side recruitment IS the left being forced** — the twist is the compensation that appears when the rep is ground out instead of paced. He found it himself and reached for intra-set rest rather than dropping reps or load. **The left completed the full count on every set, matched to the right.**\n\n**This is a method, not an improvisation — write it into W31.** On the weaker side, 2-3s between reps is the prescription, not a concession. The hip staying square is the standard; tempo is what pays for it."
+      },
+      {
+        "id": "leg-press",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 12
+          }
+        ],
+        "notes": "*\"Leg press and calf press both good did according to written.\"* Spotlight lift this week — the question was whether the knees-to-chest depth holds when nothing about it is new, and it ran clean with no cold-first-set note for the second week running."
+      },
+      {
+        "id": "leg-press-calf-raise",
+        "sets": [
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          },
+          {
+            "weight": "4 plates/side",
+            "reps": 15
+          }
+        ],
+        "notes": "Run as written. The 🔥 near-failure option on the last set was not commented on either way."
+      },
+      {
+        "id": "hip-abduction-machine",
+        "sets": [],
+        "notes": "**Skipped — the machine is broken.** Confirmed on follow-up: *\"Abduction is broken, adduction had a massive line so skipped both.\"* Not a choice and not a load signal — 250 was confirmed as the working number last week and still stands.\n\n**Second dead machine on this day.** The seated leg curl has been out since W24 and is *\"still broken lmao\"*; the abduction machine now joins it. **W31 writes this slot with a named fallback rather than a single station** — the same multi-station pattern the cable lifts already use — so a broken machine costs the slot nothing."
+      },
+      {
+        "id": "hip-adductor-machine",
+        "sets": [],
+        "notes": "**Skipped — a long queue, not a fault.** *\"Adduction had a massive line.\"* The machine works; it was occupied. 300 holds as the standing number and tempo remains the only lever there."
+      }
+    ],
+    "rawInput": "w30d3\n\n45 plates\ngood depth interesting with heels definitely different feeling and getting used to it still\n\nsquats\n80s went really well felt fully in control and fairly deep and controlled every set\n\nrdl\nfelt for the same feel on the incline at 45; still working on getting the feel right but got the squeeze could prob go up 25 each to feel the diff on set two next time\n\nleg press and calf press both good did according to written\n\nleg curl was good; left side pooped out faster but i paused and slowed down a bit to finish - i want the left to finish all the reps\n\nskipped abduction and addiction - one is broken and the other has a huge line lol"
+  },
+  {
+    "day": 3,
+    "date": "2026-09-17",
+    "workoutId": "fb-w30-pull",
+    "cardio": "12 min zone 2 run to Arrilaga + 12 min zone 2 run back.",
+    "notes": "Two readings worth keeping. **Both shoulders were crackly on the pull-ups — not just the right — and a mid-session set of behind-back shrugs at 50 changed the day**: set 1 was six crackly reps, and after the shrugs the crackle dropped, the pack-down got easier, and the sets went 6 then 7 instead of fading. **And the row's left-side grip reached 9 on the 95**, the highest of the block, in the first week the RDL did not take grip to failure the day before. The pulldown stepped off 160 for the first time in five weeks and 170 held all three sets. The incline curl ran all reps at 25 with the steeper pad and the short-of-straight bottom, but the left sensation read louder rather than quieter. High cable curl went unmentioned again and ran in full at 220 → 250. Logged at the program's schedule position (day 3); he counts this session d4.",
+    "exercises": [
+      {
+        "id": "pull-up",
+        "sets": [
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6,
+            "notes": "3s eccentric, slow. \"Super crackly both shoulders\" — \"first set did slowly 6 crackly so came down.\""
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 6,
+            "notes": "After the shrugs: \"better form and less crackle, easier to pack down this time.\""
+          },
+          {
+            "weight": "bodyweight",
+            "equipment": "straight bar",
+            "reps": 7,
+            "notes": "\"3rd did another 7 slow felt better.\""
+          }
+        ],
+        "notes": "**6 / 6 / 7 across three sets — the first week in the block where the numbers rise instead of fade** (W29 flat 4×6, W28 8/6/6/4). The shape tracks his own intervention: **both shoulders were crackly, so between sets 1 and 2 he ran behind-back shrugs at 50 and \"felt better\"**, and the two sets after it read less crackly with an easier pack-down. Three sets rather than four, which the day's watchpoint allows when the shoulder is talking. **Confirmed on follow-up: the shrug was the warmup's own behind-back shrug done with a kettlebell, simply repeated between pull-up sets** — *\"by shrug i meant the warmup with the kb, not a new thing; just did it between pull up sets.\"* **The new part is the placement, not the movement**, which makes it free to prescribe. **Also confirmed: the left shoulder crackle is genuinely new** — *\"the left seems new! argh!\"* The right is the program's long-running one. One report, and it responded to the same activation the right did."
+      },
+      {
+        "id": "incline-curl",
+        "sets": [
+          {
+            "weight": "25lb",
+            "reps": "10 each side",
+            "notes": "Left first. Steeper pad, stopping short of a locked-out elbow. \"Did 10 first set tho.\""
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side",
+            "notes": "\"Later sets went much better.\""
+          },
+          {
+            "weight": "25lb",
+            "reps": "10 each side"
+          }
+        ],
+        "notes": "**Both changes ran — \"set higher notch and didn't lock out at end\" — and all three sets made 10 on both arms at 25.** The intent was less strain at the bottom; what he reports is the opposite direction of sensation: *\"left side is interesting i feel the strain even more this way? definitely not a 'real' pain but i think this isolates whatever is going on / its only hard / 'painful' under tension and hard to keep fully engaged.\"* **His reading is isolation, not aggravation**, and the later sets improved. The right-left gap stated plainly: *\"right side has zero problems and feels like warmup while left side is struggle sauce.\"* **Confirmed on follow-up: the sensation is a first-set thing that clears.** *\"I think the first set really felt it but later sets felt better / it kind of went away… overall sets 2/3 were better in the steeper one for left side.\"* **The steeper pad and the short-of-straight bottom stay** — they are better where it counts. Sixth week on this spot, load unchanged at 25. **W31 gives the left a light warm-up set before set 1**, the same lever that worked on the pull-up bar in W29."
+      },
+      {
+        "id": "dumbbell-row",
+        "sets": [
+          {
+            "weight": "75lb",
+            "reps": "8-10 each side",
+            "notes": "Fine both sides."
+          },
+          {
+            "weight": "85lb",
+            "reps": "8-10 each side",
+            "notes": "Fine both sides."
+          },
+          {
+            "weight": "95lb",
+            "reps": "right full / left 9",
+            "notes": "\"Left side died at 9th on set 3; right side great on all.\""
+          }
+        ],
+        "notes": "**The clean read the spotlight was for: left grip reached 9 on the 95 — the highest left-side number of the block** (W26 8, W27 8, W28 7, W29 6). **The only variable that changed is the day before: W29's RDL ran 70/side to grip failure, W30's ran 45/side and never touched grip.** Same 24-hour gap, 6 → 9. He had said W29 *\"didn't feel precooked\"* — the feel said normal and the number said otherwise, and this week is the evidence. No straps, as always. Loads not restated; read as the written 75 → 85 → 95."
+      },
+      {
+        "id": "lat-pulldown",
+        "sets": [
+          {
+            "weight": "170",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "Slow eccentric."
+          },
+          {
+            "weight": "170",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12"
+          },
+          {
+            "weight": "170",
+            "equipment": "regular lat pulldown machine",
+            "reps": "8-12",
+            "notes": "\"Hard at 170 toward the end third set tho but did all.\""
+          }
+        ],
+        "notes": "**First move off 160 in five weeks and 170 held all three sets** — *\"lat pulls went good hard at 170 toward the end third set tho but did all.\"* The fallback to 160 was written in and went unused. **It cost something at the end of the last set, which is what a well-placed number does.** Station not named in the report; 170 is the regular machine's number (the pulley option was 75/side)."
+      },
+      {
+        "id": "face-pull",
+        "sets": [
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20
+          },
+          {
+            "weight": "62.5",
+            "reps": 20,
+            "notes": "\"Went hard but ok did all.\""
+          }
+        ],
+        "notes": "*\"Face pulls went hard but ok did all.\"* Fifth week at 62.5. It bit in W27 and W28, went easy in W29, and bites again here — on a well-slept day this time, which removes the tired-day explanation the earlier two had."
+      },
+      {
+        "id": "high-cable-bicep-curl",
+        "sets": [
+          {
+            "weight": "220",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "230",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "240",
+            "equipment": "cable column",
+            "reps": "10-12 each side"
+          },
+          {
+            "weight": "250",
+            "equipment": "cable column",
+            "reps": "10-12 each side",
+            "notes": "New top rung, held."
+          }
+        ],
+        "notes": "**Missing from the first report, confirmed on follow-up: the full ladder ran.** *\"High cable curl did all went fine; forgot to write.\"* **220 → 230 → 240 → 250 on the cable column, and the new top rung held in its first week.** Second week running that this lift goes unmentioned and turns out to have been done in full — it is the quietest lift in the day. **The left arm that is \"struggle sauce\" on a 25lb incline curl runs 250 here without comment**, which is the same position-not-strength contrast as W28."
+      }
+    ],
+    "rawInput": "w30d4 pull\n\npull ups super crackly both shoulders\nfirst set did slowly 6 crackly so came down\ndid shoulder shrug on 50s felt better\nsecond set did slow 6 better form and less crackle, easier to pack down this time\n3rd did another 7 slow felt better\n\ncurls \nset higher notch and didn’t lock out at end\nleft side is interesting i feel the strain even more this way? definitely not a “real” pain but i think this isolates whatever is going on / its only hard / “painful” under tension and hard to keep fully engaged - did 10 first set tho; right side has zero problems and feels like warmup while left side is struggle sauce \nlater sets went much better and did all sets all counts both sides\n\ndb rows went ok\nleft side died at 9th on set 3\nright side great on all\n\nlat pulls went good hard at 170 toward the end third set tho but did all\n\nface pulls went hard but ok did all"
+  }
+]

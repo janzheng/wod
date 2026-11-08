@@ -1,0 +1,414 @@
+[
+ {
+  "day": 1,
+  "workoutId": "fb-w19-push",
+  "date": "2026-06-29",
+  "rawInput": "w19d1\n\npush press\nvery easy with the break, did all sets at the weight\n\nlat raise with break\nalso easy and did all sets\n\nincline db press\nalso easy with breaks lol but sis wrong\n50x10 \n50x10\n50x17 did to 10 instead of 12 on last set did to breaking which was 17! resting helps, can go up in reps or weight from here if i'm supposed to rest this long lol\n\nThe cable column stuff did all one side first since one of the carabiners were missing lol, same weights\n\nEverything else pretty much did well, warmed up a lot and took a lot of breaks which made this workout feel extremely easy even with extra weights",
+  "notes": "W19 push — both open spotlight experiments resolved clean. Push press 'very easy with the break, did all sets at the weight' (the full 2 min rest landed — the W18 set-3 cap reads as under-rest). Incline DB confirmed the step to 50: rode 50 all three sets (not the 50/45/45 fallback), 10/10 then a last set to failure of 17 — big headroom, 'can go up in reps or weight from here if I'm supposed to rest this long.' Lat raise 15 'also easy, did all sets.' Whole session 'felt extremely easy even with extra weights' on lots of warmup + long rests. Cable block was done one-arm-all-sets (a carabiner was missing), same weights.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "push-press",
+    "context": "🔆 W19 spotlight — ran first. This week took the FULL 2 min rest (the experiment), vs W18's ~1 min.",
+    "sets": [
+     { "weight": "45lb each", "reps": "8-10", "notes": "All sets at the weight — 'very easy with the break.'" }
+    ],
+    "notes": "45/side, all sets done at weight, 'very easy with the break.' This resolves the half-confirmed W18 question: the full 2 min rest made push press easy across all sets, so the W18 set-3 cap at 8 was under-rest, not a load ceiling at 45. The rest was the lever. Per the W18 plan, a clean push press across full rest means a small nudge is now earned IF the user pulls it — but the unlock here was rest, so it's an option for W20, not a push."
+   },
+   {
+    "id": "lateral-raise",
+    "context": "🔆 W19 spotlight. Held the prescribed 15, with the longer rest.",
+    "sets": [
+     { "weight": "15lb", "reps": "15-18", "notes": "'Also easy and did all sets.'" }
+    ],
+    "notes": "15lb, all sets, 'also easy' — continues the floor-rising read (W18 was 'wasn't too bad actually'). Hold 15, slow eccentric; the long rest is keeping the sets clean."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "context": "Step-to-50 test this week — ran 50 on set 1, full ~2 min rest.",
+    "sets": [
+     { "weight": "50lb pair", "reps": 10 },
+     { "weight": "50lb pair", "reps": 10 },
+     { "weight": "50lb pair", "reps": 17, "notes": "Last set taken to failure ('breaking') — 17 reps." }
+    ],
+    "notes": "The 50-step landed clean — rode 50 for all three sets (not the 50/45/45 fallback), 'also easy with breaks.' Reps reset to 10 on the first two (as the prescription predicted: ~8-10, not 12), then the last set to failure was 17. Big headroom: 'resting helps, can go up in reps or weight from here.' 50 is the new working pair on incline DB. Let the reps build toward a clean 12 across before the next nudge; the long rest is doing real work here."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "context": "Cable block — done one arm at a time, all sets per side, because a carabiner was missing. Same weight as prescribed (equipment not specified this session).",
+    "sets": [
+     { "reps": 12, "notes": "Same weight as prescribed; one-arm-all-sets fallback." }
+    ],
+    "notes": "Folded into the cable block. A carabiner was missing, so he ran all sets on one side before switching — a fine availability fallback. Same weights; specific equipment/number not narrated this session."
+   },
+   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "context": "Cable block — one-arm-all-sets (missing carabiner). Same weight as prescribed (equipment not specified).",
+    "sets": [
+     { "reps": "10-12", "notes": "Same weight; one-arm-all-sets fallback." }
+    ],
+    "notes": "Done in the cable block, same weight as prescribed. Equipment/number not restated this session."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "context": "Cable block — one-arm-all-sets (missing carabiner). Same weight as prescribed (equipment not specified).",
+    "sets": [
+     { "reps": 12, "notes": "Same weight; one-arm-all-sets fallback." }
+    ],
+    "notes": "Done in the cable block, same weight as prescribed. Equipment/number not restated this session."
+   },
+   {
+    "id": "dip",
+    "context": "Held as prescribed (not separately narrated — folded into 'everything else pretty much did well').",
+    "sets": [
+     { "weight": "bodyweight", "reps": "not restated", "notes": "Done — 'did well.'" }
+    ],
+    "notes": "Folded into 'everything else pretty much did well' with the long rests making the whole session feel extremely easy. No shoulder complaint flagged. Specific reps not narrated."
+   },
+   {
+    "id": "kinesis-cable-fly",
+    "equipment": "Kinesis",
+    "context": "Held as prescribed (not separately narrated).",
+    "sets": [
+     { "weight": "Kinesis 9 (not restated)", "reps": "10-12", "notes": "Done — 'did well.'" }
+    ],
+    "notes": "Folded into 'everything else did well.' Held the prescribed Kinesis 9 (step-forward-to-deepen progression available); not separately narrated."
+   },
+   {
+    "id": "farmer-carry",
+    "context": "Held as prescribed (not separately narrated).",
+    "sets": [
+     { "weight": "50lb (not restated)", "duration": 50, "notes": "Done — 'did well.'" }
+    ],
+    "notes": "Folded into 'everything else did well.' Held the prescribed 50lb walks; grip stays the honest limiter, no straps. Not separately narrated."
+   }
+  ],
+  "shoulderStatus": "No complaint, and the front-delt-loaded lifts cleared easily — incline DB at the new 50 was 'easy with breaks' (last set to failure of 17), push press 'very easy.' Continues the strong W18 trend ('weakness, not pain'). The taper + rest discipline are paying off: the same shoulder that was a pain problem is now clearing a load step with headroom.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Push press rest question RESOLVED — the full 2 min rest was the fix.** With the real 2 min between sets, push press at 45 was 'very easy, did all sets at the weight.' So the W18 set-3 cap (8, not 10) was under-rest, not a load ceiling at 45. Keep the full rest on the heavy overhead lift. Per the W18 plan, a clean push press across full rest means a small nudge (47.5/50) is now *earned* — but the unlock was rest, not a strength wall, so offer it as a W20 option IF the user pulls it; don't push.",
+   "**Incline DB 50-step CONFIRMED clean with big headroom.** He rode 50 for all three sets (not the 50/45/45 fallback), reps reset to 10/10 exactly as predicted, and the last set to failure was 17 — 'can go up in reps or weight from here.' 50 is the new working pair. Let the reps build toward a clean 12 across all sets before the next load nudge; the rep headroom is the runway. User's pulling it (floor rising), so a further step is earned when 50 is a clean ~12 across.",
+   "**The headline: long rest + lots of warmup = the whole session 'felt extremely easy even with extra weights.'** This echoes W18's 'feels easier / more in the tank' — and now it held even WITH the incline step to 50. The rest discipline is the unlock; the 'easier' feeling is the floor rising plus the rest fix landing, NOT too-low weights. Validates the W19 rest-as-the-experiment design. Don't read 'easy' as a cue to load up across the board (fuzzy progression).",
+   "**Affirm the long rest is the design, not cheating.** User's aside: 'if I'm supposed to rest this long lol.' Yes — the longer rest is exactly the point of the spotlight; it's what lets him express strength and keep clean form (and it's why the incline step landed). The rest is a deliberate lever, not a loophole.",
+   "**Cable block equipment quirk:** a carabiner was missing, so he ran all sets on one arm before switching. Fine availability fallback (same weights). Just an equipment note for the station, not a change."
+  ]
+ },
+ {
+  "day": 2,
+  "workoutId": "fb-w19-kb-full",
+  "date": "2026-06-30",
+  "rawInput": "w19d2\n\nweird interface glitch \n\nsuper leggy but here for it!!\n\nstrict press overhead did 50lbs 5/6/7 each side with a break and it felt easy lol - might do 50 lb 8 / 8 / 8 next time - watching shoulders for this but its been fine, with all the warm ups\n\nEverything else went great\n\nAlso added the 50 lb figure eights I LOVE practicing this\n\nOh I did 35 for swing swap hand thing but then last set went up to 50 and that was pretty easy too",
+  "notes": "W19 KB Tuesday (Leggy Flow week) — light and rising, 'super leggy but here for it.' Strict overhead press jumped: ran 50 for ALL three sets (5/6/7 reps each side) with a break and 'it felt easy,' vs the prescribed 40/45/50 ascending and W18's 50x5 'felt hard' top set — same rest-discipline unlock as the push day landing on the KB press. Layered in the heavy figure-8 himself ('50 lb figure eights I LOVE practicing this') — Tuesday is the right day for the heavy one, three days clear of Friday legs. Hand-to-hand swing (the new fun layer) landed: did the real release/catch at 35 for most sets, last set up to 50 'pretty easy too.' Everything else (Leggy Flow, loaded cossack spotlight) folded into 'everything else went great.' Also flagged a 'weird interface glitch' — app/site note, not the training.",
+  "cardio": "KB day — not the standard Arrilaga run-to-gym session; cardio not separately narrated.",
+  "exercises": [
+   {
+    "id": "kettlebell-overhead-press",
+    "context": "Strength anchor. Prescribed 40/45/50 ascending; he ran 50 straight across all three sets, reps ascending, with a break between.",
+    "sets": [
+     { "weight": "50lb", "reps": "5 each side" },
+     { "weight": "50lb", "reps": "6 each side" },
+     { "weight": "50lb", "reps": "7 each side", "notes": "'Felt easy' — with a break between sets." }
+    ],
+    "notes": "50 across all three sets (5/6/7 each side), 'felt easy' with a rest between — a clear step past W18's 50x5-was-hard top set. Held 50 rather than the ascending 40/45/50, and it landed easy. Same rest-as-the-lever read as the W19 push day: the break makes the honest strength show. 'Might do 50x8/8/8 next time' — that's earned IF he pulls it (fuzzy progression). Watching the right shoulder on the overhead: 'been fine, with all the warm ups' (bottoms-up prep + banded prep doing their job)."
+   },
+   {
+    "id": "kettlebell-figure-8",
+    "context": "Layered in himself — not on the W19 Tuesday menu (figure-8 rotated to Thursday last week; W19 Tuesday's fun layer is the hand-to-hand swing). Done at the 50lb gym ceiling.",
+    "sets": [
+     { "weight": "50lb", "reps": "not counted", "notes": "'I LOVE practicing this.'" }
+    ],
+    "notes": "Heavy figure-8 at 50 — user-loved hand-eye keeper he folds in whenever. And Tuesday is exactly the right day for the heavy (50) one: it's a core/lumbar load (the W18 QL caution), but three days clear of Friday legs, so no pre-legs QL carryover. This is where the heavy figure-8 belongs, not Thursday."
+   },
+   {
+    "id": "kettlebell-hand-to-hand-swing",
+    "context": "The new W19 fun layer ('swing swap hand thing'). Prescribed 25-30lb light; he ran heavier and did the actual release/catch (didn't sub plain swings).",
+    "sets": [
+     { "weight": "35lb", "reps": "10-12", "notes": "Most sets." },
+     { "weight": "50lb", "reps": "10-12", "notes": "Last set — 'pretty easy too.'" }
+    ],
+    "notes": "The hand-to-hand swing landed on the first outing — he did the real release-and-catch (not the plain-swing sub), 35 for most sets then 50 on the last 'pretty easy too.' The new coordination layer is already dialed; keep it in the carousel. Hip-driven, eyes on the bell, soft catch."
+   },
+   {
+    "id": "cossack-squat",
+    "context": "🔆 W19 spotlight (returning favorite, off the KB days since W15). Not separately narrated — folded into 'everything else went great.'",
+    "sets": [
+     { "weight": "25-30lb (not restated)", "reps": "6 each side", "notes": "Done — folded into 'everything else went great.'" }
+    ],
+    "notes": "Loaded cossack back as the spotlight; not separately narrated (part of 'everything else went great'), so no depth read to record this session. Kept light for depth as prescribed. Watch for a specific ROM note next KB Tuesday it comes up."
+   }
+  ],
+  "shoulderStatus": "No complaint — and the strict overhead press at 50 across all three sets 'felt easy' with 'watching shoulders… been fine, with all the warm ups.' The overhead chain is clearing well; the bottoms-up + banded prep before pressing is doing its job. Continues the strong W18/W19 trend.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**KB strict overhead press floor rose again — 50 across all three sets (5/6/7), 'felt easy' with a break.** Past W18's 50x5-was-hard top. Same rest-discipline read as the push day (the break lets the honest strength show). 'Might do 50x8/8/8 next time' is earned IF he pulls it — W20 the strict block can run 50 straight across, chase reps toward 8. Don't push it; let him pull it. Right-shoulder watch stays, but it's 'been fine with all the warm ups.'",
+   "**Heavy figure-8 @50 is a Tuesday move — this is the right slot for it.** He layered it in himself (loves it). Tuesday is three days clear of Friday legs, so the heavy figure-8's core/lumbar load (the W18 QL caution) has no pre-legs carryover here. Keep the heavy one on Tuesday; keep it OFF Thursday if a future week needs legs fresh.",
+   "**Hand-to-hand swing (the new fun layer) landed clean on the first try** — did the real release/catch, not the plain-swing sub, 35 for most then 50 easy. Coordination's already there; keep it in the KB carousel, moderate bell is fine.",
+   "**'Weird interface glitch' flagged** — an app/site note, not training. Ask him what he saw if it recurs (possibly the generator rendering the flow reference); nothing to act on from one passing mention."
+  ]
+ },
+ {
+  "day": 3,
+  "workoutId": "fb-w19-pull",
+  "date": "2026-07-01",
+  "rawInput": "w19d3\n\npull ups\n6/6/8/6\n\nslow eccentrics grip is not holding lol but back is fine? grip hard today for some odd reason but zero shoulder problem so trending up!\n\nheavy rows\nwent well did all sets, left hand did all sets but grip giving out at end; right did all sets at 99 with more strength and grip left\n\nchest db row\n45x12\n45x12\n45x12\ncould go slower, good working weight\n\nincline supported curls \n25x10\n25x10 left arm is crazy weak today lol needed support already\n\nreverse fly\ndid all sets but so so so hard today lol is this because of kb day yesterday no idea back feels sore for no reason \n\nlat pull down\n150x12\n150x12 getting struggley\n150x10 lost good form at 10\n\nface pulls felt good at this weight did all sets\n\nhigh cable bicep curl \nsingle pulley 62.5\nreally friggin hard barely finished second set but did all\n\ncable crunch at 67.5 (not 66.5) for three sets super hard at the end",
+  "notes": "W19 pull, the day after Tuesday KB — a grip-limited day but shoulder-clean and trending up. Pull-ups back on the STRAIGHT BAR with slow eccentrics: 6/6/8/6 — down from W18's swivel-grip 8/8/8/8, but the user pinned it on grip ('grip hard today for some odd reason'), not the shoulder ('zero shoulder problem so trending up'). Grip was the theme across the pulls: heavy DB row all sets done but left-hand grip gave out at the end (right stronger, grip to spare, reported up to 99lb). Lat pulldown spotlight 150 still grinds — 12/12/10-with-form-loss, nearly identical to W18, so 150 hasn't cleaned up yet (honest ceiling). Face pull spotlight 50 settled in ('felt good at this weight, did all sets' vs W18's 'hard even with good form'). Chest-supported row 45x12 x3 clean ('could go slower'). Two soft flags the user raised himself: reverse fly 'so so so hard today' + back 'sore for no reason' — he wondered if it was KB-day-yesterday carryover; and left arm 'crazy weak today' on incline curl. NEW equipment scale: high cable curl on the 'single pulley' reads 62.5 and was brutal — a different station than the cable-column 180.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "pull-up",
+    "context": "🔆 Adjacent to spotlight rotation — back on the STRAIGHT BAR this week (off W18's swivel grip). Slow eccentrics.",
+    "sets": [
+     { "weight": "bodyweight", "reps": 6, "equipment": "straight bar" },
+     { "weight": "bodyweight", "reps": 6, "equipment": "straight bar" },
+     { "weight": "bodyweight", "reps": 8, "equipment": "straight bar" },
+     { "weight": "bodyweight", "reps": 6, "equipment": "straight bar", "notes": "'Grip is not holding but back is fine.'" }
+    ],
+    "notes": "6/6/8/6 on the straight bar with slow eccentrics — grip was the limiter ('grip is not holding… grip hard today for some odd reason'), NOT the back or shoulder ('back is fine… zero shoulder problem so trending up'). Lower rep count than W18's 8/8/8/8, but that was the swivel grip (easier on the bicep) with less eccentric emphasis; the straight bar + slow eccentric is the harder, more-lat variant. The read is shoulder-positive: honest grip/strength cap, no shoulder complaint. Frequency over max effort as prescribed — banked clean reps."
+   },
+   {
+    "id": "dumbbell-row",
+    "context": "'Heavy rows' — the 70/80/90 ascending DB pyramid (chest-supported, single-arm, grip-limited, left hand taps first). All sets done; the top/heavy end reported at 99lb.",
+    "sets": [
+     { "weight": "up to 99lb (top set, as reported)", "reps": "all sets done", "notes": "Left hand did all sets but grip gave out at the end; right hand did all sets with more strength and grip left." }
+    ],
+    "notes": "All sets done. Grip is the honest limiter and it's asymmetric — the left hand taps out first (matches the standing pattern), the right had more strength and grip to spare, topping the heavy sets around 99lb. Consistent with W18's '90x6 could go up in reps' — the floor keeps rising on the row and grip (not the back) is the ceiling. No straps; set the DB down when grip gives. Reps not counted this session."
+   },
+   {
+    "id": "chest-supported-dumbbell-row",
+    "context": "Held 45 (the W18 working weight). 'Chest db row.'",
+    "sets": [
+     { "weight": "45lb", "reps": 12 },
+     { "weight": "45lb", "reps": 12 },
+     { "weight": "45lb", "reps": 12, "notes": "'Could go slower, good working weight.'" }
+    ],
+    "notes": "45x12 x3 clean — 45 is dialed as the working weight. Self-cue: 'could go slower' — add the slower eccentric next time rather than chasing the number. Chest stayed on the pad."
+   },
+   {
+    "id": "incline-curl",
+    "context": "Incline-DB version, 25lb, left-first protocol. Only 2 sets narrated.",
+    "sets": [
+     { "weight": "25lb", "reps": 10 },
+     { "weight": "25lb", "reps": 10, "notes": "'Left arm is crazy weak today — needed support already.'" }
+    ],
+    "notes": "25x10, 25x10 — left arm 'crazy weak today, needed support already,' more pronounced than the usual lagging-left. Possibly the same KB-Tuesday-yesterday arm/grip fatigue he flagged elsewhere (don't over-read one session). Keep the left-first protocol as insurance. Third set not narrated."
+   },
+   {
+    "id": "dumbbell-reverse-fly",
+    "context": "Held 20 as prescribed. Notably harder than usual today.",
+    "sets": [
+     { "weight": "20lb", "reps": 12, "notes": "'So so so hard today.'" },
+     { "weight": "20lb", "reps": 12 },
+     { "weight": "20lb", "reps": 12, "notes": "All sets done." }
+    ],
+    "notes": "Did all sets at 20 but 'so so so hard today' — and the upper back felt 'sore for no reason.' The user WONDERED aloud if it was KB-day-yesterday carryover (not a conclusion). Plausible: Tuesday KB was rear-delt/upper-back- and grip-heavy (figure-8 @50, hand-to-hand swings @35-50, strict press @50), and pull falls the very next day. Worth watching as a possible pattern; hold 20, it's still the honest working number."
+   },
+   {
+    "id": "lat-pulldown",
+    "equipment": "regular lat pulldown machine (back-left)",
+    "context": "🔆 W19 spotlight. Held 150 on the regular machine (the W18 step-up number). Reflection: does 150 clean up, or still grind on set 3?",
+    "sets": [
+     { "weight": "150", "equipment": "regular lat pulldown machine (back-left)", "reps": 12 },
+     { "weight": "150", "equipment": "regular lat pulldown machine (back-left)", "reps": 12, "notes": "'Getting struggley.'" },
+     { "weight": "150", "equipment": "regular lat pulldown machine (back-left)", "reps": 10, "notes": "'Lost good form at 10.'" }
+    ],
+    "notes": "150x12, 150x12 (getting struggly), 150x10 (lost form at 10) — nearly identical to W18 (12/12/~10, finished ugly). Spotlight answer: 150 has NOT cleaned up yet — sets 1-2 clean, set 3 still breaks around 10. It's the honest new ceiling; hold 150 and keep drilling the controlled return + wide grip, it'll settle over more weeks. Don't step up. Grip + back the cap, no straps."
+   },
+   {
+    "id": "face-pull",
+    "equipment": "cable column",
+    "context": "🔆 W19 spotlight. Held 50 (the W18 step-up number). Reflection: do the elbows stay high for all 3 sets at 50?",
+    "sets": [
+     { "weight": "50", "equipment": "cable column", "reps": 20 },
+     { "weight": "50", "equipment": "cable column", "reps": 20 },
+     { "weight": "50", "equipment": "cable column", "reps": 20, "notes": "'Felt good at this weight.'" }
+    ],
+    "notes": "'Felt good at this weight, did all sets' — 50 settled in, a clear improvement over W18's 'hard at 50 even with good form.' The knuckles-up / elbows-high cue is holding at 50. Spotlight worked; bank 50 as the clean working number."
+   },
+   {
+    "id": "high-cable-bicep-curl",
+    "equipment": "single pulley",
+    "context": "NEW equipment variant/scale this session — 'single pulley' at 62.5, not the cable-column 180 (W18). Single arm, left first.",
+    "sets": [
+     { "weight": "62.5", "equipment": "single pulley", "reps": "10-12", "notes": "Really hard." },
+     { "weight": "62.5", "equipment": "single pulley", "reps": "10-12", "notes": "'Barely finished second set but did all.'" }
+    ],
+    "notes": "'Single pulley 62.5 — really friggin hard, barely finished second set but did all.' A different station/scale than the cable-column 180 he'd been on (W18), and much harder than the W19 prescription's rough 'pulley ~120' estimate. Record 62.5 as the single-pulley number and add it to the Equipment Calibration Table; next week list the single-pulley figure explicitly so it isn't a surprise. Left arm first as always."
+   },
+   {
+    "id": "cable-crunch",
+    "equipment": "cable pulley (rope)",
+    "context": "Read the stack correctly this time (accounting for the magnetic add-ons) — 67.5, not the 66.5 he might have assumed.",
+    "sets": [
+     { "weight": "67.5", "equipment": "cable pulley (rope)", "reps": "12-15" },
+     { "weight": "67.5", "equipment": "cable pulley (rope)", "reps": "12-15" },
+     { "weight": "67.5", "equipment": "cable pulley (rope)", "reps": "12-15", "notes": "'Super hard at the end.'" }
+    ],
+    "notes": "67.5 x3, 'super hard at the end.' He explicitly read the stack ('67.5, not 66.5') — the W18 magnetic-add-on lesson landed, he's checking the actual number now. 67.5 sits between comfortable (66.5) and the brutal ceiling (70.5), which matches 'super hard at the end.' Hips stayed locked. Honest hard number."
+   }
+  ],
+  "shoulderStatus": "Zero shoulder problem — the user called it out directly ('zero shoulder problem so trending up'). Pull-ups were grip-limited, not shoulder-limited; the heavy row, lat pulldown, and face pull all cleared with the shoulder quiet. Continues the strong W18/W19 trend — grip is the honest cap on the pulls now, the shoulder is a non-issue.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Grip was the broad limiter across all the pulls today, and the shoulder was clean.** Pull-ups 'grip is not holding,' heavy row left-hand grip gave out at the end, and 'grip hard today for some odd reason' — but 'zero shoulder problem so trending up.' This is exactly the 'grip is the ceiling on pulling, not the shoulder' watchpoint playing out. No straps — the grip IS the training.",
+   "**Possible KB-Tuesday → Pull-Wednesday fatigue — WATCH, don't conclude.** The user wondered aloud if the harder-than-usual reverse fly ('so so so hard today') + back 'sore for no reason' + odd grip difficulty was carryover from Tuesday's KB day (which was rear-delt/upper-back- and grip-heavy: figure-8 @50, hand-to-hand swings @35-50, strict press @50). Pull falls the very next day. This is a plausible pattern but ONE data point + his own speculation — not a finding. If it recurs, consider whether the KB-Tue/Pull-Wed adjacency needs a day of spacing or lighter KB grip work before pull.",
+   "**Lat pulldown spotlight — 150 has NOT cleaned up yet.** 150x12, 150x12 (struggly), 150x10 (form lost at 10) — nearly identical to W18. Set 3 still breaks around 10 at 150; it's the honest new ceiling. Hold 150, keep drilling the controlled return; it'll settle over more weeks. Do NOT step up.",
+   "**Face pull spotlight WORKED — 50 settled in.** 'Felt good at this weight, did all sets' vs W18's 'hard at 50 even with good form.' The knuckles-up / elbows-high cue is holding at 50. Bank 50 as the clean working number; spotlight can rotate off.",
+   "**NEW equipment scale: high cable curl 'single pulley' = 62.5 and it's brutal.** A different station than the cable-column 180 (W18), and much harder than the prescription's rough 'pulley ~120' guess. Added to the Equipment Calibration Table. W20: list the single-pulley number (62.5) explicitly as an option so it isn't a surprise.",
+   "**Cable crunch — he's reading the stack now.** '67.5, not 66.5' — the W18 magnetic-add-on lesson landed; he's checking the actual number. 67.5 x3, 'super hard at the end' (between comfortable 66.5 and ceiling 70.5). Keep the 'read the stack' reminder in the prescription; it's working.",
+   "**Chest-supported row 45 is dialed** — 45x12 x3 clean, self-cue 'could go slower.' Next week cue the slower eccentric at 45 rather than a load step."
+  ]
+ },
+ {
+  "day": 4,
+  "workoutId": "fb-w19-kb-cond",
+  "date": "2026-07-02",
+  "rawInput": "W19d4\n\nDid everything\n\nOverhead press on 50's - the notes is wrong 40/45/50 is THREE not two sets but I did three sets of 50 x 5\n\nBent press flow did 35 lbs\n\nSkill section did 35 on all \n\nBalance closer did 25 on all\n\nAlso did 25 around the worlds to close out",
+  "notes": "W19 Thursday KB — 'did everything,' clean full session. Headline: strict overhead press consolidated at 50 across ALL THREE sets (50x5 x3) — the prescribed 40/45/50 ascending is retired, 50 is now the flat working weight (matches the W19D1 push read that 50 'felt easy'). User flagged a workout-file error: the strength block read as 2 rounds but the 40/45/50 note implied three sets — corrected the file to 3. Everything else ran a clean notch below W18's heavy Thursday: Bent Press Flow at 35 (W18 was 40), skill/mobility block (windmill + TGU + bent press) 35 across (W18 windmill+bent press were 40), balance closer 25 across (W18 single-leg RDL was 50). Closed with around-the-world @25 — the recurring fun-layer coordination keeper.",
+  "cardio": "KB day — not the standard Arrilaga run-to-gym session; cardio not separately narrated.",
+  "exercises": [
+   {
+    "id": "kettlebell-overhead-press",
+    "context": "Thursday strength block. Prescribed 40/45/50 ascending; did 50 across all three sets.",
+    "sets": [
+     { "weight": "50lb", "reps": 5 },
+     { "weight": "50lb", "reps": 5 },
+     { "weight": "50lb", "reps": 5 }
+    ],
+    "notes": "50x5 x3 straight — the ascending 40/45/50 is retired; 50 is now the flat working weight on the strict single-arm press. Consistent with W19D1 (50 'felt easy' across on the push day) and past W18's 50x5-was-hard top set. Floor consolidated at 50. W20: run 50 straight across, can start chasing reps toward 6-8 IF he pulls it (fuzzy progression — don't push)."
+   },
+   {
+    "id": "kettlebell-bent-press",
+    "context": "Appears in the Bent Press Flow (light groove) and the skill/mobility block. Prescribed 25-30 (flow) / 25 (maintenance); did the skill block at 35, flow at 35.",
+    "sets": [
+     { "weight": "35lb", "reps": "all sets" }
+    ],
+    "notes": "35 across the skill block and the Bent Press Flow — a notch under W18's 40, appropriately lighter before Friday legs. No shoulder complaint on the overhead leverage."
+   },
+   {
+    "id": "kettlebell-windmill",
+    "context": "Skill/mobility maintenance block ('skill section did 35 on all'). Prescribed 20-25; did 35.",
+    "sets": [
+     { "weight": "35lb", "reps": "all sets" }
+    ],
+    "notes": "35, down from W18's 40 — clean lighter-touch maintenance on the loaded-overhead-rotation move, cues held, no flare."
+   },
+   {
+    "id": "kettlebell-turkish-getup",
+    "context": "Skill/mobility maintenance block ('skill section did 35 on all'). Prescribed 35.",
+    "sets": [
+     { "weight": "35lb", "reps": "all sets" }
+    ],
+    "notes": "35 as prescribed. Light maintenance, done clean."
+   },
+   {
+    "id": "single-leg-rdl-kettlebell",
+    "context": "Balance closer ('balance closer did 25 on all'). Prescribed 15-20; did 25.",
+    "sets": [
+     { "weight": "25lb", "reps": "5 each (not restated)" }
+    ],
+    "notes": "25 across the balance closer — W18 ran the single-leg RDL at 50, this week a lighter 25. Balance is the point, not load; kept the legs fresh for Friday."
+   },
+   {
+    "id": "kettlebell-around-the-world",
+    "context": "Fun-layer coordination move, self-added to close out. Not on the day's menu.",
+    "sets": [
+     { "weight": "25lb", "reps": "not counted" }
+    ],
+    "notes": "Around-the-world @25 to close — the recurring light 'fun layer' coordination keeper (also @25 in W18). Free sprinkle-in; keep offering it every KB day."
+   }
+  ],
+  "shoulderStatus": "No complaint — strict press 50x5 x3 and the whole overhead-leverage skill block (windmill + TGU + bent press at 35) done clean, no flare. Continues the strong W18/W19 trend; the overhead chain is robust.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**KB strict press consolidated at 50 — 50x5 x3 flat, ascending retired.** The prescribed 40/45/50 is gone; 50 is the working weight straight across (matches W19D1 push 'felt easy'). W20 strength block: run 50x5 across all sets, chase reps toward 6-8 only if he pulls it. Let him pull it.",
+   "**Workout-file bug fixed — strength block was 2 rounds but the press wanted 3 (40/45/50).** User flagged it mid-session. Corrected fb-w19-kb-cond to 3 rounds. W20 build: strength block = 3 sets press (50 flat) + rows at 40; don't reintroduce the 2-round/3-load mismatch.",
+   "**Skill/mobility block ran 35 across (windmill + TGU + bent press), Bent Press Flow 35** — a clean notch under W18's 40 on windmill+bent press, appropriately lighter before Friday legs. 35 is a comfortable maintenance load for the overhead-leverage moves. Good self-regulation.",
+   "**Balance closer 25 across (single-leg RDL etc.); around-the-world @25 to close.** W18 ran the single-leg RDL at 50 — 25 is fine, balance is the point. Around-the-world is a recurring fun-layer keeper (25 again); keep offering it as a free KB-day sprinkle-in."
+  ]
+ },
+ {
+  "day": 5,
+  "workoutId": "fb-w19-legs",
+  "date": "2026-07-03",
+  "rawInput": "w19d5\n\nseems like lots of legs but here we go i'll probably not do so many at 80\n\nset the catcher bars at 14 which is basically max depth of squat with bar without any weight this will be a control group plus safety - basically max depth hits 14 exactly\n\n45x8 drill is to tap the catcher if i can while doing singles no bouncing but also not slow\n45x8 getting deeper, feeling better at bottom and coming up feels easy / not hitting that \"hanging\" moment\n\n70x8 feels super hard and not too deep\n70x8 rested a ton more and feels much deeper and could do these fairly controlled but still feel the hanging moment in the middle\n\n80x8 took another large break and braced these and didn't actually feel hard, didn't go all the way down like no weights but felt solid the entire time; the most solid i ever felt tbh and really stable \n\n80x8 felt really good again, solid, not as deep as i want yet but again first time so solid on 80, still working weight to push deeper; it felt like a lot of legs but the progression acts like a great warm up ramp to open my hips i think \n\nleg press\nfelt super open i guess bc of the squat\ndid all four sets\n\ncalf raises\n20 oops too many\n15 oof starting to get hard\n15 went fine\n\nincline rdl went fine, hard as always when done slowly\n\nbulgarians\n2x 50 x 10 feels fine\ndid all sets this felt hard at end\n\nleg curl\n70x12 fine\nok i upped it and didn't look and did two more sets of 15 with a long rest in between it felt easy ish; then looked and i accidentally did\n2x 100x15 i added to 90 by accident and then rotated the knob for another 10. i guess some stations are easy sometimes\n\noh this day was super hot but not that many people and didn't have a time crunch like previous two fridays so i could take my time; had a thing i had to rush for so didn't get a super deep workout since less rest",
+  "notes": "W19 legs — the squat-depth spotlight landed as a STABILITY breakthrough, not a depth one, and the leg press normalized. New self-found tool: he set the squat catcher bars at 14 = his max bodyweight-bar depth ('hits 14 exactly'), an objective depth reference + safety. Ran his own ramp — 45x8/45x8 (deep, no 'hanging' moment) → 70x8/70x8 (deeper with more rest, still a mid-range hang) → 80x8/80x8. At 80: 'didn't actually feel hard, felt solid the entire time, the most solid i ever felt, really stable' — but NOT full depth ('not as deep as i want yet, first time so solid on 80'). So the win at 80 moved from grind to rock-solid stability; depth stays the next unlock. Leg press 'felt super open i guess bc of the squat,' 4 plates x4 done clean — a total contrast to W18's 'sweating like a wet dog,' and this week Thursday was LIGHT (35s, no heavy figure-8s), so the QL wasn't pre-fatigued — confirms W18's read that the brutality was pre-fatigue, not load. Bulgarian stepped to double-50 DBs ('feels fine, hard at end,' up from 45). Leg curl went sideways: 70x12 primer fine, then he accidentally loaded 100 (meant to nudge up, added to 90 + a knob-turn) and did 100x15 x2 'easy ish' with long rest — 'some stations are easy sometimes.' Incline RDL did all 3 this week (W18 cut the last). Light crowd + no time crunch let him rest more between the big squat sets (why 70/80 went deeper), but a commitment after meant less total rest / not a super-deep session overall.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default — not separately narrated this session).",
+  "exercises": [
+   {
+    "id": "squat",
+    "context": "🔆 Spotlight (depth refresh). Set the catcher bars at 14 = his max bodyweight-bar depth ('hits 14 exactly') as a depth reference + safety. Ran his own 45→70→80 ramp; 2 working sets at 80, not the prescribed 3.",
+    "sets": [
+     { "weight": "45lb each", "reps": 8, "notes": "Drilling depth — tap the catcher if he can, controlled singles, no bounce, not slow." },
+     { "weight": "45lb each", "reps": 8, "notes": "'Getting deeper, better at the bottom, coming up feels easy — not hitting that hanging moment.'" },
+     { "weight": "70lb each", "reps": 8, "notes": "'Feels super hard and not too deep.'" },
+     { "weight": "70lb each", "reps": 8, "notes": "'Rested a ton more, feels much deeper, fairly controlled — but still feel the hanging moment in the middle.'" },
+     { "weight": "80lb each", "reps": 8, "notes": "'Braced these, didn't actually feel hard; didn't go all the way down like no weights but felt solid the entire time — the most solid i ever felt, really stable.'" },
+     { "weight": "80lb each", "reps": 8, "notes": "'Felt really good again, solid, not as deep as i want yet but first time so solid on 80, still working weight to push deeper.'" }
+    ],
+    "notes": "45x8 x2 / 70x8 x2 / 80x8 x2 off his own ramp. Spotlight reflection answer: 80 did NOT hit ~85%+ depth — depth still shortens under load (45 deep, 70 a mid-range 'hang,' 80 shallower) — but the STABILITY was the breakthrough ('the most solid i ever felt, really stable' at 80). So the win at 80 moved from grind to rock-solid; depth is the next unlock. His insight worth keeping: the ramp itself 'acts like a great warm up ramp to open my hips.' Catcher-at-14 is a good objective depth tool — keep it. Hold 80, keep chasing the bottom."
+   },
+   {
+    "id": "leg-press",
+    "context": "4 plates/side, 4x12, same-machine station. The W19 test: does it normalize with the QL NOT pre-fatigued (light Thursday) + the dead-bug primer?",
+    "sets": [
+     { "weight": "4 plates each", "reps": 12 },
+     { "weight": "4 plates each", "reps": 12 },
+     { "weight": "4 plates each", "reps": 12 },
+     { "weight": "4 plates each", "reps": 12, "notes": "'Felt super open i guess bc of the squat.'" }
+    ],
+    "notes": "4 plates, all 4 sets, 'felt super open' — a total contrast to W18's 'sweating like a wet dog.' The difference: this week's Thursday was light (35s, no heavy figure-8s @50), so the QL/core wasn't pre-fatigued — which confirms the W18 read (the brutality was pre-fatigue, not a load problem). Can't cleanly isolate the dead-bug primer vs the light Thursday vs the squat ramp (he credited the squat), but the absent Thursday pre-fatigue was almost certainly the dominant factor. Hold 4 plates."
+   },
+   {
+    "id": "leg-press-calf-raise",
+    "context": "Same machine as leg press, right after. 4 plates.",
+    "sets": [
+     { "weight": "4 plates each", "reps": 20, "notes": "'Oops too many.'" },
+     { "weight": "4 plates each", "reps": 15, "notes": "'Starting to get hard.'" },
+     { "weight": "4 plates each", "reps": 15, "notes": "'Went fine.'" }
+    ],
+    "notes": "20/15/15 (first set overshot the target 15). 4 plates, done clean on the same station as the leg press."
+   },
+   {
+    "id": "bulgarian-split-squat",
+    "equipment": "double-50 DBs (one per hand) — up from the prescribed/prior double-45",
+    "context": "Bench station. Stepped the DBs up to 50/hand (W17+W18 ran 45; Smith @45 was the prior alternate).",
+    "sets": [
+     { "weight": "50lb each hand", "reps": 10, "notes": "'Feels fine.'" },
+     { "weight": "50lb each hand", "reps": 10 },
+     { "weight": "50lb each hand", "reps": 10, "notes": "'Did all sets, this felt hard at end.'" }
+    ],
+    "notes": "Double-50 DBs, 10 each leg, all 3 sets — 'feels fine, hard at end.' A clean self-pulled step up from 45. No QL complaint. Carry 50 as the new Bulgarian DB working weight; Smith @45 stays the QL-safe alternate."
+   },
+   {
+    "id": "seated-leg-curl",
+    "context": "🔆 Spotlight (form-first at 80). The deliberate 80-working structure didn't run as designed — 70 primer, then an accidental jump to 100.",
+    "sets": [
+     { "weight": "70", "reps": 12, "notes": "Primer — 'fine.'" },
+     { "weight": "100", "reps": 15, "notes": "Accidental — meant to nudge up, 'added to 90 by accident then rotated the knob for another 10.' 'Felt easy ish' with a long rest." },
+     { "weight": "100", "reps": 15, "notes": "'Easy ish,' long rest between." }
+    ],
+    "notes": "70x12 primer fine, then he accidentally loaded 100 (not 80) and did 100x15 x2 'easy ish' with long rest — 'some stations are easy sometimes.' The form-first 80-spotlight test didn't actually happen (no deliberate 80 working set). Don't read one accidental long-rest heavy session as 'leg curl is now 100' — his own 'some stations are easy sometimes' flags possible machine/scale variance, and 'easy ish' says nothing about whether the correct feel held. W20: re-run the deliberate primer→working structure and check the FEEL, not just the number."
+   },
+   {
+    "id": "incline-rdl",
+    "context": "45lb plate, dead-slow tempo. Comes after leg curl (kept before it would stack the hamstrings). Did all 3 this week (W18 cut the last).",
+    "sets": [
+     { "weight": "45lb plate", "reps": 15, "notes": "Dead slow." },
+     { "weight": "45lb plate", "reps": 15, "notes": "Dead slow." },
+     { "weight": "45lb plate", "reps": 15, "notes": "Dead slow — 'went fine, hard as always when done slowly.'" }
+    ],
+    "notes": "All 3 sets this week (vs W18's cut last set) — 'went fine, hard as always when done slowly.' The difference from W18: no brutal leg press pre-fatigue, so the tail held. 45lb plate, tempo the lever."
+   }
+  ],
+  "qlStatus": "Clear — no QL complaint. This week's Thursday was LIGHT (35s, no heavy figure-8s @50), so unlike W18 he did NOT go into legs QL-pre-fatigued — and the leg press 'felt super open' as a result (confirming W18's pre-fatigue read). No spasm, no twitch flagged. The dead-bug primer joined the warmup; can't isolate its effect from the light-Thursday effect, but the QL thread stayed quiet.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Squat spotlight = a STABILITY breakthrough at 80, not a depth one.** Off his 45/70/80 ramp, 80x8 x2 was 'the most solid i ever felt, really stable' — but still NOT full depth ('not as deep as i want, first time so solid on 80'). So the win moved from grind → rock-solid stability; depth is the next unlock. He also set the catcher bars at 14 = his max bodyweight-bar depth ('hits 14 exactly') as an objective depth reference + safety — a keeper tool. W20: keep the ramp + the catcher-14 reference, hold 80, keep depth the lever. His read: the ramp 'acts like a great warm up ramp to open my hips.'",
+   "**Leg press normalized — 'felt super open,' 4 plates x4 clean — CONFIRMING the W18 pre-fatigue read.** W18 was 'sweating like a wet dog' going in QL-pre-fatigued from heavy figure-8s; this week Thursday was light (35s) so no pre-fatigue → leg press felt normal/open. The W18 brutality was the confound, not a load change. Hold 4 plates. (Dead-bug primer also ran; can't isolate it from the light-Thursday effect — both point the same way.)",
+   "**Bulgarian stepped to double-50 DBs — 'feels fine, hard at end,' all sets, no QL complaint.** Self-pulled up from 45. Carry 50 as the new Bulgarian DB working weight for W20; Smith @45 stays the QL-safe alternate.",
+   "**Leg curl went off-script — accidental 100x15 x2 'easy ish' (long rest); the 80-form-first spotlight didn't actually run.** Don't conclude the leg curl jumped to 100: one accidental long-rest heavy session, and his own 'some stations are easy sometimes' flags possible machine/scale variance (cf. the cable stations). 'Easy ish' says nothing about whether the correct feel held — which was the whole spotlight point. W20: re-run the deliberate primer→working structure, verify the FEEL at the load; if 100 genuinely keeps the correct feel on normal rest, let him pull it.",
+   "**Incline RDL did all 3 this week (W18 cut the last)** — the difference was no brutal leg-press pre-fatigue, so the tail held. 45lb plate, dead slow; tempo's the lever, no load change.",
+   "**Rest let the depth/strength show again** — light crowd + no time crunch meant more rest between the big squat sets, which is exactly when 70 and 80 went 'much deeper' and 'solid.' Same theme as the KB press: the break lets the honest work show. But a commitment after meant less total rest / 'not a super deep workout' overall — and he opened with 'seems like lots of legs.' The legs day runs long; he already self-trims (2x80 not 3). If it keeps feeling like a lot, W20 can trim a set rather than fragment the ramp."
+  ]
+ }
+]

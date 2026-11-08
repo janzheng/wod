@@ -1,0 +1,249 @@
+{
+  "id": "fb-w30-legs",
+  "name": "Week 30 Legs — Heels Up at 45, Flat at 80, RDL Drops to 45",
+  "description": "**The heel plates move down to the warmup, where they can actually teach something.** Elevated at 80 turned into a different exercise rather than a deeper one, so this week the plates go under the 45 ramp — learn the position where depth is free, then bring it to the working weight later. **All three sets at 80 run flat.**\n\n**The barbell RDL drops to 45/side, by your call.** At 70 the set ended when the grip gave out; at 45 it ends when the hinge does, which is the limiter worth training while the movement is still new. **The full form walkthrough is in the notes.**\n\n**Kneeling leg curl holds 65** with one new cue. **Hip abduction goes to 250.** Leg press, calf raise and adduction hold.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "legs",
+    "gym",
+    "strength",
+    "functional-bulk",
+    "week-30"
+  ],
+  "estimatedDuration": 60,
+  "equipment": [
+    "barbell",
+    "machine",
+    "cable",
+    "bodyweight",
+    "resistance-band"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Two deliberate steps back that are both steps forward: the heel plates move to a weight where they can teach the position, and the RDL drops to a weight where form is the limiter instead of grip. Everything else holds, and the leg press gets the spotlight for the depth it has quietly been gaining.",
+    "spotlights": [
+      {
+        "exerciseId": "barbell-romanian-deadlift",
+        "why": "Dropping to 45 was your call and it is the right one — the set now ends on the hinge rather than the hands. Full setup-to-finish walkthrough this week, because a lighter bar is when form is worth installing."
+      },
+      {
+        "exerciseId": "leg-press",
+        "why": "Depth has been improving quietly for weeks — knees to chest on every set now, including the first. Worth checking whether that holds when nothing about it is new."
+      }
+    ],
+    "rotationPlan": "W31 — spotlight moves to the kneeling leg curl and the hip machines. W32 — Bulgarian split squat and the Nordic curl return when the week stops being short (both are big DOMS producers, which is exactly why they stay out of compressed weeks).",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: squat, barbell RDL, leg press, kneeling leg curl, hip abduction, hip adduction. Effort means the cue holding at a hard load; the ceiling is the rep the cue breaks.",
+      "🔥 near-failure last set OK: leg press calf raise. Isolation work where form holds at the limit.",
+      "**Never judge the squat on set 1.** Set 2 has been stronger and deeper three weeks running. Set 1 is information, not a verdict.",
+      "**The heel plates are at 45 now, not 80.** Learn the deep position where the load is not in the way, then take it up. Heels-up at 80 comes back when the 45 version is boring.",
+      "**Stance is settled — do not test it.** The current wide V beats feet-forward and beats going wider. That question is closed.",
+      "**RDL is double-overhand at 45.** No flipped hand, no straps. At this weight the hamstrings should end the set — if the grip is still what stops you, say so, because that changes the read.",
+      "**Kneeling leg curl: only the lower leg moves.** When the front of the working hip joins in to finish the rep, that rep was the last one."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Legs Warmup — Ankle First, Then the Heel-Elevated Ramp",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The ankle work leads because the ankle is the confirmed limiter. **The ramp round is where the heel plates live this week** — five paused reps at 45 with the heels up is the whole heel-elevation project for now.",
+      "exercises": [
+        {
+          "id": "tibialis-raise",
+          "reps": "15-20",
+          "notes": "Slow up, slow down — feel the shin."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10-15 each side",
+          "notes": "Toe to wall, knee bent, heel glued down. **No measurement this week** — the baseline is banked at right 1.5 fists, left 1 fist, and the re-measure is about a month out."
+        },
+        {
+          "id": "banded-ankle-eversion",
+          "reps": "15-20",
+          "notes": "Light band, eversion only — slow and controlled. The left one is the point."
+        },
+        {
+          "id": "single-leg-balance",
+          "duration": "30s each side",
+          "notes": "Eyes open, hands on hips. Let the ankle do the correcting."
+        },
+        {
+          "id": "bodyweight-squat",
+          "reps": "10-15",
+          "notes": "Your usual stance — the wide V, no experiments. Heels down, chest up, knees out. Note where depth stops today."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Small to large, warm the joint."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "**The brace, woken deliberately.** It is half the answer to the depth question — bring it online before the bar."
+        },
+        {
+          "id": "squat",
+          "reps": "5, then 5",
+          "notes": "**LOAD:** 45/side, two rounds.\n\n**Round 1 — flat, 5 reps, 2-3s pause in the bottom.** The standard you already set.\n\n**Round 2 — 5lb plate under each heel, 5 reps, 2-3s pause.** This is the new slot for the heel elevation.\n- **Go as deep as the position now allows** — with the heels up there should be more room, and the point is to use it\n- **Stay upright and let the knees travel forward** — that is what the elevation buys, and it is why it feels like the front of the thighs\n- **Hold the brace through the pause**, ribs down\n- Compare it to round 1 honestly: deeper, or just different?"
+        }
+      ]
+    },
+    {
+      "id": "squat",
+      "name": "Squat — 80/side, All Three Flat 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 80/side, 3 working sets of 6-8. **All flat — the plates stay in the warmup this week.**\n\n- **Set 1 is information, not a verdict.** It has read shallow three weeks running and set 2 has been better every time\n- **Belt-tight brace** — ribs down, glutes and core braced, shoulders packed down\n- **Depth is the descent** — find where power falls off in the hole and work into it, not past it\n- **The pelvis tucking under is the floor.** Stop just above where it starts; that edge is what moves over months\n- 80 has read \"like what 45s were before\" two weeks running. That is the floor rising, and it needs nothing done to it",
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "6-8",
+          "notes": "**LOAD:** 80/side, 3 sets, all flat.\n- Usual wide V stance, no experiments\n- Belt-tight brace, ribs down, shoulders packed down\n- Depth is the job, not the load\n- Stop just above where the pelvis starts to tuck"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "rdl",
+      "name": "🔆 Barbell RDL — 45/side, Form Reset 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 45/side on the bar, 3 sets of 8-10. **Straight after the squat — the bar is already there.**\n\n**🔆 SPOTLIGHT — the full walkthrough you asked for. Lighter bar, so the attention goes on the movement.**\n\n**Setup:**\n- **Start standing.** Take the bar out of the hooks at about mid-thigh — do not deadlift it off the floor to begin\n- **Double-overhand, both palms facing you, thumbs wrapped around the bar.** No mixed grip, no straps\n- **The bar sits low in the hand, in the finger crease**, not up in the palm — high in the palm is what rolls open when the grip tires\n- **Squeeze the bar hard before you unrack it** and keep squeezing\n\n**The movement:**\n- **Set a soft knee bend once, at the start, and do not change it.** Bending more as you descend turns it into a squat\n- **Push the hips BACK, like closing a car door with your backside.** The bar goes down because the hips went back, not because you bent forward\n- **The bar brushes the thighs the whole way down** — if it drifts away from your legs, your back is taking the load\n- **Shoulders packed DOWN**, lats squeezing the bar into the legs, chest proud, neutral neck\n- **Stop where the hamstrings stop you** — the moment you feel the stretch run out, that is the bottom. Going lower only comes from rounding the back\n- **Stand up by driving the hips forward**, and **stop at straight.** No leaning back at the top\n\n**Tempo:** 3 seconds down, no pause needed, smooth up.\n\n**Common faults:** squatting it down · the bar drifting off the thighs · rounding at the bottom to chase depth · hyperextending at the top.\n\n**Reflection:** at 45, what ends the set — the hamstrings, or still the grip?",
+      "exercises": [
+        {
+          "id": "barbell-romanian-deadlift",
+          "reps": "8-10",
+          "notes": "**LOAD:** 45/side on the bar.\n- **Unrack standing from mid-thigh hooks**\n- **Double-overhand, bar low in the fingers, squeeze before you lift**\n- **Soft knees set once**, hips back like closing a car door\n- **Bar brushes the thighs**, lats holding it in\n- **3s eccentric**, stop where the hamstrings stop\n- Stand to straight and stop — no lean back"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "leg-curl",
+      "name": "Kneeling Leg Curl — 65, Only the Lower Leg Moves 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 65, 3 sets of 10-12 each side. **Left side first, and the left sets the rep count.**\n\n**The new cue: only the lower leg moves.** The side sensation low near the hip is the hip flexor joining in to finish the curl when the hamstring runs out — so the hips hiking or twisting is the rep ending, not a brace exercise.\n\n- Same load both sides; match the right to the left's clean reps\n- **Hips stay flat and square** — the moment the working hip lifts or rotates, that rep was the last one\n- Slow eccentric — that is the stimulus\n- **Log both sides separately**",
+      "exercises": [
+        {
+          "id": "kneeling-leg-curl",
+          "reps": "10-12 each side",
+          "notes": "**LOAD:** 65.\n- **Left side first**\n- **Only the lower leg moves** — hips flat and square\n- Slow eccentric\n- When the front of the hip joins in, the set is done\n- Log both sides separately"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "leg-press",
+      "name": "🔆 Leg Press — 4 Plates/Side, Knees to Chest 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "**LOAD:** 4 plates/side, 4 sets of 12.\n\n**🔆 SPOTLIGHT — the quiet one.** Depth has improved here for weeks without anything being done to it: knees to chest on every set now, first set included, and the last set keeps opening up further. Nothing changes this week — the question is whether that holds when it is not new.\n\n- **Deep ROM — work depth, not weight**\n- **Ribs down, no leaning back**\n- **The end-range stretch deep in the hips is the position, not a problem** — the spine is unloaded here, which is why this is a safe place to live at end range\n- **Do not read this depth as permission at 80 on the bar** — they are different problems\n- Set 1 has stopped being the bad set. Notice whether that is still true\n\n**Reflection:** did the first set arrive deep again, and did the last set still open up further than the rest?",
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 4 plates/side, 4 sets.\n- **Deep ROM** — depth, not weight\n- Ribs down, no leaning back\n- Knees to chest is the standard\n- Slow into the bottom, no bouncing out of it"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "calf-raise",
+      "name": "Leg Press Calf Raise — 4 Plates/Side 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 4 plates/side, 3 sets of 15. **Same machine — stay where you are.**\n\n- Balls of the feet on the bottom platform edge, heels off\n- **Full controlled heel drop** — the slow stretch is the stimulus\n- Press through the forefoot to a full contraction\n- Knees stay soft and still\n- Last set can run near failure",
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": 15,
+          "notes": "**LOAD:** 4 plates/side.\n- Full controlled heel drop\n- Press through the forefoot\n- Knees soft and still"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "hip-abduction",
+      "name": "Hip Abduction Machine — 250 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD:** 250, 2 sets of 12-15. You found this one yourself last week and it read easy.\n\n- **Tempo is the only lever** — slow out, slow back, no bouncing off the stack\n- **If set 1 at 250 is still easy at that tempo, take the next pin on set 2** and log which one\n- Torso quiet — no rocking to start the rep",
+      "exercises": [
+        {
+          "id": "hip-abduction-machine",
+          "reps": "12-15",
+          "notes": "**LOAD:** 250.\n- **Tempo is the only lever**\n- Slow out, slow back, torso quiet\n- Next pin on set 2 if the tempo holds — log which"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "hip-adduction",
+      "name": "Hip Adduction Machine — 300 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD:** 300, 2 sets of 12-15.\n\n- **Tempo is the only lever**\n- Slow release out to a full stretch — the adductors are the tissue that capped the wide-stance test, so the stretch end matters here\n- Torso still, no rocking",
+      "exercises": [
+        {
+          "id": "hip-adductor-machine",
+          "reps": "12-15",
+          "notes": "**LOAD:** 300.\n- **Tempo is the only lever**\n- Slow release to a full stretch\n- Torso still"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing. End here."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Heel plates are in the warmup at 45 this week, not under the working sets.",
+    "RDL is 45/side. Read the walkthrough before the first set — that is what the lighter bar is for.",
+    "Leg curl: only the lower leg moves. Hips flat and square.",
+    "Abduction starts at 250; take the next pin on set 2 if the slow tempo holds.",
+    "Log the leg curl's two sides separately."
+  ]
+}

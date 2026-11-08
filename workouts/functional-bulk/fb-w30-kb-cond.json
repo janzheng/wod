@@ -1,0 +1,191 @@
+{
+  "id": "fb-w30-kb-cond",
+  "name": "Week 30 Optional KB — Kickstand Complex + Outside Snatch Flow",
+  "description": "**Optional and deliberately short.** Run it whenever a window opens after the gym work; it is not tied to a weekday and missing it does not make the week incomplete.\n\n**The kickstand 5-4-3-2 complex opens** — five rows, four step-together cleans, three strict presses, two snatches, one arm at a time, bell never set down. It covers the row and press this day used to run as a separate block, so that block is gone.\n\n**The Outside Snatch Flow closes, and it is the most overhead-heavy thing in the library.** Light bell, and the right shoulder sets the ceiling, not the pull.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "kettlebell",
+    "conditioning",
+    "flow",
+    "functional-bulk",
+    "optional",
+    "week-30"
+  ],
+  "estimatedDuration": 30,
+  "equipment": [
+    "kettlebell",
+    "resistance-band",
+    "bodyweight"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Strength first while the shoulder is fresh, skill second when it is warm. The kickstand ladder carries the loaded work, the snatch flow carries the coordination, and the separate row-and-press round is gone because the ladder already contains it. Rounds are the variable, never the bell.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-outside-snatch",
+        "why": "The one genuinely unfamiliar path in the library — the bell leaves the rack, arcs down and OUT around the hip, and rides that arc overhead without ever hiking between the legs. It only works if the rack it launches from is tight."
+      }
+    ],
+    "rotationPlan": "W31 — Dead Cluster Flow or figure-8 → tactical clean. W32 — overhead mobility complex returns as the closer.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: every snatch, the windmill, both presses in the flow, the strict press in the ladder. This is the most overhead work of any day in the program.",
+      "🔥 near-failure last set OK: KB curl — **except this week**, see below.",
+      "**⚠️ THE RIGHT SHOULDER SETS THE BELL, NOT THE PULL.** Five of the Outside Snatch Flow's nine beats put the bell overhead. **Go light — 20-25.** Pack the shoulder DOWN on every lockout, and **skip the windmill first** if anything complains. Bailing on a beat is the correct move, not a failed round.",
+      "**Rounds are the variable, not the bell.** Two rounds of the ladder per side, one round of the flow per side. A third of either only if it genuinely feels strong.",
+      "**The two presses in the snatch flow are opposites on purpose** — the thruster is fast with leg drive, the deep squat press is a full deep squat then a strict press with no leg drive. Run them the same and the flow loses its point.",
+      "**KB curl: left arm first, stop short of straight, no near-failure this week.** The left bicep tendon is irritable and the bell loads the bottom hard.",
+      "**Banded shoulder prep + protective shrug stay in the warm-up**, even on the twenty-minute version — and on this of all days."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Bottoms-Up Cuff Prep + Cossacks",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. **The figure-8 has moved into the flow itself this week**, so the warmup takes the cossack readiness screen instead.",
+      "exercises": [
+        {
+          "id": "kettlebell-halo",
+          "reps": "8 each direction",
+          "notes": "Slow, close to the head. Shoulders packed down."
+        },
+        {
+          "id": "kettlebell-bottoms-up-press",
+          "reps": "8 each side",
+          "notes": "Light bell inverted. Cuff prep and grip — and it rehearses the packed-down lockout that everything else today is about to ask for."
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Hinged slightly forward, tight fists, thumbs tucked."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "12-15",
+          "notes": "Protective activation. Down and back at the top."
+        }
+      ]
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out** — and today is the day it earns its place.\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    },
+    {
+      "id": "kickstand-complex",
+      "name": "🌀 Kickstand 5-4-3-2 Complex — the Strength Piece",
+      "type": "flow",
+      "flowId": "kb-kickstand-5432-complex",
+      "rounds": 2,
+      "notes": "**LOAD: 25 for the first round to groove the step-together timing, then 35.** Two rounds per side on a short day, ~60s between rounds.\n\n**One round = 5 rows → 4 step-together cleans → 3 strict presses → 2 snatches on one arm, then the same on the other.** The hand stays on the handle the whole way through.\n\n- **The kickstand foot is on the working-arm side**, toe down, heel up — do not let the hips open toward the bell\n- **On the clean, the back foot arrives WITH the bell.** Late foot means you muscled it; early foot means you lost the hinge\n- 🛑 **The strict press is the cap.** If the shoulder shrugs up to finish the third rep, the bell is too heavy for the press today\n- **Two clean snatches, not two survived ones.** If 35 will not snatch cleanly, the whole complex runs at 25\n\n**This replaces the row-and-press round** — it covers both, plus a hinge and a ballistic, in a quarter of the time."
+    },
+    {
+      "id": "kb-curl",
+      "name": "Left-Arm Curl Dose 🛑",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round, and the only thing left from the old strength block — the row and press live in the ladder above now.\n\nThis stays because the left arm wants **frequency**, not intensity.",
+      "exercises": [
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom this week** — the bell loads that end position harder than a dumbbell does, and that end position is what the left tendon dislikes\n- Shoulder packed down, no shrug to start\n\n**No near-failure this week.** Calm load, full control."
+        }
+      ]
+    },
+    {
+      "id": "outside-snatch-flow",
+      "name": "🌀 Outside Snatch Flow — the Skill Piece, Light",
+      "type": "flow",
+      "flowId": "kb-outside-snatch-flow",
+      "rounds": 1,
+      "notes": "**LIGHT bell — 20-25. One round per side is the prescription on a short day**; a second only if the first felt genuinely easy.\n\n**This is the most overhead-loaded flow in the library** — five of nine beats put the bell above your head — so the load ceiling is whatever your weakest overhead position can hold, not what you can pull.\n\n🔆 **The one thing to understand before you start: the outside snatch does not hike between the legs.** Coming out of the transverse lunge you stand and settle the bell into a tight rack, elbow pinned to the ribs — and from there it drops down and **OUT around the working hip** on a pendulum arc and rides that arc overhead. **A loose or wide rack leaves the arc nowhere to start**, so the rack is the move, not the snatch.\n\n🛑 **The shoulder rules:** pack it DOWN on every lockout, keep the ribs down, and **skip the windmill entirely if the right shoulder says anything.** Bailing on a beat is the right call, not a failed round."
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Shoulder + Hip + QL Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Overhead-heavy day — the shoulders come first for once.\n\n**Tired-day version:** 30s each.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height. Earned today."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress after all that lockout work."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "butterfly-stretch",
+          "duration": 45,
+          "notes": "Adductors — the lunges and lateral work earned this."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 45,
+          "notes": "30s each side. Let the QL downshift after the hinge work."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Rounds are the variable, never the bell — especially on the snatch flow.",
+    "The kickstand ladder replaces the old row-and-press round. Don't add that block back.",
+    "The outside snatch comes from a tight rack and arcs around the hip — it never hikes between the legs.",
+    "Skip the windmill first if the right shoulder complains. That's the designed exit.",
+    "Missing this day entirely does not make the week incomplete."
+  ]
+}

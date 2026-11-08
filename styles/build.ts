@@ -27,19 +27,31 @@ const CONFIG = {
 async function buildStyles() {
   console.log(`\n🔄 Building ${CONFIG.APP_NAME} styles...\n`);
 
-  // Step 1: Copy the design system
+  // Step 1: Refresh the design system from the external source.
+  // If that source is absent (building on a machine without the design repo
+  // checked out), fall back to the committed ./design-system copy instead of
+  // deleting it and failing.
   console.log("📁 Step 1: Copying design system...");
   try {
-    try {
-      await Deno.remove(CONFIG.DESIGN_SYSTEM_DEST, { recursive: true });
-    } catch {
-      // Folder doesn't exist, that's fine
+    const sourceExists = await Deno.stat(CONFIG.DESIGN_SYSTEM_SOURCE).then(() => true).catch(() => false);
+    if (sourceExists) {
+      try {
+        await Deno.remove(CONFIG.DESIGN_SYSTEM_DEST, { recursive: true });
+      } catch {
+        // Folder doesn't exist, that's fine
+      }
+      await copy(CONFIG.DESIGN_SYSTEM_SOURCE, CONFIG.DESIGN_SYSTEM_DEST, { overwrite: true });
+      console.log(`   ✅ Copied design system → ${CONFIG.DESIGN_SYSTEM_DEST}`);
+    } else {
+      const destExists = await Deno.stat(CONFIG.DESIGN_SYSTEM_DEST).then(() => true).catch(() => false);
+      if (!destExists) {
+        console.error(`   ❌ Design system source not found and no committed copy at ${CONFIG.DESIGN_SYSTEM_DEST}`);
+        Deno.exit(1);
+      }
+      console.warn(`   ⚠️ Design system source not found (${CONFIG.DESIGN_SYSTEM_SOURCE}); using committed ${CONFIG.DESIGN_SYSTEM_DEST}`);
     }
-
-    await copy(CONFIG.DESIGN_SYSTEM_SOURCE, CONFIG.DESIGN_SYSTEM_DEST, { overwrite: true });
-    console.log(`   ✅ Copied design system → ${CONFIG.DESIGN_SYSTEM_DEST}`);
   } catch (error) {
-    console.error(`   ❌ Error copying design system:`, error);
+    console.error(`   ❌ Error preparing design system:`, error);
     Deno.exit(1);
   }
 

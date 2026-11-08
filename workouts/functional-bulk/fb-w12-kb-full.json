@@ -1,0 +1,173 @@
+{
+  "id": "fb-w12-kb-full",
+  "name": "Week 12 KB Full Body — Asgooch Overhead Mobility Flow (Spotlight: Cossack + Windmill)",
+  "description": "Rotation week — B-stance flow steps out, **kb-overhead-mobility-complex** (@Asgooch — 5 moves, single bell: Row → Snatch → OH Lunge → OH Squat → Push Press) steps in as the new Block 1 flow. Genuinely fresh — never integrated into the program before. The overhead-mobility theme pairs naturally with the W12 windmill spotlight (overhead bell + lateral hinge family). Bent press is rested this week (got its full spotlight W10 + light groove W11; the new flow already loads overhead pressing in 4 of 5 moves). C&P ramps per W11 (45 if grooved, NO 50 yet). TGU keeps the W11D2 '2 forward + 2 reverse per side' pattern.",
+  "routineId": "functional-bulk",
+  "tags": ["kettlebell", "skill-work", "mobility", "form-first", "light", "spotlight-rotation", "overhead"],
+  "estimatedDuration": 45,
+  "equipment": ["kettlebell", "mini-band", "rope-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Fresh flow week. Block 1 becomes the @Asgooch overhead mobility complex (Row → Snatch → OH Lunge → OH Squat → Push Press). Spotlights stay on cossack + windmill mobility per the rotation plan — both pair with the overhead-mobility theme of the new flow. Bent press rested this week.",
+    "spotlights": [
+      {
+        "exerciseId": "cossack-squat",
+        "why": "W10D2 'slow-and-deep produces a hard stop at end-range, range is the work.' W11 held 25lb x 8 each side x 2 rounds. W12 drills the depth pattern — heels stay down, full external rotation on the working leg. The cue is **range, not load**."
+      },
+      {
+        "exerciseId": "kettlebell-windmill",
+        "why": "Shares the overhead-stability pattern with the new Block 1 flow (snatch + OH lunge + OH squat all hold the bell overhead). W12 transfers windmill cues into a session that already loads overhead — drill the lateral hinge with a shoulder that's already grooved from the flow. **Hip flexor of the back leg is where the stretch lives, NOT the lower back.**"
+      }
+    ],
+    "rotationPlan": "W11 swing mechanics + bent press leverage · W12 windmill + cossack mobility (current) · W13 cycle back to C&P + TGU · W14 dead clean flow gets a turn if Asgooch flow is too overhead-heavy.",
+    "watchpoints": [
+      "**NEW flow — @Asgooch overhead mobility complex.** Single bell, 5 rounds each side, all reps on one side before switching. **Start at 20-25lb** (Asgooch used 24kg ≈ 52lb; that's the W13+ target if W12 is grooved). Right shoulder still has the crackle pattern — drop weight or skip the OH squat depth if it talks.",
+      "**Overhead squat is the hardest move in the flow** — if mobility limits, REDUCE DEPTH instead of the load. Bell stays stacked over shoulder, no arching.",
+      "**Bent press rested this week** — got its full spotlight W10 + light groove W11. The new flow already loads overhead pressing in 4 of 5 moves; pulling bent press keeps shoulder volume reasonable.",
+      "**TGU pattern from W11D2:** 2 forward + 2 reverse per side. Keep this — it's a skill addition, not a volume bump.",
+      "**C&P ramp from W11:** start 45 (W11 'everything went great' suggests 45 was hit). NO 50 yet — that's W13+ territory.",
+      "**Right shoulder watch through ALL overhead work** — the new flow stacks 4 overhead moves consecutively. If the shoulder talks during the snatch or OH lunge, drop the weight or modify (front-rack lunge instead of OH lunge)."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "**LOAD:** 15-20lb. Big slow circles — open up the shoulders before loading overhead 4 different ways." },
+        { "id": "kettlebell-overhead-press", "reps": "3 each side", "notes": "**LOAD:** 20lb. Light, test the overhead position. If anything cracks/twinges, do extra band warmup before loading the flow." },
+        { "id": "kettlebell-goblet-squat", "reps": 5, "notes": "**LOAD:** 25lb. Open hips. Sit in the bottom for a beat." }
+      ],
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "duration": 20, "notes": "Mini-band OR blue rope band held in hands (W10D2 alt — both work)." },
+        { "id": "seated-banded-behind-neck-pulldown", "duration": 20, "notes": "Elbows drive to ribs, scaps depress." },
+        { "id": "seated-banded-t-raise", "duration": 20 },
+        { "id": "seated-banded-chest-pull-apart", "duration": 20 },
+        { "id": "seated-banded-reverse-fly", "duration": 20, "notes": "Don't overarch the lower back to chase range." },
+        { "id": "seated-banded-diagonal-reach", "duration": 30, "notes": "15s each side. Primes the lateral hinge for windmill spotlight." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 20, "notes": "Both arms in V/Y, hold and breathe. Lower traps fire — directly preps the OH lunge / OH squat overhead lockout in the flow." }
+      ],
+      "notes": "1 round of all 7 banded moves (~3 min). Sustained tension. The overhead-V hold is today's direct prime for the new flow's overhead loading.",
+      "restBetween": 0,
+      "restAfter": 30
+    },
+    {
+      "id": "flow-block-left",
+      "name": "🆕 Block 1: Asgooch Overhead Mobility Complex — LEFT SIDE",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 5, "notes": "**LOAD:** 20-25lb (start at 25 if it's smooth, drop to 20 if the right shoulder warmup felt off). Left hand. Controlled pull, full extension. Hips hinged, back flat." },
+        { "id": "kettlebell-swing-snatch", "reps": 5, "notes": "Left hand. **Hips drive the bell**, NOT the arm. Bell goes straight overhead — punch through at the top, no looping. **Smooth catch overhead** sets up the next 3 moves." },
+        { "id": "kettlebell-overhead-lunge", "reps": 5, "notes": "Left hand overhead. **Lock the elbow, bell over shoulder, torso TALL.** Step back into reverse lunge OR forward (your call). Drive through the front HEEL on the way up. **If the right shoulder talks, modify to front-rack lunge** — drop the bell to the rack on this move only and continue the flow." },
+        { "id": "kettlebell-overhead-squat", "reps": 5, "notes": "Left hand overhead. **Hardest move in the flow.** Full depth IF mobility allows; **reduce depth before reducing load** if shoulder mobility limits. Bell stays stacked over shoulder, core braced, no lower-back arching. If overhead squat is unsafe today, **swap to front-squat-with-bell-in-rack** — keep moving through the flow." },
+        { "id": "kettlebell-push-press", "reps": 5, "notes": "Left hand. **Dip and drive** — legs do the work, arm just guides. After the OH squat hold, the press feels easier. Smooth descent back to rack. **End of one round on left.**" }
+      ],
+      "notes": "**5 rounds LEFT side, all moves continuous, no rest within a round.** Bell stays in the working hand for the entire round. Rest 30-45s between rounds (within left side) if breathing dictates. **Weak side first** — left gets the freshest reps.\n\n**Reflection:** does the OH squat on round 5 left feel like round 1, or has the depth shrunk? If shrunk, that's the actual working depth — drill there, don't cheat it.",
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "flow-block-right",
+      "name": "🆕 Block 1 (continued): Asgooch Overhead Mobility Complex — RIGHT SIDE",
+      "type": "exercises",
+      "rounds": 5,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": 5, "notes": "Right hand. Same flow — controlled pull, full extension." },
+        { "id": "kettlebell-swing-snatch", "reps": 5, "notes": "Right hand. Hips drive, punch through at top." },
+        { "id": "kettlebell-overhead-lunge", "reps": 5, "notes": "Right hand overhead. **W10D1 right shoulder watchpoint** — this is where the crackle most likely shows up. Modify to front-rack lunge if needed." },
+        { "id": "kettlebell-overhead-squat", "reps": 5, "notes": "Right hand overhead. Same depth/load discipline as left side. Reduce depth before load." },
+        { "id": "kettlebell-push-press", "reps": 5, "notes": "Right hand. Finish strong. **End of full complex.**" }
+      ],
+      "notes": "**5 rounds RIGHT side after left is done.** Same rest pattern. Total flow volume: 50 reps each side (5 moves x 5 reps x 2 sides x 5 rounds = 250 reps total).\n\n**Reflection:** does the right side overhead lunge feel different from left, given the W10D1 right-shoulder pattern? If right is sketchy and left is solid, that's the asymmetry to track — log both sides explicitly today.",
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "skill-block",
+      "name": "🔆 Block 2: Cossack + Windmill (Mobility Spotlights — bent press rested this week)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "cossack-squat",
+          "reps": "8 each side",
+          "notes": "**LOAD:** 25lb goblet (HOLD — W11 + W10D2 both confirmed 25 is the sweet spot, range is the work).\n\n**🔆 SPOTLIGHT — drill the depth every rep:**\n- Sit DEEP, heels stay down\n- Working leg in full external rotation\n- Slow descent, hard stop at end-range — that's the work, NOT failure\n- Heel popping up = drop to 20 or shorten stance\n- Mobility, not strength\n\n**Reflection:** at rep 8, is the depth where it was at rep 1? If shrunk, that's the actual working range."
+        },
+        {
+          "id": "kettlebell-windmill",
+          "reps": "5 each side",
+          "notes": "**LOAD:** 25lb (HOLD — W10D2 + W11 'felt good' at 25).\n\n**🔆 SPOTLIGHT — drill the lateral hinge pattern with an already-grooved overhead shoulder:**\n- Bell locked overhead, eye tracks bell throughout\n- **Hip hinge AWAY from bell side** — push the bell-side hip out sideways\n- Reach free hand toward inside of front foot\n- **Stretch lives in the hip flexor of the back leg, NOT the lower back.** If lower back is loading, hinge isn't deep enough — push the hip further sideways.\n- Long spine throughout — no compression\n\n**Reflection:** the new Block 1 flow already loaded the overhead position 4 different ways — does the windmill feel more grooved as a result, or is the shoulder fatigued? If fatigued, drop windmill to 18-20lb and keep the cue clean."
+        }
+      ],
+      "restBetween": 30,
+      "restAfter": 60
+    },
+    {
+      "id": "tgu-block",
+      "name": "Block 3: TGU (W11D2 Pattern: 2 Forward + 2 Reverse per Side)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-turkish-getup",
+          "reps": "2 forward + 2 reverse per side",
+          "notes": "**LOAD:** 30 (light — the new Block 1 flow already loaded the shoulder hard; don't push to 40 today). Pick by how the clean grooves in round 1.\n\n**Pattern (W11D2 carry-forward):**\n- 2 reps standard direction (lying → standing)\n- THEN 2 reps reverse direction (standing → lying)\n- Per side. **Left side first** (weak side first protocol).\n\n- Pause at every checkpoint: lying → elbow → hand → hip bridge → leg sweep → lunge → stand → reverse\n- **Eyes ON the bell** every checkpoint\n- **'Focus on the clean itself'** (W10D2 unlock) — the setup IS the work."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cp-block",
+      "name": "Block 4: C&P (Ramp 45 — W11 Hit the 40→45 Projection)",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "kettlebell-clean-and-press",
+          "reps": "5 each",
+          "notes": "**LOAD:** **45 start** (W11 prescription was 40 start with 45 if grooved; W11D2 'everything went great'). NO 50 yet — W13+ territory.\n\n- **Catch the clean with knees slightly bent** (W3 cue, durable)\n- **Hips drive the clean**, NOT the arm\n- Press: ribs DOWN (W8 trigger), bicep finishes by the ear, full lockout\n- Lower with control — no slam\n\n**Symmetry check:** if left at 45 feels rougher than right at 40, drop left to 40. Quality wins."
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "kettlebell-row", "reps": "8 each", "notes": "**LOAD:** 25lb. Light row, 2s pull / 2s lower. Skip if shoulders are cooked from the new flow." },
+        { "id": "pigeon-pose", "duration": 60, "notes": "60s each side. Hip flexor release." },
+        { "id": "butterfly-stretch", "duration": 60, "notes": "60s. Adductors get tight on KB days from cossacks + lateral lunges (cossack carries forward, lateral lunge is no longer in Block 1 since the new flow doesn't use it)." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Block 1 swap:** dead-clean-press flow → @Asgooch overhead mobility complex (5 moves, single bell, 5 rounds each side). Genuinely fresh — never integrated before.",
+    "**The new flow stacks 4 overhead moves** (snatch, OH lunge, OH squat, push press) — start LIGHT (20-25lb), Asgooch's 24kg/52lb is W13+ territory.",
+    "**Modification options if right shoulder talks:** OH lunge → front-rack lunge; OH squat → front squat with bell in rack. Keep the flow moving, don't grind.",
+    "**Overhead squat is the hardest move** — reduce DEPTH before reducing load if mobility limits.",
+    "**Spotlights stay: cossack + windmill mobility.** Both at 25lb. Range is the work, not load.",
+    "**Bent press rested this week** — got full spotlight W10 + light groove W11; the new flow already loads overhead pressing 4 different ways.",
+    "**TGU pattern from W11D2:** 2 forward + 2 reverse per side at 30lb (light — flow loaded the shoulder already).",
+    "**C&P ramp:** start 45 (W11 hit the 40→45 projection). NO 50 yet.",
+    "**Weak side first** on the new flow AND on TGU — left gets freshest reps every round.",
+    "Cooldown mandatory — pigeon + butterfly. Hips and adductors get tight."
+  ],
+  "formPhilosophy": "Fresh flow week with the @Asgooch overhead mobility complex. The flow's overhead-mobility theme pairs with the windmill spotlight (overhead bell + lateral hinge). The cue is still the progression — start light, find the working load, modify before grinding."
+}

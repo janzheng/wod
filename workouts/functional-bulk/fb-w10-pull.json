@@ -1,0 +1,161 @@
+{
+  "id": "fb-w10-pull",
+  "name": "Week 10 Pull — Form-First Return (Spotlight: Pull-up + DB Row)",
+  "description": "Form-first cycle, weights pulled back ~10-15% from W8 highs. **Spotlight lifts:** pull-up (drill the active-hang start + elbows-down-to-ribs cue) and DB row (drill the chest-supported torso lock + elbow-to-hip line). Everything else holds. Pyramid sets stay (DB row), but the heaviest set comes off — it's about clean reps, not chasing 85.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "pull", "upper-body", "back", "biceps", "ppl", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 50,
+  "equipment": ["dumbbell", "cable", "machine", "pull-up-bar", "band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Form-first return from W9 deload. Pull-up pattern + row pattern get drilled. Modern 2026 cues over chasing reps.",
+    "spotlights": [
+      {
+        "exerciseId": "pull-up",
+        "why": "W7 hit 32 with mixed grips, but cumulative fatigue made later sets sloppy. W10 lock in the active-hang start position + elbows-down-to-ribs pull pattern so every rep is structurally honest, not just a chin-over."
+      },
+      {
+        "exerciseId": "dumbbell-row",
+        "why": "W7 hit 80x10 clean on bench. Drill the chest-supported torso lock (no rotation cheating) + elbow-to-hip pull line. The 80 stays as top set — no 85 push this week, the cue is the progression."
+      }
+    ],
+    "rotationPlan": "W10 pull-up + DB row · W11 chest-supported row + lat pulldown · W12 face pull + reverse fly · W13 preacher curl + high cable curl + cable crunch. ~4 weeks per cycle, then refresh.",
+    "watchpoints": [
+      "Grip fatigue limiting lat pulldown more than back strength (W3 onward) — straps are an option if it persists",
+      "Wider grip on lat pulldown reduces bicep involvement — keep flexible, wide on heavy pull-up days",
+      "Reverse fly: seated bent-over is the default form (W3 discovery), not standing"
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        {
+          "id": "band-pull-apart",
+          "reps": 15,
+          "notes": "Scap activation. Squeeze the shoulder blades together at the back, soft elbow."
+        },
+        {
+          "id": "cat-cow",
+          "reps": 10,
+          "notes": "Spine warm — slow, full ROM each direction."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "**Active hang, not collapsed** — engage the lats, pull the shoulders down away from the ears even at full extension. This is the position the pull-up starts from."
+        }
+      ],
+      "restBetween": 0,
+      "restAfter": 60
+    },
+    {
+      "id": "pullup-station",
+      "name": "Pull-ups",
+      "type": "exercises",
+      "rounds": 4,
+      "exercises": [
+        {
+          "id": "pull-up",
+          "reps": "6-8",
+          "notes": "**LOAD:** Bodyweight. Vary grips across sets — climber handles, wide, normal.\n\n**🔆 SPOTLIGHT — drill these every set:**\n- **Start from an ACTIVE hang** — at full extension, lats engaged, shoulders pulled DOWN away from ears. Not a dead/collapsed hang. The active hang IS the start position.\n- **Pull elbows DOWN to the ribs**, NOT chin to bar. The chin clearing is a marker; the work is the lat squeeze.\n- **Chest leads to bar** at the top — drive the chest forward, mid-back squeezed, no neck craning.\n- **Eyes ahead, head neutral** — no chin tucking, no head pumping. The neck is along for the ride.\n- **Slow eccentric**, ~2-3 seconds down, return to active hang (not collapsed).\n- **No kipping.** If you can't get a clean rep, the set ends — better to do 6 strict than 8 with kip.\n\n**Reflection:** which grip felt the most honest today? That's a clue about which lat angle is strongest right now."
+        }
+      ],
+      "restBetween": 150,
+      "restAfter": 90
+    },
+    {
+      "id": "station-1",
+      "name": "Station 1: Preacher Curl + DB Row",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "preacher-curl",
+          "reps": "8-10",
+          "notes": "**LOAD:** 12.5/side (back from W8's 15/side). Sharp cues only — spotlight is W13.\n- **Armpit pressed firmly into the pad** — not just resting. Back of upper arm flat against the pad.\n- Full stretch at the bottom — don't lose tension by curling short\n- Curl toward face, not chest\n- 3s eccentric — fight the long-head stretch on the way down\n\n**Swap:** if preacher is taken, incline curl at 25 (W7+ backup, proven solid — `incline-curl`, NOT concentration curl; user has never done concentration variation)."
+        },
+        {
+          "id": "dumbbell-row",
+          "reps": "8-10",
+          "notes": "**LOAD:** Pyramid 60x10, 70x10, 80x8 (no 85 this week — cleanest 80 you can do is the goal).\n\n**🔆 SPOTLIGHT — drill these every set:**\n- **Chest-supported on the incline bench** — chest fully on the bench, no arching, head neutral. The bench eliminates torque cheating.\n- **Pull elbow toward HIP, not toward armpit** — toward armpit = rear delt; toward hip = lat.\n- **Don't rotate the torso** — both shoulder blades stay parallel to the floor at all times. Rotation = unilateral lat torque, fakes the weight.\n- **Slow 2s descent**, brief 1s squeeze at the top\n- **Don't slam the DB at the bottom** — control the stretch, that's where the lat lengthens\n- Head stays neutral throughout — no looking up to help heave\n\n**Reflection:** does the elbow-to-hip line feel different from rowing-toward-armpit? You should feel mid-back instead of rear delt."
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "station-2",
+      "name": "Station 2: Chest Supported Row + Lat Pulldown",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "chest-supported-dumbbell-row",
+          "reps": 10,
+          "notes": "**LOAD:** 35lb (back from W8's 40-45). Hold week — spotlight is W11.\n- Chest stays glued to the bench — if it lifts off, the weight is too heavy\n- Same elbow-to-hip cue as DB row\n- 1s squeeze at top, 2s eccentric"
+        },
+        {
+          "id": "lat-pulldown",
+          "reps": "8-10",
+          "notes": "**LOAD:** 145 strict (back from W8's 160). Hold week.\n- **Wide grip near the bend** — reduces bicep involvement, isolates lats\n- Slight lean back ~15°, NO further (more = becomes a row)\n- **Pull bar to upper chest** — never behind the neck (shoulder grinder)\n- Elbows down and back, \"lats to back pockets\"\n- 1s pause at the bottom, 2s return to full overhead stretch"
+        }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "station-3",
+      "name": "Station 3: Face Pull + Reverse Fly",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        {
+          "id": "face-pull",
+          "reps": 20,
+          "notes": "**LOAD:** 45 (back from W8's 50). Hold week — slow tempo is the stimulus.\n- Rope at upper-chest / face height, step back to set tension\n- **Pull rope to face, ELBOWS HIGH (above shoulders)**\n- **External rotate at the top** — knuckles point UP, like a double-biceps pose\n- 1s pause at peak contraction\n- Slow controlled return"
+        },
+        {
+          "id": "dumbbell-reverse-fly",
+          "reps": "12-15",
+          "notes": "**LOAD:** 22.5 (back from W8's 25). Hold week.\n- **Seated bent-over** — chest toward thighs (the W3 discovery, default form)\n- Soft elbow ~10-15°, fixed throughout\n- Lead with elbow, hand passive\n- Wings out and slightly UP to shoulder height\n- Slow controlled both directions, no swing"
+        }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher: High Cable Curl + Cable Crunch",
+      "type": "exercises",
+      "rounds": 2,
+      "exercises": [
+        {
+          "id": "high-cable-bicep-curl",
+          "reps": "10-12",
+          "notes": "**LOAD:** 50 (back from W8's 60). 2 sets only.\n- Stand between cables, arms out at shoulder level\n- **Upper arms parallel to floor, fixed** — if elbows drop, becomes a regular curl\n- Curl hand to ear, peak squeeze\n- Slow eccentric, no bounce at start"
+        },
+        {
+          "id": "cable-crunch",
+          "reps": "12-15",
+          "notes": "**LOAD:** 100 (back from W8's 110-120). 2 sets only.\n- Kneel under high cable, rope behind head, **HIPS LOCKED**\n- **Crunch from the abs only** — spine flexes, hips don't move. Hips moving = hip flexor work, not abs.\n- Chest toward thighs, hold the crunch 1 second\n- Slow eccentric"
+        }
+      ],
+      "restBetween": 60,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**FORM-FIRST WEEK** — every weight is intentionally below W8. The progression IS the form, not the load.",
+    "**Spotlight lifts** are pull-up + DB row — drill those cues every set. Other lifts get sharp/short cues only.",
+    "**Rotation plan:** W11 chest-supported row + lat pulldown · W12 face pull + reverse fly · W13 preacher curl + finisher work.",
+    "Pull-up: clean strict reps only. If a rep can't be clean, the set ends. Better 6 strict than 8 with kip.",
+    "DB row: pyramid stays (60/70/80) but no 85 push this week. The cleanest 80 you've ever done is the win.",
+    "Cable row is permanently gone. Chest supported row is the replacement (W7 lock-in).",
+    "Rest: 2.5 min pull-ups, 2 min stations 1-2, 90s station 3, 60s finisher."
+  ],
+  "formPhilosophy": "Form-first base-building. Modern 2026 cues, not 2010 bro-science. Active hangs > dead hangs. Elbow-to-hip > elbow-to-armpit. ROM, tempo, and joint stacking are the progressions. Building decades, not weeks."
+}

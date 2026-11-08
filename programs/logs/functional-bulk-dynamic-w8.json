@@ -87,10 +87,10 @@
         "notes": "Strict form abandoned on last ~3 reps each set. Getting the work in but not pretty."
       },
       {
-        "id": "incline-dumbbell-curl",
+        "id": "incline-curl",
         "sets": ["25 x10 on bench 5", "25 x10 on bench 6 (more straight up)", "25 x10 (hard, last couple supported)"],
         "workingWeight": 25,
-        "notes": "Incline bench concentration curls. Bench angle matters — 6 (more upright) felt different than 5. Last couple reps on set 3 needed support. Solid 3x10 at 25."
+        "notes": "Incline DB curls — back against incline bench. Bench angle matters — 6 (more upright) felt different than 5. Last couple reps on set 3 needed support. Solid 3x10 at 25."
       },
       {
         "id": "dumbbell-row",
@@ -134,7 +134,7 @@
     "day": 5,
     "workoutId": "fb-w8-legs",
     "date": "2026-04-18",
-    "notes": "W8D5 Legs — slow/tempo day. Good barbell press form work at 80 focusing on ROM. 45-plate back extensions BRUTAL when done slow — likely the main contributor to the week's deep soreness. New seated leg curl settings (5 m 0 1) feel correct — dropped to 90, built to 110. Hip adductor machine feels broken (305 didn't feel hard, arms couldn't move the stack) — ended up at 315 mostly for stretch value. Couldn't get leg press so did Smith machine single-leg Bulgarian-style (45/side) — excellent substitute, last set with more support-leg use gave much better ROM. Single-leg calf raises surprisingly easy at 45/side until adding a plate under the ball of foot. Lunges: 40s pair felt great for 2 sets, then something seized bilaterally in the hip flexor region on set 2 — finished last set bodyweight. Both hip flexors/TFL cranky, massaging helps.",
+    "notes": "W8D5 Legs — slow/tempo day. Good barbell press form work at 80 focusing on ROM. 45-plate incline RDL BRUTAL when done slow — likely the main contributor to the week's deep soreness. New seated leg curl settings (5 m 0 1) feel correct — dropped to 90, built to 110. Hip adductor machine feels broken (305 didn't feel hard, arms couldn't move the stack) — ended up at 315 mostly for stretch value. Couldn't get leg press so did Smith machine single-leg Bulgarian-style (45/side) — excellent substitute, last set with more support-leg use gave much better ROM. Single-leg calf raises surprisingly easy at 45/side until adding a plate under the ball of foot. Lunges: 40s pair felt great for 2 sets, then something seized bilaterally in the hip flexor region on set 2 — finished last set bodyweight. Both hip flexors/TFL cranky, massaging helps. **(Naming corrected W11D5: this lift was logged as 'back-extension' through W10; it's the incline RDL on the 45° bench. Exercise ID corrected here.)**",
     "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back",
     "exercises": [
       {
@@ -144,10 +144,10 @@
         "notes": "Pretty good push on all sets. ROM can still improve at 80 — KEEP the weight, work on form and tempo. Slow and controlled is the goal, not load."
       },
       {
-        "id": "back-extension",
+        "id": "incline-rdl",
         "sets": ["45 plate — dead already on set 1", "45 plate — slow/controlled, burning", "45 plate — slow/controlled, burning"],
         "workingWeight": "45 plate",
-        "notes": "First set was already dead — this is probably what's been making everything so sore all week. Two more sets slow and controlled, felt like burning. Not deathly hard during the sets but after all three: can barely walk. Slow/controlled IS the way on this. Back-ext at 45 is likely the hidden driver of the whole week's deep soreness."
+        "notes": "First set was already dead — this is probably what's been making everything so sore all week. Two more sets slow and controlled, felt like burning. Not deathly hard during the sets but after all three: can barely walk. Slow/controlled IS the way on this. Incline RDL at 45 is likely the hidden driver of the whole week's deep soreness."
       },
       {
         "id": "seated-leg-curl",

@@ -1,0 +1,129 @@
+{
+  "id": "fb-w27-kb-full",
+  "name": "Week 27 KB Friday — 🌀 Leggy Flow Returns + the Kickstand 5-4-3-2 Complex",
+  "description": "**This one is optional — take it if a window opens.** A bell and a corner is all it needs, so it fits at home, between things, in twenty-five minutes. The three gym days are the week; this is the bonus.\n\n**The Leggy Flow comes back** after sitting out the last two weeks. It is the lower-body chain with nothing overhead in it — a good pairing for a week where the shoulders did real work on Tuesday and Thursday.\n\n**The kickstand complex gets its first run.** You pulled it off a reel two weeks ago and it has been sitting unscheduled since: 5 rows → 4 step-together cleans → 3 strict presses → 2 snatches, one arm, bell never set down.\n\n**Keep it light and unhurried.** If Wednesday's Nordics left the hamstrings sore, the Leggy Flow runs at 25 and that is a complete session.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": ["kettlebell", "flow", "conditioning", "functional-bulk", "optional"],
+  "estimatedDuration": 35,
+  "equipment": ["kettlebell", "resistance-band"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Written short and written optional. The week is already complete after Thursday — this is the session that relocates, so it goes wherever a window appears rather than sitting on the calendar as something owed.\n\nTwo flows, both chosen to stay off the shoulders. The Leggy Flow has been absent for two weeks and has no overhead position in it at all. The kickstand complex is new to the program and short enough to be the whole session on its own if time runs out — fourteen reps a side and it fits in a corner.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-kickstand-step-together-clean",
+        "why": "The one genuinely unfamiliar movement in the complex. The step-together timing is what makes it work and it needs a light round to groove before the working bell."
+      }
+    ],
+    "rotationPlan": "W28 — Bent Press Flow returns with the Brutal Complex. W29 — Dead Cluster Flow. W30 — B-Stance or Outside Snatch Flow.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: KB strict press, snatch, all the cleans. Overhead and ballistic work where the cue breaking is the ceiling.",
+      "🔥 near-failure last set OK: KB curl, KB row. Neither is a lift to chase here anyway.",
+      "**The snatch caps the bell in the kickstand complex.** If the two snatches at the end are not clean, the whole complex drops a bell — the press is not the limiter, the snatch is.",
+      "**Sore hamstrings from Wednesday are expected.** The Nordic curl came back this week and it is eccentric-only work. If the Leggy Flow's lunges feel rough, run the whole thing at 25 — the flow is the point, not the load.",
+      "**Banded shoulder prep is a KB-day anchor.** It does not get skipped, even on a twenty-five minute version of this session."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Cossacks + Around-the-Body (Light Bell)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The cossacks double as an early-warning system — how they feel tells you what kind of session this is going to be, and that read has been more reliable than sleep quality.",
+      "exercises": [
+        { "id": "kettlebell-around-body-pass", "reps": "10 each direction", "notes": "Light bell, 25. Hand-eye coordination primer — and a favourite, so enjoy it." },
+        { "id": "kettlebell-halo", "reps": "8 each direction", "notes": "Close to the head, elbows leading. Opens the shoulders without loading them." },
+        { "id": "cossack-squat", "reps": "6 each side", "notes": "**Your readiness screen.** Deep as the hips allow, heel down. How these feel decides the bell for the day." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Deep core before the bell gets heavy." },
+        { "id": "behind-back-dumbbell-shrug", "reps": "12-15", "notes": "**Protective activation.** Use a bell in each hand if no DBs are around. Straight up, squeeze, slow release." }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "1 round of all 7 banded moves, about 3 minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out** — it is a large part of why the right shoulder has stayed quiet through a heavy block.",
+      "exercises": [
+        { "id": "seated-banded-overhead-pull-apart", "reps": 12, "notes": "Arms overhead, pull the band apart without letting the ribs flare." },
+        { "id": "seated-banded-behind-neck-pulldown", "reps": 12, "notes": "Slow, controlled. Blades down and together." },
+        { "id": "seated-banded-t-raise", "reps": 12, "notes": "Thumbs up, arms to a T. Traps stay quiet." },
+        { "id": "seated-banded-chest-pull-apart", "reps": 12, "notes": "At chest height, squeeze the blades." },
+        { "id": "seated-banded-reverse-fly", "reps": 12, "notes": "Rear delts. Lead with the elbows." },
+        { "id": "seated-banded-diagonal-reach", "reps": "10 each side", "notes": "Diagonal pattern, full reach." },
+        { "id": "seated-banded-overhead-v-hold", "duration": 30, "notes": "Hold the V overhead. Ribs down, shoulders packed." }
+      ],
+      "restBetween": 0,
+      "restAfter": 45
+    },
+    {
+      "id": "leggy-flow",
+      "type": "flow",
+      "flowId": "kb-leggy-flow",
+      "name": "🌀 Leggy Flow — Returns After Two Weeks Off",
+      "rounds": 3,
+      "notes": "**Single bell, 25-35lb. 3 rounds each side.**\n\nBack after sitting out the last two weeks. This is the lower-body chain — nothing goes overhead in it, which is deliberate this week after pressing on Tuesday and pulling on Thursday.\n\n- **Run round 1 at 25** to find the transitions again, then take 35 if it flows\n- **If Wednesday's Nordics left the hamstrings sore, stay at 25 for all three.** The flow is the point\n- **The chain should feel continuous** — the bell keeps moving between beats rather than resetting between exercises\n- **Keep the chest tall through the lateral and curtsy lunges.** The knee tracks over the toe, and depth is whatever lets that stay true",
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "strength",
+      "name": "Strength — KB Row + Strict Press + Curl 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "3 rounds, run between the two flows so the demanding work is not all stacked at the end.",
+      "exercises": [
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50.** Maintenance only — real row volume lives on Thursday. 50 is easy and that is the correct end state; do not chase it.\n- Flat back, elbow past the ribs\n- Slow eccentric, full stretch at the bottom"
+        },
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50.** Strict, not push-pressed. 3 sets of 8 each side.\n- **Pack the shoulder DOWN at lockout** — blade into the back pocket, neck long\n- Ribs down, no arching to get under it\n- Own the 8s before this bell moves"
+        },
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: 25-35.** Bell in the horn grip or by the handle, whichever the wrist prefers.\n- Elbow fixed at the ribs\n- Slow return to full extension"
+        }
+      ],
+      "restBetween": 45,
+      "restAfter": 90
+    },
+    {
+      "id": "kickstand-complex",
+      "type": "flow",
+      "flowId": "kb-kickstand-5432-complex",
+      "name": "🌀 Kickstand 5-4-3-2 Complex — First Run",
+      "rounds": 3,
+      "notes": "**LOAD: 25 for round 1 to groove the step-together timing, then 35.** One round = 5-4-3-2 on one arm, then the same on the other. 3 rounds total.\n\nFirst time in the program — you pulled this off a reel a fortnight ago and it has been waiting for a week with a spare slot.\n\n- **The bell stays in the hand from the first row to the last snatch.** It only touches the floor at the bottom of each row and clean, which are dead-stop reps by design\n- **🔆 The step-together clean is the unfamiliar beat.** Kickstand stance, bell from the floor, clean to the rack and step the back foot up to meet the front as the bell lands. Run round 1 light purely to find that timing\n- **The snatches cap the bell, not the presses.** If the last two snatches are not clean, drop the whole complex a bell\n- **Presses are strict** — feet together, no leg drive, pack the shoulder down at lockout\n- **If time runs out, this complex alone is a complete session.** Fourteen reps a side and it hits pull, hinge, press and ballistic",
+      "restBetween": 90,
+      "restAfter": 60
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Shoulder Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The Leggy Flow was lunge-heavy and the complex finished overhead. Give both the hips and the shoulders a beat.",
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm, elbow at MID height." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive decompression after the snatches." },
+        { "id": "pigeon-pose", "duration": 90, "notes": "45s each side. The lunges earned this." },
+        { "id": "standing-cross-leg-lateral-stretch", "duration": 60, "notes": "30s each side. QL release." }
+      ],
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "Optional by design — if the window does not open, the week is still complete.",
+    "The snatch decides the bell on the kickstand complex, not the press.",
+    "Banded shoulder prep stays even on a shortened version of this session."
+  ]
+}

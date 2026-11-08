@@ -1,0 +1,552 @@
+[
+ {
+  "day": 1,
+  "workoutId": "fb-w22-push",
+  "date": "2026-07-20",
+  "rawInput": "w22d1\n\nfeel barfy today haha\n\npush press\nwith 2 min rest in between did these fine, no problems at all, could do more in the end!\n\nincline press\nalso went well with the two kin breaks no problems 2s ecc all sets\n\nlat raises are fine; shoulder not hurting and i could prob go slower\n\ndips\nalso not bad, palms are feeling pressure but otherwise fine, doing all sets slowish but not as slow as prescribed\n\ncable fly is fine i'm stepping farther forward to create more tension so it's always pretty hard\n\nlat pulldown is immensely easier when first in the stack\n\ntri extension got much harder lmao\nlat raises were fine\nprobably good to keep these rotated across every week",
+  "notes": "The cable-block experiment answered on the first try: moving the straight-arm pulldown to FIRST at the same 120 made it 'immensely easier' — so the two prior weeks of 'insanely hard' were the dead-last slot on a fatigued shoulder, not the load. And the fatigue tax just relocated: the tri extension, now last, 'got much harder.' He drew the right conclusion himself — rotate the block order every week so no one lift always eats the tail. Felt 'barfy' walking in but the session was clean throughout; push press had headroom ('could do more in the end'), cable fly's step-forward ROM lever is working as designed. Farmer carry confirmed done on follow-up — a nothingburger. The 'barfy' feeling was tiredness plus a heat wave (not the session, not the loads).",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default).",
+  "exercises": [
+   {
+    "id": "push-press",
+    "context": "45lb DBs, full 2 min rest.",
+    "sets": [
+     {
+      "weight": "45lb each",
+      "reps": "8-10"
+     },
+     {
+      "weight": "45lb each",
+      "reps": "8-10"
+     },
+     {
+      "weight": "45lb each",
+      "reps": "8-10",
+      "notes": "'Could do more in the end.'"
+     }
+    ],
+    "notes": "'Did these fine, no problems at all, could do more in the end.' Cleaner than W21 (also 'fine') — the floor's risen. It's a 🛑 lift (compound/overhead), so headroom cashes out through the FORM lever first — slower eccentric, a pause at the sticking point, fuller lockout — not more load or an extra set. The pack-down is still the real ceiling."
+   },
+   {
+    "id": "incline-dumbbell-press",
+    "context": "50lb pair, 2 min rest, 2s eccentric applied.",
+    "sets": [
+     {
+      "weight": "50lb pair",
+      "reps": 12,
+      "notes": "2s ecc."
+     },
+     {
+      "weight": "50lb pair",
+      "reps": 12,
+      "notes": "2s ecc."
+     },
+     {
+      "weight": "50lb pair",
+      "reps": 12,
+      "notes": "2s ecc."
+     }
+    ],
+    "notes": "'Went well with the two min breaks, no problems, 2s ecc all sets.' Held 50 with a deliberate 2s eccentric on every set — that's the form lever going on voluntarily now that the rep runway at 50 is complete. No shrug/pack-down issue flagged."
+   },
+   {
+    "id": "dip",
+    "context": "Bodyweight. Prescribed 3s eccentric.",
+    "sets": [
+     {
+      "weight": "bodyweight",
+      "reps": "10-12",
+      "notes": "'Slowish but not as slow as prescribed.'"
+     },
+     {
+      "weight": "bodyweight",
+      "reps": "10-12"
+     },
+     {
+      "weight": "bodyweight",
+      "reps": "10-12",
+      "notes": "'Palms are feeling pressure but otherwise fine.'"
+     }
+    ],
+    "notes": "'Not bad, palms are feeling pressure but otherwise fine, doing all sets slowish but not as slow as prescribed.' PALM pressure is back (W20 had a sore palm, W21 had none) — it's a hand/bar-contact thing, NOT shoulder. Tempo was 'slowish' but short of the full 3s; fine, tempo is a target not a mandate."
+   },
+   {
+    "id": "lateral-raise",
+    "context": "15lb DBs (the standalone DB lateral raise block).",
+    "sets": [
+     {
+      "weight": "15lb",
+      "reps": "15-18",
+      "notes": "'Fine; shoulder not hurting and i could prob go slower.'"
+     }
+    ],
+    "notes": "'Fine, shoulder not hurting, could prob go slower.' The slower-tempo option is his to take — a form lever, not a load question. No shoulder complaint."
+   },
+   {
+    "id": "kinesis-cable-fly",
+    "equipment": "Kinesis",
+    "context": "Kinesis, step-forward ROM lever.",
+    "sets": [
+     {
+      "weight": "Kinesis 9 (not restated)",
+      "reps": "10-12",
+      "notes": "'Stepping farther forward to create more tension so it's always pretty hard.'"
+     }
+    ],
+    "notes": "'Fine, i'm stepping farther forward to create more tension so it's always pretty hard.' The step-forward IS the progression on this lift, and he's using it exactly as designed — the ROM keeps the stimulus hard without touching the stack. Model case of the form lever."
+   },
+   {
+    "id": "straight-arm-pulldown",
+    "equipment": "cable column",
+    "context": "🔆 120 on the cable column, moved to FIRST in the block this week (was dead-last in W20/W21). He called it 'lat pulldown' — there's no lat pulldown on push day, so this is the straight-arm.",
+    "sets": [
+     {
+      "weight": "120",
+      "equipment": "cable column",
+      "reps": 12,
+      "notes": "First in the block."
+     },
+     {
+      "weight": "120",
+      "equipment": "cable column",
+      "reps": 12
+     },
+     {
+      "weight": "120",
+      "equipment": "cable column",
+      "reps": 12
+     }
+    ],
+    "notes": "**THE EXPERIMENT ANSWERED — cleanly.** 'Immensely easier when first in the stack.' Same 120, fresh slot. So the two weeks of 'really hard' (W20) → 'insanely hard' (W21) were POSITION — running dead-last on a fatigued shoulder — not the load being over the ceiling. 120 was never too heavy; it stays. No drop."
+   },
+   {
+    "id": "incline-cable-overhead-tricep-extension",
+    "equipment": "cable column",
+    "context": "Kneeling, cable column 70 default. Now runs LAST in the block (straight-arm displaced it).",
+    "sets": [
+     {
+      "reps": "10-12",
+      "notes": "'Got much harder lmao.'"
+     }
+    ],
+    "notes": "'Got much harder.' The flip side of the same experiment: moving the straight-arm to first pushed the tri ext to the last slot, so the end-of-block fatigue tax landed here instead. Nothing changed about the lift or the load — only its position. This is the evidence for rotating the block order."
+   },
+   {
+    "id": "cable-lateral-raise",
+    "context": "In the cable block. Station/number not restated.",
+    "sets": [
+     {
+      "reps": 12,
+      "notes": "'Were fine.'"
+     }
+    ],
+    "notes": "'Fine.' Unaffected by the re-order — it sits in the middle either way."
+   },
+   {
+    "id": "farmer-carry",
+    "context": "🔆 Prescribed 50lb, 3 walks, 45-60s. Confirmed done on follow-up.",
+    "sets": [
+     {
+      "weight": "50lb",
+      "reps": "3 walks",
+      "notes": "'Yeah i did it, it was a nothingburger so didnt think about it.'"
+     }
+    ],
+    "notes": "Done and fine — 'a nothingburger so didnt think about it.' No hold-time this week and none needed: a nothingburger IS the read (settled, owned, unremarkable). Last week it gave 45-60s with grip getting easier; this week it was just easy. Per the rule, don't fish for a number on a lift that's a non-event — that's the spotlight having done its job. Rotate the spotlight off it."
+   }
+  ],
+  "shoulderStatus": "Good. 'Shoulder not hurting' on lat raises, explicitly. Dips produced PALM pressure, not shoulder. No shoulder complaint anywhere — including push press and dips, the most exposed lifts.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**The straight-arm pulldown experiment answered on the first run: it was POSITION, not load.** Moved to first at the same 120 = 'immensely easier.' The W20 'really hard' and W21 'insanely hard' were the dead-last slot on a fatigued shoulder. **120 stays — no drop.** This is a clean win for the isolate-before-you-adjust method: don't move a number on a hunch, change the one untested variable and let it answer.",
+   "**The fatigue tax relocated rather than disappeared — tri extension 'got much harder' now that it runs last.** Confirms the difficulty was never lift-specific; it's whatever sits at the end of the block.",
+   "**USER DIRECTIVE: rotate the cable-block ORDER every week.** 'Probably good to keep these rotated across every week.' So no single lift eats the end-of-block fatigue tax two weeks running. Bake into rotation discipline — this is a cheap, high-value rotation that costs nothing in coverage.",
+   "**Push press has headroom ('could do more in the end') at 45 on 2 min rest — cash it through the FORM lever, not load.** It's a 🛑 compound/overhead lift, so slower eccentric / pause / fuller lockout before any thought of more weight or a near-failure set. The floor rising IS the result; don't convert it into a number chase.",
+   "**Palm pressure returned on dips (absent in W21).** Hand/bar-contact, not shoulder. Watch whether it recurs; if it does, it's a grip-position question on the bars, not a load or tempo one. Tempo was 'slowish,' short of the full 3s — fine, it's a target.",
+   "**Cable fly is the model case of the form lever working** — stepping farther forward for more tension, 'always pretty hard,' no stack change. Exactly how ROM is meant to carry an isolation.",
+   "**Farmer carry confirmed done — a nothingburger (asked and answered).** Settled and fine, no number, and that's the honest read, not a gap. The spotlight has done its job here; rotate it off rather than re-spotlighting to collect a hold-time. And the ASK-don't-assume rule worked exactly as intended: one line resolved it, no fake adherence problem invented.",
+   "**The 'barfy' feeling was tiredness + a heat wave, not a training signal.** Session was clean throughout regardless. Same environmental factor showed up on W21D5 legs ('very hot out'); the heat wave is a real context for this stretch of sessions — don't read a hot-day down-feeling as a load or recovery problem."
+  ]
+ },
+ {
+  "day": 3,
+  "workoutId": "fb-w22-pull",
+  "date": "2026-07-22",
+  "rawInput": "w22d3\n\npull ups\nslow eccentrics no pain just weak\nable to do 4x8 with good form first three then 6 good form on last set; first three brushed off with quick finisher last one just ended\n\nrows\nleft hand slipped at 8 on last set / barely hanging on; right hand could probably do to 10 but stopped at 8 on last set\n\nchest row\nslow eccentric did all sets, could do slower tho with pause\n\nincline curl\nleft side hard on the first set!! but did ten on both arms\n\nreverse fly did ok not too bad\n\ndual pulley pull down tried doing 80 (eg 160)\n10 / 6 lol\nlast set back to 70 (140)2 definitely easier and did 12\n\nhigh cable bicep curl\nwtf you removed the load\n\nface pulls have always been on adjustable pulley with rope idk where cable column came from but fix the drift; were fine at 50; slow eccentric all sets! wow probably the best non event one i've done",
+  "notes": "Pull day on slow eccentrics throughout, no shoulder pain anywhere — 'no pain just weak' is the theme (grip/back are the limiters, not the joint). Two equipment corrections flagged and fixed: face pull has ALWAYS been the adjustable pulley + rope, not the cable column (a long-running label drift — corrected in the file, calibration table, and form-cues doc); and the high cable curl load I'd dropped from the W22 prescription is restored. Lat pulldown moved to the dual pulley and pinned a ceiling: 80/side (160) was 10/6, 70/side (140) was the clean 12. Left side is the grip/strength limiter on both the DB row and the incline curl, but completed the work either way.",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default).",
+  "exercises": [
+   {
+    "id": "pull-up",
+    "equipment": "straight bar",
+    "context": "🔆 W22 spotlight — 4 sets, slow eccentric. Prior note: report what gives first on the last set.",
+    "sets": [
+     {
+      "weight": "bodyweight",
+      "reps": 8,
+      "notes": "Good form, slow ecc; 'brushed off with quick finisher.'"
+     },
+     {
+      "weight": "bodyweight",
+      "reps": 8,
+      "notes": "Good form."
+     },
+     {
+      "weight": "bodyweight",
+      "reps": 8,
+      "notes": "Good form."
+     },
+     {
+      "weight": "bodyweight",
+      "reps": 6,
+      "notes": "'6 good form... last one just ended.'"
+     }
+    ],
+    "notes": "8/8/8/6, all good form, slow eccentric. 'No pain just weak' — the limiter is grip/back strength, NOT the shoulder (explicitly no pain). The spotlight got its answer: the first three sets finished with margin ('brushed off with a quick finisher'), the fourth 'just ended' at 6 — a clean strength/endurance edge, not a form breakdown. That's a better set 4 than W21 ('fell apart halfway')."
+   },
+   {
+    "id": "dumbbell-row",
+    "context": "70/80/90 ascending pyramid, one set per round. Spotlight was the slow 90 set.",
+    "sets": [
+     {
+      "weight": "70",
+      "reps": 10
+     },
+     {
+      "weight": "80",
+      "reps": 10
+     },
+     {
+      "weight": "90",
+      "reps": 8,
+      "notes": "'Left hand slipped at 8, barely hanging on; right could probably do 10 but stopped at 8.'"
+     }
+    ],
+    "notes": "Grip is the limiter on the LEFT at the top of the pyramid — 'left hand slipped at 8, barely hanging on,' while the right 'could probably do to 10' and stopped at 8 to match. No straps — so 8 on the left at 90 IS the honest number. The left-side grip lag mirrors the incline-curl left-side lag this same session."
+   },
+   {
+    "id": "chest-supported-dumbbell-row",
+    "context": "45lb, slow eccentric prescribed.",
+    "sets": [
+     {
+      "weight": "45",
+      "reps": "10-12"
+     },
+     {
+      "weight": "45",
+      "reps": "10-12"
+     },
+     {
+      "weight": "45",
+      "reps": "10-12"
+     }
+    ],
+    "notes": "'Slow eccentric did all sets, could do slower tho with pause.' 45 is settled; his own next lever is right there — add the pause. That's the form lever, no load change needed."
+   },
+   {
+    "id": "incline-curl",
+    "context": "🔆 W22 spotlight follow-through — 25lb, left-first. Left-arm lag has been the open question.",
+    "sets": [
+     {
+      "weight": "25",
+      "reps": 10,
+      "notes": "Left first — 'left side hard on the first set!!'"
+     },
+     {
+      "weight": "25",
+      "reps": 10
+     },
+     {
+      "weight": "25",
+      "reps": 10,
+      "notes": "Did ten both arms."
+     }
+    ],
+    "notes": "'Left side hard on the first set!! but did ten on both arms.' Second week of a left-side signal (W21: left needed help on set 2). It's now less ambiguous than W21 — left is consistently the harder arm, but it's completing the full reps. Left-first stays; still no reason to change load, just keep watching the asymmetry. Consistent with the left-grip slip on the DB row today."
+   },
+   {
+    "id": "dumbbell-reverse-fly",
+    "context": "Prescribed 20lb (or 25 if 20s taken).",
+    "sets": [
+     {
+      "weight": "not specified",
+      "reps": 12,
+      "notes": "'Did ok not too bad.'"
+     }
+    ],
+    "notes": "'Did ok not too bad.' Weight not specified this week — note which next time (20s vs 25s has been variable)."
+   },
+   {
+    "id": "lat-pulldown",
+    "equipment": "dual pulley",
+    "context": "Moved to the dual pulley this week (prescription had regular machine 150 / column / pulley). Numbers are PER SIDE.",
+    "sets": [
+     {
+      "weight": "80/side (160 total)",
+      "equipment": "dual pulley",
+      "reps": 10,
+      "notes": "Set 1 at 80/side."
+     },
+     {
+      "weight": "80/side (160 total)",
+      "equipment": "dual pulley",
+      "reps": 6,
+      "notes": "'10 / 6 lol' — dropped off hard."
+     },
+     {
+      "weight": "70/side (140 total)",
+      "equipment": "dual pulley",
+      "reps": 12,
+      "notes": "'Definitely easier and did 12.'"
+     }
+    ],
+    "notes": "Found the dual-pulley ceiling live: 80/side (160) gave 10 then 6, so he dropped to 70/side (140) and got a clean 12 'definitely easier.' **70/side is the working weight on the dual pulley; 80/side is over the ceiling right now.** Added to the calibration table. Note the per-side convention — his '80 (eg 160)' means 80/side, 160 total."
+   },
+   {
+    "id": "high-cable-bicep-curl",
+    "context": "Prescription bug — the LOAD number had been dropped from the W22 file.",
+    "sets": [
+     {
+      "weight": "not reported",
+      "reps": "not reported",
+      "notes": "'Wtf you removed the load.'"
+     }
+    ],
+    "notes": "He caught that the W22 prescription had no load number on this lift (I'd written just 'cable column' with no weight — a regression from W20/W21, which listed single pulley 62.5 / column ~180). **Fixed** — restored the per-station load. No working number reported this session; it was purely the bug flag."
+   },
+   {
+    "id": "face-pull",
+    "equipment": "adjustable pulley + rope",
+    "context": "EQUIPMENT CORRECTION — user flagged it's always been the adjustable pulley + rope, not the cable column.",
+    "sets": [
+     {
+      "weight": "50",
+      "equipment": "adjustable pulley + rope",
+      "reps": 20,
+      "notes": "Slow ecc."
+     },
+     {
+      "weight": "50",
+      "equipment": "adjustable pulley + rope",
+      "reps": 20,
+      "notes": "Slow ecc."
+     },
+     {
+      "weight": "50",
+      "equipment": "adjustable pulley + rope",
+      "reps": 20,
+      "notes": "Slow ecc."
+     }
+    ],
+    "notes": "'Have always been on adjustable pulley with rope, idk where cable column came from but fix the drift; were fine at 50; slow eccentric all sets! wow probably the best non event one I've done.' Equipment label corrected everywhere (file, calibration table, form-cues doc) — the 42.5→47.5→50 climb was always on this station. 50 is settled and clean with a slow eccentric."
+   }
+  ],
+  "shoulderStatus": "No pain anywhere — 'no pain just weak' on pull-ups, said explicitly. The limiters today were grip and strength (left side especially), not the joint. Best-case shoulder day.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**FIX APPLIED — face pull equipment drift corrected.** It's been mislabeled 'cable column' since ~W13; it's ALWAYS been the adjustable pulley + rope. User: 'fix the drift.' Corrected in the W22 file, the NOTES calibration table, and the form-cues doc Setup so it can't drift back. Numbers unchanged (50 settled) — only the station name was wrong.",
+   "**FIX APPLIED — high cable curl load restored.** I'd dropped the load number from the W22 prescription (regression vs W20/W21). Restored the per-station load (single pulley 62.5 / dual ~60 / column ~180). Lesson: don't strip a LOAD block when trimming a note — the number is the point.",
+   "**Dual-pulley lat pulldown ceiling pinned: 70/side (140) working, 80/side (160) over the top** (10/6). Per-side convention confirmed. Prescriptions should list the dual-pulley number as 70/side, not the stale 47.5.",
+   "**Left side is the consistent limiter — grip on the DB row (slipped at 8 at 90) AND strength on the incline curl (hard on set 1).** Two independent left-side signals in one session. Still completing the reps, so nothing changes yet, but the incline-curl left-arm question is now two weeks of the same direction — keep left-first and keep watching. No straps: the left-grip-limited 8 at 90 is the honest number.",
+   "**Pull-up set 4 improved: 8/8/8/6 'good form... just ended' vs W21's 'fell apart halfway.'** With the slow eccentric held, the last set now ends on a clean strength edge rather than a breakdown. 'No pain just weak' — the shoulder is a non-issue; grip/back strength is the honest ceiling.",
+   "**Chest-supported row: his own next lever is the pause** ('could do slower tho with pause'). 45 stays; add the pause-at-stretch next week rather than touching the load."
+  ]
+ },
+ {
+  "day": 4,
+  "workoutId": "fb-w22-kb-cond",
+  "date": "2026-07-23",
+  "rawInput": "w22d4\n\nwhat happened to the figure 8 to switch / clean / tactical clean flow go?? no idea but i miss it - similar but not the infinite one i used to do - I know these others use figure 8 but we had the fig 8 switch thing I really liked - I still sneak it in sometimes (like today) but would be cool to see it as a warmup flow since it really works my brain\n\nthe outside one is fun! keep it in rotation, pretty simple to learn. Definitely want more of this one\n\nWorkout went well otherwise no surprises",
+  "notes": "Thursday's rebuild landed — the NEW Outside Snatch Flow is a hit ('the outside one is fun! keep it in rotation, pretty simple to learn. Definitely want more of this one') and the rest went well, no surprises. He also surfaced a specific flow he misses and wants back: the figure-8-TO-TACTICAL-CLEAN 'switch' move (kettlebell-figure-8-tactical-clean) — distinct from the continuous around-the-legs figure-8, and distinct from the figure-8s inside the new flows. He 'still sneaks it in sometimes' and wants it as a WARMUP flow because 'it really works my brain.' Light-touch KB logging otherwise.",
+  "cardio": "n/a — home KB day.",
+  "exercises": [
+   {
+    "id": "kb-outside-snatch-flow",
+    "context": "🌀 NEW this week — nine-move Conti flow, first ever run. Opens on the around-the-legs figure-8.",
+    "sets": [
+     {
+      "weight": "not reported (light, ~18-26lb prescribed)",
+      "reps": "did all"
+     }
+    ],
+    "notes": "Big hit: 'the outside one is fun! keep it in rotation, pretty simple to learn. Definitely want more of this one.' Learned easily on the first run — the learning-run framing worked. KEEP in rotation and source more Conti-style flows like it."
+   },
+   {
+    "id": "kettlebell-figure-8-tactical-clean",
+    "context": "NOT programmed this week — he raised it unprompted. The figure-8 'switch' → tactical clean he misses; 'still sneaks it in sometimes (like today).'",
+    "sets": [
+     {
+      "weight": "snuck in, not prescribed",
+      "reps": "n/a"
+     }
+    ],
+    "notes": "The move he's asking for by name (in his words: 'the figure 8 to switch / clean / tactical clean flow,' 'the fig 8 switch thing'). NOT the continuous infinite figure-8, and NOT the figure-8s buried in the new flows — this is the hand-switch figure-8 that exits into a tactical clean. He wants it back as a standalone WARMUP flow because 'it really works my brain.' Booked for W23 as a KB-day warmup coordination drill."
+   }
+  ],
+  "shoulderStatus": "Not reported. 'Went well otherwise no surprises' across the overhead-heavy flow day.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**The Outside Snatch Flow is a keeper — 'fun,' 'simple to learn,' 'definitely want more of this one.'** The Thursday rebuild worked exactly as intended: a never-run Conti flow, learned on the first pass, and genuinely enjoyed. Keep it in the Thursday rotation and keep pulling more Conti-style flows off the bench.",
+   "**BOOK FOR W23: the figure-8 → tactical-clean 'switch' flow as a WARMUP brain-drill.** He misses `kettlebell-figure-8-tactical-clean` specifically (the hand-switch figure-8 that exits into a tactical clean) — NOT the continuous around-the-legs figure-8, and NOT the figure-8s embedded in the new flows. He still sneaks it in himself and wants it as a standalone warmup because 'it really works my brain.' It's the coordination-primer role, not a strength block. Note: the Long Coordination Gauntlet (penciled for W23) already CONTAINS this move twice, but he wants the standalone switch-clean drill up front as a warmup — give him both: the drill as a warmup, the gauntlet as the main flow.",
+   "**Distinguish the three figure-8s so this doesn't get conflated again:** (1) `kettlebell-figure-8` = continuous around-the-legs weave ('the infinite one'); (2) `kettlebell-figure-8-march` = marching in place, bell around a lifted thigh (the one he did NOT want); (3) `kettlebell-figure-8-tactical-clean` = the hand-switch figure-8 into a tactical clean ('the fig 8 switch thing' he misses)."
+  ]
+ },
+ {
+  "day": 5,
+  "workoutId": "fb-w22-legs",
+  "date": "2026-07-24",
+  "rawInput": "w22d5\n\nback squat\nlike the reduced reps version :P\ngetting really good depth from the 80 sets and feeling super strong today; probably best feeling from this at this weight ever, helps i'm not tired from the warmups too ha\n\nbulgarian split\non smith machine with 45 plates and bench felt great good depth for some reason left side stronger tho not left legged\nsmith machine is NOT if db are taken i like the setup way better its almost always taken; the track forces a deeper squat; dbs are almost always available\n\nLeg curl progression is fine; was easy-ish; didnt go to 110 but probably should do that next time, tho legs were strong this time\n\nleg press\ngood depth today compared to last week lmao what a mess\ngreat this week; very deep rom all sets\n\ncalf raise is fine great doing these slowly\n\nincline rdl still hard doing three down and holding for a couple of secs last set still burning hard",
+  "notes": "A standout legs session — and it retroactively explains last week. Squat depth at 80 was the best it's ever felt ('probably best feeling from this at this weight ever'), and leg press ROM was 'very deep all sets' vs last week's 'what a mess.' Both were the two lifts that read badly in W21D5, and both bounced straight back — confirming last week was the tired/hot day, not a load problem (holding everything was the right call). One equipment directive: the Smith machine is his PREFERRED Bulgarian setup, not the fallback — the fixed track forces a deeper squat and he likes it far better; DBs become the alternate. Leg curl held the pyramid (skipped the 110 option but flagged he should take it next time).",
+  "cardio": "12 min zone 2 run to gym + 12 min zone 2 run back (standing default).",
+  "exercises": [
+   {
+    "id": "squat",
+    "context": "Working sets at 80 off the 45→70 ramp, reduced-rep version.",
+    "sets": [
+     {
+      "weight": "45",
+      "reps": 8,
+      "notes": "Ramp."
+     },
+     {
+      "weight": "70",
+      "reps": 8,
+      "notes": "Ramp."
+     },
+     {
+      "weight": "80",
+      "reps": "6-8",
+      "notes": "'Really good depth... best feeling at this weight ever.'"
+     },
+     {
+      "weight": "80",
+      "reps": "6-8",
+      "notes": "Deep, strong."
+     }
+    ],
+    "notes": "'Like the reduced reps version :P — getting really good depth from the 80 sets and feeling super strong today; probably best feeling from this at this weight ever, helps i'm not tired from the warmups too.' The depth that was DOWN last week (hot day, pre-tight legs) came all the way back at the same 80 — proof the W21D5 dip was environmental, not a load ceiling. Two things to keep: the reduced-rep working sets (he likes them), and not front-loading fatigue via the warmups."
+   },
+   {
+    "id": "bulgarian-split-squat",
+    "equipment": "Smith machine @45 + bench",
+    "context": "On the Smith machine this week, 45 plates + bench.",
+    "sets": [
+     {
+      "weight": "45 (Smith) + bench",
+      "reps": "8-10 each leg",
+      "notes": "'Felt great, good depth.'"
+     },
+     {
+      "weight": "45 (Smith) + bench",
+      "reps": "8-10 each leg"
+     },
+     {
+      "weight": "45 (Smith) + bench",
+      "reps": "8-10 each leg",
+      "notes": "'Left side stronger tho not left legged.'"
+     }
+    ],
+    "notes": "'Felt great, good depth' on the Smith. **DIRECTIVE — flip the default: the Smith machine is PREFERRED, not the DB fallback.** His words: 'smith machine is NOT [only] if db are taken, i like the setup way better... the track forces a deeper squat; dbs are almost always available.' The fixed bar path is what he wants (deeper squat, no balance tax); DBs are now the alternate for when the Smith is busy. This reverses the old 'Smith is always taken so DBs are the realistic default' note. Also: LEFT side stronger here — opposite of the upper-body left-lag (row grip, incline curl); nothing to do, just noted."
+   },
+   {
+    "id": "seated-leg-curl",
+    "context": "🔆 W22 spotlight — the 70→80→90→100 pyramid, 110 available on the top set if 100 stayed easy.",
+    "sets": [
+     {
+      "weight": "70",
+      "reps": 12
+     },
+     {
+      "weight": "80",
+      "reps": 12
+     },
+     {
+      "weight": "90",
+      "reps": 12
+     },
+     {
+      "weight": "100",
+      "reps": 12,
+      "notes": "'Easy-ish; didnt go to 110 but probably should do that next time.'"
+     }
+    ],
+    "notes": "Held the pyramid to 100, 'easy-ish,' with the slow eccentric. Didn't take the 110 option this week but flagged it himself: 'probably should do that next time, tho legs were strong this time.' So 110 on the top set is his call for next legs day — earned, and he wants it. No push from me needed; he's already there."
+   },
+   {
+    "id": "leg-press",
+    "equipment": "leg press machine",
+    "context": "🔆 W22 spotlight — ROM was the only thing being judged. 4 plates/side. Last week read 'way harder than any recent time.'",
+    "sets": [
+     {
+      "weight": "4 plates/side",
+      "reps": 12
+     },
+     {
+      "weight": "4 plates/side",
+      "reps": 12
+     },
+     {
+      "weight": "4 plates/side",
+      "reps": 12
+     },
+     {
+      "weight": "4 plates/side",
+      "reps": 12,
+      "notes": "'Very deep rom all sets.'"
+     }
+    ],
+    "notes": "'Good depth today compared to last week lmao what a mess — great this week; very deep rom all sets.' The spotlight answered exactly as designed: judge ROM, ignore the sensation. Last week's 'hardest ever' was the tired day; this week the depth is great at the same 4 plates. The 'easier/harder later' sensation swings; the ROM is the reliable signal, and it held."
+   },
+   {
+    "id": "leg-press-calf-raise",
+    "equipment": "leg press machine",
+    "context": "Same machine as leg press. Slow eccentric.",
+    "sets": [
+     {
+      "weight": "4 plates/side",
+      "reps": 15
+     },
+     {
+      "weight": "4 plates/side",
+      "reps": 15
+     },
+     {
+      "weight": "4 plates/side",
+      "reps": 15
+     }
+    ],
+    "notes": "'Fine, great doing these slowly.' Slow eccentric holding; on the leg press, same station."
+   },
+   {
+    "id": "incline-rdl",
+    "context": "🔆 Prior spotlight lever — 45lb plate, 3s eccentric + 2s pause.",
+    "sets": [
+     {
+      "weight": "45lb plate",
+      "reps": 15
+     },
+     {
+      "weight": "45lb plate",
+      "reps": 15
+     },
+     {
+      "weight": "45lb plate",
+      "reps": 15,
+      "notes": "'Still burning hard.'"
+     }
+    ],
+    "notes": "'Still hard, doing three down and holding for a couple of secs, last set still burning hard.' The 3s eccentric + pause is biting at 45 — the tempo lever is doing exactly what a load increase would, without touching the plate. Hold 45; the pause is the work."
+   }
+  ],
+  "shoulderStatus": "n/a — legs day, no shoulder content.",
+  "skipped": [],
+  "lessonsForFutureWeeks": [
+   "**Last week (W21D5) was confirmed a tired/hot day, not a load problem — both weak lifts bounced straight back.** Squat depth at 80 was 'best feeling ever' and leg press ROM was 'very deep all sets,' the exact two lifts that cratered last week. Holding everything was right. Reinforces: don't chase loads down in response to one off session — a single bad day on pre-tired legs in a heat wave is noise.",
+   "**DIRECTIVE — Bulgarian default flips to the Smith machine (@45 + bench); DBs become the alternate.** He prefers the Smith: 'i like the setup way better... the track forces a deeper squat; dbs are almost always available.' The fixed bar path forces depth with no balance tax. This REVERSES the long-standing 'Smith is always taken so DBs are the realistic default' note (W15D5). W23 legs: prescribe `smith-machine-bulgarian-split-squat` @45 as primary, `bulgarian-split-squat` (double-50 DBs) as the alternate. Corrected in the calibration table + form-cues doc.",
+   "**Squat reduced-rep working sets are a confirmed preference — keep them.** 'Like the reduced reps version :P.' Fewer reps per working set at 80 gives cleaner depth (consistent with the W12/W13 pyramid-depth finding). Don't creep the rep count back up.",
+   "**Leg curl: take 110 on the top set next legs day — his call, already made.** Held 100 'easy-ish' this week, flagged 'probably should do 110 next time.' Offer 110 on the top set in W23; he wants it, so no nudge needed, just prescribe the option.",
+   "**Bulgarian LEFT side is stronger** — opposite of the upper-body left lag (row grip slip, incline curl). Not a problem, just a note that the left-side story isn't uniform across the body.",
+   "**Incline RDL tempo (3s eccentric + 2s pause) is biting at 45 — hold the load.** 'Last set still burning hard.' The pause is the progression; don't add plate."
+  ]
+ }
+]

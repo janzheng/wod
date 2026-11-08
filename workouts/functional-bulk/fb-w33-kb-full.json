@@ -1,0 +1,200 @@
+{
+  "id": "fb-w33-kb-full",
+  "name": "Week 33 Optional KB — Bent Press Flow + B-Stance Flow",
+  "description": "Optional whenever a window opens. The Bent Press Flow stays as the anchor and the B-Stance Flow rotates in: an offset stance for every beat, swing to clean to goblet to snatch to overhead lunge. Two rounds per side when fresh; one round is a complete short session.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "kettlebell",
+    "flow",
+    "conditioning",
+    "functional-bulk",
+    "optional",
+    "week-33"
+  ],
+  "estimatedDuration": 30,
+  "equipment": [
+    "kettlebell",
+    "resistance-band"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Bent Press Flow plus the B-Stance Flow, with the short strength block between them.",
+    "spotlights": [
+      {
+        "exerciseId": "kettlebell-overhead-lunge",
+        "why": "The arm stays locked overhead while you stand out of the lunge. That is the hard part of the B-Stance Flow, and it is where the shoulder stack gets tested."
+      }
+    ],
+    "rotationPlan": "The overhead mobility complex and the outside snatch flow rotate in next.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: bent press, the snatch, the overhead lunge, all the cleans, the KB strict press. Overhead and ballistic work where the cue breaking is the ceiling.",
+      "🔥 nothing here is a lift to chase — see the curl note below.",
+      "**Banded shoulder prep is a KB-day anchor.** It stays even on a twenty-minute version of this session.",
+      "**The bent press is a skill, not a load.** Light bell. If the eyes leave the bell or the hip stops driving, the set is over.",
+      "**The B-Stance Flow is all one arm, and the bell does not go down until you switch sides.** Keep the snatch clean; if it stops being clean, the flow is over rather than the bell getting heavier.",
+      "**KB curl: left arm first, and no near-failure.** Stop short of a fully straight arm, same as the gym curls.",
+      "**Optional means optional.** Missing this day entirely does not make the week incomplete."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warm-Up — Halos + Cossacks + Around-the-Body (Light Bell)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Light bell throughout. The cossacks double as a readiness screen: how they feel tells you what kind of session this is.\n\n**Tired-day version:** 5 reps each.",
+      "exercises": [
+        {
+          "id": "kettlebell-dead-clean",
+          "reps": "5 each side",
+          "notes": "Light bell, dead stop each rep and a soft rack catch. This rehearses both flows' entry."
+        },
+        {
+          "id": "kettlebell-halo",
+          "reps": "6 each direction",
+          "notes": "Close to the head, elbows leading. Opens the shoulders without loading them. **Go slow on the left side.**"
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Deep as the hips allow, heel down. Read it against your own normal — the old ankle sprain means a stiff day here is not a forecast."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 30,
+          "notes": "Deep core before the bell gets heavy."
+        },
+        {
+          "id": "behind-back-dumbbell-shrug",
+          "reps": "10-12",
+          "notes": "**Protective activation.** A bell in each hand works if no DBs are around. Straight up, squeeze, slow release."
+        }
+      ]
+    },
+    {
+      "id": "banded-prep",
+      "name": "Banded Shoulder Prep (~2 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "One round of all seven, about two minutes. Sustained tension, no rest between positions. **This is the KB-day shoulder anchor and it does not come out.**\n\n**Tired-day version:** 6 reps each. Exhausted: do it anyway at whatever range is smooth.",
+      "exercises": [
+        {
+          "id": "seated-banded-overhead-pull-apart",
+          "reps": 8,
+          "notes": "Arms overhead, pull apart without letting the ribs flare."
+        },
+        {
+          "id": "seated-banded-behind-neck-pulldown",
+          "reps": 8,
+          "notes": "Slow and controlled. Blades down and together."
+        },
+        {
+          "id": "seated-banded-t-raise",
+          "reps": 8,
+          "notes": "Thumbs up, arms to a T. Traps stay quiet."
+        },
+        {
+          "id": "seated-banded-chest-pull-apart",
+          "reps": 8,
+          "notes": "Chest height, squeeze the blades."
+        },
+        {
+          "id": "seated-banded-reverse-fly",
+          "reps": 8,
+          "notes": "Rear delts. Lead with the elbows."
+        },
+        {
+          "id": "seated-banded-diagonal-reach",
+          "reps": "8 each side",
+          "notes": "Diagonal pattern, full reach."
+        },
+        {
+          "id": "seated-banded-overhead-v-hold",
+          "duration": 20,
+          "notes": "Hold the V overhead. Ribs down, shoulders packed."
+        }
+      ]
+    },
+    {
+      "id": "bent-press-flow",
+      "name": "🌀 Bent Press Flow — The Anchor",
+      "type": "flow",
+      "flowId": "kb-flow-dead-clean-press",
+      "rounds": 2,
+      "notes": "**Light bell — 25-35.** Two rounds each side when fresh, one when tired.\n\nThis is the program's oldest flow and it is skill work first. Run it as one continuous chain. The bent press caps the bell — if the hip stops driving or the eyes leave the bell, the flow drops a size."
+    },
+    {
+      "id": "kb-strength",
+      "name": "Strength — KB Row + Strict Press + Curl 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "Run this between the two flows so the demanding work is not all stacked at the end.\n\n**Tired-day version:** one round.",
+      "exercises": [
+        {
+          "id": "kettlebell-row",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50.** Maintenance — the real row volume lives on pull day. 50 being easy is the correct end state; do not chase it.\n- Flat back, elbow past the ribs\n- Slow eccentric, full stretch at the bottom"
+        },
+        {
+          "id": "kettlebell-overhead-press",
+          "reps": "8 each side",
+          "notes": "**LOAD: 50, strict — clean to rack, press straight up, no push-press.** 50 is the Arrilaga ceiling, so the pause is the progression.\n- **2-3s PAUSE AT LOCKOUT every rep** — bicep by the ear, shoulder packed **DOWN**, ribs down, and hold it\n- Full lockout before the count starts — no soft elbow\n- **Both sides to the same standard — and if the left will not hold a quiet lockout this week, stop that side there**"
+        },
+        {
+          "id": "kettlebell-curl",
+          "reps": "8-10 each side",
+          "notes": "**LOAD: light bell, ~25-35. LEFT ARM FIRST — match the right to it.**\n- **Upper arm pinned to the ribs**, elbow does not drift forward\n- **Stop short of a fully straight arm at the bottom** — the bell loads that end position harder than a dumbbell, and that is the position the left tendon dislikes\n- Shoulder packed down, no shrug to start\n\n**No near-failure sets.** The dose here is frequency for the left arm, not intensity."
+        }
+      ]
+    },
+    {
+      "id": "b-stance-flow",
+      "name": "🌀 B-Stance Flow — Offset Stance, One Arm",
+      "type": "flow",
+      "flowId": "kb-b-stance-flow",
+      "rounds": 2,
+      "notes": "**Light to moderate bell.** Two rounds each side when fresh, one when tired.\n\nThe offset stance is the whole point: it makes every beat an anti-rotation exercise without adding load. 🛑 Keep the snatch clean; if it stops being clean, the flow is over rather than the bell getting heavier."
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown (Hip + Shoulder Release)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The bent press lockout and the B-stance overhead lunge earn an easy hip-and-shoulder release.\n\n**Tired-day version:** 30s each.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 45,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "Passive decompression after the overhead work."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 60,
+          "notes": "45s each side. Finish here."
+        },
+        {
+          "id": "butterfly-stretch",
+          "duration": 45,
+          "notes": "Adductors — the lunges earned this one."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 45,
+          "notes": "30s each side. QL release."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Optional means optional. One round of each flow is a complete session.",
+    "B-Stance Flow: one arm, the bell stays up until you switch sides. Keep the snatch clean.",
+    "The overhead lunge ends standing tall with the arm still locked overhead.",
+    "Bent press is skill work: light bell, eyes on the bell, hip drives.",
+    "KB curl: left first, stop short of straight, no near-failure."
+  ]
+}

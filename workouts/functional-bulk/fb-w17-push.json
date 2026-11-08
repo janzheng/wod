@@ -1,0 +1,164 @@
+{
+  "id": "fb-w17-push",
+  "name": "Week 17 Push — Steady State (Spotlight: Push Press + Incline DB)",
+  "description": "Volume steady, loads steady. A light chest opener joins the warmup so the chest and shoulders move through full range before pressing. Spotlights cycle forward to the push press and incline DB press — the two free-weight presses, due for a deep-cue refresh. Push press runs early when the rack's free, fresh; the explosive-up / controlled-down hybrid tempo is the current preference. Incline DB drills the packed-shoulder, vertical-forearm setup that keeps 45 honest. The lateral raise picks up a target-muscle note. Dips come in as the bodyweight press — chest-bias / lean-forward, eased in with a supported-machine option for the shoulder. Cable lifts list a number per equipment option.",
+  "routineId": "functional-bulk",
+  "tags": ["gym", "strength", "push", "upper-body", "chest", "shoulders", "triceps", "ppl", "form-first", "spotlight-rotation"],
+  "estimatedDuration": 55,
+  "equipment": ["dumbbell", "cable", "machine", "band", "pull-up-bar", "bodyweight"],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "Steady state — sets and loads hold. A light Kinesis fly (tree-hugger) joins the warmup to loosen and open the chest before pressing. Spotlight cycles to push press + incline DB. Push press runs first when the rack's open, fresh — explosive-up / controlled-down hybrid tempo. Incline DB drills the packed-shoulder, vertical-forearm setup. Lateral raise gets its target-muscle answer. Dips slot in for the bodyweight press — chest-bias / lean-forward, eased in, supported-machine option for the shoulder. Pull-up greasing + protective shrug stay in the warmup.",
+    "spotlights": [
+      {
+        "exerciseId": "push-press",
+        "why": "Cycles forward — the explosive-up / controlled-down hybrid tempo run first has been producing the cleanest reps and a stable shoulder. Spotlight drills the rib-down dip + vertical DB path + pack-down lockout so the form holds across all three sets at 45."
+      },
+      {
+        "exerciseId": "incline-dumbbell-press",
+        "why": "Cycles forward — the controlled-descent version at 45 has held steady. Spotlight drills the packed-shoulder, vertical-forearm-over-elbow setup that makes 45 feel honest, so the last set holds form instead of peeling off the bench."
+      }
+    ],
+    "rotationPlan": "W15 chest press + farmer carry · W16 lateral raise + Kinesis fly · W17 push press + incline DB (current) · W18 cycle forward — dips + cable block refresh (dips earns spotlight cues once it's settled in).",
+    "watchpoints": [
+      "**Light chest opener in the warmup** — a few easy, light Kinesis-fly (tree-hugger) reps to loosen the chest before pressing. The same logic as warming up before squats: open the range first so the presses move clean and you can put power in. Keep it light — it primes, it doesn't fatigue. (Working Kinesis fly is still at the end — you'll touch that machine twice, which is fine.)",
+      "**Run push press first when the rack's free** — the reps recover there, and it's the heavy overhead lift that wants fresh, un-pre-fatigued shoulders. If it ends up second after a long warmup trail, expect a couple fewer reps at 45 — that's the accepted trade-off for getting the session in.",
+      "**Tempo is your energy lever** — the explosive-up / controlled-down hybrid is the current go-to; a slower full eccentric is fine too. Pick by feel; form holds either way.",
+      "**Cable lateral raise holds at cable column 30** — the pain-free streak is the priority; don't chase load while it's alive. (Distinct from the DB lateral raise — the day has both.)",
+      "**Pack DOWN, not up** — push press, both lateral raises, incline DB, dips, farmer carry all carry the cue. If a lockout needs a shrug, the load's too heavy for the cue — pause the set.",
+      "**Dips are new — chest-bias / lean-forward, ease them in.** Lean forward ~15-30°, pack the shoulders down, lower only to ~90° at the elbow (not deep) while it's new. Use the supported / assisted dip machine the moment the front shoulder talks. Find a shoulder-happy depth before chasing reps.",
+      "**Pull-up greasing set + protective behind-back shrug stay in the warmup** — both cheap, both easy to forget.",
+      "**Cable block lists a number per machine** — pick what's free, log the equipment + number you used."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Warmup + Shoulder Rehab (Non-Negotiable) + Chest Opener + Pull-Up Greasing + Protective Shrug",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "arm-circle", "reps": "10 each direction", "notes": "Slow, big circles. Wake up scap glide before loading." },
+        { "id": "yuris-shoulder-band-warmup", "reps": 1, "notes": "Full sequence with red band. Non-negotiable on push day." },
+        { "id": "kinesis-cable-fly", "reps": "12-15", "notes": "**Light loosening opener — NOT a working set** (the working fly comes later). On the Kinesis (not the cable column), light load: 'hug a tree' forward, then let the cables pull the arms open into the pec stretch. The cable holds tension in the stretched position, so it actively loosens and opens the chest before pressing — the same way warming up lets you get power into your squats. Quick and easy; this primes, it doesn't fatigue." },
+        { "id": "internal-core-fist-rotation", "duration": 45, "notes": "Standing, knees soft, torso hinged slightly forward. Tight fists with thumbs tucked, rotate the wrists internally and hold the tension — dials a stretch up the back chain from forearm to shoulder. Wakes the grip and shoulder line before loading." },
+        { "id": "push-up", "reps": 12, "notes": "Ribs down, glutes tight, body in one line. Slow eccentric, 1s pause with chest 1-2\" off the floor." },
+        { "id": "pull-up", "reps": "6-8", "notes": "**Pull-up greasing set.** 1 fresh set, slow tempo, NOT to failure. Active hang start, pull elbows down to ribs, chest leads. Frequency, not max effort — drop to scapular-pulls only if the shoulder talks, and finish the count." },
+        { "id": "behind-back-dumbbell-shrug", "reps": "12-15", "notes": "**Protective shrug (greasing set).** 1 light set, DBs held behind the body, palms back. Pack the shoulders DOWN and BACK, shrug UP and slightly back, 1s peak squeeze, slow down. The 'opposite movement' that decompresses the right shoulder — costs no time, easy to forget." }
+      ],
+      "restBetween": 0,
+      "restAfter": 90
+    },
+    {
+      "id": "push-press-station",
+      "name": "🔆 Push Press (Spotlight — 3 Sets at 45)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "push-press", "reps": "8-10", "notes": "**LOAD:** 45lb DBs per side. 3 sets of 8-10. Run first when the rack's open — fresh shoulders.\n\n**🔆 SPOTLIGHT — the dip-drive that keeps the shoulder stable:**\n- **Feet parallel, hip-width** — not duck stance\n- **Ribs DOWN before the dip** — catch any rib flare on set 1\n- **Pack DOWN, not up** — shoulder blades into the back pockets, neck long; if the lockout needs a shrug, the load's too heavy for the cue\n- **Shallow dip ~3-4\"**, straight down through the heels — the drive comes from the legs, not a press\n- **Vertical DB path** — DBs travel up next to the ears, head pokes through at the top\n- **Hybrid tempo:** explosive drive up, controlled descent. Breath: in at the dip, out on the drive\n\n**Reflection:** does the explosive-up / controlled-down tempo hold a clean rib-down lockout across all three sets, or does the dip start flaring the ribs / the lockout start shrugging by set 3? The stable shoulder is the win here, not the rep number." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "lateral-raise-station",
+      "name": "DB Lateral Raise (3 Sets at 15)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "lateral-raise", "reps": "15-18", "notes": "**LOAD:** 15lb DBs. 3 sets of 15-18.\n- **Targets the medial (side) deltoid** — the slow eccentric maxes time-under-tension on a small muscle, which is exactly why the last set stays hard even at 15\n- **Lead with the elbow, hand passive** — the wrist follows the elbow, the hand never lifts first\n- **Soft elbow ~10-15°, FIXED** through the whole rep — a locking/unlocking elbow recruits the traps\n- **Stop at shoulder height — never higher** (higher just shrugs the traps off the medial delt)\n- **2s eccentric** — the slow descent is the stimulus; fight the drop\n- **Scap reset between sets** — roll the shoulders, engage/disengage the scapula a few times before the next set; this is what's kept the right shoulder quiet here" }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "incline-db-station",
+      "name": "🔆 Incline DB Press (Spotlight — 3 Sets at 45 pair)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "incline-dumbbell-press", "reps": "8-12", "notes": "**LOAD:** 45lb pair. 3 sets — fast-up / controlled-down, 1s pause at the bottom.\n\n**🔆 SPOTLIGHT — the setup that makes 45 honest:**\n- **Bench at 30°**, not 45° — steeper biases front delt over upper chest\n- **Shoulders packed back AND down** — pin the back of the shoulder into the bench and hold it the whole set\n- **Forearm stacked vertically over the elbow at the bottom** — the cue that keeps the load off the front of the shoulder\n- **Elbows ~45° from torso**, not flared to 90°\n- **1s pause at the bottom** ('dead weight'), press to a fingerwidth apart at the top. Breath: in on descent, out on press\n\n**Reflection:** the last half of the last set has been the struggle. Does the packed-shoulder, vertical-forearm setup hold the chest glued and the shoulder pinned through the end of set 3 — or does the chest start peeling and the elbows flaring to grind the reps out? Stop the set when the setup breaks." }
+      ],
+      "restBetween": 120,
+      "restAfter": 120
+    },
+    {
+      "id": "dips-station",
+      "name": "Dips — Chest-Bias / Lean-Forward (3 Sets)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "dip", "reps": "8-12", "notes": "**LOAD / EQUIPMENT (pick by how the shoulder feels, log which):**\n- **Bodyweight parallel-bar dips** (default) — 3 sets of 8-12, leave a rep in the tank early while you find the groove\n- **Supported / assisted dip machine** if the front shoulder talks — same movement, dial in just enough assist to keep the depth controlled\n- **Band-assisted** if the machine's taken\n\n**Chest-bias setup — lean forward, protect the shoulder:**\n- **Lean the torso forward ~15-30° and let the elbows flare slightly** — that's what shifts the load onto the chest (upright + elbows-tucked is the triceps-bias version)\n- **Pack the shoulders DOWN and BACK at the top** — never let them shrug up around the ears; pack-down is the whole game on dips\n- **Lower until the shoulders are about level with the elbows (~90° at the elbow), NOT deeper** while this is new — deep dips are where the front shoulder gets cranky\n- **Controlled descent ~2s, drive up to a soft lockout** — don't drop into the bottom or snap the elbows straight at the top\n- **Stop the set the moment the front of the shoulder talks** — switch to the supported machine or end the set; this is a new pattern, ease it in over finding the rep ceiling\n\n**New movement — find a depth and tempo the shoulder is happy with before chasing reps.**\n\n**Reflection:** does the front of the shoulder stay quiet through all three sets with the lean-forward, pack-down, half-depth setup — or does it start talking by set 3? If it talks, that's the signal to drop to the supported machine and shorten the range, not to push through." }
+      ],
+      "restBetween": 120,
+      "restAfter": 90
+    },
+    {
+      "id": "kinesis-fly-station",
+      "name": "Kinesis Cable Fly (3 Sets)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "kinesis-cable-fly", "reps": "10-12", "notes": "**LOAD:** Kinesis 9 (drop to 8 only if 9 feels off on set 1).\n- **Slight forward hinge at the hips** — chest leads, not the head\n- **Soft elbow ~10-15°, FIXED throughout** — these are NOT presses; the elbow angle never changes\n- **'Hug a tree'** — the squeeze comes from the chest, not the arms pulling together\n- **Stop a fistwidth apart at the top** — don't crash the handles\n- **Slow eccentric (~3s)** — let the cables pull the arms into the deep pec stretch; the right shoulder/pec reads this loaded stretch as relief, protect that." }
+      ],
+      "restBetween": 90,
+      "restAfter": 90
+    },
+    {
+      "id": "cable-column-block",
+      "name": "Cable Column Block — Lat Raise → Tri Ext → Straight-Arm Pulldown (3 Rounds)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "cable-lateral-raise", "reps": 12, "notes": "**LOAD:**\n- **Cable column: 30** (hold — the pain-free streak is the priority)\n- **Kinesis: 5-6** (if the column's taken)\n\n3 rounds, one arm at a time.\n- **Lead with the elbow as a DIRECTION** — the elbow points, doesn't bend\n- **Soft elbow ~10°, FIXED** throughout\n- **Stand sideways** to the stack, working arm farther from it\n- **Stop at shoulder height — higher = traps**\n- **2s eccentric**, fight the cable down" },
+        { "id": "incline-cable-overhead-tricep-extension", "reps": "10-12", "notes": "**LOAD:**\n- **Cable column: 70** (default)\n- **Kinesis: 5** (fallback)\n\n3 rounds. **Always kneeling — there's no bench at this station; the forward torso lean IS the 'incline.'**\n- **Kneel facing AWAY from the high pulley**, rope overhead\n- **Elbows PINNED** — only the forearms move\n- **Hands shoulder-width on the rope**\n- **Full stretch at the bottom** — let the rope pull the hands behind the head\n- **Stop just shy of lockout**, slow eccentric. Set 1 feels easy, set 3 is brutal — that's the lift working." },
+        { "id": "straight-arm-pulldown", "reps": 12, "notes": "**LOAD:**\n- **Cable column: 120** (the working number — really hard here, runs last after both presses)\n- **Kinesis: 6** (fallback)\n\n3 rounds.\n- **Stand a step back, hinge ~15° at the hips** — fixed hinge, the torso doesn't pump\n- **Slight elbow bend (~5°), FIXED throughout**\n- **Pull the bar to the thighs, NOT past** — past = shoulders roll forward, lats switch off\n- **Squeeze the lats hard at the bottom** — 'oranges into the back pockets'\n- **Slow controlled return to a full overhead stretch.** Reps may fall on the later sets at the end of the session — that's the load and the fatigue, both honest." }
+      ],
+      "notes": "Cable block — sharp cues, 3 rounds. One trip to the chosen station covers all three. Pick what's free (cable column is the default for all three) and log what you used.",
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "farmer-carry-block",
+      "name": "Farmer Carry (3 Walks)",
+      "type": "exercises",
+      "rounds": 3,
+      "exercises": [
+        { "id": "farmer-carry", "equipment": "DB rack", "duration": 50, "notes": "**LOAD:** 50lb DBs. 3 walks of ~45-60s each — chase hold-time.\n- **Stand TALL** — ribs down, crown reaching up, no leaning back\n- **Shoulders pulled DOWN and BACK** — into the back pockets, never shrugged. The DBs pull the shoulders up the whole walk; resist the whole walk. This tall, packed posture doubles as right-shoulder decompression — it reads as relief.\n- **Neck long, eyes forward** — no chin poke\n- **Grip firm but NOT death-clenched** — grip is the limiter here (it taps before the shoulder), so let it be the trainable edge; set the bells down when grip fails rather than white-knuckling\n- **Walk a straight line at a deliberate pace**, breathing steadily" }
+      ],
+      "notes": "Trap-chain + grip block. 3 walks at 50lb — packed-shoulder posture, grip as the honest edge. Set them down when grip gives, not before.",
+      "restBetween": 75,
+      "restAfter": 90
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block (Permanent Every-Gym-Day Closing Block)",
+      "type": "exercises",
+      "rounds": 1,
+      "exercises": [
+        { "id": "doorframe-chest-stretch", "duration": 60, "notes": "30s each arm at MID elbow position. Pec minor lengthen — the antagonist to the upper-trap chain loaded all session." },
+        { "id": "dead-hang", "duration": 45, "notes": "Passive hang from the pull-up bar. **Don't engage** — let the shoulders unpack and the spine decompress." },
+        { "id": "supine-spinal-twist", "duration": 60, "notes": "30s each side on the mat. Draw one knee across the body, opposite arm extended." },
+        { "id": "90-90-stretch", "duration": 90, "notes": "45s each side. Front leg + back leg at 90°. Sink the hips toward the floor — hip-rotator decompression." },
+        { "id": "childs-pose", "duration": 60, "notes": "60s slow breathing. Knees wide, arms extended forward. Parasympathetic shift before leaving the gym." }
+      ],
+      "notes": "5 minutes of recovery work, non-negotiable closing block.",
+      "restBetween": 0,
+      "restAfter": 0
+    }
+  ],
+  "tips": [
+    "**Steady state — sets and loads hold.** The work is depth of execution at the established numbers.",
+    "**Light chest opener in the warmup** — a few easy, light Kinesis-fly (tree-hugger) reps to loosen the chest before pressing. Same logic as warming up before squats: open first, press clean. Keep it light.",
+    "**Spotlight: push press + incline DB.** Push press drills the rib-down dip + vertical path at 45; incline DB drills the packed-shoulder, vertical-forearm setup so the last set holds form.",
+    "**Run push press first when the rack's free** — fresh shoulders. Explosive-up / controlled-down hybrid tempo is the current go-to.",
+    "**Lateral raise targets the medial delt** — the slow eccentric on a small muscle is why the last set stays hard at 15. Don't chase load.",
+    "**Dips slot in for the bodyweight press — chest-bias / lean-forward.** New movement: ease in, half-depth (~90° elbow), pack the shoulders down, supported machine the moment the shoulder talks. Find a shoulder-happy depth before chasing reps.",
+    "**Pack DOWN, not up** — every press + the carry carries the cue.",
+    "**Pull-up greasing set + protective shrug in the warmup** — 1 slow set each, not to failure.",
+    "**Farmer carry: 50lb, chase hold-time** — grip is the edge; the tall packed posture relieves the right shoulder.",
+    "**Cool-down stays — 5-min block, permanent every gym day.**",
+    "Rest: 2 min push press + dips, 90s lateral raise + Kinesis fly + farmer carry, 75s cable block."
+  ],
+  "formPhilosophy": "Steady-state push week — the gains come from sharper execution at established loads. A light chest opener in the warmup gets the range before the work; the push press and incline DB then get the deep-cue treatment as the two free-weight presses, drilling the dip-drive and the packed-shoulder setup as shoulder-stability work as much as strength. Building decades, not weeks."
+}

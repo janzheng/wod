@@ -1,0 +1,252 @@
+{
+  "id": "fb-w31-legs",
+  "name": "Week 31 Legs — RDL Probes 70 on the Last Set, Leg Curl and the Hip Machines Get the Spotlight",
+  "description": "**The RDL runs 45, 45, then 70 on the last set only — and the 70 is a question, not a step.** At 45 the hinge finally ended the set instead of the grip, and you want to check whether that feel survives at a heavier bar. So the top set is a calibration probe: the thing to report is whether it still *felt* like the 45s, not whether you got the reps.\n\n**The kneeling leg curl and the hip machines get the deep cues**, and the leg curl now has a written method for the weaker side: 2-3 seconds between reps on the left, so it finishes the count without twisting to get there.\n\n**The hip abduction machine was broken last week, so the slot is written with a fallback** — the work happens whether the machine does or not.\n\nSquat holds 80 flat with the heel ramp staying at 45 in the warmup. Leg press, calf raise and adduction hold.",
+  "routineId": "functional-bulk-dynamic",
+  "tags": [
+    "legs",
+    "strength",
+    "gym",
+    "functional-bulk",
+    "week-31"
+  ],
+  "estimatedDuration": 60,
+  "equipment": [
+    "barbell",
+    "machine",
+    "resistance-band",
+    "bodyweight",
+    "mat"
+  ],
+  "difficulty": "intermediate",
+  "dayOverview": {
+    "theme": "One probe and two spotlights. The RDL takes a single heavy set to find out whether the new hinge feel is load-dependent. The leg curl gets a written method for the weaker side instead of an improvised one. The hip slot gets a fallback so a broken machine costs nothing. Everything else holds.",
+    "spotlights": [
+      {
+        "exerciseId": "kneeling-leg-curl",
+        "why": "You solved last week's side-recruitment question yourself by pacing the left rather than forcing it. That fix becomes the instruction this week, and the cue it protects — hip flat and square — is the one worth drilling."
+      },
+      {
+        "exerciseId": "hip-abduction-machine",
+        "why": "Three weeks of this slot being decided by whatever the machine was doing: a mismatch, then a self-found 250, then broken. It gets deliberate cues and a fallback, so the work stops depending on the equipment."
+      }
+    ],
+    "rotationPlan": "W32 — Bulgarian split squat and the Nordic curl return when the week stops being short; both are big DOMS producers, which is exactly why they stay out of compressed weeks. W33 — squat and leg press come back to spotlight.",
+    "watchpoints": [
+      "🛑 keep it shy — the cue is the cap: squat, barbell RDL, leg press, kneeling leg curl, hip abduction, hip adduction. Effort means the cue holding at a hard load; the ceiling is the rep the cue breaks.",
+      "🔥 near-failure last set OK: leg press calf raise. Isolation work where form holds at the limit.",
+      "**⭐ THE RDL'S THIRD SET IS A FEEL TEST, NOT A LOAD STEP.** 45 · 45 · 70. **The question is whether 70 still ends on the hamstrings the way 45 did** — if the hands become the limiter again, that is the answer and the set is over. Do not grind it to find out.",
+      "**Never judge the squat on set 1.** It earned this caveat over three weeks; one clean week does not unearn it. Set 1 is information, not a verdict.",
+      "**The heel plates stay at 45 in the warmup.** They finally bought real depth there. Heels-up at 80 comes back when the 45 version is boring — one good week is not boring yet.",
+      "**Stance is settled — do not test it.** The current wide V beats feet-forward and beats going wider. That question is closed.",
+      "**Leg curl: 2-3s between reps on the LEFT.** This is the instruction now, not a concession. The hip staying square is the standard and tempo is what pays for it.",
+      "**If the abduction machine is still broken, the fallback is written into the block.** A dead machine means take the fallback, not skip the slot.",
+      "**No straps on the RDL, and no flipped hand.** Double-overhand at every weight including the 70."
+    ]
+  },
+  "sets": [
+    {
+      "id": "warmup",
+      "name": "Legs Warmup — Ankle First, Then the Heel-Elevated Ramp",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "The ankle work leads because the ankle is the confirmed limiter. **The heel plates live here, at 45** — that is where they finally taught something instead of turning the lift into a different exercise.",
+      "exercises": [
+        {
+          "id": "tibialis-raise",
+          "reps": "15-20",
+          "notes": "Slow up, slow down — feel the shin."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10-15 each side",
+          "notes": "Toe to wall, knee bent, heel glued down. **Still no measurement** — the baseline is banked at right 1.5 fists, left 1 fist, and the re-measure is a few weeks out."
+        },
+        {
+          "id": "banded-ankle-eversion",
+          "reps": "15-20",
+          "notes": "Light band, eversion only — slow and controlled. The left one is the point."
+        },
+        {
+          "id": "single-leg-balance",
+          "duration": 60,
+          "notes": "30s each side. Eyes open, hands on hips. Let the ankle do the correcting."
+        },
+        {
+          "id": "bodyweight-squat",
+          "reps": "10-15",
+          "notes": "Your usual stance — the wide V, no experiments. Heels down, chest up, knees out. Note where depth stops today."
+        },
+        {
+          "id": "hip-circle",
+          "reps": "10 each direction",
+          "notes": "Small to large, warm the joint."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "**The brace, woken deliberately.** It is half the answer to the depth question — bring it online before the bar."
+        },
+        {
+          "id": "squat",
+          "reps": "5, then 5",
+          "notes": "**LOAD:** 45/side, two rounds.\n\n**Round 1 — flat, 5 reps, 2-3s pause in the bottom.** The standard you already set.\n\n**Round 2 — 5lb plate under each heel, 5 reps, 2-3s pause.**\n- **Use the extra room** — with the heels up there is more of it, and the point is to go there\n- **Stay upright and let the knees travel forward** — that is what the elevation buys\n- **Hold the brace through the pause**, ribs down\n- Last week this read as real depth for the first time. See whether it repeats before it gets promoted anywhere."
+        }
+      ]
+    },
+    {
+      "id": "squat",
+      "name": "Squat — 80/side, All Three Flat 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 80/side, 3 working sets of 6-8. **All flat — the plates stay in the warmup.**\n\nLast week all three sets read the same: \"fully in control and fairly deep and controlled every set.\" That is the first week the set-1 caveat went unused twice running — it still stays in the notes one more week, because it was earned over three weeks and one clean week does not unearn it.\n\n- **Belt-tight brace** — ribs down, glutes and core braced, shoulders packed down\n- **Depth is the descent** — find where power falls off in the hole and work into it, not past it\n- **The pelvis tucking under is the floor.** Stop just above where it starts; that edge is what moves over months\n- 80 has read like what 45 used to read like for three weeks now. That is the floor rising and it needs nothing done to it",
+      "exercises": [
+        {
+          "id": "squat",
+          "reps": "6-8",
+          "notes": "**LOAD:** 80/side, 3 sets, all flat.\n- Usual wide V stance, no experiments\n- Belt-tight brace, ribs down, shoulders packed down\n- Depth is the job, not the load\n- Stop just above where the pelvis starts to tuck"
+        }
+      ]
+    },
+    {
+      "id": "rdl",
+      "name": "Barbell RDL — 45 · 45 · 70, the Last Set Is a Question 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 45/side · 45/side · **70/side**, 3 sets of 8-10. **Straight after the squat — the bar is already there.**\n\n**The first two sets are the groove. The third is the test.** At 45 the set finally ended on the hamstrings instead of the hands, and it landed in the same place as the 45lb plate on the incline bench — different lever, same hinge demand. **The top set asks whether that feel survives at 70**, which is the weight that used to end on grip.\n\n- **Double-overhand at all three weights. No flipped hand, no straps**\n- **Bar low in the fingers, squeeze hard before you unrack it**, and keep squeezing\n- **Soft knee bend set once and never changed**\n- **Hips BACK like closing a car door.** The bar goes down because the hips went back\n- **The bar brushes the thighs the whole way** — if it drifts off the legs, the back is taking the load\n- **Stop where the hamstrings stop you.** Lower only comes from rounding\n- **3s down, smooth up, stand to straight and stop** — no lean back\n\n**On the 70: if the hands become the limiter again, the set is over — that is the answer, not a failure.** Do not grind it.\n\n**Reflection:** at 70, did it still *feel* like the 45s — hips back, bar on the thighs, hamstrings ending it — or did it turn back into a grip lift?",
+      "exercises": [
+        {
+          "id": "barbell-romanian-deadlift",
+          "reps": "8-10",
+          "notes": "**LOAD:** 45/side · 45/side · **70/side.**\n- **Double-overhand at every weight. No straps, no flipped hand**\n- **Unrack standing from mid-thigh hooks**\n- Bar low in the fingers, squeeze before you lift\n- **Soft knees set once**, hips back, **bar brushing the thighs**\n- **3s eccentric**, stop where the hamstrings stop\n- **Set 3 at 70 is a feel test** — report whether the hamstrings or the hands ended it"
+        }
+      ]
+    },
+    {
+      "id": "leg-curl",
+      "name": "🔆 Kneeling Leg Curl — 65, Left Side Paced 🛑",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 65, 3 sets of 10-12 each side. **Left side first, and the left sets the rep count.**\n\n**🔆 SPOTLIGHT — and the method is yours.** Two weeks ago this produced a strange sensation low in the side rather than in the hamstring. Last week you answered it: the twisting *is* the left being forced, so you waited 2-3 seconds between reps to hold it back and it finished every rep clean. **That becomes the instruction.**\n\n🔆 **The cues:**\n- **2-3 seconds between reps on the left.** Not a concession — it is what buys the full count without the compensation\n- **Only the lower leg moves.** The knee is the hinge and nothing above it participates\n- **Hips stay flat and square.** The moment the working hip lifts, rotates, or hikes, that rep was the last one — that is the set ending, not a core exercise starting\n- **Slow eccentric — that is the stimulus.** The way back down is most of the value\n- **Match the right to the left's clean reps** and no more. Same load both sides\n- **Log both sides separately**\n\n**Reflection:** with the pacing written in from rep one, did the left hold a square hip the whole way through all three sets — and did the side sensation stay away?",
+      "exercises": [
+        {
+          "id": "kneeling-leg-curl",
+          "reps": "10-12 each side",
+          "notes": "**LOAD:** 65.\n- **Left side first**, and it sets the count\n- **2-3s between reps on the left** — the written method now\n- **Only the lower leg moves.** Hips flat and square\n- Slow eccentric\n- When the front of the hip joins in, the set is done\n- Log both sides separately"
+        }
+      ]
+    },
+    {
+      "id": "leg-press",
+      "name": "Leg Press — 4 Plates/Side, Knees to Chest 🛑",
+      "type": "exercises",
+      "rounds": 4,
+      "notes": "**LOAD:** 4 plates/side, 4 sets of 12.\n\nRan to the written prescription last week without comment, which at this point is what this lift does. Depth is the standing job.\n\n- **Deep ROM — work depth, not weight**\n- **Ribs down, no leaning back**\n- **The end-range stretch deep in the hips is the position, not a problem** — the spine is unloaded here, which is why this is a safe place to live at end range\n- **Do not read this depth as permission at 80 on the bar** — they are different problems\n- Slow into the bottom, no bouncing out of it",
+      "exercises": [
+        {
+          "id": "leg-press",
+          "reps": 12,
+          "notes": "**LOAD:** 4 plates/side, 4 sets.\n- **Deep ROM** — depth, not weight\n- Ribs down, no leaning back\n- Knees to chest is the standard\n- Slow into the bottom, no bouncing out of it"
+        }
+      ]
+    },
+    {
+      "id": "calf-raise",
+      "name": "Leg Press Calf Raise — 4 Plates/Side 🔥",
+      "type": "exercises",
+      "rounds": 3,
+      "notes": "**LOAD:** 4 plates/side, 3 sets of 15. **Same machine — stay where you are.**\n\n- Balls of the feet on the bottom platform edge, heels off\n- **Full controlled heel drop** — the slow stretch is the stimulus\n- Press through the forefoot to a full contraction\n- Knees stay soft and still\n- Last set can run near failure",
+      "exercises": [
+        {
+          "id": "leg-press-calf-raise",
+          "reps": 15,
+          "notes": "**LOAD:** 4 plates/side.\n- Full controlled heel drop\n- Press through the forefoot\n- Knees soft and still"
+        }
+      ]
+    },
+    {
+      "id": "hip-abduction",
+      "name": "🔆 Hip Abduction — 250, or the Fallback if the Machine Is Still Dead 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD: machine at 250, 2 sets of 12-15.** You found that number yourself and it read easy at the time.\n\n**🔆 SPOTLIGHT — the slot, not just the number.** This lift has spent three weeks being decided by the equipment: a load mismatch, then a self-found 250, then a broken machine. **So it now has a fallback and the work happens either way.**\n\n🔆 **On the machine:**\n- **Tempo is the only lever** — slow out, slow back, no bouncing off the stack\n- **If set 1 at 250 is still easy at that tempo, take the next pin on set 2** and log which one\n- **Torso quiet** — no rocking to start the rep. The rocking is the giveaway that the stack is winning\n- **Push out to a genuine end range and pause a beat there** before letting it back\n\n🔆 **If the machine is still broken, do the fallback below instead — 2 sets of each, and do not skip the slot.** The loads do not transfer and that is fine; on a mat the lever is tempo and position, and a slow clamshell with a real pause is not a soft option.\n\n**Reflection:** was the machine working this week — and if you took the fallback, did the side of the hip actually light up the way the machine makes it?",
+      "exercises": [
+        {
+          "id": "hip-abduction-machine",
+          "reps": "12-15",
+          "notes": "**LOAD:** 250. **Primary — take this if the machine is alive.**\n- **Tempo is the only lever**\n- Slow out, **pause at end range**, slow back\n- Torso quiet, no rocking\n- Next pin on set 2 if the tempo holds — log which"
+        },
+        {
+          "id": "barre-clamshell",
+          "reps": "15-20 each side",
+          "notes": "**FALLBACK — only if the machine is dead.** Side-lying, knees bent and stacked, feet together.\n- **Open the top knee slowly and hold a beat at the top**\n- **The top hip must not roll backwards** — that roll is how the work escapes to the front of the hip\n- Add a light band above the knees if one is around"
+        },
+        {
+          "id": "barre-side-lying-leg-lift",
+          "reps": "12-15 each side",
+          "notes": "**FALLBACK — pairs with the clamshell.** Same side-lying setup, top leg straight.\n- **Lift from the side of the hip, not the front** — lead with the heel a touch, toes pointing forward, not up\n- Slow up, **slower down**\n- Hips stacked and still; if the torso rocks back, the range is too big"
+        }
+      ]
+    },
+    {
+      "id": "hip-adduction",
+      "name": "Hip Adduction Machine — 300 🛑",
+      "type": "exercises",
+      "rounds": 2,
+      "notes": "**LOAD:** 300, 2 sets of 12-15.\n\nSkipped last week to a long line rather than a breakdown, so the number stands untouched.\n\n- **Tempo is the only lever**\n- Slow release out to a full stretch — the adductors are the tissue that capped the wide-stance test, so the stretch end matters here\n- Torso still, no rocking\n\n**If there is a line again, take the cossack squats below instead** — same tissue, no machine, and you already know the movement from the morning flow.",
+      "exercises": [
+        {
+          "id": "hip-adductor-machine",
+          "reps": "12-15",
+          "notes": "**LOAD:** 300.\n- **Tempo is the only lever**\n- Slow release to a full stretch\n- Torso still"
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "8 each side",
+          "notes": "**FALLBACK — only if the machine is occupied.** Slow, deep, heel down on the bent side.\n- **Sit into one hip and let the other leg straighten fully** — the straight leg's inner thigh is the target\n- Toes of the straight leg can turn up; keep the chest tall\n- Hold a beat at the bottom of each rep"
+        }
+      ]
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool-Down — 5 Min Fascia/Recovery Block",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Five minutes, every gym day. Slow breathing throughout — the downshift is as much the point as the tissue.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "30s each arm, elbow at MID height."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 45,
+          "notes": "Passive. Let the shoulders decompress."
+        },
+        {
+          "id": "supine-spinal-twist",
+          "duration": 60,
+          "notes": "30s each side."
+        },
+        {
+          "id": "90-90-stretch",
+          "duration": 90,
+          "notes": "45s each side."
+        },
+        {
+          "id": "childs-pose",
+          "duration": 60,
+          "notes": "Slow breathing. End here."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "RDL is 45 · 45 · 70. The 70 is a feel test — report what ended the set, hamstrings or hands.",
+    "Leg curl: 2-3s between reps on the left, from rep one. Hip square is the standard.",
+    "Heel plates stay at 45 in the warmup. Not under the working sets.",
+    "If the abduction machine is dead, take the clamshell and side-lying lift — don't skip the slot.",
+    "Log the leg curl's two sides separately."
+  ]
+}
