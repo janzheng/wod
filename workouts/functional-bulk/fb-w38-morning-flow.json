@@ -1,0 +1,208 @@
+{
+  "id": "fb-w38-morning-flow",
+  "name": "W38 Morning Flow — Thread-the-Needle, Puppy, Dead Bug, Inchworm, Hollow Hold, Couch and Happy Baby",
+  "description": "Fifteen minutes before training: a primer, a light work block, then one continuous yoga arc. This week thread-the-needle and puppy pose open; the dead bug, inchworm walkout and hollow hold make the work block; the couch stretch and happy baby rotate into the yoga arc. The rehab anchors stay in the day add-on.",
+  "estimatedDuration": 15,
+  "difficulty": "beginner",
+  "equipment": [
+    "bodyweight",
+    "mat",
+    "resistance-band"
+  ],
+  "tags": [
+    "morning",
+    "mobility",
+    "bodyweight",
+    "functional-bulk",
+    "week-38"
+  ],
+  "sets": [
+    {
+      "id": "through-the-day",
+      "name": "☀️ Through the Day — Small and Often (Not Now)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Not part of the morning sequence — these are the reminders that get sprinkled through the day.",
+      "exercises": [
+        {
+          "id": "asian-squat",
+          "duration": 60,
+          "notes": "Once an hour if you can. Heels down, easy breathing, a little deeper each time."
+        },
+        {
+          "id": "single-leg-balance",
+          "duration": 60,
+          "notes": "30s each foot. Let the **ankle** do the correcting, not the hip. Fingertip on a wall is fine on no sleep."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10 each side",
+          "notes": "Heel glued down, knee over the toes."
+        },
+        {
+          "id": "banded-ankle-eversion",
+          "reps": "15 each side",
+          "notes": "Sole turns **outward** against the band, shin still. The left one is the point."
+        }
+      ]
+    },
+    {
+      "id": "primer",
+      "name": "Primer — Thread-the-Needle, Puppy Pose and Brace (~3 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Keep moving between shapes rather than settling into holds. The long holds come at the end, when you are warm.",
+      "exercises": [
+        {
+          "id": "thread-the-needle",
+          "reps": "5 each side",
+          "notes": "From hands and knees, thread one arm under and rotate, then open it to the ceiling. **Reach long and let the ribs follow.**"
+        },
+        {
+          "id": "puppy-pose",
+          "duration": 45,
+          "notes": "Hands walk forward, hips stay over the knees, chest melts toward the floor. **Breathe into the upper back** and let the armpits open."
+        },
+        {
+          "id": "internal-core-fist-rotation",
+          "duration": 45,
+          "notes": "Tight fists, thumbs tucked, hinged slightly forward. **This is the brace the squat is asking for** — wake it here so it is available later."
+        }
+      ]
+    },
+    {
+      "id": "work-block",
+      "name": "Work Block — Dead Bug, Inchworm Walkout and Hollow Hold (~5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Activate, do not fatigue. One anti-extension core move, one walkout that wakes the shoulders and hamstrings, one short hold.",
+      "exercises": [
+        {
+          "id": "push-up",
+          "reps": "one easy set, 2-3 in reserve",
+          "notes": "**The greasing set — one quick set, never to failure.** Elbows ~45°, **pack down not up.** A daily habit, not a training stimulus."
+        },
+        {
+          "id": "dead-bug",
+          "reps": "6 each side",
+          "notes": "On your back, arms up, knees over hips. **Low back pressed into the floor** while the opposite arm and leg reach long. Slow, with an exhale on each reach."
+        },
+        {
+          "id": "inchworm-walkout",
+          "reps": "5",
+          "notes": "Hinge down, walk the hands out to a plank, then walk them back. **Shoulders packed down in the plank**, knees soft on the way down if the hamstrings are tight."
+        },
+        {
+          "id": "hollow-body-hold",
+          "duration": 20,
+          "reps": "2 x 20s",
+          "notes": "Low back pressed down, arms and legs long and off the floor. **Bend the knees the moment the back wants to arch.**"
+        }
+      ]
+    },
+    {
+      "id": "yoga-flow",
+      "name": "Yoga Flow — Hip + Back Arc (~7 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Goes last because warm muscle stretches deeper. One continuous arc, not a list of holds.",
+      "exercises": [
+        {
+          "id": "scorpion-stretch",
+          "duration": 60,
+          "notes": "30s each side. Thoracic rotation and hip flexor in one shape."
+        },
+        {
+          "id": "lizard-pose",
+          "duration": 90,
+          "notes": "45s each side. Deep lunge, both hands inside the front foot. Forearms if the hip allows."
+        },
+        {
+          "id": "cossack-squat",
+          "reps": "5 each side",
+          "notes": "**Your readiness screen.** Slow, deep, heel down. Read it as a delta against your own normal — the old ankle sprain means a stiff day here is not a bad-session forecast."
+        },
+        {
+          "id": "couch-stretch",
+          "duration": 60,
+          "notes": "30s each side. Back knee against the wall or a bench, front foot down. **Squeeze the glute of the back leg and tuck the pelvis** — the stretch lives in the front of the hip, not the low back."
+        },
+        {
+          "id": "happy-baby",
+          "duration": 60,
+          "notes": "On your back, hold the outsides of the feet, knees toward the armpits. **Rock gently side to side** and let the low back settle."
+        },
+        {
+          "id": "pigeon-pose",
+          "duration": 90,
+          "notes": "45s each side. Finish here. Let the hips settle before the day starts."
+        }
+      ]
+    },
+    {
+      "id": "day-addon",
+      "name": "📍 Day-Specific Add-On — Pick by Today's Training (~3-5 min)",
+      "type": "exercises",
+      "rounds": 1,
+      "notes": "Pick only the block that matches today. Two or three moves, not the whole list.",
+      "exercises": [
+        {
+          "id": "doorframe-chest-stretch",
+          "duration": 60,
+          "notes": "**Push day.** 30s each arm, elbow at MID height."
+        },
+        {
+          "id": "prone-y-raises",
+          "reps": 10,
+          "notes": "**Push day. Rehab anchor.** Thumbs up, lift from the mid-back — the neck stays out of it."
+        },
+        {
+          "id": "scapular-push-up",
+          "reps": 10,
+          "notes": "**Push day. Rehab anchor.** Arms stay straight; only the blades move."
+        },
+        {
+          "id": "dead-hang",
+          "duration": 30,
+          "notes": "**Pull day. Rehab anchor.** Easy decompression before loaded pulling."
+        },
+        {
+          "id": "scapular-pull",
+          "reps": 10,
+          "notes": "**Pull day. Rehab anchor.** Pack down first — the elbows do not bend."
+        },
+        {
+          "id": "bicep-curl",
+          "reps": "10, then one 30s hold",
+          "notes": "**Pull day — it worked, so it stays.** One light set before the pull-up bar, then **hold a light DB still at about 90° for 30 seconds.** The hold is the new part: a still, moderate load is the calmest thing you can give an irritable tendon, and it goes in before anything hangs off the elbow."
+        },
+        {
+          "id": "side-lying-external-rotation",
+          "reps": "10 each side",
+          "notes": "**Pull or KB day. Rehab anchor.** Elbow pinned to the ribs, light or no weight."
+        },
+        {
+          "id": "wall-angel",
+          "reps": 10,
+          "notes": "**KB day. Rehab anchor.** Ribs down; only the range that stays smooth."
+        },
+        {
+          "id": "knee-to-wall-ankle-rock",
+          "reps": "10 each side",
+          "notes": "**Legs day.** Toe to wall, heel glued down, knee over the toes — easy reps before the heels go up on the plates."
+        },
+        {
+          "id": "standing-cross-leg-lateral-stretch",
+          "duration": 60,
+          "notes": "**Legs day.** 30s each side for the lateral chain."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Five honest minutes beats a skipped fifteen. Anchors first: cossack, lizard, the push-up set.",
+    "Thread-the-needle: follow the hand with the eyes.",
+    "Hollow hold: low back pressed down; bend the knees before it arches.",
+    "If the cossacks read sticky, keep the flow and drop a work-block move rather than rushing the stretches."
+  ]
+}

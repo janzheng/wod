@@ -4388,6 +4388,131 @@
         }
       ],
       "logFile": "logs/functional-bulk-dynamic-w37.json"
+    },
+    {
+      "week": 38,
+      "label": "Same Shape — Strict Press, Incline, Squat, RDL, Pull-Ups and Lat Pulldown in the Spotlight",
+      "description": "Push → legs → pull stays the spine, at the same lengths. **The three gym days complete the week.** The two KB days stay a floating pool at about 55 minutes each.\n\n**Push** spotlights the strict press and the incline press; the dips run three counted sets. **Legs** spotlights the squat and the RDL, and the Bulgarian can run on a single 65. **Pull** spotlights the pull-ups, with a slow lowering, and the lat pulldown; the high cable curl runs on the regular pulley with the S handle. **The KB strength day** closes with the B-Stance Flow; **the KB flow day** runs the Dead Cluster Flow between the figure-8 flow and the Outside Snatch.\n\nThe morning flow rotates to thread-the-needle, puppy pose, the dead bug, inchworm walkout, hollow hold, couch stretch and happy baby.",
+      "schedule": [
+        {
+          "day": 1,
+          "label": "GYM 1 · PUSH — strict press and incline spotlight",
+          "type": "workout",
+          "workoutId": "fb-w38-push",
+          "flow": {
+            "workoutId": "fb-w38-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W38 flow — thread-the-needle and puppy pose open; the dead bug, inchworm walkout and hollow hold make the work block; the couch stretch and happy baby rotate in. **PUSH add-on:** doorframe stretch, prone Y raises and scapular push-ups."
+          }
+        },
+        {
+          "day": 2,
+          "label": "GYM 2 · LEGS — squat and RDL spotlight",
+          "type": "workout",
+          "workoutId": "fb-w38-legs",
+          "flow": {
+            "workoutId": "fb-w38-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W38 flow — thread-the-needle and puppy pose open; the dead bug, inchworm walkout and hollow hold make the work block; the couch stretch and happy baby rotate in. **LEGS add-on:** knee-to-wall rocks and cross-leg lateral stretch."
+          }
+        },
+        {
+          "day": 3,
+          "label": "GYM 3 · PULL — pull-ups and lat pulldown spotlight",
+          "type": "workout",
+          "workoutId": "fb-w38-pull",
+          "flow": {
+            "workoutId": "fb-w38-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W38 flow — thread-the-needle and puppy pose open; the dead bug, inchworm walkout and hollow hold make the work block; the couch stretch and happy baby rotate in. **PULL add-on:** dead hang and scapular pulls; the light curl and hold stay in the workout warmup."
+          }
+        },
+        {
+          "day": 4,
+          "label": "KB STRENGTH DAY (pool, ~55 min) · Bent Press Flow, Thrusters, B-Stance Flow",
+          "type": "workout",
+          "workoutId": "fb-w38-kb-full",
+          "flow": {
+            "workoutId": "fb-w38-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W38 flow — thread-the-needle and puppy pose open; the dead bug, inchworm walkout and hollow hold make the work block; the couch stretch and happy baby rotate in."
+          }
+        },
+        {
+          "day": 5,
+          "label": "KB FLOW DAY (pool, ~55 min) · Figure-8, Dead Cluster Flow, Outside Snatch",
+          "type": "workout",
+          "workoutId": "fb-w38-kb-cond",
+          "flow": {
+            "workoutId": "fb-w38-morning-flow",
+            "label": "Morning Flow",
+            "notes": "Universal W38 flow — thread-the-needle and puppy pose open; the dead bug, inchworm walkout and hollow hold make the work block; the couch stretch and happy baby rotate in."
+          }
+        },
+        {
+          "day": 6,
+          "label": "ZONE 2 / WALK / SWIM / SHORT KB / REST — OPTIONAL",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Easy Walk",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Walk",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace. A walk with the pram counts."
+              }
+            },
+            {
+              "label": "Easy Run",
+              "type": "activity",
+              "activity": {
+                "name": "Easy Run",
+                "duration": 30,
+                "intensity": "easy",
+                "notes": "Conversational pace, 120-140bpm."
+              }
+            },
+            {
+              "label": "Swim",
+              "type": "workout",
+              "workoutId": "swim-technique-rotation"
+            },
+            {
+              "label": "Short KB — Brutal Complex (apartment gym)",
+              "type": "workout",
+              "workoutId": "kb-brutal-complex"
+            },
+            {
+              "label": "Short KB — 5-4-3-2 Every 3 Min",
+              "type": "workout",
+              "workoutId": "kb-swing-squat-press-thruster-complex"
+            },
+            {
+              "label": "Rest",
+              "type": "rest"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "REST or LONG FLOW",
+          "type": "choice",
+          "options": [
+            {
+              "label": "Sunday Long Flow",
+              "type": "workout",
+              "workoutId": "fb-sunday-long-flow"
+            },
+            {
+              "label": "Full Rest",
+              "type": "rest"
+            }
+          ]
+        }
+      ],
+      "logFile": "logs/functional-bulk-dynamic-w38.json"
     }
   ],
   "tips": [
